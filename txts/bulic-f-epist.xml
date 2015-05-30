@@ -37,15 +37,18 @@
          </sourceDesc>
         </fileDesc>
             
-        <profileDesc>
+        <profileDesc xml:id="bulickubitschek19130608">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1258998">Salona</placeName></place>
+             <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q1741">Wien</placeName></place>
+             <place ana="mentioned"><placeName ref="http://www.wikidata.org/wiki/Q1258998">Salona</placeName></place>
          </settingDesc>
          <particDesc>
-            <p/>
+             <person ana="sender"><persName ref="bulic01">Bulić, don Frane</persName></person>
+             <person ana="recipient"><persName ref="78774764">Kubitschek, Joseph Wilhelm</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -84,7 +87,7 @@
 	
 
       <body>
-            <div type="prosaOratio-epistula">
+            <div type="prosaOratio-epistula" corresp="#bulickubitschek19130608">
                 <opener>
                <address>
                   <addrLine>Dr Hochwohlgeboren Reg. Rat J. W. Kubitschek</addrLine>
@@ -100,9 +103,9 @@
                </dateline>
             </opener>
 
-                <p>Cum hodie hora sexta post meridiem equo (parvulo, <num type="ordinal" value="3">III-o</num> huius nominis) insidens, ruinas Salonarum peragrarem, prope
-                    fundum Mikelić, ubi ille optimus <bibl>titulus n. 4429 A</bibl> repertus est,
-                    cecidit equus et super eius caput eques qui Deo <abbr>Opt.</abbr>
+                <p>Cum hodie hora sexta post meridiem equo (parvulo, <num type="ordinal" value="3">III-o</num> huius nominis) insidens, ruinas <placeName>Salonarum</placeName> peragrarem, prope
+                    fundum <persName>Mikelić</persName>, ubi ille optimus <bibl>titulus n. 4429 A</bibl> repertus est,
+                    cecidit equus et super eius caput <sic>eques</sic> qui Deo <abbr>Opt.</abbr>
                     <abbr>Max.</abbr> gratias illaesus evasit.</p>
                 <salute>Salutem plurimam.</salute>
                 <pb/>

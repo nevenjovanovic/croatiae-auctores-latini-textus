@@ -33,15 +33,21 @@
             <bibl>Körbler, Đuro: Život i rad humanista Didaka Pira Portugalca, napose u Dubrovniku. In: Rad JA, 216 (1917), 1-169</bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <profileDesc xml:id="didakpirmense">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+            <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <p/>
+            <person role="sender"><persName ref="didak01">Pir, Didak</persName></person>
+            <person role="recipient"><persName ref="305521345">Menčetić, Miho</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -76,7 +82,7 @@
    <text>
       <body>
 
-         <div type="prosa-epistula">
+         <div type="prosa-epistula" corresp="#didakpirmense">
             <opener>Michaeli Mensio, senatori gravissimo et aerarii IIIviro S. D.</opener>
             <p>
       Tandem promissum carmen exhibeo, non invite quidem, sed laboriose

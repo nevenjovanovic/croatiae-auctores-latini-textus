@@ -31,15 +31,23 @@
             <bibl>Klaić, Vjekoslav: Život i djela Pavla Rittera Vitezovića (1652.-1713.). Zagreb : Matica hrvatska, 1914, s. 182-183.</bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
+      <profileDesc xml:id="crnkovicvitezovic17020928">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+            <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <p/>
+            <person role="sender"><persName ref="crnkovic01">Črnković, Petar Stanislav</persName></person>
+            <person role="recipient"><persName ref="vitezov01">Vitezović Ritter, Pavao</persName></person>
+            <person role="mentioned"><persName ref="88342447">Ovidius Naso, Publius</persName></person>
+            <person role="mentioned"><persName ref="8194433">Vergilius Maro, Publius</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -77,7 +85,7 @@
       <body>
       
          <pb n="182"/>
-         <div type="poesis-elegia-epistula" met="elegiacum">
+         <div type="poesis-elegia-epistula" met="elegiacum" corresp="#crnkovicvitezovic17020928">
             <l n="1">Ritter Eques maestum renovasti Paule dolorem, </l>
              
             <l n="2">Dum plangis Patriam, deflet et ipsa suos. </l>
@@ -103,9 +111,9 @@
              
             <l n="12">Exemplum, speculum posteritatis erit. </l>
              
-            <l n="13">Naso poeta tibi cedat qui se gemit, et flet </l>
+            <l n="13"><persName>Naso</persName> poeta tibi cedat qui se gemit, et flet </l>
              
-            <l n="14">Esto Virgilius qui memor es Patriae. </l>
+            <l n="14">Esto <persName>Virgilius</persName> qui memor es Patriae. </l>
              
             <l n="15">Et quia pro Patria scribis tu digna, laboras </l>
              
