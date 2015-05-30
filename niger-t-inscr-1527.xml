@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc xml:id="niger-t-inscr-1527">
+         <titleStmt>
+            <title ref="niger02-epi01-1527">Inscriptio sepulchri sui, versio electronica</title>
+            <author key="niger02">
+               <name xml:lang="hr">Niger, Toma</name>
+            </author>
+            <editor xml:id="SJS">Stanko Josip Škunca</editor>
+            <respStmt>
+               <resp>Edidit et editionem electronicam correctiorem praeparavit</resp>
+               <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digitalizat novijeg znanstvenog izdanja (2001).</edition>
+         </editionStmt>
+         <extent ana="A">Mg:A verborum 59, versus 8</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+               projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+               Hrvatska.  <date>Veljače 2013.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Škunca, Stanko Josip, "Toma Niger Mrčić – diplomat i humanist." Radovi Zavoda za povijesne znanosti HAZU u Zadru, 43 (2001), 255-273.
+               <note>Natpis uklesan na nadgrobnoj ploči, franjevački samostan na Poljudu, Split</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+           <date when="1527" period="15xx_1_third">1527</date>
+           <placeName>Split</placeName>
+        </creation>
+         <textClass>
+           <keywords scheme="typus">
+              <term>poesis</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>poesis - inscriptio</term>
+              <term>poesis - epigramma</term>
+           </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2013-02-16</date>
+            Početna verzija
+         </change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="poesis-epigramma" met="elegiacum">
+            <opener>
+               <date>A<expan>nno</expan> S<expan>alutis</expan> D<expan>omini</expan> 
+                  <num value="1527">M. D. XXVII</num>
+               </date>
+            </opener>
+            
+            <l>DALMATA THOMA NIGRO SPALATENSIS ET ORDINE, PRAESVL</l>
+            <l>EX SCARDONENSI TRAGVRIENSIS HIC EST</l>
+            <l>CVI LEO TVNC DECIMVS, MOX CLEMENS SEPTIMVS <corr resp="#NJ">ISTVD</corr>
+            </l>
+            <l>CONTVLIT ABSCENTI PONTIFICALE DECVS</l>
+            <l>VT, SVA QVE FVERINT MERITORUM PREMIA, BINVS</l>
+            <l>TESTARETVR HONOS, GRATIS ET VLTRO DATVS.</l>
+            <l>VNVM TVRCA FEROX, ALIVM PIA CVRA NEPOTIS</l>
+            <l>ABSTVLIT. AMBORVM SIT PIA CVRA DEO.</l>
+                     </div>
+      </body>
+  </text>
+</TEI>

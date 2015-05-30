@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="marul-mar-epist-1477">
+         <titleStmt>
+            <title>Ad Georgium Sisgoreum epistula (1465-1466), versio electronica</title>
+            <author key="marul01">
+               <name xml:lang="hr">Marulić, Marko</name>
+               <date>1450-1524</date>
+            </author>
+            <editor>
+               <ref type="viaf" target="71418226">Veljko Gortan</ref>
+            </editor>
+            <editor>
+               <ref type="viaf" target="91623065">Vladimir Vratović</ref>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat modernih kritičkih izdanja, bez aparata.</p>
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 216</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni projekt na Filozofskom
+     fakultetu Sveučilišta u Zagrebu, Hrvatska. <date>Lipnja 2009.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Digitalni tekstovi prema Colloquia Maruliana, priredio Marulianum. Adresa: <ptr target="http://marulianum.storia.unipd.it/data/pdf/it/opere_latine/8.pdf"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <abstract>
+            <p>Humanistička pohvalnica šibenskom pjesniku Jurju Šižgoriću. Prvo Marulićevo djelo objavljeno tiskom (Juraj Šižgorić, Elegiarum et carminum libri tres, Mleci 1477).</p>
+         </abstract>
+         <creation>
+            <date when="1465" cert="medium" period="14xx_2_third">1465-1466</date>
+         </creation>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+            <language ident="lat" xml:lang="lat">Latinitas humanistica</language>
+         </langUsage>
+         <particDesc>
+            <person role="sender">
+               <persName ref="marul01">Marko Marulić</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="sizgo01">Juraj Šižgorić</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="marul01">Marko Marulić</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="sizgo01">Juraj Šižgorić</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="http://id.loc.gov/authorities/names/n79042233">Propertius</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="http://id.loc.gov/authorities/names/n79041738">Ovidius</persName>
+            </person>
+         </particDesc>
+         <textClass>
+    
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+            <keywords scheme="biblio/croala-catalogus-aetatum.xml#epistgen01">
+               <term xml:lang="hrv">pismo</term>
+               <term xml:lang="hrv">pismo - tiskano</term>
+               <term xml:lang="hrv">pismo - pohvalnica</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2015-01-01</date> Ispravljeni priređivači, označena imena, promijenjen id div teksta (za CTS). </change>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <name>Luka Špoljarić</name>
+            <date>2012-03-09</date> Novo,
+    unificirano zaglavlje. </change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="prosa">
+      <body>
+         <div type="prosa-epistula" xml:id="Georg.Sisgor">
+            <opener>
+               <signed>
+                  <name>
+                     <abbr>M.</abbr> Marulus</name> adolescens <name>Dalmata</name>
+               </signed>
+            </opener>
+            <p> Ignotus ad te litteras scribo, quem et si nunquam viderim, amavi tamen, antequam viderim.
+     Virtus hoc quidem tua effecit ingenii, quippe que non solum eos, quos non vidimus, sed etiam
+     qui multo ante nos fuerunt, amabiles <choice>
+                  <corr resp="VG-VV">nobis reddat</corr> 
+                  <orig resp="ed1477">nos
+      reddunt</orig>
+               </choice> Vellem tamen, suavissime <name>Georgi Sisgoree</name>, ut me tui tam studiosum mutuo
+     complecti non fastidires amore. Quod si tibi inest par doctrine tue humanitas, hoc certe, quod
+     omnium mihi est gratissimum, consecutus sum. Video enim, que vis in te iuvene acerrimi ingenii
+     et quam potens. Etenim nonnulla ex metris tuis, que iam totam pervagantur <name>Italiam</name>, incredibilem
+     quandam et prope singularem et divinam doctrinam praeseferentia ad nos quoque pervenerunt. In
+     his itaque contemplanti mihi tam artificiosam verborum compositionem, tam integras novasque
+     sententias, qui priscis illis sanctisque vatibus propius accederet videtur nemo. Teque non
+     nostre etatis modo poetis prefero, sed etiam <name>Nasoni</name>, <name>Propertio</name>, <name>Tibullo</name> simillimum iudico. Hi
+     enim exactissime ornatissimeque elegiam scripsisse putantur. </p>
+            <p> Tu igitur, iucundissime <name>Georgi Sisgoree</name> - sic tibi dii omnia bene vertant - facias, ut
+     quemadmodum ingenii tui, ita mansuetudinis et humanitatis nomen vigeat et celebritas, hoc est
+     talem iam mihi te prestes, qualem me quoque erga te esse cernis. Et si in hoc nimis forte
+     temerarius ferar, quod te, disertissimum iuvenem, mea exili oratione alloqui ausim, conciliandi
+     tui defendar cupiditate. </p>
+            <closer>
+               <salute>Vale.</salute>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

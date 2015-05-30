@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="belostenec-i-gazophylacium-ded">
+         <titleStmt>
+            <title>Gazophylacii dedicatio et prologus, versio electronica</title>
+            <author key="belost01">
+               <name>Belostenec, Ivan</name>
+               <date from="1593" to="1675"  period="16xx_3_third">1593./1594. - 1675</date>
+            </author>
+            <author key="glavinicd1e551">
+               <name>Glavinić, Sebastijan</name>
+               <date from="1632-01-18" to="1697-12-05"  period="16xx_3_third">Pićan, prije 18. I. 1632 – Slovenske Konjice, 5. XII. 1697</date>
+            </author>
+            <author key="#anonymus">
+               <name xml:lang="la">Anonymus</name>
+               <date notAfter="1737-10-05" period="17xx_2_third">non post 1737-10-05</date>
+            </author>
+            <editor>
+               <name xml:id="DB">Damir Boras</name>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digitalizat prema tiskanom izdanju (1740).</edition>
+         </editionStmt>
+         <extent ana="C">Mg:C 3558 verborum, 12 versus</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+               projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+               Hrvatska.  <date when="2013-05">Svibnja 2013</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Belostenec, Ivan. Gazophylacium seu Latino-Illyricorum onomatum aerarium. Zagrabiae. Typis Joannis Baptistae Weitz, 1740. </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1675" period="16xx_3_third">non post 1675</date>
+            <date notAfter="1737-10-05" period="17xx_2_third">non post 1737-10-05</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 17 (1601-1700)</term>
+               <term>1651-1700</term>
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1701-1750</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - dedicatio</term>
+               <term>prosa oratio - epistula</term>
+               <term>prosa oratio - praefatio</term>
+               <term>prosa oratio - paratextus</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2013-05-05</date>
+            Početna TEI verzija.
+         </change>
+         <change>
+            <name>Damir Boras</name>
+            <date>2005-04-04T10:14:00</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <titlePart rend="center">ADMODUM REVERENDI PATRIS JOANNIS BĖLLOSZTĖNËCZ, E SACRA D. PAULI PRIMI EREMITÆ RELIGIONE</titlePart>
+            <titlePart rend="center">GAZOPHYLACIUM, 
+               <hi rend="italic">SEU</hi> LATINO - ILLYRICORUM ONOMATUM AERARIUM, SELECTIORIBUS SYNONIMIS, PHRASEOLOGIIS VERBORUM CONSTRUCTIONIBUS METAPHORIS, ADAGIIS, ABUNDANTISSIME LOCUPLETATUM, ITEM</titlePart>
+            <titlePart rend="center">
+               <hi rend="bold">PLURIMIS AUTHORUM IN HOC OPERE</hi> ADDUCTORUM SENTENTIIS IDIOMATE ILLYRICO DELICATIS ILLUSTRATUM.</titlePart>
+            <titlePart rend="center">Penultimarum duntaxat Syllabarum Quantitatibus, litteris <abbr>p.c.</abbr> 
+               <abbr>i.e.</abbr>
+            </titlePart>
+            <titlePart rend="center">penultima correpta, &amp; <abbr>p p.</abbr> 
+               <abbr>i. e.</abbr> penultima producta, ubique denotatis, <corr resp="#NJ">signatum</corr>. Residuis ex Epitome in <corr resp="#NJ">Prosodiae</corr> speciales Regulas, Pantaleonis <sic>Bartolonaei</sic> Raverini, in Calce Libri apposito, colligendis ATQUE HACTENUS INTERCLUSUM.</titlePart>
+            <titlePart rend="center">Et nunc primùm peculiariter Illyriorum commodo</titlePart>
+            <titlePart rend="center">APERTUM.</titlePart>
+            
+            <docImprint>
+               <pubPlace>ZAGRABIAE</pubPlace>
+               <publisher>Typis Joannis Baptistae Weitz, Inclyti Regni Croatiae Typographi.</publisher>
+               <docDate when="1740">In Anno Domini M.DCCXL.</docDate>
+            </docImprint>
+            
+         </titlePage>
+      </front>
+      <body>
+         
+         
+         <div type="prosa-epistula">
+            <opener>Excellentissimo, ac Illustrissimo 
+            <hi rend="bold">DOMINO, DOMINO</hi>
+               <persName>COMITI JOSEPHO ESZTERHAZY DE GALANTHA</persName>, 
+            <hi rend="bold">PERPETUO IN <placeName>FRAKNO</placeName>, ET <placeName>TATA</placeName>,</hi>
+               <orgName>Regnorum Dalmatiae, Croatiae, <expan resp="#NJ">et</expan> Sclavoniae</orgName> 
+               <hi rend="bold">BANO</hi>
+          EORUNDEMQUE 
+            <hi rend="bold">PRO - REGI</hi>
+          Supremo Regni Croatiae, Confiniorúmque ejusdem 
+            <hi rend="bold">CAPITANEO,</hi>
+               <orgName>COMITATUS COMAROMIENSIS</orgName> SUPREMO COMITI, 
+            <hi rend="italic">Sacrae Caesareae, <expan resp="#DB">Regiaeque</expan> Catholicae Majestatis</hi>
+         
+               <hi rend="bold">ACTUALI INTIMO CONSILIARIO, CAMERARIO</hi>
+         GENERALI EQUITATUS, <expan resp="#NJ">et</expan> Generalis Campi - Mareschalli 
+            <hi rend="bold">LOCUMTENENTI,</hi>
+         
+               <hi rend="italic">Domino, Domino Patrono, <expan resp="#NJ">et</expan> Mecaenati Gratiosissimo.</hi>
+          Excellentissime, ac Illustrissime DOMINE COMES BANE, DOMINE PATRONE, AC MECOENAS BENIGNISSIME, GRATIOSISSIME.</opener>
+         
+         
+            <p rend="justify">
+            INdulge Pro-Rex Excellentissime, ut Opus hoc posthumum suô pridem viduatum Authore, demississimô animi ac devotionis affectu TUIS substernamus pedibus. Pedibus: illis scilicet, quibus magnis passibus ad tantum gloriae fastigium properâsti. Opus: quod <expan resp="#NJ">et</expan> ad maturitatem gratiosissimis <expan resp="#NJ">Favorum</expan> TUORUM Ethesiis fovisti, <expan resp="#NJ">et</expan> iisdem ut publicam videret lucem, fecisti; ut proinde ex asse TUUM, TE non <corr resp="#NJ">Patruum</corr> duntaxat aut Patronum, sed <expan resp="#NJ">et</expan> Patrem se <corr resp="#NJ">habere</corr> jure optimô gaudeat, <expan resp="#NJ">et</expan> glorietur. Ad cujus omni avô gloriosissimam Prosapiam Capite 
+            
+         <pb/>
+            (ut ajunt) in collum retortô, <corr resp="#NJ">sive</corr> oculis longô postliminiô retroactis, dignissimam conspicimus, quam ad ortum reducamus, nisi hunc vetustas celâsset, hoc extra velamen relictô: quod decem retrô abierint saecula; <expan resp="#NJ">et</expan> jam tum is, à quo <persName>ESTORADUM</persName> nomen in Hungariam translatum, summa rerum inter Hunnos potitus fuerit, jam tum Majorum Excellentia Stemmatis TUI Nobilitatem vetustissimam, <expan resp="#NJ">et</expan> vetustatem nobilissimam, ignobilem nunquam <corr resp="#NJ">deprehendimus</corr>. Atque ita <corr resp="#NJ">Prosapia</corr> TUA infantiam gloriae nescit; nam ut primum enata nunquam repebat, cunae illius fuêre solium, <expan resp="#NJ">et</expan> quae aliis <corr resp="#NJ">senectus</corr>, illi infantia. Felix profecto temporis jactura, quod sui ignorantia crescit, cujus ignorantia ortum venustat. Verum quantum gloriosae antiquitatis tenebrae Gentis TUAE oculis subducunt originem, tantum sive fana cogitemus, sive profana incredibilis illius praeclarè gestorum, splendor à nobis aspici propemodum non <corr resp="#NJ">sinit</corr>. Inde Ararum Antistites, <corr resp="#NJ">Claustrorum</corr> 
+               <corr resp="#NJ">Praesules</corr>, Curiarum Patres, Militarium Arenarum Duces, Regnorum Proceres, velut ex Equo Trojano praeclarissimi Heroës, omni aevo prodiverunt. Clarescit (fatemur) Stirps multorum, <corr resp="#NJ">horum</corr> Togâ, aliorum Sagô, illorum pedô, <expan resp="#NJ">et</expan> tiaris; at TUA uti virtutum, ita <expan resp="#NJ">et</expan> dignitatum omnium domicilium, quae divisa in aliis non interruptâ serie, collecta tenet. Etenim si fortissimorum Heroum, consultissimorum Procerum, zelantissimorum Praesulum numerum ineamus; integri Exercitûs, Consulum Graecorum, <expan resp="#NJ">et</expan> Romanorum Ecclesiae cujuspiam celeberrimae Hierarcarum nomina scripsisse aliis videbimur. Dolebat <persName>Alexander Magnus</persName> 
+               <persName>Homerum</persName> ante se è vivis ereptum, quem Gestorum suorum praeconem volebat, beatiores <persName>Alexandro</persName> 
+               <persName>ETORADES</persName>; qui etiam nolentes (quia agere potius, quàm de se audiri generosa cupientes) Reges, <expan resp="#NJ">et</expan> Imperatores, Europae <pb/> Monarchas, imò <expan resp="#NJ">et</expan> hostes ipsos Encomiastes toties nacti. </p>
+            <p>Neque ulli saeculo contigit <persName>ESTORADUM</persName> decora audire non videre; in vitam unâ nascuntur <expan resp="#NJ">et</expan> laudes; nec sibi nascuntur, sed aliis; quia dum vivunt, vivunt aliis, vivunt Ecclesie, Principi, <expan resp="#NJ">et</expan> Patriae, dum vivere desinunt, sibi duntaxat demum vivere incipiunt. </p>
+            <p>Jactent alij in Nobilitatis argumentum sanguinem, quem acceperunt, <persName>ESTORADUM</persName> Genti satis est <corr resp="#NJ">meminisse</corr>, quem (non tam moriendi necessitate, quàm voluptate) fuderunt, non purpura huic deesse potuit, quae violis etiam  insertas <corr resp="#NJ">habuit</corr> rosas, cujus acinaces nulla Hungariae <corr resp="#NJ">hostis</corr> sibi  formidandos non intellexit. </p>
+            <p>Illis <persName>
+                  <abbr>S.</abbr> Rex Ladislaus</persName>, <expan resp="#NJ">et</expan> 
+               <persName>Sigismundus Imperator</persName>, à suspenso in ictum <corr resp="#NJ">hostico</corr> gladio liberatoribus (propriam semper infra Regum emolumenta ponentibus) vitam, Ecclesiae nitorem, Fides incrementum, sexcenties Patria salutem debebat; quia nullum huic cum Ottomanis bellum, cujus non pars magna <persName>ESTORADUM</persName> quispiam fuisset, nulla insignis Victoria, cui momentum ingens Virtus <persName>ESTORASIANA</persName> non attulisset. Nec Arena fortitudinis illius Regnum unum, sed <placeName>Europa</placeName> fuit; <placeName>Asia</placeName> etiam <expan resp="#NJ">et</expan> 
+               <placeName>Africa</placeName> hanc ignorare nescivit, dum sub <persName>Andrea II.</persName> belli sacri Imperatore <corr resp="#NJ">virtutem</corr> 
+               <persName>EMERICI ESTORADIS</persName> stupebat.</p>
+         
+            <p>
+               <hi rend="italic">Inde est, Pro-Rex Excellentissime, quôd Inclytae TUAE Prosapiae laudes TIBI sufficerent, nisi esses, quibus aeque proprium est exempla virtutum à Majoribus accipere, ac sua posterus dare, idem nempe in Gentilitia TUA, quod olim <corr resp="#NJ">in</corr> Elysia Arbore, é cujus ramis
+               <quote>
+                     <ref>(a)</ref>
+                     <note>(a) AEneid. 6.</note> - - - Unô avulsô non deficit alter Aureus, <expan resp="#NJ">et</expan> simili frondescit virga metallô.</quote> Suspicimus TE Majorum TUORUM decorum absolutissimum Ectypon, stupemus virtutum omnium <pb/> ex asse haeredem, quas maximis incrementis auxisti. <corr resp="#NJ">Solidam</corr> TUAM, bonóque publico plurimùm subservituram prudentiam, à Naturae bonitate haustam, genióque TUO altùm impressam, vehementer solidavit, ornavitque inquietum illud scientiarum omnium desiderium, quò quotquot TE noverunt, viderunt ab ipsa Adolescentia tam ferventer, constantérque aestuâsse, ut nullo doctrinae, aut eruditionis decore, quo  Nobilitas exornari solet, videaris voluisse, aut <corr resp="#NJ">etiam</corr> potuisse carere. Quid enim de scientiarum TUARUM varietate, <expan resp="#NJ">et</expan> quadam enyclopaedia dicemus? Veteres qui res ab <persName>Hercule</persName> praeclarè gestas posteritati transmiserunt, ut ostenderent ipsum bonis artibus non leviter fuisse tinctum, dixerunt eum habuisse Magistros in qualibet arte liberali praestantissimos. Quidni <expan resp="#NJ">et</expan> nos dicere possimus, ex eo facilè colligi, quàm praestantes TU habueris Magistros, cùm tam excellens singulorum evaseris Discipulus? quamvis si viverent, TUI jam illi gestirent esse Discipuli, quia cerneret unusquisque Discipulum supra Magistrum. Ipse <persName>Cicero</persName> videri posset TE in eloquentia Romana docilem habuisse Auditorem; <persName>Livius</persName>, aut primus Romana <persName>Crispus</persName> in historia, quòd singularum Gentium historias TIBI dictaverint; <persName>Vegetius</persName> quòd Architectonicae praecepta <sic>tradiderint</sic>; <persName>Plato</persName>, aut <sic>Aristoteles</sic> quòd Scientias Philosophicas explicârint. De aliis Nobilitatem decentibus Artificiis, pyrotechnica, digladiatoria, equestri, similibúsque, in quibus singulis visus es excelluisse, nihil dicimus imperare tamen nobis haud possumus, quin peritiam illam legum tum Canonicarum, cum Civilium longè praestantissimam, quam in TE passim Tribunalia, <expan resp="#NJ">et</expan> Comitia suspiciunt, <pb/> commemoremus. Quotusquisque <corr resp="#NJ">hactenus fuit</corr> qui Jurisprudentiam flammis absumptam, aut temporis injuriâ extinctam (si fortè id accidisset) redivivam facere posset? Id gloriae TIBI servatum est, qui Nobilem illam à TE in <placeName>arce TUA Cseklisiensi</placeName> erectam Bibliothecam in amplissimum mentis TUAE sinum transtulisti. Ibi vastissima, Juris utriusque Volumina, legûmque Chiliades, imò <expan resp="#NJ">et</expan> miriades scriptas habes, illic Pontificum sacra decreta, ibi prudentes Caesarum Constitutiones, Regum Hungariae statuta, Principum placita, Magistratuum edicta, <expan resp="#NJ">et</expan> responsa Prudentum legis. Sanè caeteris quicunque litteras profitemur, grave est, libros evolvere, invenire in ijs, quod quaerimus, aut deferre nobiscum, si fortè aliò migrandum. Una librorum possessio, quae nobis in censu est, non nisi sumptu, nisi labore, aut commeatu transferri potest. Verùm TIBI è Mortalibus felicissimo sat est, si introrsum animum convertas, <expan resp="#NJ">et</expan> quasi in membrana scriptum legas utrumque Jus. Quocunque perrexeris, absque onere, aut sumptu amplissimam Bibliothecam deferre potes, ac cum <persName>Biante</persName> ingeminare: <quote>Omnia mea mecum porto.</quote> Et cùm talis, ac tantus fueris, dignitates tamen non ambisti, aut quaesivisti, quas apud TUOS nunquam aliud ambire, ac mereri, sed <corr resp="#NJ">illae</corr> TE quaesiverunt; ut modestiam TUAM aliis paradoxam tenentibus meritò reponere potuisses, id quod olim <persName>Cato</persName> mirantibus, cur ipse in <placeName>Capitolio</placeName> non haberet statuam, in quo multò inferiorum hominum statuae cernebantur, respondit: <quote>Malo mirari homines, cur dignitates illas non habeam, quàm si mirarentur me eas habere.</quote> Non tamen ita dignitates sprevisti, quin eas (non ut TIBI, sed alis prosis) admiseris, dum legionem Equestrem à JOSEPHO unam, eáque exauthoratâ à CAROLO <pb/> alteram <corr resp="#NJ">accepisti</corr>. Juratae nempe in Principis <corr resp="#NJ">commoda</corr> fidelitatis, quam desperatis etaam Casibus Majores TUI demonstrârunt, Caesareo - Regiis Majestatibus historiam vultu TUO <corr resp="#NJ">praelegisti</corr>, cùm <placeName>in arce TUA Sintaviensi</placeName> à <corr resp="#NJ">confoederatis</corr> 
+                  <persName>Rakoczij</persName> obsessus, non tam ad arcis, quàm animi deditionem invitareris, sed non è molliori Constantiam TUAM, quam arcem compactam petra hostis reperit, juratam Regi fidem nec agnati etiam sanguinis amor prodere valuit, <corr resp="#NJ">machinas</corr> bellicas Dux ipse <expan resp="#NJ">et</expan> Miles <sic>dextre</sic> adeô in hostiles copias librâsti, ut desperatâ loci expugnatione pudore suffusas abscedere compulerus. Procurristi alias adversùm 500. è Confoederatis, omnem viciniam ad desolationem vastantes, caesisque centum, reliquos in fugam egisti; complures etiam (inter quos praecipus manus TUAE praeda) vinctos abduxisti. Ad <placeName>Ihrencsinium</placeName> quoque Signiferum quendam obsistentem ne <persName>Rakoczium</persName> quadragenis ferè à TE cum equo corruentem passibus interciperes, vexillò primùm, tum <expan resp="#NJ">et</expan> vita dextrâ TUA spoliâsti. Prodromi nempe haec eorum, quae dignitatibus auctus facturus eras, quae postmodum <placeName>Hungaria</placeName>, <expan resp="#NJ">et</expan> 
+                  <placeName>Italia</placeName> à TE fieri spectavit, singulis enarrandas minimè sufficimus, quare compendium ceterorum teneat victoria illa ad <placeName>Vipalancam</placeName> de 30. <persName>Turcorum</persName>, <persName>Tartarorûm</persName>que millibus exiguô TUORUM 600. manipulô relata, ubi insigni stratagemate ad summam Nomini TUO accessionem tam numerosum hostem in fugam vertisti, <expan resp="#NJ">et</expan> victrici TUORUM dextrâ (ad caedendum tumultuarié, fugientem <sic>primà</sic> aliis accurrentibus) maxima ex parte delevisti, opimâ Captivorum,  tormentorum, aliáve dives praedâ in castra reversus.</hi>
+            </p>
+            <p>
+            Translatus demum ad oras nostras, summóque Gentis nostrae gaudio Pro - Rex renunciatus, quantùm dignitati huic <pb/> splendoris attulisti scilicet hoc TIBI singulare est, ut bees <expan resp="#NJ">et</expan> largè felicites, vel illa ipsa auctoramenta, quae alios beant, <expan resp="#NJ">et</expan> felices reddunt. Sanè durum Successoribus Tuis onus imposuisti, quos ad tantum virtutum <expan resp="#NJ">et</expan> gloriae fastigium pervenire posse docuisti. Ad Regis nutum regimen TUUM componis: quo, fit, ut, facile in Regem obsequium TUIS insinues; nihil enim efficaciùs discitur, quàm exemplô. Nec quòd in Principem intendis tam sedulus, minùs attendis populos, quos administras, suaviter eos fortitérque regis <expan resp="#NJ">et</expan> protegis, eorum commodis <expan resp="#NJ">et</expan> saluti invigilas, rempublicam moderaris quasi familiam TUAM, nempe amore, curâ, ingeniô, iis artibus, eâ industriâ, quas admovet virtus, coronat felicitas. Totum TE Regi donas, totum Regno, <expan resp="#NJ">et</expan> in plura sufficiens, utrobique es Totus. Nec multùm interest pro alterutro agas, idem semper <expan resp="#NJ">et</expan> TUI similis, easdem naturae, <expan resp="#NJ">et</expan> virtutum dotes afferens ad res, quas perficis. Justitiae, quae TIBI tanquam Administro, imô magis tanquam Sponso commissa est (neque enim illa, si thalami daretur optio, virum alium eligeret, quippe nullum Juris <expan resp="#NJ">et</expan> aequi tam probe gnarum reperiret) adeò exactum tenes studium, ut apprimè TIBI Maronianum illud congruat
+         <quote>
+                  <l>
+                     <ref>(b)</ref>
+                     <note>(b) AEneid. 2.</note>  -  -  -  -  Juistissimus unus,</l>
+                  <l> -  -  -  Et servantissimus aequi.</l>
+               </quote>
+         
+         Ingenium siquidem TUUM rectum, purum, apertum, alienis utilitatibus studens, excogitandis aequis rationibus ferax, <expan resp="#NJ">et</expan> opulentum, ad bonum versatile, ad pacem conficiendam appositum, tam gratum, tam humanum, tam accommodatum, <corr resp="#NJ">ut</corr> concordiam facilè eliciat, <expan resp="#NJ">et</expan> litigantium disceptet controversias, né eo quidem, qui lite excidit discrepante. Hinc solis instar <pb/> semper in motu es, nunquam cessans, nunquam otiosus, paratus, <expan resp="#NJ">et</expan> promptus omnibus, excludis neminem, TE negas nemini, TUAE quieti detrahis, quod impendis alienae. Quin <expan resp="#NJ">et</expan> labor est relaxatio occupationum, nil molle sapiens, nil dedicatum, ut aliorum negotium, TUUM sit otium, quies TUA indefessus sit motus, <expan resp="#NJ">et</expan> volupta innoxia agitare corpus, <expan resp="#NJ">et</expan> defatigare. Quantum vero Patria nostra observatos in bello cum Ottomanis illi postremo, Cives, Aras, focósque suos TIBI debeat, nemo non intelligit, qui sortem Viciniae, ejusdem tunc aleae aemulae, jam sub jugo Turcico miserè gementis, cum illius confert. Nolumus tamen; existimet quispiam, nos hìc singulas Gestorum TUORUM revolvere voluisse paginas, quas in TE non sine admiratione legunt Universi, quia citra Philosophiae scandalum <sic resp="#NJ">infinitas</sic>. Certè grandis temeritas foret credere ea paucis lineolis posse definiri, quorum compendium Volumina fatigaret. Idem in TE, quod in Malo granato: hoc diffissum aliquot grana ostendit, at plura cortice obtegit; ita plura bona in animo TUO virtutum omnium pleno <expan resp="#NJ">et</expan> capace latent, quam quae foris necessitas rerum à modestia TUA excutit, Interim famâ publicâ, Judice tanta de TE uno citra assentationem dici queunt, quanta veterum assentatio vix unquam commenta fuisset, novámque posteritas coleret Apotheosim, si olim vixisses. Etenim intra refertissimos decorum TUORUM thesauros nihil vulgare, nihil occurrit commune; ita TE supra obviam ceterorum sortem <corr resp="#NJ">exquisitae</corr> sapientiae <expan resp="#NJ">et</expan> virtutis commendatio provexit, ut quidquid de TE dicatur maximum, nunquam excedat, fidem; quia quantacunque ea fuerint, quae dum laudaris, proferuntur, TUIS meritis sunt inferiora. Unica TUA Munificentiâ quantas impleremus paginas !nisi supervacaneum foret chartis consignare <pb/> petatis documenta, quae TU firmiori longè charactere Templo <abbr>D.</abbr> Christi Aviae à fundamentis erecto, <expan resp="#NJ">et</expan> Sanctissime hujus Filiae Sacello é ruinis magnificè educto, Colosso etiam insigni Mariano pro ipsis <placeName>Castelli TUI Cseklisiensis</placeName> portis statuto, aris item, <expan resp="#NJ">et</expan> marmoribus inscripsisti. Testamur eandem Clientes, qui TE Patrem, Orphani, qui Matrem, Viduae, quae Patronum, <corr resp="#NJ">pauperes</corr>, qui Advocatum semper experti, sed prae reliquis illam Sacer Ordo Camaldulensium arctissimô etiam <corr resp="#NJ">silentiô</corr> loquitur, <expan resp="#NJ">et</expan> Harpocratis digitum ori <corr resp="#NJ">nostro</corr> admovet.
+         </p>
+            <p rend="justify">
+            Suscipe igitur, Pro-Rex Excellentissime, in folio, non quod vento rapitur, sed quod posteris asservatur, nostram <corr resp="#NJ">in</corr> TE observantiam, quot literarum apices, tot famulitij nostri argumenta. Munus animi TUI Magnanimitate indignum quidem offerimus, indignum tamen TUO Patrociniô; ut quod sexaginta <expan resp="#NJ">et</expan> ultrô annis in tenebris delituit, vel tandem Nominis TUI claritate resplendeat. Acceptum autem TIBI fore omninò confidimus, dum exiguos rusticanae Chloridis, aut Pomonae fructus, <sic resp="#NJ">arisiss</sic> Augustis, foeculentae potum aquae Cyro Persarum Monarchae, ipsis quoque Superis minores hostias, cùm deficeret hecatombe gratas fuisse legimus; ac quia Grandibus oblata viris <emph>non pretiô, sed affectu placeant</emph>,
+                pensamus; Imò eô ipsô, quod munus hoc nostrum Orphani speciem refert, non placere TIBI haud poterit. Caeterùm DEUM Ter Optimum Maximum enixè rogamus, ut TE Inclyto Regno Hungariae, Patriae nostrae, nobis,  <expan resp="#NJ">et</expan> bonis omnibus diu servet incolumem, quo Nomen TUUM aeternitati commendare pergas, <expan resp="#NJ">et</expan> post sera saecula felicem illam immortalitatem, ac magnum Platonis annuum adeas. Quod dum vovemus, TIBI cum Poëta accinimus:
+         
+         <quote>
+                  <l>-  -  -  -  Te cuncta loquatur</l>
+                  <l>
+                     <ref>(c)</ref>
+                     <note>(c.) <abbr>Claud.</abbr> in <abbr>Probin.</abbr>
+                     </note> Tellus: te variis scribant in floribus horae, Longáque perpetui ducant in saecula fasti.</l>
+               </quote>
+            </p>
+            <closer>
+               <salute>Excellentissimae, ac Illustrissimae Dominationi Tuae</salute>
+               <signed>
+            Devotissima
+            Provincia Croatica Ordinis
+            <abbr>S.</abbr> Pauli primi Eremitae.</signed>
+            </closer>
+         </div>
+         <div>
+            <head>APPROBATIO
+            REVERENDISSIMI <abbr>P.</abbr> GENERALIS.
+            
+            <abbr>F.</abbr> CHRYSOSTOMUS KOZBIALOWICH,
+               Ordinis <abbr>S.</abbr> Pauli primi Eremitae Prior Generalis,
+               <abbr>SS.</abbr> Theologiae Doctor.</head>
+            <p>
+            DIctionarium, cui Titulus <hi rend="italic">Gazophylacium, seu Latino - Illyricorum Onomatum AErarium</hi>, ad genuinuni loquendi modum operâ, <expan resp="#NJ">et</expan> studiô A. R. P. Joannis Bėllosztėnëcz, Ordinis S. Pauli Primi Eremitae accom[m]odatum, jámque proelo proximum, inevitabili fato mortis ejusdem impeditum. Ne verò tanti laboris opus sine publico emolumento sepultum jaceat, ad Inclytaae Nationis Illyricae obsequium à <abbr>Ven.</abbr> Conventu Lepoglavensi reassumptum, iteratò ex Commiissine Superiorum Religionis à duobus idiomatis gnaris SS. Theologiae Doctoribus revisum, nullíque errori obnoxium, imò proficuum fore, <expan resp="#NJ">et</expan> proelo subjiciendum judicatum est. Quare eam (quae ad nos pertinet) facultatem damus, ut ad publicam utilitatem lucem è proelo aspiciat.</p>
+            <closer> Dabamus in Conventu solitae Residentiae Nostrae Mariae Tallensi. <date when="1737-10-05">Die 5. Octobris. Anno millesimoseptingentesimo trigesimo septimo.</date>
+            </closer>
+         </div>
+         <div>
+            <p rend="center">
+               <hi rend="bold">APPROBATIO ORDINARII.</hi>
+            </p>
+        
+            <p rend="justify">CUm in hocce Dictionario nihil, quod Sacrae Fidei, <expan resp="#NJ">et</expan> Religioni Catholicae, bonisque moribus contrariaretur, inveniatur, idem proelo publico mandandum admittitur. </p>
+            <dateline>Datum <placeName>
+                  <placeName>Zagrabiae</placeName> in Residentia Nostra Episcopali</placeName>, <date when="1737-10-11">11. Octobris, 1737</date>.</dateline>
+            <signed>
+               <persName>GEORGIUS BRANJUGH,</persName>
+         Episcopus Zagrabiensis, <abbr>m.p.</abbr>
+            </signed>
+         </div>
+         <div type="prosa-prologus-epistula">
+            <head>PROLOGUS AD LECTOREM</head>
+            <p rend="justify">EN humanissime Lector, Classis mea ante aliquot annos à portu soluta nunc tandem non Croesi Mydaeque opibus, sed literarijs onusta Gazis, non sinè tempestatibus, nec sinè diuturna maris jactatione, neque sinè ventis, neque sinè velis, salva praeter meam tuámque spem, sed non praeter opinionem ad littus appulit. Fortassè opus non fuisset tantô laboris impendiô, tantâ curâ, <expan resp="#NJ">et</expan> sollicitudine, tantâ vigiliarum, ac insomniorum diuturnitate si post antiquos hoc mare literarium, ut sic dicam, tam vastum, ac penè inexhaustum pererrare contigisset. Quemadmodum enim cuilibet post <persName>Christophorum Columbum</persName> in <placeName>Occidentalem Indiam</placeName>, post <persName>Ferdinandum Magellanum</persName> in <placeName>Moluccas</placeName>, post <persName>Franciscum Pizzarzo</persName>, <expan resp="#NJ">et</expan> Amagro in <placeName>Provinciam Perüanam</placeName>, post <persName>Hugonem Villobejum</persName> in <placeName>Terram Arcticam</placeName> remigare volupè est, <expan resp="#NJ">et</expan> post detectum Thesaurum auream illam opulentiam haurire: ita profectò, <expan resp="#NJ">et</expan> mihi longè svavissimum accidisisset, vel jam semel eruta in alium librum transumere; vel dispersa in <pb/>
+         unam molem coaugmentare, vel inventis de meo quidpiam superaddere. Verùm cum nemo nostratum repertus sit, qui adeò solerter tranâsset, <expan resp="#NJ">et</expan> pervestigâsset hoc Pelagus, ut omnes sinus ejus ac latebras habeat exploratas; nemo, qui nomenclaturam Latino-Illyricam eô ordine, eâ dictionum copiâ, varietate, <expan resp="#NJ">et</expan> scribendi methodô in lucem edidisset, quò hoccè GAZOPHYLACIUM meum, seu AERARIUM votis expectancium correspondet: idcircò, quae hujus scriptionis classem altiùs, <expan resp="#NJ">et</expan> altiûs à terra promovi, eò crebriores insuperabilioresve charybdes, <expan resp="#NJ">et</expan> difficultates expertus fui. Quibus tamen omnibus, auxiliante illo, qui <hi rend="italic">Alltitudo est divitiarum Sapientiae, <expan resp="#NJ">et</expan> Scientiae</hi>, minimè <corr resp="#NJ">fractus</corr>; quin potius contemptis Scyllarum oblatrantium, id est oblocutorum, importunis clamoribus, quicquid in feracibus Illyrij littoribus, <placeName>Dalmatia</placeName>, <placeName>Croatia</placeName>, <placeName>Sclavonia</placeName>, <placeName>Istria</placeName>, <expan resp="#NJ">et</expan> vicinioribus inibi Insulis (quarum magnam partem, sicut <persName>Diodorus Siculus</persName>, ne in descriptione orbis erraret, multas <placeName>Asiae</placeName>, <placeName>Europae</placeName>que Provincias, majoris experientiae in lingua gratiâ, non absque magno meo <corr resp="#DB">incommodo</corr> peragravi) quicquid, inquam, colligere potui, abundè in hoc <sic>GAZOPHYLAIUM</sic> congessi, congestum in hanc formam redegi, redactum tuos sub oculos posui. Alteram quidem ejusdem partem, Illyrico-Latinam, scilicet jam ante plures annos feliciter elucubravi, <expan resp="#NJ">et</expan> 
+               <sic resp="#NJ">expost</sic> partim ob decrepitam aetatem, partim ob continuam ferè variorum morborum conflictationem, ulteriori scriptioni longum Vale dixi, eâ praesertim intentione, ut in dictis sanctioris otij ferijs exemplô Patrum meorum (quorum unicum studium erat, ût <persName>Tertullianus</persName> ait, <quote>terram suspensô pede tenere</quote>) tantô commodius mihi vacarem, <expan resp="#NJ">et</expan> Margaritam illam in agro super coelesti reconditam melior Negotiator totâ mentis aviditate indagarem. Sed enim erant, qui meum septuagenarium pectus expugnarent; Amici námque omnibus modis, <expan resp="#NJ">et</expan> rationibus, <pb/> quibus poterant, svaserunt mihi, ut Illyricô-Latinae, <expan resp="#NJ">et</expan> Latinô-Illyricam partem adnecterem, <expan resp="#NJ">et</expan> tanquam majoris importantiae, sempiternô saeculorum carcere, quibus delitescebat, eximerem; atque in libertatem, lucémque vindicarem. <corr resp="#NJ">Cumque</corr> probè animadverterem eorundem animum adeò in svadendo pertinacem, <expan resp="#NJ">et</expan> obfirmatum, ut nullis mearum excusationum momentis à suo proposito moveretur, <expan resp="#NJ">et</expan> ex altera parte spes vitae quantulacûnque affulgeret, Sanctas sanè otij ferias publico bono potiùs postponendas duxi, quàm avidissimos congentilium meorum animos pretiosori AERARII mei thesaurô, gratissimâque, quam ex eo hausturi sunt, utilitate privandos esse. Itaque ut, quam ipse contractis velis classem ad littus reducere destinaveram, rursùm Juventuti Illyricanae servituram praeberem, consilium caepi vela denuò explicandi; <expan resp="#NJ">et</expan> ducta in altum Navi novâ sedulitate omni aurô, argentôque aestimabiliores merces conquirendi. Placuit autem consultô vitare peregrinam quorundam nominum propriorum copiam, <expan resp="#NJ">et</expan> ea duntaxat consectari, quae Juventuti ad usum quotidiani sermonis, eruditionémque è re fore videbantur. Nec aliter fècisse constat <persName>Conradum Gesnerum Tigurinum</persName>, qui ab aliis nominibus Onomasticon propriorum nominum sequestratum ad calcem Dictionarij sui rejecit, vel ex eo, si mentem ejus assequar, quia Onomasticon magis Poëtis, Geographis, <corr resp="#NJ">Historicis</corr>, altiorísque doctrinae Viris, quàm inferioribus literaturae Juvenibus profuturum existimavit. Existimavi <expan resp="#NJ">et</expan> ego idipsum, atquè ideò ad succurrendum studiosae Juventuti, ac alijs quibusvis vernaculam nostram ediscere volentibus, propria illa nomina, utpoté quibus vix est invenire correspondens nomen Illyricum, ex serie appellativorum dispunxi, sola propè communia ad Alphabeticum ordinem redegi, verbis Illyricis interdum multiplicibus efferre studui, diversas significationes, quas numeri Arithmeticô <pb/> charactere notati, exprimunt, diligenter explicui; ità, ut tot sint futuri numeri, quot significationes, genus, declinationes, ac conjugationes adnexui, quarundam syllabarum quantitatem aliasque non spernendas observationes opportunè adnotavi.</p>
+            <p>Eae porrò notae cum vulgaribus, quamvis abbreviatis tamen characteribus expressae sint, nè tibi plus obscuritatis quàm lucis affundant, sic claritatis gratiâ exponuntur.</p>
+            <list>
+               <head>Notum Alphabeti Elementum</head>
+               <item rend="start">
+                  <abbr>a.</abbr> - - - Activum.</item>
+               <item rend="start">
+                  <abbr>n.</abbr> - - - Neutrum.</item>
+               <item rend="start">
+                  <abbr>d.</abbr> - - - Deponens.</item>
+               <item rend="start">
+                  <abbr>c.</abbr> - - - Commune.</item>
+               <item>significant.</item>
+               <item>
+                  <abbr>Pas.</abbr> verò syllaba Passivum indicat verbum.</item>
+            </list>
+         
+            <p rend="center">Hanc syllabam mox insequitur numerus Arithmeticus, qui, quotae sit verbum conjugationis, apertè declarat, <abbr>v.g.</abbr>
+            </p>
+            <list>
+               <head>Numerus</head>
+               <item rend="start">
+                  <num>1</num>. - - - Primae.</item>
+               <item rend="start">
+                  <num>2</num>. - - - Secundae.</item>
+               <item rend="start">
+                  <num>3.</num> - - - Tertiae.</item>
+               <item rend="start">
+                  <num>4.</num> - - - Quartae.</item>
+               <item rend="center">ait verbum esse Conjugationis.</item>
+            </list>
+            <p>Rursum cûm Nomen, vel Participium cujusnam sit generis, <expan resp="#NJ">et</expan> Declinationis, docere volo, semper post Nomen, vel Participium vulgaribus Alphabeti litteris, itidem numerô Arithmetico juncto efformo; qui <abbr>v. g.</abbr>
+            </p>
+            <list>
+               <item rend="start">
+                  <abbr>g. m.</abbr>	- - G	- - Masculini.</item>
+               <item rend="start">
+                  <abbr>g. f.</abbr>	- - e	- - Foeminini.</item>
+               <item rend="start">
+                  <abbr>g. n.</abbr>	- - n	- - Neutri.</item>
+               <item rend="start">e</item>
+               <item rend="start">
+                  <abbr>g. c.</abbr>	- - r	- - Communis.</item>
+               <item rend="start">
+                  <abbr>g. o.</abbr>	- - i	- - Omnis.</item>
+               <item rend="start">
+                  <hi rend="italic">g. epic.</hi>	- - s	- - Epiceni.</item>
+               <item rend="start">
+                  <hi rend="italic">1.</hi>	- - De	- - Primae.</item>
+               <item rend="start">
+                  <hi rend="italic">2.</hi>	- - cli	- - Secundae.</item>
+               <item rend="start">
+                  <hi rend="italic">3.</hi>	- - na	- - Tertiae.</item>
+               <item rend="start">
+                  <hi rend="italic">4.</hi>	- - tio	- - Quartae.</item>
+               <item rend="start">
+                  <hi rend="italic">5.</hi>	- - nis	- - Quintae.</item>
+               <item rend="center">denotat.</item>
+            </list>
+            <p rend="center">Post hac verò cûm <corr resp="#NJ">scribendum</corr> duxissem litteras,</p>
+            <list>
+               <item rend="center">
+                  <hi rend="italic">p. c.</hi>	- - priorem, vel penultimam correptam.</item>
+               <item rend="center">
+                  <hi rend="italic">p. p.</hi>	- - priorem, vel penultimam productam.</item>
+            </list>
+            <p rend="center">dicere volui.</p>
+            <p rend="center">Denique cùm <corr resp="#NJ">scribo</corr>
+            </p>
+            <list>
+               <item rend="start">
+                  <abbr>Adv.</abbr>	-	Adverbium, vel Adverbij.</item>
+               <item rend="start">
+                  <abbr>Adverbial.</abbr>	-	Adverbialiter.</item>
+               <item rend="start">
+                  <abbr>Quant.</abbr>	-	Quantitatis.</item>
+               <item rend="start">
+                  <abbr>Qal.</abbr>	-	Qualitatis.</item>
+               <item rend="start">
+                  <abbr>Temp.</abbr>	-	Temporis. </item>
+               <item rend="start">
+                  <abbr>Num.</abbr>	-	Numeri.</item>
+               <item rend="start">
+                  <abbr>num. plur.</abbr>	-	Numeri pluralis.</item>
+               <item rend="start">
+                  <abbr>Adj.</abbr>	- -	Adjectivum.</item>
+               <item rend="start">
+                  <abbr>Subst.</abbr>	- -	Substantivum.</item>
+               <item rend="start">
+                  <abbr>Part.</abbr>	- -	Participium.</item>
+               <item rend="start">
+                  <abbr>Conjunct.</abbr>	-	Conjunctionis.</item>
+               <item rend="start">
+                  <abbr>Interj.</abbr>	-	Interjectionis.</item>
+               <item rend="start">
+                  <abbr>Praep.</abbr>	- -	Praepositionis.</item>
+               <item rend="start">
+                  <abbr>Freq.</abbr>	- -	Frequentativum.</item>
+               <item rend="start">
+                  <abbr>Inch.</abbr>	- -	Inchoativum.</item>
+               <item rend="start">
+                  <abbr>Med.</abbr>	- -	Meditativum.</item>
+               <item rend="start">
+                  <abbr>Dim.</abbr>	- -	Diminutivum.</item>
+               <item rend="start">
+                  <abbr>Transl.</abbr>	- -	Translatè.</item>
+               <item rend="start">
+                  <abbr>Metaph.</abbr>	- -	Metaphoricè.</item>
+               <item rend="start">
+                  <abbr>Sent. Prov.</abbr>	-	Sententia Proverbialia.</item>
+               <item rend="start">	[<abbr>D.</abbr>]	- -	Dalmaticè.</item>
+               <item rend="start">	[<abbr>Scl.</abbr>]	- -	Sclavonicè.</item>
+               <item rend="start">	[<abbr>Cr.</abbr>]	- -	Croaticè.</item>
+               <item rend="start">	[<abbr>Turc. Scl.</abbr>]	-	Turcico-Sclavonicè.</item>
+               <item rend="center">Multa enim vocabula Inferior Sclavonia, cum partibus adjcentibus accepit à Turcis, olim ijs commixta, quae hodiedu usuat.</item>
+               <item rend="start">
+                  <abbr>Comp.grad.</abbr>	Comparativi gradûs.</item>
+               <item>
+                  <hi rend="italic">Gen.</hi>	Genitivus.</item>
+               <item>
+                  <abbr>L.</abbr>  Libro.</item>
+               <item>
+                  <abbr>l.</abbr> vel.	<abbr>et.</abbr> etiam.	</item>
+               <item>
+                  <abbr>C.</abbr> Capite.</item>
+            </list>
+            <list>
+               <head>Sequuntur Authores.</head>
+               <item>
+                  <abbr>Cic.</abbr>	Cicero.</item>
+               <item>
+                  <abbr>Virg.</abbr>	Virgilius.</item>
+               <item>	
+                  <abbr>Lucr.	</abbr>Lucretius.</item>
+               <item>
+                  <abbr>Plaut.</abbr>	Plautus.</item>
+               <item>
+                  <abbr>Ovid.</abbr>	Ovidius.</item>
+               <item>
+                  <abbr>Ter.</abbr>	Terentius.</item>
+               <item>
+                  <abbr>Plin.</abbr>	Plinius.</item>
+               <item>
+                  <abbr>Apul.</abbr>	Apuleus.</item>
+               <item>
+                  <abbr>Ard.</abbr>	Ardelio.</item>
+               <item>
+                  <abbr>Ritt.</abbr>	Ritter.</item>
+            </list>	
+            <list>
+               <item>
+                  <abbr>V.D.</abbr>	Vestra Dominatio.</item>
+               <item>
+                  <abbr>V.M.</abbr>	
+                  <foreign xml:lang="hr">Vasse Miloszti</foreign>.</item>
+               <item>
+                  <abbr>i.e.</abbr>	id est	</item>
+               <item>
+                  <abbr xml:lang="hr">t.j.</abbr>	
+                  <foreign xml:lang="hr">tho jeszt.</foreign> vel <foreign xml:lang="hr">tho je.</foreign>
+               </item>
+               <item>
+                  <abbr>v.</abbr>	in Latino <hi rend="italic">vide.</hi>
+               </item>
+               <item>in Illyrico <foreign xml:lang="hr">vigy</foreign>.</item>
+            </list> 
+            <p>Post quod subjungo ordinariè literam <abbr>n.</abbr> quae significat numero, quam saepè comitatur nota Arithmetica significationem innuens, <abbr>v. g.</abbr> 
+               <quote>Ultio. <abbr>v.</abbr> Vindicatio <abbr>n.1.</abbr>
+               </quote> hoc est: vide Vindicatio numero primo. vel <quote>Vigor. <abbr>v.</abbr> Robur. <abbr>n. 2. <expan resp="#NJ">et</expan> 3.</abbr>
+               </quote> id est: vide Robur numero secundo <expan resp="#NJ">et</expan> tertio; ídque pro uberiori significationis intelligentia. Ubi verò supra ė punctum est, tunc Dalmata, <expan resp="#NJ">et</expan> Dalmatam imitans leget ùt i. Sclavus verò ût e, perinde, ac si non esset punctum, verbi gratia. <foreign xml:lang="hr">Pėnez</foreign>, Dalmata efferet <foreign xml:lang="hr">Pinez</foreign>, Sclavus vero <foreign xml:lang="hr">Penez</foreign>. Si verò fuerint puncta duo supra ë, leget Dalmata ût a. <abbr>v. g.</abbr> 
+               <foreign xml:lang="hr">Pėsz</foreign>, dicet <foreign xml:lang="hr">Pàsz</foreign>. Similiter Sclavus ubi supra ä repererit puncta duo, leget ùt e. <abbr>v. gr.</abbr> 
+               <foreign xml:lang="hr">Päsz</foreign>, dicet <foreign xml:lang="hr">Pesz</foreign>. Consonantem v ita scribo, vocalem verò sic u, cum virgula desuper, <expan resp="#NJ">et</expan> tum idem est quod vu. Reliquae abbreviationes tàm <pb/>
+         obscurae non sunt, ut peritiam Lectoris effugere valeant. 
+         
+         Atque hôc tandem modô mea longâ defatigatione, ac valetudinis discrimine aperitur tibi, humanissime Lector, GAZOPHYLACIUM, seu AERARIUM meum, tamdiu Croatiae, <corr resp="#NJ">praesertim</corr> 
+               <expan resp="#NJ">et</expan> Sclavoniae interclusum <expan resp="#NJ">et</expan> obseratum. In cujus defatigationis mercedem, non Domitiani Caesaris centena <abbr>HS.</abbr> seu duo millia, <expan resp="#NJ">et</expan> quingentos Philippeos, quos teste Svetonio tàm Graeco, quàm Latino Rhetori in annuum salarium destinaverat, nec Socratis mille drachmarum Minerval; sed hoc unicum peto, <expan resp="#NJ">et</expan> obsecro, ut si quid ex hisce divitijs meis, quantumvis à quinquaginta octo annis <corr resp="#NJ">Professi</corr> pauperis, pretiosi decerpseris, velis pro me intercedere <corr resp="#NJ">apud</corr> DEUM Omnipotentem (cui tota vita mea deservit) ad placandam ejus piissimam misericordiam, ne quid ob errata mea in me severiùs statuat, ac decernat: sed potiùs, ut motus immensâ benignitate suâ poenitentem me suscipiat; <expan resp="#NJ">et</expan> post emensum aerumnosae vitae pelagus è thesauris beatae aeternitatis manes meos quantociûs locupletet. Ita valeas, ac è GAZOPHYLACIO meo, quod hactenus tantoperè expetivisti, copiosè ditescas.</p>
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>IN GAZOPHYLACIUM 
+            <hi rend="italic">Admodum Reverendi Patris Fratris</hi>
+          JOANNIS BĖLLOSZTĖNËCZ, Ordinis Sancti Pauli primi Eremitae Presbyteri, <expan resp="#NJ">et</expan> Cognomen ejusdem, quod Candidam Petram, Illyricè significat.</head>
+            <l>SAxea Thebaei quô flarent moenia Civis,</l>
+            <l>Plurima sunt molli saxa coacta lyrâ.</l>
+            <l>Illyrij, Latiíque soli quô Regna perennent,</l>
+            <l>UNICA, tu calamo moenia, PETRA, struis.</l>
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>
+            De eodem.
+         </head>
+            <l>Cum celent aliae <sic>sibris</sic> aeraria Petrae,</l>
+            <l>Tu solus plenô gurgite promis opes.</l>
+            <l>An non <corr resp="#NJ">vivificam</corr> meritò te dixero Petram,</l>
+            <l>Vivere qui linguae dona sepulta facis?</l>
+            <signed>Ità accinuit
+         
+            Observantia <expan resp="#NJ">et</expan> aeterna memoria ergò
+         
+         <name>SEBASTIANUS GLAVINICH,</name>
+         Istrianus Petinensis, <abbr>Sac. Caes.</abbr> Regiaeque
+         <abbr>Cathol.</abbr> Majestatis Sacellanus</signed>
+         </div>
+      </body>
+   </text>
+</TEI>

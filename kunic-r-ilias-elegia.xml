@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="kunic-r-ilias-elegia">
+         <titleStmt>
+            <title>Ad Balthassarem Odescalchium elegia (Ilias Latinis versibus expressa), versio electronica</title>
+            <author key="kunic02">
+               <name xml:lang="hr">Kunić, Rajmund</name>
+               <date>1719-1794</date>
+            </author>
+            <editor>
+               <name xml:id="PŠ">Petra Šoštarić</name>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Priređeno prema digitalizatu izdanja iz 1776.</p>
+         </editionStmt>
+         <extent ana="C">Mg:C 268 versus, verborum 2176</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+               projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+               Hrvatska.  <date when-iso="2013-01">Siječnja 2013</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <biblStruct type="externum">
+               <monogr>
+                  
+                  <author>Homerus</author>
+                  <author ref="kunic02" role="vertit">
+                     <name xml:lang="hr">Kunić, Rajmund</name>
+                     <date>1719-1794</date>
+                  </author>
+                  <title>Ilias. Latinis versibus expressa a Raymondo Cunichio
+                     Ragusino. </title>
+                  <imprint>
+                     <pubPlace>Romae</pubPlace>
+                     <publisher>Excudebat Ioannes Zempel</publisher>
+                     <date>1776</date>
+                  </imprint>
+                  <extent>XLVII + 611 pag. ; 2o </extent>
+               </monogr>
+               <idno type="other">Xb * Jurić. Scriptores</idno>
+               <relatedItem type="primjerak">
+                  <ref type="signatura">NSK Zagreb RIIF-2o-28</ref>
+               </relatedItem>
+               <relatedItem type="digitalizat-internet">
+                  <ref type="gbs" target="http://books.google.com/books?id=Hx1LAAAAcAAJ">Homeri Ilias latinis versibus expressa a Raymundo Cunichio Ragusino - Homerus, Raimondo Cunich - Google Books</ref>
+               </relatedItem>
+               <relatedItem type="digitalizat-internet">
+                  <ref type="gbs" target="http://books.google.com/books?id=XXxBAAAAcAAJ">Homeri Ilias Latinis versibus ... - Google Books</ref>
+               </relatedItem>
+               <relatedItem type="digitalizat-internet">
+                  <ref type="bsb"
+                       target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10209549-1">Ilias / Homerus
+                  </ref>
+               </relatedItem>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1776" period="17xx_3_third">1776</date>
+            
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - elegia</term>
+               <term>poesis - paratextus poetici</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2014-05-31</date>
+Premjestio bilješke na kraj.
+         </change>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2013-01-06T18:39:29</date>
+            Početna TEI XML verzija.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <titlePart>HOMERI ILIAS</titlePart>
+            <titlePart>LATINIS VERSIBUS EXPRESSA</titlePart>
+            <titlePart>A RAYMUNDO CUNICHIO</titlePart>
+            <titlePart>RAGUSINО</titlePart>
+            <titlePart>PROFESSORE ELOQUENTIAE ET LINGUAE GRAECAE <lb/>IN COLLEGIO ROMANO</titlePart>
+            <titlePart>AD AMPLISSIMUM VIRUM</titlePart>
+            <titlePart>BALTHASSAREM ODESCALCHIUM</titlePart>
+            <docDate>ROMAE MDCCLXXVI.</docDate>
+            
+            <docImprint>EXCUDEBAT JOANNES ZEMPEL. <lb/>PRAESIDUM PERMISSU.</docImprint>
+         </titlePage>
+      </front>
+      <body>
+         
+         <div type="poesis-elegia" met="elegiacum">
+            <head>
+               <lb/>AD BALTHASSAREM ODESCALCHIUM <lb/>LIVII II. BRACHIANI DUCIS FILIUM <lb/>
+               <abbr>SS. CAESS. RR. AA. MM.</abbr> CUBICULARIUM ET COMMENDATARIUM INCLYTI ORDINIS S. STEPHANI
+               HUNGARIAE REGIS APOSTOLICI <lb/>ILIADIS LATINO CARMINE VERTENDAE AUCTOREM ATQUE AUSPICEM <lb/>RAYMUNDI CUNICHII <lb/>ELEGIA.</head>
+            <l n="1">Magnanime hortator vatum ductorque tuis qui<ref type="nota" xml:id="rd1e241" target="nd1e241" n="1"/>
+            </l>
+             
+            <l n="2">Clam populo carmen ludimus in laribus, </l>
+             
+            <l n="3">Quo nunc me, horrentem fluctus mergique timentem, </l>
+             
+            <l n="4">Parva jubes vasto pandere vela mari;</l>
+             
+            <l n="5">Immensa et valida sulcat qui caerula puppi,</l>
+             
+            <l n="6">Pone sequi lembo Maeonidam exiguo? </l>
+             
+            <l n="7">Nil tibi ego possum, <emph>Balthassar </emph>magne, negare,</l>
+             
+            <l n="8">Quem toto admirans pectore suspicio, </l>
+             
+            <l n="9">Atque colo, eximiis clarum virtutibus<ref type="nota" xml:id="rd1e275" target="nd1e275" n="1"/>, artes</l>
+             
+            <l n="10">Complexum doctae Palladis omnigenas,</l>
+             
+            <l n="11">Musarumque artes varias<ref type="nota" xml:id="rd1e285" target="nd1e285" n="1"/>, comemque, bonumque,</l>
+             
+            <l n="12">Accessu et facilem, suavis et alloquii </l>
+             
+            <l n="13">Haud parcum; utque brevi dicam simul omnia dicto,</l>
+             
+            <l n="14">Patrique et matri moribus assimilem. </l>
+             
+            <l n="15">Quos, verum cupiam si ponere nomen utrique,</l>
+             
+            <l n="16">Urbis jure queam dicere delicias; </l>
+             
+            <l n="17">Foeminei hanc generis rarum decus, hunc decus ingens,</l>
+             
+            <l n="18">Jactat queis sese Romula terra, virūm;</l>
+             
+            <l n="19">Conspicuos proavūm claro fulgore suorum,</l>
+             
+            <l n="20">Ambo luce sua sed mage conspicuos;</l>
+             
+            <l n="21">Exemplar gnatis geminum virtutis avitae.</l>
+             
+            <l n="22">Quod tu, avida inspectum mente oculoque refers.</l>
+             
+            <l n="23">Haec tibi ego propter dulci devinctus amore.</l>
+             
+            <l n="24">Quid ni me praestem morigerum et docilem;</l>
+             
+            <l n="25">Ac subeam jussus duri quodcumque laboris;</l>
+             
+            <l n="26">Vel si me pennis carpere praepetibus </l>
+             
+            <l n="27">Aëriosque velis tractus et nubila caeli,</l>
+             
+            <l n="28">Tentantem Icarias sidera ad alta vias? </l>
+             
+            <l n="29">Te tamen est aequum tam duris parcere jussis,</l>
+             
+            <l n="30">Nec velle id, vates quod tuus, ingenium </l>
+             
+            <l n="31">Omne licet promam solers, atque impiger omnes</l>
+             
+            <l n="32">Contendam nervos, efficere haud valeam; </l>
+             
+            <l n="33">Ut certe haud valeo, quod mandas, dia Latinis</l>
+             
+            <l n="34">Maeonidae magni carmina carminibus</l>
+             
+            <l n="35">Vertere sic, vates summo ut contendere vati</l>
+             
+            <l n="36">Ardore ac pulchris haud dubitem numeris:</l>
+             
+            <l n="37">Nec malus interpres faciam, fecere quod olim</l>
+             
+            <l n="38">Multi, qui, dictis omnia frigidulis</l>
+             
+            <l n="39">Complentes, verbum verbo sunt reddere tantum</l>
+             
+            <l n="40">Conati; atque meram barbariem attulerunt</l>
+             
+            <l n="41">Pro cultu, obscuras pura pro luce tenebras,</l>
+             
+            <l n="42">Stridorem cantu pro liquido horrisonum,</l>
+             
+            <l n="43">Sic, jure irasci vatum ut queat optimus ille,</l>
+             
+            <l n="44">Si gressum Elysiis huc ferat e domibus,</l>
+             
+            <l n="45">Et Venere adspiciat sese omni, omnique lepore</l>
+             
+            <l n="46">Exutum, et Graji floribus eloquii,</l>
+             
+            <l n="47">Horrentem foede, balbumque, et verba sonantem</l>
+             
+            <l n="48">Vilia, quae spernat vel puer e trivio,</l>
+             
+            <l n="49">Mirari et soli possint, queis nulla venustas,</l>
+             
+            <l n="50">Nulla et inest fatuo in pectore mica salis; </l>
+             
+            <l n="51">Literulas docti venari, nilque pusillum</l>
+             
+            <l n="52">Negligere; obliti tot bona, Maeonides </l>
+             
+            <l n="53">Queis valet, ac mira complet dulcedine mentes,</l>
+             
+            <l n="54">Imaque flexanimo carmine corda subit.</l>
+             
+            <l n="55">His tu me similem non vis, nec verba Latine</l>
+             
+            <l n="56">Sola jubes, cultum vatis at eximii</l>
+             
+            <l n="57">Exprimere, ingentesque animos, sacrumque furorem.</l>
+             
+            <l n="58">Verum id quam durum sit, reor, ipse vides,</l>
+             
+            <l n="59">Quamque alias vires, nervosque in carmine poscat,</l>
+             
+            <l n="60">Quam mihi Castaliae quos tribuere deae.</l>
+             
+            <l n="61">Quippe etenim, ut rebus, lingua sic praestat Homerus;</l>
+             
+            <l n="62">Verbaque mirifice, mirifice numeros </l>
+             
+            <l n="63">Contribuens, formas pulchri se vertit in omnes;</l>
+             
+            <l n="64">Qualis, qui Nerei per vada salsa gregem </l>
+             
+            <l n="65">Caeruleum pascit Proteus, et nunc fluit undae </l>
+             
+            <l n="66">Assimilis, flammas nunc abit in rapidas. </l>
+             
+            <l n="67">Nam modo sedatus fertur, velut amnis in alveo</l>
+             
+            <l n="68">Ingenti sese cum tacito evoluit </l>
+             
+            <l n="69">Ingentem cursu placidus, ripamque virentem</l>
+             
+            <l n="70">Illimi tardus lambere gaudet aqua:</l>
+             
+            <l n="71">Hinc atque hinc teneras errant armenta per herbas,</l>
+             
+            <l n="72">Et Zephyri arboreas vix ciet aura comas:</l>
+             
+            <l n="73">In medio sternit late se vitreus humor,</l>
+             
+            <l n="74">Inque udis ludunt Naiades thalamis.</l>
+             
+            <l n="75">Sic vates leni fundit se carmine, mentes</l>
+             
+            <l n="76">Et blando illectas irrigat eloquio.</l>
+             
+            <l n="77">Nunc ruit, idem auctus multo velut imbre, soluta</l>
+             
+            <l n="78">Et nive, mugitu cum fremit horrisono,</l>
+             
+            <l n="79">Et ripam super exundat, molesque superbus</l>
+             
+            <l n="80">Proruit, eversis amnis et aggeribus </l>
+             
+            <l n="81">It campo spumansque tumensque, et pinguia culta</l>
+             
+            <l n="82">Turbidus immani diluit eluvie, </l>
+             
+            <l n="83">Et nemora et celsas annoso robore silvas</l>
+             
+            <l n="84">Contorquet rapidis in mare vorticibus: </l>
+             
+            <l n="85">Jamque greges tulit et pastorum agrestia septa.</l>
+             
+            <l n="86">Flent moesti attonitis mentibus agricolae, </l>
+             
+            <l n="87">Et pavidi fugere micanti pectore Fauni, </l>
+             
+            <l n="88"> Atque altis abdunt se Dryades latebris. </l>
+             
+            <l n="89">Talis: talem ajo? multo pol grandior ille,</l>
+             
+            <l n="90">Amplior et multo, viribus et validis </l>
+             
+            <l n="91">Auctior, exsultatque fremens, et corda legentum</l>
+             
+            <l n="92">Miscetque et variis turbat agens numeris,</l>
+             
+            <l n="93">Ac partes raptans quo vult contorquet in omnes.</l>
+             
+            <l n="94">Me certe, Phoebo tactus ut incaluit</l>
+             
+            <l n="95">Praesenti vates, divini et pectoris alto</l>
+             
+            <l n="96">Exprompsit carmen grandiloquum ex adyto,</l>
+             
+            <l n="97">Sic agit, attonitumque animi sibi vindicat, aures</l>
+             
+            <l n="98">Sic mi concentu complet Apollineo,</l>
+             
+            <l n="99">Sic mi omnes alto miscet sub pectore sensus,</l>
+             
+            <l n="100">Cuncta mihi ut videar non legere, ast oculis </l>
+             
+            <l n="101">Usurpare ipsis manifesta in luce diei.</l>
+             
+            <l n="102">Bellantum in densos abripior cuneos, </l>
+             
+            <l n="103">Ardet ubi saevus medio in certamine Mavors,</l>
+             
+            <l n="104">Atque virūm atque alti cornipedum fremitus, </l>
+             
+            <l n="105">Et galeae, clypeique, horrendum et tela fragorem</l>
+             
+            <l n="106">Dant late: nigro in pulvere semianimes,</l>
+             
+            <l n="107">Flos juvenum, duro confossi pectus ab aere,</l>
+             
+            <l n="108">Languidulo extremos ore cient gemitus;</l>
+             
+            <l n="109">It multo largus passim de vulnere sanguis,</l>
+             
+            <l n="110">Purpureo et subter flumine terra madet: </l>
+             
+            <l n="111">Seu Troum furit in turmas acer Diomedes<ref type="nota" xml:id="rd1e604" target="nd1e604" n="1"/>,</l>
+             
+            <l n="112">Palladia et divūm numina fretus ope </l>
+             
+            <l n="113">Haud dubitat saevisque minax incessere dictis,</l>
+             
+            <l n="114">Atque hasta impavidus figere vulnifica: </l>
+             
+            <l n="115">Sive aciem rapit in Danaos male turbidus Hector<ref type="nota" xml:id="rd1e620" target="nd1e620" n="1"/>,</l>
+             
+            <l n="116">Urere deprensas et parat igne rates,</l>
+             
+            <l n="117">Spem reditus dulcem injectis et perdere flammis;</l>
+             
+            <l n="118">In nocte Argivam fumifera et sobolem </l>
+             
+            <l n="119">Mactare extremum jam ponti ad litus adactam,</l>
+             
+            <l n="120">Incertam rerum consiliique inopem, </l>
+             
+            <l n="121">Et Jovis adversi pulsam domitamque flagello;</l>
+             
+            <l n="122">Ajax ni magnus praesidio subeat, </l>
+             
+            <l n="123">Fortiaque adversis opponens pectora telis</l>
+             
+            <l n="124">Extremum sociis arceat exitium: </l>
+             
+            <l n="125">Seu Phrygiam Xanthi pubem conturbat in alveo<ref type="nota" xml:id="rd1e655" target="nd1e655" n="1"/>,</l>
+             
+            <l n="126">Fulmineoque virūm milia multa neci </l>
+             
+            <l n="127">Dat ferro Aeacides, trepidoque, et rauca frementi</l>
+             
+            <l n="128">Praepedit aggesta caede vias fluvio; </l>
+             
+            <l n="129">Virque deum, toto supra caput impendentem</l>
+             
+            <l n="130">Amne, celer campo sustinet in viridi; </l>
+             
+            <l n="131">Excitus Aetnaeo ripas dum corripit igni,</l>
+             
+            <l n="132">Atque nemus flammis Mulciber involuit</l>
+             
+            <l n="133">Circum omne, ac tumidum vesano gurgite flumen</l>
+             
+            <l n="134">Sistitque, in mediis et ferus urit aquis.</l>
+             
+            <l n="135">Victor at exsultans animis ingentibus heros</l>
+             
+            <l n="136">Versa fuga curru proterit aerisono</l>
+             
+            <l n="137">Corpora cornipedumque virūmque, ac turribus ardet</l>
+             
+            <l n="138">Sub Phrygiis leto sternere Priamiden<ref type="nota" xml:id="rd1e699" target="nd1e699" n="1"/>
+            </l>
+             
+            <l n="139">Invisum, saeva Patrocli caede madentem.</l>
+             
+            <l n="140">Quem muris miserum prospicit e patriis</l>
+             
+            <l n="141">Infelix genitor, visuque exterrita mater</l>
+             
+            <l n="142">Heu volvi foedo in pulvere seminecem!</l>
+             
+            <l n="143">Heu celeri exstinctum raptari ad litora curru!</l>
+             
+            <l n="144">Attoniti et, scissis vestibus, exululant,</l>
+             
+            <l n="145">Canitiem et manibus foedant: circum omnia planctu</l>
+             
+            <l n="146">Foemineo, atque virūm questubus anxiferis</l>
+             
+            <l n="147">Insonuere; alto ceu si de culmine Troja</l>
+             
+            <l n="148">Igni usta extremos corruat in cineres.</l>
+             
+            <l n="149">Agmina quid Grajūm variis cum fortia ludis<ref type="nota" xml:id="rd1e737" target="nd1e737" n="1"/>,</l>
+             
+            <l n="150">Justa ubi Patroclo reddita sunt, hilarat;</l>
+             
+            <l n="151">Atque inter sese committit prima virorum,</l>
+             
+            <l n="152">Caestu, arcu, lucta, cursibus et rapidis, </l>
+             
+            <l n="153">Fulmineaque hasta, vesani et pondere disci</l>
+             
+            <l n="154">Ferre avidos magno munus ab Aeacida? </l>
+             
+            <l n="155">Quid coetu in populi cum suscitat alta sonantem</l>
+             
+            <l n="156">Nunc Laërtiaden grandiloquum, Pylium<ref type="nota" xml:id="rd1e762" target="nd1e762" n="1"/>
+            </l>
+             
+            <l n="157">Nestora nunc, placido cui se vox fundit ab ore</l>
+             
+            <l n="158">Et melle et dulci dulcior ambrosia? </l>
+             
+            <l n="159">Quid cum alto vates insert se magnus Olympo,</l>
+             
+            <l n="160">Et divūm haud dubitat pingere concilia<ref type="nota" xml:id="rd1e777" target="nd1e777" n="1"/>? </l>
+             
+            <l n="161">Jupiter in medio sedet arduus, omnipotenti</l>
+             
+            <l n="162">Nutu orbem et genitor concutit astriferum,</l>
+             
+            <l n="163">Et maria, et terras omnes, altique profundam</l>
+             
+            <l n="164">Noctem Erebi. fantem caelicolae attoniti</l>
+             
+            <l n="165">Mirantur, gelido perculsi corda pavore:</l>
+             
+            <l n="166">Augusto ille graves intonat ore minas:</l>
+             
+            <l n="167">Divūm audax quicunque suo sine numine Troum,</l>
+             
+            <l n="168">Gentem, vel gentem juverit Argolicam,</l>
+             
+            <l n="169">Dejecturum infra Titanas Tartara in ima</l>
+             
+            <l n="170">Supremo caeli e vertice praecipitem, </l>
+             
+            <l n="171">Horret ubi obscuro longe depressior Orco</l>
+             
+            <l n="172">Immani carcer ferreus in barathro. </l>
+             
+            <l n="173">Haec ut ego aggrediar versu tentare Latino?</l>
+             
+            <l n="174">Haec ut ego possim vertere sic, facies </l>
+             
+            <l n="175">Rerum aeque ut maneat clara et manifesta, colorem</l>
+             
+            <l n="176">Quidque suum et servet, mentem animi et penitam</l>
+             
+            <l n="177">Illabens, aeque capiat teneatque legentem</l>
+             
+            <l n="178">Cantu et Museis implicitum illecebris? </l>
+             
+            <l n="179">Id nec ego, quisquam nec possit, ni pater alta</l>
+             
+            <l n="180">Ipse virum Phoebus Pegasidum in nemora </l>
+             
+            <l n="181">Ducat, et Aonii supremo in vertice montis</l>
+             
+            <l n="182">Tingere Hyantheo labra sinat latice </l>
+             
+            <l n="183">Fontibus ex īsdem, multo se proluit amni</l>
+             
+            <l n="184">Unde sacer vena e divite Maeonides. </l>
+             
+            <l n="185">Hoc sibi sed nemo speret; quod Musa Maroni, </l>
+             
+            <l n="186">Divinam ut Latio conderet Aeneida, </l>
+             
+            <l n="187">Posse dedit soli, potu dignatus eodem,</l>
+             
+            <l n="188">Carminis ut summa par quoque laude foret. </l>
+             
+            <l n="189">Salve magne Maro, vatum exaequare parentem</l>
+             
+            <l n="190">Cui dedit heroa Calliopea tuba; </l>
+             
+            <l n="191">Quem docuit solum numerosque et verba, referri</l>
+             
+            <l n="192">Queis posset pulchri Graecia quidquid habet. </l>
+             
+            <l n="193">Salve iterum vates, vatum et pater. unus Homerum </l>
+             
+            <l n="194">Tu poteras dignis vertere carminibus, </l>
+             
+            <l n="195">Atque sui similem Romano ostendere cultu.</l>
+             
+            <l n="196">Id quando haud placuit, verba mihi, ac numeros,</l>
+             
+            <l n="197">Vimque tuam, et clarum clara mage luce nitorem</l>
+             
+            <l n="198">Suffice; si cultor te tuus a puero </l>
+             
+            <l n="199">Dilexi multis vatum prae milibus unum;</l>
+             
+            <l n="200">Si tua pervigili scripta lego studio; </l>
+             
+            <l n="201">Aurea si cupido tua dicta in pectore condo,</l>
+             
+            <l n="202">Oblito ne quid defluat ex animo. </l>
+             
+            <l n="203">Audior? an spernit vates mea grandia vota?</l>
+             
+            <l n="204">Audior: en votis annuit ille meis.</l>
+             
+            <l n="205">
+               <emph>Balthassar</emph>, renuo jam nil tentare pericli;</l>
+             
+            <l n="206">Nec metus est vires ne grave frangat onus,</l>
+             
+            <l n="207">Hic mihi si facilem det sese, ac praebeat omnes</l>
+             
+            <l n="208">Linguae, quas docto in carmine condit, opes.</l>
+             
+            <l n="209">Ut Juno, captum forma sopire Tonantem<ref type="nota" xml:id="rd1e939" target="nd1e939" n="1"/>
+            </l>
+             
+            <l n="210">Vellet in Idaeis cum dea verticibus,</l>
+             
+            <l n="211">Blanditias, mollesque jocos, omnesque poposcit</l>
+             
+            <l n="212">Verborum Idaliam delicias Venerem. </l>
+             
+            <l n="213">Illa, ubi cuncta inerant, ceston dedit: haec, ubi cepit,</l>
+             
+            <l n="214">Continuo aethereis digrediens domibus </l>
+             
+            <l n="215">Inque Idam venit, praestanti et munere compos</l>
+             
+            <l n="216">Difficilis facta est, haud mora, propositi: </l>
+             
+            <l n="217">Sic mihi Mantous sua det si philtra poëta,</l>
+             
+            <l n="218">Linguae cultus ubi mirus inest, lepidi</l>
+             
+            <l n="219">Verborum et flores, aurique et mentibus apti</l>
+             
+            <l n="220">Concentus; philtra haec ni modo defuerint;</l>
+             
+            <l n="221">Mens quod avet, mandas quod tu mihi, dulcis amice,</l>
+             
+            <l n="222">Quod pote vix fieri, forsitan efficiam:</l>
+             
+            <l n="223">Felicemque operis, functum et mea munera pulchre</l>
+             
+            <l n="224">Fors erit ut tu aliquo captus amore legas;</l>
+             
+            <l n="225">Tuque, tuus tecum et frater<ref type="nota" xml:id="rd1e1001" target="nd1e1001" n="1"/>, spes altera magnae</l>
+             
+            <l n="226">Magna domus. fratrem dicere, proh superi!</l>
+             
+            <l n="227">Cogor enim, geminos licuit nec dicere fratres,</l>
+             
+            <l n="228">Ut volui infelix, dicere ut institeram. </l>
+             
+            <l n="229">Quippe alter fratrum<ref type="nota" xml:id="rd1e1017" target="nd1e1017" n="1"/>
+               tristi, haec dum scribimus ipsa,</l>
+             
+            <l n="230">Ereptus fato, proh dolor! occubuit. </l>
+             
+            <l n="231">Et caros luctu nec opina morte parentes,</l>
+             
+            <l n="232">Germanos luctu et perdidit unanimos, </l>
+             
+            <l n="233">Et fidum attonitae perculsa mente sorori</l>
+             
+            <l n="234">Obruit immensa pectus amaritie.</l>
+             
+            <l n="235">Queis mite ingenium juvenis, formaeque leporem,</l>
+             
+            <l n="236">Et verba Hyblaeo dulcia melle magis,</l>
+             
+            <l n="237">Doctrina et cultum pectus, mentemque sagacem,</l>
+             
+            <l n="238">Suetam et res miro expendere judicio,</l>
+             
+            <l n="239">Innocuum et vitae constanti lege tenorem,</l>
+             
+            <l n="240">Virtutisque ardens eximiae studium, </l>
+             
+            <l n="241">Dignaque tot bene dicta omni bene factaque laude</l>
+             
+            <l n="242">Res nulla oblito diluet ex animo, </l>
+             
+            <l n="243">Quin, desiderio fixi acri, in flore juventae</l>
+             
+            <l n="244">Exstinctum leto nocte dieque vocent. </l>
+             
+            <l n="245">Exstinctum leto? vesano haec ille dolori</l>
+             
+            <l n="246">Ignoscat felix tristia verba precor. </l>
+             
+            <l n="247">Exstinctum nec enim leto est fas dicere, dulci</l>
+             
+            <l n="248">Compositum somno sustulit astriferas </l>
+             
+            <l n="249">Quem divūm ad sedes Virtus, celsoque locavit</l>
+             
+            <l n="250">Ipsa novum gaudens caelicolam in solio;</l>
+             
+            <l n="251">Regnat ubi, fruiturque sua jam forte, procellas</l>
+             
+            <l n="252">Nec tristes metuit, nec mare navifragum</l>
+             
+            <l n="253">Vitae hoc, quo miseri jactamur, nocte sub atra</l>
+             
+            <l n="254">Insanis acti per vada turbinibus. </l>
+             
+            <l n="255">Aequius est nostro quos certe horrere periclo,</l>
+             
+            <l n="256">Illi quam fletus fundere luctificos, </l>
+             
+            <l n="257">Qui tenuit portum, tuta et statione receptus</l>
+             
+            <l n="258">Aeternae gaudet gaudia laetitiae </l>
+             
+            <l n="259">Parcite jam lacrimis, clamo, neu tristia moesto</l>
+             
+            <l n="260">Quis fletu faxit funera caelicolae.</l>
+             
+            <l n="261">Clamo iterum: lacrimis non fas violare beatum</l>
+             
+            <l n="262">Est juvenem, caeli quem tenet alta domus;</l>
+             
+            <l n="263">Pulchrior et melior cui parta est vita, suprema</l>
+             
+            <l n="264">Rursum nascuntur luce boni, haud pereunt.</l>
+             
+            <l n="265">Hactenus haec, dulci nimium provectus amore.</l>
+             
+            <l n="266">Nunc magnum accingor vertere Maeonidam.</l>
+             
+            <l n="267">En age, jam da lora: feror quo mittis, et audax,</l>
+             
+            <l n="268">Ut res cunque cadet, jussum opus aggredior.</l>
+             
+         </div>
+      </body>
+      <back>
+         <div type="notes">
+            <head>Notae</head>
+            <pb n="nts"/>
+            <note place="foot" xml:id="ftn1" target="rd1e241" n="1">Est
+                  enim princeps Occultorum, qui ejus in aedibus, longe a populari strepitu, atque ab
+                  omni ambitione, sua interdum carmina recitant, <q>exigui numero,
+                     sed bello vivida virtus.</q> Hunc ego in coetum cooptatus, atque Iliadem
+                  poëtice vertere jussus, haec scribo. quorum summa est: me operis magnitudine
+                  perterrefieri, sed tamen Virgilianis opibus confisum de eo aliqua cum laude
+                  conficiendo nequaquam desperare.</note>
+            <note place="foot" xml:id="ftn2" target="rd1e275" n="1"> In
+                  quibus quidem virtutibus inest etiam quibus illa singularis Modestia animi
+                  longiorem suorum decorum commemorationem non ferentis. quae mihi, multa dicere,
+                  atque, ut in libris dicandis fieri solet, liberius in omnes clarissimi viri laudes
+                  excurrere cupienti, manum quodammodo injicit, atque invitum in his paucis, quae
+                  vix attingo, consistere cogit. </note>
+            <note place="foot" xml:id="ftn3" target="rd1e285" n="2"> Utrasque ille artes ac
+                  disciplinas, tum severiores, quibus Minerva, tum hilariores, quibus Musae praeesse
+                  dicuntur, a puero adamavit; multam utrisque operam dedit; complevit pectus
+                  optimarum rerum scientia; linguam procudit, atque ad omnem orationis elegantiam
+                  sedulo exercuit. quibus rebus est assequtus, ut, quae scribit, mirifice probentur
+                  omnibus, qui aut rerum cognitione, aut verborum cultu delectantur; nec ejus
+                  carmina vel philosophis inania, vel poëtis austera videantur. Hoc, quo ille
+                  praestat, scribendi genus, plenum gravitatis atque elegantiae, cujusmodi fit,
+                  facile percipi potest, ut alia praeteream, vel ex eo carmine, quo hoc anno PII VI.
+                  providentissimi ac publicae utilitatis studiosissimi Pontificis in Academia
+                  Ecclesiastica restituenda sapientiam laudavit; vel ex eo, quo anno superiore
+                  Octaviam sororem praestantissimam foeminam, aeque praestanti viro Josepho
+                  Rospiliosio Zagaruoli duci nubentem, suavissimis atque optimis versibus est
+                  alloquutus; nec, usitato more poëtarum hymenaeos canentium, nugas egit; sed
+                  copiose ac graviter de conjugio disserens, docuit, virtutem unam esse, qua
+                  adjuncta conjuges felicissimi, qua remota miserrimi atque aerumnosissimi evadant.
+               </note>
+            <note place="foot" xml:id="ftn4" target="rd1e604" n="1">Iliad,
+                  lib. V.</note>
+            <note place="foot" xml:id="ftn5" target="rd1e620" n="2">Lib. XV.
+               </note>
+            <note place="foot" xml:id="ftn6" target="rd1e655" n="1">Iliad. lib. XXI.</note>
+            <note place="foot" xml:id="ftn7" target="rd1e699" n="2">Lib.
+                  XXII.</note>
+            <note place="foot" xml:id="ftn8" target="rd1e737" n="3">Lib.
+                  XXIII.</note>
+            <note place="foot" xml:id="ftn9" target="rd1e762" n="1">Iliad.
+                  lib. II.</note>
+            <note place="foot" xml:id="ftn10" target="rd1e777" n="2">Lib.
+                  VIII.</note>
+            <note place="foot" xml:id="ftn11" target="rd1e939" n="1">Graecam
+                  vocem Graeco flexu extuli Martialem sequutus. ea vox si cui minus placet, legat
+                     <mentioned>zonam</mentioned>, aut <mentioned>lorum</mentioned>. est enim
+                  cestus lorum, seu cingulum acu pictum: in quo inerat, ut est apud Homerum Iliad.
+                  lib. XIV amor blandiloquentia, cetera quibus animi hominum amore inflammantur.
+                  quae hujusmodi vim habent, a Graecis, itemque a Latinis Graeco vocabulo,<mentioned> philtra </mentioned>dicuntur.</note>
+            <note place="foot" xml:id="ftn12" target="rd1e1001" n="1">Antonius eques
+                  Hierosolymitanus; in quo ego adolescentulo non solam spem, atque indolem virtutis
+                  inesse video, sed multa alia praeterea, quae etiam in viris solent laudari.
+               </note>
+            <note place="foot" xml:id="ftn13" target="rd1e1017" n="2"> Josephus Abbas
+                  Claravallensis, qui annum duodevicesimum vix ingressus, in ipso aetatis flore jam
+                  caelo maturus, obiit suo magis, quam reipublicae tempore; cui praestantissimum
+                  adolescentem propter excellens ingenium, et eximiam virtutem, cum primum aetate se
+                  corroborasset, magno usui; ac praesidio futurum nemo dubitabat. Natus est XIII.
+                  Calendas Apriles MDCCLIX. excessit e vita XIII. Calendas Majas MDCCLXXVI. </note>
+        </div>
+      </back>
+   </text>
+</TEI>

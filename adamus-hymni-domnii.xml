@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="adamus-hymni-domnii">
+            <titleStmt>
+                <title>Tres hymni perantiqui de Laudibus S. Domnii, versio electronica</title>
+                <author key="adamp01">
+                    <name xml:lang="hr">Adam Parižanin</name>
+                    <date when="1059">floruit 1059</date>
+                </author>
+                <editor>Neven Jovanović</editor>
+                <respStmt>
+                    <resp>Hanc editionem electronicam curavit</resp>
+                    <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Prima versio electronica <date when-iso="2010-09">2010-09</date>
+                </edition>
+            </editionStmt>
+            <extent ana="C">Mg:C 394 versus, verborum 4195</extent>
+            <publicationStmt>
+                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+                    Hrvatska.  <date>rujna 2010</date>
+            </p>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>
+                    Farlati, Daniel: Illyrici sacri, tomus tertius ... Venetiis, 1765.
+                </bibl>
+         </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+                <date when="1059" period="10xx_2_third">1059</date>
+                <placeName>Split</placeName>
+            </creation>
+         <textClass>
+                <keywords scheme="typus">
+                    <term>poesis</term>
+                    <term>paratextus prosaici</term>
+                </keywords>
+                <keywords scheme="aetas">
+                    <term>Litterae medii aevi (700-1400)</term>
+                    <term>Saeculum 11 (1001-1100)</term>
+                    <term>1051-1100</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>poesis - hymnus</term>
+                </keywords>
+            </textClass>
+      </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <name>Luka Špoljarić</name>
+                <date>2012-02-11</date>
+                Novo, unificirano zaglavlje.
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2011-10-29</date>
+                TEI Header.
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2010-09-16</date>
+                Versio prima.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="prosa">
+        <body>
+         <div type="prosa-praefatio">        
+            <gap reason="irrelevant"/>
+            <milestone unit="page" n="502"/>
+
+            <p>Sacellum S. Domnii, quod <ref>
+                  <abbr>cap</abbr>. X. §. XIII.</ref> descripsimus ab urbe Spalatensi passuum millia ferme tria aut quatuor disjunctum, situmque inter Salonae rudera, ubi subterranea crypta, sepulchrum olim S. Domnii, adhuc extat, hac die a Spalatensibus juxta, finitimisque populis eximia veneratione ac frequentia colitur. <note place="margin">Frequens hominum concursus ad aediculam, et cryptam subterraneam, unde corpus S. Domnii translatum est Spalat.</note> Huc quippe maximi ex urbibus Spalati, Tragurii, Clissae, et circumjectis agris oppidisque hominum concursus fiunt, popularibus plausibus, studiisque B. Domnii nomen et sepulchrum celebrantium. Plurima ibidem sacrificia matutinis horis fieri solent; et cryptae sanctissimi martyris reliquiis olim insignis subeundae, ac per otium contemplandae omnibus facultas datur, ostio patefacto, amotoque lapide; quo diligenter occluso, nullis aliis anni temporibus patet. Ac ne quid ad popularem ejus diei celebritatem laetitiamque desit, publici etiam ludi indici ac fieri solent veteri more atque instituto: ac satis constat, memoriaeque proditum est hanc solemnem pompam et frequentiam, ne tum quidem intermissam fuisse, cum ea loca in Turcarum erant ditione ac potestate.</p> 
+            <p>Qui historiam scripsit quartae translationis auctor est, ne sua quidem aetate miracula defuisse, quibus anniversaria hujus translationis ac festa gratulatio illustrior laetiorque redderetur. Nam post quam narravit fontem illum e silice repente ac divinitus prosiluisse, ut pueri sarcophagum S. Domnii trahentes, vehementerque ab solis aestu, viaque laborantes inde aquam ad levandam sitim haurirent; illud quoque adjecit, numquam ex eo tempore cessasse latices illos profluere, quibus ab S. Domnio nomen obvenit; ea enim aqua S. Domnii dicitur; ac praeterea coelestem vim eidem fonti ad propulsandos morbos inditam esse, <note place="margin">Aqua S. Domnii ad pellendos morbos mire eficax.</note> ut si quis incommoda valetudine affectus anniversario translationis die inde pauxillum aquae ad potandum pari pietate ac fiducia sumeret, statim ab omni prorsus morbo convalesceret: Haec siquidem, inquit ille, hodierno die miraculose apparet producta, et a vulgo ex tunc aqua S. Domnii appellatur, quam in suae translationis die devote potantes a diversis infirmitatibus liberantur. Ex quo sequitur, ut solemnis hujus initium a primis proximisque translationi temporibus deduci oporteat, cum jam inde ab ipsa translatione, singulis annis, quo die anniversaria ejusdem memoria recurrebat, illius aquae miracula iterari solerent.</p> 
+            <p>Illud lectores ad extremum admoneo, nunc quidem unum omnino festum diem B. Domnii translati nomine ac religione insignem celebrari in urbe pariter ac dioecesi Spalatensi: sed cum ante hanc translationem, ut alibi diximus, semel, iterum ac tertio S. Domnii venerandum corpus in alia ex aliis loca translatum fuerit, satis verisimile est tribus hisce antiquioribus translationibus recolendis celebrandisque totidem olim dies assignatos fuisse, suum cuique, inscriptosque in fastis ecclesiae Salonitanae; et nos diem tertiae translationis ex antiquo Caudiacensi Martyrologio per conjecturas elicere curavimus. Verum post excisam Salonam, et Pontificiam cathedram Spalatum invectam, triplex illa solemnitas per desuetudinem abrogata est: nisi forte qui quartam eamque postremam translationem in catalogum dierum festorum referri jussit, eo spectavit, ut IV. Kalend. Augusti omnium omnino translationum memoria, una et eadem die celebraretur.</p>
+         </div> 
+
+         <cb/> 
+
+         <div>
+            <head>§ V. 
+<lb/>
+Tres hymni perantiqui de Laudibus S. Domnii, Auctore fortassis Adamo Parisiensi. E Psalteriis vetustis in pergameno ecclesiae Spalatensis.</head> 
+
+            <div type="poesis-hymnus">
+               <head>Hymnus I.</head> 
+
+               <p>
+                  <seg ana="musica-laus">
+                     <s>Armoniae fidibus Domnio</s>
+                     <s>Carmina pangite melliflua,</s>
+                     <s>Organa tangite melodica,</s>
+                  </seg>
+                  <seg ana="dies-laus">
+                     <s>Ecce dies celebris rutilat,</s>
+                     <s>Dulcisonis jubilanda modis</s>
+                  </seg>
+                  <seg ana="assumptio">
+                     <s>Qua pius ad Dominum properat</s>
+                     <s>Domnius <corr>ut</corr> bravium referat,</s>
+                     <s>Sanguine quod sibi quaesierat.</s>
+                  </seg>
+                  <seg ana="caelum">
+                     <s>Aethera transmeat ad polica,</s>
+                     <s>Agmina jam videt Angelica,</s>
+                  </seg>
+                  <seg ana="gaudium">
+                     <s>Gaudia cum quibus almifica</s>
+                     <s>Perpetuo meritis habeat.</s>
+                  </seg>
+                  <seg ana="contemptus">
+                     <s>Martyrio dedit articulos,</s>
+                     <s>Curriculos spuit aureolos,</s>
+                     <s>Omnia carnis et illicita</s>
+                     <s>Funditus expulit ut vacua.</s>
+                  </seg>
+                  <seg ana="verba">
+                     <s>Pyrgia verba philosophica</s>
+                     <s>Ventilat, adstruit, et reputat,</s>
+                     <s>Disputat, injicit, atque probat</s>
+                     <s>Arte politus Apostolica.</s>
+                  </seg>
+                  <seg ana="scripta">
+                     <s>Abdita scripta <corr>Theologica</corr>
+                     </s>
+                     <s>Physica protulit armario</s>
+                     <s>Pyrgus, et in ratione procax</s>
+                     <s>Incipit, et trutinans memorat,</s>
+                     <s>Rhetoricum Ciceronis opus</s>
+                     <s>Primitus objicit, ut potius</s>
+                     <s>Hinc reserans ubi templa Deus</s>
+                     <s>Ad species generale genus.</s>
+                     <s>Inde parat <corr>nois</corr> argolicum</s>
+                     <s>Dans laqueum sibi Syllogicum,</s>
+                     <s>Ut triplicet Deitatis opus,</s>
+                     <s>Quo viget ecclesiale decus.</s>
+                  </seg>
+                  <seg ana="repugnare">
+                     <s>Spiritus ancipiti gladio</s>
+                     <s>Domnius armiger haud timidus</s>
+                     <s>
+                        <corr>Platonicos revocat</corr> gemitus</s>
+                     <s>
+                        <corr>Proterit horrificos</corr> strepitus.</s>
+                  </seg>
+                  <seg ana="gradus">
+                     <s>In Deitate gradus varios</s>
+                     <s>Non <corr>reserans</corr> 
+                        <corr>minus haut</corr> nimios,</s>
+                     <s>Nam Deitatis honor parilis</s>
+                     <s>Semper adest, fuit, et fuerat.</s>
+                  </seg>
+                  <seg ana="victoria">
+                     <s>Unde sophistica dicta fugat,</s>
+                     <s>Perfida contudit, et jaculat,</s>
+                  </seg>
+                  <seg ana="victus">
+                     <s>Pyrgus <corr>at</corr> inde nihil valuit,</s>
+                     <s>Namque perire magis placuit.</s>
+                  </seg>
+                  <seg ana="pater-hierusalem">
+                     <s>Sancte Pater, pie Pastor ovans</s>
+                     <s>Hierusalem <corr>polis</corr> aetheream,</s>
+                  </seg>
+                  <seg ana="oratio-gaudia">
+                     <s>Attribue famulis Patriam</s>
+                     <s>Coelica gaudia quo <corr>teneant</corr>.</s>
+                  </seg>
+                  <seg ana="laus">
+                     <s>Gloria multiplicata Patri, </s>
+                     <s>Laus sit <corr>et</corr> Emanuel Domino,</s>
+                     <s>Spiritui decus atque sacro</s>
+                     <s>Qui <corr>monos</corr> atque trinus Deus est.</s>
+                  </seg>  
+               </p>
+               <closer>Amen.</closer>
+            </div>
+            <div type="poesis-hymnus">
+               <head>Hymnus II.</head> 
+
+               <p>
+                  <seg ana="canere-miles">
+                     <s>Laudes eximias, dignaque praelia</s>
+                     <s>Vexillum strenui militis excitat</s>
+                     <s>Pangere, psallere <corr>cum petat</corr> auream</s>
+                     <s>Fuso sanguine lauream.</s>
+                  </seg>
+                  <seg ana="miles-praeparatio">
+                     <s>Almo lorificans pectora spiritu</s>
+                     <s>
+                        <corr>Adleta</corr> Fidei tegmine muniit</s>
+                     <s>Dextram lanceola fulgida <corr>preclua</corr>
+                     </s>
+                     <s>Spei viribus adjuvat.</s>
+                  </seg>
+                  <seg ana="terror-praesidium">
+                     <s>
+                        <corr>Vadit</corr> praevalidus terror in hostibus,</s>
+                     <s>Nam celsus meritis praeminet omnibus,</s>
+
+                     <milestone unit="page" n="503"/>
+
+                     <s>Quem Christi pietas firmiter innovat,</s>
+                     <s>Ne miles suus excidat.</s>
+                  </seg>
+                  <seg ana="praesidium">
+                     <s>
+                        <corr>Regis summopere</corr> munia praebuit,</s>
+                     <s>Hostiles acies undique terruit,</s>
+                     <s>Cujus praesidio pervolat integer</s>
+                     <s>Centenos simul ordines.</s>
+                  </seg>
+                  <seg ana="non-timet">
+                     <s>Eventus varii non timet exitus,</s>
+                     <s>Nam cum Maurilius verbera <corr>arcius</corr>
+                     </s>
+                     <s>Cordis saevitia praeparat, <corr>aggerat</corr>,</s>
+                     <s>Durat, spernit, et incitat.</s>
+                  </seg>
+                  <seg ana="praemium-martyrium">
+                     <s>Nam tendit superos visere coelicos,</s>
+                     <s>Percurrens stadium fortiter anxium</s>
+                     <s>
+                        <corr>Turbat</corr> sacrilegum, respuit ydolum,</s>
+                     <s>Vir damnat pius impium.</s>
+                  </seg>
+                  <seg ana="martyrium">
+                     <s>Tolli Maurilius imperat ocius</s>
+                     <s>
+                        <corr>Ad</corr> Christi famulus sic petit horrida</s>
+                     <s>Ac si delicias carceris obsita</s>
+                     <s>Prae sola Jesu gratia.</s>
+                  </seg>
+                  <seg ana="martyrium-iterum">
+                     <s>Instaurans <corr>iterum</corr> praelia contumax</s>
+                     <s>Sanctum caesareo carcere liberat</s>
+                     <s>
+                        <corr>Promittens</corr> onera, ut colat idola,</s>
+                     <s>Sed martyr fugit, aurea.</s>
+                  </seg>
+                  <seg ana="oratio">
+                     <s>Vernans stellivomo pastor in aethere</s>
+                     <s>Votivas preculas sedulus accipe,</s>
+                     <s>Quas fundunt famuli suppliciter tui,</s>
+                     <s>Fac nos scandere sydera.</s>
+                  </seg>
+                  <seg ana="laus">
+                     <s>Sublimi Domino gloria, laus, honor,</s>
+                     <s>Qui Sanctos pugiles laureat, elevat,</s>
+                     <s>Hostem dum superant roscido sanguine,</s>
+                     <s>Regnans trinitas unitas.</s>
+                  </seg>
+               </p> 
+               <closer>Amen.</closer>
+            </div>
+
+            <div type="poesis-hymnus">
+               <head>Hymnus <num value="3">III</num>.</head>
+
+               <p>
+                  <seg ana="dies">
+                     <s>Aurorae fulgor radiat,</s>
+                     <s>Jubar phoebi jam rutilat,</s>
+                     <s>Cum dies festa redeat,</s>
+                     <s>Clara reducens gaudia.</s>
+                  </seg>
+                  <seg ana="gloria">
+                     <s>Dignanter psallat hodie</s>
+                     <s>Plebs tota Regi gloriae,</s>
+                  </seg>
+                  <seg ana="praemium">
+                     <s>Qui Domnium in aethere</s>
+                     <s>Stolis ornat victoriae.</s>
+                  </seg>
+                  <seg ana="oratio">
+                     <s>Athleta venerabilis</s>
+                     <s>Deo multum amabilis</s>
+                     <s>Largire tuis famulis</s>
+                     <s>Bonis gaudere coelicis.</s>
+                  </seg>
+                  <seg ana="laus">
+                     <s>Magna sit laus Patri Deo,</s>
+                     <s>Potestas Unigenito</s>
+                     <s>Summa virtus Paraclito</s>
+                     <s>In tempore perpetuo.</s>
+                  </seg>
+               </p>
+            </div>
+         </div>
+         <div type="prosimetrum-officium">
+            <head>§ VI. 
+
+Pro Festo S. Domnii
+
+Ratio Officii ecclesiastici, et nunc antiquati. Ex Cod. Ms. Archivi Archiep. Spalat. cui titulus: Officia SS. Patronorum ecclesiae Spalatensis.
+</head>
+                <div>
+                    <head>Ad Vesp. Psalm. consueti de comm. unius martyris.</head>
+                    <lg>
+                        <l>Exposuit primus fidei qui sacra Salonis,</l>
+                        <l>Commigrat e terris hac super astra die.</l>
+                        <closer>Alleluja.</closer>
+                    </lg>
+                    <lg>
+                        <head>Antiph.</head>
+                        <l>Intrepidus Christum clara dum voce fatetur</l>
+                        <l>Domnius, exsecuit saeva machaera caput.</l>
+                        <closer>Allel.</closer>
+                    </lg>
+                    <lg>
+                        <head>Antiph.</head>
+                        <l>Cuncta Saloniadum resonant te littora Domni,</l>
+                        <l>Te noster caetus sentiat usque pium.</l>
+                        <closer>Alleluja.</closer>
+                    </lg>
+                    <lg>
+                        <head>Antiph.</head>
+                        <l>Nos tua festa, pater, plena veneramur acerra,</l>
+                        <l>Domni ne nobis coelica dona neges.</l>
+                        <closer>Allel.</closer>
+                    </lg>
+                    <lg>
+                        <head>Antiph.</head>
+                        <l>Ad te confugimus nos, qui jactamur in undis:</l>
+                        <l>Tu Domni e portu dirige tutus iter.</l>
+                        <closer>Allel.</closer>
+                    </lg>
+                </div>
+            <cb/>
+
+            <div>
+               <head>Capit.</head>
+               <p>Laudemus viros gloriosos, et parentes nostros in generatione sua, multam gloriam fecit Dominus magnificentia sua a saeculo. </p>
+               <closer>Deo et c.</closer>
+            </div> 
+
+                <div type="poesis-hymnus">
+                    <head>Hymnus.</head>
+                    <lg>
+                        <l>Domnium plectro canimus sonoro</l>
+                        <l>Praesulem sacrum, veneranda cujus</l>
+                        <l>Haec dies fulget, rutilatque nostrae</l>
+                        <l>Clara cohorti.</l>
+                    </lg>
+                    <lg>
+                        <l>Qua parens noster nitido cruore</l>
+                        <l>Penitus fuso, pia membra in oris</l>
+                        <l>Hisce deponens, animam coruscis</l>
+                        <l>Intulit astris.</l>
+                    </lg>
+                    <lg>
+                        <l>Domnio patri date serta nati,</l>
+                        <l>Texite aeternas vario corollas</l>
+                        <l>Flore, nam nostri redolet Parentis</l>
+                        <l>Undique virtus.</l>
+                    </lg>
+                    <lg>
+                        <l>Domnius natos aluit labore,</l>
+                        <l>Tradidit nobis fidei nitorem,</l>
+                        <l>Lactis effudit fidei Sacerdos</l>
+                        <l>Ubera primum.</l>
+                    </lg>
+                    <lg>
+                        <l>Mox dapes cretis alias ministrat,</l>
+                        <l>Dum docet fortis tolerare mortem,</l>
+                        <l>Colla dum subdit gladio micanti,</l>
+                        <l>Sanguine pavit.</l>
+                    </lg>
+                    <lg>
+                        <l>Inde translatus super astra coeli,</l>
+                        <l>Et comes factus superis, benigne</l>
+                        <l>Nos fovet natos precibus sereni</l>
+                        <l>Cultor Olympi.</l>
+                    </lg>
+                    <lg>
+                        <l>Pastor o Domni memor esto Nostri</l>
+                        <l>Respice ex alto, Spalatum tuere,</l>
+                        <l>Perfrui tecum queat ut beata</l>
+                        <l>Luce per aevum.</l>
+                    </lg>
+                    <lg>
+                        <l>Sit Deo Trino decus, et potestas,</l>
+                        <l>Laus sit et Sanctis, ope nos misellos</l>
+                        <l>Adjuvent, saevas erebi procellas.</l>
+                        <l>Ne timeamus.</l>
+                    </lg>
+                    <closer>Amen.</closer>
+                </div>
+                <div>
+                    <sp>
+                        <speaker>v.</speaker>
+                        <p>Induit eum Dominus stolam gloriae. Allel.</p>
+                    </sp>
+                    <note place="margin">Ecc. 45.</note>
+                    <sp>
+                        <speaker>R.</speaker>
+                        <p>Et coronavit eum in vasis virtutis. Allel.</p>
+                    </sp>
+                </div> 
+                <div>
+                    <head>Ad magn. Antiph.</head>
+                    <note place="margin">Ecc. 50.</note>
+                    <p>Quasi stella matutina in medio nebulae, et quasi luna plena, et sicut Sol
+                        refulgens Beatus Domnius. </p>
+                    <closer>Alleluja.</closer>
+                </div>
+
+                <div>
+                    <head>Oratio</head>
+                    <p>Omnipotens sempiterne Deus ecclesiae tuae votis propitius aspira, ut B.
+                        Domnii Pontificis, et M. tui precibus adjuvemur, cujus natalitia celebramus. </p>
+                    <closer>Per Dominum nostrum et c.</closer>
+                </div>
+                <div>
+                    <head>Ad Matut. Invitatorium.</head>
+                    <p>Regem Christum, qui Beatum ad nos destinavit Domnium, venite adoremus. </p>
+                    <closer>Allel.</closer>
+                </div>
+
+            <div type="poesis-hymnus">
+               <head>Hymnus</head>
+               <l>Praeclara claro Antistiti</l>
+               <l>Promenda laus est Domnio,</l>
+               <l>Nostrae cohortis inclyto</l>
+               <l>Parenti, et optimo Duci.</l>
+               <l>Primus phalanges instruit</l>
+               <l>Missus Salonas a Petro,</l>
+               <l>Ut signa Christi fulgida</l>
+               <l>Deferret ipse Dalmatis.</l>
+               <l>Quanto labore nuntiat</l>
+               <l>Veram fidem, quam coelitus</l>
+               <l>In carne Verbum detulit,</l>
+               <l>Acres nec horret daemones.</l>
+               <l>Conatur hostem expellere</l>
+               <l>Ex arce Regni nobilis,</l>
+               <l>Cruenta bella praeparat</l>
+               <l>In saeva monstra Tartari.</l>
+               <l>Aspirat ipsi praepotens</l>
+               <l>Caelestis aulae sceptriger</l>
+               <l>Dum mira in aegris efficit,</l>
+               <l>Majora vero in mortuis.</l>
+
+               <!-- Praetor -->
+
+               <milestone unit="page" n="504"/>
+
+               <l>Praetor furit Maurilius</l>
+               <l>Ditis minister impius,</l>
+               <l>Ferit securi Domnium,</l>
+               <l>Ut victor in Coelum evolet</l>
+               <l>Onustus hic victoriis</l>
+               <l>Ereptus imis sordibus</l>
+               <l>Jam splendet inter coelites</l>
+               <l>Clarus corona gloriae.</l>
+               <l>Summo Parenti gloria</l>
+               <l>Sit, et Parentis filio</l>
+               <l>Cum spiritu Paraclyto</l>
+               <l>In sempiterna saecula.</l> 
+               <closer>Amen.</closer>
+            </div>
+
+            <div>
+               <head>In primo Noct. Antiph.</head>
+               <p>Hilares colimus festa Patroni: Par est laetas promere voces. Domnius alta scandit ad astra. Allel.</p>
+               <p>Psalm unius Martyr.</p> 
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>Induit eum Dominus stolam gloriae. Allel.</p> 
+                  <note place="margin">Ecc. 45.</note>
+               </sp>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Et coronavit eum in vasis virtutis. Allel.</p>
+               </sp>
+               <p>Lect de lib. Ecclesiastici. Laudemus viros et c.</p>
+               <p>Respons. ex Com. Mart. temp. Pasch.</p>
+            </div>
+            <div>
+               <head>In 2. Noct. Antiph.</head>
+               <p>Celebris Praesul Domnius istas Roseo tinxit sanguine terras. Cura vigili rexerat ante. Allel.</p>
+               <p>Psalm. unius Mart.</p> 
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>De omni corde suo laudavit Dominum. Allel.</p> 
+                  <note place="margin">Ecc. 47.</note>
+               </sp>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Et dilexit eum, qui fecit illum. Allel.</p>
+               </sp> 
+               <p>Lectiones 2. Noct. uti modo recitantur in die festo. Resp. de Com.</p>
+            </div> 
+            <div>
+               <head>In 3. Noct. Antiph.</head> 
+               <p>Quantus fuerit Domnius, infer, quem formavit puerum sanctis monitis Petrus pluribus annis. All.</p> 
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>Directus est divinitus in paenitentiam gentis. Allel.</p> 
+                  <note place="margin">Ecc. 49.</note>
+               </sp>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Et tulit abominationem impietatis. Allel.</p>
+               </sp> 
+               <p>Lectio S. Evangelii secundum Matthaeum.</p>
+               <p>In illo tempore <note place="margin">
+                     <abbr>Cap</abbr>. 10.</note> dixit Jesus Discipulis suis: Euntes praedicate docentes, quia appropinquavit regnum coelorum, et reliqua. Homilia S. Jo: Chrysostomi. Jam quaeritur, quare Christus contraria praeceperit, nam et c.</p>
+               <p>Ad laudes Antiph. et <abbr>Cap</abbr>. ut in I. Vesp.</p>
+            </div>
+
+            <div>
+               <head>Hymnus</head>
+
+               <lg>
+                  <l>Exaltent alii saxa minacia</l>
+                  <l>Turrita, et Spalati moenia nobilis,</l>
+                  <l>Templum mirificum, magnificas domos,</l>
+                  <l>Priscam gentis originem.</l>
+               </lg>
+               <lg>
+                  <l>Tollant ast alii Caesaris impii</l>
+                  <l>Hostis Christiadum culta palatia,</l>
+                  <l>Robur, divitias, marmora, et imperi</l>
+                  <l>Fasces, stemmata, gloriam,</l>
+               </lg>
+               <lg>
+                  <l>Nos splendore alio fulgere cernimus</l>
+                  <l>Claram urbem Spalati, dum tenet infulam</l>
+                  <l>Primae Metropolis, gaudet et optimo</l>
+                  <l>Patrono sibi Domnio,</l>
+               </lg>
+               <lg>
+                  <l>Splendescit melius nomine Domnii,</l>
+                  <l>Nec non sarcophago, quod Cineres sacros</l>
+                  <l>Claudit, quam Scythicis plena lapillulis</l>
+                  <l>Si passim jubar ederet.</l>
+               </lg>
+               <lg>
+                  <l>Longe nobilior Praesule Domnio,</l>
+                  <l>Quam cunctis Ducibus, tutior insuper;</l>
+                  <l>Felix o Spalatum sub Duce Domnio</l>
+                  <l>Hinc fulget tua gloria,</l>
+               </lg>
+               <lg>
+                  <l>Supremo Domino Coelitum Patri</l>
+                  <l>Sit laus, qui celebri nos decorat viro.</l>
+                  <l>Huic grates hilari pectore fundimus.</l>
+                  <l>Huic sit laus sine termino.</l>
+               </lg> 
+               <closer>Amen.</closer>
+            </div>
+
+            <div>
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>Statuit ei Dominus testamentum aeternum. All.</p>
+               </sp>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Et dedit illi Sacerdotium gentis. Allel.</p>
+               </sp>
+            </div>
+            <div>
+               <head>Ad Ben. Antiph.</head>
+               <p>Quasi flos rosarum in diebus vernis, et quasi lilia in transitu aquae, et sicut thus redolens in diebus aestatis Beatus Domnius. Allel.</p>
+            </div> 
+
+            <cb/>
+
+            <div>
+               <head>Ad Tertiam</head>
+               <p>Capitulum, Laudemus et c.</p>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Induit eum Dominus Stola gloriae. Allel.</p>
+               </sp>
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>Et coronavit eum in vasis virtutis.</p>
+               </sp>
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>De omni corde suo laudavit Dominum. Allel.</p>
+               </sp>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Et dilexit Deum, qui fecit illum. Allel.</p>
+               </sp>
+            </div> 
+            <div>
+               <head>Ad Sextam Capit.</head>
+               <p>Semen eorum, et gloria eorum non derelinquetur,<note place="margin">Ecc. 44.</note> corpora eorum in pace sepulta sunt, et nomen eorum vivit in generationem, et generationem.</p>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>De omni corde suo laudavit Dominum. Allel.<note place="margin">Ecc. 47.</note>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>Et dilexit Deum, qui fecit illum. Allel.</p>
+               </sp> 
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>Directus est divinitus in paenitentiam gentis. All.</p>
+               </sp>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Et tulit abominationem impietatis. Allel. <note place="margin">49.</note>
+                  </p>
+               </sp>
+            </div>
+            <div>
+               <head>Ad Nonam Capit.</head> 
+               <p>In tentatione inventus est fidelis, ideo jurejurando <note place="margin">Ecc. 44.</note> dedit illi gloriam in gente sua crescere illum quasi terrae cumulum.</p>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Directus est divinitus in paenitentiam gentis. All. <note place="margin">Ecc. 49.</note>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>Et tulit abominationem impietatis. Allel.</p>
+               </sp> 
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>Statuit ei Dominus testamentum aeternum. All.<note place="margin">45.</note>
+                  </p>
+               </sp>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Et dedit illi Sacerdotium gentis. Allel.</p>
+               </sp>
+            </div>
+            <div>
+               <p>In 2. Vesp. Antiph. et Capit. et Versic. ut in I. Vesp.</p> 
+               <p>Ad Magn. Antiph.</p>
+               <p>Quasi vas auri solidum ornatum omni lapide <sic>pertioso</sic>, <note place="margin">Ecc. 50.</note> et sicut oliva pullulans, et Cipressus in altitudine se extollens Beatus Domnius. Allel.</p>
+            </div>
+         </div>
+         <div>
+            <head>§ VII.
+
+Ratio Officii ecclesiastici hodierni pro ecclesia et Diaecesi Spalatensi, die VII. Maii. In festo S. Domnii Episcopi et Martyris. Dupl. I. clas. cum octava. Ex proprio libello SS. Patronorum ecclesiae Metropolitanae Spalatensis, Venetiis excuso an. 1690.</head> 
+            <div>
+               <head>Ad Vesperas Antiphonae.</head>
+               <p>Laetamini in Domino diem sacrum recolentes, in quo Beatus Domnius Pontifex et Martyr inclytus ad coelos ascendit. Alleluja. <abbr>Psal</abbr>. Dixit Dominus et c.</p> 
+               <p>O invictum virum, quem neque promissa Tyranni, neque minae moverunt, ne confiteri vellet Christum Dominum. Allel. Psalm. Confitebor et c.</p> 
+               <p>Poenas constanter pertulit, et in Domino consolatus est, mortem contempsit, et vitam invenit. All.<abbr>Psal</abbr>. Beatus vir et c.</p>
+               <p>Gratias agamus Deo, qui nobis talem dedit Patronum; et merita nos juvant, et tuentur. Allel. <abbr>Psal</abbr>. Laudate pueri et c.</p> 
+               <p>Laudetur Dominus, et honoretur Petrus Apostolus, qui per Domnium suum Discipulum, nos fecit Dei populum. Alleluja. <abbr>Psal</abbr>. Laudate Dominum omnes et c.</p>
+            </div>
+            <div>
+               <head>Capitulum Stabunt Justi.
+Hymnus</head>
+
+               <l>Eja sancte Discipule</l>
+               <l>Apostolorum Principis</l>
+               <l>Faveto nobis hodie</l>
+               <l>Laudes tuas canentibus.</l>
+               <l>Ab ipso missus Praeside</l>
+               <l>Primus Salonas Pontifex</l>
+               <l>Et fide Christi reparas</l>
+               <l>Errore malo perditos.</l>
+               <l>Infirma quoque corpora</l>
+               <l>Verbo sanas, et mortuum</l>
+               <l>Matri ploranti filium</l>
+               <l>Ad vitae lucem revocas.</l>
+               <l>Cum Pyrgo palam disputas,</l>
+               <l>Qui videbatur sapiens</l>
+               <l>Sibi, sed vere nescium</l>
+               <l>Religionis approbans.</l>
+
+               <!-- Non -->
+
+               <milestone unit="page" n="505"/>
+
+               <l>Non furens Maurilius</l>
+               <l>Praetor te minis terruit,</l>
+               <l>Spernis saeva supplicia,</l>
+               <l>Dum Christum cunctis praedicas.</l>
+               <l>Ille cervicem gladio</l>
+               <l>Secare quidem potuit,</l>
+               <l>Sed separare minime</l>
+               <l>Te nunc a tuo Domino.</l>
+               <l>Nunc coronatus gloria</l>
+               <l>Nos Praesul noster aspice,</l>
+               <l>Per te adepti gratiam</l>
+               <l>Ut vivamus perenniter.</l> 
+               <closer>Amen.</closer>
+            </div>
+            <div>
+               <sp>
+                  <speaker>v.</speaker> 
+                  <p>Ora pro nobis Beate Domni. Allel.</p>
+               </sp>
+               <sp>
+                  <speaker>R.</speaker> 
+                  <p>Ut digni efficiamur promissionibus Christi. Al.</p>
+               </sp>
+            </div>
+
+            <div>
+               <head>Ad Magnificat. Antiphona.</head>
+               <l>Salve clara dies, qua nostrae Domnius urbis</l>
+               <l>Praesul ad aethereas se tandem sustulit arces,</l>
+               <l>Et victo laetus percepit dona Tyranno,</l>
+               <l>Syderea semper radiantem luce coronam.</l> 
+               <closer>Al.</closer>
+            </div>
+
+            <div>
+               <head>Oratio</head> 
+               <p>Omnipotens sempiterne Deus, ecclesiae tuae votis propitius aspira, ut B. Domnii Pontificis, et Martyris tui precibus adjuvemur, cujus natalitium celebramus. Per Dominum et c.</p>
+            </div>
+            <div>
+               <head>Ad Matutinum.</head>
+               <p>Invitatorium. Exultent in Domino Sancti. All.</p>
+               <p>Venite exultemus et c.</p>
+            </div> 
+
+            <div>
+               <head>Hymnus.</head>
+
+               <l>Domni Beate pontifex,</l>
+               <l>Martyrque Christi inclyte,</l>
+               <l>Adesto nobis protinus</l>
+               <l>Natalem tuum colentibus.</l>
+               <l>Hic sacer ille dies est,</l>
+               <l>Quo terras victor deseris,</l>
+               <l>Et coeli clara sydera,</l>
+               <l>Mundum triumphans penetras.</l>
+               <l>Inde nostras ut audias</l>
+               <l>Preces, oramus supplices,</l>
+               <l>Et commendatos facias</l>
+               <l>Uni trinoque Domino.</l>
+               <l>Qui nos transferre satagat</l>
+               <l>De valle plena lacrymis</l>
+               <l>Ad Beatorum gaudia</l>
+               <l>Per infinita saecula.</l> 
+               <closer>Amen.</closer>
+            </div>
+
+                <div>
+                    <head>In tribus nocturnis Antiphonae, Versiculi, Responsoria ex communi MM.
+                        tempore Paschali.</head>
+                    <list>
+                        <head>Lectiones <sic>primis</sic> Nocturni.</head>
+                        <item>
+                            <cit>
+                                <bibl>De libro Ecclesiastici <abbr>cap</abbr>. 44.</bibl>
+                                <quote>Laudemus viros gloriosos et c.</quote>
+                            </cit>
+                        </item>
+                    </list>
+                    <list>
+                        <head>Lectiones secundi Nocturni.</head>
+                        <item>
+                            <bibl>Ex vita S. Domnii VI.</bibl>
+                        </item>
+                    </list>
+                    <list>
+                        <head>In tertio Nocturno.</head>
+                        <item>
+                            <cit>
+                                <bibl>Evangelium.</bibl>
+                                <quote>Designavit Dominus et c.</quote>
+                            </cit>
+                        </item>
+                        <item>
+                            <bibl>Lectiones ex Homilia S. Gregorii Papae 17. in Evangelia.</bibl>
+                        </item>
+                    </list>
+                    <list>
+                        <head>Ad Laudes et per horas;</head>
+                        <item>Antiphonae, ut in primis Vesperis.</item>
+                    </list>
+                    <list>
+                        <head>Capitulum</head>
+                        <item>Stabunt justi, ut sup.</item>
+                    </list>
+                </div>
+
+                <div>
+                    <head>Hymnus.</head>
+
+                    <l>Laudes innovamus Domnio</l>
+                    <l>Oris, et cordis jubilo,</l>
+                    <l>Cum purae mentis gaudio</l>
+                    <l>Grates agamus Domino.</l>
+                    <l>Natalem sacrum colimus</l>
+                    <l>Ejus, quem nobis coelitus</l>
+                    <l>Bonis ornatum omnibus</l>
+                    <l>Pastorem datum credimus.</l>
+                    <l>In fide firmus perstitit,</l>
+                    <l>Nec praedicare destitit</l>
+                    <l>Christum, qui mortem pertulit,</l>
+                    <l>Et vitam nobis contulit.</l>
+
+                    <cb/>
+
+                    <l>Nil minas gentis perfidae</l>
+                    <l>Timens, subjecit cupide</l>
+                    <l>Cervicem frameae infidae</l>
+                    <l>Laudis amore solidae.</l>
+                    <l>Martyr profuso sanguine</l>
+                    <l>Pro Christi Jesu nomine,</l>
+                    <l>Multo repletus lumine,</l>
+                    <l>Ascendit regnum gloriae.</l>
+                    <l>Relicto mundo labili</l>
+                    <l>Sedet in sede stabili,</l>
+                    <l>Et modo non estabili</l>
+                    <l>Fulget luce mirabili</l>
+                    <l>Ante stellatum solium,</l>
+                    <l>Et vultum Regis omnium,</l>
+                    <l>Suscepit post martyrium</l>
+                    <l>Perennis gaudii praemium.</l>
+                    <l>Per hujus ergo merita</l>
+                    <l>Deus, et gesta inclyta</l>
+                    <l>Cum pietate solita</l>
+                    <l>Dimitte nobis debita.</l>
+                    <l>In multis te offendimus,</l>
+                    <l>Sed parce confitentibus,</l>
+                    <l>Et nos placatus precibus</l>
+                    <l>Libera malis omnibus.</l>
+                    <l>Faveto nostris Dominis</l>
+                    <l>In pace, et bello Venetis,</l>
+                    <l>Ut rebus sibi redditis</l>
+                    <l>Te laudent totis animis.</l>
+                    <l>
+                  <sic>Frange</sic> Turcarum rabiem</l>
+                    <l>Tuorum tuens aciem,</l>
+                    <l>Laetam ostende faciem,</l>
+                    <l>Et nobis dona requiem.</l>
+                    <l>Morbum pelle pestiferum;</l>
+                    <l>Languoremque mortiferum,</l>
+                    <l>Et repentinae liberum</l>
+                    <l>Mortis hunc redde populum.</l>
+                    <l>Repressa semper grandine,</l>
+                    <l>Riga secundo flumine,</l>
+                    <l>Et reple frugum germine</l>
+                    <l>Nostros agellos, Domine.</l>
+                    <l>Post haec purgatos sordibus</l>
+                    <l>Nos redde coeli sedibus,</l>
+                    <l>Ut cum beatis omnibus</l>
+                    <l>Te extollamus laudibus.</l>
+                    <l>Sit tibi semper gloria;</l>
+                    <l>Qui surgens cum victoria</l>
+                    <l>Sedes in Patris dextera</l>
+                    <l>Per sempiterna saecula.</l>
+                    <closer>Amen.</closer>
+                </div>
+
+                <div>
+                    <sp>
+                        <speaker>v.</speaker>
+                        <p>Ora pro nobis et c.</p>
+                    </sp>
+                </div>
+
+                <div>
+                    <head>Ad Benedictus. Antiphona.</head>
+                    <p>
+                  <seg ana="invocatio">
+                     <s>Pontificum norma, splendor, pretiosaque gemma,</s>
+                    <s>Serta venustatis retinens cum martyrizatis,</s>
+                  </seg>
+                    <seg ana="oratio">
+                     <s>Scandere celsorum da nobis regna polorum,</s>
+                  </seg>
+                    <seg ana="ratio">
+                     <s>Qui barathri claustris puerum precibus revocasti.</s>
+                  </seg>
+               </p>
+                    <closer>Al.</closer>
+                </div>
+                <div>
+                    <p>In secundis Vesperis omnia, ut in primis: <cit>
+                            <bibl>ultimus <abbr>Psal</abbr>.</bibl>
+                            <quote>Credidi et c.</quote>
+                        </cit>
+               </p>
+                </div>
+                <div>
+                    <head>Ad Magnificat. Antiphona.</head>
+                    <l>Magnificate Deum, Petro quoque solvite grates,</l>
+                    <l>Namque ducem nobis misit, qui nocte fugata</l>
+                    <l>Erroris, circumfudit nos lumine veri,</l>
+                    <l>Ne quis posset iter stabilis non nosse salutis.</l>
+                    <closer>Allel.</closer>
+                </div>
+                <div>
+                    <head>Intra <sic>ocatavam</sic>. Ad Magnificat. Antiphona.</head>
+                    <l>O quam sancta dies, o quam festiva refulget</l>
+                    <l>Viribus o totis, castis celebrandaque votis,</l>
+                    <l>Qua bonitate bonus noster meat astra Patronus</l>
+                    <l>Domnius ad vitae gaudia perpetuae.</l>
+                    <closer>Allel.</closer>
+                </div>
+                <div>
+                    <head>Pro die octava. Oratio.</head>
+                    <p>Deus, qui nos Sancti Domnii Martyris atque Pontificis natalis concedis diem
+                        celebrare octavum, praesta quaesumus, ut cujus recolimus festa, per ejus
+                        gradiamur exempla. </p>
+                    <closer>Per Dominum et c.</closer>
+                </div> 
+
+            <!-- Missa -->
+
+            <milestone unit="page" n="506"/>
+            <div>
+               <head>Missa propria pro festo S. Domnii Episcopi et Martyris.</head>
+               <div>
+                  <head>Introitus.</head>
+                  <p>Gaudeamus omnes in Domino diem festum celebrantes sub honore B. Domnii Martyris, de cujus passione gaudent Angeli, et collaudant filium Dei Allel. Alleluja. Exultate justi in Domino, rectos decet collaudatio.</p> 
+                  <closer>Gloria et c.</closer>
+               </div>
+               <div>
+                  <head>Oratio.</head>
+                  <p>Omnipotens sempiterne Deus ecclesiae tuae votis propitius aspira, ut Beati Domnii Pontificis, et Martyris tui precibus adjuvemur, cujus natalitia celebramus.</p> 
+                  <closer>Per Dominum et c.</closer>
+               </div>
+               <div>
+                  <head>Epist.</head>
+                  <p>Stabunt justi et c.</p>
+               </div>
+               <div>
+                  <head>Graduale.</head>
+                  <p>Beatus Domnius Petri Apostoli discipulus ab ipso Salonas missus, primus nobis Christum evangelizavit, et viam salutis ostendit. Hodie B. Domnius migravit ad Dominum, dupliciaque ab ipso accepit, et Pontificalis dignitatis coelestem stolam, et immarcescibilem coronam gloriosi martyrii.</p> 
+                  <p>All. All.</p> 
+                  <p>Ave Beate Domni unica spes gentis tuae. Ave Pontifex, et Apostole credulitatis nostrae. Ave speculum sanctitatis, et justitiae. Per te Christo credidimus. Per te in Christo salvemur. Ora pro populo, interveni pro Clero, ut nullus de tuis praeda fiat hostis.</p> 
+                  <p>Allel.</p> 
+                  <p>Posuisti Domine super caput ejus coronam de lapide pretioso.</p> 
+                  <p>Alleluja.</p>
+               </div>
+               <div>
+                  <head>Evangelium.</head> 
+                  <p>Designavit Dominus et c.</p> 
+                  <closer>Credo.</closer>
+               </div>
+               <div>
+                  <head>Offertorium.</head>
+                  <p>Ave Beate Domni unica spes Spalati. Ave gemma fidei nostrae. Ave lumen Dalmatiae. Ora pro nobis Christum omni tempore. Allel.</p>
+               </div> 
+               <div>
+                  <head>Secreta.</head>
+                  <p>Hostias tibi, quaesumus Domine, B. Domnii Pontificis et Martyris tui dicatas meritis benignus assume, et ad perpetuum nobis tribue provenire subsidium.</p> 
+                  <closer>Per Dominum et c.</closer>
+               </div>
+               <div>
+                  <head>Communio.</head> 
+                  <p>Te summe Praesul poscimus, corde, ore et vocibus, ut nos venturo Judici commendes prece supplici.</p> 
+                  <closer>Alleluja.</closer>
+               </div>
+               <div>
+                  <head>Postcom.</head>
+                  <p>B. Domnii Pontificis et Martyris tui, Domine, precibus confidentes, praesta quaesumus, ut per ea, quae sumpsimus, aeterna remedia sentiamus.</p> 
+                  <closer>Per Dominum nostrum et c.</closer>
+               </div> 
+               <div>
+                  <p>In die octava Missa sicut in die festo, praeter orationes, quae sequuntur.</p>
+                  <p>Deus, qui nos S. Domnii Martyris atque Pontificis natalis concedis diem celebrare octavum: praesta quaesumus, ut cujus recolimus festa, per ejus gradiamur exempla. Per Dominum nostrum.</p>
+               </div> 
+               <div>
+                  <head>Secreta.</head>
+                  <p>Suscipe Domine sacrificium placationis et laudis, quod nos intervenientibus S. Domnii Martyris meritis, cujus recolimus festa, et perducat ad veniam, et ad perpetuam gratiarum actionem constituat.</p> 
+                  <closer>Per Dominum et c.</closer>
+               </div>
+               <div>
+                  <head>Postcom.</head> 
+                  <p>S. Domnii Martyris tui, atque Pontificis natalitia recolentes, te suppliciter deprecamur, ut ejusdem precibus, hoc idem nobis semper indulgentiae causa sit et salutis.</p> 
+                  <closer>Per Dominum.</closer>
+               </div> 
+               <div>
+                  <head>Die XXIX. Julii.</head>
+                  <p>In festo translationis S. Domnii Ep. et Martyr. Duplex.</p> 
+                  <p>Omnia de Com. unius Martyr. extra tempus Paschale, exceptis iis, quae hic habentur propria.</p>
+                  <div>
+                     <head>Ad vesper. Antiph.</head>
+
+                     <cb/>
+
+                     <p>Qui me confessus fuerit et c. Dixit et c. cum reliquis Psalmis de Dominica, et loco ultimi, <abbr>Psal</abbr>. Laudate Dominum omnes gentes.</p>
+                  </div>
+                  <div>
+                     <head>Capitul.</head> 
+                     <p>Beatus Vir et c.</p>
+                  </div>
+
+                  <div type="poesis-hymnus">
+                     <head>Hymnus</head>
+
+                     <l>Dies refulget annua</l>
+                     <l>Nobis reducens gaudia</l>
+                     <l>Translationis Domnii</l>
+                     <l>Pignore sacro celebris.</l>
+                     <l>Odas fundat mellifluas,</l>
+                     <l>Laudes expromat debitas</l>
+                     <l>Coetus noster pro munere,</l>
+                     <l>Ejus suscepto corpore.</l>
+                     <l>Miraculis innumeris</l>
+                     <l>Suis praeclaris meritis</l>
+                     <l>Diem signavit nobilem,</l>
+                     <l>Quae colitur solemniter.</l>
+                     <l>Infantum turmam satiat,</l>
+                     <l>Dum tua membra bajulant,</l>
+                     <l>Aqua sicco de lapide</l>
+                     <l>Quae mire manat hodie.</l>
+                     <l>Non sunt reperta corpora</l>
+                     <l>Morbis oppressa gravibus,</l>
+                     <l>Quae remanerent coelicae</l>
+                     <l>Privata dono gratiae.</l>
+                     <l>Imbrem effunde desuper</l>
+                     <l>Divinum Martyr inclyte,</l>
+                     <l>Tui favore meriti</l>
+                     <l>Quo satientur famuli.</l>
+                     <l>Custodi tuos Servulos</l>
+                     <l>Canentes tibi modulos,</l>
+                     <l>Eisque Pater gloriam</l>
+                     <l>Efflagita perpetuam.</l>
+                     <l>Urbem, et plebem Spalati</l>
+                     <l>Aspectu perenni recrea,</l>
+                     <l>Cui tua membra conferunt</l>
+                     <l>Et decus, et praesidium.</l>
+                     <l>Sit Genitori, Genito</l>
+                     <l>Laus et jubilatio</l>
+                     <l>Cum spiritu Paraclyto</l>
+                     <l>In sempiterna saecula.</l> 
+                     <closer>Amen.</closer>
+                  </div>
+                  <div>
+                     <sp>
+                        <speaker>v.</speaker> 
+                        <p>Ora pro nobis B. Domni,</p>
+                     </sp>
+                     <sp>
+                        <speaker>R.</speaker> 
+                        <p>Ut digni efficiamur promissionibus Christi.</p>
+                     </sp>
+                  </div>
+                  <div>
+                     <head>Antiph. ad Magnificat:</head> 
+                     <p>O quam sancta dies et c. ut in ejus festo natali.</p>
+                  </div>
+                  <div>
+                     <head>Oratio</head>
+                     <p>Omnipotens sempiterne Deus, qui in hac translatione anniversaria B. Domnium Apostolicum virum innumeris virtutibus decoratum, pium Pontificem, et magnum Patronum populo tuo ordinari voluisti; concede propitius, ut apud misericordiam paternae pietatis tuae, meritis ejus et intercessionibus adjuvemur.</p> 
+                     <closer>Per Dominum nostrum et c.</closer>
+                  </div>
+                  <div>
+                     <p>Ad Matut. Invit. Hym. Antiph. <abbr>Psal</abbr>. de Com. un. Mart. Lect. I. Noct. Ex lib. Sap. Laudemus Viros gloriosos et c. ut in die festo Natali. Lect. 4. Ex hist. Translationis, 5. et 6. Ex Serm. S. Augustini: Triumphalis et c. In 3. Noct. Homilia S. Gregorii in Evang. Si quis venit ad me.</p>
+                  </div>
+                  <div>
+                     <head>Ad Laud. Antiph.</head> 
+                     <p>Qui me confessus fuerit et c. ut in Com. un. Martyr.</p>
+                  </div>
+                  <div>
+                     <head>Ad Benedictus Antiph.</head> 
+                     <p>Pontificum norma, et c. ut in die festo Natali.</p>
+                  </div>
+                  <div type="poesis-hymnus">
+                     <head>In 2. Vesp. Hymn.</head> 
+                     <p>Dies refulget et c. ut supra. Versic. Ora pro nobis et c. Antiphona ad Magnif. O quam sancta dies, ut supra et c. in 1. Vesp.</p>
+                  </div>
+                  <div>
+                     <p>Missa ut in Com. un. Martyr. et Pontificis Statuit exceptis orationibus, quae sequuntur.</p>
+                  </div>
+                  <div>
+                     <head>Oratio .</head>
+                     <p>Omnipotens sempiterne Deus, qui in hac Translatione anniversaria et c. ut supra.</p>
+                  </div>
+
+                  <!-- Secreta -->
+
+                  <milestone unit="page" n="507"/>
+
+                  <div>
+                     <head>Secreta.</head>
+                     <p>His, quaesumus Domine, muneribus intende placatus, et tribue supplicatione gloriosi Pontificis, et Martyris tui Domnii, nos a peccatis omnibus absolvi, et coelesti gratia ditari.</p> 
+                     <closer>Per Dominum nostrum et c.</closer>
+                  </div> 
+                  <div>
+                     <head>Postcom.</head> 
+                     <p>Refecti vitalibus alimoniis, quaesumus Domine Deus noster, ut intercedente B. Domnio Pontifice et Martyre tuo, quod ore sumpsimus, pura mente capiamus.</p> 
+                     <closer>Per Dominum nostrum et c.</closer>
+                  </div>
+                  <div type="poesis-hymnus">
+                     <head>Alter Hymnus
+De Translatione SS. Anastasii et Domnii.</head>
+                     <l>Sacra scrutantur pignora,</l>
+                     <l>Pia Sanctorum corpora</l>
+                     <l>Domnii, et Anastasii</l>
+                     <l>Jussu devoti populi.</l>
+                     <l>At Praesul venerabilis</l>
+                     <l>Joannes Deo amabilis</l>
+                     <l>Confortat cives nobiles,</l> 
+                     <l>At laudat et ignobiles,</l>
+                     <l>Inter ruinas vepribus</l>
+                     <l>Condensus atque frondibus</l>
+                     <l>Urbis Salonae fodere,</l>
+                     <l>Nutu divinae gratiae.</l>
+                     <l>Muneris tanti praemium</l>
+                     <l>Repertum Anastasium</l>
+                     <l>Primo transferunt Spalatum,</l>
+                     <l>Deinde Patrem Domnium.</l>
+                     <l>Ubi multa miracula,</l>
+                     <l>Virtutes, et prodigia</l>
+                     <l>Eorum fiunt meritis</l>
+                     <l>Ad salutem Christicolis.</l>
+                     <l>Laetatur urbs egregia,</l>
+                     <l>Devota sumat gaudia,</l>
+                     <l>Thesauro tam perfulgido</l>
+                     <l>Suscepto cum tripudio.</l>
+                     <l>Catervam Christi Martyres</l>
+                     <l>Nostras ad sedes stabiles,</l>
+                     <l>Ferte frui coelestibus,</l>
+                     <l>Vestris Orationibus.</l>
+                     <l>Deo Patri sit gloria,</l>
+                     <l>Laus quoque sit perpetua</l>
+                     <l>Filio Unigenito</l>
+                     <l>Cum Spiritu Paraclito.</l> 
+                     <closer>Amen.</closer>
+                  </div>
+               </div>
+            </div>
+            <div type="prosa-descriptio">
+               <head>CAPUT XVIII.
+
+De templo et cultu S. Domnii in insulis Diomedaeis.</head>
+
+               <div>
+                  <head>§ I.
+ 
+ Cultus S. Domnii per B. Joannem e Fulgineo Monachum ac Martyrem in Diomedaeas insulas allatus esse videtur.</head>
+ 
+                  <p>B. Joannes natus est Fulginei anno secundi saeculi circiter vigesimo, loco honesto, et oppido Umbriae in primis nobili, unde illi a Fulgineo cognomen obvenit. Is anno quarto et sexagesimo ejusdem saeculi <note place="margin">Joannes a Fulgineo in Diomedaeas insulas se recepit.</note> cum ecclesia sub Marco Aurelio crudelem in modum exagitari rursus coepisset, patria profugus se recepit in hasce insulas, ab littore Apuliae haud ita late interjecto mari disjunctas, quas olim Veteres appellabant Diomedaeas, quod illuc Diomedes Rex Aetoliae post Trojam excisam appulerit, ibique, postquam aliquot annos regnasset, ut ferunt, diem suum obierit. Deinde vero cum tres numero essent, modico interfluente Euripo discretae, ex eo Trimitum, seu Trimitarum insulae nominari coeperunt; quamquam verius eas 
+
+<cb/>
+
+hoc vocabulo appellatas dixeris ab una earum principe, quam Tacitus Annal. lib. 4. Trimerum vocat. Tenet fama, litterisque multorum est memoriae traditum, hunc Joannem a Fulgineo fuisse illum ipsum Eremicolam, de quo in tabulis Trimitanis mentio fit sane honorifica. Huic ergo, ut illae tabulae memorant, nocte quadam vigilanti augustissima specie, ac beatissimo lumine fulgens Virgo Deipara sese palam ostendit, <note place="margin">Templum ibidem Deiparae condit</note> eumdemque jussit in hasce insulas trajicere, ubi solitariam vitam ageret, Deique parentis nomen ac religionem propagaret. Quo illi viso, jussuque mirifice laetus nihil morae interposuit, quin extemplo Virginis mandata exsequeretur. Ergo simulatque locum sibi divinitus ostensum pervenit, nihil prius sibi faciendum censuit, quam ut templum exstrueret, quod Deiparae in coelum assumptae titulo exornavit. Hoc templum deinde saeculo quarto jam inito Alexander quidam Episcopus veteri solemnique ritu consecravit, cum S. Sylvester Romanum Pontificatum gereret, imperium vero Constantinus Magnus administraret. Joannes autem asperrimae vitae institutum aggressus brevi apud incolas magnam virtutis et sanctimoniae laudem sibi conciliavit. Quocirca celebritatem hominum, famamque sanctitatis ut vitaret, in patriam redeundi consilium cepit; quo cum venisset, egregiam religionis causa mortem oppetiit. <note place="margin">rediit in patriam, <sic>et</sic> Martyrii palmam adipiscitur.</note> Ex Antonio Beatillo de Sanctis Umbriae Tom. I. pag. 63. et Tomo 3. pag. 239. sub die 29. Decembris.
+Jam vero haud est improbabile B. Joannem a Fulgineo virum eximia religione et sanctitate primum auctorem Trimitantis fuisse, ut S. Domnium praecipuo quodam studio ac veneratione prosequerentur. <note place="margin">Joannes auctor cultus S. Domnii in Diomedaeis insulis.</note> Etenim cum antiquissimus sit cultus, qui ab illarum insularum incolis S. Domnio hodieque adhibetur, et omnem superiorum temporum memoriam antecedat; nisi ejus initium ad B. Joannem referatur, nihil usquam reperies, unde ejusdem originem repetere possis. Quocirca conjectari licet ab ipsomet Joanne una cum Deiparae templo aediculam exstructam fuisse S. Domnio, <note place="margin">cui etiam construxit aediculam.</note> quem et ipse ingenti honore coleret, et ab aliis pari religione cultum esse vellet. Joannis inde auctoritas et exemplum apud posteros valuit. Credibile porro est ipsimet Joanni Salonitanos auctores fuisse colendi S. Domnii, quippe cum ad eas insulas e regione obversas littori urbique Salonitanae, sive commercii causa, sive ex itinere appellare consueverint. Praeterea a quibus de sanctitate et miraculis S. Domnii multa et praeclara accepisset, ab iisdem, ut opinari fas est, exemplum sumpsit ejusdem cultus cum Deiparae Virginis religione conjungendi. Nam Salonitani jampridem corpus S. Domnii in urbem illatum in eodem templo perhonorifice condiderunt, quod et auspiciis augustissimae Coelitum Reginae ab ipsomet S. Domnio consecratum fuerat. Huc accedit, quod per idem tempus S. Domnii sepulchrum, ut ejus Acta testantur, multorum atque illustrium miraculorum gloria florebat, quorum celebritas et fama longe lateque vulgata, in has insulas ab ipsis Salonitanis ultro citroque commeantibus deferri potuit.</p>
+               </div> 
+
+               <div>
+                  <head>§ II. 
+
+Insulae Diomedaeae antiqua S. Domnii religione insignes a viris sanctissimis cultae et nobilitatae.</head>
+
+                  <p>Diomedaeis insulis vel ad religionis incrementum, vel ad nominis celebritatem plurimum addidit vetus ac puerillustre coenobium S. Benedicti, <note place="margin">Coenobium S. Benedicti.</note>
+
+                     <!-- viro- -->
+                     <gap/>
+                  </p>
+               </div>
+
+            </div>
+            <milestone unit="page" n="508"/>
+         </div>
+        </body>
+
+ 
+
+            </text>
+</TEI>

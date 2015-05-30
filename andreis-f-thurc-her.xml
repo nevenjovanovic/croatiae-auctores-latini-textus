@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="andreis-f-thurc-her">
+         <titleStmt>
+            <title>Ad Deum Contra Thurcas Oratio Carmine Heroico, versio electronica</title>
+            <author key="and02">
+               <name xml:lang="hr">Andreis, Franjo Trankvil</name>
+               <date>1490-1571</date>
+            </author>
+            <editor>Neven Jovanović</editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Electronice descripsit</resp>
+               <name>Željka Salopek</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>
+          Digitalizat izvornog izdanja (1518).
+        </p>
+         </editionStmt>
+         <extent ana="C">Mg:C 326 versus, verborum 2269</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+          projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+          Hrvatska.  <date when-iso="2009-01">Siječnja 2009</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <biblStruct>
+               <monogr>
+
+                  <author>Andreis, Franjo Trankvil</author>
+                  <title>Hec continentur in hoc opusculo: Tranquilli Parthenii Dalmate Ad Deum contra
+              Turcas oratio carmine heroico, ejusdem Epistola ad clar. ac nob. virum Hieronymum de
+              Croaria in Tapphain ... </title>
+                  <imprint>
+                     <pubPlace>
+                        <add>Nuernberg</add>
+                     </pubPlace>
+                     <publisher>
+                        <add>Johann Stuchs</add>
+                     </publisher>
+                     <date>1518</date>
+                  </imprint>
+                  <extent>
+                     <add>8</add> f. ; 8o </extent>
+               </monogr>
+               <note>Reference: DGK, 4, col. 690. - Reference: VD 16, T. 1, pag. 399.</note>
+               <relatedItem type="digitalizat">
+                  <ref type="internet"
+                       target="http://nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004906-0">BSB, VD16</ref>
+               </relatedItem>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy xml:id="genus">
+          <!-- kontrolirani katalog za žanrove, za novolatinski? -->
+               <category>
+                  <catDesc>genera litteraria</catDesc>
+               </category>
+            </taxonomy>
+
+            <taxonomy xml:id="aetas">
+          <!-- gdje je kontrolirani katalog za periodizaciju? -->
+               <category>
+                  <catDesc>aetates</catDesc>
+               </category>
+               <category xml:id="locus">
+                  <catDesc>locus</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1518-03-07" period="15xx_1_third">1518-03-07</date>
+            <placeName>Nürnberg</placeName>
+            <placeName>Ingoldstadt</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - carmen</term>
+               <term>poesis - sylva</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <name>Luka Špoljarić</name>
+            <date>2012-04-30</date>
+        Novo, unificirano zaglavlje.
+      </change>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2010-10-26</date> zaglavlje </change>
+
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2009-01-11T00:02:55</date>
+         </change>
+      </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+      <front>
+         <titlePage>
+            <titlePart>Hec continentur in hoc opusculo.</titlePart>
+            <titlePart>Tranquilli Parthenii Dalmate ad Deum Contra Thurcas Oratio Carmine Heroico.</titlePart>
+            <titlePart>Eiusdem Epistola ad Clarissimum ac Nobile uirum Hieronymum de Croaria in Taphain
+          utriusque Iuris Doctorem.</titlePart>
+            <titlePart>Item Epigramma Viti Verleri: Dauid Rotmund buchornensis: et Theoderici Spett
+          Prepositi Stuchardiensis.</titlePart>
+         </titlePage>
+
+         <pb/>
+
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Vitus Verlerus</head>
+
+            <l n="1">Sunt quibus alta placet / turritaque tecta domorum</l>
+            <l n="2">Erigere: et Triuiae marmora celsa Deae</l>
+            <l n="3">Pyramidum moles: vasti rhodos aurea Phoebi</l>
+            <l n="4">Laudantur Solymi templaque sacra iugi.</l>
+            <l n="5">Nec non belligeris Babylon pulsata quadrigis:</l>
+            <l n="6">Et mausolei saxa superba rogi</l>
+            <l n="7">Et Nasamonicas qui iactet cornibus aras /</l>
+            <l n="8">Praescia quas fontis saepius vnda rigat.</l>
+            <l n="9">Haec quamquam nimis est hominum mirata vetustas:</l>
+            <l n="10">Quae nisi terrenas concelebrabat opes.</l>
+            <l n="11">Et septem dixit pulchri spectacula mundi</l>
+            <l n="12">Eximia in variis arte reposta locis.</l>
+            <l n="13">Sunt tamen aut valido Neptuni versa tridente:</l>
+            <l n="14">Inclyta vel carpsit nomina tempus edax.</l>
+            <l n="15">Aut quatiens tremulo terras vis abdita motu:</l>
+            <l n="16">Bellicus aut duro destruit aere furor.</l>
+            <l n="17">Horrifer aut Boreas: simul et vulcania pestis</l>
+            <l n="18">Paulatim fines iussit habere suos.</l>
+            <l n="19">Carmina sunt ullo nunquam moritura sub aeuo:</l>
+            <l n="20">Non ea posteritas perdere sera potest.</l>
+            <l n="21">Carmina tam late famam sparsere per orbem /</l>
+            <l n="22">Vt vix sint ipsis obliteranda Deis.</l>
+            <l n="23">Carmina longeuam pariunt per tempora vitam:</l>
+            <l n="24">Vates aetati succubuisse vetant.</l>
+            <l n="25">Praecipuae si sint (res est haec magna profecto)</l>
+            <l n="26">Carmina Pierii plena liquore faui.</l>
+            <l n="27">Quale meus nuper cecinit non paupere vena.</l>
+            <l n="28">Tranquillus: stupidos qui facit ore uiros.</l>
+            <l n="29">Quod si forte negas odiis commote proteruis</l>
+            <l n="30">Liuide / uel stygio pectora felle madens.</l>
+            <l n="31">Nunc age peruigili modo voluas mente libellum:</l>
+            <l n="32">Quem leuat heroo fama sub astra sono.</l>
+            <l n="33">Mox dices genius dabit illis saecula chartis:</l>
+            <l n="34">Atque est apposito pagina digna Cedro:</l>
+         </div>
+         <pb/>
+
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Dauid Rotmund Buchornensis.</head>
+
+            <l n="1">Non opus est lapythum / non discere. bella Gygantum</l>
+            <l n="2">Thurca ferus populo perstat utroque magis.</l>
+            <l n="3">Cui quaesisse satis non est tot regna tot urbes:</l>
+            <l n="4">Imminet horrenda (Tygris vt atra) face.</l>
+            <l n="5">Colligit ingentes Spaciosa per oppida vires /</l>
+            <l n="6">Imperio subigat quicquid in orbe patet.</l>
+            <l n="7">Id Deus auertat coelestia numina poscit</l>
+            <l n="8">Parthenius / vitae nostra pericla docens.</l>
+            <l n="9">Hoc et Pierii latices in carmine sparsi /</l>
+            <l n="10">Et contorta manu tela trisulca uigent.</l>
+            <l n="11">Non humana putes moturum pectora tantum</l>
+            <l n="12">Cogere sed summum sub sua vota Iouem:</l>
+         </div>
+
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Theodericus Spett Prepositus Stushardiensis.</head>
+
+            <l n="1">Horrida Thurcarum / minitantiaque agmina sanctis</l>
+            <l n="2">Christicolis / magno vix memoranda metu /</l>
+            <l n="3">Tranquillus breuiter / mira descripsit et arte:</l>
+            <l n="4">Vt noua Meonii surgere plectra putes.</l>
+            <l n="5">Ah quales lachrymas / fundit quae vota Tonanti.</l>
+            <l n="6">Flecteret his precibus flumina / saxa / feras.</l>
+         </div>
+
+         <pb/>
+
+         <div type="prorsa-epistula">
+            <opener>Tranquillus Parthenius Andronicus Dalmata Clarissimo ac Nobili viro Hieronymo de
+          Croaria in Tapfaim vtriusque Iuris Doctori. <abbr>S. D.</abbr>
+            </opener>
+
+            <p>Etsi vir humanissime non satis propriae calamitates mihi deploratae sunt, tamen quum
+          videam Rempublicam Christianam immanissimorum Thurcarum rabie vehementer labefactatam /
+          maioremque in dies subituram esse iacturam / a lachrymis temperare non potui. Ferocissimus
+          quidem ac infensissimus hostis instat nostris ceruicibus: atque vt eodem tempore litora
+          omnesque oras infestet / ingentes et terrestres / et nauales exercitus vndique cogit.
+          Superioribus annis / quum adhuc esset infirmior / Venetis olim potentissimo terra marique
+          populo / tunc etiam Gallorum / Hispanorumque / ac aliis auxiliaribus copiis potentiori
+          munitissimas in Euboea / Grecia / Achaia / Istmo / Peloponneso / Epiro ciuitates vi
+          ademit: Dalmatiam aut deuastauit / aut occupauit / aut tributariam reddidit. Nunc
+          debellatis bellicosissimis nationibus / subacta Cilicia / Antiochia / Syria / Phoenicia /
+          Mesopotamia / Iudea Palestina / immissoque in Lybiam per Canopicum Nili Ostium imperio /
+          quibus Christianorum viribus prohibebitur / quominus populationibus et incendiis totam
+          Europam deformet: nisi forte Principum discordiam / ac nostra scelera nobis profutura
+          speremus. Idcirco Deum Optimum Maximum ut vires atque animos atrocissimae gentis infringat
+          / hoc carmine deprecatus sum. Quod tibi religiosissimo / et communia semper mala miseranti
+          / meique imprimis amantissimo dedicaui / vt sub tuo nomine nullam grauiorem censuram
+          expaueat. </p>
+            <closer>
+               <salute>Vale.</salute>
+               <dateline>Ex <placeName>Ingolstadio</placeName>
+                  <date when="1518-03-07">Nonis Marciis. M.D.xviii</date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <pb/>
+
+      <body>
+         <div type="poesis-carmen" met="hexameter">
+            <head>
+               <abbr>
+                  <sic>.F. .A.</sic>
+               </abbr> Tranquilli Parthenii Dalmatae contra Thurcas communes Christianorum hostes ad Deum
+          optimum maximum Oratio.</head>
+            <l n="1">Summe Pater / rerumque sator / qui lucida olympi</l>
+            <l n="2">Et loca pura tenes nullum metuentia finem:</l>
+            <l n="3">Qui quatis imperio terram / coelumque profundum:</l>
+            <l n="4">Horrida Neptuni miscentemque aequora ventis</l>
+            <l n="5">Compescis: rursusque iubes attollere fluctus.</l>
+            <l n="6">Sacratam accinctus candenti fulmine dextram.</l>
+            <l n="7">Das animum / vitamque bonis / mentemque pudicam.</l>
+            <l n="8">Ad scelera innumeris sectaris perdita semper</l>
+            <l n="9">Suppliciis / iusta mundum sub lege gubernans.</l>
+            <l n="10">Huc precibus conuerte meis pia numina Castis:</l>
+            <l n="11">Immeritos que cura trahat / quam longa laboris</l>
+            <l n="12">Ingentis series mortalia pectora verset</l>
+            <l n="13">Diste Pater / nostrosque metus / miseramque ruinam.</l>
+            <l n="14">Quam rabidus populoque tuo / gentique minatur</l>
+            <l n="15">Hostis / atrox Vultu / manibusque rapacior atris.</l>
+            <l n="16">Religio quem nulla mouet: qui fasque / piumque</l>
+            <l n="17">Contriuit pedibus / contempserit ore nefando</l>
+            <l n="18">Contra hominum / legesque tuas / Pulchrumque pudorem.</l>
+            <l n="19">Nec satis est rapidis agros supponere Flammis:</l>
+            <pb/>
+            <l n="20">Maenia disiecit: vastatis aedibus amplae</l>
+            <l n="21">Dirripiuntur opes: quas ingens cura / laborque</l>
+            <l n="22">Tempore tam longo per summa pericula vitae</l>
+            <l n="23">Legerat. O superi frustra pia vota fatigant</l>
+            <l n="24">Vos hominum / gemitusque frequens / lachrymaeque fluentes</l>
+            <l n="25">Pars ante ora patrum / patrios pars ante penates</l>
+            <l n="26">Interfecta iacet: neque liuida busta paratis</l>
+            <l n="27">Conduntur tumulis: optataque funera desunt.</l>
+            <l n="28">Templa quibus careant maculis? aut denique quas non</l>
+            <l n="29">Sacrilegas sensere manus? expromere verbis</l>
+            <l n="30">Difficile est / magnosque cient suspiria luctus.</l>
+            <l n="31">Vel meminisse piget: modo sancto quaelibet aedes</l>
+            <l n="32">Nomine plena tuo fuerat: tibi thura. precesque</l>
+            <l n="33">Fundebat populus multo Christianus honore.</l>
+            <l n="34">Nunc stabulantur equi: nunc tantum Aegiptia foedo</l>
+            <l n="35">Sistra strepunt sonitu: nunc orgia vana feruntur</l>
+            <l n="36">Improba nunc longo turpem stridore Cerastem</l>
+            <l n="37">Turba colit: nec Vesta suis placidissima sanctis</l>
+            <l n="38">Virginibus prodest: quae passim crine soluto</l>
+            <l n="39">Raptatae querulis vastissima luctibus antra</l>
+            <l n="40">Impleuere / deum frustra clamore petentes</l>
+            <l n="41">Auxilium / ammisso pulchro sine lege pudore.</l>
+            <l n="42">Quid referam miseros / quos post incendia / saeui</l>
+            <l n="43">Post rabiem gladii tristis Fortuna relictos</l>
+            <l n="44">Ad grauiora nimis seruauit? dira flagello</l>
+            <pb/>
+            <l n="45">Obuolat ante oculos horrendae mortis imago!</l>
+            <l n="46">Terrent mille neces: morte infoelicior ipsa est</l>
+            <l n="47">Vita hominum / liceat modo vitam dicere / quando</l>
+            <l n="48">Libertas commune bonum / preciosius auro</l>
+            <l n="49">Atque opibus Lydis / Scithicis longeque Smaragdis</l>
+            <l n="50">Pulchrius eripitur: varios tamen adde labores</l>
+            <l n="51">Continuosque simul: quosdam prope Tartara nigra:</l>
+            <l n="52">Haerentesque locos Diti / Stygiaeque paludi /</l>
+            <l n="53">Insatiatus amor / lucri quoque dira cupido</l>
+            <l n="54">Viscera telluris miseros detrudit in ima</l>
+            <l n="55">Vnde Hecatem / et grata praecinctum lampade Phoebum</l>
+            <l n="56">Conspicere / at frustra sublato lumine / tentant.</l>
+            <l n="57">Occupat hinc macies squallentia corpora: pallor</l>
+            <l n="58">Plurimus ore venit / morbi / et properata senectus.</l>
+            <l n="59">Cogitur hic duris terram proscindere vinctus</l>
+            <l n="60">Compedibus / semperque pati quoscunque labores:</l>
+            <l n="61">Et tumidas perferre hyemes / Hyadasque madentes:</l>
+            <l n="62">Concretisque graui requiescere frigore campis</l>
+            <l n="63">Vestis egens: demum tolerare famemque sitimque.</l>
+            <l n="64">Ille loco tauri collum summitere iniquis</l>
+            <l n="65">Ponderibus currus flagris agitatus adustis:</l>
+            <l n="66">Aspera seu duris. spumantiaque aequora remis</l>
+            <l n="67">Vertere / uel coelo noctesque diesque sereno</l>
+            <l n="68">Excipere / et nebulas / sonituque tonitrua magno</l>
+            <l n="69">Densa micante polo: quando vndique pontus / et aether /</l>
+            <pb/>
+            <l n="70">Fulminibus iaculatus Athos / atque altus Olympus</l>
+            <l n="71">Contremit / et superis vsta Acroceraunia flammis.</l>
+            <l n="72">Hinc Aquilo praeceps / illinc rugientibus Auster</l>
+            <l n="73">Turbinibus magnos voluentes Aethere fluctus</l>
+            <l n="74">Ingeminant causasque metus / mortemque minantur.</l>
+            <l n="75">Ipse igitur saeuo busiride saeuior hostis /</l>
+            <l n="76">Atque Oethaeis nimium crudelior aris</l>
+            <l n="77">Sic tua contemnit temere decreta: fidemque</l>
+            <l n="78">Debilitat: gratumque tibi / populumque fidelem</l>
+            <l n="79">Conterit assiduis (velut ingens turbo) procellis.</l>
+            <l n="80">Haec fera Thurcarum soboles tot regna / tot vrbes</l>
+            <l n="81">Imperio adiecere suo / ditissimaque arua:</l>
+            <l n="82">Paphlagonasque vagos / buxo vndantemque Cythoron.</l>
+            <l n="83">Faelicemque Gygis patriam: cui Maesia cultu</l>
+            <l n="84">Laeta superiaceant: propriae quoque causa ruinae</l>
+            <l n="85">Alta diuturno collapsaque pergama bello.</l>
+            <l n="86">Deinde premit lyciam / primis notosque volucrum</l>
+            <l n="87">Auspiciis Caras: Cilicum transgressus et vndas /</l>
+            <l n="88">Inuisas tunc Cydne tuas / quum tabida regis</l>
+            <l n="89">Corpora reddideras: Armenis Proxima post haec</l>
+            <l n="90">Moenia Cappadocum / rigidi claramque Trapezon</l>
+            <l n="91">In gremio Euxini: Medos / Parthosque fugaces /</l>
+            <l n="92">Vsque ad longinqui feruentia culmina Tauri /</l>
+            <l n="93">Caucaseumque iugum longas protendit habenas</l>
+            <l n="94">Imperii: cui diues Arabs / cui thure <sic>Sabaens</sic>
+            </l>
+            <pb/>
+            <l n="95">Insignis / simul et septemplicis ostia Nili</l>
+            <l n="96">Deflexere caput: manibus tua sacra prophanis</l>
+            <l n="97">Sunt monumenta Pater / quae polluit improbus hostis /</l>
+            <l n="98">Et natale solum / et quas tu legeris vrbes.</l>
+            <l n="99">Haud Asia contentus erat / Lybiamque parauit</l>
+            <l n="100">Atque Europaeae seruit sibi frigida terrae</l>
+            <l n="101">Taurica / et Euxini resonantia littora Ponti.</l>
+            <l n="102">Armiferam Thracem / Lete populosaque regna</l>
+            <l n="103">Aemoniae / Pellamque Ducum deuicit alumnam.</l>
+            <l n="104">Quid memorem Thebas? quid claro sanguine Achaeos?</l>
+            <l n="105">Pierios colles: et amaena cacumina Cyrrhae?</l>
+            <l n="106">Eximiam Pelopisque domum: viridantis oliuae</l>
+            <l n="107">Praemiaque: et doctas aetherno nomine Athenas?</l>
+            <l n="108">Chaoniae gentemque trucem: querensque loquentes?</l>
+            <l n="109">Dardanios / Tribalosque simul iuga ferre coaegit:</l>
+            <l n="110">Misia dehinc capta est: vastatur et Illyris alma:</l>
+            <l n="111">Martigenamque lupi saeuo de more Lycei</l>
+            <l n="112">Dalmatiam populatur amens: castella Curetum</l>
+            <l n="113">Disiicit in tumulis: nec vos vaga flumina multum</l>
+            <l n="114">Pannoniae tutantur aquae: vel semper in armis</l>
+            <l n="115">Bellaces exercet equos: tristisque furore</l>
+            <l n="116">Excurrit / longis ut Maenas concita thyrsis.</l>
+            <l n="117">Non aliter flauas ignis depascit aristas</l>
+            <l n="118">Praecipitis Boreae sibilosis flatibus auctus:</l>
+            <l n="119">Quam fera progenies vastos bacchatur in agros:</l>
+            <pb/>
+            <l n="120">Continuis nostras vires quoque conterit horis.</l>
+            <l n="121">Accumulantur opes: gladiosque in cote cruentos</l>
+            <l n="122">Exacuit / cunctas donec ferus occupet oras</l>
+            <l n="123">Littus ad Hesperium: quo velox semper Iberus</l>
+            <l n="124">In mare spummosis tumidum deuoluitur vndis.</l>
+            <l n="125">Qua uel oliuifero redimitus vellere Bethis</l>
+            <l n="126">Iungitur Occeano: proprio dum Marte Britannos</l>
+            <l n="127">Vincat / et extremis Tulem quoque finibus orbis.</l>
+            <l n="128">Hoc immane genus terra Enceladoque parente</l>
+            <l n="129">Progenitum: cui nulla sitim haec opulentia tollit:</l>
+            <l n="130">Postquam terrarum diro potietur amore:</l>
+            <l n="131">Dehinc tentaturum (si fas est credere) coelum</l>
+            <l n="132">Montibus impositis conscendere: teque supremis</l>
+            <l n="133">Rex hominum / diuumque Pater depellere velle</l>
+            <l n="134">Sedibus / aetherea sanctosque in parte locatos</l>
+            <l n="135">Deiicere / et pedibus subiectas trudere in oras.</l>
+            <l n="136">Nam violat si iura Deum / populumque / fidemque</l>
+            <l n="137">Persequitur saeuo / uelut atrox bellua / morsu:</l>
+            <l n="138">Nonne putes dirae si plena potentia menti</l>
+            <l n="139">Afforet: aethereae caelestia protinus arcis</l>
+            <l n="140">Sceptra tibi eriperet: Que nos iam maxima cura</l>
+            <l n="141">Sollicitat: variosque metus / magnosque labores</l>
+            <l n="142">Ingerit: instantem dum tristia fata ruina</l>
+            <l n="143">Obiiciunt: tam grande nephas / discrimina tacta</l>
+            <l n="144">Quem non comminuant? tua quem fidissima plebes</l>
+            <pb/>
+            <l n="145">Imploret ventis / pelagoque excussa furenti</l>
+            <l n="146">Naufraga? Laedaeos fratresne? an Prothea formas</l>
+            <l n="147">Fingentem varias? lituo Tritonaue cinctum?</l>
+            <l n="148">Seu forsan nigri dominum Plutona barathri:</l>
+            <l n="149">Aut geminam prolem latonae? aut Martis inanes</l>
+            <l n="150">Belligeri sonitus / priscorum numina vana?</l>
+            <l n="151">Quae quoniam grauiter contempsimus / vndique certis</l>
+            <l n="152">Hostibus affligimur: nobis neque Sarmata / nec Thrax /</l>
+            <l n="153">Non Hierus intonsus / non est Arimaspus amicus:</l>
+            <l n="154">Quae faueat toto nulla est gens improba mundo.</l>
+            <l n="155">Heu / quod deterius / mutuis Christiana propago</l>
+            <l n="156">Decertant odiis inter se: plurimus armis</l>
+            <l n="157">Interiit populus: testantur sanguine tincti</l>
+            <l n="158">Mincius / atque Athesis: Benacus et ipse cruore</l>
+            <l n="159">Creuerat humano: pulchrae pars denique nempe</l>
+            <l n="160">Quaelibet Ausoniae miseris repleta virorum</l>
+            <l n="161">Funeribus nigro sua tristia vellere cinxit</l>
+            <l n="162">Tempora: nunc etiam nunquam fera praelia desunt</l>
+            <l n="163">Tu Pater omnipotens / atque infinita potestas /</l>
+            <l n="164">Vnica nostra salus: cuius sine numine sancto</l>
+            <l n="165">Nec folia arboribus ventis agitata mouentur /</l>
+            <l n="166">Solus opem praebere potes / obliuia si non</l>
+            <l n="167">Te teneant hominum / quod nulli credere phas est.</l>
+            <l n="168">Septeno quid enim coelum fecisse labore</l>
+            <l n="169">Prodesset / certisque locis elementa tulisse</l>
+            <pb/>
+            <l n="170">Humanae sobolis causa: Christumque figuram</l>
+            <l n="171">Accoepisse hominis: quae perdita crimina nobis</l>
+            <l n="172">Auxilium prohibent? quum te feruentior ira</l>
+            <l n="173">In scelera urgeret quondam tollenda prophana/</l>
+            <l n="174">Nunquam passus eras / grauiter sine fine tot annos</l>
+            <l n="175">Vt tua sic acri premetur turba flagello.</l>
+            <l n="176">Tu quoque Erythraeis duri Pharaonis in vndis</l>
+            <l n="177">Signa / duces / equites / longam summerseris vltus</l>
+            <l n="178">Nequitiam / dignas tribuens pro crimine poenas.</l>
+            <l n="179">Et viduae facinus saeua obsidione fugauit</l>
+            <l n="180">Olim hostes virtute tua: vel nobilis Hester</l>
+            <l n="181">Foemina seruauit populum tua iussa sequentem.</l>
+            <l n="182">Nonne piis volucrem Phoebi nostro orbe quadrigam</l>
+            <l n="183">Commotus precibus / multis firmaueris horis?</l>
+            <l n="184">Sepe vel in paruo praesens discrimine plebi</l>
+            <l n="185">Affueras / cur nostra precor non vltima damna</l>
+            <l n="186">Te moueant: aliis faueas: videare nouerca</l>
+            <l n="187">Nonnullis: semperne metu / vastoque prememur</l>
+            <l n="188">Agmine curarum: saeui nullusque laboris</l>
+            <l n="189">Finis erit: nullisque modis minuenda ruina est?</l>
+            <l n="190">Sed quibus hostiles plagis / quibus hostibus ausus</l>
+            <l n="191">Comprimeres / fidos quum sic excludis amicos?</l>
+            <l n="192">Iusticiae quae forma tuae? peccata rependis</l>
+            <l n="193">Impia muneribus: iustorum vota precesque</l>
+            <l n="194">Negligis: haud possum tamen vnquam credere / quin te</l>
+            <pb/>
+            <l n="195">Haec teneat complexa Deum pulcherrima virtus /</l>
+            <l n="196">Qui coelum et terras aequo sub pondere libres.</l>
+            <l n="197">Hethereos quis enim temere sic iudicet ignes /</l>
+            <l n="198">Septenas coelique rotas / errantiaque astra</l>
+            <l n="199">Temporibus certis / miro quoque et ordine semper</l>
+            <l n="200">Nunc petere Antipotas / nunc has emergere in oras:</l>
+            <l n="201">Algentesque hyemes / mitis florentia veris</l>
+            <l n="202">Germina et aestatis feruentia labra tepentis /</l>
+            <l n="203">Pomiferi Autumni pallentes arbore frondes /</l>
+            <l n="204">Et pluuias / sudosque dies producere / nutu</l>
+            <l n="205">Absque tuo: vastis quis claudere posset in antris</l>
+            <l n="206">Aeoliam rabiem: quis motos sistere fluctus?</l>
+            <l n="207">Omnia continuis tua virtus temperat horis.</l>
+            <l n="208">Saepe quidem nebulas disieceris ipse rogatus:</l>
+            <l n="209">Sustuleris morbos: atque atro funera tabo</l>
+            <l n="210">Reppuleris: Martisque sonantia fulmina bello:</l>
+            <l n="211">Imperio caesare tuo Neptunus / et aer.</l>
+            <l n="212">Quare igitur qui vera tenes dominator Olympi</l>
+            <l n="213">Lumina iusticiae / totum moderaris et orbem /</l>
+            <l n="214">Crudeles / sontesque premis: virtutibus ampla</l>
+            <l n="215">Praemia das / posco miserae succurrere genti</l>
+            <l n="216">Implorate velis / ne spes nos irrita fallat.</l>
+            <l n="217">Num sileam / pastumue tuum meminisse pudebit?</l>
+            <l n="218">Quum tua candenti sanctissima numina nimbo</l>
+            <l n="219">Circumsaepta forent quondam melioribus annis</l>
+            <pb/>
+            <l n="220">Dilectam sobolem / cuius vestigia iustis</l>
+            <l n="221">Passibus insequimur / tibi longo foedere iunctam /</l>
+            <l n="222">Adiectaque fide firmasti tempus in omne.</l>
+            <l n="223">Non haec interpres diuum Cillenius Ales /</l>
+            <l n="224">Nuncia non tulerat Iunonia discolor Iris:</l>
+            <l n="225">A facie ad faciem manibus mandata sacratis</l>
+            <l n="226">In tabulis descripta tuis / et amore paterno</l>
+            <l n="227">Cum ductore loquens Hebraeae gentis ad unguem</l>
+            <l n="228">Perpetuo dederis: nostros semperque labores</l>
+            <l n="229">Tollere pollicitus: quod vel ratione suprema</l>
+            <l n="230">Duceris vt facias: animantia bruta videmus /</l>
+            <l n="231">Hircanas / saeuasque Tygres / Getulosque Leones</l>
+            <l n="232">Se quoque pro catulis ultro obiectare periclis.</l>
+            <l n="233">Haec solum natura docet: prudentia nulla est /</l>
+            <l n="234">Qua moueantur enim: qualem speremus habere</l>
+            <l n="235">Te genitor / cuius comes est sapientia summa /</l>
+            <l n="236">Et pietas immensa quidem: nisi crimina nostra</l>
+            <l n="237">Grandia te incendat: fateor peccauimus inquam</l>
+            <l n="238">Ignarus rerum populus: nos vana voluptas</l>
+            <l n="239">Gypsatis manibus / blandoque teterrima vultu</l>
+            <l n="240">Allexit: nos turpis amor / nos dira Cupido /</l>
+            <l n="241">Ambicioque / gulaeque scelus / manifesta vorago</l>
+            <l n="242">Traxerat a recto violenti tramite cursu.</l>
+            <l n="243">Quod si longeui iam te non poenitet aeui /</l>
+            <l n="244">Teque tuosque feris nisi vis committere prorsus</l>
+            <pb/>
+            <l n="245">Hostibus / O magni certissima gloria mundi</l>
+            <l n="246">Sancte Pater / pedibus qui summa tonitrua calcas /</l>
+            <l n="247">Vnica spes nostri tandem miserare piorum</l>
+            <l n="248">Auertas rabiem / tantam depelle ruinam.</l>
+            <l n="249">Supplicii satis est: seruato has denique paruas</l>
+            <l n="250">Relliquias hominum: nostris quoque viribus adde</l>
+            <l n="251">Virtutem / qua nos hostis. vesana prophani</l>
+            <l n="252">Agmina ad interitum redigamus: siue subactus</l>
+            <l n="253">Legibus / et sacrae supplex obtemperet aulae:</l>
+            <l n="254">Quisque tuum laudet nomen / votisque precetur /</l>
+            <l n="255">Quatenus excelso contingit vertice olympum</l>
+            <l n="256">Maurus Atlas lybiae / atque extremi Garamantes:</l>
+            <l n="257">Atque vbi Tithoni linquens Aurora Mariti</l>
+            <l n="258">Complexus / primas illustrat lampade terras.</l>
+            <l n="259">Vsque et Hyperboreis vicinae montibus orae</l>
+            <l n="260">Te resonent / et templa tibi pulcherrima surgat.</l>
+            <l n="261">Non aries vitulusque tuis mactentur in aris:</l>
+            <l n="262">Balsama / Myrrha recens / passim quoque pinguia thura</l>
+            <l n="263">Assiduis precibus / magno fundantur honore:</l>
+            <l n="264">Omnipotens / solusque Deus / Genitorque voceris:</l>
+
+         </div>
+      </body>
+
+      <pb/>
+
+      <back>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Eiusdem ad lectorem epigramma.</head>
+
+            <l n="1">Ista Sophoclaeo quamuis dicendo Cothurno</l>
+            <l n="2">Materia est nostro grandior ingenio.</l>
+            <l n="3">Ne tamen angusto semper mea flumine Cimba</l>
+            <l n="4">Serperet / et tenuis me tueretur honos:</l>
+            <l n="5">Lusimus instantis communia damna ruinae</l>
+            <l n="6">Lusimus et populi castra inimica turcis.</l>
+            <l n="7">Exoranda meis precibus pia numina blandis</l>
+            <l n="8">Successere / nouo votaque sparsa metu.</l>
+            <l n="9">Aequa minus rebus fuerint si carmina lector</l>
+            <l n="10">Spreueris haud nimium: nam voluisse sat est.</l>
+
+         </div>
+         <closer>
+            <foreign xml:lang="el">telos</foreign>
+         </closer>
+      </back>
+
+
+  </text>
+</TEI>

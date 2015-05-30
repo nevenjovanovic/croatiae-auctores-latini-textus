@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="vrancic-a-m-epigrammata-duo">
+         <titleStmt>
+            <title>Epigrammata duo, versio electronica</title>
+            <author key="vranc01">
+               <name xml:lang="hr">Vrančić, Antun</name>
+               <date>1504-1573</date>
+            </author>
+            <author key="vranc03">
+               <name xml:lang="hr">Vrančić, Mihovil</name>
+               <date>1507 - ante 1571</date>
+            </author>
+            <editor>
+               <name>Bratislav Lučin</name>
+            </editor>
+            <respStmt>
+               <resp>Editionem electronicam praeparavit</resp>
+               <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+          Prijepis izvornoga tiskanog izdanja (1550).
+        </edition>
+         </editionStmt>
+         <extent ana="B">Mg:B 136 verborum, 8 versus</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+          projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+          Hrvatska.  <date when-iso="2014-02">Veljače 2014</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <biblStruct type="externum">
+               <analytic>
+                  <author>
+                     <ref target="vranc01">Antonius Verantius</ref>
+                  </author>
+                  <title>Dalmatae Ant. Wranc.</title>
+                  <title type="incipit">
+              Quod vos heroes seros producit ad annos,</title>
+               </analytic>
+               <analytic>
+            
+                  <author>
+                     <ref target="vranc03">Michael Verantius</ref>
+                  </author>
+                  <title>Mich. Wranc.</title>
+                  <title type="incipit">Nasutos fugias, libelle, amicos, </title>
+               </analytic>
+               <monogr>
+                  <author>
+                     <ref type="viaf" target="47580075">Oppolitanus, Iohannes</ref>
+                  </author>
+                  <title>Duo panegyrici </title>
+                  <imprint>
+                     <pubPlace>Viennae Austriae</pubPlace>
+                     <publisher>Excudebat E. Aquila</publisher>
+                     <date period="http://semium.org/time/15xx_2_third">1550</date>
+                  </imprint>
+                  <extent>/48/ f. et fig. xylogr. ; 4o </extent>
+               </monogr>
+               <note>Carmina gratulatoria Antonii et Michaelis Verantius.</note>
+               <idno type="other">Xb * Jurić. Scriptores</idno>
+               <relatedItem type="digitalizat">
+                  <ref type="gbs" target="http://books.google.hr/books?id=60FXAAAAcAAJ&amp;pg=PT4">Google Books</ref>
+               </relatedItem>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1550" period="15xx_2_third">ante 1550</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2014-02-05</date>
+        Početna verzija za CroALa.
+      </change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="poesis-epigramma" met="elegiacum" n="1">
+            <head>Dalmatae <persName ref="vranc01" type="croala">
+                  <abbr>Ant. Wranc.</abbr>
+               </persName>
+            </head>
+            <l n="1.1">Quod vos heroes seros producit ad annos,</l>
+            <l n="1.2"> Quod numerat vestras <persName ref="47580075" type="viaf">Oppolitanus</persName> opes,</l>
+            <l n="1.3">Non hoc non illi debetis, at inclyta debet</l>
+            <l n="1.4"> Posteritas vestro non caritura animo. </l>
+
+         </div>
+         <div type="poesis-epigramma" met="hendecasyllabus" n="2">
+            <head>
+               <persName type="croala" ref="vranc03">
+                  <abbr>Mich. Wranc.</abbr>
+               </persName>
+            </head>
+            <l n="2.1">Nasutos fugias, libelle, amicos,</l>
+            <l n="2.2">Ne nasos subeas parum absolutos:</l>
+            <l n="2.3">Hoc est nec bene sordidos nec unctos;</l>
+            <l n="2.4">Nasutos fugias, libelle, amicos.</l>
+        
+         </div>
+      </body>
+  </text>
+</TEI>

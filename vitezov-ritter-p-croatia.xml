@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="vitezov-ritter-p-croatia">
+         <titleStmt>
+            <title>Croatia rediviva, versio electronica</title>
+            <author key="vitezov01">
+               <name xml:lang="hr">Ritter Vitezović, Pavao</name> 
+               <date>1652–1713</date>
+            </author>
+            <editor>Zrinka Blažević</editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+          Moderno znanstveno izdanje (1997).
+        </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C 68 versus, verborum 7054</extent>
+         <publicationStmt>
+            <p>Versio electronica TEI XML: Croatiae auctores Latini, indagatio in Facultate philosophica Universitatis Zagrabiensis, Croatia, <date>mense Decembri 2011.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Pavao Ritter Vitezović, Croatia rediviva = Oživljena Hrvatska (prev. i prir. Zrinka Blažević). Zagreb, 1997.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1700" period="16xx_3_third">1700</date>
+            <placeName>Zagreb</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+               <term>poesis - paratextus poetici</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 17 (1601-1700)</term>
+               <term>1651-1700</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - historia</term>
+               <term>poesis - elegia</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <name>Luka Špoljarić</name>
+            <date>2012-07-22</date>
+        Novo, unificirano zaglavlje.
+      </change>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2011-12-17</date>
+        Početna TEI verzija.
+      </change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <front>
+         <docTitle>
+            <titlePart>CROATIA REDIVIVA REGNANTE LEOPOLDO MAGNO CAESARE</titlePart>
+         </docTitle>
+         <docAuthor>DEDUCTA AB EQUITE PAULO RITTER</docAuthor>
+         <docDate>ZAGRABIAE 1700.</docDate>
+         <div type="prosa-dedicatio">
+            <head>DIVO LEOPOLDO MAGNO ROMANORUM IMPERATORI SEMPER AUGUSTO, IOSEPHO PORPHIROGENITO,
+          GERMANIAE, UNGARIAE, BOHEMIAE TOTIUSQUE CROATIAE REGIBUS INVICTISSIMIS, APOSTOLICIS,
+          GLORIOSISSIMIS; ARCHIDUCIBUS AUSTRIAE POTENTISSIMIS SERENISSIMIS, <abbr>ETC.</abbr> 
+               <abbr>ETC.</abbr> 
+               <abbr>ETC.</abbr>
+            </head>
+            <p>Regibus ac Dominis suis naturalibus, benignis,augustis, fortibus, fortunatis, hasce a
+          Prodromo tabellas, <emph>ex variis autoribus festino, haud festivo Calamo exaratas,
+            praecantantes decenter operam, non parco labore delatam; ea est declarans late nomen,
+            deos, sanctos, arma, bella, acta, decorem, dotes, regna, reges, leges, coronas,
+            metropoles: ad haec amnes, alpes, latos agros, aedes, colonos, opes, bona et mala,
+            moderna ac antehac terrae Croatae a Deo Magno cessa;</emph> pie vovit Devotissimus
+          Vasallus Eques Paulus Ritter</p>
+         </div>
+         <div type="poesis-elegia" met="elegiacum">
+            <head>MONITIO AD PRODROMUM.</head>
+        
+            <l>Vade per immensas circum, mi Prodrome, Terras:</l>
+            <l>Illyricum vasto qua patet Orbe solum.</l>
+            <l> Hinc iuxta, Italiam claudentes, iveris Alpes: </l>
+            <l> Noricum utrumque, penes Rhaetiam utramque, vide. </l>
+            <l> Natales fontes lustrato binominis Istri: </l>
+            <l> Quaque nigrum rapidis in mare fertur aquis. </l>
+            <l> Adriaco cunctas lustrabis ab aequore terras. </l>
+            <l> Pontoque, ac gelido Regna reducta freto. </l>
+            <l> Has, ad quos deceat, tabulas perferto decenter: </l>
+            <l> Vise Urbes, Arces, Nobiliumque domos. </l>
+            <l> Sedulo ubique mone; nobis sua stemmata mittant: </l>
+            <l> Ut reliquum citius perficiatur opus. </l>
+            <l> Oppida, quidquid habent memorabile, et arma sigilli, </l>
+            <l> Huc mihi cumprimis suppeditanda, roga. </l>
+            <l> Hoc opus, ingenti cura, aere, labore paratum, </l>
+            <l> Grato oculo Mundus cuncta per aeva leget. </l>
+            <l> Vade bonis avibus, dignos reverenter habendo: </l>
+            <l> Indignique odium non metuendo. Vale. </l>
+            <lg>
+               <l>orbem pace donat Caesar; </l>
+               <l>crescent modo Regna.</l>
+            </lg>
+         </div>
+      </front>
+      <body>
+      
+      
+         <div type="prosa-historia">
+            <head>J.M.J. PRODROMUS IN CROATIAM REDIVIVAM</head>
+            <p>CROATIAE nomen, quam recentiores putant, antiquius est: Regnumque amplioribus olim
+          terminis describebatur. Eam alii Chrovaitam et Chrovatiam, Horvatiam sive Hrvatiam
+          dicendam, scribunt. Nomen a Corvino Messalla Antonius Bonfinius, Foris a Curati Bulgarorum
+          Duce regioni natum falso autumant. Franciscus Glavinitius ab Harvatska fluvio Harvatiae
+          nuncupationem format; quod fluvii nomen cum Adiectivum sit, fluvio a gente inditum esse
+          potius credam. sed et hic quod solum irrigat, ignoramus: nisi sit Harvatska amnis exiguus
+          penes Castellum sui nominis, in Croatiae Interamnensis Comitatu Varasdinensi, olim
+          Zagorjensi, territorio Comitum Ratkajanorum oriens, ac in Crapinam defluens.
+            <bibl>Casparus Peucerus ait, /Carionis Chronici libro 4./</bibl> quod <q>ab Occasu
+            Croatae gens Heneta progressi paulatim ad ipsam Urbem regiam usque accesserunt
+            populabundi; et tandem obtinuerunt sedem in ea Illyridis et Pannoniae parte, quae olim
+            Liburnia vocata, nunc dicitur Croatia.</q> 
+               <bibl>Clarius Constantinus Porphirogenitus
+          Imperator /De Rausio capite 30./</bibl> qui Sarmatas<emph> Belochrobatos,</emph> id est<emph>
+            Albos,</emph> sive <emph>magnos,</emph> aut<emph> terram multam possidentes,</emph>
+          appellat; et ex his generationem unam, nempe <emph>quinque fratres Clucam, Lobellum,
+            Cosentzem, Muchlonem et Chrobatum, duasque sorores Tugam et Bugam, sub principe Porge
+            Patre in Dalmatiam venisse,</emph> describit;<emph>ubi Abares incolas invenientes, bello
+            per annos aliquot gesto vicerunt Chrobati: Abarumque partem occiderunt, coeteros parere
+            sibi coegerunt: atque ab illo tempore a Chrobatis possessa nomen etiam Chrobatia
+            accepit.</emph> Animadvertit in hac Porphirogeniti sententia <bibl>Ioannes Lucius /De
+            Regno Dalmatiae et Croatiae libro 1. capite 11./</bibl>
+               <emph>Chrobatos</emph> Graece <emph>Hrovatos</emph> exprimi, qui Slave <emph>Hrvati</emph>
+          indigetantur: ubi Graeci more solito asperitatem pronunciationis vitaturi <emph>o</emph>
+          interiecere, atque <emph>b</emph> illorum per <emph>v</emph> nostrum effertur ut cum
+          Slavorum <emph>Hrvati</emph> propria prolatione conveniat. Idem quoque Albos Chrobatos ex
+            <emph>Beli</emph> et magnos ex <emph>veli</emph> apte deducit: cum <emph>beli</emph>
+          slave albos, et <emph>veli</emph> magnos significet. Quod ipsum ante fatus Imperator probe
+          explicat, dum <bibl>/Capite 31. in fine/</bibl> subdit; <q>Magna autem Chrobatia, quae
+            etiam Alba appellabatur.</q> Et <bibl>/Capite 32./</bibl>
+               <q>magna Chrobatia Baptismi expers, et Alba quoque nuncupata.</q> Sic magnos Hrvatos, vel
+          magnam Hrvatiam pro Sarmatia, quae amplissima est regio, recte verbum <emph>veli</emph>
+          slavum Graece appropriando, <q>terras multas possidere</q> Chrobatos Sarmatas
+          intelligendum tradit: atque ideo <bibl>/Capite 30./</bibl> praemittit; <q>Chrobati vero
+            tunc habitabant ultra Bagibarias, ubi nunc sunt Belochrobati.</q> Bagibariae vocabulum
+          slavum est, Graece detortum: quod <emph>Babje Gore</emph>, quasi vetulae Montes, quos
+          Carpatios appellant, innuit. Fortasse autem iidem Hrvati Heruli sive Hrli sunt, etiam gens
+          Slava, qui Anastasii Imperatoris tempore Danubii oras accolentes Liburniam et Dalmatiam
+          occuparunt, Romanos Pannoniae incolas diu tribulantes: nam hi cum Gothis sive Slavis
+          Croatis Presbyteri Diocleatis in aetate conveniunt. Et quidem Verli sive Herli idem
+          significat, ac Latinis egregii dicuntur. nam et Vidomar sive Vidomir secundus Verlorum Rex
+          circa eadem tempora in Dalmatiae Confiniis regnasse perhibetur, qui Sanctum Maximum cum
+          quadraginta Christianis martyrio effecit; et Svevlad tertius illorum Rex, qui Narsetem
+          contra Gothos iuvit, rebus heroicis clarus, memoratur; ut <bibl>Procopius Caesariensis
+            /Gothorum libro 2./</bibl> et <bibl>Maurus Orbinus /Regno delli Slavi pagina 127.
+          <abbr>etc.</abbr>/</bibl> tradunt. quamvis et Crobizos, quos <bibl>Herodotus /Libro 4./</bibl>
+               <bibl>Schimnus /Libro 7./</bibl>
+               <bibl>Strabo /Libro 5./</bibl> et <bibl>Ptolomaeus /Capite 9./</bibl> in Alysia ponunt,
+          citra Istrum, eosdem, qui nunc Croatae sunt, fuisse, inficias non eo; <q>cum</q> (ut
+            <bibl>/De Regno Dalmatiae et Croatiae libro 1. capite 11./ Ioannes Lucius</bibl> ait)
+            <q>non videatur impossibile, Slavos aliis nominibus dictos ab antiquo, sicut ultra
+            Istrum, ita etiam citra habitasse.</q> Antiquius Crovatorum nomen facit Thomas
+          Archidiaconus Spalatensis, qui anno Christi 1200. natus, sexaginta et octo supervixit: ubi
+            <bibl>/Capite 2. et 7./</bibl> Salonae urbium Illyricarum Reginae, captivitatem et
+          destructionem, a Totila Gothorum Duce factam, describens ait: <q>Venerant de Partibus
+            Poloniae, qui Lingones appellabantur, cum Totila septem vel octo Tribus Nobilium. Hi
+            videntes terram Croatiae aptam sibi fore ad habitandum, quia rari in ea coloni manebant,
+            petierunt et obtinuerunt eam a Duce suo. Chroatia est regio montuosa a septentrione
+            adhaeret Dalmatiae: haec regio antiquitus vocabatur Curetia, et populi qui nunc dicuntur
+            Chroatae dicebantur Curetes vel Coribantes. Unde Lucanus. 
+            <l> Illic bellaci confisus gente Curetum, </l>
+                  <l> Quos alit Adriaco tellus circumflua ponto. </l> Dicebantur vero Curetes, quasi
+            Currentes: quia per montes et sylvas oberrantes, agrestem vitam ducebant: ex asperitate
+            quidem Patriae naturam trahentes armorum asperitatibus, invasionibus, praedationibus,
+            ferino more gaudebant: bellaces valde et quasi pro nihilo ducentes se morti exponere,
+            nudos se plerumque hostilibus armis obiciunt. Hi apud plures Poetarum de quadam ridicula
+            opinione notantur: etenim quando Luna Ecclipsim patitur, putantes eam a spiritibus
+            corrodi, et consumi, omnia aeramenta domorum pulsant, quasi per strepitum daemonibus
+            credunt Lunae succurrere laboranti. unde Virgilius: <l>Pulsantes aera Curetes.</l>
+            Permixti ergo populi isti, et facti sunt gens una, vita, moribusque consimiles, unius
+            loquelae.</q> At quia Curetes Insulani sunt, Curictae (quae vulgo <emph>Kurk</emph>)
+          Liburniae adiacentis Insulae habitatores, a qua toti Croatiae continenti nasci potuisse
+          nomen vix est possibile. quamquam et proxima illi Arbensis, Scylaci Cariandensi
+          Catarabatis dicta, quam eiusdem Scylacis Interpres Holsteinus Arbatin vocat, ac altera
+          Cratia prope Pharum, omnes Crovatiae regno adiacentes, in huius nomen quod conferant
+          coniectari liceat; cum autem Croatiam montuosam esse regionem, et Dalmatiae a septentrione
+          adiacere, dicat idem Archidiaconus, Chroatosque alias et Corybantes fuisse dictos asserat:
+          verius a Corbavia provincia, Liburniae veteris Croatiaeque modernae media atque altissima
+          regione, olim Corybantia dicta, Crovatorum nomen observatum esse censendum affirmo, Cui
+          quoque regioni tum Curicta sive Curetia, et Catarabatis, cum etiam Cratia, exiguo freto, a
+          Continenti separatae, proxime adiacent, imo prospectui quodammodo subiciuntur; earumque,
+          et nimirum Curetum, vicinitas cum Poëtae relatione convenit, qui ait: <q>
+                  <l> Hoc Curetes habent, hoc Corybantes opus. </l>
+               </q> imo et ipsi Curetibus attributi superius mores in ipsa Corbavia et Croatia passim ad
+          nostram usque aetatem observabantur. Et quidem Corybantes exigua litterarum mutatione a
+          Crovatorum nuncupatione differunt, qui se (ut diximus) Hrvatos, alii et Horvatos
+          appellant, a Graecis Chrobati, a Germanis Korbati, a Latinis Croatae, Crovates et
+          Chrobates dicti.</p>
+            <p>Termini porro Croatorum Regni a diversis authoribus diversimode statuuntur. Graeci
+          Orientalem Cetinae, Occidentalem Arsiae flumina ponunt. E quibus Porphirogenitus haec
+          scripto reliquit.<bibl> /Capite 30./</bibl> 
+               <q>A Zentina fluvio Chrobatia incipit, extenditurque versus mare ad Istriae usque Confinia, sive Albunum Urbem, versus Montana, aliquatenus etiam supra Istriae Thema excurrit, versus Tzentina et Chlebna Serbliae regionem attingit.</q>
+          Subnectit Porphirogenito <bibl>Lucius /Operis citati libro 1. capite 13./</bibl> 
+               <q>At quia Chlebna ultra Zentinam (sive, ut hodie Cetinam) est; ideo subdit, versus Zentinam regionem attingit: ut cognoscatur flumen Cetinae in maritima parte Orientalem terminum Croatiae fuisse: in interiori vero Chlebnam quoque in Croatia inclusam;</q>
+          adducta altera eiusdem Imperatoris sententia, qua asserit, quod <q>a Ragusio Zachlumorum Principatus initium habet, et ad Orontium flumen tendit, oraque Maritima Paganis, (</q>id
+          est Croatis non baptizatis) <q>Montana, quae ad septentrionem Chrobatis,</q>
+          id est baptizatis <q>quae infronte Serbliae contermina est.</q> Graecos
+          sequuntur Latini; communiterque Occidentalem Croatiae terminum ad Arsiam fluvium <bibl>/Plinius
+          libro 3. capite 13, Lucanus Annaeus libro 2. capite 1, Petrus Coppus, Maginus <abbr>etc.</abbr>/</bibl>
+          extendunt, uti ad secundum, sive posteriorem Liburniae terminum, et
+            <q>Albonam in Croatico solo</q> esse affirmat
+          <bibl>Ioannes Lucius /Operis citati libro 6. capite 3./</bibl>; priorem quippe ad Formionem amnem
+          fuisse memorat <bibl>Fuscus Palladius /De Situ orae Illyrici libro 1./</bibl>, antiquitus ad Timavum et
+          Alpes usque extensum fuisse in tractatu sequenti de Liburnia, docebimus; Patriorum
+          scriptorum, omnium merito antiquissimus <bibl>Thomas Spalatensis Archidiaconus /Capite 13./</bibl> haec
+          Regni Croatiae adscribit fuisse Confinia, <q>Ab Oriente Delmia, ubi Civitas Delmis, in qua est quaedam Ecclesia, quam Beatus Germanus Capuanus Episcopus consecravit, sicut scriptum reperitur in ea. Ab Occidente Carinthia, versus mare usque ad oppidum Stridonis, quod nunc est confinium Dalmatiae, et Istriae, ab Aquilone vero ripa Danubii usque ad mare Dalmaticum, cum tota Maronia et Chulmiae Ducatu.</q> Et
+          rite <q>Croatorum Regnum usque ad ripas Danubii xtensum</q> fuisse adhuc anno Christi 838. observavit
+          <bibl>Ioannes Lucius /Operis citati libro 2. capite 2.et 8./</bibl> idemque a saepefato Imperatore
+          Porphirogenito fideli memoriae traditum est; qui <q>Turcis</q> (nunc Ungaris)
+            <q>confines</q> describens <bibl>/Capite 30./</bibl> ait: <q>Ad Orientem Bulgari, separante eos Istro, qui et Danubius ad septentrionem Patzi</q> (hodie
+          Poloni) <q>ad Occidentem Franci</q> (Germani) <q>ad Meridiem Chrobati. A Chrobatis namque</q> (ut
+          idem prosequitur) <q>qui in Dalmatiam venerunt, pars secessit et Illyricum tenuit, atque Pannoniam.</q> Pannonia
+          quoque Croatiae olim nomine tenebatur; <q>Branslavonem</q> quippe
+            <q>eius partis Regni Croatorum fuisse Ducem, quae
+          inter Savum et Dravum sita est,</q> 
+               <bibl>Annales Francorum
+          Fuldenses referunt /Anno 884./</bibl> et <bibl>Ioannes Lucius /Operis citati libro 2. capite 2./</bibl>.
+            <emph>Croatos quoque fuisse qui Saviam occuparunt ex Porphirogenito et Cedreno constare, idem</emph> 
+               <bibl>/Ibi
+          libro 12./</bibl> asserit. Et alibi <bibl>/Libro 1. capite 15./</bibl> 
+               <emph>Savia et ager Sirmiensis a Slavis Croatis occupata, Slavonia vocatur.</emph>
+          Superiorem item Pannoniae partem Aeneas Sylvius, qui deinde Pius Pontifex et Stephanus
+          Broderich Slavoniae sive Croatiae accensent. <bibl>Aventinus praeterea /Libro 1./</bibl> fidem facit;
+          quod <q>Slavi traiecto Danubio Iustiniani I. Imperatoris tempore, occuparunt Dalmatiam, Liburniam, Pannoniam et partem Norici, quae etiamnum Slavonia dicitur.</q> Nam
+          et Turcae nuper dum in modernae Ungariae possessu fuissent, cis Danubianam Croatensem sive
+          Croaticam, et populos Croatinos (Hrvatjani) appellabant. Sed et trans Danubium amplissimis
+          terminis Croatorum Regnum extendebatur, ut ex superius narratis Porphirogeniti verbis
+          constat, qui ulterius <bibl>/Capite 31./</bibl> scribit; <q>Chrobati, qui Dalmatiae partes incolunt, a Chrobatis Albis Baptisimo expertibus, originem ducunt, qui ultra Turciam prope Franciam, habitant, et Sclavis contermini sunt non baptizatis, Serblis, qui Chrobati dicuntur, lingua Sclavorum, id est terram multam possidentes.</q> Et
+          <bibl>/Capite 30./</bibl> 
+               <q>Caeteri vero Chrobati versus Franciam commorabantur, et appellabantur hodie Belochrobati, sive Chrobati Albi proprio Principi subiecti. Parent autem Othoni magno Regi Franciae, quae et Saxonia, Baptismique expertes, affinitatem cum Turcis, et amicitiam contrahunt.</q>
+            </p>
+            <p>His addit <bibl>Ioannes Lucius /Operis citati libro 1. capite 11./</bibl> 
+               <emph>Slavos Francis in Germania a Septentrione, in Illyrico vero ab Oriente conterminos fuisse.</emph> eiusdem
+          rite opinionis est de Slavis <emph>Orientalibus, qui Longobardis proximi, Foroiuliensique eorum Ducatui contermini erant, qui nomine Carnuntum sive Carantanorum</emph> 
+               <bibl>/Paulus
+          Diaconus/</bibl> 
+               <emph>nuncupati; nunc autem in Carnos, Stirios et Charinthios distincti sunt, quos subditos fuisse Francorum Imperio,</emph> 
+               <bibl>Lazius /Migrationibus
+          gentium/</bibl> 
+               <emph>tradit</emph> : Et quidem <emph>Istriam, hodie Schlavoniam dictam,</emph> 
+               <bibl>Aeneas Sylvius /Historiae Europae capite 18./</bibl>
+            quod <emph>veteres Italiae tradiderunt,</emph> redarguit, inquiens;<q> Inconvenienter Italiae iungitur Adriatico sinu disiecta, et in peninsulae modum circundata mari, qua continenti applicatur a tergo. Plinius Istriam adhaerere Liburniae dixit. Ex quo palam fit, Croatinos Liburnorum loco succedere.</q>
+          Et paulo inferius; <q>Istri hodie Schlavi sunt, quamvis maritimae urbes Italico sermone utuntur, utriusque linguae peritiam habentes.</q>
+          Idem <emph>de Carnis et Japidibus</emph> 
+               <bibl>/Ibi capite 19./</bibl> sic ait;
+            <q>Carni inter quos Japides enumerantur, Istros sequuntur. Schlavi tamen, quorum sermo regionem obtinet. In Carinthia,</q>
+          quae <emph>regio Carnis applicatur</emph> (<bibl>eodem Pontifice /Capite 20</bibl>. et <bibl>Megiser/
+          teste</bibl>) <emph>quoties novus Princeps rei publicae gubernationem init,</emph> in ipsa functione <emph>sermone Schlavonico (sunt enim et ipsi Carinthiani Schlaviae) inclamatur.</emph>
+          Sed et Lindevitus Pannoniae Saviae Dux, <q>Carnioliam</q> (inquit <bibl>Schönleben /Annalium Carnioliae parte 3. ab Anno 820. ad 823./</bibl>)
+            <q>et Carinthiam, pervasit suaeque adiecit ditioni.</q> Quod ipsum <bibl>Adelmus /Ad
+          Annum 820./</bibl> innuit, ubi de tribus, contra Lindevitum Imperatoris exercitibus de Italia in
+          Pannoniam missis, ennarat; <q>quod unus in Alpium Noricarum transitu, hostium manu resistente, prohibebatur; et</q>
+          alter, <q>medius, qui per Carantanos intrabat, in tribus locis hostes sibi resistentes superaverit.</q>
+          Ac post Lindevitum, <q>Carantaniae et Carnioliae Ducem Vratislavum, sive potius Brazlavum, intra Dravum et Savum dominantem, fuisse,</q> refert
+          <bibl>/Ibi ad Annum 884. et 888. ex Annalibus Fuldensibus/ idem Schönleben</bibl>. Quemadmodum et<q> hunc Brazlavum, sive Brazlavonem filium aut nepotem fuisse Brinonis, credibile esse,</q>
+               <bibl>/Ibi pagina 422. et 425./</bibl> putat; <q>qui Vindorum</q> sive Slavorum <q>Marcham possidebat: ita ut parti Styriae, Charinthiae et Carnioliae dominaretur.</q>
+          Nam et <q>in Stiria Urbium populi plerumque Teutones Schlavi</q> 
+               <bibl>/Aeneas
+          Sylvius capite 21./</bibl> In hac Provincia Adriaticas Illyrici regiones aggrediens Ostrivoj
+          Slavorum Princeps (a quo continua Croatorum Regum series apud Diocleatem, Orbinum,
+          Marulum, et Freschottum legitur) aedificavit oppidum <emph>Slovengrad,</emph> aliis <emph>Sloveni gradetz</emph> 
+               <bibl>/Iacobus Luccarus, Annali du Ragusa libro 1./</bibl> Germanice
+          <emph>Windischgratz,</emph> Latine Slavigracium nominatum. Ipsa etiam regionis princeps
+          Urbs vetus nomen a Slavis acceptum, in hodiernum diem florens conservat,
+            <emph>Gradatz</emph> vel <emph>Gradetz</emph> et
+          <emph>Gradtz</emph>, coeteris etiam linguis commune nisi quod recentiores pro
+            <emph>Gratio</emph> et <emph>Gratia, Graecium</emph> scribere consueverint. Austriam praeterea
+          Illyricanae Provinciae regionem <bibl>Ioannes Tomkus Marnjavitius, Episcopus Bosnensis /In
+          praefatione Regiae Sanctitatis Illyricanae Nobilitatis ad Ferdinandum IV. Regem
+          Apostolicum/</bibl> rite appellat; <q>quae quamvis Germanicis moribus, sermonique iam populariter assueverit, nihilominus tamen, ut alia a Germania, tellus, praerogativa suffragiorum, in Sacri Romani Imperii Comitiis ferendorum, omnibus Germanicis Provinciis communi, abdicitur perpetuo, suaeque priscae iuncta manet Illyricae origini.</q>
+          Septentrionales vero sive Albi aut Magni Chrobati sunt Slavi Vandali et quos in Venedicos
+          et Sarmaticos distinguit <bibl>Georgius Hornius /In Arca Noë/</bibl>; et Venedicos denuo in Bohemos,
+          Moravos et Sorabos; hos iterum in Pomeranos, Mechlenburgenses, Marchios, Lusatas, Misnios,
+          Anhaldinos: cum Sarmaticos in Russiam, Poloniam et Lituaniam; de quibus omnibus suis locis
+          uberior nobis sermo erit. Nam et circa Annum Christi 550. (<bibl>Georgius Bertoldus Pontanus
+          /Bohemiae piae libro 1./</bibl> scribit 645.) Chroatae gens Illyrica, Cseho, Leho et Russo
+          fratribus Ducibus ex Croatia Interamnia, et loco eorum praecipuo Arce Crapina progressi,
+          in Septentrionalibus a Danubio partibus, tria Regna florentissima, sibi cognominia
+          fundaverunt; videlicet Cehos, sive Bohemos, Lehos, alias Polonos et Russos. ut de Ceho
+          Bohemorum fundatore apte applaudit <bibl>Martinus Cuthenus; /In Ducum Regumque Bohemiae gestis/</bibl> 
+               <quote>
+                  <l> Illyrico profugus primum dat iura Bohemis </l>
+                  <l> Cechius; hinc nomen gens trahit illa suum. </l>
+               </quote>
+        et <bibl>Casparus Cropacius; /Duces et Reges Bohemiae/</bibl> 
+               <quote>
+                  <l> Facta caede domi, metuens causaeque sibique </l>
+                  <l> Zechius Illyrico transfuga cedit agro. </l>
+                  <l> Et procul a Patria peregrinis quaerit in oris, </l>
+                  <l> Cum sociis sedes spe meliore novas. </l>
+                  <l> Longum iter emensus, tandem quibus undique cincta es, </l>
+                  <l> Hercinios saltus, terra Bohema subit. </l>
+                  <l> Fructiferos inibi colles, et amaena vireta </l>
+                  <l> Cernens, non uno, pascua laeta, loco. </l>
+                  <l> Tum vitreos fontes, et plenos piscibus amnes, </l>
+                  <l> Arvaque cultura fertiliora nova. </l>
+                  <l> Hunc sibi prae reliquis habitandum deligit orbem, </l>
+                  <l> Indigenas poscens in sua vota Deos. </l>
+                  <l> Dent aditus laetos, Regnique exordia firment: </l>
+                  <l> Hinc Ducis illius gens ea nomen habet. </l>
+               </quote>
+            </p>
+            <p>Ne commemorem Svevladum Regem, qui ipse <q>Bosnae, Valachiae, usque ad Poloniae fines, et Dalmatiae Croatiaeque imperavit,</q>
+          ut <bibl>ex vetustissimo Commentariolo /De Regum Dalmatiae et Croatiae gestis/ traducit Marcus
+          Marulus Patricius Spalatensis</bibl>. Orientales item Croatiae termini longe ampliores sunt, quam
+          quos recentiores Geographi ei describunt. Tillurum amnem, vulgo Cetinam, Porphirogenitus
+          assignat, Hlevnam tamen regionem, quae trans flumen Cetinae est, Croatiae includit: ut
+          superius diximus. Eum sequuntur <bibl>Paulus Iovius /Libro 10./</bibl>, Maurus Orbinus, Iacobus
+          Luccarus et alii, qui Narentanorum regnum a Croatico proprio dividunt, Serblosque a
+          Croatis separant: ob Imperium Orientale et Occidentale, quibus partes aliquo tempore
+          suberant, et Regnum deinde in Croatiam proprie et Serbliam proprie divisum extitit.
+          Caeterum non modo Narentani (ut in sequentibus demonstrabimus) Slava Croataque natio sunt,
+          verum etiam ipsi Bosnii et Serblii. Uti ex supra relata Porphirogeniti sententia satis
+            liquet; <q>Chrobati qui Dalmatiae partes incolunt, a Chrobatis Albis originem ducunt</q>
+               <abbr>etc.</abbr> Et <q>Slavis contermini sunt, Serblis, qui Chrobati dicuntur.</q> Idem sentit <bibl>Curopalates, qui /Ad Annum 1074./</bibl> ait;
+            <q>Servorum gens, quos etiam Crovatas vocant.</q>
+          Et <bibl>Zonaras</bibl>; <q>gens Chrobatorum, quos nonnulli Serblos vocant.</q> 
+               <bibl>Blondus
+          Item /Libro 2./</bibl>; <q>Rascia et Bosna pro Regni Croatiae Regionibus habentur.</q> Idem <bibl>/Libro 4./</bibl>
+          Chronicon Charionis et alii mediae aetatis scriptores affirmant. Hertzegovinam item (quae
+          vetus Chudvergia Orbino) et utramque Zentam (olim Labeates) Diocleas, Albaniam Luccarus,
+          Slavoniae accensent; hic enim Albaniae mentionem faciens <bibl>/Annali di Ragusa libro 3./</bibl>;
+            <q>Dolcigno, Smokviza et Zarnagora, poste nell estrema parte di Slavonia.</q> 
+               <bibl>Ioannes
+          Lucius /In notis ad historiam Diocleatis ad finem/</bibl> 
+               <emph>Epirum</emph> quoque
+            <emph>reliquaque loca Slavi</emph> quod
+          possederint, non negat. Thessalonicam etiam, Pellam, Pheras, Andram, Philippos et
+          Heracleam <bibl>Pater Iacobus Micalia e Societate JESU, Croatiae sive Slavoniae /Thesauro
+          linguae Illyricae/</bibl> attribuit. Et quidem Bjelobardo, et Bjelazora inter Plinii historias
+          celebratae Macedonum Civitates maioris linguae et potentiae Croatorum antiquitatis
+          perhibent testimonia. Quin et posterioribus annis Nemanichii Reges Macedoniam, Epirum,
+          Graeciam, Romaniam et Bulgariam suo Imperio subiectas tenuere. Unde Stephanus IV. Rex,
+          Duscianus sive Misericors dictus, Imperatorio <emph>Romanorum et Serbiorum,</emph> sive
+            <emph>Serbiae, Graeciae et Bulgariae,</emph> titulo usus, Rasciae et
+          Bulgariae Reges constituebat. ut tradunt <bibl>Maurus Orbinus /Opere citato/</bibl>; Iacobus Luccarus,
+          Georgius Hornius et Casimirus Freschottus. </p>
+            <p>His itaque certa fide dignorum Scriptorum autoritate comprobatis, de Insulis Adriatici
+          sinus, Croatiae propriis, nullum superest dubium; quae cum Liburnicae ante fuerint,
+          <bibl>/Dandulus ad Annum 874./</bibl>; et Liburniae nomen in Croatiam transierit <bibl>/Chronico Carionis
+          <abbr>etc.</abbr>/</bibl>; huic merito accensentur. Olim quippe Croatorum Regibus subditae tributariaeque
+          fuerunt <bibl>/Ioannes Lucius operis citati libro 2. capite 2,5,13. libro 3. capite 9./</bibl>. Scribit
+          enim <bibl>Porphirogenitus /Capite 30./</bibl> his verbis; <q>Ex quo vero dicti iam Sclavi inhabitarunt finitima Dalmatiae, omnia tenuerunt, Urbesque Romanorum Insulas colebant, ex iisque vivebant, at cum quotidie a Paganis captivi abducerentur, perderenturque, illas deseruerunt, continentem colere volentes, verum a Crobatis prohibebantur, cum nondum illis tributa penderent, verum ea quae hodie pendunt, Praetori suo exhibebant; sed cum vitam tolerare non possint, ad Basilium Venerabilem Imperatorem accesserunt, eumque res a nobis commemoratas edocuerunt, isque auctor fuit, ut quae Praetori solvebant, ea Sclavis darent pacis causa et Praetori exiguum quid penderent ad ostendendam dumtaxat Romanis Imperatoribus illisque debitam subiectionem ac servitutem: atque ex illo tempore omnes istae Urbes Sclavorum tributariae, pacta solvunt, Aspalathus quidem solidos CC. Tetragura C. Diadora CX. Opsara C. Arbe C. Belca C. ita ut universum essent librae DCCX. excepto vino et caeteris speciebus diversis, quas praeter pecuniam exhibebant.</q> Et
+          Cresimirus Croatorum Rex Adriaticum Mare suae appropriabat iurisdictioni, ut constat ex
+          eiusdem privilegio, <bibl>apud Ioannem Lucium /De Regno Dalmatiae et Croatiae libro 2. capite
+          3./</bibl> citato; ac <q>Beatus Petrus Damianus, eiusdem Regis contemporaneus scriptum reliquit; Absarenses Dalmatas, uti Regi Slavo subditos, Slavonici Regni partem esse</q>
+               <bibl>/Idem libro 2. capite 11./</bibl>. Idem de aliis affirmat saepe fatus <bibl>Archidiaconus, /Capite 15./</bibl>
+          qui ait; <q>Inferior Dalmatia habuit Episcopatus suos, more antiquo suae Metropoli Salonitanae Ecclesiae subditos, videlicet ab Apsarensi Episcopatu usque ad Traguriensem. Vegliensis, Absarensis et Arbensis Episcopatus habuerunt Parochias suas in insulis suis</q> 
+               <abbr>etc.</abbr>
+               <emph>Omnes enim Civitates praedictae ad Regnum Croatiae pertinebant.</emph>
+          Uroscius quoque Rassiae Rex hoc titulo utebatur <bibl>/Maurus Orbinus, Regno delli Slavi/</bibl>,
+            <q>Uroscius Rex Rassiae et Diocleae, Albaniae, Bulgariae ac totius Maritimae, de Culfo Adriae a Mari, usque ad flumen Danubii magni. Crescebant namque indies Croatorum vires,</q> (inquit
+          <bibl>/Libro 2. capite 2./ Ioannes Lucius</bibl>) <q>et debilitatis Dalmatarum rebus, una cum Narentanis Maris Adriatici dominium usurparant; qui et Venetos intra suas paludes, molestasse, ab eorum Chronistis et vulgatis scriptoribus memorantur.</q>
+          Hinc est quod Veneti <emph>per multos annos, ut tuto oram Dalmaticam sui negotiatores navigarent, tributum</emph> Chroatis
+          mittebant; ut Dandulus et Sabellicus Veneti <corr>Scriptores</corr> prodiderunt, ac Orbinus aliique
+          commemorant. Ingens namque olim fuit Croatorum potentia, ut ex Porphirogeniti relatione
+          videre est: qui <bibl>/Capite 31./</bibl> ait; <q>Baptizatae vero Crobatiae Urbes habitatae istae sunt; Nona, Beligradum, Belitzin, Scordona, Chlebena, Stolpum, Tenen, Cori, Claboca, exhibetque Equitum LX. peditum C. millia, et Sagenas LXXX. Conduras C. quarum illae XL. viros habent, hae XX. nempe quae maiores, nam minores tantum X. atque haec quidem potentia eius et copiae fuerunt usque ad Principatum Cresemere.</q>
+          Si haec baptizatae et Maritimae tantum (ut ex Civitatum nominibus dignoscitur) quanta non
+          fuit, unitis non baptizata Croatia Maritima, Mediterranea et Interamnia? de quibus duabus
+          posterioribus Porphirogenitus non facit mentionem. At et Ungaricae, in Croatia, Monarchiae
+          tempore, omnes Liburnici Maris Insulae ad Croatiae Regnum pertinebant; cum et ultimas pene
+          illius freti, Corcyram, Tortam, Stedram, Lesinam, Issam et Bratiam, per Ladislavum sive
+          Vladislavum Hungariae et Neapolis Regem, Anno 1405. Hervojae Duci venditas, post huius
+          obitum Barbara Sigismundi Imperatoris et Regis uxor, nomine sacrae Coronae, tenuit;
+            <q xml:lang="it">come cosa</q> (ut inquit <bibl>/Annali di Ragusa libro 3./</bibl>
+          Iacobus Luccarus) <q xml:lang="it">ch’ insieme con molte citta, e scogli di Dalmatia apparteneva ai Regno d’Ungaria</q>
+          et mox infra; <q xml:lang="it">come quelle, ch’erano unite con la corona: ne senza consenso di Racos si potevano alienare.</q>
+            </p>
+            <p>Ne quis vero Croatos a Slavis aut Illyriis aliam existimet esse nationem, hic monitum iri
+            volumus. <emph>Croatos</emph> nempe <emph>tam inter se quam a Dalmatis Slavorum nomine nuncupatos in scripturis antiquis reperitur; In Privilegiis autem tantum se Duces et Reges Croatorum non Sclavorum nominarunt,</emph>
+          ut <bibl>Lucius /De Regno Dalmatiae et Croatiae libro 2. capite 15./</bibl> refert; Imo
+            <emph>Croatia a vicinis Dalmatis et Ungaris Sclavonia nuncupata</emph>
+          est ait <bibl>/Libro 4. capite 3., libro 6. capite 4./</bibl>. Sed nec <emph>Croati</emph> tantum,
+          verum et <emph>Servii</emph> illius <bibl>/Ibidem capite 11./</bibl>
+               <emph> Slavi erant</emph>.<emph> Croatiam</emph>que <emph>et Serviam Slavonicas regiones</emph>
+               <bibl>/Ibi libro 4. capite 3./</bibl> vocat. Nam et <emph>Serviam antiquo vocabulo Dalmatiam vocatam</emph> fuisse <bibl>/In notis ad
+          Diocleatem nota 25./</bibl> vult. <bibl>Georgius Barakovich opus suum /Vila Slovinkinja/</bibl> de Croatia sub
+          Slovinicae Musae nomine, egregio versu concinnatum, edidit; omnesque superius dictae
+          gentes vernaculam suam linguam generaliter Slavam, vel Slovinicam, id est Illyricam
+          nuncupant, cuius usum communem habent. ut Croatae proprii,<q xml:lang="hr"> nas Hervatski aliti slovinski jezik</q>: id est; nostra Croatica sive Slavonica lingua. Carnioli,
+            <q xml:lang="hr">nas krajnski inu slovenski jezik;</q>
+          nostra Carniolica et Slavonica lingua; sic caeterae. Quos enim Graeci et Latini Illyrios,
+          ipsi se <emph>Slavos</emph> et <emph>Slovinos</emph>
+          nuncupabant. Unde apud nonnullos tota Croatia Slavoniae nomine tenetur; apud nationales
+          etiam Macedonia. Hinc Rogerius, Belam IV. Regem Ungariae a Tattaris pulsum in Slavonia
+          moratum fuisse narrat; quae Croatia nostra Mediterranea (ubi Modrusam et Bihigon oppida
+          muro texit) ac Maritima, in qua ad profligationem Barbarorum se conservavit, intelligenda
+          est. Hornius item in <emph>Slavonica Illyrica Dalmatiam, Bulgariam, Croatiam, Albaniam,</emph> recenset:
+          ac Pater Micalia tam titulum, <bibl xml:lang="hr">Blago jezika Slovinskoga,</bibl> id est,
+            <bibl>Thesaurus Linguae Illyricae,</bibl>
+          Lexico suo Illyrico Italico Latino inscribit, quam in eius Abecedaria serie sub littera
+            <emph>H</emph> docet;
+        <quote xml:lang="hr">
+                  <p>Hrrivat, Hervat; <emph>Croato;</emph> Illyricus, ci Croata, ae.</p>
+                  <p>Hrrivacia, Hervatska zemglja; <emph>Croatia:</emph> Illyris, idis. </p>
+                  <p>Illyricum, ci. Croatia, ae.</p>
+               </quote>
+        et in serie litterae <emph>S</emph>.
+        <quote xml:lang="hr">
+                  <p>Slovinaç, Dalmatin; <emph>Slavone, Dalmatino;</emph> Illyricus,
+          ci.</p>
+                  <p>Dalmata, ae.</p>
+                  <p>Slovinska zemglja: <emph>Slavonia, Dalmatia:</emph> Illyricum, ci.</p>
+                  <p>Dalmatia, ae. Macedonia, ae. <abbr>etc.</abbr>
+                  </p>
+               </quote>
+            </p>
+            <p>Non mirari non possum hic, meris coniecturis impensum, Ioannem Lucium nostrum; nisi et
+          ipsius Opera, suggestis novis editionibus, depravata, auctoris sensum <corr>posthomo</corr> fato
+          immutarint; Ubi Diocleatis et Maruli de Regibus Croatiae Commentaria, ex antiquissimis
+          codicibus, lingua vernacula conscriptis, in Latinam translata, non nihil carpat, et
+          quaedam in dubium fidem vocet; Quod Narentanos, eandem cum Croatis nationem fuisse,
+          ambigat. Et Tragurium, Patriam suam, nec non Spalatum et Iadram, Civitates Maritimas
+          Croatiae adimit: eas Dalmatiae, quasi alienae regioni, aut alteri genti, appropriaturus.
+          Primum eo argumento fundare supponitur; Quod patria illa commentaria cum Graecorum
+          Francorumque notis, in rerum actarum tempore, ac Regum nominibus, per omnia non
+          conveniant. In secundo haeret; quod specialiter Paganiam describens Porphirogenitus,
+          eandem versus Croatiam baptizatam Cetina fluvio terminari adscripserit. Et tertium; quod
+          in Civitatibus illis Latinorum et Romanorum reliquiae se conservaverint, illorum lingua
+          adhuc uterentur, et Dalmaticum nomen, Provinciae a Romanis inditum, conservent. Ad haec
+          (pace eiusdem Lucii) ex ipsius vulgatis <bibl>de Regno Dalmatiae et Croatiae</bibl> exemplaribus quaedam
+          perpendenda opponam. Et quidem ad</p>
+        
+            <p>Primum. <bibl>Ex ipsis, <emph>de Regno Dalmatiae et Croatiae</emph>
+          nomine, auctore Ioanne Lucio vulgatis exemplaribus /Libro 2. capite 8./</bibl> legitur.
+            <q>Duces Croatorum detracto Francorum iugo, cum nullum superiorem cognovisse reperiantur, a suis Croatis Reges nuncupatos, eos, qui universam Regionem possederunt, quam, sub eorundem Francorum quoque Imperio, Regnum Croatorum dictam, ex privilegio Terpimiri et Annalibus Francorum constat.</q> At <emph>quamvis Cresimirum maiorem in primo Regem non vocet Petrus, prout in secundo Patrem et Avum:</emph>
+          satis est, quod Cresimiro filio Regi praepositus, Cresimirus maior, subintellecto Regio
+          nomine, appelletur. Cresimirum eundem maiorem, eoque antiquiores Reges fuisse, dignoscitur
+          ex sensu <emph>antiqui registri Privilegiorum monacorum Sancti Chrisogoni Iadrensis Anno Dominicae Incarnationis 1067.</emph>
+          conscripti, quae sunt; <q>Hanc ipsam denique terram his ipsis terminis terminatam, sine infestatione quorumlibet hominum servis Dei perpetuo possidendam, hoc modo antiquitus in nostro iam dicto Monasterio ferunt fuisse datam, quod Rex quidam Croatorum veniens votum reddere Deo, ad Ecclesiam praefatam petentibus servis Dei pro suo remedio animae donavit eam; quod factum pronepos eius, praedictus Rex nostris quoque stabilivit diebus.</q>
+          quod clare innuit Cresimirum maiorem fuisse Regem, et li <emph>quidam</emph>, ipsum ex
+          pluribus anterioribus aliquem subintelligit. Quod vero <emph>Dircislavum primum titulum Regium ab Imperatore Constantinopolitano consecutum, argui posse,</emph>
+          ex Archidiaconi verbis, asserat: illius verba ad proprium, non autoris sensum
+          interpretatur. ubi namque <bibl>Archidiaconus /Capite 13./</bibl> dicit; ab<q> isto Dircislavo caeteri Reges Dalmatiae et Croatiae appellati sunt;</q> id
+          est Croatiae, et Dalmatiae Romanae uti Provinciae titulo assumpto, fors coepit
+          Dircislavus; cum anteriores eo Reges solo Croatiae vel Croatorum Regio titulo contenti
+          fuissent: quin et post ipsum Cresimirus <emph>Patritius et Chroatorum Rex</emph> tantum scribi et nuncupari voluit. tum etiam quod primus
+          Dircislavus, et ab eo <q>caeteri successores eius Reges, recipiebant Regiae dignitatis insignia ab Imperatoribus Constintanopolitanis et dicebantur eorum Eparchi sive Patritii.</q>
+               <bibl>/Archidiaconus ibidem/</bibl>. <emph>Habebant namque ex successione suae originis patrum et proavorum dominium Regni Dalmatiae et Croatiae.</emph>
+          Primo enim <bibl>/Cedrenus Anno 1019./</bibl> 
+               <q>subacta Bulgaria, Imperatori se dedidit contermina Chrobatorum gens et eius Principes fratres duo, quibus Imperator honores, ac opes amplas tribuit, solus adhuc Imperium detrectabat Sermo, Sermii Dominus, Nestongi frater.</q>
+          Francorum quidem in Occidentali Croatorum Regni parte imperium vetustius erat: Carolus
+          enim, Magnus appellatus, circa Annum Christi 800, <bibl>/Eginhardus/</bibl> 
+               <q>in utramque Pannoniam et in altera Danubii parte Daciam, Histriam et Liburniam atque Dalmatiam, exceptis maritimis Civitatibus,</q> dominium
+          extenderat; quod tamen posteris suis tenendum neque testamento reliquit; qui Ludovico
+          Galliam, Carolo Germaniam, Pipino Italiam <bibl>/Testamento Caroli Magni/</bibl> legavit:
+            <q>de Dalmatia ne verbum quidem, sed neque Pannonias nominat</q>
+               <bibl>/Ioannes Lucius, operis citati libro 1. capite 15./</bibl>. Quod Francorum in Croatia Occidentali
+          sive Alba imperium breve fuisse probat etiam <bibl>Porphirogenitus Imperator qui /Capite 30./</bibl>
+            ait; <q>Ad aliquot vero annos Dalmatiae Chrobati Francis subiciebantur, quemadmodum et antea in ipsorum terra; tanta autem crudelitate utebantur Franci, ut lactantes adhuc pueros occidentes, canibus obicerent, quae res cum intolerabilis Chrobatis esset, facto desidio, Principes, quos ex ipsis habebant, interemerunt, unde magnus contra eos exercitus movit e Francia, et post septem annorum bellum, aegre tandem superiores facti Chrobati, omnes Francos, eorumque Principem Cotzilin e medio sustulerunt, et exinde liberi ac sui iuris, sacrum baptisma a pontifice Romano petierunt misique Episcopi ipsos baptizarunt, Principatum tenente Porino,</q> sive
+          Borna. Quos tamen Liburniae Croatos <bibl>Procopius proprie /De Bello Gothico/</bibl>
+               <emph> haud Francorum sub potestate</emph>
+          fuisse testis est. Primis quippe temporibus, iidem hi nostri <q>Chrobati, </q>
+               <bibl>/Porphirogenitus ibidem/</bibl> 
+               <q>qui Illyricum Pannoniamque tenuerunt, habebant et ipsi Principem supremum; qui ad Chrobatiae</q>
+          veteris <q>tantum Principem</q> (id est Francorum
+          Imperatorem) <q>amicitiae ergo, legationem mittebat.</q> Habuit igitur
+          Croatia proprios Principes et Reges, continua procul dubio serie post Ostrivojum; in qua
+          non satis adimpleta, scriptorum defectus causandus est. <q>Terrestres</q> enim
+          <bibl>/Ioannes Lucius operis citati libro 2. capite 1./</bibl> 
+               <q>Croatorum res gestae a nullo Latinorum scriptorum traduntur, et a Graecis quaedam exilia.</q>
+          Ipsi autem Crovati, ut armis semper plurimum, ita minimum litteris dediti fuere. sicuti
+          apparet ex Contractu Fratris Gregorii Episcopi Traguriensis cum Communitate loci illius
+          celebrato, recentioribus saeculis, videlicet Anno Domini 1280. in quo ex undecim Canonicis
+          pro consensu et testimonio ibi existentibus quattuor aliena manu, de scripturae nescitia,
+          subscriptos esse fatentur <bibl>/Idem, Memorie di Trau libro 3. capite 7. pagina 139./</bibl>. Si haec
+          in regione Croatiae maritima, ut magis culta, in Civitate Dalmatica et a Romanis Ioanni
+          Lucio habitata, atque inter Clerum Scripturae sacrae dogmata docentem. quae non inter
+          vasta montium iuga litterarum apud Slavos Romanarum ignorantia? Sic, ut in tempore ab
+          exteris, de rebus Croatiae, non bene observato, ita etiam in nominibus apud Graecos et
+          Latinos scriptores exoticis, error tanto facilius accidere potuit, quo minus, ad illa
+          describenda, horum paucitas litterarum sufficiat. <q>Quia</q> insuper <bibl>/Ioannes
+          Lucius libro 2. capite 8./</bibl> 
+               <q>Graeci Slava nomina saepe vel mutarunt, vel alia iisdem addiderunt; ut de Cresimiro, dicto Petro, et Zvonimiro dicto Demetrio, ex eorum Privilegiis, et de Serviae Principe Boisthlabo ex Cedreno constat;</q>
+          eosdemque <q>Graecos</q> 
+               <bibl>/Idem in notis ad Diocleatem nota 17./</bibl>
+               <q> inflexione sua Uroscium, Velsin et Bolusen nominasse;</q>
+          qui etiam <bibl>/Idem ibi nota 26./</bibl> 
+               <emph>Volcus dicunt,</emph>
+            quod <emph>Slavi Vuk, Vuksan, Vukac:</emph> ac<emph> quem Regem Dobroslavum Diocleas, Cedrenus Graeco more Stephanum, Curopalata Vladislavum vocavit.</emph> Eodem
+          etiam modo Veneti Scriptores in Slavicorum nominum proprietate discrepant;
+          <emph>Ducem</emph> enim sive Regem <emph>Mislaum, Veneti Mium vocant,</emph> ab Archidiacono <emph>Tamislavum</emph> 
+               <bibl>/Idem
+          libro 1. capite 1./</bibl> dictum. Atque ideo, quod Slava sive Illyrica <emph>nomina cum relatis a Niceta</emph>,
+          aut altero quopiam Graeco, Franconiove, aut Italo scriptore <emph>non conveniant</emph> 
+               <bibl>/Idem ibi in notis ad Diocleatem/</bibl>, propria
+          sententia, non est, quod miretur Lucius. Nec mirum, quod Slavis inimicae, ab iis oppressae
+          aut vexatae nationes, uti Graeci, supremos illorum Principes regio titulo non honorarint:
+          et vel maxime apud quas eo iam tempore a Constantinopolitanis Imperatoribus aut a Romanis
+          Pontificibus Coronam et insignia regalia accipere consuetum extitit. Hinc alii Duces, alii
+          Principes Croatorum vocant. uti Porphirogenitus Cresemerem Principem appellat, qui se
+          tamen Regem Croatorum scribebat, ut ex eius Privilegiis satis constat:
+            <emph>eosque a suis Croatis Reges nuncupatos, et Regionem, quam sub eorundem Francorum quoque Imperio, possederunt, Regnum Croatorum dictam,</emph> 
+               <bibl>idem
+          Lucius /De Regno Dalmatiae et Croatiae libro 2. capite 8./</bibl> observavit. Quin et Francorum
+          Imperatorem alibi Regem, Principem alibi Porphirogenitus nuncupat. Iidem tamen Croatorum
+          Reges alios Duces et Principes sub se habebant. <q>Regnum</q> quippe<q> Croatorum</q> 
+               <bibl>/Idem ibi/</bibl> 
+               <q>Danubium usque protensum fuisse, ex privilegio Tirpimiri Ducis constat, cuius Regni partem inter Dravum, et Savum sitam, Branslavonem Ducem in potestate habuisse tempore eodem, quo Mucimirus erat Dux Meridionalis Croatiae, ex eiusdem privilegio patet;</q>
+          quem ipsum Tirpimirum Diocleas et Archidiaconus probe Regem appellant: horumque in
+          reliquos Croatorum Reges fidem autoritatemque validat <bibl>Dandulus</bibl>, his verbis;
+            <q>Mortuo Tirpimiro Rege Croatorum, inter filios Mucinurum et Surignam, cupiditate regnandi orta contentio, schisma magnum generavit; Mucinurius tamen praevalens, plurimis in rebellione positis Regnum obtinuit.</q> Dixi
+          Reges Croatiae, alios Duces et Principes sub se habuisse; <q>Iupanos</q> quippe
+          <bibl>/Idem in Notis ad Diocleatem nota 20./</bibl> 
+               <q>Rassiae constituebant Reges Croatiae.</q>
+          Et <bibl>/Ibidem ad notam 20/</bibl> 
+               <q>Stephanus Knez Bosnae, id est Comes, a Bodino Croatorum Rege constitutus</q> fuisse legitur. Imo
+            <emph>Bodinum filium Michaëlis,</emph> Croatiae
+          Regis, <emph>Regem Bulgaris a patre datum,</emph> 
+               <bibl>Curopalata</bibl> scripsit, et <bibl>Ioannes Lucius /In
+          iisdem notis ad finem/</bibl> refert.</p>
+            <p>In Narentanorum vero (de quibus suo loco plura) cum Croatis gentilitate ambigere,
+          incongruum erat; cum, praeter superius enarrata, Bosnam, Serviam, Chudvergiam, Albaniam et
+          coeteras Narentanorum ditione celebriores ac a Narentae flumine longe remotiores
+          Provincias, Slava sive Croatica gente inhabitatas fuisse, suprarelatis autorum testimoniis
+          comprobavimus: et nunc earum coloniam esse manifesto habetur, Slavo sive Croato idiomate,
+          sibi nativo, loquentem. Sed et ipsi Contravertenti, <bibl>/Operis citati libro 2. capite 2./</bibl>
+               <q>Croati et Narentani utrique Slavi sunt; Slavos</q>que <q>pro Croatis summendos esse,</q> dicit.
+          Ita et Veneti, uti etiam Graeci scriptores Narentanos nunc Slavos nunc Croatos appellant.
+          Porphirogenitus quoque Narentanorum ditionem Paganiam, id est Croatiam non baptizatam
+          vocat. Nam ut Croatiae baptizatae Civitates <bibl>/Capite 31./</bibl> recenset, ita de Croatia non
+          baptizata sic <bibl>/Capite 30./</bibl> scribit; <q>Ab Orontio Pagania incipit, procurritque ad Zetinam flumen.</q>
+          Et post <q>Pagani autem vocantur, quod baptismum non accepissent eo tempore, quo Sclavi omnes baptizati erant. ita enim Sclavorum lingua nuncupantur, quicunque baptismi expertes. Romanorum vero dialecto Regio illa appellatur Arenta et populi Arentani.</q>
+          Eadem Arenta sive <emph>Narenta Chulmiae regio maritima</emph> 
+               <bibl>Thomae Archidiacono /Capite 36./</bibl> est.
+            <emph>Narentanorum autem</emph> 
+               <bibl>/Ioannes Lucius operis citati
+          libro 2. capite 5. ad finem/</bibl> 
+               <emph>loca Almisani tenuerunt,</emph> qui <emph>Caciclos</emph>
+            sive Kacichios <emph>Protectores, Comites</emph> et Duces <emph>habuere. Cacicli</emph> autem <emph>Comites cum aliis Comitibus Croatiae</emph> erant
+          <bibl>/Idem ibidem libro 4. capite 4./</bibl>. Quin et Mucarum (nunc Makarska) in media pene Regione ad
+          litus Maris sita Episcopalis olim Civitas, initio labentis saeculi, saecundo nempe lustro,
+          Senonsibus Croatis tributaria fuit: Imperio Turcico subiecta; ut in Patriae Manuscriptis
+          legitur, recensque hominum memoria vidit. Hinc non satis capio sensum eiusdem Ioannis
+          Lucii, ubi <bibl>/Operis citati libro 2. capite 5. ad finem/</bibl> ait; <q>Cuius generis census fuerit, quem Croati, et Narentani a navigantibus extorquebant, ex relatis Danduli verbis distingui non potest: ita ex iis, quae suo loco dicentur de Almisanis, qui loca Narentanorum tenuerunt, et Segniensium Croatorum, qui nostris temporibus non minores molestias, Venetis longe maioribus viribus pollentibus, inferre ausi sunt, coniectari poterunt ea, quae ab auctoribus non traduntur.</q> Ex
+          quibus duo in Lucium animadvertenda sunt. Primum; quod <emph>censum a navigantibus extortum</emph>
+          dicat; quem tamen ipsi Veneti Scriptores <emph>tributum</emph> vocant; ut <bibl>Sabelicus /Libro
+          2./</bibl>, <bibl>Petrus Iustinianus /Libro 1./</bibl>, <bibl>Iulius Faroldus /In Annalibus Venetiarum/</bibl> et coeteri.</p>
+            <p>Secundum; quod <emph>Almisani loca Narentanorum tenuerunt, et Segniensium Croatorum, qui</emph> eius <emph>temporibus</emph>
+          et. Primum Lectorum arbitrio pensandum remitto. ad Secundum; Eius temporibus Almisanorum
+          vetus nomen vix in Urbis ruinis haesit: at Senonum sive<emph> Segniensium Croatorum</emph> arma terra marique
+          personabant. Sed hic transcribentis error: legendumque sic auctor sentiebat;
+            <emph>de Almisanis, qui loca Narentanorum tenebant, et Segniensibus Croatis, qui,</emph> 
+               <abbr>etc.</abbr>
+          Totam itaque <emph>regionem Chulmiam in Chroatia</emph> cum <bibl>Archidiacono /Capite
+          13./</bibl> censendum est comprehendi: quam <bibl>ipsius Lucii /Operis citati libro 4. capite 4./
+          testimonio</bibl>, <emph>a Comitibus Croatis rectam</emph> et possessam
+          fuisse, patet: ita et populum eiusdem Regionis Narentanum, alios non habuisse Reges, quam
+          Croatos, et eorum vicarios Principes pro Rectoribus et Iudicibus; ut ex Danduli aliorumque
+          historicis traditionibus palam colligitur: Narentanorum autem nomen a Narentae fluminis
+          incolatu obtinuere, quemadmodum et Bosnii a fluvio Bosna sunt nuncupati, quod ipse
+          <bibl>/Memorie di Trau libro 1. capite 9./</bibl> recognoscit.</p>
+            <p>Quo ad vero Civitates memoratas, ei argumento, ex Porphirogeniti relationibus desumpto
+          inhaeret, quod <emph>Diocletianus Imperator, valde Dalmatiam amavit, unde etiam populi Romani colonias eo deduxit.</emph>
+          Et postquam <emph>Slavi Romanos deleverunt, eorumque loca tenuerunt, reliqui Romani in orae maritimae oppidis servati, eaque etiamnum tenent, et sunt ista: Rausium, Aspalathum, Tetranguria, Diodara</emph> 
+               <bibl>/Ioannes
+          Lucius, De Regno Dalmatiae et Croatiae libro 1. capite 6./</bibl>. At sicut
+            <emph>Mare Dalmaticum dici non poterat, antequam ipsi Dalmatae mare attigissent, quod diu post Romanorum adventum evenisse constat: neque aliquis ex antiquis auctoribus Dalmatici maris mentionem facit, solus Ptolemaeus aliquas ex Insulis Adriaticis, quas caeteri inter Liburnicas ponunt, Dalmaticas nominavit:</emph>
+          sic etiam, <emph>deletis Romanis</emph> et
+          Dalmaticae Provinciae nomine sensim cessante, nec <emph>Mare Dalmaticum,</emph> nec <emph>Insulae Dalmaticae,</emph> minus Civitates, in<emph> Continenti Croatico sitae, Dalmaticae</emph>
+          dicendae sunt. Et sicut Rausinam Porphirogeniti Civitatem sua liberalitate Dalmatiae
+          adimit, Slavoniae approprians: ita magis Spalatum et Iadram (Tetraguria minus curata)
+          Slavonicae earum Croatiae iure bono reliquisse debuisset, non ignarus suarum in utroque
+          opere <bibl>/De Regno Dalmatiae et Croatiae et Memorie di Trau/</bibl> traditionum, ubi revolutis
+          Dalmatiae Civitatum Archivis, inter tot divorum Croatiae et Ungariae Regum privilegia nec
+          unum reperitur a Graeco aut Franconico quopiam Imperatore illis concessum. quin
+            <emph>Privilegia Regum Croatorum</emph>
+            Cathedrali <emph>Ecclesiae Traguriensi concessa,</emph> adhuc
+            <emph>ante Beati Ioannis Episcopi</emph>
+          illius <emph>tempora periisse</emph> 
+               <bibl>/Libro 2. capite 11./</bibl>
+          indolet. Sed eaedem ipsae Dalmaticae Lucii nostri Civitates tam Croatiae Regibus, eorumque
+          Vices gerentibus Banis, ac ipsorum substitutis Vicebanis anterioribus temporibus parebant:
+          quam etiam ex Croatica Nobilitate proprios sibi Comites et Protectores semper eligebant.
+          ut apparet in praeliminari eiusdem operae, <bibl>Memorie Historiche di Tragurio</bibl> intitulatae:
+          ubi Comitum et Protectorum Civitatis Traguriensis deducta serie, ab Anno Christi 1000,
+          usque ad Annum 1420 et ulterius, meri<emph> Croatiae, Regii</emph>que<emph> Comites</emph> illi praefuere. quam totam seriem 36. tantum annis (id est
+          a 1322, ad 1358) Veneti Praesides interruperunt. Quod vero <bibl>/De Regno Dalmatiae et Croatiae
+          libro 2. capite 15./</bibl> 
+               <emph>Dalmatas a Croatis etiam Latinos nominatos reperiri</emph> asserat;
+          ac ulterius <bibl>/In praefatione Memorie di Trau/</bibl> dicere praesumat: quod
+          <q xml:lang="it">lingua Romana moderna, o volgare, non piu Italiana che Dalmatina puo
+            dirsi:</q> id a nullo Dalmatarum, sed
+          nec ab Italo linguae et regionis gnaro facile quis audiverit aut legerit. Dalmatae namque
+          ipsi (servato hoc veteri Provinciae Romanorum in Illyrico institutae nomine) licet etiam
+          Ducali Venetorum a Regali Croatorum iurisdictione separati, raro se Dalmatas (taceo Italos
+          aut Romanos) sed Slavos et Croatos proprie, vernaculamque Slavam, Slovinicam, Croaticam,
+          vocant. Nec ullus est inter innumeros gentis huius, genio ad Musas aeque aptissimae ac
+          deditissimae, qui vernaculam secus nominaret; ut supra memoratus Barakovich Iadrensis
+          utrumque opus suum (<bibl>Jarula uresna</bibl> et <bibl>Vila Slovinka</bibl>) Slavonicum et Croaticum, Patriamque
+          Croatiam ait: summam, <emph>Vilae</emph> premissam, sic ordiens; 
+          <quote xml:lang="hr">
+                  <l> Zgovor, strah i suze, razmirno dreselje, </l>
+                  <l> Ljuben cvil i uze i skladno veselje. </l>
+                  <l> Slovinske Dexelje, da xivu slovuchi, </l>
+                  <l> Izpunif me xelje grem svitu pojuchi. </l>
+               </quote>
+          Quod Latine sic efferi potest; 
+          <quote>
+                  <l> Condictum atque metum, lacrymas, incommoda belli, </l>
+                  <l> Dilectos gemitus, vincla et concordiam amorum, </l>
+                  <l> Illyrici tellus ut vivat nempe sonora, </l>
+                  <l> Orbe canens compos votorum pergo meorum. </l>
+               </quote>
+          et in responso ad Presbyterum Matthaeum Thomasevitium <bibl>/Ibi pagina 267./</bibl>
+               <quote xml:lang="hr">
+                  <l> U slozi Harvatskih, menise tako mni, </l>
+                  <l> I pismah Slovaçkih, da tebi druga ni. </l>
+               </quote>
+        id Latine sonat; 
+          <quote>
+                  <l>- - - Chrovato carmine, cantu </l>
+                  <l> Illyricoque, ullum vix tibi credo parem. </l>
+               </quote>
+          ac ad eundem auctorem <bibl>Ioannes Tonkovich Canonicus Sibenicensis sic /Pagina 269./</bibl>
+          applaudit; 
+          <quote xml:lang="hr">
+                  <l> Da pokle livadi i gorre Planinke </l>
+                  <l> Çastni glas osladi tve Vile Slovinke, </l>
+                  <l> Spivajuch Zadarske pohvale dostojno </l>
+                  <l> I slave kotarske istinom vokolno </l>
+                  <l> Poznasse pokojno Hervatsku çistu kërv. </l>
+               </quote>
+        quod ita interpretatur;
+          <quote>
+                  <l> At postquam campos, postquam iuga montium obivit </l>
+                  <l> Illyricae Musae fama decora tuae, </l>
+                  <l> Urbis condignos modulata Iadrensis honores, </l>
+                  <l> Et circum iusto regna Liburna modo; </l>
+                  <l> Sincerum genium gentis novere Croatae. <abbr>etc.</abbr> 
+                  </l>
+               </quote>
+            </p>
+            <p>Sed magis affatim Vincentius Zambonus, ad eundem Poetam <bibl>/Pagina 263./</bibl> ubi
+          Ragusinam, Spalatensem, Pharensem, Nonensem, Traguriensem et Sibenicensem Slavonicas
+          Musas, sive ab illarum Civibus eatenus edita in lucem poëmata, cum Jadrensi Barakovitii
+          Musa, ih huius excellentiam comparat; qui omnes, Romanis Dalmatae, sui opera Croatica
+          vocant. Ita et<bibl> Kittae Cvitja razlikova</bibl> Ioannis Ioanitii, iuris utriusque
+          Doctoris, Patricii Brachiensis, eiusdemque et Pharensis Ecclesiae Canonici et Vicarii
+          subscribit Ginammus Venetus <bibl>/Ad calcem eiusdem operis/</bibl>
+            </p>
+            <quote xml:lang="it">
+               <l> Eccoti un Nuovo Apollo </l>
+               <l> Travestito in humano; </l>
+               <l> Con Caratteri d’Oro </l>
+               <l> Merita Honor Soprano: </l>
+               <l> Con accenti Soavi, </l>
+               <l> Degno Heroe puo chiamarsi de gli Slavi. </l>
+            </quote>
+            <p>Ex recentioribus quoque Patriae scriptoribus et Poëtis Vir doctrina pietateque insignis,
+          Ioannes Zanottus, itidem iuris utriusque Doctor et Metropolitanae Iadrensis Canonicus,
+          Publii Virgilii Aeneidem in vernaculam traducens,<emph> Slavonicam linguam</emph> vocat,
+          Lectoremque hisce verbis alloquitur; <emph>Nemarim svitovnu pohvalu, radi çistoche bessida: jere koliko Gradova u ovoj kraini jest, mogu riti, da tuliko varsti jezikova ili govorenja jest, i svakki svoim zakonom osobitto govori, tako da svi Harvati jesmo, a jedan druggomu svakku bessidu nerazumimo.</emph>
+          id est; <emph>Non curo Mundi laudem, pro sermonis elegantia: quippe quotquot ih hac regione Civitates sunt, tot, possum dicere, Grammaticae dialectos esse, et quisque particulari suo modo loquitur: adeo cum omnes Croatae simus, alter tamen alterius omne verbum non intelligimus.</emph>
+          Nec aliunde Dalmatiae, a Romanis institutae Provinciae nomen hoc, quam a Dulmno Croatiae
+          regione et olim urbe cognomini, Regiae Croatorum Coronationis loco (uti suo loco
+          referemus) desumptum Romani dilatarunt: nec Dalmatiae Regni titulo alios quam Croatiae
+          Reges usos comperimos. Iadram vero Ptolomaeus ut coeteri Geographi, in Liburnia statuit,
+          /Libro 2. capite 17./ imo inter Liburnicas Insulas etiam Traguriam numerat, quas omnes
+          Liburnicas Dandulus Venetus /Ad Annum 874./ appellat, Croatiamque, inter Macedones et
+          Istros, in <emph>Albam</emph> et <emph>Rubeam</emph> dividit.</p>
+            <p>In Tabulis etiam Geographicis, /De Regno Dalmatiae et Croatiae/ nomini Latino affectatur
+          Lucius; nam, ut in Prima nullius Dalmatiae meminit, in Secunda, <emph>recentiorem</emph> a
+          Titio ad Neronem et in Tertia ad Drinum educit: ita Quartae titulum apposuit;
+            <emph>Dalmatia post Imperii declinationem in Croatiam, Serviam et Dalmatiam ipsam distincta:</emph>
+          ubi (cum priores tres Illyrico nomine recte inscripserit, nec in ipsa Tertia Dalmatiam per
+          Liburnos extenderit) <emph>Illyricum,</emph> non <emph>Dalmatia</emph>,
+            <emph>in Croatiam, Serviam et Dalmatiam distinctum</emph> asscripturus erat.
+          Tandem in Quinta, <emph>Croatia Maritima</emph> nuncupata, Dalmaticum nomen inter Adriae Insulas, a patrio solo exulaturum,
+          relegat.</p>
+            <p>Admiratione demum haud dignum est; rerum antiquitus in Croatia gestarum memoriam,
+          tenuibus membranis aut corruptibilibus tabellis inscriptam, ad nupera Lucii tempora
+          copiosam non supermansisse: ubi, quod lapis supra lapidem manserit, mirum! postquam tot
+          infestis, Romanorum primum, diversorum deinde Barbarorum incursionibus fatigata, postremum
+          tribus iam continuis saeculis Turcorum iugo maxima sui parte oppressa igne ferroque
+          evertebatur Croatia! cuius valida quondam Oppida et opulentae Civitates, vallis, fossis et
+          Civibus fortissimis munitae, prostratae adeo sunt et attritae, ut plurimarum vestigia vix
+          noscantur, non paucarum etiam nomine abolito. Habuit autem (procul dubio) tam Diocleas,
+          quam Archidiaconus manuscripta quaedam priscorum Regum rerumque Patriae monumenta, eaque
+          (ob typorum tunc defectum ac litteratorum paucitatem, perque tot temporum iniurias) ad
+          manus Lucii non pervenerunt. Nec omnis Regum aut rerum Croatiae in Latinis ipsorum
+          privilegiis, ita orae maritimae expeditis, fundatur memoria: quae in locis illis, utique
+          tutioribus et a populo litteras amante, conservata reperiuntur. alia Croatis suis
+          Mediterraneis vernacule expedita, cum caeteris Regni et Regum opibus inter tot flammas
+            periisse, <emph>censendum est.</emph>
+               <emph> </emph>Reges autem illos Latinae linguae vix gnaros, posteriorum etiam Ungaricae
+          nationis Croatiae Banorum, Bosnae quoque Regum privilegia, vernaculo sermone et litteris
+          expedita, quae plura legi, probant.</p>
+            <p>Quapropter nec Bosnios, nec Serbios, minus Narentanos aut Croatos Maritimos a Croatis
+          aeque separat Lucius: si idem ipsius sensus, qui typo vulgatis in exemplaribus legitur; et
+          nimirum cum Operi titulum, <emph>de Regno Dalmatiae et Croatiae,</emph>
+          non Narentiae in particulari, aut Bosnae vel Serviae posuerit. Marulus item transumptum
+          Commentariolum <emph>de Regnum Dalmatiae et Croatiae gestis,</emph>
+          non Serviorum aut Narentanorum, intitulat. Sic Presbyter Diocleas,
+            <emph>Regnum Slavorum,</emph> Archidiaconus vero, uti et
+          Diocleas deinde, <abbr>etc.</abbr> proprie vocant <emph>Croatorum</emph>. Et Bosna quidem (si ob
+          Imperii Romani divisionem, Croatia dividi debuisset) minus quam Serbia Croatiae adimenda
+          fuisset: ut quae nunquam, et Serbia aliquando Imperium Orientale cognoscebat; cum et haec
+            <emph>Bulgariae contermina Croatorum gens</emph>
+            /Anno 1019./ Cedreni testimonio sufficiente.</p>
+            <!-- odavde oblikovao -->
+            <p>Sed ne ulterius Ioannis Lucii, erga Italum Romanumve in Dalmatia nomen affectatis nimium
+          coniecturis, diutius replicandis, immorer: <q>ne tot</q>
+          (inquam eiusdem <bibl>/De Regno Dalmatiae et Croatiae libro 2. capite 15./</bibl> assensu)
+            <q>coniecturis Lector iam fessus, taedio opprimatur</q>,
+          illud pro coronide sit; quod <bibl>/Ibi libro 4. capite 3./</bibl> 
+               <q>Spalatensis Metropolis, sicuti toti Croatiae praeerat, et unicum tantum Traguriensem suffraganeum in Dalmatia retinebat, ita obsolescente Dalmatico cognomine, pro Croatiae sive Slavoniae Archiepiscopatu sumi coepit.</q>
+          Et, quae Latinis ac Graecis olim <emph>Liburnia et Illyris</emph>, <emph>Croatia nunc dicitur</emph>. <emph>Dalmatia</emph>que <bibl>/Thomas Archidiaconus capite 1,
+          Ioannes Lucius operis citati libro 6. capite 4./</bibl> 
+               <emph>censebatur cum Croatia una Provincia.</emph>
+            </p>
+            <p>Ex adductis Auctorum, superius citatorum sententiis, sub CROATIAE nomine censetur quod
+          triplici Slavoniae Hornius assignat, et quod Romani olim Illyrico attribuerunt; exceptis
+          hinc Rhaetiis, parteque Norici, illinc Achaia Aegaeisque Insulis, quas et ipsas tamen ob
+          Illyrici (quod peculiare Croatorum nomen est) apud Romanos habiti, eiusque Linguae, per
+          magnam Asiae et Europae maximam partem diffusae, amplitudinem declarandam, obiter
+          attingemus: cum propriis tamen singularum limitibus, etymo, Insignibus, rebusque ac magis
+          memorabilibus populi moribus: fidem in iis probatissimorum Auctorum secuti, in patriorum
+          defectu. </p>
+            <p>CROATIAM hanc, varie hactenus ab exteris et inexpertis divisam, bifariam primum Danubio
+          eius flumine partimur; in <emph>Septemtrionalem</emph> videlicet ac
+          <emph>Meridionalem.</emph> Hanc in <emph>Albam</emph> et <emph>Rubeam</emph>, uti
+          reperimus ante distinctam: medium limitem rectificaturi. <emph>Albam</emph> dein (in qua
+          nobis plurimum agendum proponimus) in <emph>Maritimam,</emph> 
+               <emph>Mediterraneam et Interamniam,</emph>
+          hactenus ita appellatas, nec non <emph>Alpestrem</emph>. alias Dalmatiam, Croatiam
+          modernam, Sloviniam propriam, et Noricum, sive Iapidiam veterem. <emph>Rubeam</emph> porro
+          in <emph>Serbiam, Macedoniam, Bulgariam et Odrysiam. Septemtrionalem</emph>
+          demum in <emph>Venedicam, Sarmaticam</emph> et
+            <emph>Ungaricam</emph> singulasque in suas partes, per libros et capitula distincturi.</p>
+            <p>His Prodromum absolvo, ut ad scopum propositum feliciter accedam, Deo, ac Caesare Meo
+          faventibus.</p>
+            <p>Ter Magno et ter Sancto Deo honor. </p>
+         </div>
+      </body>
+  </text>
+</TEI>

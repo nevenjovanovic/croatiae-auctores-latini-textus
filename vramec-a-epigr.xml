@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="vramec-a-epigr">
+         <titleStmt>
+            <title>Epigramma, versio electronica</title>
+            <author key="vramecd1e1905">
+               <name xml:lang="hr">Vramec, Antun</name>
+               <date>1538-1588</date>
+            </author>
+            <editor>
+               <name xml:id="AJ">Alojz Jembrih</name>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         
+            <editionStmt>
+               <p>Priređeno prema citatu u znanstvenom članku.</p>
+            </editionStmt>
+         <extent ana="A">Mg:A Verborum 17, versus 2</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+               projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+               Hrvatska.  <date when-iso="2013-11">Studenog 2013</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Alojz Jembrih, Život i djelo Antuna Vramca, Čakovec 1981, 30-32.</bibl>
+            <bibl>Josip Turčinović, Antun Vramec u našoj kulturnoj historiji, Croatica Christiana Periodica, 3 (1979) No.3, Lipanj, 1-20.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1559" period="15xx_2_third">1559</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name ref="#NJ">
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2013-11-15</date>
+            Prva TEI XML verzija.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <div type="poesis-epigramma" met="elegiacum">
+            <l>
+               <placeName>Styria</placeName> me genuit nutruit sacra <placeName>Vienna</placeName>
+            </l>
+            <l>Mortales docui sacra tenere iura.</l>
+            <closer>
+               <signed>Antonius Vramez</signed> 
+               <date when="1559">1.5.5.9</date>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

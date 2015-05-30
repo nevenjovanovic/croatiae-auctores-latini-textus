@@ -1,0 +1,2321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="donat-mandel-sissiensis">
+         <titleStmt>
+            <title>Sissiensis victoria Christianis felix, Turcis funesta, versio electronica</title>
+            <author>Matea</author>
+            <author key="donat01">
+               <ref target="donat01">Donati, Ivan</ref>
+               <date>1684-1728</date>
+            </author>
+            <author key="mandel01">
+               <ref target="mandel01">Mandel, Andrija</ref>
+               <date>fl. 1717</date>
+            </author>
+            <editor>
+               <name xml:id="NJ">
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+            <respStmt>
+               <resp>Electronice transcripsit</resp>
+               <name>
+                  <ref>Matea Mrgan</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         
+            <editionStmt>
+               <p>Izdanje prema faksimilu izvornika (1717).
+               </p>
+            </editionStmt>
+         <extent ana="D">Mg:D 13523 versus, verborum 84448</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Croatica et Tyrolensia, znanstveni
+               projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+               Hrvatska.  <date>Svibanj 2015</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>
+               SISAČKA pobjeda 1593. : njezin odjek u hrvatskoj književnosti / priredio i uvodnu raspravu napisao Alojz Jembrih ; preveo Ivan Kosić. - Sisak : Matica hrvatska etc., 1993. - 234 str. : faks. ; 24 cm. - (Biblioteka Slovo, duh, misao)
+               <note>Sadrži faks. pretisak drame: Sissiensis victoria iz 1717. i hrv. prijevod drame; autorstvo je nesigurno, pripisuje se o. Ivanu Donatiju. - Str. 3-43: Hrvatsko gimnazijsko kazalište na Gradecu u Zagrebu i "Sissiensis victoria" iz 1717. / Alojz Jembrih. - Bibliografija: str. 44-49. - Sadrži i: Razgovor ugodni naroda slovinskog / Andrija Kačić Miošić. Kronika / Pavao Ritter Vitezović.</note>
+               <relatedItem ana="croala.opera" target="donat01-d01-1717">
+                  <bibl>Donati, Sissiensis victoria</bibl>
+               </relatedItem>
+               <term>drama</term>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1717" period="17xx_1_third">1717</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1701-1750</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - drama</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>Matea</name>
+            <date>2013-11-26T19:50:00</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <titlePart>Sissiensis victoria Christianis felix, Turcis funesta, antea in scenam data dum <expan>reverendissimus</expan> Dominus Dominus Thomas Kovachevich venerabilis Capituli Ecclesiae Zagrabiensis canonicus senior et custos proto-notarius apostolicus <abbr>etc.</abbr> <abbr>etc.</abbr> bene meritis de re litteraria scholaribus in academico, caesareo et regio Societatis JESU Zagrabiensi lycaeo praemia decerneret. </titlePart>
+               <titlePart>Nunc vero honori totius venerabilis Capituli Ecclesiae Zagrabiensis praelo commissa. </titlePart>
+                  <titlePart>Dum praeside reverendi patris Francisco Prekenfeldt e Societate JESU philosophiae professore emerito positiones ex universa philosophia defenderet eruditus ac perdoctus dominus Andreas Mandel philosophiae auditor emeritus. </titlePart>
+            <docDate>Anno Domini 1717. Mense <gap reason="netiskano"/> die <gap reason="netiskano"/></docDate>
+         </titlePage>
+         <div type="prosa-epistula-dedicatio">
+            <opener>Illustrissimi et Reverendissimi Domini Domini.</opener>
+            <p>Qui terrarum orbi metiendo insudant, numerum ternarium optimum statuunt: triplex spectaculum vos, Illustres et <expan>Reverendissimi</expan> domini, exhibetis; victoriae, triumphi, scientiarum. Unum ab immortali de immortali vero conscripta historia suum esse voluit, quorum utrumque Manibus, cum gratias habere nequeamus, devota posteritas agimus: Poësis gloriatur in alio, nuper edito, et, ut speramus, perennaturo <corr resp="#NJ">munificentiae</corr> prototypo numquam delendo: tertium tandem ne abiret in gloria, Philosophia nostra in theatro favoris vestri sibi construit optimo progressu; ut, quod olim ab uno Vestri Collegii gloriose patratum est, bis celebraretur per singulos: ex universis haberet aeternitatem mari similis, quod fluvios emittit <corr resp="#NJ">ideo</corr>, ut recipiat. Frustra in Caelum tollit antiquitas magnum Alexandrum, dum majores illo conspicio; non enim unius Odysseae, sed omnium ingenuarum artium amantes, et tamen sacri Martis adeo studiosi ut dubium sit, utrum plus meritis vestris debeat salutem? Novit Regnum Croatiae, quam intrepide <unclear>istum</unclear>, pro Religione stringitis; novit etiam, quam amplo liberalitatis gremio fovetis illos pro Pallade, utroque bonum Patriae promovetis.  Exemplum <pb n="54"/>videlicet estis, Magnos Viros probari vigilantia. Et sicut Sol, Mundi oculus, licet interdum occidat, totus tamen non perit, lumine suo lunam vicariam submittens, eo gratior etiam, quod per vices redeat, beneficia sua, quae largitur mortalibus, non revisurus tantum, sed etiam aucturus.</p> 
+               <closer><salute>Florete, igitur, Magni Patroni, lucete, animati soles clarissimi: et, quam totam complectimini, Togatae et Sagatae <sic resp="#NJ">Palladi</sic> perpetuum venerandi. Ita Vovet
+            Illustrissimorum, ac Reverendissimorum Dominorum Cliens infimus</salute>
+            <signed>ANDREAS MANDELL</signed></closer></div>
+         <pb n="56"/>
+         <div type="prosa-argumentum">
+            <head>ARGUMENTUM</head>
+         <p>Inter laureata Romanarum aquilarum cum Ottomanis prae alia memorabilis adversus eosdem in Croatia victoriae libet meminisse; amplius quam saeculum est quod Bassa Bosnisensis socio Mechmetto Amuratis ex Sorore nepote pluribusque aliis Barbarae Nobilitatis viris Sisseg, celebre Canonicorum Zagrabiensium castrum, obsederit, armata vi Turcicae vindicaturus tyrannidi. Canonicus qui castro praerat, vir fortis et strenuus (dicatur verbi causa Fabritius) communicatis cum Caesareo, Regnique milite clam consiliis, nobilissimos quosque Turcarum et insidiis opprimit et reliquum dein exercitum fundit tanta strage, ut cum Bassa, et nepote Amuratis Caesorum numerus prope ad vicies et bis mille ascenderit, praeter incredibilem praedam a victore milite relatam. Fuse haec refert <bibl>Mercurius Gallo Belgicus tom. 4. Lib. 6. ad Annum 1593.</bibl></p></div>
+      </front>
+      <body>
+         <pb n="58"/>
+         <div type="poesis-drama">
+         <div type="poesis-drama-prologus">
+         <head>PROLOGUS</head>
+         <argument><p>Luna dum nocturna inter sidera de imperio gloriabunda exultat, Aurorae a Phosphoro evocatae diluculum conatur eripere, sed Sole radiis universum illustrante eclypsim patitur. </p></argument>
+         <sp><speaker>Luna:</speaker> 
+            <l>Coeli pulchras inter faces, Et nocturnas cunctas faces</l> 
+            <l>Principatum teneo.</l>
+            <l>Orta terris fero lucem, Et post solem tamquam Ducem</l> 
+            <l>Inter astra sedeo.</l>
+         </sp>
+            <sp><speaker>Phosphorus:</speaker> 
+               <l>Jam regnavit satis nox, Nunc aurora adsit mox</l> 
+               <l>O aurora chara hora tandem terris orere.</l></sp>
+            <sp><speaker>Aurora:</speaker> 
+               <l>Terris diem nuntiare, Est aurorae inclamare</l> 
+               <l>Bona dies.</l>
+               <l>Ergo diem nunciabo Terris cunctis inclamabo</l> 
+               <l>Bona dies.</l></sp> 
+            <sp><speaker>Luna:</speaker> 
+               <l>Et cur ades huc scelesta! dum tu ades, sunt omnia moesta.</l> 
+               <l>A te fessis, somno pressis non est ulla requies.</l></sp>
+            <sp><speaker>Aurora:</speaker> 
+               <l>Non abibo, sed hic ibo, quoad sol adveniat.</l></sp>
+            <sp><speaker>Sol:</speaker> 
+               <l>Quid hoc? quis solem moratur? quid hoc? quis hic altercatur?</l> 
+               <l>Siccine? Luna Auroram invadat post suam horam? Non abibis interibis sic imperat Sol.</l>
+               <l>Discat Solem venerari, si sic non vult obscurari</l>
+               <l>Luna post hac amplius.</l> </sp>
+         </div>
+         <div type="poesis-drama-actus">
+         <pb n="60"/>
+         <head>ACTUS I.</head>
+               <div type="poesis-drama-scena">
+                  <head>SCENA I.</head>
+                  <argument>
+                     <p>Bassa Bosniensis ad castrum Sisseg appulsus ex felici itinere, praedisque
+                        partis futuram castri expugnationem ominatur, probantibus begis,
+                        exploratores Deliarum strenuisimos quosque designat. </p>
+                  </argument>
+                  <sp>
+                     <speaker>Bassa:</speaker>
+                     <l>Superba Sisseg moenia, theatrum tuae</l>
+                     <l>Invicte miles gloriae, tandem vides.</l>
+                     <l>Vides, et illa dextera victum tenes,</l>
+                     <l>Quae forte fausta quidquid aggreditur, habes.</l>
+                     <l>Ne dubius esto, Machomet, et siquid magis</l>
+                     <l>Machomete sacrum, sidera et tellus habent,</l>
+                     <l>Juratus invoco, moenia haec hodie cadent:</l>
+                     <l>Sultana clarum sceptra Belgradum pavet,</l>
+                     <l>Et quidquid olim Servia tenebat ferox</l>
+                     <l>Jacet a potente Mahomet aequatum solo;</l>
+                     <l>Imbelle nunquid Sissium caput eriget?</l>
+                     <l>Ruet Gradivo hoc vindice, hodierna die,</l>
+                     <l>Ac se stetisse nesciet: felix iter</l>
+                     <l>Praeclara nobis omina peractum dedit:</l>
+                     <l>Exusta flammis oppida, et mixti vada</l>
+                     <l>Cruore Colapis, turba Christiadum jugo</l>
+                     <l>Subacta nostro, Sissium nostrum canunt.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega primus:</speaker>
+                     <l>Maiora sub te gessimus, Princeps, Duce,</l>
+                     <l>Aequare quam sit unicum castrum solo.</l>
+                     <l>Annuere tantum libeat, et Sisseg cadet.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega secundus:</speaker>
+                     <l>Praesagit animus, moenia haec hodie tuis</l>
+                     <l>Socianda spoliis, militem tantum instrue,</l>
+                     <l>Et ad triumphalem illico agressum para.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega tertius:</speaker>
+                     <l>Si non moreris, Sissium actutum tuum <corr>est</corr>.</l>
+                     <l>Perdit Triumphos facile, qui nectit moras.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega quartus:</speaker>
+                     <l>Nec ego morandum censeo, at miles tamen</l>
+                     <l>Fame, sitique corpus oppressum levet.</l>
+                  </sp>
+                  <pb n="62"/>
+                  <sp>
+                     <speaker>Bassa:</speaker>
+                     <l>Annuo, quiesce miles et vires para,</l>
+                     <l>Ut mox tremendus Turca, quid possit, <corr resp="#NJ">probes</corr>.</l>
+                     <l>Corpore refecto, Deliae excubias agant:</l>
+                     <l>Vigilent in omnes hostis intenti vias.</l>
+                     <l>Bega, perduelles hosce, cum sociis habe:</l>
+                     <l>Lucilla ferro gravida fortunam gemat,</l>
+                     <l>Et me sequatur, aurum et argentum tibi,</l>
+                     <l next="#p02" xml:id="p01">Mechmette, cedant.</l>
+                  </sp>
+               </div>
+               <div type="poesis-drama-scena">
+                  <head>SCENA II.</head>
+                  <argument>
+                     <p>Mehmettus Amuratis Nepos ob iniquiorem praedae divisionem, maxime quod
+                        Lucilla, illustrissimi sanguinis virgo, sibi non cessisset, a Bassa alienus
+                        vindictam meditatur, adscitis in consilium fidissimis duobus Begis.</p>
+                  </argument>
+                  <sp>
+                     <speaker>Mehmettus:</speaker>
+                     <l prev="#p01" xml:id="p02">– Aurum et argentum tibi</l>
+                     <l>Mehmette cedant; siccine scelestum caput?</l>
+                     <l>Ubi Lucilla? vincta fortunam gemat?</l>
+                     <l>Bassam sequatur? agna videlicet Lupum.</l>
+                     <l>Lucilla paene digna Mehmetti thoro.</l>
+                     <l>Bassam sequatur? insuper ferro gravis?</l>
+                     <l>O tygride nate Bassa! Sic Czari nepos,</l>
+                     <l>Sic ipse Czarus colitur a Bassa suo?</l>
+                     <l>Lues, sceleste, perfidum lues caput,</l>
+                     <l>Et quid Amuratis possit, hinc disces, nepos:</l>
+                     <l>Sed quid furore percitus jacto minas?</l>
+                     <l>Vindicta clauda est, quae venit sero pede,</l>
+                     <l>Age ultionem videat hodiernus dies.</l>
+                     <l xml:id="p03" next="#p04">Begas vocate.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Ephebus:</speaker>
+                     <l xml:id="p04" prev="#p03">quos Begas Princeps tibi</l>
+                     <l xml:id="p05">Jubes vocari?</l>
+                  </sp>
+                  <sp>
+                     <speaker>Mech.</speaker>
+                     <l xml:id="p06">Mustapham et Selymum voca.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Eph.</speaker>
+                     <l xml:id="p07">Ad jussa venient.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Mech.</speaker>
+                     <l xml:id="p08">falsus haud equidem fui,</l>
+                     <l>Quando Lucillam barbaro multum nimis,</l>
+                     <l> Placere vidi; candido vultu nitet,</l>
+                     <l> Et purpuratus labia contingit decor:</l>
+                     <l> Ad haec ocelli nigricant, genae rosas</l>
+                     <l> Et membra cuncta <corr resp="#NJ">praeferunt</corr> ipsam Deam.</l>
+                     <l>
+                        <corr>Hunc</corr> nempe fuscum Zingarum infelix nimis</l>
+                     <l xml:id="p09">Rapuit Lucilla.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega primus:</speaker>
+                     <l xml:id="p10">magne Amuratis nepos,</l>
+                     <pb n="64"/>
+                     <l>Ad iussa Begae venimus: quidquid iubes,</l>
+                     <l xml:id="p11"> Factum arbitrare.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Mech.</speaker>
+                     <l xml:id="p12">verba, quae vellem eloqui,</l>
+                     <l>Conceptus imo corde non sinit dolor.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega secundus:</speaker>
+                     <l>Eloquere Princeps, quando, quod cruciat, pates,</l>
+                     <l>Prompta est medella: quando sed vulnus latet,</l>
+                     <l>Adhibere nemo pharmacum praesens potest.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega primus:</speaker>
+                     <l>Edic, quid angat? Mustapham juro meum,</l>
+                     <l xml:id="p13">Feram medelam.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Mech.</speaker>
+                     <l xml:id="p14">Bassa! proh crudum nefas.</l>
+                     <l>Siccine nepotem Caesaris colis tui?</l>
+                     <lb/>
+                  </sp>
+                  <sp>
+                     <speaker>Bega secundus:</speaker>
+                     <l>Edissere precor clarius, crudus tibi,</l>
+                     <l xml:id="p15">Quid Bassa fecit?</l>
+                  </sp>
+                  <sp>
+                     <speaker>Mech.</speaker>
+                     <l xml:id="p16">nempe dum praedam suo</l>
+                     <l>Divisit ille durus arbitrio, nihil</l>
+                     <l>Gesserit iniqui? perfide, sceleste, impie, </l>
+                     <l>Nefande Bassa, crimen admissum lues.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega primus:</speaker>
+                     <l>Princeps furorem comprime, in promptu ultio est, </l>
+                     <l>Si vindicato crimen admissum cupis,</l>
+                     <l>Scis, Bassa quod cum milite assultum paret,</l>
+                     <l>Facile est in ipso praelio, modo velis</l>
+                     <l>Occidere hominem, spondeo fidelem manum.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Mech.</speaker>
+                     <l>Bene habet. latere nostra consilia impero;</l>
+                     <l> Quid sit futurum, paulo post tempus dabit.</l>
+                     <l> Haec inter istam litteram et munus meae</l>
+                     <l> Defer Lucillae, quaere qui valeat? dies</l>
+                     <l>Utrum serenos ducat, et Mechmett amet?</l>
+                  </sp>
+               </div>
+               <div type="poesis-drama-scena">
+                  <head>SCENA III.</head>
+                  <argument>
+                     <p>Fabritius castro Sisseg Praefectus, cognito Turcas adesse, ad latentes in
+                        vicinis sylvis Caesareas, Regnique copias, earum Duces nuntios dimittit,
+                        suos ad fortiter resistendum <corr resp="#NJ">animat,</corr> militaria
+                        partitur munia, caeteraque ad defensionem necessaria apparat. </p>
+                  </argument>
+                  <sp>
+                     <speaker>Fabritius:</speaker>
+                     <l>Infesta nobis arma Turcarum prope</l>
+                     <l> Adesse certum est; copia quali hactenus</l>
+                     <l> Nunquam adfuerunt, animus an numero suo</l>
+                     <l> Suppar sit, equidem dubito; sed nobis tamen</l>
+                     <l> Incumbere illud video, num possit tumens</l>
+                     <l> Hostis domari Spiritus: vires habet</l>
+                     <pb n="66"/>
+                     <l> Numerumque longe maximum: per me licet</l>
+                     <l> Habebit hostem, congredi cum quo queat:</l>
+                     <l> Mihi staturum est vincere aut certe mori.</l>
+                     <l> Quae vestra sit sententia, o socii! palam</l>
+                     <l> Audire cupio: gloria haec, scitis, fuit</l>
+                     <l> Antiqua nostrae gentis, ut Patria, et fides</l>
+                     <l> Sit salva, fundere sanguinem, et vitam dare,</l>
+                     <l> Semper fidelis Caesari, Patriae, Deo,</l>
+                     <l> Adversus hostes semper invictus fuit</l>
+                     <l xml:id="p17"> Miles Croata. </l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Caste.</abbr></speaker>
+                     <l xml:id="p18">primus oppono meum</l>
+                     <l> Pectus inimico, fortiter praestat mori</l>
+                     <l> Quam vivere sine gloria: fortes juvat</l>
+                     <l> Fortuna semper, semper imbelles premit.</l>
+                     <l> Annona praesto est, fistulae praesto aeneae,</l>
+                     <l> Generosa praesto pectora ad vitam et necem</l>
+                     <l> Prompta, et parata; cuncta conclamant fero</l>
+                     <l xml:id="p19">Hosti resistendum esse.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Fab.</abbr></speaker>
+                     <l xml:id="p20">Quod igitur bene</l>
+                     <l> Fausteque cedat, sanguine et vita prius</l>
+                     <l> Privemur omnes, antequam Sisseg cadat.</l>
+                     <l> Sed ne arbitretur quispiam, temere aliquos</l>
+                     <l> Praeripere velle gloriam, et laudem omnibus:</l>
+                     <l> Chiliarcha summus Caesaris et alii Duces,</l>
+                     <l> Milesque regni, nostra consilia sciant:</l>
+                     <l> Age ergo <unclear>hoc quaternio</unclear>, intrepidi viri!</l>
+                     <l> Quid Sissienses sentiant, summo Duci</l>
+                     <l xml:id="p21">Referte celeres.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> primus:</speaker>
+                     <l xml:id="p22"> Jussa, quo mittunt tua,</l>
+                     <l xml:id="p23">Viam Capesso.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> secundus: </speaker>
+                     <l xml:id="p24"> media per castra hostium,</l>
+                     <l xml:id="p25">Volabo tutus.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> tertius: </speaker>
+                     <l xml:id="p26"> fulmine celerius iter</l>
+                     <l xml:id="p27">Ingrediar istud.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> quartus: </speaker>
+                     <l xml:id="p28"> facta, non voces amo,</l>
+                     <l xml:id="p29">Complebo jussa.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Fabr.</abbr></speaker>
+                     <l xml:id="p30"> munia interea alii,</l>
+                     <l> Prout quisque fortem gerere se novit virum,</l>
+                     <l> Capessite alacres; Sissium tu, quem hactenus</l>
+                     <l> Fidum probavit, solus excubias reges.</l>
+                     <l> Tu victus ut non militi desit, vide.</l>
+                     <l> Tormenta tu parata, si non sint, habe,</l>
+                     <l> Te Corporalem, te creo horarum Indicem:</l>
+                     <l> At tu ministra pulverem, ferrum, globos.</l>
+                     <l> Praestate reliqui, quod viros fortes decet,</l>
+                     <l> Neque dubitate, praesto quin nobis Deus </l>
+                     <l>Sit adfuturus: Numini curae sumus.</l>
+                  </sp>
+               </div>
+            <pb n="68"/>
+
+               <div type="poesis-drama-scena">
+                  <head>SCENA IV.</head>
+                  <argument>
+                     <p>Lucilla sortem suam deplorat acerbius: adest e quatuor Begis unus, qui ei
+                        cum Litteris prolixae benevolentiae testibus, missa a Mechmetto defert
+                        munera, quin et maiora solatia, spemque conjugii adpromittit. </p>
+                  </argument>
+                  <sp>
+                     <speaker>Lucilla:</speaker>
+                     <stage>*Satellite stipata et vinculis onusta</stage>
+                     <l> Lucilla! dura verba quid rumpit dolor!</l>
+                     <l> Lucilla! quondam gloria, et <corr>columen</corr> domus!</l>
+                     <l> Matris amor, oculus dexter et manus Patris,</l>
+                     <l> Solamen unum Fratris, et stirpis decus,</l>
+                     <l> Gemis subacta Turcico infelix jugo.</l>
+                     <l> O fata misera! misera quid dico? parum est.</l>
+                     <l> Impia, Lucillae semper infesta, improba!</l>
+                     <l> Satiare nostris, dura sors, tandem malis,</l>
+                     <l> Satiare ferro, vinculis, fame, specu;</l>
+                     <l> Ubi illa quondam gaudia Paternae domus?</l>
+                     <l> Ubi famulorum copia, societas, joci,</l>
+                     <l> Lusus, dapesque splendidae? haec cuncta abstulit</l>
+                     <l> Fortuna tristis, abstulit, numquam amplius</l>
+                     <l> Posthac datura. Nata cur misera fui?</l>
+                     <l> Si quanta vis est improbae et caecae Deae,</l>
+                     <l> Prima experiri debui; sed quid genas</l>
+                     <l> Perfundo <corr resp="#NJ">lachrymis</corr>; quam Deus sortem dedit</l>
+                     <l>Ea jam ferenda est: laus tibi o numen meum!</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega primus:</speaker>
+                     <l>Salve Lucilla! digna, cui dicat Bega</l>
+                     <l> Praesens salutem, litteras <sic>Mechmett</sic> tibi</l>
+                     <l> Has mittit ipse, Mechmet Amuratis nepos:</l>
+                     <l> Quin munus istud jungit, et charam sibi</l>
+                     <l>Jubet Lucillam vivere serenos dies.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Lucilla:</speaker>
+                     <l>Nequit Lucilla vivere serenos dies,</l>
+                     <l>
+                        <corr resp="#NJ">Nec</corr> chara Mechmett esse, quam dura undique</l>
+                     <l> Stringit catena, cui oculos semper ferit</l>
+                     <l> Stricto Satelles ense, seu mergat mari</l>
+                     <l>Phaebus quadrigas, sive det mundo diem.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega:</speaker>
+                     <l> Nescis Lucilla, nocte depulsa aureum,</l>
+                     <l> Solem exoriri: quaeque furibundo mari</l>
+                     <pb n="70"/>
+                     <l> Obambulabat <unclear>naufraga</unclear>, heu! quondam ratis,</l>
+                     <l> Ea <unclear>deinde</unclear> Caesarem crebro vehi:</l>
+                     <l> Absterge proinde lachrymas, fronti indue</l>
+                     <l> Lucem beatam, qualis illam ipsam decor,</l>
+                     <l>Quam iungere sibi cogitat <sic>Mechmett</sic> thoro.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Lucilla:</speaker>
+                     <l> Sunt ista nimium magna, queis nullam fidem</l>
+                     <l xml:id="p31">Habere possum.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega:</speaker>
+                     <l xml:id="p32"> magna sunt: isthaec licet,</l>
+                     <l> Maiora te sperare <sic>Mechmetti</sic> jubet</l>
+                     <l xml:id="p33">Amor Lucilla. sed interim vale.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Lucilla:</speaker>
+                     <l xml:id="p34">vale.</l>
+                  </sp>
+               </div>
+               <div type="poesis-drama-scena">
+                  <head>SCENA V.</head>
+                  <argument>
+                     <p>Dum supremus Caesarearum Regnique copiarum Chiliarcha cum Ducibus lustrat
+                        militem, ex nunciis Fabritii obsidionem Sisseg intelligit: exercitum ad
+                        obviam eundum hostibus accingit. </p>
+                  </argument>
+                  <sp>
+                     <speaker>Chiliarcha:</speaker>
+                     <l> Trimestre tempus labitur quod his locis</l>
+                     <l>
+                        <unclear>Appulsa</unclear> martis germina, nec hostem tamen</l>
+                     <l> Videmus ullibi. scilicet pavet suis</l>
+                     <l> Inclusus antris: paveat et trepidus moras</l>
+                     <l> Nectat perennes; si tamen linquat suas</l>
+                     <l> Generosus umbras, videat ut tandem diem,</l>
+                     <l> Non imparatis veniet: vigentes cohors</l>
+                     <l> Quod parva vires saepe contineat, sciet.</l>
+                     <l> Martem paratu ludicro, praesens fui,</l>
+                     <l> Quando ciebas miles: iterato vicem:</l>
+                     <l> Semper nocivus militi est longus situs.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker>Nuncius primus:</speaker>
+                     <l> Invicte Princeps, nuncia, ut puto tibi</l>
+                     <l> Haud laeta ferimus: Sissium Turca obsidet:</l>
+                     <l> In te Fabritius spem suam totam locat.</l>
+                     <l> Auxilia poscit, quae, quoad veniant, scias,</l>
+                     <l>Praestabit omne, quod virum fortem decet.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Chil.</abbr></speaker>
+                     <l> Terra, vel undis, hostis ad castrum venit?</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> secundus:</speaker>
+                     <l>Pars una terris, reliqua pars undis adest.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Chil.</abbr></speaker>
+                     <l>Fixitne castrum Sissium valde prope?</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> tertius:</speaker>
+                     <l xml:id="p35">Vix distat hora Sissio.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Chil.</abbr></speaker>
+                     <l xml:id="p36">nautas jube</l>
+                     <l>Illico venire. Sissii quot sunt viri?</l>
+                  </sp>
+                  <pb n="72"/>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> quartus:</speaker>
+                     <l>Pusilla Princeps turba, magnanima tamen.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Chil.</abbr></speaker>
+                     <l> Bene est. Fabritio dicite auxilium meum</l>
+                     <l> In tempore aderit. Miles actutum expedi</l>
+                     <l> Adversus hostes arma; quos caecus furor</l>
+                     <l> Bellum movere jussit, is eosdem opprimet:</l>
+                     <l> Nec Christianae deerit causae Deus.</l>
+                     <l>Semper triumphat, causa cui Belli Deus.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Dux primus:</speaker>
+                     <l>Ad jussa, Princeps, navita advenit tua.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Chil.</abbr></speaker>
+                     <l>Sternere potesne navibus flumen tuis?</l>
+                  </sp>
+                  <sp>
+                     <speaker>Navita:</speaker>
+                     <l>Princeps, id equidem fido si modo jubeas.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Chil.</speaker>
+                     <l> Vos ista cura caeteri tangat Duces,</l>
+                     <l> Legate mecum perge, castrisque hostium</l>
+                     <l xml:id="p37">Prope admoveto militem.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Dux secundus:</speaker>
+                     <l xml:id="p38"> mox te Duces</l>
+                     <l>Reliqui sequemur, perge felici via.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Dux primus:</speaker>
+                     <l> Compone Navita <corr resp="#NJ">agmen</corr>, ad laevum latus</l>
+                     <l> Converte faciem, dexteram modo tene,</l>
+                     <l> Impelle remis flumen, ad terram loca,</l>
+                     <l> Ad remigandum subleva, totam rei</l>
+                     <l> Repetito seriem et tympani ad pulsum exhibe:</l>
+                  </sp>
+                  <sp>
+                     <speaker>Dux secundus: </speaker>
+                     <l>Cessato: robur corporis saltu proba.</l>
+                  </sp>
+                  <stage>*Fit saltus Nautarum</stage>
+               </div>
+
+               <div type="poesis-drama-scena">
+                  <head>SCENA VI.</head>
+                  <argument>
+                     <p>Oeconomus Fabritii praeteritum se in partitione militarium muniorum egre
+                        ferens de prodendo Turcis castro consilia agitat. interim recentes
+                        exploraturus Fabritii apparatus et machinamenta, dissimulato animo ab
+                        obsequiis remanet. </p>
+                  </argument>
+
+                  <sp>
+                     <speaker><abbr>Oec.</abbr></speaker>
+                     <l> Ergo Fabritius merita sic pensat mea?</l>
+                     <l> Cui tot annis praestiti obsequia et fidem.</l>
+                     <l> Fundere paratus sanguinem et vitam dare.</l>
+                     <l> Disce famulantum turba, quid habeas spei,</l>
+                     <l> Postquam per annos plurimos Dominis tuis</l>
+                     <l> Operam locasti: militum primi gradus</l>
+                     <l> Lixis cocisque dantur, ego solus velut</l>
+                     <l> Meticulosa vetula, ne appellor quidem,</l>
+                     <l> Indignus ut vel in humero sclopum geram.</l>
+                     <pb n="74"/>
+                     <l> O vulnus! imis semper haesurum fibris</l>
+                     <l> Ulciscar istud dedecus, sacra omnia</l>
+                     <l> Divosque testor, istud ulciscar probrum.</l>
+                     <l> Formica parvum est animal, ad sensum tamen</l>
+                     <l> Mordere novit: sentiet morsum meum.</l>
+                     <l> Formica sim quantumlibet, tuto meum</l>
+                     <l> Quisquis putavit, posse contemni decus:</l>
+                     <l> Heu misera Sisseg moenia alienum scelus</l>
+                     <l> Quibus luendum est, tangit heu! tangit fibras</l>
+                     <l> Vestra ruina; sed parum est, Sisseg cadat,</l>
+                     <l> Dummodo Fabritius crimen admissum luat:</l>
+                     <l> Ibo, hostiumque Sissium ad manus dabo,</l>
+                     <l> Monstrabo, Dominum an servus ulcisci queat:</l>
+                     <l> Simulabo primam paululum tamen fidem,</l>
+                     <l> Et quid Fabritius cudat adversus suum</l>
+                     <l> Hostem, videbo, suavius habebunt ita</l>
+                     <l> Desideratum nostra consilia exitum.</l>
+                  </sp>
+               </div>
+
+               <div type="poesis-drama-chorus">
+                  <head>CHORUS I.</head>
+                  <argument>
+                     <p>Dum Diana pulsante Chelym Amphione sub umbra lauri residet, infestatur a
+                        Satyris: exoratus eos fugat Jupiter, missoque per Mercurium, arcu et
+                        pharetra, Dianam adversus quaevis monstra obarmat. </p>
+                  </argument>
+
+                  <sp>
+                     <speaker>Diana:</speaker>
+                     <l xml:id="p39">Favete.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Echo:</speaker>
+                     <l xml:id="p40">avete</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Dia.</abbr></speaker>
+                     <l xml:id="p41">Numina Sylvarum</l>
+                  </sp>
+                  <sp>
+                     <speaker>Echo:</speaker>
+                     <l xml:id="p42">harum</l>
+                  </sp>
+                  <sp>
+                     <speaker>Diana:</speaker>
+                     <l xml:id="p43">Hic jacebo.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Echo:</speaker>
+                     <l xml:id="p44">tacebo.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Dia.</abbr></speaker>
+                     <l xml:id="p45">sub fronde laurea.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Echo:</speaker>
+                     <l xml:id="p46">aurea.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Diana:</speaker>
+                     <l xml:id="p47">oppressae</l>
+                  </sp>
+                  <sp>
+                     <speaker>Echo:</speaker>
+                     <l xml:id="p48">fessae.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Diana:</speaker>
+                     <l xml:id="p49">hic erit quies mox.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Echo:</speaker>
+                     <l xml:id="p50">nox</l>
+                  </sp>
+                  <sp>
+                     <speaker>Amphion:</speaker>
+                     <l> Dormi Dea, Chara mea,</l>
+                     <l> Haec est tua modo sors.</l>
+                     <l> Tempus tale, modo quale,</l>
+                     <l>Nunquam erit post hac fors.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Diana:</speaker>
+                     <l> Heu me! quae monstra video? </l>
+                     <l> heu me! cur<ref>*</ref> hic resideo? </l>
+                     <stage>*Infestatur a Spectris:</stage>
+                     <l> monstra ite, hinc abite, </l>
+                     <l> Dura magis quam sit mors.</l>
+                     <pb n="76"/>
+                     <l> Pater Deorum! Rector Coelorum!</l>
+                     <l> Natam tuam recipe.</l>
+                     <l> Monstra fugato: </l>
+                     <l> Hinc amandato,</l>
+                     <l>Ne me quaeso despice</l>
+                  </sp>
+                  <sp>
+                     <speaker>Jupiter:</speaker>
+                     <l> Facesse faede grex, </l>
+                     <l> sit tua posthac lex, </l>
+                     <l> istam Deam natam meam </l>
+                     <l> venerari, nec procari </l>
+                     <l> posthac umquam amplius. </l>
+                     <l> Arma Deam, Nate Dea </l>
+                     <l> Arcu et sagita mea, </l>
+                     <l>nil istis validius.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Mercurius:</speaker>
+                     <l> Arcum cape Iovis nata,</l>
+                     <l> Arma monstris praeparata,</l>
+                     <l> Non certabis, nec bellabis</l>
+                     <l>ulla re securius.</l>
+                  </sp>
+               </div>
+         </div>
+            <div type="poesis-drama-actus">
+               <head>ACTUS II. </head>
+               <div type="poesis-drama-scena">
+                  <head>SCENA I.</head>
+                  <p>Exploratores Bassae in reduces Fabritii nuncios incurrunt. eos uno dempto
+                     caedunt; omen inde sumitur futura dedito castro victoria. </p>
+                  <sp>
+                     <speaker>Delia primus:</speaker>
+                     <l> Ut video, lento nostra res pergit pede:</l>
+                     <l>Huc usque nulla venit ad casses fera.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Delia secundus:</speaker>
+                     <l> Grex nempe leporum, Sissii muros tenet,</l>
+                     <l> Si rete tensum videat, e latebris suis</l>
+                     <l xml:id="p51">Lepus gravate prodit.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> tertius:</speaker>
+                     <l xml:id="p52"> excubias ago</l>
+                     <l> Adeo frequentes, nullus ut possit mihi</l>
+                     <l> Hic comparari, nec tamen fructum intuor</l>
+                     <l> Eas tulisse: vera si fas est loqui,</l>
+                     <l> Meminisse possum, lenta si alicubi solent,</l>
+                     <l xml:id="p53">Hic esse fata.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> quartus:</speaker>
+                     <l xml:id="p54"> Premite sermonem, lupi</l>
+                     <l xml:id="p55">In fabula adsunt.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> primus:</speaker>
+                     <l xml:id="p56"> Tuta non satis haec via est,</l>
+                     <l xml:id="p57">Taceamus obsecro.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> secundus:</speaker>
+                     <l xml:id="p58"> murium fere in modum</l>
+                     <l xml:id="p59">Movebo gressum.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> tertius:</speaker>
+                     <l xml:id="p60">laneo sequar pede</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Nunc.</abbr> quartus:</speaker>
+                     <l> Generosa pectora! vah probrum quid hic foret</l>
+                     <l xml:id="p61">Nobis timendum.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Del. primus:</speaker>
+                     <l xml:id="p62"> jam scies quid sit tibi</l>
+                     <l> Isthic timendum: perge progenies canum,</l>
+                     <l xml:id="p63">Stigem saluta.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> secundus:</speaker>
+                     <l xml:id="p64">perfidum crepa genus.</l>
+                  </sp>
+                  <pb n="78"/>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> tertius:</speaker>
+                     <l xml:id="p65">Et tu salutem Cerbero a nobis feras.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Del. quartus:</speaker>
+                     <l> Si Christianis omnibus tantae forent</l>
+                     <l> Vires, Sodales, Turca cum Mahomet suo</l>
+                     <l xml:id="p66">Ex orbe sane cederet.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> primus:</speaker>
+                     <l xml:id="p67"> Laus est viro</l>
+                     <l>Omnino danda, masculum pectus gerit.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> secundus:</speaker>
+                     <l>Hirundo tempus unica haud vernum facit.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> tertius:</speaker>
+                     <l> Elapsus unus, caeteri strati jacent.</l>
+                     <l> Io triumphe! Sissium Mahomet fave!</l>
+                     <l> Ingrediar hodie, pandit ab initio, cui</l>
+                     <l xml:id="p68">Sors vult favere.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> quartus:</speaker>
+                     <l xml:id="p69"> quaeso ne nimis cito</l>
+                     <l> Cantes triumphum, fata mutari queunt.</l>
+                     <l>Nescis volubilem esse fortunae rotam.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> primus:</speaker>
+                     <l> Abrumpe murmur, melius excubias petes,</l>
+                     <l> Quam si nefandus augur infandos sonos</l>
+                     <l xml:id="p70">Mittas ad auras.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> secundus:</speaker>
+                     <l xml:id="p71"> repeto ego latebras meas,</l>
+                     <l xml:id="p72">Videte vos, quid facitis.</l>
+                  </sp>
+                  <sp>
+                     <speaker><abbr>Del.</abbr> tertius:</speaker>
+                     <l xml:id="p73">ego mox te sequar.</l>
+                  </sp>
+               </div>
+               <div type="poesis-drama-scena">
+                  <head>SCENA II.</head>
+                  <argument>
+                     <p>Bassa de Mechmetti edoctus offensa, Lucillae <corr resp="#NJ">libertatem</corr> ab arctiori
+                        custodia indulget, utque Mechmettum placet paenitus, eam, si Sisseg virtute
+                        sua expugnare faverit, in praemium spondet.</p>
+                  </argument>
+                  <sp>
+                     <speaker>Bassa:</speaker>
+                     <l>Iam sat quietis militi fesso datum.</l>
+                     <l>Restat superbos Sissio nimis suo</l>
+                     <l>Invadere hostes; sentiet dirum genus,</l>
+                     <l> Feroxque nimium vindicem furiae manum.</l>
+                     <l>Quod opere, quam patremus, ut mos est, prius</l>
+                     <l>Qua parte primus impetus fieri queat,</l>
+                     <l>Consilia agamus, tu tuam primum Bega</l>
+                     <l>Exprome mentem, sensa vos reliqui tamen</l>
+                     <l xml:id="p74">Ne premite vestra.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega primus:</speaker>
+                     <l xml:id="p75">Sole ab occiduo puto,</l>
+                     <l>Tentandus est assultus, hinc muri labant.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega secundus: </speaker>
+                     <l>Qua parte debile Sissium, vires eo</l>
+                     <l>Cumulabit hostis, posse facilius capi</l>
+                     <l xml:id="p76">A solis ortu credo.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega tertius:</speaker>
+                     <l xml:id="p77">qua septem rotat</l>
+                     <l>Coelum triones, Sissium certe ruet,</l>
+                     <pb n="80"/>
+                     <l>Sed vesper expectandus, insidiis magis</l>
+                     <l xml:id="p78">Tempus quadrabit.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega quartus:</speaker>
+                     <l xml:id="p79">Si meum sensum quoque</l>
+                     <l>Audire vultis, libere dicam puto:</l>
+                     <l>Quacunque nostrae Sissium invadent manus,</l>
+                     <l>Canent triumphum, militi nostro nihil,</l>
+                     <l>Sit illud etsi ferreum, invictum reor.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bassa:</speaker>
+                     <l>Mechmettus at ubi est Socius assiduus mihi?</l>
+                     <l>Videte, ne fors quidpiam imprudens malum</l>
+                     <l xml:id="p80">Abiens reportet juvenis.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega secundus:</speaker>
+                     <l xml:id="p81"><unclear>actutum</unclear> illico</l>
+                     <l xml:id="p82">Ad jussa sistam.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bassa:</speaker>
+                     <l xml:id="p83"><corr resp="#NJ">Forsitan</corr> sentit male?</l>
+                     <l>Vel forte quidquam <corr resp="#NJ">gessimus</corr> minus placens?</l>
+                     <l>Audio Lucillam deperit, fors hinc dolor</l>
+                     <l xml:id="p84">Omnesque lacrymae. </l>
+                  </sp>
+                  <sp>
+                     <speaker>Bega tertius: </speaker>
+                     <l xml:id="p85">crede rem Princeps acu</l>
+                     <l>Poene tetigisti, si qua res Mechmett dolet,</l>
+                     <l xml:id="p86">Dolet Lucilla.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bassa:</speaker>
+                     <l xml:id="p87">facilis et prona est huic</l>
+                     <l>Malo medela. Caesaris nostri decus</l>
+                     <l>Ubi fuisti? dulce dimidium mei.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Mechmet: </speaker>
+                     <l xml:id="p88">Caput dolebam.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bassa: </speaker>
+                     <l xml:id="p89">Nimius aestatis calor</l>
+                     <l>Caput gravavit: proximos hortos subi,</l>
+                     <l>Umbramque capta paululum, comes tibi</l>
+                     <l>Adsit Lucilla, liberam causa tui</l>
+                     <l>Custodiam habeat: Sissium si hodie cadet</l>
+                     <l>Virtute Mechmett, praemium <sic resp="#NJ">Mechmet</sic> feret</l>
+                     <l xml:id="p90">Captam Lucillam.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Mehmet: </speaker>
+                     <l xml:id="p91">merita plus nimium mea,</l>
+                     <l>Invicte Bassa <sic resp="#NJ">muneras</sic>, gratus tibi</l>
+                     <l>Haud esse possum. quod voles posthac, jube.</l>
+                     <l>Ad jussa <corr resp="#NJ">Mechmett</corr> illico, volabit tua.</l>
+                  </sp>
+
+               </div>
+
+               <div type="poesis-drama-scena">
+                  <head>SCENA III.</head>
+                  <argument>
+                     <p>Supremus Caesareae Regiaeque militiae Chiliarcha exercitu propius castrum
+                        expedito, ad Fabritium Legatum suum mittit, ut in tempore signo e castro
+                        dato imploret suppetias. </p>
+                  </argument>
+
+                  <sp>
+                     <speaker>Chiliarcha:</speaker>
+                     <l> Utrum remissi nuncii salvi suos</l>
+                     <l> Ad Sissienses venerit, multum ambigo.</l>
+                     <l> Hostis viarum gnarus est, ad haec vigil</l>
+                     <pb n="82"/>
+                     <l> Partes in omnes excubat, nullum datur</l>
+                     <l> Ex arce signum, prospere quod probet</l>
+                     <l> Venisse retro. propius haec suadent adhuc</l>
+                     <l> Castra admoveanda Sissio, ut si fors ferat</l>
+                     <l> Hostem ciere praelium, obsessi queant</l>
+                     <l> Citius juvari; pergite hinc ergo Duces</l>
+                     <l> Exercitumque ducite propinquum ad nemus.</l>
+                     <l> Legate sed tu, Sissium ut penetres vide.</l>
+                     <l> Et ad Fabritium nostra consilia refer,</l>
+                     <l> Adversa si vis hostium Castro ingruet</l>
+                     <l> Ut mox propinquo militi indicium sclopo</l>
+                     <l> Ejaculato detur, Caelites causae bona</l>
+                     <l> Aderunt Patroni, Patria, Religio, fides, </l>
+                     <l> Pro quibus in hostes ibimus, vim, Cor, animos</l>
+                     <l> Cunctisque nobis robur invictum dabunt.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Legatus:</speaker>
+                     <l> Acies per ipsas hostium, ut jussa exequar</l>
+                     <l> Penetrabo <sic resp="#NJ">Principes</sic> Sissium, imbellem puta</l>
+                     <l> Si gutta sanguinis unica est, quam non libens</l>
+                     <l> Sacrabo Patriae, Numini, Regi, tibi.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Dux secundus:</speaker>
+                     <l> Miles citetur tympano ut iter apparet:</l>
+                     <l> Praesagus animus omen infelix timet.</l>
+                     <l> Obtemperandum est attamen, quod fors feret</l>
+                     <l xml:id="p92"> Prompte ferendum.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Dux primus:</speaker>
+                     <l xml:id="p93"> nulla ego hic cerno metus</l>
+                     <l> Indicia adesse, fausta quin potius lego</l>
+                     <l> Auguria ubique, quidquid intueor enim.</l>
+                     <l> Timore abacto, vindices istas manus</l>
+                     <l> Adversus hostem Sissii, certo canit.</l>
+                     <l> Sed jam movendus miles est: signum intona.</l>
+                  </sp>
+                  <sp>
+                     <speaker>Dux secundus:</speaker>
+                     <l> Generosa Martis pectora, invictum decus!</l>
+                     <l> Excipite <unclear>proni</unclear> jussa supremi Ducis.</l>
+                     <l> Hostis superbus Sissium obsessum tenet.</l>
+                     <l> Exigua in illo posita Subsidium Phalanx</l>
+                     <l> Vestrum reposcit: digna cui <sic>quis quit</sic> gerit</l>
+                     <l> Caesarea signa, quam potest opem ferat</l>
+                     <l> Ergo ad propinqua nemora, ubi maior salus,</l>
+                     <l> Vos promovete singuli instructi suis</l>
+                     <l xml:id="p94"> Ferro et sclopetis...</l>
+                  </sp>
+
+                  <pb n="84"/>
+
+               </div>
+               <div type="poesis-drama-scena">
+                  <head>SCENA IV.</head>
+                  <argument>
+                     <p>Lucilla a Mechmetto desponsa reciprocum amorem simulat. Begae fidissimo ad
+                        liberam custodiam traditur, quatuor Turcas Adolescentes ad obsequium
+                        relictos Christiana fide initiat. </p>
+                  </argument>
+
+                  <sp>
+                     <l xml:id="p95">o amor quantum tuos</l>
+                     <l> Torques amantes! Saeva sic nunquam freta</l>
+                     <l> Fluctus reciprocos vicibus alternis agunt.</l>
+                     <l> Versare tu quemadmodum cor amans soles,</l>
+                     <l> Lucilla, amoris finis et centrum mei,</l>
+                     <l> Lucilla, amorem respice et amantem tuum</l>
+                     <l> Torquere desine, unicum annutum rogo.</l>
+                     <l> Vivam beatus sed quid in cassum sino</l>
+                     <l> Nil profuturos pauper elabi sonos?</l>
+                     <l> Lucilla me non curat, et alius fidem</l>
+                     <l> Habet Hymenaeus, ultimus Mechmett iacet.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Bega primus: </speaker>
+                     <l> Ne crede Princeps, diligis multum quidem</l>
+                     <l> Tuam Lucillam, crede, sed quod te magis</l>
+                     <l> Lucilla diligat, hora te quaevis ei</l>
+                     <l> In mente sistit, nocte non somnum capit,</l>
+                     <l> Quin nocte Mechmett Morphei vices agat.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Mechmett: </speaker>
+                     <l> An vera <corr resp="#NJ">narras</corr>? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Bega: </speaker>
+                     <l> Verius dictum nihil. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Mechmet. </speaker>
+                     <l> Amoris equidem crimen est, sed non scelus</l>
+                     <l> Falli subinde, Si tamen nutus meae</l>
+                     <l> Penso Lucillae, vera, quae narras puto.</l>
+                     <l> Iactus oculorum suavis et melle illita</l>
+                     <l> Ex ore roseo verba, candorem indicant.</l>
+                     <l> Sit ergo, praesens indicet amorem dies;</l>
+                     <l> Lucillla salve, quem vides, Czari nepos,</l>
+                     <l> Amantis instar advenit, charam <unclear>sibi</unclear> </l>
+                     <l xml:id="p96"> Quaerens Lucillam. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Lucilla: </speaker>
+                     <l xml:id="p97"> gratia haec ingens tua est</l>
+                     <l> Amate Princeps, Caelites qui me tuam</l>
+                     <l> Fecere captam, gratiae mei loco</l>
+                     <l xml:id="p98"> Vicem rependant. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Mech. </speaker>
+                     <l xml:id="p99"> terge maerorem soror,</l>
+                     <l> Ego te Sororem nuncupo, captam nego.</l>
+                     <l> Abi Satelles; talis ego captae vigil </l>
+                     <pb n="86"/>
+                     <l xml:id="p100">Dignabor esse.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Luci. </speaker>
+                     <l xml:id="p101"> Principis tantus mihi</l>
+                     <l> Unde favor, obsecro? desine et quid sit nepos</l>
+                     <l> Amuratis respice, osculor charam manum.</l>
+                  </sp>
+
+                  <sp>
+                     <speaker> Mechmetus: </speaker>
+                     <l> O chara dextra! nulla sic unquam meos</l>
+                     <l> Iucunda venit uspiam in <sic>Casses</sic> fera.</l>
+                     <l> Lucilla, sponsa es, annulo hoc firmo fidem.</l>
+                     <l> Nunquam Lucillam deseram, juro Deos.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Lucilla: </speaker>
+                     <l> Vivo beata! tantus hic tuus favor </l>
+                     <l> Ex corde, Princeps, excidet nunquam meo.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Mechmetus: </speaker>
+                     <l> Bene est! Vive jucundos dies,</l>
+                     <l> O mea Lucilla! noster aeternum, precor,</l>
+                     <l> Amor perennet; te quoad visam amplius,</l>
+                     <l> Nostras obibit fidus hic vices Bega.</l>
+                     <l> Et haec juventus aderit obsequiis tuis.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Lucil.</speaker>
+                     <l xml:id="p102"> Haec cuncta nimis magna sunt. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Mech. </speaker>
+                     <l xml:id="p103"> nescit <unclear>modum</unclear> </l>
+                     <l> Amor, Lucilla, vivito, valeto optime. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Lucilla: </speaker>
+                     <l> Dilecte Princeps! perge felici via.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Bega primus: </speaker>
+                     <l> <unclear>Ac</unclear> tu Lucilla seriis misce jocos,</l>
+                     <l> Haec cum juventa, plaude, tripudia, novam</l>
+                     <l> Maerore pulso, gaudia haec sponsam deceat.</l>
+                     <l> Aut si quietem corpori exoptas magis,</l>
+                     <l> Saltem juventam plaudere hanc tibi sine.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Lucil: </speaker>
+                     <l xml:id="p104"> Sino libenter. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Bega: </speaker>
+                     <l xml:id="p105"> Turcico pubes modo</l>
+                     <l xml:id="p106"> Incipe salire. </l>
+                     <stage> * <corr resp="#NJ">fit</corr> saltus.</stage>
+
+                     <l xml:id="p107">Saltui satis datum.</l>
+
+                     <l> Iam quae voluptas cumque Lucillae placet</l>
+                     <l> Eo fruatur, castra ego visam parum.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Luci. </speaker>
+                     <l> O chara pubes, digna quae Coeli Deum</l>
+                     <l> Videas in illa sede, quam servis suis</l>
+                     <l> Paravit ille; si mihi obsequium voles</l>
+                     <l> Praestare deinceps, unicum Numen poli</l>
+                     <l> Venerare mecum, praemia hic bonis dabit</l>
+                     <l> Mansura semper, perfidos jugi rogo</l>
+                     <l>Torquebit omnes, num ne, quae dico, capis?</l>
+                  </sp>
+                  <sp>
+                     <speaker> Omnes: </speaker>
+                     <l xml:id="p108"> Capimus Lucillae verba. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Luci. </speaker>
+                     <l xml:id="p109"> macte sis, pubes mea,</l>
+                     <l> Meminisse quondam juverit et horum puto.</l>
+                     <l> Audire plura flagitas? mecum veni.</l>
+                  </sp>
+                  
+                  <pb n="88"/>
+               </div>
+               <div type="poesis-drama-scena">
+
+                  <head>SCENA V.</head>
+                  <argument>
+                     <p>Fabritius a nuntio exploratoribus Turcicis elapso edoctus de robore Caesarei
+                        Regnique exercitus ex insidiis opprimendum hostem decernit, littera quibus
+                        defendendi impotentiam <unclear>castrum</unclear>, ni in tempore auxilium <unclear>adsit</unclear>,
+                        excusat, ad Antistitem longe degentem mittit callide. </p>
+                  </argument>
+                  <sp>
+                     <speaker> Fabritius: </speaker>
+                     <l> Gaudete Socii, Numini curae sumus:</l>
+                     <l> Tres nostri ab hoste nuncii caesi quidem,</l>
+                     <l> At hic profugit salvus, is nostrum refert</l>
+                     <l> Viribus et armis militem cuivis parem.</l>
+                     <l> Ad haec paratum semper auxilio suo</l>
+                     <l> <unclear>Adesse</unclear> nobis, habeat indicium modo.</l>
+                     <l> Io triumphe! vicimus, stratus jacet</l>
+                     <l> Superbus hostis, qualiter dicam modo.</l>
+                     <l> Ego <unclear>meditabar</unclear> perdiu quanam via</l>
+                     <l> Posset adoriri, nulla succurrit mihi</l>
+                     <l> Magis expedita, quam sequens pulcher dolus.</l>
+                     <l> Scribo Zagrabiam Praesuli, cui indico</l>
+                     <l> Haud posse nos resistere inimico amplius,</l>
+                     <l> Idcirco si vult Sissium salvum, illico</l>
+                     <l> Auxilia mittat, dedito castro secus</l>
+                     <l> Obsessa turba consulet sibi male.</l>
+                     <l> Sic exaratas litteras mitti puto</l>
+                     <l> Debere studio, castra qua hostium jacent.</l>
+                     <l> Capietur harum bajulus, plenos metu</l>
+                     <l> Nos Sissienses dicet, asserti fidem</l>
+                     <l> Firmabit ipsis litteris, inde hostium</l>
+                     <l> Assurget animus, ut dari castrum sibi</l>
+                     <l> Primi reposcant, commoda haec erit via.</l>
+                     <l> Ut fraudulenti fraude capiantur sua.</l>
+                     <l xml:id="p110"> Quid ad <unclear>haec</unclear> Sodales? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Praef. primus: </speaker>
+                     <l xml:id="p111"> metuo ne nullo exitu</l>
+                     <l> Haec cuncta pergant, barbarus dolis scatet,</l>
+                     <l> Non credo nostro posse eum capi dolo.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Praef. secundus: </speaker>
+                     <l> Ego Fabritii pulchra consilia probo:</l>
+                     <l> Capietur hostis stolidus hac facile via.</l>
+                     <pb n="90"/>
+                  </sp>
+                  <sp>
+                     <speaker> Praef. tertius: </speaker>
+                     <l> Tentare quid nos prohibet, an, quod suggesit</l>
+                     <l> Fabritius alta mente, succesum parem</l>
+                     <l xml:id="p112"> Consilio habebit? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Praef. quartus: </speaker>
+                     <l xml:id="p113"> a Deo mens haec viro</l>
+                     <l> Venit sacrato prosperum eventum is dabit.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Praef. primus: </speaker>
+                     <l> <unclear>Cunctis</unclear> Fabritii sensa, non dubito placent.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Praef. tertius: </speaker>
+                     <l> <unclear>Cunctis</unclear> Fabritii sensa, ego testor, placent.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Fabrit. </speaker>
+                     <l> Bene habet; fidele Numen, incoeptis meis</l>
+                     <l> Adesse flagito. litteras trado tibi:</l>
+                     <l> Tu te fidelem Sissio et mihi proba</l>
+                     <l> Ad castra pergito hostium et temet capi</l>
+                     <l> Permitte sponte: Sissium totum metu</l>
+                     <l> Trepidare dicito, seque, modo Turcae velint,</l>
+                     <l> Dedere paratum, litteris firma fidem.</l>
+                     <l> Prudenter autem cuncta, quae dices, prius</l>
+                     <l> Meditare tecum, nostra sic salus eris.</l>
+                     <l> <unclear>Exoro</unclear> porro Coelites, iter tuum.</l>
+                     <l xml:id="p114"> Teque ut secundent. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Nunc. </speaker>
+                     <l xml:id="p115"> magne vir! jussis tuis</l>
+                     <l> Obtemperabo gnaviter: prius nihil</l>
+                     <l> Curabo, quam quae dicis, explere omnia. </l>
+                  </sp>
+               </div>
+
+               <div type="poesis-drama-scena">
+                  <head>SCENA VI.</head>
+                  <argument>
+                     <p>Oeconomus Fabritii, ad consilium non acceptus in furias agitur; suspectum se
+                        esse arbitratus, delusa vigilia, ad hostes transit. </p>
+                  </argument>
+                  <sp>
+                     <speaker> Oeconomus: </speaker>
+                     <l> Sic fit: secundum vulnus infigi fibris</l>
+                     <l> Difficile non est, ubi locus primo fuit.</l>
+                     <l> Deserte, sprete, illuse, <sic>post habite</sic> jaces,</l>
+                     <l> Quondam Fabritii fidus Oeconomus jaces.</l>
+                     <l> Te praeteriri proxime parum fuit, </l>
+                     <l> Et munia aliis prima, tibi nullum dare.</l>
+                     <l> Nisi velut animal aliquod Arcadia satum</l>
+                     <l> Aut perduelle Sissio et Domino caput,</l>
+                     <l> Consilia quando caeteri imbelles agunt.</l>
+                     <l> Solus <unclear>lateres</unclear> contigit probrum cui</l>
+                     <l> Aliquando tale: juro sed Stygias aquas</l>
+                     <l> Suprema juro tecta, me tellus prius</l>
+                     <l> Dehiscat ima, fulmen aut Caelo opprimat, </l>
+                     <pb n="92"/>
+                     <l> Quam tantum inultus patiar opprobrium hodie.</l>
+                     <l> Valete Moenia, Sissium quondam mihi</l>
+                     <l> Valeto charum! cogor invitus tibi</l>
+                     <l> Suprema verba dicere et nunquam amplius</l>
+                     <l> <unclear>Cernere</unclear> sepultum nisi vel aequatum solo.</l>
+                     <l> Ludenda jam custodia est, hinc me virum </l>
+                     <l xml:id="p116"> Probabo, si uspiam? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Vigil primus: </speaker>
+                     <l xml:id="p117"> quis hic? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Oecon. </speaker>
+                     <l xml:id="p118"> nescis virum?</l>
+                     <l xml:id="p119"> Et Fabritii Oeconomum? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Vigil secundus: </speaker>
+                     <l xml:id="p120"> quis hic? quorsum <unclear>pedes</unclear>?</l>
+                  </sp>
+                  <sp>
+                     <speaker> Oeconomus: </speaker>
+                     <l> Audes rogare Trifurcifer: quid me putas</l>
+                     <l> Esse tibi similem? capite minueris, nisi</l>
+                     <l xml:id="p121"> Mox conticescas. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Vigil. secundus: </speaker>
+                     <l xml:id="p122"> perge, quo pergis precor,</l>
+                     <l xml:id="p123"> Neque hic tumultus concita. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Vigil tertius: </speaker>
+                     <l xml:id="p124"> quis hic? quis hic?</l>
+                  </sp>
+                  <sp>
+                     <speaker> Oeconomus: </speaker>
+                     <l> Quis iste sermo, stolidum, et ignavum caput?</l>
+                     <l xml:id="p125"> Aspice, quis hic sit? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Vigil tertius: </speaker>
+                     <l xml:id="p126"> quisquis es sistas gradum.</l>
+                     <l> Hinc non abibis, sistito, te alias ego...</l>
+                  </sp>
+                  <sp>
+                     <speaker> Oeconomus: </speaker>
+                     <l> Insane, quid nugaris? ignotus tibi</l>
+                     <l xml:id="p127"> Numquid Fabritii Oeconomus? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Vigil tertius: </speaker>
+                     <l xml:id="p128"> etiamsi fores</l>
+                     <l> Vel ipse Caesar, transitum haud tibi sinam.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Oeconomus: </speaker>
+                     <l> Vah stulte! nescis Veneris esse hodie diem?</l>
+                     <l> Quid quaeso comedes, flumine propinquo ni ego</l>
+                     <l> Antefero pisces? cerne, quam stulte furas. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Vigil: </speaker>
+                     <l> Bene, perge tantum, scito sed tamen velim,</l>
+                     <l> Pendes tributum, dum retro leges viam. </l>
+                  </sp>
+               </div>
+               <div type="poesis-drama-chorus">
+                  <head>CHORUS II. </head>
+                  <argument>
+                     <p>Thetys concitante pontum Aeolo, navim allidit, ad brevia: Neptuno supplex
+                        accipitur in sponsam, divisum cum illo imperium in mare habitura; plaudente
+                        Syrenum, Tritonumque turba. </p>
+                  </argument>
+                  <sp>
+                     <speaker> Aeolus: </speaker>
+                     <l> Siccine Aeoli spernitur Numen,</l>
+                     <l> Dum <sic>faemina</sic> navigat flumen?</l>
+                     <l> Adeste inimica flamina, movete Thetidi certamina,</l>
+                     <l> ut in ponto naufraga sit.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Thetis: </speaker>
+                     <l> Heu! mea navis perit, nullus mei curam gerit,</l>
+                     <l> heu heu pereo! </l>
+                  </sp>
+                  <pb n="94"/>
+                  <sp>
+                     <speaker> Aeolus: </speaker>
+                     <l> Ita navis ejus pergit, Ita navim mari mergit,</l>
+                     <l> Qui contemnit Numina.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Thetis: </speaker>
+                     <l> O Neptune, a profundis liberato Thetyn undis</l>
+                     <l> Si audiri mereor.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Neptunus: </speaker>
+                     <l> Nisi flere, nec moerere, Therys mea sponsa es,</l>
+                     <l> Imperabis, et regnabis</l>
+                     <l> mecum post hac, quare fles?</l>
+                  </sp>
+                  <sp>
+                     <speaker> Syrenes: </speaker>
+                     <l> Sponsam novam salutamus,</l>
+                     <l> Deam Maris honoramus,</l>
+                     <l> Vivat Thetys, et Neptunus,</l>
+                     <l> Gratum nobis sit hoc munus,</l>
+                     <l> Quod Syrenes offerunt. </l>
+                  </sp>
+               </div>
+            </div>
+         <div>
+
+               <div type="poesis-drama-actus">
+                  <head>ACTUS III.</head>
+                  <div type="poesis-drama-scena">
+                  <head>SCENA I.</head>
+                  <p>Bassa ex interceptis una cum Nuncio Fabritii litteris deditionem castri in
+                     propinquo esse intellegit: ejus quam primum potiundi impatiens Fecialem ad
+                     castrum destinat; adjectis dolose deditionis conditionibus optimis. </p>
+                  <sp>
+                     <speaker> Delia primus: </speaker>
+                     <l> Initia spondent laeta successus pares:</l>
+                     <l> Tres immolatae victimae a Kauris, Stygi</l>
+                     <l> Mox immolandas indicant plures adhuc.</l>
+                     <l> Magnanima gerite pectora, et fortes viri</l>
+                     <l> Estote socii, proque vigilia suam</l>
+                     <l xml:id="p129"> Locum capessat quisque. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. secundus: </speaker>
+                     <l xml:id="p130"> stationem meam,</l>
+                     <l> Primus capesso, deferam vitam prius,</l>
+                     <l xml:id="p131"> Quam priver illa.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. tertius: </speaker>
+                     <l xml:id="p132"> mille si forent mihi</l>
+                     <l> Plures vitae, citius has hosti darem,</l>
+                     <l> Quam propudiose cederem ex isthoc loco.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. quartus: </speaker>
+                     <l> Nec mihi minores Spiritus Parens dedit:</l>
+                     <l> Videbo quis nam impetere vigiliam Hercules</l>
+                     <l xml:id="p133"> Audebit istam. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Nunc. </speaker>
+                     <l xml:id="p134"> Nullus, ut video, hic loci</l>
+                     <l> Apparet hostis, interim sylva fruar:</l>
+                     <l> Inflabo lituum forte sic hostem exciam;</l>
+                     <pb n="96"/>
+                     <l> Frustra: timetur Sissium, plus quam timet.</l>
+                     <l> Imbelle pectus noster inimicus gerit. </l>
+                     <l> Venite Turcae, turpe Mahometis genus</l>
+                     <l> Leporum propago. Si qua vis fibris inest,</l>
+                     <l> Si martiales spiritus corda occupant.</l>
+                     <l xml:id="p135"> Venite, provoco. <ref>*</ref></l>
+                     <stage> * Inflat cornu</stage>
+
+                  <l xml:id="p136">Nullus huc gressum movet.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. primus: </speaker>
+                     <l xml:id="p137"> Venio vocatus. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. secundus: </speaker>
+                     <l xml:id="p138"> adsumus plures adhuc.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. tertius: </speaker>
+                     <l> Audax, proterve perfide, imbellis Kaur!</l>
+                     <l xml:id="p139"> Turcam lacessis? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. quartus: </speaker>
+                     <l xml:id="p140"> parce, donemus necem:</l>
+                     <l> Ad castra vivus pergat, ut Princeps sciat</l>
+                     <l xml:id="p141"> Quid moliatur Sissium. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Nunc. </speaker>
+                     <l xml:id="p142">sinite, non vinculis opus,</l>
+                     <l> Quocunque vultis, libero accedam pede.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. primus: </speaker>
+                     <l> Magnanime Princeps, praeda, quam tui modo</l>
+                     <l> Cepere Deliae, se ad tuos sternit pedes.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. secundus: </speaker>
+                     <l xml:id="p145"> Procumbe bellua. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Bassa: </speaker>
+                     <l xml:id="p146"> Sissio Kaur venis</l>
+                     <l xml:id="p147"> Vel an aliunde? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Nunc. </speaker>
+                     <l xml:id="p148"> Sissio movi pedes. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Bassa: </speaker>
+                     <l> Ausus movere Sissio num tu pedem?</l>
+                  </sp>
+                  <sp>
+                     <speaker> Nunc. </speaker>
+                     <l xml:id="p149"> Missus movere debui. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Bassa: </speaker>
+                     <l xml:id="p150"> cui bono<sic>!</sic> </l>
+                  </sp>
+                  <sp>
+                     <speaker> Nunc. </speaker>
+                     <l> Ut scripta ferrem Praesidi, quae isthic vides.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Bassa: </speaker>
+                     <l> Praebe, videbo litteras. vivo! bene est.</l>
+                     <l> Quid Sissii agitur? nonne me Bassam timent<sic>.</sic></l>
+                  </sp>
+                  <sp>
+                     <speaker> Nunc. </speaker>
+                     <l xml:id="p151"> Timent stupende. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Bassa: </speaker>
+                     <l xml:id="p152"> marte si aggrediar eos,</l>
+                     <l xml:id="p153"> Nunquid resistent? </l>
+                  </sp>
+                  <sp>
+                     <speaker> Nunc. </speaker>
+                     <l xml:id="p154"> vix quidem Princeps puto</l>
+                     <l> Res Sissiensis vadit ad restim prope.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Bassa: </speaker>
+                     <l xml:id="p155"> Servate captum. </l>
+                  </sp>
+                  <sp>
+                     <speaker> Nunc. </speaker>
+                     <l xml:id="p156"> vinculis non est opus.</l>
+                  </sp>
+                  <sp>
+                     <speaker> Del. tertius: </speaker>
+                     <l> Praescribe leges Sisii caput impium:</l>
+                  </sp>
+                  <sp>
+                     <speaker>Bassa: </speaker>
+                     <l> Mahomet Propheta maxime et nostrae decus</l>
+                     <l> Immane gentis! si tuis Sisseg dabis,</l>
+                     <l> Adibo Mecham, gratiam ingentem sacro</l>
+                     <l> Cineri daturus, quam diem sanctam vehis</l>
+                     <l> O sol serene! plurimum hebdomadum labor</l>
+                     <l> Peragetur hodie; fraudibus tamen et dolis</l>
+                     <l> Renunciabo neutiquam; perge illico</l>
+                     <l> Tu fida turba Sissium et castrum pete,</l>
+                     <l> Si sunt daturi Sissium, sortem optimam</l>
+                     <l xml:id="p157"> Spondeto victis. </l>
+                  </sp>
+                  <sp>
+                     <speaker>Feciall. primus: </speaker>
+                     <l xml:id="p158"> facimus ut Princeps jubet, </l>
+                     <l> Curabimusque, cernuo ut Turcas genu</l>
+                     <l xml:id="p159"> Adoret hodie Sissium...</l>
+                  </sp>
+
+               </div>
+                  <div type="poesis-drama-scena">
+                     <pb n="98"/>
+                     <head>SCENA II.</head>
+
+                     <p>Lucilla cum quatuor Adolescentibus Turcicis longius a castris profecta a
+                        Legato <unclear>Caesareo Regnique militia</unclear> ad Fabritium misso capitur. Illustrissimi
+                        sanguinis germen agnoscitur, vim et consilia hostium ob interceptas
+                        Fabritii litteras pandit. </p>
+                     <sp>
+                        <speaker> Lucilla: </speaker>
+                        <l xml:id="p160"> tandem licet</l>
+                        <l> Coelo Lucillae libero captae frui:</l>
+                        <l> O pulchra sylvae viriditas! pulchre <sic>suos</sic></l>
+                        <l> Amoeniati consulens promis comas.</l>
+                        <l> Siste hic Lucilla paululum, atque isto tua</l>
+                        <l> Virore pasce lumina. heu! nunquam amplius</l>
+                        <l> Pastura forsan: virida haec arbor modo est</l>
+                        <l> Nunquid Lucilla? frondium laetum decus</l>
+                        <l> Aestate praesente explicat, floret, viret,</l>
+                        <l> Sed hoc amoenum quandiu stabit decus?</l>
+                        <l> Quoad Bruma veniat: nempe tunc folia cadent,</l>
+                        <l> Discedet omnis gloria, et calvum caput</l>
+                        <l> Ostendet illa, floruit quae arbor prius:</l>
+                        <l> Sic omne transit orbis istius decus:</l>
+                        <l> Fortuna saepe quempiam excelse locat,</l>
+                        <l> Praebendo summa culmina et honorum gradus,</l>
+                        <l> Dat opes, vigorem corporis, formam, decus, </l>
+                        <l> Hominum favores, gratiam, dico amplius,</l>
+                        <l> Sceptra et coronas: omnia sed haec quandiu?</l>
+                        <l> Vix cuncta tanto tempore haec homines habent,</l>
+                        <l> A vere quantum distat infelix hyems.</l>
+                        <l xml:id="p161"> Haec nempe mundi est vanitas. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Adol. primus: </speaker>
+                        <l xml:id="p162"> sunt tristia</l>
+                        <l> Hac Domina nimium, nec tuam, sed nec decent</l>
+                        <l> Nostram juventam; proiice a nobis procul</l>
+                        <l> Hos cogitatus, quidque sis facta, aspice,</l>
+                        <l> Mehmettus anne huiusmodi sponsam volet?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Adul. secundus: </speaker>
+                        <l> Vix invenire verba, quae loquar queo</l>
+                        <l> Adeo medullas, murmure infausto meas</l>
+                        <l> Domina replesti; fronte quid semper gerit</l>
+                        <l> Inauspicata nubila, nec unquam <corr resp="#NJ">induis</corr></l>
+                        <pb n="100"/>
+                        <l xml:id="p163"> Diem serenam? </l>
+                     </sp>
+                     <sp>
+                        <speaker> Luc. </speaker>
+                        <l xml:id="p164"> nescia juventus boni</l>
+                        <l> Garrire noli, vera laetitia est ea,</l>
+                        <l> Quae vera sunt agnoscere, e cunctis Deo</l>
+                        <l xml:id="p165"> <unclear>Fieri</unclear> propinquum rebus. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Adol. tertius: </speaker>
+                        <l xml:id="p166"> egregiam refers</l>
+                        <l> Domina, magistram; cuncta quae dicis placent.</l>
+                        <l> Sunt omnia mera vanitas, praeter Deum.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Adoles. quartus: </speaker>
+                        <l> Pergamus ultro, Domina, non tuto es loco,</l>
+                        <l> Vicinus hostis Sissii an dormit putas?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Lucilla: </speaker>
+                        <l> Custos cui Deus, neminem inimicum timet.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Adol. primus: </speaker>
+                        <l xml:id="p167"> Fugite sodales. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l xml:id="p168"> Sistito juventus gradum!</l>
+                        <l> Et tu unde Domina? Fare, quo, qua te pedes?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Lucil. </speaker>
+                        <l> Sum Christiana, nata Blagaia domo.</l>
+                        <l> Lucilla dicta, Turcico infelix jugo</l>
+                        <l xml:id="p169"> Nuper subacta. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Legatus </speaker>
+                        <l xml:id="p170"> nobilem stirpem tuam</l>
+                        <l> Colo venerorque: nulla Turcarum potes</l>
+                        <l xml:id="p171"> Consilia pandere?</l>
+                     </sp>
+                     <sp>
+                        <speaker>Lucilla:</speaker>
+                        <l xml:id="p172">nulla praeterquam dolos,</l>
+                        <l> Eripere nobis Sissium intendunt quibus.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l> Desiderarem hos nosse, sed tantam moram</l>
+                        <l> Tempus, locusque prohibet; ut votis proin</l>
+                        <l> Facias abunde, Sissium mecum veni</l>
+                        <l> Nec <unclear>metus</unclear> quidquam. praesto juratus fidem:</l>
+                        <l> Haud patior ullo te premi a quoquam malo.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Delia primus: </speaker>
+                        <l> Huc huc, sodales ocyus praesto, sine</l>
+                        <l xml:id="p173"> Mora venite. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l xml:id="p174"> comprime infaustum sonum:</l>
+                        <l xml:id="p175"> Proterve bubo! </l>
+                     </sp>
+                     <sp>
+                        <speaker> Delia: </speaker>
+                        <l xml:id="p176"> proh dolor! grandis dolor!</l>
+                        <l> Abiit Lucilla, dulce Mechmetti jubar.</l>
+                     </sp>
+                  </div>
+                  <div type="poesis-drama-scena">
+                     <head>SCENA III.</head>
+                     <p>Oeconomus Fabritii e castro profugus, a Turcis suum aliunde castrum futurum
+                        ratus ludibrio habitus supplicio afficitur nil arcanis qua patefacturum
+                        se dicebat, proficientibus. </p>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l> Jam nostra tuto littori appulsa est ratis;</l>
+                        <l> Probe relictum Sissium et fausto pede</l>
+                        <l> Ad castra ventum est hostium; felix dies!</l>
+                        <l> Albo notari calculo dignus dies!</l>
+                        <l> Jamjam licebit perfidum ulcisci Popam. </l>
+                        <pb n="102"/>
+                     </sp>
+                     <sp>
+                        <speaker> Del. primus: </speaker>
+                        <l xml:id="p177"> Quid hic Trifurcifer agis? </l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l xml:id="p178"> haud isthoc ego</l>
+                        <l xml:id="p179"> Nomine vocari dignor. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. secundus: </speaker>
+                        <l xml:id="p180"> age, dic ocyus,</l>
+                        <l xml:id="p181"> Hostis an amicus? </l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l xml:id="p182"> Principi hoc vestro volo</l>
+                        <l xml:id="p183"> Constare soli. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. tertius: </speaker>
+                        <l xml:id="p184"> principem appellas, scelus!</l>
+                        <l> Ad Principem ibis, compede hac vinctus pedes.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+
+                        <l xml:id="p185"> Libens volensque. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. quartus: </speaker>
+                        <l xml:id="p186"> grande Turcarum decus,</l>
+                        <l> Quem cernis isthic Kaurum, captum recens,</l>
+                        <l xml:id="p187"> Vinctumque compede sistimus. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l xml:id="p188"> faedum genus,</l>
+                        <l> Stirpis nefandae! Sissio nunquid venis?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l> Invicte Princeps! Sissio recta pedes</l>
+                        <l xml:id="p189"> Ad te tetendi. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l xml:id="p190"> perfidum mihi caput</l>
+                        <l> Imponere satagis? habeo haud dictis fidem</l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l> Magnanime Bassa, juro Mahometem tuum,</l>
+                        <l> Secreta veni Sissii ut prodam tibi.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l xml:id="p191"> Edissere illa? </l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l xml:id="p192"> Sissium grandis pavor</l>
+                        <l> Invasit undique, omnia gelascunt metu:</l>
+                        <l> Si tu potente milite invadas tuo</l>
+                        <l> Qua <unclear>duxero</unclear> ego te, Sissium hac die cadet.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l> <unclear>Facesse</unclear> perfide! grande mysterium audio;</l>
+                        <l> Ductore sine te, Sissium hac die cadet.</l>
+                        <l> Num Bassa fies noster imbellis Kaur?</l>
+                        <l> Rape perduellem Delia et meritis pari</l>
+                        <l xml:id="p193"> Mercede dona. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l xml:id="p194"> parce, nec fidum preme</l>
+                        <l xml:id="p195"> Princeps clientem. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l xml:id="p196"> qui suis nescit fidem</l>
+                        <l> Servare Dominis, fidus alienis erit?</l>
+                        <l> Minuite capite, Deliae infidum caput.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l> At cuncta nondum prodidi Princeps tibi:</l>
+                        <l xml:id="p197"> Paulisper audi. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. primus: </speaker>
+                        <l xml:id="p198"> perge cerbereo cani</l>
+                        <l> Arcana pande proditor; si vir fores,</l>
+                        <l> Altum taceres. Flecte, cervicem erige.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l xml:id="p199"> Ergo moriendum est. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. secundus: </speaker>
+                        <l xml:id="p200"> ambigis stolidum caput?</l>
+                        <l> Accingere Neci. protinus funus cades.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l xml:id="p201"> Ergo moriendum est? </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. tertius: </speaker>
+                        <l xml:id="p202"> nulla spes vitae super.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Oec. </speaker>
+                        <l> Ah moriar ergo, pauca sed verba antea</l>
+                        <l> Permitte dicere; justa, mi Deus, mei</l>
+                        <l> Supplicia pendo sceleris, agnosco tuam</l>
+                        <l> Me punientem dexteram, infidus fui</l>
+                        <l> Patriae, tibique, qui fidem Patriae, tibi</l>
+                        <l> Praestare debui; error hic utinam meus</l>
+                        <pb n="104"/>
+                        <l> Prodesse possit posteris, discant ut hinc</l>
+                        <l> Servare Dominis praestitam semel fidem.</l>
+                        <l> Discant et illud maxime quid sit spei</l>
+                        <l> In Turca habendum, gaudium summum cui est </l>
+                        <l> Tingere cruore barbaras nostro manus. </l>
+                     </sp>
+                  </div>
+                  <div type="poesis-drama-scena">
+                     <head>SCENA IV.</head>
+                     <p>Legatus cum Fabritio de Bassa fraudibus a Lucilla commonefactus, volentem
+                        ludere, praelusurus oblatas per fecialem deditionis conditiones accipit
+                        modo nobilissimi quique Turcarum ad eas signandas mittantur. </p>
+                     <sp>
+                        <speaker> Fabr. </speaker>
+                        <l> Consilia, prout existimas, Bassae patent.</l>
+                        <l> Quid tibi videtur? quale responsum potest,</l>
+                        <l> Si postulatum venerit, Sisseg dari?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l> Ludere volentem, lude, lex prima est, dolo</l>
+                        <l> Fallere dolosum: Bassa si a nobis sibi,</l>
+                        <l> Ut ait Lucilla, Sissium petet dari,</l>
+                        <l> Bassae annuamus, dummodo claros viros</l>
+                        <l> Submittat ad nos, qui sua firment manu</l>
+                        <l> Utrinque pacta; nos viris neci datis,</l>
+                        <l> Adversus hostes ibimus; junget manus</l>
+                        <l> Miles propinquus Caesaris; Turcae suis</l>
+                        <l> Jam destituti Ducibus omnino cadent.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Fabritius: </speaker>
+                        <l> Sed quid adhibendam existimas plenam fidem</l>
+                        <l> Dictis Lucillae? femina est. dixi satis.</l>
+                        <l> Fingere, dolosque nectere hic sexus solet.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l> At ego Lucillae credo, nec fraudis metum</l>
+                        <l> Ullius habeo; sermo dum constat sibi,</l>
+                        <l> Tunc credo tuto faeminae; sed si placet,</l>
+                        <l> Veniat Lucilla, quaere, scrutare omnia,</l>
+                        <l> Cordis recessus intimos, imas fibras</l>
+                        <l> Aperire satage; spondeo, invenies fidem.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Fab. </speaker>
+                        <l> Faciam lubenter: gloria et nostrae decus</l>
+                        <l> Lucilla gentis, quomodo Sisseg placet?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Lucil. </speaker>
+                        <l> Ut forte castrum, facile quod suos potest</l>
+                        <l xml:id="p203"> Hostes fugare.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Fabr. </speaker>
+                        <l xml:id="p204"> posset, haud dubio quidem, </l>
+                        <pb n="106"/>
+                        <l> Sed non fugabit; hostis est nimis potens.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Luci. </speaker>
+                        <l> Numerosus hostis non <unclear>item est semper</unclear> potens.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Fabr. </speaker>
+                        <l> Satis, superque est numerus, ubi regnat dolus.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Lucilla: </speaker>
+                        <l> Dolo obviare est facile, dum nosti dolum.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Fabr. </speaker>
+                        <l> Quis posset omnes assequi inimici dolos?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Lucilla: </speaker>
+                        <l> Perspicere cuncta non opus, dum habet unicum.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Fabr. </speaker>
+                        <l> Habere non nisi unicum inimicus nequit</l>
+                        <l xml:id="p205"> Tam fraudulentus. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Luc. </speaker>
+                        <l xml:id="p206"> habeat an plures, ego</l>
+                        <l> Ignoro sane, at unicus constat mihi,</l>
+                        <l xml:id="p207"> Quem jam retexi. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Fabr. </speaker>
+                        <l xml:id="p208"> nulla sed video istius</l>
+                        <l xml:id="p209"> Indicia fraudis. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Luc. </speaker>
+                        <l xml:id="p210"> omne jam nunquid putas</l>
+                        <l xml:id="p211"><unclear>Fluxisse</unclear> tempus? </l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l xml:id="p212"> tristia haec sinite modo!</l>
+                     </sp>
+                     <sp>
+                        <speaker> Fabr. </speaker>
+                        <l> Laetos Lucilla Sissii dies age,</l>
+                        <l> Quoad protervos Sissio Turcas fugem.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Luc. </speaker>
+                        <l> Agam serena Sissii tutos dies.</l>
+                        <l> Et si, quod intus pectus augurium tenet,</l>
+                        <l> Me prodere <unclear>sinis</unclear>, victor hodierna es die.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l> Vides, <unclear>ut ille</unclear> frontis innubis decor,</l>
+                        <l> Nitor ille pulcher luminum, praesens sibi</l>
+                        <l> Sermo ille semper, fraudis expertem notant.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Fabr. </speaker>
+                        <l> Credo Lucillae, credo, quia spirat virum.</l>
+                        <l> Quis hic ad aures permeat nostras sonus?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l> Fors Faecialis missus a Turcis venit?</l>
+                        <l> Ad castrum eamus, inde, quis veniat, magis</l>
+                        <l xml:id="p213"> Cernere licebit. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Fec. </speaker>
+                        <l xml:id="p214"> gentium jura expeto,</l>
+                        <l xml:id="p215"> Sum Faecialis. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Cust. </speaker>
+                        <l xml:id="p216"> gentium liceat tibi</l>
+                        <l xml:id="p217">Gaudere jure. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Fab. </speaker>
+                        <l xml:id="p218"> missus a Bassa venis?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Faec. </speaker>
+                        <l xml:id="p219"> Plane inde venio. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l xml:id="p220"> quid novi nobis refers?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Faec. </speaker>
+                        <l> Jucunda, laeta, fausta, nova vobis fero.</l>
+                        <l> Vos Bassa salvos optat et sibi dari</l>
+                        <l> Pro singulari gratia Sisseg petit.</l>
+                        <l> Quaecunque scripta littera haec tenet, dabit,</l>
+                        <l> Si dabitis hodie, Sissium; quod si favor</l>
+                        <l> Spernetur iste, juro Mahometem meum,</l>
+                        <l xml:id="p221"> <unclear>Caro</unclear> luetis. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Fabr. </speaker>
+                        <l xml:id="p222"> gratias Bassae tuo </l>
+                        <l> Dic nomine meo: praebeo annutum libens </l>
+                        <l> Bassae petitis, dummodo claros viros</l>
+                        <l> Submittat ad nos, qui sua firment manu</l>
+                        <l xml:id="p223"> Utrinque pacta. Quam bene est lusum. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l xml:id="p224"> bene</l>
+                        <pb n="108"/>
+                        <l> omnino lusum est: veniet in cassses suos</l>
+                        <l xml:id="p225"> Hostis dolosus. ---</l>
+                     </sp>
+                  </div>
+                  <div type="poesis-drama-scena">
+                     <p>SCENA V.</p>
+                     <p>Bega Lucillam suae custodiae traditam abesse inveniens, quaerit sollicite;
+                        intellegit captam, in castrum abductam; funem metuens, relicto ad Mehmettum
+                        nuncio, fuga sibi consulit. </p>
+                     <sp>
+                        <speaker>Bega primus</speaker>
+                        <!-- dovde -->
+                        <l xml:id="p226"> --- Semper audivi hactenus,</l>
+                        <l> Non est miserior, faeminae quam qui gerit</l>
+                        <l> <sic resp="#NJ">Quamcuoque</sic> curam; mulier, o quantum malum!</l>
+                        <l> Astuta vulpes nulla sic caudam rotat,</l>
+                        <l> Varios ut animum mulier in parte agit</l>
+                        <l> Mihi Lucillam creditam, in testem voco:</l>
+                        <l> Blanditur illa pluribus: at utinam dolus</l>
+                        <l> Nullus subesset! melleae voces quidem</l>
+                        <l> Insunt Lucillae, felle sed num cor vacet</l>
+                        <l> Dubitare possem. crede mi Mechmett, suam</l>
+                        <l> Solves Lucillam: foeminae credo nihil,</l>
+                        <l> Ibo tamen, et quid cogitet mulier vafra,</l>
+                        <l> Libens videbo: perge jam Mechmett, tuam</l>
+                        <l> Solvito Lucilllam compede! Lucilla, heus! ubi es?</l>
+                        <l> Lucilla! Mechmett quaeritat amatam suam.</l>
+                        <l> Ubi es Lucilla? vanus o utinam forem</l>
+                        <l> Omnino aruspex! fallerer, dicens fugam</l>
+                        <l xml:id="p227"> Illam dedisse. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del.primus: </speaker>
+                        <l xml:id="p228"> Domine, quid rerum hic agis?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. </speaker>
+                        <l xml:id="p229"> Quaero Lucillam </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. primus: </speaker>
+                        <l xml:id="p230"> vanus hic, crede, est labor:</l>
+                        <l> Lucilla Sissium abiit, illam quaere ibi</l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. </speaker>
+                        <l xml:id="p231"> An vera narras? </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. primus: </speaker>
+                        <l xml:id="p232"> vera? quae vidi meis</l>
+                        <l xml:id="p233"> Paulo antea oculis. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. </speaker>
+                        <l xml:id="p234"> perfidae, infidum genus,</l>
+                        <l> Lucilla stirpis! <unclear>improbe</unclear> at vero magis</l>
+                        <l> Tu Delia, profugam dextra cur non tua</l>
+                        <l> Retro pepulisti? perge post illam ad stygem</l>
+                        <l> Bene ominabor fraude contextam et dolo</l>
+                        <l> Hanc esse totam foeminam; verbum mihi</l>
+                        <l> Nullum <unclear>placebat</unclear>: fronte spirabat malum,</l>
+                        <l> Totoque vultu. caecus at Mechmett puer </l>
+                        <pb n="110"/>
+                        <l> Quod <unclear>sit</unclear> puellae, credidit, verax amor.</l>
+                        <l> O caeci amantes! discite hunc, fallax quam amor</l>
+                        <l xml:id="p235"> Sit saepe vester. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. secundus: </speaker>
+                        <l xml:id="p236"> Domine, quas nubes tua</l>
+                        <l xml:id="p237"> In fronte video. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. </speaker>
+                        <l xml:id="p238"> nube quantumvis atra</l>
+                        <l> Sol obtegatur, pergit in cursu suo.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. secundus: </speaker>
+                        <l> Haec magna virtus solis est, sed num tuus</l>
+                        <l> <unclear>Hunc</unclear> Cursum adaequet animus, hoc est quod rogo.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. </speaker>
+                        <l xml:id="p239"> Vix credo sane </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. </speaker>
+                        <l xml:id="p240"> cura, dic, quae te premit</l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. </speaker>
+                        <l xml:id="p241"> Funem pavesco. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. </speaker>
+                        <l xml:id="p242"> sceleris eccujus reus?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg.</speaker>
+                        <l> <unclear>Illaesus</unclear> animus crimen alienum luet.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. </speaker>
+                        <l> Aliena nemo crimina ex aequo luit.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. </speaker>
+                        <l> <sic>Aequm</sic> atque <sic>iniqum</sic> Iudici injusto est idem.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. </speaker>
+                        <l> Dic ergo tandem, cura quae cordi incubat?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. </speaker>
+                        <l xml:id="p243"> Profuga Lucilla. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. </speaker>
+                        <l xml:id="p244"> crede te funis manet,</l>
+                        <l> Si vera dicis: perge proin qua te tuus</l>
+                        <l> Ductabit oculus, vita si cordi est tibi.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. </speaker>
+                        <l> Omnino pergam, nuncia sed tu fugam</l>
+                        <l> Mechmetto Amanti, sapere fors petulans puer</l>
+                        <l> Exinde discet. nec suos passim omnibus</l>
+                        <l xml:id="p245"> Largiri amores. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. </speaker>
+                        <l xml:id="p246"> nuncia haec ei feram. </l>
+                     </sp>
+                  </div>
+                  <div type="poesis-drama-scena">
+                     <head>SCENA ULTIMA</head>
+                     <p>Mechmettus cum nobilissimis quibusque Turcarum non tam ad dandas obsessis
+                        conditiones, quam ad vindicandam sibi Lucillam profectus, ex insidiis
+                        opprimitur. Signo e castro dato, Caesareus Regnique miles Bassam cum suo
+                        exercitu fundit, Fabritius extemporarie grates Deo agit, et nuncios
+                        partae memorabilis victoriae undequaque dimittit. </p>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l> Ter fausta nobis nuncius tulit nova:</l>
+                        <l> Victi timore panico, castrum suum</l>
+                        <l> Dant Sissienses, gentis imbellis metum</l>
+                        <l> Haud miror equidem; pectus in pedibus gerit:</l>
+                        <l> Fraudes dolosque nescit et tuta omnia,</l>
+                        <l> Si Turca superos invocet suos, putat.</l>
+                        <l> Iuro Mahometem, perfidum exscindam genus, </l>
+                        <pb n="112"/>
+                        <l> Mox ut sinistrum Sissi figam pedem.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Bega secundus: </speaker>
+                        <l> Magnanime Princeps, Delia affatum petit:</l>
+                     </sp>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l xml:id="p247"> Ut <unclear>adsit</unclear> impero. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. secundus: </speaker>
+                        <l xml:id="p248"> Turcicae gentis jubar,</l>
+                        <l> Invicte Bassa, Sissium paulo antea</l>
+                        <l xml:id="p249"> Lucilla fugit. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Mech. </speaker>
+                        <l xml:id="p250"> comprime infaustum sonum:</l>
+                        <l xml:id="p251"> Lucilla fugit? </l>
+                     </sp>
+                     <sp>
+                        <speaker> Del. primus: </speaker>
+                        <l xml:id="p252"> fugit, his oculis fidem</l>
+                        <l xml:id="p253"> Habebis utique. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l xml:id="p254"> sponte vel capta ab aliquo?</l>
+                     </sp>
+                     <sp>
+                        <speaker> Delia: </speaker>
+                        <l> Num sponte nescio: crederem captam magis.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l> Facesse nihil est. Sissium nobis datum</l>
+                        <l> Reddet Lucillam. perge tu Mechmett modo</l>
+                        <l> Numero stipatus fortium, et finem dolo</l>
+                        <l> Impone nostro. Sissium ut tradant tibi</l>
+                        <l> Iura per astra, Mahomet et sacra omnia.</l>
+                        <l> Abire posse Sissio, rebus suis</l>
+                        <l> Omnibus onustos, insuper mille aureos</l>
+                        <l> Dandos Fabritio, caeteris parum minus:</l>
+                        <l> Ego propinquus militem instructum geram</l>
+                        <l> Et exeuntem perfidam gentem stygi</l>
+                        <l> Hac immolabo dextera. infidum genus</l>
+                        <l> Docebo, pacta quid sit a Turcis fides.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Mech. </speaker>
+                        <l> Non ibo, sed volabo, quo Princeps jubes:</l>
+                        <l> Non jussa Bassae Sissium Mechmett vocant</l>
+                        <l> Sed amor Lucillae quae mihi has alas dedit:</l>
+                        <l> Sit necne nostrum Sissium parum facit,</l>
+                        <l> Habeam Lucilllam, sufficit. Adesto <corr resp="#NJ">proin</corr></l>
+                        <l> Magnanima turba: jussa seu Bassae placent,</l>
+                        <l> Sive magis usque Sissium Mechmett sequi,</l>
+                        <l> Si non haberi Sissium a nobis potest,</l>
+                        <l> Potest Lucilla. Sissii audite incolae!</l>
+                        <l xml:id="p255"> Fidemne habetis? </l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l xml:id="p256"> nostra par vestrae fides.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Bega tertius: </speaker>
+                        <l> Proh credule Kaur, Turcica heu! quid sit fides</l>
+                        <l xml:id="p257"> Sed sero disces. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Mech. </speaker>
+                        <stage>* Exploditur intra scenam</stage>
+                        <l xml:id="p258"> <ref>*</ref> nescio quis istos pavor</l>
+                        <l> Concussit artus: tuta vix credo omnia.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Bega quartus: </speaker>
+                        <l> Nihil timendum est, perge qua pergis via.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Mech. </speaker>
+                        <l> Explosio ista denotat nobis malum.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Beg. secundus: </speaker>
+                        <l> Laetantur omnis fraudis et doli inscii.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l> Adesto quisquis Sissium forte incolis:</l>
+                        <l xml:id="p259"> Hostem <unclear>opprimamus</unclear>. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Bassa: </speaker>
+                        <l xml:id="p260"> patuit infelix dolus:</l>
+                        <l xml:id="p261"> Invadite hostem. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Chili. </speaker>
+                        <l xml:id="p262"> Barbaros miles feri,</l> 
+                           <pb n="114"/>
+                        <l xml:id="p263">nec parce cuiquam. <ref>*</ref> terga verterunt, bene est, </l>
+                        <stage>* Fit conflictus</stage>
+                        <l xml:id="p264"> Vestigia premam. </l>
+                     </sp>
+                     <sp>
+                        <speaker> Fab. </speaker>
+                        <l xml:id="p265"> perge, Magnanimum genus!</l>
+                        <l> Caesarea sequere signa, nec Turcas time,</l>
+                        <l> Praecipua quando capita sunt caesa hac manu.</l>
+                        <l> Io triumphe! candida et niveo dies</l>
+                        <l> A me notanda calculo: stratus jacet</l>
+                        <l> Modo hostis ille, Sissium qui jam sua</l>
+                        <l> Spe devorarat: video, jam video fodit</l>
+                        <l> Quicunque foveam proximo, in foveam cadit.</l>
+                        <l> Astutus hostis, fraude victurum, et dolo</l>
+                        <l> Se nos putabat, victus est fraude et dolo.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Leg. </speaker>
+                        <l> Nova, nova, nova, laeta nova Fabritio fero,</l>
+                        <l> Fugitivus hostis parte plus media sui</l>
+                        <l> Absorptus undis, parte residua jacet</l>
+                        <l> In sanguine natans: pauca, fors centum, cohors</l>
+                        <l> Elapsa sylvis latitat, ut lepores solent:</l>
+                        <l> Has persecutus miles obsedit nemus:</l>
+                        <l> Venatione hac praelio finem dabit.</l>
+                     </sp>
+                     <sp>
+                        <speaker> Fab. </speaker>
+                        <l> Perfecta jam victoria est: grates tibi</l>
+                        <l> Numen verendum refero: maiores dabo</l>
+                        <l> Ab hoste reduces dum revertentur Duces:</l>
+                        <l> Decet esse socios laudis o Numen tuae</l>
+                        <l> Qui sunt triumphi; chara vos capita interim</l>
+                        <l> Extemporalem Numini plausum date.</l>
+                        <l> Satis superque plausui hodierno datum:</l>
+                        <l> Vulganda iam victoria est, plures Deum</l>
+                        <l> Laudare pergent, quanta si nobis scient</l>
+                        <l> Is dona contulit hodie: cornu proin</l>
+                        <l> Tabellionum resonet, hodiernum undique</l>
+                        <l> Vulget triumphum; denique hinc socii mei</l>
+                        <l> Amabo discite, semper invictum fore</l>
+                        <l> Quicunque spem locavit in Deum suam,</l>
+                        <l> Haec Christiani vestra sint arma optima,</l>
+                        <l> Deum invocare spemque in illo ponere. </l>
+                     </sp>
+                  </div>
+         </div>
+            <div type="poesis-drama-epilogus">
+         <pb n="116"/>
+         <head>EPILOGUS</head>
+         <argument><p>Dum Soli Planetae caeteri utriusque orbis imperium perenne vovent, Hesperus bonae noctis nuncius Mecoenati gratias agit, Austriae genius CAROLO sexto Augusto Catholico, Apostolico imperium Orientis <unclear>defert</unclear>.</p></argument>
+         <sp>
+<speaker>         Sol: </speaker>
+<l>         Utriusque orbis Dux. </l>
+<l>         Sol suprema mundi lux. </l>
+<l>         Splendesco, nitesco, </l>
+<l>         Orienti Occidenti impero. </l>
+         </sp><sp>
+<speaker>         Planeta prima: </speaker>
+<l>         Regnum tuum sit perenne, splendesce perenniter. </l>
+         </sp><sp>
+<speaker>         Secunda: </speaker>
+<l>         Regna semper sol serene et nitesce iugiter. </l>
+         </sp><sp>
+<speaker>         Tertia: </speaker>
+<l>         In aeternum orbem rege, impera feliciter.</l>
+         </sp><sp>
+<speaker>         Quarta: </speaker>
+<l>         Cuncta pergant tuo iure precamur unanimiter. </l>
+         </sp><sp>
+<speaker>         Hesperus: </speaker>
+<l>         Vive multas dies bonas, juventutem qui sic donas </l>
+<l>        Mecaenas dignissime: </l>
+<l>        Vive multos bonos annos. </l>
+<l>        Caelum tuos servet canos </l>
+<l>        Patrone piissime. </l>
+        </sp><sp>
+<speaker>        Austriae genius: </speaker>
+<l>        Imperator Occidentis </l>
+<l>        sceptrum cape Orientis </l>
+<l>        Ter Auguste CAROLE.</l>
+        </sp><sp>
+<speaker>        Omnes: </speaker>
+<l>        Tot triumphos numerato, </l>
+<l>        quot sunt dies  fortunato </l>
+<l>        hoc in anno CAROLE. </l>
+         </sp></div>
+         </div>
+         </div>
+      </body>
+   </text>
+</TEI>

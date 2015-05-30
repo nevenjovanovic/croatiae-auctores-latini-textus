@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="sisgor-g-de-situ">
+          <titleStmt>
+              <title>De situ Illyriae et civitate Sibenici, versio electronica</title>
+              <author key="sizgo01">
+                  <name xml:lang="hr">Šižgorić, Juraj</name>
+                  <date>c. 1445-1509?</date>
+              </author>
+              <editor>Veljko Gortan</editor>
+              <respStmt>
+                  <resp>Hanc editionem electronicam curavit</resp>
+                  <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+              </respStmt>
+          </titleStmt>
+        <editionStmt>
+            <edition>Prima editio electronica.
+                <date>2009</date>
+            </edition>
+            <respStmt>
+                <resp>Correxit</resp>
+                <name>Željka Salopek</name>
+            </respStmt>
+        </editionStmt>
+          <extent ana="C">Mg:C Verborum 3721</extent>
+        <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+                Hrvatska.  <date>2009</date>.</p>
+        </publicationStmt>
+        
+        <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Juraj Šižgorić Šibenčanin: 
+            O smještaju Ilirije i o gradu Šibeniku Šibenik: 
+            Muzej grada Šibenika (1981).</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+              <date when="1487-05-14" period="14xx_3_third">14.5.1487.</date>
+              <placeName>Šibenik</placeName>
+          </creation>
+         <textClass>
+              <keywords scheme="typus">
+                  <term>prosa</term>
+              </keywords>
+              <keywords scheme="aetas">
+                  <term>Litterae renatae (1400-1600)</term>
+                  <term>Saeculum 15 (1401-1500)</term>
+                  <term>1451-1500</term>
+              </keywords>
+              <keywords scheme="genre">
+                  <term>prosa oratio - descriptio</term>
+                  <term>prosa oratio - chorographia</term>
+              </keywords>
+          </textClass>
+      </profileDesc>
+      <revisionDesc>
+          <change>
+              <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+              <name>Luka Špoljarić</name>
+              <date>2012-02-19</date>
+              Novo, unificirano zaglavlje.
+          </change>
+          <change>
+              <date>[2010-12-25]</date>
+              
+              <name key="neven.jovanovic">
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+              Zaglavlje: klasifikacija, ime autora, vrijeme.
+          </change>
+          <change>
+              <date>[2009-12-23]</date>
+              
+              <name key="neven.jovanovic">
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+              Oblikovanje po TEI smjernicama.
+              Validacija u Oxygenu.
+          </change>
+          
+      </revisionDesc>
+  </teiHeader>
+    <text>
+        <front>
+            
+                <docTitle>
+                    <titlePart>
+                        Georgius Sisgoreus Sibenicensis
+                    </titlePart>
+                    <titlePart>
+                        De situ Illyriae et civitate Sibenici
+                    </titlePart>
+                </docTitle>
+            <byline>EDITIONEM ALTERAM EX MANUSCRIPTO CURAVIT ET VERSIONE INSTRUXIT
+                VELJKO  GORTAN
+                
+                EPILOGUM CONSCRIPSIT 
+                ANTE  ŠUPUK
+            </byline>
+            <docImprint>SIBENICUM MCMLXXXI 
+                MUSEUM CIVITATIS SIBENICI</docImprint>
+            
+            <div type="epistula">
+                <opener>Georgius Sisgoreus, Sibenicensis Dalmata, Magnifico viro Antonio Calvo, patritio Veneto et Sibenicensi praetori dignissimo, salutem dicit plurimam.</opener>
+                <p>
+                    <milestone unit="page" n="10"/>
+                    Absoluto nuper opusculo DE SITU ILLYRIAE <note place="margin">Illyria</note> ET CIVITATE SIBENICI, praetor clarissime, quod septem supra decem capitibus concluditur, Te neminem inquirens repperi idoniorem, cuius nomini id opusculum dedicarem et iudicio submitterem. Tua enim praestantia foelicem gerit praeturam in nostra Sibenicensi urbe, quae sub Illyrico sydere et in Dalmatia connumeratur. Tua praeterea virtus, optime praetor, historicam admodum callet cognitionem et ea plurimum oblectatur. Convenit itaque et tamquam praetori et tamquam historiae studioso. Tametsi dignius munusculum tuam deceat Excellentiam — magnos enim magna decent — humanitas tamen tua, cum sit tanta, nostrum donum non abjiciet quasi rusticanum. Et, ut Persius (1) <note place="margin">Persius</note> ipse commemoro: 
+                    <quote type="versus">
+                        <l>ipse semipaganus</l> 
+                    <l>ad sacra vatum carmen affero nostrum.</l>
+               </quote>                   
+                </p>
+                <p>
+                    Legi enim plurima apud idoneos historicos de Illyrico nostro et de his, quae sunt intra Illyricum, confusa quidem omnia et sparsa, iccirco legentibus intellectu difficilia et praesertim ignaris hominumque
+                    <milestone unit="page" n="12"/> 
+locorumque. Invigilans itaque Plinianae doctrinae <note place="margin">Plinius</note> et historiae Strabonis <note place="margin">Strabo</note> et Appiani <note place="margin">Appianus</note> et aliorum, non nulla delegi, complura excerpsi multaque ordine, quo potui, ipse disposui, ut obscura reddi possint clara et ignota sint nostra demonstratione satis nota, non utique longis ambagibus, sed quasi Phociana <note place="margin">Phocion</note> aut Salustiana <note place="margin">Salustius</note> perstrinctione. 
+                   
+                </p>
+                <p>
+                    Cum ergo patriae debeamus, patriae fines et dulcia scripsimus arva.(2) Perlegat magnificentia tua, et foeliciter valeat praestantia tua, cui me commendo vehementissime.
+                </p>
+                            </div>
+        </front>
+        <body>
+            <div type="chorographia">
+                <milestone unit="page" n="14"/>  
+                
+                <head>GEORGII SISGOREI SIBENICENSIS DALMATAE 
+                DE SITU ILLYRIAE ET CIVITATE SIBENICI</head>
+                
+                <div type="caput" n="1">
+                    <head>C. I.
+                DE DIVERSA ILLYRIAE TERMINATIONE</head>
+                <p>Varia Illyriae <note place="margin">Illyria</note> scribitur apud veteres auctores declinatio. Illyria Illyriae potissime apud Appianum, <note place="margin">Appianus</note> cuius traductor extat P. Candidus, <note place="margin">P. Candidus</note> vir facundus et doctus, quamvis in eum bile motus F. Philelphus <note place="margin">F. Philelphus</note> dixerit: "<q>Candidus in se nihil candidi habet nisi caniciem.</q>" Illyris <note place="margin">Illyris</note> praeterea reperitur <bibl>apud Claudium Ptolomeum</bibl>, qui singularem in mundo habebat biblyothecam. Illyricum <note place="margin">Illyricum</note> praesertim legitur <bibl>apud Plinium li° <num value="3">III</num>. Nat. hist.</bibl>, quod opus dicitur diffusum, eruditum et non minus varium quam ipsa natura. Et ab eo, quod est Illyris, Illyricum derivatur, ut scribit Tortelius. Unde <bibl>Virgilius <note place="margin">Virgilius</note> En. I.</bibl> (3) <q>Illyricos penetrare sinus</q> et <bibl>Iuvenalis, <note place="margin">Iuvenalis</note> Satyra VIII.</bibl> (4) <q>Illyricumque latus</q>.</p>
+                </div>
+                
+                <div type="caput" n="2">
+               <head>C. II. 
+                DE VERA ILLYRIAE DENOMINATIONE.</head>
+                <p>
+                    Erat Polyphemus <note place="margin">Polyphemus</note> Cyclops fortasse ille, cui Ulixes <note place="margin">Ulixes</note> unicum oculum tenebravit, et
+                <milestone unit="page" n="16"/>  
+                Galathea, <note place="margin">Galathea</note> eius coniunx, de quibus <bibl>Ovidius <note place="margin">Ovidius</note> XIII. Metha.</bibl> (5) plurima decantavit. Hi habuerunt tres filios, <note place="margin">tres filii Polyphemi</note> teste Appiano, Caelthum qui Caelthis et Galathum qui Galathis et Illyrium qui Illyriis dedit cognomentum.</p>
+                </div>
+                
+                <div type="caput" n="3">
+               <head>C. <num value="3">III</num>.
+                ILLYRIA NOMEN COMMUNE OMNIUM HUIUS LINGUAE NATIONUM</head>
+                <p>Communi vocabulo omnes istos Illyrios arbitrantur, licet diversi separatim propriis nominentur appellationibus, <bibl>ut scribit Appianus</bibl>, <note place="margin">Appianus</note> sicuti Pannones secundum Romanos vel Peones secundum Graecos. <note place="margin">populi Illyrici</note> Himani praeterea, Encheleae Dudini et Peuceciae <bibl>secundum Callimachum</bibl>. <note place="margin">Callimachus</note> Sorretes deinde, Serapilli, Iasi, Sandrizetes, Colaphiani et Breuci <bibl>secundum Plinium</bibl>; Norici, Antintimi, Ardiei, Retii, Pallarii et Iapodes intra Alpes incolentes <bibl>secundum Appianum</bibl>. <note place="margin">Appianus</note> Item et Salasii, Segestani, Daysii, Daci et Gethae vel Gothi. Boii etiam, Istri, Liburni, Curetes et Dalmatae. Mysii denique, Tribali et Prusi qui ad Euxinum pontum<note place="foot">a) corr. ex: portum</note> usque incolunt. Nunc totum, ut <bibl>Plinius <note place="margin">Plinius</note> dicit <num value="3">III</num>°. Nat. hist.</bibl>, uno nomine Illyricum vocatur generatim.
+                </p>
+                </div>
+                
+                <div type="caput" n="4">
+               <head>C. IIII. 
+                FINES ILLYRIAE LONGISSIMI</head>
+                <p>
+                  <bibl>Tortelius</bibl> 
+                  <note place="margin">Tortelius</note> scribit fines Illyriae latissimos. Hinc est, ut ait, Italia et superior
+                
+                <milestone unit="page" n="18"/>  
+                
+                Germania, inde Macedonia et Tracia et Epyrrhus; hinc sinus Hadriaticus, inde fluviorum maximus nostri orbis Danubius. <note place="margin">Danubius</note> 
+                  <bibl>Ptolomeus</bibl> 
+                  <note place="margin">Ptolomeus</note> alia descriptione hanc conterminat regionem. Et <bibl>Ruffus Sextus</bibl> 
+                  <note place="margin">Ruffus Sextus</note> scribit Illyriam habere plurimas provincias: Noricorum duas, Pannoniorum duas, Valeriam, Saviam, <ref>b)</ref> 
+                  <note place="foot">b) corr. ex: Suaviam</note> Dalmatiam et Myssiam, et Dacorum duas. Et <bibl>Virgilius</bibl> 
+                  <note place="margin">Virgilius</note> noster (6) regna Liburnorum commemorat. Et <bibl>Suetonius <note place="margin">Suetonius</note> in vita Tiberii, li° <num value="3">III</num>.</bibl> 
+                  <q>Toto, inquit, Illyrico perdomito, quod inter <ref>c)</ref> 
+                     <note place="foot">c) corr. ex: intra</note> Italiam regnumque Noricum et Traciam et Macedoniam interque Danubium flumen et sinum Hadriatici maris patet</q>. Et <bibl>Strabo</bibl> 
+                  <note place="margin">Strabo</note> testatur Noricos tenere Hadriaticum sinum et Aquilegiam, quam Attila, rex Hunorum, evertit. Graeci vero <bibl>teste Appiano</bibl> 
+                  <note place="margin">Appianus</note> existimant Illyrios supra Macedoniam et Traciam, qui ad fluvium Istrum sedes habent. Romani autem Illyricum longum sex millium stadiorum, latum vero mille et ducentorum numero contineri putant. Cuius amplitudo ex Macedonia et montibus Traciae usque ad Peones protenditur. Haec <bibl>Appianus</bibl>. Illyria praeterea <bibl>teste Plinio</bibl> 
+                  <note place="margin">Plinius</note> mille amplius insulis frequentatur natura vadosi maris. Sed, ut ego impraesentiarum compertum habeo, Illyria a septentrionali plaga habet Hungariam, ab occasu Foroiulium, ab ortu littus Euxinum, a meridie Macedoniam.
+                </p>
+                </div>
+                
+                <milestone unit="page" n="20"/>  
+                
+                <div type="caput" n="5">
+               <head>C. V. 
+                DE PAUCIS ILLYRIORUM NOMINIBUS</head>
+                <p>Vel caeli malitia vel nationis negligentia vel ut civili quodam ac sociali inter se motu et livoris innato stimulo id Illyriorum accidit populo, quod <bibl>Plinius</bibl> refert. <note place="margin">Illyriorum natura</note> 
+                  <q>Populorum, inquit, Illyricorum pauca effatu digna ac foelicia nomina.</q> Inter caeteros tamen et complures Diocliciani <note place="margin">Dioclicianus</note> nomen imperio fuit dignum, quem Dalmatam fuisse omnis testatur historia, quamvis in Christi martyres fuerit crudelissimus. Et Caius Dalmata <note place="margin">Caius papa</note> foelicissimum assecutus fuit nomen, quandoquidem summum tenuit pontificatum. Hic inter caetera sacram vestem, qua in sacris solennitatibus utitur levita et in pontificalibus antistes, a patria appellavit Dalmaticam. Quid dicam de Hieronymo, <note place="margin">Hieronymus</note> qui omnes ecclesiae doctores praestitit elegantia Graecam callens literaturam et Hebraicam et omnium divinarum rerum tenens scientiam? <note place="margin">laus Hieronymi</note> Vir profecto eximia vitae sanctimonia et divinis clarescens miraculis, de quo 
+                    <quote type="versus">
+                     <bibl>meus poeta Zovenzonius <note place="margin">Zovenzonius</note> cecinit</bibl>: 
+                <l>Caldaeos Graiosque patres patresque Latinos</l>
+                     <l>Ingenio vicit Dalmata Hieronymus,</l>
+                  </quote>
+                
+                  <milestone unit="page" n="22"/>  
+                
+                quem Itali praesertim Illyriis auferre conantur, consyderata gentium modernarum infoelicitate arbitrantes fortasse Dalmatiae spinam non potuisse huiusmodi produxisse rosam pulcherrimam. Pudet me et dictum <bibl>Appiani</bibl> 
+                  <note place="margin">Appianus</note> referre, qui ait: <q>Illyriorum natio ad Philippi et Alexandri usque tempora potens habita nunc adeo eviluit, ut nullo cognomine superesse iam videatur</q>.
+                </p>
+                </div>
+                
+                <div type="caput" n="6">
+               <head>C. VI.
+                DE SITU DALMATIAE</head>
+                <p>Provinciarum Illyriae Dalmatia <note place="margin">Dalmatia</note> habetur nobilissima. Quae pars, ut <bibl>Plinius</bibl> 
+                  <note place="margin">Plinius</note> dicit, ad mare Hadriaticum spectat. Dalmatia namque a Delminio <note place="margin">Delminium</note> civitate primaria nomen accepit <bibl>teste Appiano</bibl> 
+                  <note place="margin">Appianus</note> et <bibl>Plinio <note place="margin">Plinius</note> De viris illustribus</bibl>. Haec provincia Dalmatia<note place="foot">d) corr. ex: Dalmatiae</note> a septentrione habet Curetiam, <note place="margin">Curetia</note> quae hodie dicitur Crovatia, a qua Curetes dicuntur populi. Unde <bibl>Iunianus</bibl> docet Curetes <note place="margin">Curetes</note> populos esse Cretae et alios non in Dalmatia, ut ipse refert, sed prope Dalmatiam, ut de Antonio dicit <quote>
+                     <bibl>Lucanus</bibl>: (7) <note place="margin">Lucanus</note> 
+                     <l>confisus gente Curetum</l>
+                  </quote>, qui vulgo dicuntur Crovatini; de qua re vir optimus et doctissimus <bibl>Omnibonus Vicentinus in Lucanum</bibl> non bene sensisse videtur. Ad occasum vero habet Liburniam, <note place="margin">Liburnia</note> quae, ut dicit <bibl>Plinius <note place="margin">Plinius</note> 
+                     <num value="3">III</num>°. Nat. hist. c. XXI.</bibl>, est finis
+                
+                <milestone unit="page" n="24"/>
+                
+                et inicium Dalmatiae Scardona <note place="margin">Scardona</note> in amne, non autem Salona, <bibl>ut legitur in Tortelio</bibl>. Locus enim mendosus est, sicut <bibl>apud Iunianum in dictione Liburnia</bibl>. Et a Liburnia liburnum genus naviculae velocissimae a Liburnis compertae. Unde <quote type="versus">
+                     <bibl>in epodo Horatius</bibl>: (8) <note place="margin">Horatius</note>
+                     <l>Ibis liburnis inter alta navium,</l> 
+                     <l>amice, propugnacula.</l>
+                  </quote>
+               </p>
+                <p>
+                    Ab ortu autem habet Epyrrhum, <note place="margin">Ephyrrhus</note> unde Epyrrhotae populi dicuntur, quibus post diluvium Pheton <note place="margin">Pheton</note> primus imperasse dicitur, Pyrrhus <note place="margin">Pyrrhus</note> longo post tempore, qui apud Glauciam, Illyriorum regem, <note place="margin">Glaucia rex</note> fuit educatus. Et admiratus Pyrrhi indolem, filiam ei uxorem tradidit Antigonam, <note place="margin">Antigona</note> 
+                  <bibl>ut scribit Plutarchus</bibl>. <note place="margin">Plutarchus</note> A meridie quidem habet Hadriam, <note place="margin">Hadria</note> Apuliae civitatem, genere feminino. Et cum suis derivatis Hadrianus, Hadriensis recipit aspirationem. Hadria vero pro sinu maris genere masculino, <quote>
+                     <bibl>Horatius <note place="margin">Horatius</note> li. <num value="3">III</num>. car. (9)</bibl>
+                     <l>Dux<note place="foot">e) corr. ex: Duxi</note> inquieti turbidus Hadriae.</l>
+                  </quote>
+                Unde Hadriaticum mare sinus longissimus et a dextris intrantibus portuosus, a sinistris infoelix.</p>
+            </div>
+                
+                <milestone unit="page" n="26"/>
+                
+                <div type="caput" n="7">
+               <head>C. VII. 
+                DE DALMATARUM ANIMIS</head>
+                <p>
+                    <bibl>Cicero in epistulis</bibl> (10) bellicosos Dalmatas <note place="margin">Dalmatae</note> scribit eis imprecando dicens: <q>Dalmatis dii malefaciant, qui tibi molesti sunt</q>. Semper enim habiti sunt bellicosi. Et historicus testatur Dalmatarum proprium esse bellare semper et vincere. Nam plurima <bibl>Appianus <note place="margin">Appianus</note> li°. Illyrico</bibl> refert de nationis huius animis in bello generosis, <bibl>Polybius</bibl> 
+                  <note place="margin">Polybius</note> praeterea, <bibl>Solinus</bibl> 
+                  <note place="margin">Solinus</note> et <bibl>Caesar <note place="margin">Caesar</note> in Commentariis suis</bibl>. Praesertim auditu mirabiles fuerunt in bello Gethae, quos et Gothos Illyriae populos dicimus. <note place="margin">Gothorum feritas</note> Tradit enim <quote>
+                     <bibl>Paulus Horosius <note place="margin">P. Horosius</note> li.° primo</bibl>: Gethas, qui nunc Gothi dicuntur, Alexander evitandos pronunciavit, Pyrrhus exhorruit, Caesar autem declinavit.</quote>
+                </p>
+                </div>
+                
+                <div type="caput" n="8">
+               <head>C. VIII.
+                DE DALMATIAE CIVITATIBUS</head>
+                <p>
+                  <bibl>Strabo</bibl> (11) <note place="margin">Strabo</note> commemorat Dalmatas L oppida habuisse et nonnulla praeterea, quae Augustus delevit. Verum inter caeteras Dalmatiae civitates memoratu dignissimas quinque tantum in medium afferre placuit.</p>
+                <p>Ragusium <note place="margin">Ragusium</note> imprimis, ut ab ortu incipiam, quod, ut legi, antiquitus Lagusium dicebatur, colonia Epydauri, civitas nobilis et opulenta et hospitibus admodum benigna, loquax et solertissima. Quocirca <bibl>F.
+                <milestone unit="page" n="28"/>
+                Philelphus</bibl>, apud antiquos non reperiens Ragusium, dubitavit, Ragusium an Ragusia dici debeat. <bibl>Ad filium Xenophontem scripserat</bibl>, qui tunc grammaticam ibi profitebatur, ut requireret in aere vel marmore antiquorum et rescriberet.</p>
+                <p>Salonas <note place="margin">Salonae</note> praeterea, quae civitas olim erat celeberrima Dalmatarum et emporium ad littus et nota <quote type="versus">
+                     <bibl>Lucani carmine</bibl>: (12)
+                <l>... longas ferit unda Salonas,</l>
+                  </quote>
+                de qua et <bibl>Virgilius <note place="margin">Virgilius</note> cecinit in Pollionis Egloga</bibl> et <quote type="versus">
+                     <bibl>poeta Venusinus <note place="margin">Horatius</note> secundi voluminis oda prima</bibl>: (13)
+                <l>Et consulenti Pollio <note place="margin">Pollio</note> curiae,</l>	
+                     <l>cui laurus aeternos honores</l> 
+                     <l>Dalmatico peperit triumpho.</l>
+                  </quote>
+                Unde et suum filium eo, quod natus ibi erat, Saloninum <note place="margin">Saloninus</note> appellavit. Terra, ut <bibl>Papinius</bibl> (14) <note place="margin">Papinius</note> scribit, olim aurifera:
+                <quote type="versus">
+                    <l>Robora Dalmatico lucent saciata metallo,</l>
+                  </quote>
+                cuius rei testis est <bibl>Marcialis <note place="margin">Marcialis</note> li° X. epigrammate (15) ad Macrum in Dalmatiam missum</bibl>. Hodie quidem multa praeclarae antiquitatis vestigia ibi reperiuntur.</p>
+                <p>Aspalatrum <note place="margin">Aspalatrum</note> deinde, coloniam Salonarum, dictum ab herba, ut autumo, sui nominis, Metropolis Dalmatiae et quorundam locorum Liburniae et Curetiae.</p>
+                
+                <milestone unit="page" n="30"/>
+                
+                <p>Tragurium <note place="margin">Tragurium</note> quoque, vel quod tugurium vel a trino augurio nuncupatum, civitas generosa et agro proximo et Bubo insula admodum conspicua.</p>
+                <p>Sibenicum <note place="margin">Sibenicum</note> denique ad occasum a Ragusio vergens, patria mea, civitas impense provida, in qua cives, quanto iuniores, tanto perspicaciores, sed a maiorum bonitate paulisper degenerantes.</p>
+                <p>Et Dyrrachium, <note place="margin">Dyrrachium</note> prius Epydamnos dicta, et Scodra, <note place="margin">Scodra</note> inexpugnabiles civitates Epyrrhi, ab ortu Dalmatis conterminae. Hyadera <note place="margin">Hyadera</note> vero et Ninia seu Enona, <note place="margin">Enona</note> Liburniae civitates, Dalmatiae ab occasu propinquae.
+                </p>
+                </div>
+                
+                <div type="caput" n="9">
+               <head>C. VIIII. 
+                DE NOMINE SIBENICI</head>
+                <p>Apud <bibl>Ptolomeum</bibl> 
+                  <note place="margin">Ptolomeus</note> et alios antiquos Siccum <note place="margin">Siccum</note> appellatur, apud iuniores et vulgares Sibenicum, <note place="margin">Sibenicum</note> quod <quote>
+                     <bibl>meo condam expresseram carmine:</bibl>
+                     <l>Siccum antiqui, Sibenicum dixere recentes:</l> 
+                     <l>Inter Scardonam Traguriumque sedet.</l>
+                  </quote>
+               </p>
+                <p>Aliorum autem opinione Sinotium <note place="margin">Sinotium</note> dicitur, quod minime placet. Siccum itaque dictum, ut opinor, quod civitas intra muros vivi fontis careat aqua. Et praetermittendum non duco pro declaratione <quote>
+                     <bibl>Plinii <note place="margin">Plinius</note>
+                
+                        <milestone unit="page" n="32"/>
+                
+                hac in parte ambigui et depravati li° <num value="3">III</num>. Nat. hist. c. XXI. dicentis:</bibl> 
+                     <q>Tragurium civium Romanorum marmore siculi vel, ut alii legunt, figuli, quos marmorarios fuisse autumant.</q>
+                  </quote> Ego vero sic legere non vereor: Tragurium et civium Romanorum marmore notum Siccum. <quote>In quem locum, ut dicit <bibl>Plinius</bibl>, divus Claudius veteranos misit.</quote> Sibenicum autem dictum lingua vernacula eo, quod viminibus (16) fuerit circumseptum. Pyratae enim primi huius loci in secessu accolae fuerunt in suburbio, ubi signa murorum antiqua apparent. Et ab eo, quod est Sibenicum, <note place="margin">Sibenicum</note> reperio <quote>
+                     <bibl>apud Diodorum Siculum <note place="margin">Diodorus</note> li° primo:</bibl> 
+                     <q>Sibeniticum unum ex VII [h]ostiis Nili.</q>
+                  </quote> Cuius instar fortasse loci locus Sibenici nostri sic extitit appellatus. Legi praeterea <quote>
+                     <bibl>apud Plinium <note place="margin">Plinius</note> VII. Nat. hist. c. XVII.</bibl> 
+                     <q>vinum Sibeniticum</q>
+                  </quote> et de nostro arbitror intelligendum, cum antiquitus ager noster et insulae fuerint vinetis abundantiores, ut ex vestigiis et maceriarum apparet cumulis.
+                </p>
+                </div>
+                
+                <milestone unit="page" n="34"/>
+                
+                <div type="caput" n="10">
+               <head>C. X.
+                DE FINIBUS SIBENICI</head>
+                <p>Sibenicum <note place="margin">Sibenicum</note> habet ab ortu agrum Traguritarum, ab occasu Lopsicam insulam adiacentem Hyaderae, quae oculus dicitur Liburniae, a septentrione Tyrum fluvium, <note place="margin">Tyrus fluvius</note> quem vulgus Chercham appellat. Is disterminat Liburniam a Dalmatia, iuxta quem civitas Scardona <note place="margin">Scardona</note> ad littus, colonia antiquae Scardonae et portus. Multi putaverunt eum fluvium dici Scardonam, ut <quote>
+                     <bibl>poeta meus Zovenzonius <note place="margin">Zovenzonius</note> ad me scribens:</bibl> 
+                     <l>Scardonam mea Musa cupit de rupe cadentem</l> 
+                     <l>cernere, spumiferis nobile flumen aquis.</l>
+                  </quote>
+               </p>
+                <p>Verum <quote>
+                     <bibl>Ioannes Bocchatius <note place="margin">Bocchatius</note> li° De fluminibus</bibl> (17) scribit: <q>Tyrus, Liburnorum fluvius, est Hyaderae coloniae propinquus.</q>
+                  </quote> Nonnulli arbitrati sunt Titium appellari, quod esse non potest <quote>
+                     <bibl>testimonio Plinii <note place="margin">Plinius</note> li° <num value="3">III</num>. Nat. hist. c. V.:</bibl> Ab Aquilegia, inquit, ad Titium flumen <note place="margin">Titius flumen</note> stadia, CC.M.</quote> Et idem <quote>
+                     <bibl>Plinius <note place="margin">idem</note> c. XX.:</bibl> 
+                     <q>Colentum <note place="margin">Colentum</note> insula, quam vulgus Pagum dicit, [h]ostium est Titii fluminis.</q>
+                  </quote> Et <bibl>Bocchatius</bibl> 
+                  <note place="margin">Bocchatius</note> asserit Titium fluvium esse apud Arsias gentes non longe ab Aquilegia. A meridie autem habet Batriasam <note place="margin">Batriasa</note> insulam in pelago Hadriatico adiacentem Aspalatro, quam <bibl>Plinius</bibl> 
+                  <note place="margin">Plinius</note> laudatam dicit.
+                </p>
+                </div>
+                
+                <milestone unit="page" n="36"/>
+                
+                <div type="caput" n="11">
+               <head>C. XI.
+                DE AGRO SIBENICI</head>
+                <p>Habet Sibenici civitas agrum fertilem, quem vario appellat nomine, quod diversis in locis sit consitus. Est namque ager inferior <note place="margin">Inferior ager</note> et ad ortum ulterius ager Hiliscus. <note place="margin">Hiliscus</note> Est praeterea ad septentrionem superior <note place="margin">Superior</note> et supremus <note place="margin">Supremus</note> et ad occasum ager Lucanus. <note place="margin">Lucanus</note> Inferior vero non longe a phano Laurentii habet locum vocatum maceriolas, ubi Noricum <note place="margin">de Norico nostro</note> oppidum erat et ab eo Noricus portus ubi salis copia conficitur. Et ad [h]ostium eius Crappanum <note place="margin">Crappanum</note> insula plana, in qua coenobium est fratrum sub observantia divi Francisci degentium. Est et in superiori agro Noricus mons in loco vocato Nucetum. In supremo vero et Lucano plurima antiquitatis reperiuntur vestigia in aere et argento et auro et marmore.</p>
+                <p>Verum, ut agri Hilisci agro Traguritarum contermini percipiatur conditio, intelligendum primo, quod Hilis sit promontorium Diomedis <note place="margin">Hilis promontorium</note> et, ut alii referunt, pene insula <bibl>Plinio teste</bibl>. <bibl>Bocchatius</bibl> 
+                  <note place="margin">Bocchatius</note> vero dicit: <q>Diomedes est promontorium in Dalmatia</q>, <bibl>li° De montibus</bibl>. Bubus <note place="margin">Bubus Insula</note> autem est insula Tragurio adiacens et ab eo ponte tantum disterminata. Quibus compositis agrum istum Busyliscum vulgus appellat. In quo quidem agro subiecta Sibenicensi diocesi est illa Tariotarum antiqua regio, ut <bibl>Plinius</bibl> 
+                  <note place="margin">Plinius</note> scribit, et castellum Tariona, <note place="margin">Tariona</note> ubi
+                
+                <milestone unit="page" n="38"/>
+                
+                nunc divi Baptistae templum stat in cacumine.</p>
+            </div>
+                
+                <div type="caput" n="12">
+               <head>C. XII. 
+                DE INSULIS SIBENICI</head>
+                <p>Complurium insularum Sibenico adiacentium aliae omnino steriles, rupibus tantum et conchiliis oppletae, et loca nimirum naufraga, aliae foeno tantum vel cappari vel virgultis lentisci praesertim vel myrthi vel asparagis vel semisylva caedua abundantes, aliae frugibus, vinetis, olivetis et aliis deliciarum arboribus conspicuae, piscosae tamen omnes.</p>
+                <p>Insula vero Mortarium <note place="margin">Mentorium</note> cognominata prope Lopsicam maiuscula et fertilis, in qua signa sunt oppidi antiquissimi in terram vetustate proiecti, ubi reperiuntur lapilli signati et aera antiquorum effigiem prae se ferentia. Arbitror hanc insulam Mentorium dici, non Mortarium, a quo et Mentores nuncupantur <bibl>teste Plinio</bibl>. <note place="margin">Plinius</note>
+               </p>
+                <p>Surium <note place="margin">Surium</note> praeterea insula nostra, de qua <bibl>Plinius <note place="margin">Plinius</note> li° <num value="3">III</num>. Nat. hist. c. XXV.</bibl> in calce peculiarem facit mentionem. Haec quoque antiqui oppidi continet cadavera, in quo puteus est altissimus longo reste movendus. Insula portuosa et piscosa, vino optimo abundans et pinetis conspicua silvestribus.</p>
+                <p>Est quoque Pervium <note place="margin">Pervium</note> insula, colonia Sibenici nobilium ea praesertim tempestate, qua in civitate debacchatur pestilentia,
+                
+                <milestone unit="page" n="40"/>
+                
+                ubi horti cultissimi, vineta aegregia et oliveta utilia et aedificia grata navigantium conspectibus.</p>
+                <p>Aurea insula <note place="margin">Aurea insula</note> deinde faucibus portus Sibenici adiacens, saxeis collibus turrita et XII flamminibus dicata, fertilis quidem amigdoletisque et vinetis et olivetis abundans. Est insula portuosa et piscosa habens in colle vetustissimi oppidi vestigia iam solo aequata. Haec insula saepius mihi tribuit domicilium morbi tempestate, in qua post rei divinae operam inter scopulos montium et arborum umbras suavissimas Musas colere solebam.</p>
+            </div>
+                
+                <div type="caput" n="13">
+               <head>C. XIII. 
+                DE LOCIS SIBENICO CONTIGUIS</head>
+                <p>Apud portam urbis area <note place="margin">Area</note> satis lata et in longum paulisper protensa. Locus equidem gratus aegredientibus ad respirandum et ad ampliorem auram captandam, porro aptus equorum cursibus et hastiludiorum ictibus, pilam quoque percutientibus et sagittas dirigentibus ad signum. Est praeterea mons <note place="margin">Mons</note> civitati supereminens, in cuius vertice sacellum emicat divo Baptistae dicatum, mons equidem olearum et non dissimilis Monti oliveti apud Hierosolymam, nostrae salutis officinam, testimonio eorum, qui viderunt. Est subinde angulus magni portus, dictus roseus a roseo fonte: <note place="margin">Fons roseus</note> de rupe tenui rivulo erumpens in suburbio proximo
+                
+                <milestone unit="page" n="42"/>
+                
+                et contiguo, supra quem phanum extat antiquum in honorem diei dominicae fabricatum eo quidem tempore, quo Illyrii ex sua regione Graeculos protervos profligarunt.</p>
+                <p>Magnus item portus <note place="margin">Portus</note> est XII milliariis in longum protensus, undique clausus, sed ab Hadriaci maris proluvie angustissimis faucibus apertus, in quarum ore duo hinc et inde templa et in urbis conspectu duae turres oppositae. Canale quoddam<note place="foot">f) corr. ex: quodam</note> videtur uno milliario latum et plerisque in locis angustius, sed apud Prochytam latius. In hoc cadit Tyrus fluvius, in quo sunt molendina nostra, et miscetur mari per fauces intranti. Hic thynni mirae magnitudinis reperiuntur <note place="margin">pisces</note> et delphines aspiciuntur ludentes, hic vituli marini saepissime apparent. Dentrices cristatae capiuntur sole existente in Cancro, in Leone et in Virgine, quae quidem magnis in deliciis habentur et huiusmodi, ut aiunt, non capiuntur nisi in Hellesponto. Et ostrea Dalmatico nimium saturata liquore, capiuntur praeterea capitones, salpae, scorpenae, muli, lupi, gobiones, auratae, pargi, loligines et scombri. Et sole ingrediente Taurum copia menarum et sparulorum hamo ex maris fundo trahitur. Ostenduntur interdum et mira piscium monstra prius numquam visa.
+                </p>
+                </div>
+                
+                <milestone unit="page" n="44"/>
+                
+                <div type="caput" n="14">
+               <head>C. XIIII. 
+                DE LOCIS SIBENICI INTRA MUROS</head>
+                <p>Nonnulla sunt intra urbis moenia memoratu digna. Castellum <note place="margin">Castellum</note> imprimis in colle tamquam in specula fabricatum. Arx <note place="margin">Sibenici</note> quidem turrito et fortissimo muro circumsepta et oppugnationem minime reformidans. Intra quod vetustum extat sacellum, nuper intimo tantum ornamento novatum, ubi Christi matris figura celeberrimis clarescit miraculis.</p>
+                <p>Est quoque inferius ad forum et ad aream Veneti vexilli alligero leone signati et ad episcopium et praetorium basylica, <note place="margin">Basylica</note> quae miro artificio, ut arbitror, nostro saeculo surgit Iacobo maiori, Christi apostolo, dicata.</p>
+                <p>Sunt et primariorum ordinum in religione constructa coenobia. Sunt et aedes nobilium civium pro Dalmatica conditione satis amplae et honestae.</p>
+                <p>Fuerunt et nostra memoria concives, qui eruditione claruerunt <note place="margin">Eruditi</note> theologiae, philosophiae, poeticae, oratoriae, iuris pontificii et iuris Caesarei, quorum ingenia saepius ipsa etiam fuit admirata Italia, quae mater studiorum dicitur et magistra morum.
+                </p>
+                </div>
+                
+                <milestone unit="page" n="46"/>
+                
+                <div type="caput" n="15">
+               <head>C. XV.
+                DE PRAECIPUIS DIEBUS FESTIS SIBENICI</head>
+               <p> Supervacaneum duco fabulosam referre antiquitatem et Aegyptium Syrophanem, <note place="margin">Syrophanes</note> qui imprimis causa fuit in orbe simulacri colendi, quod ydolum <note place="margin">ydolum</note> dicitur, id est species doloris, et <quote type="versus">
+                     <bibl>illud Statii: (18)</bibl>
+                     <l>Primus in orbe deos fecit timor;</l>
+                  </quote>
+                  <quote>
+                     <bibl>Lactantius</bibl> 
+                     <note place="margin">Lactantius</note> enim noster nefas esse dicit rectum animal curvari, ut adoret terram, quae iccirco pedibus nostris subiecta est, ut calcanda nobis, non adoranda sit</quote>, et <quote>
+                     <bibl>Augustinus</bibl>: <note place="margin">Augustinus</note> Dii, inquit, qui non fecerunt caelum et terram, pereant de caelo et de terra, Deus vero, qui creavit caelum et terram, benedicant eum caeli et terra</quote>, siquidem divino inflata spiritu civitas Sibenici rerum omnium artificem et parentem adorat Trinitatem et praecipua veneratur solennitate. <quote>Sola enim Trinitas <note place="margin">Trinitas</note> soli deo integre nota est, <bibl>ut scribit Augustinus</bibl>
+                  </quote>, exuperans omnem sensum, quam neque dicere neque cogitare neque intelligere neque cognoscere possibile est etiam oculis angelorum. Cuius solennitas celebrari solet <date>octava die post penthecosticam festivitatem</date>. Tunc gentes finitimae Sibenicum tamquam ad Dalmatiae emporium conveniunt.</p>
+                <p>Praeterea polyucus noster, urbis patronus Michael, qui ponderat umbras et
+                
+                <milestone unit="page" n="48"/>
+                
+                qui calcatum pedibus antiquum serpentem hasta perforavit. Celebritas cuius <date>
+                     <num value="3">III</num>° Kalendas Octobres</date> celebratur. Supplicationes fiunt, omnes artifices, omnis nobilitas funalia afferunt et festo faventes offerunt. Et in concione nobilitas unum de plebe coetui senatus solet agregare.</p>
+                <p>Et in sedis pontificalis basylica <note place="margin">basylica</note> Iacobus maior magna veneratur veneratione <date>VIII. Kalendas Sextiles</date>. Hic mirae Christi transfigurationis contemplator et orationis dominicae testis fidissimus, hic primus inter apostolos martyrii fuit assecutus coronam huiusque sacratissimum caput foelix possidet Compostella. <note place="margin">Compostella</note>
+               </p>
+            </div>
+                
+                <div type="caput" n="16">
+               <head>C. XVI. 
+                DE STATU SIBENICI</head>
+                <p>Quintum supra decimum perficitur lustrum, <note place="margin">lustrum</note> quo Illustrissimus Venetorum senatus Sibenicum <note place="margin">Sibenicum</note> habuit et in eo vexillum erexit volitantis  et coronati leonis <date>anno salutis 1412. quinto Kalendas Novembres</date>. Tunc aurea saecula <note place="margin">aurea saecula</note> redire visa fuerunt, tunc quasi ex cloaca civitas effecta, tunc barbarie postposita Latina vigere coepit humanitas, tunc virtutem sugere, aetatem litterarum alimento pascere, laudabilem rem navare, probitates improbitatibus tamquam aurum scoria purgare pro virili sua omnes contendebant. Et utinam illud saeculum in argenteum, aereum et ferreum, 
+                
+                <milestone unit="page" n="50"/>
+                
+                ut tradunt poetae, paulatim non descenderet hominum malitia!</p>
+                <p>Verum aetate nostra quid foelicius quam sub Venetorum <note place="margin">Veneti</note> ditione vitam degere? Quorum civitas semper extat libera, numquam tributo mancipata, semper Christiana, numquam ydolorum superstitione foedata, pelagi regina, diviciarum omnium officina, mundi deliciae, iustitiam semper fovens et religionem.</p>
+               <p> Et tempore isto quid gratius quam sorte divina praetorem habere Antonium Calvum, <note place="margin">Antonius Calvus</note> virum religioni deditum, in audiendo benignum, in exquirendo acutum, in iudicando aequum, vitae integrum, Musarum studiosum, moderatorem morum peritorumque patronum et Sisgorei, fortunae privigni, dulce decus et praesidium? <quote type="versus">Profecto, <bibl>ut ait Naso</bibl>, (19) <note place="margin">Naso</note>
+                     <l>Haec mihi semper erunt imis infixa medullis</l>	
+                     <l>Perpetuusque animi debitor huius ero.</l>
+                  </quote>
+               </p>
+            </div>
+                
+                <div type="caput" n="17">
+               <head>C. XVII. 
+                DE MORIBUS QUIBUSDAM SIBENICI</head>
+                <p>Mores habent ultra leges nostri cives quosdam peculiares et quosdam peregrinos, quos a finitimis imbiberunt. Siquidem proverbiis Illyricis utuntur, quae nos dicteria <note place="margin">dicteria</note> diximus et ex lingua vernacula in
+                
+                <milestone unit="page" n="52"/>
+                
+                Latinum vertimus cum Iacobo Naupleo, <note place="margin">Iacobus Naupleus</note> viro docto et diserto. Illis namque nec leges Solonis <note place="margin">Solo</note> nec Numae Pompilii <note place="margin">Numa</note> excogitationes nec ipsa Picthagorica <note place="margin">Pictagoras</note> praecepta videntur acutiora.</p>
+                <p>Mulieres praeterea in funerum luctibus reboant nenias <note place="margin">neniae</note> constantium animos virorum percutientes et ad lachrymam excitantes, ferventiores quidem fletibus Thetidis <note place="margin">Thetis</note> et matris Euriali, (20) <note place="margin">Eurialus</note> quos in filiorum perditionibus barbaro ululatu emittebant. Et in nuptiarum die choreas ducentes quaedam cantant epithalamia, <note place="margin">epithalamia</note> qualia nec Catullus <note place="margin">Catullus</note> nec Claudianus <note place="margin">Claudianus</note> cecinisse fuit auditus. Petulans deinde iuventus cupidinibusque capta voce valens amatorium carmen <note place="margin">amatorium carmen</note> tale noctu decantat, quale vix cultus Tibullus <note place="margin">Tibullus</note> aut blandus Propertius <note place="margin">Propertius</note> aut lascivus Lichoridis Gallus <note place="margin">dicteria</note> aut Lesbya Sappho <note place="margin">Sappho</note> decantaret. Et molam vertentes pro conficiendo oleo meditantur eglogas <note place="margin">egloga</note> alternas diceresque Dametam et Menalcam coram Palemone modulari. <note place="margin">Palemon</note>
+               </p>
+                    <p>Pro modo praeterea cantilenae in choreis <note place="margin">choreae</note> terram feriunt. Quam rem describens <quote>
+                     <bibl>Galeottus <note place="margin">Galeottus</note> li° De homine</bibl> sic loquitur: Apud Sclavinos <note place="margin">Sclavini</note> nunc in usu est modus ille antiquorum. Nam cum staticulos in chorea fecerunt, omnes uno eodemque tempore terram pede pulsant. Cuius saltationis meminit <quote>
+                        <bibl>Horatius <note place="margin">Horatius</note> I. carm.:</bibl> (21) Alterno terram quatiunt pede.</quote>
+                  </quote>
+               </p>
+                
+                <milestone unit="page" n="54"/>
+                
+                <p>Haec ille. Et miror, qua ratione Galeottus Illyricos dixerit Sclavinos, cum accolae Savi fluminis in Illyrico Savini dici debeant. <quote>
+                     <bibl>Nec satisfecit Galeottus Georgio Merulae id obicienti.</bibl> Me, inquit, vocas audacem, quod Sclavinos pro Dalmatis vel Liburnis dixerim: rideo aeternumque ridebo tui hebetudinem <note place="foot">g) corr. ex: hebitudinem</note> Nescis, Georgi, Sclavinos ex Scythia venisse et haec loca occupasse.</quote> Hactenus Galeottus contra Merulam, quod minime est cordi.</p>
+                <p>Et, ut in Saturnalibus <note place="margin">Saturnalia</note> Romanorum pueri nucibus et viri alea ludebant xeniaque <note place="margin">xenia</note> ferebant et apophoreta <note place="margin">apophoreta</note> referebant, sic moris est in civitate Sibenici celeberrimo Natalis domini festo, eo quidem mense, quo illi inter Saturnalia, nostri intra Christi Natalia, dempto errore gentilitatis, servare. Quocirca <quote>
+                     <bibl>Seneca <note place="margin">Seneca</note> ad Lucilium <note place="foot">h) corr. ex: Lucillum</note> scribit:</bibl> (22) December, inquit, mensis, cum maxime civitas sudat. Ingenti apparatu sonant omnia. Die namque Natalis solennissima festo favens alter in alterius concurrit oscula tamquam obsides pacis salutis tempus advenisse nuncians et pacis auctorem, cuius multum desyderabat universa terra cuiusque pulchritudinem sol et luna mirantur.</quote>
+               </p>
+            </div>
+                
+                <milestone unit="page" n="56"/> 
+                
+            </div>
+        </body>
+        <back>
+            <div type="epilogus">
+                <head>EPILOGUS</head>
+                <p>Habes itaque, Magnifice praetor Antoni Calve, situm Illyriae et civitatis
+                    Sibenici, quae nobis plurimum debet: tibi tamquam patri optimo et praetori
+                    clarissimo, mihi tamquam filio. Accipias huiusmodi nostram lucubraciunculam,
+                    rogo, ut sit mei perpetui erga te monimentum honoris, hac potissimum
+                    anniversaria die, qua ad tui magistratus praeturam foeliciter fuisti ingressus,
+                    quam nos ut faustam dulci memoramus recordatione.</p>
+                <closer>
+                    <salute>Iterum valeat humanitas tua!</salute>
+
+                    <dateline>Sibenici ex aedibus nostris, <date when="1487-05-14">die pridiana Assumptionis beatae
+                        virginis, anno Salutis 1487.</date> Laus Deo.</dateline>
+                </closer>
+            </div>
+            
+            <milestone unit="page" n="58"/>
+        </back>
+    </text>
+</TEI>

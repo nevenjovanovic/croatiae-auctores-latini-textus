@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="marul-mar-dial">
+            <titleStmt>
+                <title>Dialogvs de Hercule a Christicolis superato, versio electronica</title>
+                <author key="marul01">
+                    <name xml:lang="hr">Marulić, Marko</name>
+                    <date>1450-1524</date>
+                </author>
+                <editor>Branimir Glavičić</editor>
+                <respStmt>
+                    <resp>Hanc editionem electronicam curavit</resp>
+                    <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <p>Digitalizat modernog znanstvenog izdanja (1992).
+                </p>
+            </editionStmt>
+            <extent ana="C">Mg:C Verborum 8236</extent>
+            <publicationStmt>
+                <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+                    Hrvatska.  <date when-iso="2009-07">Srpanj 2009</date>.</p>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>
+               <title level="a">M. MARVLI DIALOGVS DE HERCVLE 
+                A CHRISTICOLIS SVPERATO</title> 
+                    <author>Marulić, Marko </author> 
+               <date>1450–1524</date>
+                    <respStmt>
+                  <resp>Edidit</resp> 
+                  <name>Branimir Glavičić</name>
+               </respStmt>, 
+                    <title level="m">Latinska manja djela I</title>
+                    <respStmt>
+                        <resp>Preveo, komentirao, priredio latinski tekst i dodao
+                            kazala 
+                        </resp>
+                        <name>Branimir Glavičić</name>
+                    </respStmt>
+                    <title level="s">Sabrana djela Marka Marulića = Opera omnia</title>
+                    <biblScope>knj. 8</biblScope>
+                    <pubPlace>Split</pubPlace>
+                    <publisher>Književni krug</publisher> 
+                    <date>1992</date>
+                    <edition>2, dotjerano i dopunjeno izdanje.</edition>
+                    <extent>p. 19–138</extent>
+                </bibl>
+         </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+                <date when="1519" period="15xx_1_third">1519-1520</date>
+            </creation>
+         <textClass>
+                <keywords scheme="typus">
+                    <term>prosa</term>
+                </keywords>
+                <keywords scheme="aetas">
+                    <term>Litterae renatae (1400-1600)</term>
+                    <term>Saeculum 16 (1501-1600)</term>
+                    <term>1501-1550</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>prosa oratio - dialogus</term>
+                </keywords>
+            </textClass>
+      </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <name>Luka Špoljarić</name>
+                <date>2012-04-30</date>
+                Novo, unificirano zaglavlje.
+            </change>
+            <change>
+                <date>2011-11-29</date>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                recitaucris &gt; recitaueris.
+                "Herculis acta nunc mihi..." preoblikovano u novu repliku
+            </change>
+            <change>
+                <date>2010-12-02</date>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                perfosspque ispravljeno.
+            </change>
+            <change>
+                <date>2009-07-03</date>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                TEI zaglavlje uređeno prema PhiloLogic obrascu. 
+                Ukonjene suvišne oznake.
+            </change>
+            
+        </revisionDesc>
+        
+        
+    </teiHeader>
+   <text>
+      <front>
+         <div type="prosa-dedicatio"> 
+
+            <milestone unit="page"/>
+            <opener>MARCVS MARVLVS THOMAE NIGRO, SCARDONENSI EPISCOPO, 
+SALVTEM PLVRIMAM DICIT</opener> 
+
+            <p>Audio Te ad episcopalis dignitatis culmen ascendisse. Gaudeo quidem de honore, sed nisi Te 
+satis in omnibus circumspectum nossem, timerem de periculo. Grauius enim elidi necesse est, cui 
+de ęditiore loco ruere contigerit. Te tamen ita officio isto perfuncturum confido, ut adhuc sublimius 
+prouehendus uideri poteris. Interim, ut fauor et gratia Domini nostri, quę Te hactenus comitata est, 
+usque in finem non deserat, opto, et ęternę beatitudinis, quam uotis omnibus concupiscis, faciat 
+participem. 
+</p>
+            <p>
+Erasmi Roterodami libellos, quos misisti, accepi, pietatis eruditionisque plenos nec eloquentię 
+minus. Magna me afficiunt uoluptate legentem. Etenim post diui Hieronymi tempora ad nostram 
+usque ętatem abfuit a theologis nostris excultę orationis lepos. Laudabamus multorum in 
+syllogismis enthimematisque argutias, quorum tamen scripta nemo lectione antiquiorum uel parum 
+delectatus absque tedio legere poterat. At nunc Erasmo autore ipsa ecclesię sanctę structura, quę per 
+istorum simpliciter philosophantium negligentiam pene nuda erat, pristinis reclarescit pigmentis 
+rhetoricisque coloribus linita illustratur. Gaudere igitur et exultare maxime nos decet, quod iam Deo 
+propicio res restitui in integrum coepit. Rursum sacrarum litterarum schola suos habitura est 
+Hieronymos, suos Ambrosios, si modo, qui Erasmum emulari uoluerint, reperientur. Cuius uenustas 
+admodum conscriptiones cum abs Te nuper acceperim, ne omnino ingratus uidear, Herculem, Ioue 
+quondam natum, sed iterum proxima foetura apud nos ęditum, ad Te destinauimus. Quid frontem 
+contrahis? Quid timidus pallescis? Non est, mihi crede, quod timeas. Olim ille multorum uictor fuit, 
+nunc a nostris uictus est. Abs Te etiam uictum intelliges, cum ista, quę mittimus, perlegeris; uictum, 
+inquam, non corporis robore, sed, quod multo magnificentius est, animi uirtute. Porro, ne putes me 
+meas nugas tam expolitis Erasmi opusculis conferri uelle, ingenue fatebor: quoties ea lego, toties, 
+quam multa mihi desunt, disco.</p> 
+         </div>
+      </front>
+      <body>
+        <div type="prosa-dialogus">
+            <milestone unit="page"/>
+            <head>M. MARVLI DIALOGVS DE HERCVLE A CHRISTICOLIS SVPERATO 
+CONLOCVTORES THEOLOGVS ET POETA</head> 
+
+
+            <sp>
+               <speaker>THEOLOGVS:</speaker> 
+               <p>Salue, poeta, Musarum alumne, laurea corona insignite, lyre carminumque cantu 
+Celeberrime!</p> 
+
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Et tu salue atque uale, mysteriorum contemplator atque interpres, optime theologe! 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Quid tu hic solus? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Solos esse oportet, qui egregium aliquid altumque meditantur. Nam in secessu cogitata 
+purius exeunt. Sed te oro, tu quoque huc concędas, ut simul sub umbra platani huius 
+considentes ratiocinemur, donec ęstiuus hic calor mediusque deferuescat dies. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Morem tibi geram, non tam uitandi caloris gratia, quam ut de tua te aliquid 
+interrogem poesi. Quando igitur sub arbore hac consederimus, quęro abs te, quos ex 
+mortalibus prisci poetę tui praecipuis extollunt laudibus quosue maxime mirantur? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Viros illos cantatissimos habent, quos heroas appellant. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Quinam sunt heroes isti? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> 
+                  <note place="margin">(Heroes)</note> Nunc, ut reor, nulli, sed multis ante sęculis aliqui fuisse memorantur, ut Hercules, 
+Iason, Perseus, Diomedes Argiuus, Aiax <sic>Thelemonius</sic>, Meleager Calydonius, Vlixes, 
+Theseus, Achilles, Aeneas et his alii similes. Heroas enim nominarunt uiros fortissimos et 
+supra humanam uim euectos ac semideos. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Quis ergo tibi illorum cęteris omnibus uidetur pręferendus? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> 
+                  <note place="margin">(Hercules)</note> Absque ulla controuersia Hercules ipse, utpote ob res pręclare gestas in deos 
+relatus, opinione eorum, qui olim ante nos in terra uixere. Et quidem plura magisque 
+admiratione digna de illo narrantur quam de ullo alio ex iis, quorum tibi retuli nomina. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Vellem certe abs te audire, quid ille in uita egerit quibusue rebus gestis prę omnibus 
+apparuit commendabilis, ut tantum uirum et ipse admirari discam. Quare rogo, ne sit tibi 
+molestum eas recensere, donec hora magis opportuna aderit hinc abeundi, ut sicut corpus 
+quiete ita et animum relaxemus aliqua non inutili confabulatione neque iniocunda. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Longa est historia, longę ambages, sed summa sequar fastigia rerum, et quę plenius 
+explicare angustia temporis non patitur, summatim perstringam. Hercules, Iouis ex Alcmena 
+filius, Iunoni quidem inuisus, quia de pellice genitus, sed Ioue patre nequaquam indignus, 
+siqua fides habenda est hiis, quę de illo memorantur. <note place="margin">(Dracones)</note> Puer adhuc duos dracones, 
+cuiuis hominum horrendos atque graues, a Iunone ad se perdendum missos, per collum 
+
+<milestone unit="page"/>
+manibus apprehendit fortiusque ac pressius stringendo, quam posse putabatur, strangulauit. 
+<note place="margin">(Eriginus rex)</note> Cum autem adoleuisset, patriam suam Thebas ab Erigini, Myniorum regis, 
+tyrannide liberauit et ipsum pręlio uictum interfecit. Hinc Creon, Thebanorum rex, uirtutem 
+eius atque audaciam demiratus Megaram filiam ei uxorem dedit. Post hęc cum a diis 
+responsum accepisset, si se Euristei, Argiuorum regis, imperio subiicere uellet, quod post 
+multos labores consecuturus esset immortalitatem, tantę pollicitationis perficiendę desyderio 
+flagrans, facturum se recępit, quicquid rex Euristeus sibi faciundum imperasset. Igitur iubente 
+rege duodecim labores maximos fertur exanclasse, pręter illa, quę interim sua sponte, non istis 
+minora neque minus factu ardua difficiliaque cum sua uirtute tum Iouis fauore peregit. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Quo magis memoriter dicta tua teneam, memora, quęso, prius, quę ille iussus egerit, 
+postea, quę iniussus uolensque perpetrasse dicitur. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> 
+                  <note place="margin">(Leo Nemęus I)</note> Euristei mandata sequens, ut Diodorus Siculus, haud parum grauis autor, 
+scriptum nobis rehiquit, Nemęum leonem, qui neque ferro neque ęre neque saxo interfici 
+poterat, brachiorum amplexu grauiter admodum rugientem ad pectus constringens atque anxie 
+coarctans collidensque expirare coegit. Lerneę paludis hydram quinquaginta capitum ac 
+totidem sibillis perstrepentem audacter inuasit. <note place="margin">(Hydra II)</note> Cumque uidisset, quod uno exciso 
+capite duo alia repulularent, face admota urendo illam extinxit. <note place="margin">(Aper <num value="3">III</num>)</note> In Archadia aprum 
+Erymantheum, qui agri illius fructus deuastabat, cum afferre iuberetur, captum humerisque 
+impositum ad Euristeum tulit. In quo deferendo ea difficultas fuit, ut nec supramodum 
+stringendus esset, ne suffocaretur, nec ita laxandus, ut mordere posset. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> O monstrosę robustitatis uirum! 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> 
+                  <note place="margin">(Cerua IV)</note> Audi reliqua, fortasse magis obstupesces. Aeripedem ceruam, pulchritudine 
+conspicuam, aureis cornibus insignem, uiuacissima pernicitate fugacem et quam nulla 
+uelocium canum uis consequi poterat, ingeniosi laquei cuiusdam uenatu captam, ut iussus 
+fuerat, adduxit Euristeo. <note place="margin">(Stymphalides V)</note> Idem Stymphalidas aues in Achaia, quę neque telis 
+neque clamoribus multorum abigi poterant, et cum uolarent, ueluti nubes late effusa cęlum 
+obscurabant, ipse ęreę tabulę graui sonoroque tinnitu perterritas fugauit. Qua quidem in re 
+illum, qui corporis uiribus omnes antecesserat, sagacitate quoque ingenii, quod rarissimum 
+est, pręstare apparuit. <note place="margin">(Augei stabulum VI)</note> Huc accedit, quod Augei, Epiorum siue 
+Elidensium regis, plenum sordium spurciciarumque stabulum purgare iussus, excogitauit, 
+quemadmodum facinus istud non ignominię sibi, sed glorię foret. Pignionis, propinqui 
+fluminis, ut Diodorus ait, aquas ad stabulum illud deriuauit et fluentis lymphę impetu 
+
+<milestone unit="page"/>
+purgatum totum reddidit quodque manibus efficere humile ac seruile erat, aquę ductu 
+peregisse laudi fuit. <note place="margin">(Taurus VII)</note> Taurum, a Pasiphe, Minois coniuge, ob insignem formam 
+adamatum, a Creta ad Peloponessum aduexit Euristeoque obtulit. Sed inter uehendum plurima 
+immensi cuiusdam roboris animique inuicti ędidit argumenta, de quibus postea dicemus, si te 
+iuuabit etiam illa audire. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Tametsi cuncta hęc quidem fabulosa et a priscis uatibus conficta esse rear, patienter 
+tamen te et attente audiam. 
+
+PQETA: Sicut scripta <sic>reperi</sic>, ita narro. Si ficta sunt, illis, quęso, uitio uertas, qui scripsere, non 
+mihi. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Immo etiam tibi, si uera fuisse censes. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Omitte quęrere, sed tantum, si talis fuerit uir ille, qualem ueterum testantur monumenta, 
+quanti ab omnibus ęstimari debuit, perpende. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Age iam cetera suo ordine prosequere! 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Accipe his quidem, quę modo diximus, magis fortia magisque miranda. (Diomedis equi 
+VIII) Vt satis Euristei faceret imperio, Diomedis, Thracum regis, equos, quos ille hospitum 
+carnibus alebat — neque enim minor tyranno sęuitia quam armentis eius ferocitas inerat — 
+captos abduxit, cum iam illum inuadens interemisset proiecissetque iisdem equis laniandum. 
+Aequum est enim, ut, qui aliis mala iniuste inferunt, eadem et ipsi patiantur. Eos autem equos 
+Euristeus, cum sibi pręsentati essent, Iunoni consecrauit. <note place="margin">(Baltheus Hippolites IX)</note> Post hęc 
+iubente rege, ut baltheum, quo Hippolite, Amazonum regina, pręcingebatur, afferret, in 
+Thraciam profectus petiit illum. Et cum negaretur, parua stipatorum manu comitatus ingentem 
+Amazonum exercitum ad Thermodontem fudit plurimisque earum cęsis baltheo est potitus. 
+<note place="margin">(Gerionis boues X)</note> Cum Gerione quoque tergemino senis manibus acriter pugnante in 
+Hyberia conflixit; et uicto atque interempto boum eius greges, quemadmodum iussus fuerat, 
+abegit prędamque omnem suo cęssit regi, nihil sibi reseruans, ut uirum fortem decet, pręter 
+bellicę uirtutis decus atque gloriam. <note place="margin">(Cerberus XI)</note> Aiunt pręterea, si credere dignum est, 
+eundem ad inferos descendisse canemque tricipitem, quem Cerberum uocant, raptum ad 
+superos tulisse, umbris hominibusque terribilem, cuncta Cociti loca latratu replere solitum et 
+tunc quidem magis quam unquam antea in rabiem uersum atque ringentem. Quis facere hoc 
+auderet aut, si auderet, posset, nisi cui diuina inesset uirtus firmitasque animi humana maior? 
+<note place="margin">(Mala Hesperidum XII)</note> Postremus labor fuit, ab Euristeo illi iniunctus, quando in Lybiam 
+profectus adiit fulgentes auro Hesperidum hortos. Hę sorores tres erant Athlantis filię uel, ut 
+
+<milestone unit="page"/>
+alii aiunt, Hesperi, eius fratris. Nemini locum adire tutum erat, peruigili dracone et supra 
+quam quisquam credere potest immani aditum horti seruante. At iste Iouis filius nullius 
+unquam monstri feritate conterritus, interempto dracone mala inde aurea de tam felici silua 
+decerpta secum asportauit et ad Argiuos usque delata donauit Euristeo. Laudis enim, non auri 
+cupidum esse oportet, qui ad immortalitatem aspirat. Hęc sunt, quę gessisse fertur Hercules, 
+heroum pręcipuus, Euristei mandatis parens. Quę autem nemine iubente uir ad ęternitatem 
+genitus peregerit, his etiam plura sunt neque fama minus celebrata. Ea sane, nisi te audire 
+piget, me non pigebit referre. Cum enim poetam me profitear, mea interest heroum gesta 
+concinere. Suos alii cantent amores et impudicis eloquiis paginas impleant, me magis delectat 
+ducum regumque facta suspicere, quorum gloriam nulla tacebit posteritas, nulla delebit 
+obliuio. Sed te nescio cui cogitationi intentum admodum uideo; ita suspensa fronte nihil 
+adhuc respondes. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> De his profecto, quę abs te hactenus dicta sunt, meditabar. Ea mihi quidem, ut 
+concedam uera fuisse, mira prętermodum stupendaque uidentur, non tamen tam multi neque 
+tam magni, ut tu censes, ęstimanda. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Serione an ioco istud abs te audio? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Scies postea. Interim his, quę dixisti, addas oro et illa, quę 
+restant. Nam ubi cuncta 
+herois huius gesta recitaueris, quid de ipsis ego sentiam, disces. Coeptum ergo sermonem 
+prosequere! 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Prosequar certe, et eo quidem lubentius, quod sciam te non nisi de omnibus recte 
+sensurum. Quando quidem illam profiteris doctrinam, quę de rebus pertractat diuinis et 
+cęlestis arcani abdita rimatur, nisi frustra theologum te uocant. Theologi enim proprium est 
+uerum uestigare et, cum inuestigauerit, docere. Hic igitur Ioue natus, haud contentus 
+tantummodo imperata facere, fecit etiam quę non imperabantur, ut magis cęlo dignus 
+appareret. Cęterum, ne tempus terendo iter nostrum remoremur, quę a poetis latissime 
+digeruntur, quam breuius potero, perstringam. <note place="margin">(Ludi Olympici)</note> Hercules cum tauro Pasiphes 
+ad Euristeum reuersus ludos Olympicos instituit, ne suę prouincię homines ocio torperent, sed 
+potius in uirtutis certamine uarie exercerentur. Vtque ubique inuictus esset, a diis dona fertur 
+accepisse: a Pallade peplum, <note place="margin">(Arma)</note> a Vulcano clauam et thoracem, a Neptuno equos, a 
+Mercurio ensem, ab Apolline <sic>sagitas</sic> atque arcum. <note place="margin">(Gygantes)</note> His armis munitus cum 
+Gygantibus, uasta atque ardua proceritate uiris ad Palenen certauit, cum illi aduersus Iouem 
+pręliarentur. <note place="margin">(Prometheus)</note> Prometheum in Caucaso ferreis nexibus uinctum et aquilę iecur 
+
+<milestone unit="page"/>
+eius lacerantis feritati subiectum, eo quod ignem de cęlo furto sublatum hominibus in terra 
+detulisset, miseratus utraque calamitate liberauit, quasi hominum benefactorem. In Lybiam 
+aduersus Geryonem profectus, <note place="margin">(Antheus)</note> Antheum Gygantem ad palestrę certamen 
+prouocatus cum deiectum humi afflixisset et ex eo fortiorem fuisset expertus, terra matre uires 
+ei suppeditante, medium arripuit et neruosis fortibusque ulnis in sublime elatum non permisit 
+solum contingere, donec inter brachia ui multa compressum languescente paulatim anhelitu 
+deficere compulit. <note place="margin">(Busyris)</note> In Aegypto atrocissimum Busyridem tyrannum, hospites 
+interficere solitum, cęde mulctauit, ut alios a periculo liberos redderet. <note place="margin">(Columnę)</note> Ad Gades 
+duas columnas posuit direptisque rupibus Oceanum in mediam terram ad usum induxit 
+hominum nauigantiumque maximum emolumentum. <note place="margin">(Chrysauri filii)</note> In Hispania Chrysauri 
+regis tris filios pręlio superatos sua manu interfecit. Inde uicto Geryone cum armentis eius 
+rediens ad Cumas cum Gygantibus congressus uicit. <note place="margin">(Sicani)</note> In Sicilia Ericem, Butę filium, 
+Sicilię regem, multorum ante uictorem cestibus pugnantem superauit Sicanosque bellando do 
+muit. Per Latium cum Geryonaceo grege transiens, <note place="margin">(Cacus)</note> Cacum, Vulcani filium, qui 
+aliquot de illius armento boues furto auerterat, in specu uasto atque horrendo montis Auentini 
+latentem reperit. Et cum ille flammis ab ore profusis, longe promicantibus scintillantibusque 
+et horrificum spirantibus stridorem se defenderet, saxis molaribus ter quaterque petitum 
+interemit. Ita et quod amiserat recuperauit et regionem illam a latrociniis rapacissimi hominis 
+reddidit securam. In Gallia cum Labione et Bergione, <note place="margin">(Neptunni filii)</note> Neptunni liberis, 
+<sic>dimicaut</sic>. Vbi autem inter pugnandum tela sibi deficere uidit, Ioue patre inuocato adiutus 
+est. Continuo enim lapidum imber ex alto ruens descendit, quibus lapidibus strenue, acriter 
+alacriterque dimicans uictoria est potitus. Etiamnum lapidum littus appellant, ubi hoc 
+contigisse ferunt, uereque illic lapidibus pluisse cernentibus apparet; adeo multi lapidum 
+acerui passim iacent. <note place="margin">(Centauri)</note> In Thessalia Centauros, Ixionis et Nubis prolem, uiros 
+semiequos inuadens uicit, manibus calcibusque frustra repugnantes. Pro Deianirę, Oenei filię, 
+<note place="margin">(Achelous)</note> coniugio cum Acheloo, Acharnanię flumine, primo in serpentem, deinde in 
+taurum mutato luctatus uicit. Eo humi prostrato alterum cornu dexterę ui auulsit. Quod 
+Naiades nymphę uariis agrestium fructuum diuitiis repletum Copię deę dedicarunt. Ille uictor 
+Deianiram formę uenustate imprimis decoram sibi copulauit. Cum illa profectus, postquam 
+fluuium traiicere necesse esset, <note place="margin">(Nessus)</note> Nesso Centauro ferendam commisit. Nessus autem 
+translatę puellę uim inferre uolens, Herculis sagitta confixus periit. Atque ita uir omnium 
+strenuissimus coniugem suam ab <sic>iniuira</sic> Centauri nihil cunctatus erruit, illęsamque 
+
+<milestone unit="page"/>
+seruauit. <note place="margin">(Neleus)</note> Neleum, Pyliorum regem, regno fortunisque omnibus expulit, ita ut de 
+duodecim fratribus, quos occidit, Neleus unus superesset. 
+<note place="margin">(Euritus)</note> Euritus Oechalię rex fuit. Oechalia Laconię prouincię pars est Thessalię proxima, ab 
+Oechalio fluuio, qui eam pręterfluit, sic denominata. Is, cum Iolen filiam Herculi 
+despondisset, a filiis dissuasus tradere noluit. Hoc Hercules indigne iracundeque <corr resp="#NJ">ferens</corr>, 
+ipsum et liberos eius internicione deleuit et Iolen raptam atque ablatam ardenter medulitusque 
+amauit. <note place="margin">(Troia)</note> Troiam quoque quondam fertur expugnasse, quod testatus est poetarum 
+princeps Vergilius dicens: Vt bello egregias olim euerterit urbes, Troiam Oechaliamque. 
+Nescio an quicquam aliud a poetis de illo relatum habeamus, nisi quod Nessi dolis tunicam 
+<note place="margin">(Herculis mors)</note> Lerneo ueneno infectam induerit et, cum se moriturum cerneret, Lycam 
+puerum, qui eam mali nescius attulerat, in mare et se ipsum in ardentem rogum iactarit atque 
+ita consumpto corpore ad deos profectus sit. Habes igitur et quod iussus ille et quod iniussus 
+egregie, prudenter, strenue, fortiter, alacriter ac supra quam cuiquam credibile sit, prospere 
+feliciterque gessisse memoratur. Tuę nunc partes sunt docere, ut pollicitus es, ista omnia non 
+tam multi neque magni facienda esse, quanti a me ęstimantur. Pręclara enim et miraculorum 
+plena arbitror neque adduci queo, ut rear contraria cuiusquam dissertatione extenuari posse ac 
+diminui, ne tanta uideantur. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Non eo inficias ea quidem hominum admiratione digna esse et omnium heroicorum 
+gestorum maxima. Sed quid dices, quid respondebis, si tibi nostris temporibus fortiora, 
+excelentiora, magnificentiora his omnibus agi gerique ostendere? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Fama hoc profecto prius quam tu ostenderet, si res ita, ut dicis, sese haberet. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Quid, si tu ipse, cum me audieris, ita esse fateri incipies? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Tum omni monstro res ista monstrosior mihi uidebitur, ut, quod a nemine unquam 
+audierim, abs te nunc auditurus sim. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Quid multis opus est? Iam uerba ad rem conferamus! Tantum, ut interrogatus 
+rationi consentanea respondeas, uolo. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Stulti est et non mentis compotis a ratione dissentire uelle. Itaque, quicquid rationabiliter 
+abs te dictum edissertumque perspexero, certum est annuere atque approbare et apertę 
+cognitęque ueritati nullo modo contradicere. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Gaudeo certe et exulto, quod ita habeas in animo tuo constitutum. Sic enim spero 
+tibi facile persuasum iri, quod proposui. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Age iam quod uis dicere incipe! Ego quidem et dicta excipere paratus sum et tibi 
+
+<milestone unit="page"/>
+interroganti ingenue respondere nihilque, quod nosse potero, dissimulare. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Decet sane ita paratum esse eum, qui uera cupit discere. Primum quęro abs te, Dei 
+an hominum iudicia pluris sint habenda. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Dei profecto. Cui enim istud dubium esse potest, nisi quis Diagorę, qui atheos est dictus, 
+errorem sequens Deum omnino esse neget. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Nempe, quia homines errare possunt, in sole Deo cadere error non potest. Nunc 
+uidendum, quęnam hominum facta laudabiliora tibi uideantur, quę Deus probat, cuius iudicia 
+non errant, an quę homines, qui persępe falluntur? Nonne illa quę probat Deus? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Certe, quę Deus. Primo quippe concesso, necessarie id sequitur. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Sed ex his, quę Deo teste probantur, nonne alia magis, alia minus laudanda? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Ita mihi quidem uidetur. Neque enim illis assentior, qui omnes uirtutes pares esse dixerunt. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Qua autem ratione discrimen istud nobis constabit? Nonne dicendum illis plus 
+laudis deberi, quibus plus proponitur pręmii ab ipso bonorum omnium ęstimatore ac 
+remuneratore, Deo? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Neque id plane negari ullo modo potest. Iniquus enim arbiter munerumque dispensator 
+esset ille, qui minus merenti plus concederet. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Videtur tamen illa Euangelii autoritas huic assertioni nostrę nonnihil obstare, ubi 
+singuli operarii unum <sic>denerium</sic> accipiunt, tam primi qui tota die in uinea patrisfamilias 
+laborarunt, quam nouissimi qui postmeridiana hora uocati minus operis exhibuerunt. Sed cum 
+parabola illa iis prędicetur, qui ecclesiam Dei ędificant pie recteque uiuendo, denarius ęque 
+singulis datus non merita respicit, sed boni nunquam finiendi ęternitatem. Nam in cęlesti 
+patria aliud quidem minus pręmium, aliud maius habetur, omnium tamen pręmia nullo fine 
+claudentur, nullis unquam temporibus deficient. Vel si denarium hunc beatitudinem 
+interpretari uolumus, tam illis datur qui in iuuenta quam qui in senectute ad Deum conuersi 
+fuerint. Omnibus pariter dictum est: Poenitentiam agite, et appropinquabit regnum cęlorum. 
+Nihil ergo parabolę huius sententia nostro officit argumento, quo dicimus eam magis 
+commendandam esse uirtutem, cui ex arbitratu diuino plus proponitur pręmii. Nunquid secus 
+ipse sentis? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Nequaquam, immo nihil rationi magis congruum atque conueniens esse reor. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Cęterum, cum te Christianum esse noueram, non dubito, quin scripturis <sic>diuinis</sic> 
+nobis datis plus fidei pręstes quam illorum fatuitati, qui non unum Deum esse arbitrati sunt, 
+sed plurimos, quibus ne ipsi quidem gentiles philosophi assentire poterant, cum omnium, quę 
+
+
+<milestone unit="page"/>
+sunt, unum principium esse oportere deffinirent. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Christianum quidem me esse non diffiteor, et diuinę scripturę autoritati spondeo me 
+nequaquam refragaturum. Nisi enim ei crederem, Christianus non essem. Nec ob hoc tamen 
+mihi interdictum puto, ne priscorum magnifice gesta uirtutemque mirer. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Et nos quidem, qui theologiam profitemur, non minus quam tu, qui poeta es, 
+quęcunque a queuis homine laudabiliter facta fuisse constat, probamus, prędicamus et dignis 
+prosequimur pręconiis. Porro, cum inter nos conueniat Dei iudicium hominum iudicio pręferri 
+oportere et maiorem esse uirtutem, cui maior promittitur merces, et plus diuinis quam 
+humanis scripturis fidei habendum, restat, ut Herculis tui, quem tantopere miraris quique 
+heroum maximus fuit, gesta diligenter excutiamus. Ea <sic>singilatim</sic> explicando ostendam 
+tibi nostri temporis homines, qui Christi religionem profitentur, Herculem ipsum, qui omnes 
+superabat, superasse. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Impossibile monstratu hoc mihi uidetur, quando quidem experimento discimus posterioris 
+sęculi homines semper imbecilliores nasci et senescente mundo corporum quoque sensibilium 
+naturam degenerare, hebescere ac prorsus minui. Minus uiuimus, minus animi, minus ingenii, 
+minus uigoris roborisque habemus quam, qui olim pręcesserunt, habuisse memorantur. Et tu 
+nostri temporis homines antiqui sęculi hominibus anteferre uel ęquare contendes? Dixisses 
+saltem de illa ętate, in qua Sansonem uixisse constat, qui et ipse leonem correptum manibus 
+enecasse dicitur et asini maxilla unus mille occidisse uires et alia, quę de illo sacra indicat 
+historia. Dic, quęso, ubi nunc aliquem inuenies tanta uirium firmitate, tanta animi 
+magnitudine pręditum, ut uel Herculi uel Sansoni ipsi comparandus sit? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Ego sane tibi non dico prisci, sed pręsentis ęui uiros ostendam, si audiendi 
+patientiam mihi pręstiteris, fortiores, pręstantiores, clariores, laudabiliores his quos 
+commemoras, nedum pares. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Gestio id quidem audire. Incipe iam! Attentum habebis docilemque auditorem. 
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLQGVS:</speaker>
+               <p> Herculis acta nunc mihi rite atque ordine sunt digerenda et cum nostris conferenda, 
+ut, utra alteris pręstent, cognoscamus. De Sansone autem alias uidebimus, si uidere opus 
+fuerit. <note place="margin">(Dracones)</note> Igitur, antequam ad Euristei iussa peruentum est, dixisti duos dracones a 
+Iunone ad Herculem adhuc puerum destinatos fuisse, quos ille ceruicibus pugno constrictis 
+extinxit. Quanuis a poetis plurima fingantur, sub quibus alegoriam latere uolunt siue naturę 
+siue morum siue etiam adumbratę circa rem gestam significationis. Propterea quidem Herculis 
+pueritiam integre ętatis initium possumus intelligere, in qua sentire incipimus pugnam carnis 
+
+<milestone unit="page"/>
+et diaboli aduersus spiritum, dum ei dominari atque imperare moliuntur. Et quoniam horum 
+tentamenta uincere, in ea pręsertim ętate, quę ad hauriendas uoluptates est procliuior, multa 
+constantis firmique animi fortitudine opus est, ideo Herculi hec tribuitur, Iouis, ut aiunt, filio, 
+ueluti uiro uirtutis magis quam uoluptatis studioso. Sed concedamus cuncta, quę de illo 
+feruntur, uera esse nihilque in his fabulosum haberi, dic, quęso, quęnam uirtus sit dracones 
+interimere, si eorum interemptoribus nullum ab ipso uirtutum remuneratore, Deo, pręmium 
+proponitur? <note place="margin">(Paulus apostolus)</note> Viperam Paulus apostolus, quę 
+manum eius mordicus 
+apprehenderat, in ignem excussit neque de hoc gloriatur, tanquam pro eo mercedem 
+accepturus. De illo autem gloriatus est, de quo gestiens et exultans ait se fidem seruasse usque 
+ad pręsentis uitę consumatienem et propterea sibi repositam esse in cęlo iustitię coronam. 
+Cum illo igitur dracone nobis pugnandum est, qui non corpora, sed animas perdere conatur. 
+Neque carnem nobis dominari sinamus, sed spiritum. <note place="margin">(Iacobus apostolus)</note> Si pugnam istam 
+uicerimus, promissa nobis a Domino bona capiemus, dicente Iacobo apostolo: Beatus uir, qui 
+suffert tentationem, quoniam, cum probatus fuerit, accipiet coronam uitę, quam reddet 
+Dominus diligentibus se. Restat, ut uera uirtus sit compescere carnales affectus, prauis 
+cupidinibus obuiam ire, diabolo resistere et non pugnorum ui lacertorumque ualentia dracones 
+necare. <note place="margin">(Eriginus tyrannus)</note> Sed Thebas, inquis, patriam suam, Erigini regis tyrannide 
+oppressam in libertatem uindicauit. Si pro amore illorum, qui iniuste oppressi sunt, id agitur, 
+pietatis uirtus est, qua Deum promeremur. Sin uero laudis humanę gratia hoc fit, hominum, 
+non Dei recipimus mercedem, reprehendendi magis quam commendandi, qui terrenę glorię 
+cęlestem postponere non dubitamus. Ad hęc longe satius est animas de manu diaboli erruere, 
+quod nostri faciunt prędicatores, quam corpora iugo humanę seruitutis oppressa liberare, quod 
+Herculem autumant egisse. Si quidem illis ipsis, quos sibi comites elegerat Christus, Dominus 
+noster, ut uiam ueritatis gentes docerent, iniunxit, ostendens eum, qui hoc officio fungitur, 
+multam quidem non in terrena, sed in cęlesti patria recepturum mercedem. Ait enim: Qui 
+fecerit et docuerit sic, magnus uocabitur in regno cęlorum. Cum ergo multo pręstantius sit 
+exhortando, monendo, docendo peccatorem de diaboli tyrannide liberare quam tyrannum 
+occidere, nonne hac etiam in parte a nostris uincitur Hercules tuus atque superatur? Ad illa 
+nunc, quę Euristeo iubente gessisse traditur, disserenda accedamus, quę numero duodeno a 
+uobis censentur. <note place="margin">(Leo Nemęus)</note> Nemęum leonem non ferro, sed manibus interfecit. Interfecit 
+autem leonem, ut ipse non negas, et Sanson noster Sansoneque minus robustus Dauid. Neque 
+tamen corporis uires a nobis exigit Dominus, sed animi in capessendis uirtutibus stabilitatem 
+
+<milestone unit="page"/>
+atque constantiam. Cole iustitiam, pietatem serua, Deum obsequio promerere, indigenti 
+succurre, miserum subleua, hęc ut agamus, lex diuina iubet, non ut cum leonibus aut aliis feris 
+belluis colluctemur. Lucta nobis assidua est cum diabolo. Ipse etiam tanquam leo rugiens 
+circuit quęrens, quem deuoret. Cui resistite , inquit apostolus, fortes in fide! Non dixit: 
+fortes in corpore, quia corporeę fortitudinis ui non uincitur diabolus, sed fidei uirtute 
+superatur. Hęc est enim uictoria, quę uincit mundum, fides nostra. Fatere igitur plus esse 
+summi Dei iussis legibusque parendo fidem seruare quam Euristeo imperante leonem 
+interfecisse. Disce tamen leonem, superbissimum animal, deiicere nihil aliud esse quam 
+arrogantiam et mentis elationem humilitate prosternere. Scriptum est autem: Superbis Deus 
+resistit, humilibus dat gratiam. <sic>Illli</sic> ergo, quibus dat gratiam, nonne pluris habendi sunt 
+quam hi, quibus resistit. <note place="margin">(Hydra)</note> At Hercules, inquis, terribilem etiam Lerneę paludis hydram, 
+quę quinquaginta capita habens ferro occidi non poterat, pluribus repululantibus una ceruice 
+recisa, igne admoto consumpsit. Magnum sane facinus et omni admiratione dignum, quod 
+igneus ille feruor, qui ligna et lapides in cinerem redigit, serpentem potuerit urendo necare! 
+Quid sit autem hydram tot capitibus sęuientem conficere, audi. Compesce in corde gliscentem 
+iracundię furorem! Nisi irasci desieris, nisi a contentione procul recesseris, multiplicabuntur 
+contumelię, plurima emergere incipient conuitia. Face autem admota rationis, qua mens 
+illuminatur et instruitur ad bonum malumque discernendum, rixa protinus animique indignatio 
+sedatur et extinguitur. Denique aut tacendo irę motum coerce aut ab eo, qui tibi calumniatur, 
+te amoliendo tempera aut molli mitique responso furentem placare stude, et hydram 
+interemisti multoque plus laudis ac remunerationis apud Deum inuenies quam apud Euristeum 
+Hercules. Neque enim monstrorum domitoribus cęlum promittitur, sed uitiorum. Quid 
+pręterea hic heros tuus? <note place="margin">(Aper)</note> Aprum Archadicum cuncta in agro uastantem comprehendere 
+iussus captum Euristeo obtulit uiuum. Mirum id quidem rudi popello uidetur, sed sapientię 
+disciplina instructi uiri nihil satis magnificum iudicant ex his, quę nobis cum bestiis sunt 
+communia. Robur, pernicitas, agilitas, forma bonum corporis sunt, in quo a brutis uincimur. 
+Animi uero bonum proprium hominis est. In hoc excellere pręclarum esse dicimus, id est, 
+sapientia, scientia, iustitia, modestia aliisque mentis atque animi bonis. Si uis ergo Herculis 
+aprum superantis gloriam tibi uendicare, immo illo maior apud Deum apparere, inconcessę 
+libidinis foeditatem caue! Hoc enim uitium non immerito apris est comparandum, quos in 
+uolutabro luti tota die iacere delectat. Tales ergo sunt illi, qui prostibuli inquinantur spurciciis. 
+De quibus dicitur: Computruerunt iumenta in stercore suo. Tu uero, si obscenę pruriginis 
+
+<milestone unit="page"/>
+impetum ferre nequeas, duc uxorem et legitimo matrimonio uetitę Veneris crimen exclude. 
+Scias tamen, quod, qui in matrimonio uiuunt, hi aprum morsibus eius adhuc obnoxii uiuum 
+portant. Qui autem castitatem profitentur seque ab immunditia carnis continent, hi lutulentam 
+bestiam, turpem uoluptatem in se penitus interimunt, et seruando pudiciciam Hercule ipso 
+fortiores sunt. Fortior est enim, qui carnis lasciuientis uiolentiam continentię uirtute calcat 
+quam qui uirium magnitudine aprum superat. Post hęc, ut non robustum modo uerum etiam 
+prudentis admodum ingenii eum fuisse monstrares, <note place="margin">(Cerua)</note> ęripedem ceruam, aurea cornua 
+pręferentem ab eo laqueis captam memoras. Perinde ac si alii uenatores nesciant omnino uel 
+laqueis captare feras uel fallere uisco. <note place="margin">(Aues Stymphalides)</note> Stymphalidas quoque aues 
+strepitu ac fragore repulisse, quanta, putas, animi solertia fuerit, cum uideamus hoc ipsum 
+qualibet ęstate a frugum custodibus factitari? <note place="margin">(Stabulum)</note> Stabulum denique a spurciciis non 
+manu, sed aquis purgatum, quale inuenti huius acumen fuisse dixerim, quando quidem nemo 
+est, qui nesciat mapparum quoque aliorumque utensilium squalorem aquis elui? Si tamen ista 
+non mediocris, sed prope singularis argumenta solertię fuisse putas, accipe, qua ratione a 
+nostris, quam egregie talia cuncta superantur. Ille ceruę pernicitatem laqueis impediuit et ea 
+capta auro est potitus. Nostri uero, qui Deo seruiunt, fugitiuum tempus effluere socordia atque 
+desidia non sinunt, quotidie aliquid operis exercentes, pro quo mercedem se accepturos 
+confidunt, omni auro preciosiorem. Ille ęris crepitu auium agmina fugauit. Nostri psalmorum 
+cantu precumque susurris malarum cupidinum irritamenta propellunt. Ille aquis pungauit 
+stabuli coenum. Nostri animę maculas poenitentię fletu diluere contendunt, cum sciant non 
+nisi puros mundosque et omni malicię labe defecatos cęlestem aulam ingredi posse. Hęc sunt, 
+quę Deum propiciant quęque immortalitatis beatę pręmio compensantur. Ecce igitur, qualiter 
+iste heros tuus omnium maximus prę illis, qui in Christo credunt, non modo non 
+commendandus appareat uerum etiam contemnendus. Illud autem, quod taurum, cuius amore 
+Pasiphe capta fuerat, a Creta ad Peloponessum aduexerit obtuleritque Euristeo, si rem spectes, 
+nihil est, quod magnopere laudes, sin rei mysterium inspicias, haud parum id quidem iuuabit 
+ad uitę morumque institutionem. Tale autem commodum ut sequatur, ita interpretari nobis 
+conueniet: taurum uidelicet corpus nostrum esse, Pasiphen animam, Herculem rationem, 
+Euristeum Deum. Corpus suum anima nostra tunc nimium diligere uidetur, cum eidem in 
+hauriendis uoluptatibus prone propenseque blanditur. Ratio autem Euristei, hoc est, Dei iussis 
+obtemperans, transferre nititur corpus nostrum de uitio ad uirtutem, sicut taurus iste de Creta 
+transuectus est ad Peloponessum. Cumque de male ad bonum transitum fecerimus, tunc recte 
+
+<milestone unit="page"/>
+nos ipsos offerimus Deo, quemadmodum Hercules cum tauro obtulisse se dicitur Euristeo. 
+Sed hoc fidelis Christiani est, Dei pręcepta obseruantis, non Herculis ex hominis mortalis 
+iussione pendentis. <note place="margin">(Equi Diomedis)</note> At Hercules, inquiunt, Diomedis equos tulit, quos ille 
+carnibus alebat humanis et ipsis eundem, ut comederetur, obiecit. Hos autem equos Euristeus 
+cum accepisset, dedicauit Iunoni. Sed ne putes propterea nostris pręferendum esse Herculem, 
+hec idem etiam Christiani principes agunt, dicente Domino: Maleficos ne patiaris uiuere! At 
+uero, si ista, quę narrantur, spiritaliter intelligere uolumus, multo plus laudis fideli Christiano 
+quam Herculi tuo dabimus. Hercules occidit Diomedem, hic quotidie perniciosas interimit 
+cupidines non consentiens carni, sed spiritui. Hercules Diomedem mandendum apposuit equis 
+illis, quibus humana caro cibus erat, hic malorum demonum, qui semper hominibus infesti 
+sunt, mortiferam suggestionem repellendo omnem fraudem ad fraudis fallacięque autores 
+demonas reuerti cogit. Euristeus uero Diomedis equos Iunoni tunc dedicat, cum misericors 
+Dominus ipsos nequitię spiritus, ne seruis suis tantopere molesti sint, ad caliginosas aeris 
+partes, unde uenerant, remeare iubet. Iunonem quippe pro aere accipimus. Vide igitur, utrum 
+Diomedem interimere et equos cruore eius pastos regi tradere plus habeat laudis, an prauis 
+affectibus refragari et demonum ad uitia trahentium dolos insidiasque superare uirtutisque 
+gloriam non ante homines, sed coram Deo ponere. <note place="margin">(Baltheus Hippolites)</note> Illud pręterea, quod 
+uictis Amazonibus Hippolites baltheum rapuerit, nunquid tu putas forti uiro conuenire, ut cum 
+foeminis bello decernat? An non uidemus uiros ipso corporis robore foeminis semper 
+pręstitisse? An non plures expugnata urbe ciuibusque cęsis, foeminis atque pueris parcitum 
+fuisse legimus, ut pote sexui ętatique imbecilli et infirmę? Attende igitur, quanto dignius 
+laudabiliusque baltheo isto nostri utantur. Nouam nuptam baltheo Veneris, quem ceston 
+appellant, cingi mos fuit. Ille igitur uictis Amazonibus baltheo spoliat Hippoliten, qui 
+superatis inconcessę libidinis obscenitatibus <sic>meretricique</sic> amoris uinculo soluto honestis 
+legitimisque nuptiis uxorem sibi copulat et procreandę proli cum pudicicię fide operam 
+impendit. Atque hoc sane non Euristeo, sed Deo seruire est matrimonio diuina lege constituto 
+modeste ac temperanter frui et de Euangelio sati seminis fructum carpere trigesimum. Si ergo 
+in matrimonio honeste, pudenter pudiceque uixeris, a Domino accipies mercedem, qualem 
+nunquam Hercules recepisse creditur ab Euristeo, nisi eo forte tempore, ut ab aliis audiui et tu 
+subticuisti, quando in Lydia in Omphales gratiam muliebrem operam exibuit, posita claua 
+colum fusumque suscipiendo et manu illa, qua monstra domuerat, molliter effoeminateque 
+nendo. Sed si parum fuerit, dicet aliquis, foeminas pręlio uicisse, Geryona etiam tergeminum 
+
+<milestone unit="page"/>
+uicit Hercules in Hiberia. <note place="margin">(Boues Geryonis)</note> Quo interfecto boum eius armentis potitus est et 
+in Gręciam rediens prędam donauit regi. At tamen multo magis illi Deo placent, qui se ipsos 
+uincunt quam qui hostes superant. Nostri igitur, qui cęlesti regi gratificari cupiunt, malas de 
+corde cogitationes expellunt, linguam a contumelię iniuria cohibent, manibus neminem 
+offendendo temperant. Et his trium actionum passionibus imperare plus est profecto quam 
+tricorporeum hominem occidere. Plus est etiam a malis abstinendo bene agere quam buceta, 
+quę aliorum erant, sibi uendicare. Et quoniam boues, quorum labore fruges comedimus, 
+Hercules largitus est Euristeo, nostri hoc imitari mihi uidentur, quando bonarum actionum 
+laudem non sibi, sed Deo tribuunt, cum psalmista dicentes: <q>Non nobis, Domine, non nobis, 
+sed nomini tuo da gloriam!</q> 
+                  <note place="margin">(Cerberus)</note> Pręter hęc, ad inferos descendere et Cerberum 
+tricipitem superne eductum hominibus ostendere, totum hoc fabulosum est et melius atque 
+uerius a nostris quam ab Hercule obseruatum. Quid est enim ad inferos descendere nisi 
+damnatorum supplicia nunquam finienda consyderare? Quid est trifaucem Cerberum de 
+<sic>baratro</sic> tractum hominibus pręsentare nisi uictis diaboli tentationibus bene uiuendo aliis 
+documento esse, ut ad bonum disponantur et de uitio transmigrent ad uirtutem? Trium autem 
+faucium est Cerberus, quia diabolus tribus nos subuertere nititur modis. Aut enim suadendo 
+aut blandiendo aut terrendo fallit. Cerberum ergo ligauit Hercules tuus, o poeta. Nostri, quod 
+maius est, diabolum ipsum ligant et, qualiter ligandus sit, uita et moribus docent. <note place="margin">(Mala aurea)</note> 
+Postremus labor Herculis tui Euristeo iubente fuit, si satis memini, mala aurea ab Hesperidum 
+hortis ablata, peruigili dracone occiso, qui talium fructuum custos erat. Custodes autem fallere 
+et aliena rapere apud nos crimen est, non uirtus. Iussit, inquies, Euristeus, cui parendum erat. 
+Sed maximum nefas est homini obsequendo Deum offendere. Diuina autem lex est: Ne 
+concupiscas rem proximi tui! Et si iniuste concupiscere culpa est, quanto maius peccatum 
+male concupita per uim eripere? A tanto igitur talique facinore Christi seruus abhorrens, suo 
+contentus est abstinens alieno. Hercules ille tuus dracone perempto Hesperidum hortos auro 
+spoliauit. Hic uero tantum abest, ut aliorum bona tollat, ut etiam iis, qui indigent, sua 
+largiatur. Non enim terrenas opes concupiscit, sed cęlestes. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Da ueniam, non possum, quin te hoc loco interpellem. Nonne ipse dixi Herculem quoque 
+aurea mala obtulisse Euristeo, nullius rei nisi laudis cupidum? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Quid ais, mi poeta? Non tu existimas iniquum esse facinus alterius rem rapere, ut 
+tradas alteri? Donauit Euristeo, sed iniuriam intulit Hesperidibus. Aliena donare non 
+liberalitas est, sed iniustitia. Audi igitur, quę aurea mala nostri recte sapienterque expetunt. Ad 
+
+<milestone unit="page"/>
+supernas opes, quę non pereunt, possidendas inhiant, terrenas contemnunt. Peruigilem autem 
+draconem, diabolum, ab ęterno bono auertentem studio uirtutis opprimere conantur et eo uicto 
+uoti sui compotes fiunt. Sic ipsi cęlum petunt, sic inter beatos censeri festinant. Fatere igitur a 
+nostris Herculem superatum, quem hactenus prę omnibus commendandum existimabas. Nec 
+ideo beatum putes, quia moriturus, ut aiunt, in rogum se pręcipitauit et ab igne ad cęlum 
+creditus sit ascendisse, in deorum numerum ascribendus. Hoc si uerum est, muscellas etiam 
+illas cęlum petere putabimus, quas nocturno tempore in flammam lucernarum ultro ruentes 
+exuri cernimus. At mortem sibi imminere uidit, inquies. Quanuis uitam desperasset, quanuis 
+mox moriturum se certe sciret, pręoccupare tamen fati sui diem non debuit. Nemini licet se 
+ipsum interficere. Anima in corpore depositum Dei est. Quisquis depositum istud, priusquam 
+postulatus fuerit, reddit, Domino iniuriam facit, qui tam diu seruandum dedit, donec 
+reposceret. Ideo etiam lex diuina iubet: Ne occidas! Hercules autem iste non modo se, 
+antequam periturus esset, <sic>perididit</sic>, sed Lycam quoque puerum, ueneni, quod attulerat, 
+ignarum, iratus interfecit. Cum ergo tam se ipsum quam alium a culpa alienum occidere 
+peculiare sit, cui dubium esse debet illos, qui sic agunt, non ad cęlum migrare, sed ad inferos 
+potius ruere, ęternis addictos suppliciis? Ex quo apparet non Deo placuisse Herculem tuum, 
+sed Deum grauiter offendisse. Non ergo beatus, sed miser et infelix est reputandus. 
+
+Restat nunc, ut illis de rebus disseramus, quas eum sua sponte ac libere gessisse tradunt, nisi tibi 
+mora molesta est, iter coeptum prosequi parato. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Quin immo, ita ego sermone isto tuo delector, ut hinc recedere nesciam, nisi et cętera pari 
+ratione expedieris. Nam Herculem, quem omnes poetę laudibus in cęlum ferunt, a Christianis 
+uinci per te edoctus negare omnino nequeo. Et iam certus sum non corporis uiribus ueram 
+solidamque laudem quęrendam esse, sed animi sapientia ac sanctitate. Alioquin elephanti, 
+leones, ursi, camelli, equi, tauri alięque belluę, quę nos ferocitate, alacritate, ui ac robore 
+antecellunt, plus sibi laudis, plus meriti uendicarent quam homines ipsi. Et quoniam non parua 
+quidem afficior lętitia rem hanc abs te me didicisse, cum philosopho tum theologo, quem te 
+esse profiteris, dignam, gratissimum mihi erit, si reliqua simili ratione discutere et enucleare 
+pergas. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Quando ita persuasum habes, ęquum est me obsequi tibi, eadem breuitate uel magis 
+perstricta in his exponendis utens. Igitur, Herculem ipsum alia quidem iussum, alia sua sponte 
+fecisse ais; illa necessario, hęc uolens ac lubens peregit, quo magis immontalitate se dignum 
+pręstaret. Hoc idem certe Christianis nostris, sed felicius ac beatius contingere scias uolo. Ille 
+
+<milestone unit="page"/>
+Euristei imperata fecit. Nostri autem Dei iussis parent atque obediunt. Ille in his, quę sponte 
+egit, suo usus est consilio. Nostri uero non humana, sed diuina sequuntur consilia, ne a recto 
+aberrent, ne a bono atque ęquo deuient. Quod illis accidere solet, qui in re gerenda nimium 
+sibi confidentes proprio sensu nituntur. Duas ergo Deus noster Christus nobis ad beatitudinem 
+assequendam monstrauit uias, alteram necessitatis, alteram perfectionis. Si uis , inquit, ad 
+uitam ingredi, serua mandata! Deinde dixit: Si uis perfectus esse, uende omnia quę habes, et 
+da pauperibus, et ueni, sequere me! Necesse est igitur, ut, qui beati et immortales effici 
+uelunt, illa obseruent et agant, quę Deus iussit. Illud autem, quod consulit, noluit esse 
+necessarium, sed liberum, ut, qui consumatioris uitę instituta sequi uoluerint, illis inter beatos 
+plus pręmii accedat. Sperabat itaque Hercules uester plus se accepturum ex his, quę non 
+inuitus agebat. Sed certe spe ista deceptus est, dum suo nititur consilio, non diuino. Nostris 
+ergo nulli nisi Deo <sic>adherentibus</sic> posthabendus erit, sicut iussis obtemperans, ita et sponte 
+aliquid agens. Hoc te fateri necesse est, cum in initio disputationis nostrę persuasum habueris 
+Dei iudicia Deique consilia humanis esse certiora et homines quidem falli decipique posse, 
+Deum nequaquam. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Ita est certe. Sed iam perge, quęso, reliqua ista explicare, ut huic tam salutiferę disciplinę, 
+quam te instruente percepi, cumulum aliquod addam. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Singula, quę Herculem ultro exercuisse dixisti, ut rite expediantur, nobis nunc 
+repetenda sunt. <note place="margin">(Ludi Olympici)</note> Aduecto, inquis, Pasiphes tauro ludos Olympicos instituit, ut 
+homines ludorum illorum certaminibus intenti et ocium fugerent et magis robusti ac strenui 
+redderentur. Sed nostrorum certamen est illa quotidiana pugna carnis aduersus spiritum et 
+spiritus aduersus carnem. In qua uincere longe gloriosius est quam in ludis istis Olympionicen 
+esse. Superata enim carnis pugna in bonis, quę spiritus suggerit, exercentur. <note place="margin">(Ad Tim. IV)</note> 
+Atque hoc illud est, quod Timotheo pręcipit Apostolus dicens: Exerce te ad pietatem! Nam 
+corporis exercitatio ad modicum utilis est, pietas autem ad omnia utilis est, promissionem 
+habens uitę quę nunc est et futurę. Tu tamen de Hercule contexens historiam, immo fabulam 
+dixisti: <note place="margin">(Arma)</note> ut ubique insuperabilis foret, a diis eum arma accepisse, peplum, clauam, 
+thoracem, equos, ensem et cum sagittis arcum. Nostri uero id agunt, ne a uitiis superentur, ne 
+diabole succumbant. Et sicut Apostolus iubet, ita armantur. <note place="margin">(Ad Eph. VI)</note> Induite uos , inquit, 
+armaturam Dei, ut possitis stare aduersus insidias diaboli. Quoniam non est nobis colluctatio 
+aduersus carnem et sanguinem, sed aduersus principes et potestates, aduersus mundi rectores 
+tenebrarum harum, contra spiritalia nequitię in cęlestibus. Propterea accipite armaturam 
+
+<milestone unit="page"/>
+Dei, ut possitis resistere in die malo et in omnibus perfecti stare. State ergo succincti lumbos 
+uestros in ueritate et induite loricam <sic>iustitie</sic>, et calciati pedes in pręparationem euangelii 
+pacis, in omnibus sumentes scutum fidei, in quo possitis omnia tela nequissimi ignea 
+extinguere. Et galeam salutis assumite, et gladium spiritus, quod est uerbum Dei, per omnem 
+orationem et obsecrationem, orantes omni tempore in spiritu et in ipso uigilantes in omni 
+instantia et obsecratione pro omnibus sanctis. Hęc sunt igitur Christianonum arma armis 
+Herculis longe potentiora atque solidiora: ueritas, iustitia, pax, fides, spes, charitas, 
+deprecatio. His uincitur diabolus, his tenebrarum principes expugnantur, cum his ad cęlum 
+ascendimus et felicitatis ęternę bona lucramur. His tu utere et poetam te Christianum, ut es, 
+exhibe. Quod cum feceris, Herculis arma illa non modo non miraberis, uerum etiam ridebis. 
+<note place="margin">(Gygantes)</note> Post hęc abs te dictum memini illum ad Palenen cum Gygantibus decertasse. 
+Certauit et Dauid noster cum Golia Gygante atque inermis armatum superauit. Sed magis 
+commendatur, quod Saulis persecutionem patienti ac sedato animo pertulerit, quod Ionatham, 
+filium eius, fratris loco habuerit, quod Semei maledictis lacessitus ipse satellites suos in illum 
+animaduertere uolentes inhibuerit, quod denique in psalmis laudes Dei decantauerit et in 
+omnibus obseruauerit humilitatem. Hunc nostri imitando iniuriam tollerant, offensas non 
+ulciscuntur, pro malo reddere bonum student. Iram itaque cohibere et offensarum non 
+meminisse plus est quam cum Gygantibus contendendo uincere, dicente in Prouerbiis 
+Salomone <note place="margin">(Prouerbiorum XV)</note>: Melior est patiens uiro forti et qui dominatur animo suo 
+expugnatore urbium. Cęterum, cum Gygantibus pugnare, aduersus Iouem insurgentibus, quid 
+est aliud quam cum hereticis Ecclesię Dei infestis certare et perniciosos eorum errores ueri 
+assertione repellere? Hoc egit noster Hieronymus, hoc Augustinus, hoc alii ex doctoribus 
+Euangelicę ueritatis quamplurimi. Tales Gygantes prosternere gloriosior est uictoria quam 
+illos ferire, quibus in deorum subsidium Hercules adueniens insultauit. <note place="margin">(Prometheus)</note> 
+Prometheum, inquis, ab aquilę iecur eius lacerantis iniuria erruit et ligato simul uincula 
+dissoluit, quasi gratiam referens, quod ignem de cęlo ad usum hominum attulisset. Dic, quęso, 
+corpori an animę languenti mederi opemque ferre melius sit. Nonne animę? Anima enim 
+communi omnium consensu corpore est pręstantior. Sed nostri sacerdotes illos, quos peccati 
+conscientia intus carpit, intus lacerat, curant ac sanant, ad poenitentiam exhortando, ad 
+pietatem iustitiamque colendam instruendo. Et hoc ideo, quia sciunt eos ignem habere de cęlo 
+allatum, hoc est, animam a Deo infusam, quam a uinculis delictorum liberare magis egregium 
+est quam Prometheum nexibus solutum abire sinere. <note place="margin">(Antheus)</note> Antheum post hęc, Terrę 
+
+
+<milestone unit="page"/>
+filium, palestra superauit et a terra elatum, ne matre opitulante ualentior atque robustior 
+exurgeret, medium stringendo uita priuauit. Nonne rem magis insignem magisque a 
+sapientibus commendatam facit Christianus terrena contemnendo et, quę permanere nequeunt, 
+despiciendo? Cumque tam diu homines humanarum rerum cupidine ducantur quam diu sese 
+negotiis temporalibus impediunt, ille ad contemplanda cęlestia animum erigit et fluentium 
+bonorum in se interimit concupiscentiam eaque interempta ad perennem beatitudinem 
+consequendam cuncta sua desyderia porrigit atque destinat. Neque enim nescit ista, quę 
+uidentur, fluxa esse et caduca, illa, quę non uidentur, perpetua et ęterna, ista nullius prorsus 
+momenti, illa omnem humani ingenii taxationem excedentia, omni auro, omnibus regnis 
+pluris habenda. Semotus ergo a terrenis, nihil nisi ęternum suspirat, nihil nisi infinitum 
+desyderat. Sic ipse Antheum procul a terra sublatum deficere ac perire compellit. <note place="margin">(Busyris)</note> 
+Busyridem, ais, Hercules, hospitum interfectorem, ipse interfecit, uno necato multos a necis 
+discrimine liberans. At in hac quoque uictoria a nostris uincitur, cum perspicuum sit multo 
+laudabilius esse animas, ut diximus, a perditione liberare quam a corporibus mortis periculum 
+propulsare. Heresiarches Busyride omni crudelior est, omni bellua immanior. Hic est enim, 
+qui secum communicantium animas uinculat et perdendas diabolo committit et perpetuo 
+inextinguibilique igni facit obnoxias. Nullum autem crudelitatis genus est huic crudelitati 
+comparandum. At uero aliquis ex nostris uir catholicus diuina pręditus disciplina hunc ipsum 
+diaboli filium Scripturarum autoritate confundit, ueritatis argumentis superat atque ita heresim 
+sectamque eius interimit, ut illos, qui iam titubabant, firmet, stabiliat, in statum reparet salutis. 
+<note place="margin">(Columnę Herculis)</note> Quid pręterea Hercules? Ad Gades duas columnas erexit perfossoque 
+monte Oceanum in terras admisit, hominum uolens consulere commercio et nauigantium 
+utilitati. Ponit et uir Christianus duas columnas in ecclesia, utriusque Scripturę fidem; Vetus 
+Testamentum Noui figuram fuisse non dubitat. Alterum itaque ab altero secernens fluenta 
+inducit sanę doctrinę et terras, hoc est, hominum mentes ignorantię siccitate aridas aquis 
+scientię salutaris inrigat obscura declarans, dubia dissoluens, manifesta confirmans. Per hoc 
+mare nauigantes ad portum perueniunt salutis sempiternę. Quid adhuc Hercules? (Chrysauri 
+filii) Tres in Hispania Chrysauri regis filios pręlio uictos interfecit. Quę, rogo, laus est 
+homines interficere et aliena occupare? Scelus est hoc profecto, non uirtus, et uitio fama 
+quęsita, non probitatis officio comparata. Nostri igitur ab hac impietate alieni — de Christi, 
+non de mundi amatoribus loquor — calcant auaritiam, rapinas execrantur, furtum damnant 
+atque hac ratione tres Chrysauri natos interimunt. Chrysaurus enim auri tenet 
+
+<milestone unit="page"/>
+interpretationem. Quid deinde Hercules? <note place="margin">(Gygantes)</note> Ad Cumas cum Gygantibus pugnando 
+uicit. Sed superbię uitium humilitate superare magis est magnificum quam procera Gygantum 
+corpora humi deiicere. Siqua te mentis elatio et inanis glorię cupido solicitat, non ei 
+acquiescas, sed in omnibus mansuetudinem humilitatemque conserua, et magnos uicisti 
+Gygantes, Hercule ipso fortior atque pręstantior. <note place="margin">(Erix)</note> Ille insuper in Sicilia Ericem regem 
+cestibus pugnantem uicit. Nonne pluris habendus Christianus, qui spiritalium fatigationum 
+flagello corpus suum atterit ieiunando, uigilando, orando, semper aliquid operis agendo, ut 
+spiritum a cupidinibus illęsum seruet. Ocio enim hic Erix noster lasciuit et exultat et in nos 
+dominari expetit, nisi talium cestuum uerbere perdometur. Atque hoc illud est, quod 
+Apostolus ait: Castigo corpus meum et in seruitutem redigo, ne aliis prędicans ipse reprobus 
+inueniar. <note place="margin">(Siculi)</note> Hercules, inquis, et Sicanis ipsis imperauit. Regnet Hercules in terra, dum 
+nostri multo felicius regnaturi sint in cęlo. Quibus dicturus est Christus: Venite, benedicti 
+Patris mei, possidete paratum uobis regnum a constitutione mundi! Non quęrunt, ut imperent 
+in terra, qui cum Christo regnare cupiunt in cęlo. Humiliantur et submittunt sese, ut Domino 
+placeant dicenti: Sinite ad me uenire paruulos! Talium est enim regnum cęlorum. <note place="margin">(Cacus)</note> 
+Hercules Cacum flammas ab ore uomentem in Auentino interemit et boues ab eo furto sibi 
+sublatas reduxit incolumes. At uero nostri Christicolę uoto castitatis suscepto contra libidinis 
+flammas assidue pugnant et, siquid puritatis per obscenę Veneris cogitationem amiserint, 
+carnem affligendo reparare conantur. Ex his alii uirginitatem, alii uiduitatem seruant, et hi 
+sexagesimum, illi centesimum fructum capiunt. Sic ergo melius, sic gloriosius cum isto Caco 
+contenditur, cuius uictores corona beatitudinis coronantur. <note place="margin">(Neptunni filii)</note> Hercules pręterea 
+Neptunni liberos lapidum imbre de cęlo obrutos, cum sibi arma defecissent, Ioue inuocato 
+superauit. Nos uero pro Euangelii ueritate certantes, quoties cum hereticis uel philosophis 
+congredimur, si argumenta minus sufficere cernimus, diuinę Scripturę sententiis uelut 
+imbribus illos opprimimus. Nec inepte ineleganterue philosophos Neptunni liberis 
+comparamus, cum Neptunnus quandoque mare intelligatur et sal pro sapientia usurpetur. Sal 
+autem maris filius est, et philosophus salis, hoc est, sapientię professor est. Cęterum, sacrę 
+Scripturę autoritati semper magis credere expedit quam philosophorum ueritatem 
+implicantium sophismatis atque pręstigiis. <note place="margin">(Centauri)</note> Hercules semiferam etiam Centaurorum 
+gentem in Thessalia pręlio superauit. Et nostri quidem semiferas diaboli confringunt uires 
+neque terrore eius perculsi neque blanditiis deliniti. Talibus autem uictis Centauris, non in 
+terra, sed in cęlo triumphant plaudentibusque angelis atque lętantibus ęterni regis aulam 
+
+<milestone unit="page"/>
+ingrediuntur. Confer nunc cum hac felicitate omnes Herculis uictorias, omnes eius triumphos, 
+et disces ibi plus uirtutis laudisque haberi, ubi plus impenditur pręmii, quemadmodum 
+superius ratiocinati sumus te non refragante. <note place="margin">(Achelous)</note> An pręterea aliquid esse putabimus 
+pro Deianirę connubio initum cum Acheloo flumine certamen, post multiplices quasdam 
+formas in taurum mutato, et uicti detractum cornu Naiadibus Copięque deę cum fructibus 
+datum? Sed nostrę religionis homines pro spiritalibus Christi Ecclesięque nuptiis uarias 
+heresum formas grauissime impugnant, et impugnando uincunt, et uincendo dominantur. 
+Denique potestatem hereticis ablatam ad catholicos transferunt, qua ipsi usi plurima officia in 
+clerum diuidunt. Ita Christi athletę non pro Deianira certant, sed pro Ecclesia, non Acheloum, 
+sed perniciosam heresim euertunt, non cornu tauro, sed hereticis extorquent in Ecclesia 
+regendi autoritatem. Inde creantur pontifices, episcopi, presbiteri, diacones, clerici. Et sic 
+cornu impiis auulsum, fit credentibus cornu Copię salutaris. Hanc uerę uirtutis uiam ignorauit 
+Hercules tuus, et in corporis uiribus beatitudinem ponebat, quas habuit cum belluis 
+communes. <note place="margin">(Nessus)</note> Ille Nessum, ne Deianiram uitiaret, sagitta confixum interfecit. At ex 
+nostris uir aliquis diuinis <sic>humansque</sic> litteris eruditus hereticum <sic>Ecclesie</sic> dogma 
+corrumpere conantem fidelis assertionis telo conficit. Et destructo errore uel conuersum 
+diabolo mori cogit, ut uiuat Deo, uel obstinatum mori Deo sinit et diabolo uiuere, ut uiuens 
+mortuus sit et alii sic mori timeant atque in fide perseuerent, Deo magis quam hominibus 
+credentes. Nessum autem interfecisse nemini profuit nisi Deianirę et Herculi ipsi, huic ne 
+mecham haberet uxorem, illi ne adulterii pollueretur infamia. Porro, hereticos confudisse 
+omnibus prorsus prodesse est. Ita enim et errantes conuertuntur et conuersi in fide perpetuo 
+permanent. Post hęc Nelei Pyliis imperantis regnum euertisse fertur et de duodecim fratribus 
+ipsum solum uiuum reliquisse. <note place="margin">(Neleus)</note> Nihil, ut equidem reor, causę opponitur, quare Neleus 
+his erumnis afficiendus foret. Nonne igitur iniquum simul et crudele facinus fuit innocenti 
+regnum abstulisse et tot uiros nullius criminis conuictos cęde sustulisse? Sed audi, quam raro 
+proposito Christi serui, quam pia obseruatione et Nelei regnum destruunt et fratres eius 
+interimunt et ipsum Neleum uiuere solum uolunt. Varia supellex et multarum rerum copia 
+Nelei fratres sunt. His ergo perfectioris uitę uir contemptis et in egenorum usum erogatis uictu 
+tantum necessario contentus in paupertate Deo seruit. Neleus itaque uiuus necessarium uitę 
+sustentamentum est. Abiectis autem his, quę superuacanea erant, auaritię euersum est regnum, 
+quę in illos dominatur, qui plura quam necesse est concupiscunt. Propterea quidem, quod in 
+Hercule tuo scelus fuit, in Christiano uera est uirtus. <note place="margin">(Euritus)</note> Postremo loco dixisti, o poeta, 
+
+<milestone unit="page"/>
+quod Euritum, Oechalię regem, liberosque eius inuadens interfecerit et Iolen sibi sponsam, 
+quam illi tradere nolebant, raptam abduxerit uehementerque amarit. Haud iniquum censemus 
+eam, quę pacta sponsaque erat, dum negatur, per uim eripuisse, sed tamen propterea cędibus 
+in illos, quos inuasit, grassari et urbem in ciuium, qui nihil peccauerant, detrimentum atque 
+<sic>erumnam</sic> solo ęquare impium immaneque fuisse dicimus. Ne tamen ignores, quam 
+laudabili imitatione ista quoque presequatur Deo deditus Christianus, Euritum corpus suum 
+esse intelligit, filios Euriti ipsos corporis sensus, Iolen uero animam esse decernit. 
+Disponitque animam a corporis illecebris abductam <sic>recte</sic> copulare rationi, ne caro 
+dominetur spiritui, sed e contrario spiritus imperet carni. Cumque sentire coeperit aliam legem 
+in membris suis repugnantem legi mentis suę, corpus, perpetuum animę aduersarium, ieiuniis 
+extenuat, uigiliis fatigat, laboribus pręmit sensusque omnes a uoluptatis pestiferę cupidinibus 
+auertere contendit. Porro, Oechaliam, hoc est, ocium, in quo quiescens corpus animę 
+dominabatur, destruit ac dissipat. Sublato quippe ocio prauos quoque corporis affectus per 
+laborem compescit. Ita Iolen Eurito filiisque eius ereptam et rationi mentis copulatam 
+perpetuo amore complectitur, studens rem gratam suo efficere autori. Hoc idem uel huic 
+simile superius disseruimus, si memoria tenes, in Pasiphes tauro, in Olympię ludis, in Ericis 
+pugna, fortasse et in quibusdam aliis. Nec piget sępius repetere, quod semper plurimum 
+prodest obseruare. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Recreasti me oratione tua, o theologe, ita ut, si optio mihi detur, multo malim me esse 
+Christianum quam esse Herculem. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Neque id immerito quidem. Nam uides fortia eius facta et cuncta, quę de illo prisci 
+uates fabulantur, longe inferiora esse et pene nihil prę illis, quę a religionis nostrę cultoribus 
+factitari audis. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Certe illi, ut iam uideo, ignorantes uerę uirtutis uiam, aiunt Herculem uita defunctum, sicut 
+supra est dictum, in deos fuisse relatum. Sed quomodo deus est, in quo minime uera apparuit 
+uirtus, sed adumbrata et uulgi opinione, non sapientum sententiis probata? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Perplacet profecto iam tibi persuasum esse, quod a Christianis in omni perfectę 
+laudis genere uictus sit maximus heroum Hercules ille. Sed hoc etiam certum habeas uelim 
+multo melius te ad cęleste regnum, quando uita ista decesseris, translatum iri cum morum 
+integritate quam illum cum fortium gestorum fama. Semper enim commendabilior est uictoria 
+se ipsum uincere quam aliorum regna subiugare, malas cupidines continentię uirtute coercere 
+quam immanes belluas horrendaque monstra uirium robore superare. Bonis, iustis, piis, 
+
+<milestone unit="page"/>
+innocentibus cęlestis promissa est beatitudo, non potentibus, non fortibus, non mundi gloriam 
+adeptis; nisi beatiores putandi sunt, quos humana commendat opinio quam quos Deus, 
+omnium dominus, diligit atque amat et in suo supra cęlos regno collocat. Hoc tibi notum esse 
+uolui, ut theologos nostros potius quam poetas tuos in dignoscenda rerum ueritate sequaris et 
+Ecclesię sanctę pręceptis institutionibusque adhęrendo fabellarum contemnas uanitatem. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> Ego sane, si monitis tuis saluberrimisque consiliis non acquiescam, in tenebris me, ut 
+hactenus, cęcutire putem. Denique breuiter, quod sentio, dicam. Tu certe, tu illo deuicto, qui 
+horrenda monstra, qui uastos Gygantes, qui immanes tyrannos uicerat, triumphum hodie egisti 
+pręstantissimum sęculisque omnibus memorandum. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>THEOLOGVS:</speaker>
+               <p> Nolo mihi uictorię huius laudem tribuas. Veritatem tuentibus Deus ipse uires 
+suppeditat, quibus nixi uincant. Illi uni gratię agendę sunt, quod uicerimus. Sed tempus est 
+iam sole ad occasum prone cęloque aduesperascente coeptum iter repetere. Tu, quorsum uis, 
+abi atque uale. Ego quoque uiam ingrediar, quam intermiseram. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>POETA:</speaker>
+               <p> At priusquam discedamus, unum hoc superest, quod dicam: Gratias tibi ago habeoque 
+maximas. Vtinam quandoque et referre queam, qui me et erroris uacuum et sententię uerioris 
+compotem reddidisti. Atque interim et tu uale! 
+</p>
+            </sp>
+  
+         </div>
+      </body>
+      <back>
+        <div type="poesis-carmen">
+            <head>Eiusdem carmen de gestis Herculis</head>
+            <gap reason="alibi"/>
+            <l>
+               <ptr target="http://ffzg.hr/klafil/croala/cgi-bin/getobject.pl?c.4:5.croala.16821"/>
+            </l>
+        </div>
+        <div type="poesis-epigramma">
+            <head>Eiusdem tetrasticon</head>
+            <gap reason="alibi"/>
+            <l>
+               <ptr target="http://ffzg.hr/klafil/croala/cgi-bin/getobject.pl?c.4:5.croala.16821"/>
+            </l>
+        </div>
+        
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,2238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="getaldi-m-promo">
+         <titleStmt>
+            <title>Promotus Archimedes seu De variis corporum generibus gravitate et magnitudine comparatis, versio electronica</title>
+            <author key="getaldi02">
+               <name xml:lang="hr">Getaldić, Marin</name>
+               <date>1566-1626</date>
+            </author>
+        
+            <editor>Neven Jovanović</editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+          Adaptacija digitalnog izdanja (Archimedes Project) prema izvornom tisku (1603).
+        </edition>
+         </editionStmt>
+         <extent ana="D">Mg:D Verborum 19625</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma,
+          (Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska). <date>Kolovoza
+            2012</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Getaldić, Marin Promotus Archimedes seu De variis corporum generibus gravitate et magnitudine comparatis Romae Apud Aloysium Zanettum, 1603 /8/ + 72 pag.
+          <relatedItem type="digitalisatum">
+                  <ref type="internet"
+                       target="http://archimedes.mpiwg-berlin.mpg.de/cgi-bin/toc/toc.cgi?dir=gheta_promo_029_la_1603;step=thumb">Archimedes Project: Ghetaldus, Marinus Promotus Archimedis 1603
+              text updated 	2003.03.13 14:41</ref>
+               </relatedItem>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1603" period="16xx_1_third">1603</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 17 (1601-1700)</term>
+               <term>1601-1650</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - tractatus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2012-08-22</date>
+        Početna CroALa verzija.
+        Latinski spellcheck.
+        Tablica nema.
+        Sumnjiva mjesta: sic.
+      </change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <front>
+         <titlePage>
+            <docAuthor>MARINI GHETALDI PATRICII RAGVSINI</docAuthor>
+            <titlePart>PROMOTVS <sic>ARCHIMEDIS</sic> SEV De varijs corporum generibus grauitate et magnitudine comparatis.</titlePart>
+            <docImprint>ROMAE, Apud Aloysium Zannettum.
+          MDCIII. 
+          SVPERIORVM PERMISSV.</docImprint>
+         </titlePage>
+         <pb xml:id="p.0001"/>
+         <pb n="002"/>
+         <div type="epistula-dedicatio">
+            <opener>REVERENDISSIMO SERAPHINO OLIVARIO RAZZALIO. PATRIARCHAE ALEXANDRINO. MARINUS GHETALDUS. S.P.D.</opener>
+            <p>
+        
+               <s>Egregia sane Reuerendissime PRaeSVL quod probe nosti, veterum sapientum foelicitas fuit. </s>
+        
+               <s>Eam enim cum ingenij praestantia, tum praerogativa temporis laudem occuparunt, <expan>quam</expan> vel sperare posterioribus <expan>temerarium</expan> sit. </s>
+        
+               <s>Et vero illis non solum nos plurimum debemus, quod plurima ipsi perfecere: verum etiam quod quaedam quasi fundamenta iecere, quibus dum rerum <expan>nouarum</expan> molem conamur imponere, nos quoque experiri nostras vires, exercere industriam, remque sapientiae publicam amplificare possimus. </s>
+        
+               <s>Quo in genere magnorum ego virorum studium potius, quam gloriam aemulatus super unum ex Archimedeis fundamentis, de ratione, qua varia corporum genera inter se grauitate et magnitudine comparantur, fabricatus nonnulla sum: <pb n="003"/>quae nunc omnium oculis expositurus, ut eam <expan>sustineam</expan>, personam, quam semper recusaui, patrocinium huiusmodi quaerendum mihi existimaui, quod et imbecillitatem meam contra obtrectatorum, si qui forte existerent, calumnias sustineret; et imminentem famae, existimatio nisque iacturam auerteret. </s>
+        
+               <s>Vnus igitur tu <corr>occurristi</corr> SERAPHINE qui et <expan>commodissime</expan> mihi patrocinari posses, et quodam quasi iure deberes. </s>
+        
+               <s>Cum enim tu me ad emittendum id opus hortatu tuo compuleris, videbatur quodam iure ad tuam fidem eius tutela pertinere. </s>
+        
+               <s>
+                  <expan>Tuque</expan> is es, quem non modo rudes, sed etiam docti suspiciunt. </s>
+        
+               <s>Habet nostra haec aetas, quos <corr>admittetur</corr>; habet quos extollat praeclaros viros, sed quos tibi anteponat, non facile inueniet. </s>
+        
+               <s>Degis ea in Vrbe, quae laudis mediocritatem vel nunquam agnouit, vel semper contempsit: neque in tanta maiestate, tua deficit virtus, sed bono in lumine posita collucet magis. </s>
+        
+               <s>In primis enim tua vitae integritas eiusmodi est, ut non contenta domestico <corr>praeconio</corr> latissime peruagetur. </s>
+        
+               <s>Habent omnes quod praedicent, et imitentur; habet quod excipiat gratissima memoria posteritas uniuersa. </s>
+        
+               <s>Doctrinae vero ea excellentia es, ut ea satis omnibus clarus, et illustris, non satis tibi, <corr>secum</corr> assidue certes. </s>
+        
+               <s>nec mirum, qui vel a primis incunabulis ad summa contendebas, si prouecta iam aetate vix habeas, quo altius contendas. </s>
+        
+               <s>Praeclarum sane et eximium uno doctrinae genere; sublime, atque admirabile multiplici excellere. </s>
+        
+               <s>Tu vero in omni genere laudem egregiam assecutus es absolutam videlicet tibi gloriam propositam voluisti; <expan>quique</expan> intelligebas hominem ad honesta omnia <pb n="004"/>genitum, nullam tibi rerum gloriosarum partem contemnendam putasti. </s>
+        
+               <s>Placet incredibili rerum humanarum usui diuinarum rerum cognitionem adiungere; ut habeat animus a caducis ad aeterna, se conferendo, unde oblectamentum capiat, et admirationem. </s>
+        
+               <s>Philosophiam ita tenes, ut qui in maximis negotijs assidue versatus es, videaris semper fuisse otiosus. </s>
+        
+               <s>Quid dicam de singulari <expan>
+                     <corr>eaque</corr>
+                  </expan> eximia rerum coelestium, <expan>totiusque</expan> mundi cognitione quam tu tanta cum auiditate ex reconditissimis Mathematicorum fontibus hausisti, ut illud assecutus in eo genere iam sis, quod alij in maxima tranquillitate, in summo otio vix ausint optare? </s>
+        
+               <s>Exitum tuorum laborum felicissimum vides: gloria multiplici frueris, neque illa precaria sed tua et quibusdam quasi gradibus ad amplissimos: honores euehendus, in ea constitueris dignitate; in qua pro sacrosancta Ecclesia nunquam non excubando, in peramplo tot illustrium vitorum Theatro non alienae gloriae spectator, sed actor tuae consistas. </s>
+        
+               <s>Tu vero, quod rarum est, laudem sapientiae, quae vix ullos habet at terminos, humanitatis tuae terminis circumscribis; et exponis omnibus; ut ex tanto sonte perennes ad omnium ordinum homines fluuii deducantur. </s>
+        
+               <s>Felix qui solidae felicitatis causam et initium in re constitutum ita foues, ut cum alijs illam communicando, non imminuas, sed amplifices, praegrande videlicet non succrescentis, sed adultae iam virtutis foenus honorem ex honore, laudem ex laude consequi vberiorem, haec illa sapienti viro non indigna liberalitas, quae rerum prestantissimarum possessione non imminuta, in copia tenuitatem non inquirens <pb n="005"/> vbertatis ipsa suae dominae nunquam debilitatur, nunquam deficit. </s>
+        
+               <s>Quin etiam isto loco constitutus bonarum literarum studiosos complecteris, ac tueris. </s>
+        
+               <s>Haec est vera germanae nota sapientiae, cum, quas vires nanciscitur, ijs sapientiam alit, tuus animus et tuae sapientiae, et alienae par est. </s>
+        
+               <s>Haec sunt firmissima et solidissima fundamenta ad aeternam posteritatis memoriam, quam licet proficisci iam videas ex iis quibus abundas animi ornamentis, nescio tamen quo pacto gratior nobis accidit, cum ex aliorum etiam praeconio suscipit incrementum. </s>
+        
+               <s>Hinc domus tua floret doctissimorum familiaritatibus; hinc nulli ad tuam consuetudinem praecluditur aditus; hinc plurimorum studia commouentur; hinc illa sapientum aemulatio et admiratio: hinc omnium omnino ordinum ad te concursus; tanquam ad sapientissimum humani <expan>diuinique</expan> iuris patronum, et interpretem. </s>
+        
+               <s>Quid ego igitur quem tibi sexcentis eximiae beneuolentiae argumentis obligatum volusti, <corr>perexiguum</corr> hunc ingenij mei partum expositurus, unum te nominis et existimationis meae patronum non suscipiam equidem in amplissimi Theatri lucem sapientissimorum <add>32</add> hominum conspectum, quibus abundat haec nostra aetas inferre me non magnopere cogitabam: Tu hortatus es dubitantem impulisti vel reluctantem: tuere igitur obsequentem. </s>
+        
+               <s>iam nunc mihi videor in exigua vel nulla spe laudis ex ingenio meo; sempiternam nominis immortalitatem ex tuo patrocinio consecutus. </s>
+            </p>
+        
+            <closer>
+               <salute>Vale. </salute>
+          
+               <dateline>Romae <date when="1603-04-25">VII. Kal. Maij. MDCIII</date>. </dateline>
+            </closer>
+         </div>
+         <div type="prosa-praefatio">
+            <opener>BENEVOLO LECTORI.</opener>
+            <p>
+          
+               <s>Diversa. corporum genera duplici ratione comparari inter se a Mathematicis possunt mole ac pondere. </s>
+          
+          
+          
+               <s>Pondere comparatio fit, cum inter corpora diuersi generis <corr>mole</corr> 
+                  <corr>aequalia</corr>, quaeritur, quae sit ratio ponderis: quanto videlicet, unum altero grauius, aut leuius sit. </s>
+          
+               <s>Magnitudine autem sit collatio, cum posita pari grauitate, quaeritur, quae sit ratio magnitudinis; quanto sit alterum altero maius, aut minus. </s>
+          
+               <s>Quae comparatio mihi cum videretur et iucunda cognitu, et usum nonnullum habere, nec fuse a quopiam explicata, non ita pridem super ea non nihil coepi me liris sed nihil de luce ac publico cogitabam. <!--neuer Satz--><corr>Is</corr> enim ego sum, qui malim scire, quam <corr>nescire</corr>, discere, quam docere. </s>
+          
+               <s>Sed tamen cum Michael Saegnerus in rebus. </s>
+          
+               <s>Mathematicis excellens vir, ac Magister meus, cui ego plurimum debere me fateor, ab eo enim prima elementa habui, reposcere a me publicum aliquem doctrina sua fructum videretur ac Federicus Saminiatus <sic>euius</sic> suorum suauitatem, et <corr>beneuolentiam</corr> erga me diu, dum simul hisce studijs condiscipuli operam dedimus, expertus sum, me ut aliquid auderem tum oratione, tum exemplo suo excitaret, coepi minus ab ea cogitatione alienus esse. </s>
+          
+               <s>Deinde vero summos <corr>viros</corr> habui <pb n="007"/>hortatores. </s>
+          
+               <s>Etenim cum Clauium, quod tam diu cupiebam, vidissem <gap/> minorem tanta scientia, et fama viri benignitatem <gap/>perissem. </s>
+          
+               <s>Ab eo simul ac Theodosio. </s>
+          
+               <s>Rubeo homine mihi tum ex studiorum similitudine, tum praecipue ex eius humanitate amicissimo, ad Reuerendissimum Seraphinum deductus sum. </s>
+          
+               <s>
+                  <corr>Isque</corr> me tantus Praesul non solum humanissime complexus est, verum etiam ita hortatus ad <sic>eualganda</sic>, <corr>quae</corr> scripseram; plane ut mihi nefas putauerim non parere. </s>
+          
+               <s>Accipe igitur et tu <corr>Lector</corr> optime amico ac benigno animo laborem hunc, quem a me talium virorum summa benignitas expressit. </s>
+          
+               <s>Argumentum quidem, ut dicebam non iniucundum est, nec ab usu alienam. </s>
+          
+               <s>Huiusmodi enim comparatione Archimedes mixtionem <corr>argenti</corr> in aure deprehendit, et furtum Aurificis in corona aurea patefecit. </s>
+          
+               <s>de quae re suo loco ego tractabo, et facilem monstrabo viam, quae vel argentum in aure, vel quod vis metallum in quolibet admistum deprehendi queat, et alterum ab alieno discerni et simul explicabo, quo pacto ex auri grauitate <gap/> qualitas, at perfectio intelligi possit. </s>
+          
+               <s>Tati vere opusculo nomen ab Archimede, quem Ducem sequor, imposui Nam cum ille, ut erat summus Magister, setis habuisset hunc, totum quasi fabricum posito fundamento delineare in primo <abbr>lib.</abbr> 
+            
+            vbi agit de ijs quae vehuntur in aqua. </s>
+          
+               <s>Opus ego pro<gap/> 
+                  <expan>eique</expan> fundamento molem inijcere conatus sum paribus suis et elaboratam, atque distinctam. </s>
+          
+               <s>Qua in re si quid assequutus sum, quod publice probetur, gaudeo causa et mea et publica illud quidem <corr>spero fore</corr> ut conatus non displiceat.</s>
+            </p>
+         </div>
+      </front>
+      <body>
+         <pb n="006"/>
+         <pb n="1"/>
+         <div type="prosa-tractatus">
+
+            <head>MARINI GHETALDI PROMOTVS ARCHIMEDES SEU.DE VARIIS CORPORVM GENERIBVS Grauitate, et magnitudine comparatis.</head>
+            <div type="prosa-theorema">
+               <head>THEOREMA I. PROPOS. I.</head>
+               <p>
+
+                  <s>Si duorum Grauium Corporum eiusdem generis alterum alterius fuerit multiplex, quotuplex maius fuerit minoris, totuplex erit maioris grauitas, grauitatis minoris. </s>
+               </p>
+               <p>
+
+                  <s>SINT duo corpora eiusdem generis ABC, D, quorum grauitates, EFG, ipsius ABC, et H, ipsius D, sit autem corpus ABC, 
+  multiplex corporis D. </s>
+
+                  <s>Dico quotuplex est corpus ABC, corporis D, totuplicem esse grauitatem, EFG, grauitatis H, diuidatur enim corpus ABC, in partes ipsi D, aequales, quae sint A, B, C, quoniam igitur corpus A, aequale est corpori D, magnitudine, et sunt eiusdem generis, erit grauitas unius aequalis grauitati alterius. </s>
+
+                  <s>Sumatur grauitas E, aequalis grauitati H, erit igitur corporis A, grauitas E, et reliqui corporis BC, grauitas FG. </s>
+
+                  <s>Rursus quoniam corpora B, D, sunt magnitudine aequalia, erunt aeque grauia, sumatur grauitati H, aequalis grauitas F, erit igitur corporis B, grauitas F, et reliqui corporis C, grauitas G, et sic fiat, donec perueniatur ad ultimam partem corporis ABC, aequalem ipsi D, sit ea ultima pars C, quoniam igitur corpus C, aequatur magnitudine ipsi D, aequabitur, et grauitate, quare grauitas G, aequalis erit grauitati H, sequitur igitur quot partes sunt in corpore ABC, aequales ipsi D, tot esse partes in grauitate EFG, aequales ipsi H, quoties enim sumpsimus in corpore ABC, corpus ipsi D aequale, toties et in grauitate EFG, sumpsimus <pb n="2"/>grauitatem aequalem ipsi H. </s>
+
+                  <s>Si duorum igitur grauium corporum <corr>eiusdem</corr> generis, et c. quod erat demonstrandum. </s>
+
+               </p>
+            </div>
+            <div type="prosa-theorema">
+               <head>
+
+                  <s>THEOREMA II. PROPOS. II.</s>
+               </head>
+               <p>
+
+                  <s>Corpora grauia eiusdem generis magnitudine commensurabilia, eandem in grauitate rationem habent, quam in magnitudine. </s>
+               </p>
+               <p>
+
+                  <s>SINT corpora commensurabilia eiusdem generis A, B, quorum grauitates C, ipsius A, et D, ipsius B, Dico esse ut A, ad B, ita C, ad D, quoniam enim, A, B, commensurabilia sunt, metietur ipsa aliquod corpus, metiatur, et sit E, cuius 
+   grauitas F, sitque corpus E, <expan>eiusdem</expan> generis cum corporibus A, B, *ergo quotuplex est corpus A, ipsius E,  totuplex erit grauitas C, grauitatis F, et quotuplex B, ipsius E, *totuplex D, ipsius F, si igitur diuidantur corpora A, B, in partes aequales ipsi E, et grauitates quoque C, D, in partes aequales ipsi F, erit ut corporis A, pars una, ad corpus E, ita pars una grauitatis C, ad grauitatem F, aequale videlicet ad aequale, et aeque multiplicatis antecedentibus erit ut A, ad E, ita C, ad F, sunt enim antecedentium, hoc est, illarum partium aeque multiplicia A, C, eadem ratione, ut B, ad E, ita erit D, ad F, et conuertendo ut E, ad B, ita F, ad D. quoniam igitur ut A, ad  E, ita est C, ad F, et ut E, ad B, ita F, ad D, * erit ex aequali ut A, ad B, ita C, ad D. corpora igitur commensurabilia eiusdem generis eandem in grauitate rationem habent, quam in magnitudine, quod erat demonstrandum. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note1"/>Ex anteced.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note2"/>Ex anteced.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note3"/>22. 5. Elem.</s>
+               </p>
+            </div>
+            <div type="prosa-theorema">
+               <head>
+
+                  <s>THEOREMA <num value="3">III</num>. PROPOS. <num value="3">III</num>.</s>
+               </head>
+               <p>
+
+                  <s>Et incommensurabilia corpora eiusdem generis eandem in grauitate rationem habent, quam in magnitudine. </s>
+               </p>
+               <p>
+
+                  <s>SINT incommensurabilia corpora A, BC, quorum grauitates D, ipsius A, et EF, ipsius BC. </s>
+
+                  <s>Dico esse ut A, ad BC, ita D, ad EF, si <pb n="3"/>enim non est ut A, ad BC, ita D, ad EF, erit ut A, ad BC, ita D, vel ad minorem quam EF, vel ad maiorem, sit primum ad minore, <corr>nempe</corr> ad EG, et exponatur aliquod corpus K, eiusdem generis cum corporibus A, B C, cuius grauitas sit aequalis ipsi GF, et a corpore BC, auferatur aliqua pars HC, quae sit minor corpore K, ita ut reliquae pars. BL, sit commensurabilis ipsi A. et sit partis HC, grauitas IF, ergo reliquae partis BL, grauitas erit EI. </s>
+
+                  <s>Quoniam igitur corpus A, commensurabile est ipsi BL,* erit ut A, ad BL, ita D, ad EI, sed ut A, ad BC, ita est D, ad EG, atque A, primus, proportionalium terminus in serie prima, * maiorem habet rationem ad BL, secundum terminum, quam A, primus terminus in serie secunda ad BC, secundum; ergo et D, tertius terminus in serie prima ad EI, quartum, maiorem habebit rationem quam D, tertius terminus in serie secunda ad EG, quartum, quoniam igitur D, maiorem habet rationem ad EI, quam ad EG,* erit EI, minor quam EG, quod est absurdum. </s>
+
+                  <s>non igitur est ut A, ad BC, ita D, ad minorem quam EF. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note4"/>Ex <expan>antecedente.</expan>
+                  </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note5"/>2. 5. Elem.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note6"/>10. 5. Elem.</s>
+               </p>
+               <p>
+
+                  <s>Deinde sit ut A, ad BC, ita D, ad maiorem quam EF, nempe ad EG, et exposito corpore K, ut dictum est, cuius grauitas, sit aequalis grauitati FG, addatur corpori BC, aliquod corpus CH, quod sit minus corpore K, et eiusdem generis cum  corporibus A, BC, ita ut totum corpus BL, sit commensurabile ipsi A, et sit ipsius CH, grauitas FI, ergo totius corporis BL, grauitas erit EI; Quoniam igitur corpori A, commensurabile est corpus BL,* erit ut A, ad BL, ita D, ad EI, sed ut A, ad BC, ita est D, ad EG, atque A, primus proportionalium terminus in serie prima, * minorem habet rationem ad BL, secundum terminum, <pb n="4"/>quam A, primus terminus in serie secunda ad BC, secundum, ergo, et D, tertius terminus in serie prima ad EI, quartum, minorem habebit rationem quam D, tertius terminus in serie secunda ad EG, quartum. </s>
+
+                  <s>Quoniam igitur D, minorem habet rationem ad EI, quam ad EG,  erit * EI, maior quam EG, quod est absurdum. </s>
+
+                  <s>Non igitur est ut A, ad BC, ita D, ad maiorem quam EF, ostensum autem est neque ad minorem; quare ut A, ad BC, ita erit D, ad EF. et incommensurabilia igitur corpora eiusdem generis eandem in grauitate rationem habent, quam in magnitudine, quod erat demonstrandum. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note7"/>Ex anteced..8. 5.Ele</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note8"/>10. 5. Elem.</s>
+               </p>
+               <p>
+
+                  <s>ID QVOD nos duobus praecedentibus Theorematis demonstrauimus, <expan>nonnulli</expan>, ut per se notum, et ut commune quoddam axioma supponunt, quam bene et rationabiliter ipsi viderint; melius enim Euclides propositionem 20. primi libri Elementorum supposuisset ut pronuntiatum; unicuique enim notius est duo trianguli latera reliquo esse maiora (cum et Asino illud sit notum) quam corpora grauia eiusdem generis eandem in grauitate rationem habere, quam in magnitudine, et tamen illam propositionem demonstrat Euclides, non supponit, non igitur haec, quae minus ad principij rationem accedit, supponenda fuit, sed demonstranda. </s>
+               </p>
+            </div>
+            <div type="prosa-theorema">
+               <head>
+
+                  <s>THEOREMA IV. PROPOS. IV.</s>
+               </head>
+               <p>
+
+                  <s>Si quatuor corporum grauium primum ad <expan>secundum</expan> eandem in magnitudine rationem habeat, quam tertium ad quartum, primum autem, et secundum sint eiusdem generis, itidem tertium, et quartum; et in grauitate primum ad secundum eandem rationem habebit, quam tertium ad quartum. </s>
+               </p>
+               <p>
+
+                  <s>PRIMVM enim A, ad secundum B, eandem in magnitudine rationem habeat, quam tertium C, ad quartum D, sint autem A, B, eiusdem generis, itidem C, D. Dico et in grauitate primum A, ad secundum B, eandem rationem habere, quam tertium C, ad D, quartum. </s>
+
+                  <s>Sint enim earum grauitates E, ipsius A, et F, ipsius B, ipsius vero C, sit grauitas G, et ipsius D, grauitas H, quoniam igitur corpora <pb n="5"/> A, B, eiusdem sunt generis, similiter, et corpora C, D,* erit ut A, ad B, ita E, ad F,* et ut C, ad D, ita G, ad H. </s>
+
+                  <s>Sed ponitur ut A, ad B, ita esse C, ad D, ergo ut E, ad F, ita erit G, ad H. </s>
+
+                  <s>Si igitur quatuor corporum grauium, primum ad secundum eandem in magnitudine rationem habeat: et <abbr>caet.</abbr> quod demonstrare oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note9"/>1. et <gap/>. huius</s>
+               </p>
+            </div>
+            <div type="prosa-theorema">
+               <head>
+
+                  <s>THEOREMA V. PROPOS. V.</s>
+               </head>
+               <p>
+
+                  <s>Solida corpora liquido grauiora demissa in liquidum ferentur deorum, donec descendant, et erunt in liquido tanto leuiora, quanta est grauitas liquidi magnitudinem habentis solido corpori aequalem. </s>
+               </p>
+               <p>
+
+                  <s>HOC autem demonstratum est ab Archimede <abbr>propos.</abbr>7. primi libri de ijs, quae vehuntur in aqua. </s>
+               </p>
+            </div>
+            <div type="prosa-theorema">
+               <head>
+
+                  <s>THEOREMA VI. PROPOS. VI.</s>
+               </head>
+               <p>
+
+                  <s>Si quatuor grauium corporum primum, et secundum fuerint magnitudine aequalia, tertium vero, et quartum aeque grauia, fuerint autem primum, et tertium eiusdem generis, itidem secundum, et quartum; erit, ut grauitas corporis primi, ad grauitatem secundi, ita grauitas liquidi aequalis magnitudine corpori quarto, ad grauitatem liquidi tertio corpori aequalis. </s>
+               </p>
+               <p>
+
+                  <s>SINT quatuor corpora A, B, C, D, quorum A, primum, et B, secundum sint magnitudine aequalia, tertium vero C, et D, quartum aeque grauia, sint autem A, et C, eiusdem generis, itidem B, et D. </s>
+
+                  <s>Dico ut grauitas corporis A, ad grauitatem corporis B, ita esse grauitatem liquidi aequalis magnitudine corpori D, ad grauitatem liquidi magnitudine corpori C, aequalis. </s>
+
+                  <s>Accipiantur enim tria eiusdem <pb n="6"/>generis liquidi corpora E, F, G, quorum E, sit aequale corpori A, vel B, magnitudine, ipsum vero F, aequa le corpori C, et ipsum G, aequale corpori D. </s>
+
+                  <s>Quoniam igitur est ut D, ad G, ita B, ad E, aequale videlicet ad aequale, erit permutando ut D, ad B, ita G, ad E, et quoniam sunt eiusdem generis corpora D, B, similiter et corpora G, E,  erit * ut grauitas corporis D, hoc est ipsius C, ponuntur enim aeque grauia corpora C, D, ad grauitatem corporis B, ita liquidi G, grauitas ad grauitatem liquidi E. </s>
+
+                  <s>Similiter quoniam est ut A, ad E, ita C, ad F, aequale videlicet ad aequale, erit permutando ut A, ad C, ita E, ad F, et quoniam ponuntur eiusdem generis corpora A, C,  itidem E, F,* erit ut grauitas corporis A, ad grauitatem ipsius C, ita liquidi E, grauitas ad grauitatem liquidi F, sed ut grauitas corporis C, ad grauitatem corporis B; ita est grauitas liquidi G, ad grauitatem liquidi E, ut est demonstratum, ergo * in perturbata proportione erit ut grauitas corporis A, ad ipsius corporis B, grauitatem, ita liqui di G, grauitas, ad grauitatem liquidi F. si igitur quatuor grauium corporum primum, et secundum, et c. quod erat demonstrandum. </s>
+
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note10"/>2. et 3. huius.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note11"/>2. et 3. huius.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note12"/>23. 5. Elem.</s>
+               </p>
+            </div>
+            <div type="prosa-theorema">
+               <head>
+
+                  <s>THEOREMA VII. PROPOS. VII.</s>
+               </head>
+               <p>
+
+                  <s>Si quatuor grauium corporum primum, et <expan>secundum</expan>, fuerint magnitudine aequalia, tertium vero, et quartum aeque grauia, fuerint autem primum, et tertium eiusdem generis, itidem secundum, et quartum; primum ad secundum eandem in grauitate rationem habebit, quam habet in magnitudine quartum ad tertium. </s>
+               </p>
+               <p>
+
+                  <s>SINT quatuor grauia corpora A, B, C, D, quorum A, primum, et B, secundum sint magnitudine aequalia, tertium vero C, et D, quartum aeque grauia, sint autem A, et C, eiusdem generis, itidem B, et D. </s>
+
+                  <s>Dico corpus A, eandem in grauitate rationem habere ad corpus <pb n="7"/>B, quam corpus D, habet in magnitudine ad C, corpus. </s>
+
+                  <s>Sit enim liquidi magnitudine aequalis corpori C, grauitas E, similiter, et liquidi aequalis magnitudine corpori D, grauitas F, quoniam igitur grauia corpora eiusdem generis, eandem in magnitudine rationem* habent, quam in grauitate, erit ut magnitudo liquidi aequalis corpori D, ad magnitudinem liquidi aequalis corpori C, hoc est, ut magnitudo corporis D, ad magnitudinem corporis C, ita grauitas F, ad grauitatem E, sed ut grauitas F, ad grauitatem E, * ita est grauitas corporis A, ad grauitatem corporis B,* ergo ut grauitas corporis A, ad grauitatem corporis B, ita erit magnitudo corporis D, ad corporis C, magnitudinem. </s>
+
+                  <s>Si quatuor igitur grauium corporum primum, et secundum, et c. quod erat demonstrandum. </s>
+
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note13"/>2. et 3. huius.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note14"/>Ex anteced.11. 5. Elem.</s>
+               </p>
+            </div>
+            <div type="prosa-problema">
+               <head>
+
+                  <s>PROBLEMA I. PROPOS. VIII.</s>
+               </head>
+               <p>
+
+                  <s>Propositis duobus corporibus magnitudine aequalibus, uno solido, altero liquido, data solidi corporis grauitate, grauitatem liquidi inuenire. </s>
+               </p>
+               <p>
+
+                  <s>SINT duo proposita corpora magnitudine aequalia A, B, quorum A, sit solidum, B, vero liquidum, et sit solidi data grauitas CD, Oportet inuenire quanta erit grauitas liquidi B. </s>
+
+                  <s>Si solidum A, grauius sit liquido, demittatur in <expan>liquidum</expan>, et habeat in liquido grauitatem ED, quoniam igitur solidum A, grauius est liquido, demissum in liquidum erit* in liquido tanto leuius, <expan>quanta</expan> est grauitas liquidi magnitudine aequalis solido A, sed <expan>solidum</expan> A, leuius est in liquido, quanta <pb n="8"/>est grauitas CE, ergo grauitas liquidi magnitudine aequalis solido A, erit CE. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note15"/>huius</s>
+               </p>
+               <p>
+
+                  <s>Si vero solidum A, sit leuius liquido, accipiatur aliquod aliud corpus solidum F, grauius liquido, ita ut solidum constans ex utrisque solidis A, F, demissum in liquidum feratur deorsum, et sit solidi F, grauitas DG, item eiusdem solidi F, in liquido videlicet existentis sit  grauitas HG,* ergo liquidi magnitudine aequalis solido F, erit grauitas DH. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note16"/>5.huius</s>
+               </p>
+               <p>
+
+                  <s>Et quoniam solidi A, grauitas est CD, solidi vero F, grauitas DG, erit utrorumque solidorum A, F, grauitas CG. coniungantur solida A, F, et solidum ex utrisque constans demittatur in liquidum, et habeat in liquido grauitatem GI, (habebit autem in liquido minorem grauitatem, quam solum solidum F, quoniam solidum F, grauius liquido fertur deorsum nullo prohibente, et coniunctum cum solido A, leuiori liquido ab eo sustinetur, ne deorsum feratur <expan>tanta</expan> vi, qua seiunctum) quoniam igitur solidi, quod constat ex utrisque solidis A, F,  grauitas est CG, in liquido vero existentis grauitas GI, * erit liquidi habentis magnitudinem aequalem utrisque solidis A, F, grauitas CI, sed grauitas liquidi aequalis magnitudine solido F, est DH, ergo reliqui liquidi aequalis solido A, erit grauitas CD, IH, sed liquidum B, aequatur magnitudine solido A, ergo grauitas liquidi B, erit CD, IH, inuenta igitur est liquidi corporis B, grauitas CD, IH, de qua quaerebatur. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note17"/>5.huius</s>
+               </p>
+               <p>
+
+                  <s>Placet huic Problemati exemplum apponere, ut unicuique etiam disciplinae Mathematicae experto ad usum pateat aditus; quare etiam sequentibus Problematis apponemus similia exempla. </s>
+               </p>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum.</s>
+               </head>
+               <p>
+
+                  <s>Qvidam proponit aliquod corpus solidum notae grauitatis, et vult scire quanta erit grauitas liquidi, magnitudinem habentis proposito Corpori solido aequalem. </s>
+               </p>
+               <p>
+
+                  <s>Sit primum propositum aliquod corpus plumbeum A, cuius grauitas sit 23. et oporteat scire quanta erit grauitas aquae magnitudinem habentis aequalem proposito plumbo A, ponderetur plumbum A, in aqua (modum quo ponderanda sint corpora solida in aqua, inferius apponemus) et habeat grauitatem 21. quoniam igitur numerus 23. <pb n="9"/>superat numerum 21, numero 2, erit grauitas aquae magnitudinem habentis aequalem plumbo A, 2.</s>
+               </p>
+               <p>
+
+                  <s>Eadem via omnium liquidorum inuenitur grauitas, quando nimirum corpus solidum sit grauius liquido, cuius liquidi quaerenda est grauitas, hoc est quando corpus solidum demissum in liquidum feratur deorsum. </s>
+               </p>
+               <p>
+
+                  <s>Quando vero corpus solidum fuerit leuius liquido, hoc est demissum in liquidum non descendat, per adiectionem alicuius alius solidi corporis liquido grauioris, quaesita liquidi grauitas inuenietur. </s>
+               </p>
+               <p>
+
+                  <s>Sit igitur propositum aliquod cereum corpus A, cuius grauitas sit 21. et oporteat scire quanta erit grauitas aquae magnitudinem habentis aequalem cerae A. </s>
+
+                  <s>Quoniam cera leuior est, quam aqua, si demittatur in aquam non feretur deorsum, accipiatur aliquod corpus solidum F, grauius quam aqua, ita ut corpus constans ex utrisque corporibus A, F, demissum in aquam feratur deorsum, sit igitur corpus F, plumbeum, cuius grauitas sit v.g. 23, et eiusdem in aqua ponderati 21, ergo aquae magnitudinem habentis <expan>aequalem</expan> plumbo F, erit grauitas 2, </s>
+               </p>
+               <p>
+
+                  <s>Et quoniam cerae A, grauitas est 21, plumbi vero F, 23, erit utrorumque corporum A, F, cerae nimirum, et plumbi grauitas 44, coniungatur cera, et plumbum, et ita coniuncta ponderentur in aqua, et habeant grauitatem 20, quoniam igitur numerus 44, superat numerum 20, numero 24, erit grauitas aquae habentis magnitudinem aequalem utrisque corporibus cerae et plumbi 24, sed grauitas aquae magnitudinem habentis aequalem plumbo F, est 2, ergo reliquum quod est 22, erit grauitas, aquae magnitudine aequalis propositae cerae A.</s>
+               </p>
+               <p>
+
+                  <s>At vero si propositum fuerit aliquod corpus solidum magni ponderis, ita ut difficile possit ponderari in aqua, hac via inuenietur aquae quaesita grauitas. </s>
+               </p>
+               <p>
+
+                  <s>Sit aliquod corpus <expan>plumbeum</expan> A, cuius grauitas 2300, et oporteat in uenire grauitatem aquae magnitudinem habentis <expan>aequalem</expan> plumbo A, accipiatur aliquod paruum plumbi corpus F, cuius grauitas sit v.g.23, et inueniatur grauitas aquae magnitudine aequalis plumbo F, ut dictum est, quae sit. 2, et fiat ut 23, ad 2, ita 2300, ad alium numerum qui sit 200. grauitas igitur aquae magnitudinem habentis aequalem plumbo A, erit 200. </s>
+               </p>
+               <p>
+
+                  <s>Similiter sit aliquod cereum corpus A, cuius grauitas 2100, et oporteat facere, quod imperatum est. </s>
+
+                  <s>accipiatur aliquod paruum cerae corpus F, cuius grauitas sit v.g. 21, et inuenta grauitate aquae magnitudinem <pb n="10"/> habentis aequalem cerae F, quae sit 12, fiat ut 21, ad 22, ita 2100, ad alium numerum qui sit 2200; erit igitur grauitas aquae magnitudinem habentis aequalem cerae A, 2200. </s>
+               </p>
+               <p>
+
+                  <s>Neque necesse est, ut illud corpus solidum magni ponderis reipsa proponatur, sufficit enim ut eius grauitas notificetur numero tantum. </s>
+               </p>
+               <p>
+
+                  <s>Si autem propositum fuerit inuenire quanta erit grauitas argenti viui magnitudine aequalis proposito corpori solido A; ratione qua supra, non inuenietur ipsa grauitas, quoniam nullum corpus demissum in argentum viuum fertur deorsum, nisi aurum, aurum vero in ipso argento viuo perrumpitur, sed qua ratione inuenienda sit ipsa argenti viui grauitas, dicemus ad finem exempli propositionis decimae quartae. </s>
+               </p>
+               <p>
+
+                  <s>Quomodo ponderanda sint corpora solida in aqua. </s>
+               </p>
+               <p>
+
+                  <s>Corpus quod ponderandum proponitur seta equina ex altera librae lance appendatur, in altera lance ponantur pondera, et corpus appensum demittatur in aquam, ita ut in aqua libere pendeat, neque lancem, cui appensum est corpus, neque aliam in qua sunt <expan>pondera</expan> aqua contingat, et ita ponderetur propositum corpus, ac si in aere penderet.</s>
+               </p>
+               <p>
+
+                  <s>Dixi seta <corr>equina</corr> corpus ponderandum debere appendi, quia fere aeque grauis est atque aqua, et ideo nihil addet, vel minuet grauitatis in ipso corpore ponderando.</s>
+               </p>
+               <p>
+
+                  <s>Quod si corpus ponderandum fuerit, tam graue, ut seta simplici sustineri nequeat, appendatur pluribus simul iunctis setis, et ne aliquid grauitatis setarum coniunctio addat corpori ponderando, ponantur in altera lance totidem setae aequales eis, quae ex lance, cui appensum est corpus pendent, usque ad corpus appensum, hac igitur setarum additione aeque ponderabunt lances, et quamuis illae setae, quibus appensum est corpus, sint longiores, quam aliae alteri lanci addita,  longitudine partium, quibus ligatum est corpus, tamen quoniam illae partes aeque graues sunt, atque aqua, existentes cum ipso corpore in aqua, nullam grauitatem habebunt, et ideo illae setae, quae alias superant dictis partibus, et si longiores, non erunt grauiores quam aliae, existentibus, nempe, ut dictum est, illis partibus cum ipso corpore in aqua. </s>
+
+                  <s>Sic igitur in aqua ponderanda erunt solida corpora, quod animaduertisse fuit operae pretium.</s>
+               </p>
+               <pb n="11"/>
+            </div>
+            <div type="prosa-problema">
+               <head>
+
+                  <s>PROBLEMA II. PROPOS. IX.</s>
+               </head>
+               <p>
+
+                  <s>Propositis duobus corporibus magnitudine aequalibus, uno solido, altero liquido, data corporis liquidi grauitate, grauitatem solidi inuenire. </s>
+               </p>
+               <p>
+
+                  <s>SINT duo proposita corpora magnitudine aequalia, A, quidem solidum, B, vero liquidum, sit autem liquidi B, data grauitas F, et oporteat inuenire grauitatem solidi A, accipiatur aliquod corpus solidum D, <expan>eiusdem</expan> generis, cum solido A, cuius grauitas sit H, deinde liquidi eiusdem generis cum liquido B, magnitudine aequalis solido D,* inueniatur grauitas quae sit G, et fiat ut G, ad H, ita F, ad aliam grauitatem, quae sit C. </s>
+
+                  <s>Dico solidi A, grauitatem esse C, accipiatur enim aliquod corpus liquidum E, eiusdem generis cum liquido B, grauitatem habens aequalem solido D. </s>
+
+                  <s>Quoniam igitur sunt quatuor corpora grauia B, A, E, D, quorum primum B, et secundum A, sunt magnitudine aequalia, tertium vero E, et quartum D, aeque grauia, et sunt eiusdem generis corpora B, E, similiter, et corpora A, D,*erit ut grauitas liquidi aequalis magnitudine solido D, hoc est ut G, ad grauitatem liquidi E; hoc est ad H, <expan>
+                        <corr>ponuntur</corr>
+                     </expan> enim aeque grauia corpora D, E, ita grauitas F, ad solidi A, grauitatem, sed ut grauitas G, ad grauitatem H, ita est grauitas F, ad C, grauitatem, ergo grauitas C, aequalis erit grauitati solidi A. </s>
+
+                  <s>Inuenta igitur est solidi A, grauitas C, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note18"/>8.huius.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note19"/>6.huius</s>
+               </p>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum.</s>
+               </head>
+               <p>
+
+                  <s>Qvidam proponit aliquod corpus liquidum notae grauitatis, et vult scire quanta erit grauitas alicuius solidi, magnitudinem habentis proposito Corpori liquido aequalem. </s>
+               </p>
+               <p>
+
+                  <s>Sit propositum aliquod corpus aqueum B, cuius grauitas sit 100. et<pb n="12"/>oporteat scire quanta erit grauitas plumbi magnitudinem habentis aequalem propositae aquae B, verbi gratia sit vas aliquod plenum aqua, cuius aquae grauitas sit 100, et oporteat scire, si illud <expan>idem</expan> vas repleatur plumbo, quanta illius plumbi erit grauitas. </s>
+
+                  <s>Accipiatur aliquod plumbeum corpus D, cuius grauitas sit 23, deinde aquae <expan>magnitudinem</expan> habentis aequalem plumbo D, inueniatur grauitas, quod quomodo fieri oporteat iam dictum est in antecedentis problematis exemplo: sit igitur ea inuenta grauitas 2, et fiat ut 2, ad 23, ita 100, ad alium numerum qui sit 1150, is igitur numerus erit grauitas plumbi magnitudinem habentis propositae aquae B, aequalem, hoc est illius plumbi, quod in vase continetur.</s>
+               </p>
+               <p>
+
+                  <s>At vero si <expan>propositum</expan> fuerit inuenire <expan>quanta</expan> erit grauitas cerae, aut ligni, aut <expan>cuiuscunque</expan> solidi leuioris quam aqua, nihil diuersi in opere accidet, nisi quod ratio inueniendi grauitatem aquae magnitudinem habentis aequalem corpori solido leuiori, quam aqua, differt in aliquo a ratione, qua inuenitur grauitas aquae magnitudinem habentis aequalem solido corpori grauiori, quam aqua, sed utramque rationem exemplo antecedentis Problematis illustrauimus, in eo enim satis explicatum est de utraque. </s>
+               </p>
+               <p>
+
+                  <s>Sed ne exemplorum inopia laborare videamur, sit inuenienda grauitas cerae magnitudinem habentis aequalem propositae aquae B, accipiatur aliquod cereum corpus D, cuius grauitas sit 21, deinde aquae magnitudinem habentis aequalem cerae D, inueniatur grauitas, ut in antecedentis Problematis exemplo dictum est, quae grauitas sit 22, et fiat ut 22, ad 21, ita 100, hoc est grauitas aquae B, ad alium numerum qui sit 95 5/11. is igitur numerus indicabit quanta erit grauitas cerae magnitudinem habentis aequalem propositae aquae B.</s>
+               </p>
+               <p>
+
+                  <s>Similiter si propositum liquidum corpus B, fuerit olei, aut vini, aut cuiuscumque liquidi, praeter argenti viui, eadem omnino via, qua ante, inuenietur quaesita corporis solidi grauitas, sed de argento viuo tractabimus ad finem propositionis decimae quartae. </s>
+               </p>
+            </div>
+            <div type="prosa-problema">
+               <head>
+
+                  <s>PROBLEMA <num value="3">III</num>. PROPOS. X.</s>
+               </head>
+               <p>
+
+                  <s>Propositis duobus corporibus aeque grauibus, uno solido, altero liquido, data solidi corporis magnitudine,<pb n="13"/> magnitudinem liquidi inuenire. </s>
+               </p>
+               <p>
+
+                  <s>SINT duo proposita corpora aeque grauia, A, quidem solidum B, vero liquidum, sit autem solidi A, data magnitudo C, et oporteat inuenire quanta erit magnitudo liquidi B, Accipiatur aliquod corpus solidum D, eiusdem generis cum solido A, et sit eius grauitas G, et liquidi, quod sit E, eiusdem gener is cum liquido B, magnitudinem habentis aequalem solido D,* inueniatur grauitas quae sit H, et fiat ut grauitas H, ad grauitatem G, ita magnitudo C, ad aliam magnitudinem quae sit F. </s>
+
+                  <s>Quoniam igitur sunt quatuor corpora grauia E, D, B, A, quorum primum E, et secundum D, sunt aequalia magnitudine, tertium vero B, et quartum A, aeque grauia, et sunt eiusdem generis corpora E, B, similiter, et corpora D, A, *erit ut grauitas H, ad grauitatem G, ita magnitudo C, ad liquidi B, magnitudinem, sed ut grauitas H, ad grauitatem G, ita est magnitudo C, ad magnitudinem F, ergo magnitudo F, aequalis erit magnitudini liquidi B, inuenta igitur est liquidi corporis B, magnitudo F, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note20"/>8.huius</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note21"/>7.huius</s>
+               </p>
+               <p>
+
+                  <s>Sed quoniam corporum regularium magnitudo quoque exprimitur latere eiusdem corporis, vel diametro, si proposita duo corpora A, B, fuerint regularia, utpote <corr>sphaerica</corr>, fuerit autem sphaerae A, data diameter C, et oporteat inuenire quanta erit diameter sphaerae B. ita faciendum erit. </s>
+               </p>
+               <p>
+
+                  <s>Accepto, ut diximus, aliquo corpore solido D, eiusdem generis <expan>cum</expan> sphaera A, et inuenta grauitate liquidi E, ut supra, fiat ut grauitas H, ad grauitatem G, ita cubus ex C, ad alium cubum, cuius latus sit F, dico ipsum latus F, aequale esse diametro sphaerae B. </s>
+
+                  <s>Quoniam enim eadem ratione qua supra demonstrabitur, ut grauitas H, ad grauitatem G, ita esse magnitudinem sphaerae A, ad sphaerae B, magnitudinem, sed magnitudo sphaerae A, ad magnitudinem sphaerae B,* triplicatam rationem habet eius, quam C, diameter sphaerae A, ad diametrum sphaerae B, similiter et cubus ex C, ad cubum ex diametro sphaerae B, <pb n="14"/> 
+                     <corr>triplicatam</corr>* rationem habet eius, quam C, ad diametrum sphaerae, B, ergo ut grauitas H, ad grauitatem G, ita erit cubus ex C, ad cubum ex diametro sphaerae B, sed ut grauitas H, ad grauitatem G, sta est cubus ex C, ad cubum ex F, ergo cubus ex F, aequalis erit cubo diametri sphaerae B; quare et latus F, aequabitur sphaerae B, diametro. </s>
+
+                  <s>inuenta igitur est quantitas diametri liquidae sphaerae, B, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note22"/>18.12. Elem.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note23"/>33.12. Elem.</s>
+               </p>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum.</s>
+               </head>
+               <p>
+
+                  <s>Qvidam proponit aliquod corpus solidum notae magnitudinis, et vult scire quanta erit magnitudo alicuius liquidi, grauitatem habentis proposito corpori solido aequalem. </s>
+               </p>
+               <p>
+
+                  <s>Sit propositum aliquod corpus plumbeum A, cuius magnitudo sit 10, et oporteat scire quanta erit magnitudo aquae grauitatem habentis aequalem proposito plumbo A, accipiatur aliquod corpus <expan>plumbeum</expan> D, cuius grauitas 23, deinde aquae magnitudinem habentis aequalem plumbo D, inueniatur grauitas, ut in exemplo <abbr>propos.</abbr> 8. dictum est, quae sit 2, et fiat ut 2, ad 23, ita 10, ad alium numerum qui sit 115, is igitur indicabit quanta erit magnitudo aquae grauitatem habentis aequalem proposito plumbo A.</s>
+               </p>
+               <p>
+
+                  <s>Quod si <expan>propositum</expan> corpus plumbeum A sit regulare ut pote sphaericum, cuius sphaerae diameter sit 10, et oporteat inuenire quanta erit diameter sphaerae ex aqua, grauitatem habentis aequalem propositae sphaerae A, ita faciendum erit. </s>
+               </p>
+               <p>
+
+                  <s>Accipiatur, ut diximus, aliquod corpus plumbeum D, cuius grauitas 23, deinde aquae habentis magnitudinem aequalem plumbo D, inueniatur grauitas quae sit 2, et fiat ut 2, ad 23, ita cubus ex 10, qui est 1000, ad alium numerum qui sit 11500, is igitur numerus erit cubus diametri sphaerae ex aqua grauitatem habentis aequalem propositae sphaerae A, quare eius latus cubicum, quod est 22 57/100. <expan>proximum</expan> vero indicabit ipsam diametrum.</s>
+               </p>
+               <p>
+
+                  <s>Similiter si propositum corpus plumbeum A, fuerit cubicum, vel alicuius alterius formae regularis, eadem ratione inueniemus latus cubi ex aqua grauitatem habentis aequalem proposito cubo A, nam si cubi A, datum sit latus 10, erit numerus 11500, cubus ex aqua aequalis grauitate proposito cubo A, quare latus cubicum numeri 11500, quod<pb n="15"/>est 22 17/100. <expan>proximum</expan> vero indicabit quaesitum latus cubi ex aqua.</s>
+               </p>
+               <p>
+
+                  <s>Neque dissimili ratione inuenietur magnitudo olei, aut argenti viui, aut cuiuscumque generis liquidi grauitatem habetis proposito corpori solido aequalem, sed quomodo inuenienda sit grauitas argenti viui magnitudinem habentis aequalem corpori solido, docebimus post exemplum propositionis decimae quartae. </s>
+               </p>
+            </div>
+            <div type="prosa-problema">
+               <head>
+
+                  <s>PROBLEMA IV. PROPOS. XI.</s>
+               </head>
+               <p>
+
+                  <s>Propositis duobus corporibus aeque grauibus, uno solido, altero liquido, data liquidi corporis magnitudine, magnitudinem solidi inuenire. </s>
+               </p>
+               <p>
+
+                  <s>SINT proposita duo corpora aequae grauia, A, quidem solidum, B, vero liquidum, sit autem, liquidi B; data magnitudo F, et oporteat solidi A, magnitudinem inuenire. </s>
+
+                  <s>Accipiatur aliquod corpus solidum D, <expan>eiusdem</expan> generis cum corpore solido A, cuius grauitas sit G, deinde liquidi quod sit E, eiusdem generis cum corpore liqui do B, magnitudinem aequalem habentis solido D, *inueniatur grauitas, quae sit H, et fiat ut grauitas G; ad grauitatem H, ita F, magnitudo, ad aliam magnitudinem, quae sit C; quoniam igitur sunt quatuor corpora D, E, A, B, quorum primum D, et secundum E, sunt magnitudine aequalia, tertium vero A, et <expan>quartum</expan> B, aequae grauia, et sunt eiusdem generis solida D, A, similiter, et liquida E, B,* erit ut grauitas G, ad grauitatem H, ita F, magnitudo ad magnitudinem solidi A, sed ut grauitas G, ad grauitatem H, ita est magnitudo F, ad C, magnitudinem, ergo magnitudo C, aequalis erit magnitudini corporis solidi A, inuenta igitur est corporis solidi A, magnitudo C, quod erat faciendum. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note24"/>8.huius</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note25"/>7.huius</s>
+               </p>
+               <p>
+
+                  <s>Qvod si proposita duo corpora aeque grauia A, B, fuerint regularia utpote sphaerica, fuerit autem liquidae<pb n="16"/> sphaerae B, data diameter F, et oporteat inuenire quanta erit diameter solidae sphaerae A, ita faciendum erit. </s>
+               </p>
+               <p>
+
+                  <s>Accepto ut supra corpore solido D, et liquidi E, inuenta grauitate, ut dictum est, fiat ut grauitas G, ad prauitatem H, ita cubus ex F, ad alium cubum, cuius latus sit C, Quoniam igitur eadem ratione qua supra ostendetur, ut grauitas G, ad grauitatem H, ita esse magnitudinem sphaerae B, ad sphaerae A, magnitudinem, sed magnitudo sphaerae B,  ad magnitudinem sphaerae A, *triplicatam rationem habet eius, quam F, diameter sphaerae B, ad diametrum sphaerae A, similiter, et cubus ex  F, ad cubum ex diametro sphaerae A, <expan>triplicatam*</expan> rationem habet eius, quam F, ad diametrum sphaerae A, ergo, ut grauitas G, ad <expan>grauitatem</expan> H, ita erit cubus ex F, ad cubum ex diametro sphaerae A, sed ut grauitas G, ad grauitatem H, ita est cubus ex F, ad cubum ex C, ergo cubus ex C, aequalis erit cubo diametri sphaerae A, quare, et latus C, aequabitur ipsius sphaerae A, diametro, inuenta igitur est quantitas diametri solidae sphaerae A, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note26"/>18.12. Elem.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note27"/>33.11. Elem.</s>
+               </p>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum.</s>
+               </head>
+               <p>
+
+                  <s>Qvidam proponit aliquod corpus liquidum notae magnitudinis, et vult inuenire quanta erit magnitudo alicuius solidi grauitatem habentis proposito corpori liquido aequalem. </s>
+               </p>
+               <p>
+
+                  <s>Sit propositum aliquod corpus aqueum B, cuius magnitudo sit 115, et oporteat inuenire quanta erit magnitudo plumbi grauitatem habentis aequalem propositae aquae B, accipiatur aliquod corpus <expan>plumbeum</expan> D, cuius grauitas sit verbi gratia 23, deinde aquae magnitudinem <corr>habentis</corr> aequalem plumbo D, inueniatur grauitas quae sit 2. id autem docuit propositionis octauae exemplum, et fiat ut 23, ad 2, ita 115, ad alium numerum qui sit 10, is igitur numerus indicabit quanta erit magnitudo plumbi grauitatem habentis aequalem propositae aquae B.</s>
+               </p>
+               <p>
+
+                  <s>Quod si propositum corpus aqueum B, sit sphaericum, cuius sphaerae diameter sit 10, et oporteat inuenire quanta erit diameter sphaerae ex plumbo, grauitatem habentis aequalem propositae sphaerae B, ita faciendum erit. </s>
+               </p>
+               <p>
+
+                  <s>Accepto, ut diximus aliquo corpore plumbeo D, cuius grauitas 23, et aquae magnitudinem habentis aequalem plumbo D, inuenta grauitate <pb n="17"/> 2, fiat ut 23, ad 2, ita cubus ex 10, hoc est 1000, ad alium numerum qui sit 86 22/23<add>31</add> is igitur numerus erit cubus diametris sphaerae ex plumbo, grauitatem aequalem habentis proposite ex aqua sphaerae B, quare eius latus cubicum, quod est 4 41/100<add>31</add> fere, indicabit ipsam diametrum.</s>
+               </p>
+               <p>
+
+                  <s>Similiter si propositum corpus aqueum B, fuerit cubicum, vel alicuius alterius formae regularis, eadem ratione utemur ad inueniendum latus cubi ex plumbo, grauitatem habentis aequalem proposito ex aqua tubo B, nam si ex aqua cubi B, datum sit latus 10, erit numerus 86 22/2<gap/>
+                     <add>31</add> cubus ex plumbo aequalis grauitate proposito ex aqua cubo B, quare latus cubicum numeri 86 22/2<gap/>
+                     <add>31</add> quod est 4 41/100<add>31</add> fere, indicabit quaesitum latus cubi ex plumbo.</s>
+               </p>
+               <p>
+
+                  <s>Neque dissimili ratione inuenienda erit magnitudo auri, argenti, cerae, aut cuiuscunque solidi, grauitatem habentis proposito corpori liquido aequalem. </s>
+               </p>
+            </div>
+            <div type="prosa-problema">
+               <head>
+
+                  <s>PROBLEMA V. PROPOS. XII.</s>
+               </head>
+               <p>
+
+                  <s>Propositis duobus solidis corporibus magnitudine aequalibus, data grauitate unius, grauitatem alterius inuenire. </s>
+               </p>
+               <p>
+
+                  <s>SINT proposita duo corpora solida magnitudine aequalia A, B, sit autem unius, utpote ipsius A, data grauitas C, et oporteat inuenire grauitatem ipsius B. </s>
+
+                  <s>Accipiatur aliquod solidum corpus D, eiusdem generis cum corpore solido A, cui aequale grauitate accipiatur alterum E, eiusdem generis cum corpore B, deinde liquidi magnitudine aequalis corpori D, *inueniatur grauitas, quae sit G, item liquidi eiusdem generis, aequalis magnitudine corpori E,* inueniatur grauitas, quae sit H, et fiat ut H, ad G, ita C, ad aliam grauitatem, quae sit F. </s>
+
+                  <s>Quoniam igitur sunt quatuor corpora A, B, D, E, quorum A, B, primum videlicet, et secundum sunt aequalia magnitudine, tertium vero D, et E, quartum aeque grauia, et sunt <expan>eiusdem</expan> generis solida A, D, itidem solida B, E, *erit ut grauitas C, ad solidi B, grauitatem, ita grauitas H, ad grauitatem G, sed <pb n="18"/>ut grauitas H, ad <expan>grauitatem</expan> G, ita est grauitas C, ad F, grauitatem; ergo grauitas F, aequalis erit grauitati solidi B, inuenta igitur est corporis solidi B, grauitas F, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note28"/>8.huius</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note29"/>5.huius</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note30"/>6.huius</s>
+               </p>
+               <p>
+
+                  <s>Hoc Problema magni momenti est, plerisque artificibus maximo usui esse potest. </s>
+
+                  <s>in arte fusoria proposito operis modulo, ex illius grauitate, facile metalli ad opus faciendum, grauitatem inueniet, si enim hoc ignoret artifex, periculum est, ne metallum, aut deficiat, vel si multum est, ob nimiam grauitatem difficile tractetur. </s>
+               </p>
+               <p>
+
+                  <s>Neque tormenti bellici magistro inutile erit, is enim cognita grauitate alicuius globi, exempli gratia ex plumbo, statim alterius globi eiusdem magnitudinis, vel sit ex lapide, vel ex <corr>ferro</corr>, vel ex quacunque alia materia, grauitatem inueniet. </s>
+               </p>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum.</s>
+               </head>
+               <p>
+
+                  <s>Qvidam proponit aliquod corpus solidum notae grauitatis, et vult scire quanta erit grauitas alicuius solidi, alterius generis, magnitudinem habentis proposito corpori solido aequalem. </s>
+               </p>
+               <p>
+
+                  <s>Sit propositum aliquod corpus plumbeum A, cuius grauitas sit 1150, et oporteat inuenire quanta erit grauitas stanni <expan>magnitudinem</expan> habentis aequalem proposito plumbo A. </s>
+
+                  <s>Accipiantur duo corpora aeque grauia, D, plumbeum, E, stanneum, deinde duarum quantitatum, aquae, quarum una sit aequalis magnitudine plumbo D, altera stanno E, <expan>inueniantur</expan> grauitates, quae sint, primae videlicet quantitatis aquae 74, secundae vero 115, et fiat ut 115, ad 74, ita 1150, ad alium numerum, qui sit 740, is igitur numerus indicabit grauitatem stanni, magnitudinem habentis proposito plumbo A.</s>
+               </p>
+               <p>
+
+                  <s>Etiam si non accipiantur duo corpora, plumbeum videlicet et stanneum, aeque grauia, sed grauitate quacunque, grauitas stanni magnitudinem habentis aequalem proposito plumbo D, inuenietur sic. </s>
+               </p>
+               <p>
+
+                  <s>Accipiantur duo corpora D, plumbeum, E, stanneum grauitate quacunque, sit <corr>verbi</corr> gratia plumbi D, grauitas 23, stanni vero E, grauitas 37, deinde duarum quantitatum aquae, quarum una sit magnitudine aequalis plumbo D, altera stanno E, inueniantur grauitates, quae sint, primae videlicet quantitatis 2, secundae vero 5, et fiat,<pb n="19"/>ut 23, ad 2, ita 37, ad 3 5/21. grauitas igitur aquae, magnitudinem habentis aequalem plumbo, cuius grauitas est 37, erit 3 5/21. </s>
+               </p>
+               <p>
+
+                  <s>Et quoniam aquae, magnitudinem habentis aequalem stanno E, cuius grauitas est 37, est grauitas 5, erunt grauitates duarum quantitatum aquae 3 5/21, et 5, quarum quantitatum prima est aequalis magnitudine corpori plumbeo, secunda stanneo, quae sunt aeque grauia, utriusque enim grauitas est 37. Fiat igitur ut 5, ad 3 5/21, it a 1150, ad alium numerum, qui sit 740, tanta igitur erit grauitas stanni, magnitudinem habentis aequalem proposito plumbo A, quanta etiam inueniebatur et supra.</s>
+               </p>
+               <p>
+
+                  <s>Quod si propositum sit cereum corpus aliquod, aut cuiuscunque generis solidi, siue leuioris quam aqua, siue grauioris, et oporteat inuenire grauitatem alicuius solidi alterius generis, magnitudine aequalis proposito corpori solido. </s>
+
+                  <s>Eadem ratione qua supra inuenietur quaesita solidi grauitas, sed hoc solum animaduertendum est, quod non eadem ratione inuenitur grauitas aquae, magnitudinem habentis aequalem proposito cuiuscunque generis solido, alia enim tenenda est ratio ad inueniendam grauitatem praedictae aquae, quando propositum solidum sit grauius quam aqua, alia vero quando leuius, sed siue sit leuius, siue grauius, de inuentione huiusmodi grauitatis, in exemplo propositionis octauae, satis est explicatum. </s>
+               </p>
+            </div>
+            <div type="prosa-problema">
+               <head>
+
+                  <s>PROBLEMA VI. PROPOS. XIII.</s>
+               </head>
+               <p>
+
+                  <s>Propositis duobus solidis corporibus aeque grauibus, data magnitudine unius, magnitudinem alterius inuenire. </s>
+               </p>
+               <p>
+
+                  <s>SINT proposita duo corpora solida aeque grauia A, B, sit autem unius, utpote ipsius A, data magnitudo C, et oporteat inuenire magnitudinem ipsius B, Accipiatur aliquod solidum corpus D, eiusdem generis cum solido A, et sit eius grauitas G, deinde solidi corporis quod sit E, eiusdem generis cum solido B, magnitudine aequalis ipsi D, inueniatur grauitas, quae sit H, hoc autem, Problema antecedens docuit, et fiat ut grauitas H, ad grauitatem G, ita magnitudo C, ad aliam magnitudinem, quae sit F. </s>
+
+                  <s>Quoniam igitur <pb n="20"/>sunt quatuor corpora grauia E, D, B, A, quorum E, D, primum videlicet, et secundum, sunt aequalia magnitudine, tertium vero B, et quartum A, aeque grauia, et sunt eiusdem generis corpora E, B, similiter et corpora  D, A, * erit ut grauitas H, ad grauitatem G, ita magnitudo C, ad corporis B, magnitudinem, sed ut grauitas H, ad grauitatem G, ita est magnitudo C, ad F, magnitudinem, ergo magnitudo F, aequalis erit magnitudini corporis B. inuenta igitur est corporis B, magnitudo F, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note31"/>7.huius</s>
+               </p>
+               <p>
+
+                  <s>Quod si proposita duo corpora aeque grauia A, B, fuerint regularia, utpote sphaerica, fuerit autem sphaerae A, data diameter C, et oporteat inuenire, quanta erit diameter sphaerae B, ita faciendum erit. </s>
+               </p>
+               <p>
+
+                  <s>Accepto corpore solido D, et inuenta solidi corporis E, grauitate, ut supra dictum est, fiat ut grauitas H, ad grauitatem G, ita cubus ex C, ad alium cubum, cuius latus sit F. </s>
+
+                  <s>Quoniam igitur eadem ratione, qua supra, demonstrabitur, ut grauitas H, ad grauitatem G, ita esse magnitudinem sphaerae A, ad sphaerae B, magnitudinem, sed  magnitudo sphaerae A, ad sphaerae B, magnitudinem * triplicatam rationem habet eius, quam C, diameter sphaerae A, ad diametrum sphaerae B. </s>
+
+                  <s>Similiter et cubus ex C, ad cubum, ex diametro sphaerae B, *triplicatam rationem habet eius, quam C, ad sphaerae B, diametrum; ergo ut grauitas H, ad grauitatem G, ita erit cubus ex C, ad cubum ex diametro sphaerae B, sed ut grauitas H, ad grauitatem G, ita est cubus ex C, ad cubum ex F; ergo cubus ex F, aequalis erit cubo diametri sphaerae B; quare et latus F, aequabitur sphaerae B, diametro. </s>
+
+                  <s>inuenta igitur est quantitas diametri sphaerae B, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note32"/>18.12. Elem.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note33"/>33.11. Elem.</s>
+               </p>
+               <p>
+
+                  <s>Neque hoc Problema inutile erit tormenti bellici magistro, is enim cognita diametro alicuius globi, exempli gratia, ex plumbo, statim alterius globi eandem habentis grauitatem, diametrum inueniet, sit globus ille, vel ex lapide, vel ex ferro, vel ex quocunque alio solidorum genere. </s>
+               </p>
+               <pb n="21"/>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum.</s>
+               </head>
+               <p>
+
+                  <s>Qvidam proponit aliquod corpus solidum notae magnitudinis, et vult inuenire, quanta erit magnitudo alicuius solidi alterius generis, grauitatem habentis proposito corpori solido aequalem. </s>
+               </p>
+               <p>
+
+                  <s>SIT propositum aliquod corpus plumbeum A, cuius magnitudo 740, et oporteat inuenire quanta erit magnitudo stanni, grauitatem habentis aequalem proposito plumbo A. </s>
+
+                  <s>Accipiatur aliquod corpus plumbeum D, cuius grauitas sit 115, deinde stanni, magnitudine aequalis plumbo D, inueniatur grauitas, quae sit 74, quod quomodo fieri oporteat, dictum est in antecedentis Problematis exemplo, et fiat ut 74, ad 115. ita 740, ad alium numerum qui sit 1150, is igitur <corr>numerus</corr> indicabit quanta erit magnitudo stanni, grauitatem habentis aequalem proposito plumbo A.</s>
+               </p>
+               <p>
+
+                  <s>Quod si propositum corpus plumbeum A, sit sphaericum, cuius sphaerae diameter sit 10, et oporteat inuenire quanta erit diameter sphaerae ex stanno, grauitatem habentis aequalem propositae sphaerae A, ita faciendum erit. </s>
+               </p>
+               <p>
+
+                  <s>Accipiatur ut diximus aliquod corpus plumbeum D, cuius grauitas sit 115, et stanni, magnitudinem habentis aequalem plumbo D, inueniatur grauitas, quae sit 74. et fiat ut 74, ad 115, ita cubus ex 10, qui est 1000, ad alium numerum qui sit 1554 2/17, is igitur numerus erit cubus diametri sphaerae ex stanno, grauitatem habentis aequalem propositae ex plumbo sphaerae A, quare eius latus cubicum, quod est 11 52/100, vero proximum, indicabit ipsam diametrum.</s>
+               </p>
+               <p>
+
+                  <s>Similiter si propositum corpus plumbeum A, fuerit cubicum, vel alicuius alterius formae regularis, eadem ratione inuenietur latus cubi ex stanno, grauitatem habentis aequalem proposito plumbeo cubo A, si enim ipsius cubi plumbei A, datum sit latus 10, erit numerus 1554 2/17<add>31</add> cubus ex stanno aequalis grauitate proposito plumbeo Cubo A, quare latus cubitum numeri 1554 2/17<add>31</add> quod est 11 52/100<add>31</add> proximum vero; indicabit quae situm latus.</s>
+               </p>
+               <p>
+
+                  <s>Neque dissimili ratione inuenienda erit magnitudo auri, argenti, caerae, aut cuiuscumque solidi, grauitatem habentis proposito corpori solido aequalem. </s>
+               </p>
+               <pb n="22"/>
+            </div>
+            <div type="prosa-problema">
+               <head>
+
+                  <s>PROBLEMA VII. PROPOS. XIV.</s>
+               </head>
+               <p>
+
+                  <s>Propositis duobus liquidis corporibus magnitudine aequalibus, data grauitate unius, grauitatem alterius inuenire. </s>
+               </p>
+               <p>
+
+                  <s>SINT proposita duo <sic>corra</sic> liquida, magnitudine aequalia A, B, sit autem unius, utpote liquidi A, data grauitas G, et oporteat alterius liquidi B, grauitatem inuenire. </s>
+
+                  <s>Accipiatur aliquod corpus solidum C, et liquidi, quod sit H, eiusdem generis cum liquido A, magnitudine aequalis solido C, *inueniatur grauitas, quae sit D, similiter et liquidi, quod sit I, eiusdem generis cum liquido B, magnitudine aequalis eidem solido C,  * inueniatur grauitas, quae sit E, et fiat ut D, ad E, ita G, ad aliam grauitatem, quae sit F. </s>
+
+                  <s>Quoniam igitur est ut A, ad B, ita H, ad I, aequale videlicet ad aequale, erit permutando ut A, ad H, ita B, ad I, et quoniam eiusdem sunt generis corpora A, H, similiter et corpora B, I, * erit ut grauitas G, ad grauitatem D, ita liquidi B, grauitas, ad grauitatem E, et permutando ut grauitas G, ad grauitatem liquidi B, ita D, grauitas, ad grauitatem E, sed ut grauitas D, ad grauitatem E, ita est grauitas G, ad grauitatem F; ergo grauitas F, aequalis erit grauitati liquidi B. inuenta igitur est liquidi corporis B, grauitas F, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note34"/>2.huius</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note35"/>3.huius</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note36"/>4.huius</s>
+               </p>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum.</s>
+               </head>
+               <p>
+
+                  <s>Qvidam proponit aliquod corpus liquidum notae grauitatis, et vult scire, quanta erit grauitas alterius liquidi, magnitudinem habentis proposito corpori liquido aequalem. </s>
+               </p>
+               <p>
+
+                  <s>Sit propositum aliquod olei corpus A, cuius grauitas 550, et oporteat inuenire, quanta erit grauitas aquae, magnitudinem habentis <pb n="23"/> aequalem proposito oleo A, Accipiatur aliquod corpus solidum C, utpote plumbeum, et aquae, magnitudinem habentis aequalem plumbo C, inueniatur grauitas, quae sit 12, ut in exemplo <abbr>propos.</abbr> 8. <expan>dictum</expan> est. </s>
+
+                  <s>Similiter et olei, magnitudinem aequalem habentis, eidem plumbo C, inueniatur grauitas, quae sit 11, et fiat, ut 11, ad 12, ita 550, ad <expan>alium</expan> numerum qui sit 600. is igitur numerus indicabit quanta erit grauitas aquae, magnitudinem habentis aequalem proposito oleo A.</s>
+               </p>
+               <p>
+
+                  <s>Si vero propositum sit aliquod argenti viui corpus A, cuius grauitas 95, et oporteat inuenire, quanta erit grauitas aquae, <corr>magnitudinem</corr> habentis aequalem proposito argento viuo A. </s>
+
+                  <s>Accipiatur aliquod vas vitreum mundum, et politum, cuius grauitas sit v. g. 91. <expan>ipsumque</expan> vas plenum aqua ponderetur in aqua, et habeat grauitatem 55, quoniam igitur numerus 91, superat <expan>numerum</expan> 55, numero 36, * erit grauitas aquae, magnitudinem habentis aequalem ipsi vasi, hoc est soliditati ipsius vasis 36, ponatur deinde in ipsum vas propositum argentum <expan>viuum</expan> A, nihil interest, ut vas sit plenum, vel non, et quoniam argenti viui A, grauitas est 95, et vasis vitrei grauitas 91, erit argenti viui simul cum ipso vase, grauitas 186. ponderetur itaque ipsum vas, simul cum argento viuo A, in aqua, ita ut aqua repleat vasis partem vacuam, et sit vasis grauitas in aqua simul cum argento viuo 143, quoniam igitur numerus 186, superat numerum 143, numero 43, * erit grauitas aquae, <expan>magnitudinem</expan> 
+                     <expan>bibentis</expan> aequalem argento viuo, simul <expan>cum</expan> vase 43, sed grauitas aquae habentis magnitudinem aequalem vasi est 36, ergo reliquum quod est 7, erit grauitas aquae, magnitudinem <corr>habentis</corr> aequalem proposito argento viuo A.</s>
+
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note37"/>5.huiu</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note38"/>5.huiu</s>
+               </p>
+               <p>
+
+                  <s>Sed si propositum fuerit aliquod magnum argenti viui <corr>corpus</corr>, ita ut difficile possit ponderari in aqua, hac via inuenietur aquae quaesita grauitas. </s>
+               </p>
+               <p>
+
+                  <s>Sit propositum aliquod magnum argenti viui corpus A, cuius grauitas 5700. et oporteat facere, quod imperatum est. </s>
+
+                  <s>Accipiatur aliquod paruum argenti viui corpus C, cuius grauitas sit 95, et aquae, magnitudinem habentis aequalem argento viuo C, inueniatur grauitas, eo modo quo dictum est, quae sit 7, et fiat ut 95, ad 7, ita 5700, ad alium numerum, qui sit 420, is igitur numerus indicabit quanta erit grauitas aquae, magnitudinem habentis aequalem proposito argento viuo A.</s>
+               </p>
+               <p>
+
+                  <s>Contra, sit propositum aliquod corpus aqueum A, cuius grauitas 420, et oporteat inuenire quanta erit grauitas argenti viui, magnitudine aequalis propositae aquae A. facto, ut supra, et inuenta grauitate 7, aquae scilicet magnitudinem habentis aequalem <expan>argento</expan> viuo C,<pb n="24"/>fiat ut 7, ad 95, ita 420, ad alium numerum, qui sit 5700, is igitur indicabit quanta erit grauitas argenti viui, magnitudine aequalis propositae aquae A.</s>
+               </p>
+               <p>
+
+                  <s>Inueniemus etiam aliter, et expeditius grauitatem aquae, magnitudinem habentis aequalem proposito argento viuo A. </s>
+               </p>
+               <p>
+
+                  <s>Accipiatur enim aliquod corpus aureum, cui superinducatur cerea tunica tenuissima, ne fiat argento viuo leuius, neue ab <expan>eodem</expan> dissoluatur, deinde aquae, magnitudinem habentis aequalem ipsi corpori an reo inueniatur grauitas, ut dictum est in <abbr>propos.</abbr> 8. exemplo, quae sit 7, similiter et argenti viui, ut aquae, magnitudinem habentis aequalem eidem corpori aureo, inueniatur grauitas, quae sit 95, et fiat ut 95, ad 7, ita 5700, ad 420, grauitas igitur aquae, magnitudinem habentis aequalem argento viuo A, erit 420. </s>
+               </p>
+               <p>
+
+                  <s>Contra. </s>
+
+                  <s>sit propositum aliquod corpus aqueum, cuius grauitas 420, et oporteat inuenire, quanta erit grauitas argenti viui, magnitudine aequalis propositae aquae A. </s>
+
+                  <s>Superinducta corpori aureo cerea tunica, ut supra, et inuentis grauitatibus 7, et 95, aquae nimirum, et argenti <corr>viui</corr>, magnitudine aequalium praedicto aureo corpori, fiat ut 7, ad 95, ita 430, ad 5700 grauitas igitur argenti viui, magnitudine aequalis proposito corpori aqueo A, erit 5700. </s>
+               </p>
+               <p>
+
+                  <s>Qua ratione inuenienda sit grauitas argenti viui, magnitudinem habentis proposito cuicunque corpori solido aequalem. </s>
+               </p>
+               <p>
+
+                  <s>Sit propositum aliquod corpus solidum, utpote plumbeum A, cuius grauitas 161, et oporteat inuenire quanta erit grauitas argenti viui magnitudine aequalis proposito plumbo A. inueniatur grauitas aquae magnitudinem habentis aequalem plumbo A, ut in exemplo propositionis 8, dictum est, quae sit 14, et inuenta grauitate argenti viui, magnitudine aequalis ipsi aquae, ea erit de qua quaeritur, sit enim inuenta argenti viui grauitas 190. <expan>Quoniam</expan> igitur argentum viuum, cuius grauitas est 190, magnitudine aequatur aquae, cuius grauitas est 14, ipsique aquae aequatur magnitudine plumbum A, erit argentum viuum, cuius grauitas 190, magnitudine proposito plumbo A, aequale; quare inuenta est grauitas argenti viui, magnitudine aequalis proposito plumbo A, quod facere oportebat.</s>
+               </p>
+               <p>
+
+                  <s>Quomodo inuenienda sit grauitas cuiuscunque cor-<pb n="25"/>poris solidi, magnitudinem habentis proposito corpori ex argento viuo aequalem. </s>
+               </p>
+               <p>
+
+                  <s>Sit propositum aliquod corpus ex argento viuo A, cuius grauitas 190, et oporteat inuenire quanta erit grauitas plumbi, magnitudine aequalis proposito argento viuo A. inueniatur grauitas aquae, magnitudinem habentis aequalem argento viuo A, quae sit 14, deinde inuenta grauitate plumbi, magnitudine aequalis ipsi aquae, ut in exemplo <abbr>propos.</abbr> 9. dictum est, ea erit de qua quaeritur. </s>
+
+                  <s>sit enim inuenta plumbi grauitas 161, quoniam igitur aqua, cuius grauitas est 14, aequatur magnitudine plumbo, cuius grauitas est 161, et aequatur quoque argento viuo A, plumbum cuius grauitas est 161, aequabitur magnitudine argento viuo A. quare inuenta, est grauitas plumbi, magnitudine aequalis proposito argento viuo A, quod facere oportebat.</s>
+               </p>
+            </div>
+            <div type="prosa-problema">
+               <head>
+
+                  <s>PROBLEMA VIII. PROPOS. XV.</s>
+               </head>
+               <p>
+
+                  <s>Propositis duobus liquidis corporibus aeque grauibus, data magnitudine unius, magnitudinem alterius inuenire. </s>
+               </p>
+               <p>
+
+                  <s>SINT proposita duo corpora liquida aeque grauia A, B, sit autem unius ut pote liquidi A, data magnitudo G, et oporteat inuenire quanta erit magnitudo liquidi B. </s>
+
+                  <s>Accipiatur aliquod solidum cor pus C, et liquidi quod sit H, eiusdem generis cum liquido A, magnitudinem habentis aequalem solido C, * inueniatur grauitas quae sit D, <corr>similiter</corr> et liquidi, quod sit I, <corr>eiusdem</corr> generis cum liquido B, <corr>magnitudinem</corr> habentis aequalem eidem solido C, * inueniatur grauitas,quae sit E, et fiat ut grauitas E, ad grauitatem D, ita magnitudo G, ad <sic>ad</sic> aliam <expan>magnitudinem</expan>, quae <corr>sit</corr> F. </s>
+
+                  <s>Quoniam igitur sunt quatuor corpora grauia I, H, B, A, quorum primum, et secundum sunt magnitudine aequalia, tertium vero, et quartum aeque grauia, et sunt eiusdem generis primum videlicet, et tertium, similiter eiusdem generis <pb n="26"/>secundum et quartum, * Erit ut grauitas E, ad grauitatem D, ita magnitudo G, ad liquidi B, magnitudinem, sed ut grauitas E, ad grauitatem D, ita est magnitudo G, ad F, magnitudinem; ergo magnitudo F, aequalis erit magnitudini liquidi B. inuenta igitur est corporis liquidi B, magnitudo F, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note39"/>8.huius</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note40"/>8.huius</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note41"/>7.huius</s>
+               </p>
+               <p>
+
+                  <s>Quod si proposita duo corpora aeque grauia fuerint regularia, utpote sphaerica, fuerit autem sphaerae A, data diameter G, et oporteat inuenire, quanta erit diameter sphaerae B, ita faciendum erit. </s>
+               </p>
+               <p>
+
+                  <s>ACCEPTO aliquo cor pore solido C, et inuentis grauitatibus D, E, <expan>liquidorum</expan> H, I, ut supra, fiat ut grauitas E, ad grauitatem D, ita cubus ex G, ad alium cubum, cuius latus sit F. </s>
+
+                  <s>Quoniam igitur eadem ratione, qua supra ostendetur, ut grauitas E, ad grauitatem D, ita esse magnitudinem sphaerae A, ad sphaerae B, magnitudinem, sed magnitudo sphaerae A, ad  sphaerae B, magnitudinem; * <expan>triplicatam</expan> rationem habet eius, quam G, diameter sphaerae A, ad diametrum sphaerae B, similiter et cubus ex G, ad cubum diametri sphaerae B, * triplicatam rationem habet eius, quam G, ad sphaerae B, diametrum; ergo ut grauitas E, ad grauitatem D, ita erit cubus ex G, ad cubum diametri sphaerae B, sed ut grauitas D, ita grauitatem D, ita est cubus ex G, ad cubum ex F; ergo cubus ex F, aequalis erit cubo diametri sphaerae B; quare et latus F, aequabitur diametro ipsius sphaerae B. inuenta igitur est quantitas diametri sphaerae B, quod facere oportebat. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note42"/>18.12. Elem.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note43"/>33.11. Elem.</s>
+               </p>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum.</s>
+               </head>
+               <p>
+
+                  <s>Qvidam proponit aliquod corpus liquidum notae magnitudinis, et vult inuenire, quanta erit magnitudo liquidi alterius generis, grauitatem 
+  <pb n="27"/>
+  habentis proposito corpori liquido aequalem.</s>
+               </p>
+               <p>
+
+                  <s>Sit propositum aliquod olei corpus A, cuius magnitudo 600. et oporteat inuenire quanta erit magnitudo aquae, grauitatem habentis aequalem proposito oleo A, accipiatur aliquod solidum corpus C, ut pote plumbeum, et aquae magnitudinem habentis aequalem plumbo C, inueniatur grauitas, ut in exemplo <abbr>prop.</abbr> 8, dictum est, quae sit 12. similiter et olei aequalem habentis magnitudinem eidem plumbo C, inueniatur grauitas quae sit 11, et fiat ut 12, ad 11, ita 600, ad alium <expan>numerum</expan> qui sit 550. is igitur numerus indicabit quanta erit magnitudo aquae grauitatem habentis aequalem proposito oleo A.</s>
+               </p>
+               <p>
+
+                  <s>Similiter si <expan>propositum</expan> sit aliquod corpus aqueum A, cuius magnitudo 5700, et oporteat inuenire, quanta erit magnitudo argenti viui, grauitatem habentis aequalem propositae aquae A. </s>
+
+                  <s>Accipiatur aliquod corpus solidum C si aureum, super inducatur ei cerea tunica propter iam <expan>dictam</expan> rationem, deinde argenti viui, magnitudine aequalis ipsi C, inueniatur grauitas quae sit 95, similiter et aquae <expan>magnitudinem</expan> habentis aequalem eidem C, inueniatur grauitas quae sit 7, et fiat ut 95, ad 7, ita 5700, ad alium numerum, qui sit 420, is igitur numerus indicabit quanta erit magnitudo argenti viui grauitatem habentis aequalem propositae aquae A.</s>
+               </p>
+               <p>
+
+                  <s>Quod si propositum corpus aqueum A, sit sphaericum, culus sphaerae diameter sit 10, et oporteat inuenire quanta erit diameter sphaerae ex argento viuo, grauitatem habentis aequalem propositae sphaerae A, ita faciendum erit. </s>
+               </p>
+               <p>
+
+                  <s>Accepto ut diximus aliquo corpore solido C, et inuentis grauitatibus <expan>liquidorum</expan> aquae scilicet et <corr>argenti</corr> viui magnitudinem aequalem habentium corpori C, quae sint 14, grauitas aquae, et 190, grauitas argenti viui, fiat ut 190, ad 14, ita cubus ex 10, hoc est ita 1000, ad alium numerum, qui sit 73 11/19, is igitur numerus erit cubus diametri sphaerae ex argento viuo, grauitatem habentis aequalem propositae ex aqua sphaerae A: quare latus cubicum numeri 73 11/19, quod est 4 19/100 proxime indicabit ipsam diametrum.</s>
+               </p>
+               <p>
+
+                  <s>Similiter si propositum corpus aqueum A, fuerit cubicum, aut alicuius alterius formae regularis, eadem ratione, qua supra <corr>inuenitur</corr> latus cubi ex argento viuo, grauitate aequalis proposito ex aqua cubo A, nam si ipsius cabi A, <expan>datum</expan> sit latus 10, erit numerus 73 11/19, cubus ex argento viuo aequalis grauitate proposito ex aqua cubo A; quare latus cubicum numeri 73 11/19, quod est 4 19/100 proxime indicabit quaesitum latus cubi, ex argento viuo.</s>
+               </p>
+               <pb n="28"/>
+               <p>
+
+                  <s>Neque dissimili ratione inuenietur magnitudo reliquorum omnium liquidorum, grauitate proposito corpori cuiuscumque generis liquidi, aequalium, quare dicta sufficiant. </s>
+               </p>
+               <p>
+
+                  <s>Dvm adhuc Opusculum sub praelo esset, dubitandi ansam, ex eo vir doctissimus, cui percurrendum illud tradideram, arripuit, quod ex grauitate, corporum in aqua existentium, non posset vera ratio, quam habent diuersa ipsorum corporum genera in grauitate, deprehendi, nisi corpora fuerint similia. </s>
+
+                  <s>si enim (aiebat) accipiantur duo corpora eiusdem generis, et grauitatis, quorum unum sit planum, alterum conicam formam habens, et ponderentur in aqua, ita ut coni vertex deorsum versus <corr>pendeat</corr>, basis vero ipsius coni, et latae corporis plani superficies aequidistent horizonti conus in aqua maiorem habebit grauitatem, corpore plano, quia corpus planum magis ab aqua sustentatur, quam conus, et hoc quidem manifestum est, quoniam si ambo demittantur eodem tempore in aquam, conus citius ad imum descendet, quam corpus planum. </s>
+
+                  <s>Hoc argumentum licet primo aspectu probabile videatur, tamen falso concludit. </s>
+
+                  <s>verum est quod aqua sustentat magis corpus planum, quam conum, ipsum tamen sustentat, ne tanta velocitate feratur deorsum, non ideo ipsius grauitati aliquid detrahit, neque enim ex velociori motu simpliciter inferri potest maior grauitas, illud enim valeret etiam in aere, quod est falsum, sed ne huiusmodi dubitatio veritatis specie aliquem decipiat, sequenti Theoremate eam destruere aggrediar. </s>
+               </p>
+            </div>
+            <div type="prosa-theorema">
+               <head>
+
+                  <s>THEOREMA VIII. PROPOS. XVI.</s>
+               </head>
+               <p>
+
+                  <s>Corpora eiusdem generis, et grauitatis grauiora quam aqua, etsi dissimilia, aequalem in aqua grauitatem habent. </s>
+               </p>
+               <p>
+
+                  <s>SINT duo eiusdem generis, et grauitatis corpora A, B, grauiora quam aqua, et sint dissimilia, dico ipsa corpora aequalem in aqua grauitatem habere. </s>
+
+                  <s>sit enim si fieri potest corpus A, leuius corpore B, <pb n="29"/>et accipiatur aliquod corpus L, leuius quam aqua, ita ut cum ipsi corpori L, appendatur, corpus B, et ambo simul demittantur in <expan>aquam</expan>, sint aeque grauia atque aqua, neque sursum, neque deorsum serantur, similiter accipiatur alterum corpus M, eiusdem generis cum corpore L, ipsique simile, et aequale, et corpori M, appendatur corpus A. </s>
+
+                  <s>Deinde intelligatur aqua consistens, et manens, eiusque superficies sphaerica C D E, cuius sphaerae centrum K, aquae enim consistentis, atque manentis superficies sphaerica est, cuius sphaerae centrum idem est, quod <expan>centrum</expan> terrae, hoc autem demonstratum est ab Archimede Prop. 2. <abbr>lib.</abbr> 
+
+1. de ijs, quae vehuntur in aqua. </s>
+
+                  <s>Intelligantur etiam duae pyramides coniunctae, et continuatae, aequales, et similes KCD, KDE, pro basibus habentes in superficie aquae parallelogramma, vertices autem punctum K, et corpora L, B, comprehendantur a pyramide KDE, corpora vero M, A, a pyramide KCD, et sub corporibus L, B, describatur quaedam alterius sphaerae superficies FGH, in aqua, circa centrum K, poterit autem huiusmodi superficies sub corporibus L, B, describi, quoniam et si ipsi corpora demerguntur tota, non ideo feruntur deorsum, ponuntur enim aeque grauia atque aqua. </s>
+
+                  <s>Quoniam igitur eiusdem generis ponuntur corpora M, L, et aequalia, et similia, erunt aeque grauia, cum in aqua, tum in aere, et quoniam corpus A, leuius est in aqua, corpore B, erunt corpora M, A, simul, in aqua leuiora corporibus L, B, sed corpora L, B, simul, aeque grauia sunt atque aqua, ergo corpora M, A, simul, leuiora erunt quam aqua; quare corpus M, non demergetur totum, sed aliqua pars ipsius ex aquae <corr>superficie</corr> extabit. </s>
+               </p>
+               <p>
+
+                  <s>Et quoniam eiusdem generis, et grauitatis ponuntur corpora A, B, erunt magnitudine aequalia, et per additionem aequalium aequalibus, corpora M, A, erunt aequalia corporibus L, B, </s>
+               </p>
+               <p>
+
+                  <s>Quoniam igitur corpora M, A, aequalia sunt corporibus L, B, pars autem corporis M, extat ex aquae superficie, et corpora L, B, tota demerguntur, minus loci occupabunt in aqua corpora M, A, quam corpora L, B, quare maior erit grauitas corporum M, A, et aquae continentis ipsa corpora, quae est in loco pyramidis CDGF, quam corporum L, B, et aquae ipsa corpora <expan>continentis</expan> in loco pyramidis DEHG, <pb n="30"/>magis igitur aquae pars premetur, quae est sub superficie FG, quam <corr>ea</corr> quae est sub superficie GH; quare expellet partem minus pressam, (aequaliter enim et continuatae iacent inter sese) et <expan>non</expan> manebit aqua, quod est absurdum, ponebatur enim manens. </s>
+
+                  <s>non igitur corpus A, leuius est in aqua corpore B. eadem ratione ostendetur neque corpus B, leuius esse in aqua corpore A, quare constat propositum. </s>
+               </p>
+               <div type="prosa-theorema">
+                  <head>
+
+                     <s>ALITER.</s>
+                  </head>
+                  <p>
+
+                     <s>Sint duo eiusdem generis, et grauitatis corpora A, B, grauiora quam aqua, et sint dissimilia. </s>
+
+                     <s>ostendendum est ipsa corpora aequalem in aqua grauitatem habere, sit enim corporis A, vel ipsius B, grauitas CD, aquae vero magnitudinem habentis aequalem ipsi A, vel B, sit grauitas C, et accipiatur aliquod corpus L, leuius <expan>quam</expan> aqua, cuius grauitas sit ipsi C, aequalis, aquae vero, magnitudinem habentis aequalem corpori L, sit grauitas aequalis ipsi CD, itaque appenso corpore B, corpori L, corpus ex utrisque constans aeque graue erit atque aqua, grauitas enim utrorunque corporum B, L, est aequalis utrisque grauitatibus CD, et C, et grauitas aquae, magnitudinem habentis aequalem <expan>utrisque</expan> corporibus L, B, aequalis est eisdem grauitatibus CD, et C, corpora igitur B, L, demissa in aquam, neque sursum, neque deorsum ferentur, quia corpus B, grauius quam aqua fertur deorsum tanta vi, quanta a corpore L, sursum retrahitur. </s>
+                  </p>
+                  <p>
+
+                     <s>Rursus accipiatur alterum corpus solidum M, eiusdem generis cum corpore L, ipsique simile, et aequale, et corpore A, appenso ipsi M, et demissis ambobus in aquam, eadem ratione qua supra ostendetur, corpora A, M, simul, esse aeque grauia atque aqua, et corpus A, tanta vi deorsum ferri, quanta retrahitur sursum a corpore M, sed corpora M, L, aequalem vim habent retrahendi sursum, cum sint eiusdem generis, et aequalia, et similia, ergo aequali vi retrahentur corpora A, B, ne descendant; quare constat ipsa corpora A, B, aequalem in aqua grauitatem habere quod erat ostendendum. </s>
+                  </p>
+                  <pb n="31"/>
+               </div>
+            </div>
+            <div type="prosa-theorema">
+               <head>
+
+                  <s>THEOREMA IX. PROPOS. XVII.</s>
+               </head>
+               <p>
+
+                  <s>Sphaerae eiusdem generis inter se sunt in grauitate, ut diametrorum cubi in magnitudine. </s>
+               </p>
+               <p>
+
+                  <s>SINT sphaerae eiusdem generis ABC, DEF, quarum diametri BC, EF. dico ut sphaera ABC, se habet in grauitate, ad sphaeram DEF, ita se habere in <corr>magnitudine</corr> cubum ex BC, ad cubum ex EF, sit enim sphaerae ABC, grauitas G, et sphaerae DEF, grauitas H, quoniam igitur eiusdem generis ponuntur sphaerae ABC, DEF, erit^{*} ut sphaera ABC, ad sphaeram DEF, ita grauitas G, ad H, grauitatem, sed sphaera ABC, ad sphaeram DEF,^{*} triplicatam habet rationem eius, quam diameter BC, ad EF, diametrum, ergo et grauitas G, ad grauitatem H, triplicatam habebit rationem eius, quam habet BC, ad EF, sed et cubus ex BC, ad cubum ex EF,^{*} triplicatam rationem habet eius, quam BC, ad EF, ergo ut grauitas G, ad grauitatem H, ita erit cubus ex BC, ad cubum ex EF. sphaerae igitur eiusdem generis inter se sunt in grauitate, ut diametrorum cubi in magnitudine, quod erat demonstrandum. </s>
+               </p>
+               <pb n="32"/>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note44"/>2. et 3. huius.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note45"/>18. 12. Elem.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note46"/>33. 11. Elem.</s>
+               </p>
+               <p>
+
+                  <s>Ad comparandum inter se duodecim corporum genera grauitate, et magnitudine tabella.</s>
+               </p>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <p>
+
+                  <s>Quaero exempli gratia, quam habet rationem in grauitate plumbum ad aurum. </s>
+
+                  <s>Intelligatur plumbum, quoniam leuius est auro, grauitatem habere 1, et in linea plumbi, in prima columna nominati sub titulo auri, quaeratur auri grauitas, ea erit 1 15/23. <!--neuer Satz-->plumbum igitur ad aurum rationem habebit in grauitate ut 1, ad 1 15/23, si enim sumantur duo corpora magnitudine aequalia, unum plumbeum alterum aureum, sit autem plumbei corporis grauitas 1, aurei erit 1 15/23, quare corpus plumbeum ad corpus aureum eiusdem magnitudinis rationem habebit in grauitate ut 1, ad 1 15/23. comparantur autem inter se genera diuersa grauitate, in corporibus magnitudine aequalibus.</s>
+               </p>
+               <p>
+
+                  <s>Rursus, quaero quam habet rationem in grauitate aqua ad argentum viuum. </s>
+
+                  <s>intelligatur aqua, ut leuior argento viuo grauitatem habere 1, et in linea aqua, sub titulo argenti viui, quaeratur argenti viui grauitas, ea erit 13 4/7, aqua igitur ad argentum <expan>viuum</expan> rationem habebit in grauitate ut 1, ad 13 4/7.</s>
+               </p>
+               <p>
+
+                  <s>Contra, quaero quomodo se habent in magnitudine aurum, et plumbum. </s>
+
+                  <s>intelligatur aurum, quoniam grauius est plumbo, magnitudinem habere 1, et in linea plumbi, sub titulo auri, quaeratur plumbi magnitudo, ea erit 1 15/23, aurum igitur ad plumbum se <pb n="33"/>habebit in magnitudine ut 1, ad 1 19/21, si enim sumantur duo corpora aeque grauia, unum aureum, alterum plumbeum, sit autem corporis aurei magnitudo 1, plumbei erit 1 1<gap/>/21, quare corpus aureum ad corpus plumbeum eiusdem grauitatis se habebit in magnitudine ut 1, ad 1 19/21, comparantur autem inter se genera diuersa magnitudine, in corporibus aeque grauibus.</s>
+               </p>
+               <p>
+
+                  <s>Quaero denique quomodo se habent in magnitudine ferrum, et aqua, ponatur ferrum, ut grauius aqua, magnitudinem habere 1, et in linea aquae, sub titulo ferri, quaeratur aquae magnitudo, ea erit 8, ferrum igitur ad aquam se habebit in magnitudine ut 1, ad 8. </s>
+               </p>
+               <p>
+
+                  <s>Altera, ad comparandum inter se duodecim corporum genera, grauitate, et magnitudine, tabella.</s>
+               </p>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <p>
+
+                  <s>Quaero exempli gratia, quae nam sit ratio in grauitate, auri ad argentum. </s>
+
+                  <s>intelligatur aurum, quoniam grauius est argento, grauitatem habere 100, et in line a auri, sub titulo argenti, reperietur argenti grauitas 54 22/57, aurum igitur ad argentum rationem habebit in grauitate ut 100, ad 54 22/57, si enim sumantur duo corpora, magnitudine aqualia, unum aureum, alterum argenteum, sit autem aurei corporis grauitas 100, erit<pb n="34"/>argentei 54 22/57, quare corpus aureum ad corpus argenteum eiusdem magnitudinis, rationem habebit in grauitate, ut 100, ad 54 22/57. </s>
+               </p>
+               <p>
+
+                  <s>Quaero, quomodo se habet in grauitate aqua ad vinum. </s>
+
+                  <s>quoniam <corr>aqua</corr> grauior est vino, intelligatur eius grauitas 100, et quoniam in linea aquae, sub titulo <corr>vini</corr>, datur vini grauitas 98 1/3, aqua ad vinum se habebit in grauitate, ut 100, ad 98 1/3. </s>
+               </p>
+               <p>
+
+                  <s>Contra quaero quomodo se habent in magnitudine argentum, et aurum. </s>
+
+                  <s>intelligatur argentum, ut leuius auro, magnitudinem <sic>balere</sic> 100, et in linea auri sub titulo argenti, quaeratur auri magnitudo, ea erit 54 22/39, argentum igitur ad aurum se habebit in magnitudine, ut 100, ad 54 22/39, si enim sumantur duo corpora aeque grauia, unum argenteum, alterum aureum, sit autem argentei corporis magnitudo 100, erit aurei 54 22/39, quare corpus argenteum, ad corpus aureum eiusdem grauitatis, se habebit in magnitudine, ut 100, ad 54 22/39. </s>
+               </p>
+               <p>
+
+                  <s>Quaero denique quomodo se habent in magnitudine aqua et argentum viuum. </s>
+
+                  <s>quoniam aqua leuiora est argento viuo, intelligatur eius magnitudo 100, et in linea argenti viui, sub titulo aquae, quaeratur argenti viui magnitudo, et reperietur 7 7/29, aqua igitur ad argentum viuum se habebit in magnitudine, ut 100, ad 7 7/29. </s>
+               </p>
+               <p>
+
+                  <s>Hic sequitur tabula, ad inueniendas sphaerarum grauitates, ex data diametrorum magnitudine, cuius haec est explicatio. </s>
+               </p>
+               <p>
+
+                  <s>In dimetiendis sphaerarum diametris utimur pede Romano antiquo, cuius mensuram in margine apposuimus, eaque respondet ad Romani palmi, quo hodie utimur, mensuram ut 4, ad 3, huiusmodi pedem diuidimus in duodecim partes aequales, seu uncias, quas inuenies in prima Columna sub titulo magnitudinis.</s>
+               </p>
+               <p>
+
+                  <s>Ponderibus autem utimur hac nostra tempestate usitatis, libram enim diuidimus in 12, uncias unciam vero in 24, scrupula, et scrupulum in 24, grana. </s>
+
+                  <s>Ad inueniendas igitur sphaerarum grauitates ex data diametrorum magnitudine, haec erit ratio.</s>
+               </p>
+               <p>
+
+                  <s>Quaeris grauitatem sphaerae plumbeae, diametrum habentis 3, unciarum, inspice tabulam, et in linea trium unciarum, sub titulo grauitatis plumbeae sphaerae, deprehendes ipsam sphaeram grauitatem <corr>habere</corr> 
+                     <abbr>lib.</abbr> 7, unc. 4, seru. 13, <abbr>gran.</abbr> 22 29/57. </s>
+               </p>
+               <p>
+
+                  <s>Rursus, quaeris grauitatem sphaerae aureae, diametrum habentis 6, unciarum. in linea 6, unciarum, sub titulo grauitatis aureae sphaerae<pb n="35"/>datur quaesita grauitas <abbr>lib.</abbr> 97, unc. 6, scrup. 19, <abbr>gran.</abbr> 11 1/17. </s>
+               </p>
+               <p>
+
+                  <s>Quaeris denique grauitatem sphaerae stanneae, diametrum habentis unius pedis. </s>
+
+                  <s>in linea unius pedis, seu 12, unciarum, sub titulo grauitatis sphaerae stanneae, datur quaesita sphaerae grauitas <abbr>lib.</abbr> 304, <corr>ad unguem</corr>. </s>
+
+                  <s>Atque ita reliquarum sphaerarum in tabula nominatarum, ex data diametrorum magnitudine, grauitates inuenies.</s>
+               </p>
+               <p>
+
+                  <s>Qua ratione hanc Tabulam composuimus. </s>
+               </p>
+               <p>
+
+                  <s>Primum inueniendam curauimus grauitatem alicuius sphaerae, datem habentis diametrum, et ad hoc faciendum, oportebat aliquam <corr>sphaeram</corr> efficere, sed quoniam ad illam efficiendam, exactam humana diligentia non sufficit, fieri curauimus Cylindrum ex stanno, altitudine aqualem diametro circuli, qui basis est ipsius Cylindri, is enim torno fieri potest multo exactior quam sphaera, et facilius. </s>
+
+                  <s>huius autem Cylindri altitudo, vel diameter ipsius basis, erat duarum unciarum praedicti pedis Romani, grauitas vero duarum librarum, cum una uncia, et octo scrupulis, siue ut hoc pondus ad grana reducamus, Cylindri grauitas erat <abbr>Gran.</abbr> 14592. abstulissent ab hac Cylindri grauitate partem tertiam. </s>
+
+
+
+                  <s>id est 4864, reliquum, quod est 9728. seruauimus, pro grauitate sphaerae, diametrum habentis aequalem altitudini Cylindri, ostensum enim est ab Archimede <abbr>propos.</abbr> 32, <abbr>lib.</abbr> 1, de sphaera, et Cylindro, Cylindrum, qui basim habeat maximo in sphaera circulo aequalem, et altitudinem aequalem diametro sphaerae, ad ipsam <corr>sphaeram</corr> sesquialterum esse; itaque grauitatem sphaerae, diametrum habentis duarum unciarum inuenimus esse <abbr>gran.</abbr> 9728. </s>
+               </p>
+               <p>
+
+                  <s>Inuenta igitur grauitate sphaerae, cuius diameter est duarum unciarum, facile inuenientur reliquarum <expan>sphaerarum</expan> grauitates, si enim inuenienda sit grauitas sphaerae stannea habentis diametrum 1/4. unciae, fiat ut cubus ex 2, ad cubum ex 1/4, hoc est ut 512, ad 1, ita 9728, ad alium numerum, qui sit 19, sphaerae igitur cuius diameter est 1/4, unciae, grauitas erit <abbr>gran.</abbr> 19, ostensum enim est <abbr>prop.</abbr> 
+
+17, huius, sphaeras eiusdem generis inter se esse in grauitate, ut diametrorum cubi in <corr>magnitudine</corr>.</s>
+
+               </p>
+               <p>
+
+                  <s>Rursus sit inuenienda grauitas sphaerae stanneae habentis diametrum 1/2, unciae, fiat ut cubus ex 1/4, ad cubum ex 1/2, hoc est ut 1, ad 8, ita 19, ad 152, sphaera igitur, cuius diameter est 1/2, unciae, habebit grauitatem <abbr>gran.</abbr> 152. </s>
+               </p>
+               <p>
+
+                  <s>Sit denique inuenienda grauitas sphaerae stanneae, diametrum habentis 1/4, unciae, fiat ut cubus ex 1/4, ad cubum ex 1/4, hoc est ut 1, ad 27, ita 19, ad 513, grauitas igitur sphaerae habentis diametrum 1/4, unciae,</s>
+               </p>
+               <pb n="36"/>
+               <p>
+
+                  <s>Ad inueniendas sphaera diametrorum T A B </s>
+               </p>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="37"/>
+               <p>
+
+                  <s>
+                     <sic>rum</sic> grauitates ex data magnitudine V L A. </s>
+               </p>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="045"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="046"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="40"/>
+               <p ana="table">
+
+                  <s>erit <abbr>gran.</abbr> 513. et sic reliquarum sphaerarum ex stanno, diametros habentium magnitudine quacunque, inuenientur grauitates.</s>
+
+               </p>
+               <p>
+
+                  <s>Aliter quoque et expeditius reliquarum sphaerarum ex stanno inuenientur grauitates.</s>
+               </p>
+               <p>
+
+                  <s>Inuenta grauitate sphaerae, diametrum habentis 1/4, unciae, multiplicetur ipsa grauitas, per 8, hoc est per cubum ex 2, numerus pro ductus dabit grauitatem sphaerae, diametrum habentis 2/4, unciae, hoc est 1/2, sphaerae {*} enim inter se in triplicata sunt ratione suarum di<gap/>metrorum. </s>
+
+                  <s>deinde si multiplicetur eadem grauitas per 27, hoc est per cubum ex 3, numerus productus dabit grauitatem sphaerae, habentis diametrum 3/4, unciae, et si multiplicetur per 64, hoc est per cubum ex 4, numerus productus dabit grauitatem sphaerae, cuius diameter est 4/4, hoc est unius unciae, et eo deinceps continuo ordine,</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note47"/>18.12. Elem.</s>
+               </p>
+               <p>
+
+                  <s>Porro ad inueniendas grauitates sphaerarum ex reliquis metallis vel ex quacunque alia materia, haec erit ratio.</s>
+               </p>
+               <p>
+
+                  <s>Fiat ut 1, ad 1 41/74, hoc est ut 74, ad 115, (si de grauitate sphaerae<expan>plumbeae</expan> quaeritur cuius diameter est 1/4, unciae) ita 19. grauitas videlicet sphaerae stanneae <expan>diametrum</expan> habentis 1/4, unciae, ad <expan>alium</expan> numerum qui sit 29 19/74, grauitas igitur sphaerae plumbeae, diametrum habentis 1/4, unciae, erit <abbr>gran.</abbr> 29 39/74. stannum enim ad plumbum rationem habet in grauitate ut 1, ad 1 41/74, ut conspicitur in prima <corr>tabella</corr> quam ad comparandum inter se duodecim corporum genera, grauitate, et magnitudine, apposuimus.</s>
+               </p>
+               <p>
+
+                  <s>Si vero quaeratur de grauitate sphaerae plumbeae, diametrum habentis 2, unciarum, fiat ut 74, ad 115, ita 9728, id est grauia</s>
+               </p>
+               <pb n="41"/>
+               <p ana="table">
+                  <gap reason="tabula"/>
+                  <s>sphaerae stanneae, cuius diameter est 2, unciarum, ad alium numerum, qui sit 15 117 <gap/>, sphaera igitur plumbea, cuius diameter est 2, unciarum grauitatem habebit <abbr>gran.</abbr> 15 117 <gap/>, atque haec erit obseruanda in reliquis ratio.</s>
+
+               </p>
+               <p>
+
+                  <s>Vel si ipsa grauitas 29 19/74, multiplicetur per singulos cubos, ut dictum est de sphera stannea, numeri producti dabunt grauitates sphaerarum ex plumbo, ad quarum diametros latera cubica rationem habebunt ut 4, ad 1, quoniam 29 19/74, est grauitas sphaerae plumbeae, diametrum habentis 1/4, unciae.</s>
+               </p>
+               <p>
+
+                  <s>Sequitur, ad inueniendas diametrorum magnitudines ex data sphaerarum grauitate, tabula.</s>
+               </p>
+               <pb n="42"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="43"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="44"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="45"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="46"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="47"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="48"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <pb n="49"/>
+               <p ana="table">
+
+                  <gap reason="tabula"/>
+               </p>
+               <p>
+
+                  <s>Est haec tabula, quemadmodum et eius usus, praecedentis <corr>conuersa</corr>, in ea enim inueniuntur sphaerarum grauitates ex data diametrorum magnitudine, in hac vero deprehenduntur diametrorum magnitudines ex data sphaerarum grauitate.</s>
+               </p>
+               <p>
+
+                  <s>Quaero exempli gratia magnitudinem diametri sphaerae aureae, grauitatem habentis 10, <abbr>lib.</abbr> 
+                  </s>
+
+                  <s>Numeri in prima columna sub titulo grauitatis denotant sphaerarum grauitates, reliqui vero in reliquis columnis denotant diametrorum magnitudines; itaque in linea 10, <abbr>lib.</abbr> 
+
+sub titulo magnitudinis diametri sphaerae aureae, datur quaesita diametri magnitudo partium 2 21/100: qualium pes unus est 12. </s>
+               </p>
+               <p>
+
+                  <s>Quaero magnitudinem diametri sphaerae ferreae, grauitatem habentis 50, <abbr>lib.</abbr> 
+
+in linea 50, <abbr>lib.</abbr> sub titulo magnitudinis diametri sphaerae ferreae, datur quaesita diametri magnitudo 6 40/100. </s>
+
+               </p>
+               <p>
+
+                  <s>Quaero magnitudinem diametri sphaerae argenteae, grauitatem habentis 60, <abbr>lib.</abbr> 
+
+in linea 60, <abbr>lib.</abbr> sub titulo magnitudinis diametri sphaerae argenteae, datur ipsa magnitudo 6 25/100. </s>
+
+               </p>
+               <pb n="50"/>
+               <p>
+
+                  <s>Quaero denique magnitudinem diametri sphaerae stanneae, grauitatem habentis 38, <abbr>lib.</abbr> 
+
+in linea 38, <abbr>lib.</abbr> sub titulo magnitudinis diametri sphaerae stanneae, datur quaesita diametri magnitudo 6, ad unguem.</s>
+
+               </p>
+               <p>
+
+                  <s>Notandum autem est, quod numeri, qui diametrorum magnitudines denotant, non sunt veri, ac certi, sed veris bene proximi, <expan>quoniam</expan> numeri, quorum ipsi sunt radices cubicae, non sunt cubi, et ideo ipsa radices non explicantur accurate, sed vel veris maiores, vel minores, atque ut cognoscantur quae sint maiores, <corr>quaeue</corr> minores, maioribus duo puncta adiecimus, minoribus unum, accuratis nullum. </s>
+
+                  <s>inter omnes autem unus est accuratus, is scilicet, qui magnitudinem indicat diametri sphaerae stanneae, grauitatem habentis 38, <abbr>lib.</abbr> De compositione huius Tabulae. </s>
+               </p>
+               <p>
+
+                  <s>Huius tabulae compositio pendet ex praecedenti tabula, et ex <abbr>propos.</abbr> 17, huius, si enim fiat ut grauitas sphaerae stanneae, diametrum habentis unius unciae, id est, ut grana 1216, ad grauitatem sphaerae unius librae, idest, ad grana 6912, ita cubus diametri unius unciae, hoc est, ita 1, ad alium numerum, qui sit 5 11/19 is erit cubus diametri sphaerae stanneae, grauitatem habentis 1, <abbr>lib.</abbr> 
+
+demonstratum enim est <abbr>prop.</abbr> 17, huius, sphaeras eiusdem generis inter se esse in grauitate, ut diametrorum cubi in magnitudine; quare radix cubica numeri 5 13/19, dabit ipsam diametrum, sed quoniam numerus 5 13/19, non est praecise cubus, eius radix non explicabitur accurata, sed ut explicetur verae bene proxima, multiplicetur 5 13/19, per 1000000. et ex producto 5684210 10/19, neglecto fracto 10/19, eruatur radix, tanquam ex accurato numero cubo, ea erit 173. proxime, et erit centupla radicis numeri 5 13/19, nam numerus 1000000, per quem fuit multiplicatus 5 13/19, cubus est ex 100; magnitudo igitur diametri sphaerae stanneae, grauitatem habentis 1, <abbr>lib.</abbr> 
+
+erit 1 78/100. reliquarum autem ex stanno sphaerarum, grauitatem habentium duplam primae, triplam, quadruplam <abbr>etc.</abbr> 
+                  </s>
+
+                  <s>ita inuenientur diametri.</s>
+               </p>
+               <p>
+
+                  <s>Duplum numeri 5684210 10/19, id est 11368421 1/19, erit cubus centupli diametri spherae stanneae, grauitatem habentis duplam primae, hoc est 2, <abbr>lib.</abbr> 
+
+ex supra nominata enim <abbr>prop.</abbr> 17, huius, est ut grauitas sphaerae unius librae, ad grauitatem sphaerae duarum librarum, ita cubus diametri primae sphaerae, ad cubum diametri secundae. </s>
+
+                  <s>Si vero triplicetur numerus 5684210 10/19, eius triplum, quod est 17052631 11/19, erit cubus centupli diametri sphaerae stanneae, grauitatem habentis triplam primae, idest 3, <abbr>lib.</abbr> 
+
+et si quadruplicetur, eius<pb n="51"/>quadruplum erit cubus centupli diametri sphaerae stanneae, grauitatem habentis quadruplam primae, et sic deinceps. </s>
+
+                  <s>itaque si ex eius multiplicibus, neglectis fractis, <expan>eruantur</expan> radices, tanquam ex accuratis numeris cubis, ipsae indicabunt diametrorum magnitudines in ratione centupla. </s>
+
+                  <s>Sed ut etiam euitetur labor multiplicandi praedictum numerum 5684210 10/19, hac ratione inuenientur eius multiplicia.</s>
+               </p>
+               <p>
+
+                  <s>Praedicto numero 5684210 10/19, addatur eius duplum, id est,11368421 1/19, summa 17052631 11/19, dabit eius triplum, si vero ei addatur eius triplum, id est, 17052631 11/19, summa 22736842 2/19, dabit eius quadruplum, et si eius quadruplum ei addatur, summa dabit eius quintuplum, et sic sola additione inuenientur eius quotcunque multiplicia.</s>
+               </p>
+               <p>
+
+                  <s>Eadem ratione inuenientur diametri sphaerarum ex quacunque alia materia, si enim quaeratur de magnitudine diametri verbi gratia sphaerae ferreae, grauitatem habentis 1, <abbr>lib.</abbr> 
+
+fiat ut grana 1314 22/37, id est ut grauitas sphaerae ferreae, cuius diameter est unius unciae, ad grauitatem unius librae, id est ad grana 6912, ita cubus diametri unius unciae, hoc est ita 1, ad alium numerum qui sit 5 49/190, is igitur numerus * erit cubus diametri sphaerae ferreae, grauitatem habentis 1, <abbr>lib.</abbr> 
+
+quare radix cubica numeri 5 49/190, dabit quaesitam diametrum, et quoniam numerus 5 49/190, non est praecise cubus, et ideo non explicabitur eius radix accurate, multiplicetur per 1000000, et ex producto 5257894 14/19, neglecto fracto 14/19, eruatur radix, tanquam ex accurato numero cubo, ea erit 174: fere, et erit centupla radicis numeri 5 49/190, quia numerus 5 49/190, multiplicatus fuit per cubum ex 100; diameter igitur sphaerae ferreae, grauitatem habentis 1, <abbr>lib.</abbr> 
+
+et sic reliquarum sphaerarum in infinitum inuenientur diametri. </s>
+
+                  <s>multiplicia autem numeri 5257894 14/19, sola additione inuenientur, ut dictum est supra de inuentione multiplicium numeri 5684210 10/19. Atque hac ratione praedictam tabulam composuimus.</s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note48"/>17: huius.</s>
+               </p>
+               <p>
+
+                  <s>Qvomodo Archimedes argenti mixtionem deprehendit in auro. </s>
+               </p>
+               <p>
+
+                  <s>Hiero (referente Vitruvio <abbr>lib.</abbr> 9. <abbr>Cap</abbr>. 3.) Siracusis auctus regia<pb n="52"/>potestate, rebus bene gestis, cum auream coronam votiuam, dijs immortalibus in quodam fano constituisset ponendam, immani precia locauit faciendam, et aurum ad sacoma appendit redemptori. </s>
+
+                  <s>is ad tempus opus manufactum subtiliter, regi approbauit, et ad sacoma pondus coronae visus est praestitisse. </s>
+
+                  <s>Postea quam indicium est factum, dempto auro, tantundem argenti in id coronarium opus admixtum esse: indignatus Hiero se contemptum, neque inueniens, qua ratione id furtum deprehenderet, rogauit Archimedem, uti in se sumeret de eo cogitationem. </s>
+
+                  <s>tunc is cum haberet eius rei curam, casu venit in balneum, ibique cum in solium descenderet, animaduertit quantum corporis sui in eo insideret, tantum aquae extra solium effluere. </s>
+
+                  <s>
+                     <expan>itaque</expan> cum eius rei rationem explicationis offendisset non est moratus, sed exiliuit gaudio motus de solio, et nudus vadens domum versus, <corr>significabat</corr> clara voce inuenisse quod quaereret. </s>
+
+                  <s>nam currens identidem grece clamabat <foreign xml:lang="greek">
+                        <gap/>
+                     </foreign> tum vero ex eo inuentionis ingressu duas dicitur fecisse massas aequo pondere, quo etiam fuerat corona, unam ex auro, alteram ex argento. </s>
+
+                  <s>cum ita fecisset, vas <expan>amplum</expan> ad summa labra impleuit aqua, in quo demisit argenteam massam, cuius quanta magnitudo in vase depressa est, tantum aquae effluxit. </s>
+
+                  <s>ita exempta massa, quanto minus factum fuerat refudit, sextario mensus, ut eodem modo, quo prius fuerat, ad labra aequaretur. </s>
+
+                  <s>ita ex eo inuenit, quantum ad certum pondus argenti certa aquae mensura responderet.</s>
+               </p>
+               <p>
+
+                  <s>Cum id expertus esset tum auream massam similiter pleno vase demisit, et ea exempta, eadem ratione mensura addita, inuenit ex aqua non tantum defluxisse, sed tantum minus, quantum minus <corr>magno</corr> corpore eodem pondere auri massa esset quam argenti. </s>
+
+                  <s>Postea vero repleto vase, in <expan>eadem</expan> aqua ipsa corona demissa, inuenit plus aqua defluxisse in coronam, quam in auream. </s>
+
+                  <s>eodem pondere massam, et ita ex eo quod plus defluxerat aquae in corona, quam in massa ratiocinatus, deprehendit argenti in auro mixtionem, et manifestum furtum redemptoris.</s>
+                  <s> Hactenus Vitruvius. </s>
+               </p>
+               <p>
+
+                  <s>Mirum certe Archimedis fuit inuentum, ipsius tamen modus ad inueniendam illam aquae mensuram, quae ad certum pondus auri, vel argenti, vel coronae responderet, maiori diligentia indiget, quam quae ab hominibus adhiberi potest, impossibile enim est, exempta corona, vel aurea massa, vel argentea, tantum aquae refundere, quantum e vase effluxerat ad unguem, nam reposita aqua in vase, non possumus <pb n="53"/>affirmare ipsum vas esse plenum, nisi aqua incipiat effluere, cum autem incipit, effluit aliquando totus fere cumulus, itaque vel plus aquae additur eo, quod deficit, vel minus, nisi coniectura assequatur: at vero coniectura pro veritate non accipitur. </s>
+
+                  <s>praeterea exempta corona, vel aurea massa, vel argentea, eximitur etiam simul cum ipsa aliquantum aquae, quae circum ipsam remanet, atque huiusmodi defectus errorem inducit sensibilem. </s>
+               </p>
+               <p>
+
+                  <s>Neque per collectionem quaesita aquae mensura inueniri potest: aeque enim impossibile est uniuersam illam aequam colligere, quae extra vas effluit, quando corona, vel aurea massa vel argentea in ipso vase deprimitur, cum enim aqua e vase effluat, pars ipsius aquae vasi, ex quo effluit, pars vasi in quod influit adhaeret, et si uniuersa omnino semper non colligatur, erit non parui erroris causa, praeter quam quod, non semper adeo facile inuenitur par auri, argentique massa, quando corona, vel alia auri massa, quae examinanda proponitur, mediocrem excederet magnitudinem. </s>
+               </p>
+               <p>
+
+                  <s>Neque praeterea potest discerni praedicta argenti portio in aliqua auri parua massa, differentiae enim aquarum, quae extra vas effluunt, sunt adeo exiguae, ut ne cognosci quidem possint, quod si cognoscerentur, non semper erunt verae, siquidem non semper in vasis medio in cumulum crescens aequalis aquae copia remanet, sed maior interdum, interdum minor, ut conspicitur. </s>
+
+                  <s>fit enim ut aliquando cumulus ille frangatur pluribus in locis, et ideo aqua diffundatur, ut fere nihil ipsius cumuli supersit, aliquando vero frangatur in uno tantum loco, et aqua colligens se in cumulum, parum diffluat. </s>
+               </p>
+               <p>
+
+                  <s>Sed ponderandis corporibus in aere et aqua, eo modo, quo dictum est in fine exempli <abbr>prop.</abbr> 
+
+8. inuenitur quaesita aquae, grauitas, ita exacte, ut requiritur, fiue sit corpus illud paruum, siue magnum nihil interest, et praeterea facillima est operatio, nec adinueniendae sunt auri, et argenti massae aeque graues, ac <pb n="54"/>corona, sed quaelibet particulae, grauitate quacunque, etiam differentes inter se, sufficiunt. </s>
+               </p>
+               <p>
+
+                  <s>De ratione autem, qua Archimedes, cognitis grauitatibus trium corporum ex aqua, magnitudine aequalium, coronae scilicet unum, alterum massae aureae, tertium argenteae, potuerit furtum aurificis in regia corona deprehendere, atque argentum quod erat in ea permixtum ab auro discernere, plurimi scripserunt, modos etiam ad id faciendum excogitarunt varios, longa tamen methodo, atque difficili usi sunt, et quod maximam confusionem, et obscuritatem parit, nullum operationis tradunt praeceptum firmum, ac stabile. </s>
+
+                  <s>ego autem unica tantum proportionis ratiocinatione, seu regula trium (ut vulgo dicitur) breuiter, et expedite idem consequor, eamque geometrica ratione demonstro. </s>
+
+                  <s>Problema igitur ad hoc <corr>faciendum</corr> ita concipio et absoluo. </s>
+               </p>
+            </div>
+            <div type="prosa-problema">
+               <head>
+
+                  <s>PROBLEMA IX. PROPOS. XVIII.</s>
+               </head>
+               <p>
+
+                  <s>Portionem metalli, alteri metallo mistam, ponderis ratiocinatione discernere. </s>
+               </p>
+               <p>
+
+                  <s>QVONIAM de Hieronis corona facta est mentio, sit ea B, eiusque grauitas EK, et oporteat argentum, quod sit in ea <expan>permixtum</expan>, ab auro discernere, hoc est oporteat inuenire quanta erit portio argenti, et quanta auri. </s>
+
+                  <s>Intelligantur duo corpora A, D, unum aureum, alterum argenteum aeque grauia atque corona, deinde trium corporum ex aqua, magnitudine aequalium, aureo scilicet corpori unum, alterum coronae, tertium corpori argenteo, inueniantur grauitates, id autem poterit fieri facillime, si <expan>accipiantur</expan> duo corpora unum ex auro, alterum ex argento, grauitate quacunque, ut <pb n="55"/>dictum est in propositionis octauae exemplo, non enim necesse est habere duo corpora ex auro et argento, grauitatem habentia eandem quam et corona, et hac de causa diximus supra <expan>intelligantur</expan> duo corpora, non autem accipiantur. </s>
+
+                  <s>sit igitur primi corporis aquei aequalis aureo A, inuenta grauitas G, secundi vero aequalis coronae B, grauitas F, et tertij aequalis corpori argenteo D, grauitas H, et fiat ut differentia inter G, et H, ad EK, ita differentia inter G, et F, ad aliam grauitatem, quae sit K. </s>
+
+                  <s>Dico K, grauitatem esse portionis argenti, quod est in corona, E vero grauitatem auri. </s>
+               </p>
+               <p>
+
+                  <s>Vel si pro tertio proportionis termino sumatur differentia inter F, et H, et quartus terminus sit E, Dico E, grauitatem esse portionis auri, K vero argenti. </s>
+               </p>
+               <p>
+
+                  <s>Quartus autem utriusque proportionis terminus * minor est secundo EK, quod et tertius minor est primo, primus enim terminus est differentia inter G, et H, tertius vero, vel est differentia inter G, et F, vel differentia inter F, et H, uterque minor primo. </s>
+
+                  <s>Exemplis autem res fiet illustrior. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note49"/>14. 5 Elen</s>
+               </p>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum. </s>
+
+                  <s>I.</s>
+               </head>
+               <p>
+
+                  <s>Sit coronae grauitas 95, <abbr>lib.</abbr> 
+
+et oporteat facere quod imperatum est. </s>
+
+                  <s>Intelligantur duo corpora, unum aureum, alterum argenteum, aeque grauia atque corona, deinde trium corporum ex aqua, magnitudine aequalium, aureo scilicet corpori unum, alterum coronae, tertium corpori argenteo, inueniantur grauitates, ut in exemplo <abbr>prop.</abbr> 8. dictum est, quae sint primi nimirum corporis aquei 5, secundi vero 6, et tertij 9 6/31, et fiat ut differentia inter 5, et 9 6/32, hoc est ut 4 6/31, ad 95, grauitatem videlicet coronae, ita differentia inter 5, et 6, hoc est 1, ad 22 17/26, ergo 22 17/26, erit grauitas portionis argenti quod est in corona, qua detracta ex totali grauitate coronae, reliquum 72 9/26, erit grauitas portionis auri.</s>
+               </p>
+               <p>
+
+                  <s>Vel si pro tertio proportionis termino sumatur differentia inter 6, et 9 6/31, quae est 3 6/31, quartus terminus 72 9/26, erit grauitas portionis auri, quae si dematur ex totali grauitate coronae, remanebit 22 17/26, pro grauitate portionis argenti.</s>
+               </p>
+            </div>
+            <div type="prosa-exemplum">
+               <head>
+
+                  <s>Exemplum. </s>
+
+                  <s>II.</s>
+               </head>
+               <p>
+
+                  <s>Sit aliquod corpus mistum ex auro. </s>
+
+                  <s>et aere, et habeat grauitatem 171. <abbr>lib.</abbr> 
+
+et oporteat inuenire quanta erit portio aeris in ipso corpore,<pb n="56"/>et quanta auri. </s>
+
+                  <s>Intelligantur duo corpori, unum ex auro puro, alterum ex aere, aeque grauia atque corpus mistum, et trium corporum ex aqua, quorum unum sit aequale corpori aureo magnitudine, alterum misto, tertium aureo, inueniantur grauitates, ut in exemplo <abbr>propos.</abbr> 8.dictum est, quae sint 9, 11, et 19, et fiat ut differentia inter 9, et 19, ad 171, grauitatem videlicet corporis misti, ita differentia inter 9, et 11, ad 34 1/5, portio igitur corporis misti aerea grauitatem habebit 34 1/5, quae si auferatur ex totali corporis misti grauitate, remanebit 136 4/5, pro grauitate portionis auri.</s>
+               </p>
+               <p>
+
+                  <s>Vel si pro tertio proportionis termino sumatur differentia inter 11, et 19, quartus terminus 136 4/5, erit grauitas portionis auri, qua ablata ex totali corporis misti grauitate, reliquum 34 1/5, dabit grauitatem portionis aereae.</s>
+               </p>
+               <p>
+
+                  <s>At vero huiusmodi ratiocinationem ad discernendum argentum ab auro, vel aliud metallum ab altero metallo, recte esse institutam, sequenti Theoremate demonstrabitur. </s>
+               </p>
+            </div>
+            <div type="prosa-theorema">
+               <head>
+
+                  <s>THEOREMA X. PROPOS. XIX.</s>
+               </head>
+               <p>
+
+                  <s>Si trium corporum aeque grauium primum et tertium fuerint generis diuersi, secundi autem portio fuerit eiusdem generis cum corpore primo, reliqua vero eiusdem generis cum corpore tertio, fuerint etiam tres quantitates aquae praedictis corporibus aequales, prima videlicet corpori primo, secunda secundo, et tertia tertio. </s>
+
+                  <s>erit ut differentia grauitatum primae et tertiae quantitatis aquae, ad grauitatem corporis secundi, ita differentia grauitatum primae et secundae quantitatis aquae, ad grauitatem portionis corporis secundi, quae est eiusdem generis cum corpore tertio. </s>
+               </p>
+               <p>
+
+                  <s>Et ita differentia grauitatum secundae et tertiae <corr>quantitatis</corr> aquae, ad grauitatem portionis eiusdem generis cum corpore primo. </s>
+               </p>
+               <pb n="57"/>
+               <p>
+
+                  <s>SINT tria corpora aeque grauia A, BC, D, quorum A, primum, et tertium D. sint generis diuersi, portio vero secundi B, sit eiusdem generis cum corpore A, et portio C, eiusdem generis cum corpore D, sint etiam alia tria corpora aquea P, OL, et Q, <expan>quorum</expan> 
+                     <gap/>, sit aequale corpori A, magnitudine, ipsum vero OL, aequale corpori BC, et ipsum Q, aequale corpori D, et sint earum grauitates, G, ipsius P, et FV, ipsius OL, et H, ipsius <expan>que</expan> Dico ut differentia grauitatum G, H, ad grauitatem corporis BC, ita esse differentiam grauitatum G, FV, ad grauitatem portionis C; et ita differentiam grauitatum FV, H, ad portionis B, grauitatem. </s>
+
+                  <s>Sit enim portionis B, grauitas E, et portionis C, grauitas K; ergo totius corporis BC grauitas erit EK, <expan>sitque</expan> portionis O, quae sit aequalis portioni B, grauitas F, ergo reliquae portionis L, aequalis portioni C, grauitas erit V, Quoniam igitur est, ut A, ad P, ita B, ad O, aequale videlicet ad aequale, erit permutando, ut A, ad B, ita P ad O, et quoniam sunt eiusdem generis A, B, similiter et P, O, * erit ut grauitas corporis A, hoc est ut EK, (ponuntur enim corpora A, BC, D, aeque grauia,) ad E, ita G, ad F, quod igitur fit ex EK, et F, nempe ex extremis, aequale erit ei, quod fit ex E, et G, hoc est ex medijs. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note50"/>4.huius</s>
+               </p>
+               <p>
+
+                  <s>Similiter quoniam est, ut D, ad Q, ita C, ad E, aequale videlicet ad aequale, erit permutando, ut D, ad C, ita Q, ad L, et quoniam sunt eiusdem generis D, C, similiter et Q, L, * erit ut grauitas ipsius D,hoc est ut EK, ad K, ita H, ad V; quare quod fit ex EK, et V, ex extremis, aequabitur ei, quod ex H, fit et K, ex medijs. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note51"/>4.huius</s>
+               </p>
+               <p>
+
+                  <s>Sed ostensum est id quod ex EK, fit et F. aequale esse ei quod fit ex G, et E, ergo quod fit ex EK, et F, una cum eo, quod ex BK, et V, hoc est id quod fit ex EK, et FV, aequale erit ei quod ex G, fit et E, una eum eo quod ex H, et K, sed quod ex G, fit et E, aequale est ei quod fit ex G, et EK, minus eo quod ex G, et K, quod enim additur, idem et <pb n="58"/>minuitur; ergo quod fit ex EK, et FV. aequale erit ei quod fit ex G, et EK, una cum eo quod ex H, et K, minus eo quod fit ex G, et K. auferatur utrinque id quod fit ex G, et EK, quod igitur fit ex FV, et EK, minus eo quod ex G, et EK, aequabitur ei quod ex H, et K, minus eo quod fit ex G, et K, sed quod fit ex H, et K, minus eo quod fit ex G, et K, aequale est ei quod ex differentia ipsarum H, G, fit et K, similiter, et quod fit ex FV, et EK, minus eo quod ex G, et EK, aequale est ei quod ex differentia ipsarum FV, G, fit et EK, ergo quod ex differentia ipsa cum H, G, fit et K, aequale erit ei quod ex differentia ipsarum FV, G, fit et EK; aequalitatem ad proportionem reuocando, erit ut differentia grauitatum. </s>
+
+                  <s>H, G, ad grauitatem EK, ita differentia grauitatum FV, G, ad grauitatem K, quod erat primo loco: demonstrandum. </s>
+               </p>
+               <p>
+
+                  <s>Dico quoque ut differentia grauitatum H, G, ad grauitatem EK, ita esse differentiam grauitatum H, FV, ad grauitatem E. </s>
+
+                  <s>Quoniam enim ostensum est, quod fit ex EK, et FV, aequale esse ei quod ex G. fit et E, una cum eo quod ex H, et K; quod autem fit ex H, et K, <sic>aequaturri</sic> quod, ex H, fit et EK, minus eo quod ex H, et E, quod enim additur idem et minuitur: ergo quod fit ex EK, et FV, aequale erit ei quod fit ex H, et EK, una cum eo quod ex G, et E, minus eo quod ex H, et E. addatur <corr>utrinque</corr> quod ex H, fit et E, et subducantur ea quae fiunt ex G, et E, et ex EK, et FV; quod igitur fit ex H, et E, minus eo quod ex G, et E, aequabitur ei quod ex H, fit et EK, minus eo quod ex FV, et EK, sed quod fit ex H, et E, minus eo quod ex G, et E, aequale est ei quod ex, differentia ipsarum H, G, fit et E, similiter, et quod ex H, fit et EK, minus eo quod ex FV, et EK, aequale est ei quod ex differentia ipsarum H, FV, fit et EK; ergo quod ex differentia ipsarum H, G, fit et E, aequabitur ei quod ex differentia ipsarum H, FV, fit et EK; quare aequalitatem ad <expan>proportionem</expan> reuocando erit ut differentia grauitatum <pb n="59"/> H, G, ad grauitatem EK, ita differentia grauitatum H, FV, <corr>ad</corr> grauitatem E. quod secundo loco fuit demonstrandum. </s>
+               </p>
+               <p>
+
+                  <s>Alia breuior Theorematis demonstratio. </s>
+               </p>
+               <p>
+
+                  <s>RESVMATVR eadem figura ut supra. </s>
+
+                  <s>Quoniam igitur corpus D, aequale est corpori Q, magnitudine, et portio C, aequalis portioni L, erit ut D, ad Q, ita C, ad L, et permutando ut D, ad C, ita Q, ad L, et quoniam eiusdem sunt generis D, C, similiter et Q, L, * erit vt grauitas corporis D, hoc est ut EK; ad K, ita H, ad V. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note52"/>4.huius</s>
+               </p>
+               <p>
+
+                  <s>Similiter quoniam ponuntur aequalia magnitudine corpora A, P, et aequales quoque portiones B, O, erit ut A, ad P, ita B, ad O, et permutando ut A, ad B, ita P, ad O, sed eiusdem sunt generis A, B, similiter et P, O, * ut igitur grauitas corporis A, id est ut EK, ad E, ita erit G, ad F, et per conuersionem rationis erit ut EK, ad K, ita G, ad G, minus F, sed demonstratum est, ut EK, ad K, ita esse H, ad V, ergo ut H, ad V, ita erit G, ad G, minus F, et permutando ut H, ad G, ita V, ad G, minus F, et diuidendo ut H, minus G, ad G, ita erit FV, minus G, ad G, minus F, rursus permutando erit ut H, minus G, ad FV, minus G, ita G, ad G, minus F, sed ut EK, ad K, ita est G, ad G, minus F, ut est demonstratum, ergo ut H, minus G, ad FV, minus G, ita erit EK, ad K, quare permutando ut H, minus G, ad EK, ita erit FV, minus G, ad K, quod esto primum. </s>
+               </p>
+               <p ana="margin">
+
+                  <s>
+                     <ptr xml:id="note53"/>4.huius</s>
+               </p>
+               <p>
+
+                  <s>Dico quoque ut H, minus G, ad EK, ita esse H, minus FV, ad E. </s>
+
+                  <s>Quoniam enim ostensum est ut EK, ad K, ita esse H, ad V, erit per conuersionem rationis ut EK, ad E, ita H, ad H, minus V, sed demonstratum est ut EK, ad E, ita esse G, ad F, ergo ut H, ad H, minus V, ita erit G, ad F, et permutando ut H, ad G, ita H, minus V, ad F, et diuidendo ut H, minus G, ad G, ita erit H, minus FV, ad F, et permutando ut H, minus G, ad H, minus FV, ita G, ad F, sed ut EK, ad E, ita est G, ad F, ut est demonstratum, ergo ut H, minus G, ad H, minus FV, ita erit EK, ad E, quare permutando, erit ut H, minus G, ad EK, ita H, minus FV, ad E, quod erat secundo loco demonstrandum. </s>
+               </p>
+               <p>
+
+                  <s>Svperest igitur ut dicamus, qua ratione ex grauitate auri cognosci possit eius qualitas; id quod ex ijs, quae dicta sunt facile colligitur; si videlicet nota fiat cuiusuis massae auri grauitas, quam habet tum in aere, tum in aqua. </s>
+
+                  <s>Sed ante omnia, duo nobis sunt praemittenda, et explicanda. </s>
+
+                  <s>nimirum quid sit aurum 24. partium, seu (ut vulgo dicitur) <foreign xml:lang="it">di 24. <pb n="60"/>caratti</foreign>, quidue pauciorum, hoc est penes quid attendatur diuersa auri qualitas. </s>
+
+                  <s>Deinde quomodo aurum alligent <corr>Aurifices</corr>, vel alij ad quos alligandi officium spectat. </s>
+
+                  <s>His enim cognitis, non erit difficile, id quod proponitur, certa aliqua ratione, assequi. </s>
+               </p>
+               <p>
+
+                  <s>Aurum igitur 24. partium appellatur aurum purum, pauciorum vero dicitur non purum, sed aliquo alio metallo, vel pluribus affectum. </s>
+
+                  <s>et quia haec affectio multiplex est, ideo etiam auri qualitas, qua ex varia mixtione nascitur, varia sit est necesse : quamuis una tantum sit qualitas auri puri. </s>
+
+                  <s>Qualitas enim auri in quouis corpore proposito, exprimitur partibus auri puri, qua sunt in ipso corpore, non in magnitudine, sed in grauitate sumptis, qualibus totum corpus constat 24: vel quod idem est, auri qualitas exprimitur in ratione quam habent illae partes in grauitate ad totum corpus: quod exemplo clarius explicabitur in hunc modum.</s>
+               </p>
+               <p>
+
+                  <s>Sit aliquod corpus aureum, exempli gratia 24. unciarum, quod expurgatum et ad aurum purum reductum, amiserit ex pristina grauitate nempe ex 24, uncys, quatuor uncias, ita ut remanserint tantum 20, unciae auri puri, reliquum vero vel euanuerit in fumum, vel fuerit alterius metalli. </s>
+
+                  <s>Totum igitur illud corpus aureum ab initio propositum, si adhuc intelligatur tale quale fuit ante expurgationem, appellabitur 20. partium, seu, (ut vulgo dicitur) <foreign xml:lang="it">di 20. caratti</foreign>. </s>
+
+                  <s>eo quod tota illa massa mista, 20. tantum uncias auri puri continuerit. </s>
+
+                  <s>Immo non solum illa massa auri, sed etiam illa cuius ipsa fuisset pars, vel quae ipsius fuisset quaecunque pars dicetur 20, partium. </s>
+
+                  <s>Neque enim in alligationibus metallorum, alia est alligatio partium, alia totius, sed utrorunque una eademque est qualitas.</s>
+               </p>
+               <p>
+
+                  <s>Et hoc est quod Aurifices in <corr>inuestigatione</corr> qualitatis auri obseruant. </s>
+
+                  <s>Non enim purificant totum corpus propositum, sed aliquam eius particulam etiam perexiguam, quam solam ad aurum purum reducunt. </s>
+
+                  <s>hac enim reducta, non solum recte definiunt cuius fuerit qualitatis particula illa purificata ante purificationem; verum etiam cuius fuerit qualitatis, et quot partium fuerit illud corpus, a quo eadem particula detracta fuit, et illud, quod adhuc superest, diminutum scilicet illa parte purificata, ut in eodem exemplo proposito, corporis aurei 24. unciarum apparet. </s>
+
+                  <s>Eius enim qualitatem si forte aurifices inuestigare velint, detrahent ex eo particulam, verbi gratia, unius unciae, vel quod idem est particulam 24. <pb n="61"/>scrupulorum; et hanc particulam excoquent ad qualitatem <sic>osquecori</sic> puri. </s>
+
+                  <s>Est si quidem inuenerint, ex priori grauitate 24. <corr>scrupulorum</corr>, deperisse nihil: pronuntiabunt aurum illud, hoc est, non solum particulam illam excoctam, sed etiam illud d quo fuit detracta, nec non et illud quod remansit post subtractionem esse vel fuisse aurum prima qualitatis seu 24, partiam; vel quod idem est <corr>aurum</corr> purum. </s>
+
+                  <s>Si vero <corr>deprehenderi ne</corr> grauitatem <sic>diminutant</sic>, verbi gratia, nunc esse 20. scrupulorum, quae ante defaecationem fuit 24. dicturi sunt aurum propositam 24. unciarum fuisse 20. partium et illud quod remansit esse 20. partium et denique particulam expurgatam nunc quidem esse aurum purum, fuisse vero particulam auri 20. partium.</s>
+               </p>
+               <p>
+
+                  <s>Et eodem modo pronuntiabunt de quibuscunque alijs auri qualitatibus, secundum partes auri puri, quas in qualibet massa auri inuenerint, easque vigesimas quartas tutius grauitatis, non magnitudinis. </s>
+
+                  <s>Nam cum in hac comparatione qualitatum, seorsim <corr>habeatur</corr> ratio partium auri, et seorsim metallorum alligatorum; manifestum est si grauitas totius corporis intelligatur diuisa in 24. partes aequales, ex quibus 20. sint auri, duae argenti, et duae aeris; quamlibet partem auri cum qualibet parte argenti et aeris collatam, magnitudine esse minorem; et similiter partem argenti minorem parte aris; propterea quod aurum omnia reliqua metalla superet grauitate quemadmodum et argentum ipsum <sic>as</sic>, ut constat <sic>experienties</sic> atque hinc constat quam apte ac conuenienter Aurifices utantur vocabulo partium. </s>
+
+                  <s>hac enim ratione eodem numero exprimunt unam quamque qualitatem auri cuiuslibet massae propositae. </s>
+
+                  <s>Sed nunc ad secundum veniamus et modum alligationis. </s>
+
+                  <s>quem <corr>idem</corr> obseruant breuiter adnotemus.</s>
+               </p>
+               <p>
+
+                  <s>Inter varias autem et multiplices auri compositiones quibus cum alijs metallis alligari potest, eam retinuere aurifices, quam diuturna experientia deprehenderunt omnibus alijs esse commodiorem, eam nimirum quae ab auri similitudine vel minimum discedat; qualis est quae solius argenti atque aeris mixtione perficitur. </s>
+
+                  <s>Et quidem si partes auri excipias, aris atque argenti partes, quae auro sunt permiscendae semper volunt esse aequales in grauitate: propterea quod eadem experientia Magistra didicerunt hunc esse mixtionis modum longe optimum.</s>
+               </p>
+               <p>
+
+                  <s>Quando ergo aurifices volunt producere aurum cuiuscunque qualitatis, accipiunt tot partes auri puri aequales, quot partium futurum est aurum producendum, pauciores tamen partibus 24, et <pb n="62"/>reliquas partes quae d sunt ad 24, explent argento et aere, sumendo ex utroque metallo partes aquales in grauitate; atque bis rite inter se permixtis componunt aurum desideratae qualitatis: eamque denominant a partibus auri puri in mixtione assumptis. </s>
+
+                  <s>Et quoniam non prodiret tale prorsus quale facere intendunt, sed paulo perfectius; propterea quod auri quidem partes in mixtione maneant, ex argenta vero et are aliquid deperdatur, solent Aurifices tanto plus miscere argenti et aris quantum perdi posse deprehenderunt.</s>
+               </p>
+               <p>
+
+                  <s>Verum nostra intentio non est omnia quae ad eiusmodi mixtione pertinent hoc loco exponere; sed illud tantum ut receptum apud omnes ad ferre voluimus, ex quo manifeste constat, qua metallorum mixtio in singulis qualitatum generibus statuatur: qua quidem est illa quam adduximus, nempe in auro 23, partium, partes 23, esse auri puri et reliquam qua deest ad 24, partes constare dimidia parte argenti, et dimidia aris in grauitate. </s>
+
+                  <s>In auro vero 22, partium, auri esse 23, argenti unam, et aeris unam, <corr>sic</corr> enim iterum summa omnium partium est 24, eademque est ratio de reliquis ita ut numerus partium auri, semper denominet qualitatem auri, et una medietas reliquarum partium, quae partibus auri desunt ad complendas partes 24, sit argenti, et reliqua medietas sit aeris. </s>
+
+                  <s>hac enim satis est supposuisse, ad nouum illud artificium, quo paulo post inuestigaturi sumus auri qualitatem ex sola grauitate quam habet in aere et aqua, eamque qualitatem duplici via inuestigabimus, una per calculum, per tabellam altera: et quia ad calculum spectant ea, quae superius inuenimus, de grauitate metallorum huc referenda censuimus quae hic sunt necessaria, cuiusmodi sunt auri, argenti, atque aeris grauitas, quam obtinent in aere, et aqua, quo quidem ita se habet ut sequitur.</s>
+               </p>
+               <p>
+
+                  <s>Auri puri grauitas, quae in aere est 19, erit in aqua 18. </s>
+               </p>
+               <p>
+
+                  <s>Argenti grauitas, quae in aere est 31, erit in aqua 28. </s>
+               </p>
+               <p>
+
+                  <s>Aeris grauitas; quae in aere est 9, erit in aqua 8. </s>
+               </p>
+               <div type="prosa-theorema">
+                  <head>
+
+                     <s>Item.</s>
+                  </head>
+                  <p>
+
+                     <s>Aurum ad aquam se habet in grauitate ut 19, ad 1. </s>
+                  </p>
+                  <p>
+
+                     <s>Argentum ad aquam se habet in grauitate ut 31, ad 3. </s>
+                  </p>
+                  <p>
+
+                     <s>Aes ad aquam se habet in grauitate ut 9, ad 1. </s>
+                  </p>
+                  <p>
+
+                     <s>Ex quibus clarissime colligitur, si aliquod corpus mistum constet partibus aequalibus argenti, et aeris in grauitate, quantam grauitatem habeat in aqua et quae sit ratio in grauitate ipsius misti ad aquam si enim grauitas aeris in aere sit 9, eius grauitas in aqua erit 8, et si grauitas argenti in aere sit quoque 9, erit eius <gap/>
+                        <pb n="63"/>gravitas in aqua 8 4/11, est enim ut 9, ad 8 4/11 ut 31, ad 28: Quare si grauitas corporis misti ex argento, et aere iuncta mixtionem praedictam, quae etiam subintelligenda erit in <corr>sequentibus</corr>, in aere fuerit 18, erit id aqua 16<gap/> et consequenter * grauitas aquae magnitudinem habentis aequalem <gap/> corpori misto<gap/> 
+                        <gap/>; quare corpus mistum ex argento et are ad corpus aqueum eiusdem magnitudinis, rationem habebit <gap/> grauitate ut 18, ad 1 22/11, velvt 1, ad<gap/>, vel denique in numeris integris ut 299, ad 29, omnium enim istorum numerorum eadem est ratio.</s>
+                  </p>
+                  <p ana="margin">
+
+                     <s>
+                        <ptr xml:id="note54"/>5. huius</s>
+                  </p>
+                  <p>
+
+                     <s>Quibus sic constitutis inuenietur qualitas auri cuiuscumque hoc modo. </s>
+
+                     <s>Sit <expan>exempli</expan> gratia proposita aliqua massa aurea, cuius grauitas in aere sit <abbr>unc.</abbr> 24, et oporteat invenire cuius qualitatis sit ipsum aurum. </s>
+
+                     <s>Ponderetur ea massa in aqua et habeat grauitatem unciarum 22 2<gap/>/5301, ergo * grauitas aquae magnitudinem habentis aequalem propositae massae erit unc. 1 2431/5301. </s>
+                  </p>
+                  <p ana="margin">
+
+                     <s>
+                        <ptr xml:id="note55"/>5.huius</s>
+                  </p>
+                  <p>
+
+                     <s>Deinde inueniatur grauitas aquae magnitudine aequalis auro puro 24, unciarum: hoc est ut 19, ad 1, ita fiat 24, ad alium, nempe ad unciam 1 9/19, hic enim numerus erit grauitas illius aquae.</s>
+                  </p>
+                  <p>
+
+                     <s>Fiat denique ut 279, ad 29, ita rursus 24, untiae, ad alium, numerus enim quartus, nempe unc. 2<gap/> erit grauitas aquae, magnitudine aequalis corpori misto ex argento et aere, cuius grauitas est in aere unc. 24, corpus enim ita mistum, ad corpus aqueum eiusdem magnitudinis rationem habet in grauitate ut 279, ad 29. </s>
+                  </p>
+                  <p>
+
+                     <s>Atque ita habebuntur tres gravitates trium aquae quantitatum, quarum prima aequatur auro puro 24, unciarum, secunda massa propositae 24, unciarum, et reliqua corpori misto ex argento et aere similiter 24, unciarum quae quidem tres grauitates in numeris disponantur eo ordine, quo sequitur.</s>
+                  </p>
+                  <p ana="table">
+
+                     <gap reason="tabula"/>
+                  </p>
+                  <p>
+
+                     <s>Deinde quaeratur differentia inter primam et tertiam aquae grauitatem, quae est unc. 1 1227/5302, et haec differentia statuatur pro primo proportionis termino, pro secundo termino ponatur grauitas <gap/>assae propositae idest unc. 24, et pro tertio denique termino ponatur differentia inter secundam aquae grauitatem et tertiam, quae est unc. 1 <gap/> quartus enim proportionalium terminus nempe 20, </s>
+                  </p>
+                  <pb n="64"/>
+                  <p ana="table">
+                     <gap reason="tabula"/>
+                     <s>erit denominator qualitatis auri de qua <corr>quaeritur</corr> quia ille terminus indicat partes auri pari in grauitate, qualibus massa proposita constat 24. <!--neuer Satz-->Hoc autem demonstratum est <abbr>prop.</abbr> 19, huius.</s>
+                  </p>
+                  <p>
+
+                     <s>Et quia in proposito exemplo <corr>hae</corr> partes, nempe unc. 20, sunt partes vigesima quartae 24, unciarum, quae constituunt grauitatem totius massae. </s>
+
+                     <s>hinc fit quod eaedem 20. unc. </s>
+
+                     <s>immediate denominent aurum propositum esse 20, partium. </s>
+
+                     <s>Quando vero grauitas totius massa non exprimitur per numerum 24, tunc opus erit inquirere quot partes vigesimas quartas totius grauitatis efficiat quartus ille proportionis terminus ut in sequenti exemplo clarius apparebit.</s>
+                  </p>
+                  <p>
+
+                     <s>Sit enim proposita alia auri massa cuius grauitas in aere sit 5301 in aqua vero 4988, si igitur hic numerus subtrahatur ex numero totius grauitatis 5301, reliquus numerus 313, * erit grauitas aquae propositae massae magnitudine aequalis. </s>
+
+                     <s>Inueniantur <expan>quoque</expan> duae aliae grauitates aquae, una respondentis auro puro magnitudine, altera corpori misto ex argento et aere, ita tamen ut grauitas tum auri puri, tum corporis misti sit eadem quae massae propositae, non secus ac in praecedenti exemplo factitatum est. </s>
+
+                     <s>hoc est primo fiat ut 19, ad 1, ita 5301, ad 279, hic enim numerus erit grauitas aquae magnitudinem habentis aequalem auro puro, cuius grauitas est 5301. <!--neuer Satz-->Deinde fiat ut 279, ad 29, ita rursum grauitas 5301, ad aliam, hac enim ratione producetur numerus 551, debitus grauitati aquae, magnitudine aqualis corpori misto ex argento et aere grauitatem habenti eandem cum eadem massa proposita. </s>
+
+                     <s>Atque hae tres grauitates aquae scribantur eo ordine quo supra; inuentisque differentijs inter primam et</s>
+                  </p>
+                  <p ana="margin">
+
+                     <s>
+                        <ptr xml:id="note56"/>5.huius</s>
+                  </p>
+                  <p ana="table">
+                     <gap reason="tabula"/>
+                     <s>tertiam, nec non inter secundam et tertiam, quae sunt 272, 238; statuatur pro primo proportionis termino prior differentia 272, et pro tertio posterior 238. grauitas vero massae propositae 5301, ponatur prosecundo termino, et quaeratur terminus quartus, qui in praesenti</s>
+                  </p>
+                  <p ana="table">
+                     <gap reason="tabula"/>
+                     <s> 
+                        <corr>exemplo</corr> est 4638 51/<gap/>, is enim indicabit grauitatem auri puri in massa proposita. </s>
+
+                     <s>Sed quoniam haec grauitas non est expressa in partibus vigesimis quartis totius grauitatis, id quod ad </s>
+                  </p>
+                  <pb n="65"/>
+                  <p ana="margin">
+
+                     <s>
+                        <ptr xml:id="note57"/>19. huius.</s>
+                  </p>
+                  <p>
+
+                     <s>germanam qualitatis auri pronuntiationem requiritur, ut supra multis ostendimus, reuocanda erit ad partes vigesimas quartas hoc est ad partes, qualium tota proposita massa est 24, quod factu non est difficile. </s>
+
+                     <s>Nam si fiat ut tota grauitas massae propositae 5301, at grauitatem auri puri 4638 45/116, velvt 272, ad 238, cum utrobique eadem sit ratio ita 24, ad alium numerum. </s>
+
+                     <s>procul dubio quartus numerus proportionalis, erit ille qui quaeritur. </s>
+
+                     <s>Est autem hic quartus numerus 21. Quare aurum massae propositae appellabitur partium 21. </s>
+                  </p>
+                  <p>
+
+                     <s>Ex his igitur patet in inuenienda auri qualitate primum proportionis terminum 272, et secundum 5301, perpetuo manere eosdem, quia primus terminus est differentia inter grauitates primae, et tertiae aquae, quae nunquam mutantur, nam illae aquae magnitudine sunt aequales altera auro puro, reliqua misto ex argento et aere, quae corpora aureum scilicet et mistum semper ponuntur eiusdem grauitatis nempe 5301, Secundus vero terminus 5301, est grauitas massae propositae, quae si maior fuerit, vel minor, ad eam facile reuocabitur. </s>
+
+                     <s>Vnde in posterum solum opus erit inuenire tertium proportionis terminum, hoc est differentiam inter grauitates secundae et tertiae aquae.</s>
+                  </p>
+                  <p>
+
+                     <s>Sed ut hoc etiam exemplo illustretur, proponatur aliqua massa auri, cuius <expan>inuestiganda</expan> sit qualitas, et sit ipsius massae grauitas quidem in aere 837, in aqua vero 784, ergo * grauitas aquae magnitudinem habentis aequalem propositae massae erit 53, differentia enim inter primam, et secundam grauitatem est 53. </s>
+                  </p>
+                  <p ana="margin">
+
+                     <s>
+                        <ptr xml:id="note58"/>5.huiu</s>
+                  </p>
+                  <p>
+
+                     <s>Ad inueniendum igitur tertium proportionis terminum manentibus primis duobus 272, 5301, haec erit ratio. </s>
+
+                     <s>Reuocetur primum <corr>propositae</corr> massae grauitas 837, ad grauitatem 5301, hoc est intelligatur ipsa massa grauitatem <corr>habere</corr> 5301. deinde fiat ut 837, ad 53, grauitatem videlicet aquae ipsi massae aequalis, ita 5301, ad 335 2/3, ergo 335 2/3, erit grauitas aquae magnitudinem habentis aequalem aureae massae, cuius grauitas 837, reuocata est ad grauitatem 5301; quare grauitas secundae aquae erit 335 2/1, et consequenter differentia</s>
+                  </p>
+                  <p ana="table">
+                     <gap reason="tabula"/>
+                     <s> inter ipsam grauitatem secundae aquae et grauitatem tertiae 551, erit 215 1/1, sed ipsa differentia ponitur pro tertio proportionis termino; ergo 215 1/3, erit quaesitus terminus, nempe proportionis tertius.</s>
+                  </p>
+                  <pb n="66"/>
+                  <p ana="table">
+
+                     <gap reason="tabula"/>
+
+                     <s>Quartus autem terminus 4196 25/116, indicabit grauitatem auri puri, quod est in massa proposita, eam tamen indicabit in partibus, qualibus tota massa constat 5301, quae quidem grauitas ut auri qualitatem indicet, reuocanda erit ad partes qualium totae massa proposita est 24. si enim fiat ut 5301, ad 4196<gap/>, ita 24, ad 19, aurum propositae massae appellabitur partium 19. </s>
+                  </p>
+                  <p>
+
+                     <s>Denique si quis hunc modum conferat cum illo, quem supra tradidimus, cum argentum explorauimus, quod mistum in aurea corona credebatur; is liquido intelliget hic nihil aliud accessisse, nisi quod loco argenti, assumptum sit corpus ex argento et aere mistum, eo quod haec duo metalla tantum in alligationibus auri soleant <corr>adhiberi</corr>, ut diximus. </s>
+
+                     <s>Quod si constaret plura alia assumpta esse, etiam in quauis alia ratione, facile erit cuiuis ad similitudinem huius, formare alium modum, sed nos, ne longiores simus, ad usum sequentis tabulae nos conferamus, qua illis consultum volumus qui minus in praeceptis Arithmeticis sunt exercitati, vel illis, qui alias ob causas tabulis uti malunt, quam calculis.</s>
+                  </p>
+                  <p>
+
+                     <s>Haec tabula accommodata est primarie ad aurum unius librae, ut apparet in <expan>secunda</expan> ipsius columna in qua omnes numeri sunt unitates, respondentes singulis Denominatoribus qualitatum auri, a deno minatore partium 24, usque ad denominatorem qualitatis partis o, quamuis proprie loquendo nulla sit qualitas auri partis nullius, quia tunc non esset aurum, sed mistum ex argento et aere. </s>
+
+                     <s>Hos denominatores auri omnes inuenies in prima columna sub titulo qualitatis. </s>
+
+                     <s>In columna vero sub titulo misti placuit etiam describere denominatores misti ex argento et aere, ut unico intuitu appareat quot partes auri puri, et quot partes misti ex argento et aere contineantur in singulis qualitatibus.</s>
+                  </p>
+                  <p>
+
+                     <s>Porro in area tabulae sub titulo grauitatis auri in aqua posita est grauitas auri cuiuslibet qualitatis quam obtinet in aqua, quae qua ratione inueniatur, dicetur inferius vbi agetur de compositione eiusdem tabulae.</s>
+                  </p>
+                  <p>
+
+                     <s>Vsus eius sunt duo, quorum alterum titulus indicat, nimirum ut tabulae beneficio reperiatur ex grauitate auri quam habet in aere et aqua, eius qualitas. </s>
+
+                     <s>Alter vero est ut cognoscatur grauitas in aqua, quando una cum grauitate quam aliquod aurum habet in aere datur ipsius qualitas. </s>
+
+                     <s>et de hoc usu cum sit simplicior prius nobis erit agendum.</s>
+                  </p>
+                  <pb n="67"/>
+                  <p ana="table">
+
+                     <gap reason="tabula"/>
+                  </p>
+                  <p ana="table">
+
+                     <gap reason="tabula"/>
+                  </p>
+                  <pb n="68"/>
+                  <p>
+
+                     <s>Quaeratur exempli gratia quam habet grauitatem in aqua <expan>aurum</expan> purum seu aurum 24, partium cuius grauitas in aere est <abbr>lib.</abbr> 1. Haec in supremo ordine e regione denominatoris partium 24, sub titulo grauitatis auri in aqua, datur unc.  1 1. Scrup. 8, <abbr>Gran.</abbr> 20 172/1767, quae fractio licet exprimi possit minoribus numeris <expan>nempe</expan> 4/19, libuit tamen illam maiorem in tabula ponere, ut omnes fractiones totius tabulae essent eiusdem denominationis, et responderent denominatoribus fractionum quae habentur in tabella partis proportionalis.</s>
+                  </p>
+                  <p>
+
+                     <s>Rursum quaeratur quam habet grauitatem in aqua aurum iterum unius librae, qualitatis vero 20, partium. </s>
+
+                     <s>quam si in tabula quaeras, inuenies sub eodem titulo e regione denominatoris 20, partium. unc.  11, Scrup. 6, <abbr>Gran.</abbr> 9 177/1767. eademque est ratio de reliquis.</s>
+
+                  </p>
+                  <p>
+
+                     <s>Quando vero propositum aurum non est unius Librae; tunc opus erit ratiocinatione proportionis, in qua pro primo termino ponatur una libra auri propositae qualitatis, pro secundo termino, grauitas eidem respondens in aqua quam tabula exhibet, pro tertio vero termino collocetur vera grauitas auri propositi. </s>
+
+                     <s>Quartus enim terminus exhibebit grauitatem ipsius auri in aqua. </s>
+
+                     <s>Vt si propositum <expan>aurum</expan> sit trium <abbr>lib.</abbr> 
+
+qualitatis vero 18, partium. </s>
+
+                     <s>fiat ut <abbr>lib.</abbr> 
+
+1. ad unc. 11, Scrup. 5, <abbr>Gran.</abbr> 3 963/1767, ita <abbr>lib.</abbr> 3. ad alium numerum, is erit <abbr>lib.</abbr> 2, unc. </s>
+
+                     <s>9, Scrup. 15, <abbr>Gran.</abbr> 10 1122/1767. et tanta erit grauitas auri propositi in aqua. </s>
+
+
+
+                     <s>Et sic de alijs.</s>
+                  </p>
+                  <p>
+
+                     <s>Quod vero ad priorem usum attinet, is persimilis est praecedenti, et aeque facilis quando grauitas auri quam in aere et aqua habet, in tabula reperitur <corr>praecise</corr>. </s>
+
+                     <s>Nam si proponatur <expan>exempli</expan> gratia aurum unius <abbr>lib.</abbr> 
+
+habens in aqua <expan>grauitatem</expan> unc. 11. Scr. 7, Gra. 14 1152/1767, quoniam haec grauitas reperitur in tabula e regione qualitatis auri 22, partium; manifestum est totidem partium esse <expan>aurum</expan> propositum.</s>
+                  </p>
+                  <p>
+
+                     <s>Quando vero grauitas auri in aere <sic>quiaem</sic> est unius <abbr>lib.</abbr> 
+
+in aqua vero grauitatem habet, quae in tabula non reperitur, indicium erit aurum propositum non esse aliquot partium praecise, sed annexam habere aliquam fractionem, quae per partem proportionalem inuenietur hoc modo.</s>
+                  </p>
+                  <p>
+
+                     <s>Proponatur aurum unius librae in aqua habens grauitatem unc. 11. Scrup. 6, <abbr>Gran.</abbr> 16 264/1767, qualis in tabula non reperitur Grauitas enim proxime maior est unc. 1 1. Scrup. 6, <abbr>Gran.</abbr> 23 1551/1767, respondens auro 21, partium, et grauitas proxime minor est unc. 11, Scrup. 6, <abbr>Gran.</abbr> 9 177/1767, <expan>earumque</expan> differentia est <abbr>Gran.</abbr> 14 1374/1767, quem admodum et inter quascunque duas alias grauitates proximas <pb n="69"/> eadem est differentia, propterea quod omnes grauitates in tabula procedunt per aequalem excessum, vel defectum, ut inferius demonstrabitur. </s>
+
+
+
+
+
+                     <s>Inueniatur quoque differentia inter eandem grauitatem proxime minorem et inter grauitatem auri propositi quam habet in aqua, quae <expan>quidem</expan> est <abbr>Gran.</abbr> 7 687/1767, et fiat ut 14 1374/1767, ad 1, ita 7 687/1767, ad alium numerum et inuenietur haec fractio 1/2, eademque adijcienda erit ad denominatorem 20, partium, ut componatur totus denominator auri propositi partium 20 1/2, et eodem modo inueniendus erit denominator <expan>cuiuscunque</expan> alterius auri, cuius grauitas in aqua, in tabula non reperitur.</s>
+                  </p>
+                  <p>
+
+                     <s>Ceterum qui volet contentus esse partibus vigesimis quartis denominatorum auri, is multo breuius assequetur quod quaeritur, per tabellam partis proportionalis. </s>
+
+                     <s>illic enim unico ingressu offendet partem proportionalem, quam quaerit, ut in eodem exemplo apparet, in quo differentia grauitatum auri erat <abbr>Gran.</abbr> 7 687/1767, quae in tabella partis proportionalis habetur praecise e regione particularum 12. Vnde concluditur, denominatorem auri propositi esse partium 20 12/24, vel quod idem est partium 20 1/2, ut prius. </s>
+
+                     <s>Quando vero differentia grauitatum in tabella partis proportionalis non habetur praecise. </s>
+
+                     <s>accipiatur alia ipsi propinquior et particula illi in latere respondens addatur denominatori auri ex primaria tabula extracti. </s>
+
+                     <s>sic enim saltem non errabitur in una particula vigesimaquarta unius partis denominatoris auri.</s>
+                  </p>
+                  <p>
+
+                     <s>Denique si proponatur aurum non unius librae sed vel plurium, vel solum aliquot unciarum. </s>
+
+                     <s>Reducenda erit eius grauitas quam habet in aqua, ad grauitatem quam haberet si <corr>esset</corr> unius librae, id quod absoluetur per proportionis ratiocinationem, si pro termino primo ponatur vera grauitas auri propositi, pro secundo, eiusdem grauitas in aqua, et pro tertio <abbr>lib.</abbr> 
+
+1, quartus enim terminus indicabit grauitatem in aqua respondentem uni librae auri propositi. </s>
+
+                     <s>et hac inuenta reliqua expedientur ut prius.</s>
+                  </p>
+                  <p>
+
+                     <s>Exemplum huius casus hic non affero, quod per se res sit clara. </s>
+
+                     <s>Sed illud tantum obiter aduertere placet, quod videtur pertinere ad commodiorem usum tabulae, videlicet ut iis in casibus in quibus <corr>necessarius</corr> est calculus, fractiones granorum omittantur quando minus valent quam 1/2, et quando valent plus, eorum loco, addatur unum granum reliquis granis, et si quando accidat hinc procreari grana 24. tunc etiam grana omittantur addita prius unitate ad scrupula in tabula inuenta. </s>
+
+                     <s>hac enim ratione calculus erit expeditior et error qui hinc oborietur erit insensibilis.</s>
+                  </p>
+                  <pb n="70"/>
+               </div>
+            </div>
+            <div type="prosa-tabula">
+               <head>
+
+                  <s>Compositio eiusdem tabulae.</s>
+               </head>
+               <p>
+
+                  <s>Si ea quae hactenus sunt dicta recte intelligantur liquido apparebit compositionem tabulae in eo consistere, ut inueniatur grauitas quam aurum cuiusuis qualitatis habet in aqua, hoc est si intelligantur propositae plures massae auri, singulae singularum librarum, et alia sit qualitatis 24, partium alia 23, alia 22, <abbr>etc.</abbr> 
+                  </s>
+
+                  <s>quanta sit grauitas uniuscuiusque in aqua, id quod hoc extremo loco inuestigare docebimus.</s>
+               </p>
+               <p>
+
+                  <s>Et primum sit propositum aurum purum, seu 24, partium. </s>
+
+                  <s>quoniam igitur grauitas auri in aere, ad grauitatem eiusdem in aqua se habet ut 19, ad 18, fiat ut 19, ad 18, ita <abbr>lib.</abbr> 1, auri puri ad aliam grauitatem nempe <abbr>lib.</abbr> 1<gap/>/19, quae grauitas ad uncias, scrupula, et grana reuocata valet unc. 11, Scrup.8. <abbr>Gran.</abbr> 20 4/19, atque haec est grauitas auri puri in aqua, quam in tabula e regione denominatoris 24, posuimus; fractione excepta cuius loco substituta est fractio 372/1767, propter causam superius allatam.</s>
+               </p>
+               <p>
+
+                  <s>Sit deinde propositum quod vis aliud corpus aureum unius librae, sitque <expan>exempli</expan> gratia illud aurum 20, partium, patet igitur ex definitione qualitatis, ex 24, semiunciis totius grauitatis, 20, semiuncias esse auri puri, duas argenti, et reliquas duas aeris et quoniam grauitas misti in aere, ad grauitatem eiusdem in aqua rationem habet ut 279, ad 250, ut ex iam dictis patet, fiat ut 279, ad 250, ita quatuor semiunciae, vel potius <gap/>, unciae misti quod componit qualitatem auri 20, partium, paulo ante propositam ad alias uncias. </s>
+
+                  <s>inuenientur enim pro grauitate illius misti in aqua unc. 1 221/274. Est autem grauitas auri puri 20, semiunciarum vel 10, unciarum in aqua unc.9 9/19, eo quod ita se habeant 10, ad 9 9/29, ut 19, ad 18, Quare si hae duae grauitates inuentae colligantur in unam summam, inueniemus totam massam auri propositam, cuius grauitas in aere ponebatur <abbr>lib.</abbr> 1, in aqua <corr>habere</corr> grauitatem unc. 11 1409/5301. et facta reductione fractionis ad scrupula, et grana, unc. 1 1, Scrup.6. <abbr>Gran.</abbr> 9 177/1767, ut videre est in tabula e regione denominatoris 20, partium. </s>
+
+                  <s>Atque eodem modo deprehendentur grauitates auri in aqua <expan>quarumcunque</expan> aliarum qualitatum.</s>
+               </p>
+               <p>
+
+                  <s>Quia vero permolestum videri posset omnes grauitates totius tabulae hac via eruere; obseruari quidem poterit praedicta Methodus quando seorsim inuestiganda fuerit alicuius auri grauitas in aqua, in <expan>compositione</expan> vero tabulae sic fortassis <expan>compendiosius</expan> quis processerit.</s>
+               </p>
+               <p>
+
+                  <s>Equidem, cum huius tabulae constructionem diligentius mecum<pb n="71"/>pertracto, video grauitates illas, quae in eius area descriptae sunt necessario eadem differentia procedere, sicut et denominatores qualitatum eadem differentia procedunt; atque adeo differentiam illam esse eam, qua grauitas semiunciae auri puri in aqua superat in aqua <expan>grauitatem</expan> semiunciae misti, quae <expan>quidem</expan> differentia est Gra. 14 1174/1767. Considerentur enim quaecunque duae grauitates proximae in tabula <corr>expressae</corr>, ut <expan>exempli</expan> gratia grauitates auri 20, et 19, partium. </s>
+
+                  <s>Quoniam igitur in auro 20, partium sunt auri puri 20. semiunciae, misti vero 4, et in auro 29, partium sunt auri puri 19. semiunciae, misti vero 5, erit in auro 20. <expan>partium</expan> una semiuncia auri puri plusquam in auro 19, partium, in auro autem 19, partium erit una semiuncia misti plus quam in auro 20, partium; quare grauitas auri 20, partium in aqua superabit in aqua grauitatem auri 19, partium grauitate, qua semiuncia auri puri superat semiunciam misti. </s>
+
+                  <s>Quod erat demonstrandum. </s>
+
+                  <s>Et eadem est ratio de alijs grauitatibus, non solum quae in hac tabula describuntur, sed etiam de illis, quae describentur in alijs, copiosioribus, in quibus videlicet denominatores non essent partes integrae, sed partes partiam; dummodo etiam illae partes per unam eandemque differentiam progrederentur.</s>
+               </p>
+               <p>
+
+                  <s>Quibus in hunc modum prae ostensis, si construenda fuerit tabula per continuam additionem eiusdem numeri, sic erit progrediendum. </s>
+
+                  <s>Primo inuenienda erit grauitas quam habet semiuncia auri puri in aqua, quae inuenietur si fiat ut 19, ad 18, ita semiuncia ad alium <corr>numerum</corr> qui sit unc. 9/19, is enim dabit grauitatem quaesitam, quae valet scrup.1 1, <abbr>Gran.</abbr> 8 16/19. </s>
+               </p>
+               <p>
+
+                  <s>Secundo quaerenda est grauitas semiuncie misti in aqua, quae habebitur si fiat ut 279, ad 250, ita semiuncia, ad alium numerum, qui sit unc. 125/229, is enim dabit grauitatem quaesitam, quae reducta ad scrupula, et grana valet scrup. 10, <abbr>Gran.</abbr> 18 2/3. </s>
+               </p>
+               <p>
+
+                  <s>Tertio exploranda est differentia inter duas grauitates proxime inuentas, quam per subtractionem inuenies <abbr>Gran.</abbr> 14 452/589, cuius tamen fractio reducta est ad partes 1767, nempe ad 1374/1767, propter tabellam partis proportionalis.</s>
+               </p>
+               <p>
+
+                  <s>Postremo inuestiganda erit grauitas in aqua unius librae misti, quae inuenietur si grauitas secundo loco reperta per 24, multiplicetur, productus enim numerus unc. 10, scrup. 18, <abbr>Gran.</abbr> 969/1767, dabit quaesitam grauitatem. </s>
+
+                  <s>Qua in calce tabulae descripta, componentur reliquae grauitates omnes per continuam additionem differentiae tertio loco inuentae. </s>
+
+                  <s>Si enim addatur ad grauitatem auri partis o, idest ad grauitatem misti unius librae in aqua, componetur<pb n="72"/>grauitas auri 1, partis. </s>
+
+                  <s>addita vero ad grauitatem 1, partis, procreabit grauitatem 2, partium, <abbr>etc.</abbr> 
+                  </s>
+
+                  <s>propter rationem quam paulo ante aperuimus.</s>
+               </p>
+               <p>
+
+                  <s>Hoc eodem artificio composita est quoque tabella partis proportionalis, primo enim inuenta est vigesima quarta pars differentiae secundum quam tabula progreditur quam supra inuenimus esse <abbr>Gran.</abbr> 14 1374/1707, cuius pars vigesima quarta est 1072/1707, deinde hanc particulam addidimus primum sibi ipsi, et produximus differentiam 2, particularum <abbr>Gran.</abbr> 1 409/1707 et huic differentiae <expan>iterum</expan> adiecimus eandem particulam, et inuenimus pro tribus particulis <abbr>gran.</abbr> 1 1497/1767. et ita deinceps progressi sumus usque ad differentiam <abbr>Gran.</abbr> 14 1374/1767, quae respondet 24, particulis, seu differentiae, secundum quam tabula progreditur.</s>
+               </p>
+            </div>
+            <closer>FINIS.</closer>
+         </div>
+      </body>
+      <back>
+         <div type="prosa-errata">
+            <head>
+          
+               <s>ERRATA SIC CORRIGE.</s>
+            </head>
+            <p ana="table">
+            
+               <gap reason="tabula"/>
+            </p>
+            <p>
+              
+              <s>
+                  <expan>Contractiorem</expan> 
+                  <expan>quoque</expan> ad inuenies dimidij pedis <expan>mensuram</expan> in margine pag. 34. <expan>appositam</expan>, quia madefacta papyrus, <expan>dum</expan> imprimeretur recipiebat <expan>veram</expan> 
+                  <expan>mensuram</expan>, exsiccata breuiorem reddidit. </s>
+              
+              <s>Itaque si quarta decima pars unius uncia addatur ipsi <corr>mensura</corr> componetur dimidij pedis mensura; vel si ipsa mensura duplicetur, et ei addatur septima pars unius uncia fiet mensura unius pedis, ad cuius rationem <corr>omnes</corr> calculi in tabulas optime respondebunt.</s>
+            </p>
+            <p>
+                
+                <s>Denique pagina 38. et 39. tabularum praeposterus est ordo. </s>
+                
+                <s>ex quo tamen nihil <sic>srreris</sic> sequitur si tituli recte accipiantur.</s>
+            </p>
+         </div>
+      </back>
+  </text>
+</TEI>

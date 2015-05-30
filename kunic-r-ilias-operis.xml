@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="kunic-r-ilias-operis">
+         <titleStmt>
+            <title>Оperis ratio (Ilias Latinis versibus expressa), versio electronica</title>
+            <author key="kunic02">
+               <name xml:lang="hr" xml:id="RK">Kunić, Rajmund</name>
+               <date>1719-1794</date>
+            </author>
+            <editor>
+               <name xml:id="PŠ">Petra Šoštarić</name>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Priređeno prema digitalizatu izdanja iz 1776.</p>
+         </editionStmt>
+         <extent ana="C">Mg:C 218 versus, verborum 7485</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+               projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+               Hrvatska.  <date when-iso="2013-01">Siječnja 2013</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <biblStruct type="externum">
+               <monogr>
+                  
+                  <author>Homerus</author>
+                  <author ref="kunic02" role="vertit">
+                     <name xml:lang="hr">Kunić, Rajmund</name>
+                     <date>1719-1794</date>
+                  </author>
+                  <title>Ilias. Latinis versibus expressa a Raymondo Cunichio
+                     Ragusino. </title>
+                  <imprint>
+                     <pubPlace>Romae</pubPlace>
+                     <publisher>Excudebat Ioannes Zempel</publisher>
+                     <date>1776</date>
+                  </imprint>
+                  <extent>XLVII + 611 pag. ; 2o </extent>
+               </monogr>
+               <note>Orig.: 'Ilias.</note>
+               <idno type="other">Xb * Jurić. Scriptores</idno>
+               <relatedItem type="primjerak">
+                  <ref type="signatura">NSK Zagreb RIIF-2o-28</ref>
+               </relatedItem>
+               <relatedItem type="digitalizat-internet">
+                  <ref type="gbs" target="http://books.google.com/books?id=Hx1LAAAAcAAJ">Homeri Ilias latinis versibus expressa a Raymundo Cunichio Ragusino - Homerus, Raimondo Cunich - Google Books</ref>
+               </relatedItem>
+               <relatedItem type="digitalizat-internet">
+                  <ref type="gbs" target="http://books.google.com/books?id=XXxBAAAAcAAJ">Homeri Ilias Latinis versibus ... - Google Books</ref>
+               </relatedItem>
+               <relatedItem type="digitalizat-internet">
+                  <ref type="bsb"
+                       target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10209549-1">Ilias / Homerus<note> RaimundusCunichius hrvlat-internet</note>
+                  </ref>
+               </relatedItem>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1776" period="17xx_3_third">1776</date>
+            
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+               <term>prosa oratio - praefatio</term>
+               <term>prosa oratio - dedicatio</term>
+               <term>prosa oratio - paratextus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2013-01-06T18:29:45</date>
+            Početna TEI XML verzija.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="xvii"/>
+         <div type="prosa-praefatio" rend="P7">
+            <head>OPERIS RATIO</head>
+            <head type="sub">EIDEM CLARISSIMO VIRO AB INTERPRETE REDDITA.</head>
+            <p>Tria sunt, <hi rend="smallcaps">Balthassar </hi>optime, atque optimarum artium amantissime, (te enim unum iterum affari, tibi uni hujus tuo jussu elucubratae interpretationis rationem reddere placet) tria, inquam, omnino sunt, quae ad omne opus, ut recte ac laudabiliter fiat, necessario requiruntur. Primum ut vere judicemus quid fieri oporteat, deinde ut id facere possimus, postremo ut velimus. Quorum trium, quanquam duo illa priora, si forte desint, nobis merito exprobrari non possunt, tertium potest; utpote quod in nostra manu, ac potestate sit positum: tamen ex omni scriptorum numero multo plures reperias, qui dicant sibi voluntatem, quam qui aut judicium, aut facultatem defuisse. Qui tamen ipse, quem fatentur, atque adeo interdum profitentur, voluntatis defectus, ut omni culpa vacare putetur, alii alias caussas plerumque parum probabiles afferre consueverunt. Poëtis quidem illud imprimis usitatum esse animadverti, ut languoris, ac desidiae suae hanc potissimum caussam fuisse dicant, quod illis defuerit patronus aliquis prisco illi Maecenati non absimilis, cujus ope se humo attollere, atque ad laudem eniti possent. Scitum est enim ingenii culpam fortunae tribuere, et comminisci aliquid, unde id, quod assequi non potueris, alieno potius, quam tuo vitio nequaquam sequutus esse videare. Hanc ego excusationis latebram, in qua multi poëtae vel mediocres, vel etiam mali saepe numero delitescunt, mihi omnino praeclusam esse video; cui ad hanc Homericae Iliadis interpretationem rite conficiendam, ut <pb n="xviii"/> cetera omnia defuerint, patronus certe non defuit. Eum enim huic operi meo in te patronum, eum hortatorem, adjutoremque sum nactus, quo, si optio data esset, nullum potuissem optare, mihique ex omni copia deligere meliorem; virum summa nobilitate, summis opibus, summo ingenio, summa in re poëtica intelligentia; qui me tua sponte post versa Anthologica, tibique dicata, ut eodem modo Iliadem verterem humanissimis, gravissimisque verbis es cohortatus; qui semel impulsum urgere ad extremum, et currentem, quod ajunt, incitare non destitisti; qui opus ubi esset confectum, tua id impensa in lucem edere liberalissime, munificentissimeque jussisti, non multa exemplaria, quibus amicos munerares, tibi reservare, cetera omnia magno numero mihi habere, tuae in me, quam ego omnibus muneribus antepono, benevolentiae monumentum. Hujusmodi patronus cui obtigerit, non est credibile me in scribendo minus quam potuerim contendisse, ac non potius dedisse operam diligenter, ut te talem virum tui de me judicii, tuaeque in me liberalitatis minime poeniteret. Quamobrem si quid peccavi, imo vero ubi aliquid peccavi; multa enim in opere tam longo, ac tam difficili peccasse minime dubito; nolo me quisquam defendat hoc modo: Potuit melius, verum hunc locum neglexit. quidni, quod Homero concessum est, ut interdum dormitaret, id Homerico etiam interpreti concedatur? Homero enim suo arbitratu illa canenti, si uspiam negligentior fuit, quod non facile adducor ut Horatio concedam, sine flagitio esse negligenti licebat: mihi tuo jussu, a quo singulari benevolentia et liberalitate essem provocatus, eadem interpretanti, certe non licebat. Itaque si quis defendere volet, alia me quavis potius quam ista ratione defendat. Dicat nimio ejus rei, quae mandata erat, exequendae studio plus aequo festinasse; dicat gravissimo, ac laboriosissimo instituendae <pb n="xix"/> juventutis muneri addictum, ac verentem, ne quid privatis studiis de opera publica detraherem, ad omnia, quemadmodum cupiebam, limanda et perpolienda non satis otii habuisse; dicat carmina, quae ab Ovidio non nisi <quote>animo sereno deducta</quote> provenire dicuntur, scripsisse temporibus turbulentis, animo anxio, atque sollicito; dicat postremo, quidquid libuerit, modo hoc firmum, fixumque maneat, me non oscitanter meo munere functum esse, atque ibi etiam, ubi quod agebam parum successit, tamen sedulo fecisse, quod potuerim. Satis, opinor, intelligis ex his, quae dixi, me adhuc non tam de versibus, quam de moribus meis tibi probandis esse sollicitum, nec tam laborare, ut bonus interpres, quam ut bonus vir esse existimer. Boni enim viri officium definitur hac una, quam mihi praesto fuisse dico, sedula studiosaque voluntate; boni interpretis, non item. Affert quidem voluntas, ut ad alia magna atque praeclara, sic etiam ad bene interpretandum permultum momenti. opus enim natura sua implexum, ac perdifficile bene fieri non potest, nisi fiat sedulo, ac diligenter: verumtamen omnis sedulitas, quantacunque fuerit, ac diligentia frustra erit, nisi interpres adhibuerit praeterea illa duo, quae a me initio sunt posita, judicium, quo vere statuerit, quid fieri opus esset, ac facultatem, qua id efficere potuerit, quod optimum esse judicarit. Quamobrem, siquidem tibi non modo me, sed opus etiam meum probari velim, ostendam necesse est, horum neutrum mihi defuisse. Quod quidem facere conabor, sed ita, ut ad judicium quod attinet, fidenter, et sine ullo erroris metu affirmare non dubitem, genus interpretandi, quo sum usus, optimum esse: quod autem pertinet ad meam in eo genere facultatem, dicam aliquid timide, ac pedetentim, nihil tam metuens, quam arrogantiae reprehensionem, a quo me vitio cum in omni vita, tum in iis, quae scribo, profiteor <pb n="xx" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT23"/> abesse quam longissime. Primum igitur sic habeto: duo esse interpretandi genera, duas veluti scholas, sectasque interpretum. altera est eorum, qui verbum e verbo convertunt, singulas voces religiose, atque adeo superstitiose adnumerant, nihil eo, quo positum est loco, mutare audent, qui denique, sola, quam unam in ore habent, atque assidue depraedicant, fidei ratione contenti, omne praeterea ornamentum, omnem Latinae linguae concinnitatem, omnem aptae verborum collocationis venustatem aspernantur. Hi, si eos vertant scriptores, qui rerum, non verborum, gratia expetuntur, possunt profecto non solum ferri, sed etiam probari, et consequi primum hanc laudem, ut ejus linguae, ex qua verterint, periti, ejus, in quam verterint, non imperiti fuisse existimentur; deinde etiam illam, quae multo est major, ut putentur minime aberrasse a veritate, et rerum notitias, quae fere unae in hujusmodi scriptoribus quaeruntur, maxime sinceras, atque incorruptas suo illo simplici, quamvis inculto, atque horrido sermone conservasse. Verumtamen hoc vertendi genus, quo in aliis plerisque contenti esse possumus, si quis transferat ad oratores, aut ad poëtas, qui non magis rerum pondere, quam verborum splendore commendantur, necesse est, injucundum, ineptum, omni ex parte vitiosissimum inveniri. Quum enim potissima, vel sola potius laus interpretis haec sit, ut eum, quem exprimit, et cujus quandam velut imaginem spectandam proponit, scriptorem sui quam simillimum repraesentet; qui hoc genere utetur, repraesentabit profecto sui dissimillimum. Quis enim Demosthenem, aut Homerum inquinate, quis frigide, quis hiulce, atque aspere loquentes possit agnoscere? alterum sine oratorio, alterum sine poëtico illo concentu, quo aures hominum capiuntur, ac mentes ipsae mirandum in modum demulcentur, ac percelluntur. Homero quidem versum qui <pb n="xxi"/> adimunt, mihi propemodum Herculi clavam, Jovi fulmen adimere videntur. id enim eripiunt, quo ille plurimum valet; quo sublato, poëtae fortasse nomen retinere potest, propterea quod in illa ipsa tam absurda, atque absona verborum congerie, tamen, quod Flaccus de dissolutis Ennii versibus affirmabat, etiam disjecti poëtae membra inveniantur; at summi certe poëtae, et patris ac principis poëtarum decus retinere non potest. Me quidem miseret divini hominis, quum eum audio sine cantu, ac prope sine voce aliena lingua balbutientem, rudem, inconditum, enervem, nihil venuste, nihil suaviter, nihil sublate, ut solet, ac granditer efferentem. Itaque et stomachari soleo interdum, et dicere, parum fortasse probabiliter, sed, ut arbitror, vere: nullos mihi interpretes minus fideles videri, quam eos, qui in oratoribus, ac poëtis de sua fide maxime gloriantur, eamque sibi, non sua scribentibus, sed aliena vertentibus, non solum praecipue, sed etiam unice cordi fusse affirmant. Quae enim, malum, est ista fides, quae poëtam exhibet sui dissimillimum, omni poëtico instrumento, ac supellectili spoliatum, ex grandi exilem, ex numeroso absonum, ex puro inquinatum, ex dulci insuavem, ex vehementi et concitato, segnem ac remissum; poëtam denique, ut brevi omnia complectar, non suo, sed alieno more loquentem? Ut volet quisque sentiat: mihi profecto is erit maxime fidus interpres, qui ab archetypi virtutibus minime aberrarit; qui sive oratorem, sive poëtam ita fuerit interpretatus, ut non solum eadem, sed etiam eodem modo dixerit, <sic>Demonsthenica</sic>, ut ita loquar, <sic>Demonsthenice</sic>, Homerica Homerice. Atque hoc est alterum ex duobus illis, quae supra dixi, genus interpretandi, praeclarum sane, atque magnificum, verum adeo difficile, atque impeditum, ut multo sit minus operosum sua scribere, quam aliena hoc pacto interpretari. Verumtamen sic judico, aut abstinendum ab <pb n="xxii"/> hujusmodi scriptoribus aliena lingua explicandis, aut, si eos explicare volumus, hoc omnino genere utendum esse, quod unum est illorum splendori, granditati, suaviloquentiae accommodatum. Quod genus qui repudiant, ac, ne aliquam voculam, interdum nullius pretii, <sic>Greci</sic> sermonis propriam, Latino parum aptam, deperdant, superius illud genus exile, atque horridum amplectuntur, nec eorum quos vertunt dignitati satis consulunt, nec suae: quippe qui ob eam rem a minuto aliquo litteratore, et graeculo fortasse laudantur, ab hominibus non ineptis, vereque litteratis magnopere vituperantur, et optimorum scriptorum non illustratores, sed corruptores esse dicuntur: quibus jure objici possit illud idem, quod Terentius, approbante, ut mihi persuadeo, ac plaudente populo Romano, objecit aemulo poëtae nimis anxie, sed parum eleganter Graecas fabulas vertenti:
+            <quote>
+                  <l>. . . bene vertendo, et easdem scribendo male, ex 
+            </l>
+                  <l>
+                     <sic>Grecis</sic> bonis Latinas fecit non bonas. </l>
+               </quote>
+               Itaque dum inconsulto, ac praeter modum boni interpretes haberi volunt, hoc assequuntur, ut mali scriptores, ac de pulcherrimis aliorum scriptorum, quae corruperint, operibus, male omnino meriti deprehendantur. Quanto rectius, quantoque consultius facerent, si ejus operae, quam totam in bene vertendo, hoc est in verbis Latinis ad verba Graeca accommodandis consumunt, partem seponerent, atque in bene scribendo, hoc est in omnibus, quibus praestat is quem interpretantur, virtutibus aemulandis, ac repraesentandis collocarent? si recentiorum quorundam, nihil sani hac in re praecipientium, fatuitatem, atque ineptias contemnerent, veteres illius aurei saeculi scriptores audirent, atque imitarentur? quos, quum et utriusque linguae naturam haberent plane perspectam atque cognitam, et judicio essent acerrimo, profecto credibile est, ut in ceteris artibus, quae ad <pb n="xxiii"/> humanitatem pertinent, sic etiam in hoc interpretandi negotio, vidisse omnium optime quid fieri oporteret. Verum hoc tempore tantum est fastidium vetustatis, tanta novitatis veluti prurigo, ut multi a proposito sibi fine aberrare turpiter malint, quam usitatis antiquorum itineribus eodem pervenire. Qui hoc morbo, atque adeo hac insania laborant, sua instituta, suaque commenta sibi habeant, me hominem e veteri disciplina veterum institutis uti patiantur. Hos ego, optime <emph>Balthassar, </emph> qui mihi in humanioribus studiis, quod de Tiresia etiam apud inferos Homerus ait; <quote>soli sapere </quote> videntur, <quote>ceteri umbrarum vagari modo</quote>, hos, inquam, habui auctores, et magistros, hi mihi facem quodammodo praetulerunt, meque eodem, quo ratio impellebat, auctoritate, exemploque suo deduxerunt. Nec vero ipsum tantummodo genus indicaverunt, sed etiam eo genere quemadmodum utendum esset quasi intento digito commonstrarunt. Mitto Plautum, Terentium, Catullum, Horatium, Virgilium, quorum multa sunt conversa e Graecis, nihil servili illa ratione, quam improbo, omnia liberali hac, ut ita dicam, et generosa, quam nemo sanus possit non probare. In uno M. Tullio placet consistere, <quote>disertissimo illo</quote>, ut ait Catullus, <quote>Romuli nepotum</quote>, ac digno praeter ceteros, unde in omni dicendi ratione et praecepta, et exempla petantur. Utinam divini hominis praestantissima hoc in genere monumenta extarent, duae illae orationes inter se contrariae Aeschinis, ac <sic>Demonsthenis</sic>, quas, ut Romanos quosdam oratores, Atticorum nomine abutentes, doceret quid esset Attice dicere, ex Graecis fecit Latinas. Extaret profecto optimae interpretandi rationis exemplar absolutissimum; atque ad illud liceret, quasi ad quandam formulam, revocare omnes quicunque eloquentium virorum scripta interpretantur. Nunc illae, nescio quo malo rei litterariae fato, vel hominum potius, a quibus eas <pb n="xxiv"/> diligentissime servari oportebat, incuria, vel periere, vel, quod sperare fas est, alicubi abditae in pulvere, atque in tenebris delitescunt. Cujus tamen jacturae incommodum sarciunt aliqua ex parte pauca illa verba, quibus idem ipse Tullius exponit rationem, qua est usus in iis convertendis. Quae sane verba si rite intelligantur, omnem mihi videntur hujus rei doctrinam continere. <quote>Converti</quote>, inquit, <quote>non ut interpres, sed ut orator</quote>. Quid ais, M. Tulli? convertisse te illas orationes affirmas, ut interpretem convertisse negas? quid est aliud convertere, quam interpretari? qui porro interpretantur, quo eos alio, quam interpretum, nomine verum est appellari? Ego vero, inquit, etiam cum meas orationes scribo, utor scientia litterarum, quam qui solam profitentur, grammatici vocantur; sed, quod huic eloquentiae quasi fundamento amplissimum totius eloquentiae velut aedificium impono, atque superstruo, eas sine ulla controversia scribo non ut grammaticus, sed ut orator. Est hoc nimirum in omni opere usitatum, ut ex eo, quod ibi potissimum est, artifices nominentur. Audio, atque, ut mihi videor, intelligo, quid dicat. Duas nobilissimas orationes convertit non illo genere exili, et strigoso, quo qui utuntur, satis habent, si utcunque Latine loquantur, sed illo altero amplo, atque opimo, pleno succi, atque nervorum, quod qui adhibent, omnes explicant divitias orationis. duos summos oratores sic est interpretatus, ut eos ad summam dicendi laudem non serviliter subsequi, sed socialiter comitari videretur; ut non solum indicaret, quid illi admirabiliter Graece dixissent, sed etiam ostenderet, illa eadem quam aeque admirabiliter ipse Latine posset dicere. Id qua ratione assequi sit conatus operae pretium est considerare. Et quoniam omnis oratio constat sententiis, et verbis, in utraque re quid sibi faciendum putarit attente inspiciamus. <quote>Sententiis iisdem, et earum formis tanquam figuris</quote>. In sententiis <pb n="xxv"/> nihil arbitrio loci esse credidit. Jure id quidem. non enim aliae sententiae verae sunt apud Graecos, aliae apud Latinos; non aliae sententiarum formae, quibus Athenis, aliae quibus Romae, vel res demonstretur, vel animi hominum aut concitentur, aut leniantur; ut quae Atticus orator, exempli gratia, interrogando extulerit, ea Romanum oratorem efferre oporteat affirmando. nec vero, mutatis sententiis, illa jam conversa ex Aeschine, atque ex Demosthene, sed ab ipso potius Tullio excogitata, jure dicerentur. Age, qui in sententiis conservandis fuit summa religione, qualis fuerit in verbis audiamus. <quote>Verbis ad nostram consuetudinem aptis</quote>: quae videlicet, vel singula, vel plura inter se nexa et copulata, nihil haberent insolens, et odiosum, sed essent haec Romanorum, aeque ac illa erant Atticorum auribus accommodata. <quote>In quibus non verbum pro verbo necesse habui reddere</quote>. Imo vero id nequaquam facere necesse habuisti, siquidem insolentiam orationis, quam ambo illi oratores, sed Demosthenes praesertim, omni opere vitabant, effugere volebas, eaque afferre, quae tuorum civium consuetudo minime repudiaret. Vidit hoc sane vir prudentissimus, atque omnis ad orationem pertinentis artificii scientissimus. Quid ergo fecit? singula verba servare non potuit: <quote>Sed genus</quote>, inquit, <quote>omnium verborum vimque servavi</quote>. Usus sum verbis, quorum, si minus forma, certe genus ac natura, esset eadem, aeque propriis, aeque agentibus, eodem modo rem demonstrantibus, atque in animos hominum influentibus. Addit caussam, cur id fecerit: <quote>Non enim ea me adnumerare lectori putavi oportere, sed tanquam appendere</quote>. Praeclare, nihil enim refert, totidem ne, an pluribus, an paucioribus verbis Graeca verba converteris; neque id quaerunt lectores, si modo aliquid sapiunt; sed illud potius: quae Latine scripta sunt, Graecisne sint leviora, an vero pari, ut ita dicam, <pb n="xxvi"/> momento, et iis, quarum in oratoria dictione ratio habetur, virtutibus aeque ponderosa. Atque hoc quidem de numero verborum ab iis velim diligenter animadverti, qui, ubi aliquid serviliter, sive, ut ipsi ajunt, fideliter verterint, quasi magnum aliquid fecerint, gloriantur totidem se illa versibus, aut etiam, si superis placet, totidem verbis transtulisse. Apage istas ineptias. <quote>Hostem qui feriet, mihi erit Carthaginiensis, Quisquis erit, </quote> ait apud Ennium summus ille imperator: sic mihi, eximii aut oratoris, aut poëtae optimas sententias, optimis verbis, sive multis, sive paucis, qui expresserit, is erit optimus interpres; nec merus modo interpres, sed etiam, si ita appellari volet, vel orator, vel poëta. Multa hoc loco exempla afferri possunt, ex quibus manifesto appareat, Latinos scriptores, dum Graeca interpretarentur, nequaquam sollicitos fuisse de verbis numerandis, sed contraxisse interdum orationem, saepe autem produxisse, ita ut est visum, atque ut res postulabat; nec ob eam rem minori laude esse dignatos. Equidem Catulli elegiam de coma Berenices quum lego, eam sic probo, ut valde suspicer Graecum poëtam esse a Latino superatum. In qua tamen video summum interpretem hunc, quem dico, verborum ac versuum numerum, in quo minutuli interpretes magnopere occupantur, usque eo non curasse, ut illos versus, qui fere soli ex tota, quae intercidit, Callimachi elegia supersunt, atque apud Arati scholiasten leguntur, quatuor ille versibus convertere non dubitarit. Quum enim Graecus scripsisset: 
+            <quote>
+                  <l>
+                     <corr>†η</corr> με Κόνων ἔβλεψεν ἐν ἠέρι τὸν Βερενίκης </l>
+                  <l>βόστρυχον ὃν κείνη πᾶσιν ἔθηκε θεοῖς, </l>
+               </quote>
+            noster convertit, 
+            <quote>
+                  <l>
+               Idem me ille Conon caelesti in lumine vidit,</l>
+                  <l>
+               E Bereniceo vertice caesariem</l>
+                  <l>
+               Fulgentem clare; quam multis illa deorum
+            </l>
+                  <pb n="xxvii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT30"/>
+            
+                  <l>
+               Levia protendens brachia pollicita est.
+            </l>
+               </quote>
+            </p>
+            <p>Quanto hoc rectius, quanto venustius, et magnificentius, quam si duobus itidem versibus sic extulisset:
+            <quote>
+                  <l> Meque Conon caelo vidit flavum Berenices:</l>
+                  <l> Cirrum, quem cunctis obtulit ilia deis.</l>
+               </quote>
+            In quibus ipsis <mentioned>flavum </mentioned> illud addidi, vel ut versum explerem, vel ut ille cirrus lectori minus displiceret. Sed hunc omitto: redeo ad Tullium; cujus ratio in Graecis convertendis qualis fuerit, satis arbitror ex iis, quae dixi, perspici potuisse. Summus videlicet dicendi, et interpretandi magister duas Aeschinis et Demosthenis contrarias orationes, quod etiam Hieronymus, qui eas legerat, in epistola ad Pammachium testatur, sic transtulit, <quote>ut multa in illis praetermiserit, multa addiderit, multa mutaverit, ut proprietates alterius linguae suis proprietatibus explicaret.</quote> Haec igitur sit nobis veluti norma, qua oratoriam interpretationem dirigamus; hanc eandem sine ullo erroris metu ad poeticam interpretationem, ubi opus fuerit, transferamus. Est enim finitimus, ut ait idem Tullius, oratori poëta; in quo etiam venustiorem orationis cultum, et ornamenta floridiora, et numeros accuratiores esse decet. Quarum rerum caussa quum oratori concedatur illa, quam dixi, libertas in verbis suo more deligendis, atque ad omnem rerum varietatem, ita ut linguae ratio postulat, accommodandis, multo est aequius eandem poëtae concedi. Quae quidem libertas nec anxia sit, nec meticulosa, sed justa, sed legitima, sed moderata; quae id, quod erit visum, addat, detrahat, mutet, faciat denique omnia quae velit, sed nihil velit non consentaneum rationi. Nam si ultra legem, ultra morem, ultra omne rationis praescriptum progredi coeperit, illa jam erit, non libertas, sed, inani specie, falsoque nomine libertatis abutens, licentia; qua nullum est in interprete vitium majus, et quo animi hominum magis offendantur. 
+               <pb n="xxviii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT31"/>
+            Utinam ego essem ejusmodi, ut moderatae illius libertatis exempla ex me peti possent. Ea certe passim in toto opere mihi usus ese videor, non temere de inconsulto, sed ita ut ratio vel postulabat, vel, ut levissime dicam, patiebatur. Nec vero dubito, ut hoc etiam adjungam quod valde ad rem pertinet, multa esse loca, in quibus hoc jus legitimae libertatis usurpasse putabor, quum tamen minime usurparim, ac potius Homero servierim voluntariam quidem, sed fidelissimam servitutem. Exemplo esse potest vel primus ille versus, 
+               <quote>
+                  <l xml:lang="grc">
+                     <ref target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0012.tlg001.perseus-grc1:1.1">
+               μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος
+            </ref>
+                  </l>
+               </quote>
+               <quote>
+                  <l>
+               Iram cane dea Pelidae Achillis,</l>
+               </quote>
+            in quo convertendo, vocem <mentioned xml:lang="grc">μῆνιν</mentioned> expressi, non uno verbo <mentioned>iram</mentioned>, sed duobus <mentioned>iram trucem</mentioned>. scripsi enim:
+            <quote>
+                  <l>
+               Iram, diva, trucem Pelidae concine Achillei,</l>
+               </quote>
+               non ut inani vocabulo versus quasi lacunam explerem; quod aeque facile alia ratione assequi potuissem, sed ut Homero pressius haererem, ac servarem illud Tullianum de verbis lectori non annumerandis, sed appendendis. Vocem enim <mentioned xml:lang="grc">μῆνιν</mentioned>; quaecunque demum ejus vocis origo sit, quod grammaticis, de illa inter se digladiantibus, quaerendum ac statuendum relinquo, equidem didici ex Phocyllide, majus quiddam, quam <mentioned xml:lang="grc">ὀργὴν</mentioned>, id est simplicem iram, significare. Ait enim:
+            <quote>
+                  <l>Ὀργὴ δ'ἐστὶν ὄρεξις· ὑπερβαίνουσα δὲ, μῆνις.</l>
+                  <l> Ira est appetitus; at modum supergressa
+                  <mentioned>μῆνις</mentioned>.</l>
+               </quote>
+            Quum ergo vox Latina levior esset, quam Graeca, adjeci illud ponderis veluti complementum, ut ex utraque parte quasi momenta essent aequalia. Id mihi Horatius itidem fecisse videtur (<bibl>lib. I. O. 6.</bibl>) quum, eandem Homericam vocem intuens atque exprimens, (quod et Bentleius animadvertit, et cuilibet eum locum legenti facile apparet) non satis habuit scribere <mentioned>Pelidae <emph>stomachum</emph>
+               </mentioned>, sed scripsit, <quote>
+                  <emph>Gravem </emph> Pelidae <emph>stomachum </emph>
+                  <emph>cedere nescii. </emph>
+               </quote> Eodem pertinet illud Virgilii 
+            <pb n="xxix" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT32"/>
+            de ira Junonis, huic Achillis irae quam simillima: <quote>
+                  <l>Junonis 
+               <emph>gravis ira</emph> et inexsaturabile pectus.</l>
+               </quote> Irae videlicet magnitudinem, quae propter Latinae linguae egestatem uno verbo exprimi non poterat, pluribus verbis expressit. Vides igitur, me in primo Homeri versu, atque adeo in prima voce, nequaquam nimis liberum, sed fortasse nimis anxium fuisse. Eundem hunc versum Helius Eobanus Hessus ita convertit, ut mihi videatur, quasi dedita opera, in ipso aditu sui operis immoderatae libertatis exemplum <corr resp="#NJ">posuisse</corr>. Scripsit enim: 
+            <quote>
+                  <l>Dic mihi magnanimi Pelidae, Musa, furorem.</l>
+               </quote>
+            quem versum, non inelegantem, nec similem multorum, qui apud eum occurrunt inculti et invenusti, ne forte videar improbare sine caussa, singula verba cum Homericis collata cujusmodi sint consideremus. <q>Dic.</q> atqui Homerus <emph>canendi </emph> verbo est usus in Iliade, quam, ut rei dignitas postulabat, exordiri voluit magnificentius: <emph>dicendi </emph> verbum ad Odysseam, poëma submissius ac pacatius, reservavit. <q>Mihi</q>. etiam hoc pronomen peti ex Odyssea, atque huc obtrudi non oportuit; in quo inest fortasse quaedam suavitas, granditas non inest. id sentimus ita esse, quum legimus aut illud Theocriteum, <quote>
+                  <l xml:lang="grc">Εἰπέ μοι, ὦ Κορύδων, τίνος αἱ βόες ?</l>
+               </quote> aut illud Virgilianum, <quote>
+                  <l>Dic mihi, Dameta, cujum pecus?</l>
+               </quote> quorum utrunque ipsa tenuitate commendatur, et est pastoritio sermoni ordiendo valde accommodatum. <q>Magnanimi</q>. qui vir fuerit Achilles docet Homerus (<bibl>l. 20. v. 467.</bibl>) hisce verbis:
+            <quote>
+                  <l xml:lang="grc">Οὐ γάρ τι γλυκύθυμος ἀνὴρ ἦν, οὐδ' ἀγανόφρων, </l>
+                  <l xml:lang="grc">ἀλλὰ μάλ' ἐμμεμαώς.</l>
+               </quote>
+               <quote>
+                  <l>Haud etenim vir mitis erat lenisque, sed ultra</l>
+                  <l>Morem acer.</l>
+               </quote>
+               eundem, Homeri vestigiis insistens, Horatius in epistola ad Pisones talem jubet induci, ut <pb n="xxx" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT33"/>
+               <quote>
+                  <l> Impiger, iracundus, inexorabilis, acer </l>
+                  <l> Jura neget sibi data, nihil non arroget armis; </l>
+               </quote>
+               eumque ipse idcirco alibi vocat <quote>pervicacem, superbum, insolentem</quote>. Qui hujusmodi sit, eum post Aristotelem philosophi omnes, quotquot de moribus scripsere, si rogentur, <emph>magnanimum </emph> esse negabunt; ac dicent longe esse transgressum eos fines, intra quos magnanimitas continetur. Ego magnanimum, si minus sapientum, certe vulgi judicio, a quo non abhorrent poëtae, fuisse concedam: praesertim quum meminerim ab ipso Homero, semel ut opinor, <mentioned xml:lang="grc">μεγάθυμον</mentioned> appellari. Quid ergo displicet? hoc nimirum, quod nemini sano placere possit: quum Homerus in re proponenda nullam magnanimitatis mentionem fecerit, eam ab interprete apponi de suo, quum Homerus de Achillis ira se acturum profiteatur, interpretem quiddam amplius profiteri: se videlicet acturum de ira Achillis <emph>magnanimi</emph>, id est, ita acturum, ut illum in ira exercenda nusquam non magnanimum esse appareat. hoc enim suscipere ac polliceri videtur, si quidem illa vox <mentioned>magnanimi </mentioned> non est supervacanea, sed necessaria, cujusmodi esse debent omnes omnino voces, quae in rei, de qua dicturi sumus, propositione adhibentur. Quod si ita se res habet, necesse est unius voculae adjectione, facta eo loco, in quo nihil adjici fas erat, totam Homeri Iliadem mirifice corrumpi: quippe quum in ea multa occurrant, quae ad magnanimitatem referri non possunt, quaeque idcirco reticeri oportuisset ab illo, qui eam laudem, in poëmate exordiendo, heroi suo tanquam propriam tribuisset. <q>Pelidae</q>: cujus Pelidae? nam etiam Pyrrhus, is, qui apud Trojam Neoptolemi nomen invenit, atque ob eximiam virtutem cantari potuit, est <mentioned>Pelides; </mentioned>quae vox non magis Pelei filium, quam Pelei nepotem significat. Hanc ob caussam Homerus Achillis non modo genus, verum etiam nomen declarandum putavit. interpres cur <pb n="xxxi" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT34"/> genus expressit, nomen dissimulavit? cur scripsit <q>Pelidae, </q>non, ut Homerus, <q>Pelidae Achillis </q>?
+               <q>Musa. </q>Homerus Calliopen, epici carminis praesidem, in Odyssea vocat <mentioned>musam, </mentioned> heic in Iliade <mentioned>deam,</mentioned> quo nomine honor magis significatur. mihi has voces inter se commutari, ac musam in Iliadem sine ulla caussa interpretis arbitratu transferri non placet. <q>Furorem</q>. Initio carminis, ubi rem proponimus, verbis maxime propriis utendum est, atque omnis ambiguitas fugienda. nihil enim antecessit, ex quo possit id quod est anceps dignosci, atque id quod est obscurum illustrari. Jam si <mentioned>furor</mentioned> hoc loco proprie dicitur, quid aliud possumus intelligere, quam dementiam, sive, ut Tullius definit, <quote>mentis ad omnia caecitatem </quote> qua qui laborant, mente capti perhibentur: sin autem <mentioned>furor </mentioned> non proprie dicitur, quaero qua ratione aut ego, aut alius quisquam possit divinare, quem potissimum furorem poëta, vel interpres velit intelligi. nulla est enim animi cupiditas impotens et effraenata, quae non aliquam habeat cum furore similitudinem, atque ob eam rem non interdum furor nominetur. multi enim mortales, quod Cicerones <q>pueri</q> (<bibl>Att. lib. 6. epist. I.</bibl>) de magistro suo Dionysio dicebant, <q>furenter irascuntur</q>; multi furenter amant; sunt qui furenter aut doleant, aut laetentur. Quid vaticinatores, ac poëtae, qui etiam ipsi suo modo furere dicuntur, nec unquam plus sapere, quam quum sacro illo furore inflammantur? Animadverti alia quoque ratione furoris vocem a Virgilio usurpari, atque illos, qui perdite amantur, amatorum suorum <mentioned>furorem </mentioned> appellari. Itaque Gallum (<bibl>Eclog. 10. v. 37.</bibl>) sic loquentem inducit:
+            <quote>
+                  <l> Certe sive mihi Phyllis, sive esset Amyntas,</l>
+                  <l> Seu quicunque furor. </l>
+               </quote>
+               quo modo Achillis <q>furorem</q> quum audimus, quid vetat quominus Briseidem significari suspicemur? In his, inquam, tot furoribus, quaero quis possit dispicere, aut divinare, quem <pb n="xxxii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT35"/> potissimum furorem interpres velit intelligi? Notum est, inquit, in Iliade agi de ira. Unde notum? nempe, ut opinor, ex hoc ipso versu Homeri, quem tu, Heli, interpretaris; cui te lucem affundere, non lucem ab eo mutuari oportebat. Est enim alienum a rei natura, et prorsus ridiculum, quum interpres poëtam explicandum susceperit, mutatis partibus, non poëtam ab interprete, sed interpretem a poeta explicari. Nec vero plus ages, si ad <foreign xml:lang="grc">ἔτυμον</foreign> confugias, ac dicas te vocem <mentioned xml:lang="grc">μῆνιν</mentioned> duxisse a <mentioned xml:lang="grc">μαίνεσθαι</mentioned>, quod est <mentioned>furere</mentioned>. primum enim, id <foreign xml:lang="grc">ἔτυμον</foreign> falsum esse, docet Eustathius ex doctrina veterum grammaticorum; atque affirmat, quod res est, a verbo <mentioned xml:lang="grc">μαίνεσθαι</mentioned> non <mentioned xml:lang="grc">μῆνιν</mentioned>, sed <mentioned xml:lang="grc">μανίαν</mentioned> derivari. deinde, quaecunque esset hujus vocabuli origo, Latinae linguae rationem haberi oportebat, neque in re, de qua esset agendum, proponenda, eam vocem adhiberi, quae si proprie diceretur, falsa esset; si non proprie, ambigua et perobscura. Satis, ut arbitror, ostendi Eobanum ea libertate, quae poëtae interpretanti conceditur, licenter abusum esse in primo versu. in quo quidem consisto, nec postulo, ut ex eo fiat conjectura de ceteris; nec usurpo <cit>
+                  <bibl>illa Ovidii (Fast. I.)</bibl>
+                  <quote>
+                     <l> principiis omen inesse solet.</l>
+                     <l> Ad primam vocem timidas advertimus aures, </l>
+                     <l> Et primum visam consulit augur avem. </l>
+                  </quote>
+               </cit>
+               Haec, inquam, non usurpo: praesertim quum videam, me quoque, si minus in primo versu, certe in iis, qui primum proxime consequuntur, non quidem egressum esse fines legitimae libertatis; sed tamen fuisse aliquanto liberiorem, quam vellem; ac deinde, in opere progredientem, ipsa exercitatione assequutum esse ut Homero arctius adhaererem. Sed haec omitto, in quibus sui aliquanto fortasse verbosior, nec tamen, ut mihi videor, excessi e via, neque aberravi a proposito, verum hoc egi, quod in optimo interpretandi genere <pb n="xxxiii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT36"/> constituendo magni momenti est, ut, prolato aliquo exemplo, licentiam a libertate segregarem, quasique fraenum injicerem interpreti ab auctore suo longius, quam par est, abscedenti. Redeo jam ad Tullium, quem mihi unum hujus itineris, lubrici sane, atque infesti periculis, ducem ac demonstratorem esse volui, cui quid placeret perquam diligenter exquisivi, cujus auctoritate gravissimoque judicio si me tueri potuero, aliorum, si qui erunt, qui contra sentiant, judicia non magni facienda esse arbitrabor. Hic igitur tantus vir quem mihi in his, quas tracto, disciplinis unum omnium instar esse profiteor, in oratoribus quod genus interpretandi optimum putarit, ostendi; atque id quale esset, ipsius verbis cum propositis, tum etiam expositis, declaravi; idemque genus ob easdem caussas dixi adhibendum esse multo etiam magis in poëtis. Nec vero arbitror Tullium, si voluisset exponere quomodo convertisset aut Aratea, aut alia Graecorum carmina, quae in ejus libris leguntur, non aeque de his scripturum fuisse, quod scripsit de illis duabus a se <corr resp="#NJ">conversis</corr> duorum Atticae eloquentiae principum orationibus: se videlicet ea convertisse, non ut interpretem, sed ut poëtam, servantem easdem sententias et earum formas; verba eo, quo supra demonstratum est, modo, ad Latini sermonis consuetudinem accommodantem. Haec in poëtis ita, ut dico, ab illo esse facta, qui Graece sciunt facile perspicient, si ejus carmina cum eorum, quos interpretatus est, carminibus comparabunt: qui autem Graece nesciunt, idem tamen assequentur, si ea conferent cum interpretamentis, quae suo illo more, verbum verbo exprimentes, ac nullam literam, aut apicem negligentes, grammatici elaboraverunt. Id porro ubi fecerint, genus Tullianum, vel priscum potius; eo enim sunt usi omnes, qui aliquid sunt interpretati, prisci illi aurei saeculi scriptores, atque, ut me illos, eorum singularem eloquentiam, atque acerrimum <pb n="xxxiv" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT37"/> in his humanissimarum artium studiis judicium, non sine caussa admirantem, scripsisse nemini, heroës 
+            <quote>
+                  <l> nati melioribus annis, </l>
+                  <l> Cum nondum ingenium miseris mortalibus, acre </l>
+                  <l> Judicium nondum abstulerat,sensumque decori </l>
+                  <l> Jupiter, offundens noctem caliginis atrae. </l>
+               </quote>
+            hoc inquam, genus, ubi Latina cum Graecis contulerint, quale sit, certius judicabunt; mihique erunt, quemadmodum spero, multo aequiores, quum viderint, quorum vestigia presserim, quae mihi exempla proposita duxerim ad imitandum. Horum ego exemplorum, ne sim longior, cetera quidem, Balthassar eruditissime, tibi, atque aliis, si qui erunt tui similes, qui laborem minime fugiant, quaerenda, ubi sunt, et contemplanda relinquo. unum esse video, quod ab Homerico interprete, de optima, et usitata veteribus interpretandi ratione agente, sine flagitio, certe sine legentium querela, dissimulari, ac praetermitti non possit. Is est Homeri locus, ubi (<bibl>Iliad. lib. 2. v. 208.</bibl>) Ulyssem inducit, ostentum decem passerum, a serpente devoratorum, et Calchantis ea de re vaticinationem, commemorantem. quem locum noster se conversum exhibuit in libro secundo de divinatione. Hunc nos contueamur sane diligenter, atque in eo quantum opus erit immoremur. Ac primum quidem proferantur 
+            <quote xml:lang="grc">
+                  <title>VERSUS HOMERI</title>
+                  <l>τλῆτε φίλοι, καὶ μείνατ' ἐπὶ χρόνον ὄφρα δαῶμεν </l>
+                  <l>ἢ ἐτεὸν Κάλχας μαντεύεται ἦε καὶ οὐκί. </l>
+                  <l>εὖ γὰρ δὴ τόδε ἴδμεν ἐνὶ φρεσίν, ἐστὲ δὲ πάντες </l>
+                  <l>μάρτυροι, οὓς μὴ κῆρες ἔβαν θανάτοιο φέρουσαι· </l>
+                  <l>χθιζά τε καὶ πρωΐζ' ὅτ' ἐς Αὐλίδα νῆες ᾿Αχαιῶν </l>
+                  <l>ἠγερέθοντο κακὰ Πριάμῳ καὶ Τρωσὶ φέρουσαι, </l>
+                  <l>ἡμεῖς δ' ἀμφὶ περὶ κρήνην ἱεροὺς κατὰ βωμοὺς </l>
+                  <pb n="xxxv" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT38"/>
+                  <l>ἕρδομεν ἀθανάτοισι τεληέσσας ἑκατόμβας </l>
+                  <l>καλῇ ὑπὸ πλατανίστῳ ὅθεν ῥέεν ἀγλαὸν ὕδωρ· </l>
+                  <l>ἔνθ' ἐφάνη μέγα σῆμα· δράκων ἐπὶ νῶτα δαφοινὸς </l>
+                  <l>σμερδαλέος, τόν ῥ' αὐτὸς ᾿Ολύμπιος ἧκε φόως δέ, </l>
+                  <l>βωμοῦ ὑπαΐξας πρός ῥα πλατάνιστον ὄρουσεν. </l>
+                  <l>ἔνθα δ' ἔσαν στρουθοῖο νεοσσοί, νήπια τέκνα, </l>
+                  <l>ὄζῳ ἐπ' ἀκροτάτῳ πετάλοις ὑποπεπτηῶτες </l>
+                  <l>ὀκτώ, ἀτὰρ μήτηρ ἐνάτη ἦν ἣ τέκε τέκνα· </l>
+                  <l>ἔνθ' ὅ γε τοὺς ἐλεεινὰ κατήσθιε τετριγῶτας· </l>
+                  <l>μήτηρ δ' ἀμφεποτᾶτο ὀδυρομένη φίλα τέκνα· </l>
+                  <l>τὴν δ' ἐλελιξάμενος πτέρυγος λάβεν ἀμφιαχυῖαν. </l>
+                  <l>αὐτὰρ ἐπεὶ κατὰ τέκνα φάγε στρουθοῖο καὶ αὐτήν, </l>
+                  <l>τὸν μὲν ἀρίζηλον θῆκεν θεὸς ὅς περ ἔφηνε· </l>
+                  <l>λᾶαν γάρ μιν ἔθηκε Κρόνου πάϊς ἀγκυλομήτεω· </l>
+                  <l>corr. ἡμεῖς δ' ἑσταότες θαυμάζομεν οἷον ἐτύχθη. </l>
+                  <l>ὡς οὖν δεινὰ πέλωρα θεῶν εἰσῆλθ' ἑκατόμβας, </l>
+                  <l>Κάλχας δ' αὐτίκ' ἔπειτα θεοπροπέων ἀγόρευε· </l>
+                  <l>τίπτ' ἄνεῳ ἐγένεσθε κάρη κομόωντες ᾿Αχαιοί; </l>
+                  <l>ἡμῖν μὲν τόδ' ἔφηνε τέρας μέγα μητίετα Ζεὺς </l>
+                  <l>ὄψιμον ὀψιτέλεστον, ὅου κλέος οὔ ποτ' ὀλεῖται. </l>
+                  <l>ὡς οὗτος κατὰ τέκνα φάγε στρουθοῖο καὶ αὐτὴν </l>
+                  <l>ὀκτώ, ἀτὰρ μήτηρ ἐνάτη ἦν ἣ τέκε τέκνα, </l>
+                  <l>ὣς ἡμεῖς τοσσαῦτ' ἔτεα πτολεμίξομεν αὖθι, </l>
+                  <l>τῷ δεκάτῳ δὲ πόλιν αἱρήσομεν εὐρυάγυιαν. </l>
+                  <l>κεῖνος τὼς ἀγόρευε· τὰ δὴ νῦν πάντα τελεῖται. </l>
+                  <l>ἀλλ' ἄγε μίμνετε πάντες ἐϋκνήμιδες ᾿Αχαιοὶ </l>
+                  <l>αὐτοῦ εἰς ὅ κεν ἄστυ μέγα Πριάμοιο ἕλωμεν. </l>
+               </quote>
+               his Homeri versibus addatur, eorum gratia qui Graece nesciunt.</p>
+            
+            <quote>
+               <title>INTERPRETATIO TOTIDEM VERBIS</title>
+               <l>Tolerate, amici, et manete aliquandiu; ut sciamus</l>
+               <l>An verum Calchas vaticinetur, an et non.</l>
+               <l>Probe enim hoc scimus animo; estis autem omnes</l>
+               <pb n="xxxvi" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT39"/>
+               <l>Testes, quos non Parcae incesserunt mortis auferentes;</l>
+               <l>Herique et nudius tertius, quando in Aulidem naves Achivorum <note type="numvers">5</note></l>
+               <l>Congregabantur, mala Priamo et Trojanis ferentes,</l>
+               <l>Nos autem circumjecti circa fontem, sacris in altaribus</l>
+               <l>Faciebamus immortalibus perfectas hecatombas,</l>
+               <l>Pulchra sub platano, unde fluebat limpida aqua:</l>
+               <l>Illic apparuit magnum signum: draco rubris maculis dorso distinctus, <note type="numvers">10</note></l>
+               <l>Horribilis, quem ipse Olympius misit in lucem,</l>
+               <l>Ex imo altari prolapsus, ad platanum concitatus perrexit:</l>
+               <l>Ibi erant passeris pulli pusilli nati,</l>
+               <l>Ramum super summum sub foliis latentes,</l>
+               <l>Octo; verum mater nona erat, quae pepererat natos: <note type="numvers">15</note></l>
+               <l>Ibi ille hos miserabiliter voravit stridentes:</l>
+               <l>Mater vero circumvolabat lugens dilectos natos:</l>
+               <l>Hanc autem implicans ala prehendit valde clamitantem.</l>
+               <l>Sed postquam natos devoraverat passeris, et ipsam,</l>
+               <l>Hunc quidem mirabilem fecit deus, qui ostenderat: <note type="numvers">20</note></l>
+               <l>Lapidem enim ipsum fecit Saturni filius versuti. </l>
+               <l>Nos autem stantes admirabamur quale factum esset.</l>
+               <l>Sic igitur terribilia portenta deorum subiere hecatombas,</l>
+               <l>Calchas vero statim deinde vaticinans concionabatur,</l>
+               <l>Cur muti facti estis comantes Achivi? <note type="numvers">25</note></l>
+               <l>Nobis quidem hoc ostendit signum magnum providus Jupiter,</l>
+               <l>Serum, seri exitus, cujus gloria nunquam peribit. </l>
+               <l>Ut hic natos devoravit passeris et ipsam,</l>
+               <l>Octo, ac mater nona erat, quae pepererat natos</l>
+               <l>Sic nos tot annos bellabimus ibi; <note type="numvers">30</note></l>
+               <l>Decimo autem urbem capiemus spatiosas vias habentem.</l>
+               <l>Et ille quidem sic concionatus est: quae nunc omnia complentur. </l>
+               <l>Verum age, manete omnes, bene ocreati Achivi,</l>
+               <l>Heic, quousque urbem magnam Priami ceperimus,</l>
+            </quote>
+            <pb n="xxxvii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT40"/>
+               <p>Haec descripsi ex interpretatione Samuelis Clarkii, quam ipse, in operis praefatione, ait, esse, <quote>non elegantem nec venustam</quote>, sed ita confectam, ut <quote>verbis verba, singulis singula respondeant, Graecis Latina.</quote> Age jam proferatur ea, quam laudavi,</p>
+            <quote>
+               <title>INTERPRETATIO M. TULLII</title>
+               <l>Ferte viri, et duros animo tolerate labores; </l>
+               <l>Auguris ut nostri Calchantis fata queamus </l>
+               <l>Scire, ratos ne habeant, an vanos pectoris orsus: </l>
+               <l>Nanque omnes memori portentum mente retentant, </l>
+               <l>Qui non funestis liquerunt lumina fatis. <note type="numvers">5</note></l>
+               <l>Argolicis primum ut vestita est classibus Aulis, </l>
+               <l>Quae Priamo cladem, et Trojae, pestemque ferebant; </l>
+               <l>Nos circum latices gelidos, fumantibus aris, </l>
+               <l>Aurigeris divūm placantes numina tauris, </l>
+               <l>Sub platano umbrifera, fons unde emanat aquai, <note type="numvers">10</note></l>
+               <l>Vidimus immani specie, tortuque draconem </l>
+               <l>Terribilem, Jovis ut pulsu penetrabat ab ara. </l>
+               <l>Qui platani in ramo foliorum tegmine septos </l>
+               <l>Corripuit pullos: quos cum consumeret octo, </l>
+               <l>Nona super tremulo genitrix clangore volabat. <note type="numvers">15</note></l>
+               <l>Cui ferus immani laniavit viscera morsu. </l>
+               <l>Hunc, ubi jam teneros volucres, matremque peremit, </l>
+               <l>Qui luci ediderat, genitor Saturnius idem </l>
+               <l>Abdidit, et duro firmavit tegmine saxi. </l>
+               <l>Nos autem timidi stantes mirabile monstrum <note type="numvers">20</note></l>
+               <l>Vidimus in mediis divūm versarier aris. </l>
+               <l>Tum Calchas haec est fidenti voce locutus: </l>
+               <l>Quidnam torpentes subito obstupuistis Achivi? </l>
+               <l>Nobis haec portenta deum dedit ipse creator, </l>
+               <l>Tarda, et sera nimis, sed fama ac laude perenni. <note type="numvers">25</note></l>
+               <l>Nam quot aves tetro mactatas dente videtis, </l>
+               <pb n="xxxviii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT41"/>
+               <l>Tot nos ad Trojam belli exantlabimus annos; </l>
+               <l>Quae decimo cadet, et poena satiabit Achivos. </l>
+               <l>Edidit haec Calchas; quae jam matura videtis. </l>
+               <gap resp="#RK" rend="puncta"/>
+               <lb/>
+               <gap resp="#RK" rend="puncta"/>
+            </quote>
+            <p>Vides inter superiora illa et haec proxima quantum intersit: illa esse rudia et incondita, contexta, vel potius congesta verbis cuicuimodi, ita ut casus tulit, sine ullo artificio conjectis; haec levia, et numerosa, coagmentata levissimis verbis, certa lege, ac solertia non mediocri dispositis et collocatis: ibi interpretem ita loqui, ut putes, Graecum hominem, quum singulas tantummodo Latinas voces didicerit, Latine loquendi rationem, id est proprias Latinorum formulas ignoret, in aliena lingua patriae linguae consuetudine utentem, ita orationem conformare, nihil ut in ea non appareat insolens et peregrinum; heic alterum interpretem, vel magis poëtam, illa eadem sic effari, ut credas te audire civem Romanum, in media urbe natum et educatum, illi advenae praecipientem, et ostendentem, ea, quae dixerit insolenter et perabsurde, quemadmodum dici oportuerit, ut Latinis auribus apta essent. id ut praestet, uti scienter praeclara illa et generosa libertate, quam saepe jam laudavi, et oratori oratorem, poëtae poëtam interpretanti necessariam esse dixi; sententias easdem retinere, verba, ita ut res postulat ac ratio praescribit, commutare, addere, omittere, contrahere, dilatare; eorum vim ac pondus conservare, de multitudine vel paucitate nihil omnino laborare; postremo id assequi, ut, quae scribit, non advecta e Graecia, sed in Latio nata videantur; nec vero, nisi aliunde id constet, facile statui possit, ille ne Homerum, an eum Homerus converterit. Haec igitur carmina mihi decrevi optimi generis interpretandi tanquam exemplar et formam esse debere; haec quasi <pb n="xxxix" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT42"/> regulam, ad quam referrem ea, quae ipse facerem; haec veluti mensuram, qua adhibita, intelligerem, concessa interpreti libertas quo impune progredi possit, quem ad finem, sine ulla reprehensione prudentium hoc in genere virorum, pervenire. Quem ego finem, errore atque inscientia, fortasse non raro sum transgressus, verum ut sciens et prudens non dico transilirem sed attingerem, meumque jus omne usurparem, a me ipse impetrare vix unquam potui; atque id quod Tullius praeclare fecisset admirans, tamen ipse facere non sum ausus. Grammaticorum enim calumniam, quam ille vir summus, summa dignitate et auctoritate praeditus, non metuebat, mihi tanto minori, non sine caussa, metuendam esse putavi. Hoc ita esse facile intelligi poterit, si cum Tulliana interpretatione conferatur eorundem Homeri versuum
+            <quote>
+                  <title>MEA INTERPRETATIO</title>
+                  <l>O socii, durate, atque heic subsistite paullum,</l>
+                  <l>Ipsa dum pateat re tandem, verane Calchas</l>
+                  <l>Vaticinans, an falsa canat. res cognita cunctis,</l>
+                  <l>Quam memoro; testes cuncti, fatalia vitae</l>
+                  <l>Queis nondum tristes ruperunt stamina Parcae. <note type="numvers">5</note></l>
+                  <l>Quippe olim, atque adeo nuper, cum se Aulide Grajae</l>
+                  <l>Densarent puppes Priamo, Phrygibusque ferentes</l>
+                  <l>Exitium; ad fontem fierent cum sacra virenti</l>
+                  <l>Sub platano, purae qua sese illimis agebat</l>
+                  <l>Rivus aquae; monstrum confestim apparuit ingens, <note type="numvers">10</note></l>
+                  <l>Convertitque oculos ad se, tremefactaque corda.</l>
+                  <l>Nanque draco horrendus, magni quem rector Olympi</l>
+                  <l>Miserat in lucem, squama fulgente, cruentis</l>
+                  <l>Et dorsum insignis maculis, prorepsit ab ara; </l>
+                  <l>Tum celeri platanum lapsu petit efferus. illic <note type="numvers">15</note></l>
+                  <l>Passeris, in summo ramorum vertice, pulli</l>
+                  <pb n="xl" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT43"/>
+                  <l>Implumes octo sub densa fronde latebant,</l>
+                  <l>Nona parens nidum servabat. protinus atro</l>
+                  <l>Stridentes querula nequidquam voce voravit</l>
+                  <l>Ore draco: mater circumvolitabat acutum <note type="numvers">20</note></l>
+                  <l>Lugens. lugentem trepida ferus arripit ala,</l>
+                  <l>Postremamque vorat. post haec, mirabile visu,</l>
+                  <l>Immanem durum in lapidem Saturnius anguem</l>
+                  <l>Induit. obriguit mutatis artubus ille: </l>
+                  <l>Nos animi attonitos circum stupor altus habebat. <note type="numvers">25</note></l>
+                  <l>Haec sacris visa in mediis portenta deorum.</l>
+                  <l>Tum Calchas prompsit veraci has pectore voces</l>
+                  <l>Vaticinans: Nam cur muti sic statis, Achivi?</l>
+                  <l>Hoc Jovis augurium, serum, seroque futurum</l>
+                  <l>Eventu; at cunctis clarum, et memorabile in oris. <note type="numvers">30</note></l>
+                  <l>Passeris ut pullos octo, nonamque voravit</l>
+                  <l>Ipsam etiam serpens matrem, sic Pergama circum</l>
+                  <l>Et nobis totidem bellandum haec monstra per annos</l>
+                  <l>Portendunt: urbem decimo vastabimus anno.</l>
+                  <l>Haec vates: matura suo quae tempore jam jam <note type="numvers">35</note></l>
+                  <l>Omnia complentur, tantum perstate volenti</l>
+                  <l>Heic alacres animo, bello quassata bilustri</l>
+                  <l>Pergama dum noster subvertat denique Mavors.</l>
+               </quote>
+               Mea haec si conferas cum Tullianis, majore illum, ut par est, fiducia scribere animadvertes: at genus, quo utimur, esse idem; idem utrique propositum esse, ut Homerum videlicet sui quam simillimum repraesentet, utrunque, id ut efficiat sententias easdem servare, verba, eadem vi, atque pondere, ad Latinae linguae consuetudinem sic aptare, ut satisfacere possint lectori non fatuo, illa expendenti potius, quam numeranti. Satis multa mihi videor dixisse, cur hoc genus interpretandi, quo me judicavi uti oportere, optimum debeat <pb n="xli" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT44"/> existimari. Reliquum est ut dicam aliquid de mea hoc in genere facultate, quod et partitio illa postulat, a qua sum exorsus, et vero supra ego me facturum esse promisi, parum fortasse considerate: sed initio videndum fuit, quid pollicerer; nunc, re promissa, fides aliquo modo liberanda est. Hoc ut paucis transigam, nec diu consistam in eo sermone, in quem veni oppido non libenter, sic equidem statuo: facultatem, qua de agimus, tribus rebus definiri; utriusque linguae, Graecae ac Latinae, et poëtici artificii scientia: haec quanta sint in interprete, tantam esse interpretandi optimo illo genere facultatem. Jam de me ipse quid dicam? hoc primum, quod mihi videor sine ullius offensione posse dicere: me in illis, quae posui, quid possim nescire; scire hoc unum, ut possem aliquid, magnis meis laboribus, et diuturna multorum annorum exercitatione contendisse: deinde hoc etiam (quid enim loquens cum homine amicissimo quidquam dissimulem?) meam hoc in genere facultatem, quantulacunque est, mihi videri aliquanto majorem, quam, quantam ad idem opus conficiendum olim attulit, scriptor saeculi XVI., Helius Eobanus Hessus, a quo uno, quod sciam, ante me, non pars aliqua Iliadis, ut ab aliis, sed tota Ilias Latino carmine fuit reddita. Cui, laboriosissimi operis consorti et socio, ne parvo pravoque animo videar obtrectare; et ne quis mihi objiciat illud Hesiodeum 
+               <quote xml:lang="grc">
+                  <l>καὶ κεραμεὺς κεραμεῖ κοτέει καὶ τέκτονι τέκτων,</l>
+                  <l>καὶ πτωχὸς πτωχῷ φθονέει καὶ ἀοιδὸς ἀοιδῷ.</l>
+               </quote>
+               sive, ut ego meo more converti,
+               <quote>
+                  <l>Fictori fictor, fabro faber invidet; odit</l> 
+                  <l>Mendicus mendicum, oditque poëta poëtam:</l>
+               </quote>
+               haec ne quis mihi objectet, quid inter me et Eobanum intersit, quanta sit utriusque eodem in genere facultas, tibi atque aliis idoneis lectoribus, ut consideretis, ac statuatis, permitto; <pb n="xlii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT45"/> meque polliceor de me, deque illo, non aliud judicaturum, quam quod a vobis sensero judicari. Id judicium ut possit fieri, erit profecto non inopportunum, si eorumdem, quos supra recitavi, Homeri versuum, post Tullianam, et meam, afferatur etiam haec
+            
+            <quote>
+                  <title>HELII EOBANI HESSI INTERPRETATIO.</title>
+                  <l>Quare agite, o socii, reliquum durate, brevesque</l>
+                  <l>Temporis expectate moras, dum scire queamus,</l>
+                  <l>Verane vaticinans praedixerit omnia Calchas,</l>
+                  <l>Aulidis in portum piscosae quando subistis</l>
+                  <l>Navibus Argivi, Priamo Trojaeque ferentes <note type="numvers">5</note></l>
+                  <l>Exitium. quia vos illic ad sacra fuistis</l>
+                  <l>Exta deūm testes, praeter quam, quos mala fato</l>
+                  <l>Parca tulit. meminisse potestis tempore ab illo,</l>
+                  <l>Quo nos ad positam dīs immortalibus aram</l>
+                  <l>Sacra parabamus, densis qua plurima ramis <note type="numvers">10</note></l>
+                  <l>Umbrabat platanus, subter quam frigida puro</l>
+                  <l>Unda resultabat rivo; quo tempore visum</l>
+                  <l>Est ingens nobis monstrum. draco terga cruentis</l>
+                  <l>Distinctus maculis, arae sublapsus ab imo</l>
+                  <l>Prosiluit pede; sic Saturnius ipse volebat. <note type="numvers">15</note></l>
+                  <l>Ipse vago lapsu ramos amplexus in altam</l>
+                  <l>Evasit platanum, tetigitque cacumina, quorum</l>
+                  <l>Nidus in arce fuit, numero bis quatuor intus</l>
+                  <l>Passeris includens pullos; qui frondibus altis</l>
+                  <l>Haerentes exsultabant implumibus alis. <note type="numvers">20</note></l>
+                  <l>Quos omnes, vano matrem stridore vocantes,</l>
+                  <l>Cum draco pestifero depastus dente fuisset,</l>
+                  <l>Ipsam etiam matrem, circum sua pignora frustra</l>
+                  <l>Sollicitas querulis quatientem vocibus alas,</l>
+                  <l>Corripuit, nonamque avidam demisit in alvum. <note type="numvers">35</note></l>
+                  <pb n="xliii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT46"/>
+                  <l>Protinus in saxum mutatum Jupiter ipsum </l>
+                  <l>Conspicuum posuit: sed nos horrenda deorum</l>
+                  <l>Constitimus stupido mirantes omina visu, </l>
+                  <l>Praecipue quanam ratione ad sacra deorum</l>
+                  <l>Tam dirum venisset opus, monstrumque nefandum. <note type="numvers">30</note></l>
+                  <l>Tum Calchas, divina tenens miracula, fatur:</l>
+                  <l>Cur vos tanta novi subit admiratio monstri,</l>
+                  <l>Crine graves Danai? prudens nam Jupiter istud</l>
+                  <l>Prodigium immisit, veniet quo gloria nobis</l>
+                  <l>Sera et tarda quidem, sed fama et laude perenni. <note type="numvers">35</note></l>
+                  <l>Sicut enim serpens avido crudelis hiatu;</l>
+                  <l>Octonos pullos nona cum matre voravit,</l>
+                  <l>Sic nos fata novem mittunt in bella per annos</l>
+                  <l>Saeva, gerenda manu spatiosae ante inclyta Trojae</l>
+                  <l>Moenia, quae decimo tandem capiemus in anno, <note type="numvers">40</note></l>
+                  <l>Atque eversa solo dabimus. fore talia Calchas</l>
+                  <l>Praedixit. quae nos nunc omnia perficiemus.</l>
+                  <l>Quare, agite, obdurate, supremum et ferte laborem,</l>
+                  <l>O fortes Danai, donec victricibus armis </l>
+                  <l>Evertamus opes Trojae, Priameia regna. <note type="numvers">45</note></l>
+               </quote>
+               In his ego versibus meum judicium non interpono; nec dico, quid mihi videatur scriptum heic esse contorte ac perturbate, quid frigide, quid parum numerose, atque etiam parum Latine; horum, inquam, nihil dico, ac tantummodo volo eos versus conferri cum meis; et, si mei forte, quemadmodum spero, meliores, vel, ut verius loquar, tolerabiliores videbuntur, hoc postulo, ut Homeri amatores habeant mihi aliquam gratiam, quod Iliadem Latino carmine sic expresserim, ut aequiore animo legi possit; optent autem, quod ego me, non tam de mea laude, quam de operis perfectione, ac de communi utilitate cogitantem, optare profiteor, <pb n="xliv" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT47"/> ut post me existat aliquis, qui, meis hisce minime contentus, scribat ipse multo meliora, quae possint homines Latinae linguae studiosi non modo ferre, sed etiam admirari. Equidem arbitrabor, me laboris mei fructum cepisse non poenitendum, si multorum studia commovero, meoque exemplo, aut heic Romae, aut uspiam terrarum, excitaro aliquem interpretem tanta facultate, quantam rei magnitudo requirit, qui efficiat id, quod ego, hac ingenii, et doctrinae tenuitate, atque his occupationibus, efficere non potuerim; qui denique Homerum exhibeat Latine loquentem non modo eodem carminis genere, quo ille usus est, verum etiam eadem vi, et eadem suavitate orationis. Hunc ego jam nunc animo prospicio, hunc admiror, huic faveo, hujus veluti formam mihi effingens, excellentiam et magnitudinem contemplans, me ipse contemno, et meam hanc interpretationem prorsus despicio. Quae tamen, dum expectabitur is, quem dixi, Homero dignus interpres, et erit nemo praeter Eobanum, qui Latino carmine Iliadem converterit, nisi omnia me fallunt, non est profecto cur debeat omnino repudiari. Habes jam ea omnia, quae mihi hoc in sermone dicenda esse constitueram; de cura non mediocri, qua tua mandata sum exsequutus, de optimo interpretandi genere, quo sum usus, de mea in eo genere facultate. quam tu si parem operi difficillimo fuisse judicabis, tuam ego agnoscam in me benignitatem, qui mihi plus tribuas, quam quantum Veritas patiatur: sin autem imparem, meam tu agnosces in te observantiam? qua fit, ut tuae voluntati obsequi coner non solum in iis, quae praestare atque efficere possum, sed etiam in iis, quae non possum.</p>
+         </div>
+         <pb n="xlv" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT47"/>
+         <div type="prosa-imprimatur">
+            <head>
+               <hi rend="italic">IMPRIMATUR, </hi>
+               <lb/>Si videbitur Reverendissimo Patri Sacri Palatii Apostolici Magistro. </head>
+            <p>
+               <hi rend="italic">F. A. Episcopus Montis Altis ac Viceregens</hi>.</p>
+         </div>
+         <div type="prosa">
+            <head>APPROBATIONES.</head>
+            <div type="prosa-epistula">
+               <p>Quod literati homines bene multi, sed in Graecis literis non admodum versati jamdiu vehementer optabant; tandem aliquando repertus est, qui cum Graece Latineque optime sciret, tum poetarum omnium facile principem Homerum ita <lb/>verteret, ut non illius modo sententiam utcumque adumbraret, sed latinis versibus elegantissime exprimeret. Is enim est stili nitor atque elegantia, ea latini carminis majestas ac dignitas, ut hic unus veteres omnes interpretes, qui magno numero idem conati sunt, longe antecesserit, primusque omnium mihi effecisse videatur, ut Homerus latine legi cum voluptate possit. Hanc ob causam ago equidem gratias Reverendissimo S. Palatii Magistro, qui hanc pulcherrimam versionem legendam mihi, probandamque tradiderit. Cui etiam sancte affirmo, atque testificor nihil in ea esse, quod sanctissimae Religionis puritati, optimaeque morum disciplinae adversetur.</p> 
+               <closer>
+                  <dateline>Datum ex Aedibus Quirinalibus die 20. Augusti 1776.</dateline>
+                  <signed>Philippus Bonamicius </signed>
+                  <lb/>
+                  <signed>SS. D. N. ab epistolis latinis. </signed>
+               </closer>
+            </div>
+            <div type="prosa-epistula">
+               <p>Quamquam Homericae Iliados Poëma, aetatum ac nationum omnium plausu atque admiratione celebratum, jam inde ab literarum in Italia restauratione, sapientissimorum Principum cura latinis versibus reddi coeperit; constat tamen, nullam ad hanc usque diem Epici incomparabilis versionem prodiisse, quae aut germano latini sermonis nitore, aut exacta Homericarum venustatum repraesentatione, aut denique numerosa quadam ac sublimi versuum magnitudine delicatis harum rerum aestimatoribus undecumque satisfaciat. Dolendum quidem est, viros aliquot eruditissimos, qui superioribus saeculis ad hanc scriptionem animum appulerant, Philelphos scilicet, Politianos, Floridos, sive morte interceptos, sive aliis lucubrationibus distentos, incoeptum opus urgere, atque ad umbilicum perducere minime potuisse. Nam, qua erant ingenii praestantia, et graecarum latinarumque literarum scientia, fortasse difficilem hanc, quam animo praeceperant, metam feliciter attigissent. Philelphus quidem maximis a Nicolao V. propositis praemiis hanc provinciam incredibili ardore susceperat; Pontifex enim doctissimus idem ac munificentissimus, praeter aedes in urbe pulcherrimas, et lautissimum praedium in agro Romano, decem millia aureorum nummum eidem dare constituerat, si Iliada atque Ulysseam latine vertisset. At inopinata tanti Pontificis mors effecit, ut Philelphus spe ingentium praemiorum frustratus, alio industriam suam, cogitationesque converteret. Politianus autem non tam Magni Laurentii Medicis liberalitate et patrocinio illectus, quam, ut ipse de se fatetur, natura atque aetate ad Homeri blandimenta proclivior, quum Homericam tubam jam inde ab adolescentia latinis versibus tractare coepisset, incredibilem in Italia universa de se expectationem excitaverat. Neque dubium erat, quin in difficillimo opere perficiendo caeteris omnibus palmam esset praerepturus. Inerat enim ei praeter admirabile ingenium, judicium etiam acerrimum et tanta rerum cognitio, atque ubertas verborum, ut solus ad graecas veneres pro dignitate 
+               <pb n="xlvi" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT48"/>
+            exprimendas comparatus videretur. Equidem Cardinalis Papiensis, cui suae versionis partem Pontianus legendam tradiderat, splendidissimam ait sibi visam esse, et ad omne venustatis genus compositam; orationem latinam in primis et illustrem, plenos etiam versus, et suis numeris magnifice auribus servientes. Sed tantam expectationem Mediceae Gentis calamitas primum, mox immaturus ipsiusmet Politiani interitus miserabilem in modum corrupit, sexto vixdum Iliados libro absoluto. Quod idem fatum subiisse visus est etiam Francisci Floridi Sabini viri eruditissimi in Homero vertendo conatus. Nam quum octo Odysseae libros latinis carminibus elegantissime redditos immortali illi omnium optimarum artium Maecenati Francisco I. Galliarum Regi dedicasset tanquam specimen quoddam reliquorum Homeri operum, quae latine interpretari constituerat, Rexque ipse Graecarum literarum scientissimus hominem humanissimis et verbis et pollicitationibus in proposito confirmasset, vix uno aut altero elapso anno, et Rex beneficentissimus interiit, et Poeta singulari doctrina atque industria praeditus florente etiamnum aetate inimicorum fraude sublatus est. Verum haec literariae Reipublicae incommoda longo nunc intervallo compensat <abbr>V. Cl.</abbr> Raymundus Cunichius excellenti hac et absolutissima Iliados versione: quam cum jussu Reverendissimi Patris <abbr>S.</abbr> Palatii Apostolici Magistri accurate diligenterque perlegerim, ita elegantem esse deprehendi ita numerosam, totque verborum et sententiarum luminibus ornatam, ut Graecum Epicorum principem Virgilianis coloribus egregie depictum, exactissimeque expressum intueri mihi visus fuerim. Nam, quod ad interpretationem attinet, ea quidem fidelis est in primis, et Graeco textui penitus adherens, nisi quando latinae linguae genius sententias aliquot redundantes contrahere, aut in verbis compositis epithetisque exprimendis quodam quasi temperamento uti suaserit. Constat enim, latinas Musas Graecis multo severiores pleraque respuere, venusta illa quidem apud Graecos atque elegantia, sed quae frigidum quippiam in latino carmine et plane infacetum sonarent. Equidem arbitror in hoc praecipue optimorum interpretum industriam versari oportere, ut non semper verba verbis, sed sententias sententiis, quantum utriusque linguae ratio patitur, reddendas curent, studeantque iis potissimum et verbis et sententiis uti, quibus Poeta Graecus usus esset, si latine scribere instituisset. Quod quidem Interpreti nostro ita feliciter cessisse comperio, ut haec sua lucubratio superiores omnes versiones, atque adeo celeberrimam illam Helii Eobani Hessi multis nominibus superasse videatur. Quamobrem et doctissimo Auctori vehementer gratulandum arbitror, et immortales habendas gratias Principi praestantissimo BALTHASSARI ODESCHALCHIO, qui, ut est flagrantissimus optimarum artium et cultor et fautor, non prius apud Auctorem, hominem sibi omni officiorum genere devinctum, instare destitit, quam praeclaram hanc Homericae Iliados versionem perfectam, atque omni ex parte expolitam haberemus. Quo quidem factum est, ut quod summos potentissimosque Principes nequicquam exoptasse intelleximus, id ipse praecipuo quodam privilegio, et singulari felicitate obtinuerit. Quae cum ita sint, cumque in opere egregio nihil omnino deprehenderim, quod aut Religioni Christianae, aut bonis moribus officere possit, e re publica esse censeo, ut elegantibus typis quam citissime in lucem proferatur. </p>
+               <closer>
+                  <dateline>Romae Cal. Septemb. MDCCLXXVI.</dateline>
+                  <signed>Petrus Antonius Serassius. </signed>
+               </closer>
+            </div>
+         </div>
+         <div type="prosa-imprimatur">
+            <head>IMPRIMATUR,</head>
+            <p>Fr. Thomas Augustinus Ricchinius Ord. Praed. Sac. Pal. Apost. Magister.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

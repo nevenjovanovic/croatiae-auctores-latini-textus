@@ -1,0 +1,2362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="silobod-bolsic-m-fundamentum">
+         <titleStmt>
+            <title>
+               <ref>Fundamentum cantus Gregoriani</ref>, versio electronica</title>
+            <author key="silobodbolsicd1e2035">
+               <name xml:lang="hr">Šilobod Bolšić, Mihalj</name>
+               <date>1724 – 1787</date>
+            </author>
+            <editor>
+               <name xml:id="JKC">Jelena Knešaurek Carić</name>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prema modernom znanstvenom izdanju (2013).
+            </edition>
+            
+         </editionStmt>
+         <extent ana="C">Mg:C 6772</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+               projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+               Hrvatska.  <date when-iso="2013-12">Prosinca 2013</date>.</p>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <biblStruct>
+               <monogr>
+                  
+                  <author>
+                     <ref target="silobodbolsicd1e2035">Šilobod Bolšić, Mihalj</ref>
+                  </author>
+                  <title>Fundamentum cantus Gregoriani seu choralis ... dialogica
+                     methodo in lucem expositum </title>
+                  <imprint>
+                     <pubPlace>Zagrabiae</pubPlace>
+                     <publisher>Typis Cajetani Francisci Harl</publisher>
+                     <date period="http://semium.org/time/17xx_2_third">1760</date>
+                  </imprint>
+                  <extent>/6/ + 72 + /2/ pag., cum tab.</extent>
+               </monogr>
+               <idno type="other">VIII * Jurić. Scriptores</idno>
+               <relatedItem type="primjerak">
+                  <ref type="signatura">NSK Zagreb RIIF-8o-684</ref>
+               </relatedItem>
+            </biblStruct>
+         </sourceDesc>
+         
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1760" period="17xx_2_third">1760</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - dialogus scholasticus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            Prva TEI XML verzija.
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2014-01-24</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage>
+            <titlePart>Fundamentum cantus
+         gregoriani seu choralis
+         pro captu tyronis discipuli
+         ex probatis authoribus collectum
+ et brevi ac facili dialogica methodo 
+in lucem expositum opera ac studio
+</titlePart>
+            <docAuthor>Admodum Reverendissimi
+         Domini Michaelis Sillobod,
+         parochi in Martinszka Vesz.</docAuthor>
+            <docImprint>
+               <pubPlace>Zagrabiae,</pubPlace>
+               <publisher>
+            Typis Cajetani Francisci Härl,
+            Inclyti Regni Croatiae Typographi, 
+         </publisher>
+               <date when="1760">1760.</date>
+            </docImprint>
+         </titlePage>
+      
+         <pb/>
+         <div type="prosa-censura">
+            <opener>MDCCLIX. XXII. Augusti</opener>
+         
+            <p>Reverendissimus dominus cathedralis ecclesiae Zagrabiensis canonicus 
+         decanus <persName>Georgius Bisztriczey</persName>, praesens opus revideat ac suam 
+         <sic>superinde</sic> censuram apponat.</p>
+         
+            <closer>
+               <signed>
+                  <persName>Georgius Rees</persName>, 
+         
+         catholicae ecclesiae Zagrabiensis 
+         
+         custos et vicarius
+         
+         generalis manu propria</signed>
+            </closer>
+         </div>
+         
+         <pb/>
+         <div type="prosa-titulus">
+            <head>fundamentum cantus gregoriani seu choralis</head>
+         </div>
+         
+         <pb n="42"/>
+         
+         <div type="prosa-censura">
+            <head>Approbatio censoris</head>
+         
+            <p>Postquam librum, cui titulus: Fundamentum cantus Gregoriani, 
+         seu choralis <abbr>etc.</abbr> perlegissem, ac cum probatis authoribus contulissem, 
+         occurrit quod de Platone olim Poëta dixit, dicam ego de libro 
+         hoc: Hic unus instar est omnium. Sive enim cantum choralem 
+         omnium ritus Romani ecclesiarum, sive chori nostri cathedralis 
+         ecclesiae Zagrabiensis antiquissimam canendi consuetudinem 
+         spectes, ita haec attemperata prae se fert, ut nulli in aliquo deesse 
+         videatur. Dignum itaque iudico, ut in publicam prodeat lucem ac 
+         tyronibus, ad musicum concentum e fundamentis penetrandum 
+         aspirantibus, lucis plus afferat.</p> 
+         
+            <closer>
+               <dateline>Zagrabiae, die 4. Septembris, Anno 1759.</dateline>
+         
+               <signed>
+                  <persName>Georgius Bisztricey</persName>,
+         
+         canonicus Zagrabiensis
+         
+         et sacrae sedis dioecesanae Zagrabiensis notarius, 
+         
+         manu propria.</signed>
+            </closer>
+         </div>
+         
+         
+         <pb/>
+         <div type="prosa-praefatio">
+            <head>Praefatio ad lectorem</head>
+         
+            <p>Etsi multi olim fuerint, qui omnem musicae supellectilem copiose 
+         ac erudite, arte et ratione in communem usum traduxissent atque 
+         etiam modo sint doctrina et authoritate clarissimi in ecclesiis <sic>chorostates</sic>, 
+         ad omnem melodiam, ut ait Vergilius, et cantare pares, et 
+         respondere parati, attamen vidi ego tyrones iuvenes, nobilissimae 
+         huius artis amantes, qualis ego olim fueram, ita inter se disceptare, 
+         ut uter ab altero discere debeat, ex adverso audiens haud discernere 
+         valebat. Nequaquam ideo quod deessent aut auctores aut 
+         magistri, qui eorum nodos solvere possent, aut vellent, sed quod 
+         deesset facilitas et claritas rudi ac inerti iuvenum ingenio accommoda. 
+         Quamobrem operae pretium haud mediocre, ut spero, me 
+         facturum putabam, si Fundamenta cantus <sic>choralis</sic> ex variis probatisque 
+         auctoribus, quasi ex viridario flores in unum fasciculum 
+         methodo dialogica, utpote suaviori, ac magis pervia, qua totius rei 
+         summa in animos iuvenum facilius ac fructuosius influere posset, 
+         colligerem collectaque ratione quasi amico foedere ita copularem, 
+         ut nec claritati suavitas, nec suavitati deesset claritas, quibus 
+         et magister et discipulus, tanquam delectabili vinculo, tenerentur. 
+         Quo in scriptionis genere quantum profecerim, intelligentis censoris 
+         fuerat iudicare. Verum ea moderni temporis est corruptela, 
+         ut cum multi sint, qui novis operibus legendis delectantur, longe 
+         plures esse, qui iis carpendis linguas suas intentent aliosque <sic>censurare</sic>, 
+         cavillare, iudicare audeant, praesumant, etsi fors nec opus 
+         
+         
+         <pb/>
+         auctoris viderint. Eiusmodi Zoilos ego quoque, licet minimus, ut 
+         evitarem, scripturus, suspensam identidem tenui manum, atque 
+         etiam calamum abieci, abiectum tamen, suffragio gratiosi <sic>Moecenatis</sic> 
+         ac patroni mei resumpsi, qui ex Platone monitum me esse volebat: 
+         Nos nobis natos non esse; sed ortus nostri partem patria, partem 
+         parentes, partem amici, partem denique posteri sibi vendicent. 
+         Atque hac ut plurimum ratione motus, ingenuos iuvenes vitae laborumque 
+         meorum participes, quasi haeredes esse volui. Accedite 
+         ergo nobilissimis praeceptis meis imbuendi, ut horum facilitate 
+         et recte canere sciatis et quod canetis, a Deo optimo impetretis 
+         atque alios etiam ad pares devotionis affectus excitetis. Si enim 
+         (quemadmodum Dialogo I. dicturi sumus) reliquis artibus praestantior 
+         haec ars, felicem in terris Platonem, ac beatum in coelis fecit 
+         Davidem, minime vos inopes relinquet orphanos. Quod si me, 
+         qui vos ita alloquor, nosse cupitis, adite eundem divinum Platonem, 
+         libro de legibus dicentem: nulla ex re magis hominem, quam 
+         ex verbis, quae loquitur, et opere, quod facit, cognosci. Cognoscite 
+         ergo me ex hoc opere, quod totus vester ita esse voluerim, ut corpore 
+         etiam a vermibus absumpto, cor saltem meum, in animis vestris 
+         vivum inventum iri confidam.</p> 
+         
+            <signed>
+               <persName>Michael Sillobod</persName>,
+         
+         parochus</signed>
+         
+         
+         </div>
+      </front>
+   
+      <body>
+      
+         <pb n="48"/>
+
+
+         <div type="prosa-dialogus" n="1">
+            <head>Dialogus I. De authore musices, sive cantus</head>
+
+            <sp>
+               <speaker>Magister:</speaker>
+
+               <p>Ad musices artem, artium liberalium antiquissimam, iuxta ac nobilissimam 
+peramanter te invito, amantissime discipule!</p>
+            </sp>
+
+            <sp>
+               <speaker>Discipulus:</speaker>
+
+               <p>Ad ardua me invitas, erudite magister, nisi enim natus sit poeta 
+et musicus, ei docendi labor frustra impenditur.</p>
+            </sp>
+
+            <sp>
+               <speaker>Magister:</speaker>
+
+               <p>Nihil arduum abhorreas, ingenue iuvenis. Laboris enim ardui 
+<sic>proemium</sic> virtus est; natura vero arte perficitur.</p>
+            </sp>
+
+            <sp>
+               <speaker>Discipulus:</speaker>
+
+               <p>Saltem per asperam ac spinosam viam non ducas discipulum 
+tuum, suavissime magister!</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+
+               <p>Neque hoc metuas, boni animi iuvenis; antequam enim provinciam 
+hanc tractandam suscepissem, scribentem sapienter admonuit 
+Horatius: Quid quid praecipies, esto brevis, facilis et clarus, ut 
+dicta percipiant animi dociles.</p>
+
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Praeceptis ergo ac institutis optimi magistri imbuendus, quid 
+musica sit scire cupio.
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Recte cupis id, quod a Platone et Aristotele prius traditum praecepit 
+Cicero: omnem institutionem, quae de re quacunque suscipitur, 
+debere a definitione proficisci, ut intelligatur quid sit id de quo disseritur. 
+Est autem musica bene canendi scientia. Bene autem canere 
+(teste Boetio) est singulare donum et gratia omnipotentis Dei.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+O gratia! O donum Dei amabilis musica! A quo originem habeat, 
+incessit animum cupido sciendi.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Dicunt quidam habere ab ipsa natura, alii a strepitu fluviorum, 
+alii a pulsu ollarum, alii denique a cantu avium. Sed dicant illi ex 
+se ipsis quid velint. Ego vero non tam ex me quam ex sacris litteris 
+dicam musicam originem habere ab octavo post Adam homine 
+<persName>Iubal</persName>. Ipse enim (<bibl>Gen. C. 4. V. 21.</bibl>) fuit Pater canentium cithara, et 
+organo, ut unisono canentium angelorum choro in coelis, corresponderet 
+in consonantia sua octava in terris.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Operosa est homini consonantia, magister! Quomodo ergo eam 
+componere poterat <persName>Iubal</persName>?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Poterat sane, quia habuit fratrem <persName>Tubalcain</persName>, qui (<bibl>citato <abbr>cap</abbr>. 4</bibl>) fuit 
+malleator, et faber in cuncta opera aeris et ferri. Frater ergo eius <persName>Iubal</persName>, 
+ex diverso inaequalium malleorum sono, diversas consonantias 
+
+
+<pb/>
+composuit atque ita per musicam simplicem divina providentia ad 
+harmonicam pervenit eamque posteritati tradidit.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Novum genus quaestionis facis, magister. Nonne quasi omnes 
+Adae posteri cum suis artibus diluvio deleti sunt? Quomodo ergo 
+<persName>Iubal</persName> musicam posteritati tradere poterat?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Provide equidem poterat. Nam antequam Deus sceleratum mundum 
+punivisset, <persName>Iubal</persName> in spiritu praevidit igne vel aqua puniendum. 
+Ne ergo cum malo mundo bona quoque musica periret, <persName>Iubal</persName> inventae 
+a se artis servantissimus custos duas columnas erigi curavit, 
+marmoream unam, latericiam alteram, utramque musicae principiis 
+ideo insignitam, ut si marmorea igne absumeretur, latericia maneret. 
+Vicissim, si latericia aqua dissiparetur, marmorea superstes servaretur. 
+Inundantibus ergo super terram aquis diluvii destructa ac dissipata 
+est columna latericia, ac sola marmorea cum impressis musicae 
+principiis integra inventa est per <persName>Noe</persName>. Quae (ut refert <bibl>
+                     <persName>Samber</persName> in Elucidatione 
+musicae choralis</bibl>) hodiedum in Syria pro aeterna memoria, 
+tamquam pretiosissimus thesaurus vigilantissime custoditur.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Optimum, ut video, hac in re vetustatis magistrum modo egisti. 
+Age ultro, et dic quaeso: ad quas deinde nationes tam nobilis ars 
+pervenisse traditur?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Imprimis ad <sic>Aegiptios</sic>, ab illis ad Graecos, a Graecis ad Latinos, 
+praesertim vero per Hebraeos, per quos ut plurimum <sic>musicalia</sic> 
+instrumenta in utilitatem hominum et laudem Dei inventa esse 
+scribunt historici.
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Ergone ais utilem homini et gratam esse Deo musicam?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Nec secus. Quomodo enim grata non erit homini musica, quae 
+(nisi surdo canas) desperatum erigit, iratum temperat, tristem laetificat, 
+melancholicum exhilarat, et quod caput est omnium, hostem 
+corporis animaeque fugat. Quemadmodum percutiente David 
+citharam, <sic>refocillabatur</sic> Saul, et levius habebat: recedebat enim 
+ab eo spiritus malus. <bibl>I. Reg. C. 16.</bibl> Quomodo etiam grata non erit 
+Deo, si idem coronatus vates hortatur nos dicens: Laudate Dominum 
+in psalterio et cithara, in tympano et choro, in chordis et organo 
+ac <sic>cimbalis</sic> bene sonantibus. Recte ergo dicebat olim sagacissimus 
+Socrates nihil se scire, nisi musicam didicisset.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Musicam unicum vitae animaeque solatium dicis, clarissime magister?
+
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Ita est, unicum dico, sed quintuplex intelligo. Musica enim prima 
+est theorica, seu speculativa, quae in sola contemplatione, et 
+cognitione regularum versatur, cuius finis est scire, ut si quis sciat 
+quidem artem, eius tamen specimen non exhibeat. Secunda est 
+practica, quae in ipsum opus, seu exercitium prodit, cuius finis est 
+agere, nullo post actum relicto opere, ut si quis solum doceat musicam. 
+Tertia est poetica, quae praeter cognitionem et exercitium 
+post laborem aliquid operis relinquit, veluti poëta carmen post 
+
+
+<pb/>
+mortem. Quarta est <sic>instrumentalis</sic>, quae sine voce et textu solis 
+instrumentis peragitur. Quinta vocalis, quae voce fit.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Bonitate tua, magister, satisfactum est expectationi meae.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Nondum satis. Scias etenim vocalem musicam adhuc subdividi 
+in <sic>choralem</sic> et figuralem. Dico in <sic>choralem</sic>, quod passim usum 
+obtinuerit in choro. Potiori tamen iure dici consuevit <name>cantus Gregorianus</name>, a <persName>divo Gregorio Magno</persName>, non quidem ab eo quasi authore, 
+sed quod is <name>Antiphonale</name> et <name>Graduale</name> manu propria scripserit, 
+et ab eiusdem tempore, scilicet ab anno Christi circiter 603., maius 
+sui incrementum ubique in ecclesiis acceperit. Quia vero simplicibus 
+notis constaret, a quibusdam nuncupatur planus, ab Italis 
+vero firmus ob stabilem temporis mensuram in notis servandam, 
+ad distinctionem cantus figuralis, qui temporis mensuram per figuratas 
+notas et varia signa exprimit.
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Praeclare subdivisisti musicam, magister. Iam quaeso te dic modo: 
+de qua nobis deinceps sermo instituendus est?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Me consule de <sic>chorali</sic> tamquam digniori et antiquiori. Sit itaque 
+nobis, si tibi placet.</p>
+            </sp>
+         </div>
+
+
+         <pb/>
+         <div type="prosa-dialogus" n="2">
+            <head>Dialogus II
+
+De lineis, notis et clavibus.</head>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Qui montem Musae ascendere cupit, imprimis scalam ad canendum 
+sibi erigat oportet.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+De scala cantus loqueris, magister, at ex quot gradibus componatur, 
+taces?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Si ad veterum monumenta, unde priori sermone digressi sumus, 
+nobis denuo redire liceat, inveniemus sane in columna <persName>Iubal</persName> scalam 
+ex tribus tantum lineis compositam talemque longo etiam 
+post diluvium tempore in usu fuisse. Crescente vero tempore, crevit 
+etiam scala. Quod modo de praecepto quattuor lineae produci 
+debeant, de consilio autem etiam quinque produci possint. Quarum 
+infima, est ordine prima, et quae sequitur secunda, deinde 
+tertia, quarta, <abbr>etc.</abbr> Eodem passu ipsa quoque spatia numerare noveris. 
+Sic nempe:
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Video, magister, erectam scalam, video etiam seriem linearum, 
+sed quid ad lineas ponatur nihil video.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Si videres veterum cantus, nihil aliud videres quam lineas simplicibus 
+punctis signatas, easque, incognita adhuc eorum arte papyracea, 
+arborum corticibus incisas. Hac vero aetate, non solum 
+lineae, sed etiam spatia signari debent.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Itane veterum more, simplicibus punctis signanda erunt?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Nequaquam amplius ita fiet. Nam Ioannes de Muris<ref>1</ref>, eximius 
+quondam philosophus et mathematicus, alias ad canendum notas 
+invenisse nobisque tradidisse legitur.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Fac ergo, venerande magister, ut videam notas a Mathematico 
+nobis traditas ac usu receptas.
+
+
+<note>1 de Muris ] de Mours</note>
+
+
+                  <pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Videbis omnino, sed non uniformes. Licet enim, ut priori sermone 
+dixeram tibi, in solo cantu figurali servanda sit temporis mensura, 
+ex qualitate notarum et signorum cognoscenda, est tamen 
+etiam in cantu <sic>chorali</sic> aliqua differentia temporis ex diversitate 
+notarum <sic>commensuranda</sic>. Hanc ut observes, praesertim in libris 
+impressis, attende, qualis est nota. Si est <sic>caudata</sic>, tunc erit longa, et 
+vox infra illam diutius protrahetur. Si est sine dependente cauda, 
+tunc erit brevis, et vox nonnihil citius canetur. Si vero est angularis, 
+tunc erit <sic>semibrevis</sic>, et vox infra illam citissime absolvi debebit. 
+Quod si notae breves vel angulares duae aut plures coniungantur 
+et quasi in uno continuo fluant, ligatae dicentur et denotabunt, 
+quod syllaba textus infra illas posita continuari debeat. Brevibus 
+aequivalent notae obliquae, hoc est in transversum signatae, 
+in quibus solum extrema valent, medium autem nihil, quantumcumque 
+producantur. Et quia canenti difficile est de scala in 
+scalam sine indice transire, ideo in calce cuiusque scalae, ac etiam 
+mutatione clavis datur distincta ab aliis nota, dicta custos, vel index, 
+quae custodiat tonum ac indicet locum ubi subsequens nota 
+accipi debeat. Vide iam omnes et singulas in exemplo. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Video sat clare exhibitas notas cantus <sic>choralis</sic>. At quomodo eas 
+sine voce et textu cantabimus, non video. 
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Scribit <bibl>
+                     <persName>Banchieri</persName> in sua Cartella Musica</bibl> quod Graeci, qui primi 
+litterarum inventores, notas cantus per sex litteras G. A. B. C. D. E. 
+canere solebant. Nunc vero! 
+
+Sex natura modis totum circumsonat orbem.
+
+ Quos referunt: ut, re, mi, fa, sol, laque simul. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Multum, venerande magister, multum debemus Mathematico 
+pro notis, multum Graecis pro inventis litteris; cui autem referendas 
+grates censeres pro vocibus?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+                  <persName>Patri Guidoni Italo, ordinis s. Benedicti Monacho Aretino</persName>. Hic 
+enim cum anno Domini 1019. die sacro s. Ioannis Baptistae, primum 
+ex hymno versum cantari audivisset, nempe: 
+
+<quote>
+                     <l>Ut queant laxis</l>
+
+                     <l>Re-sonare fibris</l>
+
+                     <l>Mi-ra gestorum</l>
+
+                     <l>Fa-muli tuorum,</l>
+
+                     <l>Sol-ve polluti</l>
+                     <l>La-bii reatum,</l>
+
+                     <l>Sancte Ioannes.</l>
+                  </quote> 
+
+
+                  <pb/>
+Is haud aliter, quam a Deo illuminatus, ad sex capita versus reflexione 
+facta, totidem ex iis deduxit syllabas, quibus omnis in cantu 
+nota apte exprimi posset, servata in reliquo Graecorum auctoritate, 
+quod primae eorundem litterae . id est gamma sive G. iunxerit 
+ut: deinde A. iunxit cum re: B. cum mi: C. cum fa: D. cum sol: E. 
+cum la. Utrumque tam amico copulavit foedere<ref>2</ref>, ut nec Graecorum 
+derogaret authoritati, nec tyronum deesset facilitati.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Nihilne amplius nostra dignum memoria celeberrimus Monachus 
+reliquit?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Reliquit sane iussu papae Benedicti Octavi usitatum <name>Graduale</name>. 
+Distinxit etiam cantum durum a b-molli<ref>3</ref> praecipitque litteras 
+vocari claves. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+De clavibus loqueris, magister, et quam seram aperiant, non manifestas? 
+
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Manifestabo equidem tibi, quod claves aperiant syllabas sive voces, 
+quibus notae exprimi debeant, ut cognoscas quae nota sit ut, 
+
+
+<note>2 foedere ] faedere</note>
+
+                  <note>3 <persName>Šilobod</persName> promiscue formis bimollis, b.mollis et b-mollis utitur.</note>
+
+
+                  <pb/>
+re, mi, <abbr>etc.</abbr> Hoc est claves sunt vocis formandae indices sive generales 
+fuerint sive particulares. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Duplices ergo claves generales et particulares docebis magister.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Docebo omnino dicamque illas claves esse generales quae in exordio 
+cantus et capite cuiusque scalae expresse signantur; particulares 
+vero quae vel expresse non signantur, vel si signentur, vim generalis 
+clavis non obtinent, ut accidit in cantu b-molli.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Dic ergo, magister, quot sunt claves <sic>signabiles</sic>?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Si de numero quaeris, Graeci quoties quinque lineis utebantur, 
+semper duabus clavibus cantum praenotabant, nempe ad primam 
+lineam .. id est G. et ad quartam F. vel F. et C. vel vero G. et C. Uti 
+vides hic:
+
+
+<pb/>
+Recentiores tamen, qui quattuor lineis utuntur, unicam tantum 
+clavem signare solent. Sic nempe:
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Observo<ref>4</ref>, magister, in cantu <sic>chorali</sic> tres claves <sic>signabiles</sic>, quibus 
+cantus praenotari debet.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Bene observas in cantu duro. In cantu tamen b-molli clavibus C. 
+F. G. adiungi accidentalem b. Est enim unus cantus durus, b-mollis 
+alter.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quare clavem b. vocas accidentalem?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Quia haec semper associantur clavi C. signatae, vel non signatae 
+sive accidat in linea, sive in spatio, ut vides hic:
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Video omnino pro cantu b-molli signatam duplicem clavem, sed 
+quae erit generalis?
+
+
+<note>4 observo ] observa</note>
+
+
+                  <pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Erit b. Quia cantus b-mollis desumit suam denominationem a clavi 
+b., dummodo b. non alicubi, et in parte tantum, sed per totum cantum, 
+et in capite <sic>cuiusquae</sic> scalae associatur clavi C. Aliae autem claves 
+C. F. G., quasi signatae non essent, particulares dici poterunt.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quid igitur dices, ubi b. non per totum cantum, sed alicubi tantum 
+signatur? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Dicam tunc litteram b. nec exhibere figuram clavis generalis, cantum 
+vero principaliter esse durum, minus autem principaliter b-
+
+-mollem, adeoque mixtum, magis vel minus, prout frequentius aut 
+rarius b. signabitur. Idem est, si cantus sit b-mollis, et alicubi ....quadratum 
+signetur, mixtus erit. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Sed quare hoc doces, da discipulo rationem?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Quia musici et cantores utuntur b. rotundo, et quadrato non solum 
+ad denominandum cantum, sed etiam ad significandas voces 
+fictas obiter illapsas. Siquidem b. rotundum vocem fa, ex natura sua 
+mollem, et quadratum vocem mi, ex natura sua duram repraesentet, 
+vox igitur mi tibi dura datur, fa mollis mellificatur. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Satis, venerande magister, satis miscuisti quadrata rotundis, dedisti 
+durum cum molli, signasti claves. Iam, quaeso te, exple sitim 
+meam, quomodo reliquas litteras suis in locis locare potero?
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Hoc poteris ex sola clavi signata. Nam vides, quod claves invicem 
+(excepta .) tribus tantum lineis distent. His vero cognitis facile alias 
+litteras locabis, dummodo eas memoriter recitare sciveris.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Experire me, meumque ingenium magister, si bonae indolis et 
+animi docilis sim, si optimo magistro dignus discipulus! 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Recita ergo si potes, discipule, a clavi C. litteras sursum.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+C. D. E. F. G. A. B. C.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Recita deorsum.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+C. B. A. G. F. E. D. C.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Recita modo a clavi F sursum.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+F. G. A. B. C. D. E. F.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Recita deorsum.
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+F. E. D. C. B. A. G. F.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Recita tandem a clavi G sursum.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+G. A. B. C. D. E. F. G.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Recita deorsum.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+G. F. E. D. C. B. A. G.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Sat egregium modo profectus tui dedisti specimen, discipule, quo 
+prodis nihil eorum, quae hactenus te docui, memoria excidisse tua. 
+Festinemus ergo ad alia.
+</p>
+            </sp>
+         </div>
+
+
+         <pb/>
+         <div type="prosa-dialogus" n="3">
+            <head>Dialogus <num value="3">III</num>
+
+De <sic>solmizatione</sic>
+            </head>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Produximus hactenus lineas, expressimus notas, signavimus claves. 
+Nunc patens et aperta est via ut procedentes procedamus per 
+<sic>solmizationem</sic>, quae non est aliud quam notarum per certas voces 
+recta pronuntiatio.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Exhibe, magister, discipulo medium, quo notas per rectas voces 
+pronuntiare valeat.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Solent magistri artis exhibere manum, in eaque omnes vocum 
+derivationes articulatim explanare dicentes:
+
+Disce manum tantum, si vis bene discere cantum.
+
+Absque manu frustra, disces per plurima lustra. 
+
+Verum quia eiusmodi manus minus clara videretur, ideo nos faciliorem 
+methodum secuti (salva artis inventorum integritate) ad 
+scalam ex 10 ut vides lineis erectam omnes vocum derivationes 
+reducemus.
+
+
+<pb/>
+In hac igitur scala vides, discipule, per ternam litterarum replicationem, 
+(excepta F. quae bis tantum replicatur) esse 10. lineas 
+ac totidem spatia, adeoque 20. notas, ultra quas in cantu <sic>chorali</sic> 
+progredi non poteris, nec vero debebis<ref>5</ref>. Vides etiam utriusque 
+cantus ascensum et descensum, et si nondum omnia intelligis, interroga 
+magistrum. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Pace tua interrogabo, Magister: Quare litteras ter replicaveris, replicatas 
+diviseris in finales et <sic>affinales</sic>?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Ideo ter replicavi litteras, quia omnis cantus vel est gravis vel acutus 
+vel <sic>superacutus</sic>. Si ambit litteras graves, procedit demisse; si 
+acutas, procedit altius; si <sic>superacutas</sic>, procedit altissime. Ideo autem 
+replicatas divisi in finales et <sic>affinales</sic>, quia omnis regularis cantus 
+in una ex 4. finalibus litteris terminatur, quae sunt D. E. F. G. 
+
+
+<note>5 debebis ] nudebis</note>
+
+
+                  <pb/>
+De quibus suo loco dicemus. Quod si terminetur in littera <sic>affinali</sic> 
+A. vel B. vel C. irregularis erit. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quare autem in scala generali alicui litterae dedisti unam vocem: 
+ut, alicui duas: fa, ut, alicui etiam tres: sol, fa, ut? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Hoc ideo factum puta, quia in loco illo, ubi est solum ut, non potest 
+alia vox dici quam ut. Et ubi est fa, ut, non potest dici nisi vel 
+fa vel ut. Ubi autem est sol, fa, ut, solum una ex tribus dici potest 
+vel sol vel fa vel ut respiciendo clavim superiorem aut inferiorem 
+<sic>directivam</sic>, ut sequens tibi exhibet symbolum.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Video in symbolo variari voces penes ascensum et descensum, 
+quem tamen ego non cognosco. Dic ergo <sic>quandonam</sic> nota ascendat 
+et quando descendat?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Hoc indicant ipsae claves. Nam si nota habet supra se notam in 
+clavi C. vel F. vel G. tunc ascendit, secus vero descendit.
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quid si autem nota accidat in ipsa clavi: descendetne?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Discernendum prius est, vel clavis tum gerit munus clavis saltem 
+particularis, vel non? Si gerit, tum nota in ipsa clavi quasi ad se ipsam 
+descendit. Si non gerit, tunc ascendit ad proximam clavim, quam 
+supra se habet. Tunc autem litterae C. F. G. munus clavis gerere dicuntur, 
+quando vel unicam notam infra se habent. Sic infra, in mutationibus 
+cantus duri, in exemplis sub numero 3. et 4. littera G. exhibet 
+munus clavis, quia infra se habet notam f. fa. Ergo descendit, 
+et in descendendo duro habet sol. Similiter sub numero 2. et 6. littera 
+C. gerit munus clavis, quia infra se habet notam mi, adeoque in 
+descendendo duro C. habet fa. Sub numero autem 1. et 5. littera G. 
+ut non gerit munus clavis, quia infra se nullam notam habet: ergo 
+ascendit ad clavim, quam supra se habet C. fa. Et similiter sub numero 
+4. F. fa ascendit ad G. sol. Quod bene observandum, praesertim 
+illis, qui recentiores sequuntur auctores. Nam veteribus perinde 
+erat, sive ex data ratione diceretur G. sol vel C. fa sive G. ut vel C. 
+ut propter clavim superiorem, <corr resp="#NJ">dummodo</corr> in unisono vox servetur. Est 
+in omnibus mutationibus utriusque cantus duri et b-mollis. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+De mutatione loqueris et quid illa sit, non definis.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Mutatio est vocis in vocem in eadem littera unisona variatio. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+                  <sic>Quandonam</sic> ergo variatio vocis fieri debeat, quaeso te dicas?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Variatio vocis, seu mutatio, fieri debet, quoties una aut plures notae 
+supra la ascendunt, vel infra ut descendunt.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quid igitur canendum est, si vel unica nota ascendat supra la? 
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Haec est universalissima omnium regula: Unica nota ascendente 
+supra la, semper canendum est fa, ut aiunt fictum, etiamsi cadat 
+in litteram E. 
+
+Si tamen cantus sit tertii vel quarti toni, tunc fieri debebit mutatio 
+vocis fa in mi, propter quintam naturalem sive perfectam, quae in 
+dictis duobus tonis fit a mi in mi; praesertim si cantus sumat initium 
+in re, mi vel in mi, re. Uti vides in hisce exemplis.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Fierine debebit mutatio, si plures notae ascendant supra la? 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Debebit omnino vel sol vel la mutari in re.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quid autem dices, si una aut plures notae descendant infra ut?
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Dicam hoc, quod si vel unica nota descendat infra ut, statim vel 
+mi vel re debebit mutari in la. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quare ais: vel haec vel illa nota debebit mutari in aliam?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Quia duplex est mutatio quartae et quintae! Dico quartae et quintae 
+quia mutatio fit supra claves C. et................................ F. quae invicem, ut vides, semper 
+quarto vel quinto loco distant.
+
+In mutatione ergo quartae, post fa in ascendendo duro statim canendum 
+est re, et in descendendo la. In mutatione autem quintae, 
+post fa prius canendum est sol quam re, et in descendendo prius 
+mi quam la. Considera utramque mutationem in exemplis. 
+
+
+Mutationes in cantu duro
+
+
+±
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Idemne fit etiam in cantu b-molli?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Nequaquam idem, sed totum ab opposito<ref>6</ref>. Nempe, in mutatione 
+quartae, in ascendendo cantu b-molli, post fa, prius canitur sol, deinde 
+re, et in descendendo prius mi, deinde la. In mutatione autem 
+
+
+±
+
+
+<note>6 opposito ] apposito</note>
+
+
+                  <pb/>
+quintae in ascendendo cantu b-molli, post fa, statim canitur re, et 
+in descendendo la. Haec quoque regula declaratur in exemplis. 
+
+Mutationes in cantu b-molli
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+In scala cantus generali docuisti, magister, quod infra F. grave ad 
+litteram b non possit alia vox dici quam mi. In praemissis tamen 
+exemplis cantus b-mollis infra F. grave ad b posuisti fa. Quomodo, 
+quaeso te, conciliabis hoc?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Conciliabo facillime. Nam quod in b gravi cantus duri non possit 
+alia vox dici quam mi, est per se; quod autem in cantu b-molli dici 
+possit etiam fa est per accidens. Si enim cantus b-mollis a b acuto 
+descendat ad b grave, naturaliter etiam in b gravi dici debebit fa 
+propter octavam, quae fit a b ad b ut exponitur in exemplo. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Comprehensis et animo et oculis praestantissimis tuis tum praeceptis
+.........................................................., tum exemplis restat explanare, ducendane erit quinta linea, 
+quando cantus supra quartas lineas, ac totidem spatia ascendit 
+vel descendit?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Pro exigentia talis ascensus et descensus solent quidem <sic>figuralistae</sic> 
+unam aut plures lineas addere. Nos tamen <sic>choralistae</sic> non 
+ita facimus, sed, si cantus supra quartas lineas ascendat, tunc clavim 
+signatam ad proximam inferiorem lineam movemus. Quod 
+si neque talis sufficiat, aliam superiorem quinto loco distantem 
+signamus anteposito tamen semper et ubique suo custode, quasi 
+indice indicante locum subsequentis notae. Si verbis nihil attinet 
+exprimere, adsunt tyroni exempla. 
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Clare verbis et praeclare exemplis doces, magister, ad proximam 
+inferiorem lineam movendam esse clavim tunc, quando cantus supra 
+quartas lineas ascendet. Quo autem movebitur tunc, quando 
+infra quartas lineas descendet?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Vice versa, ad proximam superiorem lineam movebitur. Iuvabit 
+iterum videre exempla.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Sat industriose pro captu meo laborasti, magister. Haud parum 
+muneri tuo concedendum erit, si ultro praeceptorum tuorum participem 
+me facere dignaberis.
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Si praeceptorum meorum praestantia raperis, discipule, maiori 
+conatu in eorundem studium incumbas velim. Ego vero id prae-
+stabo, eamque impendam diligentiam, ut etiam quod reliquum est, 
+intelligere possis. Est autem: </p>
+            </sp>
+         </div>
+
+         <pb/>
+         <div type="prosa-dialogus" n="4">
+            <head>Dialogus IV.
+
+De intervallis, sive consonantiis.</head>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+De intervallis, breviori temporis intervallo exercitationem habituri, 
+etiam non rogatus intervallum definio: quod sit (<bibl>teste <persName>Boetio 
+Romano</persName> lib. I. c. 8.</bibl>) soni acuti gravisque distantia, hoc est, si forte 
+non intelligis, distantia vocis a voce penes ascensum et descensum 
+considerata quam aliqui consonantiam vocant. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Nunc rogatus dices, magister, quot intervalla numeraturi simus?
+
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Numerant aliqui plura, aliqui vero pauciora. Nos vero octo tantum 
+communiter recepta pertractanda assumemus.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Assume ergo magister unum, quod ordine primum esse novisti.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Haud scio quid tibi hic respondeam, bone iuvenis! Primum enim 
+intervallum non tam intervallum est, quam intervalli principium; 
+quemadmodum unitas non tam numerus, quam numeri principium 
+est. Nullam enim in se vocis distantiam habet, sed eodem in loco 
+sonat. Honoris tamen gratia etiam primum intervallum inter reliqua 
+conputandum venit. Primum ergo intervallum, erit tibi prima 
+
+
+<pb/>
+ordine consonantia, quam musici unisonum vocant. Secunda consonantia 
+erit tonus. Tertia ditonus. Quarta (Graecis vocabulis) <sic>diatexeron</sic>. 
+Quinta <sic>diapens</sic>. Sexta <sic>exachordon</sic>. Septima <sic>ettachordon</sic>. 
+Octava diapason. Antequam tamen singulas examinemus, imprimis 
+videamus exempla primae consonantiae seu unisoni.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Vellem mihi diceres, magister, quid sit secunda?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Secunda est distantia vocis a voce cum uno intervallo, quod fit, 
+quando a linea ad proximum spatium vel vicissim fit transitus, sive 
+id fiat perfecte, veluti ab ut ad re. Vel imperfecte, a mi ad fa. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quare dicis perfecte vel imperfecte?
+
+Prima sive unisonus
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Minime abs re quidquam dico. Duplex enim est secunda, perfecta 
+et imperfecta. Illa vocatur maior, quia in illa quodammodo maior, 
+fortior et intensior fit vocis ad vocem commotio, in ista autem remissior. 
+Unde illa proprie tonus a tonando dicitur (tonare enim, ut 
+Ioannes XXII. C. 8. scribit, est potenter sonare). Ista vero semitonus 
+quasi minus sonans vocatur fitque solum in transitu a mi vel la ad 
+proximum fa et vicissim. Accipe exempla utriusque.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Interrogare te ausim, magister, quid sit tertia?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Tertia est distantia vocis a voce per proximas tres notas, sive saltus, 
+cum duobus intervallis. Haec si componatur ex duobus integris 
+tonis erit maior, et proprie ditonus. Si vero componatur ex 
+tono et semitono erit minor, semitonus dicta. Habet autem species 
+<sic>solmizationis</sic> sequentes.
+
+Secunda
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Digneris magister exponere quartam.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Quarta est distantia quattuor vocum cum tribus intervallis estque 
+duplex, vera una, et falsa alia. Vera, proprie <sic>diatexeron</sic> dicta, componitur 
+ex duobus tonis et uno semitono. Falsa autem ex tribus integris 
+tonis, unde a quibusdam tritonus vocatur, ab aliis vero superflua 
+vel prohibita quarta, quia nullam gratam consonantiam facit, 
+sed durum quid et asperum auribus obtrudit. Utramque probabis 
+canendo.
+
+Tertia
+
+
+Quarta
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quartam ordine sequitur quinta, quid autem haec sit?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Quinta est distantia quinque vocum cum quattuor intervallis. 
+Haec, si componatur ex tribus tonis et uno semitono, vera et perfecta 
+erit consonantia, dicta <sic>diapens</sic>. Si vero componatur ex duobus 
+tonis et duobus semitonis, erit falsa, imperfecta et dissonans, 
+dicta <sic>semidiapens</sic>; utriusque species exponunt exempla: 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Audiamus, magister, aliquid de sexta.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Sexta est distantia sex vocum cum quinque intervallis de nota 
+ad notam faciens saltus sex. Haec si componatur ex quattuor tonis 
+et uno semitono, vera et perfecta erit, Graece <sic>exachordon</sic> dicta. 
+Si vero componatur ex tribus tonis et duobus semitonis, erit falsa 
+et imperfecta, cuiusvis species considera in exemplis:
+
+Quinta
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Soluta sexta via aperitur ad septimam.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Septima est distantia cum sex intervallis per septem notas; 
+aeque duplex vera, sive maior, et falsa, sive minor. Maior, Graece 
+<sic>ettachordon</sic> componitur ex ditono et <sic>diapense</sic>, hoc est ex quinque 
+tonis et uno semitono: minor vero ex quattuor tonis et duobus semitonis. 
+Cuiusvis species dant exempla: 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Superest exponenda octava.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Octava est distantia octo vocum cum septem intervallis. Haec si 
+constet ex quinque tonis et duobus semitonis, erit vera et perfecta 
+
+Sexta
+
+
+Septima
+
+
+<pb/>
+diapason. Secus, si constet ex quattuor tonis et tribus semitonis, 
+erit falsa et imperfecta. Sed nulla sine exemplis:
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Traditis ac exemplificatis omnibus 8. consonantiis, transeamus, 
+magister, ad alia. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Macte animo, transeamus. Operae pretium erit.
+
+Octava</p>
+            </sp>
+         </div>
+
+         <pb/>
+         <div type="prosa-dialogus" n="5">
+            <head>Dialogus V.
+
+De perfectione et imperfectione tonorum</head>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Tonus Graecorum olim lex fuerat, musicorum deinde modus factus 
+est, nobis vero regula erit, qua omnis cantus, (etsi nec antiphona, nec 
+responsorium, nec introitus sit) cuius sit toni, cognosci poterit. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Solita ergo bonitate tua dices, magister, quot sint toni?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Nunc sunt octoni, quandoque fuere quaterni.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quare olim quaterni, nunc vero sunt octoni?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Quia omnis fere veterum cantus in una ex quattuor finalibus 
+litteris, quae sunt D. E. F. G. terminabatur. Totidem ergo regulae 
+sive modi cognoscendi cantum esse debebunt. Et quidem, si ultima 
+finalis nota cantus terminabatur in D., tunc erat toni primi in 
+E. secundi in F. tertii in D. quarti. Primus Graece vocabatur <sic>prothus</sic>. Secundus <sic>deuterus</sic>. Tertius tritus. Quartus <sic>tetrardus</sic>. Qui, quia 
+ob nimium ascensum admodum difficiles fuissent, utpote ab uno 
+
+
+<pb/>
+extremo ad aliud undecim vocibus sive notis ascendens, ideo maioris 
+facilitatis studio ex quattuor tonis facti sunt octoni.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Sed quomodo hoc factum fuisse putabo, magister?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Hoc factum puta ita: quattuor tonis adiuncti sunt alii quattuor 
+nec secus, quam cuique suus collateralis, quasi in obsequium datus. 
+Unde in consuetudinem iam abiit, ut collaterales, servi plagales; 
+illi vero, digniori titulo, domini authentici appellarentur. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Memini te dixisse, magister, quod veteres quattuor suos tonos, 
+quos tu dominos authenticos vocas, cognoscebant ex quattuor finalibus 
+litteris D. E. F. G. unde autem nos cognoscemus nostros 
+<sic>connaturales</sic> sive plagales?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Etiam ex quattuor lineis D. E. F. G. cognoscemus. Nam in quacunque 
+littera terminatur dominus tonus authenticus, in eadem 
+terminari debet servus suus plagalis. Nempe.
+
+Dominus <sic>prothus</sic> suusque servus,
+
+id est tonus 1. et 2. in D.
+
+Dominus <sic>deuterus</sic>, suusque servus,
+
+id est tonus 3. et 4. in E.
+
+Dominus tritus, suusque servus, id est,
+
+tonus 5. et 6. in F.
+
+
+<pb/>
+Dominus <sic>tetrardus</sic>, suusque servus,
+
+id est tonus 7. et 8. in G. 
+
+Ex quibus perspicuum est illos solos tonos authenticos esse, qui 
+imparibus numeris scribuntur, alios autem, qui paribus scribuntur, 
+esse plagales. Quae omnia ut eo tenacius memoria retineas, iure 
+magistri hos tibi versus trado:
+
+Fines cunctorum, cantor, dignosce tonorum.
+
+Nam finem primi D. continet atque secundi.
+
+Tertius E. regitur et quarti finis habetur.
+
+Quintus in F. finem, sextus quoque ponit eundem.
+
+Septimus octavusque tonus cognoscitur ex G.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Si ita est, ut doces, magister, quod tonus authenticus et plagalis 
+in una eademque littera terminentur, quomodo ergo dignosci 
+poterunt?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Antequam respondeam tibi, scias velim discipule omnem cantum 
+tam authenticum, quam plagalem, ut perfectus sit, debere octo 
+notis ascendere vel descendere. Unus tamen ab altero dignoscitur 
+per hoc quod authenticus supra finalem notam ascendat octo notis. 
+Plagalis vero solum ascendat quinque et descendit quattuor. 
+Quae simul unitae faciunt octo notas. In cuius rei auxilium singulorum 
+inspice exempla:
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Egregie, tam praeceptis, quam exemplis declarasti, magister, ut, 
+si cantus supra notam finalem ascendat notis octo, erit authenticus, 
+plagalis vero, si infra finalem descendat notis quattuor, ac 
+uterque perfectus. Qualis autem erit ille, qui et supra notam finalem 
+pluribus ascendet quam octo notis et pluribus descendet 
+quam quattuor?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Uterque erit plus quam perfectus, quemadmodum esset imperfectus, 
+si paucioribus ascenderet vel descenderet.
+
+
+±
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Concurrentibus duobus tonis perfectis vel imperfectis, quomodo, 
+quaeso te, cognoscere potero, an sit potius authenticus quam 
+plagalis vel e contra?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Iterum in ascensus et descensus odiosam repetitionem cogis me 
+redire, discipule. Dixi enim tibi quod tonus authenticus unice ex 
+ascensu, plagalis vero ex descensu cognoscatur. Concurrentibus 
+itaque duobus tonis perfectis, videndum est, an frequentius cantus 
+ascendat ad octavam vel descendat ad quartam. Si frequentius 
+ascendat, erit authenticus. Si frequentius descendat, erit plagalis. 
+Concurrentibus autem duobus tonis imperfectis etiam videndum 
+est, an cantus supra notam finalem frequentius ascendat per 
+sextam, vel septimam? Aut vero frequentius descendat infra notam 
+finalem per secundam, vel tertiam? Si frequentius ascendat, 
+erit authenticus, si frequentius descendat, erit plagalis.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Qualis autem erit ille qui nec ascendet per sextam aut septimam, 
+nec vero descendet per secundam aut tertiam?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Iterum videndum est, an supra notam finalem habeat <sic>diapense</sic>, 
+sive quintam veram, vel forte habeat <sic>diatexeron</sic>, id est quartam. Si 
+habet quintam, tunc est authenticus, si vero habet quartam, est plagalis. 
+Toni enim authentici procedunt laete et vivaciter, quod proprium 
+est quintae per tertiam, plagales vero procedunt maeste et 
+affectuose, quod proprium est quartae.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Interpellare tandem te ausim, optime magister, qualis iam ille erit 
+cantus, qui nec per quintam, nec per quartam ascendit?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Erit talis qualem indicabit chorda. Est autem chorda, tertia nota 
+supra finalem, ut vides hic. 
+
+
+<pb/>
+Si ergo supra chordam fuerint plures notae quam infra illam, erit 
+authenticus, secus erit plagalis.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Posset contingere cantus in quo solum una nota esset supra chordam 
+et alia infra chordam qualis autem erit tunc?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Semper et ubique videndum est an cantus una solum nota ascendat, 
+per tonum vel per semitonum. Si ascendat per tonum, descendat 
+vero per semitonum, erit authenticus. Et vice versa, si ascendat 
+per semitonum, descendat vero per tonum, erit plagalis quod si pari 
+passu procedat ita ut discerni non possit, dicendus est potius authenticus, 
+quam plagalis, quia servus plagalis in pari concursu debet cedere 
+domino suo, qui est authenticus. Nos vero cedamus utrique ac 
+una eamus ad chorum. </p>
+            </sp>
+         </div>
+
+         <pb/>
+         <div type="prosa-dialogus" n="6">
+            <head>Dialogus VI.
+
+De <sic>intonationibus</sic>
+            </head>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Superatis arduis per amoeniorem studii campum amantem cantus 
+ducam discipulum meum. Campus erit chorus, ratio modulandi 
+<sic>intonationes</sic>. Sine quarum notitia chorum quidem ascendere 
+licebit, ac chori directorem agere minime licebit.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Quid fuit illud arduum, quod superavimus, et quid hoc amoenum, 
+ad quod amplectendum tantopere me provocas, magister?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Arduum sane fuerat generaliter omnem cantum, cuius sit toni, 
+ex nota finali et vario notarum ascensu ac descensu cognoscere. 
+Amoenum autem et facile est visa solum nota finali antiphonae et 
+initiali EUOUAE, cuius sit toni, cognoscere. Est autem EUOUAE 
+vox, ex vocalibus <mentioned>sEcUlOrUm AmEn</mentioned> composita, quae ideo in fine 
+cuiusque antiphonae ponitur, ut iuxta illam <sic>intonatio</sic> fiat, sive deinde 
+tota antiphona decantetur, sive initium tantum.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Dicis omnia ad captum meum, magister! Dic modo quod <sic>solerter</sic> 
+te dicturum promisisti, quomodo ex nota finali antiphonae et 
+initiali EUOUAE cognoscere possim, cuius sit toni antiphona?
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Hoc modo: si finalis nota antiphonae finiat in re et initialis EUOUAE 
+incipiat in la per quintam ascendentem, tunc tam antiphona 
+quam psalmus erit primi toni. Si vero antiphona finiat in re 
+et EUOUAE incipiat in fa per tertiam, tunc erit secundi toni, mi, 
+fa, per sextam tertii, mi, fa per quartam quarti, fa, fa, vel ut, sol, b-
+molle per quintam quinti, fa, la per tertiam sexti, ut, sol, per quintam 
+septimi, ut, fa, per quartam octavi. Quos omnes in gratiam 
+mei discipuli hisce versibus exprimo: 
+
+Re, la primus habet, re, fa datur inde secundo.
+
+Tertius ad sextum mi, fa, at mi, la quartus habebit.
+
+Fa, fa fert quintus; fa, la concedito sexto.
+
+Septimus est ut, sol; ut, fa capit inde supremus. 
+
+Quod si discipulo meo doctrina non placet, nec placerent versus, 
+placebit forte omnium tonorum symbolum ac singulorum 
+exempla:
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Placent admodum omnia tua dicta, et facta magister, solum unico 
+adhuc premor angore: quare nimirum plures notae supra EUOUAE 
+signantur, dum unicam sufficere dicis ad cognoscendum tonum?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Mitte angorem, fili mi! Nam paterno te affectu docet magister 
+ideo plures notas quam unicam, ex qua tonus cognoscitur, signari, 
+ut in unica, eaque prima supra EUOUAE signata (in festis simplicibus, 
+et in feriis dumtaxat) incipias psalmum, in reliquis autem 
+notis eiusdem psalmi versum apte termines. Dico apte, quia si versus 
+plures syllabas contineat quam praescriptae notae requirant, 
+in unisono accipiendae erunt. Hic enim non tam medium quam 
+initium et finis consideratur.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Si toni psalmorum in festis simplicibus et feriis habent <sic>intonationes</sic> 
+ab initiali nota EUOUAE, quales autem habent in festis duplicibus?
+
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Primus tonus habet fa, sol, la, sextus et idem.
+
+Ut, re, fa, octavus, sic tertius atque secundus.
+
+La, sol, la, quartum dant, ut, mi, sol, tibi quintum.
+
+Septimus at tonus fa, mi, fa, sol, tibi monstrat.
+
+Ad quorum maiorem intelligentiam ne quidpiam desideres, subnecto 
+exempla:
+
+
+<pb/>
+Atque hae <sic>intonationes</sic> psalmorum per omnes passim ecclesias 
+ritus Romani habentur. In choro tamen almae cathedralis ecclesiae 
+Zagrabiensis in Regno <placeName>Croatiae</placeName>, circa tonum secundum, quartum, 
+septimum et octavum invenitur quaedam discrepantia. Nam 
+
+
+<pb/>
+secundus circa medium et finem, quartus autem, septimus et octavus 
+circa initium nonnihil mutantur, prout videre est in hisce 
+exemplis:
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Summopere delector <sic>praedeclaratis</sic> exemplis tuis magister, sed 
+magis miror quod aliquos tonos in unum tantum, aliquos vero in 
+plures ac diversos exitus, sive EUOUAE perduxeris.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Nihil in posterum mireris, <sic>chare</sic> discipule. Nam diversi exitus pro 
+diversis festivitatibus instituti sunt, quod nempe aliter die festo duplici 
+vel <sic>semiduplici</sic>, et aliter simplici vel <sic>feriali</sic> versus psalmorum 
+terminari debeant. Quamobrem <sic>talismodi</sic> terminationes seu exitus 
+
+
+<pb/>
+differentiae vocantur. Aliqui vero dicunt diversos exitus, sive differentias 
+esse a diversa modulatione antiphonae. Quacumque ex 
+ratione id factum sit, scias velim, si forte nescivisti hactenus, discipule, 
+a legislatoribus cuiuscumque facultatis nihil frustra, nihil, 
+quod ratione fundatum non sit, institutum fuisse. 
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Forte non frustra, nec sine ratione antiphonae et psalmi, per octo 
+tonos <corr resp="#NJ">decantantur</corr>, qui per unum decantari possent?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Minime gentium frustra decantantur. Sed ex diversitate materiae, 
+atque rerum, diversos quoque et varios convenit esse tonos. 
+Primus enim tonus Dorius dictus partim tristis, partim iucundus; 
+convenit ergo, ut contineat materias graves et sententiosas. Secundus 
+<name>Hipodorius</name> est flebilis, et gravis; appropriabit ergo sibi res tristes 
+et lamentabiles.
+
+Tertius <name>Frigius</name> est asper et durus, requiret ergo materias iracundas. 
+Quartus <name>Hipofrigius</name> est adulator flebilis adeoque vult habere 
+materis tractantes de tranquillitate animi et rerum. Quintus <name>Lidius</name> 
+est suavis et delectabilis et petit materias iucundas vel victoriosas. 
+Sic in festo Corporis Christi quinta ad laudes antiphona: Vincenti 
+dabo manna. Est quinti toni.
+
+Sextus <name>Hipolidius</name> est gravis ac devotus vultque habere materias 
+devotas vel funebres et calamitosas. Septimus <name>Mistolidius</name> est melancholicus 
+continetque materias tristes ac conturbatas. Octavus 
+<name>Hipermistolidius</name> est plenus suavitate ac iucunditate habetque materias 
+mansuetas et graves continentes res speculativas et divinas 
+de impetranda gratia a Deo eiusque Beata Virgine.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Grates ago Deo, Beatae Virgini, ac tibi, magistro meo, quod in 
+omnibus plene me institutum sentiam, <sic>quamoptime</sic> autem in eo 
+quod antiphonae a materia, psalmi autem ab antiphonis regulentur, 
+ut cuiuscunque toni sit antiphona, necesse est ut eiusdem toni 
+sit et psalmus. Itane magister?
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Ita quidem, et si secus fiat, tonus irregularis erit, utpote a regulis 
+nobilissimae artis deficiens. Atque talis est psalmus: In exitu Israel 
+de <placeName>
+                     <sic>Egipto</sic>
+                  </placeName>. Dum canitur per antiphonam Nos qui vivimus, sumit 
+enim initium ex tono quarto medium ex sexto et finem ex tertio. 
+Qui a quibusdam peregrinus dici consuevit, non quidem ideo 
+quod ab extraneis peregrinis allatus esset, sed quod peregrinationem 
+populi Israelitici contineat et raro canatur.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Curiosus essem videndi hunc rarum peregrinum.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Spe plena curiositas tua magnum animo meo attulit solatium. 
+Vide ergo, quod statim videre volebas:
+
+Prout autem idem psalmus in choro Zagrabiensi per octavam 
+paschatis canitur, non sumit initium ex quarto tono, sed (ut vides) 
+ex septimo.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+In exitu fuit Israel de <placeName>
+                     <sic>Egipto</sic>
+                  </placeName>; ne simus nos, quaeso te, de choro 
+antequam sciat discipulus tuus, quomodo cognoscantur toni introituum 
+eorumque versuum?
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Hoc scies facile ex nota finali introitus et initiali subsequentis versus. 
+Nam si introitus ultima nota fuerit re, et versus prima fa, uterque 
+erit primi toni. Si illi fuerit ultima nota re, et huic prima ut, dabitur 
+secundus tonus. Finalis mi, et initialis sol, faciunt tertium tonum. 
+Mi, la, per quartam ascendentem, faciunt quartum. Fa, re, fa, 
+vel ut, mi, sol per tertiam et quintam, dant tonum quintum. Fa, sol, 
+sol, fa, per secundam denotant sextum. Septimum advertes quando 
+introitus finem accipiet in ut, et versus initium in fa, vel ut, fa, 
+mi, fa, sol. Octavum tandem habebis si et illi finalis et huic initialis 
+fuerit ut. Etsi vero octavus eiusdem sit <sic>intonationis</sic> cum secundo, 
+non sunt tamen idem, quia initialis secundi toni est C. ut. Octavi 
+autem toni est G. ut. Quod perspicies in substratis exemplis: 
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Adhuc unicum est, quod impensius te rogo, </p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p> docebis me 
+quomodo tonos responsoriorum cognoscere potero.
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Poteris facile, uti prius, ex nota finali responsorii et initiali versus. 
+Nam si responsorium finit in re, et versus incipit vel in la, vel 
+in re, la, habebis primum tonum. Si finalis responsorii est re, et initialis 
+versus est idem re, vel ut, facient secundum tonum. Mi, fa, in 
+saltu per sextam facient tertium mi, la, per quartam, quartum. Si 
+vero responsorium terminatur in F. fa gravi, et versus incipit in C. 
+fa acuto, erit quintus tonus. Si responsorium desinit in F. fa, et versus 
+etiam in eodem F. fa initium sumit, dabitur sextus tonus. Finalis 
+responsorii ut, et initialis versus sol, causant septimum tonum. Octavus 
+erit quando responsorium pro ultima nota habebit ut, et versus 
+pro prima vel ipsum ut, vel fa. Nihil te doceo sine exemplis:
+
+
+<pb/>
+               </p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+               <p>
+
+Postremum est, quod te rogo, dic mihi, magister, quare supra 
+aliquam syllabam textus plures notae farciuntur?
+
+</p>
+            </sp>
+            <sp>
+               <speaker>Magister:</speaker>
+               <p>
+
+Ratio petenda est ex ipsis verbis textus. Quae enim verba maioris 
+sunt contemplationis, in iis syllaba aut in longius canitur aut 
+in altius elevatur: servata nihilominus semper et ubique tam toni 
+quam harmoniae proportione. Atque haec de amabili arte musices 
+amantissimo meo discipulo pro modulo dicta sufficiant. 
+</p>
+            </sp>
+            <sp>
+               <speaker>Discipulus:</speaker>
+
+               <p>Si putas haec tuo sufficere discipulo, magister, nihil aliud iam 
+superest quam ut, pro impensis in me vigiliis tuis, mille tibi grates 
+reddam. Accesseram quidem timidus studii difficultate perterritus, 
+sed modo solum exultantis animi signis, laetus et securus 
+a te discedo.</p>
+            </sp>
+
+            <sp>
+               <speaker>Magister:</speaker>
+
+               <p>Amabo te, ne discedas, discipule, donec una grates non agamus 
+Deo, cuius beneficio auream hanc scientiam adepti sumus ac in signum 
+<sic>gratitudinis</sic> nostrae quaterna voce decantemus Romanum 
+Te Deum laudamus.</p>
+            </sp>
+         </div>
+
+
+
+      </body>
+      
+   </text>
+</TEI>

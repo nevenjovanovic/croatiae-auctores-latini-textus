@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="natalis-f-vita-maruli">
+         <titleStmt>
+            <title>Vita Marci Maruli Spalatensis per Franciscum Natalem conciuem suum composita, versio electronica</title>
+            <author key="bozic01">
+               <name xml:lang="hr">Božićević Natalis, Frano</name>
+               <date>1469-1562</date>
+            </author>
+            <editor>Bratislav Lučin</editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+            Prema kasnijem znanstvenom izdanju (2007).
+        </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum 1777</extent>
+         <publicationStmt>
+            <p>elektronska verzija: <name>Digitalizacija hrvatskih latinista</name>, znanstveni
+        projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+        Hrvatska.  <date>kolovoz 2008</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Božićević, Frano: Život Marka Marulića Splićanina, priredio i preveo Bratislav Lučin, Split: Književni krug — Marulianum (2007).</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notBefore="1524" period="15xx_1_third">post 1524.</date>
+        </creation>
+         <textClass>
+            <keywords scheme="typus">
+                <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+                <term>Litterae renatae (1400-1600)</term>
+                <term>Saeculum 16 (1501-1600)</term>
+                <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+                <term>prosa oratio - vita</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <name>Luka Špoljarić</name>
+            <date>2012-02-11</date>
+        Novo zaglavlje.
+    </change>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2008-08-22T00:03:49</date>
+    Validacija u Oxygenu.
+</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+    
+        <div xml:id="praef1" type="epistola">
+            <opener>
+               <milestone unit="folium" n="104"/>Franciscus Natalis Petro Lucharo suo S. D. P.
+</opener>
+            <p xml:id="fbn-mmv1.1">
+               <ref type="nota" xml:id="rd0e81" target="nd0e81" n="1"/> Cogitanti mihi, praestantissime Petre Luchare, hinc admirabille desiderium <ref type="nota" xml:id="rd0e84" target="nd0e84" n="2"/> Francisci Iuliani, uiri sane tum in litteris eminentissimi, tum in moribus continentissimi, erga laudatissimam uitam ac probatissimos mores Marci Maruli nostri dignoscendos, illinc uero promptitudinem animi tui erga Iulianum obsequiosissimam, uisum fuit non absurde uobis ambobus uno tempore eodemque liberalitatis officio moremgerere, Maruli parentibus ac amicis satisfacere, posteros quoque pro uirili mea munificentius demereri. Marulianam igitur uitam, quam diucius a me efflagitaueras, licet breuissimo folio coarctatam, in amplissima tamen uolumina ac numerosa exempla curriculo egresuram, Iuliano quia doctus, Maruli paren<milestone unit="folium" n="104v"/>tibus ac amicis quia non indigni, tibi quia plurimum debeo dedico, non inuitus exhibeo. Quę si tibi et Iuliano placuerit, in propatulum faeliciter uolitabit, ab omnibus hospitaliter ac periucunde amplexabitur, inuidentium amarissimos morsus nequaquam exhorrescet; insumma, famae illius auspicatissimae, cui profecto nitidum calculum non adiecisse sacrilegium est, optime consultum iri arbitrabor. </p>
+            <p xml:id="fbn-mmv1.2">Faeliciter ualeas, mi Luchare, M. Maruli nostri etiam defuncti obseruator unice, qui non, ut plerique, uiuentium amicorum fortunam sequeris, sed charis quoque post cineres solatia praestas, aeternitatem curas.</p>
+        </div>
+        <div xml:id="praef2" type="poesis" met="elegiacum">
+            <head>Nicolaus Albertus ad lectorem</head>
+            <l>Qui Maruli formam, patriam, dictamina, mores,</l>
+            <l>	Et tanti qui uult noscere facta uiri,</l>
+            <l>Quis genitor genitrixque sibi, quibus aeditus annis,</l>
+            <l>	Qualiter aetherii nunc tenet astra poli,</l>
+            <l>Natalis legat ille mei monumenta diserti,</l>
+            <l>	Quo nihil in nostra doctius urbe uiget.</l>
+        </div>
+        
+      </front>
+      <body>
+        <div xml:id="fbn-mmv3" type="vita">
+            <head>Vita Marci Maruli Spalatensis per Franciscum Natalem, conciuem suum, composita
+</head>
+            <p xml:id="fbn-mmv3.1">Marcus Marulus, gente generosis natalibus ortus, patrem habuit Nicolaum Marulum, uirum non modo politicis moribus et liberalibus studiis excultum, sed studiosorum quoque omnium fautorem praecipuum rei publicaeque suae defensorem acerrimum, <milestone unit="folium" n="105"/> matrem uero Dobricam, Albertę domus matronam grauissimam et sanctimonię plenam nominique suo optimo inprimis facile corespondentem: Dobrica enim Illyrico idiomate apud Latinos Bonam significat. Haec fuit Iancii Leonis Alberti soror, equitis aurati, patricii honoratissimi. Ex hac et Nicolao quem diximus aediti fuere filii sex et filia una, Marcus uidelicet, Simeon, Petrus, Ioannes, Alexander, Valerius et Birra. Quibus omnibus Marcus ut aetate ita doctrina et uitae integritate praefulsit, licet omnes uiri probi ac singulari fide insignes extiterint. Petrus, Ioannes et Valerius triremis praefectura donati naualia apud Venetos stipendia meruerunt, quamquam Ioannes infelici auspicio primis praefecturae diebus ex humanis excaesserit. Simeon uero equestri militia de senatu Veneto benemeritus ex Italia rediens in patria tandem mortuus est. Alexander liberis procreandis operam dedit, qui et omnibus superuixit. Birra autem, maritale connubium<ref type="nota" xml:id="rd0e131" target="nd0e131" n="1"/> aspernata, caelibem uitam agens in monasterio diui Benedicti, a cunabulis immortali Deo dicata est. Apud quam plurima litterarum monumenta et exhortatorię ad bene beateque uiuendum epistolae uernaculo sermone et manu ipsius Marci conscriptę apparent. </p>
+            <p xml:id="fbn-mmv3.2">Qui natus est XV Kalendas Septembres a natiuitate Domini nostri Iesu Christi MCCCCL. Hic ab infantia usque ad decrepitam aetatem nihil fecit quod non dignum laude, nihil dixit quod non dignum admiratione, nihil scripsit quod non dignum memoria esse uideretur. Ingenio fuit acutissimo et admodum perspicaci; quicquid uolebat, pingebat ut Appeles, sculpebat ut Lysipus, formabat ut Praxiteles. Puer adhuc egregiam indolem pręseferebat; adolescentiam suam non in libidine (ut alii solent) exercebat, sed studio, sed lucu<milestone unit="folium" n="105v"/>brationibus omne tempus transigebat; cunctis charus, cunctis gratus, cunctis amabilis extitit. Sub Colla Firmiano, Tydeo Acciarino et Hieronymo Ienesio Picentino, a quo etiam Greca elementa accepit, eius aetatis uiris eruditissimis, in Latinis litteris adeo profecit ut pene puer in laudem serenissimi principis Nicolai Marceli cunctis admirantibus pulcherrimam orationem habuerit.</p>
+            <p xml:id="fbn-mmv3.3"> Egressus tam felici adolescentia iuuenis iam sollicitae fugax ambitionis erat, inter equales ueluti inter uiridantia prata flos iacintinus, ueluti inter albicantes rosas purpureus amarantus enitebat. Statura erat mediocri, latis humeris, corpore non obeso, sed gracili, fronte hylari et lata; oculos nigrescentes, nasum aquilinum, faciem uenustam, capillos corticis Auelanae similes et immissos, barbam habebat grauem et uenerabilem; omnia membra haud incongrue staturę conueniebant. Rarus in locutione, tardus in iram, comis et facetus admodum in familiaritate; doctrinam, qua plurimum pollebat, magis gerebat in recessu quam in fronte; quicquid in corde, id habebat in ore. Adeo erat uerecundus, adeo perhumanus, adeo omnibus peruius ut non iniuria <ref type="nota" xml:id="rd0e145" target="nd0e145" n="1"/> uitae exemplar, speculum uirtutis, sinceritatis norma a cunctis appellaretur. Vsque ad obitum Simeonis, fratris carissimi, tangebat illum uestimentorum cura nobilior; fragilitatis humanae, credo, recordatione ad diuina animum hinc penitus errexit.</p>
+            <p xml:id="fbn-mmv3.4"> Patrimonium habuit, ut locus postulat, amplissimum. Domesticarum rerum curam Valerio, ex fratribus iuniori, liberam dimiserat, <ref type="nota" xml:id="rd0e151" target="nd0e151" n="1"/> mortem cuius quantum aegre tulerit, elegia meo nomini dicta luculenter indicat. Quo defuncto gubernationem familiae, durissimam prouinciam (uti saepe quere<milestone unit="folium" n="106"/>batur), uel inuitus suscepit. Celulam in parte aedium cum libris ac parcissimis sumptibus amplexus adamauit. Per annos circiter quadraginta cum Musis occlusus diuinis uoluminibus, lucubrationibus, uigiliis, ieiuniis, cilicio, orationibus ac durissimis flagelationibus non sine asperrima pęnitentia die noctuque insudauit. Per posticum celulę ad templum gloriosae Virginis et diui Domnii, Petri, apostolorum principis, discipuli, nominibus consecratum, a templo in celulam se conferebat. In quo diuinis oficiis continuo assistebat, ingressu primus, egressu ultimus; diuina officia nunquam prętermittebat. Carnibus minime uescebatur. Quicquid sibi temporis a sacrarum vacatione rerum supererat, id totum studio et litterato ocio imparciebatur. Misericors, pius, omni laudum genere cumulatissimus erat. Pauperibus quicquid poterat, mendicis et egenis, illius <sic>euangelci</sic> memor: <q>Nesciat dextra, quid facit sinistra,</q> profusissime clanculum errogabat. Quietioris uitae gratia pene iam sexagenarius ad insulam Sutrium, duodecim millia passuum distantem a patria, secesserat, <ref type="nota" xml:id="rd0e162" target="nd0e162" n="2"/> quo ueluti a mundi huius blandissimis illecebris et asperrimis amfractibus ad securum tranquillitatis portum se contullerat. Ibi in monasterio quoddam diui Petri Vallis surdę sic appelatę per bienium moratus, deinde ob pyratarum formidinem ad prius habitaculum in patriam reuersus est. </p>
+            <p xml:id="fbn-mmv3.5"> Quę quidem Spalatum nuncupatur, Dalmatarum urbium ciuitas antiquissima, a Salonarum ruderibus per tria millia passuum semmota. Palatium olym Dyocliciani imperatoris summę deliciae, Dalmaticarum gentium, insularum ac urbium (ut Plinio placuit) emporium celeberrimum, quod ex altissimis<ref type="nota" xml:id="rd0e168" target="nd0e168" n="1"/> moenibus, antiquissimis templis, innumeris uariis praeciosissimisque columnis, subterraneis testudinibus, <ref type="nota" xml:id="rd0e180" target="nd0e180" n="2"/> concameratis criptis, pontibus in uallium concauitate ad caelum errectis, xistis, theatris et plumbeis sipunculis sub terram diductis, usque in hanc diem dilucide perspicere licet. Quibus quidem sipunculis <milestone unit="folium" n="106v"/> et subterraneis meatibus Iader, Salonarum fluuius amoenissimus, a quo Iadera et Iadrenses (ut <sic>non ullis</sic> placet) cognominati, non sine et miro artificio et immensis sumptibus deuectus Spaletum incurrebat, <ref type="nota" xml:id="rd0e188" target="nd0e188" n="3"/> quo palatium tanto imperatore non indignum, in littore maris Adriatici per aetatem et secessum praeclarius, magis pateret, splendesceret, celebraretur.</p>
+            <p xml:id="fbn-mmv3.6"> Plurima edidit uolumina tippis inprimenda, pars quorum non exigua a bibliopolis circumfertur, uenumdatur, a doctis laudatur, a posteritate uenerabitur. Quae quidem (paucis comprehensa) sunt hęc:</p>
+            <list>
+               <item>De ratione bene pieque uiuendi per exempla sanctorum, libri VI</item>
+               <item>Euangelistarium, libri VI</item>
+               <item>De imitatione Christi, liber I<ref type="nota" xml:id="rd0e205" target="nd0e205" n="1"/>
+               </item>
+               <item>Questiones utriusque testamenti, liber I</item>
+               <item>Quinquaginta parabole, liber I</item>
+               <item>Vita diui Hieronymi, liber I</item>
+               <item>Comentaria in inscriptiones ueterum in marmore incisas, liber I</item>
+               <item>Dalmatiae regum, liber I</item>
+               <item>Psichiologia de ratione animae humanę, liber I</item>
+               <item>Dauidiados carmen, libri XIIII</item>
+               <item>Poematon libri VII</item>
+               <item>De humilitate et gloria Christi, liber I</item>
+               <item>De uitio auaritię diuitiisque contempnendis liberalitatisque uirtutae, liber I</item>
+               <item>De uiris illustribus Veteris testamenti, liber I</item>
+               <item>De Hercule a Christianis superato dialogus</item>
+               <item>De ultimo iuditio, liber I</item>
+               <item>De pace Italię carmen heroicum</item>
+               <item>Historia Iudit rithmis Illyricis exornata ac concine translata, adeo ut in eadem lingua periti nihil gratius nihilque acceptius legere queant, libri VI</item>
+            </list>
+            <p xml:id="fbn-mmv3.7"> Triplici genere amititiae dum esset in humanis usus est. Primum genus est horum qui, licet abscentes et non noti, fama tamen nuncia incredibillem de laudatis operibus illius habuerunt opinionem; neque tamen optima spe, quam de eo conceperant, sunt destituti. Hii erant uiri clarissimi et in meliori fortuna colocati, uidelicet: Dominicus Grimanus, miseratione diuina episcopus Portuensis et cardinalis diui Marci reuerendissimus, Petrus Berislaus, Vesprimiensis episcopus et Coruatiae banus inclytus, Christophorus Marcelus, archiepiscopus Corcirensis, Augustinus <milestone unit="folium" n="107"/> Mula, patritius Venetus generosus, Barnardus Zane, artium et sacrae teologię magister, archiepiscopus Spalatensis metropoliticus, et multi alii quorum nomina celeberrima breuitatis causa in presentiarum omittimus.</p>
+            <p xml:id="fbn-mmv3.8"> Secundum opptinuerunt locum uiri probi ac honorati, minus tamen docti, in numero quorum fuaerunt Dominicus et Hieronymus Papales, qui et carmina sua ad lyram argutissimis modulis decantare solebat, Nicolaus Petracha,<ref type="nota" xml:id="rd0e267" target="nd0e267" n="1"/> Marinus Cuteus, Petrus Gregorianus et Aloysius Papalis, quos duos et ob praecipuam fidem post obitum testamenti sui commissarios reliquit.</p>
+            <p xml:id="fbn-mmv3.9"> Deinde secuntur uiri non mediocri doctrina insignes et in poetica facultate admodum pręstantęs, qui omnes dulcissimis alocutionibus disertissimisque carminibus uicisim et pręsentes se ad immortalitatis gloriam acuebant. Cognominantur hii Christophorus Papalis, uir utriusque<ref type="nota" xml:id="rd0e279" target="nd0e279" n="1"/> iuris consultissimus, Thomas Niger, episcopus Traguriensis reuerendissimus, duo fratres Cippici, Petrus et Hieronymus, utriusque<ref type="nota" xml:id="rd0e285" target="nd0e285" n="2"/> iuris doctor eximius, duo fratres Martiniaci, Hieronymus et Franciscus, uiri eruditissimi, ego itidem Franciscus, licet ingenio ac doctrina nouissimus, in amore tamen ipsius secundis honoribus minime contentus, Nicolaus et Antonius Alberti, fratres nobilles ac in litteris admodum consummati. Hii omnes post obitum quoque illius Marci carminibus et elegantibus et innumeris amicitiam testati sunt.</p>
+            <p xml:id="fbn-mmv3.10"> Mortuus est autem nonis Ianuariis a Natali Christi anno MDXXIIII, non difficulter (ut alii solent) aut diutina aegritudinae consternatus, sed laudans Dominum, creatorem suum. Integer uitae scelerisque purus spiritum efflauit, bonum certamen certauit, cursum consumauit, fidem seruauit. Sepultus est honorrifice in ecclesia diui Francisci extra muros in proauorum suorum sepulchro, ueluti ipsemet testamento mandauerat, per quod quicquid sibi remanserat Christi pauperibus legauit. Et hiis quae secuntur epitaphiis exhornatus ad celestem patriam, ad quam iugiter aspirabat, feliciter euolauit.</p>
+            <p>
+               <ref type="nota" xml:id="rd0e296" target="nd0e296" n="1"/> Explicit.</p>
+         </div>
+      </body>
+      <back>
+        <div xml:id="fbn-mmv4" type="epitaphium" met="elegiacum">
+            <head>
+Epitaphium Marci Maruli per Franciscum Natalem
+</head>
+            <l>Irrita res mors est: non sunt obnoxia morti</l>
+            <l>	Corpora si semper uiuere posse datur.</l>
+            <l>Marulus aeternum diffusus nomen in aeuum</l>
+            <l>	Viuere post cineres incipit ecce magis.</l>
+            <l>Viue igitur, quicumque sapis, uirtute magistra,</l>
+            <l>	Funereo cupias si superesse rogo.</l>
+
+        </div>
+        <div xml:id="fbn-mmv5" type="epitaphium" met="elegiacum">
+            <head>Aliud epitaphium per eundem
+</head>
+            <l>"Quis iacet hic?" "Marcus." "Quis Marcus?" "Marulus ille,</l>
+            <l>	Cuius honos terras, spiritus astra tenet."</l>
+            <l>"Tanta quibus meruit tantus uir dotibus?" "Orbem</l>
+            <l>	Vendicat eloquio, religione polum."</l>
+            <l>"Vix, puto, credibile est dominis placuisse duobus."</l>
+            <l>	"Hic placuit: tanto uir fuit ingenio.</l>
+            <l>Macte, uiator ades quisquis, uirtutibus esto,</l>
+            <l>	Qui cupis et mundo gratus et esse Deo."</l>
+        </div>
+        <div xml:id="fbn-mmv6" type="epitaphium" met="hendecasyllabus">
+            <head>
+Francisci Martiniaci Spalatensis
+</head>
+            <l>Exemplar nitidum beatioris</l>
+            <l>Vitae, Marulus hic situs quiescit.</l>
+            <l>Cuius pars melior polum petiuit,</l>
+            <l>Fama sed celebrem magis superstes</l>
+            <l>Reddit post cineres diuque reddet.</l>
+            <l>Famam uiuida – quis neget? – perennem</l>
+            <l>Virtus, religio polum meretur.</l>
+        </div>
+        <div xml:id="fbn-mmv7" type="epitaphium" met="elegiacum">
+            <head>
+Hieronymi Martiniaci, fratris ipsius
+</head>
+            <l>Virtutum exemplar, securae regula uitae,</l>
+            <l>	Marcus in hoc tumulo Marulus ille iacet.</l>
+            <l>Marulus ille, inquam, dicendi atque arte canendi</l>
+            <l>	Notus in Eois Hesperiisque plagis;</l>
+            <l>Et licet extiterit proauorum stemmate clarus,</l>
+            <l>	Ingenii uicit nobilitate genus.</l>
+            <l>Vrna tegit cineres, expers sua fama sepulchri est;</l>
+            <l>	Pro meritis animus regna superna colit.</l>
+        </div>
+        <div xml:id="fbn-mmv8" type="epitaphium" met="elegiacum">
+            <head>
+Nicolai Alberti Spalatensis
+</head>
+            <l>Carpe, uiator, iter, Marci nec funera fletu</l>
+            <l>	Prosequere: haec tristi funera morte carent.</l>
+            <l>Ossea pars terra si conditur, ignea Olympum</l>
+            <l>	At colit, et nomen cuncta per ora uolat.</l>
+        </div>
+        <div xml:id="fbn-mmv9" type="epitaphium" met="elegiacum">
+            <head>
+Antonii Alberti Spalatensis
+</head>
+            <l>Maesta Camenarum nigra cum ueste caterua</l>
+            <l>	Exequias Maruli, flebile tractat opus.</l>
+            <l>Quo gaudent socio superi, terra ipsa superbit</l>
+            <l>	Talis honoratum corpus habere uiri.</l>
+         </div>
+        <div xml:id="fbn-mmv10" type="epitaphium" met="elegiacum">
+            <head>
+Hieronymi Papalis iunioris
+</head>
+            <l>Cuius honoratum rutilantia sidera nomen</l>
+            <l>	Transuolat, et Solis pulsat utramque domum,</l>
+            <l>Pagina sacra uiget cuius uulgata per orbem</l>
+            <l>	Vitaque, sub tumulo Marulus ecce iacet.</l>
+            <l>Sit licet iste cinis, beneolentes fundit odores,</l>
+            <l>	Maius et extincto corpore nomen habet.</l>
+        </div>
+         <div type="notes">
+            <head>Notae</head>
+            <note place="margin" xml:id="nd0e81" target="rd0e81" type="vide">
+               <graphic ana="manicula" url="rkp"/>
+            </note>
+                    <note place="margin" xml:id="nd0e84" target="rd0e84" type="vide">
+               <graphic ana="manicula" url="rkp"/>
+            </note>
+                    <note place="foot" xml:id="nd0e131" target="rd0e131" n="1">
+               <emph>Correxi ex </emph>connbium.</note>
+                    <note place="margin" xml:id="nd0e145" target="rd0e145" type="vide">
+               <graphic ana="manicula" url="rkp"/>
+            </note>
+                    <note place="margin" xml:id="nd0e151" target="rd0e151" type="vide">
+               <graphic ana="manicula" url="rkp"/>
+            </note>
+                    <note place="margin" xml:id="nd0e162" target="rd0e162" type="vide">
+               <graphic ana="manicula" url="rkp"/>
+            </note>
+                    <note place="foot" xml:id="nd0e168" target="rd0e168" n="2">
+               <emph>Ipse</emph> 
+               <emph>ex </emph>antiquissimis <emph>correxit.</emph>
+            </note>
+                    <note place="margin" xml:id="nd0e180" target="rd0e180" type="vide">
+               <graphic ana="manicula" url="rkp"/>
+            </note>
+                    <note place="margin" xml:id="nd0e188" target="rd0e188" type="vide">
+               <graphic ana="manicula" url="rkp"/>
+            </note>
+                    <note place="foot" xml:id="nd0e205" target="rd0e205" n="3">
+               <emph>Ipse ex </emph>
+               <num value="3">III</num> 
+               <emph>correxit.</emph>
+            </note>
+                    <note place="foot" xml:id="nd0e267" target="rd0e267" n="4">
+               <emph>Ipse ex </emph>Petrarcha <emph>correxit.</emph>
+            </note>
+                    <note place="foot" xml:id="nd0e279" target="rd0e279" n="5">
+               <emph>Correxi ex</emph> utrisque.</note>
+                    <note place="foot" xml:id="nd0e285" target="rd0e285" n="6">
+               <emph>Correxi ex</emph> utriusque iusque.</note>
+                    <note place="margin" xml:id="nd0e296" target="rd0e296" type="vide">
+               <graphic ana="manicula" url="rkp"/>
+            </note>
+                    </div>
+      </back>
+   </text>
+</TEI>

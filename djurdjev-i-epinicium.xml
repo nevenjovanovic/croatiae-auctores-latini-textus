@@ -1,0 +1,3533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="djurdjev-i-epinicium">
+         <titleStmt>
+            <title ref="djurdjev02-c04-17xx">Eugenii a Sabaudia... epinicium, versio electronica</title>
+            <author key="djurdjev02">
+               <name xml:lang="hr">Đurđević, Ignjat</name>
+               <date>1675-1737</date>
+            </author>
+            <editor>
+               <name xml:id="DK">
+                  <ref target="15157187" type="viaf">Đuro Körbler</ref>
+               </name>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>Prema starijem znanstvenom izdanju.</date>
+            </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C versus 984, verborum 8618</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+               projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+               Hrvatska.  <date when-iso="2014-02">Veljače 2014</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>
+                Körbler, Đuro: Latinska pjesma Ignjata Đorđića, u kojoj slavi pobjede Eugena Savojskog nad Turcima 1716. i 1717. godine. In: Građa za povijest književnosti hrvatske, 5 (1907), 1-40
+               <relatedItem type="digitalizat">
+                  <ref type="dizbihazu">DiZbi HAZU</ref>
+               </relatedItem>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notBefore="1717" period="17xx_1_third">1717</date>
+            
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+               <term>mixtum (prosa et poesis)</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1701-1750</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epica</term>
+               <term>prosa oratio - paratextus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <!-- još sic nije kolacionirano s originalom -->
+          <change>
+              <date>2014-02-20</date>
+              <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+              Spellcheck.
+          </change>
+         <change>
+            <date>2014-01-21</date>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            Prva TEI verzija.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+
+      <front>
+         <pb/>
+         <titlePage>             
+            <titlePart>AVGVSTISSIMO
+      CAESARI CAROLO AVSTRIACO
+                   
+
+
+
+
+                 Huius nominis Sexto:</titlePart>
+            <titlePart>Inuicto, Pio, <expan>et</expan> Felici, <lb/>
+                   Suis auspicijs, ductuque <expan>Serenissimi</expan> Principis <lb/>
+                   Eugenij a Sabaudia duobus maximis Proelijs <lb/>
+    Turcarum Triumphatori, <lb/>
+               Duobus annis, duorum Regnorum Daciae, Moesiaeque <lb/>
+post munitissimas urbes Temesuarium, Taurunumque <lb/>
+                       perdomitas<lb/>
+      Expugnatori, <lb/>
+
+
+Et tam grandibus initijs ad totius Orientis Imperium <lb/>
+               auspicatissime proludenti</titlePart>
+
+
+            <titlePart>Epinicium <lb/>
+
+
+           Quatuor Libellis comprehensum</titlePart>
+                <docAuthor>Canit, <expan>et</expan> Consecrat <lb/>
+
+
+               <abbr>D.</abbr> 
+               <persName>Ignatius Georgius Ragusinus</persName> 
+               <lb/>
+                  Abbas Melitensis.</docAuthor>
+         </titlePage>
+      </front>
+      <body>
+         <div type="poesis-epica" met="hexameter">
+            <head>
+               <add>Eugenii a Sabaudia... epinicium</add>
+            </head>
+
+            <div type="poesis-liber" met="hexameter">
+               <pb/>                          
+               <head>LIBER PRIMVS. Belli motus, <expan>et</expan> causae.</head>
+               <milestone unit="section"/>
+               <l n="1">           Haec sors <persName>Austriadum</persName> est, primique in fronte <persName>Rodulfi</persName>
+               </l>
+             
+             
+               <l n="2">         Imposita a Superis: nt nullo cederet unquam</l>
+             
+             
+               <l n="3">         Turbine diua Domus, sed per luctamina fati</l>
+             
+             
+               <l n="4">         Duceret a grauibus maiora augmenta periclis.</l>
+             
+             
+               <l n="5">5        Damna uicem lucri subeunt: dant uulnera palmas,</l>
+             
+             
+               <l n="6">         Caesaribusque ipsae gaudent prodesse ruinae.</l>
+             
+             
+               <l n="7">         Heu repetam ueteres, pallentia saecula, fastos;</l>
+             
+             
+               <l n="8">         Tu Carolum <ref>1</ref> Solimane fuga, tu uulnere caeco</l>
+             
+             
+               <l n="9">         Fernandum <ref>2</ref> Gustaue ruens, tu dire Memetes</l>
+             
+             
+               <l n="10">10       Auxisti Leopoldum <ref>3</ref> , Asiae dum robore toto</l>
+             
+             
+               <l n="11">         Tentatam Vngaricâ pensasti clade Vienam.</l>
+             
+             
+               <l n="12">         Sic quoque Phidiaci rigido sub uerbere caeli</l>
+             
+             
+               <l n="13">         Emicat in pretium, coliturque animata Charistus.</l>
+             
+             
+               <l n="14">         Sic sol oppositi raptus uertigine Mundi</l>
+             
+             
+               <l n="15">15       Pugnat in aduersum, superoque in uertice tandem</l>
+             
+             
+               <l n="16">         Sistit uictorem, uelut ad capitolia, currum.</l>
+             
+             
+               <l n="17">         Ergo si referunt tua detrimenta coronas;</l>
+             
+             
+               <l n="18">         Et tibi, ceu Libycae renouato more palaestrae,</l>
+             
+             
+               <l n="19">         Si caderes, cecidisse foret, uicisse cadendo;</l>
+             
+             
+               <l n="20">20       Quid cessas dilecta Deo, Dea credita terris</l>
+             
+             
+               <l n="21">         Austria, quid dubitas? Ne reprime nobile fatum,</l>
+             
+             
+               <l n="22">         Heu superos remorare Duces: age tollito signa</l>
+             
+             
+               <l n="23">         Aurorae ad thalamos: uolitent in margine Gangis</l>
+             
+             
+               <l n="24">         Pugnaces Aquilae, perque inuia Bactra Sueuos</l>
+             
+             
+               <l n="25">25       Inda seges depascat equos: Germanicus ardor</l>
+             
+             
+               <l n="26">         Caucaseas galea potet fumante pruinas,</l>
+             
+             
+               <l n="27">         Et Nilum de fonte suo. Disperde profani</l>
+             
+             
+
+               <note>6. ipse A. — 18. Lybicae . . . palestrae. — 19. Sic.</note>
+               <note>1
+   Karlo V.</note>
+               <note>2
+   Ferdinand   <num value="3">III</num>.</note>
+               <note>3
+   Leopold I.</note>
+               <pb n="8"/>
+               <l n="28">             Templa Macometis<ref>7</ref> uanaeque oracula Mecchae,</l>
+             
+             
+               <l n="29">             Eripe Othomanis captiuum legibus Orbem.</l>
+             
+             
+               <l n="30">    30       Ecquid non poteris? Quid non queat alma potestas</l>
+             
+             
+               <l n="31">             Nominis Augusti, tantaeque propaginis omen?</l>
+             
+             
+               <l n="32">             Vincula Titanum laxet Cocytus, <expan>et</expan> ultor</l>
+             
+             
+               <l n="33">             Mars furias de nube pluat: uomet aerea campus</l>
+             
+             
+               <l n="34">             Agmina, Colchiacae repetens portenta noualis;</l>
+             
+             
+               <l n="35">    35     Haud cedes bellis, animabere ad arma periclo:</l>
+             
+             
+               <l n="36">             Atque ubi uincendi minor est fiducia, uinces.</l>
+               <milestone unit="section"/>        
+             
+               <l n="37">                Verum audimur io: Superique ad uota fecundi</l>
+             
+             
+               <l n="38">              Spem nostram anteeunt: palmae iam cerno futurae</l>
+             
+             
+               <l n="39">              Grande rudimentum, coeptique exordia belli:</l>
+             
+             
+               <l n="40">    40        Cerno, Turcaico, quem subdere cogitat, Orbi</l>
+             
+             
+               <l n="41">              Binis, quae domuit, <emph>Carolum</emph>
+                  <ref>1</ref> proludere regnis.</l>
+             
+             
+               <l n="42">              Dacia succubuit, dein Moesia: Caesaris armis</l>
+             
+             
+               <l n="43">              
+                  <placeName>Taurunum</placeName> ualidas, <expan>et</expan> 
+                  <placeName>Themesuarion</placeName> arces</l>
+             
+             
+               <l n="44">              Submisit superante metu: iam liber utroque</l>
+             
+             
+               <l n="45">    45        Margine Danubius, laetisque <sic>tumentior</sic> undis,</l>
+             
+             
+               <l n="46">              Nouit cuius eat; nec iam uectigal aquarum</l>
+             
+             
+               <l n="47">              Infert Euxino, sed frendens arma, minasque,</l>
+             
+             
+               <l n="48">              Impetit hostiles cornu septemplice fluctus.</l>
+             
+               <milestone unit="section"/>          
+               <l n="49">               O Decus, o Scatebrae decorum! post talia facta</l>
+             
+             
+               <l n="50">    50        Quid, quaeso, de te quid non sperabimus ultra,</l>
+             
+             
+               <l n="51">              
+                  <emph>Carole</emph> semideo proles miranda Parenti,</l>
+             
+             
+               <l n="52">              
+                  <emph>Carole</emph> semideum fama excessure Parentem.</l>
+             
+             
+               <l n="53">              Quaerendis alij sceptris per saecula sudant,</l>
+             
+             
+               <l n="54">              Tu Phoebi spatijs: <expan>et</expan> singula bella repensant</l>
+             
+             
+               <l n="55">    55        Vilibus exuuijs alij, tu <emph>Carole</emph> regnis.</l>
+             
+               <milestone unit="section"/>      
+               <l n="56">                Sed mihi tam uastos conanti ab origine motus</l>
+             
+             
+               <l n="57">              Dicere, deinde sequi quocunque intenderis ensem;</l>
+             
+             
+               <l n="58">              Sordent <placeName>Castalij montes</placeName>, uilescit <persName>Apollo</persName>,</l>
+             
+             
+               <l n="59">              Et uocale nemus, raucaeque insania <placeName>Cyrrhae</placeName>;</l>
+             
+             
+               <l n="60">    60        Dum verum tu Numen ades. Tu magna parantem</l>
+             
+             
+               <l n="61">              Auspicijs auraque iuua; reboantia ut inter</l>
+             
+             
+               <l n="62">              Tormenta audiri possint mea carmina, <expan>et</expan> aurem</l>
+             
+             
+               <l n="63">              Armisonam ad placidos cantus inclinet Enyo.</l>
+             
+             
+
+               <note>34. Cholchiacae. — 39. exordio A. — 42. sucumbuit A.</note>
+               <note>1
+        Karlo VI.</note>
+               <pb n="9"/>
+               <milestone unit="section"/>
+               <l n="64">           Sequanicae pacis <ref>1</ref> gremio resoluta sedebat</l>
+             
+             
+               <l n="65"> 65      Austria bellipotens, Insubris nixa trophaeis.</l>
+             
+             
+               <l n="66">         Circum sylua oleis, <expan>et</expan> densâ consita lauro</l>
+             
+             
+               <l n="67">         Vmbrabat Dominae pendentibus ora coronis.</l>
+             
+             
+               <l n="68">         Exuuiae Regum, belli monumenta, superbo</l>
+             
+             
+               <l n="69">         Per ramos horrore micant: gemit arbor opima</l>
+             
+             
+               <l n="70"> 70      Mole triumphorum, <expan>et</expan> dubia ceruice laborans</l>
+             
+             
+               <l n="71">         Captiuum metitur onus. Thoraces equestri</l>
+             
+             
+               <l n="72">         Discissi frameâ, galeae sine honore comarum</l>
+             
+             
+               <l n="73">         Cernuntur, foedo <sic>squallentia</sic> puluere signa,</l>
+             
+             
+               <l n="74">         Sanguine concretae clamydes, <expan>et</expan> ahenea scuta</l>
+             
+             
+               <l n="75"> 75      Centeno ignitas testantia uulnere glandes.</l>
+             
+             
+               <l n="76">         Sub Dominae pedibus calcata tonitrua ferri,</l>
+             
+             
+               <l n="77">         Fulmina terrarum, Vulcani horrenda supellex</l>
+             
+             
+               <l n="78">         Agglomerata iacent: ad quae Bellona proteruas</l>
+             
+             
+               <l n="79">         Vincta manus, rabido retinacula dente cruentat:</l>
+             
+             
+               <l n="80"> 80      Quodque potest, stridente coma <sic>minabunda</sic>, Sabaudis</l>
+             
+             
+               <l n="81">         Funeribus saturos in sibila concitat angues.</l>
+             
+               <milestone unit="section"/>
+               <l n="82">            Ergo dum ueteres agitat, uacua Austria curis,</l>
+             
+             
+               <l n="83">         Mente Duces, gentisque suae decora alta recursant:</l>
+             
+             
+               <l n="84">         Dum confert antiqua nouis, <expan>et</expan> ad omnia praefert</l>
+             
+             
+               <l n="85"> 85      Fortunam, atque animum <emph>Caroli</emph> , nec laude minorem</l>
+             
+             
+               <l n="86">         
+                  <emph>Eugenij</emph> dextram, seseque ad sydera tollit</l>
+             
+             
+               <l n="87">         Tantae opis auspicio, populis par omnibus una;</l>
+             
+             
+               <l n="88">         Omnibus <expan>et</expan> populis nunquam superabilis una;</l>
+             
+             
+               <l n="89">         Cessantem sic nacta Deam Diua altera Roma,</l>
+             
+             
+               <l n="90"> 90      Cardine ab Hesperio famulas subuecta per auras,</l>
+             
+             
+               <l n="91">         Tristis adit. Non ut quondam comitata pauorum</l>
+             
+             
+               <l n="92">         Agmine, nec patrio <sic>squallet</sic> Mauortia ferro:</l>
+             
+             
+               <l n="93">         Pax oculis, pax ueste nitet, frontemque coronat</l>
+             
+             
+               <l n="94">         Aurea tergemino surgens fulgore potestas:</l>
+             
+             
+               <l n="95">  95     Terga tegit <sic>phrygiata</sic> Tyros, gemmataque magnam</l>
+             
+             
+               <l n="96">         Sceptra manum cumulant triplicem terrentia mundum;</l>
+             
+             
+               <l n="97">         Et quamuis animum torquet dolor, anxia uota</l>
+             
+             
+               <l n="98">         Magnanima grauitate premit: stat nobile uultu</l>
+             
+             
+               <l n="99">         Pondus, <expan>et</expan> arcanae geminat uiolentia curae</l>
+             
+             
+
+               <note>73. squallantia A. — 78. Aglomerata. — 86. dexteram. — 91.
+Norms A. — 92. movortia A. — 95. gemataq.</note>
+               <note xml:lang="hrv">1
+     Mir skloplen u Rastadtu 7. ožujka 1714. između Austrije i
+Francuske.</note>
+               <pb n="10"/>
+      
+               <!-- dovde spellcheck -->
+               <l n="100">100       Grande supercilium, maiestatemque seueram.</l>
+             
+             
+               <l n="101">          Austria ubi obsequio canam complexa parentem</l>
+             
+             
+               <l n="102">          Debita regales demisit ad oscula uultus,</l>
+             
+             
+               <l n="103">          Inque uicem remeauit amor, sic Roma tacenti</l>
+             
+             
+               <l n="104">          Protulit inclusum per tristia uerba dolorem:</l>
+             
+               <milestone unit="section"/>
+               <l n="105">105            „O Spes Christiadum, quae famae exempla Latinae</l>
+             
+             
+               <l n="106">          „Et ueterem heroa complecteris indole Romam,</l>
+             
+             
+               <l n="107">          „Quid resides, trepido nunquam opportunior Orbi,</l>
+             
+             
+               <l n="108">          „Quid nostras pateris spectare per otia clades?</l>
+             
+             
+               <l n="109">          „De Cephalenaeo, Corcyraeoque recessu <ref>1</ref>
+               </l>
+             
+             
+               <l n="110">110       „Quantus Hydruntinas procurrit pontus ad arces;</l>
+             
+             
+               <l n="111">          „Finibus Italiae tantum, Latioque recedit</l>
+             
+             
+               <l n="112">          „Bistonidum truculenta manus. Tu maxima hiantes</l>
+             
+             
+               <l n="113">          „Siste feras, ac monstra Asiae. Defende piorum</l>
+             
+             
+               <l n="114">           „Communem patriam, communes protege Diuos.</l>
+             
+             
+               <l n="115">115       „Anne meos aditus, quae iam pietasque fidesque</l>
+             
+             
+               <l n="116">          „Innumero triuere genu, molimine saeuo</l>
+             
+             
+               <l n="117">          „Taurica disrumpat, uel Commagena securis?</l>
+             
+             
+               <l n="118">           „Suppositisne sacris Diuos cremet? Impiet aras</l>
+             
+             
+               <l n="119">           „Barbara luxuries? Superis Bisaltica pellex</l>
+             
+             
+               <l n="120">120        „Fulgeat exuuijs? Magni augustale Tonantis</l>
+             
+             
+               <l n="121">           „Turpis equo persultet Arabs? Fora perlita Diuûm</l>
+             
+             
+               <l n="122">           „Sanguine terrifici cursu premat ungula Mauri?</l>
+             
+             
+               <l n="123">           ,, Prospice praeterito decori. Quae gloria fastis</l>
+             
+             
+               <l n="124">           „Concidet Austriacis, si te cessante fatiscet</l>
+             
+             
+               <l n="125">125        „Religionis apex, Romanaque fana uidebunt</l>
+             
+             
+               <l n="126">           „Non uicti pendere tholis uexilla Greloni!</l>
+             
+             
+               <l n="127">           „Men' tandem eripies pulso fortassis ab hoste?</l>
+             
+             
+               <l n="128">          „Post morbos fit lassa salus, lugendaque semper</l>
+             
+             
+               <l n="129">          „Libertas post damna uenit: defendere bello</l>
+             
+             
+               <l n="130">130       „Si potes intactam, cur uis releuare iacentem ?</l>
+             
+             
+               <l n="131">          „Corcyra est nostri uallum maris: Adria uastus</l>
+             
+             
+               <l n="132">          „Hanc ferit a Zephyris, atque Ionis unda sub ortus.</l>
+             
+             
+               <l n="133">          „Insula diues opum, tutâ spectabilis urbe,</l>
+             
+             
+               <l n="134">          „Atque superpositae structo munimine rupis.</l>
+             
+             
+               <l n="135">135       „Ast heu! post Danaum clades, lateque subactum</l>
+             
+             
+               <note>117. Coimigena. — 119. Luxuries A. — 130. curvis A. — 132.
+Zephiris.</note>
+               <note xml:lang="hrv">1
+    1715. godine dođe Pelopones pod tursku vlast, pa je pogibao
+od Turaka zaprijetila i mletačkim otocima Kefaleniji i Krfu.</note>
+               <pb n="11"/>
+               <l n="136">          „Ionium, Aegeumque, nigro spumantia tabo</l>
+             
+             
+               <l n="137">          „Guttura protendens, miserae Rhodopeius urbi</l>
+             
+             
+               <l n="138">          „Implicuit sese coluber, nexuque cruento</l>
+             
+             
+               <l n="139">          „Expiraturas iam iam premit horridus arces.</l>
+             
+             
+               <l n="140">140       „Excubat obsessae, fateor, sociale meorum</l>
+             
+             
+               <l n="141">          „ Foedus, <expan>et</expan> aligeri uigilant cum classe Leones <ref>1</ref> ;</l>
+             
+             
+               <l n="142">          „Sed spes immoritur damno: nimis ardua uinci est</l>
+             
+             
+               <l n="143">          „Effera barbaries, <expan>et</expan> nunc elata triumphis.</l>
+             
+             
+               <l n="144">          „Nunc tu sola potes uel nutu pellere pestem,</l>
+             
+             
+               <l n="145">145       »Si uelle ostendas, <expan>et</expan> nominis eminus almi</l>
+             
+             
+               <l n="146">          „Horrificam tumidis obieceris hostibus umbram.</l>
+             
+             
+               <l n="147">          „Dum frustra pugnant alij, tantum insonet armis</l>
+             
+             
+               <l n="148">          „Austria; <expan>et</expan> ante tubam franget terrore superbos.</l>
+             
+             
+               <l n="149">          „Quod si dispereat Getico expugnante Gradiuo</l>
+             
+             
+               <l n="150">150       „Oppositus Turcis ultra tendentibus agger,</l>
+             
+             
+               <l n="151">          „Quid non classis atrox in nos audebit utrinque</l>
+             
+             
+               <l n="152">          „Adriaco dominata mari: successibus acta</l>
+             
+             
+               <l n="153">          „Quo non saeuities, lunataque signa uolabunt?</l>
+             
+             
+               <l n="154">          „Hinc modo quem spernis, ne sperne Othomana futurum,</l>
+             
+             
+               <l n="155">155       „Qui te namque pauet, non semper Diua pauebit.</l>
+             
+             
+               <l n="156">          „Nescis heu! nescis quod sors noua prisca refringit</l>
+             
+             
+               <l n="157">          „Ingenia: haud credo tunc uulnere uilis, <expan>et</expan> excors,</l>
+             
+             
+               <l n="158">          „Sed se successu Thrax eriget: ingerit ausus</l>
+             
+             
+               <l n="159">          „ Prosperitas, nescit felix fortuna timorem.</l>
+             
+             
+               <l n="160">160       „Si primo Ausoniam uastauerit, auctior inde</l>
+             
+             
+               <l n="161">          „ Inuadet te praedo ferox: Byzantia cerno</l>
+             
+             
+               <l n="162">          „Arma per Vngariam: stridebit ab aequore uicto</l>
+             
+             
+               <l n="163">          „Tempestas ferri, bellatricesque procellae</l>
+             
+             
+               <l n="164">          „Mergent Caesareos superato Iapyde fines.</l>
+             
+             
+               <l n="165">165       „Dum fremit in saltus, syluisque irascitur ignis,</l>
+             
+             
+               <l n="166">          „Atque equitant resoni per frondea lustra calores;</l>
+             
+             
+               <l n="167">          „Haud quantum noceat, uel quantum flamma nocebit.</l>
+             
+             
+               <l n="168">          „Sed quidquid nocuisse potest, gemebundus ab alta</l>
+             
+             
+               <l n="169">          „Pastor rupe dolet. Fremitu dum nubila rauco</l>
+             
+             
+               <l n="170">170       „Perfurit; a cunctis, licet unum ictura, timetur</l>
+             
+             
+               <l n="171">          „Cyclopum rabies, flammaeque tricuspidis ira.</l>
+             
+             
+               <l n="172">          „Ergo ubi calcatis pax imperterrita rixis</l>
+             
+             
+               <note>140. obsepe A, obsessae B et C. — 153. sevities A. — 158. in­
+genia A. — 161. Bizantia. — 164. Iapodo A.</note>
+               <note xml:lang="hrv">1
+      Mlečani.</note>
+               <pb n="12"/>
+               <l n="173">          „Hesperias acies, cognataque castra remouit,</l>
+             
+             
+               <l n="174">          „Gallica cesserunt, cessere domestica bella,</l>
+             
+             
+               <l n="175">175       „Et coniurato conflata a Pannone nuper <ref>1</ref>
+               </l>
+             
+             
+               <l n="176">          „Seditio cecidit, mordetque rebellio fraenos:</l>
+             
+             
+               <l n="177">          „Exere in occidua rerum fortissima uires,</l>
+             
+             
+               <l n="178">          „Transgreditor uirtute atauos: utque appetit Orbem,</l>
+             
+             
+               <l n="179">          „Ipse luat Regnis, conceptaque uota nocendi</l>
+             
+             
+               <l n="180">180       „Acmetes patriâ cum faenore pendat in aulâ".</l>
+               <milestone unit="section"/>             
+             
+               <l n="181">             Vix ea, pugnaces iamque Austria concipit aestus,</l>
+             
+             
+               <l n="182">          Iam gladios iniussa manus, iam stagna cruoris</l>
+             
+             
+               <l n="183">          Postulat Odrysij, flammescunt ora: sub imo</l>
+             
+             
+               <l n="184">          Corde tumens uindicta salit: totamque minacis</l>
+             
+             
+               <l n="185">185       Reginae mentem superandus uindicat hostis.</l>
+             
+             
+               <l n="186">          Cum noua fax belli lacrymis turbauit utramque;</l>
+             
+             
+               <l n="187">          Et misero clamore Deam, uultumque retexit</l>
+             
+             
+               <l n="188">          Graecia. Proh qualis facies! quam liuida planctu</l>
+             
+             
+               <l n="189">          Pectora! Crinali <sic>fraetae</sic> in diademate turres,</l>
+             
+             
+               <l n="190">190       Nullae humeris trabeae, nullaeque ante ora secures:</l>
+             
+             
+               <l n="191">          Fracta animis, foedata genas, disiecta capillos,</l>
+             
+             
+               <l n="192">          Plagis scissa, latus, ceruicem onerata catenis.</l>
+             
+             
+               <l n="193">          Et uix orsa loqui, ueluti cum saepe refractus</l>
+             
+             
+               <l n="194">          Singultat per saxa liquor, suspiria uoci</l>
+             
+             
+               <l n="195">195       Miscuit, <expan>et</expan> grauibus uerba interrupta querelis:</l>
+               <milestone unit="section"/>          
+             
+               <l n="196">             „Non ego praesidium (nec iam sum Graecia tanti),</l>
+             
+             
+               <l n="197">          „Vltorem posco, Scythicos non deprecor ignes,</l>
+             
+             
+               <l n="198">          „Sed mea ne saeuus post fata superbiat hostis.</l>
+             
+             
+               <l n="199">          „O tu Caesareae uotum Byzantidos aulae,</l>
+             
+             
+               <l n="200">200       „Eoi orbis amor, solio expectata tuorum</l>
+             
+             
+               <l n="201">          „Austria: diuini tuque arbitra iuris, <expan>et</expan> aequi,</l>
+             
+             
+               <l n="202">          „Mater certa mihi, sed sero cognita Mater;</l>
+             
+             
+               <l n="203">          „ Si pietas cordi, ferro altera, <expan>et</expan> altera sacris</l>
+             
+             
+               <l n="204">          „Dimicet auspicijs, coniuret terra, polusque</l>
+             
+             
+               <l n="205">205       „Contra hostile caput, quaeque ipse horrenda reliquit,</l>
+             
+             
+               <l n="206">          „Nostra in Othomanum transferte exempla Tyrannum;</l>
+             
+             
+               <l n="207">          „En regnum Pelopis, quo nostra superfuit uno</l>
+             
+             
+               <l n="208">          „Religio proauita loco, per funera mille</l>
+             
+             
+
+               <note>174. cessare A. — 185. vendicat. — 188. quam liuida — ^ /Pectora
+A. — 197. Scyticas A, Schythicas B et C. — 198. facta A.</note>
+               <note xml:lang="hrv">1
+    Szathmarskim ugovorom mjeseca travna 1711. završio se ustanak
+u Ugarskoj.</note>
+               <pb n="13"/>
+               <l n="209">           „Concidit, interijt. Iacui mihi facta sepulchrum</l>
+             
+             
+               <l n="210">210        „Saeuius ac quondam, Macedûm grassantibus armis,</l>
+             
+             
+               <l n="211">           „Vel cum perdomito uiolentior aequore Xerxes</l>
+             
+             
+               <l n="212">           „Me paribus pelago bellantum absorbuit undis.</l>
+             
+             
+               <l n="213">           „Oppida tota iacent: pendentibus undique saxis</l>
+             
+             
+               <l n="214">           „Moles semirutae, ueterisque cadauera fastus</l>
+             
+             
+               <l n="215">215        „Stant, <expan>et</expan> stare nocent Alijs vix nomina restant;</l>
+             
+             
+               <l n="216">           „Quaeque superfuerant post tot discrimina Martis,</l>
+             
+             
+               <l n="217">           „Eumenides ipsas Geticae rapuere ruinas.</l>
+             
+             
+               <l n="218">           „Atque omnes utinam. Nam quae mihi nobilis ante</l>
+             
+             
+               <l n="219">           „Munimen Nauplia <ref>1</ref> fuit mox fracta tot armis,</l>
+             
+             
+               <l n="220">220        „Fulmineos <expan>et</expan> passa globos, Palamedis <expan>et</expan> ingens</l>
+             
+             
+               <l n="221">           „Arx flammis concussa; tamen subita arte refectae</l>
+             
+             
+               <l n="222">           „En nostro iugulo insurgunt, <expan>et</expan> praeside Turca</l>
+             
+             
+               <l n="223">           „Conseruant mea uincla suis. Sors o tibi paruum</l>
+             
+             
+               <l n="224">           „Usque adeo fuit, tua nobis fausta negare</l>
+             
+             
+               <l n="225">225        „Numina, <expan>et</expan> auxilium, si non gentilem Pelasgam</l>
+             
+             
+               <l n="226">           „Vertisses in uulnus opem? Fortissima quondam</l>
+             
+             
+               <l n="227">           „Vrbs Argiua perit, fortes periere Mycenae,</l>
+             
+             
+               <l n="228">           „Feralem refugo cinerem impellente iuuenco</l>
+             
+             
+               <l n="229">           „Hellespontiacus super Aulide sudat arator:</l>
+             
+             
+               <l n="230">230        „Sparta latet, pinguique seges de sanguine nata</l>
+             
+             
+               <l n="231">           „Contegit exanimem tumulo <sic>squallente</sic> Corinthum,</l>
+             
+             
+               <l n="232">           „Multum illae bello ualuere per Asidis oras,</l>
+             
+             
+               <l n="233">           „Nunc uirtus a stirpe iacet. Quid profuit ingens</l>
+             
+             
+               <l n="234">           „Gloria, <expan>et</expan> e solio Priamum uidisse cadentem,</l>
+             
+             
+               <l n="235">235        „ Si tandem occubui rigido uerso ordine sortis</l>
+             
+             
+               <l n="236">           „Ignibus Asiacis, Troiano perdita letho</l>
+             
+             
+               <l n="237">           „Victima Teucrorum, solamenque Hectoris umbris.</l>
+             
+             
+               <l n="238">           „Me miseram, uix fanda tuli! <sic>molesceret</sic> Haemus,</l>
+             
+             
+               <l n="239">           „Cognatae portenta luis; nec dextera Thracum</l>
+             
+             
+               <l n="240">240        „Torpuit aut faciens, aut iam sua facta uidendo</l>
+             
+             
+               <l n="241">           „Horruit, heu! proprij monumenta relicta furoris.</l>
+             
+             
+               <l n="242">           „Non mihi si pectus Briaraeum adamante rigeret,</l>
+             
+             
+               <l n="243">           „ Impia damna queam, miserosque euoluere casus,</l>
+             
+             
+
+               <note>210. Seuuius A. — Versus 218.—226. desunt in A.</note>
+               <note>1
+     Nampuliam hodie <foreign xml:lang="ita">Napoli di Romania</foreign> dicimus, <expan>et</expan> arcem ei adsitam
+Palamedis Palamedam uocamus: alteram a Nauplio patre, qui ibi regnauerat: alteram a Palamede filio, inter duces, qui aduersum Troianos
+olim coniurauerant, celeberrimo cognominamus.</note>
+               <pb n="14"/>
+               <l n="244">            „Quos sensi, quantum potui sentire superstes,</l>
+             
+             
+               <l n="245">245         „Posthumaque ipsa mihi. Pueros de Matre cadentes</l>
+             
+             
+               <l n="246">            „Excepit gladius: uidit laqueata iuuentus</l>
+             
+             
+               <l n="247">            „Foeda morte trahi per compita lubrica tabo</l>
+             
+             
+               <l n="248">            „Calcatos in sorde senes: fumantia templa</l>
+             
+             
+               <l n="249">            „Solus sub calido restinguit acinace sanguis:</l>
+             
+             
+               <l n="250">250         „Post praedam rapit ira domos: <expan>et</expan> uita morando,</l>
+             
+             
+               <l n="251">            „Vulneribusque pudor, lanienâ urgente repostae</l>
+             
+             
+               <l n="252">            „Extenduntur opes: procerum rorantia colla</l>
+             
+             
+               <l n="253">            „Venduntur pretio, nec per conuiuia desunt</l>
+             
+             
+               <l n="254">            „Cuspide plebeia lacerati membra Senatus</l>
+             
+             
+               <l n="255">255         „Intermissa epulis. Quid plura? heu! scindere durum est</l>
+             
+             
+               <l n="256">            „Vulnera, <expan>et</expan> expertos dictis geminare labores.</l>
+             
+             
+               <l n="257">            „Sat dixisse foret, gentem pugnasse proteruam:</l>
+             
+             
+               <l n="258">            „Quis prior inciperet, maiusque auderet adire</l>
+             
+             
+               <l n="259">            „Flagitium: peccare fuit lucrumque decusque,</l>
+             
+             
+               <l n="260">260         „Et merces belli, Geticaeque superbia palmae.</l>
+             
+             
+               <l n="261">            „Religio, integritas hoc dedecus? Hancine laudem</l>
+             
+             
+               <l n="262">            „Acmetes periurus habet? Pessumdata uirtus,</l>
+             
+             
+               <l n="263">            „Spreta fides, exul pietas, lex spernere legem:</l>
+             
+             
+               <l n="264">            „Euganeos fasces caudae praelator equinae</l>
+             
+             
+               <l n="265">265          „Expulit, <expan>et</expan> Venetae famulis cessere curules.</l>
+             
+             
+               <l n="266">            „Austria, Roma taces? Superique o fertis inultum,</l>
+             
+             
+               <l n="267">             „ Spectatisque nefas? Ni forte sedendo futuras</l>
+             
+             
+               <l n="268">             „Colligitis uires, <expan>et</expan> tanto crimine digna</l>
+             
+             
+               <l n="269">             „Ambigitis quae poena foret. Cessate, morâque</l>
+             
+             
+               <l n="270">270          „Augete exitium, subito nec frangite sontem</l>
+             
+             
+               <l n="271">             „Fulmine, sacrilegus se perdi sentiat hostis.</l>
+             
+             
+               <l n="272">             „Anne ego Palladias quae iam uenerabilis artes</l>
+             
+             
+               <l n="273">             „In primum, mediumque diem, serumque ferebam,</l>
+             
+             
+               <l n="274">             „Semifero posthac praedoni offerre iubebor</l>
+             
+             
+               <l n="275">275          „Ingenuas ad stupra nurus? Me dante tributis</l>
+             
+             
+               <l n="276">             „Explebit rabidos Byzantia bellua rictus?</l>
+             
+             
+               <l n="277">             „In mercem pariam natos? Delubraque pandam</l>
+             
+             
+               <l n="278">             „Armenti in stabulum, similisque in sacra Mahumae?</l>
+             
+             
+               <l n="279">             „Noui quae fuerim, quae sim nunc cerno: pigetque</l>
+             
+             
+               <l n="280">280          „Me talem, quod tanta fui. Felicia clamo</l>
+             
+             
+               <l n="281">             „Saecula, felices proauos, cum Romula primum</l>
+             
+             
+
+               <note>261. Hancinne A, hanccine B et C. — 278. Mahume A.</note>
+               <pb n="15"/>
+               <l n="282">          „Virtus, mox Veneti domuit me gloria sceptri.<ref>1</ref>
+               </l>
+             
+             
+               <l n="283">          „Olim quin etiam si caelo undante perissem</l>
+             
+             
+               <l n="284">          „Deucalioneo non surrectura sub imbre;</l>
+             
+             
+               <l n="285">285       „Gauderem magnis succumbere perdita causis,</l>
+             
+             
+               <l n="286">          „Et caelo debere necem. Mors eminet ipsa</l>
+             
+             
+               <l n="287">          „Vindice ab egregio, cladesque auctore superbit.</l>
+             
+             
+               <l n="288">          „At nunc uincta gemo, nec sunt solatia captae:</l>
+             
+             
+               <l n="289">          „Dumque dolore pudor, crescuntque pudore dolores,</l>
+             
+             
+               <l n="290">290       „Exanimor dominis ancillatura pudendis.</l>
+             
+             
+               <l n="291">          „Parua tamen haec sunt: tolerandoque hactenus ausu</l>
+             
+             
+               <l n="292">          „Proritans rabiem lusit uiolenta potestas;</l>
+             
+             
+               <l n="293">          „ Sed grauiora parat: iam totum deuorat Orbem,</l>
+             
+             
+               <l n="294">          „Iam uestrum domito propendet in Hesperon Euro,</l>
+             
+             
+               <l n="295">295       „Iam tendit cum sole minas. Ceu Caspia tigris,</l>
+             
+             
+               <l n="296">          „Si forte Orpheo tentatum barbiton auro</l>
+             
+             
+               <l n="297">          „ Senserit, haud placido iucundo nectare cantus,</l>
+             
+             
+               <l n="298">          „Ingenium mansuescit atrox, sed munere dulcis</l>
+             
+             
+               <l n="299">          „Blanditiae, celeres uiolentius exit in iras.</l>
+             
+             
+               <l n="300">300       „Sic quoque Othomanidum flammescunt pectora amicae</l>
+             
+             
+               <l n="301">          „Fortunae illecebra. Si Mars arriserit, alte</l>
+             
+             
+               <l n="302">          „Grassantur uotis, imo sua turbida uota</l>
+             
+             
+               <l n="303">          „Anteuolant feriente manu. Victoria pacem</l>
+             
+             
+               <l n="304">          „Despicit, ex bellis redeuntia bella seruntur,</l>
+             
+             
+               <l n="305">305       „Et clades de clade uiret. De montibus omnes</l>
+             
+             
+               <l n="306">          „Et pennas Boreae citius retinere furentis,</l>
+             
+             
+               <l n="307">          „Felicem quam Thraca queas. Non fontibus aequor,</l>
+             
+             
+               <l n="308">          „Non grauis Aetna rogis, non incurrentibus unquam</l>
+             
+             
+               <l n="309">          „Naufragijs Scyllaea fames, non manibus Orcus</l>
+             
+             
+               <l n="310">310       „Aeternum satur est, nec sanguine Turcia uictrix.</l>
+             
+             
+               <l n="311">          „Quas uires, quantasque paret, quid cognita dicam?</l>
+             
+             
+               <l n="312">          „Quidue acies numerem? De finibus Hellesponti</l>
+             
+             
+               <l n="313">          „Ad uada Danubij, peditumque equitumque tumultu</l>
+             
+             
+               <l n="314">          „Infremit impatiens, <expan>et</expan> uix capit agmina tellus.</l>
+             
+             
+               <l n="315">315       „Classibus Ionium premitur, sudantibus auris</l>
+             
+             
+               <l n="316">          „Prouehere impositâ tot transtra gementia praedâ:</l>
+             
+             
+
+               <note>284. Deucalioneo. — 296. Orpheo. — 308. Aethna. — 309.
+Scylea.</note>
+               <note xml:lang="hrv">1
+     Grčka postade rimskom pokrajinom još 146. god. pr. Hr. Za.
+križarskih vojni dokopaše se Mlečani vlasti u Peloponesu i na
+nekim otocima Jonskoga mora.</note>
+               <pb n="16"/>
+               <l n="317">           „Laurigeraeque rates, tabulataque iuncta per undas,</l>
+             
+             
+               <l n="318">           „Plus quam belligeri quondam manus impia Medi,</l>
+             
+             
+               <l n="319">           „Pinea captiuo contexunt uincula Nereo.</l>
+             
+             
+               <l n="320">320        „Quidquid dissimulent astus, e sanguine Achiuo</l>
+             
+             
+               <l n="321">           „Vlterius bellum petitur: me namque subactâ</l>
+             
+             
+               <l n="322">           „Quid tanti uellent terra, pelagoque paratus?</l>
+             
+             
+               <l n="323">           „Cur quatitur fines spectans Corcyra Latinos?</l>
+             
+             
+               <l n="324">           „Cur fera <sic>Neupacti</sic> 
+                  <ref>1</ref> naualia milite feruent,</l>
+             
+             
+               <l n="325">325        „Ambracij portus <ref>2</ref> , sinuataque claustra Corinthi?</l>
+             
+             
+               <l n="326">           „Si nec sors Venetum, percussaque foedera quondam,</l>
+             
+             
+               <l n="327">           „ Nec uos Ismarij tangunt periuria pacti;</l>
+             
+             
+               <l n="328">           „Vestra salus moueat, moueant miseranda meorum</l>
+             
+             
+               <l n="329">           „Funera, ut in populos quidquid factura minatur</l>
+             
+             
+               <l n="330">330        „Barbaries ceruice luat: defendite Regnis</l>
+             
+             
+               <l n="331">           „Foedifragum Acmetem, coniuratamque Tyranno</l>
+             
+             
+               <l n="332">           „Perfidiam: in Danaum res ab radice recisae</l>
+             
+             
+               <l n="333">           „Saltem funesti referant solatia casus".</l>
+             
+               <milestone unit="section"/>          
+               <l n="334">              Dein tacet, erumpens subitus dolor alligat ora,</l>
+             
+             
+               <l n="335">335        Clausaque cura stupet: tamen acrius ore diserto</l>
+             
+             
+               <l n="336">           Exanimis languor, pallorque in fronte perorant,</l>
+             
+             
+               <l n="337">           Et rigidâ lacrymae ueluti de rupe fluentes.</l>
+             
+             
+               <l n="338">           Solantur tacitam Diuae, miscentque profusis</l>
+             
+             
+               <l n="339">           Cum lacrymis lacrymas, terguntque per oscula luctum.</l>
+             
+             
+               <l n="340">340        Quin et septenâ Ditem quae terret ab arce,</l>
+             
+             
+               <l n="341">           Iura uicesque gerens, <expan>et</expan> proxima Regna Tonanti,</l>
+             
+             
+               <l n="342">           Spem non uanam aperit, placitum iam iam affore tempus</l>
+             
+             
+               <l n="343">           Vindice ab Austriaco, cum prisca potentia Graiûm,</l>
+             
+             
+               <l n="344">           Famaque despecta melior reuirescet ab urnâ:</l>
+             
+             
+               <l n="345">345        Semina uindictae spargi, properare caducae</l>
+             
+             
+               <l n="346">           Detrimenta Asiae: se iam spectare superbas</l>
+             
+             
+               <l n="347">           Germanorum acies tot reddere funera campis,</l>
+             
+             
+               <l n="348">           Quot steterant hostes: disrumpere moenia flammis,</l>
+             
+             
+               <l n="349">           Et superingestâ uaga flumina caede morari.</l>
+             
+             
+               <l n="350">350        Donec <sic>utranque</sic> tuens placide sic Austria coepit:</l>
+             
+             
+
+               <note>318. Plusquam. — 328. morum A. — 331. Fedifragam. — 332.
+vtin A. — 342. Grande -/v - -/vv - fatum iam iam affore sortem A.
+— 348. disrumpe A.</note>
+               <note xml:lang="hrv">1
+     Danas: Lepanto.</note>
+               <note xml:lang="hrv">2
+     Danas: <foreign xml:lang="ita">Golfo di Arta</foreign>.</note>
+               <pb n="17"/>
+               <milestone unit="section"/>
+               <l n="351">                „ Parce o Roma metu, <sic>fraenosque</sic> impone dolori,</l>
+             
+             
+               <l n="352">             „Graecia; uestra adero miles quocunque uocabunt</l>
+             
+             
+               <l n="353">             „Iura, Fides, Pietas, Fauor, <expan>et</expan> uindicta piorum.</l>
+             
+             
+               <l n="354">             „Noui hostis iugulum: iuuenescet pectore longum</l>
+             
+             
+               <l n="355">355          „Longum oblita Getas gladij rubigo Sicambri:</l>
+             
+             
+               <l n="356">             „Scrutaborque auidi ingluuiem Othomanis, ut omnes</l>
+             
+             
+               <l n="357">             „Helluo regnorum reuomat cum sanguine praedas.</l>
+             
+             
+               <l n="358">             „Ni fallunt Superi, iam tempus adesse uidetur,</l>
+             
+             
+               <l n="359">             „Cum fines Arabum, <expan>et</expan> saeuae cunabula gentis</l>
+             
+             
+               <l n="360">360          „Delendamque canunt antiqua oracula Meccham:</l>
+             
+             
+               <l n="361">             „Cum sacras iterum crispantia signa decusses</l>
+             
+             
+               <l n="362">             „Amissas repetent lunis cedentibus oras.</l>
+             
+             
+               <l n="363">             „En gaudet Solyme, nobis en seruat Idume</l>
+             
+             
+               <l n="364">              „Palmarum syluas, Nilus sata, uellera Sidon,</l>
+             
+             
+               <l n="365">365          „Rubra Thetis gemmas, opobalsama uictus Orontes.</l>
+             
+             
+               <l n="366">             „En Byzantinae captiuus Lucifer âulae</l>
+             
+             
+               <l n="367">             „Auget spe radios, <expan>et</expan> cultior ambit ab ortu</l>
+             
+             
+               <l n="368">             „Hesperios Aurora Duces. Hinc credite, quidquid</l>
+             
+             
+               <l n="369">             „Audet, quidquid agit modo Thracia, quidquid anhelat,</l>
+             
+             
+               <l n="370">370           „Atque profanatis molitur perfida pactis;</l>
+             
+             
+               <l n="371">             „Ante necem moribunda furit, facit esse ferocem</l>
+             
+             
+               <l n="372">             „Certa lues, rapidamque mouet breuis impetus iram.</l>
+             
+             
+               <l n="373">              „At tu qui rigido par incola degis in Haemo,</l>
+             
+             
+               <l n="374">              „Nequicquam rabiem, nequicquam, saeue, iugales</l>
+             
+             
+               <l n="375">375           „In noua bella paras: quid spiras alta, tibique</l>
+             
+             
+               <l n="376">             „Ob Danaos gradiue places? Age concute cristas,</l>
+             
+             
+               <l n="377">             „Improbe, <expan>et</expan> emissa super Acrocorinthon, <expan>et</expan> Argos</l>
+             
+             
+               <l n="378">             „Cuspide, coge tuas Pelopeum in uulgus <persName>
+                     <sic>Erynnes</sic>
+                  </persName>:</l>
+             
+             
+               <l n="379">             „Nam cito confractus ingenti mole ruendo</l>
+             
+             
+               <l n="380">380          „Concuties secreta Erebi: nec iam amplius Orbem</l>
+             
+             
+               <l n="381">             „Stragibus, at fines gemitu turbabis Auernos.</l>
+             
+             
+               <l n="382">             „ Sed quoniam quidquid parat Austria spectat Olympum,</l>
+             
+             
+               <l n="383">             „Et seu bella gerat, seu pacem, et foedera signet,</l>
+             
+             
+               <l n="384">             „Nil mortale sapit, ferar ad conuexa Deumque</l>
+             
+             
+               <l n="385">385          „Ex adytis consulta petam". Sic fata parari</l>
+             
+             
+               <l n="386">             Imperat assuetos transcendere nubila currus.</l>
+             
+             
+               <l n="387">             Nec mora: succinctae caelesti e stirpe ministrae,</l>
+             
+             
+
+               <note>366. Bizantine. — 374. seue A. — 377. Acrocorinton. — 385.
+adyditis . . .. :  sic A.</note>
+ 
+               <pb n="18"/>
+               <l n="388">             Quas amor Austriadi uetus addidit Heroinae,</l>
+             
+             
+               <l n="389">            Iustitia in populos, pietas in Numina Diuûm,</l>
+             
+             
+               <l n="390">390         Vltio in obstantem, domitum dementia in hostem,</l>
+             
+             
+               <l n="391">            Quadrijugem Dominae thalamum, uolucresque micanti</l>
+             
+             
+               <l n="392">            Adducunt temone rotas: iuga feruida dorso</l>
+             
+             
+               <l n="393">            Alituum Regina subit diademate cincta,</l>
+             
+             
+               <l n="394">            Flammeaque intextos mordens ad fraena pyropos.</l>
+             
+             
+               <l n="395">395         Nec Dominâ minor axis erat. Latet aspera gemmis</l>
+             
+             
+               <l n="396">            Vndique Erythraei moles sub grandine nimbi,</l>
+             
+             
+               <l n="397">            Et pingit radijs radios: stat mista uoluptas,</l>
+             
+             
+               <l n="398">            Et seruit decori non discors pugna colorum,</l>
+             
+             
+               <l n="399">            Materiem superante manu. Spirantia circum</l>
+             
+             
+               <l n="400">400         Signa uides, ubi Caesarei in <sic>praeludia</sic> Regni</l>
+             
+             
+               <l n="401">            Austriadum genitor demissa fronte Rodulfus</l>
+             
+             
+               <l n="402">            Donat equum Mystae caelestia sacra ferenti:</l>
+             
+             
+               <l n="403">            Ipse pedes sequitur clausum sub fruge Tonantem</l>
+             
+             
+               <l n="404">            Per saxa, <expan>et</expan> pluuiâ corruptas Pleiade calles.</l>
+             
+               <milestone unit="section"/>
+               <l n="405">405            Inde salutatis socijs Regina capacem</l>
+             
+             
+               <l n="406">            Conscendit super axe torum, sceptroque potenti</l>
+             
+             
+               <l n="407">            Excitat <sic>alligeras</sic> ad sydera celsa iugales.</l>
+             
+             
+               <l n="408">            Hae liquidum rutilo scindentes aethera sulco</l>
+             
+             
+               <l n="409">            Obstantes Zephyros pennis post terga repellunt,</l>
+             
+             
+               <l n="410">410         Et nostrum remouent oculis spectantibus orbem.</l>
+             
+             
+               <l n="411">            Quae caelo sic flamma uolat, quae nubila quando</l>
+             
+             
+               <l n="412">            Insiluit gelidâ Boreas bacchatus ab Vrsâ;</l>
+             
+             
+               <l n="413">            Namque etiam celeres pressisse putatur habenas</l>
+             
+             
+               <l n="414">            Phoebus, inaccessi miratus turbine cursus</l>
+             
+             
+               <l n="415">415         Praeuerti Pyroenta suum. Vix liquerat imae<sic>,</sic>
+               </l>
+             
+             
+               <l n="416">            Telluris spatium, Superos iam laeta tenebat</l>
+             
+             
+               <l n="417">            Austria, stellatasque domos, atque atria Diuûm,</l>
+             
+             
+               <l n="418">            Quorum cura uigil, quorum custodia magni</l>
+             
+             
+               <l n="419">419         Excubat imperijs Caroli, sceptrumque tuetur.</l>
+             
+             
+
+                        <closer> FINIS LIBRI PRIMI.</closer>
+               <note>407.   Eccinat A. — 409. Zephiros.</note>
+            </div>
+            <div>
+               <pb/>
+               <head>LIBER SECVNDVS. Auspicia, praesagiaque.</head>
+
+                             <argument>
+                  <head>ARGVMENTVM <ref>1</ref> .</head>
+
+
+                  <p>Septem Diuorum, qui praecipuo patrocinio adsunt Caesari, septena
+ Palatia describuntur in septem stellis, quae Currum septentrionalem
+efficiunt, collocata: eo praesertim consilio, ut Caroli regnis, quae
+septentrionalibus subsunt, irretorto oculo inuigilantes fauores quoque
+suos, ac beneficia non obliquo limite deriuarent. Henricus Primus
+Imperator cum Cunegunda coniuge tuetur Germaniam, Archiducatum
+Austriacum Leopoldus, Vinceslaus Bohemiam, Vngariam Stephanus,
+Emericus, atque Elisabetha; omnes ab Ecclesia in Sanctis annumerati. Eos adit Austria Heroina: iucunde suscipitur: et ex Henrico, ob Caesaream dignitatem caeteris praestantiore, consilium capit
+auspicandae expeditionis in Turcas, auditque futuri belli faustissima
+praesagia. Tum ab eodem simulque a Diuo Leopoldo in aedes ducitur, armisque Heroum Germanicorum, qui Christo olim militauerant, exornatas. Laudat Henricus bellicam uirtutem Germaniae,
+atque exinde dat Austriae ex illo caelesti armamentario dona serenissimo Principi Eugenio deferenda, nempe Ensem suum, quo
+Italiam tutatus est, nec non Caroli Magni Clypeum, quo Romanum
+Pontificem, imperiumque contra barbaros late protexerat, itemque
+Galeam, <expan>et</expan> Loricam Leopoldi, eximij antiquitus inter Austriacos
+Principis, qui expugnata in Oriente Ptolemaidâ, <sic>Foeniciae</sic> urbe,
+Turcas olim multis cladibus profligarat. Itur inde in nobilissimam
+Aedem, ubi Austriacorum Caesarum Animae, in exemplaria Regum
+futurorum inibi sepositae, continebantur. Nihil corporeum ibi: omne
+ornamentum uni cogitationi expositum: <expan>et</expan> dumtaxat Angelici Spiritus, sine figmento corporum, <expan>et</expan> sola spiritali specie praediti, Palatij
+interiora decorabant. Laudatur hic praecipue Leopoldus Caroli Pater:
+iubeturque nine Austria haurire caelestem uigorem, omnesque sibi uirtutes inhabitantium Caesarum, per miram quandam, <sic>imperceptibilemque</sic>
+                     <note>1
+      Hoc argumentum in manuscriptis modo A et C legitur.</note>
+                     <pb n="20"/>
+insinuationem inhalatas in Carolum transfundere. Quae demum in
+terras rediens, dum ex aere super Germaniam delabitur, suppositis
+populis animos inflammat ad bellum, <expan>et</expan> arcano illapsu aspirat mirificam fortitudinem.</p>
+                             </argument>
+               <milestone unit="section"/>
+               <l n="1">               Est locus in Superis, niueae qua fulgure flammae</l>
+             
+             
+               <l n="2">            Astra Lycaonios <ref>1 *</ref> signant septena Triones,</l>
+             
+             
+               <l n="3">            Estque loco meritum: nec totus Signifer<ref>2</ref> ullo</l>
+             
+             
+               <l n="4">            Plus splendore tumet: nec caeli aliunde fauentis</l>
+             
+             
+               <l n="5">   5        Maior in humanos fluit indulgentia tractus.</l>
+             
+             
+               <l n="6">            Si Thetis infremuit, subitis si foeta procellis</l>
+             
+             
+               <l n="7">            Induit umbra fretum: lacerae fuit una carinae</l>
+             
+             
+               <l n="8">            Huc spectare salus: nullo sub cardine tellus</l>
+             
+             
+               <l n="9">            Clarior emicuit, nec pars dedit altera mundi</l>
+             
+             
+               <l n="10">  10        Tot ueteres famae populos, tot nomina <ref>3</ref> Regnis.;</l>
+             
+             
+               <l n="11">            Seditio Superûm <ref>4</ref> quondam obstatura Regenti</l>
+             
+             
+               <l n="12">            Has petijt tenuisse plagas: tandemque putauit,</l>
+             
+             
+               <l n="13">            Si sceptris geminam victricibus adderet Arcton <ref>5</ref> ,</l>
+             
+             
+               <l n="14">            Par solio summi culmen <sic>reperisse</sic> Tonantis.</l>
+             
+             
+               <l n="15">  15        Nunc statio quid maius habet, seque ipsa priorem</l>
+             
+             
+               <l n="16">            Despicit, Elysium <ref>6</ref> facta immortale, Deumque</l>
+             
+             
+               <l n="17">            Regia, quam radijs sol trinus, <expan>et</expan> unus inundat,</l>
+             
+             
+               <l n="18">            Quamque ab inexhaustis sese elargita scatebris</l>
+             
+             
+               <l n="19">            Mergit nectareis uictura opulentia regnis.</l>
+             
+               <milestone unit="section"/>
+               <l n="20">  20           Et licet aspiciens uisus mortalis in altis</l>
+             
+             
+               <l n="21">            Caliget spatijs, nec quid nisi sydera cernat;</l>
+             
+             
+               <l n="22">            Attamen, humanos si fas extollere sensus,</l>
+             
+             
+               <l n="23">            Condita Parrhasij <ref>7</ref> septeno in lumine currus</l>
+             
+             
+               <l n="24">            Consurgunt totidem ueneranda Palatia Diuûm,</l>
+             
+             
+               <l n="25"> 25         Qui <emph>Caroli</emph> aduigilant rebusque, animaeque nec unquam</l>
+             
+             
+               <l n="26">            Obliquant aciem, aut curae statione remissa</l>
+             
+             
+               <l n="27">            Austriadum sceptro concredita regna tuentur:</l>
+             
+             
+               <l n="28">            Partem quisque suam. Tibi maximus, Austrias ora,</l>
+             
+             
+               <l n="29">            Archiducum Leopoldus <ref>8</ref> adest, cui Templa sacrauit</l>
+             
+             
+               <l n="30">  30        Religiosus honos, pietas cui rite uaporat</l>
+             
+             
+               <l n="31">            Centum uotiuas nebulis redolentibus aras.</l>
+             
+             
+               <l n="32">            Sanguineo fulgens ostro proauita gubernas</l>
+             
+             
+               <note>15. Hunc A. — 19. nectarei victura opulentia vsus A . . . , nectarei
+victura opulentia uisus C.</note>
+               <note xml:lang="hrv">* Brojevi bez zagrade u tekstu naznačuju odsele Đorđićeve bileške,
+koje su štampane na kraju.</note>
+               <pb n="21"/>
+               <l n="33">            Regna triumphales tu Venceslae <ref>9</ref> Boemas.</l>
+             
+             
+               <l n="34">            Elisabeth, Emerixque, Crucemque ante ora coruscans</l>
+             
+             
+               <l n="35"> 35         Temperat Vngariam Stephanus <ref>10</ref> : Germania iactat</l>
+             
+             
+               <l n="36">            Henrici <ref>11</ref> studia, <expan>et</expan> castae Cunegundis <ref>12</ref> amorem.</l>
+             
+             
+               <l n="37">            Non secus edomito Septem de montibus Orbi</l>
+             
+             
+               <l n="38">            Roma olim tutamen erat, seu pace Britannos</l>
+             
+             
+               <l n="39">            Iungere, seu socio Babylona abrumpere Partho,</l>
+             
+             
+               <l n="40"> 40         Siue opus infestos arcere a Gadibus <ref>13</ref> Afros,</l>
+             
+             
+               <l n="41">            Et prodesse procul; quantumuis dissita, ubique</l>
+             
+             
+               <l n="42">            Peruigili uirtute aderat, lateque replebat</l>
+             
+             
+               <l n="43">            Littora longinquae praesens sollertia mentis.</l>
+               <milestone unit="section"/>
+             
+               <l n="44">               His ubi successit penetralibus Austria tandem,</l>
+             
+             
+               <l n="45"> 45         Et septemgeminae patuerunt atria lucis;</l>
+             
+             
+               <l n="46">            Illico sydereos Proceres augusta virago,</l>
+             
+             
+               <l n="47">            Perpetuosque suae custodes sortis adorat.</l>
+             
+             
+               <l n="48">            Excipiunt cupidi venientem, <expan>et</expan> perpete plausu</l>
+             
+             
+               <l n="49">            Cognatâ faciles laetantur in hospite Diui:</l>
+             
+             
+               <l n="50"> 50         Atque illam ante alios senior, cui vertice cano</l>
+             
+             
+               <l n="51">            Aurea Caesareae serpit reuerentia lauri,</l>
+             
+             
+               <l n="52">            Occupat Henricus: „Scimus dulcissima, longae</l>
+             
+             
+               <l n="53">            „Quae tibi causa viae: iamdudum nostra laborant</l>
+             
+             
+               <l n="54">           „Sydera pro <emph>Carolo</emph>, totâque excuditur aethrâ</l>
+             
+             
+               <l n="55"> 55         „Laurea, quam reddet bellum fatale merenti,</l>
+             
+               <l n="56">            „Mortalesque supra properanti exire coronas".</l>
+               <milestone unit="section"/>
+               <l n="57">               Cui demissa genas: „Rata sint praesagia", dixit,</l>
+             
+               <l n="58">    „Et precor, o coeptum <emph>Carolo</emph> seruate fauorem:</l>
+             
+             
+               <l n="59">            „Qui meritis alios, sic uincat limite sceptri,</l>
+             
+             
+               <l n="60"> 60        „Quique alios sceptro, sic fama excedat, <expan>et</expan> aeuo.</l>
+             
+             
+               <l n="61">            „At si iusta rogo, clausae tabularia sortis,</l>
+             
+             
+               <l n="62">            „Et belli seriem, casusque aperite futuros,</l>
+             
+             
+               <l n="63">            „Sed dignos <emph>Carolo</emph>, cuius mens dextra, genusque</l>
+             
+             
+               <l n="64">            „Fata sibi nimis alta petit". Cui lauriger Heros,</l>
+             
+             
+               <l n="65"> 65         Postquam fata animo, totumque acciuit Olympum,</l>
+             
+             
+               <l n="66">            Protinus ista refert: seque ipso maior, ab ore</l>
+             
+             
+               <l n="67">            Prodidit attonito Numen, quod mente gerebat.</l>
+               <milestone unit="section"/>
+             
+               <l n="68">               „Arma moue" <sic resp="#DK">[dixit]</sic> „tecum uictoria, tecum</l>
+             
+             
+               <l n="69">           „Militat indocilis uinci uigor: armiger ultro</l>
+             
+             
+               <l n="70"> 70          »Te metus anteuolat: tua laurus ab hoste uideri est.</l>
+             
+             
+               <l n="71">            „Praecipitate fugam Thraces, dissoluite uinclis,</l>
+             
+             
+               <note>43. littera A. . . . solertia. — 60. alias A.</note>
+               <pb n="22"/>
+               <l n="72">             „Dum licet, Auroram, Byzantia linquite sceptra:</l>
+             
+             
+               <l n="73">             „Vna salus uobis timuisse, <expan>et</expan> Teutonis ora,</l>
+             
+             
+               <l n="74">             „Nec uisam uitasse manum. Praenuncia cladis</l>
+             
+             
+               <l n="75"> 75          „Caelum signa <ref>14</ref> dabit, pugnantiaque omine laeuo</l>
+             
+             
+               <l n="76">             „Desuper Ismarias praeludent astra ruinas.</l>
+             
+             
+               <l n="77">             „Armati ad lituos <ref>15</ref> sudabimus, Austria, tecum;</l>
+             
+             
+               <l n="78">             „Hac mercede tamen Regalis, <expan>et</expan> unicus Infans <ref>16</ref>
+               </l>
+             
+             
+               <l n="79">             „Incrementum Aulae sterilis, nisi mascula quantum</l>
+             
+             
+               <l n="80"> 80          „Aequiualet numero magni praestantia Patris,</l>
+             
+             
+               <l n="81">             „Inter Moesiacos medius, Dacosque triumphos</l>
+             
+             
+               <l n="82">             „Occidet in cunis, <expan>et</expan> lactescentia Regni</l>
+             
+             
+               <l n="83">             „Gaudia, spesque breues, <expan>et</expan> uota, atque Orbis amores</l>
+             
+             
+               <l n="84">             „Auferet ad Superos". Hic Austria pectore ab imo</l>
+             
+             
+               <l n="85"> 85          Perculsa ingemuit, sicque interfata loquentem est:</l>
+             
+             
+               <l n="86">             „Caesaris an pietas, pietas genetricis <persName>
+                     <sic>Elysae</sic>
+                  </persName>
+               </l>
+             
+             
+               <l n="87">             „Mansuram meruit genuisse in saecula prolem?</l>
+             
+             
+               <l n="88">             „Successor Gallis maneat? Borbonia laeti</l>
+             
+             
+               <l n="89">             „Fertilitas thalami ditem fortunet Iberum <ref>17</ref> ?</l>
+             
+             
+               <l n="90"> 90          „Austria sit sterilis; sed <expan>et</expan> unicus occidat haeres?</l>
+             
+             
+               <l n="91">             „Sic sum grata Deis? Sed, Numina celsa, uidete,</l>
+             
+             
+               <l n="92">             „Quam bene consul tum terris, si sacra senescat</l>
+             
+             
+               <l n="93">             „Austriadum sine prole Domus". Tum reddidit ille:</l>
+             
+               <milestone unit="section"/>
+               <l n="94">               „Inuidiam fatis ne <sic>subijce</sic>: maxima merces</l>
+             
+             
+               <l n="95"> 95          „Pensabit <sic>lacrymas</sic>: da nobis, Austria, Diuum,</l>
+             
+             
+               <l n="96">             „Terra tua, <expan>et</expan> populi, tua regna Othomanica sunto:</l>
+             
+             
+               <l n="97">             „Hunc emimus mundi pretio. Nec talia crede</l>
+             
+             
+               <l n="98">             „Casurum per damna genus. Sententia sedit</l>
+             
+             
+               <l n="99">             „Legis inocciduae caelata adamante perenni;</l>
+             
+             
+               <l n="100"> 100          „Dum uaga Doris humum, dum Caelum cinget utramque,</l>
+             
+             
+               <l n="101">             „Regnabit <emph>Caroli</emph> non interitura propago,</l>
+             
+             
+               <l n="102">             „Seraque deficiet soboles <persName>Abspurgica</persName> 
+                  <ref>18</ref> tandem</l>
+             
+             
+               <l n="103">             „Cum stellis, atque Orbe suo. Sed pressius audi</l>
+             
+             
+               <l n="104">             „Nunc, age, bellorum speciosa euenta, tuaeque</l>
+             
+             
+               <l n="105">105         „Fortunae perdisce uiam. Reuolubilis anni</l>
+             
+             
+               <l n="106">             „Bis redeunte totâ, duo regna ingentia primo</l>
+             
+             
+               <l n="107">             „Impete corripies. Post uincula Principis <ref>19</ref> urbis,</l>
+             
+             
+               <l n="108">             „Moesia, quam gelido prolatus limes ab Istro</l>
+             
+             
+               <l n="109">             „Ducit in Illyricum, uobis famulata potentem</l>
+             
+             
+
+               <note>72. Dumlicet A . . . Bizantia. — 73. Theutonis. — 95. Divûm A.</note>
+               <pb n="23"/>
+               <l n="110">110        „Muniet Italiam, Picenaque littora spectans</l>
+             
+             
+               <l n="111">           „Oppositam ualido custodiet aggere Romam.</l>
+             
+             
+               <l n="112">           „Euxinum domiti qui tangunt Nerea Daci,</l>
+             
+             
+               <l n="113">           „Bosphoron <ref>20</ref> implacidum, Phryxeaque <ref>21</ref> claustra recludent.</l>
+             
+             
+               <l n="114">           „Et sternent properum Byzanti ad moenia callem.</l>
+             
+             
+               <l n="115">115        „Tu tamen audendo maiora, ignobile cursu</l>
+             
+             
+               <l n="116">           „Despice Taurunum, captamque Themesuaris arcem,</l>
+             
+             
+               <l n="117">           „Et tumidum spolijs Themesim <ref>22</ref> refugoque Tibiscum <ref>1 )</ref>
+               </l>
+             
+             
+               <l n="118">           „Amne reluctantem Danubi sub stagna rubentis</l>
+             
+             
+               <l n="119">           „Ire, <expan>et</expan> caeruleos in sanguine perdere fluctus:</l>
+             
+             
+               <l n="120">120        „Et felix propera, quo te uocat altius omen;</l>
+             
+             
+               <l n="121">           „Namque ubi meta alijs, tibi sunt primordia laudum.</l>
+             
+             
+               <l n="122">           „Pronum iter ulterius, si quod tibi forte resistet,</l>
+             
+             
+               <l n="123">           „Dedignare moras, uolitansque impune uel ipsa</l>
+             
+             
+               <l n="124">           „Fulmina pro trucibus perrumpe obstantia castris:</l>
+             
+             
+               <l n="125">125        „Donec trans Hebrum, trans moenia condita Orestis <ref>23</ref> ,</l>
+             
+             
+               <l n="126">          „Teque Hadriane patrem cognomine fassa secundum,</l>
+             
+             
+               <l n="127">          „Constantiniacae tandem fastigia sedis,</l>
+             
+             
+               <l n="128">          „Eoumque sacro repleas sessore tribunal.</l>
+               <milestone unit="section"/>
+             
+               <l n="129">             „Hinc haud per partes, perque oppida singula pergit</l>
+             
+             
+               <l n="130">130       „Cunctatrice manu, longaque ambage laborum</l>
+             
+             
+               <l n="131">          „Vincere difficilis uirtus: gerit unica ferri</l>
+             
+             
+               <l n="132">          „Maiestas trepidanda uicem: tua gloria uictrix</l>
+             
+             
+               <l n="133">          „Tota per Imperia, <expan>et</expan> populos tibi sponte cadentes</l>
+             
+             
+               <l n="134">          „Protendet festina gradum. Namque alite postquam</l>
+             
+             
+               <l n="135">135       „Incursu <emph>Eugenius</emph> [veluti de cardine summo</l>
+             
+             
+               <l n="136">          „Qui uixdum aspexit, iam possidet omnia, Titan]</l>
+             
+             
+               <l n="137">          „<sic>Foenicum</sic> emicuit per littora, regnaque Idumes</l>
+             
+             
+               <l n="138">          „Debita Principibus <ref>24</ref> proauorum iure Sabaudis,</l>
+             
+             
+               <l n="139">          „Et postquam <emph>Domini</emph> tumulo felicia soluens</l>
+             
+             
+               <l n="140">140       „Dona, <expan>et</expan> belligerum mulcens Iordane calorem</l>
+             
+             
+               <l n="141">          „Maiores animos hausit, superisque secundos;</l>
+             
+             
+               <l n="142">          „Vota hominum anteuolat, caligantesque remotae</l>
+             
+             
+               <l n="143">          „Naturae latebras certo pro limite sceptri</l>
+             
+             
+               <l n="144">          „Scribit Caesarei, terraeque, atque aetheris alti</l>
+             
+             
+
+               <note>111. agere. — 113. Phryxea. — 114. Bizanti. — 123. velipsa A.
+— 124. eostantia A. — 125. menia . . . Oresti A. — 129. per-
+partes A. — 133. etpopulos A. —. 142. caligantque A.</note>
+               <note>1) T i b i s c u s ili T y b i s c u s, danas Tisa.</note>
+               <pb n="24"/>
+               <l n="145">145      „Extremis proprium figit pro finibus ensem.</l>
+               <milestone unit="section"/>
+             
+               <l n="146">           „Nec norunt tantum ista Dei: penetrauit ad Orcum</l>
+             
+             
+               <l n="147">         „Verax praeco timor: medio ex Acheronte petita</l>
+             
+             
+               <l n="148">         „Horrida Othomanis praesagia Medus aruspex,</l>
+             
+             
+               <l n="149">         „Et tristes cecinere Magi: iam fronte Tyranni</l>
+             
+             
+               <l n="150">150      „Concutitur diadema Asiae, perculsaque famâ</l>
+             
+             
+               <l n="151">         „Claustra Borystenidum <ref>25</ref> plus quam torpore niuali,</l>
+             
+             
+               <l n="152">         „Indigenaque Aquilone stupent: iam Memphis <ref>26</ref> ab undâ</l>
+             
+             
+               <l n="153">         „Sperat sanguineâ stagnantem uincere Nilum:</l>
+             
+             
+               <l n="154">         „Iam Libye populanda gemit: praesaga malorum</l>
+             
+             
+               <l n="155">155      „Africa Teutonicum iam iam circumspicit hostem.</l>
+             
+             
+               <l n="156">         „Eueniet; tardum est: imo euenere; Deorum</l>
+             
+             
+               <l n="157">         „Verba etenim ceu facta puta: nunc cingite Diui,</l>
+             
+             
+               <l n="158">         „Cingite nunc <emph>Carolum</emph> serto stellante futurum ;</l>
+             
+             
+               <l n="159">         „Nam cui supra hominem mens est, laxabit opimum</l>
+             
+             
+               <l n="160">160      „Vitra homines sceptrum : Pellaea <ref>27</ref> potentia nomen</l>
+             
+             
+               <l n="161">         „Perdet, <expan>et</expan> emensus decrescet ab Hercule quondam</l>
+             
+             
+               <l n="162">         „Austriadâ superante labor. Nunc congrua tantis</l>
+             
+             
+               <l n="163">         „Arma quidem coeptis, <expan>et</expan> ineluctabile robur</l>
+             
+             
+               <l n="164">         „Susceptura ueni: de nostro augenda uigore est</l>
+             
+             
+               <l n="165">165      „Mens Carolo, <emph>Eugenioque</emph> manus". Sic inquit,<expan>et</expan> omnes</l>
+             
+             
+               <l n="166">         Assensere Dei: subitoque per Arctica laetus</l>
+             
+             
+               <l n="167">         Diditur astra fragor : trepidant meliore sereno</l>
+             
+             
+               <l n="168">         Fulgidus Arctophylax <ref>28</ref> , Heliceque <ref>28</ref> : dat ignea plausum</l>
+             
+             
+               <l n="169">         Nunc Aquila Austriadum, quondam Iouis: exilit ardens</l>
+             
+             
+               <l n="170">170      Pegasus, <expan>et</expan> duplici serpens interfluus Vrsae</l>
+             
+             
+               <l n="171">         Auget Gnossiacae cristas fulgore Coronae,</l>
+             
+             
+               <l n="172">         Ingeminante Polo: „Diuum sobolesque, parensque</l>
+             
+             
+               <l n="173">         „Aeternum uictrix, <expan>et</expan> felix Austria uiuas".</l>
+               <milestone unit="section"/>
+             
+               <l n="174">           Interea reliquis Leopoldus uertice toto</l>
+             
+             
+               <l n="175">175      Celsior, <expan>et</expan> Phoebum quatiens super ora comantem,</l>
+             
+             
+               <l n="176">         Henricusque senex in tecta micantia Regum</l>
+             
+             
+               <l n="177">         Comptibus<ref>29</ref> armisonis, <expan>et</expan> Martis imagine blandâ</l>
+             
+             
+               <l n="178">         Felicem iam sorte sua comitantur Alumnam.</l>
+             
+             
+               <l n="179">         Haec domus Henrici est, placidoque seuera paratu</l>
+             
+             
+               <l n="180">180      Belligerum Regem statio opportuna receptat;</l>
+             
+             
+               <l n="181">         Qui iam fulmineam pietati impendere dextram</l>
+             
+             
+               <l n="182">         Suetus, <expan>et</expan> armatos Caelo donante labores,</l>
+             
+             
+               <note>151. Boristenidum. — 154. Libia JA. — 155. Theutonićum. —
+168. Arctophilax A.</note>
+               <pb n="25"/>
+               <l n="183">           Expulit Ausoniâ Graios <ref>30</ref> , Patremque sacrorum</l>
+             
+             
+               <l n="184">           Restituit Romae. Vastum conclaue coronant</l>
+             
+             
+               <l n="185">185        Tercentum Heroi cultus, <expan>et</expan> cognita famae</l>
+             
+             
+               <l n="186">           Arma Ducum ueterum, quos nunquam effeta triumphis</l>
+             
+             
+               <l n="187">           Saeclorum in specimen mater Germania fudit:</l>
+             
+             
+               <l n="188">           Arma olim Superis longum famulata, suoque</l>
+             
+             
+               <l n="189">           Digna quidem radiare polo, plus quam ignifer arcus</l>
+             
+             
+               <l n="190">190        Centauri Aemonij, stellataque Perseos harpe <ref>31</ref> .</l>
+               <milestone unit="section"/>
+             
+               <l n="191">             Ergo multiplici splendor sinuatus acantho <ref>32</ref> ,</l>
+             
+             
+               <l n="192">           Ludens tortilibus circum spatia alta figuris,</l>
+             
+             
+               <l n="193">           Distinguit pluteos <ref>33</ref> , <expan>et</expan> spirae <ref>33</ref> flexilis arte</l>
+             
+             
+               <l n="194">           Serpit parietibus, peragratque insigne lacunar.</l>
+             
+             
+               <l n="195">195        Hinc uenerabilium telorum ex ordine pendet</l>
+             
+             
+               <l n="196">           Congeries discreta locis: mauortia flammam</l>
+             
+             
+               <l n="197">           Imbellem monimenta uomunt, <expan>et</expan> dulce minatur</l>
+             
+             
+               <l n="198">           Vndique terrifico ridens fulgore uoluptas.</l>
+             
+             
+               <l n="199">           Auro luxuriant postes, aurata columnis</l>
+             
+             
+               <l n="200">200        Auratis delubra sedent, laquearibus aureis</l>
+             
+             
+               <l n="201">           Aurifero pluit imbre iubar; decor omnis ab auro est;</l>
+             
+             
+               <l n="202">           Sed quod pura manus non una incude magistra</l>
+             
+             
+               <l n="203">           Torsit, <expan>et</expan> excoctâ uitiati labe metalli</l>
+             
+             
+               <l n="204">           Catena docuit penitus <sic>reuerescere</sic> flammâ.</l>
+             
+             
+               <l n="205">205        Si flos Peruuiae Pactoli ad lumina venae,</l>
+             
+             
+               <l n="206">           Addaturque Tagus: seu iuncta luce decorem</l>
+             
+             
+               <l n="207">           Augeat Arsacio <ref>34</ref> non uilior Hermus Hydaspi:</l>
+             
+             
+               <l n="208">           Terrigenae hic gazae fax decolorata repente</l>
+             
+             
+               <l n="209">           Exueret pretium, tumidosque extingueret ignes.</l>
+               <milestone unit="section"/>
+             
+               <l n="210">210          Hastam cernere erat Magni gestamen Othonis <ref>35</ref> ,</l>
+             
+             
+               <l n="211">           Frangere qua potuit, Latijsque addicere sacris</l>
+             
+             
+               <l n="212">           Danorum populos, exultantisque perempto</l>
+             
+             
+               <l n="213">           Fratre Boleslai, <expan>et</expan> gentis sine Rege Boemae</l>
+             
+             
+               <l n="214">           Flectere sanguineam sacra ad lustralia frontem.</l>
+             
+               <milestone unit="section"/>
+               <l n="215">215          In clamyde Arnulfi uiuit Tiberinus <ref>36</ref> , <expan>et</expan> altis</l>
+             
+             
+               <l n="216">           Vorticibus truncos glomerat per stagna Rebelles,</l>
+             
+             
+               <l n="217">           Romaque capta dolet: iuxta per fata reorum</l>
+             
+             
+               <l n="218">           In sua regna redux plus quam mortale coruscat</l>
+             
+             
+               <l n="219">           Pontificalis apex: clamantem audire putares;</l>
+             
+             
+
+               <note>190. Emonij, stellatâq. — 202. incunde A. — VV. 207,—235. in
+manuscripto A additi sunt in fine posterioris fasciculi una cum annotatione XXXVIII. — 211. Francere A.</note>
+               <pb n="26"/>
+               <l n="220">220        „Roma time Superos, <expan>et</expan> magni Caesaris iram".</l>
+             
+             
+               <l n="221">           Huic prope uexillum nutans ludentibus auris</l>
+             
+             
+               <l n="222">           Sanguine ab asperso, gemmâque ornante superbit:</l>
+             
+             
+               <l n="223">           Intextae uolitant Aquilae: media area sertum</l>
+             
+             
+               <l n="224">          Fert geminâ cum claue triplex: scripta aurea surgunt;</l>
+             
+             
+               <l n="225">225        „Gregorio deuota aciem ductauit Etruscam</l>
+             
+             
+               <l n="226">           „Teutonidum ueniens de. stirpe Matildis <ref>37</ref> amazon".</l>
+               <milestone unit="section"/>
+             
+               <l n="227">              Parte alia ingentis Friderici <ref>38</ref> balteus amplo</l>
+             
+             
+               <l n="228">          Pensilis a clypeo radiat, flectitque grauando</l>
+             
+             
+               <l n="229">          Mole sua, solidum ferrati umbonis acumen.</l>
+             
+             
+               <l n="230">230       Arte cruentatis per textum decolor undis</l>
+             
+             
+               <l n="231">          Turget Iordanes, <expan>et</expan> spectans saeua suorum</l>
+             
+             
+               <l n="232">          Funera caelato trepidat Soladinus in auro.</l>
+             
+             
+               <l n="233">          O si non rapidae submersus crimine lymphae</l>
+             
+             
+               <l n="234">          Spem mundi tecum tuleras Friderice; recepta</l>
+             
+             
+               <l n="235">235       Pensasses Solymâ laceratae incommoda Romae.</l>
+             
+             
+               <l n="236">          Sed morere: en dextram maiorem Numina poscunt,</l>
+             
+             
+               <l n="237">          Vincere sit <emph>Caroli</emph>, tibi sit uoluisse triumphus.</l>
+             
+               <milestone unit="section"/>
+               <l n="238">             
+                  <emph>Fax</emph> ardebat adhuc, qua iam Segimundus <ref>39</ref> auitâ</l>
+             
+             
+               <l n="239">          Degeneres animas a religione perussit:</l>
+             
+             
+               <l n="240">240       Hinc Lotari <ref>40</ref> contecta sacro uelamine cassis :</l>
+             
+             
+               <l n="241">          Inde rubens Calui <ref>41</ref> transfosso lancea Mauro,</l>
+             
+             
+               <l n="242">          Aucupis <ref>42</ref> , <expan>et</expan> Phalerae cum debellauit equestrem</l>
+             
+             
+               <l n="243">          Pannona, Christiadum iugulis extrema minantem.</l>
+             
+             
+               <l n="244">          Densantur decora alta uirûm, quos germine fausto</l>
+             
+             
+               <l n="245">245       Teutonis arma tulit, longo crescentia ut aeuo</l>
+             
+             
+               <l n="246">          In seros fluerent superanda exempla nepotes.</l>
+             
+               <milestone unit="section"/>
+               <l n="247">             Tum sic Henricus: „Iam prima ab origine nunquam</l>
+             
+             
+               <l n="248">          „(Saepe petita licet) iacuit Germana potestas</l>
+             
+             
+               <l n="249">          „Externo temerata iugo. Romanus inulta</l>
+             
+             
+               <l n="250">250       „Teutonidum Marius <ref>43</ref> deleuerit agmina quondam;</l>
+             
+             
+               <l n="251">          „Non ea gens fuerant, patrio quae feruida ab Albi <ref>44</ref>
+               </l>
+             
+             
+               <l n="252">          „Bellacem potuit terrore auertere Drusum <ref>45</ref>,</l>
+             
+             
+               <l n="253">          „Quaeque sub Arminio <ref>46</ref> pro libertate repugnans</l>
+             
+             
+               <l n="254">          „Romuleâ uitreum mutauit caede Visurgim <ref>47</ref> :</l>
+             
+             
+               <l n="255">255       „Sed uaga colluuies populorum, <expan>et</expan> nomine tantum</l>
+             
+             
+               <l n="256">          „Cognita Teutonico. Marius non pectora gentis</l>
+             
+             
+               <l n="257">          „Inclyta, sed uani domuit cognominis umbram.</l>
+             
+             
+
+               <note>226. Metildis A. — 282. celato. — 241. tranfosso A.</note>
+               <pb n="27"/> 
+               <l n="258">          „Haud semel inde tamen titulos, Germanaque bella</l>
+             
+             
+               <l n="259">          „Induit Ausonijs mauortia Roma triumphis:</l>
+             
+             
+               <l n="260">260       „Quin <expan>et</expan> laurigeras uincti <sic>praeijere</sic> quadrigas</l>
+             
+             
+               <l n="261">          „Cattus <ref>48</ref> , <expan>et</expan> ingentes Tarpeia ad templa Cherusci <ref>48</ref> ;</l>
+             
+             
+               <l n="262">          „Sed quota pars hi gentis erant? Alterna tulerunt</l>
+             
+             
+               <l n="263">          „Damna uicem, partem que aliquam carpente Quirino :</l>
+             
+             
+               <l n="264">          „Raro Germani, victa est Germania nunquam.</l>
+             
+             
+               <l n="265">265       „Ast ubi sacrifica fontem circumtulit undâ</l>
+             
+             
+               <l n="266">          „In Superûm iurata fidem, Romamque repente</l>
+             
+             
+               <l n="267">          „Est uenerata piam, quam spreuerat ante minacem;</l>
+             
+             
+               <l n="268">          „Tunc equidem ante alios defendens caelica iura</l>
+             
+             
+               <l n="269">          „Praestitit: haud ultra regni, famaeque cruentâ</l>
+             
+             
+               <l n="270">270       „Ambitione ferox; sed puluere nigra decoro,</l>
+             
+             
+               <l n="271">          „Pactaque militiae pretium immortale beatae.</l>
+             
+             
+               <l n="272">          „Quare ergo indulgens tantae uirtutis honori,</l>
+             
+             
+               <l n="273">          „Cui similem in terris non repperit, arduus aether</l>
+             
+             
+               <l n="274">          „Emerita arma uirûm sublimibus abdita templis</l>
+             
+             
+               <l n="275">275       „Collucere dedit, non solum laude uetustâ</l>
+             
+             
+               <l n="276">          „Clara, sed utilitas si caelitis exigat aulae,</l>
+             
+             
+               <l n="277">          „Transmittenda etiam, <expan>et</expan> Ducibus donanda futuris.</l>
+             
+             
+               <l n="278">          „Nec nouus hic caelo mos est: scis ipsa quod olim</l>
+             
+             
+               <l n="279">          „Missus ab arce Deûm descendit mucro <ref>49</ref> per auras,</l>
+             
+             
+               <l n="280">280       „Quo pronum Isacias bello submergere leges</l>
+             
+             
+               <l n="281">          „Reppulit Assyrium uindex Machabaeus Orontem <ref>50</ref> .</l>
+             
+             
+               <l n="282">             „Ex istis igitur ferri immortalis aceruis</l>
+             
+             
+               <l n="283">          „Electa, <expan>et</expan> proceres late obtritura Gelonos,</l>
+             
+             
+               <l n="284">          „Arma fer <emph>Eugenio</emph>. Quem trado, adamantinus ensis</l>
+             
+             
+               <l n="285">285       „(Pondera onus) meus <ref>51</ref> est: regali hoc fulmine sontes</l>
+             
+             
+               <l n="286">          „Deieci ab Latio. Clypeo hoc septemplice Romam</l>
+             
+             
+               <l n="287">          „Semianimem Carolus, quem dixit gloria Magnum,</l>
+             
+             
+               <l n="288">          „Sol ubi sistit <ref>52</ref> equos, axemque ubi condit anhelum,</l>
+             
+             
+               <l n="289">          „Contra barbaricos texit uincendo furores.</l>
+             
+             
+               <l n="290">290       „Cristatam flammis galeam, squamisque trilicem</l>
+             
+             
+               <l n="291">          „Loricam adijcio, queis tectus terribilis Dux<ref>53</ref>
+               </l>
+             
+             
+               <l n="292">          „De gente Austriaca late per littus Eoum,</l>
+             
+             
+               <l n="293">          „Atque in perdomita Ptolemaidos arce fremebat.</l>
+             
+             
+               <l n="294">          „Tu quo que tunc totum, nisi quantum balteus obstat,</l>
+             
+             
+               <l n="295">295       „ Sanguine purpureo Turcarum e strage madentem</l>
+             
+             
+               <note>260. preijere A. — 273. reperit A. — 274. addita A. — 281.
+Repulit A. — 291. addijcio A.</note>
+               <pb n="28"/>
+               <l n="296">              „Vidisti gauisa tuum. Venerabile fluxit</l>
+             
+             
+               <l n="297">              „Vnde <expan>et</expan> stemma tibi, generisque insigne superbum,</l>
+             
+             
+               <l n="298">              „Vitta cruentatam praecingens candida uestem.</l>
+             
+               <milestone unit="section"/>
+               <l n="299">                  „Haec cape, <expan>et</expan> officij superaddere pondus amici,</l>
+             
+             
+               <l n="300">300           „Muneraque his dictis delata ornare memento;</l>
+             
+             
+               <l n="301">              „ ,Allobrogum<ref>54</ref> Princeps, regnantum excelsa Propago <ref>55</ref> ,</l>
+             
+             
+               <l n="302">              „ ,Heroum domitrix, <expan>et</expan> nunquam uicta sub hoste;</l>
+             
+             
+               <l n="303">              „ ,Vt grandi auspicio par sis, <emph>Carolo</emph>que paratam</l>
+             
+             
+               <l n="304">              „ ,Promptius expediat tua dextra uicaria sortem,</l>
+             
+             
+               <l n="305">    305           „ ,Suscipe dona Deûm: sic impenetrabilis ultro</l>
+             
+             
+               <l n="306">              „ ,Tela per, <expan>et</expan> flammas, per dura, per aspera uictor</l>
+             
+             
+               <l n="307">              „ ,Perge Asiam, Libyamque doma: cumque unicus extes,</l>
+             
+             
+               <l n="308">              „ ,Et tibi, quae uincas, decora haud aliena supersint,</l>
+             
+             
+               <l n="309">              „ ,Famam uince tuam, maiora adiunge peractis'".</l>
+             
+               <milestone unit="section"/>
+               <l n="310">310              Dixit , <expan>et</expan> arma dedit: tum Caesare Diua relicto</l>
+             
+             
+               <l n="311">             Altius urget iter, patriumque Heroa <ref>56</ref> secuta</l>
+             
+             
+               <l n="312">             Nobiliorem aditum, tectumque augustius intrat.</l>
+             
+               <milestone unit="section"/>
+               <l n="313">                 Non secus atque oculo cernenti effulgere late</l>
+             
+             
+               <l n="314">             Astrorum per inane choros, nexasque uicissim</l>
+             
+             
+               <l n="315">315          Pleiadas, atque Hyadas gressu trepidante rotari;</l>
+             
+             
+               <l n="316">             Si forte e placido consurgat Cynthia ponto,</l>
+             
+             
+               <l n="317">             Languent astra palam, uersosque a luce minori</l>
+             
+             
+               <l n="318">             In se sola rapit maior praesentia uisus :</l>
+             
+             
+               <l n="319">             Ad speciem defixa nouam stetit Austria, <expan>et</expan> aegre</l>
+             
+             
+               <l n="320">320          Delicias ualuit non despexisse priores.</l>
+             
+             
+               <l n="321">             Panditur alta Domus, per quam iactantior aether</l>
+             
+             
+               <l n="322">             Sepositas ostentat opes, ubi lumina uibrant</l>
+             
+             
+               <l n="323">             Indeprensa oculis, atque ad portenta decorum</l>
+             
+             
+               <l n="324">             Prospectus mortalis habet; sât quippe fateri est,</l>
+             
+             
+               <l n="325">325          Quod Regum Austriadum, qui iam cinxere corona</l>
+             
+             
+               <l n="326">             Frontem Caesarea, positorum in sede beatâ</l>
+             
+             
+               <l n="327">             Ingenia, atque animos haec regia seruat ouantes.</l>
+             
+             
+               <l n="328">             Nil hic iuris habet tellus: admissa uagari</l>
+             
+             
+               <l n="329">             Hic mens sola hominum, cognati portio caeli,</l>
+             
+             
+               <l n="330">330          Ingenitâ uirtute potest, <expan>et</expan> corporis expers</l>
+             
+             
+               <l n="331">             Sola acies <sic>penatrat</sic> puram sine corpore lucem.</l>
+             
+             
+               <l n="332">             At quamuis intus ueri, pulcrique, bonique</l>
+             
+             
+               <l n="333">           Spiritus aspiciens quidquid scit cernere cernat:</l>
+             
+             
+
+               <note>307. Lybiamq. . . . estes B. — 317. aluce A.</note>
+               <pb n="29"/> 
+               <l n="334">           Quâmuis forma loci, quamuis dent luminis ipsa</l>
+             
+             
+               <l n="335">335        Effluuia ex adytis robur, uiresque uidendi;</l>
+             
+             
+               <l n="336">           Nemo uidet quantum species ea digna uideri est,</l>
+             
+             
+               <l n="337">           Nemo redit spectando satur: dum blanda cupido</l>
+             
+             
+               <l n="338">           Optandi laxata sinum, laxâta fruendi</l>
+             
+             
+               <l n="339">           Semper in interius uisu luctatur hianti:</l>
+             
+             
+               <l n="340">340        Et semper sitiens, licet ebriâ melle uoluptas</l>
+             
+             
+               <l n="341">           Optatis potitur, nec non quod possidet optat.</l>
+             
+             
+               <l n="342">            Si conferre licet terrena, atque infima summis,</l>
+             
+             
+               <l n="343">           Non secus, Austriadum auspicio dum circuit Orbem,</l>
+             
+             
+               <l n="344">           Totius Oceani uictrix Magelanica <ref>57</ref> pinûs</l>
+             
+             
+               <l n="345">345        Se praeeunte sequâx, <expan>et</expan> uentos ducta per omnes,</l>
+             
+             
+               <l n="346">           Immensas spectabat aquas. Cupide illa uolabat</l>
+             
+             
+               <l n="347">           Semper ad ulterius, quantumque optata tenebat</l>
+             
+             
+               <l n="348">           Plus usque optando, cursu insatiabilis, ardensque</l>
+             
+             
+               <l n="349">           Instantis famae illecebrâ, per uasta patenti</l>
+             
+             
+               <l n="350">350        Aequora gaudebat spatio, molemque refusam</l>
+             
+             
+               <l n="351">           Neptuni ante oculos semper crescentis amabat.</l>
+             
+               <milestone unit="section"/>
+               <l n="352">              Non hic Diues Arabs, non hic uernantia gemmis</l>
+             
+             
+               <l n="353">           Gangaridum <ref>58</ref> spolia, aut luxus septemplicis Indi <ref>59</ref>
+               </l>
+             
+             
+               <l n="354">           Per muros circum, uel per laquearia ductus,</l>
+             
+             
+               <l n="355">355        Miranda terris, sed non caelestibus, auget</l>
+             
+             
+               <l n="356">           Maiestate domum : cui cassâ lampade palles</l>
+             
+             
+               <l n="357">           Vel tu Phoebe minor, quam splendida sydera subtus</l>
+             
+             
+               <l n="358">           Pro uili constrata solo, famulataque tectis</l>
+             
+             
+               <l n="359">           Nec possunt <sic>strepido</sic> uultu spectare, nec audent.</l>
+             
+             
+               <l n="360">360        Non tot, cum gelido uer compede liberat amnes,</l>
+             
+             
+               <l n="361">           Et lactat tenerum succis genitalibus annum,</l>
+             
+             
+               <l n="362">           Per uirides saltus, nemorumque per auia pictae</l>
+             
+             
+               <l n="363">           Exultant uolucres: non tot rediuiua rosarum</l>
+             
+             
+               <l n="364">           Serta legit uiridi ridens Zephyritis <ref>60</ref> in aruo:</l>
+             
+             
+               <l n="365">365        Quot ludunt, circumque meant, uariasque coruscant</l>
+             
+             
+               <l n="366">           Virtutum effigies per dulcia uincula nexi</l>
+             
+             
+               <l n="367">           Caelestes Genij, Mentesque ante ordia mundi</l>
+             
+             
+               <l n="368">           Non genitâ de mente satae, quas dicere par est</l>
+             
+             
+               <l n="369">           Gemmas caelicolûm, floresque beantis Olympi,</l>
+             
+             
+               <l n="370">370        Et summi aligeros de semine Amoris Amores.</l>
+               <milestone unit="section"/>
+             
+               <l n="371">             Mentibus <ref>61</ref> aetherijs uis tota, <expan>et</expan> robur agendi</l>
+             
+             
+
+               <note>371. etheris A.</note>
+               <pb n="30"/> 
+               <l n="372">            Velle suum est; sed uelle sui suprema uoluntas</l>
+             
+             
+               <l n="373">            Est modus, <expan>et</expan> ratio : certo namque ordine in illas</l>
+             
+             
+               <l n="374">            Desuper erumpunt ex Omniparente profecta</l>
+             
+             
+               <l n="375">375         <sic>Indefecturae</sic> praelarga afflamina lucis.</l>
+             
+             
+               <l n="376">            Vt alijs aliae uiuunt infraque, supraque;</l>
+             
+             
+               <l n="377">            Omnibus immenso transmissi a fonte uigores</l>
+             
+             
+               <l n="378">            Per seriem gradiendo fluunt, imisque supremae</l>
+             
+             
+               <l n="379">            Per se transfundunt, ceu per specularia solem,</l>
+             
+             
+               <l n="380">380         Velle, ac posse Dei. Sic illis aucta potestas</l>
+             
+             
+               <l n="381">            Numinis instar habet: cunctis sic uelle necesse est</l>
+             
+             
+               <l n="382">            Optima: sic possunt quidquid uoluere, simulque</l>
+             
+             
+               <l n="383">            Efficiunt, quae posse uolunt, cum Numine semper,</l>
+             
+             
+               <l n="384">            Semper se totis, semperque immensa uolentes.</l>
+             
+             
+               <l n="385">385         Ergo tam miro ditatae munere sortis,</l>
+             
+             
+               <l n="386">            Et nulla adsciti clausae uelaminis umbra,</l>
+             
+             
+               <l n="387">            Integrae, nimiumque suae, felicia corda</l>
+             
+             
+               <l n="388">            Austriadum Indigetum, dulcique ardore calentes</l>
+             
+             
+               <l n="389">            Delicijs animos circum amplectuntur amoenis:</l>
+             
+             
+               <l n="390">390         Atque alternatim per inenarrabile foedus</l>
+             
+             
+               <l n="391">            Illos in sese condunt, conduntur in illis:</l>
+             
+             
+               <l n="392">            Nectit amor similes, in utrosque reciprocat ingens</l>
+             
+             
+               <l n="393">            Vtrorumque decor: quidquid tribuere, resorbent,</l>
+             
+             
+               <l n="394">            Augenturque simul, pariterque ornantur, <expan>et</expan> ornant.</l>
+             
+               <milestone unit="section"/>
+               <l n="395">395            Obruat ora metus, miracula tanta videntum</l>
+             
+             
+               <l n="396">             Nobilitet pro laude stupor, nam tanta uenustas,</l>
+             
+             
+               <l n="397">             Quamuis aeternum facit ut mereatur amari;</l>
+             
+             
+               <l n="398">            Laudari ut possit, quantum laudanda meretur,</l>
+             
+             
+               <l n="399">             Nec facere ipsa potest. Sic dignae imperuia laudi</l>
+             
+             
+               <l n="400">400          Summam laudis habet, famamque exosa minorem</l>
+             
+             
+               <l n="401">             Nostra per innumeras spernit praeconia dotes.</l>
+             
+               <milestone unit="section"/>
+               <l n="402">               Huc ubi deuentum est, perculsam Heroida Ductor</l>
+             
+             
+               <l n="403">             Sic prior alloquitur : „Meritum in penetrale repostam</l>
+             
+             
+               <l n="404">             „Germinis en nostri seriem, cernique negatas</l>
+             
+             
+               <l n="405">405          „Mentes mente uide: perpende immensa tuorum</l>
+             
+             
+               <l n="406">             „Praemia, teque alma mirare in prole parentem.</l>
+             
+             
+               <l n="407">             „Depositum hoc cupide seruat Deus: hincque trahuntur</l>
+             
+             
+               <l n="408">             „Regnantum effigies, cum summum, animoque, manuque</l>
+             
+             
+               <l n="409">             „Fata nouum properant moderantem imponere regnis.</l>
+             
+             
+
+               <note>389. amenis A.</note>
+               <pb n="31"/>
+               <l n="410">410        „Germani Imperij regalia fraena uicissim</l>
+             
+             
+               <l n="411">           „Francones <ref>62</ref> , <expan>et</expan> Boij <ref>62</ref> , spiransque Sueuia <ref>63</ref> Martem</l>
+             
+             
+               <l n="412">           „Ante tuos tenuere Duces: tamen impete ferri,</l>
+             
+             
+               <l n="413">           „Armorumque minis haec nomina tanta per Orbem</l>
+             
+             
+               <l n="414">           „Quid meruere? Nisi magnis bellantibus olim</l>
+             
+             
+               <l n="415">415         „Exemplum fieri. Sed tu eluctata supremum</l>
+             
+             
+               <l n="416">           „Laudum apicem, inque dies tanto te celsior ipsa.</l>
+             
+             
+               <l n="417">           „Quantum alijs semper fueras: bella horrida paci</l>
+             
+             
+               <l n="418">           „Subdens, iure fouens pacem, terrenaque iura</l>
+             
+             
+               <l n="419">           „Caelite lance librans, uera exemplaria Regum</l>
+             
+             
+               <l n="420">420         „Austria sola paris. Hinc tot tibi sceptra sine armis</l>
+             
+             
+               <l n="421">           „Vnus <ref>64</ref> amor, pax una dedit: dumque ardua quaerunt</l>
+             
+             
+               <l n="422">           „Regna alij, a Regnis tu quaereris: obuia porro</l>
+             
+             
+               <l n="423">           „Te fortuna rogat, supplex honor ambit, <expan>et</expan> almâ</l>
+             
+             
+               <l n="424">           „Fronte tuâ ornari diademata prona precantur".</l>
+             
+               <milestone unit="section"/>           
+               <l n="425">425           Regina interea conspectu afflata suorum</l>
+             
+             
+               <l n="426">           Haeserat in medio : nam dum trahit undique matrem</l>
+             
+             
+               <l n="427">           Par soboles, nescit quo primum uergat, <expan>et</expan> aeque</l>
+             
+             
+               <l n="428">           Ancipitis librat dubium conamen amoris.</l>
+             
+             
+               <l n="429">           In medio sic Terra <ref>65</ref> parens stat fixa, nec unquam</l>
+             
+             
+               <l n="430">430        Progreditur, quamuis pulcherrimus aduocet Aether</l>
+             
+             
+               <l n="431">           Circumquaque micans: parili nam dum impete gestit</l>
+             
+             
+               <l n="432">           Tendere ad omne latus, totumque affectat Olympum;</l>
+             
+             
+               <l n="433">           Diuiso ambiguae feruore cupidinis haerens</l>
+             
+             
+               <l n="434">           Amittit totum, totum quia vellet amando.</l>
+             
+             
+               <l n="435">435        Tandem exorsa loqui: „Saluete augusta per aeuum</l>
+             
+             
+               <l n="436">           „Lumina: nosco meos: subitae in praecordia flammae</l>
+             
+             
+               <l n="437">           „Subsiliunt, nec uisa oculis sua pignora cernit</l>
+             
+             
+               <l n="438">           „Matris amor. Quantum o vestri spiraminis haustu</l>
+             
+             
+               <l n="439">           „Impleor! O quantum cognata, sentio ab aurâ</l>
+             
+             
+               <l n="440">440        „Virtutum ingenitos augeri in corde calores!</l>
+             
+             
+               <l n="441">           „Ten' ego percipio sacros, Fernande <ref>66</ref> , medullis</l>
+             
+             
+               <l n="442">           „Inspirantem aestus, <expan>et</expan> flamine corda cientem;</l>
+             
+             
+               <l n="443">           „O summum patriae columen, quo uindice primum</l>
+             
+             
+               <l n="444">           ,,<sic resp="#DK">Didicit</sic> spem Germani gens Beltica sceptri:</l>
+             
+             
+               <l n="445">445        „Cum monstro ceu fixa nouam clademque, nouosque</l>
+             
+             
+               <l n="446">           „Suecorum timuit testis Nordlinga <ref>1 )</ref> timores.</l>
+             
+             
+               <l n="447">           „Tuque, o certa salus, <expan>et</expan> festinata Sabaudis <ref>67</ref>
+               </l>
+             
+             
+               <note>424. precantur.</note>
+               <note xml:lang="hrv">1) Bitka hod Nördlingena   7. rujna   1634.</note>
+               <pb n="32"/> 
+               <l n="448">          „Quam penetras Iosephe animum! Quam pectora lapsu</l>
+             
+             
+               <l n="449">          „Nectareo mea Nate subis! Rapis impete amoris</l>
+             
+             
+               <l n="450">450       „Arcano totam matrem, ceu solus adesses,</l>
+             
+             
+               <l n="451">          „Ferdinandiade Leopolde <ref>68</ref> ; petentibus astris</l>
+             
+             
+               <l n="452">          „[Ne Terra inuideat] sero permisse, simulque</l>
+             
+             
+               <l n="453">          „Post fata in Natis Caesar renouate duobus.</l>
+             
+             
+               <l n="454">          „Quantus eras! Nunc quantus ades! Te duplice dono</l>
+             
+             
+               <l n="455">455       „Ornauit meritum: primum sub Sole corusco,</l>
+             
+             
+               <l n="456">          „Et tandem in superis retulit sua praemia uirtus.</l>
+             
+             
+               <l n="457">          „At post Vngariam deuictam, aequataque palmis</l>
+             
+             
+               <l n="458">          „Proelia, <expan>et</expan> indomitae munimina subdita Budae <ref>1)</ref>:</l>
+             
+             
+               <l n="459">          „Post captam haud longi fausto tentamine belli</l>
+             
+             
+               <l n="460">460       „Strigoniam <ref>2)</ref>, <expan>et</expan> celebrem tumulis regalibus Albam <ref>3)</ref>,</l>
+             
+             
+               <l n="461">           „Naeseliumque<ref>4)</ref>, Agriamque <ref>5)</ref>, <expan>et</expan> longi pontis adactis</l>
+             
+             
+               <l n="462">           „Molibus Exechiam <ref>6)</ref> stagna interfusa tegentem:</l>
+             
+             
+               <l n="463">           „Tunc equidem factis meruisti ingentibus ingens,</l>
+             
+             
+               <l n="464">           „Sed mortale decus; hominum te fama secuta est,</l>
+             
+             
+               <l n="465">465       „Et terrena tuum decorauit adorea <ref>69</ref> nomen.</l>
+             
+             
+               <l n="466">           „Verum ubi ad Ogstendium <ref>7)</ref> fatale, atque aspera saltus</l>
+             
+             
+               <l n="467">           „Ercynij <ref>70</ref> , notamque nigro cognomine syluam,</l>
+             
+             
+               <l n="468">           „Fregisti Austriaco Rhemumque <ref>71</ref> , <expan>et</expan> Lingona <ref>72</ref> ferro,</l>
+             
+             
+               <l n="469">          „Et Regem eximium, qualem uix uiderat ante</l>
+             
+             
+               <l n="470">470        „Gallia, pugnaces docuisti ponere fastus.</l>
+             
+             
+               <l n="471">           „Tunc tibi non ausa est mortalis laurea frontem</l>
+             
+             
+               <l n="472">           „Cingere, <expan>et</expan> euectas grandi praeeunte trophaeo</l>
+             
+             
+               <l n="473">           „Suscepere tuas caelestia templa curules.</l>
+             
+             
+               <l n="474">           „Tam cito liquisti. terras post tale superbi</l>
+             
+             
+               <l n="475">475        „Martis opus, dubiumque fuit num feceris illud,</l>
+             
+             
+               <l n="476">           „Cum iam numen eras. Tantae per saecula laudis,</l>
+             
+             
+               <l n="477">           „Tantae molis erat memorandum fortibus ausis</l>
+             
+             
+               <l n="478">           „Burgundis, Batauis, toti Europaeque timendum</l>
+             
+             
+
+               <note>454. Hunc A. — 467. Ercinij A. — 470. Gadia A.</note>
+               <note xml:lang="hrv">1) Budim je oslobođen od Turaka 2. rujna 1686.</note>
+               <note xml:lang="hrv">2) Bitka kod Ostrogona 16. kolovoza 1685.</note>
+               <note xml:lang="hrv">3) Stolni Biograd.</note>
+               <note xml:lang="hrv">4) Neuhäusel (?), otet Turcima 19. kolovoza 1685.</note>
+               <note xml:lang="hrv">5) Jegar (Erlau), osvojen 12. kolovoza 1687.</note>
+               <note xml:lang="hrv">6) Osijek. Dugi most osječki bio je u ono vrijeme na glasu, a
+otet je Turcima u rujnu 1686.</note>
+               <note xml:lang="hrv">7) Hochstädt, bitka 13. kolovoza 1704.</note>
+               <pb n="33"/>
+               <l n="479">             „Vincere Borbonidem, atque uno turbine fusos</l>
+             
+             
+               <l n="480">480           „Tam propere innumeris Gallos spoliasse triumphis.</l>
+             
+             
+               <l n="481">              „Dic, rogo, Diue comes; maiorem Heroa tulisse,</l>
+             
+             
+               <l n="482">              „Aut latura unquam putor Austria?" Subdidit ille:</l>
+               <milestone unit="section"/>            
+             
+               <l n="483">                 „Quae nunc Caesareo felix in culmine regnat</l>
+             
+             
+               <l n="484">              „Sola patrem soboles Leopoldum uincet: ab illo</l>
+             
+             
+               <l n="485">485          „Virtute, <expan>et</expan> meritis, me iudice, uincimur omnes.</l>
+             
+             
+               <l n="486">             „Vera loquor : neque enim seu ueri nescius error,</l>
+             
+             
+               <l n="487">             „Seu fallens corrumpit amor praeconia Diuum.</l>
+             
+             
+               <l n="488">             „Quin has ipsa etiam uitasque, animasque caducae</l>
+             
+             
+               <l n="489">             „Materiae uacuas, <expan>et</expan> apertâ in luce patentes</l>
+             
+             
+               <l n="490">490          „Perspice; namque omni Leopoldum in Caesare cernes</l>
+             
+             
+               <l n="491">             „Partitum exemplo, uirtutumque aurea dona</l>
+             
+             
+               <l n="492">             „Diuisa in reliquis, in se collecta tenentem.</l>
+             
+             
+               <l n="493">             „Illic arcanae pietatis, amoribus unde</l>
+             
+             
+               <l n="494">             „Afflari tua corda uides; diuina Rodulfum</l>
+             
+             
+               <l n="495">495          „Sors habet: ast alibi donanda ad munera uelox</l>
+             
+             
+               <l n="496">             „Maxmiliane nites: sedes capit ilia sagacem</l>
+             
+             
+               <l n="497">             „Albertum : unde uapor nimis igneus exit, <expan>et</expan> ima</l>
+             
+             
+               <l n="498">             „Viscera spectantum bellacibus incitat auris;</l>
+             
+             
+               <l n="499">             „Stat <emph>Carolus</emph> terror Libyae, <expan>et</expan> Carthagine <ref>73</ref> uictâ</l>
+             
+             
+               <l n="500">500          „Haeres Scipiadum. Sed cur, quem Roma ueretur,</l>
+             
+             
+               <l n="501">             „Comparo Romulidis? Vnum Roma inclyta quondam,</l>
+             
+             
+               <l n="502">             „At geminos rexit <emph>Caroli</emph> uigilantia mundos.</l>
+             
+             
+               <l n="503">             „Singula quid referam? Quosdam constantia tollit,</l>
+             
+             
+               <l n="504">             „Quosdam iuris amor: clementior eminet alter,</l>
+             
+             
+               <l n="505">505          „Alter prouidior; Leopoldus at omnia: <expan>et</expan> ingens</l>
+             
+             
+               <l n="506">             „Crescit adhuc cumulus; <emph>Carolum</emph> quippe edidit Orbi,</l>
+             
+             
+               <l n="507">             „Qui tantum poterit titulis superare parentem.</l>
+             
+             
+               <l n="508">             „Nunc age laxa animos, <expan>et</expan> amantibus imbibe fibris</l>
+             
+             
+               <l n="509">             „(Nam sic fata iubent) spirantia Numine multo</l>
+             
+             
+               <l n="510">510          „Ingenia egregiae Prolis: te simplice Diuûm</l>
+             
+             
+               <l n="511">             „Indole fecunda, Caelumque medullitus hauri;</l>
+             
+             
+               <l n="512">             „Qualiter igniferos aduerso obnoxia Fratri</l>
+             
+             
+               <l n="513">             „Luna bibit radios, Phoeboue simillima nubes,</l>
+             
+             
+               <l n="514">             „Cum micat ambiguum terris sparsura nitorem.</l>
+             
+             
+               <l n="515">515          „Nec mora : sic haustos caelesti ab origine sensus</l>
+             
+             
+               <l n="516">             „Transfunde in <emph>Carolum</emph>; non ut uirtutis egentem,</l>
+             
+             
+
+               <note>499. Lybię... Cartagine.</note>
+               <pb n="34"/>
+               <l n="517">             „Nam sat habet: tantum natiuis dotibus addat</l>
+             
+             
+               <l n="518">             „Praesidium: crescant uires, ubi magna supersunt</l>
+             
+             
+               <l n="519">             „Patranda, <expan>et</expan> factis ultra mortalia eundum est.</l>
+             
+             
+               <l n="520">520           „Sic quos Augustos genuisti, amplissima matrum,</l>
+             
+             
+               <l n="521">             „In <emph>Carolum</emph> reuoca, te totam posside in illo ;</l>
+             
+             
+               <l n="522">              „Fertilia ut laudum tot saecla domestica, <expan>et</expan> omnes</l>
+             
+             
+               <l n="523">              „Mireris proauos uernare in mente nepotis.</l>
+             
+             
+               <l n="524">             „Haec ubi perficies, iam nihil uulgare mouenti</l>
+             
+             
+               <l n="525">525           „Exprome Henrici praesagia, nomine nostro</l>
+             
+             
+               <l n="526">              „Adde haec dicta super: ,Pronepos inuicte, futuri</l>
+             
+             
+               <l n="527">              „,Sperne hostis numerum : uirtus, non copia uincit.</l>
+             
+             
+               <l n="528">             „,Tartara consurgent: tibi monstra frementia Auerni</l>
+             
+             
+               <l n="529">             ,„Impinget patefacta palus, <expan>et</expan> Dite recluso</l>
+             
+             
+               <l n="530">530           „,Barbara Othomani current ad classica manes <ref>74</ref> .</l>
+             
+             
+               <l n="531">              ,„Sed nil Acmetis rabiem, nil robora Thracum,</l>
+             
+               <l n="532">             „,Nil Stygis insidias; tantum, quam cerno parari,</l>
+             
+               <l n="533">             „,Cognatam inuidiam, secretaque pacta minantis</l>
+             
+               <l n="534">             „,Hesperiae<ref>75</ref>, Germane, caue; promissa Deorum</l>
+             
+               <l n="535">535          „,Intemerata tamen, sortisque immota manebit</l>
+             
+             
+               <l n="536">             „,Calcato liuore fides: differre parumper</l>
+             
+             
+               <l n="537">             „,Vis humana potest, sed non infringere fata</l>
+             
+             
+               <l n="538">              „,Firmatura suum stabili sub lege tenorem'".</l>
+             
+               <milestone unit="section"/>
+               <l n="539">                Haec ubi dicta, Deam mandata ad munia cursum</l>
+             
+             
+               <l n="540">540          Maturare monet. Vix ilia excedit ab aula,</l>
+             
+             
+               <l n="541">             Vixque ualet placitis sensum dissoluere nodis,</l>
+             
+             
+               <l n="542">             Quos nectit dulcedo tenax, solatia secum</l>
+             
+             
+               <l n="543">             Fert tamen: <expan>et</expan> digressa, licet iam longius absit,</l>
+             
+             
+               <l n="544">             Quod cupit, intus habet; fruitur sub pectore pleno</l>
+             
+             
+               <l n="545">545          Seque, simulque suis, <expan>et</expan> quae per nubila quassat,</l>
+             
+             
+               <l n="546">             Turcarum excidium resonantibus intonat armis.</l>
+             
+             
+               <l n="547">             Nec minus aligero quacumque per aera uastum</l>
+             
+             
+               <l n="548">             Impete Teutonicos supereuolat ardua fines;</l>
+             
+             
+               <l n="549">             Vndique aperta sinus, ueluti de nube silenti,</l>
+             
+             
+               <l n="550">550          Occultos animos, atque indeprensa pluendo</l>
+             
+             
+               <l n="551">             Robora, terribiles geminabat Teutonas hosti,</l>
+             
+             
+               <l n="552">             In Martis similem iussos grandescere uultum.</l>
+             
+             
+               <l n="553">             Iam plus posse manum, iam surgere celsius artus</l>
+             
+             
+               <l n="554">             Sponte uident, clypeos nigra rubigine tergi,</l>
+             
+             
+
+               <note>519. etfactis A. — 529. dite A.   532. stigis.</note>
+               <pb n="35"/>
+               <l n="555">555    Loricas auro flammescere, murice cristas,</l>
+             
+             
+               <l n="556">       Fulgentemque magis mirantur in ensibus iram,</l>
+             
+             
+               <l n="557">       Et conficta nitro praestare tonitrua ueris.</l>
+             
+             
+               <l n="558">       Sic matutinae roseo Pallantidos ore</l>
+             
+             
+               <l n="559">       Ros sudat tacitum, camposque humore maritat:</l>
+             
+             
+               <l n="560">560    Arcanas potant uires noua germina, <expan>et</expan> imbrem</l>
+             
+             
+               <l n="561">       Cernere mirantur, quem non sensere, Napaeae.</l>
+               <milestone unit="section"/>
+             
+               <l n="562">         Haud stetit interea generosa Herois, idemque</l>
+             
+             
+               <l n="563">       Perfecisse uiam fuit, <expan>et</expan> mandata Deorum.</l>
+             
+             
+                  <closer>FINIS LIBRI SECVNDI.</closer>
+               <pb/>   
+               <note>1
+       Septentriones stellae Lycaonis dicuntur a fabulosa Callisto Lycaonis
+Arcadiae Regis filia, quae et Vrsa maior Astronomis.</note>
+               <note>2
+       Nimirum Caelum stellatum, quia Stellas fixas, signaque, seu Constellationes sustinet, Signifer nuncupatur. Nunc uulgo Firmamentum.</note>
+               <note>3
+       A Longobardis Gothis, dictis Vandalis, Angliae, Scotiae, Gralliae,
+Hispaniarum, Italiae et c. regna originem deduxerunt.</note>
+               <note>4
+       Nimirum Angelorum sub Duce Lucifero.</note>
+               <note>5
+       Duplex est ad Currum septentrionalem Vrsa, siue Arctos, nempe
+maior, <expan>et</expan> minor.</note>
+               <note>6
+       Paradisus.</note>
+               <note>7
+       Parrhasia nomen Arcadiae provinciae uetus est: ex qua orta Callisto, seu maior Vrsa, Currui septentrionali id epitheton dedit.</note>
+               <note>8
+       XVII. <abbr>Kal. Decembr.</abbr> siue decima quinta <abbr>Nouembr.</abbr> die <abbr>S.</abbr> Leopoldo
+Austriaco festum Ecclesia celebrat.</note>
+               <note>9
+       Dies XXVIII. Septembr. sacer est Winceslao Bohemiae Regi, quem
+Boleslaus frater impius Mârtyrem fecit.</note>
+               <note>10
+        Sanctus Stephanus Vngarorum Rex, <expan>et</expan> Apostolus, cui primo ob
+eximia pietatis promerita a Pontifice datum est, ut auream Crucem
+ante se ferret. Festus ei dies uigesimus Augusti colitur. <abbr>SS.</abbr> eius quoque filij Emericus, <expan>et</expan> Elisabetha, sollemni ritu a Christianorum coetibus
+celebrantur, alter quarto <abbr>Nouembr.</abbr> die, altera decimo nono.</note>
+               <note>11
+        Sanctus Henricus Primus huius nominis Imperator sacram habet
+diem decimam quartam Iulij.</note>
+               <note>12
+        Itemque eius Coniux, <expan>et</expan> Virgo Beatissima Cunegundis, tertia
+Martij die annuis sollemnijs decoratur.</note>
+               <note>13
+        Gades, nunc Gribiltera, oppidum ad columnas Herculis contra
+Africam.</note>
+               <note> 14
+        Varia portenta, quae id bellum diuinitus praecesserunt, recensentur in 3° libro.</note>
+               <note>15
+       Litui, seu tubae retortae tum in bellis olim, tum in sacrifices
+adhibebantur.</note>
+               <note>16
+       Vigesima circiter die post captum Themesuarium id est quarta
+<abbr>Nouembr.</abbr> 1716. moritur in cunis Leopoldus Austriae Archidux, Caroli
+VI., <expan>et</expan> Elisabethae illius.</note>
+               <pb n="37"/>
+               <note>17
+         Iberus Hispaniae flamen; nunc Ebro.</note>
+               <note>18
+         Primo Comites Abspurcici dicti erant, qui exinde Marchiones, ac
+ demum Archiduces Austriae.</note>
+               <note>19
+         Scilicet Belgradi.</note>
+               <note>20
+         Bosphorus Thracius, nunc <foreign xml:lang="ita">lo stretto di Costatinopoli</foreign>.</note>
+               <note>21
+         Hellespontus, siue <foreign xml:lang="ita">lo stretto de Dardanelli</foreign>, dicitur Phryxeus, quod
+ fabulae memorent, Helle, Phryxi Thebani sororem, inibi submersam
+ mari nomen dedisse.</note>
+               <note>22
+         Themes fluuius, qui Themesuarium alluit.</note>
+               <note>23
+         Hadrianopoleos primus conditor Orestes Argiuus fuit, secundus
+ Hadrianus Caesar.</note>
+               <note>24
+         Ludouicus Sabaudiae Dux Charlottam Lusignanam Cyprij Regis
+ filiam unicam in matrimonium suscepit. Hinc in Sabaudiam familiam
+ iura ad Cypri Regnum, <expan>et</expan> ad Hierosolymitanum, quod iuribus Cyprijs
+annectebatur, defluxerunt.</note>
+               <note>25
+         Tartari sic dicuntur a maximo suorum amnium Borystene, qui
+ faucibus suis hinc Praecopitas Tartaros disterminat, illinc eos quos de
+Buziak, <expan>et</expan> de Ozakouo aiunt.</note>
+               <note>26
+         Nunc Cairo.</note>
+               <note>27
+         Nempe Alexandri Magni, cui Pella urbs Macedoniae Regia sedes
+fuerat, <expan>et</expan> Regni caput.</note>
+               <note>28
+         In Arctico polo hasce constellationes numerant Astronomi circa
+Currum septentrionalem: Arctophylax, <expan>et</expan> Helice, Vrsa minor, <expan>et</expan> maior
+est.</note>
+               <note>29
+         Comptus, siue ornamentum.</note>
+               <note>30
+         Graeci schismatici, ac Saracaeni barbari per Apuliam bacchantes
+ab Henrico fortiter eijciuntur, <expan>et</expan> Benedictus VIII. Pontifex Roma pulsus,
+in sedem restituitur.</note>
+               <note>31
+         Harpe incuruus gladius, quo a Pallade dato, Perseus Medusam
+obtruncauit. Sic fabulae.</note>
+               <note>32
+         Flexuosis, ac crispis folijs planta. Vnde eius nomine frondentia
+ ornamenta in sculpturis significantur. <foreign xml:lang="ita">Fogliami, o Arabeschi</foreign>.</note>
+               <note>33
+         Pluteus, <foreign xml:lang="ita">scanzia, o ripostiglio</foreign>. Spira tortuosa in modum serpentis
+inflexio.</note>
+               <note>34
+         Arsacius, Persicus, ab Arsace uetusto, ac celebri rege Persarum.</note>
+               <note>35
+         Otho Magnus, <expan>et</expan> huius appellationis primus Imperator, armis
+adegit Daniam, seu Danimarcam, ut Christianam fidem susciperet.
+Itemque Boleslaum Bohemiae Regem, qui <abbr>S.</abbr> Venceslaum fratrem impie
+necarat, subiugauit, Romana Religione per totam Bohemiam inducta,
+ac diuulgatâ.</note>
+               <pb n="38"/> 
+               <note>36
+        Formosus Papa a contraria factione e fastigio deiectus, Caesaris
+Arnulphi opem implorauit. Qui Roma captâ, ac seditiosis ultimo supplicio affectis, reddit Vrbem Pontifici.</note>
+               <note>37
+         Gregorium VII. Pontificem contra hostes acerrime iuuit, tum armis,
+tum opibus, Comitissa Etruriae Matildis, uirilium animorum femina, <expan>et</expan>
+consanguinea Henrici <num value="3">III</num>. Germanorum Imperatoris.</note>
+               <note>38
+        Fridericus Enobarbus, uulgo Barbarossa, post plurima illata damna
+Romanis, ac Pontifici Alexandro <num value="3">III</num>. tandem poenitentiâ ductus, eidemque
+ conciliatus, Palaestinam expeditionem suscepit: ubi postquam Soladinum
+Hierosolymae Tyrannum magnis cladibus affecisset, in fluuio quodam
+ Syriae, dum corpus abluit, miserrime submersus est, uir imprimis bello
+acer, ac inter Duces clarissimus.</note>
+               <note>39
+         Sigismundus (siue ut Tacitus uocat Segimundus) Imperator, Haereticorum flagellum, <abbr>Io.</abbr> Hus, <expan>et</expan> 
+                  <abbr>Io.</abbr> Rochesanam Nouatores in concilio
+ Constantiensi combussit.</note>
+               <note>40
+         Lotarius Ludouici Pij filius, post exhausta plurima bella, Caelo
+ arma resignauit, <expan>et</expan> Monachus effectus est.</note>
+               <note>41
+         Gratificaturus Pontifici <abbr>Io.</abbr> VIII. Carolus Caluus Imperator, in
+Italiam cum exercitu uenit, <expan>et</expan> e Neapolitano Regno dominantes Saracenos propulsauit.</note>
+               <note>42
+         Henricus Auceps Caesar, maxima clade reppulit Vngaros Ethnicos
+in Germanorum exitium irruentes.</note>
+               <note>43
+        <abbr>C.</abbr> Marius in Narbonensi Galliâ olim maximum numerum Cimbrorum, ac Teutonum profligarat.</note>
+               <note>44
+        Saxoniae fluuius. Nunc Lab.</note>
+               <note>45
+        Drusum Octauiani Augusti priuignum, <expan>et</expan> Germanici Caesaris patrem
+a ripâ Albis fluuij quidam, ut aiunt, panicus terror auertit in fugam.</note>
+               <note>46
+        Arminius Germanorum Dux, occiso Quintilio Varo Octauiani
+ Praetore, deletisque per Germaniam Romanis, diu contra Romam certauit.</note>
+               <note>47
+        Visurgis celebre flumen Germaniae, prope Bremam oppidum fluens.
+Nunc Vuger.</note>
+               <note>48
+        Catti, <expan>et</expan> Cherusci uetusta uocabula populorum Germaniae, quos
+triumpharunt Romani, ut patet ex Fastis triumphalibus, sed utique non
+peruicerunt.</note>
+               <note>49
+        Iudae Machabaeo pro patrijs legibus Contra Antiochum Syriae
+Regem pugnanti missus est aureus e Caelo gladius, ut <bibl>2°. Machab.
+<abbr>cap</abbr>. XV</bibl>.</note>
+               <note>50
+        Orontes Syriae fluuius.</note>
+               <note>51
+        Sanctus Henricus usus est in bellis sacro gladio <abbr>D.</abbr> Adriani militis,
+<expan>et</expan> martyris, <bibl>ut narrat Cuspinianus</bibl>.</note>
+               <pb n="39"/>
+
+               <note>52
+           In Septentrionalibus plagis, <expan>et</expan> Australibus. Nam in Tropicis Cancri,
+  <expan>et</expan> Capricorni fiunt solstitia, <expan>et</expan> sol non ultra progreditur, sed quasi
+  sistit iter suum, cursumque retroagit.</note>
+               <note>53
+           Ad <abbr>ann. Christ.</abbr> 1189. Leopoldus Austriae, <expan>et</expan> Styriae Dux, cognomento <sic>uirtuosus</sic>, transmittens in Hierosolymitanam expeditionem, post contusos multis caedibus Turcas, ipse primus Ptolemaidis praecipuae  Phoenicum urbis muros conscendit, tanto hostium caesorum cruore perfusus, ut totam clamydem, quae alba erat, loricamque rubras ostentauerit, praeterquam in eâ parte, quae balteo, seu militari cingulo operiebatur. Hinc suum stemma Austriaci deduxerunt, nimirum candidam
+ fasciam in campo purpureo.</note>
+               <note>54
+           Allobroges populi olim totam Sabaudiam, <expan>et</expan> partem Delphinatus
+ comprehendebant.</note>
+               <note>55
+           Serenissimus Eugenius e Regalibus familiis Austriaca, <expan>et</expan> Borboniâ
+ per feminas stirpem trahit.</note>
+               <note>56
+           Videlicet Sanctum Leopoldum Austriacum.</note>
+               <note>57
+           Ferdinandus Magellanus cum sua Naui, quam Victoriam exinde
+ appellarunt, narratur totum terrarum Orbem circumnauigasse, iubente
+ Carolo V. Austriaco.</note>
+               <note>58
+           Gangaridae populi in extremâ Asia, Gangem fluuium accolentes.</note>
+               <note>59
+           Indus fluuius, unde Indiae Asiaticae nomen, septeno ore in Oceanum
+ Eoum emittitur.</note>
+               <note>60
+           Chloris, seu Flora, florum Dea.</note>
+               <note>61
+          <abbr>V.</abbr> 
+                  <bibl>S. Dion. de Cael. Hierarch.</bibl> 
+                  <bibl>S. Thom, p. pr.</bibl>, <expan>et</expan> maxime <bibl>
+                     <abbr>S.
+ August.</abbr>, de Genesi ad <abbr>lit.</abbr>
+                  </bibl>
+               </note>
+               <note>62
+          Carolingi, siue stirps Caroli Magni, orti e Franconia Germaniae
+ Prouinciâ. Boiarij, seu Bauari, nempe Ducum Bauariae progenies.</note>
+               <note>63
+          Ducum Sueuiae familia, qua in Conradino a Rege Carolo Andegauensi Neapoli decollate expirante, Imperium susceperunt Austriaci.</note>
+               <note>64
+          Vulgatum est Distichon: <quote>
+                     <l>Bella gerant alij; tu felix Austria nube :</l>
+                     <l>Nam quae Mars alijs dat tibi regna Venus.</l>
+                  </quote> Sic ultro occurrentem
+ Burgundiam, sic Hispaniam sibi Austriaca domus adiunxit.</note>
+               <note>65
+          Ratio Philosophica, cur in medio aere aura stet; scilicet, quia
+ quoquouersus aequaliter <sic>grauitat</sic>, siue, ut Latine dicam, propendet.</note>
+               <note>66
+          Ferdinandus <num value="3">III</num>. Caroli nunc imperantis auus Suecos post obitum
+Gustaui Adolfi Regis, adhuc per Germaniam superbientes magno proelio
+primus fudit apud Nordlingam.</note>
+               <note>67
+          Iosephus frater Caroli occupatam totam propemodum a Gallis
+Sabaudiam breui tempore ductu Principis Eugenij liberauit.</note>
+               <note>68
+          Leopoldus Ferdinandi <num value="3">III</num>. filius, <expan>et</expan> Caroli regnantis Pater.</note>
+               <pb n="40"/>
+
+               <note>69
+      Militaris gloria.</note>
+               <note>70
+      Sylua nigra, ad quam fusi maxima clade sunt Galli, pars antiquae
+syluae Hercyniae esse perhibetur.</note>
+               <note>71
+      Rhemi populi. Nunc <foreign xml:lang="ita">il Contorno di Rems</foreign>, in Galliâ.</note>
+               <note>72
+      Lingones populi. Nunc <foreign xml:lang="ita">il Contorno di Langres</foreign>, in Galliâ.</note>
+               <note>73
+      Tunetum in Africa, nunc Tunes, cepit Carolus Quintus: urbem
+non longe a situ, ubi olim Carthago steterat, aedificatam.</note>
+               <note>74
+      In quarto libro Sultanorum subsidium aduentantes, finguntur.</note>
+               <note>75
+      Hispanorum motus contra Caesarem, Othomanico bello implicitum,
+innuuntur.</note>
+
+
+
+                                <closer>FINIS.</closer>
+               <pb/>
+
+            </div>
+         </div>
+      </body>   
+   </text>
+</TEI>

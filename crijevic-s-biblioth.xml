@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="crijevics-biblioth">
+         <titleStmt>
+            <title>Bibliotheca Ragusina, loci selecti, versio electronica</title>
+            <author key="crije03">
+               <persName xml:lang="hr">Crijević, Serafin Marija</persName>
+               <date>1686-1759</date>
+            </author>
+            <editor>Stjepan Krasić</editor>
+            <respStmt>
+               <resp>Hanc versionem electronicam curavit</resp>
+               <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+        
+         </titleStmt>
+         <editionStmt>
+            <edition>
+          Digitalizat prema izboru iz modernog znanstvenog izdanja (1975-80).
+        </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum 6633</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Profil hrvatskog latinizma, znanstveni
+          projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+          Hrvatska.  <date>Prosinca 2011</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>
+          Cerva, Seraphinus Maria ; Krasić, Stjepan: Bibliotheca Ragusina in qua Ragusini scriptores eorumque gesta et scripta recensentur. Zagrabiae : JAZU, 1975--77 (Hrvatski latinisti, knj. 8). - 3 sv. 
+        </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date from="1740" to="1742" period="17xx_2_third">1740-1742</date>
+            <placeName>Dubrovnik</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1701-1750</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - historia litteraria</term>
+               <term>prosa oratio - lexicon</term>
+               <term>prosa oratio - prosopographia</term>
+               <term>prosa oratio - commentarius</term>
+            </keywords>
+        
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2012-08-31</date>
+        Prva verzija za CroALa.
+        Latinski spellcheck.
+      </change>
+      
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <front>
+         <docTitle>
+            <titlePart>BIBLIOTHECA RAGUSINA
+          IN QUA RAGUSINI SCRIPTORES EORUMQUE GESTA ET SCRIPTA RECENSENTUR
+          FRATRE SERAPHINO MARIA CERVA RAGUSINO ORDINIS PRAEDICATORUM
+          TOMUS PRIMUS
+          RAGUSII
+          ANNO SALUTIS
+          MDCCXL</titlePart>
+         </docTitle>
+         <pb/>
+         <div type="prosa-praefatio">
+            <head>Praefatio</head>
+            <p>Scriptorum, qui aliqua doctrinae laude illustres Ragusii floruerunt, memoriam litteris mandare constitui eorumque res gestas memoratu dignas carptim perscribere, ut posteri vitae documenta sumere volentes praeclara eorum facinora intueantur et quasi exemplaria quaedam prae oculis habeant, quae imitentur. Qui enim illustrium virorum monumenta litteris committunt, non modo famae eorum, quos laudant, verum etiam et potissimum legentium utilitati consulere debent. Utilissima autem esse censetur ad virtutem capessendam eorum memoria, qui virtute eximii nos antecesserunt et praeclara probitatis vestigia, quae imitaremur, reliquerunt; nam longe facilior est atque certior per aliorum, maxime sodalium populariumque atque gentilium, exempla quam per praecepta et disciplinae leges hominum ad virtutem animos alliciendi ratio. Porro Ragusinam urbem et graecis et latinis litteris ac si aliam christiani orbis civitatem excultam olim fuisse, nemo est, qui ex veteribus eius monumentis non novit, vel a narrantibus saltem patribus non acceperit civesque eius omni liberali disciplina cum sacra, tum profana praeditos edendis in omni bonarum artium genere lucubrationibus operam dedisse.</p>
+            <p>II. Etenim praeterquam quod egregio a natura instructi ingenio Ragusini cives, ut non facile sit sine ullo prorsus acumine reperire hominem, qui sub mitissimo hoc caelo in lucem prodiit, ad quamcunque vel ingenuam vel etiam illiberalem artem se 
+        <pb/>
+   conferant, in eadem excellentes evadunt; ut facilius humanarum divinarumque rerum cognitionem adipiscerentur, exteras quoque regiones peragrare et ad insigniora Europae gymnasia se conferre olim consueverant. Hinc nonnullos Parisiis, Lovanii, Romae, Bononiae, Patavii studiis vacasse atque in eisdem florentissimis gymnasiis cum divinas, tum humanas litteras docuisse memoriae proditum est, ut suis locis demonstrabitur. His vero, qui domi se continuerunt, <milestone unit="page"/> per singulas aetates non defuere praeceptores homines reconditae, exquisitae atque singularis litteraturae publica cura ex Italia aliisque longinquis regionibus acciti ac magna mercede conducti, qui eos ad litterarum studia condocefacerent et omnibus praeclaris scientiis atque disciplinis informarent et imbuerent. Hos inter omnium liberalium artium ac disciplinarum magistros vetera commendant monumenta Marinum Becichemum,
+ Xenophonta Philelphum, Francisci viri celeberrimi filium, Marinum de Benedictis, Dominicum Facium, Nascimbenum Nascimbenium, Franciscum Serdonatum, Iacobum Flavium Eborensem et alios summos sua quosque aetate viros, qui doctissimis etiam lucubrationibus editis in litteraria republica magnam nominis existimationem consecuti sunt. Neque vero ii ipsi, qui domi semper haeserint, suis tantum civibus noti fuere angustisque patriae finibus nominis claritatem concluserunt, sed plerique eorum ad summam nominis amplitudinem apud exteras quoque nationes pervenerunt studiorumque commercium cum viris ubique gentium clarissimis habuere. Enim vero cum primi subsellii hominibus, nempe cum Angelo Politiano, Pomponio Laeto, Hieronymo Fracastoreo, Annibale Caro, Benedicto Varchio, Paulo Manutio, Rhoberto Bellarmino, Thoma de Vio Caietano, Iusto Lipsio, et sexcentis aliis viris doctissimis Ragusinos cives de suis studiis communicasse
+ certum est, quod quidem suis locis, quotiescunque nempe se praebebit occasio, demonstrabimus. Nil mirum igitur, quod Ragusii, ac si uspiam alibi, litterae florerent litteratique ibi homines exteris etiam populis admirationi essent. Quamvis autem id satis a me demonstratum existimem, adhuc tamen nonnulla addere documenta et, omissis domesticis testibus, exterorum integrae fidei summaeque authoritatis scriptorum testimonio confirmare placuit.</p>
+            <p>
+               <num value="3">III</num>. Paulus Angelus, Dyrrachinus archiepiscopus, oratione in Ragusino senatu habita coram Patribus et Georgio Castrioto, seu notiori nomine Scanderbego, Epiri <milestone unit="page"/> rege, inter caetera Ragusinae urbis decora haec de litterarum studiis affirmavit: <q>Praeterea hic artes omnes liberales, Philosophia, Theologia, Leges, caeteraeque artes, et disciplinae vigent</q>
+               <ref>1</ref>. Hanc autem orationem Angelus
+        <pb/>
+         Ragusii habuit, cum anno MCCCCLXI Scanderbegus hortante Pio II, pontifice maximo, in regnum Neapolitanum cum exercitu transmissurus pro Ferdinando Aragonio adversus Ioannem Andogavensem, Renati filium, qui ante annos duos valida classe in illud
+ regnum invectus, ad Sarnum amnem Aragonium profligaverat, Ragusium divertisset, maximis pro viri dignitate honoribus a Republica exceptus eamque Georgius Pontanus, vir clarissimus, in Scanderbeghi vita integram exhibet. Praeterea Palladius Fuscus De situ orae Illyrici, laudatis caeteris urbis nostrae moribus et publicae rei rationibus magnifice commendatis, de studiorum in ea ratione haec habet: <q>Unum tamen non praetermittam, quo intelligatur, quanta sit Ragusinorum severitas et in liberis educandis diligentia: non enim sinunt in sua urbe ludos esse nisi litterarios; si gladiatores saltatoresve accesserint, subito eiiciuntur, ne iuventus,
+ quam litteris dumtaxat aut mercaturae vacare volunt, huiusmodi faeditatibus <sic>corrumpantur</sic>
+               </q> Tandem, ut multos, ne longior sim, praetermittam, Nascimbenus Nascimbenius in epistola, qua commentarium suum in Tullii De inventione librum Ragusino senatui nuncupat: <q>Multae, inquit, adhuc extant vetustate temporis rerumque gestarum memoria nobilissimae familiae, ex quibus fere singulis plurimi ingenio, doctrina consilioque praestantissimi, tanquam ex equo Troiano viri prodiere et hoc tempore florent multi gloria virtutis...</q>
+               <ref>3</ref> Nulla igitur, uti dicebamus, de studio litterarum Ragusii olim ac per aetates singulas florente dubitandi est ratio.</p>
+            <p>IV. Id unum hactenus desiderabatur, ut florentissima civitas civium suorum illustriumque virorum fieret imagine spectabilis. Equidem nulla fere natio est, nulla civitas, quae illustrium civium scriptorumque bibliothecas non instruxerit, sive alia id genus commentaria ad posteritatis memoriam non ediderit, quae praesertim
+   eximios e suis civibus incolisque viros complecterentur. <milestone unit="page"/> Sola fere urbs nostra non modo caeteris usque adhuc nationibus ignota, sed parum sibi ipsi cognita, fere sine nomine, sine laude, quia sine laudatore fuit. Hinc res civium nostrorum per multa secula bene gestae ex hominum memoria exciderunt, quia nempe scriptores illis laudatoresque defuerunt. At vetus est et ad multos pertinet huiusmodi negligentia, unde poeta merito conquestus est:
+          <cit>
+                  <quote>
+                     <l>Vixere fortes ante Agamemnona</l>
+                     <l>Multi, sed omnes <sic>illachrymabiles</sic>
+                     </l>
+                     <l>Urgentur ignotique longa</l>
+                     <l>Nocte, carent quia vate sacro.</l>
+                     <l>Paulum sepultae distat inertiae</l>
+                     <l>Celata virtus.</l>
+                  </quote>
+                  <bibl>(Horatius, liber 4, ode 9)</bibl>
+               </cit>
+               <pb/>
+        Quod si eos consulas scriptores, qui res Ragusinas litteris mandarunt, vix paucorum nomen reperies civium, qui litterarum laude illustres floruere, gesta omnino aetatemque eorum ignorabis. Haec itaque causa fuit, cur commentarios hosce seu Bibliothecam conficere et civium nostrorum, qui doctrina eximii scriptisque illustres fuere, imagines describere memoriaeque commendare decreverim.</p>
+            <p>V. Porro si mihi par votis meis ingenium sortiri contigisset, ut illustrium civium nostrorum memoriam immortalitati commendare possem, multum mihi profecto deberent ii, quorum nominibus
+ Bibliothecam hanc instruxi et exornavi (si modo ea res ad illos pertinet, qui ex humanis rebus sunt exempti), multum ii etiam obstricti essent, quibus praeclara adeo nomina hominum utique virtute ac omni liberali laude praeditorum, quos imitando sequerentur, proposui. Caeterum cum ingenio meo tantum tribuere non
+ audeam, ut par votis meis illustrium virorum nomen illustrare possit novumque eis decus atque ornamentum addere, certe voluntas saltem mea <milestone unit="page"/> placebit, quod optaverim, studiumque meum operamque nemo non probabit, quod aliorum virtutes, nomen famamque aeternitati consecrare, aliorum utilitati consulere tentaverim. Veram non ea mihi spes est, ut commentaria haec mea rudi quidem <sic>stylo</sic>, at multis vigiliis, antelucano studio et diuturno labore lucubrata interitum effugere possint aut in multorum manus pervenire; neque enim aut aeternitate aut publica luce aspectuque digna censeo. Id dumtaxat illis eventurum cupio, ut semel in
+ aliquorum civium manus incidant et, quod optimum iis accidere potest, de huiusmodi argumento scribere volentibus aliquid materiae suppeditent; nec longiorem illis vitam vel opto vel spero. Tum illis blattarum aut murium famem per me sedare licebit. Quaecunque tamen sors ea maneat, studium profecto meum minime improbandum est, qui, uti monui, illustrium civium meorum memoriam immortalem reddere conatus sim, quod quidem et mihi iucundum fuit atque utile, tot praeclara maiorum exempla contemplanti et aliis, qui legerint, aeque prodesse poterit. Itaque qualiscunque ea sit, tametsi rudis et inculta, Bibliothecam hanc
+ meam civium meorum oculis <sic>subiicio</sic>, qui etsi authorem, ut par est, contemnant, tamen maiorum suorum monumenta resque praeclare ab eis vel gestas vel scriptas addiscant, virtutem laudent, gesta imitentur.</p>
+        
+            <p>VI. At vero eorum tantum nominibus Bibliothecam hanc instruxi, qui praecipua ingenii ac doctrinae laude litterarumque monumentis illustres fuere. Verum non omnium omnino civium, qui
+          <pb/>
+          ea laude eximii fuerunt, nomina huc retuli, neque enim omnes novi, eos praesertim, qui monumentis a temporum iniuria vindicatis antiquiores sunt, cum nemo plane eorum memoriam serae posteritati commendaverit <milestone unit="page"/> et vix sequioris aetatis tabulae aliquae
+ supersint, unde aliquorum nomina tantummodo, paucorum gesta, quae in hunc commentarium referrem, mihi licuit dignoscere. Caeterum, qui neglecti a nobis fuere, si humanarum rerum sensus aliquis in mortuis inesset, non recte succenserent nobis, cum id culpa nostra minime evenerit, qui nulli labori pepercimus, ut quorum res gestas vetustate sive hominum negligentia obliteratas ignorare contigit, eorum saltem nomina dignosceremus. Et sane laudare non potui, quos ne natos quidem noverim, aut licet ex nomine notos, albi an atri fuerint, ignoraverim? Quamquam, ut verum fatear, neque ii, quos laudavimus, aliquid commodi ex laudatione
+ nostra neque ii, quos negleximus, damni aliquid ex silentio nostro referre videantur. Etenim illud mihi ingenium est (quod non sine pudore profiteri cogor, ut ingenue dicam, quod res est), ea <sic>styli</sic> ratio, ut obscurare potius quam illustrare illustrium virorum memoriam possim. Utinam vero felicioribus ingeniis et qui erudito
+ magis ac eloquenti calamo utantur, is deinceps animus sit, ut eorum, quos commendavimus, laudes pro dignitate celebrare nomenque monumentis aeternum duraturis mandare velint idque tandem praestent, quod nos praestare optavimus.</p>
+            <p>VII. Verum nonnulli, quorum, si uspiam alibi, ingens numerus
+ est Ragusii, qui censoria virga in aliorum scripta temere inquirere et iure suo ac arbitrio, quasi ex sacra tripode pronunciare solent, cum ipsi nec laudanda, nec vituperanda scripserint, nec Aristarchi alicuius censuram vereantur, supervacaneum huiusmodi laborem nostrum censebunt et commentarii huiusce argumentum leve nimis
+ frigidumque. <q>Equidem qui sunt viri isti</q>, submurmurare mihi <milestone unit="page"/> videntur, <q>et quotus eorum numerus, qui lucubrationibus editis immortale sibi nomen pepererunt, ut ex eorum nominibus scriptisque integrae etiam bibliothecae instrui possint?</q> Hi nempe sunt morosi illi censores (novi enim gentis nostrae indolem), qui
+ praeter <sic>Sibillae</sic> folium vix scriptum aliquod laude dignum ducunt. Hi certe praeter <sic>Demostenem</sic> ac Tullium inter oratores vix alicui locum merito dari paterentur, in poetis praeter Virgilium ac Nasonem vix quemquam numerarent, in philosophorum numero praeter Platonem aut Aristotelem aegre alium quempiam reponerent;
+ Aquinas et Scotus soli forte ipsis iudicibus theologorum nomen merito referunt, et post Sallustium ac Livium non facile aliquem inter historiographos recenserent adeoque vix alicui ex iis, quos in
+          <pb/>
+        Bibliothecam hanc intuli, locum ipsi darent. Vana hac opinione infecti sunt multi, hinc est, quod mirantur apud me Ragusinos scriptores aliquo in loco esse eumque me illorum numerum collegisse, qui ad Bibliothecam instruendam satis sit. At certe plurimos
+  ex iis ante me viri clarissimi in bibliothecas suas retulerunt: Sixtus Senensis, Bellarminus, Ludovicus Morerius, Iustus Fontaninus, Iacobus Echardus, Tritemius, Wadingus et plerique alii. Hinc a me etiam referri nemo forte gravabitur, alios, et quidem plurimos, a me primum relatos aegre ferent molestissimi censores, verum
+ nihil est, cur mihi in hac etiam parte iure succenseant. Enim vero ab aliis hi omissi fuere scriptoribus, sive quod ad rem, qua de agebant, pertinere non videbantur, sive quod ignoti omnino illis erant, utpote regione longe dissiti et a nemine antea laudati; cum itaque et ad rem meam pertineant eorum nomina et mihi utcunque
+ noti sint, non video, cur eos omittere debeam. Viri caeteroquin omnium, qui eos vel <milestone unit="page"/> ex scriptis vel ex rebus gestis noverint, judicio clarissimi, de quibus tam magnifice loquor, et doctissimis lucubrationibus sive manu exaratis sive praelo typico mandatis digni, qui ab omni posteritate celebrentur et qui profecto quascunque vel selectissimas bibliothecas, si in eas inferrentur, illustrarent. Et sane si ii ipsi, quos laudavimus, scriptores exteri essent et alterius cuiuscunque nationis, aliquam fortasse ab huiusmodi censoribus gratiam inirent, nullam profecto, quia populares sunt. Etenim in gentis nostrae more positum est, ut non modo lucubrationes et
+ ingenuae cuiusvis facultatis, sed omnium etiam illiberalium artium opera ab exteris hominibus edita, quamvis non absoluta et undequaque perfecta, in aliqua saltem laude ponant; si meliora, optima et omnibus absoluta numeris a popularibus edantur, in nullo sint apud illos loco. Ego vero qui rationem ac veritatem sequor et perversum
+ populi iudicium contemnere consuevi, moveri me popularibus huiusmodi opinionibus non patior, quo minus magni faciam et in pretio habeam optimas cuiusque lucubrationes caeteraque opera etiam illiberalia et ea maxime, quae a popularibus graphice elaborata laude mihi digna videntur.</p>
+            <p>VIII. Et haec quidem satis dicta sint de illis, qui ingenio, doctrina rebusque gestis ac scriptis illustre sibi nomen fecerunt. At non modo gravium rerum, sed etiam levissimarum scriptores laudavi et lucubratiunculas quasdam leves et valde minutas et tantum non ineptas recensui, fateor, sed certe in hoc alios bene multos, qui eandem edendi bibliothecas provinciam ante me feliciter susceperunt, imitatus sum; et sane, si doctis tantummodo et hac in re peritis versatisque scribendum fuisset, multo fortasse magis mihi indulsissem. <corr>Iam</corr> vero et id vitio mihi vertent, quod nonnulla in hanc
+       <pb/>
+       Bibliothecam nomina intuli hominum, qui parum ingenio valuerunt; at quia scriptis pro captu et ingenio editis ad nominis <milestone unit="page"/> immortalitatem temere aspirarunt, in ea doctos inter et summa ingenii laude praestantes locum nacti sunt. Id certe leve quibusdam
+ non omnino morosis censoribus et tantum non ridiculum videbitur; sciant igitur me hic non tam doctorum virorum aut ingenio pollentium historiam scribere, quam scriptorum, quicunque hi fuerunt, etiam minus laude dignorum Bibliothecam instruere. Bibliothecae autem scriptionibus etiam minus emendate ac pure lucubratis instruuntur. Sane quod poeta de libro quopiam, id mihi liceat de integra Bibliotheca pronunciare:
+        <q>
+                  <l>Sunt bona, sunt quaedam mediocria, sunt mala plura,</l> 
+                  <l>Quae legis hic.</l>
+               </q>
+               <ref>*</ref>
+        Aliter bibliothecae non instruuntur. Quamvis, ut dicam quod res
+ est, nemo ex iis, quorum memini, tam sordidus, tam lutulentus,
+        tam abiectus videtur, ut eius me pudeat; nemo profecto tam ineptus,
+        ut suis scriptis aliquam saltem, vel minimam, legenti utilitatem
+        afferre nequeat. Denique scire omnes velim me hic narratorem
+        potissimum, deinde laudatorem agere, nec laudem ad indignos pertinere mihi unquam in animo fuit, ut eos laudarem, qui laude digni
+        non videntur, propterea unicuique pro dignitate locum attribuo.
+        Hinc et gentilis viri et Iudaei, immo et christiani, sed depravatae
+        religionis erroribus imbuti nomen inserui, quod si laudatoris tantum
+        partes agerem, hos praeteriissem, ex quorum scriptis genti nostrae
+ nihil profecto laudis accedere potest.</p>
+            <p>IX. Iam vero nonnullorum vitia, quae virtutibus admixta habuerunt, detego; ita enim scriptorem maxime candidum decet. Hac porro ratione eorum nomina, qui fere sine vitio fuere, magis magisque prominebunt et longe illustriora videbuntur; ipsorum praeterea
+          virtus et vitiorum tenebris clarior apparebit. Postremo uti legentes virtutum documenta prae oculis habebunt, quae sequantur, ita et vitiorum exempla, quae detestentur; aeque enim utile est homini, honestum, decorum vitia fugere ac virtutem sequi.</p>
+            <p>
+          X. Quidam autem hic uti scriptores laudantur, sed quae scripserint <milestone unit="page"/> non proditur; at certe cuique cordato viro persuasum
+        esse censeo, non ideo ex scriptorum albo delendos, quia scriptorum eorum monumenta sive temporis sive hominum iniuria amissa desideramus. Quin etiam de nonnullis, licet paucis, dubitabit quispiam, utrum aliquid lucubraverint, unde scriptorum eis nomen tribuendum sit, cum veteribus monumentis singulari quadam ratione litteris vacasse in iisque perpetuo versati prodantur, nulla editarum lucubrationum mentione facta; at sane doctorum virorum, quibus
+          <pb/>
+        ad scribendum et meditata litteris tradenda ingenium non defuit, etsi forte nihil lucubraverint, nomina in bibliothecas huiusmodi referri solent, tantum quod probabile sit eos scripsisse et scribere potuisse certum sit. Si quis adhuc haesitaverit, consulat Siculam Rocchi Pirri, Neapolitanam Topii Bibliothecam et nostri Praedicatorum Ordinis, quam Iacobus Echardus omnibus numeris absolutam et eruditis omnibus probatissimam iampridem publici iuris fecit, multasque id genus alias et nomina in iis inscripta leget virorum exquisitae quidem et non vulgaris eruditionis, sed quos ob insignem doctrinam credibile tantum est litteris aliquid mandasse.</p>
+            <p>XI. Caeterum nulla in scriptorum nomlnibus commendandis gradus, opinionis aut promeritorum ratio habita est, ut in suos ordines pro dignitate disponerentur; uti nec aetatis et temporis, quo quisque in vivis fuit, ordo servatus est, neque enim omnium
+ certam novimus aetatem, sed alphabeti ordine servato cuique locum
+        dedimus, quem litterarum ratio postulabat, quae optima id genus series disponendi ratio esse videtur. Sicut auteiri recentiores aliquot
+        scriptores, quos vel ipsi novimus vel patrum, qui proxime nos antecesserunt, memoria floruere, a quibus res eorum gestas accepimus,
+        ita et antiquissimos, quorum nomina in haec commentaria intulimus, <milestone unit="page"/> si paucos excipias, nemo ante nos laudavit. Mediae aetatis viros, etsi non omnes a summis etiam viris commendatos, exhibemus. Nonnulla sane hac de re notatu opportuna in describendis eorum gestis,rebus observabimus.</p>
+            <p>XII. Unde autem ea, quae de scriptoribus Ragusinis his monumentis commendavi, acceperim et qua ratione ad edendum hunc commentarium animum meum induxerim, admonendum censui lectorem. Igitur cum Ragusinorum pontificum res gestas colligerem, plurium in publicis tabulis et aliis veteribus monumentis doctorum
+ virorum memoriam commendatam forte reperi. Hos, ne omnino praetermitterem, paucis laudare et tantum quo sub antistite floruerint indicare, mecum statueram; sed cum eorum numerus plurimum excrevisset et in dies augeretur, operae pretium me facturum putavi, si seorsum de <corr>iis</corr> agerem et in commentarium aliquem eorum nomina referrem, qui de scriptoribus Ragusinis inscriberetur et
+        de illis eorumque scriptis rebusque, si fieri posset, gestis unice
+        ageret. Itaque Bibliothecam hanc instruere et litteris memoriaeque
+        mandare decrevi. Tum iterum publica tabularia excussi: Veteres
+        codices, quos ad manus habere potui, omnes, omnes item authores,
+ qui de rebus Ragusinis scripsere, diligenter scrutatus sum, necrologia
+        omnia, membranas, schedas et quaecumque expiscari potui vetera
+        monumenta, praesertim vero ipsorum lucubrationes scriptorum,
+        quae, licet in penitioribus bibliothecis laterent, facta mihi potestate
+   <pb n="11"/>
+        studiose rimatus sum; nihil denique intactum praeterivi, unde aliquid, quod ad rem meam pertineret, efferre possem. Habes igitur unde scribendi materiam hausi. Sed nullus dubito, quin multa et praeclara monumenta diligentiam meam effugerint, adeoque plurima et scripta et scriptorum nomina hic desiderari, quae tamen facile erit adiicere et quae a me omissa sunt supplere felicioribus post me scriptoribus, quibus ea, quae me latuerunt, e latebris eruere continget. Quoad Fratres Praedicatores attinet, iam olim Iconothecam illustrium fratrum, qui praecipua sanctioris vitae opinione,
+        doctrinae et ingenii laude, litterarum praesertim <milestone unit="page"/> monumentis, demum aliquo ecclesiasticae dignitatis gradu illustres fuere, instruxi, ex qua scriptores selegi, quos in hanc Bibliothecam, non sine multis additamentis, retuli. Quoad caeteros religiosos viros, ex suis seorsum caenobiis quacunque doctorum caenobitarum monumenta
+ deprehendere licuit, diligenter collegi et hic sincere descripsi, longe plura scripturus, si sartae tectae res eorum servarentur et non uti caeterorum civium in privatis domibus, ita sacratorum hominum in caenobiis cum scripta, tum scriptorum nomina et plura fortasse, quam quae supersunt, in maximo nostrae urbis terraemotu periissent.</p>
+            <p>XIII. Postremo, si mihi historiae leges in hac describenda Bibliotheca a me neglectas obiiciat quis, recte quidem faciet, nam eius artis imperitum me ipse profiteor; caeterum ne venia indignum existimet, utpote qui maiorum laudi legentiumque utilitati his,
+ qualescunque sint, commentariis consulere studui nihilque mihi atque ingenio meo laudis ac gloriae deferendum vel censui vel optavi. Romani denique eloquii maiestatem nemo in scripto hoc meo quaerat, cum narratoris partes agam simplici ac nudo sermone utentis, non oratoris, cuius est verborum luminibus ac eloquentiae
+ floribus sermonem suum distinguere.</p>
+        
+        
+         </div>
+         <div type="poesisepigramma" met="elegiacum">
+            <head>Vincentius Petrovich ad authorem Epigramma</head>
+            <l>Dignos laude viros lethaeis eripis undis,</l>
+            <l>Vita quibus fati lege caduca fuit.</l>
+            <l>Illis donasti tu, quod lex dura negarat,</l>
+            <l>Nominis aeterni per tua scripta decus. </l>
+            <l>Altera vita illis parta est, te Patre, sed in quam</l>
+            <l>Nil mors iuris habet, nil diuturna dies.</l> 
+            <l>At si laudandos ornat qui laudibus, ipse</l>
+            <l>Laude est dignus, honor si redit, unde venit,</l>
+            <l>Te qui laudasti tot fama digna perenni</l>
+            <l>Nomina, quantus honor, gloria quanta manet?<ref>6</ref>
+            </l>
+         </div>
+      </front>
+      <pb/>
+      <body>
+      <!--  -->
+        <div type="prosa-commentarius">
+            <head>BIBLIOTHECA RAGUSINA IN QUA RAGUSINI SCRIPTORES EORUMQUE GESTA ET SCRIPTA RECENSENTUR</head>
+            <pb n="47"/>
+            <milestone unit="page" n="1"/> 
+            <div type="prosa-vita">
+               <head>AELIUS CERVINUS</head>
+               <p>Sublime illud ac fertile ingenium, quo natura, etsi aliquibus noverca, illi profecto
+            munificentissima parens, Aelium Cervinum, Ragusinum patritium, qui primo loco, uti
+            litterarum ratio postulat, laudandus mihi est, donavit, non neglexit ille incultumque ac
+            desertum reliquit, neque eo ad pravos mores facilius combibendos usus est, quod utrumque
+            plurimorum vecordia solet, sed ab ineunte aetate atque a primis fere unguiculis et per
+            omnem deinceps aetatem optimarum artium studiis omnique liberali et digna homine nobili
+            ac christiano disciplina excoluit. In primis autem poeticae operam dedit assiduam certe
+            ac sollicitam adeoque in ea excelluit, ut inter principes suae aetatis poetas numerari,
+            a summis viris coli summisque laudibus efferri meruit. Maurus Orbinus excellentissimum
+            poetam vocat, Nicolaus Gozeus, ille Viti filius, multis nominibus clarissimus, summa
+            Cervinum laude dignum censet. At missis domesticis huiusmodi laudatoribus, quo loco ab
+            exteris, et quidem summis viris adeoque aptissimis ingeniorum ac virtutis aestimatoribus
+            habitus sit, paucis declarare placuit. </p>
+               <p>
+          II. Marcus Antonius Sabellicus, ubi Sixti IV,
+              <note>Enneades X, liber VIII.</note> summi pontificis, laudes post eius mortem persequitur, ad annum MCCCCLXXXIV: <q>Floruerunt, inquit, Sixto pontifice <sic>Delmatici</sic>  nominis Helius<ptr/> Cervinus Rachuseus, poeta insignis, et Ioannes Gotius orator, eius municeps...</q>
+                  <ptr n="1"/> Palladius Fuscus Patavinus <milestone unit="page" n="2"/> De situ orae Illyrici, quo in opusculo neminem praeter unum
+              <note place="margin">liber 1.</note> Cervinum ex illustribus totius Illyrici viris aut laudavit aut nominavit, post Ragusinae urbis
+                descriptionem haec habet: <q>Verum quum haec proderem, ibi erat Aelius Cervinus, Poeta eminentissimus, cui si priscis temporibus
+                <pb n="14"/>
+                nasci contigisset, quando more hominum comparatum est, ut veteres scriptores novis semper anteponantur, ipse profecto cum antiquis vatibus passim legeretur, tanta est ejus in rebus, quas decantat, eruditio et ea carminis sublimitas.</q>
+                  <ptr n="2"/>
+               </p>
+               <p>
+                  Hic loci non omnino praeter propositum oblata mihi occasione
+                  admonendum duxi lectorem: Michaelem Bonbardi Societatis Iesu
+                  in Topographia magni regni Hungariae nonnihil
+                  <note place="margin">Part. 2 <abbr>cap</abbr>. un. segm. 3 num. 1.</note> aberrasse in designanda Palladii Fusci aetate;
+                    ait enim illum circa salutis annum MCCCCXLV
+                    florentem de ora Illyrici libros duos edidisse;
+                    constat autem ex eius verbis iam relatis Fuscum
+                    scripsisse tunc, cum Cervinus iam poeta ad
+                    summam nominis amplitudinem pervenerat et in omnium ore
+                    versabatur, quod ante initium XVI, vel finem XV seculi contingere
+                    haud poterat, uti ex die eius natali rerumque gestarum serie mox describenda satis clarum est et manifestum. Id etiam imprudenti excidit, Ioannem nempe Lucium notis illustrasse Palladii opusculum; verum enim est Lucio curante typis illud editum, sed nullas plane illi Lucius adnotationes addidit.
+            </p>
+               <p>
+              Ut autem ad Aelium revertamur, iam satis profecto apparet, quo in loco apud summos viros esset et quam longe lateque nominis eius fama vagaretur et floreret. Sed nemo, quod sciam, doctissimi viri res gestas et unde summas hasce promeritus est laudes litteris mandavit. Id ego consultis publicis tabulis eiusque lucubrationibus, quascunque ad manus habere potui, expensis praestare utcunque summique viri res gestas paucis, cum plura non suppetant monumenta, describere proposui.</p>
+               <p>
+                    
+                    <num value="3">III</num>. Itaque natus est Ragusii anno Christiano MCCCCLXIII paulo ante Kalendas Decembres patre Lampridio Cervino (vulgo
+                    Cerva), viro patritio, <milestone unit="page" n="3"/> matre ex Zamagniorum certe familia, aeque nobili ac patritia, cuius tamen nomen excidit; hinc est quod ipse in oratione funebri, quam suo loco laudabimus, fratrem Petrum Zamagnium, eximium Franciscani instituti virum, fratrem suum amitinum nuncupat; quod vero Lampridio patre genitum
+                    dixi, id ex publicis monumentis iustamque habentibus authoritatem adeo certum est, ut nullus dubitandi locus relinquatur, neque omnino verum eum, cum Romae esset, ex academicorum more, ut non nemo perperam autumavit, nomen mutasse, ut qui prius Aelius, deinde Lampridius Cervinus diceretur in gratiam fortasse Aelii illius
+                    Lampridii, viri doctissimi, quem sub Magno Constantino floruisse tradunt.</p>
+               <p>
+                    <pb n="15"/>
+                    IV. Cum vero adolescentiae annos vix attigisset, a parentibus, qui eius ingenium summopere mirabantur, Romam studiorum causa missus est et forte annum aetatis tertium et decimum agens Sixto IV, summo pontifice, a Stephano Zamagnio, Marini filio, materno ei genere arcte coniuncto, Ragusinae reipublicae ad pontificem oratore ductus anno aerae Christianae MCCCLXXVI. Romae in sacrato nempe illo Musarum domicilio egregiis in omni litteraria facultate praeceptoribus instituendum et amaenioribus, ut per aetatem licebat, disciplinis imbuendum se tradidit. Porro
+                    in optimarum elegantissimarumque artium studia totis ingenii viribus incubuit, modum ea in exercitatione nullum agnoscens, uno enim litterarum studio oblectabatur. Poeticae praesertim addictus, illustrium cum veterum, tum aevi sui poetarum lectione, quorum diu noctuque lucubrationes versabat, expleri saturarique minime
+                    poterat, quo factum est, ut ea in facultate eximius brevi evaserit, ad veterum elegantiam atque argutum et sublime scribendi genus proxime accedens. In omnium igitur ore, etsi adolescens adhuc, versabatur ipsisque magistris suis, cum nonnisi magnum <milestone unit="page" n="4"/> quid et praeclarum ingenio minaretur, admirationi erat. Ad vigesimum fere aetatis annum Romae moratus est Cortesiorum hospes, uti ipse in epistola ad Paulum Cortesium testatur:
+            <q>
+                     <l>Nec reor immemorem, cuius mea Musa benigno</l>
+                     <l>Hospitio toties largiter usa fuit.</l>
+                  </q>
+                  <ptr n="3"/>
+                      A Laurentio Alterio nobili item hospitio aliquando etiam aeger exceptus.
+            </p>
+               <p>
+                      V. Florebat per idem tempus Romae in Quirinali colle Academia, de qua ipse in elegia ad Blondum:
+              <q>
+                     <l>... Quirinalis docta caterva iugi.</l>
+                  </q>
+                  <ptr n="4"/>
+                        Quo ea nomine a caeteris distingueretur, non constat, nam Humanistarum, Linceorum, Fantasticorum nomina, quibus Romanae academiae <corr>nunc</corr> etiam appellantur, recentiora sunt et nonnisi ad seculum XVII pertinent. Eiusdem academiae tunc princeps Blondus, non certe Flavius, qui editis doctissimis lucubrationibus immortale sibi nomen peperit (hic enim mortem Romae obiit pridie Nonas Iunias anno MCCCCLXIII sex fere menses antequam Aelius noster nasceretur), sed Flavii filius; ille etenim (teste Morerio ex Leandro Alberti) quinque filios reliquit omni liberali doctrina peritissimos et patri non absimiles: <q xml:lang="fr">Leandre Alberti dit que Flavius
+<pb n="16"/>
+Blondus eut cinq fils tous sçavans.</q> Alterum ex iis Quirinali huic academiae eo tempore praefuisse nullus dubito. Sodales vero eiusdem sive, uti vocant, academici Sulpicius Verulanus, Marsus iunior, Pomponius Laetus, Paulus Cortesius, Baptista Mantuanus, Lepidus Sinibaldus, Gaspar Capella aliique doctissimi eadem aetate viri. Hos inter, quamvis minor adhuc aetate, sortitus est locum Aelius, ut in elegia ad Blondum ipsemet testatur:
+<q>
+                     <l>Utque sodalitii delectus et optio praecox</l> 
+                     <l>Pars ego nunc vestri nuncupor una chori.<ref>6</ref>
+                     </l>
+                  </q>
+               </p>
+               <p>
+              VI. Porro mos erat antiquis eos, qui poetica
+              <note place="margin">Ciaconius et Andreas Victorelli in additione in Benedictum XII.</note>  arte valerent et caeteris <milestone unit="page" n="5"/> superiores essent, laurea, quae poetica dicebatur, donare eo fere  in modo, quo theologiae, philosophiae, iuris peritis insignia dantur, quibus habitis magistri seu doctoris locum nomenque obtinent. Verum praeclara illa maiorum consuetudo paulatim exoleverat et non modo multis intermissa seculis, sed
+iam fere oblivioni tradita, Benedicto XII, Romano pontifice, renovata fuit, cum anno MCCCXLI Ursus Anguillariae comes et Iordanus de filiis Ursi miles, Romani optimates et tunc Urbis senatores, Roberto, Siciliae rege, curante Franciscum Petrarcham, virum omni deinceps aetate celeberrimum et cum eloquentiae, tum poeticae laude eximium poetica corona ex lauro contexta in Capitolio donarunt. At vero iterum mos ille antiquatus est, nec forte cuiquam
+ post Petrarcham tributa fuit laurea, donec Blondus instaurandum et quasi postliminio revocandum maiorum morem, uti aequum et virtuti debitum statuit. Sic enim illum Cervinus alloquitur:
+<q>
+                     <l>Nunc tibi quae placidas Academia cessit habenas,</l>
+                     <l>Qua respirarunt dogmata prisca duce,</l>
+                     <l>Vatibus ornandis ritus instaurat avitos</l>
+                     <l>Et redimunt priscum laurea serta decus, </l>
+                     <l>Hinc desueta diu neglectae munera frondis</l>
+                     <l>Digneris sancta nectere, Blonde, manu. -      </l>
+                     <l>Non votis, non hoc precibus venamur iniquis,</l>
+                     <l>Captamus non hoc ambitione decus,</l>
+                     <l>Poscimus inviti...<ptr n="7"/>
+                     </l>
+                  </q>
+Cum vero honor ille uni tantum deberetur, qui caeteris in eadem facultate praestaret, nec vellet Blondus sponte sua cuiquam illum deferre, ne scilicet partium studio captus videretur, stata die 
+<pb n="17"/>
+complures e sodalibus, qui doctiores videbantur, in arenam descendere iussit, carmine et nobili aliquo poemate eruditionis periculum facturos. Descendit et Cervinus palmamque ex aemulis omnium iudicio retulit, quemadmodum ipse in elegia ad regem Ladislaum affirmat:
+              <milestone unit="page" n="5"/>  
+                  <q>
+                     <l>Nec mea Rachusae merces ingloria venit </l>
+                     <note place="margin">Manuscriptum, liber 1.</note>
+                     <l>E septemgeminis parta corona iugis,</l>
+                     <l>Cum modo tot victis rivalibus optio praecox</l>
+                     <l>Portarem externus Romula serta puer?</l>
+                  </q>
+               </p>
+               <p>VII. Igitur Blondus ex victoria a Cervino reportata certior factus eum poetam non unum e multis, sed inter paucos praecipuosque primas ferre, communicato cum sodalibus consilio, laurea donandum censuit. Hinc ipse ad illum Cervinus:
+<q>
+                     <note place="margin">Elegia ad Blondum</note>
+                     <l>Fallor an, ut video, mihi serta virentia nectis</l>
+                     <l>Dignarisque meas cingere, Blonde, comas*</l>
+                  </q>
+Quod summi etiam illi viri, Quirinalis academiae sodales, quos paulo ante laudabamus, dignum censuerint eo honore Cervinum, constat ex iis, quae ipse in saepe laudata ad Blondum elegia scribit:
+<q>
+                     <l>Ergo perpetuum sic dona poetica tradas,</l>
+                     <l>Teque diu noster principe collis ovet.</l>
+                     <l>Praemia laurigeris tribuas gestanda poetis,</l>
+                     <l>Quantulacunque aliis praemia, magna mihi. </l>
+                     <l>Hoc te Sulpicius pariter Marsusque precantur</l>
+                     <l>Pomponiique rogat Musa diserta mei,</l>
+                     <l>Hoc mihi tergemini fratres, Cortesia proles,</l>
+                     <l>Gaspare cumque tuo, docte Capella, rogas,</l>
+                     <l>Hoc et amicorum nulli Baptista secundus,</l>
+                     <l>Cumque suo Lepido gens Sinibalda petit.</l>
+                     <l>Praecipue studio est cumulandi accensus honoris</l>
+                     <l>Farnesius, generis gloria magna sui.</l>
+                  </q>
+Adolescentulus summum huiusmodi in poetica facultate honorem consecutus est Cervinus et annos natus non amplius, ut puto, quam circiter duodeviginti. Sic ipse ad Blondum:
+<q>
+                     <l>Sic viridi lauro teneris donandus in annis</l>
+                     <l>Praedicor et placeo pene poeta puer.<ref>11</ref>
+                     </l>
+                  </q>
+                  <pb n="18"/>
+                  <milestone unit="page" n="5"/>  
+               </p>
+               <p>VIII. Exinde igitur laureati poetae nomen reportavit. Luculentum huius rei testimonium habemus ex collectione illa poematum, cuius inscriptio Templum, quae edita in laudem Hieronymae Columnae Aragonensis Octavius Sammarcus collegit atque anno MDLXVIII typis Patavinis mandanda curavit eidemque Hieronymae dedicavit. Enim vero inter varia doctissimorum hominum carmina heroicum poematium legitur Aelii Cervini poetae laureati.
+Qua etiam honoris nota ipse se cum pluries alias, tum in epigrammate marmori insculpto in aede vectigali Ragusii, quod suo loco exscribemus, ubi initialibus litteris nomen suum apposuit:
+<q>
+                     <expan>AELIUS LAMPRIDIUS CERVINUS POETA LAUREATUS</expan>.</q>
+               </p>
+               <p>
+Parva ea res videbitur, nec in aliqua laude ponenda, cum nulla
+publica authoritate (cuius est ad quemcunque nobilitatis seu dignitatis gradum promovere) sertum illud tribueretur, sed profecto, si magistrorum atque doctorum gradum magnifacimus, non parvipendenda poetarum insignia, maxime quod cum plausu et gratulatione Romani populi laurea daretur et maximus inde laureato honor accederet; fiebat enim, ut a caeteris, etsi doctrina eximiis, nobili ea nota distingueretur. Unde Petrarcha iam laureatus ad regem Robertum: <q>Novo, inquit, beneficio desertas Pierides obligasti, quibus hoc meum quantulumcunque est ingenium solemniter consecrasti <abbr>etc</abbr>, Et urbem Romam, et obsoletum Capitolii palatium insperato gaudio et insuetis frondibus decorasti. Parva res, fortasse dixerit quispiam, sed profecto novitate conspicua et populi Romani plausu et iucunditate percelebris...</q>
+                  <ptr n="12"/> Ipse etiam Cervinus, utpote qui magni aestimabat se ad eum dignitatis gradum promotum, apud regem Ladislaum ita ea de re gloriatur:
+<q>
+                     <l>Quod mea deductum Tiberino a flumine munus</l>
+                     <l>Vecta coronatis Musa propagat equis,</l>
+                     <l>Hoc tibi sacramus fidi, rex magne, clientes,</l>
+                     <l>Tam procul audita perfruiture lyra.<ptr n="13"/>
+                     </l>
+                  </q>
+                  <milestone unit="page" n="5"/>  
+               </p>
+               <p>IX. Ea honoris atque dignitatis nota auctus Ragusium reversus est Sixto IV, Romano pontifice, in vivis adhuc agente; constat enim ex nobilium albo eum XX annos natum Kalendis Decembris anni MCCCCLXXXIII primum in reipublicae comitia admissum. Uxorem deinde duxit Paulam nomine, sed cuius familiae, mihi incompertum. Duas ex ea filias suscepit, sic enim ad amicum:
+              <q>
+                     <l>Testor et imbellem sexum, duo pignora, natas.</l>
+                  </q> 
+              Mariam minorem filiam adhuc innuptam moriens haeredem instituit eique ex omnibus bonis suis dotem conficiendam mandavit, maiorem enim
+Petronillam iam antea nuptam collocaverat Zachariae Araneo, 
+<pb n="19"/>
+              Nicolai filio, quem in testamentariis tabulis generum appellat. Utrum et masculini sexus liberos habuerit, incertum; certum tamen, etiam si habuerit, diu non vixisse; nam qui in eodem nobilium albo sub die XXX Iulii anni MCCCCXCVIII legitur Matthaeus Cervinus, Aelii filius, tunc et ipse viginti annorum patrio more in comitia receptus, ad hunc omnino non pertinet, cum hic nonnisi quindecim annis natu maior illo fuerit et ille hoc Romae adhuc agente natus videatur. Iuvenis adhuc uxorem itidem iuvenem morte sublatam desideravit, quod ex iis ad regem Ladislaum carminibus constat:
+
+<q>
+                     <l>Accumulat tantos coniunx miseranda dolores,</l>
+                     <l>Quae mihi primaevi floris adempta fuit.<ptr n="14"/>
+                     </l>
+                  </q>
+
+ 
+
+               </p>
+               <p>
+                  <note>Liber 1. Elegia ad regem Ladislaum.</note>X. Porro ex uxoris morte tantum hausit dolorem, ut iacentem animum nulla omnino ratione confirmare posset; quare rebus humanis utcunque valere iussis, ecclesiasticae militiae nomen dedit, ex Deo, cui se mancipabat, solatium deinceps capturus sacerdotiumque in Ragusina ecclesia, quod canonicatum vocant et solis nobilibus viris aditus ad illud patet, obtinuit. Rem illi copiosam fuisse, pro certo habeo; nam plurimae in publicis tabulis
+ syngraphae descriptae sunt, quas ipse legi, pecuniae ab eo sive mutuo, sive in quaestum datae, quibus bene nummatus fuisse proditur. Podagra diu et saepe laboravit, ita ad Andream, nescio quem amicum suum:
+<q>
+                     <l>Andrea, graviter tuus poeta</l>
+                     <l>Aegrescit podager...<ptr n="15"/>
+                     </l>
+                  </q>
+Et iterum: <q>
+                     <l>Tollere nodosam nescit medicina podagram...</l>
+                  </q> 
+                  <milestone unit="page" n="9"/>  Id autem morbi genus, non quod intemperate et incontinenter vixerit, sed sanguinis vitio a maioribus ad se transfuso, quasi haereditario iure hausisse testatur ad Marinum itidem amicum suum:
+              <q>
+                     <l>Cur non degener, o Marine, cur non</l>
+                     <l>Exhaeres fuit Aelius paterni</l>
+                     <l>Morbi, consimili tenore cuius</l>
+                     <l>Vexatur? Neque enim Venus scyphique</l>
+                     <l>Me laesere, sed insitam propagat</l>
+                     <l>Pestem nobilitas avita...<ptr n="16"/>
+                     </l>
+                  </q>
+Cum vero morbi vis ingrueret, animum a studiis aliquantulum avocabat, nullum caeteroquin sibi diem sine aliqua studiorum linea evolare patiebatur. Ludum etiam litterarium ab eo apertum.
+<pb n="20"/>
+ubi gentium nescio, discipuli frequentasse videntur, quos inter censendus amicus ille eius Andreas, de quo ita testatur:
+<q>
+                     <l>... Hunc amem necesse est</l> 
+                     <l>Olim discipulum meum...<ptr n="17"/>
+                     </l>
+                  </q>
+Umblae amaenos recessus, ubi fortasse illi praedium erat, animi laxandi gratia cum amicis frequentasse ex elegia discimus, qua locum illum graphice describit, quae sic incipit:
+<q>
+                     <l>O mihi iucundos tecum, Mariane, recessus</l>
+                     <l>Nec nisi sedandis ocia nata malis,</l>
+                     <l>Ut mihi curarum subeunt oblivia, cum nos</l>
+                     <l>Umbla frigidulo mulcet amaena sinu, </l>
+                     <l>Cuius inexhausto sic ubere dulcis inundat</l>
+                     <l>Vena, nec offensas aequore servat aquas. </l>
+                     <l>Namque reluctetur licet obvius Adria, mollem</l>
+                     <l>Fluminis occursum littoris instar habet.</l>
+                     <milestone unit="page" n="10"/>      
+                     <l>Nec potis est potus dulces violare marinis</l>
+                     <l>Fluctibus et cursum lene fluentis aquae...<ptr n="18"/>
+                     </l>
+                  </q>
+               </p>
+               <p>XI. Multa scripsit cum metro, tum soluta oratione eaque optima et quae a laureato poeta vix desiderares, qui multis praeterea litteris non esset instructus. Haec inter et heroica nonnulla cecinisse et erotica, praesertim cum iuvenis esset suosque amores vel fictos et ingenii exercendi causa simulatos, vel veros exprimeret, constat ex hisce carminibus et elegiis:
+<q>
+                     <l>Ille ego, magnanimum qui facta attollere regum</l>
+                     <l>Et sueram grandi bella tonare tuba,</l>
+                     <l>Nescio quo iaceo ...</l>
+                  </q>
+
+                  <q>
+                     <l>Uror ut Assyriis templis uruntur odores</l>
+                     <l>Et volucris nidis uritur una suis, </l>
+                     <l>Nec magis ad solem glacies, nec cera liquescit,</l>
+                     <l>Cum iuvat et flammas nutrit adusta suas...</l>
+                  </q>
+
+                  <q>
+                     <l>Nunc licet imperio lascivi ducor amoris</l>
+                     <l>Iussus inexperti vincula ferre iugi... </l>
+                  </q>
+                  <q>
+                     <l>Haec tamen ipse libens, nedum patienter inibo,</l>
+                     <l>Si dominae fuerit mutua parque fides ...</l>
+                  </q>
+                  <ptr n="19"/>
+35 Pleraque tamen eius opera vel vetustate vel hominum incuria perierunt. Quae nostra hac aetate servantur, haec sunt: volumen magnum variorum carminum ac poematum latino sermone, nempe
+<pb n="21"/>
+elegos, odas, epigrammata hymnosque cum heroicis carminibus ad veterum poetarum elegantiam atque nitorem scriptis, continet illudque manuscriptum in privatis bibliothecis Ragusii reperitur. Item in Vaticana bibliotheca Romae codex servatur, in quo varia
+eius opera. Ex eodem codice iussu Stephani Gradii, primarii eius bibliothecae custodis, exscripta fuit oratio, quam Cervinus habuit in funere Michaelis Zamagnii, Ragusinae reipublicae rectoris, cuius initium: <q>Etsi mihi durum atque laboriosum videbatur rectoris nostri hodierna <milestone unit="page" n="11"/>  die defuncti in tanta temporis angustia laudationem suscipere...</q>
+                  <ptr n="20"/> Eius exemplar in Adversariis meis exstat, cum perscripta eiusdem Gradii testificatione, quam hic subiicere operae pretium duxi: <q>Oratio Aelii Lampridii Cervarii in funere Michae Zamagnii in rectoratu supremo reipublicae Ragusinae magistratu defuncti. Etsi <abbr>etc.</abbr> Excerpta ex codice bibliothecae Vaticanae sub numero 2939 pag. 113. per me Thomam de Tuliis eiusdem bibliothecae scriptorem de mense novembris 1682 de mandato illustrissimi et reverendissimi domini abbatis Stephani Gradii, primi eiusdem bibliothecae custodis. Ita est, ego Stephanus Gradius, primus bibliothecae Vaticanae custos, propria manu subscripsi et meo sigillo munivi hac die 28 novembris 1682. Haec oratio habita fuit ante annos prope ducentos, quo tempore author eius floruit, ut liquet ex aliis eius orationibus caeterisque scripturis, quae in libro, unde haec extracta fuit, continentur.</q> Qua autem ex causa, quo tempore, quove authore codex ipse in Vaticana bibliotheca repositus fuerit, omnino ignoramus; ex eo tamen, si probe res perpendatur, nonnihil laudis authori accedit, cuius scriptis ibi locus datus est, ubi nihil, nisi emendate et ad lucernam, ut aiunt, elucubratum reponi solet. Utinam porro erudito alicui viro et de politioribus litteris bene merendi studioso in mentem tandem aliquando veniat haec elegantissima Aelii opera e tenebris in lucem proferre typisque edenda curare, quod ipse profecto, si mihi copia fieret, libenter facerem. Ita enim de republica litteraria facili negotio bene mererer, cum et authoris laudi et legentium utilitati non maximo labore quammaxime consulerem.
+            </p>
+               <p>XII. At vero Cervinus, quemadmodum caeteri omnes docti et de aliquo nomine viri, aemulos habuit censores, aristarchos, momos, qui maxime <milestone unit="page" n="12"/>  famam eius et nominis amplitudinem minuere conabantur. Id cum ex elegia In detractorem, tum ex epitaphio, quod sibi ipse ponendum scripsit, palam ostenditur, quod huiusmodi est:
+              
+<q>
+                     <l>Aelius obscuro tacitus tegor ecce recessu, </l>
+                     <l>Nunc de me saltem, livor acerbe, sile.<ptr n="21"/>
+                     </l>
+                  </q>
+                  <pb n="22"/>
+Arbitratus est non nemo eum religiosae vitae disciplinam in caenobio nescio quo amplexum his carminibus motus, quae elegia In detractorem habentur:
+
+<q>
+                     <l>Nec mea degenerant, ut reris, carmina, tanquam</l>
+                     <l>Nunc somno atque epulis, Chare poeta, vacem,</l>
+                     <l>Immo per excubias et tot ieiunia vellit</l>
+                     <l>Relligio vires attenuatque meas, </l>
+                     <l>Infamesque deos, Cererem Bacchumque relegat,</l>
+                     <l>Ne vitiet mores luxus uterque meos.</l>
+                     <l>Nec patitur mentem pingui torpere Minerva,</l>
+                     <l>Indecores abigit regula sancta notas.<pb n="22"/>
+                     </l>
+                  </q>
+              
+Sed id a veritate alienum omnino est, triduo enim antequam vita excederet, testamentum condidit, in quo se Canonicum appellat his verbis: <q>Ego Aelius Lampridii de Cerva, Canonicus ecclesiae cathedralis Sanctae Mariae et poeta, memoriae tenens...</q> Carmina autem illa de viro ecclesiasticae militiae adscripto commode accipi possunt probantque, nisi falsus sim interpres, eius aetate canonicos aliosque choro addictos sacerdotes sacras excubias celebrasse, noctu nempe ad decantandas Deo laudes surgere et ad sacram aedem adire consuevisse.</p>
+               <p>
+Mortem obiit Ragusii XVII Kalendas Octobris, septimo et quinquagesimo aetatis, humanae vero Salutis anno MDXX, cum paulo ante epigramma illud scripsit, quod in marmore incisum in aede vectigali nunc etiam legitur in haec verba:
+<q>
+                     <l>NVMEN ADORANDVM; FELIX ET AMABILE NOMEN </l>
+                     <l>RHACVSAM TITVLO PROSPERIORE IVVA.</l>
+                     <l>IMPLE HOSTES TERRORE, FVGA, FORMIDINE, NOSTRIS </l>
+                     <l>DA PATEANT TERRE CIVIBVS ET MARIA:</l>
+                     <l>DA PATEAT CAELVM: TVTA OMNIA SISQVE SALVTI</l>
+                     <l>NAMQVE SALVTIFERVM NOMEN IESVS HABET.</l>
+                     <p>
+                        <date>A. S.   MDXX.</date>
+                        <abbr>AE. L. C. P. L.</abbr>
+                     </p>
+                  </q>
+                  <pb n="23"/>
+                  <milestone unit="page" n="13"/>  
+               </p>
+               <p>XIII. Etsi autem Ragusii esset, veteres tamen amicos, viros litterarum laude eximios, ubicunque essent, colere minime desiit, quorum nonnullos, veluti extremum huius narrationis actum, hic cum laude nominare operae pretium duxi; amicorum enim, quibus  consuevimus, virtus nostrae laudis accessio est, quandoquidem ex veteri paraemia similes aut invenit aut facit amicitia. In primis itaque Paulum Cortesium impense coluit, sodalem suum olim, hospitem et studiorum similitudine acceptissimum, ad quem eius extat epistola, cuius initium huiusmodi est:
+<q>
+                     <l>Ecquid ut ex oculis nostri praestantia vultus,</l>
+                     <l>Sic animo pariter fluxit, amice, tuo, </l>
+                     <l>An tibi per sensus nostri simulachra recurrunt</l>
+                     <l>Quaque potes socium parte videre, vides? </l>
+                     <l>Quid tamen officium scribendi cessat amicum,</l>
+                     <l>Nec properas gratas reddere, Paule, vices? ...<ptr n="23"/>
+                     </l>
+                  </q>
+Laurentium item Alterium, uti in epistola ad eundem, quae in heroicis legitur, ex qua haec exscripsi:
+<q>
+                     <l>Parce tui, Laurens, culpare silentia vatis,</l>
+                     <l>Ni cupis eiusdem criminis esse reus,</l>
+                     <l>Nam duo lustra jere nobis transacta, sodales</l>
+                     <l>Ex quo segnities detinet una duos.<ptr n="24"/>
+                     </l>
+                  </q>
+              
+Nascimbenium quoque, quem vix Nascimbenum Nascimbenium Ferrariensem esse crediderim, qui Ragusii olim rhetoricae praeceptor fuerat scripsitque in libros Tullii De inventione commentarios typis Venetiis editos apud Bologninum Zalterium anno MDLXIII et ab authore ipso Ragusino senatui dicatos; aetas enim vix constare videtur. Ad eum porro scribens haec habet:
+<q>
+                     <l>Si nunc Cimmeriis agam tenebris, </l>
+                     <l>Aut ultra Scythiam vagus nivalem,</l>
+                     <l>Et monstra Oceani reciprocantis</l>
+                     <l>Visam, tam procul immemor nec essem,</l>
+                     <l>Nascimbene, tui recens sodalis </l>
+                     <l>Verum dignus in intimis haberi . . .<ptr n="25"/>
+                     </l>
+                  </q>
+              
+Praeterea Franciscum Rogadeum, quem a iurisperitia impense laudat:
+<q>
+                     <l>Francisce, hinc soboles Rogadeorum </l>
+                     <l>Nostris sensibus effluis, Quiritum</l>
+                     <pb n="24"/>
+                     <l>Cum scita et populi rogationes </l>
+                     <l>Et praetoria iussa principumque </l>
+                     <l>Tot decreta, tot acta, tot senatus </l>
+                     <l>Consulta exciderint...<ptr n="26"/>
+                     </l>
+                  </q>
+              
+Andream insuper nescio quem, virum, ut puto, sicut et caeteros litteratum:
+<q>
+                     <l>Si Leten ego, seu venena potem </l>
+                     <l>Tristis mandragorae periculosa </l>
+                     <l>Nedum somniferum papaver, essem</l>
+                     <l>Andreae memor, hunc amem, necesse est,</l>
+                     <l>Olim discipulum meum, paventem,</l>
+                     <l>Qui me dictitat et libens fatetur...<ptr n="27"/>
+                     </l>
+                  </q>
+Vitum etiam iurisconsultum, mihi pariter incompertum; ait enim:
+<q>
+                     <l>Nec Vitum, unanimem meum sodalem,</l>
+                     <l>Doctum transeo iuris utriusque?<ptr n="28"/>
+                     </l>
+                  </q>
+Primum autem in amicorum numero habuit Iulium Pomponium Laetum Salernitanum, quem etiam prae caeteris dilexit, suum olim in Quirinali academia socium, etsi aetate longe maiorem; Laetus enim sub Pio secundo et Paulo item secundo, Romanis pontificibus, Romae maxime floruit praeceptorque fuit Alexandri Farnesii, qui in pontificatu maximo Paulus tertius dictus est. Hunc nempe virum multis editis operibus celeberrimum in primis coluit Cervinus, ad quem ita in epistola:
+              <milestone unit="page" n="5"/>
+                  <q>
+                     <l>Ergo quis in vitium tam longa silentia vertat,</l>
+                     <l>Quis, rogo, desidiam dogmata sacra vocet?...</l>
+                  </q>
+                  <q>
+                     <l>Quae regio nescit tanti nova dicta poetae,</l>
+                     <l>Quae magis in toto claruit orbe manus? ...</l>
+                  </q>
+                  <q>
+                     <l>Ergo quod abstineas scriptis, nec inertia suadet,</l>
+                     <l>Culpa nec ingenium vindicat ulla tuum ...<ptr n="29"/>
+                     </l>
+                  </q>
+30 Eundem laudat, quod Romae theatra aperuerit et comaediarum atque tragaediarum usum iam olim antiquatum instauraverit:
+<q>
+                     <l>Ecce theatrales renovat comaedia plausus,</l>
+                     <l>Ecce habitus redimunt tempora prisca suos. </l>
+                     <l>Procedit pariter soccus pariterque cothurnus,</l>
+                     <l>Hic humilis serpit, grandius ille tonat,</l>
+                     <pb n="25"/>
+                     <l>Grandius ille tonat reges regumque ruinas,</l>
+                     <l>Dulcibus hic pingit verba iocosa modis. </l>
+                     <l>Comaedum ridere decet, lugere tragaedum,</l>
+                     <l>Tristior hic nobis, laethior ille placet... </l>
+                     <l>Quod tamen in vultus audet remeare priores</l>
+                     <l>Utraque longaevo musa recepta situ, </l>
+                     <l>Rursus et Ausonios pulsant proscenia colles</l>
+                     <l>Cui rogo, cui munus tale referre licet? </l>
+                     <l>Pomponi inventum est...</l>
+                     <l>Ille cothurnatum nam Syrma et prisca reduxit</l>
+                     <l>Pulpita, cum soccis conspicienda suis ...<ptr n="30"/>
+                     </l>
+                  </q>
+Denique, ut missos faciam caeteros, etsi illustres omni liberali disciplina viros, amicissime vixit cum Hieronymo Fracastoreo, Veronense, medico, poeta, philosopho, astrologo et nominis amplitudine et editis lucubrationibus toti orbi notissimo, qui cum eruditis omnibus suae aetatis hominibus litterarum commercium habuisse perhibetur. A Fracastoreo igitur dono recepit Lucretii opusculum emendatum illud et perpolitum; qua de re elegiam scripsit Cervinus laudatque amicum multis clarum nominibus atque pro
+accepto munere gratias agit inquiens:
+  <milestone unit="page" n="16"/>  
+                  <q>
+                     <l>Qui curat morbos Hieronymus, hoc tibi praestat,</l>
+                     <l>E carie versus eruit ille tuos... </l>
+                     <l>Versibus hinc praesto est, hinc ille iacentibus aegris</l>
+                     <l>Atque instar Phaebi culmen utrumque tenet, </l>
+                     <l>Inde prius quam te Ragusam mittere passus,</l>
+                     <l>Iam bene purgata labe politus eras, </l>
+                     <l>Nam mihi donandum compsit te, magne Lucreti, </l>
+                     <l>Sordidulum munus nec tulit esse meum.<ptr n="31"/>
+                     </l>
+                  </q>
+               </p>
+            </div>
+            <gap reason="imperfectum"/>
+            <pb n="69"/>
+            <div type="prosa-vita">
+               <head>
+              ANDREAS CIBRANOVICH
+            </head>
+               <p>
+              Quod olim sapienter a <persName>Tullio</persName> dictum est,
+              <note xml:id="ftn0" place="foot" n="1">Liber 1. De officiis</note>
+              opifices nempe omnes in sordida arte versari, nec quidquam ingenuum posse habere officinas, id ita accipiendum esse arbitror, ut opifices in officinis artis suae exercentes officia nihil ingenui praeseferant, eos nihilominus animum ingenuum habere et, si ex officinis se eiiciant, etiam ad ingenua aliqua studia excolenda aptos <sic>fiere</sic> posse, nec <milestone unit="page" n="64"/> 
+                  <persName>Tullius</persName>, praesertim quod homo Romanus, ibit inficias. Quis enim nisi omnino hospes et peregrinus in gentium, quae populo principatum permittebant, historiis, in Romana praesertim, ignorat saepenumero ex officinis opifices atque etiam ex agris et ab aratro bubulcos ad rem cum imperio gerendam accersitos animo plane ingenuo imperasse et egregiam reipublicae operam navasse? At certe non omnino invenies opificem, qui in officina callum obduxit, ad litterarum studia aptum et appositum. Quod si id etiam fieri posse quispiam contendat, inficias non ibo; inficiari tamen nullus omnino verebor, eum non ita celeriter litteras percepturum, ut ex officina se proripiens, depositis extemplo illiberalibus suae artis instrumentis, ad litteraria se conferat non studia modo, sed etiam opera, in iisque, quasi iam inde a puero cum Musis conversatus esset, summus appareat; nisi is ipse singulari quodam et quale nulli vel admodum paucis contingit praeditus esset ingenio, de quo plane ita, neminem scilicet mortalium illi anteferendum, paucos omnino conferendos, nemo non statueret.
+            </p>
+               <p>
+              II. Hinc, quid statuendum de <persName>Andrea Cibranovich</persName> 
+                  <ref>(1)</ref>, populari nostro a nobis in praesentia laudando, satis manifeste apparet. Hic  legendi atque scribendi, nec id quidem scite, facultatem vix adeptus, nullo praeterea litterarum posito tyrocinio, argentariae arti, quae illi panem praeberet, a prima aetate se totum tradidit atque ex officina, in qua diu versatus erat, praecipiti quasi furore se eiciens, ad poesim animum adiecit sumptisque plectro ac lyra ea statim atque imparatus cecinit, quibus canendis vix alius in Musarum sinu a primo aetatis exordio altus et educatus sufficeret.
+            </p>
+               <p>
+              Equidem ferunt illum insano nobilis matronae amore captum, excitatis, qui in eius mente latebant, poeticae igniculis, poetam casu evasisse. Cum enim nulli, ei praesertim quam deperibat intimos cordis sui sensus patefacere auderet, veritus maximam in caput suum pestem, si palam fieret ignis, qui in suo pectore ardebat, accersere, id saltem sibi licere ratus, quotiescunque illa e domo <pb n="70"/> egrederetur, vel ad sacram aliquam aedem vel alio concessura, quod ille diligenter quotidie explorabat, eminus eam, formae eius contemplandae causa, sequebatur, neque enim propius accedere satis sibi tutum, conscientia mordente, credebat. At vero semel accidit, ut matrona illum cominus accedentem intuita et submissa voce nescio quid loquentem inaudiens, conversa ad pedisequam, quasi iracunde diceret: Quid porro Aegyptius iste, in quem ita saepe <milestone unit="page" n="65"/> incurrimus, mussitat Aegyptiace ac susurrat, nec plura? Hac voce excitatus ille et poetico furore afflatus, quasi caballinum fontem potasset, domum continuo se recipiens, incredibili celeritate poematium edidit Illyricum, Aegyptiam, alludens ad nomen, quo eum matrona appellaverat, inscriptum. Cum amicis deinde ac patronis suis, viris doctis et eius artis egregie peritis, de lucubratiuncula sua communicavit, quam cum probari ab omnibus summisque laudibus efferri vidisset, utrum in officinam deinceps redierit, incertum, certum tamen est illum poesis studio se totum dedisse et multa edidisse alia poemata, quae maiorum incuria periere.
+            </p>
+               <p>
+              Aegyptia, de qua diximus, poematium superest CLVIII metris constans,  certe si vel verborum nitorem, vel sententiarum gravitatem, vel carminum rationem, numeros, modos elegantiamque perpendas, vix aliquid tale, melius nihil fieri posse putabis, ut aptis verbis et ad rem <sic>accomodatis</sic> ea, quae ille feliciter expressit, consummatis etiam poetis difficile fuerit exprimere. Hinc celeberrimos nostrorum poetarum <persName>Ioannem Gundulam</persName> et <persName>Iunium Palmottam</persName> non puduit integra eius carmina suis inserere poematibus, ut inde palam facerent summi illi viri, eam se <persName>Andreae</persName> carminum rationem habuisse, quam <persName>Ennii</persName> atque <persName>Lucretii</persName> carminum habuit <persName>Virgilius</persName>. In eo Aegyptiam sagam inducit puellis de sorte sua sollicitis futura fata praecinentem. Primum e praelo exiit <date when="1599">anno MDXCIX</date>, subinde pluries, nec alibi quam Venetiis. Manu autem exaratum nemo est Ragusii, qui aliquam litterarum Illyricarum rationem habeat, et in musaeo suo non servet ac saepius manibus terat. Ob verborum proprietatem et candorem inter classicos linguae Illyricae authores ab Ardelio Dellabella Societatis Iesu in suo Lexico Illyrico numeratur. Florebat initio seculi XVI. <bibl>
+                     <persName>Marcus Antonius Sabellicus</persName> libro X supplementi historiarum</bibl> Andreae Cibranii meminit, ubi enim Venetorum copias ad Odetum Fuxium, vulgo Lautrechium, Gallici exercitus ducem, in agro Mediolanensi accersisse memorat, haec habet: Constabant Venetae copiae mille ferme levis armaturae equitibus, in queis erant Epirotici et Graeci generis pileati peltatique circiter quingenti, Andrea Cibranio duce <ref>(2)</ref>. Nomen atque etiam aetas nostro Cibranio conveniunt, nam Odetus in Italia fuit circa XX <milestone unit="page" n="71"/> eius seculi annum, verum utrum reipsa de eo loquatur Sabellicus, incertum adeoque rem in medio relinquo.
+            </p>
+               <p>
+              Cum plura vero veterum poemata elegantissima prae manibus passim a nostris habeantur sine authoris nomine, optandum esset, ut qui ab opere vacant viri eruditi ea diligenter excuterent, ex stylo enim aliisque notis fortasse alicuius ex illis Cibranium authorem deprehenderent.
+            </p>
+            </div>
+          
+            <pb n="213"/>
+            <div type="prosa-vita">
+               <head>
+              CHRISTOPHORUS LILIATUS
+            </head>
+               <p>
+
+              Quod aliis multis doctissimis viris sive temporis marmora et aera consumentis iniquitate, sive hominum incuria evenisse saepe conquestus sum, id ipsum quoque clarissimo poetae Christophoro Liliato accidit, ut nimirum nobilissimae eius lucubrationes deperirent et nomen egregii viri ex hominum memoria tantum non excideret.</p>
+              
+              <p>Ragusii natus est civilis ordinis parentibus, honesto satis loco, e Liliatorum, vulgo Gigliati, gente paulo ante patrum memoriam extincta. Ipse tamen Christophorus, teste <persName>Paschale de Primis</persName> in epistola, qua ei Euridicem suam nuncupat, in nobilium Romani imperii ordinem ob egregia fratris sui Ioannis promerita a Rodulpho imperatore fuit relatus. Puer liberalibus studiis operam navavit processitque, quo eum acre ingenium cum assidua exercitatione perpetuoque humanarum litterarum cultu coniunctum par erat, ut eveheret: nempe summam poeticae artis lineam attigisse caeterisque humanioris litteraturae peritissimus evasisse perhibetur. Primum in publico tabulario locum nactus scribae nomine, 
+              <pb n="214"/>
+              quem a cancellis vulgus cancellarium appellat, in privatorum tabulis conficiendis gravi iudicio multaque arte se exercuit. Deinde vero cum diuturno industriae, fidei, probitatis experimento senatui valde se probasset, reipublicae a secretis munus, summum nempe, quod ad cives eius ordinis <milestone unit="page" n="232"/> spectat, eo deferente gerendum suscepit parique integritate, virtute, solertia gessit.</p>
+              <p>Quamvis autem negotiis gravibus adeo assiduisque distentus, Musas cum Latinas, tum Illyricas, cum quibus a teneris rationem habuerat, minime neglexit, sed cum iis quotidie versatus cecinit scripsitque utraque lingua multa poemata, quae vel periere pro humanarum rerum conditione, vel ex iis forte nonnullae erunt, quae sine authoris nomine circumferuntur. Extat unicum, quod sciam, carminum eius monumentum, scilicet in <persName>Ioannis Gundulae</persName>, Piacularium psalmorum Illyrici interpretis, laudem ode Latina eodem in opere typis vulgata, quae, quantum ea in arte valeret Liliatus, testis est locupletissima. Florebat ineunte superiori seculo XVII.</p>
+            </div>
+            <div type="prosa-vita">
+               <head>FLORIA DE ZUZORIS</head>
+               <p>Solent principes viri in pomariis, in pinacothecis aedibusque operam dare, ut in aditu ipso atque vestibulo vel tabulae graphice depictae, vel signa docta manu efficta, vel aliud insigne artis opus locetur, quo nempe spectatum adeuntibus statim in propylaeo speciosae res illae ad oculos veniant eorumque animum occupent; fit enim inde, ut attonitis et in admirationem iam traductis atque voluptate affectis caeterae loci partes, etsi quaedam non omnino admirandae, admirationi sint ac voluptati.</p>
+               <p>Id a me, ne cogitante quidem, sed casu et ex ordine illustria
+            doctorum hominum nomina referente iam factum adverto, qui in
+            alterius huiusce tomi initio, quasi in limine rem admodum speciosam, doctissimae scilicet poetriae lectissimaeque matronae, quae
+            se mihi laudandam offert, nomen, suae olim Patriae ornamentum,
+            seculis deinceps omnibus praedicandum exhibeo. Floria de Zuzoris olim non modo Ragusii, sed in tota fere Italia poeticae artis laude
+            notissima ea est, ad quam laudandam aggredior.</p>
+               <p>Neque vero oris eius pulchritudinem et vultus venustatem, quamvis specie ad miraculum
+            exculta fuisse perhibeatur; non castos mores atque pudicitiam, qua omnium seculorum
+            matronis in exemplum proponenda videbatur, ut illud poetae illi merito ascripseris: <cit>
+                     <quote>
+                        <l>Hac condiscipula, vel hac magistra</l>
+                        <l>Esses doctior et pudica, Sappho</l>
+                     </quote>
+                     <bibl>(Martialis, liber X, epigramma 32)<ref>1</ref>
+                     </bibl>
+                  </cit> 
+                  <pb n="2-4"/> non artes illas, in quibus muliebre studium se exercet, praesertim
+            acu pingendi, quam eximie profitebatur, commendabo, id illi cum
+            multis commune; neque enim adeo difficile est et pulchras, et pudicas, et industrias mulieres, praesertim matronas, reperire. Quod
+            singulare, quod proprium decus eius fuit et ad mulieres, ut ita
+            dixerim, non pertinens, illud laudabo. Sed primum omnium nobilissimae poetriae genus referendum mihi est.</p>
+               <p> 
+                  <milestone unit="page" n="2"/> II. Itaque Franciscus Zuzoreus, Blasii filius, Floriae pater, vir ex civium
+            ordine, cum opibus, tum cultu et vitae honestate admodum spectabilis Ragusii, uxorem
+            duxit in patria Marinam, Petri Radalei, honestissimi civis, filiam, ex qua multos
+            utriusque sexus suscepit liberos. Nos ex maribus suo loco laudabimus fratrem Franciscum,
+            Capucinum caenobitam, virum clarissimum; at vero sex ei natae sunt filiae, quarum
+            Margarita, natu minima, nupsit Ragusii Hieronymo de Primis, Benedicti filio, quatuor
+            Anconae, in qua urbe post susceptos omnes fere liberos, quam ob causam plane ignoro,
+            sedem suam domumque locaverat Franciscus, nobilibus viris in matrimonium collocatae
+            fuerunt, nempe Nicolea Camillo Gabriellio, Lucretia Paulo Torreleonio, Elisabetha Petro
+            Gentili Bonarello, Catharina Iulio Armentico; at Floria inter filias Secundo loco nata
+            cum Bartholomaeo Pescionio Florentiae nobili genere orto matrimonium iniit, verum
+            Ragusii, nam syngrapha, quam pactum matrimoniale vocant, Ragusii scripta fuit ibique in
+            publicas tabulas relata XIV Kalendas Martias anni MDLXXVII. </p>
+               <p>Cum viro Florentiam se contulit Floria, ubi Etruscam linguam
+              brevissimo tempore egregie didicit, ut in Etruria nata videretur,
+              caepitque ea lingua versus edere, quae prius, Illyricis addicta
+              Musis, multa Illyrica carmina elegantissime ediderat.</p>
+               <p>III. Etenim ingenio erat facili ad condendos versus, prompto, acuto, ut in Musarum sinu
+            educata videretur. Epigrammata eius, quo carminis genere maxime delectabatur, stylo adeo
+            eleganti confecta, adeo argutis conclusa sententiis feruntur, ut vix in viro atque poeta
+            exercitatissimo aliquid tale desiderares. Porro docile ac perspicax ingenium, insignis
+            eruditio atque elegans cultaque dicendi copia in muliere si reperiantur, magnam profecto
+            illi omnium et admirationem et benevolentiam iure merito conciliant. Enim vero
+            litterarum studia in eo sexu nemo exigit, nemo desiderat, qui communi omnium iudicio pro
+            libris ad acum et colum, pro schola ad textrinam amandatur; hinc si litteras colit
+            mulier, supra sexus conditionem elevata, virum agere creditur. Sane in Floria ea vis
+            ingenii; is litterarum amor, ea poeticae facultatis praestantia, ea bonarum artíum
+            peritia enituit, ut si in viro, etiam assiduis studiis addicta reperiretur, admirationi
+            esset. Hinc facile intelliges, <pb n="2-5"/> quare summorum ea aetate virorum et
+            admirationem et benevolentiam sibi conciliaverit merueritque summis etiam laudibus
+            celebrari. Nonnulla laudum eius monumenta placet hic describere.</p>
+               <gap/>
+               <p>
+                  <milestone unit="page" n="5"/>   Caetera, ne longior sim, praetereo.</p>
+               <p>
+              Sane vero Floriae poemata ab aliquo ex iis, qui eius virtutem summopere mirabantur, collecta fuisse nullus dubito, sed utrum <pb n="2-10"/> aliquando in lucem prodierint, vel adhuc in aliquo angulo lateant, omnino me fugit. Ubi gentium obierit, ignoro, cum et Florentiae et Ragusii etiam cum viro domicilium habuisse constet. Post virum tamen obiisse et ante Dominicum Slataricchium certum est, nam idem Slataricchius eam ob viri mortem egregio poemate solatus est eandemque vita defunctam alio item Illyrico carmine laudavit.</p>
+            </div>
+            <pb n="2-559"/>
+            <div type="prosa-vita">
+               <head>
+              Sor. NICOLEA RESTIA ORD. PRAED.
+            </head>
+               <p> Romani eloquii dignitas, iam olim cum imperio amissa, non modo in Latio, natali nempe
+            solo, verum etiam in Urbe ipsa, ubi adolevit perfectionemque, elegantiam, venustatem
+            accepit, ad hanc diem desideratur. Irruentes enim barbari et omnia circum late
+            vastantes, exactis bonarum artium studiis, antiquam simul illam loquendi rationem, qua
+            Sallustii, Caesares, Tullii, Livii, Nepotes, Phaedri usi sunt, in recentem barbaram
+            commutarunt, semelque in <pb n="2-560"/> Latio ammissa reparari nunquam potuit, ut Roma
+            ipsa ex eo tempore Romane nunquam locuta fuerit. Hinc est, quod siquis ex recentioribus
+            ad veteris eloquii maiestatem, nec ita prope accedat, in litteraria republica locum
+            habet et primis in ordinibus numeratur. Eo in ordine magna nomina Lipsios, Muretos,
+            Manutios, Turnebos, Lambinos, Sannazarios, Bembos, Hicios, Facciolatos et iis similes,
+            qui veteris linguae dignitatem utcunque imitari studuerunt, suspicimus et fere
+            admiramur. At si viri Latine loquentes admiratione digni videntur, admirationem longe
+            maiorem incutere debet, siqua faeminarum perfectam absolutamque Latini idiomatis
+            rationem calleat, praesertim in ea regione orta, in qua vulgi sermo Latino cum eloquio
+            nihil habet <milestone unit="page" n="314"/> commune.</p>
+            
+               <p> Hinc vide, qua laude etiam in serae posteritatis memoria celebranda sit soror Nicolea
+            Restia in Divae Mariae Angelorum seu Sancti Michaelis, ut vulgo appellabatur, caenobio
+            divi Dominici regulam professa, quae Ragusii nata, educata, toto vitae tempore versata,
+            ita Latine loquebatur, ac si a matris uberibus una cum lacte eam linguam suxisset
+            rationemque omnem Romani sermonis callebat, ut Romae aurea aetate orta videretur; at
+            eadem Italici sermonis, quod nemo non mirabitur, expers omnino erat. </p>
+               <p>
+            Venit itaque Ragusium anno DLXXXVII supra M frater Seraphinus Ractius ab Ordinis
+            Praedicatorum magistro missus, qui vicarii generalis nomine fratrum Congregationem
+            simulque sororum caenobium, quod per idem tempus in Ordinis potestate erat, moderaretur.
+            At Ractius saepe pro officii ratione sacras illas virgines alloqui debuit et cohortari,
+            multa insuper ad earum regimen pertinentia in mandatis dare, de variis negotiis cum
+            Antonia Benessa, Matthaei, a nobis supra laudati, sorore, caenobii praeposita, tractare,
+            verum nec ipse Illyrice, nec ulla ex sacris virginibus Italice loqui noverat. Omnia quae
+            oportebat Latine et dicebat et scribebat Ractius, quae Restia Illyrice statim
+            interpretabatur et verbis aut scripta, quae opus essent, responsa Latino sermone dabat.
+          </p>
+               <p>
+            Porro Nicolea soror erat Andreae, filia Marini Restii, viri patricii ac senatorii,
+            quae Ordini Praedicatorum in laudato caenobio nomen dedit V Nonas Octobris anno LVI post
+            MD, cumque diu ac laudabiliter in eo vixisset, ad plures abiit V Kalendas Sextilis anno
+            III seculi XVII.
+          </p>
+            </div>
+          
+                  </div>
+      </body>
+  </text>
+</TEI>

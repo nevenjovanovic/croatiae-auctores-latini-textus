@@ -1,0 +1,2885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="grisogono-f-speculum">
+         <titleStmt>
+            <title>Speculum astronomicum, versio electronica</title>
+            <author key="grisogono01">
+               <name xml:lang="hr">Grisogono, Federik</name>
+               <date>1472-1538</date>
+            </author>
+            <editor>Mihaela Girardi-Karšulin</editor>
+            <editor>Olga Perić</editor>
+            <editor>Tomislav Ćepulić</editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Prema novom znanstvenom izdanju (2007).</p>
+         </editionStmt>
+         <extent ana="D">Mg:D Versus 100, verborum 18852</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma,
+          (Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska). <date>Kolovoza
+            2012.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Federicus Chrysogonus/Federik Grisogono, 
+          Speculum astronomicum/Astronomsko zrcalo, 
+          uredile Mihaela Girardi-Karšulin i Olga Perić, tekst uspostavio i preveo Tomislav Ćepulić.
+          Zagreb: Institut za filozofiju, 2007.
+        <relatedItem type="digitalisatum">
+                  <ref type="internet"
+                       target="http://www.ifzg.hr/digitalnaBastina/Grisogono-lat.pdf">Institut za filozofiju, Digitalna baština</ref>
+               </relatedItem>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1507" period="15xx_1_third">1507</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+               <term>poesis - paratextus poetici</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+               <term>prosa oratio - oratio</term>
+               <term>prosa oratio - tractatus</term>
+               <term>poesis - ode</term>
+               <term>poesis - elegia</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+      
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>        
+            <date>2012-08-27</date>
+        Početna verzija.
+      </change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <front>
+         <milestone unit="section" n="A1"/>
+         <titlePage> 
+            <titlePart>Speculum astronomicum terminans 
+        intellectum humanum in omni scientia</titlePart> 
+            <docAuthor>Federici Chrysogoni Iadertini.</docAuthor>
+         </titlePage>
+         <pb n="4"/>
+         <milestone unit="section" n="A2"/>
+         <div type="prosa-epistula-praefatio">
+            <head>EPISTOLA</head> 
+
+            <opener>Marcus Antonius, Caroli Contarreni filius, philosophiae 
+et sacrae theologiae candidatus, Federico Chrisogono 
+Iadertinorum nobilissimo, artium et medicinae 
+doctori acutissimo<ref type="note" xml:id="ref1" target="n1" n="1"/>, astrologorum principi, ordinarie in 
+alma Academia Patavina feliciter legenti, felicitatem.</opener> 
+
+            <p>Pater Atlas, quia astrorum motus optime calluit, ideo 
+caelum manibus amplecti dicitur. Quod a Ptolemaeo et 
+Alphonso, rege Hispanorum<ref type="note" xml:id="ref2" target="n2" n="2"/> et imperatore Romanorum, 
+compertum est satis trepidare. Forte quia, senio confectus, 
+robore corporis molem tantam sustinere non valet. Vel 
+forte, quia pater ipse physica cognitione non bene firmatus 
+monitusque caelos a suo motu trepidationis firmare 
+non potest. Quare, Federice, philosophorum acutissime<ref type="note" xml:id="ref3" target="n3" n="3"/> 
+et astrologorum princeps, ne post tantam caeli trepidationem 
+ruinam minantis universum rueret, bene natura sibi 
+consuluit Te sidere<ref type="note" xml:id="ref4" target="n4" n="4"/> fulgentissimo a caelo misso. Te, dico, 
+omni robore praedito omniumque scientiarum humanarum 
+divinarumque praesidio firmato munitoque, ut quae 
+labuntur firmares: nec opus est in tui doctrina, vel acumine<ref type="note" xml:id="ref5" target="n5" n="5"/> 
+intellectus dubitare. Vidi enim te (quid dixi, vidi), vidit 
+tota Academia Patavina milies subtilissime de secretis et 
+arcanis<ref type="note" xml:id="ref6" target="n6" n="6"/> naturae publice disceptantem: de potentia Dei; de 
+eius <sic>inefabili</sic> modo intelligendi atque producendi; de felicitate 
+et perfectione nostra; de immortalitate animae, de 
+reliquis etiam peripateticis<ref type="note" xml:id="ref7" target="n7" n="7"/> (ac tua si essent) pertractantem: 
+ita tamen quod satis ambigitur doctus ne sis vel sis 
+ipsa doctrina. Sed quid etiam dicam de tuis divinis mathematicis
+
+
+
+
+
+
+
+
+
+
+
+<pb n="6"/>
+ in quibus divina integritas maxime suam bonitatem 
+et excellentiam humano generi communicavit, quum 
+nos (quantum potentiae ordinatae et fragilitati humanae 
+conveniebat) sibi similes fecerit, ut subtilissime in hac tua 
+doctissima oratione in principium studii Patavini doctissime 
+ostendisti? Quarum vere princeps vel magis parens 
+esse videris, in manu cuius destructio et constructio <milestone unit="section" n="a2"/> 
+ipsarum sita est, quia te dubitante omnes convenit dubitare. 
+Quae tu non solvis, non erunt soluta. Aliena video 
+tibi nullam facere difficultatem, sed tua quidem omnibus. 
+Hoc tuae publicae disputationes, lectiones, commentaria<ref type="note" xml:id="ref8" target="n8" n="8"/> 
+et additiones super Quadripartitum et Almagestum 
+Ptolemaei clare significant. Quare non hoc acumini tui 
+intellectus, sed cuidam divinitati potius ascribendum esse 
+puto: tot scilicet magna, imo omnia praeclara, in te uno 
+individuo esse clausa et contenta. Quae quidem non humanitus, 
+sed certe divinitus adeptus es. Haec enim sunt, 
+quae te gratum omnibus reddunt. Haec sunt causa, quare 
+te turba sophorum Patavina (utilitati propriae consulendo) 
+in lectorem elegerit, ut tuarum speculationum eam 
+participem facias et ad felicitatem speculativam dirigas. 
+Tibi certe sunt omnes virtutes morales; tibi habitus practici 
+et speculativi; tibi mens sana in corpore sano cum bona 
+fortuna; tibi omnis felicitas politica atque speculativa; tibi 
+sermo gratus, amoenus et iocundus. Tu vel paucis omnes 
+ad te allicis. Tu quidem unicus in omni genere laudum 
+materiam praebes te extollendi et tamen numquam es 
+satis laudatus. Tu denique Chrisogonus es, quod Latine 
+sonat aureum genus, quia vere aureus es intus et extra. O 
+nos felices, quibus contigit in haec tempora incidisse, talemque 
+ducem in doctrinis enucleandis modo habere, sub 
+vexillo cuius continget nos tramite recto et non obliquo 
+ad terminum felicitatis properare! Ex quo mi Federice: 
+
+
+
+<pb n="8"/>
+quamvis te inter sidera<ref type="note" xml:id="ref9" target="n9" n="9"/> post sera tempora collocabimus, 
+tamen interim praeconia tuarum disputationum lectionumque 
+in Gymnasio Patavino hincinde collecta; orationem 
+etiam cum tractatu universali in divinas mathematicas 
+(qui speculum astronomicum iure dici debet, terminans 
+totam potentiam intellectus humani in omni scientia, quia 
+compraehendit omnia humana atque divina) impressioni 
+per me mandata (ut posteris etiam haec innotescant) ad 
+te mitto. Reliquas vero tuas lectiones doctissimas lectas et 
+legendas (bono communi consulendo) tibi imprimendas 
+relinquo. Vale.</p> 
+         </div>
+         <div type="prosa-oratio">
+            <milestone unit="section" n="A3"/> 
+            <head>ORATIO clarissimi artium et medicinae doctoris 
+Federici Chrysogoni Iadertini in Academia 
+Patavina publice habita</head> 
+
+            <p>Dum quintum aetatis annum ducerem, una die utroque 
+parente orbatus sum, concio ornatissima, nec amplius 
+censores habere volui, sed vi superum et intelligentia non 
+errante gubernatus primis elementis et grammaticae studiis 
+me dicavi usque quo duo Civalleli, duo avunculi mei, 
+duo philosophi acutissimi, duo oratores et poetae ornatissimi, 
+duo huius almae universitatis moderatores insignes, 
+me ad studia Patavina excitavere. Quibus brevi defunctis, 
+legibus operam dare volui, in quibus habitis publice conclusionibus 
+eisdem finem imposui. Et me divinis mathematicis 
+ex toto dicavi, amore quarum accensus, non solum 
+per totam Italiam, sed ferme per totam Europam peregre 
+profectus sum sub diversis militando ducibus dogmata 
+divi Platonis et Pythagorae secutus<ref type="note" xml:id="ref10" target="n10" n="10"/>. Cum autem me reflecterem 
+supra me cognosceremque, quod scire nostrum 
+sine dialectica est velut in tenebris deambulare, in quibus
+
+
+
+
+
+<pb n="10"/>
+siquid manu tenemus, quidnam illud sit, ignoramus. Sciebam 
+enim mathematicas et eas nesciebam me scire. Solius 
+enim logici est non solum sciendi modum nobis praebere, 
+verum etiam defendere nos a malis in practicis et a falsis 
+in speculativis (Themistio referente). Quare iterum ad 
+fontem veritatis, ad parentem et alumnam omnium scientiarum 
+me contuli. Ubi dialecticis, physicis, metaphysicis, 
+medicinis necnon sacrae theologiae enixe operam navare 
+volui, solum ut altius secreta naturae et arcana<ref type="note" xml:id="ref11" target="n11" n="11"/> huius 
+scientiae mathematicae speculari valerem. Qua nihil divinius, 
+nihil praestantius divina bonitas humano generi 
+praestitit. Quia, praetermissa auctoritate Philosophi dicentis 
+<milestone unit="section" n="a3"/> tres tantum esse artifices scientificos: mathematicum 
+scilicet, physicum atque metaphysicum<ref type="note" xml:id="ref12" target="n12" n="12"/>, quorum 
+mathematicus obtinet primum gradum certitudinis; praetermissa 
+etiam auctoritate divi Boethii affirmantis nullum 
+ad culmen sacrae philosophiae posse pervenire neglectis 
+mathematicis; <corr>praetermissa</corr> etiam auctoritate magni Commentatoris 
+Averrois negantis sine habitu mathematico 
+quempiam posse pervenire ad illam felicitatem speculativam, 
+quae secundum falsam opinionem peripateticorum<ref type="note" xml:id="ref13" target="n13" n="13"/> 
+est ultima perfectio nostra, quia Deum non cognovere sub 
+propria ratione neque esse nostrum in patria beatificum 
+et aeternum, sed unica ratione volo esse contentus, excellentes<ref type="note" xml:id="ref14" target="n14" n="14"/> 
+scilicet mathematicas sua nobilitate omnes scientias 
+humanitus acquisitas excedere, quia per eas solas Deo 
+optimo maximo similes esse posumus, cum ipsi (Deo benedicto) 
+et praeterita et futura sint praesentia. At sola 
+mathematica inter omnes alias scientias humanitus acquisitas 
+praeterita et futura praesentia facit (quamvis imperfectiori 
+modo). Etsi haec magis exacte et dearticulate 
+
+
+
+
+
+
+  <pb n="12"/>
+  inquiramus et ad singulas partes huius scientiae inspiciamus, 
+  certe inveniemus, quod ignorata mathematica et qualibet 
+  parte eius, ignorabitur quidem tota latitudo entis et eius 
+  perfectio tota discurrentibus nobis ab arithmetica<ref type="note" xml:id="ref15" target="n15" n="15"/> integritate 
+  tamquam a parente omnium scientiarum. Qua 
+  ignorata geometriae qualis cognitio erit? Puta trianguli vel 
+  quadrati cum nihil aliud sint, nisi figura tribus vel quatuor 
+  lateribus vel angulis contenta, quae omnia solo numero 
+  compraehenduntur? Non musicae, cum nihil aliud sit 
+  quam numerus ordinatus ad sonum. Non astrologiae, 
+  cum nihil aliud sit, quam diversae observationes, motus 
+  planetarum, vices temporum, annuae conversiones, diversi 
+  labores solis atque lunae, quae omnia solo numero 
+  mensurantur. Non corporum caelestium, non substantiarum abstractarum; denique non Dei benedicti, cum et 
+  ipse numero subiacere videatur, quatenus est unum principium actu existens, a quo omnis multitudo, omnis bonitas essentialiter fluit et <milestone unit="page" n="A4"/> dependet. Ignorata etiam 
+  geometria certe ignorabitur tota mundana moles, quae 
+  nihil aliud est quam corpus centro et circumferentia perfecta terminatum. Cui etiam figurae competit motus velocissimus, de quibus in libro De caelo et mundo agitur. 
+  Ignorabitur etiam omnis longitudo, latitudo et profunditas, quae sunt dimensiones ipsius corporis. Situs etiam et 
+  locus, de quibus in De physico auditu. Ignorata etiam 
+  musica ignorabitur animae mundi compositio. Quae secundum divum Platonem est musicali harmonia composita: de qua in libro De anima maxime secundum Themistium, 
+  qui hac ratione motus voluit considerationem 
+  animae, non naturalis, sed mathematicae considerationis 
+  esse. Qua quidem ignorata ignorabitur omnis modus 
+  sciendi per abstractionem, qui tantum est scientificus. 
+  Ignorata etiam astrologia, qua cognoscimus fatalia 
+  
+  
+    
+
+<pb n="14"/>
+  sidera<ref type="note" xml:id="ref16" target="n16" n="16"/>, per quae mentes hominum, fortunam<ref type="note" xml:id="ref17" target="n17" n="17"/> omnem, vitam 
+  atque mortem. Denique ignorata ipsa effectus omnes 
+  in sphaera activorum et passivorum ignoramus: qua etiam 
+  cognita (ut causa) effectus omnes facile cognoscimus: de 
+  quibus in Metheoris<ref type="note" xml:id="ref18" target="n18" n="18"/> et in De bona fortuna. Unde non 
+  sine forti ratione divini Platonici atque Pythagorici<ref type="note" xml:id="ref19" target="n19" n="19"/> totam 
+  philosophiam naturalem atque divinam solo numero speculati 
+  sunt. Est enim tantae excellentiae et ambitus, quod 
+  eminenter transcendit omnem cogitationem nostram, 
+  totam potentiam, et lumen intellectus nostri. Quem numerum, 
+  species, vel ideas id est rationes in opifice manentes, 
+  specificos numeros vocavere. Dico specificos, quia 
+  species quae hic sunt, producunt, numeros dico, nam sicut numerus numerum producit, velut duo quatuor et 
+  quatuor octo, ita et rationes quae in opifice sunt, eas producunt 
+  species, quae hic sunt in inferioribus. Et quemadmodum numerus res ipsas definit qui enim decem vel 
+  septem dicit, his res quot sunt definit nec amplius cogitationem nostram errare sinit; ita et rationes opificis inductis speciebus materiam ipsam, quae inordinate fertur definiunt. Ubi enim materia speciem suscepit, non ultra 
+  inordinate fertur. Ubi enim calidum et siccum suscepit, 
+  ignem efficit. Ubi calidum et <milestone unit="page" n="a4"/> humidum, aërem. Et sic 
+  in aliis speciebus discurrendum est. Sed si quis hunc modum philosophandi divi Platonis et Pythagorae<ref type="note" xml:id="ref20" target="n20" n="20"/> negare 
+  vellet, quia sic in cognoscendis rebus non sensibus corporis, sed sola vi animae uti oportet, magis sibi praeponens 
+  modum numerus res ipsas definit qui enim decem vel 
+  septem dicit, his res quot sunt definit nec amplius cogitationem nostram errare sinit; ita et rationes opificis inductis speciebus materiam ipsam, quae inordinate fertur definiunt. Ubi enim materia speciem suscepit, non ultra 
+  inordinate fertur. Ubi enim calidum et siccum suscepit, 
+  ignem efficit. Ubi calidum et <milestone unit="page" n="a4"/> humidum, aërem. Et sic 
+  in aliis speciebus discurrendum est. Sed si quis hunc modum philosophandi divi Platonis et Pythagorae<ref type="note" xml:id="ref20a" target="n20" n="20a"/> negare 
+  vellet, quia sic in cognoscendis rebus non sensibus corporis, sed sola vi animae uti oportet, magis sibi praeponens 
+  modum cognoscendi ex sensatis et non ex potentia numeri, 
+  quae a materia abstracta est, cum omnis nostra cognitio 
+  ortum habeat a sensu, negaret etiam mathematicalia ad 
+  
+  
+
+
+
+
+
+
+
+<pb n="16"/>
+scientiam facere. Certe, haec bene dispositus quis dicere 
+non potest. Quia quaecumque a concavo orbis lunae continentur, 
+omnia sunt propter hominem secundo Physicorum: 
+faciunt enim ad facultatem, ad sanitatem et ad animam. 
+Quae omnia sola mathematica sibi vendicavit. Ad 
+facultatem enim quia omnes artes mechanicas continet, 
+quibus facultates omnes acquiruntur<ref type="note" xml:id="ref21" target="n21" n="21"/>. Ad sanitatem 
+etiam, quia totam medicinam continet teste Hypocrate, 
+medicorum semita veritatis. Medicus (inquit) si non est in 
+stellarum scientia perspectivus, quis in eius manibus non 
+confidat: quia caecus non immerito potest diffiniri. Idem 
+in libro De aëre et aqua. Et si ex altissimis consideraveris, 
+invenies astrologiam esse potissimam partem medicinae. 
+Albumazar in suo Introductorio maiori: astrorum cognitio 
+est principium medicinae. Quis enim medicorum cognoscet 
+repentinam permutationem crisis, nisi astrorum cognitionem 
+habuerit? Quas omnes etiam Conciliator 
+<supplied>differentiarum</supplied> ciiii stellis attribuit<ref type="note" xml:id="ref22" target="n22" n="22"/>. Quis enim negare 
+potest luna existente veloci cursu crisim septimam ad 
+sextam non pervenire et eadem tarda, septimam ad octavam? 
+Quia variatis causis et effectus variabuntur. Quis 
+etiam sano existente homine eadem hora letali morbo 
+infici? Sicut et aura lenis et placida, quam tempestuosae 
+procellae minus momento violant atque corrumpunt. Nec 
+sane est recurrendum ad proprietates occultas medicorum, quia sunt manifestae ex stellis: teste Averroe, acerrimo 
+medicorum stimulo, in fine sexti Colliget<ref type="note" xml:id="ref23" target="n23" n="23"/>, qui insecutus<ref type="note" xml:id="ref24" target="n24" n="24"/> 
+veritatem, veritate coactus dixit has proprietates 
+medicis occultas ex stellis esse manifestas. Unde repentini 
+<milestone unit="section" n="B1"/> casus, mutationes aëris, periodi diversae. Denique 
+quis omnia scaeva accidentia infirmi? Quis negare potest 
+
+
+
+
+
+
+
+<pb/>
+vegetabilia humidam substantiam habentia luna crescente 
+non augeri et eadem minuta lumine non diminui. Aegrotantes 
+etiam ex repletione luna crescente et ex inanitione 
+ipsa deficiente infirmitatem non intendi, aucta 
+causa. Quis etiam negare potest moriturum morte non 
+violenta non mori, priusquam luna incipiat ab angulis 
+orientalibus descendere, quia dum ascendit et si infirmum 
+morientem iuvare non valet, conservat tamen ipsum; 
+quod in prognosticis<ref type="note" xml:id="ref25" target="n25" n="25"/> medicis astrologiam habentibus 
+non mediocris utilitatis atque gloriae esse solet. Ex quo 
+Hypocrates, Galienus et Avicenna non cessant exclamare 
+contra imperitos medicos mathematicam ignorantes. Facit 
+etiam ad animam: nonne anima ipsa cognitione sola perficitur? 
+Et hoc erit quando causas effectuum cognoscimus. 
+Sed maria fluxum et refluxum a luna accipiunt; mineralia 
+in visceribus terrae generantur, plantae et animata omnia. 
+Vici et civitates leges Maurorum, Chaldaeorum<ref type="note" xml:id="ref26" target="n26" n="26"/> solum a 
+stellis accipiunt; nativitates, periodos et statuta tempora 
+durationis ab eisdem habent. Quibus quidem ignoratis 
+cuncta convenit ignorare, quibus etiam cognitis anima 
+suam perfectionem habebit. Haec etiam Philosophus confirmat 
+dicens, quod virtus solis et stellarum diffusa in aëre 
+facit omnes istas alterationes in sphaera activorum et passivorum. 
+Quis etiam velocitatem firmamenti compraehendere 
+potest, quod in minuto horae sua velocitate terram 
+universam circuiret; 11411, si eadem velocitate circa superficiem 
+terrae moveretur, qua in orbe proprio? Quamvis 
+divus Hyeronimus multo velociorem motum ponat, tamen 
+nos principem astrologiae secuti positionem eius 
+approbamus. Quis magnitudinem solis, qui terra maior 
+est clxvi et ipsa luna 6644 nisi periti astrologi? Quis reliquas 
+
+
+
+
+
+<pb/>
+stellas, quarum quaelibet visu notabilis, maioris est virtutis quatuor elementis? Quae se habent in pura potentia 
+activa et elementa in potentia passiva. Ergo astrologiam 
+quis <milestone unit="section" n="b1"/> sanae mentis negare potest? Sicut ille qui affirmat 
+stellas non agere in haec inferiora neque gubernare 
+universum, negat etiam ex consequenti dictum Philosophi 
+primo Metheorum<ref type="note" xml:id="ref27" target="n27" n="27"/>, quod necesse est hunc mundum 
+inferiorem superioribus lationibus contiguum esse, ut 
+inde omnis virtus gubernetur, sed dicit stellas esse tantum 
+ad ornamentum universi. Quis enim sani capitis auderet 
+dicere (pace eius dixerim) tantam dementiam: sed forte, 
+ut patribus tantum contradiceret, ausus est, tam grave 
+scelus <corr>committere</corr>; quod etiam si Aristoteles dixisset, inter 
+ignaros non solum sacrae astrologiae, verum etiam philosophiae 
+esset collocandus. Quia ex hoc uno utraque destruitur. 
+Ex quo etiam uno talem etiam se ostendit, qualem 
+docti quam plurimi impium<ref type="note" xml:id="ref28" target="n28" n="28"/> semper iudicavere, quia in 
+multis (sine sale) alienis messibus falcem imposuit. 
+Quamvis a vulgari turba magnus philosophus iudicandus 
+sit, quia scripta sua ornatu verborum velavit et furata 
+habuit; cum tamen scientia non sit de nominibus neque 
+de ornatu verborum, sed de rebus ipsis – nomina enim 
+sunt posita secundum convenientiam primorum impositorum, 
+ut eis passiones, quae in anima sunt, ex subiectis 
+rebus voce vel litteris significemus primo Peri hermeneias<ref type="note" xml:id="ref29" target="n29" n="29"/>. 
+Sed res ipsae sunt ex necessitate naturae de quibus 
+est tantum scientia; quia scientia est de illis quae sunt per 
+se et quae aliter se habere non possunt. Accidit enim substantiae 
+lapideae, quod nominetur lapis: quia Graece non 
+sic nominatur. Non tamen eidem accidit gravitas vel mobilitas, 
+quae est sua forma intrinseca vel propria passio, 
+quae aliter se habere non potest. Unde sacra philosophia 
+
+
+
+
+
+
+<pb n="22"/>
+  et inviolabilis astrologia nuda est, quia nuda et una est 
+  veritas et non indiget adminiculis vel aliqua fucatione 
+  verborum, sed nuda et simplici narratione verorum. Quapropter eius sophismata impugnando ex falsis suppositis, 
+  fabricata contra inviolabilem et sacram astrologiam, scripta mea foedare<ref type="note" xml:id="ref30" target="n30" n="30"/> nolo, cum ea primis etiam elementis 
+imbutus (stans pede in meo) quilibet solvere posset – vel 
+etiam negando consequens et <milestone unit="section" n="B2"/> omnes eius consequentias; quia ex falso suppositis falsae sequuntur conclusiones. Quamvis ea solvere quidam conati sunt et tamen 
+nihil duxerunt. Existimo enim non minorem fatuitatem 
+esse fatuas positiones impugnare, quam sunt ipse fatuae 
+positiones. Quare videtis, patres optimi, admiratas mathematicas omnia in se eminenter continere: facultatem scilicet, sanitatem atque animam. Omnia certe suadent eas 
+tota mente amplexandas et tamen eis alia praeponitis. 
+Quibus si loquendi facultas daretur, nonne mortales omnes 
+lacrimosa<ref type="note" xml:id="ref31" target="n31" n="31"/> voce sic compellaret: O crudeles homines, 
+vanis deliciis dediti, a propria perfectione vestra revocantibus; 
+in sola enim cognitione intellectiva Dei imagines 
+estis, scire tamen et intelligere non quaeritis non solum 
+secreta Dei et naturae, verum etiam nec manifesta in natura. 
+Quid enim manifestius est, quam solem atque lunam 
+singula luce horoscopalem partem modo occupare, modo 
+in Oceano se abscondere et tamen ortus et occasus est 
+nobis ignotus? Et in continua admiratione esse vultis, 
+quae est parens ignorantiae et imperfectionis humanae<ref type="note" xml:id="ref32" target="n32" n="32"/>. 
+Quid etiam manifestius est, quam praesentiam solis lucem 
+generare et eius absentiam tenebras producere; in certa 
+etiam distantia aliqua generare tantum, aliqua generare 
+atque vivificare et in certa appropinquatione aliqua infirmare 
+tantum, aliqua infirmare atque corrumpere? Et 
+
+
+
+
+
+  <pb n="24"/>
+  tamen ista divina speculatione privati estis. Sed quod magis 
+  detestabile mente concipi potest, quam quod nos homunculi 
+  negligimus illa, quibus pauca in patria digniora omni 
+  speculatione reperiantur. Videmus enim solem atque lunam, 
+  instrumenta omnium operationum Dei benedicti 
+  (respectu potentiae ordinatae), uniformi motu universum 
+  gubernare. Et tamen ista felicitate speculativa privati estis. 
+  Nec vos peripateticos<ref type="note" xml:id="ref33" target="n33" n="33"/> tanti criminis inanes esse video, 
+  quia etiam posita per vos aeternitate mundi, nonne<ref type="note" xml:id="ref34" target="n34" n="34"/> sensate videtis solem unum individuum, unum incorruptibile, unum aeternum, unum aeterno tempore conservans 
+  aeternas species? Solem dico, quem prisci deum esse credebant, tantae <milestone unit="section" n="b2"/> est divinitatis atque virtutis, nec tamen 
+  ista speculari curatis; sed tantum in his, quae in materia 
+  sunt secundum esse et secundum diffinitionem immersi 
+  estis. Quare, o vos omnes, elevate animas vestras. Quaerite perfectionem vestram. Sequimini divinas mathematicas. Quae solae eminenter continent facultatem, sanitatem, animam et totam perfectionem humanam humanitus 
+  acquisitam.
+  
+  
+</p>
+
+         </div>
+
+      </front>
+      <body>
+         <pb n="26"/>
+         <div type="prosa-tractatus">
+            <head>SPECULUM astronomicum terminans 
+intellectum humanum in omni scientia 
+clarissimi artium et medicinae doctoris 
+Federici Chrysogoni Iadertini</head> 
+            <div type="prosa-praefatio">
+               <head>Praefatio in librum Elementorum Euclidis<ref type="note" xml:id="ref35" target="n35" n="35"/>
+               </head> 
+
+               <p>In primis Deo trino optimo maximoque gratias agamus, 
+sicut suae gloriae celsitudo expostulat. Qui talem mihi 
+gratiam concessit, ut amicis ex vobis, doctores celeberrimi 
+et scholares non minus studiosissimi quam acutissimi, pro 
+parte satisfacere valeam, qui me rogastis, ut nostrarum 
+speculationum in mathematicis vos participes esse velim. 
+Cum omne bonum inquantum bonum sit communicabile, 
+quamvis animo proposueram soli incumbere speculationi 
+mihique uni satisfacere, tamen precibus<ref type="note" xml:id="ref36" target="n36" n="36"/> vestris victus 
+hanc provinciam legendi libenti animo suscepi, in qua promitto 
+vobis viam brevem et facilem (quamvis sint multa in 
+eis abdita et secreta). Omnia etiam superflua resecare et 
+necessaria ad perfectam cognitionem huius scientiae adducere. 
+Ad quidditates rerum descendere et ad sermones 
+per se, qui sunt apti solvere omnes quaestiones contingentes 
+in hac scientia. Dico viam brevem, praeterquam in isto 
+principio, in quo convenit, ut sermo noster dilatetur circa 
+octo particulas universales reducibiles ad quatuor genera 
+causarum tactas ab Averroe in prooemio<ref type="note" xml:id="ref37" target="n37" n="37"/> De physico 
+auditu. Utiles tamen erunt et necessariae, quando bene 
+applicabuntur ad istam scientiam. Quibus bene declaratis 
+declaratae erunt causae <milestone unit="section" n="B3"/> omnes, principia et termini, 
+quibus innititur et fundatur ista scientia. Ideo sermo in 
+principio debet esse longus, in quo principia declarantur 
+
+
+
+
+
+
+<pb/>
+et termini, ut habitis his facile habeantur et ea, quae sunt 
+in scientia. Parvus enim error in principio magnus sequetur 
+in fine (ut refert Averroes in commento quarto tertio 
+De anima de mente divi Platonis) et Philosophus in Textu 
+commenti xxxiii primo Caeli. Ignorata enim materia circa 
+quam (in artificialibus) ignoratur et via motus. Ignorato 
+etiam fine et utilitate ignoratur et terminus ad quem et 
+propter quem. Quibus quidem ignoratis tota intentio 
+nostra frustraretur. Exordium itaque sumemus ab his, 
+quae ad librum Elementorum Euclidis sunt necessaria, in 
+secundo vero tractatu, quae ad arithmeticam pertinent, 
+in tertio vero quae ad musicam speculativam divi Boethii 
+spectant. In quarto et ultimo, quae ad astrologiam speculativam 
+et iudicialem, in Quadripartitum et Almagestum 
+Ptolemaei, sunt utilia.</p> 
+            </div>
+            <div type="prosa-capitulum">
+               <head>Capitulum primum tractatus primi: 
+de genere causae efficientis</head> 
+
+               <p>Euclides igitur Megarensis est efficiens huius artis, 
+scilicet libri Elementorum; qui quidem in ista scientia 
+attigit ultimum gradum perfectionis possibilem per naturam: 
+quia nihil excogitari potest, quin illud idem actu 
+vel virtute in dictis suis contineatur bene intellectis et 
+bene applicatis ad ipsas res. Efficiens vero rei subiectae 
+arti non datur in tota mathematica, ex quo neque datur 
+demonstratio in genere causae efficientis, sicut neque in 
+genere causae materialis. Quia cum in eis non sit aliquod 
+agens universale neque particulare, neque materia ex qua, 
+sicut datur in naturalibus, puta corpora caelestia et haec 
+individua materia prima et materia proxima, sequitur 
+etiam necessario, quod non sit demonstratio in genere 
+causae finalis; cum omne agens agat propter finem secundo 
+Physicorum. Sed ubi non est materia ex qua, non 
+est efficiens, quo circumscripto tollitur certe omnis finis. 
+
+<pb/>
+Restat igitur sola demonstratio in genere causae formalis, 
+quia est scientia sexto <milestone unit="section" n="b3"/> Metaphysicae et cum omnis 
+scientia sit per demonstrationem a priori vel a posteriori. 
+Sed in ista non a posteriori, quia causae in ea sunt aeque 
+prius notae nobis et naturae, ergo a priori. Ita tamen, 
+quod conclusio priorum demonstrationum sit praemissa 
+sequentis demonstrationis. Quia omnia posteriora natura 
+demonstramus in istis per ea, quae sunt priora natura, 
+quia per causas adaequatas.</p> 
+            </div>
+            <div type="prosa-capitulum">
+               <head>Capitulum secundum: de genere causae materialis</head> 
+
+               <p>Subiectum vero huius artis, scilicet libri Elementorum 
+vel principiorum Euclidis, est quantitas. Quae accipitur 
+pro genere causae materialis, circa quam. Quae est duplex 
+(ut infra videbitur), quod praecognoscitur in scientia duplici 
+praecognitione<ref type="note" xml:id="ref38" target="n38" n="38"/>: ideo neque demonstratur primo 
+Posteriorum. Sed quia titulus huius artis est liber Elementorum 
+vel principiorum, qui quidem ab omnibus exponitur, 
+quod ideo dicitur principiorum propterea, quia apud 
+priscos iste liber habebatur loco logicae, quae est principium 
+in omni scientia. Quae quidem expositio est ex toto 
+falsa et ruinosa. Quia logica est de syllogismo fabricando, 
+hic vero nulla ars talis data est, de qua solius est logici. 
+Imo (quod fortius est) praesupponit logicam, quia semper 
+hic vel est processus diffinitivus vel demonstrativus; quod 
+utrumque docetur a Philosopho in Posterioribus analyticis<ref type="note" xml:id="ref39" target="n39" n="39"/>. 
+Quare istis omnibus convenit ignorare primas radices 
+huius artis, prima principia, fundamenta et totam intentionem 
+doctoris et magistri; et nil mirum, quia de raro 
+contingentibus est, ut quis sit peritus mathematicus et 
+bonus philosophus. Ideo aliter est dicendum. Est enim 
+unum de secretis huius artis, non intellectum ab aliquo 
+
+
+
+
+
+<pb/>
+quem ego viderim. Unde cum in isto libro subiectum sit 
+magnitudo et cum nulla magnitudo cognoscatur, nisi 
+prius habeamus rationem cognoscendi illam, quae quidem 
+ratio cognoscendi est ab actu ix. Metaphysicae textu 
+commenti xx; cum etiam omnis ratio cognoscendi sit principium primum in scientia, quia est metrum et mensura 
+ex x. Metaphysicae, sequitur quod hic <milestone unit="section" n="B4"/> principali intentione agitur de principiis cognoscendis, quia de mensuris, actu omnium mathematicalium et in potentia omnium naturalium et divinorum, ut infra latius in capitulo 
+  primo de hoc dicemus. Cum hanc nostram expositionem 
+  exponemus per ipsummet Doctorem; qua nulla est verior 
+  quam Doctorem per Doctorem eundem exponere. Sed 
+  iunior statim dubitare posset et subtiliter: quia istud, quod 
+  dictum est, non videtur esse bene dictum. Quia Euclides 
+  nullibi videtur agere de mensuris, imo solum de figuris, 
+  angulis, proportionibus, de capacitate, distantiis et prospectiva speculativa, solutio est notanda, ex qua habebitis 
+  intentionem totius operis in virtute. Primo tamen notandum est, quod mensura est multiplex. Sicut et multiplex 
+  mensuratum, quia longitudo cum una dimensione, ut linea. Secunda latitudo cum duabus, ut superficies. Tertia 
+  profunditas cum tribus, ut corpus, quia longitudinem, 
+  latitudinem et profunditatem in se continet. Quarta capacitas, ut cyathi continentia, puta ipsius aquae. Quinta est 
+  pondus, puta semiuncia vel libra. Sexta et ultima est ipsa 
+  anima intellectiva, quae est mensura omnium intelligibilium, cuius est omnia finire, terminare et mensurare. Secundo<ref type="note" xml:id="ref40" target="n40" n="40"/> 
+  notandum, quod mensura, inquantum talis, est 
+  indivisibilis, quia minima x. Metaphysicae; et mensuratum 
+  omne, inquantum tale, est indivisibile vel proprie vel metaphorice<ref type="note" xml:id="ref41" target="n41" n="41"/>, 
+  scilicet respectu intelligibilium. Tertio notandum, 
+  quod omne, quod est mensura, potest esse et 
+  
+  
+  <pb/>
+  mensuratum respectu diversorum; quia dicit oppositum in 
+  adiecto, quod idem respectu eiusdem sit mensura et mensuratum, 
+  quia divisibile et indivisibile. Tamen prius natura 
+  est mensura quam mensuratum, quia prius perfectum 
+  quam imperfectum. Omne enim imperfectum fluxit a 
+  perfecto: Boethius in libro De unitate et uno et idem secundo suae Arithmeticae, primo De anima textu commento lxxxv. et non econtra; quia posterius non potest esse 
+  causa prioris. Sed cum nulla magnitudo intelligi possit, 
+  nisi prius cognoscamus mensuram – qua fit ipsa cognitio 
+  – quae se habet ut forma, et mensuratum ut materia. Sequitur ergo <milestone unit="section" n="b4"/> quod Euclides primo agit de perfecto, 
+  quam de imperfecto, quod convenit ordini doctrinae. 
+  Quod autem primo agat de mensura patet inductive, quia 
+  primo diffinit punctum, quod est mensura lineae. Secundo diffinit lineam, quae est mensura in sui ipsius et superficiei. Tertio, in primo theoremate primo agit de triangulo 
+  et non de quadrato vel pentagono, tamquam de 
+  mensura et parente omnium figurarum, quia omnes figurae 
+  ab ipso originem habent et omnes aliae ex ipso sunt 
+  compositae et compositae in ipsum resolvuntur. Et sicut 
+  dicit divus Boethius in primo suae Arithmeticae, quod 
+  unitas est parens totius latitudinis numeri, in quem eadem 
+  composita etiam resolvitur. Sic etiam est mensura ipsius. 
+  Quinarius enim numerus nullo mensuratur, nisi unitate, 
+  tamquam suo parente. Istam etiam rationem triangulus in 
+  figuris sibi vendicavit, quia est parens et mensura omnium 
+  figurarum rectilinearum<ref type="note" xml:id="ref42" target="n42" n="42"/>. Cum de non rectis lineis non 
+  sit scientia praeterquam de circulo, cuius est tantum una 
+  scientia, sicut et una diffinitio: quia figura, in qua lineae a 
+  centro ad circumferentiam<ref type="note" xml:id="ref43" target="n43" n="43"/> ductae sunt aequales. Unde 
+  sicut unitas est mensura in quantitate discreta, linea in 
+  
+  
+  
+  <pb/>
+  continua, et triangulus erit in figuris, de quibus principaliter 
+  agitur in ista arte. In angulis autem, quorum tres sunt 
+  species tantum, recti scilicet et acuti et obtusi, quorum 
+  rectus erit mensura sui et aliorum, quia minimus, quia 
+  unus tantum, quia indivisibilis, quia et perfectus. Reliqui 
+  autem tam acuti, quam obtusi, sunt infiniti. Ideo imperfecti, quia illud est magis perfectum, quod est magis unum 
+  et indivisibile. Quod autem aliae duae species acutorum 
+  et obliquorum sint infinitae, patet, quia inter quaelibet 
+  duo puncta infinitas lineas ducere possumus. Quae lineae 
+  si interceptae fuerint intra angulum rectum, erunt illi 
+  omnes acuti et angulus rectus eos mensurabit, quia ad 
+  illos se habebit ut multiplex vel ut particularis super partiens, multiplex super particularis vel ut multiplex superpartiens. Si vero lineae infinitae fuerint ductae inter duo 
+  puncta addentia angulo recto, cadentes tamen super datam rectam lineam <milestone unit="section" n="C1"/> et in eodem puncto, dico, quod 
+  et hos angulus rectus mensurabit, non tamen erit multiplex, 
+  sed se habebit secundum omnes differentias proportionum 
+  sub super particularium vel sub super partientium, 
+  quia angulus obtusus semper continet totum angulum 
+  rectum et aliquam vel aliquas eius partes. In aliis 
+  etiam mensuris est posita mensura ab Euclide in locis 
+  propriis: ut de ipsa capacitate ab xi. libro Elementorum 
+  infra. In pondere etiam, quae est puta uncia, semiuncia, 
+  dodrans, secundum quod unum accipimus pro mensura 
+  vel pro mensurato. Est et sexta mensura praeclarior omnibus 
+  aliis, anima scilicet, quae est mensura omnium intelligibilium 
+  tam naturalium, quam divinorum, quam 
+  mathematicalium. Ex quo patet, quod cum anima sit mensura, anima non intelligit, sed aggregatum ex anima et 
+  materia, puta Socrates, quia anima est id, qua fit intellectio, 
+  iuxta illud Philosophi primo De anima textu commento 
+  lxv. Si quis dixerit animam intelligere est ac si diceret animam 
+  texere vel filare. Quare mensura, puta ulna, visio vel 
+  <pb/>  
+  anima, non cognoscunt, sed sunt mensurae, quibus fit 
+  cognitio. Quod autem dictum est de anima, sane intelligendum 
+  est de intellectu nostro et non substantiarum 
+  abstractarum, quia Philosophus dissentit<ref type="note" xml:id="ref44" target="n44" n="44"/> ex toto a veritate 
+  et fide catholica, quae tenet, quod intelligere nostrum 
+  est accidens, sicut et intelligentiarum abstractarum, puta 
+  angelorum, et quod solius Dei intellectio est sua substantia; quae intimius se habet ad essentiam divinam, quam 
+  alia attributa in divinis. Philosophus autem, quod in nobis 
+  tantum est accidens, quia intelligimus per species. In aeternis vero intellectus et intellectum est idem omnibus 
+  modis, quia cognoscendo suam substantiam cognoscit et 
+  producit omnia xii. Metaphysicae, sic tamen intelligendo, 
+  quod prima intelligentia nulla potentia est composita, 
+  quia a nullo dependet neque in fieri, neque in conservari, 
+  sed est primum simpliciter. Secunda vero et tertia et aliae 
+  intelligentiae, quamvis intelligunt per sui essentiam, eminenter omnia inferiora a se diminute tamen superiora, 
+  quia cognoscunt se dependere a prima. Quam dependentiam philosophi potentiam vocant. Penes <milestone unit="section" n="c1"/> quam sunt 
+  imperfectiores prima intelligentia, in quibus datur latitudo 
+  multa. Quanto enim aliqua removetur magis a prima, 
+  tanto est magis imperfecta, quia omne quanto magis removetur a perfecto, tanto magis remittitur eius potentia. 
+  Exemplum, si esset aliquod visibile in sua maxima perfectione, puta ut c, sint etiam plures potentiae visivae, quarum una sit ut l, alia ut xl et caetera. Vel aliter: sint plures 
+  potentiae visivae eiusdem perfectionis, si tamen una plus 
+  distaret alia et tertia plus quam quarta et caetera. Dico, 
+  quod imperfectiori modo videt illa potentia visiva, quae 
+  est minoris virtutis vel illa, quae magis distat, quam illa, 
+  quae minus posita paritate in potentiis. Sic est in illis intelligentiis 
+  secundum Philosophum. Nec mirum tantam 
+  
+  
+  
+  
+  <pb/>
+  diversitatem esse in mensuris. Hoc enim naturale est. 
+  Philosophus enim x. Metaphysicae dicit, quod in omni 
+  praedicamento est reperire metrum et mensuram, ad hoc, 
+  quod de unoquoque scientia habeatur, ex quo patet nostram 
+  expositionem esse veram, tam ad intentionem mathematicam, 
+  maxime ipsius Euclidis, cuius doctrinam 
+  imitamur, quam etiam ad intentionem naturalem et metaphysicam, 
+  de quibus necesse est omnem artificem scientificum 
+  primo cognitionem habere.  
+  
+</p>
+            </div>
+            <div type="prosa-capitulum">
+               <head>Capitulum tertium: de genere causae formalis</head> 
+
+               <p>Ordo, divisio, proportio et via doctrinae reducuntur 
+ad genus causae formalis. Ordo autem huius libri est 
+semper procedere ab universalibus simplicibus non contractis 
+ad aliquam materiam, sed solum versari in materia 
+intelligibili. Quia in materia sensibili non datur linea sine 
+latitudine, qualis scientiae geometricae convenit, ut patet 
+ex sua diffinitione, sicut neque datur corpus perfecte 
+sphaericum. Tamen sunt applicabilia ad omnem materiam 
+sensibilem et intelligibilem, quia se habent, ut formae et 
+rationes cognoscendi, quod nihil aliud est, quam ipsa 
+mensura. Divisio est in prohemium et tractatum; secunda 
+ibi triangulus aequilaterus. Tractatus autem in xv. libros 
+digestus est. De divisione cuius dicemus in primo theoremate. 
+Proportio autem huius artis ad alias scientias <milestone unit="section" n="C2"/> 
+mathematicas se habet, velut radix: arithmeticam enim<ref type="note" xml:id="ref45" target="n45" n="45"/> 
+continet in potentia, quia ad divisionem continui causatur 
+numerus. Posita enim aliqua magnitudine illa primo est 
+una, quae, si primo dividatur, excrescet primus numerus, 
+qui est binarius: si vero in tres partes, illico nascetur ternarius, 
+si vero in quatuor, procreabitur quaternarius et sic 
+de alia latitudine numeri dicendum est. Continet etiam 
+musicam, quae nihil aliud est, quam numerus sonorus. 
+
+
+
+<pb/>
+Sed si numeri tota latitudo in continua magnitudine 
+continetur, etiam ipsa musica in eadem magnitudine: in 
+qua et ipse numerus, certe continebitur. Continet etiam 
+astrologiam, quae nihil aliud est, quam considerare situs 
+planetarum, primo per lineam rectam, quae est ipse situs 
+vel coniunctio planetarum adinvicem. Per figuras etiam, 
+quae sunt ipsi aspectus stellarum inter se, puta sextilis, 
+quadratus, trinus et huiusmodi, quae est ipsa geometria. 
+Si vero fiunt observationes temporum annuaeque conversiones, 
+solis etiam atque lunae diversi labores, certe 
+haec omnia solo numero mensurabuntur. Cum autem 
+ipse numerus in quantitate continetur, astrologia etiam 
+in eadem continebitur. Sed cum istae partes mathematicae 
+contineant omnes alias scientias, certe multo magis 
+haec continebit illas, quam et suas partes. Via doctrinae 
+est, quod semper in ea procedimus a causis magis notis 
+nobis et naturae, opposito modo, quam fit in naturalibus, 
+in quibus innata est via nobis, ut ex notioribus nobis, 
+incertioribus vero naturae, procedimus ad ea, quae sunt 
+magis nota naturae et minus nobis. Quia ab effectu supra 
+causam, praeterquam in paucis, quia in duobus vel ad 
+plus in tribus in tota philosophia naturali et divina primo 
+processu demonstramus, ut in textu commenti xxiiii. secundi 
+De anima, et in De memoria et reminiscentia.</p> 
+          
+            </div>
+            <div type="prosa-capitulum">
+               <head>Capitulum quartum: de genere causae finalis</head> 
+               <p>
+Intentio et utilitas idem sunt, quod et bonum accipiuntur 
+pro genere causae finalis. Intentio autem est 
+principaliter tradere mensuras omnium magnitudinum 
+et secundaria intentione tradere omnia mensurabilia secundum 
+sensum iam <milestone unit="section" n="c2"/> supra dictum. Utilitas autem est, 
+quod habitis his dispositi erimus ad omnes scientias speculativas, 
+practicas et artes mechanicas. Dico ad scientias 
+speculativas rationales et reales. Rationales, quia 
+
+
+<pb/>
+cognoscemus medium, quo Aristoteles usus est in fabricando 
+instrumentum syllogisticum<ref type="note" xml:id="ref46" target="n46" n="46"/>, ut infra in primo theoremate<ref type="note" xml:id="ref47" target="n47" n="47"/> 
+primi Elementorum Euclidis dicemus. Ad reales 
+etiam scientias et speculativas erimus dispositi, quia sunt 
+mediae inter divinam cognitionem et naturalem duplici 
+mediatione. Prima, quia participat utraque cognitione secundum 
+unam differentiam in modo scilicet abstrahendi 
+et considerandi, quia secundum esse est in materia et 
+secundum<ref type="note" xml:id="ref48" target="n48" n="48"/> diffinitionem abstracta a materia. Secundo 
+etiam modo mediat, quia divina simpliciter est de obiecto 
+prius noto naturae quam nobis. Naturalis autem ordine 
+procedendi est de obiecto prius noto nobis, quam naturae. 
+Sed mathematica tam simpliciter, quam ordine procedendi 
+est de prius notis nobis et naturae. Ex quo in plus se 
+habet secundum utramque differentiam: quam divina et 
+quam naturalis. Ex quo patet, quod per applicationem 
+est ratio cognoscendi in omni scientia, non solum nostra, 
+verum est etiam ratio cognoscendi ipsius intellectus divini 
+(secundum divum Boethium), quia ea ratione, qua 
+intelligit, eadem etiam et producit xii. Metaphysicae. Sed 
+ratione mathematica intelligit, ergo et producit. Et hoc 
+est quod divus Plato medio mathematico omnia et ipse 
+speculatus est et processit a causis supra effectus, sicut et 
+ipse Deus benedictus. Quod, si haec magis dearticulate 
+vellem explanare, oporteret altius repetere, ubi certe non 
+sensibus corporis, sed sola vi animae opus esset. Divus 
+Plato imitatus et Pythagora, omnis veritatis et subtilitatis 
+acutissimi indagatores, docentes nos res ipsas altius speculari, 
+quam philosophi naturales fecere. Qui ex sensatis 
+tantum in cognitionem procedentes, ad nullam tamen 
+cognitionem devenientes, ad quam sensus non se extendit. 
+Quorum modum philosophandi nunc relinquamus, 
+
+
+
+
+
+
+<pb/>
+quia non est praesentis negotii<ref type="note" xml:id="ref49" target="n49" n="49"/>, cum academicos modo 
+convenit imitari. Ubi tamen opus fuerit, peripateticum<ref type="note" xml:id="ref50" target="n50" n="50"/> 
+me esse utique non <milestone unit="section" n="C3"/> negabo, quia nulli dogmati ingenium 
+meum quandoque summittere<ref type="note" xml:id="ref51" target="n51" n="51"/> volui, sed omnium 
+veritatem amans omnium veritatem secutus sum. 
+Sed ubi altum pelagus divi Platonis natare proposuimus, 
+aliqua dicemus. Qui per idem medium mathematicum 
+cognovit esse unum, quod in mente sua, principium esse 
+dixit. Quod tamen celare voluit, ne tam divina scientia 
+vilesceret, cui etiam sutores per viam incumbere possent, 
+si palam illud fecisset. Sed voluit, ut sola vi et lumine intellectus 
+agentis cum propriis speculationibus ad tantam 
+divinitatem et felicitatem (ut decet) quilibet pervenire 
+debeat. Unde quaecumque scripsit, sub illo principio celato 
+scripsit deos tamen execrans, ut dignos tali divinitate 
+iuvarent invenire propositum, quo invento illud celare. In 
+quo quidem principio cognovit omnes quiditates relucere. 
+Cognovit etiam, quidnam sit prima causa, quidve secunda, 
+et qualiter prima causa annectitur secundis, quamquam<ref type="note" xml:id="ref52" target="n52" n="52"/> 
+sic obscure descripsit, ut vilibus celaret artem, quos a sua 
+grege sic arcere voluit. Forma (inquit) est quae, cum unitur 
+materiae, corpus efficit, constans ex materia et forma, 
+cum vero forma separatur a materia. Deus est quiditas et 
+essentia simpliciter simplex, iterum in potentia informare 
+omnem materiam, cum summa iustitia donare partem formae 
+secundum merita materiae. Qua iustitia universum 
+constitutum est. Quod dupliciter considerabat: per lineam 
+scilicet rectam et obliquam. In rectam lineam inspiciens 
+inveniebat omnia esse unum: unam substantiam, unum 
+principium immobile. Nam sicut in lineam in rectum aspectam 
+extrema a mediis non distinguuntur, ita etiam in 
+
+
+
+
+
+
+
+<pb/>
+  ista consideratione omnia erant unum. Et si Parmenides 
+  et Melissus sic intellexerint, quod scilicet primum principium 
+  sit unum immobile (ut credendum est), rationes, 
+  certe, Philosophi primo De physico auditu omnes cessant, 
+  cum in eis impugnandis in aequivocis laboraverit. Inspiciens autem in lineam ex obliquo invenit multitudinem 
+entium, quam prima sui divisione divisit in infinitum et 
+finitum, actum et potentiam, quod idem est, ac in decem 
+praedicamenta, cum <milestone unit="section" n="c3"/> actus et potentia circuunt omne 
+genus finitum et terminatum. Iterum istam multitudinem 
+entium considerabat tripliciter, secundum quod sunt tres 
+modi considerandi, qui quidem constituunt tres artifices 
+scientificos et speculativos: mathematicum scilicet, physicum atque metaphysicum. Unde iste <corr>imitatus</corr> est ipsam 
+naturam: quia speculatus est entia et ordinem universi 
+opposito modo quam naturales fecere, quia medio mathematico a causis procedendo supra effectus, sicut et 
+ipsa natura et Deus benedictus. Sed ne videamur extra 
+propositum digredi, his modo finem faciamus. 
+</p>
+            </div>
+         </div>
+         <div type="prosa-tractatus">
+            <div type="prosa-capitulum">
+               <head>Capitulum primum tractatus secundi: 
+de arithmeticae nobilitate</head> 
+               <p>
+Propositum erat in secundo loco velle pertractare de 
+his quae utilia sunt et digna cognitu ad libros Arithmeticae 
+divi Boethii pertinentia, cuius ipse est efficiens vel 
+a Nicomacho<ref type="note" xml:id="ref53" target="n53" n="53"/> accepit, non curo. In reliquis vero generibus 
+causarum fere eodem modo se habet cum his quae 
+de natura quantitatis continuae dicta sunt. Placuit enim 
+mihi non servare ordinem divi Boethii qui ab arithmetica 
+integritate ordinem sumpsit et non ab ipsa quantitate 
+continua. Video enim quod quantitas continua multo 
+maiorem ambitum, latitudinem et potentiam habet quam 
+ipsa arithmetica, quia est parens reliquarum partium 
+
+
+
+
+<pb/>
+  mathematicae, ex consequenti aliarum scientiarum. Inquit 
+  enim arithmetica cunctis prior est non modo, quod hanc 
+  ille huius mundanae molis conditor Deus primam suae 
+  rationis habuit exemplar: hinc enim quatuor elementorum 
+  multitudo mutata est, hinc motus astrorum caelique 
+  conversio et caetera. Nec ista ratio divi Boethii militat 
+  contra me, quin debuissem exordium sumere ab Elementis Euclidis et non ab arithmetica tamquam parente 
+omnium scientiarum. Cuius oppositum ego supra dixi, 
+videlicet quod quantitas continua est parens omnium 
+scientiarum, ut probavi. Sed quia contradictio est idem 
+respectu eiusdem et eodem modo sumptum. Sed hic est 
+multa aequivocatio, quia ille numerus, ut est in mente 
+divina exemplar, et ratio vel obiectum sui intellectus, certe 
+sunt substantiae de mente divi Platonis, quia tam secundum philosophos, <milestone unit="section" n="C4"/> quam etiam secundum veritatem 
+catholicam non cadit accidens in Deo. Sed iste numerus, 
+
+de quo quaerimus modo scientiam, est accidens, quia 
+causatus ad divisionem quantitatis continuae. Quare illo 
+modo accipiendo numerum, bene est prior, non solum 
+ista quantitate continua et discreta (quae sunt accidentia), 
+verum etiam ipsis intelligentiis secundis tempore 
+et natura (secundum veritatem catholicam), quamvis 
+secundum peripateticos non sit prioritas temporis in substantiis 
+abstractis, quia in aeternis non prius tempore est 
+unum quam alterum, quamvis in illis sit ordo perfectionis. 
+Tamen de tali numero difficilis est scientia. Maxime 
+apud peripateticos, qui negavere Ideas Platonis, ut sunt 
+abstractae a singularibus. Tamen Aristoteles certe non 
+sensum, sed verba Platonis impugnavit. Quia tales ideae 
+apud Platonem sunt ipsi numeri vel rationes in mente divina 
+existentes (ut supra probatum est), quod certe neque 
+Aristoteles ad hunc sensum negare posset. Numeri vero 
+ad nostrum usum redacti sunt similitudines illorum in 
+mente divina existentium. Quibus in cognitionem illorum 
+
+<pb/>
+in mente divina existentium academici devenere. In quo 
+quidem processu clausum est illud principium celatum 
+divi Platonis, quod et ego celare volo tamquam iuratus ab 
+ipso. Sub quo principio (si Deus mihi vitam prolongaverit) 
+multa praeclara scribere potero. Sed qualitercumque sit, 
+non est nobis in hoc vis facienda, nec volo contraire tanto 
+philosopho, sed sit utrique proprius modus procedendi 
+in ipsam veritatem et perfectionem nostram. Quia talis 
+numerus diversimode consideratus potest esse et prior et 
+posterior natura et perfectione. 
+</p>
+            </div>
+         </div>
+         <div type="prosa-tractatus">
+            <div type="prosa-capitulum">
+               <head>Capitulum primum tractatus tertii: 
+de musica integritate</head> 
+               <p>
+  Convenit modo ut aliqua dicamus de musica integritate 
+  eiusque excellentia. Subiectum cuius est numerus 
+  sonorus. Quod nihil aliud est, quam proportio quorundam numerorum in quibus inventa est harmonica consonantia, amicitia et convenientia maxima et media. Notanter dixi (quorundam <milestone unit="page" n="c4"/> numerorum), quia non omnes 
+  proportiones numerorum sunt amicae inter se neque 
+  constituunt symphoniam<ref type="note" xml:id="ref54" target="n54" n="54"/>. Sed solum quinque tantum, 
+  secundum quod quinque modis fiunt combinationes diversae in ipso quaternario. Quarum prima est et maxima 
+  bisdiapason<ref type="note" xml:id="ref55" target="n55" n="55"/>, Latine quadrupla, secundum quod duo 
+  extrema comparantur ad invicem, scilicet unum ad quatuor, et constituitur ex decem tonis et quatuor semitoniis, 
+  ex numero vero 2304 et 9216. Secunda vero est composita 
+
+
+  
+  <pb/>
+  ex numero vero 2304 et 4608. Quarta diapente, vel sesquialtera, 
+  ut duo ad tria, constituta ex tribus tonis et uno 
+  semitonio, ex numero vero 2304 et 3456. Quinta et ultima 
+  est diatessaron<ref type="note" xml:id="ref56" target="n56" n="56"/>, vel sesquitertia, ut 3 ad 4, continens duos 
+  tonos et unum semitonium. Tonus vero et semitonium 
+  maius et minus. Diesis, apotomes, coma et huiuscemodi 
+  sunt voces componentes et commensurantes istas proportiones maiores et harmonicas proportiones. De reliquis 
+  vero proportionibus numerorum musicus, inquantum 
+  talis, non se intromittit. Quorum sunt quinque genera, ut 
+  in primo Arithmeticae Boethius. Nec tamen per hoc isti 
+  duo artifices sunt unus artifex, quamvis uterque consideret proportiones numerorum. Quia diversimode eas considerant et penes diversam considerationem unius rei 
+  fiunt plures scientiae. Arithmeticus enim absolute maiorem vel minorem inaequalitatem et excessum, musicus 
+  vero (secundum quod talis) ordinatur ad harmoniam. 
+  Quare autem Deus et ipsa natura fuit contenta, quod 
+  quadrupla proportio contineat in se totam harmoniam 
+  corporum caelestium et omnium quae sunt in tota sphaera activorum et passivorum. Et nulla maior, neque minor. 
+  Quia, inter nervum<ref type="note" xml:id="ref57" target="n57" n="57"/> nete hyperboleon<ref type="note" xml:id="ref58" target="n58" n="58"/>, qui est tardissimus, constans ex 2304 numero, et inter nervum<ref type="note" xml:id="ref59" target="n59" n="59"/> proslambanomenos, qui est velocissimus, <milestone unit="page" n="D1"/> constans ex numero 9216. Qui est quadruplus ad netehyperboleon. Qui 
+  quidem duo nervi extremi continent omnes alias proportiones musicales et harmonicas intra se. Puta hypatehypaton, parhypate hypaton, licanos hypaton et caetera. Quibus correspondent duo motus: velocissimi scilicet superficiei 
+  convexae, ipsius caeli, et eiusdem superficiei concavae, 
+  tardissimae motae. Quae continent et conservant 
+  (organice) universum, ut in nostro tractatu de harmonia 
+
+
+
+
+
+
+
+<pb/>
+caelesti satis pulchre digessimus, applicando illam caelestem, 
+huic in nostrum usum redactae. Quod quidem 
+problema propositum non est vulgaris speculationis. Imo 
+est plenum omni speculatione. Plenum etiam omni admiratione. 
+Tamen nos aliqua dicemus, ex quibus etiam apparebit 
+iuramentum Pythagorae. Qui iurabat per quatuor. 
+Nam qui dicit quatuor, dicit totum, quia continet totam 
+latitudinem numeri actualem, ex consequenti et potentialem. 
+Sed cum musica non sit aliud, nisi numerus sonorus, 
+et cum omnis numerus contineatur in quaternario, certe 
+tota etiam harmonia continebitur in quaternario. Tunc 
+ultra: tota harmonia continetur in quaternario et universum 
+continetur in harmonia, quia ab eadem est in fieri et 
+conservari (secundum divum Platonem) organice<ref type="note" xml:id="ref60" target="n60" n="60"/> tamen, 
+ergo et universum, quod est totum, in quaternario continebitur. 
+Quod patet in numero nostro, quamvis perfectiori 
+modo, in numero in mente divina existente. Si enim 
+quaternarium in suas partes integrales resolvatur, puta in 
+unum, duo, tria et quatuor, tunc si unum duobus iungamus, 
+erunt tria. Quibus si ternarium coniungamus, scilicet 
+tertiam partem integralem, excrescet senarius, si vero 
+quartam et ultimam partem illis addamus, illico procreabitur 
+denarius numerus. Qui quidem est tota latitudo 
+numeri actualis, quia reliqua latitudo erit potentialis scilicet 
+per solam geminationem huius denarii et eius partium 
+integralium. Per quam geminationem sumus in potentia 
+excrescere numerum maiorem quocumque dato. Qui 
+enim viginti dicit, his geminatum denarium dicit. Qui 
+autem duo de viginti dicit, his decem et <milestone unit="section" n="d1"/> octo dicit, 
+quod est pars integralis ipsius decem, et sic in tota reliqua 
+latitudine numeri dicendum est, in qua nihil aliud est, 
+quam decem et eius partes integrales. Quare ipsum decem 
+continet in se totam latitudinem potentialem, sed 
+
+
+
+<pb/>
+ipsum quatuor actu continet ipsum decem, ergo quatuor 
+continet totam latitudinem numeri actualem et potentialem. 
+Ergo quatuor est totum. Quod est iuramentum 
+Pythagorae, scilicet per quatuor quod est totum. Et ex hoc 
+quaestio problematis solvitur, scilicet quod ideo natura 
+fuit contenta bisdiapason<ref type="note" xml:id="ref61" target="n61" n="61"/> proportione maxima: quae est 
+quadrupla, quia quatuor est totum, in quo sunt contentae 
+omnes proportiones mediae totius musicae. Sed cum totum 
+sit perfectissimum, bene convenit enti perfectissimo 
+habere etiam id perfectissimum quo (ut organo) conservat 
+universum. Et tale est ipse amor vel unio et harmonica 
+proportio numerorum, quae in quaternario continetur 
+tamquam in toto. Patet etiam, quod ista harmonia vel 
+musica, non solum est tantae speculationis et elevationis 
+animae, quia illa sola plena sunt omnia caelestia et terrena, 
+quae ipsa natura universi universum gubernat; sed 
+etiam est coniuncta omni moralitati. Et ut maximis minima 
+quidam conferam: ex musica enim innumeros fructus 
+consequimur corpori animaeque conducentia. Videmus 
+enim morbo gravatos quandoque sola musica levare, 
+quandoque etiam furibundos molli cantu reddere mites. 
+In oppositas etiam qualitates cantu duriori Martem accendere 
+et ad arma excitare. Et ex mollibus reddere<ref type="note" xml:id="ref62" target="n62" n="62"/> feroces. 
+Cui etiam est ignotum illud Pythagorae artificiose factum, 
+cum vidisset iuvenem amore perditum incitatumque, 
+Phrygio modo mitem reddidisse. Unde Sirenae, unde 
+Mercurius atque Apollo sibi nomen vendicarunt, nisi quia 
+dulcibus sonis animas mortalium gratas sibi reddiderunt? 
+Sed si haec in nostra musica reperiantur? Quae ut, quoquomodo sint nobis manifesta natura satis fuit solicita, 
+solum ut animas nostras ad caelestes speculationes revocaret, 
+<corr>accommodatam</corr> ponendo similitudinem per ea, quae 
+
+
+
+
+
+<pb/>
+in nostra musica humana reperiuntur. Videmus enim 
+medium nervum cum altero <milestone unit="section" n="D2"/> extremo nervo diapason<ref type="note" xml:id="ref63" target="n63" n="63"/> 
+proportionem vel symphoniam<ref type="note" xml:id="ref64" target="n64" n="64"/> constituere, taliterque 
+hos nervos omni amicitia et convenientia uniri auresque nostras sic permulcere et animam sic disponere, quod 
+alter iudex scilicet auris, minime diiudicare potest ibi duas 
+voces proportionales esse, sed unam tantum. Et nisi esset 
+et alter iudex scilicet ratio, qui quidem duo iudices mutuo 
+se iuvant et alter alterius indiget auxilio, certe in tali etiam 
+humana et materiali musica nos errare contingeret. Sed 
+quia iste iudex ratio, scilicet quem per se non contingit 
+errare, videt tales nervos in dupla proportione se excedentes: 
+subduplam quidem tardius, duplam vero velocius 
+moveri, et duplam subduplae neque velociorem motum 
+tardiori coaequari posse. Quare concludit ex hoc in tali 
+symphonia plures esse voces, percussiones etiam plures, 
+quamvis tales voces sic unitas et amicas inter se aures 
+nostras permulcere (ut unam) nulli ambigitur. Sed quid 
+dicemus de illa musica caelesti, in qua non est materia 
+resistens formae, non violentia, non gravitas, neque levitas, 
+sed tantum est amor et desiderium uniri voluntati 
+divinae? Quid ergo mirum, si illa corpora caelestia (ut 
+divina) per Philosophum primo Caeli textu commenti 20. 
+organice voluntatis divinae universum conservant? Videmus 
+enim superficiem eius convexam, velocissime motam, 
+harmonicam proportionem servare cum eiusdem orbis 
+superficie concava tardissime mota cum musica per se 
+nihil aliud sit, nisi proportio motus velocissimi cum tardissimo. 
+Accidit enim musicae, quod in sua formali consideratione 
+eidem sonus et percussio adiuncta sit, ut in 
+nostra musica reperitur. Quae penitus ab illa caelesti removenda 
+est et tamen ibi musicam esse perfectissimam, 
+
+
+
+
+
+<pb/>
+  imo proprie dictam, nullus sani capitis negare potest. 
+  Quia nisi ibi esset motus amicabilis et proportio musicam 
+  constituens, utique ille motus velocissimus convexi, non 
+  eodem tempore ad medium caeli veniret cum illo motu 
+  tardissimo concavi neque ad alias partes eiusdem circumferentiae, puta ad horoscopum vel occasum vel ad imum 
+terrae. Quia si vel in comate deficeret, certe iam non servaret iustitiam neque amicam et <milestone unit="section" n="d2"/> harmonicam proportionem tam sibi caram. Nec ratio Philosophi contra Platonem militat negantis in caelis esse harmoniam: quae cum 
+sit per sonum et sonus ex percussione aëris, ergo cum in 
+caelis non sit aër neque sonus, ergo neque harmonia. 
+Quidam volentes defendere Platonem, quod in caelis est 
+harmonia, nihil tamen dicunt neque formaliter respondent ad rationem Philosophi. Dicunt enim, quod harmonia caelestis ob sui magnitudinem non auditur, similitudinem sumentes ab incolis apud Catadupam Nili praecipitationem, 
+ubi sonum ob sui magnitudinem non audiunt. 
+Plato, inquam, noluit hoc dicere, sed quod illa harmonia 
+caelestis non cadit sub auditum sensus, sed tantum sub 
+auditum rationis. Quae non est ex sono (ut Aristoteles 
+sibi imposuit, magis verba quam sensum Platonis impugnando), 
+sed est ex velocissimo et tardissimo (ut modo 
+dictum est). Talis enim harmonia perfectissima (ut organum) 
+est proportionata enti perfectissimo. 
+</p>
+            </div>
+         </div>
+         <div type="prosa-tractatus"/>
+         <div type="prosa-capitulum">
+            <head>Capitulum primum tractatus quarti</head> 
+            <p>
+Promisimus enim ultimo loco aliqua de nobilitate et 
+excellentia astrologiae dicere, quae videtur esse tota perfectio 
+humana, humanitus acquisita, quia tota nostra cognitio 
+sine ista nulla est, quia in istam fit totalis resolutio, 
+ut in causas proprias et primas. Proportio cuius ad alias 
+scientias est velut perfectum ad imperfectum, quia haec 
+cognoscit causas rerum omnium, aliae vero non cognoscunt
+
+
+<pb/>
+   causas ultimas. Ideo etiam cognitio huius est nobilior, 
+  quam tota cognitio naturalis, etiam demonstrative 
+  habita, quia haec totam considerationem habet circa divina 
+  ministeria, circa organa suae ordinatae operationis, 
+  circa etiam praecones suae voluntatis ordinatae ab aeterno, quae sunt corpora caelestia; et haec eadem, sola extensione, habet considerare omnes effectus infra concavum orbis lunae, scilicet quaecumque sunt in sphaera 
+activorum et passivorum. Haec enim est illa scientia, qua 
+praeterita et futura praesentia facimus. Qua cognoscimus 
+fatales dispositiones hominum ad mores et ad vitia. Ad 
+exaltationes et depressiones<ref type="note" xml:id="ref65" target="n65" n="65"/>. Ad divitias et paupertates. 
+Ad religionem et militiam ei oppositam. Haec est etiam 
+illa quae de epidemia<ref type="note" xml:id="ref66" target="n66" n="66"/>, annona, mutatione aëris, de electionibus <milestone unit="section" n="D3"/> et huiusmodi; denique de toto statu, esse, 
+passione et de tota fragilitate mundana. Ex quo clare liquere potest (secundum astrologos, philosophos et multo 
+clarius secundum veritatem catholicam) astra non necessitare, 
+maxime in animam intellectivam, a qua fluit nostra 
+libera actio. Primo secundum astrologos patet, quia frustra 
+essent tot libri ab eis de electionibus editi, si eligere nobis 
+esset negatum, sed essent omnia sub necessitate. Frustra 
+etiam imagines summa arte fabricandae ad sapientiam, ad 
+bonam et malam fortunam, ad amorem et odium, ad nocendum 
+inimicis et iuvandum sibi et amicis, iuxta illud 
+Ptolemaei in Centiloquio verbo ix, quod vultus omnes, id 
+est formae vel species huius saeculi subiectae sunt vultibus 
+caelestibus; et ideo sapientes, qui imagines faciebant 
+stellarum introitum, in caelestes vultus inspiciebant et 
+tunc operabantur, quod volebant. Quae omnia cessarent 
+si astra necessitatem ponerent; cuius etiam oppositum 
+Ptolemaeus in Centiloquio dicit, scilicet sapiens dominabitur
+
+
+
+
+
+
+<pb/>
+   astris. Patet etiam secundum medicos, quia si iuvare 
+  non possent, frustra liber secundus Avicennae De simplici 
+  Medicina, frustra eiusdem Antidotarium. Philosophus 
+  etiam pedibus manibusque in hanc sententiam currit secundo 
+  De physico auditu, sexto et nono <corr>Metaphysicae</corr>. 
+  Si omnia (inquit) essent sub necessitate, non esset meritum 
+  neque demeritum. Frustra consilium et deliberatio. 
+  Cuius tamen sensus et experientia oppositum attestatur. 
+  Sed negare sensata propter rationem est debilitas intellectus 
+  8. De physico auditu. In quem errorem stoici ceciderunt. 
+  Qui tamen fuerunt primi inventores omnia sub 
+  necessitate ponentes, omittentes sensum et rationem secuti 
+  satis apparentem, non tamen existentem (ut refert 
+  divus Boethius in fine commenti primi tertio Peri hermeneias<ref type="note" xml:id="ref67" target="n67" n="67"/>). 
+  Dum dicit: scorpio, quia est malus, propter venenum 
+  ideo est interficiendus. Et opium, quia est venenum, 
+  ex civitate extirpandum est. Sed (inquit) quaero, a quo 
+habent illam malitiam? Certum est, quod a stellis. Ita et 
+malus homo malitiam, quam habet, est a stellis, acquisitam hora suae nativitatis. Volunt et secundo vel pro opinione ipsorum posset <milestone unit="section" n="d3"/> adduci et haec ratio, quod 
+scilicet futura accidentia sunt necessaria, quamvis respectu nostrae ignorantiae causarum, quae sunt ipsae stellae, 
+effectus dicimus esse fortuitos. Quia (dicunt) si causae 
+essent nobis notae ipsorum particularium, sicut sunt notae ipsorum universalium, utique et effectus particulares 
+essent noti, sicut sunt et universales. Quia particularia 
+ex civitate extirpandum est. Sed (inquit) quaero, a quo 
+habent illam malitiam? Certum est, quod a stellis. Ita et 
+malus homo malitiam, quam habet, est a stellis, acquisitam hora suae nativitatis. Volunt et secundo vel pro opinione ipsorum posset <milestone unit="section" n="d3"/> adduci et haec ratio, quod 
+scilicet futura accidentia sunt necessaria, quamvis respectu nostrae ignorantiae causarum, quae sunt ipsae stellae, 
+effectus dicimus esse fortuitos. Quia (dicunt) si causae 
+essent nobis notae ipsorum particularium, sicut sunt notae ipsorum universalium, utique et effectus particulares 
+essent noti, sicut sunt et universales. Quia particularia 
+cognoscunt solum hii, qui habent non solum cognitionem 
+stellarum et aliarum scientiarum, verum etiam opus est, 
+ut sint divino numine afflati. Scientes ex universalibus et 
+particularia coniicere, in quibus non sensu duce, sed vi 
+intellectus et recta ratione intelligentiae non errantis, magis 
+ad hanc quam ad illam partem inclinati, veritatem 
+
+
+
+<pb/>
+  eligunt, ut subtilissime refert Ptolemaeus in Centiloquio. 
+  Sed quod magis est, volunt et tertio, quod quidem omni 
+  sensui repugnat, tamen est ratio apparens, scilicet quod 
+  intellectus et voluntas omnis necessitati subiaceant. Quia 
+  si esset verum, quod intellectus et voluntas agerent libere, 
+  omnes homines essent eiusdem perfectionis in accidentalibus, 
+  puta in doctrinis. Quia cum omnis anima sit eiusdem 
+  perfectionis et quaerat ipso scire perfici, utique (si 
+  non esset a stellis necessitate) quaelibet esset prudens et 
+  sapiens, et tamen experientia oppositum attestatur, quia 
+  maior est copia stultorum quam sapientum. Haec opinio 
+  stoicorum his argumentis vel similibus posset confirmari. 
+  Ad quae argumenta (licet nominales in 6. Metaphysicae 
+  in simili materia multum laborent et magis tergiversantur, 
+  quam solvant positionem, omnia scilicet esse sub necessitate) 
+  tamen ego aliter responderem in ista materia: prius 
+  tamen me humiliter summittens sanctae matri Ecclesiae 
+et veritati catholicae, cui non liceat cuique contraire. Ad 
+argumenta autem stoicorum et Galieni ad primum de 
+scorpione et opio ad ipsum hominem comparando, nego 
+similitudinem et dico unum: quod quaedam sunt actiones 
+naturales et quaedam voluntariae. Naturales omnes sunt 
+cum necessitate, tam illae quae sunt in non animatis, 
+quam animatis. Ut ignis non potest non calefacere, debite 
+agens applicatum passo et non impeditum, necessario 
+provenit actio. Sicut et lapis, extra locum suum, non 
+prohibitus, <milestone unit="section" n="D4"/> necessario descendet. Similiter in nobis 
+tamen me humiliter summittens sanctae matri Ecclesiae 
+et veritati catholicae, cui non liceat cuique contraire. Ad 
+argumenta autem stoicorum et Galieni ad primum de 
+scorpione et opio ad ipsum hominem comparando, nego 
+similitudinem et dico unum: quod quaedam sunt actiones 
+naturales et quaedam voluntariae. Naturales omnes sunt 
+cum necessitate, tam illae quae sunt in non animatis, 
+quam animatis. Ut ignis non potest non calefacere, debite 
+agens applicatum passo et non impeditum, necessario 
+provenit actio. Sicut et lapis, extra locum suum, non 
+prohibitus, <milestone unit="section" n="D4"/> necessario descendet. Similiter in nobis 
+quae sunt naturalia, sunt cum necessitate et talia sunt 
+omnia, praeter illa, quae a sola voluntate dependent, ut 
+fuga, persecutio vel electio per voluntatem liberam. Quae 
+sunt opera ipsius voluntatis, quae per se nullomodo subiacet 
+necessitati, quamvis possit impediri a suis rectis 
+operationibus. A quo autem ipsa voluntas habet hanc liberam 
+actionem? Dico, quod est suae formae et essentiae, 
+scilicet nulli subiacere et quod sit libera eius actio. Non 
+
+<pb n="70"/>
+tamen in brutis est illa voluntas libera. Quia fuga et persecutio 
+ipsorum est ab aestimativa. Hoc etiam Scotus videtur 
+innuere, primo Sententiarum, in prooemio in quaestione 
+de praxi: in qua seipsum superavit, quamvis sibi 
+quaedam (ut sui moris est fabricavit, non tamen ad intentionem 
+Philosophi) et super illa subtiliter dixit. Dicit enim 
+quod, quamvis intellectus omnis non potest non intelligere 
+obiecto praesentato, quia naturaliter intelligit, tamen 
+voluntas est illa, qua volumus, appetimus et fugimus et 
+caetera. Nec Philosophi positio videtur aliter posse sustineri. 
+Quae est quod artes nostrae sunt liberae: decimo 
+Metaphysicae textu commenti 3. quamvis ibi expresse 
+velit, quod radix liberae actionis sit ab intellectu et non a 
+voluntate, ut Scotus voluit. Quia nihil voluntas vult, nisi 
+prius intellectus intelligat secundum Philosophum. Sed 
+contra, magis contra Philosophum quam contra Scotum, 
+quia Philosophus 12. Metaphysicae vult, quod intellectus 
+divinus necessario intelligat (sicut et Scotus vult), ergo 
+voluntas necessario vult. Probo consequentiam, quia intellectus 
+et voluntas per Philosophum, 3. De anima, sola 
+ratione distinguuntur, ergo, quicquid uni competit, essentialiter 
+competit et alteri; sed per ipsum intellectus divinus 
+necessario intelligit, ergo et voluntas vult. Et cum non sit 
+ratio diversitatis penes essentialia, de una intelligentia, 
+quam de alia, et cum omnes intelligentiae sunt intelligentiae 
+et noster intellectus est intelligentia, per Averroem 
+secundo Metaphysicae commento primo, ergo quicquid 
+dicitur de una, dicitur et de alia. Pro solutione quidnam 
+dicere debeo? Certe, domini, (ut videtis) argumentum est 
+difficile. Tamen ego sic solverem istam contradictionem 
+Philosophi 10. Metaphysicae textu commenti 3. et 12. <milestone unit="section" n="d4"/> 
+Metaphysicae, negando omnimodam similitudinem intellectus 
+scilicet divini et nostri. Quia ad intentionem Philosophi 
+concederem, quod intellectus divinus necessario 
+intelligit et voluntas vult, quia esse et posse non differunt 
+
+<pb n="72"/>
+in aeternis tertio Physicorum textu commenti 32. Tamen 
+noster intellectus non necessario intelligit, neque voluntas 
+vult neque facit, propterea quia est intelligentia ultima 
+imperfecta, quia assistit materiae et non intelligit, nisi per 
+species cum discursu. Ideo ibi non est aliqua necessitas, 
+scilicet in intellectu nostro, quia, quamvis radix nostrae 
+operationis sit ab intellectu et non a voluntate, tamen potest 
+ad opposita per Philosophum ix. Metaphysicae textu 
+commenti 3. Ad secundum argumentum, quamvis sit forte 
+et quod veritatem videatur concludere, scilicet quod si 
+causae omnes universales et particulares essent notae, et 
+effectus essent noti, quia causa et effectus sunt simul natura. 
+Non tamen videtur sequi, quod omnia sint sub necessitate, 
+quo ad voluntatem (ut supra dictum est), quia 
+non est cui voluntas subiaceat et ipsam necessitet, quamvis 
+Philosophus in hac materia dicat unum vix intelligibile, 
+scilicet quod Deus, quae facit, necessario facit, et tamen ab 
+ipso omnia facta sunt, non tamen omnia sunt necessaria. 
+Quia dicit: quamvis in causis essentialiter ordinatis, si prima 
+agit cum necessitate, ut de facto est in Deo, et omnes 
+aliae necessario agent. Tamen cum deventum est ad haec 
+materialia, non necessario proveniet omnis effectus, quia 
+a materia male disposita talis actio impediri potest. 
+Quamvis apud Scotum tenet ista consequentia, quae apud 
+Aristotelem non tenet, scilicet si Deus agit cum necessitate, 
+omnia essent cum necessitate, quia Deo (ut est potentiae 
+infinitae) nihil resistere potest. Tamen Aristoteles aliter 
+dicere non potuit stans in puris naturalibus. Quia videt, 
+quod Deus est summa bonitas et summe boni est producere 
+summe bonum. Quia si posset aliquod bonum producere 
+et de facto non produceret, non esset bonum. Ideo 
+dixit, quod Deus necessario agit. Ex alia parte videt, quod 
+est nobis fuga et persecutio et multa peccata in natura, 
+puta homo cum duobus capitibus. Et tamen natura universi 
+non intendit illud. Ideo dixit, quod materia est causa 
+
+<pb n="74"/>
+contingentiae. Sed quia <milestone unit="section" n="E1"/> haec sunt altioris artificis. 
+Quia astrologi, cuius solius est resolvere has causas et 
+effectus omnes (possibiliter per naturam) ad primas causas, 
+scilicet ad corpora caelestia. Aristoteles vero, vel quia 
+noluit habitum sumere astrologicum et in naturalibus 
+veritatem concludere, timens forte, ne descendat de genere 
+in genus astronomicum cum physicis permiscendo 
+vel quia mathematicas non optime calluit, ut dicit Simplicius 
+de ipso in Praedicamentis in capitulo 19. et hoc magis 
+credendum est. Quia etiam in libello De bona fortuna 
+disputat, quid est esse hominem fortunatum et tamen 
+diminute dixit, quia non tetigit causam adaequatam, quam 
+solius astrologi est assignare. Quia multiplex est bona et 
+mala fortuna: quia in substantia, in filiis, in uxore, in exaltatione, 
+in amicis et inimicis et caetera, in quibus omnibus 
+contingit unumquemque esse fortunatum vel infortunatum, 
+secundum quod unicuique a radice nativitatis iniunctum 
+est. Quae omnia sunt principalis considerationis 
+ipsius astrologi. Nec tamen per haec volui carpere tantum 
+Philosophum, qui fuit regula in naturalibus. Ad tertium 
+argumentum dico, quod voluntas est libera (secundum 
+Scotum), vel ipse intellectus noster secundum Philosophi 
+solutionem iam supra datam. Ad formam autem argumenti 
+concedo, quod omnis anima intellectiva nostra est 
+eiusdem rationis. Tamen dico, quod possunt impediri ipsarum 
+operationes, quia agunt organice. Organo enim 
+corrupto vel vitiato, certe corrumpitur vel impeditur exitus 
+ipsius animae in actus et suas operationes. Quare per 
+accidens intellectus et ipsa voluntas stellis subiaceret, quatenus eius organa a stellis bene maleve<ref type="note" xml:id="ref68" target="n68" n="68"/> fabricantur. Huic 
+quaestioni etiam annectitur quaestio de praecognitione 
+Dei vel de ipsa praedestinatione et maxime super illud 
+dictum Christi: Petre, antequam gallus ter cantet, me 
+
+
+
+
+<pb n="76"/>
+  negabis. Sed quia ista quaestio magis ad Doctorem subtilem 
+  spectat, ideo ab hac disputatione manus modo abstineo. 
+  Redeo modo unde discesseram, scilicet ad divinitatem 
+  huius scientiae astronomicae, quae se habet ad potentiam 
+  nostri intellectus sicut lumen solis ad visum vespertilionis, 
+quia eminenter transcendit latitudinem nostri intellectus, 
+etiam si vellemus eniti <milestone unit="section" n="e1"/> supra vires nostras. Verum 
+etiam est tantae utilitatis, conducens non solum ad esse 
+nostrum, sed etiam ad utile et bonum esse, iuxta illud 
+Ptolemaei in Centiloquio verbo 5., quod scilicet sapiens 
+dominabitur astris. Multa etiam mala avertere potest praecognoscendo futura accidentia in corporibus nostris; quibus bene praeparatis, puta evacuando frigidis etiam et 
+humidis corpus alterando, quando praecognoscet per 
+directionem vel annuam conversionem febrem humoralem ex calido et humido, de proximo venturam, ut aeger 
+ipsam sustinere possit, quam quidem non sustineret, si 
+eadem vi corpus humanum in febrem dispositum sic improvisum 
+invaderet. Velle etiam singulas utilitates, quibus 
+humana fragilitas sibi subvenire posset, annus certe non 
+sufficeret eas enarrare. Quia si solum ritus priscorum 
+patrum sacerdotumve<ref type="note" xml:id="ref69" target="n69" n="69"/> Romanorum, aliorum etiam, qui 
+artem magicam arte astronomica exercebant, etiam per 
+apparatum exorcismum, augurium, auspicium, volatum, 
+scintillationem<ref type="note" xml:id="ref70" target="n70" n="70"/>, hydromantiam, pyromantiam, spatulam 
+et alias 32 partes in lege nostra modo prohibitas, quae 
+tamen omnes erant deductae ab ipsa astrorum cognitione. 
+Quas etiam omnes perscrutatus sum, ut bonorum malorum etiam cognitionem haberem, ut a malis cavere possim 
+et bona prosequar, divi Hieronymi sententiam insecutus. 
+Sed cum omnia ista viderim, simul et abstinui me, et manum 
+ultimam eis imposui. 
+
+
+
+</p>
+        </div>
+      
+         <pb n="78"/>
+        <div type="prosa-tractatus">
+          
+            <head>Plusquam expositio. Quia totalis resolutio 
+in librum Elementorum Euclidis 
+acutissimi artium et medicinae doctoris 
+Federici Chrysogoni Iadertini.</head> 
+            <div type="prosa-capitulum">
+               <p>
+Expeditus de quatuor generibus causarum pertinentibus ad istam artem venio modo ad expositionem ipsius 
+textus libri Elementorum Euclidis. Quem intendo omni 
+cum diligentia explanare ad veram intentionem ipsius 
+Doctoris adducendo sermones per se et descendendo 
+ad ipsas quiditates rerum. Laborabo etiam in dictis meis 
+esse clarus et facilis, quo quidem processu in hac scientia 
+opus est. Iste igitur liber prima sui divisione <milestone unit="section" n="E2"/> secatur 
+in prooemium et tractatum, secunda ibi triangulum aequilaterum. Prima iterum in duas: in prima ponitur scientia 
+per diffinitionem ipsarum magnitudinum, longitudinis 
+tamen<ref type="note" xml:id="ref71" target="n71" n="71"/> et latitudinis. Quia de his ad decimum huius 
+pertractatur, quia de puncto, linea et figura et angulis. De 
+tertia vero dimensione, scilicet profunditate, agitur a decimo infra, quia de corpore et capacitate magnitudinum. 
+In secunda ibi petitiones sunt: 5 ponuntur petitiones et 
+communes animi conceptiones. Quae apud logicos aequivalent ipsis dignitatibus et suppositionibus. Quae quidem 
+dignitates et petitiones apud mathematicos in principio 
+uniuscuiusque libri partialis apponi solent. Dico hae dignitates, quibus opus est in demonstrationibus ipsarum propositionum, contentaret in quolibet libro partiali. Sed quia 
+prooemium Euclidis, quod habemus prae manibus, satis 
+indocte et inepte est traductum, quod quidem elegantissime 
+divus Boethius traduxit, ideo secundum illam traductionem 
+illud exponemus. Quam traductionem dirigit ad 
+Symmachum<ref type="note" xml:id="ref72" target="n72" n="72"/> patritium, ubi tribus verbis, nec pluribus, 
+tria artificiose dixit, sicut convenit tanto philosopho. Primo 
+
+
+
+
+
+<pb/>
+  enim reddit auditorem benivolum promittendo utilitatem, 
+  dum dixit: mi patrici, sum tibi facturus rem gratissimam 
+  et utilem. Secundo attentum ponendo difficultatem, 
+  dum dixit: quandocumque figuras geometricas obscure 
+  prolatas tibi claras fecero. Tertio reddit docilem ponendo 
+  ordinem dicendorum, dum dixit: Quia a diffinitione mensurae 
+  exordium sumemus. Mensura igitur est quicquid 
+  pondere, capacitate, longitudine, latitudine, altitudine 
+  animoque finitur. Hic ponuntur sex genera mensurarum. 
+  Quarum quinque sunt tantum mathematicae, sexta vero 
+  est communis ad mathematicas et ad alias scientias. Quae 
+  est illa, qua omnia animo finiuntur, id est ipsa anima vel 
+  intellectus possibilis, quo fit ipsa cognitio. Diffinitionem 
+  autem harum mensurarum divus Boethius non praemisit, 
+  sed aliqualem descriptionem vel enumerationem ipsarum. 
+  Quas tamen ad bonitatem doctrinae sic possem diffinire. 
+  Mensura est ratio cognoscendi. De qua mensura multa supra diximus. <milestone unit="section" n="e2"/> Ideo hic manus ab illis abstineo. Solum 
+tamen inferam ex isto loco (ut supra promiseram), quod 
+nostra expositio fuit vera, quod scilicet hic principaliter 
+agitur de mensura. Quia etiam primo incipit consideratio 
+de mensura. Et etiam ratione demonstratum est cum impugnaverim omnes exponentes titulum libri, scilicet quare 
+dicitur liber Elementorum vel principiorum. Dicitur enim 
+principiorum propterea, quia mensura est principium in 
+omni arte et scientia. Deinde dicit ibi: Principium autem 
+mensurae punctum vocatur. Hoc non videtur esse verum, 
+Mensura est ratio cognoscendi. De qua mensura multa supra diximus. <milestone unit="section" n="e2"/> Ideo hic manus ab illis abstineo. Solum 
+tamen inferam ex isto loco (ut supra promiseram), quod 
+nostra expositio fuit vera, quod scilicet hic principaliter 
+agitur de mensura. Quia etiam primo incipit consideratio 
+de mensura. Et etiam ratione demonstratum est cum impugnaverim omnes exponentes titulum libri, scilicet quare 
+dicitur liber Elementorum vel principiorum. Dicitur enim 
+principiorum propterea, quia mensura est principium in 
+omni arte et scientia. Deinde dicit ibi: Principium autem 
+mensurae punctum vocatur. Hoc non videtur esse verum, 
+quia anima, superficies, pondus, latitudo et profunditas 
+sunt mensurae, non tamen harum principium punctum 
+est. Solutio: dico quod argumentum veritatem concludit. 
+Tamen littera sic est intelligenda, quia in mensuris datur 
+quidam ordo prioritatis. Saltem<ref type="note" xml:id="ref73" target="n73" n="73"/> prioritatis naturae, maxime in mensuris mathematicis: quia magnitudo secundum 
+
+
+
+<pb/>
+unam dimensionem prior est, quam eadem secundum 
+duas vel tres, et haec erit linea et non superficies neque 
+corpus; quia ad fluxum lineae causatur superficies et ad 
+fluxum superficiei causatur corpus. Quamvis haec fiant 
+tantum per intellectum, id est secundum considerationem 
+mathematicam, ut in commento 60. 3. Physicorum, quae 
+quidem linea (ut est mensura) debet esse maxime nota x. 
+Metaphysicae, ergo erit finita. Quia infinita non est nota 
+(quia non cadit sub potentia alicuius intellectus secundo 
+Caeli). Ergo finita et terminata, sed tales termini dicuntur 
+principia lineae, quorum est tantum terminare. Quare sensus 
+litterae erit, quod punctum est principium mensurae, 
+non omnis, sed primae ordine scilicet naturae: quia lineae. 
+Aliarum enim mensurarum erit principium vel linea, ut 
+ipsius superficiei vel latitudinis. Ipsius autem corporis non 
+linea, sed superficies. Animae autem neutrum istorum, 
+quia est forma simplex: non quanta neque composita vel 
+terminata aliquo termino, sed ipsa est terminus et etiam 
+mensura, secundum diversa secundo De anima. 
+</p>
+            </div>
+            <div type="prosa-capitulum">
+               <head>De puncto: Capitulum secundum</head> 
+               <p>
+Punctum est cuius pars nulla est, id est quod non patitur divisionem. Unde puncta sunt fines vel termini lineae 
+finitae et terminatae et cadunt in eius diffinitione formali. 
+Sed contra, <milestone unit="section" n="E3"/> omnis forma intrinseca dicit substantiam 
+  rei ad differentiam formae accidentalis, quae est extrinseca. 
+  Solutio: negatur maior: quia bene verum est, quod omnis 
+forma intrinseca dicit quiditatem: non tamen essentiam 
+neque substantiam per Philosophum primo Topicorum 
+capitulo 8. dicentem, quod in omni praedicamento est 
+reperire quid, unde quiditas et id, cuius est quiditas, differunt. 
+Hoc Averroes expresse 7. Metaphysicae commento 
+34, idem commento 92. primo Caeli, ubi dicitur quod 
+
+<pb/>
+            quiditas et habens quiditatem differunt: dicat divus Thomas 
+quicquid velit. Quia teneo de mente Philosophi, quod tota 
+quiditas est a sola forma, essentia vero est ipsius compositi 
+ex materia et forma. Quare maiorem negatam sic 
+declaro: cum omnia mathematicalia, etiam ipsum corpus, 
+sint de praedicamento quantitatis, nulla forma ipsorum<ref type="note" xml:id="ref74" target="n74" n="74"/> 
+intrinseca erit substantia. Sed solum formae intrinsecae 
+repositae in praedicamento substantiae dicunt substantiam: 
+ut anima per Philosophum secundo De anima. Pars 
+enim substantiae est substantia, sed forma intrinseca, 
+puta hominis vel lapidis est pars substantiae, ergo est 
+substantia. Aliorum<ref type="note" xml:id="ref75" target="n75" n="75"/> autem praedicamentorum formae 
+erunt quiditates. Secundo arguitur contra diffinitionem 
+iam datam, scilicet quod punctus est, cuius pars nulla est. 
+Ista diffinitio est privativa et punctum est quod positivum. 
+Sed positivi forma et diffinitio debet esse positiva, ergo 
+diffinitio mala, quia nullum privativum intelligitur, nisi 
+per accidens, scilicet per suum positivum per Averroem 
+in commento 37. 12. Metaphysicae et commento 25. 3. De 
+anima. Solutio: maior est vera quando causa diffiniti est 
+nota: sed quia nullum simplex habet veram causam vel 
+saltem nobis notam, ergo neque veram diffinitionem et in 
+talibus accipimus passionem et aliquam eius operationem 
+per se loco formae: qualis est ipsius animae scilicet, quod 
+est actus corporis: secundo De anima. Instantis etiam 
+quod<ref type="note" xml:id="ref76" target="n76" n="76"/> praeteritum futuro copulat. Puncti etiam quod 
+habet terminare vel quod est indivisibile. Quare concedo, 
+quod haec diffinitio privativa est imperfecta. Qualis 
+imperfecta cognitio est in toto, 12. Metaphysicae in quo 
+agitur de Deo et aliis substantiis abstractis: ubi <corr>processus</corr> 
+Aristotelis semper est per abnegationem: scilicet quod 
+
+
+
+
+
+
+<pb n="86"/>
+substantia abstracta non est corpus, non est <milestone unit="section" n="e3"/> corruptibilis, 
+non est sensibilis et huiusmodi, quae omnia dicunt in 
+perfectam cognitionem rei et Dei benedicti; et hoc est nostrae 
+imperfectioni imputandum, quia nisi per sensata et 
+ab effectu in cognitionem procedimus, per Philosophum 
+textu commenti 2. primo De physico auditu. Tertio arguitur 
+contra praedictam diffinitionem: quia de puncto non 
+datur scientia ergo neque diffinitio. Probatur sic: illud 
+quod non est, illius scientia non est. Sed punctum non est. 
+Ergo puncti scientia non est, ergo neque diffinitio. Quia 
+diffinitio nobis aggenerat scientiam primo Posteriorum. 
+Argumentum patet cum maiori primo Posteriorum textu 
+commenti 5. et minor arguitur. Cui nihil correspondet ex 
+parte rei, illud non est, quia est fantasticum et chimericum 
+per Doctorem subtilem in universalibus: quod autem 
+puncto et lineae nihil correspondeat ex parte rei, patet, 
+quia non datur in materia, quod non sit divisibile neque 
+linea sine latitudine. Ergo solutio: negatur minor. Ad probationem: 
+quando dicebatur, quod non datur punctum in 
+materia non divisibile: et per se<ref type="note" xml:id="ref77" target="n77" n="77"/> punctum est indivisibile, 
+dico, quod mathematica est de abstractis a materia et 
+intellectus agens depurat quicquid est materiale in ipso 
+fantasmate existente in cogitativa; et causat sibi lineam 
+sine latitudine, cui bene correspondet aliquid ex parte 
+rei, quia linea materialis, et punctum ipsam terminans. 
+Divisibile tamen utrumque, quia materia coniuncta ipsi 
+formae est causa divisibilitatis, in genere tamen causae 
+materialis, minus tamen principaliter, dicat divus Thomas, 
+quicquid sibi velit. Unde intellectui non repugnat, imo 
+est eius operatio ista, scilicet res materiales transferre de 
+ordine in ordinem et facere eas potentia intelligibiles, actu 
+intellectas. Et hoc erit, quando ipsas a materia depurat 3. 
+De anima; et abstrahentium non est mendacium secundo 
+
+
+
+<pb/>
+            Physicorum. Unde ex ipsa solutione colligitur, quod scientia 
+            mathematica distinguitur a naturali et a metaphysica 
+            penes diversum modum considerandi, qui quidem diversus 
+            modus considerandi est intrinsecus ad hoc, ut scientiae 
+            inter se distinguantur. Mathematicus enim abstrahit 
+a materia sensibili secundum diffinitionem tantum, quia 
+non secundum esse. Naturalis autem utraque consideratione est <milestone unit="section" n="E4"/> in materia, divinus vero utroque modo 
+abstrahit a materia. Et cum ipsa mathematica sit scientia 
+realis 6. Metaphysicae, ergo non habet esse in intellectu, 
+sed in ipsa re extra intellectum. 
+          </p>
+            </div>
+            <div type="prosa-capitulum">
+               <head>De speciebus linearum: Capitulum tertium </head>
+               <p>
+Linea proprie principaliter a mathematico consideratur et maxime a geometra: linea vero visualis ab ipso 
+prospectivo, quae est subalterna ipsi geometriae. Quae 
+sic diffinitur: linea est longitudo sine latitudine. Vel aliter: 
+linea recta est brevissima linearum, quia quaelibet 
+alia inter duo puncta data erit longior, quam illa recta. 
+Vel et tertio: linea recta est quae, si in rectum inspiciatur, 
+mediae partes non eminent a duobus extremis, imo 
+sunt unum cum duobus punctis. Differunt tamen istae 
+diffinitiones inter se, quia prima est data per essentialia, 
+quia per genus et differentiam. Magnitudo enim est genus 
+ad lineam et differentia est ly sine latitudine. Duae vero 
+aliae diffinitiones sunt datae per extrinseca et per proprias 
+passiones. Sed hic insurgunt nominales cristato<ref type="note" xml:id="ref78" target="n78" n="78"/> capite 
+et alii doctores, Parisienses, sequaces ipsorum – quorum 
+princeps est Gregorius<ref type="note" xml:id="ref79" target="n79" n="79"/> Ariminensis – lacerantes, imo 
+destruentes totam philosophiam atque mathematicam, 
+nullam reverentiam exhibentes tantis philosophis, qui fuerunt 
+regula in natura, Aristoteli scilicet et Ptolemaeo, qui 
+
+
+
+
+
+<pb n="90"/>
+            devenerunt in artibus suis ad gradum cognitionis possibilem 
+            per naturam. Et quod magnus commentator Averroes 
+            dicit in prooemio De physico auditu, in commento 14. 3. 
+            De anima, primo De generatione commento 38. et divus 
+            Hieronymus illud confirmat scilicet, quod Aristoteles fuit 
+            regula in natura, maxime in philosophia. Illud idem dici 
+potest de Ptolemaeo in mathematicis. At illa bestiola Gregorius<ref type="note" xml:id="ref80" target="n80" n="80"/> Ariminensis disputans quaestionem de infinitate 
+vigoris primo Sententiarum dicit, quod Aristoteles in puris 
+naturalibus erravit. Idem disputans materiam de futuris 
+contingentibus, an in illis sit determinata veritas: aperto 
+ore fatetur Aristotelem errasse seclusa etiam fide catholica. 
+Et quamvis omnis contradictor, cum est super veritatem, 
+imprimis excusandus est, tamen ego nulla excusatione 
+praehabita contra <milestone unit="section" n="e4"/> istos nominales, partim quia iniuste patribus et praeceptoribus nostris, Aristoteli scilicet 
+Ptolemaeo et Euclidi inverecunde contradixere, solum ut 
+a veritate naturali declinarent et per hoc ipsorum fatuitates 
+manifestarent, et partim, quia habeo demonstrationes 
+contra ipsos, quamvis colendissimus praeceptor meus 
+Petrus de Mantua, qui velut fidus fulgentissimus, non 
+solum omnes aetatis nostrae in philosophia transcendere 
+videatur, verum etiam ipsi Aristoteli adaequari videtur, 
+quia, quando vult Aristotelem, se ipsum exponentem introducit. 
+Tamen de ipso gravissime doleo, quia in quaestione 
+secunda 6. Physicorum, illam opinionem Gregorii 
+ita approbat affirmans, quod non sunt demonstrationes 
+contra illam positionem Gregorii, quae talis est. Dicit enim 
+Gregorius in secundo Sententiarum distinctione 2. quod 
+per nullam potentiam finitam neque infinitam sunt danda 
+ista individua: puta, punctus mathematicus, cuius pars 
+nulla est neque linea sine latitudine neque superficies 
+sine profunditate, et quod ista distinguantur sola ratio
+
+
+
+
+<pb/>
+            ne et non realiter. Quia, dicit ipse, si considero aliquod 
+            corpus per longum, erit tantum longitudo, si per longum 
+            et latum, erit superficies, si vero per profundum, erit 
+            corpus. Tamen in rei veritate linea, superficies et corpus 
+            sunt idem realiter et sola ratione differunt. Quae quidem 
+            opinio domini (ut videtis) destruit modum considerandi 
+            per abstractionem, destruit omnes scientias et non daretur 
+            cognitio nisi quae sensu percipimus. Contra quam opinionem 
+            demonstrative videre meo facit istam consequentiam: 
+            punctum, linea et superficies non distinguuntur realiter, 
+            ergo mathematica est philosophia naturalis. Consequens 
+            est falsum per Philosophum 6. Metaphysicae textu commenti 
+            2. ubi distinguit mathematicam a naturali et divina. 
+            Ergo consequentia arguitur: omnis consideratio, quae est 
+            circa materiam secundum esse et secundum diffinitionem, 
+            est naturalis secundo Physicorum. Sed ista consideratio 
+            lineae et superficiei (ut non distinguuntur realiter, sed 
+sola ratione) est in materia secundum esse et secundum 
+diffinitionem, ergo mathematica est philosophia naturalis. 
+Confirmatur mea ratio per ea, quae unusquisque in se 
+experitur scilicet posse concipere lineam tantum et superficiem tantum, ut <milestone unit="section" n="F1"/> supra declaravi. Praeterea patet 
+hoc esse verum ex ipsis diffinitionibus lineae et superficiei, quae sunt longitudines absque profunditate, quibus 
+diffinitionibus ipse Philosophus et omnes mathematici 
+utuntur in suis scientiis. Declaro modo errorem ipsorum 
+et causam erroris. Peccant enim per fallaciam aequivocalineae et superficiei (ut non distinguuntur realiter, sed 
+sola ratione) est in materia secundum esse et secundum 
+diffinitionem, ergo mathematica est philosophia naturalis. 
+Confirmatur mea ratio per ea, quae unusquisque in se 
+experitur scilicet posse concipere lineam tantum et superficiem tantum, ut <milestone unit="section" n="F1"/> supra declaravi. Praeterea patet 
+hoc esse verum ex ipsis diffinitionibus lineae et superficiei, quae sunt longitudines absque profunditate, quibus 
+diffinitionibus ipse Philosophus et omnes mathematici 
+utuntur in suis scientiis. Declaro modo errorem ipsorum 
+et causam erroris. Peccant enim per fallaciam aequivocationis, quia nesciverunt essentialia et rationes intrinsecas 
+et extrinsecas, penes quae distinguuntur artifices scientifici; 
+quia penes diversum modum considerandi, ut in 
+fine capituli praecedentis satis declaravi. Unde ille pauper 
+homo accepit lineam mathematicam, ut est in materia secundum 
+esse, et talis est naturalis et non mathematica, 
+cum tamen eam debebat accipere abstractam a materia 
+secundum diffinitionem non tamen secundum esse. Ad 
+
+<pb n="94"/>
+quod excellentia mei praeceptoris non animadvertit, ideo 
+Gregorii fatuitatem adeo commendavit. Sed sua excellentia 
+dicit et unum aliud, scilicet quod continuum non est 
+de essentia lineae et diffinitio eius, quae est longitudo sine 
+latitudine, est data a posteriori. Quia dicit sua excellentia, 
+quod possum lineam concipere absque eo, quod longitudinem 
+concipiam; forte quia ista materia non est pure 
+naturalis, sed est mixta cum materia mathematica. Ideo 
+non intense in hac materia speculatus est. Tamen meus 
+intellectus non capit lineam posse concipere absque eo, 
+quod magnitudo vel longitudo concipiatur et quod magnitudo 
+non sit de quiditate lineae. Imo ratione probatur 
+sic; nulla passio vel posterius praedicatur de subiecto in 
+abstracto. Sed longitudo praedicatur de linea in abstracto, 
+ut linea est longitudo sine latitudine, ergo longitudo non 
+est passio vel posterius, ut homo non est risibilitas, licet 
+sit risibilis. Quare diffinitio ista data est a priori et per 
+essentialia. Modo probo et secundum, scilicet quod non 
+potest concipi linea absque eo, quod longitudo concipiatur. 
+Arguo sic: quandocumque concipiuntur duo puncta 
+distincta continuata ipso medio, de necessitate concipitur 
+et ipsa longitudo. Sed quandocumque concipitur linea, 
+concipiuntur duo puncta continuata medio. Ergo quandocumque 
+concipitur linea, concipitur longitudo. Quia non 
+est aliud linea, nisi medium inter duo puncta. Quae nihil 
+aliud est, quam ipsa longitudo, ergo <abbr>etc.</abbr> 
+               </p>
+            </div>
+            <div type="prosa-capitulum">
+               <milestone unit="section" n="f1"/> 
+               <head>De generibus angulorum: Capitulum quartum</head> 
+               <p>
+Cum duo genera angulorum sint: plani scilicet et non 
+plani, id est sphaeralis. Qui maior est quam planus. Unius 
+enim trianguli sphaerici tres anguli aequivalent tribus 
+angulis rectis. Sed unius trianguli plani tres anguli simul 
+sumpti aequivalent duobus rectis. Per Euclidem primo 
+Elementorum, propositione 32. De differentia quorum 
+
+<pb n="96"/>
+angulorum infra pulchre disputabimus, cum de figuris et 
+corporibus sphaericis sermonem faciemus, quia hic non 
+est locus proprius, nisi de planis. Planus itaque angulus 
+(qui est genus ad omnia genera angulorum et omnes 
+ipsorum species) sic potest diffiniri. Planus angulus est 
+duarum linearum in plano alterna conclusio, non indirectum, 
+sed magnitudinem continens. Notandum primo, 
+quod in his angulis est analogia physica et non univocatio 
+logica. Quia attenditur in illis magis perfectum et minus 
+perfectum. Quia per prius dicitur de recto, tamquam de 
+perfectissimo, quia est mensura ad omnes alios, ut supra 
+probatum est. Angulus est illa superficies intrinseca immediate 
+contenta a contactu duarum linearum. Quae si 
+fuerint perpendiculares adinvicem, erit angulus rectus, 
+qui non est nisi unus. Si vero linea recta super rectam non 
+directe, sed oblique cadit ex ea parte, ad quam magis inclinatur, 
+erit acutus. Et a qua magis inclinatur, erit obtusus 
+et erit maior recto, ille vero minor erit recto. Ex quo patet, 
+quod quilibet angulus claudit aliquotam magnitudinem 
+et cum omnis magnitudo sit divisibilis in infinitum, ergo 
+quilibet angulus est divisibilis in infinitum. Contra istam 
+conclusionem arguitur, scilicet quod non omnis angulus 
+est divisibilis. Ille angulus non est magnitudo, qui non 
+patitur divisionem: sed angulus contingentiae est huiuscemodi, 
+ergo. Discursus bonus, cum maior<ref type="note" xml:id="ref81" target="n81" n="81"/> et minor 
+patet per Euclidem propositione 16. 3.<ref type="note" xml:id="ref82" target="n82" n="82"/> Elementorum. 
+Pro solutione notandum est, quod angulus contingentiae 
+est ex applicatione lineae rectae super peripheriam<ref type="note" xml:id="ref83" target="n83" n="83"/> circuli 
+causans angulum rectum cum diametro circuli. Et ille angulus 
+extrinsecus a circulo dicitur angulus contingentiae 
+et intrinsecus dicitur angulus semicirculi. Angulus <milestone unit="section" n="F2"/> 
+autem contingentiae est minimus inter acutos. Et ille 
+
+
+
+
+
+
+
+<pb n="98"/>
+semicirculi est maximus inter acutos, qui duo anguli simul 
+iuncti constituunt unum angulum rectum. Secundo est 
+notandum, quod illa linea applicata circulo tangit ipsum 
+per punctum tantum, et illud sit a. Dico, quod nulla alia 
+linea tanget a. et si tanget a., illa linea fiet una linea cum 
+priori linea, quia tota cadit super totam, nec divisibiles<ref type="note" xml:id="ref84" target="n84" n="84"/> 
+secundum latitudinem. Additum indivisibili faciet maius 
+et ratio est iam assignata, quia si plures lineae ex eadem 
+parte possent duci ad idem punctum, tunc una linea non 
+tangeret circulum per punctum, quod est contra dignitatem 
+mathematicam, vel quod tale punctum esset divisibile, 
+quod est contra diffinitionem puncti. Tunc suppositis 
+istis dico, quod angulus aliquis dividi dicitur, quando linea 
+praecise ducitur ad punctum contactus duarum linearum 
+causantes angulum illum, qui est dividendus. Sed in angulo 
+contingentiae est impossibilis talis casus lineae, ergo 
+angulus contingentiae dividi non potest. Quare nego 
+consequentiam argumenti, scilicet angulus contingentiae 
+non dividitur, ergo non quantus. Ad formam argumenti 
+dicitur, quod illud non est quantum, quod per se dividi 
+non potest, non tamen, si per accidens divisibile non sit, 
+ut in angulo contingentiae. Qui quamvis sit quantus, non 
+tamen est divisibilis, quia circumferentia vel peripheria<ref type="note" xml:id="ref85" target="n85" n="85"/> 
+impedit casum lineae praecise ad punctum contactus lineae 
+cum ipso circulo. Tamen in angulis acutis rectilineis 
+secus est, quia quilibet est divisibilis in infinitum, qui in 
+his non est impedimentum peripheriae<ref type="note" xml:id="ref86" target="n86" n="86"/> sicut in angulo 
+contingentiae. 
+
+
+
+
+</p>
+            </div>
+            <pb n="100"/>
+            <div type="prosa-capitulum">
+               <head>De generibus figurarum: Capitulum quintum</head> 
+               <p>
+        Superficies, figura, triangulus, isosceles. Ita se habent 
+        per lineam praedicamentalem, quia sunt genus et genus 
+        subalternum, species et individuum. Superficies sic 
+        diffinitur: superficies plana est extensio plana linea vel lineis terminata. Dicitur plana ad differentiam superficiei 
+sphaericae. Ex qua diffinitione colligitur, quod duae lineae 
+rectae non claudunt superficiem, sed ad minus<ref type="note" xml:id="ref87" target="n87" n="87"/> tres vel 
+una circularis. Est etiam notandum, quod triangulus vel 
+circulus non <milestone unit="section" n="f2"/> sunt illae tres lineae, neque linea circularis est circulus. Sed triangulus et circulus est illa superficies contenta et clausa illis tribus lineis et circulus illa 
+continentia a peripheria<ref type="note" xml:id="ref88" target="n88" n="88"/> circulari.</p>
+            </div>
+            <div type="prosa-capitulum">
+               <head>De circulo: Capitulum sextum</head>
+               <p>
+Circulus est figura, in qua lineae a centro ad circumferentiam ductae sunt aequales. Ly figura est genus et ly 
+centrum et circumferentia est differentia vel forma. Sed 
+contra istam diffinitionem: unius rei est una forma intrinseca 
+et totalis maxime ponendo formas partiales in mixto, 
+ut Doctor subtilis et Avicenna contra divum Thomam. Sed 
+centrum et circumferentia sunt duae formae (per hanc 
+diffinitionem) unius rei: ergo mala diffinitio. Solutio: in 
+mathematicis non sunt expectandae verae formae, sed 
+magis termini, qui accipiuntur pro forma, ut sunt rationes 
+cognoscendi. Quare in mathematicis non inconvenit 
+(ut sunt termini), quod sint plures formae unius rei, sicut 
+sunt in ipsa linea duo puncta, id est duo termini vel duae 
+formae. Sciendum est, quod inter omnes figuras circulus 
+est nobilior figurarum. Sicut et sphaera<ref type="note" xml:id="ref89" target="n89" n="89"/> ipsorum corporum, 
+quia capacissimae et in motu aptissimae, quia 
+
+
+
+
+
+
+
+<pb/>
+velocissimae primo Coeli et Ptolemaeus in Almagestis libro 
+3. Ideo natura universi tali figura universum esse voluit. 
+Firmamentum enim tantae continentiae sub quacumque 
+alia figura non aequalem velocitatem servaret, ut magnus 
+commentator Averroes<ref type="note" xml:id="ref90" target="n90" n="90"/> subtiliter, sed satis obscure, probat hoc idem in commento 28. secundo Coeli. Notandum 
+secundo, quod non datur nisi unus circulus, id est una 
+species et sic nisi una diffinitio. In omnibus vero aliis figuris 
+sunt plures species, in aliquibus etiam infinitae in 
+potentia. Secundum quod infinita latera habere unam figuram 
+imaginari possumus, quia quacumque data adhuc 
+aliam cum pluribus lateribus imaginari possumus, quae 
+omnes erunt diversae species. 
+          </p>
+            </div>
+            <div type="prosa-capitulum">
+               <head>De generibus triangulorum: Capitulum septimum</head> 
+               <p>
+Triangulus aequilaterus est figura tribus aequis lateribus contentus. Primo notandum est, quod non sunt nisi 
+tres species <milestone unit="section" n="F3"/> triangulorum: isopleuros, isosceles et 
+            scalenon. Inter quos datur analogia, quia primo dicitur 
+            de isopleuro quam de isoscele, quia perfectior. Sed contra 
+            divus Boethius ponit sex species: quia isopleuros, isosceles, scalenon, oxigonium, ambligonium et orthogonium, 
+            ergo plures quam tres. Solutio: triangulus dupliciter considerari potest: primo penes latera aequalia vel inaequalia, 
+            secundo penes angulos: omnes aequales vel inaequales. 
+            Et penes istam considerationem duplicem bene erunt sex 
+            species: quia secundum primam considerationem sunt 
+            tres species et secundum considerationem secundam 
+similiter aliae tres. Tamen tres secundae sola ratione differunt 
+a tribus primis, quia isopleuros habet tria latera 
+aequalia et oxigonium habet tres angulos aequales et isti 
+duo trianguli est unus triangulus realiter et differunt sola 
+ratione. Sic etiam est dicendum de isoscele et ambligonio, 
+
+
+
+<pb/>
+quia uterque duum aequalium laterum et angulorum. Sic 
+etiam de scalenone et orthogonio, qui duo sunt una species, 
+quamvis secundum diversam considerationem<ref type="note" xml:id="ref91" target="n91" n="91"/> sunt 
+duae species, quia penes considerationem angulorum et 
+laterum fiunt diversae denominationes triangulorum. 
+          </p>
+            </div>
+            <div type="prosa-capitulum">
+               <head>
+De figuris compositis ex triangulis tamquam 
+parente omnium figurarum et primo de quadrato: 
+Capitulum octavum</head> 
+               <p>
+Quadratum est figura quatuor laterum et angulorum 
+aequalium contenta. Quadrangulum est, quod ex parte 
+altera longius dicitur. Est figura duum aequalium laterum 
+oppositorum et angulorum aequalium. Primo notandum 
+est, quod sicut triangulus est prima figurarum simplicissima 
+et parens omnium aliarum figurarum rectilinearum, 
+quia a nulla componitur, imo omnes aliae ex ipso com
+ponuntur et compositae iterum in ipsum resolvuntur. Ita 
+et quadratum est prima figurarum compositarum. Unitas 
+enim est impotentia ad multitudinem: ipsa tamen non 
+ponit in numerum. Dualitas vero est prima multitudo: 
+sic etiam triangulus est una figura simplex, irresolubilis<ref type="note" xml:id="ref92" target="n92" n="92"/> 
+  in alias figuras, in potentia tamen constituere primam 
+  multitudinem in figura et <milestone unit="section" n="f3"/> totam reliquam latitudinem, 
+  primam vero multitudinem, quae est ipsum quadratum, 
+  quod est ex duobus constitutus triangulis, nono Metaphysicae textu commenti 20. Quare erit quadratum prima figura composita dicens primam multitudinem, quia duos 
+triangulos. Pentagonum vero erit in secundo ordine, quia 
+componitur ex tribus triangulis et etiam resolvitur in tres 
+triangulos ducendo lineam de angulo in angulum, quot 
+modis est possibile non tamen intrinsecando lineas iam 
+ductas per doctrinam Campani propositione 32. primi 
+
+
+
+
+
+
+<pb n="106"/>
+  Elementorum Euclidis. Modo dubitatur contra Euclidis modum 
+procedendi. Videtur enim quod est insufficiens, cum 
+mathematicalia sint in triplici differentia, quaedam enim 
+habent unam dimensionem, ut linea; quaedam duas, ut 
+superficies: quaedam tres, ut corpus. Tamen egit de prima 
+et secunda et non de tertia. Quod est maxime de consideratione 
+ipsius geometrae, quia considerat capacitatem, 
+profunditatem, quae sunt dimensiones ipsius corporis. 
+Solutio: dico, quod non est insufficiens, imo doctrinaliter 
+processit et scientifice, sicut convenit tanto philosopho. 
+Vitare enim voluit inutilem repetitionem, scilicet ne idem 
+bis dicatur. Ideo a consideratione de corporibus modo se 
+abstinuit, cum de ipsis pertractare sit locus proprius in 
+xi. huius, ubi incipit a diffinitione corporis. Sed quia ad 
+x. inclusive agit de lineis, figuris, potentia numeri et de 
+extractione radicum, imo lineas et figuras modo diffinit 
+et non ipsum corpus. 
+</p>
+            </div>
+            <div type="prosa-capitulum">
+               <head>
+De lineis parallelis: Capitulum nonum</head> 
+               <p>
+Lineae aequidistantes vel parallelae sunt, quae in eadem 
+plana superficie collocatae atque utrimque productae 
+in neutra parte concurrunt. Ista diffinitio est sufficienter 
+data et habet tres differentias, per quas excluduntur omnes 
+instantiae. Quarum prima est, quod sint in eadem 
+superficie plana, quia in diversis superficiebus taliter possent 
+duci, quod non concurrent. Secunda differentia est, 
+quod sint in alterutram partem productae, quia si essent 
+non parallelae et non sufficienter ductae vel etiam si ex ea 
+parte ducerentur, a qua plus distant, utique non concurrerent. 
+Contra tamen istam maximam vel communem animi 
+<milestone unit="section" n="F4"/> conceptionem Euclidis memini coram illustrissimo 
+Duce Florentiae disputasse et haec eadem erat una de 
+meis conclusionibus in disputationibus publicis, quas anno 
+praeterito habui in alma Academia Patavina. Nec tamen 
+
+<pb/>
+  usque in hodiernum habui solutionem. Imaginatus enim 
+  sum unum modum, in quo possum ducere duas lineas 
+  rectas super eandem superficiem, non aequidistantes, in 
+  infinitum ducere, quae tamen numquam concurrere possent. 
+  Imaginatio enim mea talis est. <figure/>
+Sit linea recta infinita a.b. et punctus c. signatus extra lineam a.b. a 
+quo ducatur linea c.x. ad lineam 
+a.b. ita tamen, quod punctus x. lineae c.x. semper fluat super lineam 
+infinitam a.b. et punctus c. lineae c.x. sit immobilis. Sit 
+etiam signatus punctus in linea c.x., qui erit r. Fluat etiam 
+r. punctus ad fluxum x. puncti. Positis istis modo suppono tria mathematicalia per se nota. Quorum primum est, 
+quod punctus fluens causat lineam et ad motum lineae 
+causatur superficies, ad motum superficiei causatur ipsum 
+corpus. Secundum suppositum est, quod qualitercumque 
+totum movetur motu uniformi, necesse est et partes moveri 
+eodem motu. Et econtra, scilicet qualiter omnes partes 
+moventur et totum eodem modo movebitur. Puta, si 
+corpus uniformiter movetur motu circulari vel motu recto, 
+dico quod et partes integrales eius speciem motus eandem 
+facient, quam et totum. Et econtra, si partes movebuntur 
+motu recto vel circulari, et totum movebitur motu recto 
+vel circulari, cum partes integrales nihil aliud sint, quam 
+ipsum totum primo Physicorum textu commenti 17. Tertium 
+suppositum est quod linea non potest tangere aliam 
+lineam, nisi per punctum et hoc est verum in lineis rectis. 
+Implicat enim contradictionem, si longitudo sine latitudine 
+tangat longitudinem sine latitudine, nisi per unum 
+punctum, quia secundum latitudinem non habent partem 
+et partem, per quas possent tangere partem et partem, 
+nisi per punctum, qui non habet partem et partem, ideo 
+est etiam indivisibilis (ut ex sua diffinitione apparet); quod 
+si una <milestone unit="section" n="f4"/> linea recta tangat aliam rectam plusquam per 
+
+<pb n="110"/>
+punctum, certe necesse est, quod tota linea cadat super 
+totam lineam et quod duae lineae fiant una linea et quod 
+non sint amplius duae lineae, quia indivisibile additum 
+indivisibili non facit maius neque divisibile. Tunc arguo 
+sic x. punctus lineae c.x. uniformiter fluit motu recto, quia 
+super lineam rectam scilicet a.b. Ergo punctus r. (qui est 
+signatus in linea c.x. uniformiter fluente) uniformiter fluet 
+et ipse scilicet motu recto ad motum totius lineae c.x. per 
+secundum suppositum. Ergo punctus fluens motu recto 
+causabit lineam rectam per primum suppositum. Et sic 
+patet prima pars nostrae intentionis, scilicet quod linea 
+r. et r. ad fluxum ipsum r. sit linea recta. Modo probo, 
+quod linea a.b. cum linea r. et r. non sunt lineae parallelae. 
+A<ref type="note" xml:id="ref93" target="n93" n="93"/> puncto x. ducatur linea ad a.b. lineam, quam secet 
+in puncto m. taliter, quod latus m.x. sit aequale lateri x.r. 
+trianguli r.x.m. Item in alia distantia vel fluxu ipsius x. a 
+puncto a. versus b. fiat unus triangulus simili modo, cuius 
+basis secabit lineam a.b. in puncto n. qui triangulus erit 
+x.r.n. Tunc arguo sic: omnium duorum triangulorum, quorum 
+duo latera unius fuerint aequalia duobus lateribus 
+alterius et angulus unius respiciens ipsam basim, fuerit 
+maior angulo alterius respiciente basim, necesse est, quod 
+basis trianguli habentis angulum maiorem etiam sit maior 
+basi trianguli habentis angulum minorem respicientem 
+ipsam basim per 24. propositionem primi Elementorum 
+Euclidis. Sed angulus r.x.n. est minor angulo r.x.m. quia 
+est extrinsecus ad ipsum per 16. et 36. primi Euclidis: quod 
+autem sit extrinsecus, patet: si accipiatur triangulus x.c.x. 
+et producas latus eiusdem scilicet x.n. in m., cuius angulus 
+r.x.m. est extrinsecus: quod est intentum. Tunc ultra: 
+angulus r.x.n. est minor angulo r.x.m., ergo basis r.n. est 
+minor basi r.m., ergo linea r. non aequidistat, quia ex una 
+parte est proximior quam alia. Et sic probatum est, quod 
+
+
+<pb/>
+linea a.b. et<ref type="note" xml:id="ref94" target="n94" n="94"/> linea r. non aequidistant<ref type="note" xml:id="ref95" target="n95" n="95"/>. Tertium etiam 
+faciliter probatur, scilicet quod punctus r. est impossibile, 
+quod tangat lineam a.b., quamvis semper magis atque magis 
+appropinquatur ipsi lineae a.b., quia x. punctus lineae 
+c.x. semper tangit lineam a.b., ergo nullus alter punctus, 
+<milestone unit="section" n="G1"/> puta r. per tertium suppositum, et sic patet intentum 
+scilicet, quod datur modus qualiter duas lineas rectas 
+super eandem superficiem in infinitum ductae, et tamen 
+numquam concurrere. Solutionem unusquisque quaerat. 
+Placuit enim mihi litem tantam propria speculatione adinvenisse 
+et vobis eam disputandam proposuisse.</p>
+            </div>
+            <div type="prosa-capitulum">
+               <head> 
+De petitionibus et communibus animi 
+conceptionibus: Capitulum x.</head> 
+               <p>
+Quia Campanus ad bonitatem doctrinae addidit unam 
+communem animi conceptionem, quam non video aliquem 
+intelligere, quid nam sibi in illa Campanus dicere 
+velit; imo cum ad illam deventum est, omnes post longam 
+titubationem supine cadunt. Quae talis est: quanta 
+est aliqua quantitas ad quamlibet aliam eiusdem generis, 
+tantam et caetera. Hoc clarum est, sed per ea quae subdit, 
+omnes certe involvit, scilicet hoc universaliter verum est 
+sive antecedentes et caetera. Quae quidem animi conceptio 
+est tota aurea et memoriae mandanda, quia facit 
+ad scientiam mathematicam, logicam et physicam. Unde 
+multas speculationes utiles ad omnes scientias ex hoc 
+loco possem proponere, tamen studens brevitati aliquas 
+adducam et eas declarabo. Primo tamen quid sibi velit 
+Campanus, enodabo. Sensus vero suae propositionis talis 
+est: quandocumque sunt plures quantitates sibi invicem 
+proportionales, omnes comparatae adinvicem (in eadem 
+coordinatione), vel etiam commutando proportiones, 
+
+
+
+
+<pb n="114"/>
+  habent inter se proportiones. Deinde dicit: eiusdem generis, 
+  hoc ideo dixit, quia omnis comparatio debet esse 
+  inter univoca: puta quantitas discreta ad discretam et 
+  continua ad continuam. Exempli gratia: sit linea numerorum 
+  coordinata in dupla vel tripla vel in quacumque 
+  alia proportione, quia non variat propositionis veritatem. Et sit 1. 2. 4. 8. Dico, quod primus ad secundum 
+erit subduplus, et tertius ad quartum subduplus. Si 
+etiam commutemus illam coordinationem et comparemus primum ad tertium, erit subquadrupla proportio; 
+eadem erit, et si secundum ad quartum comparemus, et 
+hoc patet. Sed quia Campanus addit quaedam, per quae 
+respondet cuidam tacitae obiectioni. Aliquis enim posset 
+quaerere, utrum hoc sit verum tam in quantitate continua 
+quam in discreta, et in quantumlibet <milestone unit="section" n="g1"/> longa coordinatione utriusque quantitatis continuae scilicet et discretae. 
+Respondet, quod in quantitate continua absolute est 
+verum, sive antecedentes fuerint maiores sive minores. 
+Exemplum, sint quatuor continuae quantitates in dupla 
+proportione <figure/> ita quod 
+prima sit quatuor pedum, secunda duorum, tertia unius, 
+quarta semi pedis quantitatis. Priores Campanus vocat 
+antecedentes, posteriores vero consequentes. Tunc si vellem facere plures proportiones versus consequentes (dicit 
+et bene), quod possibile est facere infinitas proportiones: 
+quia ultimam consequentem possumus in infinitum dividere, quia est quantitas continua, quare prima erit octupla, si semipedalis in duo secetur; si vero in quatuor, prima 
+antecedens erit sexdecupla, scilicet ad octavam pedis. Et 
+secunda antecedens erit octupla, et tertia quadrupla. Pari 
+ratione, si antecedentes fuerint minores et consequentes 
+maiores, quas semper possumus addendo multiplicare 
+et facere proportiones, quod in quantitate discreta fieri 
+
+<pb/>
+non potest. Quia si antecedentes fuerint maiores, cum 
+deventum fuerit ad unitatem (ultra quam est impossibilis 
+divisio), fiet ibi status neque plures proportiones 
+esse poterunt: puta 8. 4. 2. 1. Sed si antecedentes fuerunt 
+minores, puta 1. 2. 4. 8., possibile est facere proportiones 
+in infinitum, quia numerus crescit in infinitum, non tamen 
+dividitur in infinitum. Magnitudo vero et dividitur 
+et quaecumque data, adhuc maior intelligi potest. Et sic 
+intelligitur iste passus vel ista proportio, quae dicitur a 
+commutata proportione, quam etiam Euclides appellat 
+eversam proportionalitatem, ut in propositione 16.<ref type="note" xml:id="ref96" target="n96" n="96"/> 5. 
+huius. Et in logica huiusmodi consequentia valet in convertentibus 
+tantum et non in consequentibus. Exemplum, 
+sit Socrates, risibile, equus et irrationabile. Tunc sicut se 
+habet Socrates ad risibile, ita equus ad irrationabile, quia 
+subiectum ad propriam passionem. Similiter etiam se 
+habebit Socrates ad equum, sicut risibile ad irrationabile, 
+quia duo disparata<ref type="note" xml:id="ref97" target="n97" n="97"/>, ut in commento 32. tertio De anima. 
+Sed dubitatur contra propositionem ultimo appositam, 
+scilicet quod magnitudo in infinitum et augetur et est divisibilis, 
+quia non videtur esse verum, quod magnitudo 
+continua in infinitum possit augeri, quia daretur infinitum 
+<milestone unit="section" n="G2"/> in actu, quod natura universi prohibet et secundum 
+Philosophum aliquis intellectus bene dispositus capere 
+non potest maxime in magnitudine. Licet divus Thomas 
+ponat de mente Philosophi in octavo Physicorum a textu 
+commenti lxxix. infra, Deum esse infiniti vigoris, et 
+quamvis hoc sit verum secundum veritatem et fidem catholicam, 
+tamen, quod hoc sit ad intentionem Philosophi, 
+parcat mihi sua sanctitas, quia in hoc nihil ad intentionem 
+Philosophi dixit, quia expresse Philosophus oppositum dicit 
+in textu commenti lxx. secundo Caeli. Et ibi colendissimus 
+praeceptor meus Petrus Pomponaceus contra divum 
+
+
+
+
+
+<pb n="118"/>
+Thomam clare demonstravit. An autem Philosophus bene 
+in hoc senserit, dico quod male. Tamen illud naturaliter 
+et per sensata Philosophus probavit, nec fides nostra est 
+per sensatas demonstrationes, sed sola fide credita. Quod 
+autem magnitudo in infinitum non possit augeri est ratio 
+Averrois in commento lx. tertio Physicorum, in quo subtiliter, 
+imo forte in hac materia seipsum superavit. Dicit 
+enim, quod in ipsa divisione est processus ad nihil vel ad 
+imperfectum magis. Cuius causa est materia ipsa, quae 
+de sui natura est infinita (quatenus est privata forma). In 
+ipsa autem additione est ire ad formam, quae est finita et 
+terminata, ergo non est additio infinita. Solutionem tamen 
+credo esse istam scilicet, quod illa consideratio magni 
+Commentatoris est secundum naturalem considerationem 
+et (ut sic) est verum, sed quia mathematicus distinguitur a 
+naturali et divino penes diversum modum considerandi. 
+Unde mathematicus considerat magnitudinem abstrahendo 
+a materia, quia per intellectum, cui non repugnat posse 
+imaginari maiorem <corr>lineam</corr> quacumque data, et sic in infinitum. 
+Naturalis vero considerat res ipsas in actu, quae 
+sunt finitae omnes: quia omnium natura constantium 
+terminatus est numerus, magnitudo et augmentum per 
+Philosophum secundo De anima textu commento xli. 
+</p>
+            </div>
+        </div>
+        <div type="prosa-tractatus">
+            <head> 
+In primam propositionem Euclidis</head> 
+            <p>
+Expeditus de prooemio venio modo ad ipsum tractatum 
+digestum in xv. libros. Qui prima sui divisione secatur 
+in quatuor partes, secundum quod quatuor principaliter 
+facit. In prima enim parte, scilicet in primis quatuor libris, 
+agitur de angulis et figuris. In <milestone unit="section" n="g2"/> secunda, scilicet 
+in quinque libris sequentibus, agitur de proportionibus in 
+quantitate continua applicabiles ad quantitates discretas. 
+Ex qua quidem parte vulgares omnes rationes numerorum 
+sibi deduxerunt, puta multiplicare, dividere, et etiam ipsas 
+
+<pb/>
+proportionalitates, quae apud ipsos regula trium numerorum 
+dicitur. In tertia vero parte, scilicet in x. (omnium 
+difficillima), in qua fiunt omnes resolutiones magnitudinum 
+et sicut omnes artes resolvuntur in metaphysicam, 
+quae est finis aliarum, quia tota nostra cognitio tendit 
+in istum finem, scilicet in cognitionem Dei benedicti. Ita 
+etiam in isto x. fiunt omnes resolutiones magnitudinum, 
+quia quaerit radices et originem potentiae magnitudinis, 
+quae apud vulgares dicitur algebra<ref type="note" xml:id="ref98" target="n98" n="98"/>. In quarta et ultima 
+principaliter agitur de corporibus, quamvis intersectae sint 
+quaedam speculationes figurarum: quia de longitudine, 
+latitudine et capacitate ad prospectivam reducendo. Quae 
+quidem non minus delectabilis est, quam utilis, quoniam 
+bene theoricas vel ipsam artem speculativam ad praxim 
+reducimus per doctrinam ipsius Geber. Per hanc enim solam rationem omnium visibilium quilibet reddere potest: 
+sive ab arte, sive a natura sint, bene maleve operata sunt, 
+quia naturam sicut et artem ipsam errare contingit secundo 
+Physicorum. Naturam ex peccato alicuius principii 
+intrinseci, artem vero ex defectu ipsius artificis male speculantis 
+vel speculationis artem in actum exercitum et in 
+ipsam operationem male reducentis. Quantum spectat ad 
+primam partem, Euclides doctrinaliter procedens summa 
+brevitate summaque arte, latenti tamen, hanc mirabilem 
+scientiam nobis tradere studuit. Primo enim naturas et 
+proprietates figurarum demonstrans a triangulo et non ab 
+alia figura exordium sumpsit, tamquam a parente omnium 
+figurarum; ex qua omnes componuntur et in quam omnes 
+compositae resolvuntur, ut satis supra dictum est. Dixi: 
+summa arte. Imitatus enim est ipsam naturam, in qua est 
+dare primum et ultimum. Quia in essentialiter ordinatis 
+non est procedere in infinitum, secundo Metaphysicae, et 
+quamvis species rerum sint in quodam numero terminato, 
+
+
+
+<pb/>
+nobis ignoto, non tamen sunt infinitae. Per Porphyrium 
+in universalibus, sic etiam in figuris, est ordo essentialis. 
+Ergo est dare primum et secundum. Et talis est triangulus, 
+quia <milestone unit="section" n="G3"/> primus in natura, et quadratum erit secundum. 
+In secundo etiam noster Euclides est imitatus naturam 
+et viam doctrinae, quia semper ea, quae sunt prius nota 
+naturae et nobis, praeposuit et per ea demonstravit posterius 
+nota naturae et nobis. Processit enim per demonstrationes 
+simpliciter dantes simul esse et cognitionem, 
+in quibus prius sunt nobis notae causae quam effectus, 
+et hoc est proprium ipsis mathematicis, in quibus causae 
+sunt prius notae nobis et naturae, quam ipsi effectus. Puta 
+quod triangulus habet tres angulos aequales duobus 
+rectis, quam quod eiusdem trianguli angulus extrinsecus 
+aequivalet duobus angulis intrinsecis sibi oppositis (ut in 
+primo Euclidis). In quam quidem speculationem, artem 
+et modum procedendi ipsius Euclidis video certe multos 
+errare. Imo Simplicius in suis praedicamentis vera dixit, 
+scilicet Aristotelem, quamvis in naturalibus fuerit regula in 
+natura, in mathematicis parum scivisse, imo in ista doctrina 
+graviter errasse. Quia in capitulo xix. primi Priorum 
+analyticorum<ref type="note" xml:id="ref99" target="n99" n="99"/> non imitatus naturam neque istam artem 
+latentem, artificiosam tamen: de aequicruri probavit magis 
+nota per minus nota, quia per propositiones posteriores 
+ipsius Euclidis et etiam posteriores ipsa natura. Ex quo 
+inferebat Simplicius Aristotelem multo inferiorem mathematicum 
+quam naturalem philosophum extitisse. De quo 
+etiam inferri possum eundem in cognitione astronomica 
+multo inferiorem extitisse. In xiii. enim Metaphysicae circa 
+finem adducit auctoritatem Eudoxi et Calipi in motibus 
+orbium caelestium, affirmans melius esse scire, quod illi 
+dicunt quam nihil scire, credendum enim est unicuique in 
+arte propria. Et etiam de ipso idem dicere possum: cum in 
+
+
+
+<pb/>
+  libello De bona fortuna, quid nam sit bona fortuna et hominem 
+  esse bene et male fortunatum, certe satis diminute 
+  imo nihil dixit. Quia si astrologiam calluisset, certe tutius 
+  illam materiam determinasset. Cum astrologus haec per 
+  se consideret, ut supra demonstravimus, cum de excellentia astrologiae disputaverimus. 
+Primum theorema Euclidis 
+Triangulum aequilaterum super datam lineam rectam 
+collocare. Sensus huius propositionis est, quod collocabilitas trianguli est <milestone unit="section" n="g3"/> demonstrabilis super quamcumque 
+lineam rectam datam. Et per ly collocabilitas trianguli 
+aequilateri est propria passio ipsius lineae datae, et per ly 
+demonstrabilis intelligo demonstrationem potissimam 
+dantem esse passionis simul et cognitionis, quamvis nullum expositorum huius artis videam non tantum demonstratione potissima aliquam propositionem demonstrasse, 
+verum etiam neque formam syllogisticam servasse, discurrentibus 
+nobis per omnes ipsorum codices et commentaria. 
+Ex quo omnes contingit dubitare, et de facto 
+dubitant: non solum sublimes philosophi, verum etiam 
+omnes nostrae aetatis mathematici, scilicet quomodo propositio 
+Philosophi secundo Metaphysicae habet veritatem, 
+scilicet quod mathematicae sunt in primo gradu certitudinis 
+et hoc solum propterea, quia solis mathematicis est 
+demonstrare a priori, dico a priori, demonstratione potissima, 
+et tamen illis nihil est demonstratum. Ego vero, non 
+quia natus sum omnibus contradicere et quod nullum 
+praecipuum mihi habere velim, sed certe, quia compatior 
+huius scientiae, sine qua non contingit quempiam recte 
+philosophari neque aliquid perfecte scire (ut in nostra 
+oratione demonstravimus), et tamen supina iacet culpa 
+illorum, qui se in ea intromittunt absque cognitione dialectica 
+et physica, sine quibus, si quid sciunt, nesciunt se 
+
+<pb/>
+scire. Ideo hanc lecturam vel expositionem in Elementa 
+Euclidis nostro modo exponemus, numquam a sensatis 
+rationibus et veris demonstrationibus per apicem recedendo. 
+Sit itaque linea data a.b. tunc arguo sic. A quocumque 
+puncto ducendae sunt duae lineae rectae ad quamcumque 
+lineam rectam triangulum aequilaterum collocantes. Sed 
+super datam rectam lineam a.b. puncto extra signato ducendae sunt duae lineae rectae: ergo super datam rectam 
+lineam a.b. triangulum aequilaterum collocare, quod a 
+quolibet puncto extra lineam signato lineae duci possunt, 
+patet per dignitatem vel petitionem primam. Quod autem 
+tales lineae sint aequales patet, si super lineam a.b. datam 
+intersecentur duo circuli in puncto d. per doctrinam Campani in prima propositione primi huius: et prosyllogizo 
+sic: lineae ductae a centro ad circumferentiam sunt aequales. Sed lineae a.d.a.b. et b.d. sunt lineae ductae a centro 
+ad circumferentiam, ergo sunt aequales. Tunc <milestone unit="section" n="G4"/> ultra: 
+omnis triangulus habens duo latera tertio aequalia est 
+aequilaterus. Sed triangulus a.b.d. super datam lineam a. 
+b. constitutus est habens duo latera tertio aequalia scilicet 
+ipsi a.b., ergo est aequilaterus. Et sic habetur intentum 
+demonstratione convenienti huic scientiae contra omnes 
+calumniatores. Sed aliquis posset quaerere: quomodo istae 
+demonstrationes mathematicae sunt dantes simul esse 
+passionis et cognitionis? Dico, quod medium huius demonstrationis est aequalitas linearum a centro ad circumferentiam, quae est una dignitas huius artis, quae cognitis terminis cognoscitur primo Posteriorum textu commenti 
+vi. Unde non prius mihi innotescit aequalitas huius trianguli, 
+quam sit ostensum, quod omnes tres lineae a centro 
+ad circumferentiam exeunt. Quo cognito simul cognosco 
+passionem et esse passionis, id est ipsam inhaerentiam 
+passionis in subiecto, quae demonstratio potissima dicitur. 
+Dubitatur contra ea quae supra dixi: ponendo intellectum 
+<pb n="128"/>
+  primae propositionis, scilicet quod vult probare triangulum 
+  posse collocari super datam rectam lineam, 
+  tamquam passionem ipsius lineae; et arguitur sic: nulla 
+  species disparata<ref type="note" xml:id="ref100" target="n100" n="100"/> cum alia specie potest esse eius passio. 
+  Sed triangulus et linea sunt duae species disparatae<ref type="note" xml:id="ref101" target="n101" n="101"/>. 
+  Ergo triangulus non potest esse passio lineae. Maior patet. 
+  Minor est Porphyrii in capitulo de specie, ubi dicit, quod 
+  triangulus est figurae species, linea vero recta, cum nullam superficiem claudere potest, figurae species esse non 
+  potest, quamvis Aristoteles primo Posteriorum textu commento 
+  2. dicat, quod triangulus est passio lineae. Solutio: 
+  argumentum peccat per fallaciam aequivocationis. Quia 
+  neque Euclides, neque Aristoteles volunt, quod triangulus 
+  sit passio lineae, sed volunt, quod ipsa collocabilitas trianguli 
+  id est ipsa aptitudo lineae ad triangulum et ad omnes 
+  alias figuras super ipsam constituendas. Et sic cessat et 
+  dubium et contradictio Philosophi et Porphyrii et Euclidis. 
+Primo notandum est, quod trianguli passio est habere tres 
+angulos aequales duobus rectis, ut in xxxii. propositione 
+primi huius. Quae propria passio est in actu et non in 
+aptitudine, quamvis risibilitas, cum sit in actu, iam non est 
+passio, sed accidens per actiones. Ex quo notandum est, 
+quod quaedam passiones mathematicae sunt in actu et 
+quaedam in potentia: <milestone unit="section" n="g4"/> in actu (ut quod triangulus 
+habet tres aequales duobus rectis) et quaedam in aptitudine (ut divisibilitas lineae in infinitum); quam infinitatem 
+naturalis sponte repudiat. Haec tamen duplex natura 
+dubium et contradictio Philosophi et Porphyrii et Euclidis. 
+Primo notandum est, quod trianguli passio est habere tres 
+angulos aequales duobus rectis, ut in xxxii. propositione 
+primi huius. Quae propria passio est in actu et non in 
+aptitudine, quamvis risibilitas, cum sit in actu, iam non est 
+passio, sed accidens per actiones. Ex quo notandum est, 
+quod quaedam passiones mathematicae sunt in actu et 
+quaedam in potentia: <milestone unit="section" n="g4"/> in actu (ut quod triangulus 
+habet tres aequales duobus rectis) et quaedam in aptitudine (ut divisibilitas lineae in infinitum); quam infinitatem 
+naturalis sponte repudiat. Haec tamen duplex natura 
+passionum etiam in naturalibus reperta est, ut risibile in 
+aptitudine, sed albedo cigni et nigredo corvi passiones 
+sunt in actu. Quamvis Philosophus in post praedicamentis 
+tangat hoc exemplificando de caliditate ignis et albedine 
+nivis dicendo, quod quaedam sunt a natura sic datae 
+
+
+
+
+
+<pb n="130"/>
+passiones et caetera. Tamen an hoc sit verum, scilicet quod 
+albedo cigni et nigredo corvi sint propriae passiones ipsorum? 
+Apud me non videtur esse verum. Propterea quia 
+hominem bene possum intelligere, absque eo quod concipiam 
+risibile, non tamen sine risibili vel sub opposito 
+risibilitatis, puta rudibili. Et hoc est proprium ipsis passionibus 
+ad differentiam ipsius quiditatis, sine qua illud cuius 
+est quiditas non potest concipi, quia includitur in suo 
+conceptu formali. Cignum tamen et ipsum corvum possum 
+sine albedine et sub opposita ratione concipere: solvat Apollo. Secundo notandum est, quod cognita natura 
+huius trianguli, certe facile cognoscemus et figuram syllogisticam 
+et diffinitionem ipsius in primo Posteriorum. 
+Quam (pace hoc dixerim) certe non video, qui eam intellexit. 
+Quod bene intuentibus in ipsorum expositionibus 
+clare innotescere potest. Tertio, ex cognitione huius trianguli 
+omnibus innotescet totus processus Aristotelis et quo 
+medio usus est in fabricando instrumentum syllogisticum, 
+sine quo non continget quemquam cognoscere se aliquid 
+scire. Qua autem arte vel medio Aristoteles usus est? Dico, 
+quod medio et arte geometrica, quia syllogismus est figura, 
+quae figura trilatera. Figura autem et triangulus ad 
+geometram et non ad alium artificem spectat. Quae omnia 
+apparebunt ex ipsa diffinitione syllogismi in primo Priorum, 
+si primo litteram ipsius diffinitionis corruptam vitio 
+interpraetum vel impraessorum, bene legamus. Quae sic 
+legi debet: Syllogismus est oratio, in qua positis quibusdam 
+aliud (dicit) quidem appositis – legi debet sic aliud 
+quoddam a iacentibus – ex necessitate contingit, eo quod 
+haec sunt. Quae quidem diffinitio syllogismi est tota in 
+terminis mathematicis: et nihil <milestone unit="section" n="H1"/> aliud diffinit, nisi figuram 
+triangularem, quae applicatur ad ipsum syllogismum. 
+Pro cuius evidentia sciendum est, quod apud 
+mathematicos termini ponuntur et magnitudines vel ipsa 
+
+<pb/>
+intervalla (quae sunt inter terminos) iacere dicuntur. Quibus terminis mathematicis ipse Philosophus in hac diffinitione 
+syllogismi (ut et ipsi geometrae) usus est. Dicit 
+enim primo quibusdam positis, quia tribus terminis scilicet 
+duobus extremis et uno medio: quia extrema mediata 
+non possunt absque medio copulari. Deinde subdit necesse 
+est a iacentibus, scilicet duobus intervallis: quorum 
+unum erit ab uno extremo ad medium et aliud ab eodem 
+medio ad aliud extremum. Deinde dicit: aliud quoddam 
+evenire, scilicet tertium intervallum. Ex necessitate continget 
+scilicet conclusio figurae et statim se declarat: scilicet 
+nullo extrinsecus amplius termino adhibito scilicet ad 
+hoc, ut figura sit et figura claudatur. Ita quod sensus erit 
+iste: cum Philosophus velit instrumentum vel figuram 
+syllogisticam venari vel fabricare: et figura cum nihil aliud 
+sit nisi illa superficies clausa et terminata lineis rectis, ita 
+quod duae lineae non claudunt figuram, sic etiam in proposito 
+dicit Aristoteles, si ponantur tres termini a.b.c. 
+puta in forma triangulari, et si ductae fuerint duae lineae 
+a duobus terminis ab ipso b. in a. et ab ipso c. in b. erunt 
+duae lineae, quae tamen non faciunt figuram. Et si voluerimus 
+claudere figuram, certe poterimus absque hoc, quod 
+ponamus alium terminum, puta quartum d., quia tertiam 
+lineam ducere poterimus ab ipso c. in a., quae claudet figuram. 
+Quae omnia sunt in syllogismo, quia tres termini 
+sunt tres dictiones, puta animal rationale, risibile et homo. 
+Duo intervalla vel duae lineae non claudentes figuram 
+sunt, puta, duae praemissae vel duae propositiones, puta, 
+omne animal rationale est risibile; omnis homo est animal 
+rationale. Tertia linea vel intervallum claudens figuram est 
+ipsa conclusio, scilicet ergo: omnis homo est risibilis. Sed 
+quia positis duobus extremis terminis, medius terminus 
+
+<pb/>
+copulans extrema tripliciter potest variari. Primo vel quod 
+praecise sit in medio duplici mediatione, scilicet per aequidistantiam 
+inter duo extrema. Secundo, ipso situ. 
+Quam utramque mediationem Philosophus in capitulo <num value="3">iii</num>. 
+primi Priorum sub aliis verbis elegantissime expraessit, 
+dum dixit: quando tres termini sic se <milestone unit="section" n="h1"/> habuerint, quod 
+  medius terminus aequaliter participet utroque extremo, 
+  qui etiam positione sit medius, et quod non sit extra extremitates, id est quod sit in eadem linea recta cum duobus extremis. Et istam combinationem Aristoteles vocat 
+  figuram primam et perfectissimam. Secunda combinatio, 
+  vel medium variari potest, quando medium est positum 
+  supra extremitates: cum hoc etiam, quod tale medium 
+  magis participet maiori extremitate ita quod per has duas 
+  conditiones differt a prima figura et a tertia. Quae talis est 
+  scilicet quando medium est positum infra extremitates, 
+  magis tamen participans minori extremitate, quam maiori, scilicet opposito modo, quod in secunda figura medio 
+  accidit. Unde triplicem huiuscemodi combinationem sive 
+  medii variationem Philosophus tres figuras syllogizandi 
+  constituit, quamvis Avicenna quartam combinationem 
+  addere voluerit. Contra quem Averroem credo demonstrasse in capitulo v. primi Priorum, scilicet quod per illam 
+  quartam figuram committitur fallacia petitionis principii, 
+  quia per eam semper concluditur, puta quod aliqua substantia est homo, quia aliqua substantia est substantia. In 
+  qua quidem consequentia Averrois (propter sui difficultatem) omnes laborant. Ideo illam vobis modo deducam: 
+figura quarta secundum Avicennam talis est, exempli gratia: 
+Omnis homo est animal. Omne animal est substantia. 
+Ergo aliqua substantia est homo. Modo probatur quod 
+hoc dari non potest: et primo per regulam antepraedicamentalem, 
+scilicet quando alterum de altero praedicatur 
+
+<pb/>
+– ubi enim prima est Barbara. Haec est Barbara, scilicet 
+quicquid praedicatur et caetera. Sed in conclusione homo 
+praedicatur de substantia particulariter. Ergo quicquid 
+praedicatur de homine, praedicatur de substantia. Sed 
+animal praedicatur de homine, in maiori (ut patet), ergo 
+animal praedicatur de substantia per regulam. Tunc ultra, 
+animal praedicatur de substantia: ergo quicquid praedicatur 
+de animali, praedicatur de substantia per regulam: 
+sed ipsa substantia praedicatur de animali in minori, (ut 
+patet): ergo substantia praedicatur de substantia: et sic 
+aliqua substantia est homo: quia aliqua substantia est substantia: 
+quod est in fine abominationis. Nunc modo liceat 
+nobis iterum digredi circa Aristotelem de multis speculabilibus 
+ad propositum tamen applicando. Primo enim 
+quare Aristoteles in prima figura accepit tria elementa 
+scilicet a.b.c., quae adinvicem sunt contigua, inter quae est 
+<milestone unit="section" n="H2"/> una vocalis tantum et reliquae consonantes. In secunda 
+vero figura accepit tres consonantes et nullam 
+vocalem, scilicet n.m.x. ita tamen, quod inter n. extremitatem 
+maiorem et m. terminum medium nihil medium 
+cadit, sed sunt contigua, et tamen inter x. et m. cadit medium. 
+In tertia vero figura nullam etiam vocalem, sed 
+omnes consonantes accepit, videlicet p.r.s. ita tamen, quod 
+inter minorem extremitatem, videlicet s.r. non cadit aliquod 
+elementum medium, et tamen inter maiorem extremitatem 
+et medium terminum cadit. Pro solutione huius 
+nostri problematis notandum est, quod Aristoteles fuit 
+regula in natura et quamvis in multis celaverit artem (ut 
+hic et in libris Peri hermeneias<ref type="note" xml:id="ref102" target="n102" n="102"/>), quam vobis una die 
+reserabo; ubi est tota ars resolutoria et compositiva, sine 
+qua non est scientia perfecta, sine qua etiam est negata 
+abstractio quiditatis a quiditate usque ad ultimam quiditatem. 
+Qua ignorata, si quid scimus, id certe confuse 
+   
+
+<pb/>
+  scimus. Quare Aristoteles nihil sine forti ratione dixit, sed 
+circa omnia fuit sollicitus. Primo enim quando accepit tria 
+elementa, quorum vocalis erat unum, per hoc dedit intelligere 
+figurae primae perfectionem, quia alpha Graece 
+significat vitam, aliae duae figurae sunt sine alpha, id est 
+sine vita. Ideo imperfectae quarum necessitas, id est perfectio 
+et vita, non apparet, nisi prius ad primam reducantur. 
+Per illud etiam, quando accepit tria elementa sibi 
+contigua, significavit, quod in prima figura medium aequaliter 
+participat utroque<ref type="note" xml:id="ref103" target="n103" n="103"/> extremo, quia praedicatur et 
+subiicitur ita, quod est medium situ et participatione. In 
+secunda vero figura medium est foras vel supra extremitates, 
+quia medium in secunda praedicatur tantum. Et per 
+illud, quod dixit tale medium esse magis proximum maiori 
+extremitati, significavit, quod tale medium habet naturam 
+maioris extremitatis, quae semper praedicatur de 
+subiecto et ut sic habet rationem formae. Sed quia et medium 
+in hac figura praedicatur (quamvis non in conclusione), 
+ideo habet naturam formae, quia, quod subiicitur, 
+habet naturam materiae. In tertia vero figura, cum medium 
+semper subiiciatur, ideo habet naturam et convenientiam 
+et appropinquationem cum minori extremitate, 
+quia utrumque subiicitur. Hoc Philosophus dedit intelligere 
+per ea, quae dixit in capitulo v. primi Priorum. Quare 
+concludamus, quod prima figura est tantum perfecta 
+et nulla alia ratione praedicta, quae regulatur per dici de 
+<milestone unit="section" n="h2"/> omni et dici de nullo. Haec enim declarare volui, quia 
+existimo fore utilia, imo necessaria ad intelligendam intentionem 
+Philosophi in tota logica. Cuius solius est sciendi 
+modum praebere nobis et defendere nos a malis in 
+practicis et a falsis in speculativis.</p> 
+          
+        </div>
+         <closer>FINIS LAUS DEO TRINO ET UNO. </closer>
+      
+
+        
+          </body>
+      <back>
+         <pb n="140"/>
+      
+         <div type="poesis-ode" met="sapphicum">
+            <head>Petrus Partenius artium et medicinae 
+      doctor ad Federicum Chrysogonum 
+      artium et medicinae doctorem</head> 
+      
+            <l>Qui tuas gestit tenui Camena </l>
+            <l>5 Et rudi laudes resonare plectro </l>
+            <l>Adriae tentat numerare fluctus</l>
+      
+      
+            <l>Oceanique. </l>
+            <l>Triplici quando serie bonorum </l>
+            <l>Qui futuri quique fuere, qui sunt </l>
+            <l>Vincis et claro superos ad ignes</l>
+      
+            <l>Vertice surgis. </l>
+            <l>Viribus polles, specie decorus, </l>
+            <l>Aureo fulges generis nitore, </l>
+            <l>Laeta nec terrae tibi multa avitae</l>
+      
+            <l>15 Iugera desunt. </l>
+            <l>Inclitae gemmis sophiae corruscas: </l>
+            <l>Ceu micant flores crocei ligustris </l>
+            <l>Additi: et fulvis velut applicata.</l>
+      
+            <l>Lilia calthis. </l>
+            <l>Noscis excelsi numerosa coeli </l>
+            <l>Sidera: et flammas vitreo vagantes </l>
+            <l>Aethere: hirsutae pluviosa nosti</l>
+      
+            <l>Signa capellae. </l>
+            <l>Nota sunt tardi tibi plaustra lapsus </l>
+            <l>25 Quos vehat pennis Iovis ales imbres.<ref type="note" xml:id="ref104" target="n104" n="104"/> 
+            </l>
+            <l>Quo fretum motet Procyon furore et</l>
+      
+            <l>Litora<ref type="note" xml:id="ref105" target="n105" n="105"/> Delphin. </l>
+            <l>Tu soli calles animo sagaci </l>
+            <l>Puncta, secessus variasque gentes </l>
+      
+            <l>30 Sicis interdum refluentis omnes </l>
+            <l>Aequoris undas. </l>
+      
+      
+      
+      
+      
+            <pb n="142"/>
+       
+      
+            <l>Tu senis rythmos Samii recludis: </l>
+            <l>Inscio veri nimium popello </l>
+            <l>Tu doces vocis numeros sonore</l>
+            <l>Harmoniamque. </l>
+      
+      
+            <l>Praescius vitae retegis futurae </l>
+            <l>Vota, successus dubiamque sortem </l>
+            <l>Spes, metum, curas et amica pressae</l>
+            <l>Gaudia menti. </l>
+            <l>Augures ergo sileant vetusti </l>
+            <l>10 Quique reclusis inhians catellis </l>
+            <l>Viscera albentis timidus columbae</l>
+      
+            <l>Tractat haruspex. </l>
+            <l>Pythii cedant celebrata vatis </l>
+            <l>Numina et vani Cybeles ministri </l>
+      
+            <l>15 Terreat dictis Lybicos serenis</l>
+      
+            <l>Corniger Ammon. </l>
+            <l>Nos tuum Oenotri<ref type="note" xml:id="ref106" target="n106" n="106"/> genium precemur </l>
+            <l>Supplices thure et saliente mica </l>
+            <l>Ut canat quicquid miseris minantur</l>
+      
+            <l>20 Postera saecla. </l>
+            <l>Quicquid et laeti Iovis aula spondet </l>
+            <l>Nam leve est illi reserare fata </l>
+            <l>Coelitum qui nunc tenet astra solus</l>
+      
+            <l>Natus Atlante.</l> 
+      
+      
+         </div>
+         <pb/>
+         <milestone unit="section" n="H3"/> 
+         <div type="poesis-elegia" met="elegiacum">
+            <head>P. Nardinus Celineus ad Federicum Chrysogonum</head> 
+      
+            <l>Accipe, Chrysogone, antiquae lux aurea gentis, </l>
+            <l>Cuius in arcanis omnia pulchra latent. </l>
+            <l>Ingenii, quos ipsa tui admiratio fecit, </l>
+            <l>Iudicii versus accipe queso mei. </l>
+            <l>Ecce tibi (fateor) Petosyridos inclyta fame </l>
+            <l>Cedit, et Hypparci est gloria facta minor. </l>
+            <l>Tu sortes hominum, fatalia sidera<ref type="note" xml:id="ref107" target="n107" n="107"/> cernis </l>
+            <l>Acrius, et verax inde futura canis. </l>
+            <l>Uraniam solus, divina mathemata solus </l>
+            <l>Percipis, et radio singula quaeque notas. </l>
+            <l>Euclidem superas, geometrica dogmata nemo </l>
+            <l>Te melius tenuit, nec tenuisse potest. </l>
+            <l>Progressus natura suos tibi dedita pandit, </l>
+            <l>Atque per ignotas consulit ire vias. </l>
+            <l>Pythagorae sacros numeros, quibus omnia nectis </l>
+            <l>Sese multiplicans ordine prima monas. </l>
+            <l>Et res in propria discernis origine cunctas </l>
+            <l>Ideasque omnes et Iovis ora vides. </l>
+            <l>Principio causas rerum deducis ab uno, </l>
+            <l>Atque priora sciens posteriora doces. </l>
+            <l>Clam te nil Superi coelis operantur in altis </l>
+            <l>Et nihil inferior te sine mundus agit. </l>
+            <l>Nos autem segnes animi caligine mersi </l>
+            <l>Longius a tanti luminis orbe sumus. </l>
+            <l>O, vir summe, virum qualem non protulit olim </l>
+            <l>Graecia, doctrinis famigerare suis. </l>
+            <l>Pauca fero: quis enim cumulate dixeris artes? </l>
+            <l>Aut quibus excellis dona superba deum? </l>
+            <l>Quod superest oro ne dedignere poetam </l>
+            <l>Versibus his laudes concinuisse tuas. </l>
+      
+      
+      
+            <pb/>
+         </div>   
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Hieronymi Angeli artium et medicinae doctoris 
+        ad Federicum Chrysogonum</head> 
+            <l>Astra, polos, elementa simul causasque manentes </l>
+            <l>Omnibus antiquis abdita solus habet.</l>
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Nicolai Angeli in eundem</head>
+            <l>Omnia quae rutilo superat fulgore metalla, </l>
+            <l>Nec nitidis aurum cedit iaspidibus. </l>
+            <l>Sic iuvenes superat cunctos probitate, lepore, </l>
+            <l>Doctrina, ingenio, robore, Chrysonus. </l>
+         </div>   
+         <milestone unit="section" n="h3"/> 
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>
+      Matthaei Bini Veneti in libri laudem</head> 
+            <l>Hoc speculo speculemur; habet speculator hic, unde </l>
+            <l>Perspicias quicquid mens generosa potest. </l>
+         </div>   
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Marci Antonii Cyprii in eundem</head> 
+            <l>Vivere teque deis statuit seiungere<ref type="note" xml:id="ref108" target="n108" n="108"/> virtus, </l>
+            <l>Ut prius in terris fulgeas, inde polo.</l>
+        
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Laurentius Bruscus doctor collegii Patavini in eundem</head> 
+      
+            <l>Chrysogonum quisquis binis audierit horis </l>
+            <l>Exuvias hominis ponet eritque deus.</l>
+         </div> 
+         <div type="prosa-colophon">
+            <p>Finis.
+      
+      
+      Impressum Venetiis per Lazarum de Soardis 
+      Anno Domini MCCCCCVII die XXIX novembris. 
+      Cum privilegio. </p>
+         </div> 
+      
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Excusatio Lazari</head> 
+            <l>Si quid forte tuos offendet lector ocellos. </l>
+            <l>Quod mihi mendoso grammate versus eat </l>
+            <l>Emendare velis: nam non me Lazarus istis </l>
+            <l>Confecit mendis bibliopola tuus. </l>
+            <l>Sed turbata magis pressoris inertia quando </l>
+            <l>Sera dedit lassas artibus hora manus.</l>
+      
+         </div> 
+      
+         <pb/>
+      
+         <div type="notes">
+            <head>Notae</head>
+            <note xml:id="n1" place="foot" target="ref1" n="1">1 corr. ex accutissimo </note>
+            <note xml:id="n2" place="foot" target="ref2" n="2">2 corr. ex Hyspanorum </note>
+            <note xml:id="n3" place="foot" target="ref3" n="3">3 corr. ex accutissime </note>
+            <note xml:id="n4" place="foot" target="ref4" n="4">4 corr. ex sydere </note>
+            <note xml:id="n5" place="foot" target="ref5" n="5">5 corr. ex accumine </note>
+            <note xml:id="n6" place="foot" target="ref6" n="6">6 corr. ex archanis </note>
+            <note xml:id="n7" place="foot" target="ref7" n="7">7 corr. ex perhipateticis </note>
+            <note xml:id="n8" place="foot" target="ref8" n="8">8 corr. ex comentaria </note>
+            <note xml:id="n9" place="foot" target="ref9" n="9">9 corr. ex sydera </note>
+            <note xml:id="n10" place="foot" target="ref10" n="10">10 corr. ex sequutus </note>
+            <note xml:id="n11" place="foot" target="ref11" n="11">11 corr. ex archana </note>
+            <note xml:id="n12" place="foot" target="ref12" n="12">12 corr. ex methaphysicum </note>
+            <note xml:id="n13" place="foot" target="ref13" n="13">13 corr. ex perhipatheticorum </note>
+            <note xml:id="n14" place="foot" target="ref14" n="14">14 corr. ex excelentes </note>
+            <note xml:id="n15" place="foot" target="ref15" n="15">15 corr. ex arithematica </note>
+            <note xml:id="n16" place="foot" target="ref16" n="16">16 corr. ex sydera </note>
+            <note xml:id="n17" place="foot" target="ref17" n="17">17 corr. ex fortuuam </note>
+            <note xml:id="n18" place="foot" target="ref18" n="18">18 cf. Aristoteles, Meteorologica </note>
+            <note xml:id="n19" place="foot" target="ref19" n="19">19 corr. ex Pytagorici </note>
+            <note xml:id="n20" place="foot" target="ref20" n="20">20 corr. ex Pithagorae </note>
+            <note xml:id="n21" place="foot" target="ref21" n="21">21 corr. ex aquiruntur </note>
+            <note xml:id="n22" place="foot" target="ref22" n="22">22 corr. ex atribuit </note>
+            <note xml:id="n23" place="foot" target="ref23" n="23">23 corr. ex quoliget </note>
+            <note xml:id="n24" place="foot" target="ref24" n="24">24 corr. ex insequutus </note>
+            <note xml:id="n25" place="foot" target="ref25" n="25">25 corr. ex pronosticis </note>
+            <note xml:id="n26" place="foot" target="ref26" n="26">26 corr. ex Caldeorum </note>
+            <note xml:id="n27" place="foot" target="ref27" n="27">27 corr. ex metheurorum; cf. Aristoteles, Meteorologica </note>
+            <note xml:id="n28" place="foot" target="ref28" n="28">28 corr. ex impii </note>
+            <note xml:id="n29" place="foot" target="ref29" n="29">29 corr. ex Perihermenias </note>
+            <note xml:id="n30" place="foot" target="ref30" n="30">30 corr. ex fedare </note>
+            <note xml:id="n31" place="foot" target="ref31" n="31">31 corr. ex lachrymosa </note>
+            <note xml:id="n32" place="foot" target="ref32" n="32">32 corr. ex humane </note>
+            <note xml:id="n33" place="foot" target="ref33" n="33">33 corr. ex peripatheticos </note>
+            <note xml:id="n34" place="foot" target="ref34" n="34">34 corr. ex non ne </note>
+            <note xml:id="n35" place="foot" target="ref35" n="35">35 corr. ex Euclydis </note>
+            <note xml:id="n36" place="foot" target="ref36" n="36">36 corr. ex praecibus </note>
+            <note xml:id="n37" place="foot" target="ref37" n="37">37 corr. ex prohemio </note>
+            <note xml:id="n38" place="foot" target="ref38" n="38">38 corr. ex prae cognitione </note>
+            <note xml:id="n39" place="foot" target="ref39" n="39">39 corr. ex analecticis </note>
+            <note xml:id="n40" place="foot" target="ref40" n="40">40 corr. ex Secondo </note>
+            <note xml:id="n41" place="foot" target="ref41" n="41">41 corr. ex Metahphorice </note>
+            <note xml:id="n42" place="foot" target="ref42" n="42">42 corr. ex recti linearum </note>
+            <note xml:id="n43" place="foot" target="ref43" n="43">43 corr. ex circunferetiam </note>
+            <note xml:id="n44" place="foot" target="ref44" n="44">44 corr. ex disentit </note>
+            <note xml:id="n45" place="foot" target="ref45" n="45">45 corr. ex eni </note>
+            <note xml:id="n46" place="foot" target="ref46" n="46">46 corr. ex Sylogisticum </note>
+            <note xml:id="n47" place="foot" target="ref47" n="47">47 corr. ex Theoreumate </note>
+            <note xml:id="n48" place="foot" target="ref48" n="48">48 corr. ex secundnm </note>
+            <note xml:id="n49" place="foot" target="ref49" n="49">49 corr. ex negocii </note>
+            <note xml:id="n50" place="foot" target="ref50" n="50">50 corr. ex peripatheticum </note>
+            <note xml:id="n51" place="foot" target="ref51" n="51">51 corr. ex sumittere </note>
+            <note xml:id="n52" place="foot" target="ref52" n="52">52 corr. ex quam </note>
+            <note xml:id="n53" place="foot" target="ref53" n="53">53 corr. ex Nichomaco </note>
+            <note xml:id="n54" place="foot" target="ref54" n="54">54 corr. ex simphoniam</note>
+            <note xml:id="n55" place="foot" target="ref55" n="55">55 corr. ex bisdiapasson</note>
+            <note xml:id="n56" place="foot" target="ref56" n="56">56 corr. ex diatesseron </note>
+            <note xml:id="n57" place="foot" target="ref57" n="57">57 corr. ex nerum </note>
+            <note xml:id="n58" place="foot" target="ref58" n="58">58 corr. ex hiperboleon </note>
+            <note xml:id="n59" place="foot" target="ref59" n="59">59 corr. ex nerum </note>
+            <note xml:id="n60" place="foot" target="ref60" n="60">60 corr. ex organicae </note>
+            <note xml:id="n61" place="foot" target="ref61" n="61">61 corr. ex bisdyapasson </note>
+            <note xml:id="n62" place="foot" target="ref62" n="62">62 corr. ex redde </note>
+            <note xml:id="n63" place="foot" target="ref63" n="63">63 corr. ex dyapason </note>
+            <note xml:id="n64" place="foot" target="ref64" n="64">64 corr. ex simphoniam </note>
+            <note xml:id="n65" place="foot" target="ref65" n="65">65 corr. ex depraessiones </note>
+            <note xml:id="n66" place="foot" target="ref66" n="66">66 corr. ex Epidimia </note>
+            <note xml:id="n67" place="foot" target="ref67" n="67">67 corr. ex perihermenias </note>
+            <note xml:id="n68" place="foot" target="ref68" n="68">68 corr. ex male ve </note>
+            <note xml:id="n69" place="foot" target="ref69" n="69">69 corr. ex sacerdotum, ve </note>
+            <note xml:id="n70" place="foot" target="ref70" n="70">70 corr. ex Sintillationem </note>
+            <note xml:id="n71" place="foot" target="ref71" n="71">71 corr. ex t[antu]m </note>
+            <note xml:id="n72" place="foot" target="ref72" n="72">72 corr. ex Symmacum </note>
+            <note xml:id="n73" place="foot" target="ref73" n="73">73 corr. ex Saltim </note>
+            <note xml:id="n74" place="foot" target="ref74" n="74">74 corr. ex ipsarum </note>
+            <note xml:id="n75" place="foot" target="ref75" n="75">75 corr. ex Aliroum </note>
+            <note xml:id="n76" place="foot" target="ref76" n="76">76 corr. ex quot </note>
+            <note xml:id="n77" place="foot" target="ref77" n="77">77 corr. ex te </note>
+            <note xml:id="n78" place="foot" target="ref78" n="78">78 corr. ex christato </note>
+            <note xml:id="n79" place="foot" target="ref79" n="79">79 corr. ex Cregorius </note>
+            <note xml:id="n80" place="foot" target="ref80" n="80">80 corr. ex Crigorius </note>
+            <note xml:id="n81" place="foot" target="ref81" n="81">81 corr. ex maiori </note>
+            <note xml:id="n82" place="foot" target="ref82" n="82">82 corr. ex 15. 3. </note>
+            <note xml:id="n83" place="foot" target="ref83" n="83">83 corr. ex periferiam </note>
+            <note xml:id="n84" place="foot" target="ref84" n="84">84 corr. ex indivisibiles </note>
+            <note xml:id="n85" place="foot" target="ref85" n="85">85 corr. ex periferia </note>
+            <note xml:id="n86" place="foot" target="ref86" n="86">86 corr. ex periferie </note>
+            <note xml:id="n87" place="foot" target="ref87" n="87">87 corr. ex adminus </note>
+            <note xml:id="n88" place="foot" target="ref88" n="88">88 corr. ex periferia </note>
+            <note xml:id="n89" place="foot" target="ref89" n="89">89 corr. ex spaera </note>
+            <note xml:id="n90" place="foot" target="ref90" n="90">90 corr. ex Averoes </note>
+            <note xml:id="n91" place="foot" target="ref91" n="91">91 corr. ex consyderationem </note>
+            <note xml:id="n92" place="foot" target="ref92" n="92">92 corr. ex inresolubilis </note>
+            <note xml:id="n93" place="foot" target="ref93" n="93">93 corr. ex a. </note>
+            <note xml:id="n94" place="foot" target="ref94" n="94">94 corr. ex ex </note>
+            <note xml:id="n95" place="foot" target="ref95" n="95">95 corr. ex aequistant </note>
+            <note xml:id="n96" place="foot" target="ref96" n="96">96 corr. ex 15 </note>
+            <note xml:id="n97" place="foot" target="ref97" n="97">97 corr. ex desperata </note>
+            <note xml:id="n98" place="foot" target="ref98" n="98">98 corr. ex arzibra </note>
+            <note xml:id="n99" place="foot" target="ref99" n="99">99 corr. ex analecticorum </note>
+            <note xml:id="n100" place="foot" target="ref100" n="100">100 corr. ex disperata </note>
+            <note xml:id="n101" place="foot" target="ref101" n="101">101 corr. ex disperatae </note>
+            <note xml:id="n102" place="foot" target="ref102" n="102">102 corr. ex Perihermenias</note>
+            <note xml:id="n103" place="foot" target="ref103" n="103">103 corr. ex urroque </note>
+            <note xml:id="n104" place="foot" target="ref104" n="104">104 corr. ex hymbres </note>
+            <note xml:id="n105" place="foot" target="ref105" n="105">105 corr. ex Littora </note>
+            <note xml:id="n106" place="foot" target="ref106" n="106">106 corr. ex Enotri </note>
+            <note xml:id="n107" place="foot" target="ref107" n="107">107 corr. ex sydera </note>
+            <note xml:id="n108" place="foot" target="ref108" n="108">108 corr. ex se iungere </note>
+        </div>
+      </back>
+  </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="galopa-a-c">
+         <titleStmt>
+            <title>Carmen in libro statutorum Curzolae, versio electronica</title>
+            <author key="galopa01">
+               <name xml:lang="hr">Galopa, Antonije</name>
+               <date when="1265" precision="low">c. 1265</date>
+            </author>
+            <editor>Jaromir J. Hanel</editor>
+            <respStmt>
+               <resp>Versionem electronicam curavit</resp>
+               <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </respStmt>
+        
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>Editio electronica, mense Ianuario 2012.</date>
+            </edition>
+         </editionStmt>
+         <extent ana="B">Mg:B Versus 24, verborum 171</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Profil hrvatskog latinizma, znanstveni
+          projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+          Hrvatska.  <date>Siječnja 2012.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Statuta et leges civitatis et insulae Curzulae, 1214-1558 (1877)
+          Author: Jaromir J. Hanel , Jugoslavenska akademija znanosti i umjetnosti, Korčula (Croatia), Korčula (Yugoslavia)
+          Publisher: Officina Societatis Typographicae
+          Year: 1877
+          Language: Latin
+          Digitizing sponsor: Google
+          Book from the collections of: Harvard University
+          Collection: americana
+          <relatedItem>
+                  <ref target="http://www.archive.org/details/statutaetlegesc00yuggoog">[archive.org]</ref>
+               </relatedItem>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1265-04-14" period="12xx_2_third">14. 4. 1265</date>
+            <placeName cert="unknown">Dubrovnik</placeName>
+            <placeName cert="unknown">Korčula</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+               <term>poesis - paratextus poetici</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae medii aevi (700-1400)</term>
+               <term>Saeculum 13 (1201-1300)</term>
+               <term>1251-1300</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - elegia</term>
+               <term>poesis - carmen</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <name>Luka Špoljarić</name>
+            <date>2012-07-22</date>
+        Novo, unificirano zaglavlje.
+      </change>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2012-01-16</date>
+        Početna TEI XML verzija.
+      </change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+    
+      <body>
+         <pb n="1"/>
+         <div type="prosa-iuridica">
+            <head>CONFIRMATIO ET AUGMENTATIO STATUTORUM
+          CIVITATIS AC INSULAE CURZULAE,
+          TEMPORE MARSILIJ GEORGIJ COMITIS FACTA.</head>
+                
+            <div type="poesis-carmen" met="elegiacum">
+               <head>SANCTI SPIRITUS ADSIT NOBIS GRATIA. ANNO DOMINI MCCLXV, INDICTIONE
+            VIII. DIE XIII. INTRANTE MENSIS APRILIS.</head>
+          
+               <l>Annus millenus bis centum pentaque denus</l>
+               <l>Quatuor adiunctis dum petit yma <corr resp="NJ">Deus</corr>
+               </l>
+               <l>Curzura legatos mittens affectat honores,</l>
+               <l>Ragusij comitem postulat ipsa sibi.</l>
+               <l>Tunc retinebat sibi comitatus sceptra sonora</l>
+               <l>Vindex et prudens iura dabat <gap resp="NJ" reason="ignoscitur"/>
+               </l>
+               <l>Nomine Marsilius Georgij Venetusque fatetur;</l>
+               <l>Colla sibi subdunt omnibus atque suis.</l>
+               <l>
+                  <sic>Tempus elapso venit gemino probus anno</sic>
+               </l>
+               <l>Urbem <sic>construxit</sic> plurima tela ferrens</l>
+               <l>Plurima tela ferrens tunc ostibus intus et extra;</l>
+               <l>Tandem pervenit ethere vera salus</l>
+               <l>Marsilius dictus post nonos condidit annos</l>
+               <l>Jura <sic>salutifera quisque</sic> regatur eis.</l>
+               <l>Qui scelus atque nefas expellens intus ab urbe</l>
+               <l>Conservat populum, menia <sic>lauda</sic> dei</l>
+               <l>Nobilis ex villi factus, de paupere dives</l>
+               <l>Hic populus sparsus pluribus inde locis</l>
+               <l>Congeritur quod loco <sic>digne sit septus</sic> in ymo</l>
+               <l>Namque fides aberat per loca sparsa mala</l>
+               <l>Presbiter Antonius finxit nec plurima metra</l>
+               <l>Mandato domini posteritasque sciat.</l>
+               <l>Ragusij civis genus est galoppa vocatum</l>
+               <l>Fidus amicus erat, si quis amabat eum.</l>
+          
+                  </div>
+            <gap reason="nondum-paratum" resp="NJ"/>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,2188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="pribojev-v-or">
+            <titleStmt>
+                <title>Oratio de origine successibusque Slauorum, versio electronica</title>
+                <author key="pribojev01">
+                    <name xml:lang="hr">Pribojević, Vinko</name>
+                    <date notAfter="1532">mortuus post a. 1532</date>
+                </author>
+                <editor>
+                    <name>Veljko Gortan</name>
+                </editor>
+                <respStmt>
+                    <resp>Hanc editionem electronicam curavit</resp>
+                    <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Prema kasnijem znanstvenom izdanju (1951).
+                </edition>
+            </editionStmt>
+            <extent ana="D">Mg:D verborum 14680</extent>
+            <publicationStmt>
+                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+                    Hrvatska.  <date>lipnja 2009</date>
+            </p>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>
+                    Pribojević, Vinko ; Novak, Grga ; Gortan, Veljko: O podrijetlu i zgodama Slavena = De origine successibusque Slavorum. Zagreb : Jugoslavenska akademija znanosti i umjetnosti, 1951 (Hrvatski latinisti, knj. 1). - uvod i bilješke napisao i tekst za štampu priredio Grga Novak ; preveo i kazalo imena sastavio Veljko Gortan. --- Str. 9-47: Dalmacija i Hvar u Pribojevićevo doba / Grga Novak. - Str. 115-155: Komentar. - Str. 216-217: Bilješke. - Str. 219-247: Kazalo imena s bilješkama 
+                </bibl>
+         </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+                <date when="1525" period="15xx_1_third">1525</date>
+                <placeName>Hvar</placeName>
+            </creation>
+         <textClass>
+                <keywords scheme="typus">
+                    <term>prosa</term>
+                    <term>poesis - paratextus poetici</term>
+                </keywords>
+                <keywords scheme="aetas">
+                    <term>Litterae renatae (1400-1600)</term>
+                    <term>Saeculum 16 (1501-1600)</term>
+                    <term>1501-1550</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>prosa oratio - oratio</term>
+                    <term>poesis - epigramma</term>
+                    <term>poesis - carmen</term>
+                </keywords>
+            </textClass>
+      </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2013-07-02</date>
+               treba svuda proširiti kratice (expan); Ctonstantinus!
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2011-12-19</date>
+                TEI zaglavlje, extremnm corr.
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2009-10-05</date>
+                TEI zaglavlje i formatiranje, nedovršeno.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="prosa-oratio">
+        <front>
+            <titlePage>
+                <titlePart>ORATIO</titlePart>
+                <titlePart>FRATRIS VINCENTII PRIBOEVII SACRAE THEOLOGIAE PROFESSORIS ORDINIS
+                    PRAEDICATORVM</titlePart>
+                <titlePart>DE ORIGINE SVCCESSIBVSQVE SLAVORVM. </titlePart>
+                <docImprint> Venetiis. <date when="1532">MDXXXII.</date> 
+               <foreign xml:lang="it">Con licentia delli
+                    Ilustrissimi Signori Capi di X.</foreign> 
+            </docImprint>
+            </titlePage>
+            <milestone unit="page"/>
+            <!-- još povelja Aleksandra Slavenima... -->
+            <div type="poesis-carmen" met="elegiacum">
+                <head> Encomium Thomae Nigro alias episcopi Scardonensis et Traguriensis in Vigilias
+                    magistri Vincentii Priboeuii Pharensis ordinis praedicatorum. </head>
+                <l> Quantum Hieronymo, tantum tibi Dalmata debet,</l>
+                <l> Vincenti, Pharii stella serena soli. </l>
+                <l> Ille decus nostrum, nostrae tu gloria gentis,</l>
+                <l> Quam merito cunctis gentibus anteferas. </l>
+                <l> Hic calet innumeras linguas moresque uetustos,</l>
+                <l> Tu nostri generis gesta uetusta canis. </l>
+                <l> Ille docet Christi, populi tu dogmata Slaui,</l>
+                <l> Cuius et ipse fuit stirps et alumnus acer. </l>
+                <l> Semper utroque igitur tanto se iactet alumno</l>
+                <l> Dalmaticum pariter Slauonicumque genus. </l>
+                <l> Plaudat et Illyricum magnum, laetetur et Istrum,</l>
+                <l> Unde genus Slauis, fons et origo fuit. </l>
+                <l> Quas tibi, Vincenti, pro tanto munere grates,</l>
+                <l> Quae tibi pro meritis gens tua dona dabit? </l>
+                <l> Copia nulla tibi nec flaui cura metalli,</l>
+                <l> Quo uix in triplici ditior orbe uiget. </l>
+                <l> Quod superest igitur, uotis et thure Sabaeo</l>
+                <l> Et lachrymis superum conciliandus amor. </l>
+                <l> Terra tibi ut tutam, nitidum se praebeat aer,</l>
+                <l> Aequora sint nullis exagitata notis. </l>
+                <l> Ut tibi Nestoreos tribuant pia numina fastos,</l>
+                <l> Dent tibi Cumaeos fata benigna dies. </l>
+                <l> Plenus ut hac uita uita potiare perhenni</l>
+                <l> Hic, ubi mors ultra nec dolor ullus erit, </l>
+                <l> Sed uer perpetuum, sed pleno copia cornu,</l>
+                <l> Sed Deus et genitus ingenitusque simul. </l>
+                <l> Ille pater rerum, totum qui condidit orbem,</l>
+                <l> Spiritus ille sacer trinus et unus idem.</l>
+            </div>
+            <div type="prosa-epistula">
+                <milestone unit="page" n="53"/>
+                <opener>
+                    <salute>Frater Vincentius Priboeuius Pharius Dalmata Sacrae Theologiae professor
+                        ordinis praedicatorum Petro Vitaleo patritio Pharensi trierarco, amicorum
+                        optimo salutem plurimam dicit.</salute>
+                </opener>
+                
+                
+                
+                
+                <p>Viri plerique laudis praeconio digni, Petre uir amplissime, agere studuerunt, ut monumentum de se aliquod scriptum relinquerent, quo se uixisse testarentur, ne cuncta de eis cum uita mors ineuitabilis <sic>absummeret</sic>. Sed non hac ego uana spe motus breue hoc opusculum elucubraui, sed potius clarissimorum nostri generis uirorum uita functorum sortem miseratus nactus ocium, ut in lucem restituantur, contendi. Non enim nobis solis nati sumus, sed potius patriae, amicis et communi utilitati. Quapropter, tametsi optata forsan assequutus non fuero, meus tamen labor me delectat, quia non paruam prisca nostri generis opera studiosis repetendi procul dubio materiam praebeo ac proinde, ut et ipsi aliquid laude dignum audeant, occasionem exhibeo. Historia enim ad uitae institutionem <sic>utilima</sic> censenda est tum iunioribus, quos lectio diuersarum rerum antiquioribus aequat prudentia, tum uero aetate maturis, quibus diuturna uita rerum experimenta subministrauit uisa et audita ad memoriam reuocando,  quia historia (quemadmodum Diodorus Siculus dicit) <note>
+                  <bibl>Diodo<expan>rus</expan> Sicu<expan>lus</expan> in Prohemio <ref>(1)</ref>
+                  </bibl>
+               </note> priuatos uiros imperio
+                <milestone unit="page" n="55"/>
+                dignos efficit, imperatores ob immortalem gloriam ad praeclara facinora impellit, milites propter laudem, quae mortuos sequitur, promptiores efficit ad pericula pro patria subeunda, improbos timore infamiae a malis facinoribus deterret multaque alia bona mortalibus affert, quae singula longum esset enarrare.</p>
+                
+                <p>Reliquum est, Petre uir benignissime, ut quantulumcunque hoc de Slauorum ortu et euentibus opusculum hilari fronte in domestica archana reponas, non quale, sed ex quanto animi affectu offeratur, ponderando. Tibi enim in primis congruit, utpote patritio Pharensi inter omnes Dalmatas fortunarum amplitudine ac generosa maiorum tuorum gloria claro, quatuor germanorum uita ac moribus et praecipua liberalitate decoratorum societate uallato et, quod maximum est (quia et genus et proauos et quae non fecimus ipsi, uix ea nostra uoco), propria uirtute excellenti, hoc opusculum offerri. Multum enim tua probitate allectus me tibi debere profiteor. Suscipe igitur, te obsecro, perexiguum hoc opus tuoque protectum nomine ad communem minus literatorum utilitatem non <sic>ommissis</sic>, quae in margine ponuntur, auctorum citationibus (si uisum tibi fuerit) in publicum prodire cura.</p> 
+                <closer>
+               <salute>Bene uale et me (ut soles) ama.</salute>
+            </closer>
+                
+            </div>
+        </front>
+        
+        <body>
+         <div type="prosa-oratio">
+     
+
+
+
+
+
+            <milestone unit="page" n="56"/>
+            <head>ORATIO FRATRIS VINCENTII
+Priboeui Pharensis Dalmatae ordinis
+praedicatorum sacrae Theologiae
+professoris de origine successibusque Slauorum Phari
+habita. <date when="1525">M D X X V.</date>
+            </head>
+
+            <p>
+    CONFUSA SUNT OMNIA hominum genera, et perplexa est originum series, inexplicabilibusque inuoluta tricis nationum propago, uiri Pharenses praestantissimi, quibus fit, ut inanis multorum labor eo amplius eorum ineruditionem ostendat, quanto diutius in euoluendis, quae nostram praetereunt notitiam, sunt immorati. Nam quum auctorum plerique non, quae puram sinceramque sapiunt ueritatem, sed magis, quae lectoribus grata forent, scribere consueuerint, necesse fuit posteros, nullo innixos fundamento, ruinosum in scribendo aedificium erigere falsumque falso addentes semet ipsos et alios secum per falsitatis praerupta praecipitare. Accedit ad haec uetustas, obliuionis auctor, nocturnas ueritati tenebras superinducere consueta et scriptorum apud plerasque gentes penuria, quae late patentia per orbem regna inhabitarunt. Quid quod multae nationes sponte aut uariis agitatae bellis patrias sedes deserentes non minus antiqua cognomina quam auita loca perdiderunt? Sic Troiae incendium clarissimarum urbium 
+<milestone unit="page" n="57"/>
+populorumque, Troianis pro locorum diuersitate nouas appellationes sortitis 
+<note place="margin">Troiani post dispersionem uario nomine appellati.</note> 
+(ut Plinius inquit), 
+<note place="margin">
+                  <bibl>Pli<expan>nius</expan> li<expan>bro</expan> VI. c<expan>apite</expan> II <ref>(2)</ref>
+                  </bibl>
+               </note> 
+origo fuit, ut hi quidem (sicut Sabellico placet) 
+<note place="margin">
+                  <bibl>Sabel<expan>licus</expan> 
+                     <sic>Aenea<expan>dis</expan>
+                     </sic> 
+                     <ref>(3)</ref> prime libro VII.</bibl>
+               </note> 
+Romani, illi autem Veneti nuncupentur. Nam Venetos (teste Plinio) 
+<note place="margin">
+                  <bibl>Pli. li. <num value="3">III</num>. capi. XVIII. <ref>(4)</ref>
+                  </bibl>
+               </note> 
+Troiana stirpe ortos auctor est Cato. Sic et Tyrii pudicissimam Didonem 
+<note place="margin">Dido pudicissima.</note>
+               <sic>sequuti</sic> (ut idem Sabellicus inquit) 
+<note place="margin">
+                  <bibl>Sab<expan>ellicus</expan> Aenea<expan>dis</expan> prime li<expan>bro</expan> IX.</bibl>
+               </note>
+               <sic>Carthaginenses</sic> 
+               <note place="margin">Carthaginenses</note>
+in posterum dicti sunt, multique alii, quorum memoriam consulto <sic>ommitto</sic>, uel ab hostibus oppressi uel suis hospitibus adiuncti uariata prisca nuncupatione historiae ueritatem obumbrauerunt. Ex his horumque similibus tanta est inter scriptores opinionum diuersitas, ut luce clarius appareat impossibile fore quempiam mortalium inconcussam de his ueritatem <sic>examusim</sic> attingere. Quapropter breuiter aliquid de nobilissima Slauorum gente dicturus curabo magis aliorum quam meam in tam abdita re opinionem referre. Nam (ut mea fert sententia) haud facile mihi exiguo et indocto comperta erunt, quae solertissimos antiquitatis scrutatores latuerunt. Enimuero ea uoluntas meam mentem frequenter incessit, ut prolixiori haec sermone retexendo quorundam auctorum dicta accuratius librarem. Vicit tamen ratio, ut uana uanis relinquens salubriora studia consectarer. Nec me <sic>penitet</sic>, quoniam (ut Plinii sermone utar) 
+<note place="margin">
+                  <bibl>Pli. in praefatione.<ref>(6)</ref>
+                  </bibl>
+               </note>  res ardua est uetustis nouitatem dare, nouis auctoritatem, obsoletis nitorem, obscuris lucem, fastiditis gratiam, dubiis fidem, omnibus uero naturam suam et naturae suae omnia.
+</p> 
+            <p>
+        Verum quia Dalmata et proinde Illyrius ac demum Slauus 
+<note place="margin">Tria in hac oratione agenda.</note> 
+coram Slauis de Slauorum fortunis sermonem habere statui, ideo originem gloriamque ac nominis Slauonici
+<milestone unit="page" n="58"/>
+generis interpretationem primo in loco in medium adducam, Dalmatiae deinde, quae haud spernenda Slauorum nationis portio est, euentus perstringam, postremo huius nostrae uetustissimae ciuitatis situm successusque depromam.</p>  
+            <p>Sed quoniam deiparae uirginis Mariae 
+<note place="margin">Inuocatio numinis Mariae.</note> 
+christicolas opem exposcere cum ratio et gratitudo, tum necessitas et approbata apud bonos uiros consuetudo exigit, ideo, o benignissima et magis quam dicere sufficimus gratiosa beatissima uirgo Maria, humili deuotione deposco, tuis apud omnipotentem filium tuum precibus uires mihi obtineas, ingenium exacuas, labia mea soluas, dicendi uim corrobores, ut pientissima eius interueniente largitate, quanta ipse priscis temporibus notatu digna peculiaria munera Slauonico generi exhibuerit quantaque magis in dies conferre non desinat, in tam ampla uirorum corona felici nec non et ueraci stilo breuiter referam et concinne.</p>
+
+            <div>
+               <p>Amplitudinem et nobilitatem generis, 
+<note place="margin">Primum agendum</note> 
+quod nunc nouo quidem uocabulo  Slauorum natio dicitur, 
+<note place="margin">Slauus nouum uocabulum</note> 
+repetenti a Noetico illo memorabili diluuio, uiri integerrimi, exordiendum mihi esse puto, post quod, quemadmodum Genesis X. 
+<note place="margin">
+                     <bibl>Genesis X.<ref>(7)</ref>
+                     </bibl>
+                  </note> 
+legitur, Iaphet, nouissimus filiorum Noe, inter caeteros, quos post diluuium genuit, nactus est Thyran, qui (ut Iosephus, 
+<note place="margin">
+                     <bibl>Ioseph<expan>us</expan> anti<expan>quitatum</expan>
+                        <ref>(8)</ref> Iud<expan>aicarum</expan> lib<expan>ro</expan> primo <abbr>cap</abbr>
+                        <expan>ite</expan> XI.</bibl>
+                  </note> 
+Iudaicae antiquitatis relator, inquit) Thyrios uocauit suos, quorum princeps 
+<note place="margin">Thyras pater Thracum</note> 
+fuit, a quibus Graeci Thracium nomen commutauerunt. A Thyro enim (ut diuus docet Hieronymus) 
+<note place="margin">
+                     <bibl>Hie<expan>ronymus</expan> in glosa <ref>(9)</ref> super Genesim.</bibl>
+                  </note> 
+nati sunt Thraces, qui (ut Strabo inquit) 
+<note place="margin">
+                     <bibl>Strab<expan>o</expan> li<expan>bro</expan> VII.<ref>(10)</ref>
+                     </bibl> 
+                  </note>
+lingua <sic>Myssorum</sic> utuntur. Quapropter Romanis Myssios (si Appiano Alexandrino credimus) 
+<note place="margin">
+                     <bibl>Appi<expan>anus</expan> de bello<ref>(11)</ref> Illyrico.</bibl>
+                  </note> 
+putantibus esse Illyrios Thracius Illyricusque
+<milestone unit="page" n="59"/>
+                  <!-- dovde expan -->
+sermo conueniunt. Gethae etiam, qui (ut Isidorus et Ioannes Balbus et diuus Antoninus opinantur) 
+<note place="margin">
+                     <bibl>Isi<expan>dorus</expan> ethi<expan>corum</expan> li<expan>bro</expan> IX<ref>(12)</ref>. catholi. in dictione Getha.</bibl> 
+                     <bibl>Anto. II. par. cro. tit. XI. capi. VII.<ref>(13)</ref>
+                     </bibl>
+                  </note> 
+postea  Gotthi uocati sunt, 
+<note place="margin">Gethae postea dicti sunt Gotthi.</note> 
+simul cum Dacis ac Myssiis (ut Strabo refert) 
+<note place="margin">
+                     <bibl>Strab. li. VII.<ref>(14)</ref>
+                     </bibl>
+                  </note>
+unius idiomatis ad inuicem communionem usurpant. Qua in re aperte coniicitur Myssios Illyriosque ac Dacos et Gethas Thyrae esse posteritatem omnesque hos populos ex Thracibus ortos esse. 
+<note place="margin">Missii Illyrii Daci Gethae ex Thracibus orti</note> 
+Thracia enim (quemadmodum Plinius meminit) 
+<note place="margin">
+                     <bibl>Pli. li. IIII.<ref>(15)</ref> c. II.</bibl>
+                  </note> 
+inter ualidissimas Europae gentes in stratageas<ref>(16)</ref> quinquaginta diuiditur, in cuius finibus (Solino auctore) 
+<note place="margin">
+                     <bibl>Solinus c. XV.<ref>(17)</ref>
+                     </bibl>
+                  </note> 
+a septentrione 
+<note place="margin">Fines Thraciae</note> 
+Hister intenditur, ab oriente Pontus et Propontis, a meridie Aegeum mare, Macedonia autem ab occidente (ut Isidorus 
+<note place="margin">
+                     <bibl>Isi. ethimo. libro XIIII.<ref>(18)</ref>
+                     </bibl>
+                  </note> 
+et Orosius referunt)
+<note place="margin">
+                     <bibl>Orosi. lib. I.<ref>(19)</ref>
+                     </bibl>
+                  </note> 
+subiacet Thraciae, magnae et prepotenti regioni in magnos et ferocissimos effusae populos. Nam Gethas <note place="margin">Gethae sunt Thraces</note> (ut Strabo inquit) <note place="margin">
+                     <bibl>Strab. li. VII.<ref>(20)</ref>
+                     </bibl>
+                  </note> Graeci Thraces esse opinati sunt, qui utrunque Hystri latus incolebant, ut et Myssii sane et Thraces sint utrique.
+    </p>
+               <p>
+Hinc est illud Menandri <note place="margin">
+                     <bibl>Menander<ref>(21)</ref>
+                     </bibl>
+                  </note> apud Strabonem: <q>Thraces uniuersi, nos praesertim Gethae, nam eorum indigenam esse me glorior.</q> Quam ob causam liquido compertum esse existimo Thraciam Illyriumque  minime Graeciam esse opinandum fore, <note place="margin">Thracia et Illyrium non sunt Graecia</note> quanquam Isidorus <note place="margin">
+                     <bibl>Isido. ethimolo. lib. IIII.<ref>(23)</ref>
+                     </bibl>
+                  </note> Thomasque Spalatinus <note place="margin">
+                     <bibl>Tho. de euersione Salonarum <ref>(22)</ref>.</bibl>
+                  </note> ac Vincentius Belluacensis <note place="margin">
+                     <bibl>Vinc. in spe. Hist. libro II. <abbr>cap</abbr>. LXII.</bibl>
+                  </note> Diuusque Antoninus <note place="margin">
+                     <bibl>Anto. prima parte cro. tit. c. <num value="3">III</num>.<ref>(24)</ref>
+                     </bibl>
+                  </note> et Philippus Bergomas <note place="margin">
+                     <bibl>Supple. cro. lib II.<ref>(25)</ref>
+                     </bibl>
+                  </note> huiusmodi prouincias Graeciae nomine esse complexas moti ex locorum (ni fallor) uicinitate fuerint arbitrati, quia Thracum Graecorumque ac Illyriorum mores et studia nec non et idiomata ac origines inter se discrepantia comperiuntur. Iauan <note place="margin">Iauan auctor Graecorum</note> enim quartus filiorum Iaphet, filii Noe, (quemadmodum Iosephus meminit) <note place="margin">
+                     <bibl>Iosephus lib.  primo <abbr>cap</abbr>. II.<ref>(26)</ref>
+                     </bibl>
+                  </note> Graecorum
+<milestone unit="page" n="60"/>
+origo fuit per Helisamque, suum primogenitum, Helisios, qui Aeolii <ref>(27)</ref> dicti sunt, produxit, quos simul cum Graecis Hebraei Iones ipsamque Graeciam nomine principis eorum Iauan solent appellare. Ast Thyras,<ref>(28)</ref> septimus inter filios Iaphet,<ref>(29)</ref> (ut ex his, quae diximus, est manifestum) Thracii generis initium fuit ab ipsoque uniuersa, quae nunc Slauorum nomine censetur, cognatio egressa est. 
+<note place="margin">Slaui a Thyra orti</note>
+Quid igitur opus est, ut Illyrium minime Graeciam esse astruam, cum armorum pugnandique compar modus idemque sermo Thracum et Illyriorum cognationem eorum ad inuicem prodat? Quid quod Lutius Florus Scordiscos, 
+<note place="margin">
+                     <bibl>Lu. Flo. lib. <num value="3">III</num>. <ref>(30)</ref> de bel. Thra.</bibl>
+                  </note>
+qui (sicut Appianus Alexandrinus exploratum habet) 
+<note place="margin">
+                     <bibl>Appia. de bello Illy. <ref>(31)</ref>
+                     </bibl>
+                  </note>
+ab Illyrio processerunt saeuissimos inter Thraces esse testatur? An non Robertus Valturius Medos, 
+<note place="margin">
+                     <bibl>Rober. Val. de re militari, lib. primo, c. I. <ref>(32)</ref>
+                     </bibl>
+                  </note>
+qui (eodem Appiano teste) 
+<note place="margin">
+                     <bibl>Appi. de bel. Illyri. <ref>(33)</ref>
+                     </bibl>
+                  </note>
+a Medo, Illyrii filio, nati sunt, pro Thracibus ponit? Illyrio enim (quemadmodum Appianus Alexandrinus meminit) 
+<note place="margin">
+                     <bibl>Appi. de bel. Illyri <ref>(34)</ref>
+                     </bibl>
+                  </note>
+filii fuere Achilles, Autharius, Dardanus, Medus, Taulantius ac Perhebus, ex quibus nati sunt Pannonius, Scordiscus et Triballus. Fuere sibi et filiae Parta, Daorta et Dassera. Ex his ingentes ferocissimaeque Illyriorum ortae sunt nationes, uidelicet Achilei, Autharii, Dardani, Medi, Thaulantii, Perhebi, Pannonii, Scordisci, Tribali, Patheni, Darsii et Dassaretii. 
+<note place="margin">Nati ab Illyrio auctores Illyriorum, qui sunt Achilei, Autharii, Dardani, Medi, Thaulantii, Perhebi, Pannonii, Scordisci, Tribali, Partheni, Darsii, Dassaretii.</note>
+               </p>
+               <p>
+Sed quis Illyrii pater fuerit, uaria super hoc fuisse fertur opinio. 
+<note place="margin">Pater Illyrii quis.</note>
+Eustachius enim (quemadmodum Calepinus refert) 
+<note place="margin">
+                     <bibl>Calepi. in dictione Illyria. <ref>(35)</ref>
+                     </bibl>
+                  </note>
+Cadmi eum fuisse filium docuit, Appianus autem Alexandrinus 
+<note place="margin">
+                     <bibl>Appi. de bel. Illyri. <ref>(36)</ref>
+                     </bibl>
+                  </note>
+Polyphaemo Illyrium ex Galatea cum Celto et Gallo, a quibus Celtae et Galli prodierunt, natum esse demonstrat.
+<note place="margin">Celtus, a quo Celtae, et Gallus, a quo Galli, Illyrii fratres.</note>
+Nota est fabula Polyphaemum cum caeteris
+<milestone unit="page" n="61"/>
+Cyclopibus fulmina Ioui in Aetna, monte Siciliae, fabricasse, <quote>unde Virgilius:
+"<l>Ferrum exercebant uasto Cyclopes in antro</l>"</quote>, 
+<note place="margin">
+                     <bibl>Vir. Aene. VII. <ref>(37)</ref>
+                     </bibl>
+                  </note>
+et Theodolus:
+<note place="margin">
+                     <bibl>Theodolus</bibl>
+                  </note>
+"Fulmina Cyclopedes Iouis imperio fabricantes". Sed siue Cadmi, siue Polyphaemi filius fuerit Illyrius, manifeste liquet uniuersos Illyrios suae ab eo originis initia suscepisse. Quorum tam eminens pugnandi uirtus semper fuit, quod (Sabellico teste) 
+<note place="margin">
+                     <bibl>Sab. Aene. VI. lib. IX. <ref>(38)</ref>
+                     </bibl>
+                  </note>
+Tyberius Caesar bellum Illyricum, quod grauissimum omnium externorum bellorum post Punica bella, 
+<note place="margin">Bellum Illyricum externorum bellorum post Punica bella grauissimum.</note>
+ut Suetonius Tranquillus inquit, 
+<note place="margin">
+                     <bibl>Sueto. Tranquil. de Tyberio. <ref>(39)</ref>
+                     </bibl>
+                  </note>
+fuit, per quindecim legiones paremque auxiliorum copiam triennio gessit in magnis omnium rerum difficultatibus. Hinc Dionysius Punicus 
+<note place="margin">
+                     <bibl>Diony. Punicus</bibl>
+                  </note>
+(interprete Rhennio Phannio) 
+<note place="margin">
+                     <bibl>Rhennius Phannius</bibl>
+                  </note>
+de Illyrio dicit:
+Ad dextram partem protenditur Illyris alma, 
+Posthanc Dalmatiae populorum Martia tellus.
+<note place="margin">Dalmatia</note>
+                  <note place="margin">Martia tellus</note>
+Nec te nominum uarietas exterreat, quoniam pro locorum, quae Thyre posteritas obtinuit, amplitudine necesse fuit uariis eos appellationibus recenseri. Nam eorum iuris, ut antiqua prouintiarum cognomina ommittam, fuit Ruscia, Cassubia, Pruscia, Masouia, Vandalia, Moscouia, Polonia, Slesia, Morauia, Bohemia, Pannonia, Carniola, Hystria, Lyburnia, Croatia, Dalmatia, Bosna, Rascia, Dardania, Seruia, Myssia et Bulgaria, quae olim Macedonia dicebatur. 
+<note place="margin">Prouinciae Slauorum</note>
+               </p>
+               <p>
+Quibus si Thraciam Gethasque ac Dacos necnon et Phryges, qui (ut Strabo inquit) 
+<note place="margin">
+                     <bibl>Strab. li. VII. <ref>(40)</ref>
+                     </bibl>
+                  </note>
+Thracium genus sunt uno eodemque cum his omnibus prouintiis sermone utuntur, addideris, Slauonici generis potentiam amplitudinemque compertam habebis. Quid
+<milestone unit="page" n="62"/>
+quod, quemadmodum Harthmanus Schedel in cronica historiata dicit, 
+<note place="margin">
+                     <bibl>Harthmanus in cro. historiata.</bibl>
+                  </note>
+Amazones Gotthorum, qui exierunt de inferiori Europae Scythia, uxores fuerunt? 
+<note place="margin">Amazones, Gothorum, qui Slaui sunt, uxores fuerunt.</note>
+Quae maritis suis dolo interfectis uirorum suorum arma arripientes, hostes uirili animo aggressae de maritorum suorum nece sumpserunt debitam ultionem. Quae in posterum uariis bellis proficientes magnam Asiae partem sibi subegerunt. Getulli etiam Gethae dicuntur fuisse. 
+<note place="margin">Getulli Africe populi a Gethis orti.</note>
+Qui ingenti agmine a locis suis naues conscendentes loca Syrtium in Lybia occuparunt et, quia ex Gethis uenerant, deriuato nomine (ut Ioannes Balbus dicit) Getulli cognominati sunt. 
+<note place="margin">
+                     <bibl>Catholicon in dictione Getha.</bibl>
+                  </note>
+Quapropter (Isidoro teste) 
+<note place="margin">
+                     <bibl>Isido. ethi. li. IX. <abbr>cap</abbr>. II. <ref>(41)</ref>
+                     </bibl>
+                  </note>
+opinio est apud Gotthos ab antiqua cognatione Mauros consanguinitate propinquos sibi uocare. Quodsi pro eo, quod Macedones Graecis, Histros autem Italis quidam authorum connumerari oportere autumant, Thyrae eos posteritatem et proinde Slauos esse quis inficiatur, 
+<note place="margin">An Macedones et Hystri sint Slaui.</note>
+ego, quantum ad Macedones attinet, sibi Q. Curtii de gestis Alexandri Magni sententiam obicio, 
+<note place="margin">
+                     <bibl>Q. Cur. li. V. <ref>(42)</ref>
+                     </bibl>
+                  </note>
+qui luce clarius Macedonum linguam a Graecorum sermone distinguit, ita quod clare potest conspici Macedonum sermonem a toto Alexandri Magni exercitu, cuius non contemnenda pars Graeci erant, minime intelligi potuisse. 
+<note place="margin">Patrius sermo Macedonum difert a Graecorum sermone.</note>
+Nam quum Alexander Phylotae Macedoni, Parmenonis filio, causam suam coram multitudine acturo dixisset: <q>Macedones, Phylota, de te iudicaturi sunt. Quaero, an patrio sermone sis apud eos usurus</q>, renuente Phylota patrio uti sermone, quoniam ab omnibus intelligi non poterat, Alexander Phylotam patrii sermonis odio teneri est contestatus. Si igitur Macedones Graeci erant, cur apud Graecos Graece loqui
+<milestone unit="page" n="63"/>
+Phylotas respuisset? Praecipue quia ex Graecarum eruditione literarum nullo congruentius quam Graecorum sermone loqui poterat, si Macedones Graeci essent. Quia (ut Plinius inquit) 
+<note place="margin">
+                     <bibl>Pli. li. VII. capi. LVII. <ref>(43)</ref>
+                     </bibl>
+                  </note>
+gentium consensus tacitus primus omnium conspirauit, ut Ionum literis uterentur. 
+<note place="margin">Omnes gentes Graecorum use sunt literis.</note>
+Patrius igitur Macedonum sermo a communi, quem Graecorum fuisse coniicimus, totius Alexandri Magni exercitus sermone discrepans, aperte indicat Macedones Graecis minime connumerari, quum ex antiqua sermonis unitate generis unitas abunde soleat demonstrari eosque eiusdem generis esse opinemur, quibus a teneris unguiculis simul cum materno ubere loquelle commertium concessum est. Quamobrem in illa solemni Genesis XI. 
+<note place="margin">
+                     <bibl>Genesis XI. <ref>(44)</ref>
+                     </bibl>
+                  </note>
+Nembrotica linguarum divisione nullo ex auctoribus contrarium docente Macedonibus proprium idioma minime sortitis, quum ex ipsa Graecorum et Macedonum sermonis diuersitate Macedones nequaquam Graecos esse satis superque lucide ostenderimus, labii Slauorum, cuius et in presentia sunt (quemadmodum Philippus Bergomas testatur), 
+<note place="margin">
+                     <bibl>Supple. cro. libro XII. <ref>(45)</ref>
+                     </bibl>
+                  </note>
+Macedones semper extitisse necesse est ut fateamur. Quid quod Thucydides 
+<note place="margin">
+                     <bibl>Thucidides libro <sic>promo</sic>. <ref>(46)</ref>
+                     </bibl>
+                  </note>
+inter Bisantium et Polam, magnam Thraciae Myssiaeque partem necnon et uniuersum Illyrium complexus, late patentes regiones Macedoniam asserit nuncupari? 
+<note place="margin">inter Bisantium et Polam terras positas Thucidides appellat Macedoniam.</note>
+Ac si aperte dicat. Thraciam Myssiamque ac Illyrium a Macedonibus minime parciendas fore existimo, quia Thraces Myssiosque ac Illyrios eodem generis uinculo Macedonibus colligari non ambigo. Astipulatur his Alexandri Magni Macedonis titulus, quo se regem Macedonum et Graecorum esse manifestat, necnon et genuina Macedonum et
+<milestone unit="page" n="64"/> 
+Graecorum in moribus et conuictu diuersitas, ut nequaquam apud uiros eiusdem generis tanta morum contrarietas facile mihi ualeat persuaderi. Unde cum Dioxippus Atheniensis cum Horrata Macedone singulari esset pugnaturus certamine, inter milites Alexandri, quemadmodum Q. Curtius auctor est, Graeci erant, qui Dioxippo fauebant. 
+<note place="margin">
+                     <bibl>Q. Curtio libro VIII. <ref>(47)</ref>
+                     </bibl>
+                  </note>
+               </p>
+               <p>
+Sed cur, quaeso, non sic Horrate Macedoni, si Macedones Graeci erant, sicut Dioxippo Graeco Graeci fauerunt? Quamobrem, si alicubi, praecipue apud barbaros Alexander Magnus Graecus fuisse perhibetur, id ita actum esse cognoscas, 
+<note place="margin">Cur Alexander Magnus Graecus fuisse perhiberetur, praecipue a barbaris.</note>
+quod, quum ob antiqua Graecorum cum orientalibus praelia Graeci ex omnibus Europae populis magis eis innotescerent, omnes occidentis uiros Graecos esse iudicauerunt, quemadmodum et hisce nostris temporibus Graeci et Thurcae et omnes passim orientis populi uniuersos catholicae fidei occidentalis orae uiros Francos esse arbitrantur. Sed ad Histros mea nunc uergente oratione 
+<note place="margin">Et Histri sunt Slaui.</note>
+mirari satis nequeo Blondi Foroliuiensis 
+<note place="margin">
+                     <bibl>Blondus de Italia illustrata, in tractatu de Histria. <ref>(48)</ref>
+                     </bibl>
+                  </note>
+ac Philippi Bergomatis 
+<note place="margin">
+                     <bibl>Supple. cro. lib. IX. <ref>(49)</ref>
+                     </bibl>
+                  </note>
+necnon et quorundam aliorum, ut peritissimum a nobis auferre suisque connumerare diuum possint Hieronymum, Histriam Italiae esse prouinciam astruentium erga nos aemulationem, cum situ ac moribus et sermone Histria ab Italis distinguatur omnesque circum adiacentes populi <sic>Histria</sic> Italiae intimiores, ut Tergestini 
+<note place="margin">Tergestini</note> 
+ac Goricienses 
+<note place="margin">Goricienses.</note>
+et quidam alii, passim non alio quam Slauorum idiomate ad inuicem coutantur. Quamquam propter locorum uicinitatem et continuam cum Italis consuetudinem Histri, praesertim (ut papa Pius inquit) 
+<note place="margin">
+                     <bibl>Papa Pius in Europa sua. <ref>(50)</ref>
+                     </bibl>
+                  </note>
+qui maritimam oram incolunt, quemadmodum et Dalmatae Italico
+<milestone unit="page" n="65"/>
+sermone, quum eis libuerit, colloquantur. Sed legant hi Appianum Alexandrinum 
+<note place="margin">
+                     <bibl>Appi. de bel. Illyri. <ref>(51)</ref>
+                     </bibl>
+                  </note>
+Illyrica praelia sub compendio recensentem, qui Demetrium Pharium, conciuem uestrum, Histros, Illyriorum (ut ipse dicit) nationem, armata manu obtinuisse tradit. 
+<note place="margin">Demetrius Pharius Histros Illyriorum nationem subegit.</note>
+Quapropter (sicut recte papa Pius dicit) 
+<note place="margin">
+                     <bibl>Papa Pius in Europa. <ref>(52)</ref>
+                     </bibl>
+                  </note>
+Histria inconuenienter Italiae iungitur Adriatico sinu disiecta et in peninsulae modum circumdata mari.
+<note place="margin">Histria in modum peninsulae.</note>
+               </p>
+               <p>
+An non Polybius 
+<note place="margin">
+                     <bibl>Poly. libro. I. <ref>(53)</ref>
+                     </bibl>
+                  </note>
+Macedones ab Hadria, inter quam et Histriam praecipui populi siti sunt, imperium tenuisse scribit? 
+<note place="margin">Macedones usque ad Hadriam sunt dominati.</note>
+At ubi, quaeso, compertum habent Macedones aliquando Italis imperasse? Quapropter, Tergeste (quemadmodum Pomponius Mella dicit)
+<note place="margin">
+                     <bibl>Pompo. Mella de situ or. lib. II. ca. I. <ref>(54)</ref>
+                     </bibl>
+                  </note>
+intimo in sinu Hadriae situm finiente Illyricum non est unde ambigamus Histros, inter quos (ut praefati sumus) et Italiam Tergestum mediat, Illyricam esse nationem diuumque Hieronymum ex oppido Stridonis, 
+<note place="margin">Diuus Hiero. Slauus fuit.</note>
+quod Ptolomeus 
+<note place="margin">
+                     <bibl>Ptolomeus. <ref>(55)</ref>
+                     </bibl>
+                  </note>
+Sidronam uocat, Pannoniae Dalmatiaeque (ipso eodem diuo hoc testante Hieronymo) 
+<note place="margin">
+                     <bibl>Hier. de uiris illustribus. <ref>(56)</ref>
+                     </bibl>
+                  </note>
+confinia complectente natum non Italum, sed Slauum extitisse. Quid quod, quemadmodum Mar. Marulus 
+<note place="margin">
+                     <bibl>M. Marulus. <ref>(57)</ref>
+                     </bibl>
+                  </note>
+in eos, qui diuum Hieronymum Italum fuisse contendunt, notat, diuus ipse Hieronymus non inter Pannoniam et Histriam, sed inter Pannoniam et Dalmatiam oppidum Stridonis esse dicit? Quapropter esto (ut Strabo inquit) 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(58)</ref>
+                     </bibl>
+                  </note>
+Romanos imperatores Polam Italiam finire statuisse, quomodo Strigna oppidum seu uilla, quam Hieronymi patriam esse fingunt, ad Italiam uergens (non enim multum a Iustinopoli, quae a parte occidentali Histriae est, distare dicitur) Dalmatiae confinium fuit? An non diuus ipse Hieronymus suae originis regionem
+<note place="margin">
+                     <bibl>Hiero. super Abbacuch prophetam. <ref>(59)</ref>
+                     </bibl>
+                  </note>
+                  <milestone unit="page" n="66"/>
+confinium Pannoniae atque Illyrici Abbacuch prophetam exponendo esse dicit? Quamobrem non te praetereat (ut Strabo prodit) 
+<note place="margin">
+                     <bibl>Strab. li. VII. <ref>(60)</ref>
+                     </bibl>
+                  </note>
+intra Histrum et maris circuitum ab Hadriatico sinu usque ad sacrum Histri hostium Graeciam et Macedonum ac Epirotarum gentes comprehendi. Sed ubi, quaeso, sunt Thraces, Myssii ac Illyri usque ad intima Hadriatici sinus protensi? Nunquid Graecis aut Epyrotis, a quibus sermone ac moribus differunt, Thraces Myssiosque ac Illyrios connumerabimus? Quapropter fateri necesse est Thraces, Myssios ac Illyrios non ex eo, quod Macedonibus aliquando paruerunt, nam pari ratione et Graeci et Epyrotae Macedonibus ascriberentur eorumque nationes esse dicerentur, quoniam <sic>Macedanes</sic> eis aliquando imperasse non dubitamus, peculiariter Macedonum gentes esse perhiberi, quoniam Thraces, Myssii ac Illyrii eiusdem generis eiusdemque sermonis, sicut et modo sunt, cum Macedonibus exstiterunt. Macedones ergo, sicut et Histri, Thyrae sunt posteritas, tametsi, per quos aut quo in tempore simul cum multis aliis nationibus ab eo descenderint, minime ualuerim reperire, quamquam (quemadmodum papa Pius 
+<note place="margin">
+                     <bibl>Papa Pius in Histo. Bohe. <ref>(61)</ref>
+                     </bibl>
+                  </note>
+ac Mechouita
+<note place="margin">
+                     <bibl>Mech. de duabus Sarmatiis</bibl>
+                  </note>
+Annalesque Polonorum referunt)
+<note place="margin">
+                     <bibl>Annales Polonorum. <ref>(62)</ref>
+                     </bibl>
+                  </note>
+Czech, Lech ac Rhus fratres, ob intestina bella ex Dalmatia pulsi, Bohaemos ac Polonos et Rhuscios genuerint 
+<note place="margin">Czech, Lech, Rhus auctores Bohemorum, Polonorum et Rhusciorum</note>
+uel potius hi tres fratres horum sibi populorum potestatem usurpantes sua eis cognomina contulerint, ut a Czech eorum lingua Czechi, quos Bohaemos dicimus, a Lech autem Lechi, qui nunc Poloni, a Rhus autem Rhuscii, qui et Moscouitae dicuntur, sint appellati. Sed, an aliquando priscis temporibus potentissimum 
+<milestone unit="page" n="67"/>
+hoc uirorum genus per tot amplas in unius linguae comertio prouincias diffusum uno nomine fuerit appellatum, minime audeo diffinire, uariis tamen nuncupationibus tum a Graecis, tum a Latinis eos recenseri facile est demonstrare. 
+<note place="margin">Varia olim nomina Slauorum</note>
+Graeci enim pariter et Latini alios filiorum Thyrae Thraces, alios Myssios, alios Gethas, alios Dacos, alios Macedones, alios Illyrios, alios Rhoxanos, alios Moscos, alios Phryges, alios Vandalos siue Vindelicos, 
+<note place="margin">Thraces, Missii, Gethae, Daci, Macedones, Illyrii, Rhoxani, Mosci, Phriges, Vandali.</note>
+alios Getullos 
+<note place="margin">Getulli</note>
+cum Amazonibus uocauerunt, 
+<note place="margin">Amazones.</note>
+sub quibus innumerabiles populos contineri manifestum est. Et quamquam Cornelius Tacitus 
+<note place="margin">
+                     <bibl>Corn. Tacitus de moribus Germanorum. <ref>(63)</ref>
+                     </bibl>
+                  </note>
+Vandalos Germanos esse dicat, Germani tamen non tantum uiros iuxta fluenta Vandali alias Visle seu Vistulae mediam perlabentis Cracouiam, in qua solent Polonorum reges statiua peragere, 
+<note place="margin">Cracouia sedes regum Polonie</note>
+per late patentia Sarmatiae Europitanae arua usque ad Boristenem et mare Balteum, quod Visla influit, 
+<note place="margin">Visla fluuius Polonie magnus</note>
+per uarias decurias sparsos necnon et eos, qui traiecto Visla Germanici litoris oras ac adiacentes Albio amni regiones possident, Vandalos seu Vindelicos uocare soliti sunt, uerum etiam, ubicumque terrarum Slaui consistant, Vandalos seu Vindelicos esse arbitrantur. Hoc enim nomine complectuntur Rhoxanos, qui, ut Sabelicus 
+<note place="margin">
+                     <bibl>Sab. Aene. X. lib. VII. <ref>(64)</ref>
+                     </bibl>
+                  </note>
+et Tortelius 
+<note place="margin">
+                     <bibl>Torte. in dictione Rhoxani. <ref>(65)</ref>
+                     </bibl>
+                  </note>
+opinantur, Rutheni sunt, necnon et Moscos, quorum (ut Mechouita prodit) 
+<note place="margin">
+                     <bibl>Mech. de duabus Sar. lib. II. tractatus II. capi. primo.</bibl>
+                  </note>
+per quingenta Germanorum milliaria, singulo eorum quinque nostris aequiualente, a Boristene uidelicet ultra Thanaim sub principe Moscorum possessio protenditur. A latere enim Colcicae solitudinis ad Ceraunios uerso (ut Plinius inquit) 
+<note place="margin">
+                     <bibl>Pli. lib. VI. ca. decimo. <ref>(66)</ref>
+                     </bibl>
+                  </note>
+est Moscorum tractus ad Hiberum amnem in Cyrrum defluentem. Ubi in hoc tractu
+<milestone unit="page" n="68"/>
+Moscorum, ut Mechouita refert, 
+<note place="margin">
+                     <bibl>Mech. ubi supra tra. primi <abbr>cap</abbr>. ultimo.</bibl>
+                  </note>
+inter caetera notatu digna ciuitas est Nouigrod nuncupata, ambitu maior quam Roma (habet enim in circuitu quinque supra triginta milliaria), 
+<note place="margin">Ciuitas Nouigrod ambitu maior quam Roma in Moscouia.</note>
+haud procul a mari Balteo Graecorum ritu, quemadmodum et uniuersi Moscorum populi, iniciata; nullum fere praeter Slauorum idioma calentes. Pauci enim ex his oram, quae mare glaciale respicit, incolentes Vgnorum, qui (ut Isidorus dicit) 
+<note place="margin">
+                     <bibl>Isido. ethy. li. IX. <abbr>cap</abbr>. II. <ref>(67)</ref>
+                     </bibl>
+                  </note>
+postea Hunni dicti sunt, 
+<note place="margin">Hunni in Scithia subduntur duci Moscorum.</note>
+unde Vngari processerunt, tributa pellium syluestrium ab eis exigendo sermonem usurpant, in caeteris, et sacris et prophanis, propria literarum elementa, quorum Cyrillus 
+<note place="margin">Cyrillus</note>
+auctor esse dicitur, habentes Dalmatarum sermone (quemadmodum ego ipse expertus sum) utuntur. Duodecim igitur nominibus Thyrae olim posteritas nuncupata, nostra hac tempestate unico recentiori uocabulo, ex gloria deriuato, ignoto auctore insignitur, sic quod, qui prius uarietate cognominum differebant, a Slaua, quod apud omnes has nationes gloriam significat, Slaui quasi gloriosi dicuntur. 
+<note place="margin">Slaui dicuntur a Slaua, quae Gloria significat, quasi gloriosi.</note>
+Creberrimis enim victoriarum de hostibus triumphis, quemadmodum regnorum ac prouinciarum obtenta ab eis copia indicat, ualidissimum hoc uirorum genus decoratum nomen gloriae sibi uendicauit nobilium ac optimatum nomina Slaua, quod (ut praefati sumus) gloriam significat, terminando. Fidem dictorum quaeris? Libet, ut, quae diximus, uera esse cognoscas, nonnulla praestantium huius generis uirorum nomina diffusius in medium adducere, ut, cum Stanislaum, Vinceslaum, Ladislaum, Ceslaum, Bogoslaum, Marislaum, Dobroslaum, Boleslaum, Radoslaum, Berislaum, Gostoslaum, Pribislaum, Zuonislaum, 
+<milestone unit="page" n="69"/>
+Primislaum, Nimislaum, Vinslaum, Sardislaum, Vratislaum, Grezonislaum, Bisetislaum, Borziuislaum, Sobieslaum, Vuraddislaum, Polislaum, Sebeslaum 
+<note place="margin">Haec nomina apud Slauos sunt frequentia, praecipue apud Pharenses, quemadmodum reperi in antiquis ciuium per manum scribe conuentionibus.</note>
+ac multa alia huiusmodi nomina in annalibus et historiis de Slauis perlegeris, unde Slaui dicti sunt, animaduertas. 
+<note place="margin">
+                     <bibl>Pius Papa in Histo Bohe. <ref>(68)</ref>
+                     </bibl> et <bibl>Mechouita de dua. Sar.</bibl> et <bibl>Mar. Marulus de Regibus Illyriorum <ref>(69)</ref>
+                     </bibl> et <bibl>Annales Polonorum <ref>(70)</ref> ac Bohemorum</bibl> continent haec nomina.</note>
+               </p>
+               <p>
+Quod tametsi nouum esse appareat, gloria tamen armis et sanguine parta ab ineunte post diluuium saeculo Thyrae filiis genuina est et haereditaria. Nam Dacos et Missos et Thraces (ut caeteros interim ommittam) bellicosos semper fuisse (ut Modestus 
+<note place="margin">
+                     <bibl>Modestus de uocalibus rei militaris <ref>(71)</ref>
+                     </bibl>
+                  </note>
+et Robertus Valturius inquiunt) 
+<note place="margin">
+                     <bibl>Rob. Val. de re militari, libro primo. <ref>(72)</ref>
+                     </bibl>
+                  </note>
+manifestum est, ut ipsum Martem fabulae apud eos natum esse confirment. 
+<note place="margin">Mars natus apud Slauos.</note>
+Quid dicam de Macedonibus, inter quos oriundus fuit Philippus rex, 
+<note place="margin">Philippus Macedo Slauus fuit.</note>
+Alexandri Magni pater, qui (ut Plutarcus 
+<note place="margin">
+                     <bibl>Plutar. de Alexandro magno. <ref>(73)</ref>
+                     </bibl>
+                  </note>
+Iustinusque 
+<note place="margin">
+                     <bibl>Iusti. li. VIII. <ref>(74)</ref>
+                     </bibl>
+                  </note>
+ac Sabellicus 
+<note place="margin">
+                     <bibl>Sab. Aenea. IV. lib. <num value="3">III</num>. <ref>(75)</ref>
+                     </bibl>
+                  </note>
+et multi alli referunt) amplissimas Graeciae urbes suis legibus parere compulit et ad sua usque tempora liberam Graeciam iugo seruitutis pressit praestantiumque regum gloriam rebus strenue gestis adaequauit? Quid demum dicam de Alexandro Magno, Philippi filio, 
+<note place="margin">Alexander Magnus fuit Slauus</note>
+qui (ut primi Macabaeorum primo dicitur) 
+<note place="margin">
+                     <bibl>Primi Macabeo. primo. <ref>(76)</ref>
+                     </bibl>
+                  </note>
+pertransiit usque ad fines terrae et accepit spolia multitudinis gentium, et siluit terra in conspectu eius. Quem tametsi uarii uates disertissimique oratores summo studio commendauerint, nunquam tamen digne pro meritis laudauerunt. Ille enim Dario, inclyto Persarum et Medorum rege, ter aperto Marte deuicto, occupata uniuersa Scythia, euersa Aegypto, edomitis barbaris Hyrcaniam incolentibus, superato Porro, strenuissimo Indorum rege, suoque imperio adiectis Indis Bactrianos et Sogdianos, 
+<note place="margin">Victoriae Alexandri Magni.</note>
+inuictum (ut ita loquar) hominum
+<milestone unit="page" n="70"/>
+genus, deuicit totamque Asiam et non spernendam Europae partem (quemadmodum Iustinus 
+<note place="margin">
+                     <bibl>Iusti. lib. XII. <ref>(77)</ref>
+                     </bibl>
+                  </note>
+Plutarcusque 
+<note place="margin">
+                     <bibl>Plutar. de Alexan. <ref>(78)</ref>
+                     </bibl>
+                  </note>
+ac Q. Curtius 
+<note place="margin">
+                     <bibl>Q. Cur. de gestis Alexandri. <ref>(79)</ref>
+                     </bibl>
+                  </note>
+et multi alii tradunt) Macedonicum iugum ferre coegit et (quemadmodum diuus refert Hieronymus) 
+<note place="margin">
+                     <bibl>Hieronymus. <ref>(80)</ref>
+                     </bibl>
+                  </note>
+ab Illyrio et mari Adriatico usque ad Indicum occeanum et Gangem fluuium non tam preliis quam uictoriis percucurrit et duodecim annis Europae partem et omnem sibi Asiam subiugauit. Verum enimuero, praestantissime regum Alexander, si caetera te monumenta Slauum esse tacerent, unicum hoc ampliandi nominis tui desiderium ardensque adipiscendae gloriae feruor abunde produnt ea te ex gente oriundum esse, quae rebus praeclare gestis nomen ex gloria deriuatum merito est adepta. Consulto praetereo magnam ex Macedonibus Alexandri Magni sociorum successorumque multitudinem bellorum gloria et patratorum a se operum (quemadmodum Plutarcus 
+<note place="margin">
+                     <bibl>Plutar. in uitis diuersorum. <ref>(81)</ref>
+                     </bibl>
+                  </note> 
+et plures alii meminerunt) praestantia iuste inter illustres uiros computandam, nam (ut caetera mundi regna ommitam) Diodoro Siculo teste 
+<note place="margin">
+                     <bibl>Diodo. Sicu. lib. primo. <ref>(82)</ref>
+                     </bibl>
+                  </note> 
+Macedones et qui ab eis manarunt annis ducentis septuaginta sex Aegyptiis imperauere. Libet solummodo Aristotelis  Macedonis et proinde Slaui reminisci, 
+<note place="margin">Aristoteles Slauus fuit.</note> 
+ut noueris Slauis et robur corporis simul cum animi celsitudine necnon et ingenium ad prosequenda literaria studia non defuisse. Aristoteles enim (quemadmodum Diogenes Laertius tradit) 
+<note place="margin">
+                     <bibl>Dioge. Laer. de Aristotele. <ref>(83)</ref>
+                     </bibl>
+                  </note> 
+ex Stragera, obscuro (ut Guarinus inquit) 
+<note place="margin">
+                     <bibl>Guarinus de Aristotele.</bibl>
+                  </note> 
+Macedoniae oppido, oriundus fuit, 
+<note place="margin">Stragera, opidum Macedoniae, patria Aristotelis.</note> 
+qui humani intellectus aciem transgressus uelut oraculum quoddam abdita aedidit, obscura illustrauit, dubia firmauit, ambigua remouit, respuenda contempsit,
+<milestone unit="page" n="71"/> 
+abolita innouauit, repellenda deiecit et tanquam fidelis naturae nuncius, quicquid humano fere lumine conspici ualet, intellexit. 
+<note place="margin">Vide quantus Aristoteles.</note> 
+Attende, quaeso, Slauonici generis uirorum praestantiam et conspice, si tot et tanta non deficientibus, qui posteris ea legenda traderent, a Macedonibus, exigua Slauorum portione, notatu digna opera referuntur, quid si totius Slauonici generis pristina gesta fideliter essent recensita? Heu quantum gloriae nobis ademptum credimus, quia per multa annorum curricula, qui futuris saeculis innumerabilia Slauorum praeclara opera aspicienda proponerent, defuerunt. Nam si quid sparsim de eis et quasi praeter intentum, dum propria extollunt, ab aduersae factionis auctoribus exaratum fuit, sic ieiune aut aliter, quam res gesta est, scriptum inuenies, quod maiorem sibi historiae ethnicae partem uendicante adulatione 
+<note place="margin">Adulatio maiorem ethnicae historiae partem sibi uendicat.</note> 
+eos de hostibus gladio cominus, non autem literis dimicare consuetis locutos fuisse non uerearis. Stelicon uel (ut Platina inquit) 
+<note place="margin">
+                     <bibl>Platina de Zozimo Pontifice. <ref>(84)</ref>
+                     </bibl>
+                  </note> 
+Stilco, quo duce (ut idem post Prosperum autumat) 
+<note place="margin">
+                     <bibl>Prosper in additione ad Eusebium et Hieronymum de temporibus. <ref>(85)</ref>
+                     </bibl>
+                  </note> 
+Radagasius, Gothorum rex, in montibus Fesulanis fusus fuit, 
+<note place="margin">Stelicon Vandalus Radagasium regem Gothorum apud Fesulas fudit.</note> 
+ut de multis ac pene infinitis unum in medium adducam, uir strenuissimus bellorumque Sabellico teste 
+<note place="margin">
+                     <bibl>Sab. Aenea. VII. lib. IX. <ref>(86)</ref>
+                     </bibl>
+                  </note> 
+calentissimus, ad quem Claudiani poetae 
+<note place="margin">
+                     <bibl>Claudia. poeta. <ref>(87)</ref>
+                     </bibl>
+                  </note> 
+exstant lucubrationes, Honorii quarti Augusti tempore Romanorum comes, ex inbelli Vandalorum gente (ut Orosius tradit) 
+<note place="margin">
+                     <bibl>Oro li. VII. <ref>(88)</ref>
+                     </bibl>
+                  </note> 
+oriundus fuit. <sic>Efrenis</sic> tamen (ut Blondus praedicat), 
+<note place="margin">
+                     <bibl>Blon. de prime. lib. II. <ref>(89)</ref>
+                     </bibl>
+                  </note> 
+quam Philippus Bergomas 
+<note place="margin">
+                     <bibl>Supple. cro. lib. IX. <ref>(90)</ref>
+                     </bibl>
+                  </note> 
+ferocissimam fuisse scribit, Vandalorum natio, penetratis stricto mucrone atrocibus Germanorum prouinciis Gallias (quemadmodum Blondus Forliuiensis comprobat) 
+<note place="margin">
+                     <bibl>Blon. dec. prime lib. primo. <ref>(91)</ref>
+                     </bibl>
+                  </note> 
+exterminauit et post
+<milestone unit="page" n="72"/>
+multa commissa praelia crassationesque saeuissimas in Hispanos transfretato (testibus Paulo Diacono 
+<note place="margin">
+                     <bibl>Pau. Diaco. li. XV. ad Historiam Eutropii. <ref>(92)</ref>
+                     </bibl>
+                  </note>
+Sabellicoque 
+<note place="margin">
+                     <bibl>Sab. aene. VII. li. IX. <ref>(93)</ref>
+                     </bibl>
+                  </note>
+ac Platina) 
+<note place="margin">
+                     <bibl>Plat. de Sixto et Leo. pontificibus. <ref>(94)</ref>
+                     </bibl>
+                  </note>
+Gaditano aequore totam Africam caede, incendiis ac rapinis euertit. Inter quae mala (auctore Possidonio) sanctissimus ille Ecclesiae doctor Augustinus extremum spiritum exhalauit. 
+<note place="margin">
+                     <bibl>Possido. in legenda s. Augustini.</bibl>
+                  </note>
+               </p>
+               <p>
+Vandalica tandem imbecilitas duce Genserico, eorum rege 
+<note place="margin">Gensericus rex Vandalorum.</note>
+(quemadmodum Blondus 
+<note place="margin">
+                     <bibl>Blon. dec. prime lib. II. <ref>(95)</ref>
+                     </bibl>
+                  </note>
+et Sabellicus tradunt) 
+<note place="margin">
+                     <bibl>Sab. Aenea. VIII. li. primo. <ref>(96)</ref>
+                     </bibl>
+                  </note>
+nauibus transuecta a caede et incendio ad preces summi Antistitis Leonis (ut Paulus Diaconus prodit) 
+<note place="margin">
+                     <bibl>Pau. Diaco. lib. XV. <ref>(97)</ref>
+                     </bibl>
+                  </note>
+in Vrbe abstinens Siciliam Vrbemque ac plaerasque Italiae ciuitates diripuit et uastauit. Quod, quaeso te, maius apertiusque aemulationis auctorum erga aduersarios testimonium afferri cupis, quam a tanto uiro unum eundemque populum imbellem et ignauum dici et tamen ueritate urgente fortissimos et natura pugnacissimos magnaque bellandi consuetudine ualde probatos uiros eadem tempestate paribus copiis ab eodem populo frequenter superatos fuisse fateri? Non enim casu aut ignauia, sed uirtute tot de ferocissimis hostibus uictoriae acquiruntur. Quapropter rectius naturam Vandalorum scrutatus Isidorus 
+<note place="margin">
+                     <bibl>Isido. ethym. lib. IX. <abbr>cap</abbr>. II. <ref>(98)</ref>
+                     </bibl>
+                  </note>
+dicit eos ferocis esse animi, semper indomitos raptu uenatuque uiuentes. Christiana tamen pietas sic eos mites reddidit, ut nostris temporibus uix eis populus mansuetior inueniatur. 
+<note place="margin">Vandali, qui nunc Poloni, ualde mites.</note>
+Hospitibus enim, quemadmodum Sabellicus meminit 
+<note place="margin">
+                     <bibl>Sab. Aene. X. libro V. <ref>(99)</ref>
+                     </bibl>
+                  </note>
+et ego ipse expertus sum (nam triennium apud eos exegi), 
+<note place="margin">Triennio apud Polonos auctor fuit.</note>
+ualde sunt affabiles magnaque eos benignitate prosequuntur. Hinc collige deficientibus, qui prisca Slauorum gesta fideli stilo excolerent, pene infinita eorum praecipua facinora nos latere. Verumtamen, 
+<milestone unit="page" n="73"/>
+quae uel inuiti antiquitatis obseruatores de Slauis tradiderunt, abunde produnt Slauos et bellica gloria et multarum possessione prouintiarum, quas ipsimet incolunt, nulli caedere nationi, quin etiam ex Slauis oriundos esse, qui exteris nationibus imperauerunt. An non praecipui inter Augustos Slaui fuere? Fidem quaeris? Perlege, quaeso, 
+<note place="margin">Nomina auctorum, ex quibus haec de Caesaribus et Augustis collecta sunt, uno quoque eorum aliquid de aliquo horum attestante. <ref>(100)</ref>
+                  </note>
+Iulii Capitolini, Tribellii Polionis, Flauii Vopisci, Sexti Aurelii Victoris Eutropiique ac Pauli Diaconi nec non et eorum, qui post gesta imperatorum scripserunt, lucubrationes, Blondi Platinaeque ac Francisci Petrarcae uernacula lingua summos Pontifices et Caesares perstringentis, Sabellici quoque ac Pii papae diuique Antonini et Petri episcopi Echilini, quos in hac Caesarum Augustorumque ennumeratione, ubi prae caeteris eos aliquid de Slauis dixisse perspexi, nominatim citatos esse uolo, et liquido comperies Claudium cognomento Flauium 
+<note place="margin">Nomina imperatorum ex Slauis: Claudius, Quintilius, Probus, Carus, Carinus, Numerianus, Dioclitianus, Maximianus, Maxentius, Decii duo, Iouinianus, Valentiniani duo, Valens, Gratianus, Valentinus, Galerius, Aurelianus, Licinius, Alexander, Maximini tres; Carolus, Sigismundus, Vinceslaus.</note>
+eiusque fratrem Quintilium Probumque ac Carum (testibus Onesimo ac Cerylliano) (quemadmodum Flauius Vopiscus refert) 
+<note place="margin">
+                     <bibl>Flau. Vopis. de Caro Augusto. <ref>(101)</ref>
+                     </bibl>
+                  </note>
+ex Illyricis parentibus ortum, licet quidam eum Mediolanensem, alii autem Narbonensem fuisse tradant, cum ipsius filiis Carino et Numeriano Caesaribus ac Dioclitiano et eius (ut prodit Petrus Antistes Echilinus) <ref>(102)</ref> 
+                  <note place="margin">
+                     <bibl>Pet. in Catalogo sanctorum de s. Marcello Gabino et Arthemia. <ref>(103)</ref>
+                     </bibl>
+                  </note>
+filio Maximiano ac nepote Maxentio, Maximiani filio, origine Dalmatas exstitisse, quamquam Sextus Aurelius Victor, 
+<note place="margin">
+                     <bibl>Sex. Au. Victor de Probo et Maximiano Augustis. <ref>(104)</ref>
+                     </bibl>
+                  </note>
+qui Probum Dalmatam esse meminit, Maximianum Pannonium fuisse asserat. Sed siue Pannonius siue Dalmata Maximianus fuerit, si reminisci te non piget Illyrium (auctore Appiano Alexandrino), 
+<note place="margin">
+                     <bibl>Appi. de bel. Illyri. <ref>(105)</ref>
+                     </bibl>
+                  </note>
+ut supra diximus, Pannonii auum extitisse, oportet Maximianum una cum
+<milestone unit="page" n="74"/> 
+eius filio Maxentio Slauis connumerari. Perge ulterius et Decium Augustum simul cum Decio Caesare, eius filio, ac Iouinianum necnon et duos Valentinianos Valentemque ac Gratianum et Valentinum ex Pannonibus originem ducere tibi compertum erit. Quodsi coeptam fueris lectionem prosecutus, Gallerium eiusque sororium Maximinum et, Eutropio teste, 
+<note place="margin">
+                     <bibl>Eutro. de Aureli. Augu. <ref>(106)</ref>
+                     </bibl>
+                  </note>
+Aurelianum, quem, sicut Flauius Vopiscus refert, 
+<note place="margin">
+                     <bibl>Fla. Vopis. de Aureliano. <ref>(107)</ref>
+                     </bibl>
+                  </note>
+nonnulli ex Sirmio, oppido Pannonie, nonnulli autem ex Missia natum esse contendunt, ac, ut Platina dicit, 
+<note place="margin">
+                     <bibl>Plat. de Melchiade papa. <ref>(108)</ref>
+                     </bibl>
+                  </note>
+Licinium ex Dacis, qui cum Missiis (ut supra ex Strabone ostendimus) unius idiomatis communionem usurpant, ortos esse Sextus Aurelius Victor te docebit. 
+<note place="margin">
+                     <bibl>Sex. Au. vi. de Licinio et Alexandro Augustis. <ref>(109)</ref>
+                     </bibl>
+                  </note>
+Quo etiam auctore Alexandrum Augustum Phrygem fuisse ac, Iulio Capitolino teste, 
+<note place="margin">
+                     <bibl>Iuli. <abbr>Cap</abbr>. de Maximo Augusto. <ref>(110)</ref>
+                     </bibl>
+                  </note>
+duos Maximinos Thracium genus ducere comprobabis. Sed nec magnus ille diuus <corr>Constantinus</corr> Augustus Slauorum generis penitus expers fuit, quoniam, quemadmodum Tribelius Polio 
+<note place="margin">
+                     <bibl>Tribe. Po. de Clau. Augu. <ref>(111)</ref>
+                     </bibl>
+                  </note>
+ac Eutropius 
+<note place="margin">
+                     <bibl>Eutro. lib. IX. <abbr>cap</abbr>. XIX. <ref>(112)</ref>
+                     </bibl>
+                  </note>
+et Platina referunt, 
+<note place="margin">
+                     <bibl>Plati. de Eusebio papa. <ref>(113)</ref>
+                     </bibl>
+                  </note> 
+compertum tibi fiet Constantium Caesarem, Constantini genitorem, Claudii Augusti Dalmatae ex filia nepotem exstitisse. Post translatum demum ad Germanos imperium Carolus ac Sigismundus et Vinceslaus, Slauorum genus ex Bohemia nacti, ut papa Pius 
+<note place="margin">
+                     <bibl>Pius in Hist. Bohe. capitu. XXXIII et XXXIIII. <ref>(114)</ref>
+                     </bibl>
+                  </note>
+et Fasciculus temporum tradunt, 
+<note place="margin">
+                     <bibl>Fascicu. temporum. <ref>(115)</ref>
+                     </bibl>
+                  </note>
+augustam sortiti sunt dignitatem. Quorum cum his, quos enunciaui, si uelim uel potiora tantum opera perstringere, procul dubio multa mihi forent cudenda uolumina. Aurelianus enim (ut caeteros ommittam), teste Sabellico post Theodolum, 
+<note place="margin">
+                     <bibl>Sab. aenea. VII. libro VIII. Theodolus. <ref>(116)</ref>
+                     </bibl>
+                  </note>
+octo et quadraginta hostes una die propria manu interfecit. 
+<note place="margin">Aurelia. uno die XLVIII hostes occidit.</note>
+Missum facio Caium et Ioannem quartum, summos 
+<milestone unit="page" n="75"/> 
+Pontifices Dalmatas, 
+<note place="margin">Caius et Ioannes IIII. Summi Pontifices Dalmatae.</note>
+de quibus infra aliqua notatu digna dicturi sumus, ac <sic>Connonem</sic> papam Thracem, 
+<note place="margin">Conon papa Thrax.</note> 
+uirum (ut Platina inquit) 
+<note place="margin">
+                     <bibl>Plat. de <sic>Connone</sic> papa. <ref>(117)</ref>
+                     </bibl>
+                  </note>
+tanto principatu dignum, si animi dotes, si corporis inspicimus, erat enim (eodem Platina auctore) Conon moribus, literatura, pietate, religione, dignitatis specie insignis, necnon et Polislaum, regem Illyriorum, qui (ut Marcus Marulus refert) 
+<note place="margin">
+                     <bibl>Mar. Marulus de regibus Illyriorum. <ref>(118)</ref>
+                     </bibl>
+                  </note>
+multotiens cum Attila, rege Humnorum, feliciter pugnauit, ac Sebeslaum Gothos (ut idem inquit) apud Schodram oppidum strenue opprimentem et Sueropillum, principem Dalmatiae, qui, ut Platina meminit, 
+<note place="margin">
+                     <bibl>Plati. de Ioanne papa papa XIII. <ref>(119)</ref>
+                     </bibl>
+                  </note>
+in Italia Saracenos ingenti clade superatos e monte Gargano deiecit, et Cepemirum ac multos alios uiros insignes sua ipsa fortitudine ac animi ferocitate priscam illam Slauorum strenuitatem pre se ferentes cum Mathildi ex Bohemorum (ut papa Pius inquit) 
+<note place="margin">
+                     <bibl>Pius in Hist. Boh. ca. XLI. <ref>(120)</ref>
+                     </bibl>
+                  </note>
+preclaro genere orta, uariis pro ecclesiae sancte defensione preliis in Italia uiriliter gestis famosa, quae (sicut papa Pius refert) terras in Italiae partibus positas Patrimonium sancti Petri appellatas ecclesiae Romanae dono dedit. 
+<note place="margin">Mathildis ex genere Bohemorum patrimonium s. Petri ecclesiae Roma. dono dedit.</note>
+               </p>
+               <p>
+Libet solum Sigismundi Polonici regni 
+<note place="margin">Sigismundus rex Polonorum <sic>uictorisissimus</sic>.</note>
+nostra hac tempestate habenas modestissime ac felicissime moderantis reminisci, qui ualidissimas Tartarorum copias Tamburlani ac Batti auspitiis, quemadmodum <sic>Vicentius</sic> Belluacensis 
+<note place="margin">
+                     <bibl>Vin. in Spe. Hist. li. XXXII.</bibl>
+                  </note>
+et Thomas Spalatinus 
+<note place="margin">
+                     <bibl>Tho. de euersione Salonarum. <ref>(121)</ref>
+                     </bibl>
+                  </note>
+ac Mechouita refferunt, 
+<note place="margin">
+                     <bibl>Mechouita de dua. Sar. lib. primo <abbr>cap</abbr>. I.</bibl>
+                  </note>
+olim humani generis perniciem, frequenter usque ad <sic>internitionon</sic> fudit potentissimumque ducis Moschorum, caesis octuaginta millibus uirorum, exercitum fudit superbientesque Liuoniae ac Pomeraniae dominos aperto Marte superans singulis annis in posterum tributa
+<milestone unit="page" n="76"/> 
+pendere coegit Vallachosque cum Turcis, quorum auxilio freti Vallachi Polonos bello lacessere ausi fuerant, non solum Poloniae fines, maiori copiarum parte amissa, maturata fuga excedere compulit, uerum etiam regionem Vallachorum ingressus totam ferro et incendiis deuastauit. Accedit ad tanti principis uirtutem eximia Polonorum in pugnando praestantia auita Slauorum traditione malentium cruenta morte decedere quam turpiter hostibus terga dare. 
+<note place="margin">Poloni pugnaces.</note>
+               </p>
+               <p>
+Multa his similia per Slauos passim plerisque in locis frequenter fieri mentem subeunt, quae, ne nimia prolixitate tedio uos forsan afficiam, silentio inuoluo. Tacere tamen nequeo, siue nauali praelio siue eductis copiis certamen fiat, ubicunque Slauonici militis terribilis furor interfuerit, semper aut uictoria comite Slauos de hostibus triumphare aut uiriliter dimicando nobilissima cede decedere. Nihil enim apud eos gloriosius uiroque forti dignius existimatur quam uincere aut strenue pugnando morti succumbere. Hinc cum aliquid sibi credi exigunt, sedula est eorum et frequens sub sacramentis imprecatio, ne lecto incubantes intereant. Quam ob causam et sacerdotes deprecantur, ut precibus a deo obtineant, quatenus ipsi gladium uibrando clypeo tecti mortem nanciscantur. Nempe hoc hominum genus, cum gloriae cupiditate incaluerit, parum sua interesse putat, utrum uitam cum sanguine euomat. 
+<note place="margin">Slaui gloriae uitam anteponunt.</note>
+Testantur hoc creberrime et ferre incredibiles Bohemorum apud Pium papam 
+<note place="margin">
+                     <bibl>Pius in Historia Bohemorum. <ref>(122)</ref>
+                     </bibl>
+                  </note>
+de hostibus parte uictoriae et atrocia passim cruentaque cum Turcis Slauorum frequentia certamina, ut ne uillulam quoque aliquam Turce ualleant a Slauis incruento Marte aufferre.
+<milestone unit="page" n="77"/> 
+Quamobrem nulli mirum uideri debet tanti uiros Slauorum generis a Principe Turcarum duci, 
+<note place="margin">Princeps Turcarum magni ducit Slauos.</note>
+ut fere omnes sui exercitus praefectos ex eis statuat phalangemque uiginti millium fere uirorum ad suae salutis tutelam ex Thracibus ac Macedonibus Illyriisque decernat. Experientia enim compertum est, his praecipue infelicissimis nostris temporibus, Othomani posteritatem Slauorum aciae regna superare, imperia obtinere, munitissimas urbes expugnare, euertendo Romano imperio incumbere orthodoxamque religionem, nisi omnipotentis dei manus suppetias attullerit, destruere et pessundare. Veneta res etiam, praesertim per aequora, hoc milite suis se hostibus frequenter terribilem exhibuit, nec quisquam unquam Slauos segnes ad <sic>pgnam</sic> inuenit. O igitur felicisamam Slauorum nationem, quae tot millibus annorum magnam Europae partem et haud spernendam Asiae portionem haereditario iure possidens manum adiecit, ut totius orbis habenas regeret, quod equidem per longa annorum curricula duce Alexandro Magno, Decio, Claudio, Probo, Dioclitiano caeterisque supra enumeratis imperatoribus felicissime ad uota est assecuta. Hic est, inquam, populus, cui benedixit dominus crescereque eum fecit in gentem magnam, quae regna uicit, imperiorum uictores edidit uictriciaque arma ferre consueuit. Hinc Slaui a Bosphoro Cimerico (ut Blondus inquit) 
+<note place="margin">
+                     <bibl>Blon. dec. prime lib. primo. <ref>(123)</ref>
+                     </bibl>
+                  </note>
+in Thanaim habitare soliti uel potius inter Thanaim et Albiam amnem ex Bohemia per Misnam ac Sueuiam et Burgundiam occeanum influentem degentes Sarmatae, quasi suapte armati uel semper arma tenentes, dicti perhibentur. Ob studium enim armorum, ut 
+<milestone unit="page" n="78"/> 
+Isidorus dicit, 
+<note place="margin">
+                     <bibl>Isido. ethym. lib. IX. <ref>(124)</ref>
+                     </bibl>
+                  </note>
+Sarmate nuncupati existimantur, quia animo omni tello praestantiore ab ipsa rerum magistra, natura armati uelut mortis contemptores manu et mente ad arma semper sunt parati. Hinc etiam esse puto, ut uix aliquando aut forsan nunquam uniuersa Slauorum natio seruitute fuerit pressa, 
+<note place="margin">Raro aut nunquam Slaui omnes seruitute pressi fuerunt.</note>
+Romanis (ut Strabo inquit) 
+<note place="margin">
+                     <bibl>Strab. li. VII. <ref>(125)</ref>
+                     </bibl>
+                  </note>
+satis se egisse putantibus, si Sarmatarum ferrocitatem declinantes eos a se repulissent. Quod tandem minime effecerunt, quia Gothi Sarmatarum potiores, quos ex sermonis cum Thracibus Missiisque ac Illyriis conformitate Slauos fuisse ostendimus, Romani imperii celsitudinem, Blondo 
+<note place="margin">
+                     <bibl>Blondus dec. prime li. I. <ref>(126)</ref>
+                     </bibl>
+                  </note>
+Sabellicoque testibus, 
+<note place="margin">
+                     <bibl>Sabel. aenea. VII. lib. IX. <ref>(127)</ref>
+                     </bibl>
+                  </note>
+inclinauerunt. 
+<note place="margin">Gothi Romanum imperium declinare compulerunt.</note>
+Gothi enim ab antiquis eorum sedibus, ut Platina 
+<note place="margin">
+                     <bibl>Plat. de Siriaco papa. <ref>(128)</ref>
+                     </bibl>
+                  </note>
+post Paulum Diaconem dicit, 
+<note place="margin">
+                     <bibl>Pau. Dia. lib. XI. <abbr>cap</abbr>. II. <ref>(129)</ref>
+                     </bibl>
+                  </note>
+ab Hunnis pulsi, concremato Valente Augusto, qui lacrimabile cum eis (ut Sextus Aurelius Victor asserit) 
+<note place="margin">
+                     <bibl>Sex. Au. Vi. <ref>(130)</ref>
+                     </bibl>
+                  </note>
+bellum commisserat, superato Odoacre, Herulorum (ut Blondus inquit) rege, 
+<note place="margin">
+                     <bibl>Blondus dec. prime lib. <num value="3">III</num>. <ref>(131)</ref>
+                     </bibl>
+                  </note>
+Italiae olim, Paulo Diacono teste, 
+<note place="margin">
+                     <bibl>Pau. Dia. lib. XVI. <ref>(132)</ref>
+                     </bibl>
+                  </note>
+uictore, uniuersa Italia sunt potiti. Et tandem in Hispania, quemadmodum Blondus meminit, 
+<note place="margin">
+                     <bibl>Blondus dec. prime li. primo et secundo. <ref>(133)</ref>
+                     </bibl>
+                  </note>
+pedem firmantes ad hanc usque horam ea felicissime potiuntur. Unde et optimates Hispanorum se de genere esse Visigothorum gloriantur. Hinc (ni fallor) Romani nullius minus quam nationis Slauorum profectu laetantur, quoniam ipsi praecipue eorum potentiam eneruauerunt. 
+    </p>
+               <p>
+Quis igitur mortalium dignis ualet Slauorum <sic>gloria</sic> laudibus extollere, 
+<note place="margin">Epilogus strenuitatis Slauorum.</note>
+quorum uirtute depressa est Persarum arrogantia, eneruata Assyriorum et Medorum potentia, deiecta Aegyptiorum extollentia, debellata Graecorum prestantia, subacta Scitharum immanitas, oppressa Indorum
+<milestone unit="page" n="79"/> 
+multitudo, superata Germanorum asperitas, deuicta Hispanorum dexteritas, prostrata Gallorum ferocitas, inclinata Romanorum sublimitas, deleta Penorum caliditas.
+    </p>
+               <p>
+Feci pro uirili nostra quae potui, sed non quanta Slauorum dignitas ipsa efflagitabat, longe enim inferior subsedi. Ad Dalmatiam igitur, natale solum nostrum, sicut pollicitus sum, properans pauca e multis (deo fauente) breui compendio sum narraturus.</p>
+            </div>
+    
+            <div>
+               <p>
+TRIBVS 
+<note place="margin">Secundum agendum.</note>
+ex causis unamquanque regionem maxime <sic>comendari</sic> uobis, 
+<note place="margin">Tria commendant prouinciam seu regionem.</note>
+uiri praestantissimi, satis compertum esse existimo, uidelicet ex situ cum fertilitate ac ex naturalibus incolarum bonis conditionibus nec non ex ipso populorum in ea degentium studio, legibus et consuetudinibus. At haec Dalmatiae quam eminenter conueniant, 
+<note place="margin">Tria haec maxime conueniunt Dalmatiae.</note>
+facile considerantibus apparet, si ad singula descendendo singulorum ratio pensitetur. Dalmatia enim, 
+<note place="margin">Primum.</note>
+prisca prouintiarum partitione ommissa (quemadmodum nunc apud omnes inoleuit opinio), Histriam ab occidente habens Epyro et Macedonia ob oriente clauditur Bosnaeque ac Chroatiae a septentrione subiacens salo, quod Adriaticum dicitur, ab australi parte abluta, spectat ad meridiem. Regio, ut Strabo inquit, 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(134)</ref>
+                     </bibl>
+                  </note>
+aprica, similiter frugifera 
+<note place="margin">Dalmatia aprica et frugifera.</note>
+bonisque feracissima fructibus, oliuetis uinetisque speciosa, nisi sicubi aspera rupis iacet, quae tamen pascendo gregi est aptissima. Quam, Sabellico 
+<note place="margin">
+                     <bibl>
+                        <sic>Sab. aene. VII. libro VIII. <ref>(135)</ref>
+                        </sic>
+                     </bibl>
+                  </note>
+Philippoque Bergomate testibus, 
+<note place="margin">
+                     <bibl>Suppl. cro. libro VIII. <ref>(136)</ref>
+                     </bibl>
+                  </note>
+Galerius Augustus, 
+<note place="margin">Galerius Augustus magni duxit Illyrium.</note>
+obtenta Romani imperii potestate, <sic>comendata</sic> prius cum reliquis occidentis prouintiis Italia Seuero Caesari, Maximiano item orienti praefecto, pro se retinuit omnibus totius
+<milestone unit="page" n="80"/> 
+orbis residuis partibus Illyricam oram anteponens. Ratus (ni fallor), quod et rei ueritas habet, imperii Romani uires absque Illyrii praesidio haud facile posse diu consistere, utpote quod et uiris fortissimis abundat et ad multas regiones facilem transitum habet uariarumque rerum ad bellum necessariarum copia faecundatur. Nam tota haec ora neque nimiis caloribus exuritur neque superfluo frigore aspera est aut horrida, sed inter utrunque manens semper uiret aspectuque est mirum immodum delectabilis. Maritima enim Dalmatiae pars (ut Plinio placet) 
+<note place="margin">
+                     <bibl>Pli. lib. <num value="3">III</num>. capi. XXV. <ref>(137)</ref>
+                     </bibl>
+                  </note>
+mille amplius insulis 
+<note place="margin">Mille in Illyrio insule.</note>
+frequentatur natura uadosi maris <sic>aestiariisque</sic> tenui alueo intercursantibus speciem magne classis per late patentia aequora prae se ferentibus. E quibus (ut Strabo inquit) 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(138)</ref>
+                     </bibl>
+                  </note>
+Tragurium et Pharos sunt nobiliores, 
+<note place="margin">Tragurium et Pharos insularum Illyrii nobiliores.</note>
+quanquam multae ex eis, uariis consite arboribus, olei, uini <sic>melisque</sic> ac tritici sint feracissime tutissimosque portus efficiant magnamque Illyricum sulcantibus aequor uoluptatem sua perpetua uiriditate ac oportunitate praebeant. Alique enim ex his abundant gregibus caprarum et ouium nullique totius orbis parti praeciosorum copia piscium cedunt aut e terra ibidem productorum suauitate postponuntur. Tanta est autem huius soli salubritas, ut indigenis prodigio simile appareat homines aeris intemperie morbos posse incurrere. Quo fit, ut germinandis populis Dalmatia sit aptissima et proinde pace comite hominum frequentia refertissima. Vnde ferunt ante Troie incendia Dalmatiam sic <sic>collonis</sic> plenam exstitisse, quod, cum Antenor necnon et Diomedes Illyricum sulcarent salum, nullas in Dalmatia uacuas habitatore sedes inuenerunt. Sed
+<milestone unit="page" n="81"/> 
+quorsum Antenorem Diomedemque refferro, cum Argonautae longe ante litus Dalmaticum lustrantes sui transitus memoriam in eo nullibi relinquerint, quos Dalmatiam praeteruectos fuisse insulis ab Absirtho a sorore Medea in eis discerpto (unde, quemadmodum Strabo 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(139)</ref>
+                     </bibl>
+                  </note>
+Pliniusque 
+<note place="margin">
+                     <bibl>Pli. li. <num value="3">III</num>. capitu. XXV. <ref>(140)</ref>
+                     </bibl>
+                  </note>
+ac Sabellicus dicunt, Absirthides appellate sunt) nomen collatum manifestat. 
+<note place="margin">Insule Absirthides ab Absirtho, Medee fratre ab ea in eis interfecto, dicuntur.</note>
+Eandem ob causam et Cholchi, Argonautarum insecutores, qui, Strabone 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(141)</ref>
+                     </bibl>
+                  </note>
+et Plinio auctoribus, 
+<note place="margin">
+                     <bibl>Pli. lib. <num value="3">III</num>. ca. XVIII et XXI. <ref>(142)</ref>
+                     </bibl>
+                  </note>
+in Histria Polam et in Epyro Olchinium, alias Colchinium, Dalmatiam hinc inde circumstantibus prouintiis, condiderunt, suae locum quietis in Dalmatia minime obtinuerunt. Quid autem opus est, ut profusas diuersorum metallorum uenas huius soli commemorem, cum (sicut Plinius auctor est) 
+<note place="margin">
+                     <bibl>Pli. lib. XXXIII. capitu. IIII. <ref>(143)</ref>
+                     </bibl>
+                  </note>
+sub Nerone principe quinquagenas libras auri singulis diebus arena lota in Dalmatia fuderit. 
+<note place="margin">Aurum in Dalmatia copiosum.</note>
+                  <quote>Hinc Martialis 
+<note place="margin">
+                        <bibl>Martialis. <ref>(144)</ref>
+                        </bibl>
+                     </note>
+ad amicum:
+<l>Ibis litoreas, Macer, Salonas,</l> 
+                     <l>Felix auriferae colone terrae,</l>
+                  </quote> 
+                  <quote>Et Statius: 
+<note place="margin">
+                        <bibl>Statius. <ref>(145)</ref>
+                        </bibl>
+                     </note>
+                     <l>Robora Dalmatico fulgent satiata metallo.</l>
+                  </quote> 
+        Multe sunt hac in prouintia delitiae, inter quas, ut Plinii sermone uti liceat, 
+<note place="margin">
+                     <bibl>Plin. lib. XIII. capitu. II. <ref>(146)</ref>
+                     </bibl>
+                  </note>
+Iris Illyrica rarum Europae donum in componendis unguentis odoriferis computatur, magnaque est frugum ac fructuum abundantia, sic quod copiosa omnifariam alimenta ad alienas partes ex Dalmatia deferuntur. Saltibus ferrarum multitudine refertis gaudet, diuersis fluminibus irrigatur, caprarum et ouium gregibus, quae (ut Aristoteles meminit) 
+<note place="margin">
+                     <bibl>Aristo. de mirabilibus naturae. <ref>(147)</ref>
+                     </bibl>
+                  </note>
+singulis annis bis fetantur, abundat et, quemadmodum experimento nos didicimus, si industrius sit opilio, tertium frequenter fetum adiciunt. Iumentorum
+<milestone unit="page" n="82"/> 
+armenta copiosa habet, numerosa piscium non minus lacunarium et fluuiatilium quam maritimorum ubertate exuperat, conchiliorum diversitate fruens cochleas (quemadmodum Plinius meminit) 
+<note place="margin">
+                     <bibl>Pli. lib. IX. capitu. LVI. <ref>(148)</ref>
+                     </bibl>
+                  </note>
+praecipua magnitudine gignit, auium uenationi et aucupio idonearum copia fecundatur. Multaque id genus, quae singula commemorare superuacaneum foret, producendo nullius fere rei, quae hominum uitae communiter est oportuna, (exceptis duntaxat aromatibus) suos incolas necessitatem habere promittit. 
+    </p>
+               <p>
+Quantum autem ad Dalmatiam inhabitantes attinet, 
+<note place="margin">Secundum.</note>
+Dalmatae sunt 
+<note place="margin">Dalmatae habitudo.</note>
+cum mediocritate quadam maiori ex parte procere staturae, uenustas habentes facies, albicantes, oblongas, moderato rubore perfusas, <sic>occulos</sic> bene mobiles, non uniformis coloris (quemadmodum habent Germani ac Ethiopes, hii quidem ceruleos, illi autem nigros), ceruicem uirilem, humeros musculosos, pectora lata et eminentia, apparentes brachiorum lacertos, brachia longa, ualentes digitos, lumbos restrictos, uentrem non <sic>expanssum</sic>, coxas firmissimas, crura (ut dici solet) tornatilia, surram crurium turgidam, neruorum duritia collectam, crus circa cauillam compressum, pedem amplum, ad sustinendam tantam corporis molem aptissimum, totam demum habitudinem uirilem et robustam, ad impetum <sic>ellectissamam</sic>, praestantiorem intus gestantes animum. Nam acre est eis ingenium, ad cuncta uersatile, mens ad mortem paratissima, 
+<note place="margin">Qualis mens Dalmatarum</note>
+manus impigra, iocunda alacritas, constantia in pugna admirabilis. Qua factum est, ut grauissimus ille Arpinas Dalmatis malum imprecatus semper eos bellicosos habitos fuisse dixerit. Nouerat
+<milestone unit="page" n="83"/> 
+enim Cicero 
+<note place="margin">
+                     <bibl>Cice. ad Vatini. lib. V. Epistolarum. <ref>(149)</ref>
+                     </bibl>
+                  </note>
+ex ante actis per Illyrios, Alexandri Magni fortunarum in Asia (quemadmodum refert Quintus Curtius) 
+<note place="margin">
+                     <bibl>Q. Curtius de gestis Alexan. <ref>(150)</ref>
+                     </bibl>
+                  </note>
+commillitones, et per Glautiam, regem Illyriorum, Pirhi, Epirotarum regis, Plutarcho teste, 
+<note place="margin">
+                     <bibl>Plutar. de Pirho. <ref>(151)</ref>
+                     </bibl>
+                  </note>
+ex miseratione allumnum, cuius opera Pirhus quoque, quo infantulus fuerat spoliatus, paternum regnum est assecutus, ac per Argonem,<ref>(152)</ref> Pleurati filium, ipsiusque coniugem Theutam, quae (sicut diuus contra Iouinianum inquit Hieronymus), 
+<note place="margin">
+                     <bibl>Hier. contra Iouinianum capi. XXVII. <ref>(153)</ref>
+                     </bibl>
+                  </note>
+ut fortissimis uiris Dalmatis longo tempore imperaret et Romanos saepe bello frangeret, miraculo utique meruit castitatis, et per Demetrium Pharium nostratem ac per Scerdelaidam, Illyriorum reges, de quibus, praecipue de Demetrio Phario, accuratius tractant Polybius 
+<note place="margin">
+                     <bibl>Poly. lib. II. et <num value="3">III</num>. <ref>(154)</ref>
+                     </bibl>
+                  </note>
+et Appianus Alexandrinus, 
+<note place="margin">
+                     <bibl>Appia. de bel. Illy. <ref>(155)</ref>
+                     </bibl>
+                  </note>
+et per Theutinum Platoremque ac Versum et perplures alios Illyrici generis uiros pugnacissimos, priscis celebratos historiis, Dalmatarum in pugnando constantiam: unde eos semper belligeros esse merito asseuerauit. Quid si Claudii ipsiusque fratris Quintilii, Probi quoque ac Dioclitiani eiusque filii Maximiani ac nepotis Maxentii Carique Augustorum triumphos Tullius inspexisset? Quales Dalmatas idem esse diceret, si, quemadmodum Tribelius Polio 
+<note place="margin">
+                     <bibl>Tribe. Poli. de Clau. Augu. <ref>(156)</ref>
+                     </bibl>
+                  </note>
+Blondusque 
+<note place="margin">
+                     <bibl>Blon. deca. prime lib. primo. <ref>(157)</ref>
+                     </bibl>
+                  </note>
+ac Sabellicus dicunt, 
+<note place="margin">
+                     <bibl>Sab. aenea. IX. lib. VII. <ref>(158)</ref>
+                     </bibl>
+                  </note>
+militum Dalmatiae insigni opera sub Claudio Augusto Dalmata <sic>trecenta trecenta</sic> uiginti milia Gothorum caesa ac duo milia naues eorum demersas cognouisset? 
+<note place="margin">Trecenta uiginti millia Gothorum cesa et duo milia eorum naues submerse.</note>
+Quid quod (sicuti Eutropius refert) 
+<note place="margin">
+                     <bibl>Eutro lib. IX. <abbr>cap</abbr>. <num value="3">III</num>. <ref>(159)</ref>
+                     </bibl>
+                  </note>
+idem Claudius aduersus ducenta milia Alemanorum, haud procul a lacu Benacho dimicans, tantam multitudinem fudit, ut egre pars dimidia superfuerit? 
+<note place="margin">Centum milia Alemanorum cesa circa Lacum Benacii,</note>
+Quid demum diceret, si duas legiones Illyriorum
+<milestone unit="page" n="84"/> 
+sena milia militum habentia Martiobarbulos dictas tanti momenti esse cognouisset, quod longo tempore constat per eos omnia bella strenuissime confecta fuisse usque eo, ut, dum Dioclitianus et Maximianus ad imperium uenissent, (quemadmodum Vegetius refert) 
+<note place="margin">
+                     <bibl>Vegeti. de re mi. lib. primo <abbr>cap</abbr>. XVII. <ref>(160)</ref>
+                     </bibl>
+                  </note>
+pro merito uirtutis hos Martiobarbulos Iouiarios atque Herculianos censuerint appellandos eosque cunctis legionibus praetulisse dicantur? 
+<note place="margin">Martiobarbuli milites ex Illyris Iouiarii et Herculiani appellati.</note>
+Quid quod (sicut prodit Appianus Alexandrinus) 
+<note place="margin">
+                     <bibl>Appi. de bel Illyri. <ref>(161)</ref>
+                     </bibl>
+                  </note>
+Caesar Augustus Illyricam gentem prae caeteris bellicosissimam ad senatum detulit? 
+<note place="margin">Illyrii prae caeteris nationibus bellicosissimi.</note>
+Propositi mei metas excedam, si uniuersa strenuitatis Dalmatarum occurentia mihi potiora opera perstringendo commemorare curauero. Quamobrem breuitati studens haec ommittam, tantam in obseruandis promissis Dalmatarum esse stabilitatem contestatus, ut nihil magis oderint, quam data dextera a condictis resilire. Hinc perquam difficilime ualdeque cruente Illyricarum urbium Metulinae et Segesticiae 
+<note place="margin">Metulium et Segesticia urbes Illyrice.</note>
+et plurium aliarum Romanis fuere expugnationes. Nam summis uiribus maximaque vigilantia (Appiano Alexandrino 
+<note place="margin">
+                     <bibl>Appi. de bello Illyri. <ref>(162)</ref>
+                     </bibl>
+                  </note>
+Sabellicoque auctoribus) 
+<note place="margin">
+                     <bibl>Sabel. aenea. VI. li. IX. <ref>(163)</ref>
+                     </bibl>
+                  </note>
+Octauius Caesar eas agressus, magno cum discrimine uitae suae crus lapide ictus, uix uoti compos effectus fuit. 
+<note place="margin">Octauius Caesar crus lapide ictus ab Illyriis.</note>
+Quid quod (quemadmodum supra ex Suetonio Tranquillo 
+<note place="margin">
+                     <bibl>Sueto. de Tibe. Caesa. Au. <ref>(164)</ref>
+                     </bibl>
+                  </note>
+et Sabellico tetigimus) 
+<note place="margin">
+                     <bibl>Sabel. aenea. VI. lib. IX. <ref>(165)</ref>
+                     </bibl>
+                  </note>
+Tyberius Caesar egre per integrum triennium, triginta secum legiones ducens, Illyrium, quod a Romanis defecerat, recuperauit? 
+    </p>
+               <p>
+Sed nec Dalmatis, quamuis bellorum semper fuerint <sic>stodiosissimi</sic>, dulcia defuerunt litteraria oblectamenta, 
+<note place="margin">Dalmatae literarum cultores.</note>
+cum famosissimos litterarum cultores hoc solum edat, quorum nonnulli uitalibus adhuc uescuntur
+<milestone unit="page" n="85"/> 
+auris, nonnulli, quod eius est, terre redentes, felices spiritus caelestibus commendauerunt. Hinc maximus ille peritorum decor diuus fulsit Hieronymus, 
+<note place="margin">Hieronymus Dalmata</note>
+cuius (ut Augustinus contra Iulianum dicit) 
+<note place="margin">
+                     <bibl>Aug. contra Iulianum. <ref>(166)</ref>
+                     </bibl>
+                  </note>
+                  <sic>elloquium</sic> ab oriente in occidentem instar solis refulget. Tante auctoritatis uir, ut (quemadmodum Erasmus Rotherodamus inquit) 
+<note place="margin">
+                     <bibl>Erasmus de Hieronymo super eius epistolas.</bibl>
+                  </note>
+eruditam quoque Graeciam, totius orbis semper magistram, post tot eximios scriptores ab homine Dalmata discere non puduerit, unius Hieronymi ex omnibus auctoribus commentarios in suam linguam transferendo. Is enim, ut patrium idioma (Sabellico teste) 
+<note place="margin">
+                     <bibl>Sab. aenea. VII. lib. IX. <ref>(167)</ref>
+                     </bibl>
+                  </note>
+illustraret, noua literarum elementa commentus est, quibus in sacris et prophanis rebus regionis accole nostra tempestate utuntur. 
+<note place="margin">Hieronymus Slauis elementa literarum tradidit.</note>
+Sed et offitium quoque diuinum, quo Catholici utuntur christiani, in id nouum idioma (ut Blondus 
+<note place="margin">
+                     <bibl>Blon. de Ita. illu. in tractatu de Histria. <ref>(168)</ref>
+                     </bibl>
+                  </note>
+et Philippus Bergomas refferunt) 
+<note place="margin">
+                     <bibl>Suppl. croni. lib. IX. <ref>(169)</ref>
+                     </bibl>
+                  </note>
+traduxit, quod Eugenius quartus Romanus Pontifex approbauit. Fulsit et aliud lumen nostra hac tempestate ex Dalmatia Marcus Marulus, qui plurima christianae pietatis uolumina compilauit, et Cypicus Coriolanus Tragurita, ad quem consolatorium carmen extat Sabellici de domus deflagratione in Dalmatia, 
+<note place="margin">
+                     <bibl>Sabel. ad Coriolanum. <ref>(170)</ref>
+                     </bibl>
+                  </note>
+ac Haelius et Ioannes Gotius, quorum utique meminit Sabellicus, 
+<note place="margin">
+                     <bibl>Sabel. aenea. X. lib. VIII. <ref>(171)</ref>
+                     </bibl>
+                  </note>
+et Ioannes Stoicus ordinis praedicatorum Georgiusque Benignus Minorita, Ragusei, et Ioannes Staphileus Tragurita ac Ioannes <sic>Pelicarpus</sic> Sibenicensis Hieronymusque Priboeuius Pharius, germanus meus, ambo praedicatoriae familiae, cum Ioanne Arbensi ordinis diui Benedicti ac Paulo Paladino Phario, de quo infra mentio fiet, qui literarum monumentis perhennem sibi 
+<milestone unit="page" n="86"/> 
+gloriam uendicauerunt. Exstant nostra hac tempestate in humanis magni nominis uiri Thomas Nigro Spalatinus et Simon Begnius Iaderita ac Vincentius et Dominicus Bucchii Catharenses ordinis praedicatorum, qui plurima catholice fidei archana suis scriptis illustrauerunt, necnon et Federicus Grisogonius Iaderita et Hieronymus Atticus Hannibalque Lutius, Petrus Hectoreus, qui inter caetera eleganti metro Nasonem de remedio amoris in Illyricum idioma cum magna omnium admiratione transtulit uel minimum iota non ommittens, et Michael Peregrinus, hii quatuor Pharii, cum Andronico Tranquillo Tragurita et Georgio Bixantio Catharensi ac Francisco Niconitio Corculensi, multique alii, quorum uirtus et eruditio in dies elucescit. 
+<note place="margin">Marcus Marulus, Cypicus Coriolanus, Helius, Ioannes Stoicus, Georgius Benignus, Ioannes Staphileus, Ioannes Pelicarpus, Hieronymus Priboeuius, Ioannes Arbensis, Paulus Paladinus, Thomas Nigro, Simon Begnius, Vicentius et Dominicus Buchii, Federicus Grisogonius, Hieron. Atticus, Hannibal Lucius, Petr. Hectoreus, Michael Peregrinus, Andronicus Tranquillus, Georgius Bixantius, Fran. Niconitius.</note>
+               </p>
+               <p>
+Fuere et alii priscis temporibus ex Dalmatia probatissimi uiri, Caius uidelicet et Ioannes quartus summi Pontifices, 
+<note place="margin">Caius et Ioannes Quartus summi Pontifices.</note>
+alter quorum (quemadmodum Platina 
+<note place="margin">
+                     <bibl>Plati. de Caio papa. <ref>(172)</ref>
+                     </bibl>
+                  </note> 
+                  <note place="margin">
+                     <bibl>Plati. de Ioanne IIII. papa. <ref>(174)</ref>
+                     </bibl>
+                  </note>
+Petrarchaque 
+<note place="margin">
+                     <bibl>Petra. de Pontifi. et Caesa.</bibl>
+                  </note>
+ac Philippus Bergomas tradunt) 
+<note place="margin">
+                     <bibl>Supple. cron. lib. VIII. <ref>(173)</ref>
+                     </bibl>
+                  </note> 
+                  <note place="margin">
+                     <bibl>Supple. cron. lib. X. <ref>(175)</ref>
+                     </bibl>
+                  </note>
+oportunis ualdeque utilibus circa sacros ordines suscipiendos prius ecclesia dei sanctionibus instituta sub Dioclitiano Augusto, eius affine, martyrio coronatus fuit, alter uero magne pietatis uir, multis millibus captiuorum nummo redemptis, regnum coeleste largitate mercatus in pace obdormiuit. Quam pulchrum spectaculum deposita mortalitatis sue stolla Caius caelicolis exhibuit, quando eius cognationis uiri pariter et mulieres, uictoribus palmis insignes, cum triumphali pompa eum exceperunt gaudentes pontificem, ipsorum consanguineum, quem doctorem in terris habuerant, secum in caelestibus conregnare. Nam Gabinum, Cai fratrem, 
+<note place="margin">Gabinus presbyter et martyr.</note>
+uirum (ut Petrus Echilinus episcopus dicit) 
+<note place="margin">
+                     <bibl>Petrus in cathalogo de s. Gabino. <ref>(176)</ref>
+                     </bibl>
+                  </note>
+                  <milestone unit="page" n="87"/> 
+in sacro eloquio peritissimum, simul cum Susanna, 
+<note place="margin">Susanna uirgo et martyr.</note>
+elegantis formae <sic>uirginae</sic>, Gabini filia, sacris litteris a patre erudita, quam (eodem Petro teste) 
+<note place="margin">
+                     <bibl>Petrus ubi supra. <ref>(177)</ref>
+                     </bibl>
+                  </note>
+Maximianus, Dioclitiani filius, optabat sibi matrimonio copulari, necnon et Maximum ac Claudium, Cai Gabinique fratres, 
+<note place="margin">Maximus et Claudius, Cai et Gabini fratres, martyres.</note>
+cum Prepedigna, Claudii coniuge, filiisque eius Alexandro et Cucia 
+<note place="margin">Prepedigna, Alexander, Cutia martyres.</note>
+pro Christi confessione Dioclitianus occidit. Quos cum palma martyrii praecesserat Ciryla, christianissima filia Decii imperatoris, 
+<note place="margin">Cirylla uirgo et martyr.</note>
+pro Christo (quemadmodum Philippus Bergomas meminit) 
+<note place="margin">
+                     <bibl>Supple. cron. lib. VIII. <ref>(178)</ref>
+                     </bibl>
+                  </note>
+iugulata. Secutaque est Arthemia, Dioclitiani filia, a Maximiano fratre pro fidei confessione interempta, nec non et Serena, Dioclitiani uxor, 
+<note place="margin">Serena regina Dioclitiani uxor. </note>
+ac Marinus Dalmata 
+<note place="margin">Marinus confessor</note>
+deo sine cede in pace coniuncti aliique multi in diversis Dalmatiae partibus ab hostibus fidei olim occisi. Quorum nomina tanquam uobis omnibus nota, ommitto, triginta duos fratres ordinis praedicatorum in Bosna fluminis submersione ab infidelibus necatos commemorando. 
+<note place="margin">XXXII fratres ordinis praedicatorum martyres.</note>
+Pro quorum sanctitatis ostensione (quemadmodum in Cronica ordinis praedicatorum legitur) 
+<note place="margin">
+                     <bibl>Cronica ordinis praedicatorum.</bibl>
+                  </note>
+singulo quoque anno in loco, ubi <sic>submersis</sic> sunt, longo tempore triginta duo luminaria in die occisionis eorum apparuerunt. Ex his horumque similibus luce clarius manifestum esse existimo optimas Dalmatarum corporis et animi naturales dotes caelestis gratiae donis abunde perfici et augeri, quando quidem iuxta incarnati uerbi dei sententiam maiorem hac dilectionem nemo habet, nisi ut animam suam ponat quis pro amicis suis. 
+<note place="margin">Ioannes. XV. <ref>(179)</ref>
+                  </note>
+               </p>
+               <p>
+Studia autem consuetudinesque ac leges Dalmatarum summa quadam sunt urbanitate praedite, ut pote christiana pietate condite.
+<note place="margin">Tertium.</note> 
+                  <milestone unit="page" n="88"/> 
+Nam diuino beatissimorum Petri et Pauli apostolorum pectora spiritu agente Titus a Paulo directus (quemadmodum secunde ad Thimotheum quarto idem apostolus manifestat) 
+<note place="margin">
+                     <bibl>Secunde ad Thimo. IIII. <ref>(180)</ref>
+                     </bibl>
+                  </note>
+Domniusque, iubente apostolorum principe Petro, Salonarum episcopus institutus, apud quas, sicut Petrus antistes Echilinus meminit, 
+<note place="margin">
+                     <bibl>Petrus de s. Domnio. <ref>(181)</ref>
+                     </bibl>
+                  </note>
+cum octo militibus pro Christo occisus fuit, christianum dogma Dalmatis praedicauerunt. 
+<note place="margin">Titus et Domnius Dalmatis fidem Christi praedicauerunt.</note>
+Quod postquam semel Dalmatae complexi sunt, nunquam ab eius integritate deciderunt. Quin potius ex feruore spiritus diuino cultui propensius incumbendo Dalmaticarum ritum, quo genere uestium ad hanc usque diem in missarum solemniis ubique terrarum sacrosancta utitur Romana ecclesia, Dalmatae (quemadmodum diuus testatur Thomas) 
+<note place="margin">
+                     <bibl>Tho. IIII. sen. dist. XXIIII. q. IIII. q. <num value="3">III</num>. <ref>(182)</ref>
+                     </bibl>
+                  </note>
+adinuenerunt. 
+<note place="margin">Dalmaticae in Dalmatia primum inuente.</note>
+Culta enim ueste (sicuti Ioannes Balbus refert) apud Romanos utentes Dalmaticati dicebantur. 
+<note place="margin">
+                     <bibl>Catho. in dictione Dalmatia.</bibl>
+                  </note>
+Hinc Lampridius de Commodo Augusto: Dalmaticatus in publicum processit. 
+<note place="margin">
+                     <bibl>Lampri. de Commodo Augu. <ref>(183)</ref>
+                     </bibl>
+                  </note>
+Dalmatae enim priscis temporibus (ut Calepinus reffert) chiridotis, 
+<note place="margin">
+                     <bibl>Calepi. in dicti. Chirodota. <ref>(184)</ref>
+                     </bibl>
+                  </note>
+quae sunt uestes manicate sericeae, infecte colore, quem hodie Dalmascum uocant, usi sunt. Que etiam machrochere appellantur, unde Scipio Gallo homini delicato obiectat, quod cum chirodota tunica, id est manicata et prolixa ultra brachia manus cohoperiente, accubuerit. Has uestes Plautus <ref>(185)</ref> uocat <sic>mamleatas</sic>.<ref>(186)</ref> 
+               </p>
+               <p>
+        Missas facio municipales Dalmatarum leges, quarum accurata constitutione unanimique obseruantia res publica Dalmatarum uehementer olim aucta fuit, nobilissimeque fuerunt praepotentesque ciuitates in ea aedificate. Ex quibus potiores commemorare me non piget, ut noueris Dalmatas
+<milestone unit="page" n="89"/> 
+etiam antiquis temporibus politicis moribus studuisse. Fuit enim Dalmatiae olim Delmin uel Dalmium, 
+<note place="margin">Delmin uel Dalmium.</note>
+ampla sane (ut Strabo inquit) 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(187)</ref>
+                     </bibl>
+                  </note>
+ciuitas, a qua et cognomen gens Dalmatarum usurpat, Salona 
+<note place="margin">Salona.</note>
+quoque totius Dalmatiae (ut Strabo tradit) emporium. 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(188)</ref>
+                     </bibl>
+                  </note>
+Qua deuicta Polio genitum a se filium Salonium uocauit, 
+<note place="margin">Salonius.</note> 
+                  <quote>de quo Maro 
+<note place="margin">
+                        <bibl>Vergilius. <ref>(189)</ref>
+                        </bibl>
+                     </note>
+in Bucolicis cecinit: 
+<l>Magnus ab integro saeculorum nascitur ordo,</l> 
+                     <l>Iam redit et uirgo, redeunt Saturnia regna,</l> 
+                     <l>Iam noua progenies caelo demittitur alto.</l>
+                  </quote>
+Pharumque, 
+<note place="margin">Pharum.</note>
+quod (ut Strabo inquit) 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(190)</ref>
+                     </bibl>
+                  </note>
+Paros antea dicebatur, a Pariis conditum in insula (Plinio teste) 
+<note place="margin">
+                     <bibl>Pli. lib. <num value="3">III</num>. capi. XX et XXV. <ref>(191)</ref>
+                     </bibl>
+                  </note>
+                  <sic>portunata</sic>, Pharos et Phara dicta. Huius oriundus fuit (quemadmodum Polybius 
+<note place="margin">
+                     <bibl>Poly. lib. II. <ref>(192)</ref>
+                     </bibl>
+                  </note>
+Appianusque 
+<note place="margin">
+                     <bibl>App. de bel. Illyri. <ref>(193)</ref>
+                     </bibl>
+                  </note>
+et Strabo produnt) 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(194)</ref>
+                     </bibl>
+                  </note>
+Demetrius, rex Illyriorum, uir utique bellicosissimus, de quo infra (ut policiti sumus) loquemur. Nerenta <ref>(195)</ref> 
+                  <note place="margin">Narenta.</note>
+etiam, a Plinio Narona dicta, 
+<note place="margin">
+                     <bibl>Pli. lib. <num value="3">III</num>. capi. XXI. <ref>(195)</ref>
+                     </bibl>
+                  </note>
+in littore Naronis amnis sita, Pharensibus olim aduersus Venetos confoederata, cum quibus (ut Sabellicus inquit) 
+        <note place="margin">
+                     <bibl>Sab. aenea. IX. li. II. <ref>(197)</ref>
+                     </bibl> et <bibl>de gestis <sic>Veli</sic>. IIII. <ref>(198)</ref>
+                     </bibl>
+                  </note>
+centum septuaginta annis de maris imperio decertauit. 
+
+Iadera 
+<note place="margin">Iadera.</note> 
+quoque, rerum abundantia insignis, olim, Vegetio teste, 
+<note place="margin">
+                     <bibl>Vegeti. de re mili. lib. IIII. capitu. <ref>(199)</ref>
+                     </bibl>
+                  </note>
+Liburniae domina, de re publica Romanorum, sicut in commentariis Caesaris dicitur, 
+<note place="margin">
+                     <bibl>In com. Cae. de bel. ciui. libro <num value="3">III</num>. <ref>(200)</ref>
+                     </bibl>
+                  </note>
+semper officiosissima, quanto alias a Venetis magis auersa, tanto hisce temporibus honori et saluti eorum magis affecta. Moeum <ref>(201)</ref> in insula Issa, 
+<note place="margin">Issa insula, in qua Moeum.</note> 
+quae nunc Pharensibus paret, harum regionum (ut in iisdem comentariis dicitur) 
+<note place="margin">
+                     <bibl>In com. Caesa. de bel. ciui. libro IIII. <ref>(202)</ref>
+                     </bibl>
+                  </note>
+oppidum nobilissimum, quod priscis temporibus rem publicam Romanam contra Philippum, regem Macedoniae, uiginti lembis expeditis
+<milestone unit="page" n="90"/> 
+iuuisse Titus Liuius auctor est, 
+<note place="margin">
+                     <bibl>Titus Liuius <ref>(203)</ref> dec. IIII. lib. I.</bibl>
+                  </note> 
+Scardona (ut Plinio placet) 
+<note place="margin">
+                     <bibl>Plin. li. <num value="3">III</num> ca. <ref>(204)</ref>
+                     </bibl>
+                  </note> 
+Iappygitarum conuentus, Larissa 
+<note place="margin">Larissa.</note> 
+etiam, (Iustino teste) 
+<note place="margin">
+                     <bibl>Iusti. li. VII. <ref>(205)</ref>
+                     </bibl>
+                  </note> 
+urbs nobilissima, (sicut Orosius dicit) 
+<note place="margin">
+                     <bibl>Orosius li. <num value="3">III</num>. <ref>(206)</ref>
+                     </bibl>
+                  </note> 
+ciuitas Illyriorum opulentissima. Epidaurus 
+<note place="margin">Epidaurus</note> 
+quoque, in quo praecipue Esculapio litatum fuerunt, ubi et ad praesens antrum ostenditur, quod demon in forma serpentis pro Esculapio inhabitauit, Romanorum (ut Plinius inquit) 
+<note place="margin">
+                     <bibl>Plin. lib. <num value="3">III</num>. capitu. <ref>(207)</ref>
+                     </bibl>
+                  </note> 
+colonia. Rixo etiam alias Rixanum, 
+<note place="margin">Rixanum</note>  
+unde et sinus Rixonicus dicitur, oppidum (ut Polybius asserit) 
+<note place="margin">
+                     <bibl>Polybius li. <num value="3">III</num>. <ref>(208)</ref>
+                     </bibl>
+                  </note> 
+munitissimum, Theutae, cuius supra meminimus, Agronis, regis Illyriorum, olim coniugis, post uaria cum Romanis haud segniter gesta praelia (ut idem Polybius auctor est) 
+<note place="margin">
+                     <bibl>Poly. lib. II. <ref>(209)</ref>
+                     </bibl>
+                  </note> 
+ultimum refugium. Tragurium 
+<note place="margin">Tragurium</note> 
+quoque, (sicut Strabo refert) 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(210)</ref>
+                     </bibl>
+                  </note> 
+ab Iseis conditum, olim (teste Plinio) 
+<note place="margin">
+                     <bibl>Pli. lib. <num value="3">III</num>. capitu. XXI. <ref>(211)</ref>
+                     </bibl>
+                  </note> 
+marmore notum, nostra autem tempestate peritorum gloria uirorum clarum. Ragusium 
+<note place="margin">Ragusium</note> 
+etiam haud procul ab Epidauro, cuius Philippus Bergomas meminit, 
+<note place="margin">
+                     <bibl>Suppl. cron. lib. <num value="3">III</num>. et IX. <ref>(212)</ref>
+                     </bibl>
+                  </note> 
+diuitiis ac nauibus et libertate, quam solerti studio et summa uigilantia Ragusini tuentur, 
+<note place="margin">Ragusini nulli parent.</note> 
+conspicuum, summam omnium negotiorum per senatum decernendo, nihil ommittentes, quod ad rem diuinam humanamque recte disponendam utile fore conspiciunt. Spalatum <ref>(213)</ref> 
+                  <note place="margin">Spalatum.</note> 
+uel (ut quidam dicunt) Spaletum, natale Marci Maruli solum, a Dioclitiano in agro Salonitano exstructum. Quo in loco priuatam degens uitam tanta animi uoluptate ob loci amoenitatem afficiebatur, quod reuocantibus eum per literas ad reassumendum, quod sponte deposuerat, imperium (quemadmodum Sabellicus 
+<note place="margin">
+                     <bibl>Sabel. aenea. VII. lib. VIII. <ref>(214)</ref>
+                     </bibl>
+                  </note> 
+post Eutropium reffert) 
+<note place="margin">
+                     <bibl>Eutro. lib. IX. <abbr>cap</abbr>. XIX. <ref>(215)</ref>
+                     </bibl>
+                  </note> 
+non aliter quam tetram pestem auersatus 
+<note place="margin">Dioclitianus imperium uelut tetram pestem auersatus.</note> 
+rescripserit: <q>Vellem Salonis uideretis olera nostris 
+<milestone unit="page" n="91"/> 
+manibus instituta, nunquam me ad isthaec reassumenda uocaretis.</q> Ascriuium <ref>(216)</ref> quoque, quod nunc Catharum dicitur, 
+<note place="margin">Catharum alias Ascriuium.</note> 
+Rixonensium (sicuti Cypicus Coriolanus opinatur) 
+<note place="margin">
+                     <bibl>Cypi. Corio. de bello Asiatico. <ref>(217)</ref>
+                     </bibl>
+                  </note> 
+reliquiae uel, ut ipsi Catharenses incerto auctore autumant, populi ex Asia Graecorum Troiam deuastantium furorem declinantis post uaria maris discrimina ultima sedes. Quod (ut praefati sumus) duo uterini fratres ex ordine praedicatorum, Vincentius et Dominicus, 
+<note place="margin">Vincentius et Dominicus fratres Catharenses.</note> 
+suis scriptis et indefessis ad populum praedicationibus celebre reddiderunt. Sicumque, a nostris Sibenicum dictum, 
+<note place="margin">Sibenicum alias Sicum.</note> 
+uario piscium genere et rerum oppulentia delitiosum, in quem locum (ut Plinius inquit) 
+<note place="margin">
+                     <bibl>Pli. lib. <num value="3">III</num>. capi. XXI. <ref>(218)</ref>
+                     </bibl>
+                  </note> 
+Claudius Augustus ueteranos misit. Corcyra Nigra, his temporibus Corcula appellata, 
+<note place="margin">Corzula.</note> 
+Gnosiorum (ut Strabo prodit) oppidum, 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(219)</ref>
+                     </bibl>
+                  </note> 
+aduersus ualidam classem, cui, teste Sabellico, 
+<note place="margin">
+                     <bibl>Sabel. aenea. X. li. septimo. <ref>(220)</ref>
+                     </bibl>
+                  </note> 
+preerat Federicus Aragonius, a suis ciuibus uiriliter <sic>deffensatum</sic>. Colentum et Arba 
+<note place="margin">Arba.</note> 
+in insula, quae secundum Calepinum 
+<note place="margin">
+                     <bibl>Calepi. in dictione Sardona. <ref>(221)</ref>
+                     </bibl>
+                  </note> 
+post Ptholemeum 
+<note place="margin">Ptholemeus. <ref>(222)</ref>
+                  </note> 
+Sardona dicitur, fructuum suauitate nota, Pagumque 
+<note place="margin">Pagum.</note> 
+praecipua salis facilitate praeciosum, Coricta <ref>(223)</ref> 
+                  <note place="margin">Coricta.</note> 
+quoque lanificio potens, Segnia <ref>(224)</ref> 
+                  <note place="margin">Segnia.</note> 
+etiam a mercatoribus frequentata et plura alia, et in littore maris et procul a mari, haud spernenda oppida (nos enim praeter Dalmium et Larissam non nisi maritimas tantum urbes pluribus ex eis ommissis enumerauimus). Nam quinquaginta castella dignitate praestantia Dalmatas Strabo scribit habuisse. 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(225)</ref>
+                     </bibl>
+                  </note> 
+In quibus equidem laetus hospitibus patet ingressus tutusque recessus. 
+    </p>
+               <p>
+Quorum inter caetera notatu digna copiosa est sanctarum reliquiarum possessio, quas indigene praecipua colunt ueneratione largaque in
+<milestone unit="page" n="92"/> 
+exornandis eis impensa prosequuntur. Cultissimis enim nitent Dalmatarum urbes episcopalibus ecclesiis amplaque sunt frequentia apud eos religiosorum monasteria et, quod ad rem summopere pertinere existimo, nihil fere in urbibus Dalmatiae hospitum obtutibus occurrit, quod christianam non redolet pietatem. Nam quanto acriori in pugnam feruntur impetu, tanto in conuictu Dalmatae sunt humaniores. Hinc euenit, ut quicunque siue domi siue foris intima perseuerantique Dalmatarum potiuntur familiaritate, eos animo esse liberos, opere strenuos, corde impauidos, sermone gratos, manu largos, iusti tenaces, consilio prouidos, ratione solertes, in aduersis constantes, in prosperis mites fateantur, predicent, commendent et extollant. Multa et pene innumerabilia uirtutis Dalmatarum monumenta suppetunt, quae, ne uolumen cudere uidear, postponenda ad praesens esse iudico, praesertim quia ueteres lectitantibus historias nota esse non uereor. 
+<note place="margin">
+                     <bibl>Poly. lib. <num value="3">III</num>. <ref>(226)</ref>
+                     </bibl>
+                  </note> 
+Nam et Caesaris exercitum apud Appianum Alexandrinum 
+<note place="margin">
+                     <bibl>Appi. de bell. Illyri. <ref>(227)</ref>
+                     </bibl>
+                  </note> 
+ab Illyriis oppressum 
+<note place="margin">Multotiens Romani a Dalmatis fusi</note> 
+et quindecim Romanorum cohortes cum tribus milibus equitum Gabino creditas necnon et quinque cohortes ab Attinio ductas Dalmatarum gladio cesas 
+<note place="margin">
+                     <bibl>Appi. de bell. Illy. <ref>(228)</ref>
+                     </bibl>
+                  </note> 
+ac Antonium (teste Vegetio) 
+<note place="margin">
+                     <bibl>Vege. de re mili. li. IIII. capi. XXXIII. <ref>(229)</ref>
+                     </bibl>
+                  </note> 
+Liburnorum, qui (ut Robertus Valturius dicit) 
+<note place="margin">
+                     <bibl>Rober. Valtu. de re mili. lib. XI. <ref>(230)</ref>
+                     </bibl>
+                  </note> 
+Dalmatae sunt, 
+<note place="margin">Lyburni sunt Dalmatae</note> 
+auxilio ab Augusto fuisse uictum et apud Sabellicum Caium Marium consulem primo congressu cum Dalmatis infeliciter dimicasse multaque his similia in commentariis Caesaris 
+<note place="margin">
+                     <bibl>In com. Cae. de bel. ciu. libro IIII. <ref>(231)</ref>
+                     </bibl>
+                  </note> 
+et apud Polybium 
+<note place="margin">
+                     <bibl>Poly. lib. II. <ref>(232)</ref>
+                     </bibl>
+                  </note> 
+Sabellicumque 
+<note place="margin">
+                     <bibl>Sab. aenea. VI. lib. IX. <ref>(233)</ref>
+                     </bibl>
+                  </note> 
+ac Titum Liuium 
+<note place="margin">
+                     <bibl>Titus Liuius dec. <num value="3">III</num>. lib. II. <ref>(234)</ref>
+                     </bibl>
+                  </note> 
+et huiusmodi auctores facile est reperire. At illa praestantioribus dimittendo haec a nobis breuiter perstricta sint. Neque enim
+<milestone unit="page" n="93"/> 
+orationis angustia euagari nos longius patitur. Ad hanc ergo, in qua sumus, urbem aliqua de ipsa notatu digna dicturi descendamus.
+</p>
+            </div> 
+            <!-- laus Phariae -->
+            <div>
+               <p>CVPIENTI 
+<note place="margin">Tertium agendum.</note> 
+mihi huius nostrae uetustissimae ciuitatis, post uarias ab hostibus deuastationes a maioribus nostris non multum ante haec tempora instaurate, pristinas necnon et nouas fortunas, uiri integerrimi, (quemadmodum uobis policiti sumus) repetere in primis ipsum insulae, in qua haec ciuitas posita est, situm pro mei tenuitate ingenioli describere opere pretium uisum fuit, ut, comperta praecipua eius ad bellica facinora opportunitate, nulli mirum uideatur Pharenses a Romanis, quemadmodum Polybius ac Appianus Alexandrinus tradunt, ualida classe ingentibusque copiis Paulo Emilio, qui (ut idem Polybius 
+<note place="margin">
+                     <bibl>Poly. lib. <num value="3">III</num>. <ref>(235)</ref>
+                     </bibl>
+                  </note>
+ac Sabellicus <sic>refferunt</sic>) 
+<note place="margin">
+                     <bibl>Sabel. aenea. V. lib. II. <ref>(236)</ref>
+                     </bibl>
+                  </note>
+in Canensi strage Romanorum occubuit, et Marco Lelio consulibus 
+<note place="margin">Pau. Emilius et Mar. Le. consules.</note>
+fuisse impetitos.
+    </p>
+               <p>
+Pharos enim insula, Phara a Plinio dicta, 
+<note place="margin">Paros, quae et Phara, insula describitur.</note> 
+                  <note place="margin">
+                     <bibl>Pli. li. <num value="3">III</num>. c. XX. <ref>(237)</ref>
+                     </bibl>
+                  </note> 
+eiusdem nominis (ut Strabo inquit) 
+<note place="margin">
+                     <bibl>Strab. lib. VII. <ref>(238)</ref>
+                     </bibl>
+                  </note> 
+a Pariis conditam (quemadmodum supra tetigimus) urbem habens, 
+<note place="margin">Pharum urbs.</note> 
+circa Nerentani sinus intima uiginti quinque milibus passuum distans ab hostio Naronis amnis in littore Dalmatiae, quatuor supra uiginti stadiis a continenti diuellitur longitudinem nacta stadiorum quingentorum et sexaginta. Latitudo non est ubique eadem, sed, quod maximum spatii eius est latitudinis, sex et nonaginta stadiis mensuratur. Principium insulae a continenti planum est, insigne structura duorum oppidorum non multum ad inuicem distantium, 
+<note place="margin">Duo oppida in principio insulae a continenti.</note> 
+ignoto nobis euentu desolatorum, stratis pluribus in locis assaroto seu musiuo
+<milestone unit="page" n="94"/> 
+opere pictis in eis apparentibus. In praesentia quinque sunt hac in planicie uillae maiori ex parte, quamquam pars eorum arua Cereris causa (nam huius hec insule pars satis ferax est) uineasque excolant, a pastoribus pecudum inhabitate suntque hi inter Pharae incolas asperiores. <sic>Ressiduum</sic> insulae campos umbrosis montibus permixtos habet, multarum rerum in usus hominum cedentium, uini uidelicet oleique ac ficorum necnon et croci melisque ac caeterorum fructum praeter Cererem feracissimos, haud spernendo uirorum numero et robore corporis 
+<note place="margin">Pharenses fortes.</note>
+et animi uiuacitate preditorum, peculiari quadam naturae probitate sobrietatem atque a superfluis uini potationibus abstinentiam amplectentium refertos. 
+<note place="margin">Pharenses sobrii magna uini copia affluentes.</note>
+Nam cum maxima sit optimi apud Pharenses uini abundantia (non enim decimam sui uini partem ipsi potando consumunt), grande tamen facinus, immo scelus esse arbitrantur uinum aqua non flagellatum potare. Quam ob causam, si cui aliquando ex aduenis temulento in publicum prodire euenit, uelut mente captum omnes, sed praecipue pueri (quemadmodum uos ipsi probe scitis) eum iniuriis contumeliisque afficiunt derisionibusque prosequuntur. 
+    </p>
+               <p>
+Exstat in medio fere huius insulae ager ad septentrionem spectans, praecipua diligentia cultus, in circuitu stadiorum centum et quadraginta, totius insulae potior, undecim uicis septus, 
+<note place="margin">Ager in medio insulae optime cultus, circa quem undecim sunt uile.</note>
+ex quibus minimus quadraginta, medius autem uiginti supra centum, nonnullus ducentas et triginta, supremus autem quingentas habet domos, altas et amplas, laquearibus caeterisque urbanis ornamentis optime distinctas sic, ut nihil ei praeter murum in circuitu desit ad
+<milestone unit="page" n="95"/> 
+                  <sic>satas</sic> pulchre dispositae speciem <sic>ciuitatas</sic>. Quo in loco urbem olim pulcherrimam fuisse non ambigimus, cum in dies et antiquos aquarum puteos urbis ruina obstrusos et thesauros auri et argenti gemmarumque in ortis et uineis sub terra latentes hic reperiri uideamus, et nobilium ibidem sint antiquorum monumenta edificiorum. Aemulantur hunc, de quo loquimur, uicum in domorum templorumque structuris duo alii maritimam oram sortiti uici in diesque magis ac magis excrescunt. 
+    </p>
+               <p>
+        Largitatis et opulentiae indigenarum monasterium diui Petri Martyris 
+<note place="margin">Monasterium sancti Petri Martyris ordinis pradicatorium.</note> 
+breui tempore excellenter ab eis exstructum necnon et frequentes in singulis quoque uicis ualde pulchre nostris diebus erecte ecclesie fidele praebent testimonium, praecipue hoc in tempore, in quo iuxta certissime ueritatis uaticinium refriguit charitas multorum. 
+<note place="margin">
+                     <bibl>Math. XXIIII. <ref>(239)</ref>
+                     </bibl>
+                  </note> 
+Quid, si omnes huius agri fructus eorum essent? Potior enim fructuum ibidem collectorum ad hanc, in qua sumus, urbem (nam uester iste fere totus ager est, illi autem coloni sunt) pars defertur. 
+    </p>
+               <p>
+Neque ommittendos existimo lembos seu <sic>miorones</sic> cum caeteris minoribus nauibus ac retibus octuagenarium <sic>numerurm</sic> supra centum apud eos excedentibus (aestiuo duntaxat tempore) piscationibus deputatos, quorum usu singulis annis ex piscibus magnam pecuniae summam sortiuntur. Aptissimam enim piscationi hanc insulae partem esse constat tum ob frequentes amplosque maris sinus, tum quia nullibi circa insulam mare est sordidum aut lutosum, sed ubique ob notabilem circa littus profunditatem clarum ac temperie quadam inter frigidum et calidum piscibus ualde grata praeditum, tum quia per late patentia aequora Ionicum
+<milestone unit="page" n="96"/> 
+Apulumque ac Illyricum saeuientes uentorum procellae uel inuitos pisces tutiora petere loca compellunt.
+    </p>
+               <p>
+Frequens hinc emendorum causa piscium ex diuersis mundi partibus mercatorum est ad haec loca concursus, 
+<note place="margin">Frequens ad Pharam mercatorum conuentus.</note> 
+ex quorum conuictu non minus nostrates quandam argutam astutiam quam copiosa fortunae bona contraxerunt. Quid dicam de onerariis eorum nauibus, quibus uinum, ficus, salsamenta et huiusmodi ad longinquas partes deducunt, cum aliquem ex ipsis quinque haud spernendae quantitatis nauium nouerim esse possessorem? Industrii enim uiri sunt et torporis ignauiaeque penitus inimici. 
+    </p>
+               <p>
+Quapropter neminem capiat admiratio duas olim, alteram ab oriente, alteram ab occidente, cuius supra meminimus, egregios sortitas portus hoc in agro urbes exstitisse, 
+<note place="margin">Due olim urbes in hoc agro fuerunt.</note>
+ipsa ruina pristinam earum dignitatem prodente, apparentibus ibidem adhuc pluribus magnis edificiis et ex Pario lapide truncatis et semicorrosis heroum imaginibus necnon et <sic>lithostratis</sic> uarias bestiarum et syderum formas prae se ferentibus. Quae non nisi praestantis uestigia sunt ciuitatis. Visuntur et in medio huius agri solo aequata ampla aedificia exstantque ibi, inter frequentes quadratorum lapidum aceruos, dulcium aquarum putei multaque alia magnum et nobile oppidum olim ibi fuisse indicantia. <note place="margin">Oppidum in medio agri.</note>
+Est et unum adhuc fere integrum inter montes oppidum 
+<note place="margin">Oppidum inter montes adhuc fere integrum.</note> 
+urbi, quae orientalem agri huius regionem obtinebat, supereminens, iuxta quod ad iactum sagittae ex quadratis mirae magnitudinis lapidibus turris est unicum habens angustum hostiolum, in qua ob antiquitatem nullum cementi uestigium apparet. Sunt et in plerisque
+<milestone unit="page" n="97"/> 
+aliis huius insulae locis humanae habitationis uestigia, in quibus antiqui illi Pharenses uicatim habitauerunt. Ex his collige praeter primariam, in qua sumus, urbem, quae a <sic>meridiolani</sic> 
+                  <ref>(240)</ref> insulae parte posita Pharum proprie, uulgo autem (sicut Calepinus prodit) Lisna, 
+<note place="margin">
+                     <bibl>Calepi. in dictione Pharum. <ref>(241)</ref>
+                     </bibl>
+                  </note>
+corruptius autem Lesina dicitur, 
+<note place="margin">Pharum, uulgo Lisna, corruptius Lesina dicitur</note>
+sex in hac insula olim oppida absque uillis,quae numerosae erant, exstitisse. 
+<note place="margin">Sex praeter primariam urbem in insula Phara oppida.</note> 
+Ex quibus pristinae Pharensium uires metiri debent, quibus olim una cum Lyburnis, qui (ut Vegetius 
+<note place="margin">
+                     <bibl>Veget. de re mili. li IIII. capitulo. <ref>(242)</ref>
+                     </bibl>
+                  </note> 
+et Robertus Valturius tradunt) 
+<note place="margin">
+                     <bibl>Rober. Val. de re mi. li. XI. <ref>(243)</ref>
+                     </bibl>
+                  </note> 
+Dalmatae sunt, maris imperium sibi uendicauerunt. Hinc Firmicus 
+<note place="margin">
+                     <bibl>Firmicus.</bibl>
+                  </note> 
+(quemadmodum Calepinus refert) 
+<note place="margin">
+                     <bibl>Cale. in dict. Liburnia. <ref>(244)</ref>
+                     </bibl>
+                  </note> 
+Liburnicum imperium usurpat pro nauali. <quote>Hinc et Lucanus:  
+<note place="margin">
+                        <bibl>Lucanus. <ref>(245)</ref>
+                        </bibl>
+                     </note> 
+                     <l>Pugnacesque mari Graiarum classe Lyburni.</l>
+                  </quote> Nam (sicuti ex Polybio facile haberi potest) 
+<note place="margin">
+                     <bibl>Poly. lib. II. <ref>(246)</ref>
+                     </bibl>
+                  </note> 
+Dalmatae ac Lyburni nunquam maiori felicitate quam, dum eis Demetrius Pharius imperabat, naualia praelia exercuerunt. Sed ad Pharam insulam, unde digressi sumus, reuertamur. 
+    </p>
+               <p>
+Cuius meridionalis plaga 
+<note place="margin">Meridionalis plaga Pharae</note> 
+maximam Illyricum sulcantibus aequor utilitatem praebet tum ex obiectu cuiusdam insulae, quae Torta <ref>(247)</ref> dicitur, in qua exstat monasterium deiparae uirginis Mariae ordinis praedicatorum, 
+<note place="margin">Insula Torta in qua monasterium beatissime uirginis Mariae.</note> 
+circa quam frequentes et optimi portus sunt, tum ex quibusdam aliis minoribus insulis centum quinquaginta stadiis occidentem uersus a Torta distantibus, quinque millibus passuum usque ad finem Pharensis insulae paralello tractu currentibus, inter quas et Pharam mare <sic>duodecrm</sic> stadiorum latitudinis inexhauribili piscium omniphariam multitudine scaturiens, 
+<note place="margin">Mare Pharium inexhauribili piscium multitudine scaturit.</note> 
+nonnullis quietissimis maris sinibus hinc inde patentibus, in quibus nec uenti nec unde
+<milestone unit="page" n="98"/> 
+saeuiunt, situm est, licet totum hoc maris spatium inter Pharam et praefatas insulas, ipsis insulis tumentium undarum fluctus propulsantibus, tutum nauibus praestet hospitium totusque locus iste a nautis optimus portus aestimetur. Per quem necesse est, praesertim in hyeme, ex Venetiis ad Graeciam Siciliamque et ad caetera orientis loca nauigantes uel inde Venetias uersus tendentes, si maxima uolunt maris discrimina euitare, suum iter dirigere, quamquam (estiuo duntaxat tempore) aliquando nonnulli nautarum inter has insulas et Issam, cuius supra meminimus, octo millibus passuum ab his distantem nauigare non uereantur. 
+    </p>
+               <p>
+Tendentibus enim hac Venetias uersus ex Graecia huius tractus in principio tribus clausus monticulis, medio caeteris eminentiore arcem inaccessibilem ualidissimo firmatam muro praeruptis 
+<note place="margin">Vrbs Pharum describitur.</note> 
+(ut Sabellicus inquit) 
+<note place="margin">
+                     <bibl>Sab. aenea. IX. libro II. <ref>(248)</ref>
+                     </bibl> et <bibl>de gestis Vene. lib. IIII. <ref>(249)</ref>
+                     </bibl>
+                  </note> 
+undique rupibus in uertice gestante, multarum capax nauium portus a dextris obiicitur, cliuo asperrimo et perangusto aditum ad ipsam arcem ab occidentali parte, a qua munitissimae tres exstant turres, perquam difficilem exhibente, 
+<note place="margin">Arx Pharensis munitissima</note> 
+sub qua urbs Pharum dicta per totum hunc montem expanditur magnamque partem urbs ipsa capiens plani, quod iacet inter montem ab oriente septingentarum fere domorum quadrato lapide sumptuose aedificatarum suburbio pressum et eum, in cuius uertice arcem exstare diximus, orientali ac meridionali aurae, unde portum mare influit, peruia situatur. Residuum plani inter hos duos montes duo ampla fora cathedralem perquam speciosam simul cum Antistitis domo aedem circunstantia efficit, superiori foro, qui ad
+<milestone unit="page" n="99"/> 
+orientem prospicit, se aquarum fontibus ac uirentium ortorum giro gratum reddente, inferiore autem usque ad monasterium sanctissimi Marci euangelistae, quod fratres ordinis praedicatorum circa littus maris in radice occidentalis monticuli sub regulari instituto incolunt, protelato. Vbi inter caetera hoc forum, quod ualde magnum est ipsum <sic>uenustantia</sic>, exstat prae foribus episcopii cisterna mirae magnitudinis, cui aequalem me nunquam uidisse reminiscor. Quid dicam de pulcherrima praetoria aula 
+<note place="margin">Praetoria aula.</note> 
+magnificis quatuor turribus ab occidentali ciuitatis parte iuxta aedem diui Marci euangelistae uallata, portui ac foro excellenter imminente, in qua late patens est curia, duae cysterne, ampla caenacula, iocunda deambulatoria, uaria aestiua ac hyemalia iudiciorum loca, et (ut breui <sic>seimone</sic> multa complectar) magnis sumptibus regio (ut dici solet) apparatu cuncta intus forisque disposita? Consulto priuata dimitto aedificia (quoniam, si cuncta sermone <sic>cpmplecti</sic> uoluero, nimium nostra excrescet oratio), nostri tamen caenobii ex opposito episcopalis aedis in littore maris (ut praefati sumus) siti amoenitatem non praetermittam. Cuius templum <sic>beatassimo</sic> Marco euangelistae dicatum (quemadmodum antiquiores refferunt) nobilium capella nuncupatur. 
+<note place="margin">Monasterium s. Marci ordinis praedicatorum.</note> 
+Extra quod maiores nostri, praesertim patritii, cadauera suorum sepeliri nephas esse arbitrabantur. Quod uelut specula quaedam sic foro ac portui supereminet, ut singula in eis reperta ac fere omnes urbane et suburbanae domus et ipsa arx ac principis palatium necnon et quaedam insulae, quadraginta milibus passuum hinc distantes, facile ex eo ualeant
+<milestone unit="page" n="100"/> 
+conspici et discerni. Missam facio competentem quo ad singula huius monasterii dispositionem, egregiam bibliothecam, spatiosa uiridaria, spinam corone domini eiusque sacratassime crucis portionem caeterasque sanctorum reliquias ac multa huiusmodi, silere tamen indignum duco docte probateque in moribus iuuentutis uestratum sub obseruantia regularis instituti hoc in monasterio alitae numerositatem, quorum opera, deo optimo fauente, haud parum splendoris uestrae huic urbi (ni fallor) est accessurum. Nec desunt etiam hisce temporibus hoc in monasterio (quemadmodum uos ipsi cernitis) uiri apprime eruditi, qui edificare proximos in salutem uerbo et opere sunt efficaces. 
+<note place="margin">In conuentu s. Marci multi uiri periti.</note> 
+               </p>
+               <p>
+Exstant et duo alia monasteria, alterum ordinis Heremitarum sub titulo diui Nicolai in summo suburbani montis uertice situm, 
+<note place="margin">Monasterium s. Nicolai ordinis Heremitarum.</note> 
+alterum sancte Crucis parua spatii intercapedine a suburbio ad meridionalem plagam remotum ordinis Minorum regularis uitae, amplum et pulchrum, probatorum religiosorum in uita et moribus copia non minus quam edifficiis clarum. 
+<note place="margin">Monasterium s. Crucis ordinis Minorum.</note> 
+In quo imaginem beatissime uirginis Mariae multis et manifestis pollentem miraculis merito praecipua deuotione ueneramur. 
+    </p>
+               <p>
+Cuncta haec de Pharo ideo dixerim, 
+<note place="margin">Cur haec de Pharo dicta.</note> 
+ut ex continentis soli uicinitate commeatus, frumenti pecudumque ac armentorum, quorum apud adiacentes nobis regiones ingens est copia, facilitatem et ex ipsius urbis maritima opportunitate, ad quam, uelint nolintue, fere omnes Illyricum sulcantes salum cum mercibus appellere necesse est, diuitias et ex frequenti diuersarum nationum ad hanc urbem appellentium conuictu urbanitatem et uenustissimos
+<milestone unit="page" n="101"/> 
+Pharensium mores intuearis. Nam quicquid diues producit oriens, quicquid pingue parturit Latium, quicquid ferox gignit Illyria, quicquid aprica generat Aphrica, quicquid aspera affert Hispania, quicquid horrida permutat Scythia, quicquid felix prodit Arabia, quicquid uerbosa educit Graecia, frequenti hac in urbe est successione uenale. 
+<note place="margin">Magna rerum Phari commoditas.</note> 
+               </p>
+               <p>
+Iocundum spectaculum et urbana curiositate laborantibus satis expetibile singulis fere diebus diuersarum nationum uiros nauigio sibi inuicem hac in urbe succedentes intueri. Vidi frequenter portum hunc prima luce esse sine nauibus, uespere autem uiginti aut triginta naues magnas in eo numeraui. Haec non tanquam uobis ignota <sic>refferro</sic>, sed ut priscas legentes historias nouerint Romanos olim Pharum curasse funditus euertere, ne Pharenses Dalmatas Liburnisque ac Histris et Attintanis, qui (ut Strabo inquit) 
+<note place="margin">
+                     <bibl>Strab. lib. VII. in fine. <ref>(250)</ref>
+                     </bibl>
+                  </note> 
+in sinu Ionico Macedonibus <sic>aplicantur</sic>, magnaeque parti Epiri ac Etholiae (quemadmodum Polybius 
+<note place="margin">
+                     <bibl>Poly. lib. II. <ref>(251)</ref>
+                     </bibl>
+                  </note> 
+Appianusque Alexandrinus meminerunt) 
+<note place="margin">
+                     <bibl>Appi. de bel. Illyri. <ref>(252)</ref>
+                     </bibl>
+                  </note> 
+imperare consueti <ref>(253)</ref> frequentibus eos praeliis fatigarent. Sic enim afflictis Pharensibus harum se regionum dominos fieri posse Romani arbitrabantur. Nam cum Agron, Pleurati filius, Illyriorum rex, 
+<note place="margin">Agron rex Illyriorum</note> 
+pedestribus equestribusque (ut Polybius auctor est) 
+<note place="margin">
+                     <bibl>Poly. lib. II. <ref>(254)</ref>
+                     </bibl>
+                  </note> 
+copiis opido polens, Etholos, magna potentia fraetos, longa obsidione Midionios <ref>(255)</ref> fatigantes, decem milibus Illyriorum centum lembis impositis, fudisset, magno pauore uniuersa perculsa Graecia (ut idem Polybius asserit), uita functus Teuce, uxori suae, quam Lucius Florus Teusam, 
+<note place="margin">
+                     <bibl>Luci. Flo. de bel. Illy. <ref>(256)</ref>
+                     </bibl>
+                  </note> 
+diuus autem Hieronymus Teutam appellat, 
+<note place="margin">
+                     <bibl>Hiero. contra Iouinia. capi. XXVII. <ref>(257)</ref>
+                     </bibl>
+                  </note> 
+                  <note place="margin">Teuca, quae et Teusa ac Teuta, regina Illyriorum.</note> 
+imperium dereliquit. Quae (<sic>sacuti</sic> ex diuo Hieronymo 
+<milestone unit="page" n="102"/> 
+supra diximus) magna praedita castitate frequenter cum Romanis feliciter decertauit. Huius auspitiis Demetrius Pharius, postea Illyriorum rex, agros Eliensium et Messeniorum tempore primi belli Punici populabundus percurrit Phaenicemque, faelicissimam (ut Polybius scribit) 
+<note place="margin">
+                     <bibl>Poly. lib. II. <ref>(258)</ref>
+                     </bibl>
+                  </note> 
+Epiri urbem, diripuit fusisque posthaec aperto Marte Epirotis, omnibus Graecorum maritimis ciuitatibus magno timore consternatis, Dirachio grauibus cladibus affecto, Corcyram, praestantissimam Etholorum urbem, diutina obsidione fessam cepit multisque aliis strenuis facinoribus se celebrem exhibuit. Interea Romani a Theuca pluribus lacessiti iniuriis, praecipue quod, dum Theuca Issam obsideret, eorum legatum licentiosius locutum occidi fecerat, ducentarum nauium (quemadmodum Polybius dicit) 
+<note place="margin">
+                     <bibl>Poly. lib. II. <ref>(259)</ref>
+                     </bibl>
+                  </note> 
+classi Caio Fuluio consule praefecto, cum uiginti milibus peditum et duobus milibus equitum, quibus preerat Aulus Posthumius alter consul, contra Theucam profecti, 
+<note place="margin">Ducente naues et uiginti milia peditum ac duo milia equitum cum duobus consulibus contra Teucam a Romanis directa.</note> 
+                  <sic>defficientibus</sic> ad eos pluribus Illyriorum ciuitatibus, icto cum ea post longa certamina <sic>dere</sic>, Demetrium Pharium regem Illyriorum consules esse <sic>ouluerunt</sic>. 
+<note place="margin">Demetrius Pharius per consules rex Illyriorum decernitur.</note> 
+At Demetrius more impatiens (erat enim animo ferox, corpore, ut Polybius refert, robustus, 
+<note place="margin">
+                     <bibl>Poly. lib. <num value="3">III</num>. <ref>(260)</ref>
+                     </bibl>
+                  </note> 
+praeliis ab ineunte aetate assuetus) nullo ad Romanos sociosque Romanorum habito respectu coepit multos bello lacessere. Sub eo militabant Illyrii tanta faerocitate praediti, ut ueluti communes hostes omnibus terrori essent. Nam (quemadmodum Polybius dicit) 
+<note place="margin">
+                     <bibl>Poly. lib. II. <ref>(261)</ref>
+                     </bibl>
+                  </note> 
+quocunque se uertebat Demetrius, quasi tempestas, quaedam cuncta prosternebat. 
+<note place="margin">Demetrius uelut tempestas, quo se uertebat, cuncta prosternebat.</note> 
+Multa Demetrius prius audacis fortissimique uiri opera ediderat, quibus <sic>opinatissimus</sic> 
+                  <milestone unit="page" n="103"/> 
+reddebatur. Antigono enim, Macedonum rege, memorabile illud inter Euam et Olimpum sociale certamen contra Cleomenem, regem Lacedemoniorum, cuius Plutarchus meminit, 
+<note place="margin">
+                     <bibl>Plutarc. de Cleomene. <ref>(262)</ref>
+                     </bibl>
+                  </note> 
+quod Cleomenicum bellum dicitur, magno gerente discrimine, Demetrius cum Illyriis, primas belli partes suscipiens, incredibili audacia hostes (ut Polybius meminit) 
+<note place="margin">
+                     <bibl>Poly. lib. II. in fine. <ref>(263)</ref>
+                     </bibl>
+                  </note> 
+per arduum cliuum agressus Antigono uictoriam obtinuit. 
+<note place="margin">Cleomenico bello interfuit Demetrius.</note> 
+Classemque post obtentum Illyrii imperium cum Scerdelaida, 
+<note place="margin">Scerdelaida Illyrius.</note> 
+qui ei in regno successit, (ut Polybius inquit) 
+<note place="margin">
+                     <bibl>Poly. lib. IIII. <ref>(264)</ref>
+                     </bibl>
+                  </note> 
+partitus, Scerdelaida ad eius imperium cum quinquaginta lembis <sic>Naupaphctum</sic> et Achaiam hostiliter deuastante, ipse cum totidem lembis Cycladas insulas, unde Pharenses originem traxisse Strabo autumat 
+<note place="margin">
+                     <bibl>Strab. li. VII. <ref>(265)</ref>
+                     </bibl>
+                  </note> 
+(nam Paros, a qua Parii, quos Pharum edificasse Strabo auctor est, Cycladibus insulis, ut Plinius inquit, 
+<note place="margin">
+                     <bibl>Pli. lib. IIII. ca. XII. <ref>(266)</ref>
+                     </bibl>
+                  </note> 
+connumeratur) ferociter est depopulatus. Regno deinde pulsus Philippo, regi Macedoniae, diuersa praelia praesertim contra Etholos gerenti in consiliis et bello sic astitit, ut magnam cum Arato, duce Acheorum, 
+<note place="margin">Aratus dux Acheorum.</note> 
+eiusdem gloriae partem (ut Polybius astruit) 
+<note place="margin">
+                     <bibl>Poly. lib. V. <ref>(267)</ref>
+                     </bibl>
+                  </note> 
+sibi uendicaret. Demetrio igitur (ut praefati sumus) cuncta uelut turbine quodam euertente, Romani cum ingentibus copiis Paulum Emilium et Marcum Lelium consules (quemadmodum Titus Liuius scribit) 
+<note place="margin">
+                     <bibl>Titus Liuius dec. <num value="3">III</num>. lib. II. <ref>(268)</ref>
+                     </bibl>
+                  </note> 
+contra Demetrium misere, 
+<note place="margin">Paulus Emilius et Mar. Lelius consules contra Demetrium directi.</note> 
+                  <sic>Polybus</sic> autem nulla Marci facta mentione Paulum Emilium aduersus Demetrium directum esse dicit. 
+<note place="margin">
+                     <bibl>Poly. lib. <num value="3">III</num>. <ref>(269)</ref>
+                     </bibl>
+                  </note> 
+Qui Dimala,<ref>(270)</ref> quam Strabo Dalmium uocat, 
+<note place="margin">
+                     <bibl>Strab. li. VII. <ref>(270)</ref>
+                     </bibl>
+                  </note> 
+a qua (ut supra meminimus) Dalmatae dicti sunt, septimo die expugnata <sic>compertmn</sic> habens Demetrium cum sex millibus ueteranorum 
+<note place="margin">Sex milia ueteranos secum Demetrius habuit Phari.</note> 
+                  <milestone unit="page" n="104"/> 
+Pharum secessisse, ueritus longam futuram obsidionem, nam (ut Polybii uerbis utar) 
+<note place="margin">
+                     <bibl>Poly. lib. <num value="3">III</num>. <ref>(272)</ref>
+                     </bibl>
+                  </note> 
+Pharum erat urbs natura loci munitissima 
+<note place="margin">Pharum munitissimum.</note> 
+et ellectorum ex omni numero militum praesidio firmata, commeatu praeterea et caeteris rebus ad bellum necessariis abundans, centesime quadragesime olympiadis anno primo, hoc est anno ante incarnationem filii dei ducentesimo sexagesimo secundo, 
+<note place="margin">Anno ante incarnationem filii Dei ducentesimo sexagesimo secundo Pharum fuit euersum</note> 
+quo tempore fidissimam illam Saguntum in Hyspania cepit Hannibal, callide Pharenses opprimens ad extremum excidium perduxit. Intempeste enim noctis silentio in densissima prope urbem sylua copias delitescere iubens, 
+<note place="margin">Stratagema Emilii contra Pharenses.</note> 
+postero die (quemadmodum Sabellicus 
+<note place="margin">
+                     <bibl>Sab. aenea. V. lib. primo. <ref>(273)</ref>
+                     </bibl>
+                  </note> 
+post Polybium 
+<note place="margin">
+                     <bibl>Poly. lib. <num value="3">III</num>. <ref>(274)</ref>
+                     </bibl>
+                  </note> 
+dicit) cum uiginti nauibus ad portum, qui nunc (ut reor) Socholica dicitur, 
+<note place="margin">Portus Socholiza, in quo exstant magni acerui lapidum super sepulchris ibi occisorum.</note> 
+urbi uicinum ipse applicuit. Cui obuiantes Illyrii descensum in insulam acriter pugnando inhibebant. Exhausta interim militibus ciuitate (omnes enim ad pugnam tumultuarie confluxerant) delitescentes in sylua Romani <sic>colem</sic> inter portum et urbem natura munitissimum occupauerunt. Quod uidentes Illyrii structa acie Romanos bellum non detractantes ex cole perturbaturi agrediuntur. Cumque diu acriter pugnatum esset urgentibus a fronte et a tergo Romanis (nam ex nauibus milites in insulam descenderant), multis cum ipso Demetrio (ut Appianus dicit) 
+<note place="margin">
+                     <bibl>Appi. de bel. Illyri. <ref>(275)</ref>
+                     </bibl>
+                  </note> 
+ex Illyriis neci datis, Romani uictores exstitere. Polybius autem, 
+<note place="margin">
+                     <bibl>Poly. lib. <num value="3">III</num>. <ref>(276)</ref>
+                     </bibl>
+                  </note> 
+cuius sententiae alludit Titus Liuius 
+<note place="margin">
+                     <bibl>Titus Liu. dec. <num value="3">III</num>. lib. II. <ref>(277)</ref>
+                     </bibl>
+                  </note> 
+et Sabellicus, 
+<note place="margin">
+                     <bibl>Sab. aenea. V. lib. primo. <ref>(278)</ref>
+                     </bibl>
+                  </note> 
+Demetrium fuga elapsum lembis, quos tribus in locis in insula, si quid tale accideret, paratos habebat, ad Philippum, regem Macedoniae, tradit confugisse. Quem (sicut Iustinus asserit) 
+<note place="margin">
+                     <bibl>Iusti. de uir. illust. li. XXIX. <ref>(279)</ref>
+                     </bibl>
+                  </note> 
+sua oratione impulit, ut 
+<milestone unit="page" n="105"/> 
+Romanis bellum inferret. Apud quem usque ad <corr resp="NJ">extremum</corr> uitae sue magno in precio habitus, dum ex sententia Philippi urbem Messeniorum ardentius oppugnat, ab hostibus interfectus fuit. 
+<note place="margin">Demetrius ardenter pugnando occubuit.</note> 
+Multa in ipsum Polybius 
+<note place="margin">
+                     <bibl>Poly. lib. <num value="3">III</num>. <ref>(280)</ref>
+                     </bibl>
+                  </note> 
+Appianusque 
+<note place="margin">
+                     <bibl>Appi. de bel. Illy. <ref>(281)</ref>
+                     </bibl>
+                  </note> 
+factiose dicunt nimiam audatiam, alieni aeris cupiditatem, rapto enim (ut illi aiunt) uiuere consueuerat eidem ascribentes. Mirari satis nequeo, qua fronte quoue quis animo tantum audet in Demetrio uituperare, quod in Alexandro Magno, quod in Hercule, quod in Hannibale, quod in ipsis denique Romanis ac caeteris ducibus regibusque summo solet preconio laudari, efferri, commendari? An non Romani aliena rapiebant? Nunquid Alexander orbem, quo per phas et nephas potiri statuerat, ipse effinxit? Nisi forsan ideo Demetrium quis uituperet, quia minora et pauciora quam hi rapiebat. Sed ad captam Pharensium urbem reuertamur. Emilius Pharo potitus, ammissa apud Illyrios, quemadmodum Petrus Marsius dicit, notabili sui exercitus portione, 
+<note place="margin">
+                     <bibl>Petrus Marsius li. VIII. super Siluio Italico. <ref>(282)</ref>
+                     </bibl>
+                  </note> 
+ipsum funditus euertit precauens (ni fallor), ne Pharenses, patria eorum incolumi, proprias ulturi iniurias, uendicato sibi iterum maris imperio, Romanorum in Illyrium et Graeciam nauigationes impedirent. Sed qui casus qualesque fortunae Pharensium in posterum fuerint (tametsi Strabo 
+<note place="margin">
+                     <bibl>Strab. li. VII. <ref>(283)</ref>
+                     </bibl>
+                  </note> 
+et Plinius 
+<note place="margin">
+                     <bibl>Pli. li. <num value="3">III</num>. c. XX et XXV. <ref>(284)</ref>
+                     </bibl>
+                  </note> 
+ac nonnulli alii eorum meminerint) haud satis compertum habeo, nisi quod post longa certamina et sociale bellum, quod, quemadmodum iam praefati sumus, Pharenses cum Nerentanis gessere contra Venetos, tota fere Dalmatia Venetorum partes (sicut Sabellicus dicit) 
+<note place="margin">
+                     <bibl>Sab. aenea. IX. libro II.</bibl> et <bibl>de gestis Vene. lib. IIII. <ref>(285)</ref>
+                     </bibl>
+                  </note> 
+sponte secuta, Pharenses extrema quaeque, ne quid seruile eis accideret,
+<milestone unit="page" n="106"/> 
+experiri parati, anno domini nongentesimo octuagesimo septimo ab Vrseolo, duce Venetiarum, euersa funditus eorum urbe, quam pro moenibus fortissime, quamdiu licuit, tutati sunt, uicti fuere. 
+<note place="margin">Vrseolus dux Venetorum Pharum euertit anno domini DCCCCLXXXVII.</note> 
+Variis posthaec uniuersa Dalmatia ob inextinguibiles inter Venetos et Ligures inimicitias casibus agitata, aucto mirum immodum Venetorum imperio, reedificata prius per uos urbe uestra, inito cum eis perpetuae pacis foedere, praecipuis ornati priuilegiis (nam et senatum habetis et quaestores ipsi deligitis uestrique iuris est aerarium), multis donati immunitatibus, gratissima potiti libertate Venetis usque ad hoc tempus fidelissime coniungimini. Qui etsi, dum aequam in Republica partem singuli queritis, in uarias saepe discenssiones deueneritis, semper tamen uirili strenuoque contra aduersarios usi estis animo, cum is omnium Pharensium, et nobilium et plebeorum nec non et ruralium, mos esse uideatur, ut malint mortem uiriliter oppetere quam uel leui seruili iniuria perstringi. 
+    </p>
+               <p>
+Hinc praeclarissimum illud facinus naualium sociorum triremis, cui praeerat Nicolaus Paladinus, patritius Pharensis 
+<note place="margin">Nicolaus Paladinus eques auratus.</note> 
+(non enim nisi patritii triremibus praeficiuntur). Quod utique memoria dignum opus pristinam Pharensium uirtutem uitales reducit ad auras. Nam cum maximis agitata procellis Pharensium triremis portum, in quo, ignorantibus nostris eas ibi esse, parate ad pugnam septem Turcarum erant biremes, illapsa esset, insurgentibus in Pharenses nihil tale ueritos Turcis, tanto se animi uigore pugnandique pertinatia Pharenses tutati sunt, quod, protracta per octo horarum spatium pugna, uix pro quatuor biremibus sufficientes naute
+<milestone unit="page" n="107"/> 
+Turcarum superfuerunt. Postremo Turcis pugna detractantibus, nonnullis ex nostris desideratis caeterisque fere omnibus magnis confectis uulneribus, Pharenses clara potiti uictoria ad suos regressi sunt. Quamobrem Nicolaus Paladinus (quemadmodum nos ipsi uidimus) Senatus Veneti consulto militari honore togaque aurea ob suscepta uulnera pugnandique constantiam donatus, diuitiis et immunitatibus simul cum caeteris naualibus sotiis pro meritis auctus fuit. 
+    </p>
+               <p>
+Taceo filium eius Paulum, uirum utique, si ingenium, si eruditionem, si forme specimen inspicias, imperio dignum. 
+<note place="margin">Paulus Paladinus aprime eruditus.</note> 
+Qui post doctissimas de ueri sacerdotis offitio lucubrationes, ipsius patre febribus egrotante, cum triremi preesset, gesto apud Liburnum prope Pisas cum Genuensibus praelio sic amicos in spem erexit, quod nisi immatura mors eum e medio sustulisset, eternum sibi breui tempore (quemadmodum omnes opinabamur) strenuitate nomen fuisset assecutus. 
+    </p>
+               <p>
+Sed nec Andreae Bonini 
+<note place="margin">Andreas Boninus.</note> 
+naualiumque sociorum suae triremis, Turcis Calcidem obsidentibus, mors incruenta fuit, qui ad unum caesi, ingenti Turcarum strage peracta, magis uictores quam uicti periere. Quid dicam de Michaele Nicolino 
+<note place="margin">Michael Nicolinus.</note> 
+malente sub Lisio, Epyri oppido, cum omnibus suae triremis nautis Turcharum gladio mortis iura experiri quam in minima parte a prisca Pharensium strenuitate degenerare? Nec Iacobum Barbum 
+<note place="margin">Iacobus Barbus eques deauratus.</note> 
+ommittendum esse puto, qui laboranti Methone, oppido Achaie, sub quo olim (quemadmodum Sabellicus repetit) 
+<note place="margin">
+                     <bibl>Sab. aenea. IIII. lib. <num value="3">III</num>. <ref>(286)</ref>
+                     </bibl>
+                  </note> 
+Philippus, rex Macedoniae, altero lumine sagitta captus fuit, per mediam Turcharum classem <sic>remulcho</sic> illapsus, suppetiis allatis, capta urbe,
+<milestone unit="page" n="108"/> 
+quam cum suis diu constanti animo tutatus fuit, grauiter sauciatus Turcharum captiuus esse didicit. Magna deinde pecuniae summa a suis redemptus, ob praecipuam eius uirtutem a Venetis aequitis aurati insigniis sublimatus, magno in praecio usque ad ultimum uitae suae ab eisdem Venetis habitus est. Sed nec Petri Blasei, 
+<note place="margin">Petrus Blasius.</note> 
+consobrini mei, partam de piratis uictoriam tacebo. Cui ampla et ad pugnam oneraria sua naue apta Aphricum littus sulcanti (Angliam enim uersus tendebat) cum allatum esset tris Venetas rostratas naues a quodam pirata Hispano uastissimam habente nauim in Carthaginensi portu longa obsidione fatigari, ita iniquo tulit animo, ut postposita propriae salutis cura (febribus enim laborabat) neque hostium multitudinem (trecenti enim fuisse dicuntur) neque nauis aduerse notabilem supra suae nauis magnitudinem neque aeneorum tormentorum machinas, quibus hostes summopere polere ferebantur, uel tantillum ueritus extemplo piratas agrediendos iudicauerit. Nec mora, flante prospero uento, capescentibusque alacri corde praelium Pharensibus, protracta diu pugna, paucis e nostris desideratis, incensa hostium naue comprehensos piratas ad unum enecauit. Mira refferam, uobis tamen notissima. Tanto animi ardore a nostris pugnatum fuit, quod inter caeteros Andreas Stipichius 
+<note place="margin">Andreas Stipichius.</note> 
+spiculo balista excusso per medium pectus a laterae dextro (quemadmodum ego ipse cicatrices inspexi) transfixus non prius se uulneratum esse aduertit, quam direpta per socios nauales hostium naue arma deposuit. Accedit et Vittus Gazarus 
+<note place="margin">Vittus Gazarus.</note> 
+praeclarum inter confertissimos Turcarum 
+<milestone unit="page" n="109"/>  
+cuneos facinus in Marbegum, 
+<note place="margin">Marbegus.</note>
+cuius Sabellicus meminit, 
+<note place="margin">
+                     <bibl>Sab. aenea. X. lib. VII. <ref>(287)</ref>
+                     </bibl>
+                  </note>
+Fori Iullii depopulatorem, trino sibi prius inflicto uulnere, praecipiti in flumen saltu salutem suam quaerere compulsum. Qui innumera Turcarum multitudine in eum ruente memorans se Pharensem esse seuientis more leonis toruo tello, magna hostium caede, propriam mortem ultus inter aceruos a se trucidatorum expirauit. Enimuero (ut fama fuit), si mille in castris Venetorum Vitto similes uiri fuissent, minime tam faeda plaga Christianum nomen affectum, minime tot castra, tot pagi, tot uille conflagrate, minime innumerabilis multitudo hominum et pecudum fuisset abducta. Nec silentio praetereundum esse puto recentem octo ruralium ex Pharensibus nautarum prius cum mioparone, deinde cum duabus biremibus mioparoni uehementer laboranti suppetias ferentium circa littus Appulum atrocem pugnam, 
+<note place="margin">Atrox nauales praelium.</note>
+quando quidem aedita prius magna Turcarum caede (nam quadraginta desiderati, duplo plures Turcis ipsis <sic>refferentibus</sic> uulnerati fuere) nostri magis uictores quam uicti felices spiritus caelicolis reddiderunt. Vnus ex nostris inter pugnandum magnis uulneribus affectus in mare cadens, abducentibus eum e conspectu Turcarum undis, tota nocte, modico eum ligno sustolente, per freta agitatus ad insulam Diomedeam, 
+<note place="margin">Diomedea insula.</note>
+Diomedis monumento (ut Plinius inquit) 
+<note place="margin">
+                     <bibl>Pli. lib. <num value="3">III</num>. capitu. XXV. <ref>(288)</ref>
+                     </bibl>
+                  </note>
+    conspicuam, applicuit curaque religiosorum ibidem degentium <sic>refocilatus</sic> ad patriam incolumis reuersus est. Si cuncta uestrae generositatis, praesertim naualia opera recensere uoluero, tempus me deficiet, quia singulae fere, quibus multum <sic>poletis</sic>, naues plura praeclara facinora contra hostes ediderunt.<note place="margin">Pharenses nauibus <sic>polent</sic>.</note>
+    
+               </p>
+            </div> 
+            <div>
+               <p>
+Quapropter 
+<milestone unit="page" n="110"/>
+    receptui mihi canendum esse puto, ne longiori sermone humanitatem uestram plus iusto defatigem, hoc unum in calce sermonis uos obsecrans, ut unanimi corde Reipublicae communisque boni curam habentes nullo pacto generositatis maiorum uestrorum obliuiscamini, sed in omnibus, quae uobis agenda incumbunt, minus uitam ducite quam uirtutem.<note place="margin">Minus uita quam uirtus ducenda</note> Deus enim, qui superne cuncta inspicit, laborantibus uobis pro uirtute, quanto animus praestat corpori, tanto uirtutis apicem, quo animus ipse perficitur, magnis acquisitum difficultatibus, praecipuis in uobis extollet muneribus, ut, quemadmodum ob uirtutis amorem hostes animi, qui sunt cupiditates, uitia ac peccata, uiceritis proculque a uobis <sic>effugaueritis</sic>, sic, postquam anima a corporis societate liberabitur, aeterna faelicitate potiamini. Nostra enim beatitudo ibi est, ubi summum bonum, quod deus est, reperitur. <note place="margin">
+                     <bibl>Lactantius libro <num value="3">iii</num>. di. insti. <abbr>cap</abbr>. XII.<ref>(289)</ref>
+                     </bibl>
+                  </note> Hoc enim uno (sicuti Lactantius Firmianus dicit) beati in hac uita esse possumus, <note place="margin">Quo in hac uita beati esse possumus</note>  si minime beati esse uideamur, si fugientes illecebras uoluptatum solique  uirtuti seruientes in omnibus laboribus miseriisque uiuamus, quae sunt exercitia et corroboramenta uirtutum, si denique asperam illam uiamque difficilem teneamus, quae nobis ad beatitudinem patefacta est, ut, quam gloriam accepistis a maioribus, posteris reddatis. Dixi.</p>
+            </div>
+
+            <closer>Explicit oratio fratris Vincentii Priboeuii, Pharensis, Dalmatae, sacrae Theologiae professoris, ordinis praedicatorum, de origine successibusque Slauorum, in qua de Dalmatia et de Pharo actum est.</closer>
+
+
+
+
+         </div>
+        </body>
+        <back>
+            <div type="poesis-epigramma" met="elegiacum">
+                <milestone unit="page" n="111"/>
+                <head>Leonardi Ales Taurinensis Poetae Laureati Tetrasticon.</head>
+                <l>Illyricas gentes frater Vincentius, alter</l> 
+                <l>Liuius, et Phariae quos habet alta locos,</l>
+                <l>Quin etiam urbes Dalmatiae et genus acre uirorum</l> 
+               <l>Tam bene describit, quam bene scripta refert.</l>
+                
+                </div>
+                <div type="poesis-epigramma" met="elegiacum">
+                    <head>Ad F. Vin. Priboeuium Nicolai Dominei Arbensis carmen.</head>
+                <l>Letheo, tot gesta uirum, quae rore madebant,</l>
+                <l>Vincenti, chartis nota fuere tuis.</l> 
+                <l>Totque Liburnorum mediis erepta latebris</l>
+               <l>Nomina per gentes te duce fama uehit.</l> 
+                <l>Quaeque prius repebat humi, gens sydera calcat</l>
+                <l>Vindice te, o docti lingua diserta uiri.</l> 
+               <l>Macte animo, expectas pro tanto dona labore,</l>
+                <l>Qualia erunt magnis inuidiosa deis.</l>
+                
+                
+                    <closer>
+                        <foreign xml:lang="grc">Telos</foreign>
+                <milestone unit="page" n="112"/>
+                Registrum.
+                abcdefgh.
+                Omnes duerniones.
+                <dateline>
+                    <placeName>Venetiis</placeName> per Ioannem Antonium et fratres de Sabio. 
+                    <date when="1532-06">M D X X X I I. Mense Iunio.</date>
+               </dateline>
+            </closer>
+            </div>
+        </back>
+    </text>
+</TEI>

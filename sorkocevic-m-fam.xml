@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc xml:id="sorkocevic-m-fam">
+            <titleStmt>
+                <title>De illustribus familiis quae hodie Rhacusae exstant, versio electronica</title>
+                <author key="sorko02">
+                    <name xml:lang="hr">Sorkočević, Miho</name>
+                    <date>1739-1796</date>
+                </author>
+                <author key="#alienus">
+                    <name xml:lang="la">Malinius Sandecensis, Gasparus</name>
+                </author>
+                <author key="#alienus">
+               <name xml:lang="it">Asirelli, Pierfilippo</name>, Secretarius
+                    Florentinus, la Rocca di San Casciano.</author>
+                <author key="#alienus">
+                    <name xml:lang="it" type="viaf" ref="17382014">Fortis, Alberto</name>
+                </author>
+                <author key="#alienus">
+                    <persName xml:lang="it" type="viaf" ref="39470442">Marullo, Michelle</persName>
+                </author>
+                <editor key="sorko02">
+                    <name xml:lang="hr">Miho Sorkočević</name>
+                    <date>1739-1796</date>
+                </editor>
+                <respStmt>
+                    <resp>Editionem electronicam curavit</resp>
+                    <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Digitalizat izvornog izdanja (1790)
+                </edition>
+            </editionStmt>
+            <extent ana="C">Mg:C 121 versus, verborum 3295</extent>
+            <publicationStmt>
+                <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+                    Hrvatska.  <date>prosinca 2009</date>
+            </p>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <biblStruct>
+                    <monogr>
+                        
+                        <author>Didak Pir</author>
+                        <title>De illustribus familiis, quae hodie Rhacusae exstant. Elegia </title>
+                        <imprint>
+                            <pubPlace>Ragusii </pubPlace>
+                            <publisher>s. n.</publisher>
+                            <date>1790</date>
+                        </imprint>
+                    </monogr>
+                    <note>Reference: Koerbler. Život i rad Didaka Pira, pag. 5.</note>
+                    <idno type="other">Xb * Jurić. Scriptores</idno>
+                </biblStruct>
+         </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+                <date when="1790" period="17xx_3_third">1790</date>
+            </creation>
+         <textClass>
+                <keywords scheme="typus">
+                    <term>poesis</term>
+                    <term>paratextus prosaici</term>
+                </keywords>
+                <keywords scheme="aetas">
+                    <term>Litterae recentiores (1600-1850)</term>
+                    <term>Saeculum 18 (1701-1800)</term>
+                    <term>1751-1800</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>poesis - carmen</term>
+                    <term>poesis - elegia</term>
+                    <term>poesis - epigramma</term>
+                    <term>prosa oratio - tractatus</term>
+                    <term>prosa oratio - commentarius</term>
+                </keywords>
+            </textClass>
+      </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date when="2012-08-30">2012-08-30</date>
+                Izostavljeni tekstovi Didaka Pira; uputnica na njegovu datoteku.
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date when="2010-12-17">2010-12-17</date>
+                Premjestio elegiju Vetranoviću, Asirellija i Mallinija u glavno tijelo datoteke. Dotjerao imena autora (latinski prvo).
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date when="2009-12-30">2009-12-30</date>
+                TEI zaglavlje i formatiranje.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <milestone unit="page" n="35"/>
+        <body>
+            <div type="poesis-elegia" met="elegiacum">
+                <head>DE ILLUSTRIBUS FAMILIIS, QUAE RHACUSAE EXTANT AD AMPLISSIMUM SENATUM DIDACI
+                    PYRRHI. (****) ELEGIA.</head>
+
+                <ab>
+                    <ptr type="croala-datoteka" target="didacus-p-cato.xml"/>
+                </ab>
+
+
+            </div>
+            <div type="poesis-elegia" met="elegiacum" xml:id="dp-mv">
+                <head>Michaeli Mensio Senatori gravissimo et aerarii IV. viro in Mauri Vetrani
+                    Poetae Illyrici obitu.</head>
+                <ab>
+                    <ptr type="croala-datoteka" target="didacus-p-cato.xml"/>
+                </ab>
+            </div>
+            <div type="poesis-epigramma" xml:id="gaspmal-dp" met="elegiacum">
+                <head>Gaspari Malinii Sandecensis de laudibus Didaci Pyrrhi</head>
+                <l n="1">Quam sit amoena situ, quam splendida civibus amplis,</l>
+                <l n="2">Quamque potens armis, quamque Rhacusa toga;</l>
+                <l n="3">Egregio vates hic monstrat carmine Pyrrhus,</l>
+                <l n="4">Pyrrhus Apollineae gloria magna lyrae.</l>
+                <l n="5">Haec Veneto nuper vulgata encomia praelo,</l>
+                <l n="6">Natalis Craci nunc dat in urbe legi.</l>
+                <l n="7">Prima igitur Pyrrho debetur gratia, Thomae</l>
+                <l n="8">Altera, pars hinc est laudis utrique sua.</l>
+            </div>
+            <div type="poesis-epigramma" xml:id="asirel-rag" met="elegiacum">
+                <head>
+               <add resp="#NJ">Illustrissimis Dominis Ragusiae, Petrus Philippus Asirellus, 
+                    Secretarius Florentinus. 
+                    <abbr>S. P. D.</abbr>, <date>1578</date> 
+               </add>
+            </head>
+                <l n="1">Hic mare dat scopulos, salebrosaque litora circum,</l>
+                <l n="2">Urbsque sub immani libera monte jacet.</l>
+                <l n="3">Orbe suum toto pandit Rhacusia nomen,</l>
+                <l n="4">Integra quod nullo laesa pudore manet.</l>
+                <l n="5">Haec habet innumeras naves in gurgite vasto:</l>
+                <l n="6">Quaelibet huc auro pondus adaucta vehit.</l>
+                <l n="7">Et sibi quae tellus prohibet, Neptunus aquarum</l>
+                <l n="8">Arva dedit multo fertiliora Deus.</l>
+                
+                    <milestone unit="page" n="71"/>
+                <l n="9">Haec juvat externos dapibus conferta superbis,</l>
+                <l n="10">Aereque dat dignis munera digna suo.</l>
+                <l n="11">Moribus ac animo secum Florentia compar,</l>
+                <l n="12">Diligit ac civem civis amore pari.</l>
+                <l n="13">Vive memor doni Divum Rhacusia felix,</l>
+                <l n="14">Atque mei semper candida vive memor.</l>
+                
+            </div>
+                <div type="notes">
+                    <head>NOTAE, AC SUPPLEMENTA.</head>
+            <pb n="nts"/>
+                    <milestone unit="page" n="65"/>
+
+                <note xml:id="nxxxx" place="foot" target="refxxxx" resp="Author">(****) Didacus
+                    Pyrrhus, vel ut alii malunt Flavius Jacobus Lusitanus, Eborensis, humanitatis
+                    atque eloquentiae Rhacusae publicus professor; floruit Sec. XVI. Plurima ejus
+                    latina opera habentur impressa Venetiis an 1596 apud Felicem Valgrisium;
+                        <milestone unit="page" n="66"/> quaedam adhuc sunt inedita; ex omnibus
+                    aperte colligitur, quam eximius fuerit poeta: sed praecipue id apparet ex tribus
+                    elegiarum libris ad Dominicum Slataricchium Rhacusanum Patavinae scholae
+                    rectorem; hi nuper inventi sunt in aedibus Nobilium de Georgiis, quorum cura
+                    brevi in lucem prodibunt; sunt enim venustissimi, et germanum Tibulli stylum
+                    praeseferunt. Suavissimis moribus, et ad amicitiam comparandam aptissimis fuit;
+                    nihilominus acerbe in Lusitania fuit vexatus a saevissimis inquisitoribus
+                    illorum temporum Melio, et Parede, quorum meminit in quadam Elegia Rhacusae
+                    scripta. <quote>
+                        <l>Quidquid erit, manes descendam liber ad imos,</l>
+                        <l>Stet mihi libertas morte redempta mea;</l>
+                        <l>Dis invise Meli, et Melio mage saeve Paredes,</l>
+                        <l>Nil vobis in me jam modo juris erit.</l>
+                    </quote>
+                </note>
+
+                    <note xml:id="ng" place="foot" target="refg" resp="Author">(g) In quodam carmine Aelii Lampridii P. L. de patriae suae
+                        laudibus, poeta queritur de antiquis scriptoribus, quod pauca de Illyrica
+                        Epidauro tradiderint; deinde dicit Epidaurum eversam a Saracenis, postremo
+                        Rhacusanas patricias gentes enumerat. Id forsitan Didaco Pyrrho occasionem
+                        praebuit idem argumentum alio modo pertractandi. Aelii versus non sunt
+                        prorsus inelegantes, sed ut verum fatear omnis catalogus quamquam ad metros
+                        redigatur, praecipue si longus est, jure suo taedium ac satietatem
+                        lectoribus affert. Testis est ipsius Homeri navium enumeratio. En Aelii
+                        versus. <quote>
+                            <l>Atque adeo Proceres aliquos numerare juvabit,</l>
+                            <l>Quos cladi superesse libet, mihi crede, futuros</l>
+                            <l>Solamen tibi grande: tuo nam sanguine proles</l>
+                            <l>Gotia, Gondoleumque genus, Gradiique manebunt,</l>
+                            <l>Bonda, Benessa, Boni, Cervinorumque propago,</l>
+                            <l>Mentia progenies, Putei, clarique Georgi,</l>
+                            <l>Calisti, et Sorgi celebres, et Aranea proles,</l>
+                            <l>Et Zamana domus, Crucii, dictique Bobales,</l>
+                            <l>Buccinolum, Restique genus, Palmottaque; gensque</l>
+                            <l>Volcia, Luccarei, Lucae, Sarracha, Basellus,</l>
+
+                            <milestone unit="page" n="67"/>
+
+                            <l>Et Martinusia cum gente Cabusius, et vos</l>
+                            <l>Bucchia, Malasconae, Proculi, Binciola, Ghetalde,</l>
+                            <l>Et cum Theodosiis Prothanelli <abbr>etc.</abbr>
+                  </l>
+                        </quote>
+                    </note>
+
+                    <note xml:id="nh" place="foot" target="refh" resp="Author">(h) Epirum in tertio
+                        Europae sinu ponit Plinius et addit: omnis Graeciae fabulositas, sicut
+                        literarum claritas ex hoc primum sinu effulsit. Incipit autem Epirus a
+                        Celidno flumine, et definit in Acheloo, qui ab Achaja eam separat: Jonium
+                        mare ad meridiem; Macedoniae partem, et Pindum montem ad septemtriones
+                        habet. Populi jam in eo clari fuere Molossi Jovis Dodonaei oraculo
+                        nobilitati; Dryopes; Chaones; Thesprotii, quorum Buthrotum, Pyrrhi Regia;
+                        Cassiopaei; Acarnanes, quorum oppidum Ambracia, Aeacidarum Regia; unde
+                        Ambracius sinus, quo nihil in Epiro nobilius. Hinc Sorgorum gentem Rhacusam
+                        esse advectam, plurima et certa habentur indicia, quae inficiari absurdum
+                        est: sed Didacus Pyrrhus, dum eos duris temporibus adventasse dicit, causam
+                        etiam innuere videtur, ob quam adsciti in Patriciorum ordinem a prima et
+                        veteri origine esse dicuntur. Fama est enim, quum Rhacusa quondam
+                        incredibili ac repentina fame premeretur, humanitatis atque amicitiae
+                        stimulis permotos in urbem magnam frumenti copiam ex illa specie etiam, quae
+                        Holcus Sorgum dicitur onerariis navibus intulisse, idque viritim dispensasse
+                        nulla alia mercede sibi proposita, quam quae in virtute sita est; huic
+                        deinde accessit altera: nam Rhacusani nullos civitate nobilitateque donandos
+                        potius censuerunt, quam eos, qui cives nullo sibi emolumento proposito suis
+                        opibus insperato servaverant. Utinam quibus artibus civitatem nobilitatemque
+                        assecuti sunt, iisdem etiam perpetuo colant!</note>
+
+                    <note xml:id="ni" place="foot" target="refi" resp="Author">(i) Primum Cracoviae
+                        edita fuit haec Pyrrhi Elegia per Thomam Natalis anno 1582. deinde Venetiis
+                        per Felicem Valgrisium anno 1596. ad calcem ejus Carminum. Est et tertia
+                        editio ista prior item Veneta sub signo Leonis anno 1592. ubi haec Pyrrhi
+                        Elegia non legitur. Omnes hae editiones modo rarissimae sunt; verum
+                        Cracoviensi tantum praefixa fuit sequens Elegia <milestone unit="page" n="68"/> in obitum Mauri Vetrani, qui fuit Poetae amicissimus, et ipse
+                        insignis Poeta Illyricus, et mathematicus atque astronomus, prout illa
+                        tempora ferebant, non contemnendus. Sed est et alia causa, cur denuo hanc
+                        elegiam exhibeamus; argumentum enim non est quale ex ejus prima fronte
+                        videri possit, nam in ejus nobili ac vere poetico episodio de origine atque
+                        incrementis nostrae urbis potissimum Poeta agit, quod et illius primo, et
+                        huic nostro proposito optime congruit. 
+                        <ptr target="#dp-mv"/>
+                        Ne quid desit in hac nostra editione ex his, quae in Cracoviensi
+                        inveniuntur, perpauci laboris erit duo epigrammata addere unum Gaspari
+                        Malinii Sandecensis de laudibus Didaci Pyrrhi, alterum Phillipi Asirelli,
+                        qui fuit a secretis Legati cujusdam Florentinae Reip. ad Turcarum
+                        imperatorem, quique in eo itinere amico ac libenti animo commoratus apud nos
+                        est. 
+                        <ptr target="#gaspmal-dp"/>
+                        <ptr target="#asirel-rag"/>
+                        
+                         Non possum hic non indulgere
+                        genio, permotus etiam argumenti similitudine, ac recordatione potissimum
+                        hospitis mei quondam, atque amici suavissimi Alberti Fortis, cujus nomen pro
+                        perfecto elogio est: quae enim Europae pars adeo dissita, quae non in ejus
+                        laudes consentiat, quaeque illum non inter praeclara seculi ornamenta
+                        adnumeret? Italia, ac Patavium ejus patria praecipue hoc viro gloriantur,
+                        qui naturali philosophiae atque historiae, in qua eminet, elegantiam atque
+                        vim singularem orationis adjunxit; quoties vero ad metros et ad poesin
+                        animum applicuit, poeta inter eximios censeri debuit; ita ut de eo, quod in
+                        antiquissimo Mercurii hymno est, liceat affirmare. "Tibi datum est scire
+                        quodcumque vis". Hujus hic ego Epigramma de laudibus Rhacusae praeferendum
+                        censeo, graeca anthologia dignum, quamvis ille, ut ajebat, nullos latinos
+                        versus fecisset, ex quo scholis vale dixit. Operae pretium insuper puto
+                        adjicere ejusdem epigrammatis Italicam versionem ad metros eximie redactam
+                        ab altero veteri hospite, utrorumque amicissimo Julio Bajamontio Salonitano,
+                        cujus in incerto est, ingenium ne, an mores ad alliciendos omnium animos,
+                        admirationemque ei comparandam sint magis idonei? Praeter plurima, quae ipse
+                        scripsit, in queis vera philosophandi methodus in praecipuis medicinae,
+                        atque rei agrariae partibus perspicitur, edidit etiam data occasione versus
+                        elegantissimos, et nuper Boscovichianum Elogium primum apud nos, deinde
+                        Neapoli impressum, quod incredibile est quanta suavitate atque doctrina sit
+                        refertum. Sed cur ego istis, ad ejus laudem, alia etiam aeque vera non
+                        adjiciam? Musicae artis ipse est peritissimus, modorumque ejus artifex
+                        doctissimus; nihilo <milestone unit="page" n="72"/> tamen minus inter tot
+                        naturae, atque mentis bona, solus is esse videtur, qui proprii ingenii
+                        amplitudinem atque vim aut ignoret, aut certe non magni pendat. <quote>
+                            <floatingText>
+                                <body>
+                                    <head>AD RHACUSAM</head>
+                                    <l>Terrarum decus o quotquot maris alluit unda</l>
+                                    <l>Illyrici eximium, dia Rhacusa vale.</l>
+                                    <l>Abstrahit invitum vis me hinc fati aspera; at intra</l>
+                                    <l>Moenia sacra urbis cor manet atque anima;</l>
+                                    <l>Qua sanctae amtiquum referunt Lacedaemona leges,</l>
+                                    <l>Qua degunt charites Atticae, et ingenium.</l>
+                                    <l>O utinam amplexes reducem me olim; ac mea demum</l>
+                                    <l>Ossa tuo condas, libera terra, sinu!</l>
+                                </body>
+                            </floatingText> 
+                            <floatingText xml:lang="it">
+                                <body>
+                                    <head>TRADUZIONE.</head>
+                                    <l>Onor d' ogni altra terra, a cui s' arresta</l>
+                                    <l>Il mare Illirio, alma Ragusa, addio;</l>
+                                    <l>Da te mi svelle, oime, malgrado mio</l>
+                                    <l>Dell' avverso destin forza funesta.</l>
+                                    <l>Ma fra le sacre tue mura sen resta</l>
+                                    <l>Ogni mio giusto affetto, ogni desio,</l>
+                                    <l>Se per le sante leggi tue vegg' io</l>
+                                    <l>Che il cenere di Sparta in te si desta.</l>
+                                    <l>In mezzo alle tue Donne onesto regno</l>
+                                    <l>Poser le grazie, ed entro al tuo confine</l>
+                                    <l>Bel rifugio trovo l' Attico ingegno.</l>
+                                    <l>Deh concedano a me fausti gli Dei,</l>
+                                    <l>Che rivederti io possa, e ch' abbian fine</l>
+                                    <l>Nel tuo libero seno i giorni mei!</l>
+                                </body>
+                            </floatingText>
+                        </quote> Priusquam hujus collectanei operis terminum, cui jam proximus sum,
+                        pertingam; nam optimum consilium est paulum jejuno potius, quam nimis
+                        expleto stomacho recedere; ferculum adhuc unum apponam, quod delicatiori
+                        palato praeditis probari ut spero maxime debet. Quum enim nuper in
+                        bibliotheca domi antiquum quemdam codicem, quem Florentiae societas Colubris
+                            <milestone unit="page" n="73"/> impressit ann. 1497. ad manus haberem,
+                        in eoque, ut usus fuit illorum temporum, plurima in unum volumen
+                        coagmentare, praeter C. Val. Flacci Argonautica, M. Antonii ex Plutarcho
+                        vitam, et Nicolai Feretti Foroliviensis praecepta rhetorices, Hymnos etiam
+                        et Epigrammata Marulli invenissem, delectatione legendi captus in quartum
+                        hujus poetae librum incidi, in quo solemnis ejus hymnus habetur de laudibus
+                        Rhacusae, qui, ni fallor, vim spirat antiquorum Graeciae poetarum. Calor
+                        etiam in eo aperte dignoscitur, ille quidem, qui ex grato et beneficiis
+                        obstricto animo originem certe ducit; fuit enim Marullus post captam a
+                        Mahomete II Constantinopolim ann. 1453. una cum Joanne Lascari, Demetrio
+                        Calcondila, Emmanuele Marullo, Paulo Tarchaniota, et Theodoro Spandugino
+                        perhumaniter a Rhacusanis exceptus: hic illustrium virorum chorus antequam
+                        quicquam vellet a Senatu, domum, pecunias, et necessaria ad prosequendum
+                        iter in Italiam obtinuit: properabant enim ad magnificum illum Laurentium
+                        Medices, cujus fortuna et virtus universum pene orbem pervaserant. Sed ut ad
+                        propositum revertar, en hic de quo agitur Michaelis Tarchaniotae Marulli
+                        Constantinopolitani de laudibus Rhacusae 
+                        <quote>
+                            <floatingText>
+                                <body>
+                                    <head>HYMNUS.</head>
+                                    <lg>
+                                        <l>Rhacusa multis gens Epidauria,</l>
+                                        <l>Sicana pubes pluribus; at mihi,</l>
+                                        <l>Ut nomen incertum genusque,</l>
+                                        <l>Grande soli decus urbiumque,</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Quascunque longus subluit Adria,</l>
+                                        <l>Quo te merentem carmine prosequar</l>
+                                        <l>Non falsus, aut somno petita</l>
+                                        <l>Materia sine teste inani?</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Amica quondam dulcis, ubi puer</l>
+                                        <l>Primas querelas, et miseri exili</l>
+                                        <l>Lamenta, de tristi profudi</l>
+                                        <l>Pectore non inimicus hospes.</l>
+                                    </lg>
+                                    <milestone unit="page" n="74"/>
+                                    <lg>
+                                        <l>Hinc me locorum vis rapit aspera</l>
+                                        <l>Evicta cultu, saxaque mollibus</l>
+                                        <l>Servire Phaeacum viretis</l>
+                                        <l>Jussa virum docili labore;</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Et cuncta cressa vite nitentia,</l>
+                                        <l>Qua longa Sercus brachia porrigit</l>
+                                        <l>Objectus hibernis pruinis,</l>
+                                        <l>Et boream populis tuetur.</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Hinc tuta passim sponte deum freta:</l>
+                                        <l>Litusque fretum portubus, et bonis</l>
+                                        <l>Gens laeta convectis utroque</l>
+                                        <l>Limine flammiferentis astri.</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Hinc ipsa muro moenia duplici</l>
+                                        <l>Educta coelo; pars licet altera</l>
+                                        <l>Natura, et abrupti superbit</l>
+                                        <l>Rupibus aeriis profundi:</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Complexa portus mole Cyclopea,</l>
+                                        <l>Urbisque quantas divitias neque</l>
+                                        <l>Mater syracusae tulere,</l>
+                                        <l>Nec gemino mare dives Isthmos.</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Etsi ista (quamquam maxima, nec nisi</l>
+                                        <l>Concessa raris munere coelitum)</l>
+                                        <l>Virtutis et laudum tuarum </l>
+                                        <l>Vera loqui quota pars volenti!</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Quum morem et urbis saepe animo sacra</l>
+                                        <l>Tot jura mecum cogito, quum decus,</l>
+                                        <l>Pulchramque libertatem avorum</l>
+                                        <l>Perpetua serie retentam,</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Interque Turcas, et Venetum asperum,</l>
+                                        <l>Et inquietae regna Neapolis,</l>
+                                        <l>Vix qualis aetneo profundo</l>
+                                        <l>Unda freti natat aestuosi.</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Heu! quae suetum nec patitur jugum,</l>
+                                        <l>Nec, si carendum sit, ferat otium,</l>
+                                        <milestone unit="page" n="75"/>
+                                        <l>Incerta votorum, suisque</l>
+                                        <l>Exitio toties futura.</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Nam quae remotis usque adeo jacet</l>
+                                        <l>Gens ulla terris? quod mare tam procul</l>
+                                        <l>Ignotum acerbis Appulorum</l>
+                                        <l>Exiliis, Calabrumque cladi?</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Non his beati quaeritur artibus</l>
+                                        <l>Quies Honesti, non bona strenuae</l>
+                                        <l>Virtutis: et frugi parata</l>
+                                        <l>Regna domi, populique pace.</l>
+                                    </lg>
+                                    <lg>
+                                        <l>Sed haec silenti non patiens amor:</l>
+                                        <l>Tu vero captis artibus optima</l>
+                                        <l>Rem auge, decusque; et nationum,</l>
+                                        <l>Ut merita es, caput usque vive.</l>
+                                    </lg>
+                                </body>
+                            </floatingText>
+                        </quote> Quod hucusque diligenter attuli, haud prorsus inutile futurum huic
+                        parvi operis instituto putavi; utrum me mea haec fallat opinio, sincerum
+                        attenti lectoris judicium indicabit; sed si ille unquam procliviori animo ad
+                        favendum erit, prius velim intelligat, cui aliqua habenda sit gratia. Haec
+                        et habenda, et referenda a me est <abbr>Cl. V.</abbr> Georgio Ferrich concivi meo, a quo
+                        scire atque ediscere plurima potui ex iis praecipue, quae minus obvia, et ad
+                        lectoris mentem forsitan interdum alliciendam idonea reperirentur. Cur enim
+                        dissimulem bona, quae mihi ab hujus viri consuetudine promanant? Hic mentem
+                        lectissima eruditione instruit, hic animum molestissimis curis defatigatum
+                        ad leniora traducit; neque id suavitate tantum, quae ex ejus aptissimo
+                        sermone percipitur, sed et dulcedine atque concentu latini carminis, in quo
+                        maxime eminet. Quum enim ille se musis potissimum tradidisset, videntur hae
+                        Sacerdoti suo opportunis omnibus disciplinis instructo ad earum sacra
+                        recolenda intimos aditus reclusisse. Multis hoc, sed praecipue illis quidem
+                        patet (quod mihi interdum usu venire laetor) queis modestissimus Poeta
+                        confertas, ut ita dicam, e lectissimis Parnassi floribus corollas deferre,
+                        atque in sinum reponere gaudet. Sed brevi in <milestone unit="page" n="76"/>
+                        lucem prodibit meditatum, et ad unguem redactum ab eo opus, quod
+                        cumulatissime hoc meum de illo judicium omnibus, ut credo, comprobabit.
+                        Exegit enim poeticam versionem latinis metris omni eorum varietate ac
+                        suavitate adhibita, a pluribus adhuc tentatam, a nullo vere ad optatam metam
+                        perductam, nisi (ut puto) Italica lingua ab elegantissimo Xaverio Mattei;
+                        versionem inquam poetae illius divini, quo nemo neque antiquior, neque
+                        sublimior, et qui certe afflatus a numine videri omnibus, credi autem atque
+                        affirmari nonnisi a suis, atque a christianis debet, Davidem, ut patet,
+                        intelligo, cujus iste noster psalmos omnes sic reddidit, ut religiose
+                        servata idearum pene dicam identitate ac serie, indolem tamen illam latinae
+                        linguae, quae in veteribus poetis nos ad eorum admirationem rapit, admussim
+                        expresserit. Maximus est etiam antiquitatis patriae cultor atque amator, ad
+                        cujus historiam denuo condendam atque supplendam, a quocumque cui vires
+                        operi, ut ipse ait, suppeterent, quamplurima monumenta domi habet ex
+                        tabulariis atque arcanis autographis exscripta. Utinam istiusmodi votum
+                        suscipere velit, qui et implere cumulatissime posset familiaris meus,
+                        optimis disciplinis institutus, atque acri judicio praeditus, quem in
+                        incerto sum, plus ne in pretio habeam, an diligam, Patricius juvenis Junius
+                        de Resti: nullus enim eo ad historiam conscribendam aptior censeri debet, si
+                        praecipua historici dos est, ut ne quid falsum dicere audeat, neve quid
+                        verum non audeat. His accedit etiam, quod avus ejus vir egregius patriam
+                        historiam exorsus est, quodque illum qui avitas virtutes superavit, hanc
+                        saltem aequare par esset, atque in eodem curriculo versari. Sed ad Georgium
+                        Ferrich redeo, cujus solertia ac virtus in Illyrica lingua et poesi quoque
+                        enitent; in qua plurima specimina edidit, quae a nostris leguntur, quaeque
+                        illis in deliciis sunt. Fateor autem, quod pudet, me, qui haec praedico,
+                        aliorum potius, quam proprio judicio acquiescere debere; sero enim et summis
+                        labiis Illyricas literas attigi, alibi detentus, et in diversa, non ausim
+                        tamen potiora dicere, saepe <milestone unit="page" n="77"/> distractus.
+                        Desiit enim jamdudum apud nos studium hujus linguae nobilissimae,
+                        antiquissimae, et cujus Gesnero teste, usus est integris sexaginta
+                        nationibus, quaeque ideo quartam Europae, atque aliquam Asiae partem
+                        pervasit. Dum enim extera nimis curiose sectamur, nostra prave despicimus.
+                        Non in eodem pretio illam habuit Carolus IV, qui in illo diplomate, quod
+                        autem vocant, Romani Imperii Electoribus praescribit, ut septennes filios
+                        praeter Italicam, Latinamque, Illyricam linguam doceant; non majores nostri,
+                        apud quos seculo XIV, XV, et XVI praeclarissime viguit; tanta est autem
+                        illorum temporum seges, ut quamplurima volumina confici possent, si modo
+                        omnia heroica, drammatica, didascalica, et erotica, quae a plusquam triginta
+                        poetis habentur, quaeque adhuc inedita sunt, in ordinem redigerentur. Nec
+                        deessent, absit verbo invidia, qui cum Petrarcha, Tasso, Chiabrera, aliisque
+                        forsitan essent comparandi. Nostra vero dialectus, quae est una ex octo
+                        similibus, in quas Leibnitio teste, Illyrica lingua dispertitur, in primis
+                        elegans est et copiosa, itemque loquendi formulis ad grandem et magnificam
+                        orationem accomodatis abundans, neque nescio quid asperum atque hiulcum, ut
+                        finitimae, auribus saltem ineruditis, ut meae sunt, sonat. Multum autem
+                        locupletari poterit, et ad certissimam syntaxin Illyrica lingua adduci,
+                        postquam illius onomasticon, quod a Petropolitana academia jussu Catharinae
+                        II, quae nihil ad gloriam suae gentis atque ad immortalitatem sui nominis
+                        propagandam praetermittit, erit absolutum. Quidquid enim in eo genere
+                        habetur, mancum atque defficiens est. Sed nihil adeo utile foret ad
+                        Illyricam linguam a Dialectorum idiotismis atque anomaliis purgandam, et ad
+                        priscam veritatem severitatemque traducendam, quam canones syntetici a docto
+                        et philosopho viro statuendi ad normam illam, quae invariabilis atque
+                        antiquissima est IV seculi, quamque in libris qui lithurgia glagolitica
+                        appellantur, praecipue contineri certum est. Hanc vero ex sacris Bibliis
+                        versionem nostrae dialecto proximam, probabilibus conjecturis innixi
+                            <milestone unit="page" n="78"/> eruditi, doctori maximo, qui jam ex
+                        nostra gente est, Divo Hieronymo attribuunt. Est autem exarata literis
+                        Cyrillianis, quae, ut Critici illustres demonstrant, eaedem sunt ac Cadmeae,
+                        sive Phrygiae, sive veteres Graecae; unde Herculi Aegyptio juxta Ciceronem,
+                        aut multo magis antiquiori Atlanti, juxta Herodotum inventio referenda
+                        esset. Quis Scythicas omnes migrationes enumeret? Praecedunt hae omnia
+                        tempora, de quibus in historiis mentio aliqua fieri potest; illa enim
+                        vastissima regio quae Scythia dicitur, patria communis nationum dici potest,
+                        unde optime a Leibnitio vagina gentium fuit appellata. Quamplurima exinde,
+                        ut ipse ait, haud inficianda vestigia Scythicae linguae, idest Illyricae,
+                        quam et Ovidium inter Sarmatas et Getas exulem, didicisse novimus, adhuc
+                        impressa remanent in omnibus septentrionalium nationum linguis, atque in
+                        earumdem derivatis, neque in iis tantummodo, quae in usu modo sunt, verum
+                        etiam in illis, quae cum earum populis jamdiu esse desierunt. Ad ista
+                        potissimum quadrant, quae doctissimus Levesque, in sua recenti Russorum
+                        historia, ex instituta inter Latinam Aborigenum, atque Illyricam linguam
+                        analogia concludit; illa enim aptissima sunt, ad confirmandam luculenter
+                        hujuscemodi sententiam. Sed quidquid de eo sit, ad intermissa redeo. Ex quo
+                        a septentrionalibus populis, a Scandinavis scilicet, sive Slavis veteribus,
+                        qui haec loca quondam insederunt, Illyrica lingua ad nos fuit advecta,
+                        multas illa quidem varietates atque vicissitudines subire debuit, maxime ex
+                        plurimorum idiomatum informi coalitione. Huic necessitati, cui omnes linguas
+                        subjacere par est, postquam societates adolescunt, homines perspicaciori
+                        ingenio praediti succurrunt; observationis enim ope atque praesidio, omnes
+                        orationis partes definiunt, regulas quae sunt eis maxime consentaneae
+                        firmant, juxta quas in loquendo, sed praecipue in scribendo ipsi utuntur,
+                        aliisque omnibus ut iisdem, si placere volunt, se obstringant, auctores
+                        fiunt. Inde fit, ut vera loquendi atque scribendi ratio, nullibi exacte ea
+                        sit, qua vulgus utitur, verum ea quae regulis atque exemplis <milestone unit="page" n="79"/> placentibus munita, auctoritatem ex antiquitate
+                        etiam recepit. Sic Italica lingua, cujus bases potissimae sunt Latina, et
+                        illa Provincialis dicta, a Dante et ab aliis XIV seculi scriptoribus
+                        expolita atque perfecta, pulcherrimam tandem atque genuinam formam induit;
+                        quamquam in tota Italia nullus sane sit locus, ubi lingua aut Boccacii, aut
+                        Petrarchae in usu vulgari sit, et Florentini ob puritatem et elegantiam
+                        sermonis maxime laudentur, eo quod minus aliis ab illa politiori a paucis
+                        sancita, ab omnibus recepta lingua distant. Dialectorum ergo conditor est
+                        vulgus; linguae autem ejus, quae in deliciis cultioribus praecipue hominibus
+                        ejusdem gentis esse solet, conditores et habentur et merito sunt, qui
+                        praeclarissimis ingenii sui viribus freti scriptis immortalibus proditis,
+                        homines ad sui admirationem excitarunt; unde postea grammatici utile, sed
+                        aliquando permolestum ac perniciosum hominum genus, accuratissime regulas
+                        suas omnes traxere. Sed sicuti neque Neapolitani, nec Bononienses, neque
+                        Veneti elementa eorum dialecti, pro Italicae linguae elementis obtrudere
+                        cuiquam possent, sic neque nos, neque septem alii populi, qui, ut antea
+                        dictum est, peculiari Illyrica dialecto utuntur, satis auctoritatis aut
+                        virium habere possunt, ut ex propria dialecto universalis linguae canones
+                        condant, atque ex istiusmodi norma de regulari deque eleganti caeterorum
+                        dialectorum indole atque structura, sententiam suam ferant. Nihil ergo magis
+                        necessarium, quam novam Illyricam grammaticam conficere, ex IV seculi lingua
+                        nullis idiotismis deformata deductam, quaeque unice in glagolitica liturgia
+                        asservatur. Hanc omnes linguae amatores haud falsis praeoccupati opinionibus
+                        exoptant; haec sola ad consonantiam revocare discordem syntaxin valeret;
+                        haec innixa invariabili, qui in Ecclesiis custoditur, textu, quemque, ut
+                        credere par est, D. Hieronymus ex germana illa atque antiqua Illyrica lingua
+                        perfecit, robur veritatem auctoritatemque eidem linguae, cui modo nulla est,
+                        apud omnes in posterum necessario conciliaret. Sperandum est itaque, quod
+                        literis atque scientiis in Petropolitana <milestone unit="page" n="80"/>
+                        urbe cum gloria gentis magis usque gliscentibus, aliquis tandem huic rei
+                        operam navare velit, quod eruditum aeque ac philosophum virum desiderat. Hac
+                        non vulgari conditione apprime praeditus fuit doctis aeque ac bonis
+                        desiderandus Matthaeus Sovich Archidiaconus Arbensis, qui Slavam grammaticam
+                        Meletii Smotriski, quae ad desideratam aliquantisper accedit, in meliorem
+                        formam redegerat, additis etiam observationibus doctissimis: onomasticon
+                        Slavum quoque meditabatur, quod perfecisset, nisi injustis adversitatibus
+                        praepeditus morte demum fuisset praeventus. Hic plurima operis sui pretiosa
+                        monumenta reliquit, quae ut humanae res sunt haud miror latere, si adhuc
+                        forsitan existunt. Fuit nuper et alius vir Clemens de Comitibus Grubiscich,
+                        qui non illotis, ut ajunt, manibus ad haec sacra tractanda accessisset, et
+                        cujus habetur insignis disquisitio in originem et historiam alphabeti
+                        Slavonici glagolitici vulgo Hieronymiani Venetiis apud Pasquali impressa
+                        anno 1766. Sed quum nulla sint studiis praemia proposita, nullae pene
+                        laudes, nisi quae ab ignotis et toto, ut ita dicam, orbe divisis sperari
+                        possunt, ardor ille se totum quibusdam studiis dedendi aut nunquam
+                        excitatur, aut citissime extinguitur. Hinc fit, ut plurima perpetuo
+                        desiderentur, paucissima semper fiant. Haec sunt quae de Illyrica lingua, de
+                        qua potissimum Patricius ordo apud Rhacusanos optime promeruit, habui
+                        dicere, quae si nimis longa videtur, imperitiae; si brevia, brevitati hujus
+                        operis attribuantur.</note>
+                </div>
+            
+        </body>            
+   </text>
+</TEI>

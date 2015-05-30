@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="nn-laus-spal">
+            <titleStmt>
+                    <title>In laudem Spalati, versio electronica</title>
+                <author key="#anonymus">
+                    <name xml:lang="la">Anonymus</name>
+                        <date notAfter="1600">c. 1600</date>
+                    </author>
+                <respStmt>
+                    <resp>Hanc editionem electronicam curavit</resp>
+                    <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+                </respStmt>
+                <editor>
+                    <name>Bratislav Lučin</name>
+                </editor>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Prema kasnijem znanstvenom izdanju (2005).
+                </edition>
+            </editionStmt>
+            <extent ana="A">Mg:A 54 verborum, 8 versus</extent>
+            <publicationStmt>
+                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+                    Hrvatska.  <date when="2010-01">siječnja 2010</date>.</p>
+            </publicationStmt>
+            
+            <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            
+               <bibl>
+                  <editor>Bratislav Lučin</editor>, Marulićev opis Splita, <pubPlace>Split</pubPlace>: <publisher>Književni krug</publisher>, 2005.</bibl>
+                <bibl>Splitska pjesmarica Trogirskoga kaptola, f. 1v</bibl>
+         </sourceDesc>
+            
+        </fileDesc>
+        <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+                <date when="1600" precision="medium" period="15xx_3_third">c. 1600.</date>
+            </creation>
+         <textClass>
+                <keywords scheme="typus">
+                    <term>poesis</term>
+                </keywords>
+                <keywords scheme="aetas">
+                    <term>Litterae renatae (1400-1600)</term>
+                    <term>Saeculum 16 (1501-1600)</term>
+                    <term>1551-1600</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>poesis - elegia</term>
+                </keywords>
+            </textClass>
+      </profileDesc>
+        
+        <revisionDesc>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <name>Luka Špoljarić</name>
+                <date>2012-07-22</date>
+                Novo, unificirano zaglavlje.
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2010-01-02</date>
+                Početno TEI označavanje.
+            </change>
+        </revisionDesc>
+        
+    </teiHeader>
+    <text>
+                <body>
+                        <div type="poesis-elegia" met="elegiacum">
+                                <head>In laudem Spalati</head>
+                                <l>Si qua manent ueterum non diruta męnia regum,</l>
+                                <l>Dant primum Spalato nobilitate locum.</l>
+                                <l>Nobilis hic locus est, ubi sponte Dioclitianum</l>
+                                <l>Deposito imperio consenuisse patet.</l>
+                                <l>Cęsaris Augusti tanto cognomine dignus</l>
+                                <l>Et mundi domitor facta per alta fuit.</l>
+                                <l>Hic tria templa iacent magnis miranda columnis</l>
+                                <l>Et turres circum sidera celsa petunt.</l>
+                                <gap reason="opus imperfectum"/>
+                                
+                        </div>
+                        
+
+                </body>
+  </text>
+</TEI>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="gondol-fl-bapt">
+            <titleStmt>
+                <title>Baptistinus, versio electronica</title>
+                <author key="gundul01">
+                    <name xml:lang="hr">Gundulić, Fran Lucijan</name>
+                    <date>1451/2-1505</date>
+                </author>
+                <author key="crije02">
+                    <name xml:lang="hr">Crijević, Ilija</name>
+                    <date>1463-1520</date>
+                </author>
+                <editor>
+               <name>Dora Ivanišević</name>
+            </editor>
+                <editor>
+               <name>Petra Šoštarić</name>
+            </editor>
+                <respStmt>
+                    <resp>Hanc editionem electronicam curavit</resp>
+                    <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2006-05-11T12:59:00</date>
+                </edition>
+            </editionStmt>
+            <extent ana="C">Mg:C 13 versus, verborum 3401</extent>
+            <publicationStmt>
+                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+                    Hrvatska.  <date>lipnja 2006</date>
+            </p>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>
+                    Gundulić, Fran Lucijan
+                    Baptistinus = Battistino; priredile i prevele Dora Ivanišević i Petra Šoštarić
+                    Latina et Graeca
+                    glavni urednik Zlatko Šešelj
+                    
+                    N.s. (2006), 10 ; 
+                    str. 99-133
+                    
+                    <note>Napomene:	
+                        <bibl>Str. 99-102: Baptistinus Frana Lucijana Gundulića / D. Ivanišević i P. Šoštarić</bibl>. Tekst usporedo na lat. i hrv. jeziku.</note>
+                    
+                </bibl>
+         </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+                <date when="1490" period="14xx_3_third">1490-1500</date>
+                <placeName>Dubrovnik</placeName>
+            </creation>
+         <textClass>
+                <keywords scheme="typus">
+                    <term>prosa</term>
+                    <term>poesis - paratextus poetici</term>
+                </keywords>
+                <keywords scheme="aetas">
+                    <term>Litterae renatae (1400-1600)</term>
+                    <term>Saeculum 15 (1401-1500)</term>
+                    <term>1451-1500</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>prosa oratio - novella</term>
+                    <term>poesis - epigramma</term>
+                </keywords>
+            </textClass>
+      </profileDesc>
+        <revisionDesc>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <name>Luka Špoljarić</name>
+                <date>2012-02-19</date>
+                Novo, unificirano zaglavlje.
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2012-01-03</date>
+                TEI zaglavlje. Tipovi tekstova itd.
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2009-06-25</date>
+                Ostavio samo latinski tekst.
+                Raščlanio paratekstove (uključujući i drugo završno pisamce).
+                Promijenio tipove div: žanrovski.
+                U adresama naznačene abbr, u pismima zaglavlja i pozdravi.
+                Naznačen Crijević kao autor paratekstova.
+            </change>
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2008-10-11</date>
+                Uvod, latinski i hrvatski svaki su poseban tekst.
+                Jedna ispravka u tekstu (clarissimus)
+                Bilješke (note) i dodani milestone elementi (ali ne na pravim mjestima).
+                Dodani bibliografski podaci i podaci o vremenu autora i djela.
+                Bibl označeno u uvodnoj studiji i komentaru.
+                Referencije u bilješkama označene s quote.
+            </change>
+            
+            <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <date>2008-08-27T00:50:28</date>
+            </change>
+        </revisionDesc>
+    </teiHeader>
+
+    <text>
+        <front>
+
+
+            <milestone unit="page"/>
+            <div type="prosa-praefatio">
+                <head>Francisci Luciani Gondolae praefatio in ridiclae fraudis historiam tituli
+                    Baptistinus Nebulonis cuiusdam: qui sub fregosi illustrissimi Baptistini nomine
+                    non nullis ellusis imposuit.</head>
+
+                <div type="prosa-epistula">
+                    <salute>Francischus Lucianus Gondola Claro uiro Marino <abbr>Iu.</abbr> Gradeo.
+                        <abbr>S.</abbr>
+               </salute>
+                <p> CVM Ex recenti iam dolore me curae acrius urgerent: Quo me conferem potius: ubi
+                    delinimenta merori salubria meo quaererem: quam ad haec litterarum studia
+                    diligentius a me olim culta: nunc intermissa. Plurimum namque ad cogitationem a
+                    tristibus diuertendam rationi uiris obtemperantibus uoluptas non quae a corporis
+                    sensibus: sed quae sub animi prouenit bonis conferre doctioribus uidetur. ueluti
+                    ex caste philosophorum doctrinae assidua lectione: aut lepidi nonnumquam facti
+                        <milestone unit="page"/> alicuius refocilationis gratia litteris mandandi
+                    explicatione. Quare oportune diebus elapsis haud inepte se mihi fraudis obtulit
+                    facinus Nebulonis istius. Qui nouo quibusdam commenti genere elusis: pecuniarum
+                    supellectilisue non nihil abstulit. cuius describendi dum auocare a malis mentem
+                    cupio prouintiam suscepi: ac ea de re tandem opusculum hoc rei gestae accomodato
+                    pro uiribus genere dicendi absolutum: ad quem potius destinandum erat? quam ad
+                    te litteratum et grauem uirum: itidemque festiui rate sermonis ob iugem pene
+                    aegrotationem saepius egentem. cui si forte placuerit tum delectationem poterit
+                    affere: cum agnoueris te nugatorum cum dispendio urbis fautoribus nunquam
+                    consensisse: tum accerrimum ex crebra tua podagra cruciatum murmure haud ingrato
+                    lenire. Non enim litterarum studia (ut expertus ipse es) corporis segnius quam
+                    animi dolorem mitigant: cum rationi et menti ab utroque pariter oppugnatae
+                    subsidium praebeant. </p>
+                <milestone unit="page"/>
+                <p> Haec igitur qualiacumque erunt si quando ocium tibi dabitur aequo animo perlege:
+                    nec narrationem hanc rudem forte ac ieiunam: sed magis rem ipsam perpendito
+                    examinatoque. Nam fabulae nulli comicae quae ad insidias cauendas hominum uitam
+                    instruit iam censebis inferiorem: et quibus aegrum ipse animum rebus leuo: tu
+                    quandoque languentem excita. </p>
+                <closer>Vale.</closer>
+            </div>
+                <milestone unit="page"/>
+            </div>
+        </front>
+        <body>
+            <div type="prosa-novella">
+                <head>Eiusdem francisci. <abbr>L. Gond.</abbr> Baptistinus incipit. </head>
+                <p> [V]IR quidam nostris hominibus prorsus ignotus mortalium redemptionis anno
+                    octuagesimo nono supra milesimum quadringentesimum mense septembri cum
+                    mercatoribus quibusdam ferentanorum e nundinis redeuntibus Ragusium uenit:
+                    caterua famulorum comitante: non propriis sed magistratuum inter se nominibus
+                    apellantium: uili ac trista ueste indutus: ita ut alieno opertus palio urbem
+                    ingrederetur. Qui cum impedimentis piceno iam in agro sibi ab aduersariorum
+                    militibus ereptis per nemora montesue iter fecisse simulasset: Regem partenopes
+                    sibi infensissimum expauescens clam noctuque nauem conscenderat. Ubi
+                    familiaritate cum nostris inita: Petrum quendam Milatum creduliorem ex omnibus
+                    nactus: eoque prius ne cui suae commissa fidei proderet uehementer adiurato:
+                    uirum se principem non mediocris fortunae: nec tamen aperte quem esse mentitus
+                    eidem indicauit: spe frustratum cum <milestone unit="page"/> ducem quemdam
+                    strenuissimum praeclarissimumque sibi affinitate coniunctum esset haud leue ob
+                    negocium conueniendi causa in pelignis profectus: cuius cum funeri occurrisset
+                    merore maximo percitus: ac desperatione pene ductus: huc se tanquam propinquiori
+                    loco tutiorique conferre interim statuisse: quo classem galorum sui causa
+                    dominatus repetendi uere nouo exeuntem opperiret. </p>
+                <p>Quae uerba Petro animum diuitias per compendia querere (ut in adulterato prius
+                    argento indicauerat) properanti labefactauere: fortunaque in huiuscemodi uirum
+                    fauente credens incidisse: negociatione omissa Francisci cuiusdam qui cum eo
+                    uenerat licet consanguinei fraudum tamen ut quidam ex perspectis signis iam tum
+                    suspicauere conscii suasu hospitio ueteratorem cum omni famulatu suscepit: qui
+                    explorata illico diligenter urbis conditione: non nullos Ianuenses incolas
+                    maechanicos audiens: ad se uocauit: eisque notiora ante aliqua interogando
+                    calidae tentatis: quis esset: resque suas patefacere in oculto uelle simulans
+                    suis quasi ciuibus confidens: dixit se Baptistinum perini illius campi fregosi
+                    principis clarissimi esse filium: qui dominus olim patri succedens ianuae
+                    quattuor annis praefuisset. Aduentusque sui eandem causam quam petro dudum
+                    exposuerat pretexens cuncta que dux idem gessisset iactabundus enarrauit: quae
+                    ipsi quoque haud obliti patriae pleraque scirent: eique dediti post discessum
+                    inuestigassent. Omnia enim (ut postea compertum est) gesta Baptistini secretaque
+                    eo quod ex militibus eius fuisset familiarissimus nouerat. </p>
+                <milestone unit="page"/>
+                <p> Quae res tantam eis credulitatem induxit ut uafris appositisque: ipsius uerbis
+                    allucinati nihil que postulasset ei negarent. His itaque testibus confissus
+                    necnon et aliis insuper falaciis arte sinonia machinatis: quibus ad credendi
+                    pertinatiam ipsorum quoque animos testium impulit: ad uniuersam ciuitatem dolis
+                    circumueniendam accingitur. Non nulli enim ex sociis ministrisque facinoris quos
+                    ipse iam disposuerat iisdem fere diebus non eodem nauigio: nec ad eadem negocia
+                    transire ac insperato eum uidere simulantes: agnitum extemplo maxima ueneratione
+                    prosequuti sunt: et nacta occasione litteras ei commenticias illustribus cum
+                    titulis redidere: interrogati quoque de eius terestri maritimoque apparatu multa
+                    uerbis ipsius consentanea retulere. Cum igitur urbis preses ipsum una cum
+                    senatoribus suis: quis esset quoue pergeret accersitum percunctasset : audacter
+                    ea omnia quae amicis secreto prius dixerat eis perfessus est: rogatis nihilo
+                    minus ut iuramento inter se astringerent maximum ueluti archanum quod
+                    indicauerat extra ne cui tamquam cereris deae misteria manifestetur. Quam ob rem
+                    hisce plerique argumentis persuasi: fidem eius uerbis adhibuere: reliqui uero
+                    nullum inde rem publicam detrimentum contrahi posse existimantes: irridendo
+                    duntaxat qui nebulonibus huiuscemodi crederent neglexere. Sed annis ac dignitate
+                    uir excelens Bartolus gotius officio sane obstrictus ex non mediocri beneficio
+                    olim ab eiusdem Baptistini patre cum iannuae negociaretur accepto: uicis
+                    reddendae gratia summo eum in honore habuit: domique sepius uisit: atque
+                    increbrescente murmure male opinantis populi eo quod ignobilium familiaritate
+                    gauderet: admitteretque postea et tibicines: ac cum quibuscumque ipse profugus
+                    et domi et extra pranderet Lacromam (quae insula cum celebri monachorum coenobio
+                    mille circiter passus e regione urbis est) animi cum relaxandi gratia duxit.
+                    abbati obiter quod is quoque ianuensis esset ostensurus: dixerat enim inspectum
+                    semel agnoscere posse: quod in patria negociorum causa monasterii ducem fuerat
+                    identidem allocutus quem cum uidisset uerbaque cum eo nonnulla contulisset non
+                    facie admodum considerata quam decimo tandem anno post uisam mutari aliquantum
+                    posse ratus: sed ex rebus quae pridem audiuerat ab eo perceptis: crumenaque
+                    graui ac obsignata oculte sibi tradita leticia mirum immodum correptus ueluti
+                    plane agnouisset magnifico apparatu eum quique cum eo erant accepit (dederat
+                    enim scelestus nugator Abbati incauto ac nil tale suspicanti plumbeis folem
+                    numis plenum suum tanquam securitatis gratia thesaurum depositurus) quod
+                    pertinatiam, familiaribus eius incussit murmurque caeterorum suppressit:
+                    ambiguosque homines ac petri milati tanquam <milestone unit="page"/> Delphici ei
+                    responsa ferentis reditum celerem sospitis optantes reddidit quem fraudis ille
+                    machinator adueniens hospitalitatis ueluti gratiam relaturus magnificis
+                    policitationibus circumuentum constatinopolim cum litteris miserat cumque stipis
+                    argenteae porciuncula quadam nouae quam pro archano cum his signo qui sua
+                    administrarent negocia habere dicebat: a quibus triginta quinque aureorum milia
+                    eidem quam primum exigere: cauteque ac omni sublata mora secum affere
+                    mandauerat: ut adsint tum classi tum amicis in tempore: dato quoque ex famulis
+                    ei uno quem ipse pro comite ellegisset: accipiens ab eodem petro in discessu
+                    quicquid seu domi seu in taberna lanaria praecipuum rerum suarum alienarumue
+                    habuisset: uti superfluum cum nulla tenus se passurum eum fore posthac lanificem
+                    policitus esset. </p>
+                <milestone unit="page"/>
+                <p> Videns igitur plerisque se baptistinum esse persuasum: uerbisque suis quam
+                    sperasset fortasse maiorem fidem adhiberi cepit hospitio iam mutato rebus
+                    necessariis domus paratis ad cultum quoque atque ornatum supelectilem hinc inde
+                    accomodando ellegantiorem uitam ducere lautiusque nullo sumptui parcendo amicos
+                    ad se uenientes accipere ac extra domum urbemque inuitatus. non nunquam etiam
+                    ultro se offerens amicorum caenis interesse: ita ut quod prius maxime uidebatur
+                    horere si cui notus fieret: ne uenenum cibi calabrorum ducis opera misceatur:
+                    uisue aliqua inferatur timere simulans: tum magnopere gaudere suas res palam
+                    omnibus esse: famulosque ac se quotidie nouis sericeisque uestibus <milestone unit="page"/> ornare omnia nomine suo quae poterat accipere: pecuniam a
+                    quocumque sibi dedito mutuari: solutionem demum in reditu petri omnibus
+                    promittere: querere etiam si datam quis hic pecuniam Bizancio cum decem in
+                    centum et amplius emolumenti reddi sibi uellet. Feruntque nonnulli rectoribus
+                    urbis obtulisse omnem se pecuniam census Bizancio cui iuberent numerare posse si
+                    discriminis uitandi causa numeratam prius exoluere sibi hic aere eorum ducerent:
+                    et hoc fortasse uerbis ut his magnificis fidem <milestone unit="page"/>
+                    fraudibus suis acquireret. quas res nonulli diligentius examinantes amicos si
+                    qui eius familiaritate intemperantius uteretur admonebant: ut quicquam rerum
+                    suarum caueant ei fidere suaque tueantur. ac si quid per imprudentiam dedissent
+                    commodassentue quam primum exigant: nec si opus esset magistratus auxilium ad
+                    sua repetenda implorare erubescant: quae sane monita contemnentes irritati
+                    asperius quam par est amicis succensebant: existimantes magnae huic faelicique
+                    ipsorum amiciciae inuideri: afferebant enim uehementer angi se non posse ei que
+                    uellent impendere: ac si quid dedissent satis eis compertum esse bene ac tuto
+                    collocasse. Quare omnibus qui hospitii eius sodalitate fruerentur eundem animum
+                    esse mirum erat caeteris: cum praesertim ipsius ex uita moribusque tot <sic>fradum</sic>
+                    argumenta deprehenderentur: ut quidam non dubitarent affirmare magici ferculi
+                    aut carminum ui dementia eis incussa nihil facere aliud cogitareue potuisse quam
+                    quae ipse uellet: Haud etiam si iuberet solea illis pasari nates forte
+                    recusaturos tantae erant tenebrae eorum mentibus obortae: <milestone unit="page"/> tribus nanque mensibus mora tracta cum iam nonnullos exhasisset: nec qui
+                    darent alios inuenirent haud longe abesse petri milati nauiumue ex piceno
+                    reditum animaduertens: per quas quoque uerebatur ne doli et fraudes Rauenae
+                    postremo uolaterisque perpetratae innotescerent (omnia enim quae aduersari uoto
+                    suo possent sine intermissione per suos inquirenda curabat) selectos ex amicis
+                    eos qui liberalius secum egissent: credulioresque cognouisset ad caenam uocauit:
+                    ibique suo accersito dispensatore: ceteris uero famulis remotis mentem simulans
+                    quam erga eos haberet: uelle patefacere dixit se per dies aliquot quoad petrus
+                    reuertatur decreuisse quas sibi calabrorum dux pararet insidias supositiciis
+                        <milestone unit="page"/> litteris ostensis uitandi si posset causa discedere
+                    (litteras enim ducis ad nostrum quendam ciuem dispensator idem adulterauerat.
+                    Cum scripta queque immutari expresse noscet) sed si petrus forsitan cum pecuniis
+                    interim superuenerit ne quis amicorum eius absentia molestiam incurat ullam.
+                    Scribere fecit eos se uicarios constituere: quibus tanquam sibimet credantur
+                    omnia. Cumque res suas susceperint soluant primum quicquid uictus uestitusque in
+                    usum nomine ipsorum accepisset. Tum petri milato aureorum milia quatuor numerent
+                    quibus aes alienum disoluat: negotiaque sua melius disponat. andreae uero
+                    bracteae inauratae fabri duabus natis mile aurei singulis dotis nomine sunto:
+                    Tantundem et petri ioanis <milestone unit="page"/> tingendi magistri natis esto
+                    (ambo et enim ianuenses reliqorumque sodalium plerique sunt). Marci autem
+                    regiensis Ragusinae rei publicae cancellarii eo quod sit uir egregius nec cum
+                    plebe reputandus duabus pariter singulis mille quingenti largiantur. Tibicinibus
+                    uero: ac triremium gubernatori: ioannique rato sericei pani textori: et Damiano
+                    cathapultario: Antonioque sutori donatis prius menstrua stipendia decernantur
+                    donec ianuae Dux iterum restitutus munera eis magistratusque et pro urbis
+                    dignitate et pro eorum uirtutibus impartiatur. Hos enim et quorum familiaritate
+                    uteretur praeter caeteros et quos expilare posset inuenerat. siue ab ipsis
+                    pecuniam quotidie supelectilemque mutuando. seu cuilibet a quo quicquam
+                    acceperat eos fidei ussione obstringendo. ad hunc fere modum rebus compositis
+                    eadem nocte clandestinus lintrem quendam corcurrensium qui ligna pro fornacibus
+                    aduexerat cum meretrice quadam et pusione ac plerisque famulis conscendens:
+                    Petrumque ioannem secum pro interprete ducens: atque non pecunias modo dolo malo
+                    extortas: uerum etiam uestimenta omnia ac potiorem supellectilem auferens
+                    corcurram profectus est tanta festinatione ut lembum conscendenti suppellectilis
+                    uestiumque fascis accelerando in mare allapsus madefieret. Postquam igitur de
+                    eius discessu rescitum est omnes qui aulearia culcitras linteamia uasa: aliaue
+                    domus ornamenta <milestone unit="page"/> ab amicis rogati commodauerant agmine
+                    facto sua quisque repetendo domum ueluti expugnatam diripuere. lanii quoque
+                    caupones ac cerdones dispensatore in ius rapto ad ea quae familiae causa ab eis
+                    in dies acceperat. frustra ut petri milati reditum expectarent rogantem
+                    exoluenda compulere: caeteris ex fraudum (ut reor) consciis: qui consulto
+                    remanserant famulis haud reluctantibus: sed si quis de domino inquireret
+                    respondentibus eius se stipendiarios esse quocumque duceret secuturos:
+                    imperataque ut fidos decet executuros: <milestone unit="page"/> consilia autem
+                    ipsius penitus ignorare: Eo amplius nostris qui stolida spe semel concepta omnia
+                    haec boni consulebant indignantibus totaque de ciuitate expostulantibus: quod in
+                    ea tanta illustribus uiris iniuria fieret: nec nauigiis prospiceretur nostris
+                    que ob huiuscemodi res indignas ab eius classe capi abducique possent:
+                    prouocando etiam si quibus saecus de eo ac ipsis uideretur deponendi aliquid
+                    placeret alea: ut is ab eo decidat cuius sententia frustaretur. <milestone unit="page"/> Inuentus quoque est quidam e nobilibus satis se in eius gratia
+                    auccupanda uersutum existimans: qui petri milati creditori relaxata sibi de tota
+                    summa non magna parte pro eo se uadem constituit. Nec tamen idem re perpacta cum
+                    non nullis aliis tota re clamante ciuitate suspitione exorta suffere potuit quin
+                    corcurram uisendi eum: resque ipsius inuestigandi causa diligentius
+                    proficisceretur: presertim quod petrum milatum redisse nuntiatum interim fuerat:
+                        <milestone unit="page"/> cumque nihil attulisset Ragusium eum propter
+                    creditores uenire non ausisse: sed corcurram recta dominum conueniendi causa
+                    quod ibi morant enim stagni audiuerat petiisse. Quo conuenientes cum hospitio
+                    ibi in episcopi atrio honorifice susceptum inuenisset: reuertentiam illi
+                    ampliorem solito exibuere: ne rumori quem de se suscitari ipse quoque audierat:
+                    aegresque se ferre saepius ostenderat credentes de spe decidisse uiderentur. Nec
+                    ullus eorum est ausus de <milestone unit="page"/> rebus suis quid esset eum
+                    interrogare. Sed quae a petro didicerant domum postea reuersi pleno ore per
+                    compita praedicabant. Petrum milatum quo esset missus ignorasse: famulo quippe
+                    quem secum duxerat se famulum potius fuisse. Is namque ullo de rebus domini
+                    sermone cum petro in itinere habito constantinopolim ueniens ad imperatoris
+                    aulam ut duceretur confestim petiit: cumque ibi coram secum imperatore loqui
+                    uelle flagitando non impetrasset litteras domini ad eum satrapis obtulit: quibus
+                    perlectis petrum famuli ueluti interpretem quis esset <milestone unit="page"/>
+                    interogauere: a quo demum Ragusinum se profitente urbis ne eum rectores
+                    misissent: dominumue an istum noscet quesiere: quae cum negasset. nihil amplius
+                    inquirentes imperatoris litteras ad nebulonem: ipsi quoque de eo forte
+                    ambigentes cum duobus circiter milibus asprium pecuniae illorum famulo dederunt:
+                    quibus acceptis petrum ut quam primum reuerterentur hortatus est: eique se
+                    domini rerum administratores prius conuenire uelle arguenti pecunias uti quas
+                    per litteras sibi dandas illis significasset accipiat: ait istis nihil opus esse
+                    eo quod negocium maius executi forent: nec expectandi eos quando nundum
+                    aduenisset tempus esse. Cum igitur interim petrus a multis eorum qui in litteris
+                    erant nomina quaesisset: <milestone unit="page"/> quiue eum instruere quicquam
+                    sciret haud inueniens assensus est. simulque ut profecti erant rediere. His
+                    itaque litteris imperatoris ueluti re ingenti cum quid eis contineretur
+                    inuestigare nunquam potuisset permoti fouere spem pecuniae quamuis allatae non
+                    esset haud desiere: irasci quoque amicis qui iam eos palam deceptos esse
+                    contenderent.donec nauis cum nostris ac florentinis mercatoribus nonnullis ex
+                    piceno rediit: qui aperte dicerent eum (ut in ethruria audierant) antonium esse
+                    quendam monegliam nuncupatum: nebulonem dolosissimum effectum: cum Baptistini
+                    illius fregosi per aliquot ante anos fuisset stipendiarius: qui uir gestarum
+                    rerum gloria summus franchorum maximo apud regem in honore haberetur: Eundem
+                    uero antoninum senis nuperime quod uolateranum inter agrum senensemque pileum
+                        <milestone unit="page"/> cardinalatus sibi alatum simulans diuiti cuidam
+                    grandem stabulario mutuatam auferens pecuniam imposuiisset uirgis cesum aiebant.
+                    Haec propter uerba nostri quamquam indignaretur: famulisque qui remanserant
+                    florentinos obiurgantibus eisque uerbera minantibus fauerent: ianuensem tamen
+                    quendam nautam: qui cum Anchonitanorum naui casu ex orientis superueniens
+                    partibus. optime Baptistinum se atque Antonium ante dictos nosce afferebat.
+                    mercede proposita retinuere. Quem cum petrus milatus: petrusque ioannes (ambo
+                    enim se praeter caeteros nebuloni ita tradiderant ut aes alienum contractum sibi
+                    unde disoluere possent nihil relinquerent) corcurram secum detegendi eum causa
+                    duxissent eo die quia famuli quos <milestone unit="page"/> inepti factum hoc non
+                    celauere lintre eodem profecti praecurentes omnia domino ut agerentur
+                    nunciauerant egrotatione simulata non sunt admissi. Videns itaque ueterator
+                    egregius rem eo iam esse deductam ut nullus tergi uersandi locus amplius
+                    relictus sit: nocte sequenti palio mutato plerisque cum famulis nauigium quem
+                    paratum tenere curauerat conscendens aufugit: quem nostri custodientes non
+                    deseruere: sed ut ipsos una secum abire permitteret: uix impetrantes supplices
+                    ipsum eorum uti misereatur fortunae cum nihil eis reliqui esset orauere: quibus
+                    ille bono uti animo essent hortatis: non enim se beneficia ab eis accepta cum
+                        <milestone unit="page"/> tyranniden recuperauerit obliturum: mirumque
+                    inmodum quod non habeat quid eis modo pro laboribus eorum donet angi. Aureum
+                    unum scissum pro redeundi impensa proiecit.ultimoque eos ragusini agri littore
+                    exposuit Petro etiam milato ueste quam ex suis agnouerat commodam eam cum
+                    saeuisset hiems futuram dicens detracta. qui omni spe amissa: nauta ianuensi cum
+                    ipsum ostendere ei non potuissent corcurre recepto merentes domum reuersi sunt
+                    omniaque <milestone unit="page"/> uti euenerant suis narauere. quorum sane qui
+                    adhuc dicerent non defuere circumscriptorem eum minime esse si abdita contemnens
+                    oppida iadram uel uenetias recta proficiscetur. Quibus rebus diu mecum
+                    cosideratis quam fuerit temeraria nebulonis huius audatia quam stolida
+                    nonnullorum pertinatia: quam denique crassa lachromensis abatis negligentia:
+                    quam ceterorum quoque innanis petulantis satis admirari nequeo: non enim eorum
+                    dumtaxat quibus imposuit perstrinxit oculos: uerum etiam stupiditatem quandam
+                    manifestas permissus tot inter obtrectantes machinare falacias omnibus incussit.
+                    Nec tam dolo malo aureos quibusdam mille circiter ablatos indignandum est: quam
+                    temerario facinore ita audacter palam perpetrato impune eum cum uoluerit
+                    discesisse: uerbaque uniuersae ciuitati posse iactari se dedisse.</p>
+            </div>
+        </body>
+        <back>
+                <div type="prosa-epistula">
+                    <opener>
+                    <milestone unit="page"/> 
+                        <salute>Franciscus <abbr>luci.</abbr> Gondola. Claro uiro Francisco
+                        Delphino. <abbr>Sal:</abbr>
+               </salute> 
+                    </opener>
+                <p>Et si me splendor ciuitatis meas has istuc ad te dare nugas absterret: tua in me
+                    tamen officia innumera compulere: ut tibi uel hoc munusculo gratificarem: non ut
+                    eruditos ullatenus prouocare ausim: sed ut tibi potius familiaribusue tuis cum
+                    ab negocio cessares iocunditatis materiam exiberem: est enim fabellae ueluti
+                    huius a me ridiculae describendae sumpta prouintia: tum quod idonea qua animus
+                    auocaretur a malis in quae fortuna me (ut nosti) impegit uisa est: tum etiam ne
+                    a longinquis uel posteris non rite Nebulonis huius explicata falatia: maiore
+                    damnemur negligentia. quare facinoris qualitate hac enarratione uerius percepta:
+                    communem patriam audentius a calumniantibus defendere poteris: et ingenii mei
+                    qualibuscumque rudimentis oblectari. </p>
+            <closer>
+               <salute>Vale.</salute>
+            </closer>
+                </div>
+                    <milestone unit="page"/>
+
+
+                
+           
+            <div type="poesis-epigramma">
+                <head>Ad lectorem <abbr>Hel. Lam. Cer. P. L.</abbr> in laudem Baptistini </head>
+                <l>Saepe sacerdotes legatos saepe professus.</l>
+                <l>Qui fallax multos luserat ante duces.</l>
+                <l>Hic nostros ciues operosa fraude fefellit.</l>
+                <l>Pseudo Baptistini principis ora gerens.</l>
+                <l>Qui puto uertumnum: uariisque Achelosa figuris.</l>
+                <l>Qui puto Mercurium uinceret arte sua.</l>
+                <l>Huius praestigias caecos Nebulonis et astus.</l>
+                <l>Gondola perpetuae traddidit historiae.</l>
+                <l>Ergo pellacis scelus euitare Monellae.</l>
+                <l>Qui docet: huic libro lector amice faue.</l>
+                <trailer>FINIS.</trailer>
+            </div>
+            <div type="prosa-epistula">
+                <opener>
+                    <milestone unit="page"/> 
+                    <salute>
+                        <abbr>Fran. Luci. Gon.</abbr> 
+                  <abbr>Helio. lamp.</abbr> ceruio Poetae <abbr>lau.</abbr> Suo
+                    <abbr>Sa.</abbr>
+               </salute> 
+            </opener>
+                <p>
+                    <milestone unit="page"/>
+ Cum interdum clarissimorum libros poetarum uates
+                    egregie reuoluo: haud paruam animo meo sensibus eorum perscrutatis admirationem
+                    concipio. Non enim fabellarum (uti rudi narantur) (uulgo) festiuitate permoueor:
+                    sed institutis illis ac sapientibus documentis: que per inuolucra nobis cum
+                    ornatus lepore traduntur afficior. Quemadmodum ex multis ellegantissimisque
+                    illorum figmentis latissime patet: Quale illud est quo semiferos ac truces
+                    homines a cultis distingunt ac segregant: fingunt et enim eos non facie dumtaxat
+                    immani ac tetra: anguipedes ueluti gigantas: monoculos lestrigonum cyclopas:
+                    bimembres centauros: hirtos setis laphitas. fumus pectore uomentem cacum: uerum
+                    etiam inter montium cautes: inter rupium confragosa praecipitia ipsos in antris
+                    degentes: non pecori: non armentis: non cognatis: non disparcentes Contra uero
+                    mortis irriguis: in pratis florentibus: in campis denique elysiis piorum ac
+                    sapientum sedes statuunt: ea ratione (ut reor) adducti: quod cum in bene
+                    constitutis ciuitatibus leges ac iura uigent: pacata iocunda aequaque omnia esse
+                    oporteat: ut ciuibus sceleratis: et ganeonibus procacibus inter bonos nullus
+                    omnino locus fit: quibus in facinore perstantibus necessum est legum metu loca
+                    piorum deserere: ac inter tesqua et salebras cum feris habitacula comparando
+                    latrociniis caedibusque immoderata dapium et uini conuiuia quaerere: atque ut
+                    comodius uias obsidendo crassare possint: hominum impetum uimque asperitate
+                    locorum inaccessibili cauere. Cum igitur neque caci in auentino antrum : neque
+                    cyclopum aetneae rupes: nec centaurorum lapitharumque saxis pelii ingentibus
+                    horrida loca cum praeruptorum illirica in regione montium iugis collata certare
+                    uel cautium asperitate: uel cauernarum squalore possint: quibus his marus et
+                    rodope et extremi garamantes facile cedunt. Quid sane de hominibus haec
+                    infaelicia loca incolentibus centone humeros pedes carbatinis obuoluentibus: qui
+                    incompti caetera praeter setas sub naribus retortas: tot campis latissimis: tot
+                    conuallibus uberrimis totius europae contemptis hasce eligere sedes maluerit:
+                    censendum sit te iudicem constituo. His itaque monticolis finitimorum horridis
+                    coniugibus commissos Aristrocratici isti huius nostrae inclyte ciuitatis nobiles
+                    ne uidelicet suas (si dis placet) sibi matronas charissimas nimium uexent
+                    infantes ex iis progenitos a sese ablegantes ad alendum nutriendumque in exilium
+                    ueluti misellos trudunt. Quibus postquam sic creuerint qui pedagogi: quae
+                    gymnasia: quae demum leges belluinos mores: quos ferino prope cum lacte
+                    suxerunt: radicitus ut non seminis aliquid remaneat extirpare queunt: cum
+                    ipsorum poetarum grauissimus elegantissimusque Maro una cum reliquis
+                    inexorabilium damnans hominum mores saepius repetendo causam inde processisse
+                    affirmet. cum dicit <milestone unit="page"/>
+                    <quote>
+                        <l>Nec tibi diua parens generis nec tibi dardanus auctor.</l>
+                        <l>Perfide: sed duris genuit te cautibus horrens</l>
+                        <l>Caucasus: hyrcanaeque admorunt ubera Tigres.</l>
+                    </quote> Hinc ille lupae alumni furor in fratrem. Caeterum cum non sit instituti
+                    sermonis de liberorum aeducatione disserere: non enim in praesentia tantum ocii
+                    nobis atque facultatis conceditur. Quorsum igitur nostra istec in efferos mores
+                    repentina inuectio. Heli charissime fortasse interroganti respondeo: ambos
+                    scilicet nos caeterosque (siqui sunt) amicos sensus huius expositione poetici
+                    monitos uolo: ut nequaquam ulli mirum uideatur si et tu olim in lestrigona nulla
+                    rate uectus Dulychia: et ipse modo in laphitam: seu centaurum nullis pirithoi
+                    nuptiis hac in optimis urbe legibus ornata incidimus: cum istius modi animalia
+                    nullis delinimentis: nec quamquis seuerissimis sanctionibus a semel imbibita
+                    ferino isto cum lacte rabie si mero praesertim incaluere cohiberi possint. Haec
+                    ad te pauca dolor qualia permisit ueteri nostra inductus familiaritate
+                    aegritudinis ex animo pellendae causa dedi: nec ambigo te (si cultissimas
+                    camaenas tuas noui) illico mihi responsurum: maerorique huic meo gratissimum
+                    leuamen praebiturum. </p>
+            </div>
+        </back>
+
+
+
+    </text>
+
+</TEI>

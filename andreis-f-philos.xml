@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc xml:id="andreis-f-philos">
+         <titleStmt>
+            <title>Dialogus philosophandumne sit, versio electronica.</title>
+            <author key="and02">
+               <name xml:lang="hr">Andreis, Franjo Trankvil</name>
+               <date>1490-1571</date>
+            </author>
+            <editor>
+               <name xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+            </editor>
+            <respStmt>
+               <resp>Electronice descripsit</resp>
+               <name>Željka Salopek</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+          Digitalizat izvornog izdanja (1545).
+        </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum 8149</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma,
+          (Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska). <date>Siječnja
+            2011.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <biblStruct>
+               <monogr>
+              
+                  <author>Andreis, Franjo Trankvil</author>
+                  <title>Dialogus philosophandumne sit </title>
+                  <imprint>
+                     <pubPlace>Cracoviae </pubPlace>
+                     <publisher>Ex officina Hieronymi Vietoris</publisher>
+                     <date>1545</date>
+                  </imprint>
+                  <extent>Sig. A-E ; 4o </extent>
+               </monogr>
+               <note>Reference: Estreicher, XII, pag. 149.</note>
+               <idno type="other">II * Jurić. Scriptores</idno>
+               <idno>BN Paris Velins 2819 /2/</idno>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+    
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1544-12-16" period="15xx_2_third">1544-12-16</date>
+            <address>
+               <addrLine>Cracoviae</addrLine>
+               <addrLine>Posnaniae</addrLine>
+            </address>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - dialogus</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <name>Luka Špoljarić</name>
+            <date>2012-07-10</date>
+        Novo, unificirano zaglavlje.
+      </change>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2011-01-09</date> versio prima. </change>
+
+      
+      </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la" type="epistula">
+      <front>
+         <pb n="Aii"/>
+         <div>
+            <opener>ILLVSTRI AC MAGNIFICO DOMINO SEVERINO BONERO A BELICZE CASTELLANO Biecensi, Zuppario, Burgrabio, ac Magno Procuratori Cracouiensi et Osswecimensi, Rabstinensi, Ducatuum Capitaneo, Domino praestantissimo, Tranquillus Andronicus. Foelicitatem.</opener>
+
+            <p>Proximis diebus, Illustris et Magnifice Domine, quum ex Italia venissem ad Illustrissimum et Magnificum Andream Comitem a Gorka Castellanum Posnaniensem, summumque maioris Poloniae Capitaneum: qui virtute, splendore, magnitudine animi, aliisque praeclaris dotibus nemini hac aetate clarissimorum hominum facile concesserit, iamque re perfecta, parantem isthuc proficisci, partim vt post ingentes erumnas tuo iucundissimo conspectu sapientique oratione recrearer: non enim abhorres ab eorum congressu (quacumque fortuna sunt) quos tui cupidissimos et obseruantissimos esse cognoscis, partim alios quoque fautores et amicos inuiserem: praecipue excellentissimum Ioannem Comitem a Tarnow Castellanum Cracouiensem, pace belloque clarissimum, Reuerendissimum et amplissimum Samuelem Episcopum Plocensem, Cancellarium Regni Poloniae, mansuetudine, pietate, eloquentia facile principem, Nec non praestantissimum Stanislaum de Lasko Palatinum Siradiensem, consilio, grauitate, constantia eminentissimum, Retinuit me ipse Comes iisdem iniectis mihi vinculis, quibus iam pridem colligauerat. Siquidem a die, qua in eius familiaritatem ascendi, semper incredibili beneuolentia me complexus est: omnemque vim humanitatis in me non obscure exercuit. Cuius tam excellentis tamque beneuoli principis 
+
+<pb n="Aii-v"/>
+
+non modo non sum reluctatus voluntati, sed parui equidem haud inuitus: nam vinci humanitate semper turpissimum iudicaui. Hic igitur magnanimus Comes quum partim iuridicundo, partim aliis publicis et priuatis amicorum negotiis plurimum occuparetur, atque hic omnia fere symposiis definirentur, nolui bonas horas, quae superabant male collocare. Itaque dederam primos dies continuos lectioni Platonis et Aristotelis, vt aliqua ex parte reuocarem in memoriam studia philosophiae longissimo tempore intermissa. Quo quidem opere districtum vir quidam eximius, et in literis non mediocriter versatus, quum saepe inuisens ex officio reperisset, tandem pro amicicia conatus est ab instituto abducere. Atque illo negante philosophiam anteferri debere viuendi rationibus, me autem affirmante, orta est non leuis disputatio, quam ego literis mandaui, vt extaret ocii ratio, quo tunc abundabam: Sequutus sum tenue genus orationis, et a pigmentis rhetoricis penitus abstinui: ne in difficillimis rebus explicandis ornatu ipso, cumulandoque hilem argumentationum et exemplorum, quae cateruatim occurrebant, oratio redderetur obscurior, implerenturque volumina. Proinde rem perstrinxi quam breuissime, luce tamen verborum addita: vt cum res intelligi primo aspectu possit, tum ne lector verbositate fastidium contrahat. Hanc tibi disputatiunculam mitto atque dedico, cum pro tuo singulari erga me amore, tum propter meam summam in te obseruantiam. Scio enim (quo candore es) etsi non fuero assequutus, quod optabam, meum tamen conatum esse probaturum, nec parum videbitur in tantis obscuritatibus probabilia dixisse. Nolim autem quempiam offendi, si quid in hoc libello nobis exciderit alienum a dogmate christiano, dum exercendi gratia ingenii conamur idoneis coniecturis opiniones quorundam philosophorum de anima, eiusque partibus, et affectionibus obiter refellere. Nam ecclesiasticae veritati perpetuo nos addiximus.</p> 
+            <closer>
+               <salute>Tibi tuisque omnibus omnia precor foelicia.</salute> 
+               <dateline>
+                  <placeName>Posnaniae</placeName>. <date when="1544-12-16">16. Decembris. 1544.</date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+
+      <pb n="Aiii"/>
+
+      <body>
+         <div type="dialogus">
+            <head>PHILOSOPHANDVMNE SIT.</head> 
+            <p>FORTE CONTINEBAM ME DOMI aduersa valetudine, ac mox a prandio sumpseram in manus nescio quid Plutarchi, vt pomeridiana lectione somnum allicerem, quum quidam amicus de more cubiculum ingressus mihi assedit.</p> 
+            <p>Ego vero experrectus, ac leniter arridens, <q who="T">vnde inquam? quid boni portas?</q>
+            </p> 
+            <p>ille autem haerebat in me defixis oculis cogitabundus. Tum inquit. <q who="A">Etsi non libenter a te dissentio: quem cognoui sermonibus multorum, integre in aulis principum fuisse versatum, nec tibi defuisse iudicium atque virtutem, sed fortunam, quae fere probis omnibus aduersatur, aethernis suscaeptis contentionibus aduersus probitatem: tamen mihi concaedi postulo, si nunc magnis quibusdam rationibus vna in re sentire tecum prohibear, nec propterea velim credas immutatam esse meam erga te voluntatem, aut quicquam tibi de meo iudicio decidisse.</q>
+            </p> 
+            <p>
+               <q who="T">Non sum inquam adeo ambitiosus, vt offendar, si quisquam praesertim vir optimus atque amicissimus, in quo albo te collocaui, diuersus eat a mea sententia: fieri enim potest, vt integra amicitia, nonnunquam inter se amici dissentiant. Quippe veram amicitiam, quae manauit ex fontibus honesti, egitque radices in officiis firmissimas, nullae nec opinionum varietates, nec mutationes rerum, aut temporum, non dicam dissoluere,
+
+<pb n="Aiii-v"/>
+
+sed labefactare, aut imminuere potuerunt.</q>
+            </p> 
+            <p>
+               <q who="A">Scio inquit amiciciam esse vnam ciuilium virtutum maximam atque praeclarissimam, et amicorum est idem velle idemque nolle.</q>
+            </p> 
+            <p>
+               <q who="T">Et valde inquam, nam quorum mentes honestas ipsa conglutinauit eorum voluntates circa bonum et aequum non distrahuntur, sed perstant immutabiles. Non autem infitior saepe oriri paruas dissensiones, non tamen propter animorum contumaciam. Sed quod accidit, vt vnus alio acutior hebetiorue ingenio sit: plusue aut minus cernat. Nefas est vel suspicari odio fuisse inter principes Apostolos laboratum. Siquidem in vnoquoque spiritus dei loquebatur, nec ipsi suam, sed Christi gloriam quaerebant. Atqui constat Petrum a Paulo fuisse repraehensum, sed neque hic laesisse, nec ille se iniuriam accaepisse existimauit. Ambo enim omnes suas rationes ad vnum scopum intenderant, vt diuino munere ad publicam vtilitatem recte strenueque defungerentur. Eorum vero qui priuatis de causis, aut studio ambitionis, aut cupiditate gloriae, aut potentiam vt augeant, aeque vt ipsi sunt, improbos sibi asciscunt, factionem non amicitiam dixeris, ac minime diuturnam putes, tamdiu inter se simulate amant, quamdiu speratur vtilitas, quae vbi sperari desierit, mox distrahuntur in magnas dissensiones, ac saepe in acerbas inimicitias, apertaque certamina prodeunt, quoniam non eadem omnibus honesta sunt atque turpia, et eorum quilibet res omnes ad suam <sic>per-</sic> vtilitatem conatur. Huiusmodi causae primum 
+
+<pb n="A4"/>
+
+Caesarem et Pompeium et Crassum, deinde Augustum Anthonium et Lepidum coniunxerant, et funesta bella concitauerant: Nam de mediis amicitiis quae sine iudicio leuiter ineuntur non est habenda magna ratio: qua facilitate inchoatae sunt, eadem quoque exolescunt, ac saepe vnius iniucundi verbi perstrictione dirimuntur. Si igitur in illo primo genere amicorum ponendum me existimas (quod facere debes, siquidem neque tuis opibus, neque clientelis, neque vlla sperata vtilitate impulsus fui ad te amandum: Caeterum eximiae dotes animi tui me pellexerunt ad mutuam charitatem) si inquam id tibi persuasum est, vehementer abs te peto, ne posthac existimes, me laesum iri, si qua in re a me dissentias, aut si me commonefeceris erroris mei. At ego contra hoc tibi polliceor fore mihi gratissimum, quum id, quod in me prauum fuerit, tuo iudicio correxero, Sed quid nam illud est, in quo mihi tecum non conuenit?</q>
+            </p> 
+
+            <p>
+               <q>Tum ille, vereor equidem, si meas susceptas viuendi rationes probauero, ne putes tuum institutum vituperari.</q>
+            </p> 
+            <p>
+               <q who="T">Omnino inquam si pugnabunt ex diametro: necesse enim est alterum contrariorum vbi constitueris, alterum ruere. Sed tantum abest, vti grauiter id laturus sim, vt etiam quum tantam rem mihi persuaseris, commonstrando lucem quasi in tenebris, et ex obliquis perplexisque ambagibus deducendo amicum in rectam et planam viam, sim accommodaturus omnes meas viuendi rationes ad tuas. Sed missa faciamus haec longa 
+
+<pb n="A4v"/>
+
+praeludia. Iam rem ipsam aggredere.</q>
+            </p> 
+
+            <p>
+               <q who="A">Quoties inquit huc venio familiariter vtendi tui causa, semper inuenio te libris incubantem: nec satis putas diurnas operas in studiis collocare, maceras te dies et noctes isto labore non absque pernicie valetudinis: Haud secus me quoque imprudentem similis error per imbeciliorem aetatem inuoluerat: agitabar insanis cupiditatibus adipiscendae sapientiae, ac vt verum fatear, inanis cuiusdam gloriolae stulta libidine vexabar. Credebam fretus huiuscemodi praesidio, me celebre nomen summamque authoritatem esse consequuturum: adeo quidem, vt principes consilio meo magnis in rebus tanquam oraculo delphico vterentur. Itaque quo celerius ad optatum finem pertingerem: dederam me inusitatis laboribus: dies noctibus ac diebus noctes euoluendis libris iungebantur: nulla erant quietis interualla, Inquies igitur animus assiduis cogitationibus affixus paulatim succumbere, ac interdum non constare sibi caeperat: pallor quidam lethalis et macies totum corpus occupauerant: et quum adesset certa pernicies animi atque corporis, sapientia quidem necdum in vestibulo apparebat, Quo in discrimine constitutus (eo enim iam ventum erat vt si paulum adhuc immorati fuissemus in illis vanis occupationibus, ne ipsa quidem sapientia, si forte venisset, habuisset quo diuerteret) anceps tamen eram, prosequerer ne susceptum opus, quod tanto studio eram aggressus (adhuc enim aliquem scintillae rationis extabant) an vitae consulerem. Siquidem 
+
+<pb n="B"/>
+
+et timebam leuitatis argui, vetusque illa doctrinarum cupido nondum exoleuerat, et in corporis animique pestiferam tabem procubueram, sed tandem vicit ratio melior: extemplo reuocaui mentem ad meum vetus institutum viuendi, abiectis studiis sapientiae: nec diu post rediit pristinus color et sanguis et animi firmitas:</q>
+            </p> 
+
+            <p>
+               <q who="T">Nihil sane inquam hic esse peccatum video praeclarum prorsus atque diuinum opus summis animi atque ingenii viribus aggrediendo in comparanda sapientia, quam vnusquisque sanae mentis expetere debet. Verum adhibenda fuit moderatio, habendaque ratio corporis, cuius fulturis ipse quoque animus sustentatur. Vix reperies vllam festinationem maturuisse, nullaque scientia, vel tenuium disciplinarum addiscitur citra laborem et sudorem, longissimaque spacia temporis. Quid dicendum de sapientia, quae omnium doctrinarum facultatem, omnem diuini iuris et humani cognitionem complexa est? num credis in eius possesionem quasi per somnum inuadere? At certe non modo non desperandum est, sed potius contendendum pertinaciter, vt voti compotes euadamus: sicut in bello fiducia vincendi initium victoriae est, ita egregia spes in studiis facilem viam praestat ad potiundum optato fructu. Caeterum quo id minore periculo consequi valeamus, eos censeo imitandos, qui sibi proposuerunt arduum quempiam cliuum ascendere: solent autem in altum nitentes subsistere identidem, alioqui defecti potestate spirandi, diruptisque ob continuum laborem 
+
+<pb n="B-v"/>
+
+ramicibus in medio cursu deficerent. Haud aliter nobis quoque in superandis magnis disciplinarum difficultatibus faciendum arbitror, nunc animum relaxare, nunc intermittere studia, nunc ad eadem redire intermissa oportet, etsi ad summum pertingere non possumus, in secundis tamen aut in tertiis consistere non extremae laudis est.</q>
+            </p> 
+
+            <p>
+               <q who="A">Mirificam inquit capio voluptatem ex tuo sermone, sic enim confirmauit meum consilium, vt deinceps poenitere me facti non possit. Sexcenties animam exhalauissem, (in tantum rei magnitudinem, ac vix quatuor hominum aetatibus perdiscendam extulisti) antequam peruenire liceret eo, quo tantopere contendebamus: ac tibi quidem magnopere cogitandum est, quo te periculo isto eximas: quippe tam peruicaci studio vehementer immutatus es: curae atque vigiliae, et ipsa pertinax mentis intentio exorbent internum humorem, spiritusque vitales penitus exhauriunt: nisi recaeptui mature cecineris, vereor ne tibi propediem vel ab helleboro petendum auxilium, vel cum pestiferis morbis de vita dimicandum sit.</q>
+            </p> 
+
+            <p>
+               <q who="T">Hic ego subridens, num tibi videmur minus capris circa propriam salutem sapere? illae quidem grauatae nimia pinguedine palpebras in aliquem rubum impingunt, ac missione sanguinis grauedine leuantur. Nos uero cauere a perniciae manifesta nesciemus?</q>
+            </p> 
+
+            <p>
+               <q who="A">Non agnoscimus inquit istam sagacitatem in facie squallore situque pene confectam: saepe vsu venit vt ii, qui sibi oculatissimi videntur, suis tamen in rebus plurimum caecutiant: 
+
+<pb n="Bii"/>
+
+quae res multos mortales omnibus temporibus perdidit, ac in futurum perdet.</q>
+            </p> 
+
+            <p>
+               <q who="T">Quod si inquam ita se res habet, in quo tamen opere praeclarius extinguar?</q>
+            </p> 
+
+            <p>
+               <q who="A">At vide inquit, ne sit hominis inconsulti, dum quaerit aliena, ne etiam ea, quae domi habet, amittat: haec est illa Thaletis sapientia metientis coelorum spacia, et non cernentis fossam ante pedes in quam prolapsus cecidit: Quorsum attinet vmbram quandam sic appetere, vt obliuiscaris tui ipsius? Quod si qua sapientia inter mortales habetur, illa certe, vel alias nulla est, suis in primis vnumquemque commodis prospicere: nequicquam enim sapit, (vt prouerbio dicitur) qui sibi non sapit, Quinetiam eos, qui vni dumtaxat negotio inhaerentes fugiunt consuetudinem amicorum, vitant eorum congressus, abhorrent a conuiuiis et gymnasiis, omniumque suauitate sensuum, non dubium est peccare aduersus naturam: indidit enim penitus in visceribus atque adeo in ipsis medullis titillationem voluptatum: quibus nisi vtamur, videbimur male sentire de natura, planeque ingrati esse, quod eius munus gratuitum contemnimus, quae nihil facit absque summa ratione.</q>
+            </p> 
+
+            <p>
+               <q who="T">Et mihi persuasum est inquam nihil esse flagitii in perfruendis voluptatibus, si modicae concessae temperate, atque cum ratione susceptae sint: nam omnia nimia profectaque a temeritate vitio non carent. Caeterum si cum his conferamus voluptates animi (deum immortalem) quantum hae prae illis vilescent, nec digne videbuntur ut veniant in lucem et sermonem hominum. 
+
+<pb n="Bii-v"/>
+
+corporis uoluptates vna cum ipso corpore consenescunt atque commoriuntur: raro tamen sit quin sexagenarios, quibus lege Papia fibula imponitur, deficiant. Si quidem arescente corpore nullus amplius voluptati locus relinquitur, ac earum sacietas est, saepe dolore atque penitudine comitante: magna enim inter voluptatem, et maerorem cognatio intercaedit, atque adeo iunctae sunt, vt altera ex altera profluere videatur. Vnde apparet hactenus permissum esse vti voluptatibus, quatenus necessitates nostras expleamus, ut usu cibi somnique propter alimentum et requiem corporis. Similiter in propagandis liberis, et aliis, si qua sunt eiusmodi: ab extrariis vero, quibus magnum est cum virtute atque animi tranquilitate certamen in vniuersum abstinere decet. Quae autem semel in animo insederit rerum honestarum voluptas, nec longitudine temporis <sic>lassessit</sic>, nec aetatum mutatione labefactatur: sed potius quotidie vna cum aetate augescens maiora capit incrementa, aethernum manet, vt ipse animus, aethernus et incorruptus habetur. Constat grauissimos philosophos, quo magis viribus destituebantur, eo vehementius in amorem sapientiae exardescere consueuisse, atque in iis studiis vitam finiuisse, quae profecto credibile est consequi animas hinc tanquam e carcere euolaturas, vnaque cum ipsis immortalitate perfrui in luce illa dei purissima, atque sempiterna: quo neque tenebrae neque tempestates aspirare queant. Quid autem iucundius inueniri potest vita mortalium possessione pietatis, 
+
+<pb n="Biii"/>
+
+iusticiae, sanctitatis, quae hauriuntur ex intimis fontibus sapientiae? Qua re demum propius ad summum bonum, hoc est ad deum opificem accedimus, eique tanquam in vite palmites inserimur? difficile quidem dictu est quanta delectatione animus eorum perfruatur, qui huiusmodi sacris initiati sunt: cunctis enimuero vacui perturbationibus veri custodes alumnique pietatis et iusticiae tum iucundissimam vitam agunt, tum diem fatalem securi expectant, cum exploraturum habent, se ad meliora profecturos: Alieni autem ab his studiis, cum deiecerint animum ad appetitiones corporeas, volutenturque in sordibus, nec erigere sese ad honesta velint, etiam ad nomen mortis contremiscunt, quam sciunt omnia eorum vna cum ipsis esse extincturam, illi abeuntes ex humanis nihil habent, quod hic relinquunt, his nihil superest, quod secum ferant praeter poenitentiam:</q>
+            </p> 
+  
+            <p>Hic me plura dicere parantem interpellauit: <q who="A">Multa inquit grauiter, multa etiam praeclare collegisti, illud autem minime consentaneum rationi videtur, quod arbitraris nos tantum ex libris institui ad cultum pietatis et iusticiae, quasi libri continentes praecepta sapientiae cecidissent e caelo, nec essent ab hominibus perscripti. Quaero igitur diuinitus ne homines eam doctrinam sancte pieque viuendi acceperunt, an per semetipsos (vt credere par est) inuenerunt excolueruntque?</q>
+            </p> 
+  
+            <p>
+               <q who="T">Procul dubio inquam tribuenda est origo et incrementa eiusce rei hominibus propter animae vim quandam in excogitando perficiendoque diuinam: quam 
+
+<pb n="Biii-v"/>
+
+summa dei optimi benignitate idoneam ad omne genus virtutis inueniendum, tractandum, ediscendum accepimus.</q>
+            </p>
+
+            <p>
+               <q who="A">Quid igitur obstat inquit quo minus degere iuste sancteque possimus absque cognitione literarum, quandoquidem iusticiae semina habemus in natura insita?</q>
+            </p> 
+
+            <p>
+               <q who="T">Sane plurimum: nam quomodo iusticia vteris si quid sit iusticia nescias, neque iusti teneas definitionem? quod vt multis voluminibus explicatur, ita non discitur sine multo labore. Nonne ridiculus apparebit, si quis e vulgo, qui nunquam antea tibiam inflasset, conferri tamen cum Ismenia canendo tibiis velit?</q>
+            </p> 
+
+            <p>
+               <q who="A">omnino</q> inquit.</p> 
+
+            <p>
+               <q who="T">Sic inquam de aliis artibus et scientiis iudicare oportet? nemini eas diuinitus contingere, sed quaerendas esse magno studio: atque in iis excellere, nisi quis longissima spacia aetatis collocauerit, haud cuique mortalium concessum est. Proditum est multorum literis Themistoclem virum alioqui singularem et olim in Atheniensi Republica principem palam confessum esse, nescire se lyra canere, Quod si huic excellentissimo viro, in quo multae praeclarae artes elucebant, cuius consilio atque virtute Graecia seruata est, qui non dubitauit iactare, se Rempublicam ex parua posse facere amplissimam et opulentam, si inquam huic contigit, nescire minimam particulam musicae, que aurium dumtaxat oblectamento est, quod in ea se non exercuisset, quid dicam de his, qui inferiores sunt ingenio, alienique a studio literarum? an diuinam illam virtutem, quae sola certam et compendiariam viam nobis ad beatam vitam ostendit quam plaerique 
+
+<pb n="B4"/>
+
+mortales summis adiuti opibus ingenii diuturnisque lucubrationibus aegre tandem assequi potuerunt, inertes illi homines abutentes otio atque desidia, non adhibitis doctoribus, tanquam virgula diuina suppeditari sibi gloriabuntur? quae esset aequitas, quum vna eademque cunctis mortalibus et caelestis et terrena origo est. Si virtus ab aliis pararetur maximis laboribus, aliis oscitantibus, et crapulam eructantibus sponte per os incurreret, res longe aliter habet: nam in arduo sita est, ac vallatur vndique locis asperis et praecipitibus: plurimum sane sudandum est, priusquam eo quispiam pertingat, quamuis radices amaras habeat: fert tamen fructus suauissimos:</q>
+            </p> 
+
+            <p>
+               <q who="A">ergo inquit superuacua sunt munera legesque parentis naturae ad vitam sancte honesteque degendam, mortalium animis ab orbe condito infixe?</q>
+            </p> 
+
+            <p>
+               <q who="T">Minime inquam, atque ego existimo facinus inexpiabile committi in accusanda naturae prouidentia: bene nobiscum ageretur, si diuinum eius consilium in creandis rebus singulis disponendisque et conseruandis satis admirari possemus,</q>
+            </p> 
+
+            <p>
+               <q who="A">Istud non quaero inquit, potius id velim probari, cur non licet solo naturae instinctu absque vllis praeceptis secundum virtutem agere?</q>
+            </p> 
+
+            <p>
+               <q>Iam recaeptum est inquam hominumque opinione firmatum animas in corpora delabi nudas et simplices: ac tantum abest, vt aliquod magnum opus suapte vi naturae effingant (quemadmodum narratur de Cyclopum terra, quam dicunt feracem innata bonitate citra omnem cultum et laborem per se ipsam nascentes fructus producere) vt etiam non fari, 
+
+<pb n="B4v"/>
+
+non ingredi hominem, non quidquam omnino sine aliorum adiumentis posse haud dubium est, omnis in anima scientiae principium a sensu oritur, neque alias temere nisi per aures influit, exceptis Symetriis Geometricis, syderumque cursu et aspectu: hae siquidem artes maxime oculorum sensu percipiuntur. Dum igitur homines palantes et vagi primaeuis illis temporibus, seorsum quisque incertis sedibus per siluas et campos agerent, parum differre a bestiis credebantur, quod sicut illae solum ventrem curarent, de recta quidem institutione viuendi nulla inter eos ratio extaret: sed postquam natura instigante, quae semper ad optima ocultis quibusdam igniculis hortatur, coeperunt habere congressus, miscere colloquia: coetus facere: coepere quoque paulatim etiam feros mores exuere, deinde aedificatis succaessu temporis domiciliis et vrbibus, quasi in vnum corpus coalescere. Tunc tenui quadam specie reipublicae, ac subeunte cura quo pacto et partis iucunde fruerentur, et ab externa iniuria tuti essent. Dicitur eos inuasisse cogitatio honesti simul ac vtilis, idque fuisse initium condendarum legum, excolendique per artes ingenii. In huiusmodi primordiis quaerendi honesti diu vagabantur ambiguis rationibus, aliis atque aliis aliud opinantibus: cum inter se dissiderent, ac alius alium subuerteret. Tandem post multam saeculorum euolutionem exquisita ingenia, cum abundante ocio, sese ad meditationem earum rerum totos conuertissent, hoc sane consecuta sunt, vt rectum officium, quo nunc vtimur, inuenirent, mandaruntque literarum monumentis, 
+
+<pb n="C"/>
+
+fidelissimo thesauro memoriae ad posteritatis vtilitatem multas variasque disputationes et clarissima documenta, ne desiderarentur ab iis, qui ad ea forte aspirant, ac veluti ex subiecto flumine pro libidine haurirent. Nam vnius hominis memoria tot res tam diuersas complecti non potest, si vel cornicis aetatem superaret. Haec est illa commoditas ex studiis philosophiae ad veram normam viuendi, de qua paulo ante loquuti sumus. Et nimirum haud obscuris rationibus ad ea natura inclinamur, cui quidem parere imprimis tutum atque honestum est. Quare tametsi naturae magnam vim esse non ignoramus, tamen sine praeceptis philosophiae, quae literis tradita sunt, constat debilem et mancam esse ad ineundae uiae rationes, qua recta ducimur ad beatam uitam. Nec propterea mireris, quandoquidem non sunt haec absurda, nam et in hodiernum diem reperiuntur homines in saltibus. Ibernicis ac in siluis, ad septentrionem ultra Moschos, qui remoti a consuetudine hominum tantum abest, ut animum ingenuis disciplinis expoliant, vt praeter formam hominis habeant nihil: necesse est enim perinde ut surdi qui nascuntur, careant iis: quae per communicationes traduntur. Quanti autem momenti sit bona educatio atque institutio infinitis exemplis declaratur: qua in re proferre possum testes neque dubios, neque nimis obsoletos, sed huius temporis viros grauissimos, quibus, quum fungentes legatione apud principem Thurcorum, versarentur cum satrapis <sic>insingi</sic> prudentia magnitudineque animi praeditis, miraculum 
+
+<pb n="C-v"/>
+
+videbatur eos pueros, dum pascerent greges caprarum, a praedatoribus captos institutosque literis et disciplinis militaribus in tantam animi atque ingenii claritatem euasisse, vt ex iis Tyrannus ille Turcorum eligat, quibus cum de statu rerum suarum consultet, quos classibus et exercitibus praeficiat: quum fratres eorum et cognati rudes homines non magnopere vincant prudentia bestias, inter quas degunt. Sic profecto res habet, vt homines caeteris praestant animantibus, ita literarum imperitis eruditos antecellere. Quid tu ad haec vir optime? contradicere pergis? an satis factum putas?</q>
+            </p> 
+
+            <p>
+               <q>Commode inquit plaeraque ad persuadendum attigisti: Verum adhuc vrget me quidam scrupulus.</q>
+            </p> 
+
+            <p>
+               <q>At nos inquam curabimus illum eximi, si patieris medicamenta salubria.</q>
+            </p> 
+
+            <p>
+               <q>Quidni patiar inquit? neque eo dementiae perueni, vt abhorream a sanis consiliis.</q>
+            </p> 
+
+            <p>
+               <q>Cognitio inquam veritatis omnium sententia mea, iucundissima est, ac eam quiuis indagare debet, qui anhelat accedere ad cognitionem dei, quandoquidem ipse deus veritas immutabilis ac sempiterna est.</q>
+            </p> 
+
+            <p>
+               <q>Hic ille, haerendum adhuc nonnihil circa propositam questionem. Etenim dum considero conditionem hominis, quibus legibus natus sit, vita quam fugaci atque caduca, doleo vicem eorum, qui malo quodam genio stimulante, omnem fructum viuendi per inanes occupationes, districti curis atque negotiis non necessariis, ammittunt. Quanto satius foret, ommissis istiusmodi molestiis traducere animum ad hilaritatem, ac per hos paucos annos sic transcurrere, quasi vixisse non videremur. Praeter animi tranquillitatem 
+
+<pb n="Cii"/>
+
+caetera omnia (quemadmodum mea fert opinio) friuola sunt et inania, hisque idem finis, qui corpori est.</q>
+            </p> 
+
+            <p>
+               <q>Non seiungemus inquam ab hoc ordine philosophiam?</q>
+            </p> 
+
+            <p>
+               <q>Immo inquit in primis interdicendum illi nostra consuetudine arbitror, vt quae inuehat et nutriat curas inutiles, prorsusque alienas a quiete animi: quae in summa rerum omnium vanitate videtur esse vna expetenda.</q>
+            </p> 
+
+            <p>
+               <q>At vide o beate, ne vtrumque falsum sit, magnaque immerentem philosophiam calumnia afficias, quam nos oportet diluere, suamque philosophiae reddere dignitatem, Putas ne animi tranquillitatem existere non sublatis perturbationibus, qui illum permiscent atque exagitant?</q>
+            </p> 
+
+            <p>
+               <q>Nequaquam:</q>
+            </p> 
+
+            <p>
+               <q>Neque mare tranquillum dixeris quam diu ventis perturbatur?</q>
+            </p> 
+
+            <p>
+               <q>Nempe:</q>
+            </p> 
+
+            <p>
+               <q>Qui vbi considerint, mare quoque placari?</q>
+            </p> 
+
+            <p>
+               <q>Haud dubium:</q>
+            </p> 
+
+            <p>
+               <q>Similiter nec animus dum aut eferuescit ira, aut premit dolor, aut extrariae cupiditates vrgent, illam assequitur tranquillitatem quam querimus: quod tanquam hostibus in eius possessionem irruentibus, confusus distrahitur, Caeterum vbi sedatae fuerint aegretudines animae, tum primum securitatem assequitur: An tu aliter existimas?</q>
+            </p> 
+
+            <p>
+               <q>Nunc quid contradicam non habeo prae manibus.</q>
+            </p> 
+
+            <p>
+               <q>Iam ergo inquam confessus es quietem animi non posse simul esse cum perturbationibus in eodem subiecto?</q>
+            </p> 
+
+            <p>
+               <q>Et valde.</q>
+            </p> 
+
+            <p>
+               <q>Ac securitati nullum locum restare obsesso a prauis affectionibus animo? Nec vicissim perturbationibus licere irrumpere in mentem sedatam et tranquillam?</q>
+            </p> 
+
+            <p>
+               <q>id etiam.</q>
+            </p> 
+
+            <p>
+               <q>Deinceps quaerendum est inquam quibus rationibus hi sanentur
+
+<pb n="Cii-v"/>
+
+morbi, et quo pacto reuocetur animus ad tranquillitatem. Porro longe falluntur, qui existimant hoc sibi vel torporem, vel molliciem, ociumue sedentarium esse praestaturum, quasi per desidiam atque socordiam prohiberentur aditu perturbationes, quo minus in animum inuaderent, nec anxietates sequi possent vitam fugientem actiones honestas, marcescentemque pigritia, atque sepultam: quod plane molestum ocium tantumque ad mulieres pertinens aeque animo atque corpori noxium pestiferumque medicamentum est: Vt aquae segnes immotaeque facile computrescunt: ita corpus ommissis exercitamentis, quae bonam valetudinem et vires praestant, haud difficulter in tabem deuoluitur: nulla quidem corporis maior labes existimatur nimia copia ocii, quo et animi quoque vis et acies vehementissime labefactatur et obtunditur, et quasi rubigine quadam obducitur, stuporemque contrahit: haud aliter ac neglectus et incultus ager, qui sentes et spinas noxiasque solet herbas producere. Et mens quidem ita se habet ad perturbationes, vt arx ad hostes: Nam et ab illis facillime irrumpitur in animum stupentem desidiaque corruptum, et ii absque negotio arcem neque custodiis, neque vigiliis munitam occupant.</q>
+            </p> 
+
+            <p>
+               <q>Iam plane inquit intelligo te dicturum remedia compescendis perturbationibus a philosophia petenda esse.</q>
+            </p> 
+
+            <p>
+               <q>Tum ego, recte tu quidem iudicas, neque aliunde queri oportere ne tu ipse quidem inficiaberis: quippe ridiculus haberetur, si quis aedificaturus domum a sutrina peteret adiumenta, 
+
+<pb n="Ciii"/>
+
+non autem ab architectura, quae propria est illius, facultatis. Nemo autem dubitat, qui vel modice literas attigit, philosophiae munus praecipue versari circa iustum et iniustum, quorum vsus pertinet partim ad eos qui vtuntur philosophia, partim vero per administrationem ad alios, De his, vt res postulabit expediam quam breuissime: nam minute simul et exacte singula persequi, non est huius neque loci, neque temporis: atque illud etiam praemittendum est, quia cognitio iustitiae vindicat animum ab anxietatibus, quae illum ob ignorationem, quemadmodum vultures Titii iecur exedunt atque depascunt. Grauissimi philosophorum diuidunt animam hominis in duas partes, Alteram ratione vtentem, alteram vero expertem rationis: hanc rursus partiuntur in concupiscentiam et irascibilitatem, ex quibus ingens caterua manat aliorum affectuum: quanquam magis assentior his a quibus tripartito diuiditur, videlicet in rationem intellectum et voluntatem, separantibus ab ea turbulentas affectiones, easque attribuentibus animae, quae nobis cum brutis communis est. Nam videtur absurdum quam dicimus simplicem, caelestem, referentemque dei similitudinem illam nunc ratione vigere, nunc errorum densa caligine circumfundi. Nec illud est rationi consentaneum, eosdem affectus duplices vno in homine contineri, alios in animali alios in rationali substantia; quod si alioqui concaedimus (deum immortalem) quot in homine turbae concitarentur, quanta confusio, quantum certamen esset inter ipsos affectus: quotidie, signis
+
+<pb n="Ciii-v"/>
+
+collatis, dimicaretur, nulla vi animus erigi posset quo minus proteruis illis et effrenibus beluis geminata eorum potestate, perpetuo succumberet. Itaque ratio persuadet, vt ira, dolor, metus, voluptas, caeterique turbidi affectus animae sensitiue inhaereant: quam vt habemus communem cum caeteris animantibus, ita et affectiones nostrae similes sunt brutorum affectionibus, existuntque citra omnem dubitationem in locis affectis. Nam et dum excandescimus, liuidus quidam color ex accensione sanguinis circa cor, extrema corporis et ipsam faciem occupat, decaedente ira, ille quoque abit, ac pristinus reuertitur color. Similiter in metu atque laetitia manifesta signa in corde existunt: illo contrahitur, et proinde sanguis ex toto corpore subsidio eius accurrit, quia in eo principium vitae sit. Vnde videmus timentium exteriores partes corporis, factis imbecillioribus neruis abscessu spirituum, qui sanguinem quoque secum trahunt, tremere atque pallere. Contrarium vero laetabundis accidit. Cor enim tanquam in magna securitate dilatatur: sanguisque per membra difunditur, et idcirco perfusi gaudio rubescimus: quo circa vehementem inopinatamque laetitiam optimis rationibus nonnunquam mors consecuta est. Ad quorum affectuum moderandos compescendosque impetus, animus imperator diuinitus nobis datus est. Saepe autem illecebra voluptatis, ac peruersis opinionibus nimium sese efferentes illi brutales impetus desciscunt ab imperio rationis, oppressaque ratione dominantur, <expan>quod</expan> tunc imbecilla fit ac iniuriae obnoxia propter
+
+<pb n="C4"/>
+
+ignorationem philosophiae. Hic vt primum sapientia discordiarum optima extirpatrix commitata iustitia, quae vnicuique tribuit suas partes pro dignitate, apparuerit, et ratio quae per inscitiam altissimis tenebris circumfusa, et deiecta erat de gradu suo: facta validior, atque ad suam reuersa naturam, resummit munus imperatorium, cogitque ad obsequium debachantes per insolentiam affectus, suadente iustitia vt quisque sui officii meminerit, tum ratio suam imperandi dignitatem obtineat, tum ne sese ipsi affectus extra ordinem commoueant, sed vt meliori diuinaeque naturae obedire assuescant, nec in posterum, coniuncta ratione cum sapientia, vlli turbidi motus extra suos fines progrediuntur, quo animum lacescerent: manet inter eos pax aetherna, illa imperante authoritate philosophiae, illis ex officio iussa exequentibus. Magnis enimuero munita opibus ratio per accaessionem philosophiae secure agit, ne quis ex aduersariis posthac negotium illi facessat, quod si contingat quempiam paulum extra ordinem commoueri, ac spectare ad rebellionem, protinus immisso aliquo ex potioribus ducibus, insolentes eius spiritus contundit: tolerantia dolorem conficit: metus et laetitia redundans occursu fortitudinis prosternuntur: cupiditatibus vero coercendis nihil efficiacus temperantia: quae rerum omnium excessus defectusque ad mediocritatem adducit. Hanc igitur, vt vides, ex philosophia consequimur vtilitatem, vt eius adiumentis roborato animo, securam plane, tranquillam, ac prorsus diuinam agere vitam in humano corpore videamur. Neque 
+
+<pb n="C4v"/>
+
+sapientiae vis praestantissima domicilio tantum animi contenta tam angustis finibus clauditur. Sed (quod multo praeclarius est) longe lateque extenditur, gentium ac populorum saluti et commoditati consulens. An existimas a Minoe, Licurgo, Solone, leges boni et aequi interpretes et custodes, absque perfecta philosophiae cognitione fuisse conditas? quae quamdiu valuerunt, tamdiu Creta, Sparta, Athenae concordia, et bonis artibus floruerunt. Postquam ab his discessum est, agitati domesticis discordiis ac priuatis commodis intenti, iustitiam in libidinem vertentes, qua praesente cuiusque ciuitatis status consistit, absente disoluitur, imperium et libertatem amiserunt. Quis autem melius instruet ad cultum pietatis philosopho, qui vitam et omnia, quae possidemus, refert accepta Deo? quis grauius hortabitur homines ad pericula, mortemque pro aris, focis, liberis, parentibus, patria subeundam, quam is, qui honestatem vtili anteponit? Hic et fortunae insultus atque varietatem, et iniurias hominum ac temporum, omnes denique casus externos floccifaciet: vtpote qui cunctas res humanas se ipso ducit inferiores, omniaque sua, non in cuiusquam praesidiis, sed in suaipsius virtute collocauit. Tanta quidem reuerentia sapientiae non priuatim modo, sed publice quoque habet, vt nullus mortalium, quantumuis audacia opibusque polleat, possit tamen conferri cum illius authoritate. Accaepimus saepe inter ciues grauiter tumultuatum factis interdum secessionibus. Ceterum interuentu atque adeo conspectu viri sapientis, ciuibus pudore deterritis, cecidisse arma de manibus, restincta
+
+<pb n="D"/>
+
+seditione, Quod sapientissimus poaeta significanter et graphice descripsit his verbis.
+<quote>
+                     <l>Ac veluti magno in populo cum saepe coorta est.</l>
+                     <l>Sedicio, saeuitque animis ignobile vulgus.</l>
+                     <l>Iamque faces, et saxa volant, furor arma ministrat.</l>
+                     <l>Tum pietate grauem, ac meritis si forte virum quem</l>
+                     <l>Conspexere, silent, arrectisque auribus astant.</l>
+                     <l>Ille regit dictis animos, et pectora mulcet:</l>
+                  </quote>
+Haec plerisque inquit videbuntur paradoxa, et imaginarii quidam discursus: non existimo multos fore astipulatores istius sententiae: nec deerunt, qui etiam carpant (nihil nunc dicam de permutatione sedis affectionum) <expan>quod</expan> re ipsa diuidis rationalem animam a sensitiua vno in corpore collocans exercitum animarum inter se dissidentium. Atqui magis credere decet eandem dici rationalem et sensitiuam in natura, sed propter diuersas operationes, nominibus etiam appellari diuersis, sicut dicimus vnum eundemque esse qui Penum gubernat: sed cum promit, aut condit, ita promum condumque variae solemus appellare: neque alium dixeris hominem dum ridet, alium dum lachrimatur: vna quidem his origo est, sed causae diuersae: siquidem vt afficimur, modo in gaudium soluimur, modo declinamus in luctum. Quod si recipimus inquam necesse est confiteri totius hominis generationem nihil discrepare a caeteris animantibus, ac vtrorumque simul cum corpore interire omnia.</q>
+            </p> 
+  
+            <p>
+               <q>Non hodie primum inquit in lucem opinio haec venit, sed multis ante saeculis, authoritate excellentium philosophorum nixa: quamquam ego nolim cuiusquam vtamur hac in 
+
+<pb n="D-v"/>
+
+testimonio: demus vela rationi, et quo ipsa duxerit, sequamur.</q>
+            </p> 
+
+            <p>
+               <q>Quamuis inquam libentius assentiar iis, qui posthabitis humanis rationibus, afflati diuino spiritu plenique Deo affirmant, nos vna parte viuere post mortem: atque hoc satis esse deberet ad faciendam vnicuique fidem de immortalitate animarum, tamen conabimur non ineptis (vt existimo) <sic>coniecturus</sic> ratiocinando nostram credulitatem confirmare, cuius tantum abest, vt me poeniteat, vt indies magis atque magis opinio mea me delectet, inflammetque ad studia virtutis.</q>
+            </p> 
+  
+            <p>
+               <q>Quid inquit si spes fallat?</q>
+            </p> 
+  
+            <p>
+               <q>Non erit inquam inutile, ac pertinebit nonnihil ad famam et posteritatem, tantisper exercuisse me bonis artibus. Quod si vt opinantur dementes et improbi, quicquid agimus, sentimus, sapimus mors delet obliuione sempiterna, quam rem etiam suspicari nefarium puto, tamen non vereor ne quis repraehendat errorem meum, quandoquidem nemo superfuerit. Sed vt redeamus vnde sumus digressi, irrides meam diuisionem animarum et contendis ostendere illam partem, cui tribuitur vis ratiocinandi atque intelligendi, nequidquam discretam esse numero ab ea, quae tota in sentiendo est, Sed vnam atque eandem esse. Vteris autem ad stabiliendam opinionem tuam duobus exemplis imbecillis et proletariis, cuiusmodi infinita reperiuntur, quae statim corruent simul cum aliis aduersis rationibus, quum primum asseruerimus a calumniis animae diuinitatem, caeterum temporis breuitate seponemus aliquantisper rationes physicas, quae admodum validae sunt ad eam rem confirmandam: certissimis duntaxat coniecturis
+
+<pb n="Dii"/>
+
+occupabimur: nam prorsus vanum est, conari eiusce rei scientiam reducere ad sensum, quae consistit in solo intellectu.</q>
+            </p> 
+
+            <p>
+               <q>Nihil autem prohibet inquit quaedam intellectu pariter ac visu compraehendi, velut in mathematicis disciplinis cernitur.</q>
+            </p> 
+
+            <p>
+               <q>Memorant inquam aucupes, quum quispiam immineret nido perdicum, matrem timentem filiis, ne opprimerentur, vsam miro quodam astu: primum quasi elumbem cecidisse non procul a pedibus aucupis, illo persequente, vt mox capturus videretur, idem saepius eam fecisse: tandem postquam longissime persequutorem a nido seduxerat, in diuersum strenue auolasse. Sic tu propositis nouis questionibus moliris abducere me a victoria, quam propemodum in manibus habeo. Propositum fuit, philosophandum ne sit, interposuisti quaestiones de anima, et rursus alias scaturientes ex oratione induces, Quibus tractandis et explicandis multi non solum dies, sed menses et anni consumerentur, Idcirco differamus haec in aliud tempus oportunius, et reuocemus orationem ad incaeptam disputationem de anima.</q>
+            </p> 
+
+            <p>
+               <q>Tum ille, perge igitur tuo arbitratu.</q>
+            </p> 
+
+            <p>
+               <q>Conuenit, inquam, inter omnes animam vegetatiuam, vt in plantis sic in corporibus quoque humanis existere, quia haec augmentum prestare dicitur: attamen neque sensum neque rationem posse appellari, vtroque enim caret ac penitus ab vtroque seiuncta est. Patet quidem cum vegetali non transfundi simul per expulsionem seminis animam sensualem (nam de intellectuali postea dicetur) quum semen nil aliud sit quam excrementum alimenti mutati, nec posse fieri 
+
+<pb n="Dii-v"/>
+
+vt actu insit in eo vis sentiendi, sed eam tempore procaedente recipi: Cuius rei veritas aliquot manifestis signis colligitur; sed erimus contenti vnum exposuisse. Tradunt quidem cum infans in utero mouetur, minime autem sentit, atque etiam, quod multo est admirabilius, non viuit animalem vitam. Quonam inquit istud argumento? Quemadmodum animal ex attractione aeris et respiratione viuit, hausto subinde ac reddito spiritu, ita si illi adimas potestatem spirandi, non erit vnde viuat. Quod plane necesse est accidere infanti concluso in matrice vndique obsaepta, quo aer penetrare non valet; tum demum autem spirantem fieri, vbi aeditus in lucem, aerem hauserit. Quanquam praecipui medicorum constanter affirmant, foetum augeri per annexum vmbilici transmissoque a pectore atque pulmone per venas et arterias aere quasi per infundibula canalesque: atque eo penetrante per saepta <sic>secundae</sic>, vegetari pariter atque spirare, quod plane cognosci non potest ex sectionibus <sic>Anatomiacis</sic>. Quamuis enim cibatur infans per insertionem vmbilici, quasi radicem in vterum agentis: quippe fistulosum est, aptumque ad sugendum subtilius alimentum. Caetera quidem obuolutus membrana sic iacet, vt nullae venae, arteriaeque, non dicam ad os, sed ne ad vllam quidem partem corporis pertingere queant. Apparet autem laxos liberosque meatus esse debere, per quos recaepto puriore aere inspiratio et respiratio per os fiat. Siquidem compertum est vel acino <sic>vuae</sic> passae, vel alia re minima intra epiglotim in arteriam incidente, et ob id intercluso spiritu, 
+
+<pb n="Diii"/>
+
+fuisse suffocatos homines. Constat igitur ex praedictis diuersas esse res numeroque differentes potentiam animalem et vegetabilem atque in vno animante vtramque inesse. Proinde si duabus animabus bruta animalia dotauit natura, vt altera praestarent plantis, Cur non credimus homini perfectissimo in terris animali ea parte, qua bestiis antecellit, ac propius ad deum accaedit, qua sola inquam homo dici potest, ac deus quidam inter caeteras animantes, mentem procreatricem rationis et intellectus, non eductam de potentia materiae, sed diuinitus datam accessisse ad compositionem animalis rationalis tertiam partem, quae reliquis partibus quasi princeps praeesset atque moderaretur. Neque verissimile est, mentem, cuius actiones nullam communionem habent cum actionibus corporis, idem esse cum altrice sensitivaque anima: quae naturam corporum sequuntur, vnde ipsae manarunt. Idcirco determinare oportet, solam mentem esse diuinam atque aliunde accedere, Quum autem abstracta sit a materia necesse est a deo veniat vel per creationem, vel inspirationem, vel alio modo, vt melius ipsi deo visum fuit, Num te non afficit haec ratio? An aliquid certius expectas?</q>
+            </p> 
+
+            <p>
+               <q>Sane inquit non inepta mihi videtur, sed vellem quippiam subtilius afferri.</q>
+            </p> 
+
+            <p>Tum ego, n<q>e istud quidem, quo tibi mos geratur, conari negligam. Haud existimo te latere in plantis terrestribusque pariter et aquaticis animantibus perpetuum servari naturae ordinem, ac secundum cuiusque potentiam seminis partus similes in eodem genere forma et virtute gigni, nec
+
+<pb n="Diii-v"/>
+
+vnquam variari eorum naturam: quam semel a primordio vim vel abstergendi vel glutinandi vel aliud quippiam huiusmodi efficiendi lasserpitium intubum, et aliae herbae acceperunt, eandem aequaliter in alias atque alias sui generis transfundunt lege immutabili. Nunquam enim fando auditum est aut salutiferum esse Aconitum, aut mortiferam panaceam. Iam ex feris quaedam vocantur generosae vt Leones, Tygres, Pantherae, Lynces, quaedam vero imbelles, ut Cerui, Lepores, Damae, Alces. Neque ex his generosi foetus gignuntur, neque ex illis imbelles, sed vnaequaeque naturam et mores parentum retinent, qui per genituram traducuntur. Igitur si modo aliorum animalium rationalis animae natura, vis, et inclinatio nunc ad has, nunc ad alias res per seminis propagationem haberentur, nonne partus sequerentur vndequaque naturam progenitorum? Et a sapientibus sapientes, fortes a strenuis, et rursus dementes ab insanis, <sic>Ingavi</sic> procrearentur ab inertibus? Caeterum longe secus res habet: exemplis siquidem contrariis scatent monumenta omnium temporum: et nobis quotidie ante oculos obuersantur stirpium huiusmodi et fructuum varietates: quippe frequenter iucundi proueniunt ex acerbis, salubres ex pestiferis, nec stolidis filiis assequentibus acumen parentum, et ex mentibus obtusis plaerumque nascentibus praeclaris ingeniis. Idcirco diuinus quoque poeta dixit. <quote>Egregia est soboles scelerato nata parente,</quote> Sed crebrius cernitur degenerari a melioribus, ab optimis quidem creberrime, Nam et prouerbio iactatur, <quote>Heroum filii
+
+<pb n="D4"/>
+
+noxae.</quote> Nec audiendi sunt astrologi authoritatem arti suae aucupantes, transferentesque causam huiusmodi varietatum in coelestium corporum potestatem, quam sine dubio licet quotidie intueri maximam in concipiendis aedendisque partubus. Caeterum cum stupidis persuadere contendunt, animam rationalem caelestibus influentiis esse subiectam ac ex planetarum aspectu coniunctionibusque varios subinde motus animorum et ingeniorum existere, nullo pacto cum veritate consentit. Nam si vera esset astrologorum affirmatio, nonne stellarum influxus eosdem vel etiam maiores effectus aederent in vitam reliquorum animalium, eorumque sensus in diuersa distraherent, cum ille vt haec, ex materia compactae sunt, ratio quidem et intellectus corporis omnino expertes? Quo fit vt cum anima multo praestet nobilitate stellis, regaturque a semetipsa. Siquidem anima, vt tradit Pythagoras, numerus est se ipsum mouens, caelorum potestatem nullam esse in animam rationalem existimemus: nam contra naturam est, vt ignobilius agat in nobiliorem naturam.</q>
+            </p> 
+  
+            <p>
+               <q>Vnde fit igitur inquit vt tanta studiorum varietas in mortalibus appareat: si animae simplices nudaeque demittuntur in corpora: nec quicquam ex superioribus corporibus intra conuexa mundi in eas agit?</q>
+            </p> 
+  
+            <p>
+               <q>Nulla inquam hic plane difficultas est, si persuadere tibi potest, mundum et in hac parte mundi <sic>infima</sic> hominem praestantissimum animal a Deo non necessario, sed sua ipsius bonitate creatum esse. Alioqui Deus sui iuris non esset, sed satelles necessitatis, et aliena libidine circumageretur, quod impium 
+
+<pb n="D4v"/>
+
+ac scelestum est credere. Igitur deus primus ille motor, et Architectus vniuersi causaque rerum primaria, et ens sempiternum, quum creasset animas ad omne genus virtutis aptas, ut diximus, aequales immortalitate. Sed intellectus et rationis capacitate nonnihil diuersas: has quidem his, alias vero aliis secundum diuitias gratiae suae fecit aptiores, est autem infaelicis artificis <quote>semper simulare cupressum</quote>, vt ait Poeta. Quid vero de Deo sentiendum, cuius sapientia omnem cogitationem exuperat? quippe magnitudo diuinae mentis ex incredibili varietate rerum: quas creauit, dignoscitur. An dicemus eum nesciuisse, nisi ad vnum scopum sua tela dirigere, qui mirabili varietate caelum et terram ornauit? Neque de forma rerum loquor, sed de natura, praecipue caelestium globorum. Aliam Lunae, aliam Solis, aliorumque syderum ex effectibus eorum conditionem conspicimus: ex quo licet coniectare supercaelestes quoque substantias variis esse naturis praeditas: quas largitur indefesse benignus ille parens ac sapientissimus opifex ex Thesauro non deficientis opulentiae. Eiusmodi plane quibusdam coloribus Deum imaginem suam depingere voluisse ad propriam sui gloriam non dubium est. Itaque si caelestes influxus exercent potentiam in corpora inferiora propter quandam materiae proportionem: non tamen continuo agunt in animam, nisi ratione coniunctae materiae. Neque in omnium hominum animam agunt, sed tantum imperitorum, et eorum, qui deprauati sunt falsis erroribus. Caeterum omnes
+
+<pb n="E"/>
+
+caelestes inclinationes vincemus absque negotio sapientia, syderibusque dominabimur. Plerique scribunt in Socrate, tum Zopyri Physionomi iudicio, tum sua ipsius confessione extitisse signa improbitatis eminentissima. Sed ea oppressit ipse atque superauit philosophia: in tantumque profecit ad virtutem: vt fama sapientiae Socratis totum orbem impleuerit. Porro nimium sumus euagati in vindicanda animae dignitate ab Astrologorum Tyrannide: Iam redeamus ad pensum nostrum. Illud praeterea non minus euidens ad demonstrandum diuisam esse penitus rationem a sensibus: quippe hominibus quibusdam vel a die natali, vel in cursu aetatis mente captis, sensus tamen integros manere non ignoramus. Libet autem quaerere, quo tum ratio abiit? vbi exulat intellectus? an peregrinantur apud Anthipodas? Anima, igitur quum excesserit e corpore, nihil commune habet cum corruptione, vtpote quae existat separata prorsus a materia: quid aliud dicemus nisi migrantem e corpore ad alias sui similes in caelum subuolare animas? Quod genus hominum apud Thurcos obseruatur summa cum veneratione, <expan>quod</expan> persuasum habent, eorum animas tantisper dum illi ratione priuati sunt, diuersari apud Deum.</q>
+            </p> 
+  
+            <p>
+               <q>Hoc inquit, tibi Physici non permittent. Quamobrem? Ad quinque sensus inquit addunt sensum communem, tum phantasiam et imaginationem compositarumque specierum aestimatorem, ad quem reliqui sensus simplices tanquam per manus sua visa deferunt, hic rursus ad principem partem animae. Proinde nihil obesse quominus anima rationalis in 
+
+<pb n="E-v"/>
+
+corpore maneat, sed eam praesentem non cognosci vitiato sensu communi, per quem vires suas exerit, hanc enim potissimam causam dementiae arbitrantur.</q>
+            </p> 
+  
+            <p>
+               <q>Et ipse inquam possem aliam quorundam opinionem afferre, dicentium (nulla de sensu communi facta mentione) ab animae principatu ad quinque partes sensoriae totidem spiritus exploratorios pertingere, quos alii sensus interiores vocant. Mihi vero neutrum placet: fingunt enim animam quasi rem materialem in capitis penetralibus reclusam more principum mittendis et accipiendis nuntiis intelligere: quod sane non minus absurdum, atque falsum est. Non considerant autem vim ipsius diffusam per omnes recaessus corporis, ac eam praesentem excubare ad partes instrumentarias, nec indigere ministris ad ea, quae per seipsam exequi potest. Nam qui sensum communem siue phantasiam aestimatoremue nominant, non aliud credam, quam appraehensoriam facultatem, vimque iudicandi substantiae <sic>intellectilis</sic>, cuius id proprium munus est, quippe sine ratiocinatione fieri nequit, qua in vniuersum bruta animantia carent. Per omnes autem potentias huiusmodi anxie quaesitas atque etiam interstitiis quibusdam et cellulis in capite distinctas, debemus intelligere significari vnius vim et naturam animae, Quippe cogitatio, et imaginariae copiae, potestasque iudicandi, ex anima nascuntur, idemque cum anima sunt nec ab ea separantur, perinde atque lumen et calor a sole.</q>
+            </p> 
+  
+            <p>
+               <q>Ergo inquit: Medici fomenta occipitio temere apponunt, vt laesae memoriae opitulentur, cui certam sedem in capite 
+
+<pb n="Eii"/>
+
+statuerunt?</q>
+            </p> 
+
+            <p>
+               <q>Anima inquam delatas quidem ad se notiones et mente conceptas adnotat quasi in membrana scriptoria, seponitque in intimo capitis loco, vt illis tutius sit ab externa iniuria: atque inde, quum opus est, depromit tanquam ex thesauro. Non magis enimuero turbat animum corrupta sedes memorie, quam Economum, si quis deleat eius Ephemeridas. Sed quamdiu adest intellectus, caetera omnia corrigi atque instaurari possunt, eo quidem abeunte, subleuandis imaginariis memoriaeque partibus incassum conabere. Iste locus de contemplatione naturae amplissimam praebet materiam ad disputandum, Caeterum et nox appetens, et sermo prolixior, vrget vt festinem ad calcem, neque licet vno die omnes Phisicorum et Medicorum scholas excutere. Nunc ad postremam venio coniecturam. Si diligenter reputabimus immensam dei prouidentiam, tum in vniuersi, tum in singularum rerum creatione, inueniemus ab illo sapientissimo opifice nihil superuacuum, nihil redundans, nihil quod difluat imperfectumue sit: Sed omnia cum mensura et ratione quasi ad Lesbiam regulam facta. Naturam et habitudinem corporum cuiuslibet animalis attemperauit ad aeris, loci, pabuli qualitatem: et nihilominus benignus ille parens affatim copiam omnium praebuit, ad implenda desideria caeterarum animantium eaque finiuit angustissimis terminis, videlicet quatenus naturae satis esset, vni tantum homini immensam atque infinitam cupiditatem in animo inseuit: Non eam dico cupiditatem, quae radicatur
+
+<pb n="Eii-v"/>
+ 
+in parte irrationali, ex profundisque tenebris et inexplicabilibus errorum labirynthis emergit, ac fere malorum omnium caput est, Sed congenitam in natura cum ipsa anima, per quam appetimus nostri perfectionem et securitatem. Atqui non videmus hic quamdiu viuimus, quippiam tale illi oppositum, vnde satiatus animus conquiesceret, vltra mundum (quatenus magnus est) extenditur semper aliquid infinitum et immensum, cuiusmodi ipse est, appetens. Accusabimus ne deum iniusticiae, quod lenierit brutorum desideria, propositis omnibus ad eorum vsum: hominem vero torqueri velit <sic>aethernum</sic> cupiditatibus immodicis aestuantem? at quia dei sumus imago, consentaneum est, maiorem illi de homine curam esse, qui brutis imperat. An requiremus in deo prudentiam, quod aliquid magnis in rebus temere fecerit, qui ne in minimis quidem quicquam absque summa ratione atque sapientia facit? Proinde credendum est deum non fuisse passurum, appetitum quoque rationalem hominis extendi in immensum, nisi proposuisset illi finem, quem adeptus, vltra non angeretur.</q>
+            </p> 
+  
+            <p>
+               <q>Quidnam inquit appetimus cum ratione?</q>
+            </p> 
+  
+            <p>
+               <q>Nempe summum bonum, non autem putes illud bonum, quod quidam circumscribunt magna ex parte fortuitis rebus aggregatum, dubium, varium, mutabile: quo tamen nullus mortalium adhuc potitus fuit: Sed certum, stabile, sempiternum in sola contemplatione atque adeo aspectu diuinae mentis consistens, ex qua ceu perenni fonte voluptates cumulatae omni suauitate fluunt, <quote>diisque pariter 
+
+<pb n="Eiii"/>
+
+et hominibus (ut Plato inquit) omnia bona proficiscuntur</quote>, quae nullius mortalis aut oratione exprimi, aut cogitatione complecti queant. Nam si magnopere delectamur <sic>intuenndo</sic> solem illustratorem orbis, reliquasque stellas flagrantes, ac miram vniuersi pulchritudinem, quanta iucunditas futura est, cum contemplabimur deum ipsum, qui haec omnia condidit?</q>
+            </p> 
+  
+            <p>
+               <q>An inquit omnibus ea gaudii merces repromissa est?</q>
+            </p> 
+  
+            <p>
+               <q>Omnibus procul dubio, qui conformantes se per omne tempus Dei voluntati iuste sancteque vixerunt; Alioqui stolidi est existimare, homines superbia tumentes, ardentes odio, furentes inuidia, flagitiis contaminatos, commaculatosque sanguine innoxio, praeda, iniuria, caedibus oppletos, contra pium et aequum, proculcatis diuinis et humanis legibus, parem esse cum innocentibus remunerationem recaepturos, qui totam aetatem contriuerunt in liberalibus disciplinis exercendo ingenia, vt exculto animo virtutibus partim quietam et laudabilem vitam agerent, partim ad exemplar sui alios docendo, hortando, consulendo, ad mutuam charitatem et iustitiam, vnica vitae humanae precia atque ornamenta prouocarent: alios vero deterrerent a scelere atque iniuria. Et reges quidem sapientes, et respublicae bene institutae, et leges diuinae voluntatis interpretes numquam istam aequalitatem probauerunt, sed improbitas multabatur, virtutem laus sequebatur. Atque ea regna, vbi haec immutata sunt, audacibusque et nefariis honores et magistratus deferri caepti sunt, constat a stirpe interiisse. Quid putamus deum 
+
+<pb n="Eiii-v"/>
+
+aethernae parentem iustitiae non esse aliam habiturum rationem innocentium, aliam improborum? nihil esset meo iudicio iniquius sub tam aequo iudice, quam ignauos et consceleratos eadem praemia rapere, quae virtuti proposita essent.</q>
+            </p> 
+
+            <p>
+               <q>Qui fit igitur inquit, vt probitas iaceat in sordibus, et innocentiae nusquam tutus locus sit? quotusquisque principum fauens honestati virtutem prouehit, vti palam inclaresceret? Sed neque conuiuiis adhibent, neque cubiculo dignantur, abhorrentes ab ea tanquam a peste presentanea. Mimis autem et scurris, et citharedis nulla pars aedium vacat: delatores et obtrectatores in ipsa adyta irrumpunt. Quam venales magistratus in ciuitatibus, quam rapaces praefectos ad prouincias mitti videbis: ab his opulentos diripi, pauperes ab illis opprimi, omnia fieri improbe et scelerate, sacraque et profana misceri sursum et deorsum.</q>
+            </p>
+
+            <p>
+               <q>Qui aurium inquam atque aliarum partium pruritu capiuntur, his frustra, praeferendo virtutem occines. Quos etiam vesana cupido, aliena per iniuriam ocupandi vrget, importune ad honestatem hortabere. Si opus est pecunia ad classem instruendam exercitusque comparandos: Num probi hominis in eius conquisitione <sic>vtenur</sic> opera, quem citius de vita quam de officio deduces? an potius eorum, qui per acerbitatem exigendis vectigalibus inueniendisque nouis subinde formulis ditando fisco per sanguinem subditorum et externorum summi habentur artifices? Idem genus hominum ad alia huiusmodi negotia quasi lues pestilens 
+
+<pb n="E4"/>
+
+immittitur: pauci nimirum hac aetate principes honesta plures vtilia sibi quaerunt. Quapropter raro vel a domesticis vel externis tumultibus quiescunt, <sic>Erinny</sic> quadam perturbante atque conuellente cogitationes eorum et progressus propter iniustitiam.</q>
+            </p> 
+  
+            <p>
+               <q>Quonam ergo inquit iustitia ab hominibus secessit?</q>
+            </p> 
+  
+            <p>
+               <q>Nempe a Saturni temporibus cum migrasset in caelum ad patrias sedes, nondum rediit neque redituram esse hoc rerum statu censeo.</q>
+            </p> 
+  
+            <p>
+               <q>Quid igitur inquit dicemus prouidentia regi mundum absque iustitia?</q>
+            </p> 
+  
+            <p>
+               <q>Intuendum est inquam, quia duabus tanquam naturis constamus, anima et corpore: animae quidem Deum agere curam, vt quae ab ipso profecta est, eiusque similima ratione et immortalitate: corporis vero, vtpote rei vilis et momentaneae gubernationem iniunxisse ministris, siue caelum id sit, siue stellae: siue fatum, fortunamue libet appellare. Itaque coeca quadam libidine, Iudicioque plerunque stolido modo dant diuitias, modo eripiunt: nunc euehunt ad honores, nunc detrudunt ad ignominiam: morbos, sanitatem, caeteraque huiuscemodi nulla certa ratione et praebent et auferunt: deus plane vilesceret vt quidam dixerunt, Si demitteret sese ad curandam postremam partem orbis, atque etiam fecem elementorum. Et qua <sic>aloqui</sic> iustitia est, atque bonitate non ageretur cum deterrimo quoque egregie, et cum optimo quoque pessime. Etsi deus generatim citra omnem controuersiam prouidentia mundum <sic>gubernant</sic>, tamen viliores quasdam partes caelestibus globis, qui mouent ad ipsius primi motoris imperium, permisit speciatim gubernandas. Luna quidem 
+
+<pb n="E4v"/>
+
+accepit potestatem vegetandis rebus, Sol vero generandis: Ac caeteri orbes alia huiusmodi sortiti sunt, legeque immutabili ac ordine sempiterno diuinae voluntatis munus exequunt. Quare nil manifestius esse potest nec tamen oculis cernitur, sed manibus quoque tractatur. Quapropter nil attinet ad rem, et alioqui superuacuum esset, Deum sigillatim haec minima curare, ac se quasi socium ministris adiungere. Nam si Deus haec omnia praesens erat curaturus, non fuit opus administris. Sin autem ab iis reguntur ex ipsius sententia, quid singularis Dei curatio necessaria sit, non intelligo. Caeterum naturae superiori, id est, homini interiori formam ipsius referenti ac ab ipso aeditae, sic afficitur, vt ab eius cura nunquam discedat. Quamuis autem relinquerit hominem in manu sui consilii tamen non caessat eum monere modis multiplicibus, vt in caelum suam propriam sedem intueatur, dignaque parente opera faciat, contumax enim filius abdicatur deiiciturque de spe adeundae haereditatis. Non dubitemus igitur, postquam cognitum habemus, Dei bonitatem et iustitiam non esse nomina vana et irrita, eorum animas, qui in corpore vixerunt, tanquam extra corpus vixissent, ad Deum esse redituras, vbi sarcina corporis liberati fuerint: ibique mercedem operum esse recepturas: necesse enim est vt virtus aliquando praemium reportet. Est autem palam omnibus, non fieri iudicium de recte improbeque factis, tantisper dum corpori sumus alligati: nihil igitur restat, nisi vt credamus rationem ab vnoquoque reposci post mortem, ac iustos 
+
+<pb n="F"/>
+
+quidem manere vitam deorum beatam, iniustos vero supplicia aetherna. Fuerat nobis propositum loqui de philosophia, sed coactus sum respondere ad tuas interrogationes, tametsi nihil decaessimus ab instituta disputatione. Immo quasi consentientes circa bonum philosophiae in arcana et intima philosophia versati sumus, Haec enim pars eius tanto praeclarior est iis, quae de moribus et dicendi ratione tractant: quanto excellentior est vis et magnitudo naturae cuncta feliciter gignentis ingenio inuentisque hominum. Mortales quidem propter particulam diuini luminis mentibus eorum insitam, aemulantur naturam quoad eius fieri potest: Nam eius assequi potentiam vel in minimis ludentem nullae vires humanae quaeunt. Porro quum naturae vnumquodque opus admirandum esse videatur, nosque allicere debeat ad illud contemplandum: Certe in consideratione animae obstupescimus admirantes eius diuinitatem tum in intelligendo, verique perspiciendi subtilitate atque prudentia, tum in ratiocinando, comparandisque similitudinibus, et indagatione rerum abstrusarum. Proinde nullum tempus in occupationibus contemplandae animae intermitti deberet: Nam quum animus in se ipsum conuersus reuoluit caelestem suam originem, ac spacia sui aeterna, Nullae aliae suauitates cum hac voluptate conferri possunt. Quid autem potest esse honestius illa cogitatione, per quam assequimur, ne obliuiscamur nostrae dignitatis, crebroque in caelum suspiciamus anheli expectantes, faelicem 
+
+<pb n="F-v"/>
+
+reditum ad Deum? Vnde vero maiorem vtilitatem redundare putemus, quam ex virium rationis cognitione, cui tanquam imperatrici natura seruos affectus subiecit, in eiusque posuit potestate? Quae vt Dei quasi simulachrum est, ita nos ab inquinatione sordium rerumque terrenarum concupiscentia dehortando iubet, contemptis fluxis et caducis, quae pertrahunt in interitum, defigere animum in virtute, atque in diuinarum rerum contemplatione totos occupari. Vnde vita per innocentiam et virtutem acta, a corruptione transibimus in <sic>inocorruptionem</sic>, ac ex mortalibus in Deos mutabimur. Has nobis mutationes afferet diuina philosophia: Quam si sequemur ducem, ipsa nos (aspirante Deo) recta ad beatam vitam adducet.</q>
+            </p> 
+
+            <p>Haec quum dixissem, surrexit inquiens, <q>bene collocauimus has horas pomeridianas: Sed multa orationis et animi contentione video te fatigatum: et aloqui valetudini consulas opportet: iam recaeptui canamus, quod restabat inquam ad explicandum, alio die prosequemur.</q>
+            </p>
+         </div>
+      </body>
+
+      <back>
+         <closer>
+            <dateline>
+               <placeName>Cracouiae</placeName> ex officina Hieronymi Vietoris 
+<date when="1545">Anno Domini. M.D.XLV.</date>
+            </dateline>
+         </closer>
+      </back> 
+ 
+
+
+
+      </text>
+</TEI>

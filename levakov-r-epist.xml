@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="levakov-r-epist">
+         <titleStmt>
+            <title>
+Ad Benedictum Uinkouich episcopum epistulae XI, versio electronica
+</title>
+            <author key="levak01">
+               <name xml:lang="hr">Levaković, Rafael</name>
+               <date>o. 1597 - o. 1650</date>
+            </author>
+            <editor>
+               <name>
+   Šime Demo
+  </name>
+            </editor>
+
+         </titleStmt>
+         <editionStmt>
+            <edition> Editio altera, quam <date when="2010-08">mense Augusti anno 2010</date> accuratiorem
+     eandemque electronicam, textu in formam computatris comprehensibilem transposito necnon
+     adnotationibus quibus nomen XML proviso, chirographis denuo reuisis, permultis editionis
+     Kukuljeuichianae mendis sublatis, re denique tota ad praecepta quae TEI in sic dicto P5
+     diuulgauerat accommodata, Šime Demo curauit. 
+    </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum 6550</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+  projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+  Hrvatska.  <date>2010</date>.</p>
+            <!-- Dodati ako ima još podataka relevantnih za elektroničko izdanje. -->
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+           <bibl>Prilozi, Arkiv za
+              povjestnicu jugoslavensku 10, Zagreb <date when="1869">1869</date>, in pp. 173-219
+              <note>Primus typis dedit (in:  et
+                 praefationibus breuissimis atque notis instruxit <name> Ivan Kukuljević Sakcinski </name>.</note>
+           </bibl>
+            <bibl>Archiuium archiepiscopale Zagrabiense, Acta Capituli Antiqua, fasc. 94, n. 68 / 15 (P.01), 16 (P.02), 17 (P.03), 22 (P.04), 25 (P.06), 26 (P.07), 27 (P.08), 28 (P.09), 29 (P.10), 30 (P.11), 32 (P.05).<note>Manuscripta seruantur </note></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+ 
+         <samplingDecl>
+            <p>Eas epistulas continet haec editio, quae in Archiuio Archiepiscopali Zagrabiensi inuentae sunt.</p>
+         </samplingDecl>
+         <editorialDecl>
+            <normalization>
+               <p>A textu Latino absunt 'J/j' et 'V/v'. Notas compendiarias explicaui. In textu interpungendo modo hodierno usus sum.
+<!-- Intervencije obilježene s 'corr' moje su, dok u sve ostale Levakovićeve. Podcrtavanja u tekstu vjerojatno nisu Levakovićeva. --></p>
+            </normalization>
+         </editorialDecl>
+ 
+      </encodingDesc>
+ 
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date from="1639" to="1642" period="16xx_2_third">12.3.1639.-16.8.1642.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 17 (1601-1700)</term>
+               <term>1601-1650</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <name>Luka Špoljarić</name>
+            <date>2012-07-22</date>
+ Novo, unificirano zaglavlje.
+ </change>
+         <change>Versio altera: <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>Mense Augusti, anno 2010</date>. Schematis TEI P5 XML validatio.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <group>
+         <text type="epistula" xml:id="P.01">
+            <front>
+               <div>
+<!-- Pod 'head' sam stavio tekst na omotnici ili vanjskoj strani preklopljenog pisma. -->
+                  <p>Reuerendissimo Domino in Christo plurimum honorando, Domino 
+<name>Benedicto Uinkouich</name>, Episcopo Zagrabiensi, Abbati de Topuska &amp; Sacrae Caesareae et Regiae Maiestatis Consiliario &amp;c., Domino ac Patrono suo Colendissimo.
+</p>
+
+                  <closer>
+                     <signed>
+
+                        <unclear>Raphael</unclear> Leuakouich
+
+</signed>
+
+Zagrabiam.
+<handShift new="2"/>
+                     <date when="1639-05-05">
+1639. 
+<sic>Maii 5.</sic> exhibitae
+
+</date>
+                  </closer>
+
+               </div>
+            </front>
+            <body>
+ 
+               <div>
+                  <opener>
+ 
+                     <salute>Illustrissime ac Reuerendissime Domine Praesul ac Domine Pater, mihi ex animo obseruandissime!</salute>
+                  </opener>
+                  <p>Perueni, gratia Dei, saluus Romam, tribus diebus ante tempus mihi in ultimis litteris, quas Goritiae apud patres Capucinos inueneram, praefixum, hoc est 3. Martii; in die autem St. Thomae Aquinatis habita est Congregatio Euchologii, cui interfui. Iter habui prosperum et tempus, demptis duobus diebus, tranquillum. Litteras Domino Sabbatino tradidi, qui statim de pecuniis sermonem inchoauit propinamque more suo de retardatione expeditionis incusauit. Litteras Caesareas transmissas ad Dominum Cardinalem a Sabaudia Illustrissimus Dominus Nuntius ad suum alium Agentem Dominum Fabronium, quem ad praesens usque inuenire nequiui, transmisit, quatenus eas eidem Domino a Sabaudia praesentaret. Uerum an illas ad eundem miserit, nec ne (Cardinalis enim est extra Urbem, in statu Ianuensi, maximis tricis cum Ducissa sua cognata inuolutus), intelligere non ualui, neque Dominus Sabatinus id scit, qui a me hoc ipsum ediscere cupiebat. Ego illas, quas Reuerendissima Dominatio Uestra ad eundem scripsit, per postam mitto measque addo ad Cardinalem et ad eiusdem a Secretis, Dominum Abbatem Soldati, meum familiarissimum; nam si Cardinalis hic foret, nullam omnino difficultatem haberemus de propinae condonatione. Dominus Cardinalis Pius dicit se 
+<del type="overstrike">
+ id</del> eam condonare non posse, nisi eidem fuerit a memorato a Sabaudia demandatum.
+</p>
+                  <p>Eminentissimo Barberino suas dedi, sed propter eiusdem plurimas occupationes auditum commodum mihi praestare non potuit: illud saltem breuibus dixit, ad eum minime spectare negotium propinae, cum eadem sit honorarium Proponentis.</p>
+                  <pb/>
+                  <p>Et in hoc quidem termino manet expeditio confirmationis. Pecunia non dum transmissa a Domino Tincti: neque Sabbatinus de hoc curat, sed maiorem summam praestolabatur. Cui ego impossibilitatem obiiciens spem eandem habendi expressi. Ad Sanctissimum non dum fui admissus, confido tamen me sequenti hebdomada audientiam habiturum; atque tunc litteras tradam, et si aliud denegabitur, instabo, ut saltem Dominationi Uestrae Reuerendissimae de non sollicitanda et procuranda confirmatione nota aliqua non incuratur.</p>
+                  <p>Ad uisitanda limina Apostolorum ex Quinqueecclesiensi tenetur, quoad absoluta fuerit Dominatio Reuerendissima Uestra; proinde curabo 
+<unclear>eandem</unclear>, ut Suo nomine uisitare possim.
+
+</p>
+                  <p>Congregatio Propagandae fidei non solum gratas habuit litteras Reuerendissmae Dominationis Uestrae, sed laudauit summopere zelum tam pium et sanctum atque easdem in proxima coram Sanctissimo habenda Congregatione referri ac proponi demandauit.</p>
+                  <p>De aliis mihi commissis hactenus nihil egi, excepto quod heri Pater Rector Collegii Germanici mihi simplicissime responderit nullum locum esse ad praesens, ad quem desideratus a Reuerendisima Dominatione Uestra admitti posset; 
+<choice>
+                        <corr>conquestus</corr>
+                        <sic>/conquaestus/</sic>
+                        <!-- Treba ga naputiti da izabere jedan, ili drugačije označiti uredničke ispravke. --> 
+                     </choice>insimul de summa difficultate Collegium ipsum conseruandi et alumnos alendi ob prouentus imminutos per bella in Mediolanensi Statu, unde maior eorum portio accipiebatur. 
+</p>
+                  <closer>
+                     <salute>Has meas dare uolui huic nostrati, alias similes per ordinarium hoc ipso die mitto, atque Reuerendissimam Dominationem Uestram feliciter bene ualere desidero.</salute>
+                     <dateline>Romae, 
+<date when="1639-03-12">12. Martii 1639.</date>
+                     </dateline>
+
+                     <signed>Illustrissimae ac Reuerendissimae Dominationis Uestrae
+ Obligatissimus filius
+ frater Raphael Leuakouich m. p.</signed>
+
+                  </closer>
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.02">
+            <front>
+ 
+               <div>
+                  <p>
+                     <date when="1629-06-27">1639. 27. Iunii.</date>
+                  </p>
+               </div>
+            </front>
+            <body>
+               <div>
+                  <opener>
+                     <salute>Reuerendisime Domine, Praesul Colendissime!</salute>
+                  </opener>
+                  <p>
+Scribo, Deus uidet, et lator praesentium testari poterit, raptim, unaque significo negotium confirmationis necdum fuisse absolutum. Superauimus punctum propinae, uti per alias meas insinuaui. Probauimus etiam Domino Datario, cui Sanctissimus commiserat, fuisse alias Ecclesiam Zagrabiensem per uiam secretam expeditam; nunc laboramus pro gratia obtinenda de <choice>
+                        <corr>expedienda</corr> 
+                        <sic>expediendi</sic>
+                     </choice> etiam in praesenti. Commisit id muneris Sanctissimus Praefectis ordinum, siue, ut Itali loquuntur: 
+<foreign xml:lang="it">"alli Capi delli Ordini."</foreign>
+                     <!-- Ako CroALa ima svoju vrijednost za talijanski, zamijeniti. --> Dominus Sabbatinus laborat. Dominus 
+<choice>
+                        <corr>Montmannus</corr>
+                        <sic>Motmannus</sic>
+                     </choice>, cui dedi decem Ungaricos, nimirum qui etiam postea dandi erant, iuuat fauori suo uiriliter, atque inde confido hanc quoque difficultatem me cito 
+<choice>
+                        <corr>superaturum</corr>
+                        <sic>superaturaturum</sic>
+                     </choice>. Unicum scrupulum habeo, ne scilicet excerbetur animus Pontificis ob protestationem factam a Domino Iakusich Uesprimiensi de retardatione et difficutatibus confirmationum, cuius protestationis exemplar uidere hucusque mihi denegatum fuit. Uerum transeant omnia pro uoto aliorum, ego negotium Dominationis Uestrae Reuerendissimae omni mea possibilitate curabo expediri. Urgendus tamen erit Dominus Tinctus, quatenus mittendam pecuniam transmittat, neque enim ad praesens usque, prout spoponderat, id praestitit.
+<pb/>Haec et plura Dominatio Uestra Reuerendissima a Domino Archangelo Heruoy, cooppidano nostro, oretenus intelligere poterit, qui eandem de aliis, quae hic occurerunt, nomine meo edocebit.
+
+</p>
+                  <p>
+Quantum ad mea particularia et praesertim quoad negotium Uallachorum, sicuti in aliis significaui, in longum protrahentur. Namque Pontifex examinandum commiserat Dominis Cardinalibus Spadae et Palloto, cum quibusdam Praelatis in Congregatione particulari, quae ad praesens non est habita, ob inualetudinem Domini Ingoli, Secretarii Congregationis Propagandae fidei, qui nunc coepit melius haberi. Ob meam itaque moram facile crediderim Dominationem Uestram Reuerendissimam molestiam habituram a Dominis fratribus Uenerabilis Capituli (qui, si mihi scriptum, prout condixerant, transmisissent, in causa Missalis et Breuiarii iam pridem aliquod responsum habuissem pro optato et postulatione nostra) atque proinde, si Reuerendissima Dominatio Uestra resistere non poterit, ad meum aduentum usque, qui infallibiliter esse non poterit donec ad minus suam confirmationem habuero, faciat et liberet se in nomine Domini, prout uidebitur et expediens iudicabit. Ego enim scindere meipsum non ualeo, neque possum supra et contra posse.</p>
+                  <pb/>
+                  <p>Hoc tamen ualde mihi gratum esset, si ad meum usque aduentum collatio, quae mihi facta fuerat, differri posset, atque si interim restituerentur ex quarta scuta, quae 
+<add place="above">Reuerendus Dominus Mixa</add>
+                     <!-- Vrijednost 'above' za interlinearne umetke iz primjera u TEI. --> ex proprio mihi commodauit, in spem futurae ex eadem solutionis. Negotia capituli 
+<add place="above">nostri Generalis</add> unaque praesentia Dominus Chumar ita me occupatum detinebant et ad praesens detinet, ut uix tempus habuerim diuinum officium persoluendi: inde tres postae praetermissae sunt, quibus nihil litterarum ad Dominationem Uestram Reuerendissimam misi. Supplicatam itaque facio Reuerendissimam Dominationem Uestram, uelit me habere excusatum, necnon agere cum Dominis Reuerendissimis Fratribus Uenerabilis Capituli Canonicis, quatenus dignentur satisfacere supradicto Domino Mixae summam mihi mutuatam.
+
+</p>
+                  <!-- Ovdje se u izvorniku paragraf ne završava, ali počinje closer, unutar kojega je više paragrafa. Ne znam kako da li da kompliciram s virtualnim agregatima (npr. pomoću @next i @prev) ili da jednostavno ovako stavim paragraf kojega u izvorniku nema. -->
+                  <closer>
+De caetero <salute>eandem et omnes alios 
+feliciter beneualere exopto</salute>. 
+<dateline>Romae, 
+<date when="1539-06-27">27. Iunii 1639.</date>
+                     </dateline>
+
+                     <signed>Reuerendissimae Dominationis Uestrae
+Seruus et filius addictissimus
+
+frater Raphael Leuacouich, m.p.</signed>
+
+                  </closer>
+                  <pb/>
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.03">
+            <front>
+               <div>
+                  <opener>Reuerendissimo Domino in Christo, Patri Colendissimo Domino Benedicto Uinkouich, Episcopo Zagrabiensi, Abbati de Topuska et Sacrae Caesareae ac Regiae Maiestatis Consiliario.
+<dateline>Zagrabiae.
+<handShift new="2"/>
+
+                        <date when="1639-08-14">1639. 14. Augusti.</date>
+                     </dateline>
+                  </opener>
+ 
+               </div>
+
+            </front>
+            <body>
+               <div>
+                  <opener>
+ 
+                     <salute>
+ 
+Reuerendissime Domine Praesul ac Pater semper obseruande! </salute>
+                  </opener>
+                  <p>
+Binas Reuerendissimae Dominationis Uestrae praesenti hebdomada accepi, priores cum annexa copia particulae Breuis, quas et antea me accepisse significaui, posteriores a quodam peregrino Semirutheno, cum adiunctis pro Serenissimo Cardinali a Sabaudia. Miror unde moti alumni Uiennenses 
+<del type="overstrike">quod</del> expeditionem Suae Cofirmationis Uiennae esse apud Illustrissimum Dominum Matthaei, Nuncium Apostolicum, perscripserint, cum adhuc nulla facta sit Romae, ueluti ex aliis meis intelligere potuit, quas ea super re dedi. Spes fortassis, uel certe desiderium, illis huiusmodi optatum promittebat, uel aliquo simili casu decepti sunt. Expeditio necdum absoluta, sed manet in termino, quem per meas praecedentes transmisi. Nimirum, postquam Propina condonata est; postquam Domino Datario per Decretum Consistoriale demonstrauissemus fuisse alias per uiam secretam expeditum; postquam etiam docuissemus esse ad praesens eandem necessitatem et multis 
+<add place="above">insuper</add> causis ac rationibus sociatam, quae antea exstitit de expeditionibus per uiam secretam; ac demum, postquam in Consistorio inter priuatos quosdam collocutum fuit, remissum est negotium ad Dominos Cardinales, qui Capita ordinum dicuntur, quatenus examinato Processu 
+<choice>
+                        <corr>referrent</corr>
+                        <sic>referent</sic>
+                     </choice> postmodum, an conueniat per uiam secretam expediri. Quia autem in Processu unus Testium deposuit se nihil scire de Prouentibus, alius autem ultra numeratam quandam summam in paratis 
+<add place="above">ad</add> octo millia florenorum dixit eosdem ascendere, nec mihi ueritati consona haec depositio uideatur pugnatque cum litteris et Uestrae Dominationis Reuerendissimae et illis quas Regnum dedit, hinc cum Domino Sabbatino laboramus, si poterimus, per memorialia destinatos Cardinales inducere ad gratiam, absque eo quod uideant Processum; sin minus, tunc intendimus petere, quatenus examinentur hic duo testes super eodem articulo, quorum unus erit Dominus Matkowych, pro alio uel ego ipse deponam, uel aliquem inueniam bene instructum. Hoc in termino negotium expeditionis manet. Pecunia transmissa est et Dominus Sabbatinus dixit se habuisse chirographum siue mandatum de accipienda. Haec an sufficiens erit, nescio, donec uideamus ultimatam resolutionem uel factae gratiae, uel negatae.
+
+</p>
+                  <pb/>
+                  <p>De meo similiter Ualachorum nihil conclusum determinate, sed in examine res manet. Samandriesis easdem difficultates patitur, quas caeteri titulares. Praetendit namque Pontifex Regiam Maiestatem non habere ius illos conferendi. Ideo, nisi me expeditio Dominationis Uestrae Reuerendissimae detinebit, proximo Septembri, Deo fauente, Urbi et Curialibus eiusdem ualedicam meque in patriam recipiam ad inseruiendum Patronibus et amicis.</p>
+                  <p>Attestationem illam de uisitandis liminibus Domino Paulutio, Congregationis Concilii Secretario, iam pridem dedi, qui respondit se in proxima Congregatione propositurum, sed haec postea non fuit celebrata. Spem bonam dedit.</p>
+                  <p>Erit modo locus in Collegio pro Alumno, sed scribendum est ad Illustrissimum Primatem Dominum Losý, Archiepiscopum Strigonensem, ueluti ex litteris Domini Matkouich fusius habebit, cui eandem Prouinciam scribendam reliqui. </p>
+                  <p>Fertur hic fama indubia Turcarum Tyrannum in Christianos moturum, et prasertim in Uenetos, qui parant bellica omni cum celeritate. Sanctissimus eisdem aliquot Triremes bene instructas promittit. Dux Florentiae similiter, et Ianuenses.</p>
+                  <p>Princeps Thomas a Sabaudia cum fratre Cardinali Taurinum 
+<choice>
+                        <corr>ceperunt</corr>
+                        <sic>caeperunt</sic>
+                     </choice> et nunc munitionem eiusdem, in qua Ducissa se cum Gallis reclusit, tormentis assiduis uexant. Deus gloriosus det Pacem, quam mundus dare non potest. Ubi tamen certum Nuncium habere potero, mittam litteras Reuerendissimae Dominationis Uestrae measque addam et eidem Cardinali gratias pro condonatione Propinae iterum agam.
+</p>
+                  <closer>
+                     <salute>Hisce me ac mea Dominationi Uestrae Reuerendissimae commendo eamque bene ualere a Domino assiduis orationibus <sic>contedo</sic>
+                     </salute>. 
+<dateline>Romae, 
+<date when="1639-08-14">14. Augusti 1639.</date>
+                     </dateline>
+                     <signed>
+Reuerendissimae Dominationis Uestrae filius addictissimus
+
+frater Raphael Leuacouich, m. p.
+</signed>
+                  </closer>
+                  <pb/>
+                  <pb/>
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.04">
+            <front>
+               <div>
+                  <opener>Reuerendissimo Domino, in Christo Patri, Domino Benedicto Uinkouich, Episcopo Zagrabiensi, Abbati de TopuƷka, Sacratissimae Caesareo-Regiae Maiestatis Consiliario,
+ Domino et Patrono colendissimo.
+ <dateline> Zagrabiam.
+<handShift new="2"/>
+
+                        <date when="1641">1641.</date>
+                     </dateline>
+                  </opener>
+ 
+               </div>
+            </front>
+            <body>
+               <div>
+                  <opener>
+                     <salute>
+Reuerendissime Domine Praesul et Pater in Christo Colendissime! 
+
+Salutem ac seruitiorum meorum commendationem.
+ </salute>
+                  </opener>
+                  <p>Dominus Nicolaus Castelli dedit mihi litteras ad Dominum Petrum Martirem Cernezzum Uenetiis habitantem ad Sanctum Cantianum, quatenus ille ibidem daret mihi Cambiales pro Roma. Ego quidem cum febri Labacum ueni, spero nihilominus in Domino me iter prosecuturum etiam cum illa, si ardentior et malignior non excreuerit. Litteras meas hic nullas inueni, eo quod, quae fuerant, missae sunt in Croatiam, et nescio ubi detentae.  
+</p>
+                  <closer>
+                     <salute>Dominatio Uestra Reuerendissima 
+  bene ualeat, et si qua supersunt, siue superuenerint, ea ad me transcribere non grauetur.
+Hisce me enixe Dominationi Uestrae Reuerendissimae commendo. </salute>
+                     <dateline>Labaco, 
+<date when="1641-09-13">die 13. Septembris 1641.</date>
+                     </dateline>
+                     <signed>
+<!-- Kao i gore, closer počinje u paragrafu -->
+Dominationis Uestrae Reuerendissimae
+addictissimus filius
+
+frater Raphael Leuacouich, m. p.
+</signed>
+                  </closer>
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.05">
+            <front>
+               <div>
+                  <head>Litterae Patris Raphaelis Leuakouich 
+<date when="1642-02-08">8. Februarii anno 1642.</date> Roma missae, 
+<date when="1842-03-14">14. Martii</date> Zagrabiam allatae.
+</head>
+
+               </div>
+            </front>
+            <body>
+               <div>
+                  <opener>
+                     <salute>Reuerendissime Domine Pater in Christo singulariter obseruandissime!</salute>
+                  </opener>
+                  <p>Uideo negotia protrahi, atque ita remitto 
+<hi rend="underline">Nicolaum Matkouich, cosanguineum meum</hi>
+                     <!-- Vrijednost atributa preuzeta iz primjera u TEI P5. -->
+, qui me Romam comitatus fuerat et quem ea de causa hucusque detinueram eaque spe, ut si non me regredientem comitaretur, saltem Bullas confirmationis Dominationis Uestrae Reuerendissimae deferret. Neutrum fieri potuit, cum negotium Confirmationis per uiam secretam haberi non possit, et ordinaria nollem primus fieri, meum autem negotium suspensum, donec Dominationis Uestrae Reuerendissimae confirmationis Bullae expediantur. Accedit etiam illud, quod, ubi negotio uestro absoluto meum iniuero, non potero facere per medium Congregationis de Propaganda fide, sicuti iam decreuerunt, sed per Congregationem Consistorialem; atque ita sumptus triplo et quadruplo maiores euenient. Hoc autem mihi impossibile erit, cum aliunde non habeam auxilium.
+</p>
+                  <p>De Domini 
+<hi rend="underline">Matkouich Canonici</hi> discessu ex litteris Patris Rectoris Collegii Sancti Apollinaris per tabellarium missis, nec non ex eiusdem Domini Matkouich, intelliget, neque enim mea allocutio et instantia apud Rectorem facta quicquam profuit, excepto quod se propensum demonstrauerit non obstandi, ubi a Domino Cardinale interrogatus fuerit, "an dimittendus?".
+</p>
+                  <p>Pro loco in eodem Collegio, praesertim pro Domino Magdalenich, quem accepi ad aliam transmigrasse et in Domino obiise, locutus sum cum praefato Patre Rectore, qui antiquum responsum dedit, se facturum, si eidem a Reuerendissimo Strigoniense aliquo saltem uerbo insinuatum fuerit. Itaque ibi agendum, uel si aliquod Ecclesia ista superinde priuilegium habet, demonstrandum.</p>
+                  <p>Cum Domino Fauilla ago res contra stomachum; nam praeter offensam ad Reuerendissimum Primatem factam, exosum se facit sua uanitate. Negotia nostra et 
+<hi rend="underline">omnium Ungarorum</hi> potius profligat quam promouet, utpote imperitus artis et officii suscepti rerumque nostrarum.
+</p>
+                  <p>
+                     <foreign>JaƷamƷe malomanye zameril Barberinu za nasse ztwari, zasto neznam koyi malovredan chlowik rekalmuye dabyste Vase Gospodstvo hotili</foreign> 
+ Confirmationem habere <foreign>i prez pineza, ali daƷe nemarite zanyu. Zato zam snÿim goworil y proƷylga da was liƷt dobro proste ÿ razmÿƷli; a stoƷe pÿnez doztoÿ, da gowori</foreign> 
+ cum Domino Mambilla Trapezita, <foreign>koyie ima pri Ʒebi, i da upita iƷtoga Fauille, ako selyte, ÿ proƷÿte, owe blaxene Confirmatie. Poche on nike Ʒthwari goworiti, a to daƷe hochiemo odwrechi i Ʒpuntariti. A ya mu rekoh, da toga ne miƷlimo, premda imamo uzroke velike odurechiƷe, videchi da tolyko malo ye prostimano nasse ponizno prosenye, i tolike molybe za ludoƷu derzane. Zato teskomu bi, i razserdiƷe: ali zato opet ye razgledal ÿ poznal, da nÿ nasse pomanykanye. DalƷam pred nyega</foreign> 
+ totum statum praesentem miseriarum Ecclesiae et Dioecesis Zagrabiensis, <foreign>ÿ za kotere uzroke</foreign> 
+ florens et bene fundata ac dotata Dioecesis <foreign>doslaye na tolyku nevolyu.</foreign>
+                  </p>
+                  <p>Motus itaque in ultimo Consistorio uerba habuit cum Cardinalibus, et quia illi non consentiunt, ut Episcopi qualem talem prouentum habentes et suas sedes obtinentes, per uiam secretam expedirentur, male habuit et ferme impatienter tulit. Spes ergo quasi amissa per uiam secretam expeditionis obtinendae. Sed a me non dum derelicta, qui adhuc semel noua memorialia porrigam et pro solo nostro negotio considerationem fieri procurabo. Nam ut alias scripsi, ferme omnia Ungarica erant immixta simul. Interim responsum ad meas praecedentes confido me accepturum, et secundum illud faciam pro posse.
+</p>
+                  <p>Librum de' Annatis uenalem habere non potui; nihilominus ex Bibliotheca Angelica S. Augustini, ubi habetur, exscripsi hunc tractulum, qui in uolumine illo unicus est de ea materia. Putabam ego, dum alias uendi uidissem, atque in frontispicio de' Annatis uidissem, totum librum esse de ea materia. Caeterum hoc solum habet, quod fideliter deprompsi. Reliquum libri Corpus aliae uariae materiae eiusdem auctoris implent.</p>
+                  <p>Promissa sunt mihi nonnulla manuscripta pro nostro fauore facta. Si habere potero, transmittam etiam illa, uel deferam ipse. Habent enim plurimas rationes nostra pro parte de non soluendis Annatis. Hae tamen rationes parum prosunt apud Curiales, qui distinguunt inter Taxas et Annatas, fatenturque Annatas non adeo uetustas; sed Taxas antiquissimas et ab ipso primordio practicatas. Quae tamen distinctio aduersari uidetur et pugnari Tractulo huic Compegii, quem mitto.</p>
+                  <p>Bella hic incrudescunt. Pontifex ex una, Dux Parmae ex altera militem colligit. Hunc Pontifex crimen 
+<choice>
+                        <corr>laesae</corr>
+                        <sic>laexae</sic>
+                     </choice> Maieistatis 
+<choice>
+                        <corr>incurrisse</corr>
+                        <sic>incurisse</sic>
+                     </choice> declarauit, monitum quoque &amp; excommunicatum pronunciauit publico in Consistorio, affixis insuper schaedis parietibus solitis in locis. Bona quaecunque fisco publicata et per chartas uenum exposita. Timetur Urbi utraque ex parte. Dux enim occulta Potentatum et Principum auxilia accipit 
+<pb/>in milite et pecuniis, et minatur Urbis depopulationem. Militi similiter Pontificio parum fidendum, ne idem faciat, si uel minima alicunde occasio praebeatur. Hi etiam tumultus negotiorum absolutiones tardare et difficultates pati faciunt.
+</p>
+                  <p>Quando Dominatio Uestra Reuerendissima iudicauerit oportunum mittere aliquid pro mea expeditione, si nollet per manus Domini Castelli id facere, hic idem Nicolaus Consobrinus meus ad me reuerteretur et deferret.</p>
+                  <closer>
+                     <salute>Quem demum commendatum facio atque me totum Dominationi Uestrae Reuerendissimae deuoueo.</salute> 
+                     <dateline>Datum Romae, 
+<time when="1642-02-08">8. Febuarii 1642.</time>
+                     </dateline>
+
+                     <signed>Eiusdem Dominationis Uestrae Reuerendissimae
+Filius Addictissimus
+
+frater Raphael, m. p.</signed>
+
+                  </closer>
+                  <pb/>
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.06">
+            <front>
+               <div>
+                  <opener>
+Reuerendissimo Domino Praesuli et Patri in Christo colendissimo, Domino Benedicto Vinkouich, Episcopo Zagrabiensi, Abbati de TopuƷka et Sacratissimae Caesareae et Regiae Maiestatis Consiliario <abbr>etc.</abbr> 
+
+                     <dateline>
+                        <date when="1642-03-27">27. Martii anno 1642.</date> Roma datae</dateline>
+                  </opener>
+
+                  <dateline>Zagrabiam.
+<handShift new="2"/>
+                     <date when="1642">1642.</date>
+                  </dateline>
+
+                  <p>Litterae Raphaelis Leuakouichii, in quibus asserit Confirmationem tandem aliquando factam esse.</p>
+               </div>
+            </front>
+            <body>
+               <div>
+                  <opener>
+
+                     <salute>
+Reuerendissime Domine Praesul et Pater Colendissime, 
+Salutem!</salute>
+
+                  </opener>
+                  <p>
+Toto hoc mense nullas meas misi; has scribo,
+iisque significo tandem 
+<hi rend="underline">die Lunae proximo praeterito, qui fuit 
+<date when="1642-03-24">24. dies praesentis mensis 
+<add place="above">Martii</add>
+                        </date>, Dominationis Uestrae Reuerendissimae negotium Confirmationis fuisse ultimatum</hi>. Non quidem per uiam secretam, sed neque per ordinariam. Tandiu laboraui, donec sine Aliorum Ungariae Praesulum et sine Successorum praeiudicio, quod iuste postulauimus, obtinerem. Sacro Collegio centum Ungaricos aureos et non plures numeraui, licet ii mussitarent et omnino triginta plures postularent. Ego obstinato et pertinaci animo egi, neque ad maiorem summam deuenire uolui, affirmans plures neque Dominationem Uestram Reuerendissimam transmisisse, neque transmittere posse, propter plurimas rationes, quas praetermitto. Dominus Cardinalis Cueua negotium proposuit. Barberinus mitigatus iuuit, et uix aliquid sine illo obtinere potuissem. 
+<hi rend="underline">Pro bullis minores quas potero expensas faciam et quam celerrime possibilitas afferet curabo earum expeditionem.</hi>
+Fauilla plurima mendacia ad Reuerendissimum Strigoniesem contra me scripsit, hic quoque per angulos latrare non parcit. Caeterum, si ego Reuerendissimorum Praesulum Ungariae respectum et aestimationem non pluris facerem, quam ipse fingit, crastina die efficerem ut exul amandaretur. Quod ego neque faciam neque feci, dubito alios facturos, propter eius maxima merita adinuentionum.
+Uidebunt et cognoscent omnes meam integritatem et non dubito, quin et alii eadem uia tentabunt, dummodo potuerint, confirmari.
+Dominus Matkouich non potest habere facultatem abeundi antequam absoluat quadriennium. Fuit apud Cardinalem et aliis in locis, sed frustra laborauit.
+Ipse quoque adibo Cardinalem, et si ualebo, curare conabor eius dimissionem.
+
+</p>
+                  <closer>
+<!-- Closer počinje u istom paragrafu. -->
+                     <salute>Hisce
+Dominationi Uestrae Reuerendissimae felicia festa Paschalia ex animo precor.</salute> 
+                     <dateline>Roma, 
+<date when="1642-03-27">27. Martii 1642.</date>
+                     </dateline>
+
+                     <signed>Dominationis Uestrae Reuerendissimae
+Filius deuotissimus
+
+frater Raphael Croata, m.p.</signed>
+                  </closer>
+                  <postscript>
+                     <p>
+                        <hi rend="underline">Dominus Crisanich heri primitias habuit,
+quibus interesse non potui, ad Sanctum Petrum, ubi celebrauit.</hi>
+                     </p>
+                  </postscript>
+
+
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.07">
+            <front>
+               <div>
+                  <opener>
+                     <handShift new="2"/>
+                     <date when="1642-04-23">1642. feria 4. Paschatis</date>
+                  </opener>
+               </div>
+
+            </front>
+            <body>
+               <div>
+                  <opener>
+                     <salute>
+Reuerendissime Domine Praesul et Pater in Christo Colendissime!</salute>
+                  </opener>
+                  <p>
+Festa haec Paschalia negotia omnia suspenderant, unde etiam ego uacare debui circa Bullarum sollicitationem, praesertim cum adhuc semel tentare intendam, si illas per uiam secretam habere ualuero; nam quando Proposita fuit Ecclesia, uti nuper scripsi, nihil superinde factum fuit a Sacro Collegio, quare etiam addideram in meis Propositionem ita factam fuisse, ut nulli praeiudicium aliquod inde potuisset prouenire. Dedi Sacro Collegio Aureos centum, pro Bullis impendam
+
+<foreign>stoƷe bude naymanye moglo, a day Boshe dabÿe iƷsunya daly</foreign>; atque ubi primum expeditas habuero, mittam per fideles manus, uel per 
+<hi rend="underline">Dominum Matkouich</hi>, si potuerimus interea facultatem regressus illius obtinere.
+</p>
+                  <p>
+Nunc per Reuerendum Dominum Burich mitto Dominationi Uestrae Reuerendissimae 
+<hi rend="underline">Compendium Sanchez de Matrimonio</hi>, quod emi 
+<sic>Iuliis Sextilibus</sic>. Non est quidem adeo eleganter impressum, sed cum alterius
+
+<choice>
+                        <corr>editionis</corr>
+                        <sic>aeditionis</sic>
+                     </choice> non habeatur, utendum illo, etsi typographicis erroribus scatente.
+
+</p>
+                  <p>
+De eo quod scribit
+circa litteras ad sedem Apostolicam a nostris maleuolis missas quasque Dominus Ursinus reseruarat, iam scripsi, nunc itidem repeto, memoratum Dominum Ursinum, qui de illis me certiorem fecerat,
+e uiuis excessisse antequam ego huc regressus sum. Scripta autem illius et alia mobilia quaecumque fuisse a parentibus distracta, ita ut nullum super iis indicium habere potui, licet instanter postulassem, non sine fundamento, cum scirent dicti eiusdem affines et consanguinei necesitudinem mihi cum illo haud uulgarem exstitisse, atque aliquot opuscula mea inter libros eiusdem reperissent, quae et reddiderunt statim. Dubitant cum aliis fragmentis et chartulis, quarum aliquot cophinos plenos inuenerant, igni traditas praefatas litteras: nam et alias plurimas combusserunt. Itaque de his nihil sperandum.</p>
+                  <p>Circa synodum arbitror frustraneum fore petere facultatem, cum sperem breui Bullas habere totumque negotium absoluere. Nihilominus tamen, si Dominus Datarius aliquid plus sperato pro illarum expeditione machinaretur aut praetenderet, ita ut protractio aliqua notabilis fieri deberet, faciam pro uoto. Sed spero molestia hac, Deo fauente, liberari.</p>
+                  <p>De meo negotio et eiusdem expeditione nihil mihi possum polliceri. Nam sicuti per alias meas et per 
+<hi rend="underline">consanguineum meum Matkouich</hi> significaui, maior mihi expensa facienda esset, quam haec, quae 
+<add place="above">pro</add> Dominationis Uestrae Reuerendissimae confirmatione facta est et fiet. Congregatio etenim Propagandae fidei negotium seposuit atque ad Congregationem Consistorialem, cuius est Suffraganeos et Coadiutores dare, amandauit. Atque ita per uiam ordinariam eundum erit. Pecuniam autem tantam non habeo, neque aliunde spero me habiturum.
+
+<foreign>
+A vƷaky danƷe trosi kuliko toliko, nesto za liƷte, nesto za paperus, i drughe potrebschine. Izlogh onoga, stoƷeye darovalo y stoye treba darouati ouomu i onomu.</foreign> Per me tamen non stabit, sed quidquid efficere potero conabor,
+
+<foreign>rauno kako Ʒam za Ʒe. </foreign>
+                  </p>
+                  <pb/>
+                  <p>Quantum ad historiam ampliandam, non dubito, quin multa in
+
+<choice>
+                        <corr>archiuiis</corr>
+                        <sic>archiuis</sic>
+                     </choice> Romanis et praesertim Uaticano reperire possemus, sed nullus quicquam inde extrahere potuit, nisi pecunia mediante, quae custodibus et iis, qui ad eiusmodi officium deputati sunt, dari solet; quemadmodum etiam Pater Incoffer iam multam impendit pro suis Annalibus farciendis. Ego eiusmodi impensam facere nequeo, proindeque etiam supersedere debeo. Sed quae aliunde conquirere possum pro historia mea uniuersali, quam de Illyrica Natione et eiusdem uera origine scribere coepi, assidua fatigatione conquiro, ita ut ausim dicere me post reditum in Urbem supra quingentos et triginta auctores euoluisse, maxima omnium admiratione atque maximo tum labore meo, tum incommodo, cum auctorum penuriam in Monasterio habeam, sed ad uarias et longe dissitas a Monasterio Bibliothecas, horis determinatis, iisque furtiuis, cursitandum est. 
+</p>
+                  <p>Conscripsi Dialogum unum, de Antiquorum Illyricorum lingua, in quem Dominationem Uestram Reuerendisimam introduxi, nec 
+<add place="above">non</add> Reuerendos Dominos Mixam et Missich atque Dominum Pernar, uarias sententias examinando, ac demum meam stabiliendo, quae est:
+Antiquos scilicet Illiricos: Dalmatas, Istros, Liburnos, Paeones, siue Pannones, Scordiscos &amp;c. eadem lingua usos fuisse, qua hodie utuntur, siue Slauonica ea, siue alia denominatione apelletur.
+Proindeque reiicio somnium illud Blondi, et qui ex Blondo accepit Fausti Uerantii, linguam nimirum hanc, qua hodie Dalmatae, Bosnenses et nos Croatae utimur, allatam fuisse in istas regiones post diui Hieronymi tempora, aeuo uidelicet Iustiniani Principis, in aduentu Slauorum &amp;c., cum longe uetustiorem atque partibus usitatam demonstrem. Dialogum hunc adscripseram Praestantissimo Domino Cardinali Barberino, et fortassis breui typis uulgassem, sed nonnulli amicorum suaserunt
+
+<foreign>dachie bolye biti pripiƷatiga ali bratu CzeƷarowe ƷwetloƷti, ali Ʒynu nyegowomu, od kÿhƷe çhlowek more stogod nadeyati; zatoƷam oƷtawyl.</foreign> Hoc in Dialogo huiusmodi elogium, uerbis ad supremum Cardinalem directis, de Dominatione Uestra feci:
+
+<quote xml:id="RL_Dedicatio">"Tu, Cardinalis amplissime, fac quaeso, grauissimis huius mei Dialogi Personis in umbra Eminentiae tuae consedendi potestatem, et dum ego cum his de Antiquorum Illyricorum lingua disputo, tu Auditoris, ac si lubet, Disceptatoris officio fungi non dedigneris. Duo ex hoc, si non plura, commoda accipies. Nam et Animum Urbis Orbisque curis ac molestiis grauatum releuabis interea, et uiros cognosces integerrimos, tuarum uirtutum studiosissimos Tuaeque Largitatis ac Munificentiae in remotissimis partibus constitutos praecones eloquentissimos.
+Conspicies Reuerendissimum 
+<hi rend="larger_characters">Dominum Benedictum Uincouicz</hi>, in Philosophorum ac Theologorum studiis apprime eruditum, Iuris utriusque Doctorem, in Sacris Literis, Ecclesiasticis rebus, Religionis dogmatibus et Controuersiis, Catholicae Ueritatis fundamentis historicorumque monumentis uersatissimum, qui pectoris sui Bibliothecam, morum Probitatem, uitae Innocentiam atque Integritatem incorruptae Fidei in Deum
+<pb/>et Homines conseruatione ita exornauit, ut quemadmodum rerum omnium cognitione uirtutumque excellentia se admirabilem praebuit et illustrem; neque enim illa inflari, neque hac extolli uisus est unquam; sic seruatâ ubique fidê ad Deum, ad Ecclesiam, ad Caesarem, ad Regem, ad Rempublicam, ad Patriam, ad uniuersos denique et singulos, factus est illustrissimus. Nouit Croatia, in qua natus, nouit Slauonia, nouit Ungaria, norunt Optimates et Proceres, norunt Praelati et Antistites dictorum Regnorum et proximorum, nouit Rex ipse Orbisque Imperator Ferdinandus, qua Hic animi praesentia, qua constantia et firmitate audax intrepidusque publicis in Comitiis Catholicam Religionem, Pietatem in Deum, obseruantiam erga Romanam Ecclesiam, obedientiam et Fidem erga Regem aduersus Haereticorum molimina propugnauit. Non ego hic Antistitis huius in rebus gerendis uigilantiam, non in causarum cognitione diligentiam, non aequitatem in diiudicandis controuersiis, non studium in negotiis conficiendis, non demum laudabiles caeteras Animi affectiones rationesque eiusdem absolutissimas numerabo, quarum intuitu piissimus Caesar, felicis recordationis Ferdinandus Secundus, Romanorum Imperator semper Augustus, et plurimi eum fecit et charissimum habuit usque adeo, ut maiorem eidem in Ecclesia Zagrabiensi Praeposituram primo, deinde Quinqueecclesiensem quoque Praesulatum contulerit. Neque minoris eundem aestimat Inuictissimus Ferdinandus tertius, similiter Romanorum Imperator, catholicae religonis Christanique imperii Hostium debellator gloriosissimus, qui grauiora eidem saepius committere consueuit et praefatam Zagrabiensem Ecclesiam regia munificentia atque authoritate Iuris Patronatus dandam et conferendam duxit.
+Cuius Collationis confirmationem, quod tandem aliquando, post quadriennium, uidelicet, multo sudore ac labore a Sede Apostolica quaesitam acceperit, fauori tuo inprimis et memor et gratus acceptum refert.
+Episcopus certe numeris omnibus absolutus, et quemadmodum Episcopatus honore ornatus, ita purpura ac rubrogalero dignissime decorandus. &amp;c."
+</quote>
+                     <foreign>
+OvakoƷam ya owdi, u chemu akoƷam sto manye ali na kratchie negobiƷe hotilo rekal, Vase GoƷpodƷtwo oproƷtiti.
+Hochiu, ako Bogh da, nadopuniti u drugom meƷtu.</foreign>
+                  </p>
+                  <p>
+Memoriam habeo Diplomatis, et suo tempore habebo.</p>
+                  <p>
+                     <foreign>BoymƷe da hochie stogod doyti na Capitulum i na GoƷpodu Canonike,</foreign>
+ eo quod Breue Apostolicum publicatum sit circa
+
+<sic>Breuiarium et alia Romanum</sic>,
+
+<foreign>a ne</foreign>
+
+executioni demandatum; <foreign>nitÿe verhu toga</foreign>
+Papae supplicatum. Quia autem tanto tempore neglecta sententia in Brevi praescripta, nec non poena ibidem expressa spreta, <foreign>chudno owde zato sepchiu, i day Boshe, daƷe ne pride na</foreign> 
+Interdictum, <foreign>i stogod gore. JatiƷam doƷta odgoworil, chinechi neznati za
+</foreign>
+Breve Apostolicum, quod Dominus Tomcus attulerat, <foreign>ali oni nahode</foreign>
+
+registratum. <foreign>Nistar manye, ako nebude od tude koga podbadavcza, nechie drugo byti. ZastoƷam ya rekal da morebyti
+</foreign>
+morte praepeditus Dominus Tomcus et Episcopus non potuerunt publicare, <foreign>ali daye poghinulo Breve, ter da neznayu zanye. Trebabi dakle</foreign>
+
+remedium
+<foreign>
+                        <choice>
+                           <corr>wzeti</corr>
+                           <sic>wƷeti</sic>
+                        </choice> koliko perwo</foreign>
+
+et consulere omnibus quae euenire possent. <foreign>A rekalƷam na rechi GoƷpodinu Burichiu stobiƷe moglo uchiniti. MenetiƷu byli proƷyli</foreign> 
+pro reformatione
+proprii Breuiarii, <foreign>i dabih na to owdi proƷil dopuschenya; ali to nistar nema chinenya
+</foreign>
+cum reuocatione Breuis iam emanati, quo antiqua Breuiaria et Missalia abrogantur.
+</p>
+                  <pb/>
+                  <closer>
+                     <salute>
+
+De caetero <foreign>nimam sto piƷati, nego GoƷpodin Bogh Vase GoƷpodƷtwo zdrawo darsi wnogo leth na chaƷt i hwalu Ʒwoyu.</foreign>
+                     </salute>
+
+                     <dateline>Roma, 
+<date when="1642-04-23">feria 4. Paschatis 1642.</date>
+                     </dateline>
+
+
+                     <signed>Dominationis Uestrae Reuerendissimae 
+Filius addictissmus
+
+frater Raphael Levakouich</signed>
+                  </closer>
+                  <postscript>
+                     <p>Ut meliori modo memoriae haerere possit commendationis huius meae officium, hic in fine appendo, et
+quacunque animi et studii mei possibilitate tum personam, cum res et negotia Domini Burich commendo, atque ita commendo, ut intelligat is me Maydacum Maydaco commendasse, qui nisi bene sub Dominatione Uestra Reuerendissima pedem fixerint, haud dubio leui procella dispergentur.
+
+ <foreign>Ʒadaye wreme, GoƷpodine, i zato dokle morete, ogledayteƷe na wasse Mandayke, zasto wrydnÿ i doƷtoyni yeƷu,</foreign>
+
+et licet nomen exosum sit, uirtutes tamen etiam apud aduersarios admirantur.
+
+</p>
+                  </postscript>
+
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.08">
+            <front>
+               <div>
+                  <opener>
+Reuerendissimo Domino, in Christo Patri, Domino Benedicto Uincouich, Episcopo Zagrabiensi, Abbati de TopuƷka, Sacrae Caesareae Regiae Maiestatis Consiliario &amp;c., Domino et Patrono colendissimo.
+<dateline>Zagrabiae.
+
+<handShift new="2"/>
+                        <date when="1642-05-24">1642., 24. Maii</date>
+                     </dateline>
+
+                  </opener>
+               </div>
+            </front>
+            <body>
+               <div>
+                  <opener>
+
+                     <salute>
+Reuerendissime Domine Pater in Christo ac Domine Colendissime, 
+Salutem!</salute>
+
+                  </opener>
+                  <p>Nuperrime, quum hinc mouit Dominus Burich, post expletam deuotionis suae uisitationem, dederam eidem litteras omnem rem continentes de negotiis, alias quoque quinto decimo post die per postam misi, demumque per Tabellarium alias hebdomada elapsa.
+
+<hi rend="underline">In ultimis et penultimis sigificaui Ecclesiae et confirmationis expeditionem breui ultimandam. Et fortassis sequenti hebdomada Bullas habebo.</hi> Postquam Propositio facta fuit, uix octo dierum spatio praeterito
+mortuus est Dominus Cerri, cuius officii erat Decreta, Cedulas et Contracedularum signationes Sacri Collegii in similibus expeditionibus dare; eius Mors itaque protraxit Decreti Propositionis exemplar duabus hebdomadis, donec alius eius loco successit.
+Interea Dominus 
+<hi rend="underline">Matkouich</hi> obtenta, aegre admodum, facultate, discessit ad Dominationem Uestram Reuerendissimam properaturus. Detinebit se tribus uel quatuor diebus Bononiae; et si interea Bullas obtinere potuero, ad eundem transferendas mittam; sin minus, dirigere conabor aliqua uia
+
+<choice>
+                        <corr>tuta</corr>
+                        <sic>tutta</sic>
+                     </choice>, uel fortassis ad Dominum Nicolaum Castellum; nam necessario mediator aliquis habendus est, etiam pro epistolarum intermissione; ille autem, ut aestimo, esset ad rem optimus et aptus, cum habeat suos notos Uenetiis et Labaci. Dixi esse necessarium, eo quod uideam fratribus easdem dirigere frustraneum et inutile esse, cum ego nullas a Dominatione Uestra Reuerendissima tanto tempore acceperim, et eadem meas tardissime accipiat, et haud scio an acceperit. Ubi Bullae expeditae fuerint, tentabo Diplomatis confirmationem, uel inserendo, uel mutatis mutandis nouo modo faciendam. Mea quoque prosequar, et siquidem pro uoto euenerint, urgebo ultimationem. Sin alias, ut solet occurrere, tempori inseruiendum erit. Difficultates omnes superatae, excepto eo solo, quod Reuerendissimus Dominus Nuncius Apostolicus nullum unquam responsum dedit. Dominus 
+<hi rend="underline">Krisanich</hi> nescio quid meditetur. Nam in proxima Congregatione praesentis hebdomadae coram Sanctissimo habitae dispensationem siue facultatem petiit 
+<hi rend="underline">Grecorum ritu Sacra peragendi</hi>. Resolutio petitionis remissa fuit ad Congregationem sancti Officii siue Inquisitionis.
+</p>
+                  <p>
+Misi per Dominum Burich compendium Sanchez de Matrimonio.</p>
+                  <closer>
+                     <salute>Hisce
+me Dominationi Uestrae Reuerendissimae commendo et eandem 
+bene ualere precor</salute>. 
+<dateline>Romae 
+<date when="1642-05-24">24. Maii 1642.</date>
+                     </dateline>
+
+                     <signed>Dominationis Uestrae Reuerendissimae
+Filius addictissimus
+
+frater Raphael Leuacouich.</signed>
+
+                  </closer>
+                  <pb/>
+                  <pb/>
+                  <pb/>
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.09">
+            <front>
+
+
+               <div>
+                  <opener>
+                     <date when="1642">1642.</date>
+
+                     <handShift new="3"/>
+Litterae Reuerendi Patris Leuakouich, 
+<date when="1642-07-22">1642. in festo diuae Mariae Magdalenae</date> exhibitae.</opener>
+               </div>
+
+            </front>
+            <body>
+               <div>
+                  <opener>
+                     <salute>Reuerendissime Domine Pater et Patrone Colendissime! </salute>
+                  </opener>
+                  <p>Pridie Natiuitatis Sancti Ioannis Baptistae accepi unas Dominationis Uestrae Reuerendissimae a quodam peregrino, in quibus earum duntaxat meminit, in quibus ego significaueram Ecclesiae propositionem neque per ordinariam neque per secretam uiam factam fuisse. Addit quoque alias ad me direxisse, quas nondum accepi. Nam postquam rescripsit ad me de aduentu 
+<hi rend="underline">Nicolai Matkouich</hi>, quem audio obiisse in Domino, nullas alias habui. Ego meas saepius scribo, sed, ut uideo, incassum. Unde etiam in ultimis, quas ad Dominum Nicolaum Castelli misi, innuebam, quatenus Dominatio Uestra Reuerendissima cum illo pro litterarum missione conueniret. Secus enim uideo esse interceptas, uel alicubi iacere.
+</p>
+                  <p>Negotium mihi est cum Domino Datario pro Bullarum expeditione, qui praetendit Taxae reductionem, et praeter Centum aureos, quos Sacro Collegio dedi, uellet singularem mercedem. Ego ne obulum quidem illi dabo; nam poterit me procrastinationibus uexare et defatigare, non tamen pecunia, prout intendit, denudare. Siquidem ego nullo modo accessissem ad hanc uiam expeditionis, nisi simul et Bullarum expeditionem tum Sacrum Collegium, tum Eminetissimus Dominus Cardinalis Barberinus Uicecancellarius in summam dictorum centum Aureorum inclusissent, atque haec est media uia, de qua scripsi. Ego enim totus in eo fui, ut per uiam secretam expediretur sicuti antea, caeterum Decretum factum de expeditione Ecclesiarum quae non sunt in partibus, obstabat, neque illud Cardinales infringere uoluerunt aut uolunt. Cumque urgerem Dominationem Uestram Reuerendissimam non posse alia uia expedire propter plurimas alias rationes, demumque propter defectum pecuniarum, cum non haberet, dicebam, nisi centum aureos, quos hinc inde collegerat et mutuo acceperat, utpote, cum a centum annis totidem semper Confirmatio habita fuit. Tandem sacrum
+
+<pb/> Collegium assensit, ut, cum ea summa expediretur, quae per uiam secretam, sed ut dicti centum aurei distribuerentur inter omnes participantes, hoc est Collegium, Clericos, Protonotarios, Milites, Scriptores, Datariam, Cancellariam &amp;c., cui illorum determinationi contradicere nequiui. Neque enim in potestate mea est praescribere legem, ne diuideretur, quod datum fuit. Itaque patientia mihi cum Datario utendum est, et iam flecti incipit. Cardinalis Barberinus iuuat nos omni conatu. Dominus Nuntius Uienna scripsit mortuum fuisse Maximum Schismaticum, pseudoepiscopum Ualachorum, plurimumque commendat Zelum et diligentiam Dominationis Uestrae Reuerendissimae, quae ad illum et ad Caesaream Maiestatem sollicite miserit de succesore habendo, qui simul etiam suus suffraganeus fieri posset; promittit quoque se Caesarem allocuturum, quod hactenus factum est. Ego expectabo resolutionem ex inde, unde etiam hic eandem resolutionem assensus sequetur. Non dubito quin Dominatio Uestra Reuerendissima aliquid pro me egerit. Uereor tamen, ne Dominus Cancellarius in aliquam aliam partem detorqueat Caesarem. Hodie uicissim efficaces mittere curaui, ut apud Caesarem pro me agat Nuntius, licet arbitrarim iam conclusum esse. Caeterum, fiat uoluntas Dei.
+</p>
+                  <p>Reuerendissimus Pater Commissarius generalis petiit a me instantissime, quatenus Dominationem Uestram Reueredissimam requisitam facerem, dignaretur assensum praebere de acceptatione Monasterii et Ecclesiae illius, quam milites suis pecuniis aedificarunt Carlostadii.
+Facio libentissime et qua possum ac par est ratione enixe peto, quatenus Dominatio Uestra Reuerendissima id denegare Patribus nolit, quod mihi antea indulserat.
+Ut enim nouit Dominatio Uestra Reuerendissima, Ecclesia Parochialis est in Dubouacz, non Carlostadii, unde 
+<pb/>licet de praesenti Presbiteri saeculares in illa Ecclesia Sacramenta ministrauerint et alias functiones militibus illius Propugnaculi, id tamen minime conuincit iliam Ecclesiam ad illos pertinere. Uerum omnia prudenti iudicio Dominationis Uestrae Reuerendissimae committo, cui me ac mea simul quaeque humiliter commendo. Ubi primum Datarium uicero, curabo alia commissa. Nunc totus in eo sum, ut non excedatur summa 
+<hi rend="underline">100</hi> aureorum iam persoluta. Nimirum ne alii Episcopi 
+<add place="above">Ungariae</add> conqueri possint, neue in exemplum his pecuniarum helluonibus casus noster transire. Ut dixi, Dominus Cardinalis Barberinus fauet parti nostrae, potest et uult.
+
+ <foreign xml:id="hr">IƷtinaye da Ʒam daroual ouomu i onomu, gdÿe triba bilo, i fino,</foreign>
+ ut superarem, <foreign>ali ono stoƷe muchech dariua,</foreign>
+
+non transit in exemplum. <foreign>Datarÿu nigdar ni boba nechiu dati uto ime, a na Ʒuoyu Ʒramotu hochie morati expedouati. Zasto i on dalye Ʒuoy assensum i bylye nazochi,</foreign>
+
+quando gratia facta est.
+
+</p>
+                  <p>Ad Dominum Matkouich duabus uicibus scripsi monuique ne expectaret Bullas, sed maturaret aduentum, plura de omnibus oretenus relaturus. Fortassis iam praestitit cuncta.</p>
+                  <closer>
+                     <salute>
+Hisce Dominationem uestram Reuerendissimam feliciter in Domino 
+diu ualere precor.</salute> 
+                     <dateline>Romae, 
+<date when="1642-06-28">die 28. Juny 1642.</date>
+                     </dateline>
+
+                     <signed>Dominationis Uestrae Reuerendissimae
+Deuotissimus filius
+
+frater Raphael Croata.</signed>
+
+                  </closer>
+                  <pb/>
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.10">
+            <front>
+               <div>
+                  <opener>Reuerendissimo Domino in Christo Patri, Domino Benedicto Uinkouich, Episcopo Zagrabiensi, Abbati de TopuƷka, Sacrae Caesareae ac Regiae Maiestatis Consiliario &amp;c., Domino ac Patrono Colendissimo.</opener>
+                  <dateline>Zagrabiam.
+<handShift new="2"/>
+
+                     <date when="1642-07-05">1642. Iulii 5.</date>
+
+in festo Annae 
+<gap reason="illegible" unit="word"/>
+                  </dateline>
+
+               </div>
+            </front>
+            <body>
+               <div>
+                  <opener>
+                     <salute>Reuerendissime Domine, Pater Colendissime, 
+Salutem</salute>!
+
+</opener>
+                  <p>
+Praeterito Sabbato scripsi, simul sciscitans quomodo mihi negotium esset cum Domino Datario, 
+<hi rend="underline">qui nouam taxam intendebat, tentabat</hi> et uolebat pro Bullarum expeditione. 
+<hi rend="underline">Iam placabilis redditus mitius agit et, spero, expediet breui.</hi> Neque enim quicquam a me amplius accipiet, praeter fatigationem mei corporis, quam necessario impendere debeo. Nunc instatur pro Iuramenti exceptione, et licet dederim replicata Memorialia, necdum rescriptum habere ualui. Denique si desperatum uidero, expediam meliori quo iudicauero modo.
+</p>
+                  <p>Interim Dominationis Uestrae Reuerendissimae litteras accepi super morte Maximi Pietreuicÿ Ualachi, et de aliis, qua de re iam antea intellexeram, sicut in praeteritis meis innui. Ex eo tamen, quod Dominatio Uestra Reuerendissima tres in suo supplici libello nominauerit, omnem spem pro mea persona amisi. Nam Bielauich praesens efficaciori se se modo iuuabit, quamuis et alium sui non deserent fautores. Ualde etiam me offendit, quod Dominatio Uestra Reuerendissima nullitatem meam tantis pretulerit uiris, meque eorum in numero Caesari proposuit, quos sola fama et nulla praegustata experientia aliena fide subolfecit. Uideo, quid sit alienis spebus niti, sed conquaeri
+supersedeo, dispositioni diuinae me omnino submittens. Miror nihilominus, quod tam breui exciderint omnia quodque in mentem non recucurrit, non tres, sed unicum sedi Apostolicae pro suffraganeo 
+<choice>
+                        <corr>porrexisse</corr>
+                        <sic>
+                           <unclear>porriisse</unclear>
+                        </sic>
+                     </choice>. Ubi ego non modicam notam conditionis et aestimationis accipiam, si alius a Caesare eidem sufficietur. Iam enim et litterae datae, et Decretum habitum, neque ulla alia causa ulteriorem progressum distulit, nisi expeditio Dominationis Uestrae Reuerendissimae, quae omnino praecedere debuit quamque, pro uirili, omni studio et labore curaui. Petiit hic me, ni fallor, unicum pro suffraganeo. Apud Caesarem tres proposuit
+<pb/> pro Ualachorum Episcopo, atque ut idem esset etiam suffragneus Dominationis Uestrae Reuerendissimae. Ex quo colligitur aeque alios ac me pro suffraganeo desiderare. Faciat Deus quod bonum est in oculis eius: ego aeque Dominationis Uestrae Reueredissimae ultimatam causam agam et Bullas ad Dominum Castellum dirigam, siue pro me, siue pro aliquo alio ex nominatis resolutio habeatur. Mea sententia esset, quemadmodum etiam hac ipsa posta ad Caesaris Confessarium per amicum quemdam rationes mitto, ne pro praesenti ullus Ualachis Episcopus daretur. Sed ut Suffraganeus tantummodo Dominationis Uestrae Reuerendissimae a Sede Apostolica cito expeditus mitteretur, qui suffraganeatus munere fungens Catholicisque Pontificalia exercens, Ualachos sibi paulatim beneuolos redderet; et ut interea Gabrillo, spe futura abitus, in Macedoniam uel alio, praetextu studendi, ablegaretur, uel certe Romam optatum consecuturus, et a sede Apostolica petiturus Episcopatum mitteretur, praeclusa uia eundi et reuertendi in partes Turcarum quibusuis Callogeris. Erunt non spernendae meae rationes: sed tarde, ut dicitur, uenient. Iam enim arbitror negotium expeditum. Si Dominum Bielauich Caesar proponet, easdem patietur difficultates, quas in praesens passus est propter sinistras de eodem tunc perscriptas delationes. Uiderint et respondebunt, qui scripsêre. Isque interea stabit in praesenti statu.
+</p>
+                  <!-- Closer počinje u istom paragrafu. -->
+                  <closer>
+                     <salute>Hisce me Dominationi Uestrae Reuerendissimae deuinctissimum semper fore protestor, quam Deus diu 
+seruet incolumem</salute>. 
+<dateline>Romae, 
+<date when="1642-07-05">5. Iulii 1642.</date>
+                     </dateline>
+
+                     <signed>Dominationis Uestrae Reuerendissimae
+Deuotissimus filius
+
+frater Raphael Croata.</signed>
+
+                  </closer>
+                  <postscript>
+                     <p>Scripsi etiam hodie ad Dominum Istuan Deak et literas ad Dominum Nuntium misi.</p>
+                  </postscript>
+                  <pb/>
+                  <pb/>
+               </div>
+            </body>
+         </text>
+         <text type="epistula" xml:id="P.11">
+            <front>
+               <div>
+                  <opener>Litterae Reuerendi patris Raphaelis Leuakouicz die 
+<date when="1642-08-16">16. Augusti anno 1642.</date> ad Benedictum Uinkouich scriptae et per eundem 
+<date when="1642-09-02">2. Septembris anno eodem</date> perceptae.</opener>
+               </div>
+            </front>
+            <body>
+               <div>
+                  <opener>
+                     <salute>Reuerendissime Domine Pater, 
+Salutem ac meam humilem Commendationem!"
+ </salute>
+                  </opener>
+                  <p>De negotio Episcopatus Ualachorum non est cur scribam aut alia addam, quam quae praeteritis meis abundantissime exposui. Ex litteris attamen Dominationis Uestrae Reuerendissimae sub 15. 
+<date when="1642-07-15">
+                        <date when="1642-07-27">
+                           <add place="above">et 27.</add> Iulii
+</date>
+                     </date> ad me datis atque 
+<date when="1642-08-14">14. praesentis</date> acceptis optime coniicere ualeo  quid profecerit apud Reuerendissimum Dominum Strigoniensem boni Fauillae mendax fauilla, cum memoriam meam quantulamcunque in eius pectore ignescentem extinguere ualuerit adeo, ut si nullus alius pro Ualachis, saltem ego occurere potuissem. Caeterum, haec res aeque me turbat ac reliqua, quae ab humanis pendent uoluntatibus; quibus fidere stultissimum arbitratus sum semper, turbari summam aestimo insaniam. Dominationis Uestrae Reuerendissimae et meum optimum animum nouit scrutator cordium Deus, qui suis temporibus occultas ob causas atque ob imperscrutabiles rationes utitur saepius secundis causis destruentibus conatum bonarum intentionum eorum, qui bona meditantur in Uinea et Lege Domini. Mihi parum interest si hominibus ignotus sum et in obliuione iaceam, cum mea optima uoluntate spero me merito ultra condignum a Domino fraudari minime. Siquidem si non in patria, alibi certe etiam uitam proposuerim amittere pro salute Schismaticorum, praesertuim qui nostri sunt Idiomatis. Quare sciat me non mutasse sententiam, sed in proposito firmissime manere: det solummodo Deus gratiam et uota secundet, sine quo possumus nihil.
+</p>
+                  <p>Quae ad me scribit de tribus Consiliariorum opinionibus, ea sibi persuadeat, ex mea potissimum ad Caesaris Confessarium missa instructione emanasse, in qua illud conatus sum persuadere politicis rationibus (quum hae potentiores sut modo), quatenus Ualachis nullus daretur Episcopus, ast spe duntaxat fouerentur, cum aliis de quibus etiam ad Dominationem Uestram Reuerendissimam scripsi in iis, quas ad eandem (super morte Maximi respodens) dedi 
+<date when="1642-07">mense praeterito</date>.
+</p>
+                  <p>Misi etiam postea ad Nuncium par eiusdem Instructionis et curaui eidem efficacissime commendari, eo ut laboraret
+<pb/> modo apud Sacratissimam Maiestatem, ne uidelicet Ualachis Episcopus daretur; sed ubi ego suffraganeatum expediuero, mihi conuersionis illorum negotium committeretur, ablegato interea Grabrilo Callogero ad Montem Sanctum in Macedoniam, uel alio, praetextu studiorum. Uidebims quid efficiet, si tamen efficiet: nam si uera fama est, haud dubio Caesarea Maiestas curabit potius Suecum propellere Morauiam uastantem et ad suburbia Uiennae procurrentem, quam Ualachorum Episcopatum examinare.
+</p>
+                  <p>Caeterum, quod Synodum publicauerit, optime fecit. Nam legitime fecit tamquam legitimus et confirmatus Ecclesiae Zagrabiensis Pastor.  Bullas mittam uel per postam, uel per 
+<hi rend="underline">Dominum Krisanich, qui se breui itineri accingit</hi>. Quarum expeditionem post alia hoc quoque protraxit, quod formula excipiendi Iuramenti mutari debebat, secundum quod Dominatio Uestra Reuerendissima mihi commiserat uerbo et litteris, atque propterea Pontifici supplicatum fuit, dignaretur alicui ex nominatis de Reuerendis Dominis Canonicis eiusdem exceptionem committere. Sequenti hebdomada spero me easdem infallibiliter habiturum, quoniam sic Datario Eminentissimus Barberinus hesterna die me praesente iussit.
+</p>
+
+                  <p>
+                     <add place="margin_left">Dominatio Uestra Reuerendissima differat celebrationem Synodi ad aliud tempus donec Bulla uenerit propter particulam qua solent poni in ipsis de celebratione Synodorum.</add>
+                  </p>
+
+                  <p>Quod Romae moram traham, non est ut aliud dicam, praeter id quod uerum est. Obedientia facit. Religiosus ego illius ordinis, qui speciali modo pedibus Sacrosanctae Romanae Ecclesiae subiacet. Numquid ergo uocationis 
+<gap reason="illegible_overstrike" unit="word"/>atque professionis meae immemor esse deberem, etiam si ad mortem usque Romae spatiari deberem? Dominatio Uestra Reuerendissima longe diuersi status, ex eo tamen quod Episcopus, immo et ex eo solo quod Christianus Catholicus esset, in tam prouecta aetate non negligeret arbitror Romam se se conferre atque in eadem morari, si a supremo Ecclesiae et omnium Catholicorum Patre eidem serio committeretur.
+</p>
+                  <p>Negotium interea suffraganeatus pendet tum propter illa, quorum exitum Uienna praestolamur, tum etiam propter absentiam
+<pb/>Cardinalis Spadae, cui a Sanctissimo demandatum fuit. Bonum esset interea ut Dominatio Uestra nouas litteras scriberet et ad eundem Eminentissimum Dominum Cardinalem Spadam eique negotium commendaret petendo celerem expeditionem. Sed et alias ad Eminentissimum Dominum Francisum Barberinum scribere opus esset gratias eidem agendo de fauore exhibito in confirmationis expeditione, deinde ab eodem etiam petendo de Suffraganeatus celeri expeditione, simul et Casum Ualachorum et meam habilitatem intrudendo. Nam Cardinalis Barberinus ualde amat eiusmodi officia, multoque propensiorem se reddit ad alia, cum pro exactis gratiae sibi actae fuerunt.
+</p>
+                  <p>
+                     <hi rend="underline">Interea ego Dialogum meum eidem obtuli, quem magna auiditate lectitauit, et</hi> adhuc detinet. Iussitque mihi Tractatum de Patria Sancti Hieronymi in meliorem formam redigere, nimirum in Capita distribuere. Nam quem conscripseram indiuisus est, utpote 
+<choice>
+                        <corr>rhapsodiae</corr>
+                        <sic>rapsodiae</sic>
+                     </choice> cuiusdam effigiem 
+<choice>
+                        <corr>refferens</corr>
+                        <sic>referens</sic>
+                     </choice>. Non erat animus hunc uulgandi, praesertim cum priuato studio eundem mihi soli conscripsissem. At ille subolefecit me aliquid conscripsisse, eo quod loco quodam in dialogo exciderat mihi interscribendum me demonstrasse errorem illorum, qui Hieronymum uel in Istria uel in Dalmatia progenitum dicunt. Hunc itaque modo prae manibus habeo. 
+<hi rend="underline">Historiolam Ecclesiae Zagrabiensis intermissam habeo</hi>, quum praeter illa, quae istic collegeram satis confuse, nihil habeo, neque Domini Canonici quicquam dederunt, aut transmiserunt. Alii omnes ex Hungaria praestantiora quaeque ad Patrem Incoffer transmiserunt, qui eadem suis annalibus inseret. Legentur haec, memoria autem nostra peribit, incuriâ nostrâ.
+</p>
+                  <p>
+Repeto quod lateri superius apposui: bene fecit, quod Synodum intimauit. Eam tamen non 
+<gap reason="illegible_overstrike" unit="word"/>celebret, sed differat. Nam hoc modo ea Dominus Cardinalis Barberinus mihi dixit, ne uidelicet hoc exemplo aliis impune idem facere fores aperirentur.
+</p>
+                  <p>
+Uersamur in angustiis propter bella, quae pullulant, et quae negotia praepediunt omnia.</p>
+                  <pb/>
+                  <p>Ad secundas non est quid addam. Nam excusationes, de actis in memoriali Caesari dato, quas apud me fecit, non erat necesse mecum fieri. Sufficit mihi bonus affectus Dominationis Uestrae Reuerendissimae, 
+<choice>
+                        <corr>etsi</corr>
+                        <sic>est</sic>
+                     </choice>nunquam futurus essem suffraganeus. Ego curabo quantum potero expedire bullas et easdem, ut dixi, mittere, quibus habitis celebret Synodum.
+</p>
+                  <closer>
+<!-- Closer počinje u istom paragrafu. -->
+                     <salute>In reliquo totum me Dominationi Uestrae Reuerendissimae commendo.</salute> 
+                     <dateline>Romae, 
+<date when="1642-08-16">die 16. Augusti 1642.</date>
+                     </dateline>
+                     <signed>
+Eiusdem Dominationis Uestrae Reuerendissimae
+filius deuotissimus
+
+frater Raphael Croata.</signed>
+
+                  </closer>
+               </div>
+            </body>
+         </text>
+      </group>
+   </text>
+</TEI>

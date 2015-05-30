@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+        <fileDesc xml:id="crijev-i-epidauro">
+                <titleStmt>
+                        <title>De Epidauro, versio electronica</title>
+                        <author key="crije02">
+                                <name xml:lang="hr">Crijević, Ilija</name>
+                                <date>1463-1520</date>
+                        </author>
+                        <editor xml:id="DN">Darko Novaković</editor>
+                        <respStmt>
+                                <resp>Hanc editionem electronicam curavit</resp>
+                                <name>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </name>
+                        </respStmt>
+                </titleStmt>
+         <editionStmt>
+            <edition>
+               Tekst priređen za kritičko izdanje (2004).
+            </edition>
+         </editionStmt>
+                <extent ana="C">Mg:C 573 versus, verborum 3825</extent>
+         <publicationStmt>
+            <p>TEI XML verzija priređena u okviru znanstvenog projekta Hrvatska latinistička epika,
+            (Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska). <date>Lipnja
+                2014.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>D. Novaković, "Autografi Ilije Crijevića (I): Vat. lat. 1678", Hrvatska književna baština, knjiga 3, Zagreb 2004, str. 9–251.</bibl>
+            <bibl>Vat. lat. 2939, VIv-VIIr
+               <note>Usporedio uvodni tekst s izdanjem D. Grabovac, 2013 (dosta netočnosti na obje strane).</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+        <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+                        <date notAfter="1506-03-09" period="15xx_1_third">1506-03-09</date>
+                        <placeName>Dubrovnik</placeName>
+                </creation>
+         <textClass>
+                        <keywords scheme="typus">
+                                <term>poesis</term>
+                                <term>paratextus prosaici</term>
+                        </keywords>
+                        <keywords scheme="aetas">
+                                <term>Litterae renatae (1400-1600)</term>
+                                <term>Saeculum 15 (1401-1500)</term>
+                                <term>Saeculum 16 (1501-1600)</term>
+                                <term>1451-1500</term>
+                                <term>1501-1550</term>
+                        </keywords>
+                        <keywords scheme="genre">
+                                <term>poesis - epica</term>
+                        </keywords>
+                </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+            <date>2014-06-23</date>
+            Izdvojio Epidaur zbog epike. Dodao prozni uvod.
+         </change>
+        <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </name>
+                <name>Luka Špoljarić</name>
+                <date>2012-02-18</date>
+                Novo, unificirano zaglavlje.
+        </change>
+        <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref> 
+            </name>
+                <date>2012-01-01</date>
+                Uglate zagrade &gt; corr resp="DN"
+                militae &gt; corr. militiae
+        </change>
+        <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref> 
+            </name>
+                <date>2011-12-17</date>
+                TEI zaglavlje.
+        </change>
+        <change>
+                <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref> 
+            </name>
+                <date>2011-12-13</date>
+                Dvaput brojevi stihova premješteni u n atribut.
+        </change>
+         <change>
+            <name>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref> 
+            </name>
+            <date>2011-11-28</date>
+        TEI formatiranje, svaka pjesma posebno, stihovi, krajevi folija, zaglavlje.
+    </change>
+         <change>
+            <name> </name>
+            <date>2005-01-29T00:21:00</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="prosa-praefatio">
+            <milestone unit="page" n="VIb"/>
+            <p>
+               Quod non solum Graecos, sed etiam Romanos auctores in suis theatris factitasse memoriae proditum est, hoc ego non sum reueritus facere, presertim hoc tempore nouum Poema recitaturus de maioribus uestris, hoc est Epidauro Romana Colonia, in quo sane sin minus ingenio saltem amore atque beniuolentia erga patriam laudabimur; alioquin proderit me hoc uobis emendandi operis gratia priusquam publicetur recitasse. Nam ut stilus et usus magister est, sic etiam auditorum consessus, hominum concursus et expectatio, recitantis pallor et iudicii metus, multorumque censura multo magis quam paucorum emendat, praesertim cum legimus, non dicimus, neque incendimus, sed citra ullum affectum consulimus auditores. Quare prestat recitantis scripta quam dicentis uerba laudari. In illis <sic>enim</sic> mera lucubratio et ingenii uis, in his uero et extrorsum quamplurima commendantur lenocinia; nanque uiuida uox, gestus
+               <milestone unit="page" n="VII"/>
+               animi motibus pares, corporisque uigor et manus et oculi non minus quam <corr>oratio</corr> plaerunque auditorum aures eblandiuntur. Sedentis uero refrigerata lectio et quasi mortua, quo minus incendit, minus audientium iudicia praeuertit. Iuuabit igitur me non solum recitando sed etiam culpando proficere neque meam editionem temere et inconsulte <sic>precipitasse</sic>; sciens enim non fallor: quicquid uobis est dedicandum diu multumque <add resp="#crije02">a</add> pluribus examinari oportere seruarique; quod ille <sic>praecipit</sic>, <q>nonumque prematur in annum</q>. Caeterum <corr resp="#crije02">hic</corr> dies celebrandae patriae potissimum electus est quod in <corr resp="#crije02">illo</corr> 
+               <expan>Sanctissimi</expan> martyres, quibus benemerentibus maiores nostri tot honores decreuerant, non solum conseruandae libertatis sed etiam publicę salutis a perniciosissimis ciuibus auctores fuerunt, ut mihi non alia ratio illustrandae ciuitatis quam illis seruandae et adserendae ab ultimo periculo fuisse <sic>uideatur</sic>.
+            </p>
+         </div>
+      </front>
+      <body>
+
+         <pb n="155"/>
+         <div type="poesis-epica" met="hexameter">
+            <head>3.</head>
+            <l n="7.3.1">Est Socolitanum castelli nomine saxum</l>
+            <l n="7.3.2">Deserto sub monte loco, quod surgit in auras</l>
+            <l n="7.3.3">Vertice praeruptum summo, ab radicibus altis</l>
+            <l n="7.3.4">Saxum horrendum, ingens, et formidabile uisu;</l>
+            <l n="7.3.5">Desuper usque adeo specula prospectat ab alta, </l>
+            <l n="7.3.6">Vndique cinxerunt asperrima saxa fragosis</l>
+            <l n="7.3.7">Rupibus et cautes auulsae a montibus altis.</l>
+            <l n="7.3.8">A tergo ii sese circum flexere theatri</l>
+            <l n="7.3.9">In speciem, quos nec saxosos esse putares,</l>
+            <l n="7.3.10">Sed saxa: horrorem sic per decliuia uastum </l>
+            <l n="7.3.11">Vsque ad radices lapidoso e uertice seruant.</l>
+            <l n="7.3.12">Cunctaque saxorum magnis adoperta ruinis</l>
+            <l n="7.3.13">Vestiri et late uideas uastescere circum; </l>
+            <l n="7.3.14">Mollescit facies paullatim a fronte, nec omnis</l>
+            <l n="7.3.15">Terra riget cultuque rudis natura polita est </l>
+            <l n="7.3.16">Adsiduo et durus – nisi quatenus area calua est – </l>
+            <l n="7.3.17">Exossatus ager, promotaque finibus auctis</l>
+            <l n="7.3.18">Terra laborantum studiis accrescere gaudet.</l>
+            <l n="7.3.19">Inferius segetes laetantur cultaque passim</l>
+            <l n="7.3.20">Aequora lata patent parcoque undantia Baccho: </l>
+            <pb n="155v"/>
+            <l n="7.3.21"> Nanque illi quota pars terrae praescripta nec audet</l>
+            <l n="7.3.22">Lege sibi iussos tantillum excedere fines,</l>
+            <l n="7.3.23">Verum interdictae quocunque a limite uites.</l>
+            <l n="7.3.24">Hic Cereri deuotus ager, totumque ferendis</l>
+            <l n="7.3.25">Frugibus indulget uetitum est quodcunque Lyaeo. </l>
+            <l n="7.3.26">Sed me complexi montes utrinque recludunt</l>
+            <l n="7.3.27">Ne mea tam longos Socolus custodia tractus</l>
+            <l n="7.3.28">Aestimet, et dextra laeuaque recondita nostris</l>
+            <l n="7.3.29">Planities oculis binis scatet amnibus et tot</l>
+            <l n="7.3.30">Exundat riuis. Nam dextri montis aquosum </l>
+            <l n="7.3.31">Per latus erumpit dulcique sonantibus undis</l>
+            <l n="7.3.32">Murmure Gluta celer uitreis deuoluitur undis;</l>
+            <l n="7.3.33">Inde supercilio laeui Vodouallia montis </l>
+            <l n="7.3.34">Tam puro de fonte cadit, rotat utraque plures</l>
+            <l n="7.3.35">Vnda molas, fruges operosaque machina frangit, </l>
+            <l n="7.3.36">Totque rotae celeres uersantur, aquatile nunquam</l>
+            <l n="7.3.37">Interspirat opus, magnis furit aestibus unda</l>
+            <l n="7.3.38">Et mola dat strepitus, uersatilis orbita, magnos.</l>
+            <l n="7.3.39">Hinc sese expediunt ambo fluuiique uoluti</l>
+            <l n="7.3.40">Per medios spatiantur agros interque feruntur </l>
+            <l n="7.3.41">Tot laetas segetes, hominumque boumque labores.</l>
+            <l n="7.3.42">Sed uelut emeritis cito cursibus, ecce propinquum</l>
+            <l n="7.3.43">Subter labuntur montem et radicibus imis</l>
+            <l n="7.3.44">In pelagus fluuiis per subterranea lapsis</l>
+            <l n="7.3.45">Sorbentur. Verum pluuiis crassantibus illos </l>
+            <pb n="156"/>
+            <l n="7.3.46"> Heu male frenat hyems, frenis ac lege teneri</l>
+            <l n="7.3.47">Indociles ambo. Nam cum nouus ingruit imber,</l>
+            <l n="7.3.48">Vna palus campos omnes simul aruaque mersat</l>
+            <l n="7.3.49">Dilluuio quodam et late stagnantibus undis.</l>
+            <l n="7.3.50">Mox alia in sudo mandantur semina caelo </l>
+            <l n="7.3.51">Cum semel efluxit uitium breue plusue minusue</l>
+            <l n="7.3.52">Menstrua tempestas campis fugitiua relictis.</l>
+            <l n="7.3.53">Nec procul a nobis uestigia parua supersunt</l>
+            <l n="7.3.54">Relliquiaeque breues Epidauri et littora nuda:</l>
+            <l n="7.3.55">Quod breue nos inter decimus lapis interuallum </l>
+            <l n="7.3.56">Metitur, medium quodcunque interiacet aruis,</l>
+            <l n="7.3.57">Dedita planities fundis per amoena propinquis</l>
+            <l n="7.3.58">Rura, suburbanique soli noua praedia quondam,</l>
+            <l n="7.3.59">Nunc quoque nec steriles campi nec lassa colendo</l>
+            <l n="7.3.60">Aut effoeta seges. Verum praetoria restant </l>
+            <l n="7.3.61">Nulla uetustatis, licet illa fuisse probemus</l>
+            <l n="7.3.62">Saxorum magnis per tot fragmenta ruinis</l>
+            <l n="7.3.63">Ruderibusque nouis. Squallent magalia paruae</l>
+            <l n="7.3.64">Nunc angusta casae, duris habitata colonis;</l>
+            <l n="7.3.65">Vnum illustre tamen monimentum et nobile restat, </l>
+            <l n="7.3.66">Vrbis aquaeductus, quem nulla oblitterat aetas:</l>
+            <l n="7.3.67">Materies adeo magni est operosa laboris,</l>
+            <l n="7.3.68">Ferrea durities calcis, quae tempore nullo</l>
+            <l n="7.3.69">Trita est, adsidue quamuis calcetur eundo.</l>
+            <l n="7.3.70">Sic ubi ductus aquae fuerat, nunc semita facta est </l>
+            <pb n="156v"/>
+            <l n="7.3.71">Atque uiae regio de nomine dicta Canalis.</l>
+            <l n="7.3.72">Hoc iter ingressus Vodouallia uectus ad urbem, </l>
+            <l n="7.3.73">Qua uia nunc ducit bis septem millibus; hinc tu</l>
+            <l n="7.3.74">Agnoscas hominum uestigia certus et urbis</l>
+            <l n="7.3.75">Antiquum decus et reliquam metire figuram. </l>
+            <l n="7.3.76">Sed quoniam nobis Epidauri mentio facta est, </l>
+            <l n="7.3.77">Ducimus unde genus, proauos ab origine prima</l>
+            <l n="7.3.78">Incipiam memorare meos. Mihi parua Quiritum</l>
+            <l n="7.3.79">Effigies, Rhacusa, faue: tua nanque canenda </l>
+            <l n="7.3.80">Nobilitas gentisque tuae cunabula nobis </l>
+            <l n="7.3.81">Continuumque genus multisque obscura Camoenis</l>
+            <l n="7.3.82">Illustrabo meis. Vos muneris abdita quarum</l>
+            <l n="7.3.83">Rimari et meminisse, de<add resp="DN">a</add>e, et memorare canendo,</l>
+            <l n="7.3.84">Si qua ignota latent multosque sepulta per annos,</l>
+            <l n="7.3.85">Quae Mors et nigris Obliuio decolor alis </l>
+            <l n="7.3.86">Occulit, in lucem reuocate et ferte sub auras!</l>
+            <l n="7.3.87">Barbara Romanis urbs est formata colonis,</l>
+            <l n="7.3.88">Quam ueteres dicunt Epidaurum, millibus a qua</l>
+            <l n="7.3.89">Dalmaticus distat centum Naro; Plinius orbis</l>
+            <l n="7.3.90">Describit qua parte situs – ne pignoris expers </l>
+            <l n="7.3.91">Aut sine teste loquar per inania carmina – nobis</l>
+            <l n="7.3.92">Pagina testatur celeberrima. Nobilis hospes</l>
+            <l n="7.3.93">Hanc urbem propter (si non mentita uetustas</l>
+            <pb n="157"/>
+            <l n="7.3.94">Hieronymusque sacer, monimentis insita cuius </l>
+            <l n="7.3.95">Fama est) Hyllarion uixit. Tam uera loquuntur </l>
+            <l n="7.3.96">Addita Caesareis si commentaria libris, </l>
+            <l n="7.3.97">Caesaris hac etiam bellis ciuilibus urbe</l>
+            <l n="7.3.98">Praesidium mansit. Sed ne te nomine gentis</l>
+            <l n="7.3.99">Ambiguo fallas, aduerte; docebere nobis</l>
+            <l n="7.3.100">Protinus. Est duplex Epidaurus: nobilis illo </l>
+            <l n="7.3.101">Altera, qui dictus deus est Epidaurius, angue; </l>
+            <l n="7.3.102">Hanc Graii generis perhibent temploque draconis</l>
+            <l n="7.3.103">Paeonii celebrant insignem. Ast altera nostra est,</l>
+            <l n="7.3.104">Agarena manus quam sustulit, et noua rursus </l>
+            <l n="7.3.105">Et melior, quae uix cladem reminiscere possit </l>
+            <l n="7.3.106">Antiquam: usque adeo potiori pube propagat</l>
+            <l n="7.3.107">Ragusam celebrem et de stragibus eruta surgit</l>
+            <l n="7.3.108">Sarranis. Certis auctoribus ecce repertam</l>
+            <l n="7.3.109">Gratulor, agnosco reducem post saecula matrem.</l>
+            <l n="7.3.110">Tertia uicino est Epidamnus nomine, quam mox, </l>
+            <l n="7.3.111">Dum ueteres omen damni sentire uerentur, </l>
+            <l n="7.3.112">Dyrrachium potius dixere, quod ausa uocare</l>
+            <l n="7.3.113">Indocti toties Epidaurum inscitia uulgi.</l>
+            <l n="7.3.114">Hoc tamen emendant uitium plaerique, sed urbem,</l>
+            <l n="7.3.115">Quod pudet, ignorant Epidaurum in littore nostro. </l>
+            <l n="7.3.116">Nam licet – ut perhibent – pauca et felicia quondam</l>
+            <l n="7.3.117">Nomina, nec celebri memoratu digna fuerunt:</l>
+            <pb n="157v"/>
+            <l n="7.3.118"> Attamen hic solus, quod eodem auctore docemur,</l>
+            <l n="7.3.119">Illyrico titulus clarescit ab usque Narone.</l>
+            <l n="7.3.120">Quod uero hanc multi tacitam dimittere passi, </l>
+            <l n="7.3.121">Huic damus errori ueniam. Nam saepe uidemus</l>
+            <l n="7.3.122">Non uulgus, uerum proceres peccare bonosque </l>
+            <l n="7.3.123">Scriptores falli: non omnibus omnia constant,</l>
+            <l n="7.3.124">Multaque scire licet, non cuncta; erroribus omnes</l>
+            <l n="7.3.125">Vrgemur nostrumque minus procliue doceri </l>
+            <l n="7.3.126">Quam falli ingenium, diuersaque multa tenentur,</l>
+            <l n="7.3.127">Et fugiunt alios alia. Hinc damnabile quicquid</l>
+            <l n="7.3.128">Nescitur, minus est, alienis nostra uicissim</l>
+            <l n="7.3.129">Aeque absoluuntur delicta, reciproca nobis</l>
+            <l n="7.3.130">Nos inter uenia est: scabimus per mutua semper. </l>
+            <l n="7.3.131">Quo mage scriptores aequum est sibi parcere iustos,</l>
+            <l n="7.3.132">Quod quicquid peccant, magna uirtute rependunt.</l>
+            <l n="7.3.133">In gemmis uitium est, maculae nec marmoris omnes,</l>
+            <l n="7.3.134">Non<note place="foot" n="62">3,134 Non <emph>suprascriptum</emph>:
+                  Atque</note> omnis pulcro est inhonestus corpore naeuus.</l>
+            <l n="7.3.135">Quod si praeterita est magni scriptoribus orbis </l>
+            <l n="7.3.136">Vna tot et tantis ex urbibus, haud mihi multum</l>
+            <l n="7.3.137">Culpanda est parua haec incuria: nanque uidetur</l>
+            <l n="7.3.138">Dote sui merito reliqui redimenda laboris.</l>
+            <l n="7.3.139">Verum illis quantum uel non poscentibus ultro</l>
+            <l n="7.3.140">Praebendum uenię, quos gloria magna tuetur, </l>
+            <l n="7.3.141">Tam uerae dabimus laudis scriptoribus illis,</l>
+            <pb n="158"/>
+            <l n="7.3.142"> Defecisse sui quos nulla parte laboris</l>
+            <l n="7.3.143">Cernimus: esse hominis non haec operosa uidetur</l>
+            <l n="7.3.144">Sedulitas, uerum diuina industria, si qua est.</l>
+            <l n="7.3.145">Ast aliquis culpam hanc, auctoribus utpote magnis, </l>
+            <l n="7.3.146">Vt falsam impatiens impingi, crimen in urbem</l>
+            <l n="7.3.147">Indictam regerat, dicturus forsitan: »Esto:</l>
+            <l n="7.3.148">Iam fuerit; tamen haec obscura, ingloria, uilis,</l>
+            <l n="7.3.149">Neglecta<note place="foot" n="63">3,149 Neglecta
+                     <emph>suprascriptum</emph>: Indicta</note> est!« Quod si detur, uestigia
+               quamuis</l>
+            <l n="7.3.150">Multa negant, tamen hoc dicendum: obscura fideles </l>
+            <l n="7.3.151">Oppida scriptores multoque minora recensent,</l>
+            <l n="7.3.152">Nec uideo quare Romana colonia tantum</l>
+            <l n="7.3.153">Contemni meruit simulacra uel umbra Quiritum.</l>
+            <l n="7.3.154">Hinc magis illorum est, urbis quam culpa, locorum,</l>
+            <l n="7.3.155">Atque orbis quicunque situs scripsere quod illa </l>
+            <l n="7.3.156">Indaganda fuit. Vasto tamen orbe latere</l>
+            <l n="7.3.157">Quid mirum, ignotis tot gentibus inque repertis,</l>
+            <l n="7.3.158">Hanc unam? Quod si iam copia nulla fuisset</l>
+            <l n="7.3.159">Scriptorum, celebris quaecunque ignobilis esset</l>
+            <l n="7.3.160">Nobilitas; omnis terrarum, omnisque perisset </l>
+            <l n="7.3.161">Cognitio rerum et cunctae sine nomine gentes,</l>
+            <l n="7.3.162">Ignotae, uiles, orbisque obscurior esset.</l>
+            <l n="7.3.163">Ergo adeo notus celebris scriptoribus illi</l>
+            <l n="7.3.164">Debeat; hinc quicquid nostra haec incognita tellus,</l>
+            <l n="7.3.165">Illorum nobis penuria praestitit. Ergo, </l>
+            <pb n="158v"/>
+            <l n="7.3.166"> Incumbit maior mihi sarcina, meque fatigat</l>
+            <l n="7.3.167">Hoc grauior moles, quod nunc sub pondere tanto</l>
+            <l n="7.3.168">Marte laborandum est nostro; nam pene sepulta</l>
+            <l n="7.3.169">Nomina quaeque situs obscurauere uetusti,</l>
+            <l n="7.3.170">Detergunt cariem et caelo donantur et astris. </l>
+            <l n="7.3.171">Iamque emersa suis Epidaurus tota tenebris</l>
+            <l n="7.3.172">Eruitur putrique e puluere sidera cernit,</l>
+            <l n="7.3.173">Vtque nouis ales uestito corpore plumis</l>
+            <l n="7.3.174">Praepetibus gaudet pennis uolitare per orbem.</l>
+            <l n="7.3.175">Sed quia momento mortalia saecla uidemus </l>
+            <l n="7.3.176">Mutari et uariare uices, quis semine paruo</l>
+            <l n="7.3.177">Nesciat exiguoque urbes adolescere coetu,</l>
+            <l n="7.3.178">Corpus et in magnum spargi crescentibus annis</l>
+            <l n="7.3.179">Et uires augere suas? Infirmior aetas</l>
+            <l n="7.3.180">Et quasi nascentes infantia primitus urget; </l>
+            <l n="7.3.181">Hinc annis postquam florent impuberis aeui</l>
+            <l n="7.3.182">Paullatimque rudes puerili corpore gaudent</l>
+            <l n="7.3.183">Crescere, sanctarum placido moderamine legum</l>
+            <l n="7.3.184">Formantur lususque nouos melioribus annis</l>
+            <l n="7.3.185">Exercent; doctis, ceu pollice caera, magistris </l>
+            <l n="7.3.186">Finguntur memoresque notas addiscere gaudent,</l>
+            <l n="7.3.187">Prima rudimenta et uarias flectuntur in artes.</l>
+            <l n="7.3.188">Mox simul imbelles animos robustior aetas</l>
+            <l n="7.3.189">Exclusit magnoque calent in corpore uires,</l>
+            <pb n="159"/>
+            <l n="7.3.190"> Artibus insudant operandis, uomere terram </l>
+            <l n="7.3.191">Praeualido, magnis proscindunt classibus aequor;</l>
+            <l n="7.3.192">Tum tyrocinium belli studiumque uigescit</l>
+            <l n="7.3.193">Militiae et uentos iuxta tolerare niuales</l>
+            <l n="7.3.194">Et calidos discunt aestiuo in puluere soles,</l>
+            <l n="7.3.195">Cumque siti perferre famem atque adsuescere paruo, <note type="numvers">195</note></l>
+            <l n="7.3.196">Erumnasque graues mortesque et uulnera sola</l>
+            <l n="7.3.197">Laude paciscuntur: uictoria sanguine tanto</l>
+            <l n="7.3.198">Laetior et uiridis palmae noua gloria constat.</l>
+            <l n="7.3.199">Sed desudatis paullum cessatur ab armis, </l>
+            <l n="7.3.200">Consulitur paci, pollent aetate uirili </l>
+            <l n="7.3.201">Consilia et leges et iura et copia fandi</l>
+            <l n="7.3.202">Et noua maturis pendet prudentia canis:</l>
+            <l n="7.3.203">Tunc illustrandis monimenta fidelia rebus</l>
+            <l n="7.3.204">Conduntur, florent scriptoribus ocia magnis, </l>
+            <l n="7.3.205">Inde reuiuisci mortalia saecla uidentur </l>
+            <l n="7.3.206">Interdicta mori mansuris insita carthis;</l>
+            <l n="7.3.207">Immemorisque aeui diraeque obliuia mortis</l>
+            <l n="7.3.208">Nigra ualent: tanta est uirtus felicibus annis! </l>
+            <l n="7.3.209">Iam deflorescit tota et delabitur aetas</l>
+            <l n="7.3.210">In senium praeceps, et inertia corpora mensque </l>
+            <l n="7.3.211">Deficere effoetis iam uiribus aegra uidentur,</l>
+            <l n="7.3.212">Membra resoluuntur uicino morbida laeto:</l>
+            <l n="7.3.213">Mors, tumulus, manes et fabula uana sequuntur.</l>
+            <l n="7.3.214">Sic urbes uiuunt, pariter moriuntur et ipsae</l>
+            <pb n="159v"/>
+            <l n="7.3.215"> Mortales: tanti est series mutabilis aeui! </l>
+            <l n="7.3.216">Sic currunt anni et secum simul omnia uersant,</l>
+            <l n="7.3.217">Omnia nobilitant, denigrant omnia rursus,</l>
+            <l n="7.3.218">Omnia lege sua dispensant. Splendida nomen</l>
+            <l n="7.3.219">Saepius amittunt lucemque obscura uicissim</l>
+            <l n="7.3.220">Accipiunt: adimunt et praestant tempora famam. </l>
+            <l n="7.3.221">Ergo ubi transactis senior melioribus annis</l>
+            <l n="7.3.222">Occasus properare suos praesentit, olores,</l>
+            <l n="7.3.223">Quos sibi donauit Naro proximus, axe ligari</l>
+            <l n="7.3.224">Praecepit geminos. Praesaga uoce canentes</l>
+            <l n="7.3.225">Flebile praemittunt, solatia mortis acerbae, </l>
+            <l n="7.3.226">Turritamque senem niuei uexere iugales</l>
+            <l n="7.3.227">Dimotis uix ter pennis diuinitus. Ecce</l>
+            <l n="7.3.228">Ocius ante pedes Epidaurus moesta Tonantis</l>
+            <l n="7.3.229">Procubuit supplex, et talibus orsa querellis:</l>
+            <l n="7.3.230">»Euertisne meam, rerum Pater optime, gentem, </l>
+            <l n="7.3.231">Prosternique iubes Epidaurum a culmine summo</l>
+            <l n="7.3.232">Immeritamque dari flammis? Mea cuncta cremare</l>
+            <l n="7.3.233">Moenia Romanisque paras uiduare colonis</l>
+            <l n="7.3.234">Illyricum littus? Meque et mea nomina deles?</l>
+            <l n="7.3.235">Quid tamen haec sceleris clades ulciscitur? Ausus </l>
+            <l n="7.3.236">Si praeclusa suis maria infestare rapinis</l>
+            <l n="7.3.237">Barculus, insignis latro; si foedere rupto</l>
+            <l n="7.3.238">Perfida Teuca fuit Romano infecta cruore,</l>
+            <pb n="160"/>
+            <l n="7.3.239"> Non ego peccaui nec sum rea, proxima nobis</l>
+            <l n="7.3.240">Si modo barbaries abigendae est dedita praedae! </l>
+            <l n="7.3.241">An, si finitimi Thraces immanibus ausis</l>
+            <l n="7.3.242">Perfidiaeque malis et inhospita pectora saeui</l>
+            <l n="7.3.243">Errauere Scythae, me damnum et poena sequetur?</l>
+            <l n="7.3.244">Immunem cuius memini me uiuere ritu</l>
+            <l n="7.3.245">Siluestri, nec sic mulctabar barbara quondam; </l>
+            <l n="7.3.246">Nunc ubi Romano penitus splendescere cultu</l>
+            <l n="7.3.247">Nec rudis oblito uideor mansuescere pago,</l>
+            <l n="7.3.248">Ad mores artesque bonas prouecta Quiritum,</l>
+            <l n="7.3.249">In speciem magnae deducta propagine Romae – </l>
+            <l n="7.3.250">Nec sapio Illyriam, sed uiuo et tota Latina </l>
+            <l n="7.3.251">Maiestate loquor – postquam simul occidit omnis</l>
+            <l n="7.3.252">Vana superstitio et ueteris ludibria pagi</l>
+            <l n="7.3.253">Dedidici foedis cum relligionibus, uni</l>
+            <l n="7.3.254">Nec nisi cum Christo Tibi seruio dedita semper,</l>
+            <l n="7.3.255">Et Tibi mortales maculas purgantibus undis </l>
+            <l n="7.3.256">Iungor et in prolem tanti Genitoris adoptor,</l>
+            <l n="7.3.257">Desolanda fero trador miserabilis hosti,</l>
+            <l n="7.3.258">Barbaricis uoueo flammis clademque pauesco,</l>
+            <l n="7.3.259">Supremumque diem mihi fila nouissima Parcae</l>
+            <l n="7.3.260">Iamque senescenti tetricae neuere? Rependis </l>
+            <l n="7.3.261">Has magnas, Rex magne, uices, haec praemia nobis?</l>
+            <l n="7.3.262">Nec satis est quod me lapidosis montibus et quae</l>
+            <pb n="160v"/>
+            <l n="7.3.263"> Horrida crediderim uisa riguisse Medusa</l>
+            <l n="7.3.264">Saxa relegatam cernis, quod littore paruo</l>
+            <l n="7.3.265">Atque infoecundo damnor totiesque uetustas </l>
+            <l n="7.3.266">Ad glandes redeo desuetaque pabula quaero,</l>
+            <l n="7.3.267">Difficili uictu et numerosa prole laboro?</l>
+            <l n="7.3.268">Nanque procelloso quotiens mihi naufraga fluctu</l>
+            <l n="7.3.269">Deplorata seges, nostrae dum plebis acerbam</l>
+            <l n="7.3.270">Lenitura famem uehitur? Discrimine tanto </l>
+            <l n="7.3.271">Pascimur et uoto uentos captamus et annum</l>
+            <l n="7.3.272">Supplice, praecipue si quando elusit inanis</l>
+            <l n="7.3.273">Appula rura seges! Trans aequora sentio damnum</l>
+            <l n="7.3.274">Commune, insanis preciis grauis auctio frugum</l>
+            <l n="7.3.275">Congestas exhaurit opes, dum quaeritur orbis </l>
+            <l n="7.3.276">Vescendis aliunde cibis populumque Quirini</l>
+            <l n="7.3.277">Mendicata Ceres pascit: sic anxia curis</l>
+            <l n="7.3.278">Tam grauibus uexor, nec sola aetate senesco.</l>
+            <l n="7.3.279">Quod tamen ulterius damnum uacat, ultima clades</l>
+            <l n="7.3.280">Impendet, diuina mihi sic somnia pandunt </l>
+            <l n="7.3.281">Et placidam turbant praesagia dira quietem.</l>
+            <l n="7.3.282">Vox etiam audita est delapsa e montibus altis:</l>
+            <l n="7.3.283">‛Infeelix Epidaure, rues radicitus, omnes</l>
+            <l n="7.3.284">Dii tutelares templis fugere relictis,</l>
+            <l n="7.3.285">Tu modo uenturo mactanda relinqueris hosti!’ </l>
+            <l n="7.3.286">Quorsum haec permittis, nostra nec clade moueris,</l>
+            <pb n="161"/>
+            <l n="7.3.287">O Genitor? Nec Tu lacrimas miseratus aniles</l>
+            <l n="7.3.288">Supplicibus dignare Tuis succurrere Tecum</l>
+            <l n="7.3.289">Qui pariter Christum, uenerabile numen, adorant?</l>
+            <l n="7.3.290">Hoc pietatis opus? Quamuis mihi senior aetas </l>
+            <l n="7.3.291">In senium fluxit, si Tu tamen annuis, ultro</l>
+            <l n="7.3.292">Incolumis multos possum superesse per annos.</l>
+            <l n="7.3.293">Ergo faue et Tua sacra iuua, Rex magne, colentem</l>
+            <l n="7.3.294">Et praestare uelis nostrae quodcunque saluti est.</l>
+            <l n="7.3.295">Sacrilegas auerte manus totamque repelle </l>
+            <l n="7.3.296">Barbariem nostris minitantem incendia tectis.</l>
+            <l n="7.3.297">Siquod et exitium est quo me mea crimina damnant,</l>
+            <l n="7.3.298">Hoc Tu, Summe Pater, magna pietate remittas:</l>
+            <l n="7.3.299">Quod mihi patratum est, quicquid rea nequiter aegi,</l>
+            <l n="7.3.300">Ignosce atque meis erroribus, Optime Rector, </l>
+            <l n="7.3.301">Indulge ueniam cunctosque absolue reatus!«</l>
+            <l n="7.3.302">Tum Genitor rerum, magni dominator et orbis,</l>
+            <l n="7.3.303">Incipit, ad nutum cuius tremefacta silescit</l>
+            <l n="7.3.304">Machina cuncta poli Syrenque innoxia muta est,</l>
+            <l n="7.3.305">Terra tacet, uenti ponunt, maria alta quiescunt, </l>
+            <l n="7.3.306">Omnia uoce fauent ultroque silentia praestant:</l>
+            <l n="7.3.307">»Pone metus, Epidaure, modumque impone querellis!</l>
+            <l n="7.3.308">Vana fefellerunt nec te tua somnia, falsa</l>
+            <l n="7.3.309">Nec monitus lusere mei sub imagine, uerum</l>
+            <l n="7.3.310">Desistas seniumque tuum cariemque uietam </l>
+            <l n="7.3.311">Et putres positura situs tua fata dolere,</l>
+            <pb n="161v"/>
+            <l n="7.3.312">Clade futura tua es felix: suprema ruina est</l>
+            <l n="7.3.313">Exoptanda tibi, quae mox rediuiua resurges</l>
+            <l n="7.3.314">Splendidiore loco. Damnis maiora rependam</l>
+            <l n="7.3.315">Emolumenta tuis: per tot mala funera, strages, </l>
+            <l n="7.3.316">Erumnasque graues melior fortuna sequetur.</l>
+            <l n="7.3.317">Qualis et exultat posita cute lubricus anguis,</l>
+            <l n="7.3.318">Qualis et accensa de messe renascitur ales</l>
+            <l n="7.3.319">Vnica, uel qualis penitus cum stirpe reuulsa</l>
+            <l n="7.3.320">Et pingui mandata solo reuirescit et agro </l>
+            <l n="7.3.321">In meliore nouis se floribus induit arbor,</l>
+            <l n="7.3.322">Et plures translata ferunt plantaria fructus</l>
+            <l n="7.3.323">Vberiore loco: talis tu – absiste uereri – </l>
+            <l n="7.3.324">Auellenda tuis e sedibus alta capesses</l>
+            <l n="7.3.325">Sublimis potiore solo recidiuaque surges </l>
+            <l n="7.3.326">Gaudebisque nouo melior iuuenescere uultu.</l>
+            <l n="7.3.327">Externo nec tu damnaris crimine, nec quod</l>
+            <l n="7.3.328">Barculus aut fallax peccarint Teuca, teneris.</l>
+            <l n="7.3.329">Illyriae quid enim facinus Thracisue Scythaeue</l>
+            <l n="7.3.330">Est tibi praestandum? Nec te tua crimina damnant </l>
+            <l n="7.3.331">Insontem, uerum fęlicia fata ruinis</l>
+            <l n="7.3.332">Constatura tuis. Quod si sors utraque iuxta</l>
+            <l n="7.3.333">Constiterit, multo est pluris quaecunque sequetur</l>
+            <l n="7.3.334">Alterius tristes compensatura ruinas.</l>
+            <l n="7.3.335">Haec igitur, quo tu melius praenoscere possis </l>
+            <pb n="162"/>
+            <l n="7.3.336">Pręstatura malis solatia digna futuris,</l>
+            <l n="7.3.337">Ante oculos species fortunae utriusque locetur.</l>
+            <l n="7.3.338">Hinc delendae urbis cladem rursusque decorem</l>
+            <l n="7.3.339">Dicam instaurandae, littus nomenque futurum,</l>
+            <l n="7.3.340">Et genus egregium et uenturae stemmata gentis: </l>
+            <l n="7.3.341">Nec tibi caelabo quae sit mihi fixa uoluntas.</l>
+            <l n="7.3.342">Hellespontiaco quae nunc uolat aequore classis,</l>
+            <l n="7.3.343">Alterius Romae longa obsidione relicta</l>
+            <l n="7.3.344">Ionium postquam enabit, mox praepete cursu</l>
+            <l n="7.3.345">Ad dextram conuertet iter, te protinus urbem </l>
+            <l n="7.3.346">Incustoditam rapiet, dum sacra frequentant</l>
+            <l n="7.3.347">Et ciues genio indulgent nil tale uerentes,</l>
+            <l n="7.3.348">Festa suburbano referentes annua templo.</l>
+            <l n="7.3.349">Ecce manus Sarrana uolant cursuque citato</l>
+            <l n="7.3.350">Mille repentinis adoriri classibus urbem </l>
+            <l n="7.3.351">Improuisa parant. Hostes sua tempora nacti</l>
+            <l n="7.3.352">Intempesti aderunt inopinaque moenia uertent;</l>
+            <l n="7.3.353">Tu male defendes uacuos improuida muros.</l>
+            <l n="7.3.354">Quo tamen haec, quaeris, permittam? Cuique facultas</l>
+            <l n="7.3.355">Libera patrandi sceleris, sua copia nulli </l>
+            <l n="7.3.356">Interdicta fuit faciundi quodlibet: hoc nos</l>
+            <l n="7.3.357">Arbitrium cunctis indulsimus, improba poenam</l>
+            <l n="7.3.358">Quo malefacta luant, referat sua praemia uirtus.</l>
+            <l n="7.3.359">Te tamen innocuam claementia nostra fouebit:</l>
+            <pb n="162v"/>
+            <l n="7.3.360">Nanque tuos ciues, olim quos barbarus ensis </l>
+            <l n="7.3.361">Atque rapax flammis hostilibus hauserit ignis,</l>
+            <l n="7.3.362">Municipes caeli faciam et super alta locabo</l>
+            <l n="7.3.363">Sidera, martyribusque meis sociabo futuros</l>
+            <l n="7.3.364">Aetherei ciues Epidauri; sic ego uictos</l>
+            <l n="7.3.365">Victores reddam insignes, tot gaudia caelo </l>
+            <l n="7.3.366">Digna relaturos et partam sanguine laurum.</l>
+            <l n="7.3.367">Multiplicis fructus tanta mercede futurae</l>
+            <l n="7.3.368">Nec te poeniteat cladis, nec quaere triumphos</l>
+            <l n="7.3.369">Differri malesana tuos, sed posce recentes</l>
+            <l n="7.3.370">Mortalis, quandoque tamen moritura, ruinas: </l>
+            <l n="7.3.371">Nam tardare nefas parituros sidera casus.</l>
+            <l n="7.3.372">Tu nunc una, duplex Epidaurus et altera fies</l>
+            <l n="7.3.373">Caelestis summoque micantior orbe nitesces</l>
+            <l n="7.3.374">Sideribus stellata nouis; uersabere terra</l>
+            <l n="7.3.375">Altera. Nam ciues per summa cacumina montis </l>
+            <l n="7.3.376">Elapsi et reduces fato meliore nouabunt</l>
+            <l n="7.3.377">Teque instaurandam propiori in littore condent.</l>
+            <l n="7.3.378">Hic, ubi tam multos incędua silua per annos</l>
+            <l n="7.3.379">Littoreas rupes et Sergi montis obumbrat</l>
+            <l n="7.3.380">Radices summas, lucum complexa superbis </l>
+            <l n="7.3.381">Turribus et duplicis uasto munimine muri,</l>
+            <l n="7.3.382">Cautibus et duris praecisa ornabere fossa.</l>
+            <l n="7.3.383">Quam uero magni facies operosa laboris</l>
+            <pb n="163"/>
+            <l n="7.3.384">Introrsum, quae te priuata et publica rursus</l>
+            <l n="7.3.385">Tecta manent, quantus superis noua templa dicabit </l>
+            <l n="7.3.386">Sumptus, aquaeductum, portus et strata uiarum</l>
+            <l n="7.3.387">Qua mole et quanto cultu studiosa repones!</l>
+            <l n="7.3.388">Qui tibi uenturi praesenti ex stirpe nepotes!</l>
+            <l n="7.3.389">Atque ibi mutato Regusa uocabere tantum</l>
+            <l n="7.3.390">Nomine, translatam nec te migrasse pigebit: </l>
+            <l n="7.3.391">Nobilis usque adeo fies et stemmate magno</l>
+            <l n="7.3.392">Tota refloresces, tibi nobilitate perenni</l>
+            <l n="7.3.393">Clara renidebit series quae tempore nullo</l>
+            <l n="7.3.394">Deficiet, nullo fiet mutabilis aeuo.</l>
+            <l n="7.3.395">Perpetuumque illi dabimus seruare tenorem </l>
+            <l n="7.3.396">Et uarias nescire uices, populumque clientem</l>
+            <l n="7.3.397">Zenobia et Blasius patroni numine dextro</l>
+            <l n="7.3.398">Seruabunt sine fine, atque ipse fouebo decoros</l>
+            <l n="7.3.399">Illyrico cinctu proceres gentemque togatam.</l>
+            <l n="7.3.400">Atque adeo proceres aliquos numerare iuuabit </l>
+            <l n="7.3.401">Quos cladi superesse libet, mihi crede, futuros</l>
+            <l n="7.3.402">Solamen tibi grande: tuo nam sanguine proles</l>
+            <l n="7.3.403">Gotia Gondoleumque genus Gradiique manebunt,</l>
+            <l n="7.3.404">Bonda, Benessa, Boni, Ceruinorumque propago,</l>
+            <l n="7.3.405">Mentia progenies, Putei clarique Georgi, </l>
+            <l n="7.3.406">Calisti et Sorgi celebres et Aranea proles,</l>
+            <l n="7.3.407">Et Zamanna domus, Crucii dictique Bobales,</l>
+            <pb n="163v"/>
+            <l n="7.3.408">Buccinolum Restique genus, Palmotaque, gensque</l>
+            <l n="7.3.409">Volcia, Lucarei, Lucę, Sarracha, Bassellus,</l>
+            <l n="7.3.410">Et Martinusia cum gente Cabusius, et uos, </l>
+            <l n="7.3.411">Bucca, Malasconę, Proculi, Binculla, Getaldi,</l>
+            <l n="7.3.412">Et cum Theodosiis Prothanelli. Has hostis et aeui</l>
+            <l n="7.3.413">Relliquias habitura breues, quibus astra patescent</l>
+            <l n="7.3.414">Moribus usque adeo insignes habitura nepotes</l>
+            <l n="7.3.415">Iustitia et cultu diuino, pace uel armis, </l>
+            <l n="7.3.416">Quorum immortales inscribent nomina fastus.</l>
+            <l n="7.3.417">Nec te, quod sterili rursus fundabere terra,</l>
+            <l n="7.3.418">Inuisam Superis credas: industria solers</l>
+            <l n="7.3.419">Et labor adsiduus praestabunt quicquid in orbe est.</l>
+            <l n="7.3.420">Sic tibi longinquas iungent commercia terras </l>
+            <l n="7.3.421">Per maria ac toto facies compendia mundo:</l>
+            <l n="7.3.422">Namque laborandis multum studiosa carinis</l>
+            <l n="7.3.423">Aequora praepetibus uelis per cuncta uolabis</l>
+            <l n="7.3.424">Inuictaque graues superabis classe procellas.</l>
+            <l n="7.3.425">Nanque gubernandis meliores nulla magistros </l>
+            <l n="7.3.426">Nauibus est tellus habitura: hinc copia diues,</l>
+            <l n="7.3.427">Hinc tibi cunctarum feelix opulentia rerum</l>
+            <l n="7.3.428">Adfluet, ex toto pariter ditaberis orbe.</l>
+            <l n="7.3.429">Nec modo finitimi uicinia tota Volachi</l>
+            <l n="7.3.430">Praestabit fruges, diues sed Apulia rumpet </l>
+            <pb n="164"/>
+            <l n="7.3.431">Horrea, sed Siculi Dodonaeique iuuenci</l>
+            <l n="7.3.432">Gaudebunt sudare tibi; uexauerit annus</l>
+            <l n="7.3.433">Si sterilis terras propiores, Affrica messes</l>
+            <l n="7.3.434">Et septemgemini transmittent hostia Nili.</l>
+            <l n="7.3.435">Nullaque longinquis desperas pabula terris, </l>
+            <l n="7.3.436">Nec tibi, quae toto uersabere nauibus orbe,</l>
+            <l n="7.3.437">Formidanda fames: uenalia littore quouis</l>
+            <l n="7.3.438">Inuenies alimenta tuis uectanda carinis.</l>
+            <l n="7.3.439">Hinc facili uictu pasces, claementia caeli</l>
+            <l n="7.3.440">Quam tibi nunc sobolem numerosam indulserit; at si </l>
+            <l n="7.3.441">Pauperies quandoque grauis uexauerit illam,</l>
+            <l n="7.3.442">Muneris haec instar censenda est. Nanque creabit</l>
+            <l n="7.3.443">Solertes animos, mores, artesque magistras,</l>
+            <l n="7.3.444">Fingendis foecunda uiris, industria diues</l>
+            <l n="7.3.445">Cuius ab ingenio fluxit turpisque ueterni </l>
+            <l n="7.3.446">Torpor et ignaui concessit inertia luxus:</l>
+            <l n="7.3.447">Humanas acuit Paupertas sobria mentes.</l>
+            <l n="7.3.448">Hinc uigil ornandis solertia gentibus orta est.</l>
+            <l n="7.3.449">Tu modo finge animos documentisque instrue meque</l>
+            <l n="7.3.450">Imprimis cole. Sic uirtuti dedita cunctis </l>
+            <l n="7.3.451">Rebus habundabis: Deus et labor omnia praestant!« </l>
+            <l n="7.3.452">Vix ea finierat, uentis Sarrana secundis</l>
+            <l n="7.3.453">Nocte intempesta classis, cum Luna silescit,</l>
+            <l n="7.3.454">Appulerat portumque Epidauri inimica tenebat.</l>
+            <pb n="164v"/>
+            <l n="7.3.455">Tunc sensim tacito demissa est anchora lapsu; </l>
+            <l n="7.3.456">Non remex, clamor non nauticus obstrepit, atque</l>
+            <l n="7.3.457">Buccina nulla sonat, noctis torpore sepultam</l>
+            <l n="7.3.458">Vrbem expergisci metuunt. Ita munere somni,</l>
+            <l n="7.3.459">Qui iam sopierat uigiles, tam callidus hostis</l>
+            <l n="7.3.460">Fretus et officio tenebrarum et noctis opacae, </l>
+            <l n="7.3.461">Incauta admotis adoritur moenia scalis.</l>
+            <l n="7.3.462">Protinus in muros omni custode carentes</l>
+            <l n="7.3.463">Scanditur, hostilique ingens clamore tumultus</l>
+            <l n="7.3.464">Ingruit, excitos ciues nouus occupat horror.</l>
+            <l n="7.3.465">Ploratus pueri complexaque pignora matrem </l>
+            <l n="7.3.466">Dant querulos circum atque ululatibus astra lacessunt</l>
+            <l n="7.3.467">Foeminei sexus; supplex uocat innuba uirgo</l>
+            <l n="7.3.468">Numen, adoratur si qua est ecuncula tectis</l>
+            <l n="7.3.469">Ante ipsam: capta rumor miserabilis urbe.</l>
+            <l n="7.3.470">Vndique concurrunt ciues et ad atria patres </l>
+            <l n="7.3.471">Confluxere, suos rectores curia caepit</l>
+            <l n="7.3.472">Insignes centum, solita nec ueste decoros,</l>
+            <l n="7.3.473">Nec cinctu Illyrico nitidos, sed in aere micantes</l>
+            <l n="7.3.474">Et ferro accinctos. Tunc numina magna precatus</l>
+            <l n="7.3.475">Sacrorum antistes animandis ciuibus infit: </l>
+            <l n="7.3.476">»Ponite uesanum, ciues, de corde pauorem,</l>
+            <l n="7.3.477">Rursus et ammissum mentis reuocate uigorem!</l>
+            <pb n="165"/>
+            <l n="7.3.478">Nos neque enim, quod utrunque fuit mortale, caducum,</l>
+            <l n="7.3.479">Ter<add resp="DN">r</add>estris patriae et uitae dispendia tangant,</l>
+            <l n="7.3.480">Quos uita meliore frui patriaque licebit </l>
+            <l n="7.3.481">Caelesti. Neque enim nos Turcae Arabesque profani,</l>
+            <l n="7.3.482">Nec Sarrana manus, quos impia Tartara iustis</l>
+            <l n="7.3.483">Expectant poenis, sed uiscera numinis alti</l>
+            <l n="7.3.484">Et Christi pia membra sumus nunc sancta futuri</l>
+            <l n="7.3.485">Victima et aetheream merituri sanguine laurum. </l>
+            <l n="7.3.486">Ergo, passuri ciues extrema, ferendo</l>
+            <l n="7.3.487">Fortunam superate grauem: pia Roma Quirites</l>
+            <l n="7.3.488">Laetatur uos esse suos, nec Christus ab alto</l>
+            <l n="7.3.489">Aethere degeneres uideat, non uilia uobis</l>
+            <l n="7.3.490">Dona, sed aethereas laturus praemia sedes. </l>
+            <l n="7.3.491">Nam mihi seu ferro pereundum est, siue uoraces</l>
+            <l n="7.3.492">Opperior flammas, seu diri praestolor hostis</l>
+            <l n="7.3.493">Tormenti omne genus, mortis quaecunque sequetur</l>
+            <l n="7.3.494">Sors mihi munus erit uitam paritura perennem.«</l>
+            <l n="7.3.495">Haec praesul. Procerum princeps tum subdidit: »Ergo,</l>
+            <l n="7.3.496">Indefensa ruunt et inulta a culmine summo</l>
+            <l n="7.3.497">Moenia, nos ferrum dextra torpente tenemus</l>
+            <l n="7.3.498">Et pecorum ritu turpi formidine capti?</l>
+            <l n="7.3.499">Sanguine constamus nullo? Sic prodimus urbem, </l>
+            <l n="7.3.500">Nec desertores aras et templa tuemur </l>
+            <l n="7.3.501">Quae nunc ante oculos nobis gens barbara uastat?</l>
+            <pb n="165v"/>
+            <l n="7.3.502">Quid si extorquemus patriam de faucibus hostis</l>
+            <l n="7.3.503">Nostraque tot furiis respirant tecta fugatis?</l>
+            <l n="7.3.504">Qui scit an hostiles hostili sanguine flammas</l>
+            <l n="7.3.505">Tendimus extinctum? Dextras animemus in hostem, </l>
+            <l n="7.3.506">Experiamur an haec depellere monstra ualemus,</l>
+            <l n="7.3.507">Quantulacunque urbis seruandae copia nobis,</l>
+            <l n="7.3.508">Quae nunc ante oculos uastatur. Saepe fugata est</l>
+            <l n="7.3.509">A paucis numerosa cohors totiesque salutem</l>
+            <l n="7.3.510">Insperata salus peperit. Nec damna sequentur </l>
+            <l n="7.3.511">Vlla repugnantes uictos: haec unica uitae</l>
+            <l n="7.3.512">Nox breuis omnino morituris ultima restat.</l>
+            <l n="7.3.513">Ergo propulsandus nobis securius hostis:</l>
+            <l n="7.3.514">Siue occumbemus, per mutua uulnera dignas</l>
+            <l n="7.3.515">Summemus poenas, stragem luctumque uicissim </l>
+            <l n="7.3.516">Molituri hosti, nec nos ridebit inultus</l>
+            <l n="7.3.517">Degeneres uictor; seu nos meliora sequentur,</l>
+            <l n="7.3.518">Lucro apponendum est; seu nil sperare relictum:</l>
+            <l n="7.3.519">Cum patria nobis suprema in luce cadendum,</l>
+            <l n="7.3.520">Nam patriae superesse nefas!« Sic omnibus una </l>
+            <l n="7.3.521">Excussus pauor et pugnae sententia sedit</l>
+            <l n="7.3.522">Ardescitque nouus furor. Ergo piacula primum</l>
+            <l n="7.3.523">Pontificis poscunt, ueniam pacemque precantes</l>
+            <l n="7.3.524">Implorant lacrimis Christi placabile numen</l>
+            <l n="7.3.525">Atque suam rebus diuinis rite peractis </l>
+            <pb n="166"/>
+            <l n="7.3.526">Caelitibus summis commendauere salutem.</l>
+            <l n="7.3.527">Publica moris erat, dum res Epidauria stabat,</l>
+            <l n="7.3.528">Arma palatino quondam pendere recessu,</l>
+            <l n="7.3.529">Quae nunc antiquo ritu Ragusia seruat</l>
+            <l n="7.3.530">Nobilitas. Amplae mediis penetralibus aulae </l>
+            <l n="7.3.531">Foetum armis uideas conclaue, quod armamentum</l>
+            <l n="7.3.532">Nomine nunc dicunt: adfixum in postibus altis</l>
+            <l n="7.3.533">Tęlorum omne genus densisque hastilibus horret</l>
+            <l n="7.3.534">Martis ahena seges caeloque minantia tendit</l>
+            <l n="7.3.535">Spicula, et obiecta mucronis luce corusci </l>
+            <l n="7.3.536">Fulgura parietibus radiant solemque lacessunt.</l>
+            <l n="7.3.537">Triste renidentes galeę conique minaces,</l>
+            <l n="7.3.538">Et squammae horrentes thoracum auroque trilices</l>
+            <l n="7.3.539">Loricae et teretes ocreae clibanique nitescunt</l>
+            <l n="7.3.540">Corporibus nostris animandi, arcaeque sagittis </l>
+            <l n="7.3.541">Stant grauidae atque arcus retro in sua terga retortis</l>
+            <l n="7.3.542">Cornibus et neruis sese flexere remissis.</l>
+            <l n="7.3.543">Quid dicam tonitrus imitantes fulmina paruos?</l>
+            <l n="7.3.544">Quid clypeos parmasque et scuta micantia, quid tot</l>
+            <l n="7.3.545">Diuersos enses, quae nobis singula semper </l>
+            <l n="7.3.546">In promptu patriae libertatique tuendae?</l>
+            <l n="7.3.547">Quoque magis niteant, poliendis additur armis</l>
+            <l n="7.3.548">Adsiduus custos, Ianumque imitata bifrontem,</l>
+            <l n="7.3.549">Non simplex loquitur numerumque hinc inde recenset</l>
+            <pb n="166v"/>
+            <l n="7.3.550">Pagina, nec nisi scripta licet ferri atque referri. </l>
+            <l n="7.3.551">Ergo recondendis armis, Epidaure, colebas</l>
+            <l n="7.3.552">Hunc morem. Sed non lituo cinctuque Gabino,</l>
+            <l n="7.3.553">Armorum insignis sed luce, repagula pandit</l>
+            <l n="7.3.554">Aerea bellipotens consul: simul ecce tumultus</l>
+            <l n="7.3.555">In furias ciues agit ultimus, ocius arma, </l>
+            <l n="7.3.556">Fulmineos enses dextra clypeosque sinistra</l>
+            <l n="7.3.557">Accipiunt, animant lamas conisque renident</l>
+            <l n="7.3.558">Et iaculis horrent praefixa cuspide longis.</l>
+            <l n="7.3.559">Pars manibus sinuant arcus grauibusque uenenis</l>
+            <l n="7.3.560">Illita suspendunt humeris geminantia mortem </l>
+            <l n="7.3.561">Spicula, at insertam custodit fibula clauam.</l>
+            <l n="7.3.562">Ast alios plumbi liuentis missile pondus</l>
+            <l n="7.3.563">Orbe pugillari armauit, cui laetifer ictus,</l>
+            <l n="7.3.564">Sed laeua clypeos praetendunt omne tegentes</l>
+            <l n="7.3.565">Corpus et ense latus cingunt mucronis acuti, </l>
+            <l n="7.3.566">Et galea caput et munimine pectus aheno</l>
+            <l n="7.3.567">Praetexunt, ferrumque manus et brachia uestit</l>
+            <l n="7.3.568">Nexile consertumque hamis; nec scorpio durus,</l>
+            <l n="7.3.569">Nec balista grauis ratibusque phalarica saeuos</l>
+            <l n="7.3.570">Portatura ignes armandis defuit illis, </l>
+            <l n="7.3.571">Sulphureaeque pilae mixtique bituminis orbes </l>
+            <l n="7.3.572">Arsuri classem, et salicis puluisculus ustae</l>
+            <pb n="167"/>
+            <l n="7.3.573">Ignis inextincti cum nitro et sulphure mixtus.</l>
+         </div>
+      </body>
+   </text>
+</TEI>
