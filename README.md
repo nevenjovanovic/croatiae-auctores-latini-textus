@@ -1,6 +1,6 @@
 # Croatiae auctores Latini - texts #
 
-TEI XML encoded Latin texts from the Croatian auctores Latini collection, freely available under the CC-BY license.
+TEI XML encoded Latin texts from the Croatian auctores Latini collection, freely available under the [CC-BY license](LICENSE.md).
 
 ### Current state ###
 On 2014-12-27 the collection contains:
