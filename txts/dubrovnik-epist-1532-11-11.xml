@@ -44,15 +44,20 @@
             </bibl>
          </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <profileDesc xml:id="dubrovnikklementvii15321111">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName></place>
+             <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName></place>
          </settingDesc>
          <particDesc>
-            <p/>
+             <org ana="sender"><orgName>Rektor i Veliko vijeće Dubrovnika</orgName></org>
+             <person ana="recipient"><persName ref="90633828">Clement VII, Pope</persName></person>
+             <person ana="mentioned"><persName>Pucić, Franjo</persName></person>
+             <person ana="mentioned"><persName ref="crijevicd1e326">Crijević, Toma</persName></person>
+             <person ana="mentioned"><persName ref="17240904">Dominic, Saint, 1170-1221</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -99,7 +104,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="prosa-epistula" n="11.3">
+            <div type="prosa-epistula" n="11.3" corresp="#dubrovnikklementvii15321111">
 
                 <head>XI/3. <date when="1532-11-11">1532. 11. Novembris</date>, Rhagusio Rector et consilium Rhagusii Clementi
                     papae VII. </head>
@@ -110,9 +115,9 @@
                 <opener>
                <note resp="BJ">[Inscriptio:]</note> Sanctissimo patri, domino nostro
                     Beatissime pater!</opener>
-                <p>Defuncto his diebus episcopo Mercanensi et Tribunensi<ref>16</ref> in eius locum
-                    in hoc ipso episcopatu elegimus reverendissimum dominum fratrem Thomam Cervinum,
-                    patricium nostrum ordinis divi Dominici, virum sane et morum sanctitate et aliis
+                <p>Defuncto his diebus <persName>episcopo Mercanensi et Tribunensi</persName><ref>16</ref> in eius locum
+                    in hoc ipso episcopatu elegimus reverendissimum dominum fratrem <persName>Thomam Cervinum</persName>,
+                    patricium nostrum ordinis divi <persName>Dominici</persName>, virum sane et morum sanctitate et aliis
                     animi dotibus, quibus maxime excellit, huiuscemodi dignitate haud indignum.
                     Quocirca supplicamus, dignetur Sanctitas Vestra, ut iam antea consuevit, hanc
                     ipsam electionem nostram confirmare et – quoniam ipsius episcopatus (bonorum

@@ -46,15 +46,18 @@
             </bibl>
          </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <profileDesc xml:id="dubrovnikklementvii15310722">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName></place>
+             <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName></place>
          </settingDesc>
          <particDesc>
-            <p/>
+             <org ana="sender"><orgName>Rektor i Veliko vijeće Dubrovnika</orgName></org>
+             <person ana="recipient"><persName ref="90633828">Clement VII, Pope</persName></person>
+             <person ana="mentioned"><persName>Parisius, Petrus Franciscus</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -101,7 +104,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="prosa-epistula" n="11.2">
+            <div type="prosa-epistula" n="11.2" corresp="#dubrovnikklementvii15310722">
                 <head>XI/2. <date when="1531-07-22">1531. 22. Julii</date>, Rhagusio Rector et consilium Rhagusii Clementi papae
                     VII.</head>
 
@@ -111,7 +114,7 @@
 
                 <opener>Beatissime pater <abbr>etc.</abbr>
             </opener>
-                <p>Mittimus ad Sanctitatem Vestram Franciscum Parisium, scribam nostrum, qui
+                <p>Mittimus ad Sanctitatem Vestram <persName>Franciscum Parisium</persName>, scribam nostrum, qui
                     litteras has reddet, nostro nomine cum Sanctitate Vestra qui agat, quę nostra
                     nostraeque reipublicae haud parvi referunt. Supplicamus, dignetur Sanctitas
                     Vestra eum audire, et, quae referet, credere, ac si nos coram ageremus, atque

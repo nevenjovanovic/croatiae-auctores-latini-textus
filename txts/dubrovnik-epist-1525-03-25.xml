@@ -46,15 +46,18 @@
             </bibl>
          </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <profileDesc xml:id="dubrovnikklementvii15250325">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName></place>
+             <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName></place>
          </settingDesc>
          <particDesc>
-            <p/>
+             <org ana="sender"><orgName>Rektor i Veliko vijeće Dubrovnika</orgName></org>
+             <person ana="recipient"><persName ref="90633828">Clement VII, Pope</persName></person>
+             <person ana="mentioned"><persName>Binčulić, Bernard</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -101,7 +104,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="prosa-epistula" n="11.1">
+            <div type="prosa-epistula" n="11.1" corresp="#dubrovnikklementvii15250325">
 
                 <head>XI/1. <date when="1525-03-25">1525. 25. Martii</date>, Rhagusio Rector et consilium Rhagusii Clementi papae
                     VII.</head>
@@ -111,7 +114,7 @@
 
                 <opener>Sanctissime in Christo pater, pater clementissime! Post pedum humilia oscula
                     beatorum.</opener>
-                <p>Misimus ad pedes Sanctitatis Vestre Bernardum de Binzola, unum de nobilibus
+                <p>Misimus ad pedes Sanctitatis Vestre <persName>Bernardum de Binzola</persName>, unum de nobilibus
                     nostris, presentium exhibitorum pro quibusdam negociis nostris expediendis.
                     Supplicamus eidem Sanctitati Vestrae, ut his, quę nomine nostro ille exponet,
                     tantam fidem habere dignetur, quantam nobis, si coram loqueremur, haberet,

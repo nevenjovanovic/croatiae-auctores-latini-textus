@@ -47,7 +47,10 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-            <date when="1535" period="15xx_2_third">1535</date>
+            <placeName>Zagreb</placeName>
+            <date when="1535-03-29" period="15xx_2_third">29. March 1535.</date>
+            <placeName>Zagreb</placeName>
+            <date when="1535-04-17" period="15xx_2_third">17. April 1535.</date>
          </creation>
          <textClass>
             <keywords scheme="typus">
@@ -63,6 +66,71 @@
             </keywords>
          </textClass>
       </profileDesc>
+     <profileDesc xml:id="pgrangyaggrangya15350329">
+        <abstract>
+           <p/>
+        </abstract>
+        <settingDesc>
+           <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q617">Padova</placeName></place>
+           <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName></place>
+        </settingDesc>
+        <particDesc>
+           <person ana="sender"><persName ref="grangya01">Grangya, Petar</persName></person>
+           <person ana="recipient"><persName>Grangya, Georgius</persName></person>
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+           <date when="1535-03-29" period="15xx_2_third">29. March 1535.</date>
+        </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="pgrangyaggrangyabakocz15350417">
+        <abstract>
+           <p/>
+        </abstract>
+        <settingDesc>
+           <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q617">Padova</placeName></place>
+           <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName></place>
+        </settingDesc>
+        <particDesc>
+           <person ana="sender"><persName ref="grangya01">Grangya, Petar</persName></person>
+           <person ana="recipient"><persName>Grangya, Georgius</persName></person>
+           <person ana="recipient"><persName>Bakocz, Thoma</persName></person>
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+           <date when="1535-04-17" period="15xx_2_third">17. April 1535.</date>
+        </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
       <revisionDesc>
          <change>
         Ispravio i dopunio prema digitalizatu na archive.org.
@@ -92,7 +160,7 @@
   </teiHeader>
   <text>
       <body>
-         <div type="prosa-epistula">
+         <div type="prosa-epistula" corresp="#pgrangyaggrangya15350329">
        
             <opener>
                <address>
@@ -120,7 +188,7 @@
        
          </div>
          <pb n="25-26"/>
-         <div type="prosa-epistula">
+         <div type="prosa-epistula" corresp="#pgrangyaggrangyabakocz15350417">
         
             <opener>
                <address>

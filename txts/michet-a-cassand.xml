@@ -59,6 +59,8 @@ Altera editio electronica.
          </langUsage>
          <creation>
             <date when="1487" period="14xx_3_third">1487</date>
+            <placeName>Šibenik</placeName>
+            <date when="1487-01-12" period="14xx_3_third">12. January 1487</date>
         </creation>
          <textClass>
             <keywords scheme="typus">
@@ -73,6 +75,70 @@ Altera editio electronica.
                 <term>prosa oratio - epistula</term>
             </keywords>
         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="miheticfedele14870112">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q3549">Šibenik</placeName></place>
+            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName></place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender"><persName ref="mihet01">Mihetić, Ambroz</persName></person>
+            <person role="recipient"><persName ref="55055760">Fedele, Cassandra</persName></person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1487-01-12" period="14xx_3_third">12. January 1487</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="fedelemihetic14870501">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q3549">Šibenik</placeName></place>
+            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName></place>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient"><persName ref="mihet01">Mihetić, Ambroz</persName></person>
+            <person role="sender"><persName ref="55055760">Fedele, Cassandra</persName></person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1487-05-01" period="14xx_3_third">01. May 1487</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -100,7 +166,7 @@ Altera editio electronica.
          <docDate>die 12. Ianuarii 1487.</docDate>
       </front>
       <body>
-         <div type="prosa-epistula">
+         <div type="prosa-epistula" corresp="#miheticfedele14870112">
             <head>Ambrosius Miches / Dalmata et Sebenicensis. / Cassandrae Fideli. Salutem Plurimam Dicit</head>
             <argument>
                <p>Epistola XCV. Cassandrae naturae et fortunae a dotibus praeconium.</p>
@@ -117,7 +183,7 @@ Altera editio electronica.
                </dateline>
             </closer>
          </div>
-         <div type="prosa-epistula">
+         <div type="prosa-epistula" corresp="#fedelemihetic14870501">
             <head>Cassandra Fidellis. / Ambrosio Miches Excellentissimo Docto Salutem Dicit </head>
             <argument>
                <p>Epistola XCVI. / Scriptionis tarditatem excusat propter occupationes literarias, seque commendat.</p>

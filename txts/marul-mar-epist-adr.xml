@@ -48,6 +48,78 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
+            <date when="1522-04-03" period="15xx_1_third">03. April 1522.</date>
+            <date when="1522" period="15xx_1_third">ante 30.5.1522.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="marulicbuca15220403">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender"><persName ref="marul01">Marko Marulić</persName></person>
+            <person role="recipient"><persName ref="bucad1e265">Buća, Dominik</persName></person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1522-04-03" period="15xx_1_third">03. April 1522.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="marulichadrianvi1522">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName></place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender"><persName ref="marul01">Marko Marulić</persName></person>
+            <person role="recipient"><persName ref="76430137">Adrian VI, Pope</persName></person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            
             <date when="1522" period="15xx_1_third">ante 30.5.1522.</date>
          </creation>
          <textClass>
@@ -87,7 +159,7 @@
          </titlePage>
 
 
-         <div type="dedicatio">
+         <div type="dedicatio" corresp="#marulicbuca15220403">
 
             <opener> Reuerendo patri Dominico Buchiae Catharensi ordinis
      praedicatorum, theologiae professori, M. Marulus in Domino
@@ -126,7 +198,7 @@ et me adiuuit ut rogata perficerem.</p>
          </div>
       </front>
       <body>
-         <div type="epistula">
+         <div type="epistula" corresp="#marulichadrianvi1522">
             <opener>MAXIMO PONTIFICI ADRIANO VI. M. MARVLVS SPALATENSIS HVMILIS AC
 SVPPLEX</opener>
 

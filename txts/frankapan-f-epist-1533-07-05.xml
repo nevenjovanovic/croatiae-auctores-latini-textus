@@ -3,8 +3,7 @@
     <teiHeader>
         <fileDesc xml:id="frankapan-f-epist-1533-07-05">
             <titleStmt>
-                <title>Franciscus de Frangepanibus Clementi
-                    papae VII, versio electronica</title>
+                <title>Franciscus de Frangepanibus Clementi papae VII, versio electronica</title>
                 <author key="frankop01">
                     <name xml:lang="hr">Frankapan, Franjo</name>
                     <date>m. 1543</date>
@@ -44,15 +43,17 @@
             </bibl>
          </sourceDesc>
         </fileDesc>
-        <profileDesc>
+        <profileDesc xml:id="ffrankopanklementvii15330705">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1781">Budapest</placeName></place>
+             <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName></place>
          </settingDesc>
          <particDesc>
-            <p/>
+             <person ana="sender"><persName ref="frankop01">Frankopan, Franjo</persName></person>
+             <person ana="recipient"><persName ref="90633828">Clement VII, Pope</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -99,7 +100,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="prosa-epistula" n="33.1">
+            <div type="prosa-epistula" n="33.1" corresp="#ffrankopanklementvii15330705">
                 <head>XXXIII/1 <date when="1533-07-05">1533. 5. Julii</date>, Budae Frater Franciscus de Frangepanibus Clementi
                     papae VII.</head>
 
