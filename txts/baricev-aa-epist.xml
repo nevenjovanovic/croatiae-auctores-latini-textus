@@ -5,19 +5,23 @@
          <titleStmt>
             <title>Epistolae, versio electronica</title>
             <author key="baric01">
-               <name xml:lang="hr">Baričević, Adam Alojzije</name>
+               <persName xml:lang="hr">Baričević, Adam Alojzije</persName>
                <date>1756-1806</date>
             </author>
             <author key="skrl01">
-               <name xml:lang="hr">Škrlec Lomnički, Nikola</name>
+               <persName xml:lang="hr">Škrlec Lomnički, Nikola</persName>
                <date>1729-1799</date>
             </author>
-            <editor>Teodora Shek Brnardić</editor>
+            <editor>
+               <persName>
+                  <ref>Teodora Shek Brnardić</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -323,25 +327,25 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-03-08</date>
     Novo, unificirano zaglavlje.
    </change>
          <change>
             <date>2009-06-01</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
     Izdvojio Baričevićeva pisma u poseban dokument. Dodao atribuciju izdavača (Shek Brnardić).
    </change>
          <change>
             <date>2008-09-14</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
     Prebacio u XML TEI P5, validacija u oXygenu.
     Preoblikovao u skupinu tekstova, naznačio svaki tip (politicum i obično).
     Svako je pismo poseban text-čvor. Pisma imaju opener i closer. Arhivski je izvor u bibl-elementu.
@@ -350,9 +354,9 @@
    </change>
          <change>
             <date>2004-03-14T02:00:11</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name> revision </change>
+            </persName> revision </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -369,15 +373,15 @@
          <text type="epistula" corresp="#baricevicskrlec17801101">
             <body>
                <div type="prosa-epistula" corresp="#baricevicskrlec17801101">
-               <head>1. <add>4r-4v</add>
-               </head>
-               <opener>Nicolao Skerlecz, consiliario in Consilio Litterali</opener>
-               <p>
-                  <add>1</add> Quod <placeName>Posonium</placeName> proficiscenti Magnificae Dominationi Vestrae dudum concepta
+                  <head>1. <add>4r-4v</add>
+                  </head>
+                  <opener>Nicolao Skerlecz, consiliario in Consilio Litterali</opener>
+                  <p>
+                     <add>1</add> Quod <placeName>Posonium</placeName> proficiscenti Magnificae Dominationi Vestrae dudum concepta
         animo sincera vota mea, quae pro secundis Magnificae Dominationis Vestrae rebus Deo Optimo
         Maximo semper feci, praesens coram non significaverim, sane quam molestum mihi est. </p>
-               <p>
-                  <add>2</add> Sed illud multo molestius, quod meum in historiam Academiae Zagrabiensis
+                  <p>
+                     <add>2</add> Sed illud multo molestius, quod meum in historiam Academiae Zagrabiensis
         proemium propter multas easque varias, quibus in suo illo procinctu distinebatur, occupationes
         suo ante abitum calculo probari vel corrigi non potuerit. <add>3</add> Verum facilem mihi
         polliceor veniam, dum in mentem venit mihi, de Magnificae Dominationis Vestrae profectione
@@ -386,9 +390,9 @@
         addendo, demendo aut mutando judicio uti omnino dignetur. <add>5</add> Quodsi opera mea
         probabitur, ut de reliquo etiam opere Magnifica Dominatio Vestra bene sperare possit, omne
         studium atque diligentiam me ad scribendum allaturum polliceor.</p>
-               <milestone unit="page" n="2340"/>
-               <p>
-                  <add>6</add> Plane autem non erat, cur Magnifica Dominatio Vestra <persName>Taispergero</persName> in
+                  <milestone unit="page" n="2340"/>
+                  <p>
+                     <add>6</add> Plane autem non erat, cur Magnifica Dominatio Vestra <persName>Taispergero</persName> in
         mandatis darat, ut me praesentibus coram omnibus Academiae hujus professoribus publice
         adhortaretur, ne magistri munus deponam. <add>7</add> Quamquam enim mihi cum <persName>Taispergero</persName>
         nunquam amplius conveniat, nulla tamen tanta esse poterit nos inter simultas, ut in litterarum
@@ -400,71 +404,71 @@
         me postulabit nunquam. <add>10</add> Interim Magnificam Dominationem Vestram certam reddo
         me salutaribus ac plane familiaribus consiliis suis tandiu aquieturum, dum necessitas aliqua
         cogat proprio uti nitique judicio. </p>
-               <closer>
-                  <salute>
-                     <add>11</add> Deus Optimus Maximus Magnificam Dominationem Vestram cum carissima
+                  <closer>
+                     <salute>
+                        <add>11</add> Deus Optimus Maximus Magnificam Dominationem Vestram cum carissima
         conjuge quam diutissime sospitem servet, precor et me subscribo <abbr>etc.</abbr> 
-                  </salute>
-                  <dateline>
-                     <add>12</add> 
-                     <placeName>Zagrabiae</placeName>, <date>ipsis Kalendis Novembris MDCCLXXX.</date>
-                  </dateline>
-               </closer>
+                     </salute>
+                     <dateline>
+                        <add>12</add> 
+                        <placeName>Zagrabiae</placeName>, <date>ipsis Kalendis Novembris MDCCLXXX.</date>
+                     </dateline>
+                  </closer>
                </div>
                <milestone unit="page" n="2342"/>
             </body>
          </text>
          <text type="epistula" corresp="#baricevicskrlec17801201">
             <body>
-               <div  type="prosa-epistula" corresp="#baricevicskrlec17801201">
-               <head>2. <add>4v-5r</add>
-               </head>
-               <opener>Eidem</opener>
-               <p>
-                  <add>1</add> Etsi vereor, ne Magnifica Dominatio Vestra judicium in me desideret, quod
+               <div type="prosa-epistula" corresp="#baricevicskrlec17801201">
+                  <head>2. <add>4v-5r</add>
+                  </head>
+                  <opener>Eidem</opener>
+                  <p>
+                     <add>1</add> Etsi vereor, ne Magnifica Dominatio Vestra judicium in me desideret, quod
         Magnificae Dominationis Vestrae gravissimis negotiis propemodum oppressae officiosis duntaxat
         litteris obstrepere audeam, judicio tamen, quam constantis meae erga Magnificam Dominationem
         Vestram observantiae remissione peccare malo. <add>2</add> Itaque illucescente festo
         nomini suo die a Deo Optimo Maximo ex animo precari me profiteor, ut Magnificam Dominationem
         Vestram religioni, patriae ac Musis nostris quam diutissime sospitem servet. </p>
-               <p>
-                  <add>3</add> Atque ut una fidelia duos parietes dealbem, Magnificae Dominationi Vestrae
+                  <p>
+                     <add>3</add> Atque ut una fidelia duos parietes dealbem, Magnificae Dominationi Vestrae
         significo me actuarii academicorum consensuum munus deposuisse: non sane eo animo, ut cuiquam
         incommodem, sed quod facili conjectura assequor a domino visitatore regio, qui hoc anno ad nos
         venturus dicitur, non solum discipulos meos, verum etiam me ipsum experiundi causa ex
         praelectionibus juris tentatum iri. <add>4</add> Liberum igitur me a reliquis negotiis
         esse oportet, ut et conceptam de me opinionem sustineam et Magnificae Dominationis Vestrae in
         me eligendo judicium confirmem. </p>
-               <closer>
-                  <salute>
-                     <add>5</add> Quod reliquum est, me meaque omnia Magnificae Dominationis Vestrae
+                  <closer>
+                     <salute>
+                        <add>5</add> Quod reliquum est, me meaque omnia Magnificae Dominationis Vestrae
         patrocinio devoveo. </salute>
-                  <dateline>
-                     <add>6</add> 
-                     <placeName>Zagrabiae</placeName>, <date>Kalendis Decembris MDCCLXXX.</date>
-                  </dateline>
-               </closer>
+                     <dateline>
+                        <add>6</add> 
+                        <placeName>Zagrabiae</placeName>, <date>Kalendis Decembris MDCCLXXX.</date>
+                     </dateline>
+                  </closer>
                </div>
                <milestone unit="page" n="2344"/>
             </body>
          </text>
          <text type="epistula" corresp="#baricevicskrlec17820619">
             <body>
-               <div  type="prosa-epistula" corresp="#baricevicskrlec17820619">
-               <head>3. <add>7v-8v</add>
-               </head>
-               <opener>Nicolao Skerlecz consiliario litterali, supremo comiti Comitatus Zagrabiensis et Studiorum
+               <div type="prosa-epistula" corresp="#baricevicskrlec17820619">
+                  <head>3. <add>7v-8v</add>
+                  </head>
+                  <opener>Nicolao Skerlecz consiliario litterali, supremo comiti Comitatus Zagrabiensis et Studiorum
         Districtus ejusdem directori superiori</opener>
-               <p>
-                  <add>1</add> Localis director noster coram pluribus jurejurando affirmavit se munus
+                  <p>
+                     <add>1</add> Localis director noster coram pluribus jurejurando affirmavit se munus
         suum abdicaturum hancque suam voluntatem hoc eodem tabellario Illustrissimae Dominationis
         Vestrae significaturum, Illustrissime Domine! <add>2</add> Antea quam pauca quaedam, quae
         pro singulari meo (quod sine arrogantia affirmare possum) in litteras, Academiamque nostram
         amore mihi in mentem veniunt, cum Illustrissima Dominatione Vestra communicem vel potius ut
         eadem recognoscat, occasionem offeram, majorem in modum ab Illustrissima Dominatione Vestra
         peto, ne consilium istud meum audaciae ac temeritatis condemnet. </p>
-               <p>
-                  <add>3</add> Exploratum est Illustrissimae Dominationi Vestrae, uti res minimas
+                  <p>
+                     <add>3</add> Exploratum est Illustrissimae Dominationi Vestrae, uti res minimas
         quasque, ita potissimum bonas artes ac disciplinas mutua animorum voluntatumque consensione
         crescere ac omnium maxime niti: anima haec corpus nostrum jam dudum deseruit et ab exteris
         etiam 
@@ -490,14 +494,14 @@
         cesset ejusque vices majore sane cum fructu singularum facultatum decani impleant, primario
         aliquo inter eos constituto, qui alternis vicibus consessus pro re nata cogat iisdemque
         praesideat, actuarium consessuum onere faciendarum (utique ex protocolis) relationum manente. </p>
-               <p>
-                  <add>12</add> Porro satis amplum localis directoris stipendium praestanti alicui
+                  <p>
+                     <add>12</add> Porro satis amplum localis directoris stipendium praestanti alicui
         chirurgiae aut mechanices (artis utriusque patriae huic perquam necessariae) magistro
         addicatur. <add>13</add> Quot enim, bone Deus, imperitia chirurgorum miseri apud nos
         pereunt? <add>14</add> Quam multorum popularium nostrorum ignorantia mechanices
         laborantium omnibusque ejus subsidiis destitutorum praemature atteruntur vires! </p>
-               <p>
-                  <add>15</add> Quodsi tamen aliquis priore forma nobis praefici debet, Illustrissimam
+                  <p>
+                     <add>15</add> Quodsi tamen aliquis priore forma nobis praefici debet, Illustrissimam
         Dominationem Vestram oro et obtestor, ut juris canonici professorem <persName>Milassin</persName> licet canonicum
         nobis praefici procurare dignetur. <add>16</add> Hoc enim pacto sibi imprimis
         Illustrissima Dominatio Vestra satisfaciet: scio namque, quod virum hunc in hac, quam occupat,
@@ -506,29 +510,29 @@
         crescente lapsu temporum machinatione amotus fuerit, metuo, ne in vetus malum relabatur; me
         denique confirmabit et ab odiosa provincia translatum inter academicos pulveres sorte mea
         contentum ad tumulum usque conquiescere faciet. </p>
-               <closer>
-                  <salute>
-                     <add>17</add> Haec uti forte audacia ita certe sincera consilia aequi bonique consulere
+                  <closer>
+                     <salute>
+                        <add>17</add> Haec uti forte audacia ita certe sincera consilia aequi bonique consulere
         et me potenti suo patrocinio porro etiam tueri dignetur, oro et sum <abbr>etc.</abbr> 
-                  </salute>
-                  <dateline>
-                     <add>18</add> 
-                     <placeName>Zagrabiae</placeName>, <date>XIII. Calendis Julii MDCCLXXXII.</date>
-                  </dateline>
-               </closer>
+                     </salute>
+                     <dateline>
+                        <add>18</add> 
+                        <placeName>Zagrabiae</placeName>, <date>XIII. Calendis Julii MDCCLXXXII.</date>
+                     </dateline>
+                  </closer>
                </div>
             </body>
          </text>
          <text type="epistula" corresp="#skrlecbaricevic17820624">
             <body>
-               <div  type="prosa-epistula" corresp="#skrlecbaricevic17820624">
-               <head>4. <add>8v</add>
-               </head>
-               <opener>
-                  <emph>Skerleczii responsoria</emph>
-               </opener>
-               <p>
-                  <add>1</add> Directoratus decanis aut etiam dignioribus profesoribus veluti praemium
+               <div type="prosa-epistula" corresp="#skrlecbaricevic17820624">
+                  <head>4. <add>8v</add>
+                  </head>
+                  <opener>
+                     <emph>Skerleczii responsoria</emph>
+                  </opener>
+                  <p>
+                     <add>1</add> Directoratus decanis aut etiam dignioribus profesoribus veluti praemium
         debetur. <add>2</add> Vitio hominum evenit, quod canonici qualitas minus gratos ea in re
         effectus produxerit. <add>3</add> Ceterum suo quisque sensu abundat et cum suam quisque
         optimam esse opinionem putet, quis singulis satisfecerit? <add>4</add> Ego ita ab omni
@@ -536,31 +540,31 @@
         conspiraturos esse, judicium meum eorum electioni continuo substernerem. <add>5</add>
         Nunc cum distracta in varias partes studia sciam, eos Excelso Consilio proponam, quos maxime
         idoneos existimavero. </p>
-               <closer>
-                  <salute>
-                     <add>6</add> Ceterum zelum praetitulatae Dominationis Vestrae probo et constanti cum
+                  <closer>
+                     <salute>
+                        <add>6</add> Ceterum zelum praetitulatae Dominationis Vestrae probo et constanti cum
         aestimatione permaneo. </salute>
-                  <dateline>
-                     <add>7</add> 
-                     <placeName>Posonii</placeName>,<date> 24. Junii 1782.</date> 
-                  </dateline>
-                  <signed>
-                     <add>8</add> Nicolaus Skerlecz, manu propria</signed>
-               </closer>
+                     <dateline>
+                        <add>7</add> 
+                        <placeName>Posonii</placeName>,<date> 24. Junii 1782.</date> 
+                     </dateline>
+                     <signed>
+                        <add>8</add> Nicolaus Skerlecz, manu propria</signed>
+                  </closer>
                </div>
                <milestone unit="page" n="2352"/>
             </body>
          </text>
          <text type="nota">
             <body>
-               <div  type="prosa-nota">
-               <head>5. <add>8v-9r</add> 
-               </head>
-               <opener>
-                  <emph>Nota</emph>
-               </opener>
-               <p>
-                  <add>1</add> Skerlecz simulandi peritus aliter egit quam se acturum indicabat.
+               <div type="prosa-nota">
+                  <head>5. <add>8v-9r</add> 
+                  </head>
+                  <opener>
+                     <emph>Nota</emph>
+                  </opener>
+                  <p>
+                     <add>1</add> Skerlecz simulandi peritus aliter egit quam se acturum indicabat.
         <add>2</add> Omnem enim movit lapidem, ut Josephus Petrovich juris naturae Budae
         professor Zagrabiensi Academiae director daretur. <add>3</add> Qua in re multa peccavit
         Skerleczius. <add>4</add> Primo: jure offensos se esse queri poterant Zagrabiensis
@@ -580,10 +584,10 @@
         attolentibus et uti suorum honori, ita contemptui Croatarum maximopere intentis rimam magno
         quandoque foramine fortassis hiaturam aperuit suos semper exteris academiis dandi
         praeficiendique directores <abbr>etc.</abbr> 
-                  <abbr>etc.</abbr> 
-               </p>
-               <p>
-                  <add>9</add> Neque dicas Petrovichium utique Croatam fuisse. <add>10</add> Primum
+                     <abbr>etc.</abbr> 
+                  </p>
+                  <p>
+                     <add>9</add> Neque dicas Petrovichium utique Croatam fuisse. <add>10</add> Primum
         enim Petrovich 1000 florenorum stipendium in Universitate jam merebat, cum Croatiae
         professores ad summum 700 florenorum stipendia addicta habuerint, deinde ipse Petrovich ut
         director 800 solum florenorum mercedem habiturus erat, postremo neque in Petrovichii locum
@@ -595,22 +599,22 @@
          </text>
          <text type="epistula" corresp="#baricevicskrlec17840523">
             <body>
-               <div  type="prosa-epistula" corresp="#baricevicskrlec17840523">
-               <head>6. <add>18v-19r</add>
-               </head>
-               <opener>Nicolao Skerlecz, Posonium</opener>
-               <p>
-                  <add>1</add> Sorte mea, quantum per malevolos homines licuit, ceteris in rebus me
+               <div type="prosa-epistula" corresp="#baricevicskrlec17840523">
+                  <head>6. <add>18v-19r</add>
+                  </head>
+                  <opener>Nicolao Skerlecz, Posonium</opener>
+                  <p>
+                     <add>1</add> Sorte mea, quantum per malevolos homines licuit, ceteris in rebus me
         contentum semper fuisse atque <placeName>Spartam</placeName>, quam nactus sum, pro virili ornare conatum, si te,
         Illustrissime Domine, testem appellem, non metuo, ne quid arrogantius facere videar. </p>
-               <milestone unit="page" n="2356"/>
-               <p>
-                  <add>2</add> Firmum hoc animi mei propositum multa eaque varia, dum de magisterio juris
+                  <milestone unit="page" n="2356"/>
+                  <p>
+                     <add>2</add> Firmum hoc animi mei propositum multa eaque varia, dum de magisterio juris
         ecclesiastici aliter ac hactenus se habebat, Apostolicum Regem meum et cogitare et statuere
         velle intelligerem, cogitanti mihi altum adhuc silentium imperabat efficiebatque, ut omnes
         cogitationes meas spesque fallaces esse tacitus ingemiscerem.</p>
-               <p>
-                  <add>3</add> Nam hoc magisterii genus, quin ulli mortalium incommodarem, et semper me
+                  <p>
+                     <add>3</add> Nam hoc magisterii genus, quin ulli mortalium incommodarem, et semper me
         spectavisse profiteor et consecutum non esse pluribus de caussis haud mediocriter doleo.
         <add>4</add> Verum inter has ipsas animi angustias spes aliqua tamquam per spissam nubem
         affulgere videtur, cum ad me nonnemo perfert, omnem adhuc rem pugnantibus extrahi sententiis.
@@ -625,28 +629,28 @@
         animo, ut neque Apostolico Regi meo, si me primatem Hungariae, neque summo pontifici, si
         purpuratorum patrum principem renunciet, magis placere velim quam pulcherrimae veritati.
         <add>10</add> Haec mihi dum vivam, in rebus humanis dea erit. </p>
-               <closer>
-                  <salute>
-                     <add>11</add> Vale Illustrissime Domine, meque potenti patrocinio tuo tueri pergas. </salute>
-                  <dateline>
-                     <add>12</add> 
-                     <placeName>Zagrabiae</placeName>, <date>X. Kalendis Junii MDCCLXXXIV.</date>
-                  </dateline>
-               </closer>
+                  <closer>
+                     <salute>
+                        <add>11</add> Vale Illustrissime Domine, meque potenti patrocinio tuo tueri pergas. </salute>
+                     <dateline>
+                        <add>12</add> 
+                        <placeName>Zagrabiae</placeName>, <date>X. Kalendis Junii MDCCLXXXIV.</date>
+                     </dateline>
+                  </closer>
                </div>
                <milestone unit="page" n="2358"/>
             </body>
          </text>
          <text type="nota">
             <body>
-               <div  type="prosa-nota">
-               <head>7. <add>19r</add>
-               </head>
-               <opener>
-                  <emph>Nota</emph>
-               </opener>
-               <p>
-                  <add>1</add> Skerleczius, qui plurimam dignitatum honorumque suorum partem adulatrici
+               <div type="prosa-nota">
+                  <head>7. <add>19r</add>
+                  </head>
+                  <opener>
+                     <emph>Nota</emph>
+                  </opener>
+                  <p>
+                     <add>1</add> Skerleczius, qui plurimam dignitatum honorumque suorum partem adulatrici
         politicae debet, me quidem semper aestimavit, at a pulveribus scholasticis nunquam expediri
         debere simul propositum habuit: hic me magnum fore, hic immortalem famam, nomenque illustre
         consecuturum saepissime admonens. <add>2</add> Ego, qui et litteras quidem semper colui
@@ -658,19 +662,19 @@
         cathedram juris ecclesiastici planam id adhuc temporis viam mihi sternere. <add>5</add>
         Sed assentari nunquam volui. <add>6</add> Ideoque mutato consilio Dei potius quam hominis
         minister ac servus esse elegi. <abbr>etc.</abbr> 
-                  <abbr>etc.</abbr>
-               </p>
+                     <abbr>etc.</abbr>
+                  </p>
                </div>
             </body>
          </text>
          <text type="epistula" corresp="#baricevicskrlec17840707">
             <body>
-               <div  type="prosa-epistula" corresp="#baricevicskrlec17840707">
-               <head>8. <add>19r-19v</add>
-               </head>
-               <opener>Eidem</opener>
-               <p>
-                  <add>1</add> Perpetuarum revolutionum tandem pertaesus ac simul bellam nactus
+               <div type="prosa-epistula" corresp="#baricevicskrlec17840707">
+                  <head>8. <add>19r-19v</add>
+                  </head>
+                  <opener>Eidem</opener>
+                  <p>
+                     <add>1</add> Perpetuarum revolutionum tandem pertaesus ac simul bellam nactus
         occasionem, qua commodo meo de occupata hactenus statione possem decedere, indicto pro
         parochia Pokupskensi concursui me subjeci. <add>2</add> Et ecce opitulanti Deo
         excellentissimus quoque praesul meus cooperari dignatus est meque Pokupskensem parochum
@@ -686,15 +690,15 @@
         remissione prosequar. <add>6</add> Illustrissimae vero Dominationis Vestrae supplex
         sum, ut potenti patrocinio suo curare dignetur, ne mihi duorum vacationis mensium stipendium
         subtrahatur. </p>
-               <closer>
-                  <salute>
-                     <add>7</add> In reliquo perenni cultu subscribor. <abbr>etc.</abbr> 
-                  </salute>
-                  <dateline>
-                     <add>8</add> 
-                     <placeName>Zagrabiae</placeName>, <date>ipsis Nonis Julii MDCCLXXXIV.</date>
-                  </dateline>
-               </closer>
+                  <closer>
+                     <salute>
+                        <add>7</add> In reliquo perenni cultu subscribor. <abbr>etc.</abbr> 
+                     </salute>
+                     <dateline>
+                        <add>8</add> 
+                        <placeName>Zagrabiae</placeName>, <date>ipsis Nonis Julii MDCCLXXXIV.</date>
+                     </dateline>
+                  </closer>
                </div>
             </body>
          </text>

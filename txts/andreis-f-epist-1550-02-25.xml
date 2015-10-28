@@ -5,18 +5,22 @@
             <titleStmt>
                 <title>Antonio Verantio Tranquillus Andronicus, versio electronica</title>
                 <author key="and02">
-                    <name xml:lang="hr">Andreis, Franjo Trankvil</name>
+                    <persName xml:lang="hr">Andreis, Franjo Trankvil</persName>
                     <date>1490-1571</date>
             </author>
                 <editor>
-               <name>László Szalay</name>
-               <name>Gusztáv Wenzel</name>
+               <persName>
+                  <ref>László Szalay</ref>
+               </persName>
+               <persName>
+                  <ref>Gusztáv Wenzel</ref>
+               </persName>
             </editor>
                 <respStmt>
                     <resp>Editionem electronicam praeparavit</resp>
-                    <name>
+                    <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -39,8 +43,12 @@
                         digitale apud Archive.org.</ref>
             </bibl>
             <bibl> Verancsics Antal összes munkái [The Complete Works of Antal Verancsics], vol.
-                    10, Vegyes levelek, 1569-1571 ; közli <editor xml:id="editor">Wenzel
-                        Gusztáv</editor>. - Pest, 1871. - (Monumenta Hungariae historica. 2.
+                    10, Vegyes levelek, 1569-1571 ; közli <editor>
+                  <persName>
+                     <ref xml:id="editor">Wenzel
+                        Gusztáv</ref>
+                  </persName>
+               </editor>. - Pest, 1871. - (Monumenta Hungariae historica. 2.
                     Scriptores = Magyar történelmi emlékek. Osztály 2. Irók ; 25), Nr. 1, pp. 3--11
                         (<ref target="http://www.archive.org/details/verancsicsantal05wenzgoog">facsimile digitale in Archive.org</ref>)</bibl>
          </sourceDesc>
@@ -89,28 +97,30 @@
       </profileDesc>
         <revisionDesc>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-30</date> Svako pismo u posebnoj
                 datoteci. </change>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-07-10</date>
                 Novo, unificirano zaglavlje. </change>
             <change>
             <date>2010-12-18</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name> Početna verzija. </change>
+            </persName> Početna verzija. </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="prosa-epistula" xml:id="fta-av03" corresp="#andreisvrancic15500225">
+            <div type="prosa-epistula"
+              xml:id="fta-av03"
+              corresp="#andreisvrancic15500225">
                 <opener>Antonio Verantio Tranquillus Andronicus, <placeName>Tragurii</placeName>,
                         <date when="1550-02-25">1550. febr. 25</date>
             </opener>

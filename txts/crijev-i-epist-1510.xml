@@ -5,15 +5,19 @@
                 <titleStmt>
                         <title>Epistula ad Marinum Bonum (1510), versio electronica</title>
                         <author key="crije02">
-                                <name xml:lang="hr">Crijević, Ilija</name>
+                                <persName xml:lang="hr">Crijević, Ilija</persName>
                                 <date>1463-1520</date>
                         </author>
-                        <editor>Irena Bratičević</editor>
+                        <editor>
+               <persName>
+                  <ref>Irena Bratičević</ref>
+               </persName>
+            </editor>
                         <respStmt>
                                 <resp>Hanc editionem electronicam curavit</resp>
-                                <name>
+                                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                         </respStmt>
                 </titleStmt>
 
@@ -76,9 +80,15 @@
                  <person role="recipient">
                          <persName ref="bunic04">Marin Bunić</persName>
                  </person>
-                 <person role="mentioned"><persName ref="250672950">Giustolo, Pier Francesco</persName></person>
-                 <person role="mentioned"><persName>Menčetić, Nikola</persName></person>
-                 <person role="mentioned"><persName ref="100225976">Herodotus</persName></person>
+                 <person role="mentioned">
+               <persName ref="250672950">Giustolo, Pier Francesco</persName>
+            </person>
+                 <person role="mentioned">
+               <persName>Menčetić, Nikola</persName>
+            </person>
+                 <person role="mentioned">
+               <persName ref="100225976">Herodotus</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -105,9 +115,9 @@
       </profileDesc>
       <revisionDesc>
         <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2012-06-10</date>
                 Početna verzija.
         </change>

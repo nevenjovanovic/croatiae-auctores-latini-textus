@@ -8,12 +8,16 @@
                <persName xml:lang="hrv">Kašić, Bartol</persName>,
               Dubrovnik, <date>1575. — 1650.</date>
             </author>
-            <editor>Elisabeth von Erdmann-Pandžić</editor>
+            <editor>
+               <persName>
+                  <ref>Elisabeth von Erdmann-Pandžić</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Electronice edidit</resp>
-               <name xml:id="NJ">
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
 
          </titleStmt>
@@ -51,14 +55,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName>
+            </place>
             <place ana="destination" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="kasic01">Kašić, Bartol</persName></person>
-            <person ana="recipient"><persName>Ad illyricae linguae studiosos</persName></person>
+            <person ana="sender">
+               <persName ref="kasic01">Kašić, Bartol</persName>
+            </person>
+            <person ana="recipient">
+               <persName>Ad illyricae linguae studiosos</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -82,9 +92,9 @@
       </profileDesc>
      <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
        Početna verzija.
        </change>
      </revisionDesc>

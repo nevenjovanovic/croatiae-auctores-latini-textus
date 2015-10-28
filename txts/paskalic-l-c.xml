@@ -4,26 +4,32 @@
       <fileDesc xml:id="paskalic-l-c">
          <titleStmt>
             <title>Carmina, versio electronica</title>
-            <author key="#varii"><orgName ref="#varii">Auctores varii:</orgName> </author>
+            <author key="#varii">
+               <orgName ref="#varii">Auctores varii:</orgName> 
+            </author>
             <author key="paskal01">
-               <name xml:lang="hr">Paskalić, Ludovik</name>
+               <persName xml:lang="hr">Paskalić, Ludovik</persName>
                <date>c. 1500–1551</date>
             </author>
             <author key="#alienus">
-               <name xml:lang="it" type="viaf" ref="73909990">Camillo, Giulio</name>, <date>c. 1480–1544</date>
+               <persName xml:lang="it" type="viaf" ref="73909990">Camillo, Giulio</persName>, <date>c. 1480–1544</date>
             </author>
             <author key="#alienus">
-               <name xml:lang="it" ref="21394" type="viaf">Molza, Francesco Maria</name>, Modena, <date>18. 6. 1489 – 28. 2. 1544</date>
+               <persName xml:lang="it" ref="21394" type="viaf">Molza, Francesco Maria</persName>, Modena, <date>18. 6. 1489 – 28. 2. 1544</date>
             </author>
             <author key="#alienus">
-               <name xml:lang="it" ref="3643312" type="viaf">Volpe, Giovanni Antonio</name>, <date>1515–1558</date>
+               <persName xml:lang="it" ref="3643312" type="viaf">Volpe, Giovanni Antonio</persName>, <date>1515–1558</date>
             </author>
-            <editor>Sanja Perić Gavrančić</editor>
+            <editor>
+               <persName>
+                  <ref>Sanja Perić Gavrančić</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -77,23 +83,23 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-07-14</date> Novo, unificirano zaglavlje. </change>
          <change> Dotjerao zaglavlje čitajući PhiloLogic mkbiblio. Obrojčao pjesme. Premjestio finis
-            na kraju knjige u closer. <name>
+            na kraju knjige u closer. <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2010-12-11</date>
          </change>
-         <change> XML označavanje, zaglavlje <name>
+         <change> XML označavanje, zaglavlje <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2010-03-07</date>
          </change>
-         <change> Početni prijepis <name>Sanja Perić Gavrančić</name>
+         <change> Početni prijepis <persName>Sanja Perić Gavrančić</persName>
          </change>
       </revisionDesc>
    </teiHeader>

@@ -5,16 +5,24 @@
          <titleStmt>
             <title>Ad Maximilianum Verhovacz epistola 28. Maii 1793, versio electronica</title>
             <author key="skrl01">
-               <name xml:lang="hr">Škrlec Lomnički, Nikola</name>
+               <persName xml:lang="hr">Škrlec Lomnički, Nikola</persName>
                <date>1729-1799</date>
             </author>
-            <editor>Neven Jovanović</editor>
-            <editor>Josip Kolanović</editor>
+            <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref>Josip Kolanović</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
      
             </respStmt>
          </titleStmt>
@@ -42,12 +50,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q947769">Jakovlje</placeName></place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q1741">Wien</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q947769">Jakovlje</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q1741">Wien</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="skrl01">Škrlec Lomnički, Nikola</persName></person>
-            <person ana="recipient"><persName ref="vrhov01">Vrhovac, Maksimilijan</persName></person>
+            <person ana="sender">
+               <persName ref="skrl01">Škrlec Lomnički, Nikola</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="vrhov01">Vrhovac, Maksimilijan</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -72,26 +88,26 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-07-10</date>
     Novo, unificirano zaglavlje.
    </change>
          <change>
             <date>2011-01-10</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
     Svako pismo pojedinačno.
    </change>
    
          <change>
             <date>2004-03-14T02:00:11</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name> revision </change>
+            </persName> revision </change>
       </revisionDesc>
    </teiHeader>
 
@@ -102,38 +118,40 @@
          </head>
       </front>
       <body>
-         <div type="prosa-epistula"><opener>
-            <salute>Chare amice!</salute>
-         </opener>
-         <p> Tuis de 5-ta huius Pesthino exaratis et mihi 12-ma redditis non respondi
+         <div type="prosa-epistula">
+            <opener>
+               <salute>Chare amice!</salute>
+            </opener>
+            <p> Tuis de 5-ta huius Pesthino exaratis et mihi 12-ma redditis non respondi
     quia metuebam ne meae te Pesthini amplius non deprehendant.  Nunc cum e
     combinatione temporis te iam Viennae esse certo credam hisce respondeo.</p>
-         <p> Gaudeo vehementer quod tempus reditus tui iam appropinquet.
+            <p> Gaudeo vehementer quod tempus reditus tui iam appropinquet.
      Vix iam fero desiderium momenti illius quo te amplecti et aliquot horis
     amice tecum confabulari possim.  Interea utere occasione ad delendam, si quae
     forte tibi apud Principem per calumniatores tuos inusta est, maculam.  Si hoc
     obtinuisti, excidet animo meo ea aegritudo quam eo nomine, qua sincerus tuus amicus,
     contraxeram.  Reliqua omnia plana tibi erunt.</p>
-         <p> Ex hac occasione quaeso te, amice, ut mihi mediam libram optimae, quae
+            <p> Ex hac occasione quaeso te, amice, ut mihi mediam libram optimae, quae
     haberi potest, chinae, sed non in pulvere, verum in cortice, ita etiam unum vitrellum
     <foreign xml:lang="de">Von Hoffmanischen Tropfen</foreign> adferas.  Commendavit mihi
     frequentiorem horum usum Hormayer.  Pretium tibi reduci cum gratitudine
     deponam.  De aliis rebus coram. </p>
-         <closer>
-            <salute> Interea vale meque ut
+            <closer>
+               <salute> Interea vale meque ut
     facis ama.</salute>
-            <dateline>
-               <placeName>Jakovlye</placeName>, <date>28. Maii 1793.</date>
-            </dateline>
-            <address>
-               <addrLine>
-                  <note>
-                     <add>a tergo</add>
-                  </note> Excellentissimo et Illustrissimo Domino Maximiliano
+               <dateline>
+                  <placeName>Jakovlye</placeName>, <date>28. Maii 1793.</date>
+               </dateline>
+               <address>
+                  <addrLine>
+                     <note>
+                        <add>a tergo</add>
+                     </note> Excellentissimo et Illustrissimo Domino Maximiliano
      Verhovecz, Episcopo Zagrabiensi et S.C.R.A. Maiestatis Consiliario Status Actualis Intimo,
      Domino mihi colendissimo; Viennae</addrLine>
-            </address>
-         </closer></div>
+               </address>
+            </closer>
+         </div>
    
    
    

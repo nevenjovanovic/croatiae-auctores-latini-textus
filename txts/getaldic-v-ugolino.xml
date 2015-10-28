@@ -5,15 +5,23 @@
          <titleStmt>
             <title>Mortis Hugolini versio Latina, versio electronica</title>
             <author key="#alienus">
-               <name xml:lang="hr" ref="viaf97105654">Dante Alighieri</name>
+               <persName xml:lang="hr" ref="viaf97105654">Dante Alighieri</persName>
                <date>1265-1321</date>
             </author>
             <author key="getaldi02">
-               <name xml:lang="hr">Getaldić, Vlaho</name>
+               <persName xml:lang="hr">Getaldić, Vlaho</persName>
                <date> 1788 - 1872</date>
             </author>
-            <editor ref="viaf89276480">Alessandro Piegadi</editor>
-            <editor xml:id="NJ">Neven Jovanović</editor>
+            <editor>
+               <persName>
+                  <ref ref="viaf89276480">Alessandro Piegadi</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref xml:id="NJ">Neven Jovanović</ref>
+               </persName>
+            </editor>
          </titleStmt>
          <editionStmt>
             <edition>
@@ -73,9 +81,9 @@
       <revisionDesc>
          
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2014-09-23</date>
         Početna CroALa verzija.
       </change>

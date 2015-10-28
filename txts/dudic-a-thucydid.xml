@@ -5,20 +5,22 @@
          <titleStmt>
             <title>De Thucydidis historia iudicium... A. Duditio interprete</title>
             <author key="dudic01">
-               <name xml:lang="hr">Dudić, Andrija</name>
+               <persName xml:lang="hr">Dudić, Andrija</persName>
                <date>1533-1589</date>
             </author>
             <author key="#alienus">
                <persName xml:lang="la" type="viaf" ref="100218889">Dionysius Halicarnassensis</persName>
             </author>
             <editor>
-               <name xml:id="PŠ">Petra Šoštarić</name>
+               <persName>
+                  <ref xml:id="PŠ">Petra Šoštarić</ref>
+               </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name xml:id="NJ">
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          
@@ -110,22 +112,22 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name ref="#NJ">
+            <persName ref="#NJ">
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2013-11-15</date>
             Korekcija teksta: Mantinus &gt; Manutius
             Ponovljen spellcheck. Većina arhaičnih grafija &gt; sic. Neke corr.
          </change>
          <change>
-            <name ref="#NJ">
+            <persName ref="#NJ">
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2013-01-02</date>
             Prva TEI XML verzija.
          </change>
          <change>
-            <name ref="#PŠ">Petra Šoštarić</name>
+            <persName ref="#PŠ">Petra Šoštarić</persName>
             <date>2012-09-12T11:31:00</date>
             Prva verzija.
          </change>

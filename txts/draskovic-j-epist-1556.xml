@@ -5,15 +5,19 @@
             <titleStmt>
                 <title>Epistula ad Marcum Horwath, versio electronica</title>
                 <author key="draskov01">
-                    <name xml:lang="hr">Drašković, Juraj</name>
+                    <persName xml:lang="hr">Drašković, Juraj</persName>
                     <date>1525-1587</date>
                 </author>
-                <editor>Vjekoslav Klaić</editor>
+                <editor>
+               <persName>
+                  <ref>Vjekoslav Klaić</ref>
+               </persName>
+            </editor>
                 <respStmt>
                     <resp>Editionem electronicam curavit</resp>
-                    <name>
+                    <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
 
                 </respStmt>
 
@@ -41,15 +45,23 @@
             <p>Juraj Drašković čestita Marku Horvatu na obrani Sigeta 1556.</p>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1741">Wien</placeName></place>
+             <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1741">Wien</placeName>
+            </place>
              <place ana="destination" type="unknown">
                  <placeName type="unknown">Unknown</placeName>
              </place>
-             <place ana="mentioned"><placeName ref="http://www.wikidata.org/wiki/Q373542">Siget</placeName></place>
+             <place ana="mentioned">
+               <placeName ref="http://www.wikidata.org/wiki/Q373542">Siget</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender"><persName ref="draskov01">Drašković, Juraj</persName></person>
-             <person ana="recipient"><persName ref="horvatd1e651">Horvat, Marko</persName></person>
+             <person ana="sender">
+               <persName ref="draskov01">Drašković, Juraj</persName>
+            </person>
+             <person ana="recipient">
+               <persName ref="horvatd1e651">Horvat, Marko</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -77,24 +89,24 @@
       </profileDesc>
         <revisionDesc>
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-                <name>Luka Špoljarić</name>
+            </persName>
+                <persName>Luka Špoljarić</persName>
                 <date>2012-07-14</date>
                 Novo, unificirano zaglavlje.
             </change>
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2009-10-05</date>
                 Formatiranje po TEI XML smjernicama.
             </change>
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2009-09-28</date>
             </change>
         </revisionDesc>

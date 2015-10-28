@@ -4,17 +4,19 @@
       <fileDesc xml:id="sisgor-g-eleg">
           <titleStmt>
               <title>Elegiarum et carminum libri tres, versio electronica</title>
-              <author key="#varii"><orgName ref="#varii">Auctores varii:</orgName> </author>
+              <author key="#varii">
+               <orgName ref="#varii">Auctores varii:</orgName> 
+            </author>
               <author key="sizgo01">
-                  <name xml:lang="hr">Šižgorić, Juraj</name>
+                  <persName xml:lang="hr">Šižgorić, Juraj</persName>
                   <date>c. 1445-1509?</date>
               </author>
               <author key="marul01">
-                  <name xml:lang="hr">Marulić, Marko</name>
+                  <persName xml:lang="hr">Marulić, Marko</persName>
                   <date>1450-1524</date>
               </author>
               <author key="mihet01">
-                  <name xml:lang="hr">Mihetić, Ambroz</name>
+                  <persName xml:lang="hr">Mihetić, Ambroz</persName>
                   <date>c. 1420-post 1487</date>
               </author>
               <author key="#alienus">
@@ -32,12 +34,16 @@
               <author key="#alienus">
                   <persName xml:lang="it" ref="gri03">Giliberto Grineo</persName>
               </author>
-              <editor>Veljko Gortan</editor>
+              <editor>
+               <persName>
+                  <ref>Veljko Gortan</ref>
+               </persName>
+            </editor>
               <respStmt>
                   <resp>Hanc editionem electronicam curavit</resp>
-                  <name>
+                  <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
               </respStmt>
           </titleStmt>
         <editionStmt>
@@ -94,9 +100,9 @@
       </profileDesc>
       <revisionDesc>
           <change>
-              <name>
+              <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               <date>2012-08-30</date>
               Preuređena struktura. Više autora u zaglavlju.
               Počeo spellcheck, ali je od slabe koristi.
@@ -104,72 +110,72 @@
               Xpointer za Marulićevo pismo, koje je drugdje.
           </change>
           <change>
-              <name>
+              <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-              <name>Luka Špoljarić</name>
+            </persName>
+              <persName>Luka Špoljarić</persName>
               <date>2012-02-15</date>
               Novo, unificirano zaglavlje.
           </change>
           <change>
               <date>2011-04-15</date>
-              <name>
+              <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               fiamma &gt; flamma
           </change>
           <change>
               <date>2011-03-29</date>
-              <name>
+              <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               Cantabam secum &gt; croatismum est! 
           </change>
           <change>
               <date>2011-02-11</date>
-              <name>
+              <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               etemum &gt; eternum + corr (ad virginem)
           </change>
           <change>
               <date>2010-01-18</date>
-              <name>
+              <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               Ispravio tipfeler u Apollo. Pojednostavio jedan tekst (premjestio iz docTitle u head). Odabrao pjesmu za laudationes (Trst).
           </change>
           <change>
               <date>[2009-06-29]</date>
               
-              <name key="neven.jovanovic">
+              <persName key="neven.jovanovic">
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               Etemos &gt; Eternos.
               Popravljeno zaglavlje.
           </change>
           <change>
               <date>[2008-08-22]</date>
               
-              <name key="neven.jovanovic">
+              <persName key="neven.jovanovic">
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               Validacija u Oxygenu.
               
           </change>
           <change>
               <date>[2006-01-19T23:46:52+0100]</date>
-              <name key="neven.jovanovic">
+              <persName key="neven.jovanovic">
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               Dodao prozne tekstove (skenirane iz izdanja HAZU), ispravio jedno eret u
               erit, dokraja proveo strukturno kodiranje.
           </change>
           <change>
             <date>[2008-05-13]</date>
-              <name key="neven.jovanovic">
+              <persName key="neven.jovanovic">
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               korekcija slovnih pogrešaka, premješteni brojevi petog retka unutar l elementa, TEI.2 element zamijenjen s TEI, prilagođeno tei.css listu</change>
       </revisionDesc>
   </teiHeader>

@@ -5,15 +5,19 @@
         <titleStmt>
             <title>Electi episcopi Sirmiensis epistola qua expugnationem Sciscii per Turcas factam describit., versio electronica</title>
             <author key="step01">
-                <name xml:lang="hr">Stepanić Selnički, Nikola</name>
+                <persName xml:lang="hr">Stepanić Selnički, Nikola</persName>
                 <date>1553-1602</date>
             </author>
-            <editor>Martin Juraj Kovačić</editor>
+            <editor>
+               <persName>
+                  <ref>Martin Juraj Kovačić</ref>
+               </persName>
+            </editor>
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
         <editionStmt>
@@ -40,12 +44,20 @@
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q1435">Zagreb</placeName></place>
-             <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q1741">Wien</placeName></place>
+             <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
+            </place>
+             <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q1741">Wien</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender"><persName ref="step01">Stepanić Selnički, Nikola</persName></person>
-             <person ana="recipient"><persName ref="vranc02">Vrančić, Faust</persName></person>
+             <person ana="sender">
+               <persName ref="step01">Stepanić Selnički, Nikola</persName>
+            </person>
+             <person ana="recipient">
+               <persName ref="vranc02">Vrančić, Faust</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -73,9 +85,9 @@
         <revisionDesc>
             
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2012-04-10</date>
                 Početna verzija.
             </change>

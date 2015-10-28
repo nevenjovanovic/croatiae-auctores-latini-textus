@@ -9,12 +9,16 @@
                <orgName xml:lang="hr">Rektor i Veliko vijeće
                         Dubrovnika</orgName>
             </author>
-                <editor>Bessenyei József</editor>
+                <editor>
+               <persName>
+                  <ref>Bessenyei József</ref>
+               </persName>
+            </editor>
                 <respStmt>
                     <resp>Hanc editionem electronicam curavit</resp>
-                    <name>
+                    <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -49,15 +53,29 @@
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName></place>
-             <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName></place>
+             <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName>
+            </place>
+             <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <org ana="sender"><orgName>Rektor i Veliko vijeće Dubrovnika</orgName></org>
-             <person ana="recipient"><persName ref="90633828">Clement VII, Pope</persName></person>
-             <person ana="mentioned"><persName>Pucić, Franjo</persName></person>
-             <person ana="mentioned"><persName ref="crijevicd1e326">Crijević, Toma</persName></person>
-             <person ana="mentioned"><persName ref="17240904">Dominic, Saint, 1170-1221</persName></person>
+             <org ana="sender">
+               <orgName>Rektor i Veliko vijeće Dubrovnika</orgName>
+            </org>
+             <person ana="recipient">
+               <persName ref="90633828">Clement VII, Pope</persName>
+            </person>
+             <person ana="mentioned">
+               <persName>Pucić, Franjo</persName>
+            </person>
+             <person ana="mentioned">
+               <persName ref="crijevicd1e326">Crijević, Toma</persName>
+            </person>
+             <person ana="mentioned">
+               <persName ref="17240904">Dominic, Saint, 1170-1221</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -82,29 +100,31 @@
       </profileDesc>
         <revisionDesc>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-29</date> Revizija oznaka. Svako pismo
                 u posebnu datoteku. </change>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-04-30</date>
                 Novo, unificirano zaglavlje. </change>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2011-12-30T11:22:06</date>
          </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="prosa-epistula" n="11.3" corresp="#dubrovnikklementvii15321111">
+            <div type="prosa-epistula"
+              n="11.3"
+              corresp="#dubrovnikklementvii15321111">
 
                 <head>XI/3. <date when="1532-11-11">1532. 11. Novembris</date>, Rhagusio Rector et consilium Rhagusii Clementi
                     papae VII. </head>
@@ -115,7 +135,8 @@
                 <opener>
                <note resp="BJ">[Inscriptio:]</note> Sanctissimo patri, domino nostro
                     Beatissime pater!</opener>
-                <p>Defuncto his diebus <persName>episcopo Mercanensi et Tribunensi</persName><ref>16</ref> in eius locum
+                <p>Defuncto his diebus <persName>episcopo Mercanensi et Tribunensi</persName>
+               <ref>16</ref> in eius locum
                     in hoc ipso episcopatu elegimus reverendissimum dominum fratrem <persName>Thomam Cervinum</persName>,
                     patricium nostrum ordinis divi <persName>Dominici</persName>, virum sane et morum sanctitate et aliis
                     animi dotibus, quibus maxime excellit, huiuscemodi dignitate haud indignum.

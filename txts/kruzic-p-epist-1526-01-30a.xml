@@ -7,17 +7,21 @@
                     papae VII, versio electronica</title>
                 
                 <author key="kruz01">
-               <name xml:lang="hr">Kružić, Petar</name>
+               <persName xml:lang="hr">Kružić, Petar</persName>
                <date>m.
                     1537</date>
             </author>
                 
-                <editor>Bessenyei József</editor>
+                <editor>
+               <persName>
+                  <ref>Bessenyei József</ref>
+               </persName>
+            </editor>
                 <respStmt>
                     <resp>Hanc editionem electronicam curavit</resp>
-                    <name>
+                    <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -52,15 +56,29 @@
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q259466">Senj</placeName></place>
-             <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName></place>
-             <place ana="mentioned"><placeName ref="https://www.wikidata.org/wiki/Q28">Hungary</placeName></place>
-             <place ana="mentioned"><placeName ref="https://www.wikidata.org/wiki/Q738630">Klis</placeName></place>
+             <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q259466">Senj</placeName>
+            </place>
+             <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName>
+            </place>
+             <place ana="mentioned">
+               <placeName ref="https://www.wikidata.org/wiki/Q28">Hungary</placeName>
+            </place>
+             <place ana="mentioned">
+               <placeName ref="https://www.wikidata.org/wiki/Q738630">Klis</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender"><persName ref="kruz01">Kružić, Petar</persName></person>
-             <person ana="recipient"><persName ref="90633828">Clement VII, Pope</persName></person>
-             <person ana="mentioned"><persName>Simon</persName></person>
+             <person ana="sender">
+               <persName ref="kruz01">Kružić, Petar</persName>
+            </person>
+             <person ana="recipient">
+               <persName ref="90633828">Clement VII, Pope</persName>
+            </person>
+             <person ana="mentioned">
+               <persName>Simon</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -85,22 +103,22 @@
       </profileDesc>
         <revisionDesc>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-29</date> Revizija oznaka. Svako pismo
                 u posebnu datoteku. </change>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-04-30</date>
                 Novo, unificirano zaglavlje. </change>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2011-12-30T11:22:06</date>
          </change>
         </revisionDesc>
@@ -127,8 +145,10 @@
                     castri <placeName>Clissÿ</placeName> obsidione magnas sustinuit tribulationes. Certe propter merita sua
                     est praemiandus, immo eundem Vestre Sanctitati commendo, et rogo, quatenus –
                     quam citius Vestra Sanctitas poterit – eundem expedire dignetur.</p>
-                <closer>Ex <placeName>Segnia</placeName> <date when="1526-01-30">penultima Januariii 1526.</date> Eiusdem Vestre Sanctitatis servitor
-                    <persName>Petrus Crosith</persName> capitaneus <placeName>Segnie</placeName>, comes <placeName>Clissÿ</placeName></closer>
+                <closer>Ex <placeName>Segnia</placeName> 
+               <date when="1526-01-30">penultima Januariii 1526.</date> Eiusdem Vestre Sanctitatis servitor
+                    <persName>Petrus Crosith</persName> capitaneus <placeName>Segnie</placeName>, comes <placeName>Clissÿ</placeName>
+            </closer>
 
             </div>
         </body>

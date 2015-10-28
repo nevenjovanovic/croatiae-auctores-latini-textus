@@ -5,16 +5,20 @@
         <titleStmt>
             <title>Fragmentum epistulae, versio electronica.</title>
             <author key="sagudin01">
-                <name xml:lang="la">Sagudinus, Nicolaus</name>
+                <persName xml:lang="la">Sagudinus, Nicolaus</persName>
                 <date>fl. 1452</date>
             </author>
-            <editor>Luka Jelić</editor>
+            <editor>
+               <persName>
+                  <ref>Luka Jelić</ref>
+               </persName>
+            </editor>
             
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
         <editionStmt>
@@ -47,8 +51,12 @@
              </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender"><persName ref="sagudin01">Sagudinus, Nicolaus</persName></person>
-             <person ana="recipient"><persName>Joannes Subota</persName></person>
+             <person ana="sender">
+               <persName ref="sagudin01">Sagudinus, Nicolaus</persName>
+            </person>
+             <person ana="recipient">
+               <persName>Joannes Subota</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -72,9 +80,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-09-30</date>
         Prva verzija.
     </change>

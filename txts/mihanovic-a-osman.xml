@@ -5,15 +5,19 @@
         <titleStmt>
             <title>Literarum patriique sermonis amicis, versio electronica.</title>
             <author key="mihanov01">
-                <name xml:lang="hr">Mihanović, Antun</name>
+                <persName xml:lang="hr">Mihanović, Antun</persName>
                 <date>1796-1861</date>
             </author>
-            <editor>Franjo Fancev</editor>
+            <editor>
+               <persName>
+                  <ref>Franjo Fancev</ref>
+               </persName>
+            </editor>
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
          <editionStmt>
@@ -46,14 +50,20 @@
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q617">Padua</placeName></place>
+             <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q617">Padua</placeName>
+            </place>
              <place ana="destination" type="unknown">
                  <placeName type="unknown">Unknown</placeName>
              </place>
          </settingDesc>
          <particDesc>
-             <person role="sender"><persName ref="mihanov01">Mihanović, Antun</persName></person>
-             <personGrp role="recipient"><p>Literarum patriique sermonis amici</p></personGrp>
+             <person role="sender">
+               <persName ref="mihanov01">Mihanović, Antun</persName>
+            </person>
+             <personGrp role="recipient">
+               <p>Literarum patriique sermonis amici</p>
+            </personGrp>
              
          </particDesc>
          <langUsage>
@@ -78,9 +88,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-22</date>
         Prva verzija.
         Latinski spellcheck.

@@ -5,17 +5,19 @@
         <titleStmt>
             <title>Epistula ad Metellum Ožegović (Rečica, 6. 5. 1839), versio electronica.</title>
             <author key="draskovic02">
-                <name xml:lang="hr">Drašković, Janko</name>
+                <persName xml:lang="hr">Drašković, Janko</persName>
                 <date>1770-1856</date>
             </author>
             <editor>
-               <ref type="viaf" target="60485610">Milivoj Šrepel</ref>
+               <persName>
+                  <ref type="viaf" target="60485610">Milivoj Šrepel</ref>
+               </persName>
             </editor>
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
          <editionStmt>
@@ -41,12 +43,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q851475">Rečica</placeName></place>
-            <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q5420">Varaždin</placeName></place>
+            <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q851475">Rečica</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q5420">Varaždin</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="draskovic02">Drašković, Janko</persName></person>
-            <person ana="recipient"><persName ref="305485624">Ožegović, Metel</persName></person>
+            <person ana="sender">
+               <persName ref="draskovic02">Drašković, Janko</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="305485624">Ožegović, Metel</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -71,9 +81,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-02</date>
         Prva verzija.
         Latinski spellcheck.

@@ -5,17 +5,19 @@
          <titleStmt>
             <title ref="staphyl-s-inscr.opus.7031778058184298">Stephani Staphilei inscriptio, versio electronica</title>
             <author key="stafilic.stjepan.01">
-               <name xml:lang="hr">Štafilić, Stjepan</name>
+               <persName xml:lang="hr">Štafilić, Stjepan</persName>
                <date>fl. 1508</date>
             </author>
             <editor>
-               <ref target="24945117" type="viaf">Daniel Farlati</ref>
+               <persName>
+                  <ref target="24945117" type="viaf">Daniel Farlati</ref>
+               </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -33,8 +35,10 @@
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
                <bibl>Farlati 4, 475.
-                  <note><quote>Joannes noster prodiit, cujus Pater Stephanus unum a septem vel octo illis castellis, quae inter Salonam et Tragurium orae maritimae insident, aedificavit anno 1508. conditoris cognomine appellatum Staphileum, et januae maximae hoc Tetrastichon inscripsit.</quote></note>
-    </bibl> 
+                  <note>
+                  <quote>Joannes noster prodiit, cujus Pater Stephanus unum a septem vel octo illis castellis, quae inter Salonam et Tragurium orae maritimae insident, aedificavit anno 1508. conditoris cognomine appellatum Staphileum, et januae maximae hoc Tetrastichon inscripsit.</quote>
+               </note>
+            </bibl> 
         
          </sourceDesc>
       </fileDesc>
@@ -73,9 +77,9 @@
       <revisionDesc>
     
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2014-03-06</date>
     Prva TEI verzija.
 </change>

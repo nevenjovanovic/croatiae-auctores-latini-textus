@@ -5,19 +5,23 @@
         <titleStmt>
             <title ref="mihet01-p01-1487">Ambrosii Miches Cassandrae Fidelis epistulae, versio electronica</title>
             <author key="mihet01">
-                <name xml:lang="hr">Mihetić, Ambroz</name>
+                <persName xml:lang="hr">Mihetić, Ambroz</persName>
                 <date>c. 1420-post 1487</date>
             </author>
            <author key="#alienus">
-              <name xml:lang="it" type="viaf" ref="55055760">Cassandra Fedele</name>
+              <persName xml:lang="it" type="viaf" ref="55055760">Cassandra Fedele</persName>
                 <date>c. 1465-1558</date>
             </author>
-            <editor>Iac. Philippus Tomasinus</editor>
+            <editor>
+               <persName>
+                  <ref>Iac. Philippus Tomasinus</ref>
+               </persName>
+            </editor>
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
          <editionStmt>
@@ -81,12 +85,20 @@ Altera editio electronica.
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q3549">Šibenik</placeName></place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q3549">Šibenik</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="mihet01">Mihetić, Ambroz</persName></person>
-            <person role="recipient"><persName ref="55055760">Fedele, Cassandra</persName></person>
+            <person role="sender">
+               <persName ref="mihet01">Mihetić, Ambroz</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="55055760">Fedele, Cassandra</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -113,12 +125,20 @@ Altera editio electronica.
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q3549">Šibenik</placeName></place>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName></place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q3549">Šibenik</placeName>
+            </place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person role="recipient"><persName ref="mihet01">Mihetić, Ambroz</persName></person>
-            <person role="sender"><persName ref="55055760">Fedele, Cassandra</persName></person>
+            <person role="recipient">
+               <persName ref="mihet01">Mihetić, Ambroz</persName>
+            </person>
+            <person role="sender">
+               <persName ref="55055760">Fedele, Cassandra</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -142,17 +162,17 @@ Altera editio electronica.
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-02-24</date>
         Novo, unificirano zaglavlje.
     </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2008-08-28T00:16:08</date>
          </change>
       </revisionDesc>

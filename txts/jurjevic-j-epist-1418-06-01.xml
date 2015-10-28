@@ -5,20 +5,20 @@
         <titleStmt>
             <title ref="jurjevic-p01-1418">Doctrina rebusque gerendis ornatissimo uiro Baptistae Bauiloquae Georgius de Georgiis plurimam salutem dicit, versio electronica.</title>
             <author key="georg01">
-                <name xml:lang="hr">Jurjević, Juraj</name>
+                <persName xml:lang="hr">Jurjević, Juraj</persName>
                 <date>fl. 1400</date>
             </author>
             <editor>
-               <name xml:id="NJ">
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </editor>
             
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name ref="#NJ">
+                <persName ref="#NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
         <editionStmt>
@@ -53,12 +53,20 @@
              <p>Juraj Jurjević piše Battisti Bevilacqui. Nije odgovorio na pismo koje je primio "kad je Apolon bio u području Bika" (travanj - svibanj?), jer je slušao predavanja magistra Alfonsa s krajnjeg zapada Galicije, koji je došao na padovanskom sveučilištu predavati o Rajmundu Lullu; tri mjeseca su ga slušali ugledni znanstvenici. Moli za ispriku zbog neodgovaranja. Zahvaljuje sunarodnjaku koji je uspostavio prijateljstvo njih dvojice. Bevilacqua je izrazio žaljenje zbog teške situacije u kojoj je Jurjević bio, to mu je puno pomoglo. Ivan je donio Bevilacquino pismo napisano malo prije prvog lipnja, radi održavanja prijateljske veze, da prijatelj ne bi došao bez ičega. Jurjević moli da mu piše često. Javlja da je dobro, da se bavi proučavanjem "rerum honestarum". Drago mu je što su i Bevilacqua i njegovi dobro. Prenio je Bevilacquine pozdrave Andriji "de Zaz".</p>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName></place>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q3370">Zadar</placeName></place>
+             <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName>
+            </place>
+             <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q3370">Zadar</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender"><persName ref="georg01">Jurjević, Juraj</persName></person>
-             <person ana="recipient"><persName ref="309725050 ">Bevilacqua, Battista</persName></person>
+             <person ana="sender">
+               <persName ref="georg01">Jurjević, Juraj</persName>
+            </person>
+             <person ana="recipient">
+               <persName ref="309725050 ">Bevilacqua, Battista</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -83,9 +91,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-09-01</date>
         Prva verzija.
     </change>

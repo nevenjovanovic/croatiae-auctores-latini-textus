@@ -5,16 +5,24 @@
          <titleStmt>
             <title>Ad Maximilianum Verhovacz epistola 9. Septembris 1794, versio electronica</title>
             <author key="skrl01">
-               <name xml:lang="hr">Škrlec Lomnički, Nikola</name>
+               <persName xml:lang="hr">Škrlec Lomnički, Nikola</persName>
                <date>1729-1799</date>
             </author>
-            <editor>Neven Jovanović</editor>
-            <editor>Josip Kolanović</editor>
+            <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref>Josip Kolanović</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
      
             </respStmt>
          </titleStmt>
@@ -42,12 +50,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q947769">Jakovlje</placeName></place>
-            <place ana="destination" type="unknown"><placeName type="unknown">Unknown</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q947769">Jakovlje</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="skrl01">Škrlec Lomnički, Nikola</persName></person>
-            <person ana="recipient"><persName ref="vrhov01">Vrhovac, Maksimilijan</persName></person>
+            <person ana="sender">
+               <persName ref="skrl01">Škrlec Lomnički, Nikola</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="vrhov01">Vrhovac, Maksimilijan</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -72,26 +88,26 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-07-10</date>
     Novo, unificirano zaglavlje.
    </change>
          <change>
             <date>2011-01-10</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
     Svako pismo pojedinačno.
    </change>
    
          <change>
             <date>2004-03-14T02:00:11</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name> revision </change>
+            </persName> revision </change>
       </revisionDesc>
    </teiHeader>
 
@@ -100,25 +116,27 @@
          <head>3. Jakovlye, 9. Septembris 1794. </head>
       </front>
       <body>
-         <div type="prosa-epistula"><opener>
+         <div type="prosa-epistula">
+            <opener>
     
-            <salute>Excellentissime et Illustrissime Domine Episcope mihi singulariter colendissime.</salute>
-         </opener>
-         <p> Banalis armorum praefectura expressam in adnexo<note place="foot">
-               <p>2,1 in adnexo] <emph>Adnexum deest.</emph>
-               </p>
-            </note> ad commissionem incorporatoriam eius insinuato quaerimoniam proponit.
+               <salute>Excellentissime et Illustrissime Domine Episcope mihi singulariter colendissime.</salute>
+            </opener>
+            <p> Banalis armorum praefectura expressam in adnexo<note place="foot">
+                  <p>2,1 in adnexo] <emph>Adnexum deest.</emph>
+                  </p>
+               </note> ad commissionem incorporatoriam eius insinuato quaerimoniam proponit.
      Ut illa in proxima commissionis sessione meritorie assumi possit, insinuatum
     hoc Excellentiae 
     <pb n="2186"/>
     Vestrae ea cum officiosa requisitione in originali communicandum duxi ut eadem responsum
     suum penes remissionem originalis proximius submittere haud gravetur.</p>
-         <closer>
-            <salute> In reliquo iugi cum veneratione persisto </salute>
-            <signed>Excellentiae Vestrae humillimus servus Nicolaus Skerlecz, manu propria</signed>
-            <dateline>Jakovlye, 9. Septembris 1794.</dateline>
+            <closer>
+               <salute> In reliquo iugi cum veneratione persisto </salute>
+               <signed>Excellentiae Vestrae humillimus servus Nicolaus Skerlecz, manu propria</signed>
+               <dateline>Jakovlye, 9. Septembris 1794.</dateline>
     
-         </closer></div>
+            </closer>
+         </div>
    
       </body>
       <back>

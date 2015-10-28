@@ -5,15 +5,19 @@
          <titleStmt>
             <title>Epistula ad Paulum Ritter, versio electronica</title>
             <author key="crnkovic01">
-               <name xml:lang="hr">Črnković, Petar Stanislav</name> 
+               <persName xml:lang="hr">Črnković, Petar Stanislav</persName> 
                <date>1658–1703</date>
             </author>
-            <editor>Vjekoslav Klaić</editor>
+            <editor>
+               <persName>
+                  <ref>Vjekoslav Klaić</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -44,10 +48,18 @@
             </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="crnkovic01">Črnković, Petar Stanislav</persName></person>
-            <person role="recipient"><persName ref="vitezov01">Vitezović Ritter, Pavao</persName></person>
-            <person role="mentioned"><persName ref="88342447">Ovidius Naso, Publius</persName></person>
-            <person role="mentioned"><persName ref="8194433">Vergilius Maro, Publius</persName></person>
+            <person role="sender">
+               <persName ref="crnkovic01">Črnković, Petar Stanislav</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="vitezov01">Vitezović Ritter, Pavao</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="88342447">Ovidius Naso, Publius</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="8194433">Vergilius Maro, Publius</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -72,9 +84,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-25</date>
         Početna verzija.
         Latinski spellcheck.
@@ -85,7 +97,9 @@
       <body>
       
          <pb n="182"/>
-         <div type="poesis-elegia-epistula" met="elegiacum" corresp="#crnkovicvitezovic17020928">
+         <div type="poesis-elegia-epistula"
+              met="elegiacum"
+              corresp="#crnkovicvitezovic17020928">
             <l n="1">Ritter Eques maestum renovasti Paule dolorem, </l>
              
             <l n="2">Dum plangis Patriam, deflet et ipsa suos. </l>
@@ -111,7 +125,8 @@
              
             <l n="12">Exemplum, speculum posteritatis erit. </l>
              
-            <l n="13"><persName>Naso</persName> poeta tibi cedat qui se gemit, et flet </l>
+            <l n="13">
+               <persName>Naso</persName> poeta tibi cedat qui se gemit, et flet </l>
              
             <l n="14">Esto <persName>Virgilius</persName> qui memor es Patriae. </l>
              

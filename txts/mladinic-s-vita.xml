@@ -5,15 +5,19 @@
          <titleStmt>
             <title>Vita beati Ioannis episcopi Traguriensis, versio electronica</title>
             <author key="mladin01">
-               <name xml:lang="hr">Mladinić, Sebastijan</name>
+               <persName xml:lang="hr">Mladinić, Sebastijan</persName>
                <date>c. 1561 - c. 1621</date>
             </author>
-            <editor>Mladen Ivanišević</editor>
+            <editor>
+               <persName>
+                  <ref>Mladen Ivanišević</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -79,8 +83,12 @@
             </place>
          </settingDesc>
          <particDesc>
-            <person ana="recipient"><persName ref="mladin01">Mladinić, Sebastijan</persName></person>
-            <person ana="sender"><persName ref="cipiko.petar.01">Cipiko, Petar</persName></person>
+            <person ana="recipient">
+               <persName ref="mladin01">Mladinić, Sebastijan</persName>
+            </person>
+            <person ana="sender">
+               <persName ref="cipiko.petar.01">Cipiko, Petar</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -109,16 +117,16 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2014-06-27</date>
             Ispravljena interpunkcija (u odnosu na Ivaniševića), neke emendacije, pogreške sa sic.
          </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2014-05-08T23:15:46.498054236</date>
             Prva TEI XML verzija.
          </change>
@@ -1108,7 +1116,8 @@
              
                <l n="4.63">Et nitido Christi signoque stolaque decorus</l>
              
-               <l n="4.64">Adfatur <corr>visu</corr> per amica silentia noctis: <note type="numvers">65</note></l>
+               <l n="4.64">Adfatur <corr>visu</corr> per amica silentia noctis: <note type="numvers">65</note>
+               </l>
              
                <l n="4.65">"Confice <sic>hi</sic> mea iussa, senex, nec temne quod hortor.</l>
              

@@ -8,12 +8,16 @@
                <persName xml:lang="hr">Kotruljević, Benedikt</persName>
                <date>oko 1416. - 1469?</date>
             </author>
-            <editor>Damir Salopek</editor>
+            <editor>
+               <persName>
+                  <ref>Damir Salopek</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
       
@@ -39,13 +43,23 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin" type="unknown"><placeName type="unknown">Unknown</placeName></place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q641">[Venice]</placeName></place>
+            <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q641">[Venice]</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="kotrulj01">Kotruljević, Benedikt</persName></person>
-            <person ana="recipient"><persName ref="40258112">Cristoforo Moro</persName></person>
-            <org ana="recipient"><orgName ref="147897507">Venice (Republic : To 1797). Senato</orgName></org>
+            <person ana="sender">
+               <persName ref="kotrulj01">Kotruljević, Benedikt</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="40258112">Cristoforo Moro</persName>
+            </person>
+            <org ana="recipient">
+               <orgName ref="147897507">Venice (Republic : To 1797). Senato</orgName>
+            </org>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -73,9 +87,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-09-04</date>
         Početna verzija za CroALa.
       </change>

@@ -5,19 +5,23 @@
             <titleStmt>
                 <title>Epistula ad Gerardum Planiam, versio electronica</title>
                 <author key="buci01">
-                    <name xml:lang="hr">Bučinjelić, Miho</name>
+                    <persName xml:lang="hr">Bučinjelić, Miho</persName>
                     <date>1479 - c. 1550</date>
                 </author>
-                <editor>Neven Jovanović</editor>
+                <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
                 <respStmt>
                     <resp>Hanc editionem electronicam curavit</resp>
-                    <name>
+                    <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                 </respStmt>
                     <respStmt>
                         <resp>Exscripsit</resp>
-                            <name>Petra Šoštarić</name>
+                            <persName>Petra Šoštarić</persName>
                     </respStmt>
             </titleStmt>
             <editionStmt>
@@ -66,14 +70,20 @@
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName></place>
+             <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName>
+            </place>
              <place ana="destination" type="unknown">
                  <placeName type="unknown">Unknown</placeName>
              </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender"><persName ref="buci01">Bučinjelić, Miho</persName></person>
-             <person ana="recipient"><persName ref="305565276">Plania, Gerardus</persName></person>
+             <person ana="sender">
+               <persName ref="buci01">Bučinjelić, Miho</persName>
+            </person>
+             <person ana="recipient">
+               <persName ref="305565276">Plania, Gerardus</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -98,23 +108,23 @@
       </profileDesc>
         <revisionDesc>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-06-28</date>
                 Novo, unificirano zaglavlje.</change>
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2008-10-10</date>
                 Dodao sažetak na njemačkom iz Apponyija. Preuredio sic u abbr, označio još D. V. kao kraticu. Dodao bilješku o izvoru u front.
             </change>
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2008-08-27T21:51:42</date>
             </change>
         </revisionDesc>

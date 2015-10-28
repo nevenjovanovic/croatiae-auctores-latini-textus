@@ -5,14 +5,18 @@
          <titleStmt>
             <title ref="niger02-p01-1512">Doctissimo et integerrimo Marco Marulo nobili Spalatensi epistula, versio electronica</title>
             <author key="niger02">
-               <name xml:lang="hr">Niger, Toma</name>
+               <persName xml:lang="hr">Niger, Toma</persName>
             </author>
-            <editor xml:id="NJ">Neven Jovanović</editor>
+            <editor>
+               <persName>
+                  <ref xml:id="NJ">Neven Jovanović</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Edidit et editionem electronicam correctiorem praeparavit</resp>
-               <name ref="NJ">
+               <persName ref="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -35,12 +39,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName></place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q1663">Split</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q1663">Split</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="niger02">Niger, Toma</persName></person>
-            <person ana="recipient"><persName ref="marul01">Marulić, Marko</persName></person>
+            <person ana="sender">
+               <persName ref="niger02">Niger, Toma</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="marul01">Marulić, Marko</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -66,9 +78,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2013-02-16</date>
             Početna verzija
          </change>

@@ -5,19 +5,23 @@
          <titleStmt>
             <title>Historia obsidionis Petriniae et cladis Szerdarianae, versio electronica</title>
             <author key="step01">
-               <name xml:lang="hr">Stepanić Selnički, Nikola</name>
+               <persName xml:lang="hr">Stepanić Selnički, Nikola</persName>
                <date>1553-1602</date>
             </author>
             <author key="medak01">
-               <name xml:lang="hr">Stjepan Medak</name>
+               <persName xml:lang="hr">Stjepan Medak</persName>
                <date>c. 1596.</date>
             </author>
-            <editor>Vladimir Rezar</editor>
+            <editor>
+               <persName>
+                  <ref>Vladimir Rezar</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -34,7 +38,11 @@
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
-                  <editor>Vladimir Rezar</editor>, Opsada Petrinje u spisu Nikole Stepanića Selničkoga, in Petrinjski zbornik, 1, Petrinja 1998. (prema rkp. u Arhivu zagrebačkoga kaptola, sig. Acta capituli antiqua, fasc. 99, nr. 89).
+                  <editor>
+                  <persName>
+                     <ref>Vladimir Rezar</ref>
+                  </persName>
+               </editor>, Opsada Petrinje u spisu Nikole Stepanića Selničkoga, in Petrinjski zbornik, 1, Petrinja 1998. (prema rkp. u Arhivu zagrebačkoga kaptola, sig. Acta capituli antiqua, fasc. 99, nr. 89).
     </bibl>
          </sourceDesc>
       </fileDesc>
@@ -70,25 +78,25 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-07-14</date>
         Novo, unificirano zaglavlje.
     </change>
          <change>
         TEI zaglavlje. Tekst malo sumnjiv, treba korigirati.
-        <name>
+        <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2010-03-10</date>
          </change>
          <change>
     Inicijalno označavanje za TEI XML.
-<name>
+<persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2009-11-23T12:39:27</date>
          </change>
       </revisionDesc>

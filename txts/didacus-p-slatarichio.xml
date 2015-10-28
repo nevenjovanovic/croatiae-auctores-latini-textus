@@ -5,15 +5,19 @@
          <titleStmt>
             <title>Michaeli Mensio, senatori gravissimo et aerarii IIIviro S. D., versio electronica</title>
             <author key="didak01">
-               <name xml:lang="hr">Pir, Didak</name>
+               <persName xml:lang="hr">Pir, Didak</persName>
                <date from="1517" to="1599">1517 – 1599</date>
             </author>
-            <editor>Đuro Körbler</editor>
+            <editor>
+               <persName>
+                  <ref>Đuro Körbler</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>editionem electronicam praeparavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,8 +50,12 @@
             </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="didak01">Pir, Didak</persName></person>
-            <person role="recipient"><persName ref="305521345">Menčetić, Miho</persName></person>
+            <person role="sender">
+               <persName ref="didak01">Pir, Didak</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="305521345">Menčetić, Miho</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -72,9 +80,9 @@
       <revisionDesc>
          <change>
             <date>2014-05-19</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
  Prva TEI XML verzija
 </change>
       </revisionDesc>

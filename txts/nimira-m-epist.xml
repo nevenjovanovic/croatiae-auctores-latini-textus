@@ -6,19 +6,23 @@
          <titleStmt>
             <title>Epistula Ludovico Valentiae Ferrariensi (1492), versio electronica</title>
             <author key="nimira.martin.01">
-               <name xml:lang="hr">Nimira Rabljanin, Martin</name>
+               <persName xml:lang="hr">Nimira Rabljanin, Martin</persName>
                <date>floruit 1494</date>
             </author>
-            <editor>Neven Jovanović</editor>
+            <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
             <respStmt>
                <resp>Textum electronice descripsit</resp>
-               <name>Jakša Bilić</name>
+               <persName>Jakša Bilić</persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -59,8 +63,12 @@
             </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="nimira.martin.01">Nimira Rabljanin, Martin</persName></person>
-            <person ana="recipient"><persName ref="305600221">Valentia, Ludovicus</persName></person>
+            <person ana="sender">
+               <persName ref="nimira.martin.01">Nimira Rabljanin, Martin</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="305600221">Valentia, Ludovicus</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -84,9 +92,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-05-15</date>
     Početna verzija. Blago modernizirano u odnosu na izvornik.
   </change>

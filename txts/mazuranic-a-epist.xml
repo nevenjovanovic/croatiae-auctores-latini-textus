@@ -5,15 +5,19 @@
         <titleStmt>
             <title>Epistula ad A. Kaznačić, versio electronica.</title>
             <author key="mazuranicd1e1166">
-                <name xml:lang="hr">Mažuranić, Antun</name>
+                <persName xml:lang="hr">Mažuranić, Antun</persName>
                 <date>1805-1888</date>
             </author>
-            <editor>Milivoj Šrepel</editor>
+            <editor>
+               <persName>
+                  <ref>Milivoj Šrepel</ref>
+               </persName>
+            </editor>
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
          <editionStmt>
@@ -39,12 +43,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q1435">Zagreb</placeName></place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="mazuranicd1e1166">Mažuranić, Antun</persName></person>
-            <person role="recipient"><persName ref="kazna01">Kaznačić, Antun</persName></person>
+            <person role="sender">
+               <persName ref="mazuranicd1e1166">Mažuranić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="kazna01">Kaznačić, Antun</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -69,9 +81,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-02</date>
         Prva verzija.
         Latinski spellcheck.

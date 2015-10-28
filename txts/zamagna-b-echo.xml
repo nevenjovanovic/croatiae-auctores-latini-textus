@@ -5,15 +5,19 @@
          <titleStmt>
             <title>Echo libri duo, versio electronica</title>
             <author key="zama01">
-               <name xml:lang="hr">Zamanja, Bernard </name>
+               <persName xml:lang="hr">Zamanja, Bernard </persName>
                <date>1735-1820</date>
             </author>
-            <editor xml:id="PS">Petra Šoštarić</editor>
+            <editor>
+               <persName>
+                  <ref xml:id="PS">Petra Šoštarić</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name xml:id="NJ">
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <extent ana="D">Mg:B Verborum 11422, versus 1535</extent>
@@ -60,16 +64,16 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2013-10-06</date>
             Spellcheck.
          </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2013-09-17T22:54:28</date>
             Prva XML verzija.
          </change>

@@ -5,15 +5,19 @@
          <titleStmt>
             <title>Nauicula Petri, versio electronica</title>
             <author key="nikolamodr01">
-               <name xml:lang="hr">Nikola Modruški</name>
+               <persName xml:lang="hr">Nikola Modruški</persName>
                <date>c. 1427-1480</date>
             </author>
-            <editor>Luka Špoljarić</editor>
+            <editor>
+               <persName>
+                  <ref>Luka Špoljarić</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -75,8 +79,12 @@
            </place>
         </settingDesc>
         <particDesc>
-           <person ana="recipient"><persName ref="nikolamodr01">Nikola Modruški</persName></person>
-           <person ana="sender"><persName ref="https://www.wikidata.org/wiki/Q1772166">Várdai, István</persName></person>
+           <person ana="recipient">
+               <persName ref="nikolamodr01">Nikola Modruški</persName>
+            </person>
+           <person ana="sender">
+               <persName ref="https://www.wikidata.org/wiki/Q1772166">Várdai, István</persName>
+            </person>
         </particDesc>
         <langUsage>
            <language ident="lat" xml:lang="hrv">latinski</language>
@@ -101,14 +109,14 @@
      </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-07-16</date>
         Početna XML verzija.
       </change>
          <change>
-            <name>Luka Spoljaric</name>
+            <persName>Luka Spoljaric</persName>
             <date>2012-04-18T22:48:00</date>
          </change>
       </revisionDesc>

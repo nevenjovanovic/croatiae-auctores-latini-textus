@@ -4,10 +4,12 @@
         <fileDesc xml:id="aa-vv-carmina-vgc">
             <titleStmt>
                 <title>Carmina minora ex libro De vita et gestis Christi, versio electronica</title>
-                <author key="#varii"><orgName ref="#varii">Auctores varii:</orgName> </author>
+                <author key="#varii">
+               <orgName ref="#varii">Auctores varii:</orgName> 
+            </author>
                  
                 <author key="bunic02">
-                    <name xml:lang="hr">Bunić, Jakov</name>
+                    <persName xml:lang="hr">Bunić, Jakov</persName>
                     <date>1469-1534</date>
                 </author>
                 <author key="#alienus">
@@ -15,27 +17,31 @@
                     <date>c. 1526</date>
                 </author>
                 <author key="gucet02">
-                    <name xml:lang="hr">Gučetić, Ivan</name>
+                    <persName xml:lang="hr">Gučetić, Ivan</persName>
                     <date>1451-1502</date>
                 </author>
                 <author key="#ignotus">
-                    <name xml:lang="la">Hieronymus <abbr>And.</abbr>
-               </name>
+                    <persName xml:lang="la">Hieronymus <abbr>And.</abbr>
+               </persName>
                     <date>c. 1526</date>
                 </author>
                 <author key="severit01">
-                    <name xml:lang="hr">Severitan, Ivan Polikarp</name>
+                    <persName xml:lang="hr">Severitan, Ivan Polikarp</persName>
                     <date>1472 - c. 1526</date>
                 </author>
                 
                 
                 
-                <editor>Neven Jovanović</editor>
+                <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
                 <respStmt>
                     <resp>Hanc editionem electronicam curavit</resp>
-                    <name>
+                    <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                 </respStmt>
 
             </titleStmt>
@@ -117,23 +123,23 @@
         
         <revisionDesc>
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2014-07-05</date>
                 Izdvojio tekstove koji su predgovori VGC, dodao ih u VGC.
             </change>
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2012-07-02</date>
                 Dopunjeni stihovi koji nedostaju (još fali nekoliko riječi). Univerzalno zaglavlje.
             </change>
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2010-12-12T12:45:32</date>
                 Versio prima TEI. Duo carmina priora versibus carent.
             </change>

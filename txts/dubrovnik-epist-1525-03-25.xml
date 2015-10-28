@@ -11,12 +11,16 @@
                         Dubrovnika</orgName>
             </author>
                 
-                <editor>Bessenyei József</editor>
+                <editor>
+               <persName>
+                  <ref>Bessenyei József</ref>
+               </persName>
+            </editor>
                 <respStmt>
                     <resp>Hanc editionem electronicam curavit</resp>
-                    <name>
+                    <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -51,13 +55,23 @@
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName></place>
-             <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName></place>
+             <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName>
+            </place>
+             <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <org ana="sender"><orgName>Rektor i Veliko vijeće Dubrovnika</orgName></org>
-             <person ana="recipient"><persName ref="90633828">Clement VII, Pope</persName></person>
-             <person ana="mentioned"><persName>Binčulić, Bernard</persName></person>
+             <org ana="sender">
+               <orgName>Rektor i Veliko vijeće Dubrovnika</orgName>
+            </org>
+             <person ana="recipient">
+               <persName ref="90633828">Clement VII, Pope</persName>
+            </person>
+             <person ana="mentioned">
+               <persName>Binčulić, Bernard</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -82,29 +96,31 @@
       </profileDesc>
         <revisionDesc>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-29</date> Revizija oznaka. Svako pismo
                 u posebnu datoteku. </change>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-04-30</date>
                 Novo, unificirano zaglavlje. </change>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2011-12-30T11:22:06</date>
          </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            <div type="prosa-epistula" n="11.1" corresp="#dubrovnikklementvii15250325">
+            <div type="prosa-epistula"
+              n="11.1"
+              corresp="#dubrovnikklementvii15250325">
 
                 <head>XI/1. <date when="1525-03-25">1525. 25. Martii</date>, Rhagusio Rector et consilium Rhagusii Clementi papae
                     VII.</head>

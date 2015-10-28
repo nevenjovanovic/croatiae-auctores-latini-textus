@@ -5,19 +5,19 @@
          <titleStmt>
             <title>Operum omnium tomus II, versio electronica</title>
             <author key="skrl01">
-               <name xml:lang="hr">Škrlec Lomnički, Nikola</name>
+               <persName xml:lang="hr">Škrlec Lomnički, Nikola</persName>
                <date>1729-1799</date>
             </author>
             <editor>
-               <name xml:id="NJ">
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name ref="#NJ">
+               <persName ref="#NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -74,12 +74,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q947769">Jakovlje</placeName></place>
-            <place ana="destination" type="unknown"><placeName type="unknown">Unknown</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q947769">Jakovlje</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="skrl01">Škrlec Lomnički, Nikola</persName></person>
-            <person ana="recipient"><persName ref="kovac01">Kovačić, Martin Juraj</persName></person>
+            <person ana="sender">
+               <persName ref="skrl01">Škrlec Lomnički, Nikola</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="kovac01">Kovačić, Martin Juraj</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -103,25 +111,25 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-04-30</date>
     Novo, unificirano zaglavlje. Izmijenjen tip teksta "tractatus".
    </change>
          <change>
             <date>2009-06-01</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
     Izostavio prepisku Baričević - Škrlec. Dopunio zaglavlje bibliografskim podacima.
    </change>
          <change>
             <date>2008-09-14</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
     Prebacio u XML TEI P5, validacija u oXygenu.
     Preoblikovao u skupinu tekstova, naznačio svaki tip (politicum i obično).
     Svako je pismo poseban text-čvor. Pisma imaju opener i closer. Arhivski je izvor u bibl-elementu.
@@ -130,9 +138,9 @@
    </change>
          <change>
             <date>2004-03-14T02:00:11</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name> revision </change>
+            </persName> revision </change>
       </revisionDesc>
    </teiHeader>
    <text>

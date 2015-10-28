@@ -5,19 +5,23 @@
          <titleStmt>
             <title>Ad Paulum, versio electronica</title>
             <author key="didak01">
-               <name xml:lang="hr">Pir, Didak</name>
+               <persName xml:lang="hr">Pir, Didak</persName>
                <date from="1517" to="1599">1517 – 1599</date>
             </author>
-            <editor>Neven Jovanović</editor>
+            <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronice descripsit</resp>
-               <name>Nives Pantar</name>
+               <persName>Nives Pantar</persName>
             </respStmt>
             <respStmt>
                <resp>editionem electronicam praeparavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,14 +50,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q13362">Ferrara</placeName></place>
+            <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q13362">Ferrara</placeName>
+            </place>
             <place ana="destination" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="didak01">Pir, Didak</persName></person>
-            <person role="recipient"><persName ref="120694653">Manuzio, Paolo</persName></person>
+            <person role="sender">
+               <persName ref="didak01">Pir, Didak</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="120694653">Manuzio, Paolo</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -80,23 +90,23 @@
       <revisionDesc>
          <change>
             <date>2012-08-31</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
 Uvršteno u CroALa. Spellcheck. Zaglavlje.
 </change>
          <change>
             <date>2010-01-05</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
     Pojednostavnio zaglavlje. Pretvorio pb u milestone. Dodao facs atribut i broj stranica. Pretvorio rezimee u komentare. Uskladio s ostalima za CroALa i Laudationes urbium.
   </change>
          <change>
             <date>[2007-07-07T14:58:11+0200]</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
 Ispravio nekoliko slovnih pogrešaka u prvom prepisu. Modernizirao pravopis
 (djelomično), interpunkciju. Dodao kodiranje: brojevi stihova.  Treba provjeriti
 imena, pojedine ortografske inačice, nejasna mjesta. Dodao elektronsko
@@ -107,7 +117,9 @@ zaglavlje.
    <text>
       <milestone unit="page" n="1" facs="didacus/adpaulum/1"/>
       <body>
-         <div type="poesis-epistula" met="hexameter" corresp="#didakpirmanuzio1563">
+         <div type="poesis-epistula"
+              met="hexameter"
+              corresp="#didakpirmanuzio1563">
             <head>AD PAVLVM</head>
             <!-- uvod -->
             <l n="1">Sic tranquilla meae contingant, Paule, senectae</l>

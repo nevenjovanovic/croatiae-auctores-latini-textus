@@ -5,15 +5,19 @@
         <titleStmt>
             <title>Valedictoria, versio electronica.</title>
             <author key="jelacic01">
-                <name xml:lang="hr">Jelačić, Ljudevit</name>
+                <persName xml:lang="hr">Jelačić, Ljudevit</persName>
                 <date>1792-1851</date>
             </author>
-            <editor>Franjo Fancev</editor>
+            <editor>
+               <persName>
+                  <ref>Franjo Fancev</ref>
+               </persName>
+            </editor>
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
          <editionStmt>
@@ -51,12 +55,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q1435">Zagreb</placeName></place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q1435">[Zagreb]</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q1435">[Zagreb]</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="jelacic01">Jelačić, Ljudevit</persName></person>
-            <person ana="recipient"><persName>Studiosis juris in annum II-um</persName></person>
+            <person ana="sender">
+               <persName ref="jelacic01">Jelačić, Ljudevit</persName>
+            </person>
+            <person ana="recipient">
+               <persName>Studiosis juris in annum II-um</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -80,9 +92,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-22</date>
         Prva verzija.
         Latinski spellcheck.

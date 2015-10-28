@@ -5,15 +5,19 @@
         <titleStmt>
             <title>Epistola ad fratres Blaeu (14. 11. 1668), versio electronica</title>
             <author key="lucic02">
-                <name xml:lang="hr">Lučić, Ivan</name>
+                <persName xml:lang="hr">Lučić, Ivan</persName>
                 <date>1604-1679</date>
             </author>
-            <editor>Neven Jovanović</editor>
+            <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
          <editionStmt>
@@ -44,13 +48,23 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName></place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q727">Amsterdam</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q727">Amsterdam</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="lucic02">Lučić, Ivan</persName></person>
-            <person ana="recipient"><persName ref="116024">Blaeu, Pieter, 1637-1706</persName></person>
-            <person ana="recipient"><persName ref="132954499">Blaeu, Willem, 1635-1701</persName></person>
+            <person ana="sender">
+               <persName ref="lucic02">Lučić, Ivan</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="116024">Blaeu, Pieter, 1637-1706</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="132954499">Blaeu, Willem, 1635-1701</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -74,17 +88,17 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-02-16</date>
         Novo, unificirano zaglavlje.
     </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2009-01-06T00:16:08</date>
          </change>
       </revisionDesc>

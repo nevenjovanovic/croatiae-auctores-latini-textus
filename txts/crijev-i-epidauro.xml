@@ -5,15 +5,19 @@
                 <titleStmt>
                         <title>De Epidauro, versio electronica</title>
                         <author key="crije02">
-                                <name xml:lang="hr">Crijević, Ilija</name>
+                                <persName xml:lang="hr">Crijević, Ilija</persName>
                                 <date>1463-1520</date>
                         </author>
-                        <editor xml:id="DN">Darko Novaković</editor>
+                        <editor>
+               <persName>
+                  <ref xml:id="DN">Darko Novaković</ref>
+               </persName>
+            </editor>
                         <respStmt>
                                 <resp>Hanc editionem electronicam curavit</resp>
-                                <name>
+                                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                         </respStmt>
                 </titleStmt>
          <editionStmt>
@@ -72,51 +76,51 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2014-06-23</date>
             Izdvojio Epidaur zbog epike. Dodao prozni uvod.
          </change>
         <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-                <name>Luka Špoljarić</name>
+            </persName>
+                <persName>Luka Špoljarić</persName>
                 <date>2012-02-18</date>
                 Novo, unificirano zaglavlje.
         </change>
         <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref> 
-            </name>
+            </persName>
                 <date>2012-01-01</date>
                 Uglate zagrade &gt; corr resp="DN"
                 militae &gt; corr. militiae
         </change>
         <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref> 
-            </name>
+            </persName>
                 <date>2011-12-17</date>
                 TEI zaglavlje.
         </change>
         <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref> 
-            </name>
+            </persName>
                 <date>2011-12-13</date>
                 Dvaput brojevi stihova premješteni u n atribut.
         </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref> 
-            </name>
+            </persName>
             <date>2011-11-28</date>
         TEI formatiranje, svaka pjesma posebno, stihovi, krajevi folija, zaglavlje.
     </change>
          <change>
-            <name> </name>
+            <persName> </persName>
             <date>2005-01-29T00:21:00</date>
          </change>
       </revisionDesc>
@@ -343,7 +347,8 @@
             <l n="7.3.192">Tum tyrocinium belli studiumque uigescit</l>
             <l n="7.3.193">Militiae et uentos iuxta tolerare niuales</l>
             <l n="7.3.194">Et calidos discunt aestiuo in puluere soles,</l>
-            <l n="7.3.195">Cumque siti perferre famem atque adsuescere paruo, <note type="numvers">195</note></l>
+            <l n="7.3.195">Cumque siti perferre famem atque adsuescere paruo, <note type="numvers">195</note>
+            </l>
             <l n="7.3.196">Erumnasque graues mortesque et uulnera sola</l>
             <l n="7.3.197">Laude paciscuntur: uictoria sanguine tanto</l>
             <l n="7.3.198">Laetior et uiridis palmae noua gloria constat.</l>

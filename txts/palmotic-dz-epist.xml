@@ -5,15 +5,19 @@
          <titleStmt>
             <title>Epistula Francisco cardinali Barberino, versio electronica</title>
             <author key="palmot02">
-               <name xml:lang="hr">Palmotić, Džore</name>
+               <persName xml:lang="hr">Palmotić, Džore</persName>
                <date>1606.-1675.</date>
             </author>
-            <editor>Neven Jovanović</editor>
+            <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Electronice edidit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -54,8 +58,12 @@
             </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="palmot02">Palmotić, Džore</persName></person>
-            <person ana="recipient"><persName ref="49275800">Barberini, Francesco</persName></person>
+            <person ana="sender">
+               <persName ref="palmot02">Palmotić, Džore</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="49275800">Barberini, Francesco</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -80,9 +88,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-02T16:22:15</date>
          </change>
       </revisionDesc>

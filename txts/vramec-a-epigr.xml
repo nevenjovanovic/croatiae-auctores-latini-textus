@@ -5,17 +5,19 @@
          <titleStmt>
             <title>Epigramma, versio electronica</title>
             <author key="vramecd1e1905">
-               <name xml:lang="hr">Vramec, Antun</name>
+               <persName xml:lang="hr">Vramec, Antun</persName>
                <date>1538-1588</date>
             </author>
             <editor>
-               <name xml:id="AJ">Alojz Jembrih</name>
+               <persName>
+                  <ref xml:id="AJ">Alojz Jembrih</ref>
+               </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name xml:id="NJ">
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          
@@ -66,9 +68,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name ref="#NJ">
+            <persName ref="#NJ">
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2013-11-15</date>
             Prva TEI XML verzija.
          </change>

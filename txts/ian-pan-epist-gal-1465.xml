@@ -6,17 +6,29 @@
          <titleStmt>
             <title>Galeotto suo epistula, versio electronica</title>
             <author key="janpan01">
-               <name xml:lang="hr">Jan Panonije</name>
+               <persName xml:lang="hr">Jan Panonije</persName>
                <date>1434-1472</date>
             </author>
-            <editor>Ács Pál</editor>
-            <editor>Jankovics József</editor>
-            <editor>Kőszeghy Péter</editor>
+            <editor>
+               <persName>
+                  <ref>Ács Pál</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref>Jankovics József</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref>Kőszeghy Péter</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -46,12 +58,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q193478">[Buda]</placeName></place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q38">[Italy]</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q193478">[Buda]</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q38">[Italy]</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="janpan01">Jan Panonije</persName></person>
-            <person ana="recipient"><persName ref="5362623">Marzio, Galeotto</persName></person>
+            <person ana="sender">
+               <persName ref="janpan01">Jan Panonije</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="5362623">Marzio, Galeotto</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -78,9 +98,9 @@
       <revisionDesc>
 
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-23</date> Prva verzija. Latinski spellcheck.</change>
       </revisionDesc>
   </teiHeader>

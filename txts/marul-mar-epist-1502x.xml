@@ -5,16 +5,24 @@
          <titleStmt>
             <title>Reuerendo in Christo Domino Iacobo Grassolario, versio electronica</title>
             <author key="marul01">
-               <name xml:lang="hr">Marulić, Marko</name>
+               <persName xml:lang="hr">Marulić, Marko</persName>
                <date>1450-1524</date>
             </author>
-            <editor>Branimir Glavičić</editor>
-            <editor>Bratislav Lučin</editor>
+            <editor>
+               <persName>
+                  <ref>Branimir Glavičić</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref>Bratislav Lučin</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -37,14 +45,26 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q1663">Split</placeName></place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q1663">Split</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="marul01">Marko Marulić</persName></person>
-            <person role="recipient"><persName ref="22956282">Grasolari, Jacopo</persName></person>
-            <person role="mentioned"><persName ref="22956282">Grasolari, Jacopo</persName></person>
-            <person role="mentioned"><persName ref="99016650">Consorti, Francesco de</persName></person>
+            <person role="sender">
+               <persName ref="marul01">Marko Marulić</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="22956282">Grasolari, Jacopo</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="22956282">Grasolari, Jacopo</persName>
+            </person>
+            <person role="mentioned">
+               <persName ref="99016650">Consorti, Francesco de</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -75,10 +95,10 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-03-09</date> Novo,
     unificirano zaglavlje. </change>
       </revisionDesc>
@@ -88,7 +108,9 @@
          <div type="prosa-epistula">
 
             <opener> Reuerendo in Christo Domino <persName>Iacobo Grassolario</persName>, domino meo, plurimum honorem. <placeName>Venetiis</placeName>.
-      <salute><persName>Iacobo Grassolario</persName> <persName>Marcus Marulus</persName> salutem.</salute>
+      <salute>
+                  <persName>Iacobo Grassolario</persName> 
+                  <persName>Marcus Marulus</persName> salutem.</salute>
             </opener>
             <p> Cum scriptorum meorum studiosus, optime uir <persName>Iacobe</persName>, cures inprimis cum impręssoribus Tuis,
      ut illa in lucem ueniant, exegisti, ut hęc etiam commentaria, quorum de imitatione Christi

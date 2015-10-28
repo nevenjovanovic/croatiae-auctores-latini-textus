@@ -4,7 +4,9 @@
         <fileDesc xml:id="aa-vv-epitaph-maruli">
             <titleStmt>
                 <title>Epitaphia Marci Maruli, versio electronica</title>
-                <author key="#varii"><orgName ref="#varii">Auctores varii:</orgName> </author>
+                <author key="#varii">
+               <orgName ref="#varii">Auctores varii:</orgName> 
+            </author>
                 
                 <author key="bozic01">
                     <persName xml:lang="hr">Božićević Natalis, Frano</persName>
@@ -28,12 +30,16 @@
                <persName xml:lang="hr">Paskvalić, Donat</persName>
             </author>
                 
-                <editor>Neven Jovanović</editor>
+                <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
                 <respStmt>
                     <resp>Hanc editionem electronicam curavit</resp>
-                    <name>
+                    <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -85,22 +91,22 @@
       </profileDesc>
         <revisionDesc>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-06-12</date>
                 Novo, unificirano zaglavlje. Datoteka rastavljena na cjeline (teme, autori). </change>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2011-10-29</date> Auctores elementum ref
                 acceperunt quod notam in prosopographia indicat. </change>
             <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2011-10-23T20:46:39</date> Versionem XML
                 fecit. </change>
         </revisionDesc>

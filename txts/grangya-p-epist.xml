@@ -5,15 +5,19 @@
          <titleStmt>
             <title>Epistolae duae, versio electronica</title>
             <author key="grangya01">
-               <name>Grangya, Petar</name>
+               <persName>Grangya, Petar</persName>
                <date when="1535">fl. 1535</date>
             </author>
-            <editor>Vincze Bunyitay</editor>
+            <editor>
+               <persName>
+                  <ref>Vincze Bunyitay</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Versio electronica</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -71,12 +75,20 @@
            <p/>
         </abstract>
         <settingDesc>
-           <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q617">Padova</placeName></place>
-           <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName></place>
+           <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q617">Padova</placeName>
+            </place>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
+            </place>
         </settingDesc>
         <particDesc>
-           <person ana="sender"><persName ref="grangya01">Grangya, Petar</persName></person>
-           <person ana="recipient"><persName>Grangya, Georgius</persName></person>
+           <person ana="sender">
+               <persName ref="grangya01">Grangya, Petar</persName>
+            </person>
+           <person ana="recipient">
+               <persName>Grangya, Georgius</persName>
+            </person>
         </particDesc>
         <langUsage>
            <language ident="lat" xml:lang="hrv">latinski</language>
@@ -103,13 +115,23 @@
            <p/>
         </abstract>
         <settingDesc>
-           <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q617">Padova</placeName></place>
-           <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName></place>
+           <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q617">Padova</placeName>
+            </place>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
+            </place>
         </settingDesc>
         <particDesc>
-           <person ana="sender"><persName ref="grangya01">Grangya, Petar</persName></person>
-           <person ana="recipient"><persName>Grangya, Georgius</persName></person>
-           <person ana="recipient"><persName>Bakocz, Thoma</persName></person>
+           <person ana="sender">
+               <persName ref="grangya01">Grangya, Petar</persName>
+            </person>
+           <person ana="recipient">
+               <persName>Grangya, Georgius</persName>
+            </person>
+           <person ana="recipient">
+               <persName>Bakocz, Thoma</persName>
+            </person>
         </particDesc>
         <langUsage>
            <language ident="lat" xml:lang="hrv">latinski</language>
@@ -134,25 +156,25 @@
       <revisionDesc>
          <change>
         Ispravio i dopunio prema digitalizatu na archive.org.
-        <name>
+        <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2014-03-06</date>
          </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-07-22</date>
         Novo, unificirano zaglavlje.
       </change>
          <!-- radno -->
          <change>
         Prva TEI verzija
-        <name>
+        <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2011-11-25</date>
          </change>
       

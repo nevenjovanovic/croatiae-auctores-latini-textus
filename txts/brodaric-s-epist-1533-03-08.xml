@@ -5,17 +5,19 @@
          <titleStmt>
             <title>Stephanus Brodericus Episcopus Sirmiensis Nicolao Olao, versio electronica.</title>
             <author key="brod01">
-               <name xml:lang="hr">Brodarić, Stjepan</name>
+               <persName xml:lang="hr">Brodarić, Stjepan</persName>
                <date>1490-1539</date>
             </author>
             <editor>
-               <name>Arnold Ipolyi</name>
+               <persName>
+                  <ref>Arnold Ipolyi</ref>
+               </persName>
             </editor>
             <respStmt>
                <resp>Editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -49,14 +51,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q1780">Bratislava</placeName></place>
+            <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1780">Bratislava</placeName>
+            </place>
             <place ana="destination" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="brod01">Brodarić, Stjepan</persName></person>
-            <person ana="recipient"><persName ref="9923869">Olahus, Nicolaus, 1493-1568</persName></person>
+            <person ana="sender">
+               <persName ref="brod01">Brodarić, Stjepan</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="9923869">Olahus, Nicolaus, 1493-1568</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -81,21 +89,21 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-30</date> Svako pismo u posebnoj datoteci. </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-07-10</date> Novo,
         unificirano zaglavlje. </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2011-12-30T11:22:06</date>
          </change>
       </revisionDesc>

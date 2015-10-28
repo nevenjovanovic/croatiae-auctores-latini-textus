@@ -5,15 +5,19 @@
          <titleStmt>
             <title>Epistula ad Alexandrum VI Georgii Difnici Dalmatae episcopi Nonensis, versio electronica</title>
             <author key="divni01">
-               <name xml:lang="hr">Divnić, Juraj</name>
+               <persName xml:lang="hr">Divnić, Juraj</persName>
                <date>1450?-1530</date>
             </author>
-            <editor>Olga Perić</editor>
+            <editor>
+               <persName>
+                  <ref>Olga Perić</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <extent ana="C">Mg:C Verborum 2068</extent>
@@ -37,12 +41,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q142894">Lika</placeName></place>
-            <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName></place>
+            <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q142894">Lika</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q220">Roma</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="divni01">Divnić, Juraj</persName></person>
-            <person role="recipient"><persName ref="2501524">Alexander VI, Pope, 1431-1503</persName></person>
+            <person role="sender">
+               <persName ref="divni01">Divnić, Juraj</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="2501524">Alexander VI, Pope, 1431-1503</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -66,25 +78,25 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-02-11</date>
             Novo, unificirano zaglavlje.
          </change>
          <change>
             <date>2009-05-02</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             Zaglavlje za CroALa.
          </change>
          <change>
             <date>2008-08-21</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             Validacija oznaka u Oxygenu (TEI P5), 
             Pojednostavljen dateline (izostavljen prijevod latinskog datuma).
          </change>

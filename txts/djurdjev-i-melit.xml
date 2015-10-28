@@ -5,15 +5,19 @@
          <titleStmt>
             <title>Januario Salines Suo S. P. D., versio electronica</title>
             <author key="djurdjev02">
-               <name xml:lang="hr">Đurđević, Ignjat</name>
+               <persName xml:lang="hr">Đurđević, Ignjat</persName>
                <date>1675-1737</date>
             </author>
-            <editor>Milivoj Šrepel</editor>
+            <editor>
+               <persName>
+                  <ref>Milivoj Šrepel</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -36,12 +40,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q211306">Mljet</placeName></place>
-            <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q334051">Territorial Abbey of Monte Cassino</placeName></place>
+            <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q211306">Mljet</placeName>
+            </place>
+            <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q334051">Territorial Abbey of Monte Cassino</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="djurdjev02">Đurđević, Ignjat</persName></person>
-            <person role="recipient"><persName>Salines, Januarius</persName></person>
+            <person role="sender">
+               <persName ref="djurdjev02">Đurđević, Ignjat</persName>
+            </person>
+            <person role="recipient">
+               <persName>Salines, Januarius</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -68,9 +80,9 @@
       <revisionDesc>
          <change>
         Prva verzija. Latinski spellcheck.
-        <name>
+        <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-08-02T13:43:27</date>
          </change>
       </revisionDesc>

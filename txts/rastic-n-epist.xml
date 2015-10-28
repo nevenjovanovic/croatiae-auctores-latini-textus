@@ -5,15 +5,19 @@
         <titleStmt>
             <title>Clarissimo Equiti D. Francisco Barbaro S., versio electronica</title>
             <author key="rest02">
-                <name xml:lang="hr">Rastić, Nikola</name>
+                <persName xml:lang="hr">Rastić, Nikola</persName>
                 <date>c. 1418.–1454.</date>
             </author>
-            <editor>Angelo Maria Quirini</editor>
+            <editor>
+               <persName>
+                  <ref>Angelo Maria Quirini</ref>
+               </persName>
+            </editor>
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
         <editionStmt>
@@ -40,12 +44,20 @@
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName></place>
-             <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName></place>
+             <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName>
+            </place>
+             <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender"><persName ref="rest02">Rastić, Nikola</persName></person>
-             <person ana="recipient"><persName ref="100951498">Barbaro, Francesco</persName></person>
+             <person ana="sender">
+               <persName ref="rest02">Rastić, Nikola</persName>
+            </person>
+             <person ana="recipient">
+               <persName ref="100951498">Barbaro, Francesco</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -71,9 +83,9 @@
         <revisionDesc>
             
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 <date>2012-04-15</date>
                 Početna verzija.
             </change>

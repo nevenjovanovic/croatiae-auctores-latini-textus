@@ -5,20 +5,24 @@
             <titleStmt>
                 <title>Philosophiae versibus traditae libri sex, versio electronica</title>
                 <author key="stay01">
-                    <name xml:lang="hr">Stay, Benedikt</name>
+                    <persName xml:lang="hr">Stay, Benedikt</persName>
                     <date>1714-1801</date>
                 </author>
-                <editor>Neven Jovanović</editor>
+                <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
                 <respStmt>
                     <resp>Hanc editionem electronicam curavit</resp>
-                    <name>
+                    <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
                 </respStmt>
                 <respStmt>
                     <resp>Electronice descripserunt</resp>
-                    <name>Dubravka Ivšić</name>
-                    <name>Andrea Papić</name>
+                    <persName>Dubravka Ivšić</persName>
+                    <persName>Andrea Papić</persName>
                 </respStmt>
             </titleStmt>
             <editionStmt>
@@ -73,32 +77,32 @@
       </profileDesc>
         <revisionDesc>
            <change>
-              <name>
+              <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
               <date>2014-08-23</date>
               Stihovi obrojčani po pjevanjima. Pjevanja imaju @n atribute.
            </change>
             <change>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-                <name>Luka Špoljarić</name>
+            </persName>
+                <persName>Luka Špoljarić</persName>
                 <date>2012-02-24</date>
                 Novo, unificirano zaglavlje.
             </change>
             <change>
             <date>2009-05-02</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             Zaglavlje za CroALa.
             </change>
             <change>
                 <date>30.08.2008.</date>
-                <name>
+                <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
                 Preoblikovao u TEI P5 XML. 
                 Validacija u oXygenu. 
                 Div i lg elementi.
@@ -109,7 +113,7 @@
             </change>
             <change>
                 <date>2006-09-13T18:38:00</date>
-                <name>Dubravka Ivšić, Andrea Papić</name>
+                <persName>Dubravka Ivšić, Andrea Papić</persName>
                 Prvi unos (Microsoft Word dokument).
             </change>
         </revisionDesc>
@@ -600,7 +604,8 @@
                </lg>
                <lg>
                   <l n="279"> Dic porro, mea si causando docta refellis,		</l>
-                  <l n="280">Unde fit, ut, veteri nostraque aetate vocamus		<note type="numvers">280</note></l>
+                  <l n="280">Unde fit, ut, veteri nostraque aetate vocamus		<note type="numvers">280</note>
+                  </l>
                   <l n="281">Nomine quos pulchro, et Sapientes credimus esse,</l>
                   <l n="282">Scilicet inter se tanto ut discrimine rerum,</l>
                   <l n="283">Quas docuere, recedentes penitusque repulsi</l>
@@ -1527,7 +1532,8 @@
                   <l n="1087">Fortunae referunt. Quoties laudare fecundam</l>
                   <l n="1088">Audi Dites, et magnam dicere Divam</l>
                   <l n="1089">Marmoreis dignam templis et thure Sabaeo.</l>
-                  <l n="1090">Contra alii tristes in eam convicia jactant			<note type="numvers">1090</note></l>
+                  <l n="1090">Contra alii tristes in eam convicia jactant			<note type="numvers">1090</note>
+                  </l>
                   <l n="1091">Saevam appellantes excordem e semine diro</l>
                   <l n="1092">Eumenidum. Veteres illam cecinere Poëtae</l>
                   <l n="1093">Incertam vultu pedibusque globosa prementem</l>
@@ -6109,7 +6115,10 @@
                   <l n="1757">Halitus ex undis liquidas sublatus in auras.</l>
                   <l n="1758">Indicium festuca dabit silvestris avenae,</l>
                   <l n="1759">Lignosas effert, ut tenuia cornua, fibras</l>
-                  <l n="1760">Vertice quae summo: nam, cum vapor aëris illas		<note type="numvers"><sic>1750</sic></note></l>
+                  <l n="1760">Vertice quae summo: nam, cum vapor aëris illas		<note type="numvers">
+                        <sic>1750</sic>
+                     </note>
+                  </l>
                   <l n="1761">Humectat, laxantur, et orbibus evolvuntur:</l>
                   <l n="1762">At facit ut redeant in spiras siccior aër.</l>
                   <l n="1763">Hoc etiam organico poteris deprendere nervo,</l>
@@ -9714,7 +9723,8 @@
                   <l n="1349">Vis animi ingeniique vigor pollentior extat.</l>
                   <l n="1350">Scilicet haec memoret, 
 <note place="foot" type="text">R.P. Rogerius Boscovich Soc. Jesu Matheseos in Coll. Romano Professor.</note>
- quicum communia nobis		<note type="numvers">1350</note></l>
+ quicum communia nobis		<note type="numvers">1350</note>
+                  </l>
                   <l n="1351">Vincula communis Patriae, quem sidera Mundi,</l>
                   <l n="1352">Vires, mensuras, rationes, pondera rerum</l>
                   <l n="1353">Et numeros audit Pubes Romana docentem.</l>

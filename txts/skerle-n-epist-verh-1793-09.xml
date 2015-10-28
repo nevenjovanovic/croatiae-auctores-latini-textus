@@ -5,16 +5,24 @@
          <titleStmt>
             <title>Ad Maximilianum Verhovacz epistola 24. Septembris 1793, versio electronica</title>
             <author key="skrl01">
-               <name xml:lang="hr">Škrlec Lomnički, Nikola</name>
+               <persName xml:lang="hr">Škrlec Lomnički, Nikola</persName>
                <date>1729-1799</date>
             </author>
-            <editor>Neven Jovanović</editor>
-            <editor>Josip Kolanović</editor>
+            <editor>
+               <persName>
+                  <ref>Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName>
+                  <ref>Josip Kolanović</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
      
             </respStmt>
          </titleStmt>
@@ -42,12 +50,20 @@
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q947769">Jakovlje</placeName></place>
-            <place ana="destination" type="unknown"><placeName type="unknown">Unknown</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q947769">Jakovlje</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person ana="sender"><persName ref="skrl01">Škrlec Lomnički, Nikola</persName></person>
-            <person ana="recipient"><persName ref="vrhov01">Vrhovac, Maksimilijan</persName></person>
+            <person ana="sender">
+               <persName ref="skrl01">Škrlec Lomnički, Nikola</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="vrhov01">Vrhovac, Maksimilijan</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -72,26 +88,26 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-07-10</date>
     Novo, unificirano zaglavlje.
    </change>
          <change>
             <date>2011-01-10</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
     Svako pismo pojedinačno.
    </change>
    
          <change>
             <date>2004-03-14T02:00:11</date>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name> revision </change>
+            </persName> revision </change>
       </revisionDesc>
    </teiHeader>
 
@@ -100,27 +116,29 @@
          <head>2. Jakovlye, 24. Septembris 1793.</head>
       </front>
       <body>
-         <div type="prosa-epistula"><opener>
-            <salute>Chare amice!</salute>
-         </opener>
-         <p> Intelligo fidedigne parochos ordinationem tuam circa processiones ita
+         <div type="prosa-epistula">
+            <opener>
+               <salute>Chare amice!</salute>
+            </opener>
+            <p> Intelligo fidedigne parochos ordinationem tuam circa processiones ita
     maligne intelligere quasi prohibitio haec plebi deberet publicari, id autem citra periculum
     fieri non posse aiunt.  Ubi tamen naturalis ordinationem hanc exsequendi via
     est ut illi sic dictas vicinias non publicent et, si quis e parochianis memor prioris usus
     rationem intermissionis huius deposcat, eum capacitent quod peregrinationes eiusmodi debeant
     esse voluntariae, officium autem suum sit illis, qui proficisci nolunt, ordinariam devotionem
     peragere.</p>
-         <p> Nisi impediveris ne parochi publicationem hanc instituant, indubie
+            <p> Nisi impediveris ne parochi publicationem hanc instituant, indubie
     complures id ita malitiose facient ut facile inde ingratus aliquis effectus sequi possit.
      Quare id tibi notificandum esse duxi, ad hoc ut tu pro tua prudentia efficax
     rei huic remedium ponas.  Ego certe eos diserte instruendos esse puto quod
     mens tua ea fuerit ne illi amplius vicinias promulgare ausint.  Qui autem aut
     id fecerit aut prohibitionem processionum plebi diserte publicaverit, eum condignas
     inobedientiae suae poenas daturum.</p>
-         <closer>
-            <salute> Vale, meque ut facis ama.</salute>
-            <dateline>Jakovlye, 24. Septembris 1793.</dateline>
-         </closer></div>
+            <closer>
+               <salute> Vale, meque ut facis ama.</salute>
+               <dateline>Jakovlye, 24. Septembris 1793.</dateline>
+            </closer>
+         </div>
       </body>
       <back>
          <div type="notes">

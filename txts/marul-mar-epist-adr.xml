@@ -6,15 +6,19 @@
          <titleStmt>
             <title>Epistola ad Adrianum VI Pontificem Maximum, versio electronica</title>
             <author key="marul01">
-               <name xml:lang="hr">Marulić, Marko</name>
+               <persName xml:lang="hr">Marulić, Marko</persName>
                <date>1450-1524</date>
             </author>
-            <editor>Darko Novaković</editor>
+            <editor>
+               <persName>
+                  <ref>Darko Novaković</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -78,8 +82,12 @@
             </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="marul01">Marko Marulić</persName></person>
-            <person role="recipient"><persName ref="bucad1e265">Buća, Dominik</persName></person>
+            <person role="sender">
+               <persName ref="marul01">Marko Marulić</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="bucad1e265">Buća, Dominik</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -109,11 +117,17 @@
             <place ana="origin" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
-            <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName></place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="marul01">Marko Marulić</persName></person>
-            <person role="recipient"><persName ref="76430137">Adrian VI, Pope</persName></person>
+            <person role="sender">
+               <persName ref="marul01">Marko Marulić</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="76430137">Adrian VI, Pope</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -138,10 +152,10 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-03-09</date>
     Novo, unificirano zaglavlje.
    </change>

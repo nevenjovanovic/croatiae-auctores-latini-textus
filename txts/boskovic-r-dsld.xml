@@ -5,16 +5,20 @@
          <titleStmt>
             <title>De solis ac lunae defectibus, versio electronica</title>
             <author key="bosk02">
-               <name xml:lang="hr">Bošković, Ruđer</name>
+               <persName xml:lang="hr">Bošković, Ruđer</persName>
                <date>1711-1787</date>
             </author>
-            <editor>Branimir Glavičić</editor>
+            <editor>
+               <persName>
+                  <ref>Branimir Glavičić</ref>
+               </persName>
+            </editor>
             <respStmt>
                <resp>Editionem electronicam curaverunt</resp>
-               <name>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
-               <name>Jan Šipoš</name>          
+               </persName>
+               <persName>Jan Šipoš</persName>          
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -66,64 +70,70 @@
            </keywords>
         </textClass>
       </profileDesc>
-    <profileDesc xml:id="boskoviclouisxvi">
-      <abstract>
-        <p/>
-      </abstract>
-      <settingDesc>
-        <place ana="origin" type="unknown">
-          <placeName type="unknown">Unknown</placeName>
-        </place>
-        <place ana="destination" type="unknown">
-          <placeName type="unknown">Unknown</placeName>
-        </place>
-      </settingDesc>
-      <particDesc>
-        <person ana="sender"><persName ref="bosk02">Bošković, Ruđer Josip</persName></person>
-        <person ana="recipient"><persName ref="212882453">Louis XVI, King of France, 1754-1793</persName></person>
-      </particDesc>
-      <langUsage>
-        <language ident="lat" xml:lang="hrv">latinski</language>
-      </langUsage>
-      <creation>
-        <date notBefore="1761" notAfter="1779" period="17xx_3_third">1761-1779</date>
-      </creation>
-      <textClass>
-        <keywords scheme="typus">
-          <term>poesis</term>
-        </keywords>
-        <keywords scheme="aetas">
-          <term>Litterae recentiores (1600-1850)</term>
-          <term>Saeculum 18 (1701-1800)</term>
-          <term>1751-1800</term>
-        </keywords>
-        <keywords scheme="genre">
+      <profileDesc xml:id="boskoviclouisxvi">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person ana="sender">
+               <persName ref="bosk02">Bošković, Ruđer Josip</persName>
+            </person>
+            <person ana="recipient">
+               <persName ref="212882453">Louis XVI, King of France, 1754-1793</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notBefore="1761" notAfter="1779" period="17xx_3_third">1761-1779</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
           
-          <term>poesis - epistula</term>
+               <term>poesis - epistula</term>
           
-        </keywords>
-      </textClass>
-    </profileDesc>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc>
       <!-- radno, nedovršeno -->
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2014-06-19</date>
             Uključio bilješke (Jan Šipoš).
          </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2011-11-30T16:56:22</date>
          </change>
       </revisionDesc>
   </teiHeader>
    <text>
       <front>
-         <div type="poesis-epistula-dedicatio" met="hexameter" corresp="#boskoviclouisxvi">
+         <div type="poesis-epistula-dedicatio"
+              met="hexameter"
+              corresp="#boskoviclouisxvi">
             <pb n="5"/>
             <head>AD POTENTISSIMUM GALLIAE REGEM LUDOVICUM XVI EPISTOLA DEDICATORIA </head>
 

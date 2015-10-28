@@ -5,16 +5,20 @@
         <titleStmt>
             <title>Epistula ad Mapheum Vallaressum (Tragurii, 1438), versio electronica.</title>
             <author key="sobot01">
-                <name xml:lang="hr">Sobota, Ivan</name>
+                <persName xml:lang="hr">Sobota, Ivan</persName>
                 <date>m. 1467</date>
             </author>
-            <editor>Darko Novaković</editor>
+            <editor>
+               <persName>
+                  <ref>Darko Novaković</ref>
+               </persName>
+            </editor>
             
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
         <editionStmt>
@@ -38,12 +42,20 @@
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q189161">Trogir</placeName></place>
-             <place ana="destination" type="unknown"><placeName type="unknown">Unknown</placeName></place>
+             <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q189161">Trogir</placeName>
+            </place>
+             <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender"><persName ref="sobot01">Sobota, Ivan</persName></person>
-             <person ana="recipient"><persName ref="croala.publika.vallaresso.maffeo">Vallaresso, Maffeo</persName></person>
+             <person ana="sender">
+               <persName ref="sobot01">Sobota, Ivan</persName>
+            </person>
+             <person ana="recipient">
+               <persName ref="croala.publika.vallaresso.maffeo">Vallaresso, Maffeo</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -68,9 +80,9 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2012-04-29</date>
         Prva verzija.
     </change>

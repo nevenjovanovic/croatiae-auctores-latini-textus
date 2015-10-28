@@ -5,15 +5,19 @@
         <titleStmt>
             <title>Epistula ad Andriam Torquatum filium, versio electronica.</title>
             <author key="brlic01">
-                <name xml:lang="hr">Brlić, Ignjat Alojzije</name>
+                <persName xml:lang="hr">Brlić, Ignjat Alojzije</persName>
                 <date>1795-1855</date>
             </author>
-            <editor>Ivan Brlić</editor>
+            <editor>
+               <persName>
+                  <ref>Ivan Brlić</ref>
+               </persName>
+            </editor>
             <respStmt>
                 <resp>Hanc editionem electronicam curavit</resp>
-                <name>
+                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </respStmt>
         </titleStmt>
          <editionStmt>
@@ -41,16 +45,32 @@
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="http://www.wikidata.org/wiki/Q4686">Slavonski Brod</placeName></place>
-             <place ana="destination"><placeName ref="http://www.wikidata.org/wiki/Q221495">Vinkovci</placeName></place>
-             <place ana="mentioned"><placeName ref="http://www.wikidata.org/wiki/Q273114">Požega</placeName></place>
+             <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q4686">Slavonski Brod</placeName>
+            </place>
+             <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q221495">Vinkovci</placeName>
+            </place>
+             <place ana="mentioned">
+               <placeName ref="http://www.wikidata.org/wiki/Q273114">Požega</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender"><persName ref="brlic01">Brlić, Ignjat Alojzije</persName></person>
-             <person ana="recipient"><persName ref="croala.publika.brlic.andrija.torkvat">Brlić, Andrija Torkvat</persName></person>
-             <person ana="mentioned"><persName>Acxich</persName></person>
-             <person ana="mentioned"><persName>Popovich</persName></person>
-             <person ana="mentioned"><persName>Müller</persName></person>
+             <person ana="sender">
+               <persName ref="brlic01">Brlić, Ignjat Alojzije</persName>
+            </person>
+             <person ana="recipient">
+               <persName ref="croala.publika.brlic.andrija.torkvat">Brlić, Andrija Torkvat</persName>
+            </person>
+             <person ana="mentioned">
+               <persName>Acxich</persName>
+            </person>
+             <person ana="mentioned">
+               <persName>Popovich</persName>
+            </person>
+             <person ana="mentioned">
+               <persName>Müller</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -74,17 +94,17 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
-            <name>Luka Špoljarić</name>
+            </persName>
+            <persName>Luka Špoljarić</persName>
             <date>2012-02-16</date>
         Novo, unificirano zaglavlje.
     </change>
          <change>
-            <name>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </name>
+            </persName>
             <date>2009-01-07T00:16:08</date>
          </change>
       </revisionDesc>
@@ -159,7 +179,8 @@
         
             <p>Scholam musices tibi mitto. Invenies etiam pro <persName>Müller</persName>
         ibidem duo folia Charto pro Cottis, trade eidem illa.
-        Responsum <abbr>Dno.</abbr> <persName>Popovich</persName> adjacens dabis.</p>
+        Responsum <abbr>Dno.</abbr> 
+               <persName>Popovich</persName> adjacens dabis.</p>
         
             <p>Quid pro instructione in Musica solvendum fuerit, <abbr>A. R.
         Dnus.</abbr> Cathecheta, meus singularis amicus pro me solvet, cui
