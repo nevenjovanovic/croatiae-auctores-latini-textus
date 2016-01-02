@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc xml:id="aa-vv-epigr-mulla">
             <titleStmt>
                 <title>Ad clarissimum uirum dominum Benedictum
                     de Mulla, praetorem praefectum Spalatensem dignissimum, epigrammata IV, versio electronica</title>
-                <author key="#varii">
+                <author ref="#varii">
                <orgName ref="#varii">Auctores varii:</orgName> 
             </author>
-                <author key="martin02">
+                <author ref="martin02">
                <persName xml:lang="hr">Martinčić, Jerolim</persName>
             </author>
-                <author key="alb02">
+                <author ref="alb02">
                <persName xml:lang="hr">Alberti, Nikola</persName>
             </author>
-                <author key="paskv01">
+                <author ref="paskv01">
                <persName xml:lang="hr">Paskvalić, Donat</persName>
             </author>
                 <editor>
                <persName>
-                  <ref>Neven Jovanović</ref>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </editor>
             </titleStmt>
@@ -30,8 +30,7 @@
             </editionStmt>
             <extent ana="B">Mg:B 22 versus, verborum 180</extent>
             <publicationStmt>
-                <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma, (Filozofski
-                    fakultet Sveučilišta u Zagrebu, Hrvatska). <date>Listopad 2011</date>
+                <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName><ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref></orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Listopad 2011</date>
             </p>
             </publicationStmt>
             <sourceDesc>

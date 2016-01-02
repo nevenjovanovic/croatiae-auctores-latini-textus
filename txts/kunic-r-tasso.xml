@@ -4,7 +4,11 @@
       <fileDesc xml:id="kunic-r-tasso">
          <titleStmt>
             <title>Ex libro primo Italici poematis Torquati Tassi, versio electronica</title>
-            <author key="kunic02">
+            <author ref="#alienus">
+               <persName type="viaf" ref="4936996">Tasso, Torquato</persName>
+               <date>1544-1595</date>
+            </author>
+            <author ref="kunic02" role="trl">
                <persName xml:lang="hr">Kunić, Rajmund</persName>
                <date>1719-1794</date>
             </author>
@@ -27,7 +31,7 @@
          </editionStmt>
          <extent ana="B">Mg:B 143 versus, verborum 995</extent>
          <publicationStmt>
-            <p>Hrvatska latinistička epika, znanstveni projekt <orgName>Filozofskog fakulteta Sveučilišta u Zagrebu</orgName>.
+            <p>Hrvatska latinistička epika, znanstveni projekt <orgName>Filozofskog fakulteta Sveučilišta u Zagrebu</orgName>, <placeName ref="3186886">Zagreb</placeName>, Hrvatska.
                <date when="2014-05">Svibanj 2014</date>.
             </p>
          </publicationStmt>

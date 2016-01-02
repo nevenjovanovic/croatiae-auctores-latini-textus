@@ -4,13 +4,13 @@
       <fileDesc xml:id="benesa-p-epist-1570">
          <titleStmt>
             <title>Epistula ad Ioannem II. Zapolyam, versio electronica</title>
-            <author key="benesa03">
+            <author ref="benesa03">
                <persName xml:lang="hr">Beneša, Petar</persName>
                <date when="1570">fl. 1570</date>
             </author>
             <editor>
                <persName>
-                  <ref xml:id="VR">Vlado Rezar</ref>
+                  <ref type="viaf" target="2726561" xml:id="VR">Vladimir Rezar</ref>
                </persName>
             </editor>
             <respStmt>
@@ -28,7 +28,7 @@
          <extent ana="B">Mg:B 482 verborum</extent>
          <publicationStmt>
             <p>elektronska verzija: <name>Digitalizacija hrvatskih latinista</name>, znanstveni
-        projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+        projekt na <orgName><ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref></orgName>, <placeName ref="3186886">Zagreb</placeName>
         Hrvatska.  <date when="2012-12">Prosinca 2012</date>
             </p>
          </publicationStmt>
@@ -102,56 +102,69 @@
     </change>
       </revisionDesc>
    </teiHeader>
-   <text type="prorsaOratio">
+   <text type="prosa">
       <body>
-        <pb n="XXXIX"/>
-        <div type="prorsaOratio-epistula">
-            <opener>Serenissimo ac potentissimo principi Ioanni, electo regi Hungariae, Dalmatiae, Croatiae <abbr>etc.</abbr>
-                post humilem seruitiorum suorum commendationem Petrus Benessa salutem plurimam dicit.
-            </opener>
-                <p>Quom ualde semper optassem, serenissime ac potentissime rex, aliqua bene nauata
-                    opera gratiam Tuae Maiestatis summam inire, multum diuque mecum cogitaui, quanam
-                    potissimum re maximum meum in Tuam Maiestatem studium, mirificumque amorem ac
-                    prope incredibilem declararem. Quom uero multa animo agitassem, multa undique
-                    circumspexissem, uoti magis et foelicitatis quam mearum uirium uel fortunae esse
-                    uidebam, ut me in amicitiam tuam insinuarem. </p>
-                <p>Sed accidit tempus optatum magis quam speratum, ut uoti mei aliqua ex parte compos fieri sperarem.
-                Nam quom superiori anno <persName>Franciscus Forgacius</persName> 
-               <placeName>Rhacusium</placeName> ad me domum uenisset, uir summa grauitate,
-                multa magnarum artium et illustrium scientia ac sapientia ornatissimus, et rerum plurimarum, sed pręcipue
-                Hungaricarum, usu peritissimus, Tuae uero Maiestatis ita perstudiosus, Dignitatisque percupidus, ut
-                ex eo animum mihi tuum percipere liceret, quom de sermonibus, quos de praeclaris literarum studiis cum
-                magna optimaque uoluntatis significatione rectissimoque iudicio habuisses, mihi narraret, plura ipse ab
-                eo de regno et Maiestate Tua percunctatus sum, multa ille de ea memoriter et iucunde narrare solebat; me
-                uero, uere quasi scienter addentem, admirans interrogauit, unde in regione tam remota ea sumerem. Tum ego illi auctorem certum ac fidei plenum, tamquam testem rerum Hungaricarum praeclare gestarum locupletissimum ac grauisssimum citaui. Cuius <persName>Franciscus</persName> miro uidendi desiderio accensus maiori studio a me contendere coepit, ut illum sibi ostenderem, ostensum uero perlectum atque probatum affirmauit auctorem talem, qualem splendida atque eruditissima ingenia probarent, et quali optimus quisque delectari posset, perindignum esse iacere in tenebris, qui rebus in <placeName>Hungaria</placeName> fortiter, magnifice et splendide post obitum
-                <persName>Matthiae</persName> regis gestis ueritatis luce dignissimus gratum, iucundumque <del resp="#VR">in</del> sempiternae memoriae lumen
-                possit et debeat afferre.</p>
-                
-                <p>Quamobrem confirmans, si haec historia Tuae Maiestati mittatur, id illi et sibi
-                    gratum fore, animum meum iam diu, ut mitterem, accensum ea oratione tanta
-                    cupiditate inflammauit, ut nihil libentius facere mihi contigerit unquam.
-                    Quapropter eum librum ipsius auctoris manu conscriptum describendum curaui,
-                    <pb n="XL"/> cuius exemplum quam emendatissimum Tuae Maiestati mitto atque
-                    dedico, eam orans, ut eo animo et ea fronte munusculum accipiat, qua aliis
-                    maxima donare solet, et ut ei summam perpetuamque foelicitatem precor, sic me
-                    meaque omnia ei commendatissima cupio, trado atque commendo, et ut in ea amanda
-                    nemini concedo, sic me in numerum suorum carissimorum recipiat, etiam atque
-                    etiam rogo.</p>
-                
-                <p>Quod mihi Tua Maiestas imposuit, ut hominibus tuis huc profectis et <placeName>Rhacusium</placeName> diuertentibus, quibuscumque
-                possim rebus accommodem, ut talia onera et tam iucunda mihi semper imponat, oro. Omnia quidem
-                certe, quę in tuis rebus agam, non laboriosa mihi, et honesta uidebuntur. Quamobrem crebritate officiorum,
-                studio et diligentia efficiam profecto, ut Hungaris, quos meo semper nomine dilexi plurimum,
-                et ex tuis familiaribus praecipue, quibus propter Maiestatem Tuam arctissimo amoris uinculo obstrictus
-                sum atque deuinctus, pro meae fortunae facultate satisfaciam, praecipuam gratiam Maiestatis Tuae quaerens atque expectans, quam in perpetuum foelicissimam cupio.</p> 
-                
+         <pb n="XXXIX"/>
+         <div type="prosa-epistula">
+            <opener>Serenissimo ac potentissimo principi Ioanni, electo regi
+                  <placeName>Hungariae</placeName>, <placeName>Dalmatiae</placeName>,
+                  <placeName>Croatiae</placeName>
+               <abbr>etc.</abbr> post humilem seruitiorum suorum commendationem <persName>Petrus
+                  Benessa</persName> salutem plurimam dicit. </opener>
+            <p>Quom ualde semper optassem, serenissime ac potentissime rex, aliqua bene nauata opera
+               gratiam Tuae Maiestatis summam inire, multum diuque mecum cogitaui, quanam potissimum
+               re maximum meum in Tuam Maiestatem studium, mirificumque amorem ac prope incredibilem
+               declararem. Quom uero multa animo agitassem, multa undique circumspexissem, uoti
+               magis et foelicitatis quam mearum uirium uel fortunae esse uidebam, ut me in
+               amicitiam tuam insinuarem. </p>
+            <p>Sed accidit tempus optatum magis quam speratum, ut uoti mei aliqua ex parte compos
+               fieri sperarem. Nam quom superiori anno <persName>Franciscus Forgacius</persName>
+               <placeName>Rhacusium</placeName> ad me domum uenisset, uir summa grauitate, multa
+               magnarum artium et illustrium scientia ac sapientia ornatissimus, et rerum
+               plurimarum, sed pręcipue Hungaricarum, usu peritissimus, Tuae uero Maiestatis ita
+               perstudiosus, Dignitatisque percupidus, ut ex eo animum mihi tuum percipere liceret,
+               quom de sermonibus, quos de praeclaris literarum studiis cum magna optimaque
+               uoluntatis significatione rectissimoque iudicio habuisses, mihi narraret, plura ipse
+               ab eo de regno et Maiestate Tua percunctatus sum, multa ille de ea memoriter et
+               iucunde narrare solebat; me uero, uere quasi scienter addentem, admirans
+               interrogauit, unde in regione tam remota ea sumerem. Tum ego illi auctorem certum ac
+               fidei plenum, tamquam testem rerum Hungaricarum praeclare gestarum locupletissimum ac
+               grauissimum citaui. Cuius <ref><persName>Franciscus</persName></ref> miro uidendi
+               desiderio accensus maiori studio a me contendere coepit, ut illum sibi ostenderem,
+               ostensum uero perlectum atque probatum affirmauit auctorem talem, qualem splendida
+               atque eruditissima ingenia probarent, et quali optimus quisque delectari posset,
+               perindignum esse iacere in tenebris, qui rebus in <placeName>Hungaria</placeName>
+               fortiter, magnifice et splendide post obitum <ref><persName>Matthiae</persName>
+                  regis</ref> gestis ueritatis luce dignissimus gratum, iucundumque <del resp="#VR"
+                  >in</del> sempiternae memoriae lumen possit et debeat afferre.</p>
+
+            <p>Quamobrem confirmans, si haec historia Tuae Maiestati mittatur, id illi et sibi
+               gratum fore, animum meum iam diu, ut mitterem, accensum ea oratione tanta cupiditate
+               inflammauit, ut nihil libentius facere mihi contigerit unquam. Quapropter eum librum
+               ipsius auctoris manu conscriptum describendum curaui, <pb n="XL"/> cuius exemplum
+               quam emendatissimum Tuae Maiestati mitto atque dedico, eam orans, ut eo animo et ea
+               fronte munusculum accipiat, qua aliis maxima donare solet, et ut ei summam
+               perpetuamque foelicitatem precor, sic me meaque omnia ei commendatissima cupio, trado
+               atque commendo, et ut in ea amanda nemini concedo, sic me in numerum suorum
+               carissimorum recipiat, etiam atque etiam rogo.</p>
+
+            <p>Quod mihi Tua Maiestas imposuit, ut hominibus tuis huc profectis et
+                  <placeName>Rhacusium</placeName> diuertentibus, quibuscumque possim rebus
+               accommodem, ut talia onera et tam iucunda mihi semper imponat, oro. Omnia quidem
+               certe, quę in tuis rebus agam, non laboriosa mihi, et honesta uidebuntur. Quamobrem
+               crebritate officiorum, studio et diligentia efficiam profecto, ut
+                  <persName>Hungaris</persName>, quos meo semper nomine dilexi plurimum, et ex tuis
+               familiaribus praecipue, quibus propter Maiestatem Tuam arctissimo amoris uinculo
+               obstrictus sum atque deuinctus, pro meae fortunae facultate satisfaciam, praecipuam
+               gratiam Maiestatis Tuae quaerens atque expectans, quam in perpetuum foelicissimam
+               cupio.</p>
+
             <closer>
-               <dateline>Datum <placeName>Rhacusii</placeName> 
-                  <date when="1570-02-25">quinto Kal. Martii, anno
-                    Salutis 1570.</date>
+               <dateline>Datum <placeName>Rhacusii</placeName>
+                  <date when="1570-02-25">quinto Kal. Martii, anno Salutis 1570.</date>
                </dateline>
             </closer>
-        </div>
+         </div>
       </body>
    </text>
 </TEI>

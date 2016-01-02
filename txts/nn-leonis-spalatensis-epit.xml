@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc xml:id="nn-leonis-spalatensis-epit">
             <titleStmt>
                 <title>Epitaphium Leonis Spalatensis, versio electronica</title>
-                <author key="#anonymus">
+                <author ref="#anonymus">
                     <persName xml:lang="la">Anonymus</persName>
                     <date>fl. 1296</date>
                 </author>
@@ -26,7 +26,7 @@
             <extent ana="A">Mg:A 9 versus, verborum 97</extent>
             <publicationStmt>
                 <p>elektronska verzija: Profil hrvatskog latiniteta, znanstveni projekt na
-                    Filozofskom fakultetu Sveučilišta u Zagrebu, Hrvatska. <date>Kolovoza
+                    <orgName><ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref></orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date>Kolovoza
                         2012</date>
             </p>
             </publicationStmt>

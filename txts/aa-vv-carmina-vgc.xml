@@ -4,28 +4,28 @@
         <fileDesc xml:id="aa-vv-carmina-vgc">
             <titleStmt>
                 <title>Carmina minora ex libro De vita et gestis Christi, versio electronica</title>
-                <author key="#varii">
+                <author ref="#varii">
                <orgName ref="#varii">Auctores varii:</orgName> 
             </author>
                  
-                <author key="bunic02">
+                <author ref="bunic02">
                     <persName xml:lang="hr">Bunić, Jakov</persName>
                     <date>1469-1534</date>
                 </author>
-                <author key="#alienus">
+                <author ref="#alienus">
                     <persName xml:lang="la" ref="viaf44450514">Caluus, Hieronymus</persName>
                     <date>c. 1526</date>
                 </author>
-                <author key="gucet02">
+                <author ref="gucet02">
                     <persName xml:lang="hr">Gučetić, Ivan</persName>
                     <date>1451-1502</date>
                 </author>
-                <author key="#ignotus">
+                <author ref="#ignotus">
                     <persName xml:lang="la">Hieronymus <abbr>And.</abbr>
                </persName>
                     <date>c. 1526</date>
                 </author>
-                <author key="severit01">
+                <author ref="severit01">
                     <persName xml:lang="hr">Severitan, Ivan Polikarp</persName>
                     <date>1472 - c. 1526</date>
                 </author>
@@ -34,7 +34,7 @@
                 
                 <editor>
                <persName>
-                  <ref>Neven Jovanović</ref>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </editor>
                 <respStmt>
@@ -50,10 +50,9 @@
             </editionStmt>
             <extent ana="C">Mg:C 360 versus, 4279 verborum</extent>
             <publicationStmt>
-                <p>elektronska verzija: Neolatina Croatica, znanstveni projekt na Filozofskom
-                    fakultetu Sveučilišta u Zagrebu, Hrvatska. <date>lipanj 2005</date>
+                <p>elektronska verzija: Neolatina Croatica, znanstveni projekt na <orgName><ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref></orgName>, <placeName ref="3186886">Zagreb</placeName>, Hrvatska. <date>lipanj 2005</date>
             </p>
-                <p> Prepisala Petra Šoštarić, <date>siječanj 2006</date>
+                <p> Prepisala <persName>Petra Šoštarić</persName>, <date>siječanj 2006</date>
                 </p>
             </publicationStmt>
             <sourceDesc>

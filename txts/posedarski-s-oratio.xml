@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc xml:id="posedarski-s-oratio">
             <titleStmt>
                 <title>Oratio habita apud Leonem Decimum, Pontificem Maximum, pro Domino Joanne Torquato Comite Corbaviae defensore Crovaciae (1519), versio electronica</title>
-                <author key="posedar01">
+                <author ref="posedar01">
                <persName xml:lang="hr">Posedarski, Stjepan</persName>
                     <date>floruit 1520.</date>
             </author>
@@ -32,7 +32,7 @@
             <extent ana="B">Mg:B 6 versus, verborum 766</extent>
             <publicationStmt>
                 <p>Elektronska verzija: Profil hrvatskog latinizma, znanstveni projekt na
-                    Filozofskom fakultetu Sveučilišta u Zagrebu, Hrvatska. <date>Svibnja
+                    <orgName><ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref></orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date>Svibnja
                         2013</date>
             </p>
             </publicationStmt>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="brodaric-s-oratio-adrianum">
+         <titleStmt>
+            <title ref="brod01-p01-oratio">Oratio ad Adrianum VI. Pontificem maximum, versio electronica</title>
+            <author ref="brod01">
+               <persName xml:lang="hr">Brodarić, Stjepan</persName>
+               <date>1490-1539</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="265167725">Petrus Kulcsar</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Electronice transcripsit</resp>
+               <persName>
+                  <ref>Ivana Drmić</ref>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat prema kasnijem znanstvenom izdanju (1985).</p>
+         </editionStmt>
+         <extent ana="D">Mg:D Verborum 10969</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Profil hrvatskog latinizma i Croatica et Tyrolensia, znanstveni
+               projekti na <orgName><ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref></orgName>, <placeName ref="3186886">Zagreb</placeName>
+               Hrvatska.  <date>Studenog 2015.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Brodericus, Stephanus. De conflictu Hungarorum cum Solymano Turcarum imperatore ad Mohach historia verissima. Oratio ad Adrianum VI. Pontificem maximum. Ur. Petrus Kulcsár, Csaba Csapodi. Budapest: Akadémiai Kiadó, 1985.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1522" period="15xx_1_third">1522</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - oratio</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <name>Neven Jovanović</name>
+               <date>2015-11-28T19:14:30.271486799</date>
+               Početna TEI verzija.
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="prosa-epistula-dedicatio">
+            <head>DEDICATIO</head>
+            <opener>
+               <ref>Reverendissimo in Christo patri Domino <persName>Georgio</persName>
+                  archiepiscopo Strigoniensi, Regni Hungariae primati, legato nato ac supremo
+                  cancellario etc.</ref>
+               <ref>
+                  <persName>Lombardinus Burgius</persName> iuris utriusque doctor,
+                     <sic>prothonotarius</sic> apostolicus</ref> salutem plurimam dicit. </opener>
+            <p> Orationem, quam <ref>reverendus <persName>Stephanus Brodericus</persName> orator
+                  regius</ref>
+               <date>circiter Kalendis Septembris</date> coram <ref>
+                  <persName>Adriano VI.</persName>
+                  pontifice optimo maximo</ref> habuit, cum ab omnibus commendari et tam pontificis
+               quam reverendorum patrum doctissimo testimonio approbari animadverterem, <ref>Praesul
+                  Reverendissime</ref>, essemque eius videndae percupidus, vix tandem aegre ab
+               homine mihi alioquin amicissimo, ut mihi eius perlegendae copiam faceret, potui
+               impetrare; verebatur fortasse iam tum id quod postea accidit. Ubi igitur eam
+               diligentius perlegi, ubi non solum verborum elegantiam et sententiarum gravitatem sed
+               etiam vim ac vehementiam orationis accuratius consideravi, non mediocriter (ita me
+                  <ref>Deus</ref> amet) sum mecum ipse indignatus, quod ea tamdiu latuerit in
+               obscuro, neque a tot mensibus in lucem prodierit. Statui igitur hominem aggressus
+               hortari primum ac monere, ut eam in publicum daret, deinde ubi votis et monitis meis
+               repugnantem video, obiurgare etiam liberius non destiti, ne se ipsum in primis magna
+               laude ac demum alios voluptate utilitateque defraudaret; quid non utilius esse posset
+               quam orationem pro omnium salute habitam, pericula omnibus imminentia complectentem
+               ab omnibus legi? Ceterum cum neque sic quicquam proficerem, et ille ob modestiam, ut
+               arbitror, negando perseveraret, statui ego multis potius et certe optimis quibusque
+               placere et rem gratam facere, quam unius hominis satis verecundi ac multo minus, quam
+               par est, ingenii sui vires metientis qualicunque offensa moneri. Domum itaque
+               reversus accersito statim ad me <sic>calcographo</sic> orationem ipsam, illo et
+               invito et nesciente, formis publicis excudendam, tuo potissimum, <ref>Antistes
+                  Maxime</ref>, amplissimo nomini dedicandam tradidi. Cui non ea <ref>Christianae
+                  defensionis</ref> rationem continens magis debebatur quam <ref>Tibi</ref>, qui in
+                  <ref>re Christiana</ref> auctoritate, opibus, consilio iuvanda ita alios
+               ecclesiarum antistites antecellis <ref>principesque Christianos</ref> aequas, ut in
+               hoc genere laudis nondum alicui sis secundus. Sciebam praeterea <ref>fratrem meum
+                  magnificum, <persName>Andream Burgium</persName>, nunc Caesareum istic apud
+                     <ref>inclitum Hungariae regem</ref> oratorem</ref> eo et amore ea observantia
+               prosequi, ut nisi et <ref>ego</ref> fraterno monitus exemplo <ref>Tuam
+                  Amplitudinem</ref> omni prosequerer studio, officio ac <corr resp="#NJ">servitute</corr> pro piaculo iudicarem. Idque quibuscunque rationibus licebit
+               assidue apud Te testabor ac semper in posterum declarabo. Accessit et illud, quod
+                  <ref>oratorem ipsum, insigni prudentia, eruditione et probitate virum, tuum esse
+                  clientulum</ref> non ignorabam, <ref>tuumque alumnum</ref> in <ref>tua
+                  honoratissima et castigatissima aula</ref> ab ineunte adolescentia educatum, tuis
+               sanctissimis praeceptis et institutis excultum atque expolitum. Tuum igitur iure
+               optimo esse ducens quicquid in hanc sententiam, quicquid a <ref>me</ref>, quicquid a
+                     <ref>
+                  <persName>Broderico</persName> nostro</ref> laude dignum proficisceretur,
+                  <persName>Tibi</persName> has eius studiorum quasi <sic>primicias</sic> pro huius
+               novi anni strena ac munusculo offerendas tuo celebratissimo nomini dicandas
+               existimavi. <ref>Tu</ref>, quae tua est humanitas, haec quoque eadem, qua cetera
+               soles, et animi et frontis hilaritate excipies. Atque ita certo <ref>Tibi</ref>
+               persuadebis inter tuas praeclaras, quibus <ref>totum Christianum orbem</ref>
+               replesti, laudes et merita, hoc etiam non esse in postremo loco numerandum, quod ex
+               tuis doctissimis simul et sanctissimis aditis ac penetralibus quasi, ut aiunt, ex
+                  <ref>equo Troiano</ref> tales viri prodeant, qui et <ref>Tibi, patrono ac
+                  Maecenati</ref>, immortalem gloriam et patriae praeter eximium decus, fructus
+               quoque uberrimos et nunc afferant et maiores adhuc sint allaturi. </p>
+            <closer>
+               <salute>Vale itaque, <ref>Pontifex Amplissime</ref>, et <ref>me tuum
+                     clientulum</ref> in eorum <sic>asscribe</sic> numerum, quos <ref>Tuae
+                     Amplitudinis</ref> nosti esse obsequentissimos.</salute>
+               <dateline>
+                  <placeName>Romae</placeName>
+                  <date when="1523-01-23">XXIII. Ianuarii MDXXIII.</date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="prosa-oratio">
+            <head>
+               <ref>
+                  <persName>STEPHANI BRODERICI</persName> IURIS PONTIFICII DOCTORIS, PRAEPOSITI
+                  QUINQEECCLESIENSIS, SECRETARII ET ORATORIS <ref>SERENISSIMI DOMINI
+                        <persName>LUDOVICI</persName>
+                     <placeName>HUNGARIAE</placeName> ET <placeName>BOHEMIAE</placeName> ETC.
+                     REGIS</ref>
+               </ref> AD <ref>SANCTISSIMUM DOMINUM <persName>ADRIANUM
+                     VI.</persName> PONTIFICEM MAXIMUM</ref> ORATIO </head>
+            <p> Si ulli unquam mortalium ex maximo dolore et extrema animi consternatione ingens
+               repente laetitia et spes amplissima est oborta, id profecto <ref>serenissimo principi
+                  meo, regi <placeName>Hungariae</placeName>
+               </ref> contigit eo die, quo <ref>Te,
+                  Beatissime Pater</ref>, omnium suffragiis ad hanc sanctam sedem, cui divino munere
+               praesides, electum ac renuntiatum esse audivit. Nam cum is ex immaturo atque
+               inopinato <ref>
+                  <persName>Leonis X.</persName> pontificis maximi</ref> obitu, quem
+               sibi inter ipsas tot periculorum et calamitatum procellas fato quodam acerbissimo
+               ereptum esse videbat, in maximum decidisset maerorem et desperationem, audita tua
+               auspicatissima electione ita est subito recreatus, ita in spem maximam ac certissimam
+               erectus, ut non iam amplius <placeName>Taurinum</placeName> amissam, non
+                  <placeName>Transalpinam</placeName> a corpore regni sui <sic>paullo</sic> ante
+               abscissam, non alias innumeras calamitates deplorare videretur, sed maxima et
+               amplissima quaeque iam tunc animo concipere et sibi constantissime polliceri auderet,
+               videbat ad hanc <choice>
+                  <sic>supramam</sic>
+                  <corr>supremam</corr>
+               </choice>
+               <ref>orbis <choice>
+                     <sic>Christianni</sic>
+                     <corr>Christiani</corr>
+                  </choice>
+               </ref> dignitatem vocatum esse virum cum omni sanctitate ac sapientia
+               praeditum. Tum vero (id quod plurimum sua interesse arbitrabatur) <ref>Caesari
+                  suo</ref> coniunctissimum sperabat facile fore, ut et <ref>Caesar</ref> omnium,
+               qui unquam fuerunt, <ref>Caesarum</ref> maximus et potentissimus et <ref>tu
+                  pontificum omnium sanctissimus atque integerrimus</ref>
+               <ref>ceteros principes</ref>, si qui adhuc Christianum magis quam hostilem sanguinem
+               sitire pergerent, auctoritate vestra ad optima quaeque et <ref>Christianae
+                  reipublicae</ref> salutaria agenda impelleretis, ita brevi immanes istas beluas et
+               truculentissimas feras, quae tantum in <ref>Christianos</ref> auderent, non modo
+               spiritus illos feroces posituras sed <ref>Te</ref> duce, tuis auspiciis in ius et
+               potestatem nostram penitus concessuras. Quam quidem animi sui ingentem laetitiam
+               atque incredibilem rei optime gerendae spem <ref>Tibi</ref> notam esse quamprimum
+               desiderans <ref>me</ref> illis ipsis diebus ad <ref>Tuam Sanctitatem</ref> misit, ut
+                  <ref>Tibi</ref> nomine suo una cum <ref>hoc reverendo <persName>Francisco
+                     Marsupino</persName>, collega meo</ref>, simul et hanc tanti honoris
+               amplitudinem gratularer, et res suas in summum discrimen adductas supplex
+               commendarem. Gratulatur igitur <ref>Tibi, Beatissime Pater</ref>,
+                     <ref>
+                  <placeName>Hungariae</placeName> rex inclytus</ref> hanc <ref>Tuae
+                  Beatitudinis</ref> in hoc supremum humanae dignitatis fastigium assumptionem.
+               Neque illo solito ac vulgari gratulandi more gratulatur, quo solemus eorum sortem,
+               quibus nova aliqua honoris ornamenta contigere, verbis magnificis attollere beatosque
+               eos ac fortunatos praedicare. Quid enim minus consentaneum quam dignitatem
+               ecclesiasticam et eam potissimum, quae in <ref>Christiano orbe</ref> sit omnium
+               maxima et suprema, ad labores profecto, ad curas, ad vigilias et ad mille
+               sollicitudines notam atque institutam hoc nomine cuipiam gratulari? Neque igitur
+                  <ref>ille</ref>
+               <ref>Tibi</ref> gratulatur, quod tot pulcherrimarum et nobilissimarum urbium, tot
+               amplissimarum provinciarum imperium sis <sic>assequutus</sic>, neque quod ex privato
+               episcopo summus omnium, quos orbis habet, episcoporum subito atque ex insperato
+               evaseris. Neque quod <ref>reges et principes</ref> supplices ad pedes tuos procumbant
+               et adorent quodammodo vestigia pedum tuorum. Quamquam haec quoque ipsa summa omnium,
+               quae homini contingere possunt, esse confitetur. Sed quod <ref>
+                  <sic>hii</sic>
+                  sapientissimi et optimi patres</ref> illo eodem temporis momento, quo
+                  <ref>Te</ref>
+               <ref>Romanum pontificem</ref> declararunt, campum <ref>Tibi</ref> patentissimum
+               apparuerint ad virtutes tuas, quae solis hactenus <placeName>Hispaniarum</placeName>
+               et <placeName>inferioris Germaniae</placeName> angustiis claudebantur, in totum
+                  <ref>Christianum orbem</ref> longe lateque spargendas ac diffundendas. Laudat
+               eorum ipsorum sapientissimum atque exactissimum iudicium, qui revocato illo prisco
+                  <ref>illius primi senatus Romani</ref> more maluerint novum quendam quasi
+                  <persName>Numam Pompilium</persName> sanctitate et religione clarum, non e
+                  <persName>Sabinis</persName>, quod illi fecerant, sed ex ultimis terrarum finibus
+               ad imperium evocare quam ulla in parte <ref>rei Christianae</ref> deesse. Et cum
+               laudat hoc vestrum, <ref>Patres Reverendissimi</ref>, pulcherrimum et sanctissimum
+               factum, tum vero vobis omnibus grates hoc nomine agit amplissimas affirmans nulla re
+               magis potuisse constare vestram singularem in <ref>rempublicam Christianam</ref>
+               fidem, vestrum amorem, studium, affectionem, quam <sic>que</sic> posthabita privata
+               etiam vestri ratione, cum in hac sanctissima sede locaveritis, quem inter mortales
+               optimum atque ad habenas <ref>Christiani imperii</ref> moderandas aptissimum esse
+               iudicassetis. Gratulatur denique et gaudet sibi ac suis regnis et universo
+                  <ref>Christiano orbi</ref>, cui tali ac tam periculoso ac difficili tempore,
+                  <ref>pontifex</ref> contigerit, de quo ea praedicentur, quae nostris saeculis de
+               nullo non solum in <sic>summam</sic> fortuna principe, sed etiam privatae sortis
+               homine praedicata fuerunt. Sperat non <ref>rex <placeName>Hungariae</placeName>
+               </ref>
+               solum, qui maxime omnium tali indiget pontifice, sed <ref>totum Christianum
+                  genus</ref>, <ref>Te</ref> qui episcopum privatum egeris, tam sanctum, tam
+               prudentem, tam solertem atque industrium in summo nunc honore constitutum, a
+                  <ref>Te</ref> ipso non degeneraturum, qui <placeName>Hispaniis</placeName> summa
+               cum omnium commendatione praefueris, longe maiori nunc cum laude et gloria
+                  <ref>totius Christiani orbis</ref> imperium administraturum. Non sum nescius, quid
+               hoc loco a <ref>me</ref> iure quodam modo res ipsa exigere videatur, ut vestrum simul
+               et <ref>horum reverendissimorum patrum, qui Te elegerunt</ref>, acerrimum iudicium et
+               tuas amplissimas laudes oratione mea prosequar. Sed <ref>ego</ref> utrumque consulto
+               praetereo; aliorum sint istae de <ref>Te</ref> et de tuis clarissimis virtutibus
+               praedicationes, alii dicant <ref>Te</ref> summa integritate, fide, modestia,
+               singulari eruditione et doctrina incredibili in omni genere laudis excellentia
+               praeditum. Quin et illud addant, si placet, <ref>Te</ref> tanta semper fuisse animi
+               moderatione et continentia, ut nullos unquam honores quaesiveris. Illud fortasse
+                  <ref>apostoli <persName>Pauli</persName>
+               </ref>
+               <ref>Te</ref>cum in animo reputantem, ut <q>nemo sibi sumat honorem nisi vocatus a
+                     <ref>Deo</ref> tamquam <persName>Aaron</persName>
+               </q>. Tanta tamen vicissim
+               fuisse felicitate (si felicitatem appellare licet occultam quandam divini numinis
+               voluntatem ac providentiam) ut nulli honores ulli unquam homini contigerint, qui non
+                  <ref>Tibi</ref> ultro, nec expectanti, nec opinanti sint oblati. <ref>Ego</ref> et
+               haec et plura ac maiora <sic>hiis</sic>, licet in <ref>Te</ref> summopere admirer,
+               illud tamen potius mihi dicendum existimo, quod et <ref>Tu, Sapientissime
+               Pater</ref>, verissimum esse iudicabis, tanto maiorem et graviorem tuis humeris
+               sarcinam esse impositam, quanto non solum altiore loco sedes sed etiam admirabiliore
+               et minus saeculis nostris audita ratione in hunc altissimum honoris gradum
+               conscendisti. <ref>Deus</ref>, nam <ref>Deus</ref> fuit ille, qui <ref>Te externum,
+                     <placeName>Romae</placeName> nunquam visum</ref>, de tali dignitate ne
+               cogitantem quidem quicquam in animos <ref>horum sanctissimorum patrum</ref>, verum
+               iam tandem aliquem et idoneum pastorem ecclesiae sanctae praeficere quaerentium miro
+               quodam atque incredibili modo <sic>inserviit</sic> atque insinuavit. Tuum igitur erit
+               ita hac tanta <ref>Dei</ref> in <ref>Te</ref> benignitate uti, ut et <ref>Deo</ref>,
+               qui <ref>Te</ref> elegit, et hominum, quos tuae curae credidit, expectationi
+               satisfacere possis. Fac, <ref>Clementissime Pater</ref>, talem istum tuum
+               pontificatum videamus, ut iure optimo et <ref>Tibi</ref> et sibi et <ref>universae
+                  Christianitati</ref> congratulatus fuisse videatur <ref>rex
+                     <placeName>Hungariae</placeName> serenissimus</ref>. Exhibe nobis,
+                  <ref>Pontifex Sanctissime</ref>, una cum <ref>illis antiquis pontificibus
+                  Romanis</ref>, qui privatis omnibus affectibus post tergum relictis, omnibus aliis
+               curis postpositis hoc solum dies et noctes cogitabant, quo pacto gregem sibi creditum
+                  <ref>domino Deo suo</ref> salvum atque incolumem repraesentare possent. Quali
+               pontifice si unquam alias indiguit <ref>respublica Christiana</ref>, nunc certe
+               maxime indiget, cum adversarius eius tanquam leo rugiens circuit quaerens, quem
+               devoret, quam <ref>Christiani imperii</ref> partem invadat et penitus absorbeat.
+               Circuit inquam ab omni parte, nunc terra, nunc mari, modo septentrionem, modo has,
+               quae magis meridiem et occidentem spectant regiones, assidue quatiens atque
+               infestans. Qui non satis habens omni <placeName>Asia</placeName>, quae
+                  <ref>Christiani</ref> olim <ref>iuris</ref> erat perdomita, magnam
+                  <placeName>Europae</placeName> partem e corpore <ref>Christiani imperii</ref>
+               avulsisse, iam circum ipsa <ref>Christianae reipublicae</ref> intima viscera
+               crudelissime grassatur, iamiam, <ref>Beatissime Pontifex</ref>, <ref>Amplissimi
+                  Patres</ref>, nisi omnium ope resistitur, totius <placeName>Europae</placeName>
+               imperio potiturus. <placeName>Belgrado</placeName> enim, sive eam
+                  <placeName>Taurinum</placeName> vetere vocabulo appellare maluimus, et
+                  <ref>provincia Transalpina</ref> in <sic>ditionem</sic> suam redactis, quid aliud
+               effecit potentissimus hostis, quam ut ei per <placeName>Transalpinam</placeName>
+               quidem ad <placeName>Moldaviam</placeName>, <placeName>Transsilvaniam</placeName>,
+                  <placeName>Poloniam</placeName>, per <placeName>Belgradum</placeName> vero ad
+                  <ref>utramque <placeName>Pannoniam</placeName>
+               </ref>, ad reliquas
+                  <placeName>Dalmatiae</placeName> et totius <placeName>Illyrici</placeName> et ad
+               hanc orbis terrarum principem, <placeName>Italiam</placeName>, aditus pateat
+               liberrimus. <placeName>Scardona</placeName> autem, quam nuper prope
+                  <ref>inspectantibus vobis, Reverendissimi Patres</ref>, intercepit, cum illo suo
+               amplissimo portu, quam non ei commoditatem est praebitura ad omnes oras <ref>maris
+                  Adriatici</ref> non paulatim modo carpendas, quod facere consuevit, sed si id
+               maluerit, uno impetu subigendas? Quod si ad haec <placeName>Rhodus</placeName> quoque
+               insula nobilissima, quam nunc fortissime quatit, accesserit (quod <ref>Deus</ref>
+               benignissimus avertat), quid ei tandem obstabit, quin totum <ref>hoc, quod
+                     <ref>Christianum orbem</ref> undique circumfluit mare</ref>, in sua habeat
+               potestate. Providendum igitur et nunc, dum adhuc provideri potest, omni ope
+               providendum, ne ab hac immanissima et <sic>efferatissima</sic> barbarorum illuvie
+               penitus obruamur. Induendus <ref>ille vere Christianus et ad libertatem, honorem,
+                  decus, ad omnem amplitudinem natus animus</ref>. Et cum id omnibus faciendum tum
+               vero <ref>Tibi</ref> potissimum, <ref>Beatissime Pontifex</ref>, qui caput es et non
+               alicuius privati regni aut provinciae sed <ref>totius Christiani generis</ref> caput
+               et tale caput, quod et divini numinis arbitrio et humano consensu ad hoc solum
+               videtur institutum, ut omnium, quicunque <ref>Christiana religione</ref> censentur,
+               curam in commune gerat. Non enim <ref>regi <placeName>Hungariae</placeName>
+               </ref>,
+               non <ref>
+                  <placeName>Poloniae</placeName>
+               </ref>, non <ref>aliis serenissimis
+                  regibus</ref>, sed <persName>Petro</persName> et <ref>successoribus eius</ref>
+               pascendas suas oves <ref>Dominus</ref> nominatim commisit. <ref>Tu</ref> igitur
+               pastor, <ref>nos</ref> oves, <ref>Tu</ref> caput, <ref>nos</ref> membra,
+                  <ref>Tu</ref> pater, <ref>nos</ref> filii. Quod pater filiis, caput membris,
+               pastor ovibus, id <ref>Tu</ref>
+               <ref>nobis</ref> in commune omnibus debes. Aliis regibus, quin ita volunt, satis esto
+               regnorum cuique suorum fines tueri, tuorum regnorum fines cum iisdem terminis
+               claudantur, quibus <ref>totus Christianus ne dicam terrarum orbis</ref> clauditur,
+                  <ref>totius Christiani generis</ref> curam agas oportet. Quid vero, quod isti
+               maximi et amplissimi reditus, quibus <ref>
+                  <ref>non haec solum Romana</ref> sed etiam
+                  aliae per orbem Christianum ecclesiae</ref> sunt <sic>munificentissime</sic>
+               locupletatae, neque possunt honestius, neque debent iustius in ullum alium usum quam
+               in <ref>Christianorum</ref> conservationem expendi ac dispensari? Nam si bona
+               pauperum sunt, si tributa egentium animarum, quemadmodum ea esse et sacri canones et
+               antiqua <ref>sanctorum patrum</ref> scripta demonstrant, quibus <sic>hii</sic> magis
+               debentur quam pauperibus? Qui sunt autem ex omni pauperum genere, si per universum
+               mortale genus animo discurras, pauperiores, egentiores, calamitosiores quam
+                  <ref>illi, quorum animae simul cum corporibus hostili sunt obiectae furori</ref>?
+                  <ref>Nos</ref> abunde pulchrum ac religiosum esse ducimus <ref>sacras aedes</ref>
+               magnifico ac regali sumptu extruere easque auro, argento, gemmis, margaritis atque
+               omni pretiosa supellectile ornare . Pulchrius fortasse et <ref>Christianae
+                  pietati</ref> convenientius xenodochia, orphanotrophia et alia id genus ad alendos
+               ac sustentandos egenos instituta loca condere et locupletare. Sed <ref>ego</ref>
+               omnium pulcherrimam atque omnia caritatis opera longe excedentem illam
+                  <sic>elemosinam</sic> esse crediderim, qua vel iam capti ab hoste redimuntur vel
+               captivitatis periculo obnoxii, ne in hostis potestatem deveniant, multo ante
+               providetur. Praeclare enim <ref>divus <persName>Ambrosius</persName>,
+                     <placeName>Mediolanae</placeName> urbis episcopus</ref>, <quote>ornatus,
+                  inquit, sacrorum redemptio captivorum est</quote>. <quote>Et illa, inquit, sunt
+                  vere pretiosa vasa. Illi veri reditus ecclesiarum, qui redimunt animas a morte.
+                  Ille verus Domini thesaurus, qui idem operatur, quod sanguis eius est
+                  operatus.</quote> Praeclare etiam <ref>maiores nostri
+                  <persName>Hungari</persName>
+               </ref>, qui episcopatus et alia sacerdotia ideo
+               videntur copiosius locupletasse, ut eorum <sic>possesores</sic> certum alerent
+               quotannis pro fidei catholicae defensione militum numerum, qui mos usque in hodiernum
+               diem apud nos diligentissime servatur. Quod quidem exemplum, si ceteri
+                  <ref>Christiani</ref>
+               <sic>sequuti</sic> fuissent et tot opulentissimos <ref>orbis Christiani</ref>
+               episcopatus et ecclesias huic sanctissimo oneri ferendo subdidissent, nunquam certe
+                  <ref>res Christiana</ref> ad has angustias pervenisset. Non solum igitur <ref>Te,
+                  Beatissime Pater</ref>, debitorem facimus <ref>Christianae reipublicae</ref> ante
+               omnes defendendae, quod caput eius es, sed hoc etiam nomine, quod illi miseri
+                  <ref>Christiani</ref>, qui in extremo discrimine versantur, suos esse credunt et
+               in suam necessitatem institutos omnes istos, quos <ref>Tu</ref>, quos alii
+                  <ref>ecclesiarum antistites</ref> habent amplissimos proventus. Immo ita sibi
+                  <persName>Christo</persName> docente persuadent eum demum esse bonum pastorem, qui
+               nedum substantiam, sed si opus sit, etiam animam suam ponat pro ovibus suis. Quae
+               tamen <ref>ego</ref> non propterea commemoro, <ref>Pontifex Optime et
+                  Doctissime</ref>, quasi ea <ref>Tibi</ref> vel ignota esse putem, vel
+                  <ref>Te</ref> non ad omnia pro ovibus <ref>Tibi</ref> commissis etiam cum capitis
+               discrimine subeunda paratissimum existimem. Absit a <ref>me</ref> haec tam stulta et
+               impia credulitas. Credo <ref>ego</ref> et illo pontificum genere <ref>Te</ref> esse,
+               id, quod scio, re ipsa ita esse brevi comprobabis, qui <ref>verum
+                     <persName>Christi</persName> referens vicarium</ref>, verum decus, honorem,
+               gloriam, salutem rebus omnibus terrenis, immo vitae etiam ipsi libentissime
+               anteponas. Quod quamvis ita esse certissime <ref>mihi</ref> persuadeam, non potui
+               tamen <ref>me</ref> continere, quin pauca in hanc sententiam dicerem, magis ut
+               officio meo satisfacere viderer, quam ut <ref>Tibi</ref> vel consilium darem,
+                  <ref>Principi Sapientissimo</ref>, vel stimulos adderem, <ref>pontifici ad omnia
+                  pro Christi ovibus facienda tua sponte incitatissimo</ref>. Verum aliud est,
+                  <ref>Felicissime Pontifex</ref>, quod <ref>ego</ref> in Te magis et considero et
+               admiror. Maiorem <ref>Tibi</ref> video oblatam rei bene gerendae facultatem, quam
+               ulli unquam <ref>Romano pontifici</ref> contigerit. Quorum si vitas et acta ex
+               annalibus pontificiis repetamus, inveniemus aliis auctoritatem, aliis facultatem,
+               quibusdam etiam voluntatem ad hanc sanctissimam provinciam obeundam defuisse.
+                  <ref>Tibi</ref> vero rebus omnibus, quae a <ref>Deo immortali</ref> desiderari
+               possunt, undique affatim affluentibus quid deesse possit, nihil penitus video.
+               Existimationem habes tantam, quantam potest homini multa a puero semper
+               innocentissime atque integerrime acta et per omnes bonas atque honestissimas artes ad
+               hoc usque supremi honoris culmen deducta conciliare, facultatem deinde tantam,
+               quantam is habere potest qui, ut omnes ei <ref>principes alii Christiani</ref>
+               desint, qui certe deesse non possunt, <ref>Caesarem</ref> tamen habet amicissimum et
+                  <ref>eum Caesarem, qui ut magnitudine imperii aequat multos ita, ut omni virtutis
+                  genere exsuperat omnes fere illos vetustos imperatores</ref>. In <ref>Te</ref>
+               vero tanta est pietate, tanto amore atque observantia, ut <ref>is</ref> nihil penitus
+                  <ref>Tibi</ref> negaturus videatur, praesertim id ab eo postulanti, quod ad
+               communem omnium salutem pertineat. Quid non negaret discipulus praeceptori, alumnus
+               nutritori, <ref>Christi vicario</ref>
+               <ref>Christianissimus imperator</ref>, denique filius patri et ei patri, quem quantum
+               dignitate et honoris culmine, tantum etiam doctrina et vitae sanctimonia videt aliis
+               mortalibus praestare? Iam quid <ref>ego</ref> de aliis regibus et principibus loquar?
+               Quem enim ex illis omnibus ea credis naturae immanitate praeditum, adeo sui et suorum
+               et <ref>
+                  <persName>Christi</persName> optimi maximi</ref> oblitum, ut <ref>Te</ref>
+               contra hostem communem vexillum crucis <persName>Christi</persName> ferente malit cum
+               summo dedecore et periculo vel domi <sic>ociosus</sic> manere vel privatas adhuc
+               dissensiones agitare, quam summa et immortali gloria ac perenni sua salute tua signa
+               sequi? Nihil igitur, nihil omnino <ref>Tibi</ref> deest, <ref>Pontifex Maxime</ref>,
+               nisi forte voluntas deesset; <sic>quem</sic> in tanta virtute, tanta praesertim
+               adiecta et auctoritate et potestate non etiam superesse nemo est, qui sibi possit
+               persuadere. Ut tamen, sicuti omnium maxime et debes et potes, ita etiam velis
+                  <ref>rem Christianam</ref>, salutem suam et suorum, quae in summum discrimen
+               adducta est, iuvare ac <ref>Christianos principes</ref> ad hanc sanctissimam
+               defendendae <ref>Christianae religionis</ref> provinciam capessendam, quamprimum tua
+               auctoritate inducere. Id vero est, quod a <ref>Te</ref> supplex summis et enixissimis
+               precibus petit atque efflagitat <ref>rex <placeName>Hungariae</placeName>
+               </ref>,
+               cuius preces tanto plus ponderis apud <ref>Te</ref> habere debent, quanto plura
+                  <ref>Tibi</ref> sunt in <ref>hoc uno rege</ref> consideranda. Nam et filius tuus
+               est <corr resp="#NJ">huius</corr> sanctae sedi extrema <ref>morientis patris</ref>
+               voce commendatus. Et eo genere ortus cuius maiores suae sanguinis, suae successionis
+               linea spectetur. <sic>Egesserunt</sic> (quae pace omnium dixerim), si cum aliorum
+               regum factis conferantur, illi videbuntur pro privata sua vel gloria vel iniuria vel
+                  utilitate<corr resp="#NJ">,</corr>
+               <sic>hii</sic> semper pro communi omnium salute decertasse. Postremo eius nationis
+               rex, quae iam inde ab initio, quo <persName>Thurca</persName>
+               <placeName>Danubii</placeName> ripam pulsare cepit, qui est prope quinquagesimus
+               supra centesimum annus, maluerunt suis corporibus universum hostis impetum excipere
+               et sustinere quam bonis etiam et aequis conditionibus ab hoste toties oblatis facere
+               quippiam, quod vel minimo detrimento reliquis <ref>Christianis</ref> esse posset. Qui
+               tutam usque ad haec tempora, quantum in ipsis fuit, cum maxima sua clade et assidua
+               sanguinis sui effusione <ref>Christianam rempublicam</ref> praestitere. Qui tot iam
+               continuis cladibus adeo sunt attriti, eo angustiarum pervenerunt, ut nisi quamprimum
+               adiuvantur, aut eis sit primo quoque tempore accumbendum, aut conditiones, quas
+               hostis tulerit, accipiendae. Quae quales futurae sint et quantum <ref>reipublicae
+                  Christianae</ref> detrimentosae, facile unusquisque potest considerare. In quorum
+               salute conservanda non solum id considerari oportet perire socios, amicos, fratres et
+               antiquos ac fortissimos <ref>reipublicae Christianae</ref> propugnatores, perire
+               obsequentissimos <ref>huius sanctae sedis</ref> filios, sed illud quoque perire
+                  <ref>vobis</ref>, ut alia omittam, equitatum maximum et validissimum, perire
+               terram omnium, quas septentrio habet, amoenissimam, fertilissimam et hosti ad
+               propinquas regiones invadendas opportunissimam. Denique perire atque in perpetuum
+               abscindi a <ref>Christiano imperio</ref> tantum terrarum tractum quantus hinc inter
+                  <ref>sinum Adriaticum</ref> et <ref>Cecios montes</ref>, illinc inter <ref>montes
+                  Carpathos</ref> et <ref>Euxinum pelagus</ref> iacet. Et haec omnia opibus et
+               potentiae potentissimi hostis accedere. Huius igitur nationis <ref>rex</ref>, quae
+               tanta in <ref>rempublicam Christianam</ref> praestitit, quae in tanto nunc discrimine
+               versatur, quae tantum est et servata commodi et amissa detrimenti <ref>rebus
+                  Christianis</ref> allatura, <ref>Te</ref> supplex <sic>praecatur</sic> et per
+               amorem <ref>Dei omnipotentis</ref> orat atque obtestatur, ne se deseras, ut sibi dum
+               adhuc spirat, dum adhuc iuvari potest, re, non verbis, facto, non promissionibus
+               citissime et quamprimum adesse velis. Existima non meas esse has, quas audis, sed
+                  <ref>illius</ref>, sed omnium <persName>Hungarorum</persName>, immo <ref>omnium
+                  illorum infelicium populorum</ref> miserabiles voces. <ref>Illos</ref> nunc cogita
+               ad unum omnes cum coniugibus et liberis supplices ante tuos iacere pedes et
+                  <ref>Te</ref> per ingentia maiorum suorum merita, per tot vulnera et mortes pro
+                  <ref>Christianis</ref> acceptas, per sanctissimos huius sanctissimae urbis tot
+               fortissimorum martyrum cineres, denique per effusionem sanguinis <ref>domini nostri
+                     <persName>Iesu Christi</persName>
+               </ref> orare, <sic>praecari</sic>, obtestari,
+               ne se ab hac sanctissima <ref>veri Dei</ref> religione, quam nos <corr resp="#NJ">semper</corr> devotissime coluimus, avelli et in spurcissimorum hostium
+               potestatem venire permittas. <ref>Illi</ref> a <ref>Te, Beatissime Pater</ref>, ab
+               hac sancta sede, a <ref>vestro, reverendissimi Patres, sacratissimo senatu</ref>, ab
+                  <ref>omnibus Christiani nominis principibus</ref>, a <ref>tota
+                  Christianitate</ref> repetunt tot beneficia in vos collocata, repetunt opes et
+               facultates suas pro vobis conservandis liberalissime quotannis expositas, repetunt
+                  <corr>sanguinem</corr> suum et maiorum suorum pro vobis effusum. Nisi immites,
+               nisi beneficii accepti prorsus immemores esse volueritis, servabitis vestros
+               servatores, subvenietis vestris antiquis defensoribus. <ref>Tu</ref> vero,
+                  <ref>Beatissime, Maxime et Optime Pontifex</ref>, nisi a tuis sanctissimis
+               moribus, a <ref>Te</ref> ipso deficere, nisi <ref>totum Christianum orbem</ref> et
+                  <ref>regem potissimum <placeName>Hungariae</placeName>
+               </ref> tanta spe de
+                  <ref>Te</ref> concepta frustrari volueris, uteris profecto <sic>hiis</sic> tot et
+               tantis uno eodemque tempore collatis in <ref>Te</ref> divinis muneribus. Uteris hac
+               tanta et tam rara occasione<corr resp="#NJ">,</corr> nunquam fortasse amplius, si
+               nunc e manibus elabitur, reditura. Non deerit tuis votis, tuis sanctissimis consiliis
+                  <ref>Deus optimus maximus</ref>. Aspiciet <ref>ille</ref> de sede sancta sua, de
+               excelso coelorum habitaculo et cogitabit de <ref>nobis</ref>, aperiet oculos suos et
+               videbit tribulationem nostram. Denique, <ref>Beatissime Pater</ref>, sive gloriam
+               quaeris apud homines immortalem sive apud <ref>Deum</ref> praemium sempiternum,
+               nullam esse credideris ad utrumque adipiscendum faciliorem <choice>
+                  <sic>expediorem</sic>
+                  <corr resp="#NJ">expeditiorem</corr>
+               </choice>que viam, quam si <ref>principibus Christianis</ref> quamprimum in unam
+               sententiam et voluntatem adductis dies et noctes cogitaveris de nobis, qui in extremo
+               discrimine versamur, conservandis. </p>
+            <closer> Dicta <date when="1522-09-04">pridie Nonas Septembris Anno salutis MDXXII</date>. </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
