@@ -3,10 +3,10 @@
 TEI XML encoded Latin texts from the Croatian auctores Latini collection, freely available under the [CC-BY license](LICENSE.md).
 
 ### Current state ###
-On 2015-09-26 the collection contains:
+On 2016-04-30 the collection contains:
 
-*  452 documents
-*  words 5,529,971
+*  465 documents
+*  words 5,734,293
 
 ### Editor ###
 
