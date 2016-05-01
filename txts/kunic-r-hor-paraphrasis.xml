@@ -42,7 +42,8 @@
          <!-- CTS for a single poem in document -->
          <refsDecl n="CTS">
             <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])"
+                         n="line">
                <p>This pointer pattern extracts line</p>
             </cRefPattern>
          </refsDecl>
@@ -94,45 +95,45 @@
          <div type="poesis-elegia-paraphrasis" met="elegiacum">
             
             <l n="1">Maecenas, Regum sanguis, quo nitor et unde</l>
-            <l n="2">Hoc quodcumque mei nominis omne venit,</l>
+            <l n="2" met="pentameter">Hoc quodcumque mei nominis omne venit,</l>
             <l n="3">Sunt quos <sic>Alphaeae</sic> bijugus prope flumina Pisae</l>
-            <l n="4">Cursus, et elati pulveris unda juvat,</l>
+            <l n="4" met="pentameter">Cursus, et elati pulveris unda juvat,</l>
             <l n="5">Et vitata <sic>votis</sic> ferventibus obvia meta,</l>
-            <l n="6">Et palma ad summos evehit usque deos.</l>
+            <l n="6" met="pentameter">Et palma ad summos evehit usque deos.</l>
             <l n="7">Hunc si mobilior fluctuque, et nube Quiritum</l>
-            <l n="8">Tollere tergemino certet honore favor,</l>
+            <l n="8" met="pentameter">Tollere tergemino certet honore favor,</l>
             <l n="9">Illum si <sic>Lybicas</sic> congessit in horrea messes</l>
-            <l n="10">Gaudentem patrios findere sarculo agros.</l>
+            <l n="10" met="pentameter">Gaudentem patrios findere sarculo agros.</l>
             <l n="11">Non raro Attalicae labefactes munere vertis,</l>
-            <l n="12">Non auro aut cari deliciis lapidis,</l>
+            <l n="12" met="pentameter">Non auro aut cari deliciis lapidis,</l>
             <l n="13">Pallidus ut Cypriae credat se Nauta carinae,</l>
-            <l n="14">Et velit Ionio pandere vela Mari.</l>
+            <l n="14" met="pentameter">Et velit Ionio pandere vela Mari.</l>
             <l n="15">Mercator validis ponto luctantibus Austris</l>
-            <l n="16">Frigida cum trepido corda timore micant,</l>
+            <l n="16" met="pentameter">Frigida cum trepido corda timore micant,</l>
             <l n="17">Pagumque exiguamque Domum, parvosque Penates,</l>
-            <l n="18">Et ruris laudat jugera pauca sui;</l>
+            <l n="18" met="pentameter">Et ruris laudat jugera pauca sui;</l>
             <l n="19">Mox reficit diro quassatam turbine puppim,</l>
-            <l n="20">Pauperiem duram nescius ille pati.</l>
+            <l n="20" met="pentameter">Pauperiem duram nescius ille pati.</l>
             <l n="21">Est qui nec fregisse diem, nec mollia spernat</l>
-            <l n="22">Serta, nec annoso pocula plena mero.</l>
+            <l n="22" met="pentameter">Serta, nec annoso pocula plena mero.</l>
             <l n="23">Stratus vel rara qua procubat arbutus umbra,</l>
-            <l n="24">Lympha vel e sacro garrula fonte cadit.</l>
+            <l n="24" met="pentameter">Lympha vel e sacro garrula fonte cadit.</l>
             <l n="25">Martia castra placent multis, lituisque tubarum</l>
-            <l n="26">Vox permixta fer murmure dulce sonat;</l>
+            <l n="26" met="pentameter">Vox permixta fer murmure dulce sonat;</l>
             <l n="27">Dulce micant enses; nec torva in bella ruentes</l>
-            <l n="28">Maesta tenet damnans proelia saeva Parens.</l>
+            <l n="28" met="pentameter">Maesta tenet damnans proelia saeva Parens.</l>
             <l n="29">Venator noctem ducit nive stratus in alta,</l>
-            <l n="30">Fertque pruinosi frigora longa Iovis,</l>
+            <l n="30" met="pentameter">Fertque pruinosi frigora longa Iovis,</l>
             <l n="31">Seu celerem catuli cervam videre fideles.</l>
-            <l n="32">Obvia seu rupit retia Marsus aper.</l>
+            <l n="32" met="pentameter">Obvia seu rupit retia Marsus aper.</l>
             <l n="33">Me superis miscent, doctorum praemia vatum,</l>
-            <l n="34">Lauri, me molles, <sic>bacchica</sic> serta, hederae;</l>
+            <l n="34" met="pentameter">Lauri, me molles, <sic>bacchica</sic> serta, hederae;</l>
             <l n="35">Me nemus abducit Populo, me frigida rupes,</l>
-            <l n="36">Nympharumque leves cum Satyris choreae;</l>
+            <l n="36" met="pentameter">Nympharumque leves cum Satyris choreae;</l>
             <l n="37">Si mihi Lesborum dulcis Polyhymnia tendit</l>
-            <l n="38">Barbiton, aut buxum candida non cohibet</l>
+            <l n="38" met="pentameter">Barbiton, aut buxum candida non cohibet</l>
             <l n="39">Euterpe, Lyricis quod si me vatibus addes,</l>
-            <l n="40">Orbem alto feriam vertice signiferum.</l>
+            <l n="40" met="pentameter">Orbem alto feriam vertice signiferum.</l>
             
          </div>
       </body>
