@@ -40,6 +40,15 @@
                     (s. 1110--1112, prijepis iz Vat. Lat. 5174, f. 96v--97).</bibl>
          </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <!-- CTS for a single poem in document -->
+            <refsDecl n="CTS">
+                <cRefPattern matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
+                    <p>This pointer pattern extracts line</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
         <profileDesc>
          <abstract>
             <p/>

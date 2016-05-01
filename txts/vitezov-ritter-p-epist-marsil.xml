@@ -35,6 +35,15 @@
             <bibl>Klaić, Vjekoslav: Život i djela Pavla Rittera Vitezovića (1652.-1713.). Zagreb : Matica hrvatska, 1914, s. 139-141.</bibl>
          </sourceDesc>
       </fileDesc>
+     <encodingDesc>
+        <!-- CTS for a single poem in document -->
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
+              <p>This pointer pattern extracts line</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
