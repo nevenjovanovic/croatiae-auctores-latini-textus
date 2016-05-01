@@ -28,7 +28,9 @@
          <extent ana="B">Mg:B Verborum 593</extent>
          <publicationStmt>
             <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma,
-               (<orgName><ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref></orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Prosinca
+               (<orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Prosinca
                   2012.</date>
             </p>
          </publicationStmt>
@@ -48,7 +50,8 @@
          <!-- CTS for a single poem in document -->
          <refsDecl n="CTS">
             <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])"
+                         n="line">
                <p>This pointer pattern extracts line</p>
             </cRefPattern>
          </refsDecl>

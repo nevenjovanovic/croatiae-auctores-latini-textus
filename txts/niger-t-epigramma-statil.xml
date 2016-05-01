@@ -25,7 +25,9 @@
          <extent ana="A">Mg:A verborum 65, versus 8</extent>
          <publicationStmt>
             <p>elektronska verzija: Croatica et Tyrolensia, znanstveni
-               projekt na <orgName><ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref></orgName>, <placeName ref="3186886">Zagreb</placeName>
+               projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
                Hrvatska.  <date>Ožujka 2014.</date>
             </p>
          </publicationStmt>
@@ -67,7 +69,8 @@
         <!-- CTS for a single poem in document -->
         <refsDecl n="CTS">
            <cRefPattern matchPattern="(\w+)"
-              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])"
+                         n="line">
               <p>This pointer pattern extracts line</p>
            </cRefPattern>
         </refsDecl>
@@ -122,20 +125,20 @@
             </head>
             <l n="1">Hoc tibi, diue pater praesul, uenerande <persName>Ioannes</persName>,</l>
              
-            <l n="2">            Statilius propriis sumptibus optat opus,</l>
+            <l n="2" met="pentameter">            Statilius propriis sumptibus optat opus,</l>
              
             <l n="3">            Vt tua quae fuerint miracula facta <placeName>Traguri</placeName>
             </l>
              
-            <l n="4">            Hic liber excussus testis in orbe foret.</l>
+            <l n="4" met="pentameter">            Hic liber excussus testis in orbe foret.</l>
              
             <l n="5">            Tu miranda facis, facit hic ea publica cunctis,</l>
              
-            <l n="6">            Laude manet merito dignus uterque sua.</l>
+            <l n="6" met="pentameter">            Laude manet merito dignus uterque sua.</l>
              
             <l n="7">            Nec minus ipse tuo debes, pie praesul, alumno,</l>
              
-            <l n="8">            Quam tibi <persName>Moeonides</persName> debet <persName>Achilles</persName> heros.</l>
+            <l n="8" met="pentameter">            Quam tibi <persName>Moeonides</persName> debet <persName>Achilles</persName> heros.</l>
              
             
                 

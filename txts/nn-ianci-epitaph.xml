@@ -28,7 +28,9 @@
          <extent ana="A">Mg:A Verborum 30, versus 4</extent>
          <publicationStmt>
             <p>Elektronska verzija: <name>Digitalizacija hrvatskih latinista</name>, znanstveni
-        projekt na <orgName><ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref></orgName>, <placeName ref="3186886">Zagreb</placeName>
+        projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
         Hrvatska.  <date>Rujna 2012</date>
             </p>
          </publicationStmt>
@@ -53,7 +55,8 @@
          <!-- CTS for a single poem in document -->
          <refsDecl n="CTS">
             <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])"
+                         n="line">
                <p>This pointer pattern extracts line</p>
             </cRefPattern>
          </refsDecl>
@@ -106,9 +109,9 @@
             <head>JANCIVS ALBERTVS NICOLAE ALBERTI <expan>FILIVS</expan>
             </head>
             <l>JANCIVS HIC SITVS EST VENETVS CVI CLARA SENATVS</l>
-            <l>DETVLIT AVRATAE MVNERA MILITIAE</l>
+            <l met="pentameter">DETVLIT AVRATAE MVNERA MILITIAE</l>
             <l>VT SVA QVANTA FORET PARITER VIRTVSQVE FIDESQVE</l>
-            <l>TESTARETVR HONOS TALIS ET VLTRO DATVS</l>
+            <l met="pentameter">TESTARETVR HONOS TALIS ET VLTRO DATVS</l>
          </div>
       </body>
    </text>

@@ -27,7 +27,9 @@
          </editionStmt>
          <extent ana="B">Mg:B 60 versus, verborum 392</extent>
          <publicationStmt>
-            <p>Versio electronica TEI XML: Croatiae auctores Latini, indagatio in <orgName><ref type="viaf" target="124389134">Facultate philosophica Universitatis Zagrabiensis</ref></orgName>, <placeName ref="3186886">Zagreb</placeName>, Croatia, <date>mense Augusto 2012.</date>
+            <p>Versio electronica TEI XML: Croatiae auctores Latini, indagatio in <orgName>
+                  <ref type="viaf" target="124389134">Facultate philosophica Universitatis Zagrabiensis</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>, Croatia, <date>mense Augusto 2012.</date>
             </p>
          </publicationStmt>
          <sourceDesc>
@@ -39,7 +41,8 @@
         <!-- CTS for a single poem in document -->
         <refsDecl n="CTS">
            <cRefPattern matchPattern="(\w+)"
-              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])"
+                         n="line">
               <p>This pointer pattern extracts line</p>
            </cRefPattern>
         </refsDecl>
