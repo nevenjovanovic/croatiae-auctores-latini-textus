@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="kunic-r-hymnus-cererem">
+         <titleStmt>
+            <title>Paraphrasis Horatii Odae I, versio electronica</title>
+            <author ref="kunic02">
+               <persName xml:lang="hr">Kunić, Rajmund</persName>
+               <date>1719-1794</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref xml:id="VV" target="91623065" type="viaf">Vladimir Vratović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               Priređeno prema izdanju.
+            </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C 567 versus, verborum 3992</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Croatica et Tyrolensia, znanstveni
+               projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+               Hrvatska.  <date when-iso="2016-05">Svibnja 2016</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Vladimir Vratović, Horacije u dubrovačkom pjesništvu 18. i 19. stoljeća : (isječak iz povijesti hrvatskog latinizma) : poseban otisak iz knjige Rad JAZU - knj. XVI, 1971</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- CTS for a single poem in document -->
+         <refsDecl n="CTS">
+            <cRefPattern matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
+               <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1794" period="17xx_3_third">1794</date>
+            
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - elegia</term>
+               <term>poesis - paraphrasis</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2016-05-01</date>
+            Prva TEI XML verzija. Spellcheck.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poesis-elegia-paraphrasis" met="elegiacum">
+            
+            <l n="1">Maecenas, Regum sanguis, quo nitor et unde</l>
+            <l n="2">Hoc quodcumque mei nominis omne venit,</l>
+            <l n="3">Sunt quos <sic>Alphaeae</sic> bijugus prope flumina Pisae</l>
+            <l n="4">Cursus, et elati pulveris unda juvat,</l>
+            <l n="5">Et vitata <sic>votis</sic> ferventibus obvia meta,</l>
+            <l n="6">Et palma ad summos evehit usque deos.</l>
+            <l n="7">Hunc si mobilior fluctuque, et nube Quiritum</l>
+            <l n="8">Tollere tergemino certet honore favor,</l>
+            <l n="9">Illum si <sic>Lybicas</sic> congessit in horrea messes</l>
+            <l n="10">Gaudentem patrios findere sarculo agros.</l>
+            <l n="11">Non raro Attalicae labefactes munere vertis,</l>
+            <l n="12">Non auro aut cari deliciis lapidis,</l>
+            <l n="13">Pallidus ut Cypriae credat se Nauta carinae,</l>
+            <l n="14">Et velit Ionio pandere vela Mari.</l>
+            <l n="15">Mercator validis ponto luctantibus Austris</l>
+            <l n="16">Frigida cum trepido corda timore micant,</l>
+            <l n="17">Pagumque exiguamque Domum, parvosque Penates,</l>
+            <l n="18">Et ruris laudat jugera pauca sui;</l>
+            <l n="19">Mox reficit diro quassatam turbine puppim,</l>
+            <l n="20">Pauperiem duram nescius ille pati.</l>
+            <l n="21">Est qui nec fregisse diem, nec mollia spernat</l>
+            <l n="22">Serta, nec annoso pocula plena mero.</l>
+            <l n="23">Stratus vel rara qua procubat arbutus umbra,</l>
+            <l n="24">Lympha vel e sacro garrula fonte cadit.</l>
+            <l n="25">Martia castra placent multis, lituisque tubarum</l>
+            <l n="26">Vox permixta fer murmure dulce sonat;</l>
+            <l n="27">Dulce micant enses; nec torva in bella ruentes</l>
+            <l n="28">Maesta tenet damnans proelia saeva Parens.</l>
+            <l n="29">Venator noctem ducit nive stratus in alta,</l>
+            <l n="30">Fertque pruinosi frigora longa Iovis,</l>
+            <l n="31">Seu celerem catuli cervam videre fideles.</l>
+            <l n="32">Obvia seu rupit retia Marsus aper.</l>
+            <l n="33">Me superis miscent, doctorum praemia vatum,</l>
+            <l n="34">Lauri, me molles, <sic>bacchica</sic> serta, hederae;</l>
+            <l n="35">Me nemus abducit Populo, me frigida rupes,</l>
+            <l n="36">Nympharumque leves cum Satyris choreae;</l>
+            <l n="37">Si mihi Lesborum dulcis Polyhymnia tendit</l>
+            <l n="38">Barbiton, aut buxum candida non cohibet</l>
+            <l n="39">Euterpe, Lyricis quod si me vatibus addes,</l>
+            <l n="40">Orbem alto feriam vertice signiferum.</l>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
