@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="andreis-f-epist-bonzagno-1529">
+            <titleStmt>
+                <title>Epistula ad Iohannem Bonzanum, versio electronica</title>
+                <author ref="and02">
+                    <persName xml:lang="hr">Andreis, Franjo Trankvil</persName>
+                    <date>1490-1571</date>
+                </author>
+                <editor>
+               <persName>
+                   <ref type="viaf" target="47659421">Emilij Laszowski</ref>
+               </persName>
+            </editor>
+                <respStmt>
+                    <resp>Hanc editionem electronicam curavit</resp>
+                    <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Digitalizat kasnijega znanstvenog izdanja (1914).
+                </edition>
+            </editionStmt>
+            <extent ana="B">Mg:B Verborum 308</extent>
+            <publicationStmt>
+                <p>Rad nastao na Odsjeku za klasičnu filologiju,
+                    (<orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Svibnja
+                        2016.</date>
+            </p>
+            </publicationStmt>
+            <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+                    
+                
+                <bibl>Habsburški spomenici, ur. Emilij Laszowski, Zagreb 1914. Sv. 1.
+                    Monumenta Habsburgica 152, p. 138.
+                </bibl>
+         </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <!-- CTS for a single letter in document -->
+            <!-- what about opener, closer, postscript? experimental solution here -->
+            <refsDecl n="CTS">
+                <cRefPattern matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='$1'])"
+                    n="line">
+                    <p>This pointer pattern extracts paragraph</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc xml:id="andreisbonzagno15290215">
+         <abstract>
+            <p/>
+         </abstract>
+            <settingDesc>
+            <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q16869">Constantinopolis</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+             <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+             <person role="recipient">
+               <persName ref="croala1537">Bonzagno, Giovanni</persName>
+                 <event>
+                     <p>
+                         <cit><quote>Bonzagno János (Reggio, Itália, ?-Csanád, 1537): kinevezett püspök, diplomata. - Estei Hippolittal jött Mo-ra. Jogi képzettsége és műveltsége miatt Szapolyai János sokszor vette igénybe diplomáciai szolgálatait. Amikor Estei Hippolit Esztergomból átment az egri ppségre, magával vitte ~t, aki 1512: helynökként kormányozta az egri egyhm-t. 2 év múlva Brodarics István javára lemondott kápt. javadalmáról. A kettős kir-választás bonyodalmában kezdettől János kir. oldalára állt, aki ismételten diplomáciai küldetésekkel bízta meg (főleg Velencébe küldte). 1529. VI.végén Szapolyai kinevezte csanádi pp-ké, de a p. jóváhagyást nem kapta meg. Ennek ellenére ppségét elfoglalta és kormányozta. - 1523: egri őrknk. és vik. 1529-31: a váradi prépság javadalmasa. Az utolsó kk. pp., akit a csanádi szegyh-ban temettek el. - Utóda 1537: Barlabássy János.	L.A.
+                             
+                             Borovszky I:369. - Schem. Mv. 1896:108. - Juhász VI:70. - Egyházi Körirat 1946. (Juhász Kálmán: János kir. olasz diplomatája)</quote>
+                             <bibl><ref type="internet" target="http://lexikon.katolikus.hu/B/Bonzagno.html">Magyar Katolikus Lexikon</ref></bibl></cit>
+                     </p>
+                 </event>
+                 <bibl>	János király olasz diplomatája [Ein italienischer Diplomat des Königs Johann von Zapolya, d.i. Giovanni Bonzagno] 
+                     Juhász, Koloman. (1951) - In: Santifaller, Festschrift Haus-, Hof- und Staatsarchiv Pt. 2 p. 327-333</bibl>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+                <date when="1529-02-15" period="15xx_1_third">15.2.1529.</date>
+                
+            </creation>
+         <textClass>
+                <keywords scheme="typus">
+                    <term>prosa</term>
+                </keywords>
+                <keywords scheme="aetas">
+                    <term>Litterae renatae (1400-1600)</term>
+                    <term>Saeculum 16 (1501-1600)</term>
+                    <term>1501-1550</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>prosa oratio - epistula</term>
+                </keywords>
+            </textClass>
+      </profileDesc>
+        <revisionDesc>
+            <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            Početna TEI verzija.
+            </change>
+            
+        </revisionDesc>
+    </teiHeader>
+
+   <text type="prosa">
+    
+        <body>
+            <pb n="138"/>
+            <div type="epistula" corresp="#andreisbonzagno15290215">
+                <opener n="1">Reverende domine, domine honorande, </opener>
+                
+                <p n="2">credo <sic>tue</sic> reverende dominationi
+                cognitos esse meos omnes casus usque ad reditum ex
+                <placeName>Constantinopoli</placeName>. Quam primum veni in <placeName>Hungariam</placeName> rege adhuc extorre,
+                subita et ancipiti <sic>egritudine</sic> corrui sumque morbo vexatus menses tres
+                semper morti propior quam <sic>vite</sic>. Interim regia maiestas rediit ex
+                <placeName>Polonia</placeName>; narravi necessitates <sic>tue reverende</sic> dominationis, quas et
+                ipse noveram et tua reverenda dominatio perscripserat in <sic>literis</sic>, quas
+                ad me dederat in <placeName>Turciam</placeName>. Regia maiestas iniquo animo <sic>tullit</sic>
+                <sic>infortuniam</sic> <sic>tue reverende</sic> dominationis, propter temporum
+                difficultates, ceterum affirmavit, se postea providisse <sic>tue
+                reverendissime</sic> dominationi de expensis. Hoc <sic>eciam</sic> possum polliceri <sic>tue
+                reverendissime</sic> dominationi, quod tua reverendissima dominatio
+                amplificata dignitate auctisque fortunis reditura sit in <placeName>Hungariam</placeName>.</p>
+                
+                <p n="3">Regia maiestas aliquot in locis alit magnas copias, iam plerasque
+                provincias subegit et arces expugnavit. Hic potentissimus <ref>princeps
+                Turcus</ref> mittit <sic>regie</sic> maiestati in subsidium sex sanzachos et ipse cum
+                validissimo <sic>excercitu</sic> contra hostes nostros adulto vere
+                profecturus. Me huc venire mutatis equis adhuc imbecillem <sic>opportuit</sic>
+                iussu <sic>regie</sic> maiestatis; his diebus octo credo me expeditum ex
+                <sic>sentencia</sic> rediturum ad regiam maiestatem. Magnificus dominus
+                <persName>Ludovicus Gritti</persName> <sic>strennue</sic> ac fideliter procurat <sic>negocia</sic> regia et
+                ipse laturus est amplissimum fructum <sic>sue</sic> fidei atque
+                laboris, quemadmodum puto intellexisse tuam reverendissimam dominationem
+                ex <sic>literis</sic>, quas tua reverendissima dominatio proxime ad ipsum magnificum
+                dominum <persName>Gritti</persName> misit. Ingens me cura invasit de reverendissimo domino
+                <persName>Statilio</persName> et magnifico <persName>Rincone</persName>, oratore regis <placeName><sic>Frantie</sic></placeName>, si expediti sunt et
+                quod nondum redierint; timeo, ne quid eis acciderit. Sed utinam deus
+                nostras curas in melius mutet.</p> 
+                <closer n="4"><salute>Cupio, ut tua reverendissima dominatio
+                recte valeat, cui me unice commendo.</salute> 
+                    <dateline>Ex <placeName>Constantinopoli</placeName>, <date>15. <sic>marcii</sic> 1529.</date><note>(1)</note></dateline>
+                
+                <signed><persName>Tranquillus</persName> manu propria</signed></closer>
+                
+                <postscript n="5"><p><ref><persName>Radul</persName> wayvoda, omnium bipedum ingratissimus</ref>, a suis trucidatus
+                est cum <ref>filio</ref>, cuius morte credimus fractos esse <ref>animos <sic>Transsilvanenses</sic></ref>.</p></postscript>
+                
+                <closer n="6"><sic>Suprascriptio</sic> et copia literarum ut continent.
+                
+                <address><addrLine><ref>Reverendo domino, domino <persName>Iohanni Bonzano</persName>, <sic>preposito</sic> Varadiensi
+                et oratori <ref>serenissimi domini <persName>Iohannis</persName> regis <placeName><sic>Ungarie</sic></placeName></ref> ad <ref>excellentissimum
+                dominum <persName>Venetorum</persName></ref>, domino meo honorando</ref>.</addrLine></address></closer>
+                
+            </div>
+        </body>
+    
+   </text>
+</TEI>
