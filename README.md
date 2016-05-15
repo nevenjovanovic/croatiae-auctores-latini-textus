@@ -12,7 +12,7 @@ This repository exists both in its [Git](https://git-scm.com/book/en/v2) and [Me
 ## Contents ##
 
 * The TEI XML texts are in [txts](/txts) directory
-* The word counts for files are in [wordcount](/wordcount)
+* The word counts for files are in [croala-wordcounts.xml](croala-wordcounts.xml)
 * The oXygen project file is [croalaproject.xpr](croalaproject.xpr)
 
 ## How to use ##
@@ -40,8 +40,8 @@ Download the files or clone the repository.
 ### Current state ###
 On 2016-05-15 the collection contains:
 
-*  467 documents
-*  words 5,734,839
+*  *467* documents
+*  words *5,734,839*
 
 ### Editor ###
 
