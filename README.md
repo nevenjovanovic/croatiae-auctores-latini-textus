@@ -1,10 +1,10 @@
 # Croatiae auctores Latini - texts #
 
-TEI XML encoded Latin texts from the Croatian auctores Latini collection, freely available under the [CC-BY license](LICENSE.md).
+TEI XML encoded Latin texts from the Croatian auctores Latini collection, freely available under a [CC-BY license](LICENSE.md).
 
 The files edited here are published as a [PhiloLogic](https://sites.google.com/site/philologic3/) collection [CroALa](croala.ffzg.unizg.hr) (there is a [testing deployment](http://solr.ffzg.hr/philo4/croala0/) under PhiloLogic 4), and as a BaseX XML database (see an introductory analysis in [Quadrata rotundis](http://solr.ffzg.hr/dokuwiki/doku.php/z:crotyr-quadrata) paper).
 
-This repository exists both in [Git](https://git-scm.com/book/en/v2) and [Mercurial](http://hgbook.red-bean.com/read/) version.
+This repository exists both in its [Git](https://git-scm.com/book/en/v2) and [Mercurial](http://hgbook.red-bean.com/read/) version.
 
 * Git: on [Github](https://github.com/nevenjovanovic/croatiae-auctores-latini-textus)
 * Mercurial: on [Bitbucket](https://bitbucket.org/nevenjovanovic/croalatxt)
@@ -38,10 +38,10 @@ Download the files or clone the repository.
 
 
 ### Current state ###
-On 2016-04-30 the collection contains:
+On 2016-05-15 the collection contains:
 
-*  465 documents
-*  words 5,734,293
+*  467 documents
+*  words 5,734,839
 
 ### Editor ###
 
