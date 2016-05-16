@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="modr-n-oratio-riar">
@@ -49,6 +48,57 @@
          
          <!-- corr: amplisssimis, commitebant, eset, ommnibus, iniuriiis -->
       </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abbr" occurs="3"/>
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="add" occurs="12"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="bibl" occurs="11"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="1"/>
+          <tagUsage gi="closer" occurs="1"/>
+          <tagUsage gi="corr" occurs="68"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="edition" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="expan" occurs="3"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="head" occurs="1"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="note" occurs="10"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="26"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="persName" occurs="19"/>
+          <tagUsage gi="placeName" occurs="21"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="q" occurs="16"/>
+          <tagUsage gi="quote" occurs="7"/>
+          <tagUsage gi="ref" occurs="24"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sic" occurs="8"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="5"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -364,13 +414,15 @@ narrauimus, magna ex parte potuit esse manifesta.  Quamobrem tantum eam
 partem attingam qua ita sese inter principes christianos gessit ut,
 cum unius erga eum <sic>beniuolentiam</sic> consideres, credas ab aliis minime
 dilectum.</p>
-            <p><!-- nema izd, ni BLC5a27 -->  
+            <p>
+          <!-- nema izd, ni BLC5a27 -->  
    Lex quippe amicitiae ita habet ut amicos inimicorum minime
 diligamus; hic tamen sua prudentia consecutus est ut aeque carus
 omnibus haberetur, nec ullus esset qui eius amicitiam ultro non
 expeteret, et adeptam studiis omnibus non coleret atque foueret.
             </p>
-            <p><!-- tako BLC5a27 -->
+            <p>
+          <!-- tako BLC5a27 -->
 Ostendit id nouissima haec ipsius legatio in qua omnes Italiae populi
 singulique ipsorum principes summis decertarunt studiis quisnam eum
 amplioribus honoribus exciperet et <expan>prosequeretur</expan>,<!-- prosequeretur ? p-seq-ret- BLC5a27
@@ -390,19 +442,22 @@ parabat, illuc omnia sua studia conuerterat, fecissetque uotis
 satis ni eum nobis haec dira atque crudelis mors tam repente
 praeripuisset.
 </p>
-            <p><!-- nema izd; pb BLC5a27 -->
+            <p>
+          <!-- nema izd; pb BLC5a27 -->
 Vincebat ingenio humana consilia, et tantum grauioribus reipublicae
 curis natus uidebatur; haec erat praecipua eius uoluptas, a qua nullis
 aliis oblectamentis poterat diuelli, huius delectabatur gustu, huius
 solius escis pascebatur. Omnium saluti die noctuque inseruiebat, et
-tamen a nonnullis negligentiae <!-- [b]accusabatur; bacusabat- BLC5a27 --><corr>accusabatur</corr>, quem tanquam superbum
+tamen a nonnullis negligentiae <!-- [b]accusabatur; bacusabat- BLC5a27 -->
+          <corr>accusabatur</corr>, quem tanquam superbum
 difficilemque ingrati criminabantur cum tamen et mitissimus esset et
 facillimus.  Nouit hoc tantus domesticorum eius numerus, norunt amici
 et alii omnes qui eius familiaritate usi fuerunt, quibus semper, cum
 per publicas licuisset curas, placidum sese exhibebat, affabilem,
 comem, benignum, ut socium crederes, non dominum.
             </p>
-            <p><!-- p BLC5a27 -->
+            <p>
+          <!-- p BLC5a27 -->
 Tanta uero animi moderatione erat ut irasceretur perraro, iratus autem
 extemplo animum ad tranquillitatem reuocaret.  De nullo obloquebatur,
 detrahebat <!-- 13, pb BLC5a27 -->nemini, et, nisi familiarium suorum, aliorum uitae minime erat
@@ -441,7 +496,8 @@ domesticorum amicorumque euictus precibus aut litteris aut <sic>nunciis</sic>
                   <!-- Hieronymus BLC5a27; Hironimus izd --> nomine meo aliud precabitur.</q>  Hoc ipsum et senatori urbis interrogatus respondit, hoc gubernatoribus, hoc praefectis, hoc omnibus legationis suae iudicibus saepe mandabat. Dicebat enim se amicis operam suam rogantibus negare non posse, sed illius causa non nisi iustum honestumque fieri permaxime uelle. Hinc et rescripta non nisi sanctissima faciebat, <corr>atque</corr>,<!-- atq- BLC5a27; adque izd --> ne cui ministrorum peccandi daretur occasio, omnium decretorum suorum, similiter et litterarum, exemplaria apud notarios <corr>exstare</corr> 
                <!-- extare BLC5a27 --> iusserat. Huius praeclarissimae uirtutis nec moriens obliuisci potuit; nam cum hortaretur ab amicis testamentum condere, <q>Nihil</q>,<!-- nichil BLC5a27; nihil izd --> inquit, <q>meum habeo, omnia sunt ecclesiae.  Supplicabitis tamen meo nomine summo pontifici ut aes alienum, cuius maiorem partem pro redimendis ecclesiae rebus contraxi, pro sua benignitate dissoluat.</q> 
             </p>
-            <p><!-- nema u tisku, nema BLC5a27 -->
+            <p>
+          <!-- nema u tisku, nema BLC5a27 -->
                Cogor hoc loco potissimas eius praetermittere laudes, cum temporis exclusus angustia, tum ipsarum rerum multitudine superatus.  Qualem se erga<!-- 15; pb BLC5a27 --> amicos, qualem erga parentes, et praesertim qualem erga ipsum summum
                pontificem gesserit, malo haec omnia <!-- o-is BL18645 --> in aliud tempus differre quam
                adeo <corr>felicem</corr> 
@@ -460,7 +516,8 @@ debeat si aut uiuentem tantum dilexit, aut nunc mortui <corr>desiderio</corr>
                <!-- desyderio BLC5a27; desiderio BL18645 --> adeo
 moueatur.
 </p>
-            <p><!-- p BLC5a27 -->
+            <p>
+          <!-- p BLC5a27 -->
 Finem dicendi faciam si prius illud summum eius pietatis munus
 paucis explicauero. Compositis rebus suis totam mentem ad illud
 conuerterat ut dicere cum psalmista libere posset: <q>Domine, dilexi
@@ -577,7 +634,8 @@ incumbite.  Colite pietatem et <!-- et BLC5a27, BL17814, BL27527; et om. plannck
                   <!-- sempiterne BL18645, BL17814, BL27527 -->
    consecrant <!-- co-secrant BL17814; consecrauit BL18645;  --> immortalitati.</q>
             </p>
-            <p><!-- p BLC5a27 -->
+            <p>
+          <!-- p BLC5a27 -->
                <q>Reliquum est quod uos per uiscera <corr>misericordiae</corr> saluatoris nostri
 supplex deprecor ut mihi, quaecumque in uos deliqui, condonare
 dignemini. Minus quippe meae iuuentutis potens fui, et nonnunquam
@@ -590,7 +648,8 @@ partim oculos, partim aures uestras in multis offendi. <add resp="inc">Sed eorum
                   <!-- Sed... deprecabimini BLC5a27, BL17814; om. plannck, BL18645 --> Ego quoque, si quis mortuis <!-- mortuus BL27527 --> erit sensus, idem pro uobis me spondeo facturum. Viuite <!-- Uite BL18645; Viuite BL27527 --> mei memores et, quam caduca sit huius mundi <corr>felicitas</corr> 
                   <!-- felicitas BL18645, BL17814, BL27527 -->, uel meo exemplo discite.</q>
             </p>
-            <p><!-- nema plannck, nema BLC5a27 -->
+            <p>
+          <!-- nema plannck, nema BLC5a27 -->
                His atque aliis huiusmodi plerisque summa cum religione sanctissime monitos singulos flentes eiulantesque <corr>deosculatus</corr>
                <!-- deosculatus BL18645, BL17814; deosculatos BL27527 --> dimisit. Se autem in lectulo componens, intentis iugiter in caelum oculis, misericordiam peccatorum suorum supplex a domino precabatur. Cumque iam nox intempesta medium cursum peregisset, conuersus ad Viterbiensem praesulem <q>Ecce,</q> inquit, <q>appropinquat iam <!-- iam om. BL27527 --> hora; affer mihi<!-- michi 1, BLC5a27; mihi BL18645, BL17814, BL27527 --> <corr>sacrae</corr> unctionis oleum.</q>  Quod confestim cubiculo illatum nudato ac sublato, ut poterat, capite, religiose ueneratus est, deinde exhibitis manibus ac pedibus rite perunctus; quo facto <q>Proferte,</q> inquit <q>sacros codices, et aliquid de diuinis <corr>mysteriis</corr> meam domino animam commendantes recitate.</q> Quibus mox prolatis usque in lucem partim psalmi decantati sunt, partim lecta euangelia, semperque intentus auribus atque oculis in ea quae legebantur, etiam<!-- 20 --> deficiente spiritu, perstitit, donec lector dominicae passionis ad
 illum locum peruenit ubi scriptura inquit <q>et inclinato capite emisit
@@ -602,7 +661,8 @@ illum locum peruenit ubi scriptura inquit <q>et inclinato capite emisit
             </p>
             <p>
 Ad hanc uocem illa dilecta deo anima ueluti certo accepto signo ad
-dominum suum confestim euolauit.<!-- BLC5a27, BL18645; tantum plannck; nema BL17814, BL27527 --><note place="end" type="crit">
+dominum suum confestim euolauit.<!-- BLC5a27, BL18645; tantum plannck; nema BL17814, BL27527 -->
+          <note place="end" type="crit">
                   <add resp="NJ">Ad hanc... euolauit: deest in editione M. Cerdonis.</add>
                </note>
             </p>

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="benesa-d-epigr-cerv">
@@ -37,6 +36,46 @@
             <bibl>Cervarius Tubero, Ludovicus, i Vlado Rezar. Komentari o mojem vremenu. Biblioteka Hrvatska povjesnica. Zagreb: Hrvatski institut za povijest, <date>2001</date>.</bibl>
          </sourceDesc>
 	     </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="head" occurs="1"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="l" occurs="14"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="5"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="persName" occurs="3"/>
+          <tagUsage gi="placeName" occurs="2"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="ref" occurs="3"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="5"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -51,10 +90,7 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-            <date notBefore="1502"
-                  notAfter="1527"
-                  precision="medium"
-                  period="15xx_1_third">post 1502, ante 1527</date>
+            <date notBefore="1502" notAfter="1527" precision="medium" period="15xx_1_third">post 1502, ante 1527</date>
             <placeName>Dubrovnik</placeName>
         </creation>
          <textClass>

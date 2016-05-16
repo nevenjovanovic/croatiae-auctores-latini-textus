@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc xml:id="baricev-aa-epist-penzel">
@@ -72,7 +71,72 @@
                     </category>
                 </taxonomy>
             </classDecl>
-        </encodingDesc>
+        <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abbr" occurs="21"/>
+          <tagUsage gi="abstract" occurs="17"/>
+          <tagUsage gi="addrLine" occurs="2"/>
+          <tagUsage gi="address" occurs="14"/>
+          <tagUsage gi="author" occurs="3"/>
+          <tagUsage gi="bibl" occurs="37"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="catDesc" occurs="3"/>
+          <tagUsage gi="category" occurs="3" withId="1"/>
+          <tagUsage gi="change" occurs="2"/>
+          <tagUsage gi="classDecl" occurs="1"/>
+          <tagUsage gi="closer" occurs="16"/>
+          <tagUsage gi="creation" occurs="17"/>
+          <tagUsage gi="date" occurs="72"/>
+          <tagUsage gi="dateline" occurs="16"/>
+          <tagUsage gi="div" occurs="16" withId="16"/>
+          <tagUsage gi="edition" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="emph" occurs="110"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="foreign" occurs="35"/>
+          <tagUsage gi="hi" occurs="1"/>
+          <tagUsage gi="keywords" occurs="51"/>
+          <tagUsage gi="langUsage" occurs="17"/>
+          <tagUsage gi="language" occurs="17"/>
+          <tagUsage gi="name" occurs="1"/>
+          <tagUsage gi="note" occurs="17"/>
+          <tagUsage gi="num" occurs="4"/>
+          <tagUsage gi="opener" occurs="16"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="57"/>
+          <tagUsage gi="particDesc" occurs="17"/>
+          <tagUsage gi="persName" occurs="125"/>
+          <tagUsage gi="person" occurs="61"/>
+          <tagUsage gi="place" occurs="54"/>
+          <tagUsage gi="placeName" occurs="130"/>
+          <tagUsage gi="postscript" occurs="2"/>
+          <tagUsage gi="profileDesc" occurs="17" withId="16"/>
+          <tagUsage gi="pubPlace" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="publisher" occurs="1"/>
+          <tagUsage gi="q" occurs="1"/>
+          <tagUsage gi="quote" occurs="1"/>
+          <tagUsage gi="ref" occurs="5"/>
+          <tagUsage gi="resp" occurs="2"/>
+          <tagUsage gi="respStmt" occurs="2"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="salute" occurs="16"/>
+          <tagUsage gi="settingDesc" occurs="17"/>
+          <tagUsage gi="sic" occurs="16"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="taxonomy" occurs="2" withId="2"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="85"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="17"/>
+          <tagUsage gi="title" occurs="3"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
         <profileDesc>
          <abstract>
             <p/>
@@ -963,9 +1027,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="prosa-epistula"
-              xml:id="ajp01"
-              corresp="#penzelbarichevic17931014">
+            <div type="prosa-epistula" xml:id="ajp01" corresp="#penzelbarichevic17931014">
                 <opener>Abrahamus Jacobus Penzel poeseos professor in Lycaeo Aemonensi Adamo
                     Barichevich, <abbr>v. s. r.</abbr>
                     <note place="foot" n="1">Viro summum reverendo.</note>
@@ -1064,9 +1126,7 @@
                </dateline>
                 </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ab01"
-              corresp="#baricevicpenzel17931028">
+            <div type="prosa-epistula" xml:id="ab01" corresp="#baricevicpenzel17931028">
                 <opener>Abrahamo Jacobo Penzel Adamus Barichevich <abbr>s. p. d.</abbr>
                     <note place="foot" n="4">Salutem plurimam dicit.</note>
                     <address>
@@ -1104,9 +1164,7 @@
                         <placeName>Zagrabiae</placeName>.</dateline>
                 </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ab02"
-              corresp="#baricevicpenzel17931224">
+            <div type="prosa-epistula" xml:id="ab02" corresp="#baricevicpenzel17931224">
                 <opener>Jacobo Penzel A. Barichevich <abbr>s. p. d.</abbr>
                     <address>
                   <placeName>Labacum</placeName>
@@ -1129,9 +1187,7 @@
                         <date when="1793-12-24">MDCCXCIII</date>.</dateline>
                 </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ajp02"
-              corresp="#penzelbaricevic17940103">
+            <div type="prosa-epistula" xml:id="ajp02" corresp="#penzelbaricevic17940103">
                 <opener>Abraham Jacobus Penzel A. Barichevich <abbr>s. p. d.</abbr> 
                 <address>
                   <placeName>Zagrabiam</placeName>
@@ -1217,9 +1273,7 @@
                     </dateline>
                 </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ajp03"
-              corresp="#penzelbaricevic17940413">
+            <div type="prosa-epistula" xml:id="ajp03" corresp="#penzelbaricevic17940413">
                 <opener>Abraham Jacobus Penzel <abbr>P. P.</abbr>
                         <note place="foot" n="7">Professor poeseos.</note>
                      Adamo Barichevich <foreign>χαίρειν</foreign>
@@ -1264,9 +1318,7 @@
                     Croatia?</p>
             </postscript>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ajp04"
-              corresp="#penzelbaricevic17951015">
+            <div type="prosa-epistula" xml:id="ajp04" corresp="#penzelbaricevic17951015">
                 <opener>Abraham Jacobus Penzel A. Barichevich <abbr>s. p. d.</abbr> 
                <address>
                   <placeName>Zagrab.</placeName>
@@ -1348,9 +1400,7 @@
                </dateline>
             </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ab03"
-              corresp="#baricevicpenzel17951212">
+            <div type="prosa-epistula" xml:id="ab03" corresp="#baricevicpenzel17951212">
                 <opener>Adam Barichevich Joachimo Penzel s. p. d. </opener>
                 <p>Labacum</p>
                 <p>Putabam te iam <placeName>Aemonam</placeName> reliquisse. Cum ecce fasciculus epistolarum mihi allatus
@@ -1385,9 +1435,7 @@
                </dateline>
             </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ajp05"
-              corresp="#penzelbaricevic17591227">
+            <div type="prosa-epistula" xml:id="ajp05" corresp="#penzelbaricevic17591227">
                 <opener>Abraham Jacob Penzel Adamo Barichevich s. p. d. </opener>
                 <p>Zagrabiam</p>
                 <p>Litteras Tuas, amicorum optime, pridie Saturnalium scriptas (nosti enim hos dies,
@@ -1543,9 +1591,7 @@
                     nostrorum difficiliora repertu quam apud vos sunt. Iterum vale.</p>
             </postscript>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ajp06"
-              corresp="#penzelbaricevic17960127">
+            <div type="prosa-epistula" xml:id="ajp06" corresp="#penzelbaricevic17960127">
                 <opener>Abrahamus Jacobus Penzel Adamo Barichevich s. p. d.</opener>
                 <p>Zagrabiam</p>
                 <p>Nundinas hodie celebramus <placeName>Aemonae</placeName>, dulcissime rerum, et ita ut penes Romanos olim
@@ -1641,9 +1687,7 @@
                </dateline>
             </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ajp07"
-              corresp="#penzelbaricevic17961230">
+            <div type="prosa-epistula" xml:id="ajp07" corresp="#penzelbaricevic17961230">
                 <opener>Abrahamus Penzel A. Barichevich <abbr>s. p. d.</abbr>
                     <address>
                   <placeName>Zagrabiam</placeName>
@@ -1676,9 +1720,7 @@
                     </dateline>
                 </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ab04"
-              corresp="#baricevicpenzel17970107">
+            <div type="prosa-epistula" xml:id="ab04" corresp="#baricevicpenzel17970107">
                 <opener>Adam Barichevich Jacobo Penzel <abbr>s. p. d.</abbr> 
                     <address>
                   <placeName>Aemonam</placeName>
@@ -1709,9 +1751,7 @@
                </dateline>
             </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ajp08"
-              corresp="#penzelbaricevic17970130">
+            <div type="prosa-epistula" xml:id="ajp08" corresp="#penzelbaricevic17970130">
                 <opener>Abrahamus Jacobus Penzel A. Barichevich s. p. d. </opener>
                 <p>Zagrabiam</p>
                 <p>Gratissima mihi fuit plagula illa, quam mihi transmiseras, et quae populis
@@ -1763,9 +1803,7 @@
                </dateline>
                 </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ab05"
-              corresp="#baricevicpenzel17970216">
+            <div type="prosa-epistula" xml:id="ab05" corresp="#baricevicpenzel17970216">
                 <opener>Abrahamo Jacobo Penzel A. Barichevich s. p. d.
                     <address>
                   <placeName>Labacum</placeName>
@@ -2005,9 +2043,7 @@
                     </dateline>
                 </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ajp10"
-              corresp="#penzelbaricevic17980608">
+            <div type="prosa-epistula" xml:id="ajp10" corresp="#penzelbaricevic17980608">
                 <opener>Abrahamus Jacobus Penzel Ad. Barichevichio s. p. d.
                     <address>
                   <placeName>Zagrabiam</placeName>
@@ -2039,9 +2075,7 @@
                </dateline>
                 </closer>
             </div>
-            <div type="prosa-epistula"
-              xml:id="ab06"
-              corresp="#baricevicpenzel17990415">
+            <div type="prosa-epistula" xml:id="ab06" corresp="#baricevicpenzel17990415">
                 <opener>Adam Barichevich Jacobo Penzel s. p. d.
                     <address>
                   <placeName>Labacum</placeName>

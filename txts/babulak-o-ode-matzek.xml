@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="babulak-o-ode-matzek">
@@ -39,8 +38,7 @@
             <bibl>
                Babulak, Oton: Ode honoribus a. r. p. Josephi Matzek, ... dum solemnem onomaseos diem recoluisset, ... XIV. Kal. Aprilis a. MDCCCXXXIV. devote sacrata.. Essekini : Typis M. A. Divald, 1834    
                <relatedItem type="facs-digital">
-                  <ref type="klafil-jkp"
-                       target="http://gss.srce.hr/pithos/rest/njovanovic@ffzg.hr/files/gradja/prigodnice/1834-babulak-ode-matzek.pdf">klafil JKP - PDF</ref>
+                  <ref type="klafil-jkp" target="http://gss.srce.hr/pithos/rest/njovanovic@ffzg.hr/files/gradja/prigodnice/1834-babulak-ode-matzek.pdf">klafil JKP - PDF</ref>
                </relatedItem>
             </bibl>
          </sourceDesc>
@@ -49,13 +47,70 @@
       <encodingDesc>
          <!-- CTS for a single poem in document -->
          <refsDecl n="CTS">
-            <cRefPattern matchPattern="(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])"
-                         n="line">
+            <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
                <p>This pointer pattern extracts line</p>
             </cRefPattern>
          </refsDecl>
-      </encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abbr" occurs="2"/>
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="bibl" occurs="4"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="cRefPattern" occurs="1"/>
+          <tagUsage gi="change" occurs="1"/>
+          <tagUsage gi="cit" occurs="2"/>
+          <tagUsage gi="closer" occurs="1"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="docImprint" occurs="1"/>
+          <tagUsage gi="edition" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="epigraph" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="front" occurs="1"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="l" occurs="130"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="num" occurs="1"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="5"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="pb" occurs="7"/>
+          <tagUsage gi="persName" occurs="4"/>
+          <tagUsage gi="placeName" occurs="2"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="pubPlace" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="publisher" occurs="1"/>
+          <tagUsage gi="quote" occurs="2"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="refsDecl" occurs="1"/>
+          <tagUsage gi="relatedItem" occurs="1"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sic" occurs="1"/>
+          <tagUsage gi="signed" occurs="3"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="5"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titlePage" occurs="1"/>
+          <tagUsage gi="titlePart" occurs="2"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>

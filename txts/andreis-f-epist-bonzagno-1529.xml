@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc xml:id="andreis-f-epist-bonzagno-1529">
@@ -47,13 +46,69 @@
             <!-- CTS for a single letter in document -->
             <!-- what about opener, closer, postscript? experimental solution here -->
             <refsDecl n="CTS">
-                <cRefPattern matchPattern="(\w+)"
-                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='$1'])"
-                    n="line">
+                <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:*[@n='$1'])" n="line">
                     <p>This pointer pattern extracts paragraph</p>
                 </cRefPattern>
             </refsDecl>
-        </encodingDesc>
+        <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="addrLine" occurs="1"/>
+          <tagUsage gi="address" occurs="1"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="bibl" occurs="4"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="cRefPattern" occurs="1"/>
+          <tagUsage gi="change" occurs="1"/>
+          <tagUsage gi="cit" occurs="1"/>
+          <tagUsage gi="closer" occurs="2"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="dateline" occurs="1"/>
+          <tagUsage gi="div" occurs="1"/>
+          <tagUsage gi="edition" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="event" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="note" occurs="1"/>
+          <tagUsage gi="opener" occurs="1"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="7"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="pb" occurs="1"/>
+          <tagUsage gi="persName" occurs="15"/>
+          <tagUsage gi="person" occurs="2"/>
+          <tagUsage gi="place" occurs="1"/>
+          <tagUsage gi="placeName" occurs="10"/>
+          <tagUsage gi="postscript" occurs="1"/>
+          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="quote" occurs="1"/>
+          <tagUsage gi="ref" occurs="12"/>
+          <tagUsage gi="refsDecl" occurs="1"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="salute" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sic" occurs="26"/>
+          <tagUsage gi="signed" occurs="1"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="5"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
         <profileDesc xml:id="andreisbonzagno15290215">
          <abstract>
             <p/>
@@ -71,10 +126,14 @@
                <persName ref="croala1537">Bonzagno, Giovanni</persName>
                  <event>
                      <p>
-                         <cit><quote>Bonzagno János (Reggio, Itália, ?-Csanád, 1537): kinevezett püspök, diplomata. - Estei Hippolittal jött Mo-ra. Jogi képzettsége és műveltsége miatt Szapolyai János sokszor vette igénybe diplomáciai szolgálatait. Amikor Estei Hippolit Esztergomból átment az egri ppségre, magával vitte ~t, aki 1512: helynökként kormányozta az egri egyhm-t. 2 év múlva Brodarics István javára lemondott kápt. javadalmáról. A kettős kir-választás bonyodalmában kezdettől János kir. oldalára állt, aki ismételten diplomáciai küldetésekkel bízta meg (főleg Velencébe küldte). 1529. VI.végén Szapolyai kinevezte csanádi pp-ké, de a p. jóváhagyást nem kapta meg. Ennek ellenére ppségét elfoglalta és kormányozta. - 1523: egri őrknk. és vik. 1529-31: a váradi prépság javadalmasa. Az utolsó kk. pp., akit a csanádi szegyh-ban temettek el. - Utóda 1537: Barlabássy János.	L.A.
+                         <cit>
+                <quote>Bonzagno János (Reggio, Itália, ?-Csanád, 1537): kinevezett püspök, diplomata. - Estei Hippolittal jött Mo-ra. Jogi képzettsége és műveltsége miatt Szapolyai János sokszor vette igénybe diplomáciai szolgálatait. Amikor Estei Hippolit Esztergomból átment az egri ppségre, magával vitte ~t, aki 1512: helynökként kormányozta az egri egyhm-t. 2 év múlva Brodarics István javára lemondott kápt. javadalmáról. A kettős kir-választás bonyodalmában kezdettől János kir. oldalára állt, aki ismételten diplomáciai küldetésekkel bízta meg (főleg Velencébe küldte). 1529. VI.végén Szapolyai kinevezte csanádi pp-ké, de a p. jóváhagyást nem kapta meg. Ennek ellenére ppségét elfoglalta és kormányozta. - 1523: egri őrknk. és vik. 1529-31: a váradi prépság javadalmasa. Az utolsó kk. pp., akit a csanádi szegyh-ban temettek el. - Utóda 1537: Barlabássy János.	L.A.
                              
                              Borovszky I:369. - Schem. Mv. 1896:108. - Juhász VI:70. - Egyházi Körirat 1946. (Juhász Kálmán: János kir. olasz diplomatája)</quote>
-                             <bibl><ref type="internet" target="http://lexikon.katolikus.hu/B/Bonzagno.html">Magyar Katolikus Lexikon</ref></bibl></cit>
+                             <bibl>
+                  <ref type="internet" target="http://lexikon.katolikus.hu/B/Bonzagno.html">Magyar Katolikus Lexikon</ref>
+                </bibl>
+              </cit>
                      </p>
                  </event>
                  <bibl>	János király olasz diplomatája [Ein italienischer Diplomat des Königs Johann von Zapolya, d.i. Giovanni Bonzagno] 
@@ -146,23 +205,44 @@
                 laboris, quemadmodum puto intellexisse tuam reverendissimam dominationem
                 ex <sic>literis</sic>, quas tua reverendissima dominatio proxime ad ipsum magnificum
                 dominum <persName>Gritti</persName> misit. Ingens me cura invasit de reverendissimo domino
-                <persName>Statilio</persName> et magnifico <persName>Rincone</persName>, oratore regis <placeName><sic>Frantie</sic></placeName>, si expediti sunt et
+                <persName>Statilio</persName> et magnifico <persName>Rincone</persName>, oratore regis <placeName>
+            <sic>Frantie</sic>
+          </placeName>, si expediti sunt et
                 quod nondum redierint; timeo, ne quid eis acciderit. Sed utinam deus
                 nostras curas in melius mutet.</p> 
-                <closer n="4"><salute>Cupio, ut tua reverendissima dominatio
+                <closer n="4">
+          <salute>Cupio, ut tua reverendissima dominatio
                 recte valeat, cui me unice commendo.</salute> 
-                    <dateline>Ex <placeName>Constantinopoli</placeName>, <date>15. <sic>marcii</sic> 1529.</date><note>(1)</note></dateline>
+                    <dateline>Ex <placeName>Constantinopoli</placeName>, <date>15. <sic>marcii</sic> 1529.</date>
+            <note>(1)</note>
+          </dateline>
                 
-                <signed><persName>Tranquillus</persName> manu propria</signed></closer>
+                <signed>
+            <persName>Tranquillus</persName> manu propria</signed>
+        </closer>
                 
-                <postscript n="5"><p><ref><persName>Radul</persName> wayvoda, omnium bipedum ingratissimus</ref>, a suis trucidatus
-                est cum <ref>filio</ref>, cuius morte credimus fractos esse <ref>animos <sic>Transsilvanenses</sic></ref>.</p></postscript>
+                <postscript n="5">
+          <p>
+            <ref>
+              <persName>Radul</persName> wayvoda, omnium bipedum ingratissimus</ref>, a suis trucidatus
+                est cum <ref>filio</ref>, cuius morte credimus fractos esse <ref>animos <sic>Transsilvanenses</sic>
+            </ref>.</p>
+        </postscript>
                 
-                <closer n="6"><sic>Suprascriptio</sic> et copia literarum ut continent.
+                <closer n="6">
+          <sic>Suprascriptio</sic> et copia literarum ut continent.
                 
-                <address><addrLine><ref>Reverendo domino, domino <persName>Iohanni Bonzano</persName>, <sic>preposito</sic> Varadiensi
-                et oratori <ref>serenissimi domini <persName>Iohannis</persName> regis <placeName><sic>Ungarie</sic></placeName></ref> ad <ref>excellentissimum
-                dominum <persName>Venetorum</persName></ref>, domino meo honorando</ref>.</addrLine></address></closer>
+                <address>
+            <addrLine>
+              <ref>Reverendo domino, domino <persName>Iohanni Bonzano</persName>, <sic>preposito</sic> Varadiensi
+                et oratori <ref>serenissimi domini <persName>Iohannis</persName> regis <placeName>
+                    <sic>Ungarie</sic>
+                  </placeName>
+                </ref> ad <ref>excellentissimum
+                dominum <persName>Venetorum</persName>
+                </ref>, domino meo honorando</ref>.</addrLine>
+          </address>
+        </closer>
                 
             </div>
         </body>

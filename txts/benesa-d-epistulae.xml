@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
 	     <fileDesc xml:id="benesa-d-epistulae">
@@ -39,6 +38,56 @@
 	        </bibl>
          </sourceDesc>
 	     </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abbr" occurs="2"/>
+          <tagUsage gi="abstract" occurs="4"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="1"/>
+          <tagUsage gi="closer" occurs="3"/>
+          <tagUsage gi="creation" occurs="4"/>
+          <tagUsage gi="date" occurs="10"/>
+          <tagUsage gi="dateline" occurs="3"/>
+          <tagUsage gi="div" occurs="3" withId="3"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="keywords" occurs="12"/>
+          <tagUsage gi="langUsage" occurs="4"/>
+          <tagUsage gi="language" occurs="4"/>
+          <tagUsage gi="note" occurs="18"/>
+          <tagUsage gi="opener" occurs="3"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="27"/>
+          <tagUsage gi="particDesc" occurs="4"/>
+          <tagUsage gi="pb" occurs="7"/>
+          <tagUsage gi="persName" occurs="25"/>
+          <tagUsage gi="person" occurs="16"/>
+          <tagUsage gi="place" occurs="16"/>
+          <tagUsage gi="placeName" occurs="33"/>
+          <tagUsage gi="profileDesc" occurs="4" withId="3"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="ref" occurs="4" withId="1"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="4"/>
+          <tagUsage gi="sic" occurs="2"/>
+          <tagUsage gi="signed" occurs="3"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="20"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="4"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -265,9 +314,7 @@
    <text>
       <body>
          <pb n="201"/>
-         <div xml:id="T1"
-              type="prosa-epistula"
-              corresp="#benesaferdinand15340616">
+         <div xml:id="T1" type="prosa-epistula" corresp="#benesaferdinand15340616">
     
     
     

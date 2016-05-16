@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
      <fileDesc xml:id="bunic-j-de-r">
@@ -48,7 +47,59 @@
       <encodingDesc>
          <variantEncoding method="parallel-segmentation" location="internal"/>
   
-      </encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="add" occurs="2"/>
+          <tagUsage gi="app" occurs="95"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="back" occurs="1"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="3"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="6"/>
+          <tagUsage gi="del" occurs="1"/>
+          <tagUsage gi="div" occurs="8"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="front" occurs="1"/>
+          <tagUsage gi="head" occurs="6"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="l" occurs="1034"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="listWit" occurs="1"/>
+          <tagUsage gi="name" occurs="2"/>
+          <tagUsage gi="note" occurs="6"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="4"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="persName" occurs="7"/>
+          <tagUsage gi="placeName" occurs="2"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="rdg" occurs="182"/>
+          <tagUsage gi="ref" occurs="6"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sic" occurs="1"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="5"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="variantEncoding" occurs="1"/>
+          <tagUsage gi="witness" occurs="5" withId="5"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
      <profileDesc>
          <abstract>
             <p/>
@@ -345,7 +396,8 @@ amnes</rdg>
                <l n="1.71">Imber aquis quantaeque cauo tolluntur arenae</l>
                <l n="1.72">Gurgite <app>
                      <rdg wit="#R1 #Cu">aristęis</rdg> 
-                     <rdg wit="#Sn">aristeis<!-- možda fotokopija? --></rdg> 
+                     <rdg wit="#Sn">aristeis<!-- možda fotokopija? -->
+              </rdg> 
                      <rdg wit="#R2 #Gl">Aristaeis</rdg>
                   </app> Euro spirante Cyrenis.</l>
                <l n="1.73">Alcides tenuit uestigia pressa parumper,</l>

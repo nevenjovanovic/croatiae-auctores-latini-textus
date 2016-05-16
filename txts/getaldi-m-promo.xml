@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc xml:id="getaldi-m-promo">
@@ -33,13 +32,74 @@
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Getaldić, Marin Promotus Archimedes seu De variis corporum generibus gravitate et magnitudine comparatis Romae Apud Aloysium Zanettum, 1603 /8/ + 72 pag.
           <relatedItem type="digitalisatum">
-                  <ref type="internet"
-                       target="http://archimedes.mpiwg-berlin.mpg.de/cgi-bin/toc/toc.cgi?dir=gheta_promo_029_la_1603;step=thumb">Archimedes Project: Ghetaldus, Marinus Promotus Archimedis 1603
+                  <ref type="internet" target="http://archimedes.mpiwg-berlin.mpg.de/cgi-bin/toc/toc.cgi?dir=gheta_promo_029_la_1603;step=thumb">Archimedes Project: Ghetaldus, Marinus Promotus Archimedis 1603
               text updated 	2003.03.13 14:41</ref>
                </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abbr" occurs="86"/>
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="add" occurs="9"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="back" occurs="1"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="1"/>
+          <tagUsage gi="closer" occurs="2"/>
+          <tagUsage gi="corr" occurs="80"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="5"/>
+          <tagUsage gi="dateline" occurs="1"/>
+          <tagUsage gi="div" occurs="36"/>
+          <tagUsage gi="docAuthor" occurs="1"/>
+          <tagUsage gi="docImprint" occurs="1"/>
+          <tagUsage gi="edition" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="expan" occurs="117"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="foreign" occurs="3"/>
+          <tagUsage gi="front" occurs="1"/>
+          <tagUsage gi="gap" occurs="52"/>
+          <tagUsage gi="head" occurs="34"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="num" occurs="3"/>
+          <tagUsage gi="opener" occurs="2"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="326"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="pb" occurs="79" withId="1"/>
+          <tagUsage gi="persName" occurs="3"/>
+          <tagUsage gi="placeName" occurs="1"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="ptr" occurs="58" withId="58"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="relatedItem" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="s" occurs="563"/>
+          <tagUsage gi="salute" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sic" occurs="14"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="5"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titlePage" occurs="1"/>
+          <tagUsage gi="titlePart" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -175,7 +235,8 @@
           
                <s>Magnitudine autem sit collatio, cum posita pari grauitate, quaeritur, quae sit ratio magnitudinis; quanto sit alterum altero maius, aut minus. </s>
           
-               <s>Quae comparatio mihi cum videretur et iucunda cognitu, et usum nonnullum habere, nec fuse a quopiam explicata, non ita pridem super ea non nihil coepi me liris sed nihil de luce ac publico cogitabam. <!--neuer Satz--><corr>Is</corr> enim ego sum, qui malim scire, quam <corr>nescire</corr>, discere, quam docere. </s>
+               <s>Quae comparatio mihi cum videretur et iucunda cognitu, et usum nonnullum habere, nec fuse a quopiam explicata, non ita pridem super ea non nihil coepi me liris sed nihil de luce ac publico cogitabam. <!--neuer Satz-->
+            <corr>Is</corr> enim ego sum, qui malim scire, quam <corr>nescire</corr>, discere, quam docere. </s>
           
                <s>Sed tamen cum Michael Saegnerus in rebus. </s>
           

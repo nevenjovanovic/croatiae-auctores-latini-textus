@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
  
    <teiHeader>
@@ -41,6 +40,69 @@
 	    </bibl>
          </sourceDesc>
       </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abbr" occurs="7"/>
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="bibl" occurs="1571"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="1"/>
+          <tagUsage gi="corr" occurs="3"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="4"/>
+          <tagUsage gi="div" occurs="205" withId="13"/>
+          <tagUsage gi="docTitle" occurs="1"/>
+          <tagUsage gi="edition" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="expan" occurs="4"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="front" occurs="1"/>
+          <tagUsage gi="head" occurs="211"/>
+          <tagUsage gi="item" occurs="196" withId="195"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="lb" occurs="6"/>
+          <tagUsage gi="list" occurs="7"/>
+          <tagUsage gi="mentioned" occurs="1"/>
+          <tagUsage gi="note" occurs="1836"/>
+          <tagUsage gi="num" occurs="14"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="202"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="pb" occurs="806"/>
+          <tagUsage gi="persName" occurs="5"/>
+          <tagUsage gi="phr" occurs="45"/>
+          <tagUsage gi="placeName" occurs="1"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="q" occurs="1809" withId="17"/>
+          <tagUsage gi="quote" occurs="1"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="s" occurs="7" withId="6"/>
+          <tagUsage gi="seg" occurs="3373" withId="3373"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sic" occurs="1"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="5"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titlePage" occurs="1"/>
+          <tagUsage gi="titlePart" occurs="2"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="trailer" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -244,7 +306,8 @@ Vale.
 <!-- var INDEX TITVLORVM CVIVSQVE CAPITIS SEPTEM EVANGELISTARII LIBRORVM KK --> </head>
                <list type="simple">
                   <head>Liber I. fidei
-<!-- var Tituli capitum libri primi KK --></head>
+<!-- var Tituli capitum libri primi KK -->
+            </head>
                   <item xml:id="I1.01" ana="tema">De fide Deo pręstanda c. 1</item>
                   <item xml:id="I1.02" ana="tema-dalje">De fidei constantia et uirtute c. 2</item>
                   <item xml:id="I1.03" ana="tema-anti">De fide sine operibus c. 3</item>
@@ -345,7 +408,8 @@ Vale.
                </list>
                <pb n="418" ed="KK"/>
                <list type="simple">
-                  <head> Liber Quartus charitatis. <!-- var Tituli capitum libri quarti KK --></head>
+                  <head> Liber Quartus charitatis. <!-- var Tituli capitum libri quarti KK -->
+            </head>
                   <item xml:id="I4.1" ana="tema">De charitate erga Deum	c. 1</item>
                   <item xml:id="I4.2" ana="tema-dalje">De charitate erga proximum	c. 2</item>
                   <item xml:id="I4.3" ana="tema-dalje">De charitate erga inimicos	c. 3</item>
@@ -374,7 +438,8 @@ Vale.
                </list>
                <list type="simple">
                   <head>Liber V. charitatis. 
-<!-- var Tituli capitum libri quinti KK --></head>
+<!-- var Tituli capitum libri quinti KK -->
+            </head>
                   <item xml:id="I5.1" ana="tema">De temperantia	c. 1</item>
                   <item xml:id="I5.2" ana="tema-dalje">De uirginitate c. 2</item>
                   <item xml:id="I5.3" ana="tema-dalje">De castitate uiduali c. 3</item>
@@ -405,7 +470,8 @@ Vale.
                   <item xml:id="I5.26" ana="tema-dalje #QUALIS">Vtrum debemus <!-- ! --> pro beneficio, cui successit iniuria c. 26</item>
                </list>
                <list type="simple">
-                  <head> Liber sextus Charitatis <!-- Tituli capitum libri sexti KK --></head>
+                  <head> Liber sextus Charitatis <!-- Tituli capitum libri sexti KK -->
+            </head>
                   <item xml:id="I6.1" ana="#TEMA #QUALIS">Vtrum Deo reddi possit beneficium	c. 1</item>
                   <item xml:id="I6.2" ana="tema-dalje">De gratis erga Deum in Testamento Veteri	c. 2</item>
                   <item xml:id="I6.3" ana="tema-dalje">De gratis erga Deum in Testamento Nouo	c. 3</item>
@@ -435,7 +501,8 @@ Vale.
                   <item xml:id="I6.25" ana="tema-anti">De humilitate uitiosa	c. 25</item>
                </list>
                <list type="simple">
-                  <head> Liber septimus Charitatis <!-- var Tituli capitum libri septimi KK --></head>
+                  <head> Liber septimus Charitatis <!-- var Tituli capitum libri septimi KK -->
+            </head>
                   <item xml:id="I7.1" ana="tema-anti">De superbię uitio c. 1</item>
                   <item xml:id="I7.2" ana="tema-anti tema-dalje #QUALIS">Quanta mala pariat superbia	c. 2</item>
                   <item xml:id="I7.3" ana="tema-anti tema-dalje invektiva">In eos, qui sanctitatis ostentatione alios carpunt	c. 3</item>
@@ -471,8 +538,10 @@ Vale.
                   <item xml:id="I7.31" ana="tema-anti tema-dalje">De delatorum malignitate c. 31</item>
                   <item xml:id="I7.32" ana="tema-dalje">De maledicentię uitandę cura c. 32</item>
                   <item xml:id="I7.33" ana="#TEMA #EXHORTATIO">In fine operis peroratio c. 33</item>
-                  <item xml:id="I00">Cantilenam Beatę Marię virginis. <!-- var Cantilenam... virginis om.KK --></item>
-                  <item>FINIS <!-- var om.KK --></item>
+                  <item xml:id="I00">Cantilenam Beatę Marię virginis. <!-- var Cantilenam... virginis om.KK -->
+            </item>
+                  <item>FINIS <!-- var om.KK -->
+            </item>
                </list>
             </div>
             <pb n="422" ed="KK"/> 
@@ -480,7 +549,8 @@ Vale.
             <div type="praefatio" xml:id="E0.3" n="3">
                <head>
 M. Maruli Praefatio in Suum Euangelistarium. 
-<!-- var PRAEFATIO KK --></head>
+<!-- var PRAEFATIO KK -->
+          </head>
                <p>
                   <seg xml:id="E0.1.1" ana="#MARK">
  
@@ -988,7 +1058,8 @@ et me imitari pro uiribus contendit.
             </div>
             <div n="02">
                <head> De fidei constantia et virtute. 
-Caput II <!-- 59S --></head>
+Caput II <!-- 59S -->
+          </head>
                <p>
                   <seg xml:id="E1.2.1" ana="#NORMAL">
  
@@ -1342,7 +1413,8 @@ iuxta Iacobi apostoli sententiam mortua est.</s>
                         </note>
  Dicunt, et non faciunt.</s> 
                   </seg>
-                  <seg xml:id="E1.3.4" ana="#COMPARATIO"><!-- prije aleg -->
+                  <seg xml:id="E1.3.4" ana="#COMPARATIO">
+              <!-- prije aleg -->
 Illis utique comparandi, qui Christum spinis coronatum
 genuflexi <!-- var genu flexi --> adorabant, 
 non ut eum uenerarentur, 
@@ -1359,14 +1431,16 @@ quia licet diligat confitentium fidem,
 fidei tamen pręceptis aduersantes non recipit.
 </s>
                      <note place="margin"> 
-                        <bibl><!-- Matth -->22</bibl>
+                        <bibl>
+                  <!-- Matth -->22</bibl>
                      </note> 
  
 Quanuis enim aliquis ad nuptias fidei inuitatus ueniat, 
 uestem tamen nuptialem, hoc est uirtutum ornamenta non habens | 
 de ędibus eliminatur | 
 et quod deterius est, manibus pedibus-que ligatis proiicitur in tenebras exteriores. 
-<q><!-- ?? --> Ibi erit inquit, fletus et stridor dentium;</q> 
+<q>
+                <!-- ?? --> Ibi erit inquit, fletus et stridor dentium;</q> 
 ut discas eos damnandos esse, 
 qui uel per ocium | uel per malitiam | 
 <!-- var per om.KK; maliciam --> 
@@ -1415,7 +1489,8 @@ alioquin ne miracula quidem aliquando fecisse illi proderit, a quo abest iustiti
  
 Ideo subditur: 
 <note place="margin"> 
-                        <bibl> Matth7 <!-- ?? --></bibl>
+                        <bibl> Matth7 <!-- ?? -->
+                </bibl>
                      </note> 
                      <q> Multi dicent mihi in illa die: 
  Domine Domine nonne in nomine tuo demonia eiecimus? 
@@ -1542,7 +1617,8 @@ Quamuis <!-- var Quanuis KK --> autem leuius crucietur,
 sicut et illi, qui alienę subuersionis autores sunt, obnoxius est.
 
  
-<q><!-- ?? --> Si non credideritis inquit, quia ego sum, in
+<q>
+                <!-- ?? --> Si non credideritis inquit, quia ego sum, in
 peccato uestro moriemini.</q>
  
 Quid sit ita mori, Ioannes in Apocalypsi ostendit dicens: 
@@ -1592,7 +1668,8 @@ hereticorum doctrinam deuitemus hortatur et ait | <!-- : KK -->
                      <q>cauete a fermento phariseorum et sadduceorum!</q> 
 
  
-                     <q><!-- ?? --> Parum enim fermenti (ut Apostolus inquit) totam massam corrumpit</q>. 
+                     <q>
+                <!-- ?? --> Parum enim fermenti (ut Apostolus inquit) totam massam corrumpit</q>. 
 </seg>
                   <seg xml:id="E1.4.8" ana="#NORMAL"> 
  
@@ -1693,7 +1770,8 @@ aut procaces sunt |
 ut illi qui prętereuntes Christum in cruce pendentem blasphemabant. 
 aut iniqui et in omne scelus proni, Sathanę primogeniti, 
 quibus dicere possis: 
-<q><!-- ?? --> Vos ex patre diabolo estis.</q>
+<q>
+                <!-- ?? --> Vos ex patre diabolo estis.</q>
 
  
 aut prorsus in errore ita obdurati, 
@@ -1719,7 +1797,8 @@ agnoscant,
 qui mendacio iam occalluerunt. 
  
 quibus si ipse sua uoce dixerit: 
-<q><!-- ?? --> Ego sum,</q> 
+<q>
+                <!-- ?? --> Ego sum,</q> 
 retrorsum abibunt | 
 et in eodem corruent luto uitiorum, quo tam nequiter infecti sunt.
  
@@ -1745,7 +1824,8 @@ terrenarum-que rerum impediti curis cęlestia capere nequeunt.
 mundum-que magis quam mundi dominum diligentes | 
 non iam mundani, sed mundus appellantur <!-- var appelantur-->. 
 Domino ita de illis ad Patrem dicente: <pb n="435" ed="KK"/> 
-                     <q><!-- ?? --> Pater iuste mundus te non cognouit.</q>
+                     <q>
+                <!-- ?? --> Pater iuste mundus te non cognouit.</q>
                   </seg>
                   <seg xml:id="E1.4.11" ana="#NORMAL">
  
@@ -1770,7 +1850,8 @@ Dei iuris es,
 cur auerteris ab eo cuius es, 
 et illi te tradis cuius non es? 
  
-Dictum est: <q><!-- ?? --> Date Deo quę Dei sunt.</q> 
+Dictum est: <q>
+                <!-- ?? --> Date Deo quę Dei sunt.</q> 
  
 Et tu quę Dei sunt, porrigis diabolo? 
  
@@ -1946,7 +2027,8 @@ si modo cum corde isto dubio tibi decedere contigerit.
  
 Quod si cum Thoma hactenus dubitasti, 
 iam et cum eodem credens Christum confitere dicens: 
-<q><!-- ?? --> Dominus meus et Deus meus!</q> 
+<q>
+                <!-- ?? --> Dominus meus et Deus meus!</q> 
  
 Alioquin ne illa quidem quę bene egeris, 
 prodesse tibi poterunt ad salutem. 
@@ -1960,7 +2042,8 @@ crede Deo non hominibus,
 Apostolis <!-- var apostolis, KK --> non philosophis, 
 ecclesię dei <!-- var Ecclesię Dei, KK --> non diaboli synagogę. 
 cum dei filius <!-- var Filius Dei KK --> dicat: 
-<q><!-- ?? --> Omnis plantatio, quam non plantauit Pater meus
+<q>
+                <!-- ?? --> Omnis plantatio, quam non plantauit Pater meus
 cęlestis eradicabitur.</q> 
 hoc est omnis religio, 
 omne dogma, 
@@ -2148,12 +2231,14 @@ in quod homo a latronibus in uia uulneratus | curandus infertur.
  
 In ecclesia laborantium | in cęlo requies est. 
 quibus <!-- var est. quibus om.KK --> dicitur: 
-<q><!-- Io. 16:20 KK --> 
+<q>
+                <!-- Io. 16:20 KK --> 
 Vos autem contristabimini, 
 sed tristitia uestra vertetur in gaudium.</q> 
  
 Ecclesia est ergo 
-<q><!-- Io. 16:21 KK --> 
+<q>
+                <!-- Io. 16:21 KK --> 
 mulier parturiens, quę (ut in Euangelio scriptum est) tristitiam habet, quia uenit hora eius. 
  
 Cum autem peperit <!-- exp pep_it ?var pepererit KK --> puerum, 
@@ -2168,7 +2253,8 @@ Sed cum ab imis ad superna se transfert,
 <phr>tanto perfunditur gaudio</phr>, 
 ut pręcedentis angustię prorsus obliuiscatur. 
  
-<q><!-- Io. 16:21 KK --> Quia natus est homo in mundum</q>. 
+<q>
+                <!-- Io. 16:21 KK --> Quia natus est homo in mundum</q>. 
 hoc est, quia filii Ecclesię iam immortalitatis natiuitate lętantur, 
 translati de mundo isto corruptibili ad mundum incorruptionis | 
 et de terreno habitaculo ad cęleste regnum. 
@@ -2248,7 +2334,8 @@ Ecclesię uero sanctę fortissimi parietes sunt | Lex et Euangelium.
 </seg>
                   <seg xml:id="E1.8.2" ana="#NORMAL"> 
  
-                     <q><!-- ?? --> Nihil enim (ut Apostolus ait) ad perfectum adduxit Lex.</q> 
+                     <q>
+                <!-- ?? --> Nihil enim (ut Apostolus ait) ad perfectum adduxit Lex.</q> 
                      <note place="margin"> 
                         <bibl> Luc. 18</bibl>
                      </note> 
@@ -2927,7 +3014,8 @@ egressus autem et magis alacris animi affectu Saluatoris quęrens
 conspectum, 
 eum ipsum quem scribę et pharisei cognoscere nequiuerunt, 
 confiteri coepit dicens: 
-<q><!-- ?? --> Rabbi tu es Filius Dei, tu es rex Israel <!-- var
+<q>
+                <!-- ?? --> Rabbi tu es Filius Dei, tu es rex Israel <!-- var
 Israhel KK -->!</q> 
  
 Verum tamen <!-- var Veruntamen,--> si sensus quoque non satis sanos
@@ -3034,7 +3122,8 @@ Audi Christum clamantem:
 et ego reficiam uos.</q> 
  
 Hinc tu tandem ad uocantem conuersus dic: 
-<q><!-- ?? --> Iniquitates meę supergressę sunt caput meum, 
+<q>
+                <!-- ?? --> Iniquitates meę supergressę sunt caput meum, 
 et sicut onus graue grauatę sunt super me.</q> 
  
 Tunc ille occurrens tibi | 
@@ -3419,7 +3508,8 @@ Nam quanuis aliquando etiam non improbi ingenii esse uideatur,
 nunquam tamen non majore sui parte malus est. 
  
 de quo Iacobus apostolus: 
-<q><!-- ?? --> Vir inquit duplex animo inconstans est in omnibus uiis suis.</q> 
+<q>
+                <!-- ?? --> Vir inquit duplex animo inconstans est in omnibus uiis suis.</q> 
  
 Quippe qui nunc hoc | nunc illud appetit, 
 cui quod modo placuit, modo displicet, 
@@ -3607,7 +3697,8 @@ mortem contemnere |
 nec ullo supplicii genere sic terreri, 
 ut a bono honesto-que discedas. 
  
-<q xml:id="Q1141" next="Q1142"><!-- ?? --> Nolite timere eos</q> inquit,
+<q xml:id="Q1141" next="Q1142">
+                <!-- ?? --> Nolite timere eos</q> inquit,
 <q xml:id="Q1142">qui occidunt
 corpus, 
 animam autem non possunt occidere, 
@@ -3627,7 +3718,8 @@ uitę fragili et uelis-nolis cito periturę tunc peperceris,
 illam stabilem et immortalem, qua sancti fruuntur, amittes. 
  
 Ait enim: 
-<q><!-- ?? --> Qui uoluerit animam suam saluam facere, perdet eam.</q> 
+<q>
+                <!-- ?? --> Qui uoluerit animam suam saluam facere, perdet eam.</q> 
  
 Nam siquis peccare mauult quam mori, 
 hic sibi uiuet | et Deo morietur. 
@@ -3637,7 +3729,8 @@ in inferi baratrum <!-- var barathrum KK --> ruere |
 et nullum cum iis qui uere uiuunt habere consortium. 
  
 Sequitur: 
-<q><!-- ?? --> et qui perdiderit animam suam propter me, inueniet
+<q>
+                <!-- ?? --> et qui perdiderit animam suam propter me, inueniet
 eam.</q> 
                   </seg>
                   <seg xml:id="E1.14.12" ana="#NORMAL">
@@ -3830,7 +3923,8 @@ intus autem pleni estis rapina et immunditia!
 veh <!-- var Vę --> uobis qui similes estis sepulchris dealbatis, 
 quę a foris apparent hominibus speciosa, 
 intus uero plena sunt ossibus mortuorum et spurcicia <!-- var
-spurcitia KK --></q>. 
+spurcitia KK -->
+              </q>. 
  
 Quanto igitur melius id esse quod apparere uis, 
 quam quod non es uideri uelle?
@@ -3883,7 +3977,8 @@ sua sponte labuntur.
  
 Diabolus enim <pb n="463" ed="KK"/> nisi imbecillior homine esset, 
 non ei quem supra templum posuerat dixisset: 
-<q><!-- ?? --> Mitte te deorsum,</q> 
+<q>
+                <!-- ?? --> Mitte te deorsum,</q> 
 sed ipsemet eum pręcipitem dare tentasset. 
  
 Quis ergo corruit <!-- var conruit KK -->, 
@@ -3949,7 +4044,8 @@ partem-que eius ponet <!-- var ponat KK --> cum hypocritis.
 ut uidelicet ibi ficta crucietur abstinentia, 
 ubi simulata torquetur sanctitas. 
  
-<q><!-- ?? --> 
+<q>
+                <!-- ?? --> 
 Illic inquit erit fletus et stridor dentium.</q> 
 ut miserabiliter lugeant qui in conuiuiis immoderate lętati sunt | 
 et esuriendo siccis crepitent dentibus, quos esculentis poculentis-que
@@ -4019,7 +4115,8 @@ uoluntas incerta. <!-- var cui add.KK -->
 </seg>
                   <seg xml:id="E1.15.25" ana="#NORMAL"> 
 nunc hoc nunc aliud placet, 
-proposito semper <q><!-- ?? --> labanti et <!-- var ac --> instabili</q>. 
+proposito semper <q>
+                <!-- ?? --> labanti et <!-- var ac --> instabili</q>. 
  
 Quod si ille 
 qui bene institutus perseuerat usque in finem 
@@ -4116,7 +4213,8 @@ qui discipulis tempestatem formidantibus:
 necdum habetis fidem?</q> 
  
 de talibus alibi ait: 
-<q><!-- ?? --> Ad tempus credunt, 
+<q>
+                <!-- ?? --> Ad tempus credunt, 
 et in tempore tentationis <pb n="12r" ed="1516"/> recedunt.</q>
                   </seg>
                   <seg xml:id="E1.15.32" ana="#MARK finis"> 
@@ -4311,7 +4409,8 @@ pręceperit ne cui dicerent |
 sed quanto magis pręcipiebat ut tacerent, 
 tanto plus prędicabant | 
 et eo amplius admirabantur dicentes: 
-<q><!-- ?? --> 
+<q>
+                <!-- ?? --> 
 Bene omnia fecit, 
 et surdos fecit audire | 
 et mutos loqui.</q> 
@@ -4386,11 +4485,13 @@ ut uideant opera uestra bona,
 et glorificent Patrem uestrum qui in cęlis est</q>. 
  
 Neque hoc repugnare putemus alteri sententię postea dictę: 
-<q><!-- ?? --> 
+<q>
+                <!-- ?? --> 
 Attendite ne iustitiam uestram faciatis coram hominibus ut uideamini ab eis.</q> 
  
 per hoc enim quod subiunxit: 
-<q><!-- ?? --> ut uideamini ab eis,</q> 
+<q>
+                <!-- ?? --> ut uideamini ab eis,</q> 
 ostentationem facti prohibet, non spectaculum. 
  
 Eadem ratione et elemosinam fieri iubet in occulto | 
@@ -4647,7 +4748,8 @@ quem mox in terra regnaturum putabant, sedere concupissent.
  
 Et quoniam terrenis adhuc affectibus ducebantur, 
 responsum est eis: 
-<q><!-- ?? --> Nescitis, quid petatis.</q> 
+<q>
+                <!-- ?? --> Nescitis, quid petatis.</q> 
                   </seg>
                   <seg xml:id="E1.17.16" ana="#MARK"> 
  
@@ -4869,7 +4971,8 @@ Ut semper Dei uoluntas pręferatur hominis uoluntati.
                   <seg xml:id="E1.18.6" ana="#MARK ti"> 
  
 Vis non timere mortem? 
-crede in illum qui ait: <q><!-- ?? --> 
+crede in illum qui ait: <q>
+                <!-- ?? --> 
 Ego sum uia ueritas et uita.</q> 
  
 Hic est enim uia morum, 
@@ -5084,7 +5187,8 @@ commendemus.
  
 Qui ut hoc nobis insinuaret, 
 iam morti propinquus, 
-iam spiritum traditurus: <q><!-- ?? --> 
+iam spiritum traditurus: <q>
+                <!-- ?? --> 
 Pater inquit in manus tuas commendo spiritum meum.</q> 
  
 et hęc dicens expirauit. 
@@ -5095,9 +5199,11 @@ ac precibus insistendo uitam istam finiamus.
 </seg>
                   <seg xml:id="E1.18.20" ana="#MARK"> 
  
-et tunc sequentur, quod paulo ante diximus: <q><!-- ?? --> 
+et tunc sequentur, quod paulo ante diximus: <q>
+                <!-- ?? --> 
 Preciosa in conspectu Domini mors sanctorum eius,</q> 
-et: <q><!-- ?? --> 
+et: <q>
+                <!-- ?? --> 
 Beati mortui qui in Domino moriuntur.</q>
                   </seg>
                   <seg xml:id="E1.18.21" ana="#NORMAL"> 
@@ -5537,7 +5643,8 @@ ait enim:
                      <q> Vos qui secuti estis me in regeneratione 
 cum sederit Filius hominis in sede maiestatis suę, 
 sedebitis et uos super sedes duodecim iudicantes duodecim tribus
-Israel <!-- var Israhel KK --></q>.
+Israel <!-- var Israhel KK -->
+              </q>.
 </seg>
                   <seg xml:id="E1.20.12" ana="#NORMAL"> 
  
@@ -8281,7 +8388,8 @@ breuiter explicemus.
             </div>
             <div n="02">
                <head> De desperatione. 
-Caput II <!-- W319 S21 --></head>
+Caput II <!-- W319 S21 -->
+          </head>
                <p>
                   <seg xml:id="E2.2.1" ana="#NORMAL">
  
@@ -8650,7 +8758,8 @@ hoc, ut mercedis plus capias uoto suscepto castitatis.
 <!-- p 1516 -->
                      <note place="margin"> Septimum. </note>
  
-                     <q>Non furtum facias. <!-- corr. in facies KK --></q>
+                     <q>Non furtum facias. <!-- corr. in facies KK -->
+              </q>
                   </seg>
                   <seg xml:id="E2.3.15" ana="#PLANA definicija">
  
@@ -8785,7 +8894,8 @@ factum tamen iri cupimus.
             </div>
             <div n="04">
                <head> De mandatorum consyderatione 
-<!-- CONSIDERATIONE KK -->Caput IV <!-- W1312 S54 --></head>
+<!-- CONSIDERATIONE KK -->Caput IV <!-- W1312 S54 -->
+          </head>
                <p>
                   <seg xml:id="E2.4.1" ana="#MARK">
  
@@ -9138,7 +9248,8 @@ de transgressorum quoque poena <!-- poene 1516 --> aliquid memoremus.
             </div>
             <div n="05">
                <head> De praevaricatorvm poena. 
-Caput V <!--W1444 S60--></head>
+Caput V <!--W1444 S60-->
+          </head>
                <p>
                   <seg xml:id="E2.5.1" ana="incipit rasprava">
  
@@ -9547,7 +9658,8 @@ Non incongrue igitur post mandatorum tractationem de uigilia disseremus.
             </div>
             <div n="06">
                <head> De vigilia. 
-Caput VI <!--W1250 S67 --></head>
+Caput VI <!--W1250 S67 -->
+          </head>
                <p>
                   <seg xml:id="E2.6.1" ana="#NORMAL">
  
@@ -9618,7 +9730,8 @@ restat ut ad bonorum operationem conuertamur.
  
 Ad hęc autem perficienda non sufficit nostra fragilitas.
 </seg>
-                  <seg xml:id="E2.6.8" ana="#MARK aleg citat"><!-- bolje bi bilo metaf mj aleg -->
+                  <seg xml:id="E2.6.8" ana="#MARK aleg citat">
+              <!-- bolje bi bilo metaf mj aleg -->
                      <note place="margin"> 
                         <bibl> Ps. 126</bibl> 
                      </note>
@@ -10049,7 +10162,8 @@ in qua legitur:
                         <bibl> Matth. 13 </bibl> 
                      </note>
                      <q>Cum dormirent homines uenit inimicus homo |
-et superseminauit zizania in medio tritici. <!-- ...KK --></q> 
+et superseminauit zizania in medio tritici. <!-- ...KK -->
+              </q> 
 Et illa altera: 
 <note place="margin"> 
                         <bibl> Matth. 24 </bibl> 
@@ -10297,7 +10411,8 @@ quod-que euigilantibus quoque gratum sit.
             </div>
             <div n="09">
                <head> De oratione frvctvosa. 
-Caput IX <!-- W1983 S104 --></head>
+Caput IX <!-- W1983 S104 -->
+          </head>
                <p>
                   <seg xml:id="E2.9.1" ana="#NORMAL">
 
@@ -12593,7 +12708,8 @@ qui reddet unicuique secundum opera eius.</q>
             </div>
             <div n="14">
                <head> AD DESPERANTEM EXHORTATIO. 
-Caput XIV <!-- W876 S45 --></head>
+Caput XIV <!-- W876 S45 -->
+          </head>
                <p>
                   <seg xml:id="E2.14.1" ana="#MARK">
  
@@ -13215,7 +13331,8 @@ neque utilis confessio absque poenitentię admixtione.
             </div>
             <div n="16">
                <head> De iis, qvi confiteri negligunt 
-Caput XVI <!-- W354 S14 --></head>
+Caput XVI <!-- W354 S14 -->
+          </head>
                <p>
                   <seg xml:id="E2.16.1" ana="incipit anakolut">
  
@@ -13335,7 +13452,8 @@ uidebunt.</q>
             </div>
             <div n="17">
                <head> De sacramento corporis Christi
- Caput XVII <!--W2004 S74--></head>
+ Caput XVII <!--W2004 S74-->
+          </head>
                <p>
                   <seg xml:id="E2.17.1" ana="#MARK">
  
@@ -15564,7 +15682,8 @@ quia esurietis. </q>
             </div>
             <div n="26">
                <head> De perseverantia virtvtvm. 
-Caput XXVI <!-- W1079 S46 --></head>
+Caput XXVI <!-- W1079 S46 -->
+          </head>
                <p>
                   <seg xml:id="E2.26.1" ana="tekst propositio period"> 
  
@@ -16506,7 +16625,8 @@ quis nostrum saluus fieret?
             <pb n="622" ed="KK"/>
             <div n="02">
                <head> De prvdentia vitiosa et simplicitate stvpida 
-Caput II <!-- W371 S18 --></head>
+Caput II <!-- W371 S18 -->
+          </head>
                <p>
                   <seg xml:id="E3.2.1" ana="#NORMAL"> 
  
@@ -16843,7 +16963,8 @@ non iam inuiti sed uolentes colla submisere?
             </div>
             <div n="04">
                <head> De scientia divinitvs tradita et sapientis officio
-Caput IV <!-- W754 S30 --></head>
+Caput IV <!-- W754 S30 -->
+          </head>
                <p>
                   <seg xml:id="E3.4.1" ana="#NORMAL"> 
  
@@ -17089,7 +17210,8 @@ ut Deo frui possit.
             <pb n="629" ed="KK"/>
             <div n="05">
                <head> Qvod sapientia donvm dei sit, et vera sapientia Christvm imitari. 
-Caput V <!-- W923 S43 --></head>
+Caput V <!-- W923 S43 -->
+          </head>
                <p>
                   <seg xml:id="E3.5.1" ana="#NORMAL"> 
  
@@ -17678,7 +17800,8 @@ efficit beatos.
             </div>
             <div n="07">
                <head> Qvae sapientia est vitanda. 
-Caput VII <!-- 913W 29S --></head>
+Caput VII <!-- 913W 29S -->
+          </head>
                <p>
                   <seg xml:id="E3.7.1" ana="tekst utrumque"> 
  
@@ -17942,7 +18065,8 @@ Deum <bibl>cum Propheta</bibl> orabit:
             <pb n="640" ed="KK"/>
             <div n="08">
                <head> Qvod sapiens docere alios debet. 
-Caput VIII <!-- 432W 17S --></head>
+Caput VIII <!-- 432W 17S -->
+          </head>
                <p>
                   <seg xml:id="E3.8.1" ana="tekst utrumque"> 
  
@@ -18081,7 +18205,8 @@ ne ab iis incauti imprudentes-que superentur.
             <pb n="56r" ed="1516"/> 
             <div n="09">
                <head> De demonum natura. 
-Caput IX <!-- 948W 38S --></head>
+Caput IX <!-- 948W 38S -->
+          </head>
                <p>
                   <seg xml:id="E3.9.1" ana="tekst"> 
  
@@ -18364,7 +18489,8 @@ et fortasse crebriori certamine labefactus tandem succumbes.
             </div>
             <div n="10">
                <head> Quare creatus diabolus. 
-Caput X <!-- 439W 16S --></head>
+Caput X <!-- 439W 16S -->
+          </head>
                <p>
                   <seg xml:id="E3.10.1" ana="incipit pitanje">
  
@@ -18494,7 +18620,8 @@ Domini, et iustitia eorum apud me dicit Dominus.</q>
 
             <div n="11">
                <head> De nominibus demonum propriis. 
-Caput XI <!-- 232W 14S --></head>
+Caput XI <!-- 232W 14S -->
+          </head>
                <p>
                   <seg xml:id="E3.11.1" ana="incipit tekst propositio"> 
  
@@ -18595,7 +18722,8 @@ cum Mammonę coeperint famulari.
             </div>
             <div n="12">
                <head> De nominibus demonum brutalibus. 
-Caput XII <!-- 591W 37S --></head>
+Caput XII <!-- 591W 37S -->
+          </head>
                <p>
                   <seg xml:id="E3.12.0" ana="aleg"> 
                      <seg xml:id="E3.12.1" ana="#NORMAL">
@@ -19322,7 +19450,8 @@ et prępara animam tuam ad tentationem.</q>
  
 et in Iob: 
 <note place="margin">
-                        <bibl><!-- Iob --> vii. </bibl>
+                        <bibl>
+                  <!-- Iob --> vii. </bibl>
                      </note>
                      <q>Tentatio est uita hominis super terram.</q>
                   </seg>
@@ -20218,7 +20347,8 @@ quam <!-- quę? KK --> talium appetitionum uictoribus in mercedem tribui certiss
             <pb n="669" ed="KK"/>
             <div n="21">
                <head> De remediis contra carnis tentamenta. 
-Caput XXI <!-- 697W 33S --></head>
+Caput XXI <!-- 697W 33S -->
+          </head>
                <p>
                   <seg xml:id="E3.21.1" ana="tekst gradatio metaf"> 
  
@@ -21843,7 +21973,8 @@ cum quibus nos frequentes esse nobis proderit.
             </div>
             <div n="26">
                <head> De consortio habendo. 
-Caput XXVI <!-- 650W 25S --></head>
+Caput XXVI <!-- 650W 25S -->
+          </head>
                <p>
                   <seg xml:id="E3.26.1" ana="#MARK"> 
  
@@ -22045,7 +22176,8 @@ ad tantam sanctitatis perfectionem hominis imbecillitas nunquam peruenisset.
             <pb n="690" ed="KK"/>
             <div n="27">
                <head>De pavpertate colenda. 
-Caput XXVII <!-- 408W 17S --></head>
+Caput XXVII <!-- 408W 17S -->
+          </head>
                <p>
                   <seg xml:id="E3.27.1" ana="kratko-dugo"> 
  
@@ -22420,7 +22552,8 @@ ut in Christo diues sit.
             </div>
             <div n="29">
                <head> De diuitiarum malo et paupertatis bono. 
-Caput XXIX <!-- 689W 24S --></head>
+Caput XXIX <!-- 689W 24S -->
+          </head>
                <p>
                   <seg xml:id="E3.29.1" ana="#NORMAL"> 
  
@@ -23737,7 +23870,8 @@ magis ad quenque <!-- var quenquam (kratica 1516) ?? KK --> amandum animo allici
             <div n="04">
                <head>De malo odii. 
 Caput IIII</head>
-               <p><!-- 691W 33S -->
+               <p>
+            <!-- 691W 33S -->
                   <seg xml:id="E4.4.1" ana="#PLANA">
 
 Opus Dei odit, 
@@ -26623,7 +26757,8 @@ feliciter conquiescas.
             <div n="13">
                <head>
 De pręmio iustorum. 
-Caput XIII <!-- 700W 23S --></head>
+Caput XIII <!-- 700W 23S -->
+          </head>
                <p>
                   <seg xml:id="E4.13.1" ana="#MARK">
  
@@ -28968,7 +29103,8 @@ et de temporalibus deliciis repente ad ęternas transire.
             <pb n="500" ed="KK"/> 
             <div n="23">
                <head>De gustu 
-Caput XXIII <!-- 409W 25S --></head>
+Caput XXIII <!-- 409W 25S -->
+          </head>
                <p>
                   <seg xml:id="E4.23.1" ana="propositio">
 
@@ -29117,7 +29253,8 @@ non ut uentri seruias.
             <pb n="502" ed="KK"/> 
             <div n="24">
                <head>De tactu. 
-Caput XXIV <!-- 560W 23S --></head>
+Caput XXIV <!-- 560W 23S -->
+          </head>
                <p>
                   <seg xml:id="E4.24.1" ana="#NORMAL">
 
@@ -29281,7 +29418,8 @@ cui promissa est merces ęternę in cęlo felicitatis.
             <div n="25">
                <head>De remedio contra sensuum uoluptatem 
 Caput XXV
-<!-- 349W 13S --></head>
+<!-- 349W 13S -->
+          </head>
                <p>
                   <seg xml:id="E4.25.1" ana="#NORMAL">
 
@@ -30182,7 +30320,8 @@ tuenda sit.
             <pb n="516" ed="KK"/> 
             <div n="04">
                <head>De consortio diuersi sexus uitando. 
-Caput IV<!-- 668W 25S --></head>
+Caput IV<!-- 668W 25S -->
+          </head>
                <p>
                   <seg xml:id="E5.4.1" ana="propositio">
 
@@ -30586,7 +30725,8 @@ par similis-que erit.
             <pb n="521" ed="KK"/> 
             <div n="06">
                <head>De matrimonio. 
-Caput VI<!-- 659W 32S --></head>
+Caput VI<!-- 659W 32S -->
+          </head>
                <p>
                   <pb n="94r" ed="1516"/>
                   <seg xml:id="E5.6.1" ana="#NORMAL">
@@ -30795,9 +30935,11 @@ de spiritu metet benedictionem.
             </div>
             <div n="07">
                <head>De viri vxorisqve officio. 
-Caput VII<!-- 694W 24S --></head>
+Caput VII<!-- 694W 24S -->
+          </head>
                <p>
-                  <seg xml:id="E5.7.1" ana="lista trikolon"><!-- 16. 9. 2011. promijenio iz lista lista -->
+                  <seg xml:id="E5.7.1" ana="lista trikolon">
+              <!-- 16. 9. 2011. promijenio iz lista lista -->
 
 Meminerint pręterea uxores reuereri maritos, 
 priorem honoris locum eis cedere |
@@ -31002,7 +31144,8 @@ audire.
             </div> 
             <div n="08">
                <head>De conivge diligenda temporeqve continendi. 
-Caput VIII<!-- 440W 23S --></head>
+Caput VIII<!-- 440W 23S -->
+          </head>
                <p>
                   <seg xml:id="E5.8.1" ana="tekst">
 
@@ -31158,7 +31301,8 @@ sed amborum.
             </div>
             <div n="09">
                <head>De conivge eligenda. 
-Caput IX<!-- 241W 9S --></head>
+Caput IX<!-- 241W 9S -->
+          </head>
                <p>
                   <seg xml:id="E5.9.1" ana="kratko">
 
@@ -31222,7 +31366,8 @@ uel uxor pellicem imaginatur ac <!-- var et?? KK --> timet.
             </div> 
             <div n="10">
                <head>De filiorvm edvcatione familiaqve regenda. 
-Caput X<!-- 266W 8S --></head>
+Caput X<!-- 266W 8S -->
+          </head>
                <p>
                   <seg xml:id="E5.10.1" ana="propositio kratko">
 
@@ -31307,7 +31452,8 @@ qui fidem negarunt.
             <pb n="531" ed="KK"/> 
             <div n="11">
                <head>De fornicatione vitanda. 
-Caput XI<!-- 897W 39S --></head>
+Caput XI<!-- 897W 39S -->
+          </head>
                <p>
                   <seg xml:id="E5.11.1" ana="tekst agendum-vitandum vitanda">
  
@@ -31592,7 +31738,8 @@ Haud facile <pb n="97r" ed="1516"/> pręsentibus delinitur,
             </div>
             <div n="12">
                <head>De triplici elemosinarvm genere. 
-Caput XII<!-- 985W 48S --></head>
+Caput XII<!-- 985W 48S -->
+          </head>
                <p>
                   <seg xml:id="E5.12.1" ana="tekst">
 
@@ -32496,7 +32643,8 @@ nisi quam pro beneficiis inopi collatis retribuit Christus dicens:
 </seg>
                   <seg xml:id="E5.14.10" ana="citati">
                      <note place="margin">
-                        <bibl>Mat. 15 <!-- ! --></bibl> 
+                        <bibl>Mat. 15 <!-- ! -->
+                </bibl> 
                      </note>
                      <q>Venite benedicti Patris mei, 
 possidete regnum uobis a
@@ -32603,7 +32751,8 @@ elemosinarum quęstum commoda-que consyderemus.
             <div n="15">
                <head>Pro qvibvs facienda est elemosina. 
 Caput XV</head>
-               <p><!-- 338W 16S -->
+               <p>
+            <!-- 338W 16S -->
                   <seg xml:id="E5.15.1" ana="exemplum citat">
 
 Pro filiis offerebat holocausta Iob dicens: 
@@ -32719,7 +32868,8 @@ ut Scripturarum sententiam audeat impugnare?
             <pb n="547" ed="KK"/> 
             <div n="16">
                <head>De elemosinę vtilitate. 
-Caput XVI <!-- 1104W 52S --></head>
+Caput XVI <!-- 1104W 52S -->
+          </head>
                <p>
                   <seg xml:id="E5.16.1" ana="incipit citat">
  
@@ -33094,7 +33244,8 @@ quam diuitum seculi quotidiana munera.
             </div>
             <div n="17">
                <head>De vitio avaritiae. 
-Caput XVII <!-- 1542W 61S --></head>
+Caput XVII <!-- 1542W 61S -->
+          </head>
                <p>
                   <seg xml:id="E5.17.1" ana="#MARK">
 
@@ -33634,7 +33785,8 @@ quod cum delectatione lucri perpetrarunt.
             <pb n="557" ed="KK"/> 
             <div n="18">
                <head>De vana divitvm spe. 
-Caput XVIII<!-- W947 S39 --></head>
+Caput XVIII<!-- W947 S39 -->
+          </head>
                <p>
                   <seg xml:id="E5.18.1" ana="#NORMAL">
 
@@ -33953,7 +34105,8 @@ etiam a nobis dignoscerentur <!-- var dinoscerentur KK -->.
             </div>
             <div n="19">
                <head>Quod auaritia multorum causa sit malorum. 
-Caput XIX <!-- W1867 S83--></head>
+Caput XIX <!-- W1867 S83-->
+          </head>
                <p>
                   <seg xml:id="E5.19.1" ana="#MARK">
  
@@ -34574,7 +34727,8 @@ et inseruerunt se doloribus multis.</q>
             </div>
             <div n="20">
                <head>Ad divites exhortatio. 
-Caput XX<!-- 384W 16S --></head>
+Caput XX<!-- 384W 16S -->
+          </head>
                <p>
                   <seg xml:id="E5.20.1" ana="#MARK vi">
 
@@ -34695,7 +34849,8 @@ et substantia mea apud te est.</q>
             </div>
             <div n="21">
                <head>De beneficiis conferendis vt deo similes simvs. 
-Caput XXI<!-- 543W 22S --></head>
+Caput XXI<!-- 543W 22S -->
+          </head>
                <p>
                   <seg xml:id="E5.21.1" ana="tekst propositio">
 
@@ -34868,7 +35023,8 @@ lędamus neminem.
             </div>
             <div n="22">
                <head>De beneficiis dispensandis. 
-Caput XXII<!-- 658W 26S --></head>
+Caput XXII<!-- 658W 26S -->
+          </head>
                <p>
                   <seg xml:id="E5.22.1" ana="#MARK lista">
 
@@ -35082,7 +35238,8 @@ et pluit super iustos et iniustos.
             </div>
             <div n="23">
                <head>Qvaliter nos gerere debemvs in dandis beneficiis. 
-Caput XXIII<!-- 659W 38S --></head>
+Caput XXIII<!-- 659W 38S -->
+          </head>
                <p>
                   <seg xml:id="E5.23.1" ana="#NORMAL">
 
@@ -35298,7 +35455,8 @@ nunc de accipiendis reddendis-que exponamus.
             <pb n="577" ed="KK"/>
             <div n="24">
                <head>De beneficiis accipiendis. 
-Caput XXIV<!-- 316W 17S --></head>
+Caput XXIV<!-- 316W 17S -->
+          </head>
                <p>
                   <seg xml:id="E5.24.1" ana="#PLANA">
 
@@ -35405,7 +35563,8 @@ sed ut suis prodessent.
             </div>
             <div n="25">
                <head>De beneficiis reddendis. 
-Caput XXV<!-- 544W 27S --></head>
+Caput XXV<!-- 544W 27S -->
+          </head>
                <p>
                   <seg xml:id="E5.25.1" ana="#NORMAL">
 
@@ -35584,7 +35743,8 @@ in quem debent dirigunt.
             <div n="26">
                <head>
 Vtrvm debemvs pro beneficio, cvi successit inivria. 
-Caput XXVI<!-- 258W 15S --></head>
+Caput XXVI<!-- 258W 15S -->
+          </head>
                <p>
                   <seg xml:id="E5.26.1" ana="rasprava oponent">
 
@@ -36527,7 +36687,8 @@ magis etiam constanter illum colere debuerunt.
             <div n="05">
                <head>De beneficiis Ivdeis collatis post dilvvivm. 
 Caput V </head>
-               <p><!-- 374W 16S -->
+               <p>
+            <!-- 374W 16S -->
                   <seg xml:id="E6.5.1" ana="tekst">
  
 Videamus igitur primo, 
@@ -37278,7 +37439,8 @@ et ueri assertione uicta desierit.
             <div n="10">
                <head>De ingratitvdine hereticorvm et ivdae proditoris. 
 Caput X </head>
-               <p><!-- 665W 24S -->
+               <p>
+            <!-- 665W 24S -->
                   <seg xml:id="E6.10.1" ana="#NORMAL">
  
 Cum enim nullum mendacium diu stare possit, 
@@ -37670,7 +37832,8 @@ ut uideantur ab hominibus.</q>
 Plausum enim uulgi quęrunt | 
 et docti dici quam sancti malunt. 
 nec uident quod callidis diaboli suggestionibus supra pinnaculum templi statuuntur, 
-<q><!-- resp="NJ" -->ut quo altius ascenderint, 
+<q>
+                <!-- resp="NJ" -->ut quo altius ascenderint, 
 grauius ellidantur cum ceciderint.</q> 
 
 Quid tu ingenium iactas | 
@@ -37868,7 +38031,8 @@ ut coronet.
             <div n="12">
                <head>Qvid potissime praedicandvm sit. 
 Caput XII </head>
-               <p><!-- 750W 39S -->
+               <p>
+            <!-- 750W 39S -->
                   <seg xml:id="E6.12.1" ana="lista utrumque">
 
 Prędicandum autem est Euangelium, 
@@ -38356,7 +38520,8 @@ et emendet peccantem.
             <div n="14">
                <head>Vt praedicator ab advlatione procvl sit et praedicandi tempora observet. 
 Caput XIV </head>
-               <p><!-- 264W 14S -->
+               <p>
+            <!-- 264W 14S -->
                   <seg xml:id="E6.14.1" ana="propositio simile">
 
 Ab assentatione autem procul abesse peccatorum castigatorem decet. 
@@ -38851,7 +39016,8 @@ constituens.
             <div n="16">
                <head>De praedicantivm beatitvdine. 
 Caput XVI </head>
-               <p><!-- 422W 16S -->
+               <p>
+            <!-- 422W 16S -->
                   <seg xml:id="E6.16.1" ana="#MARK">
 
 Sumite igitur calciamenta in pedibus ad pręparationem Euangelii, 
@@ -39388,7 +39554,8 @@ non poterit esse utilis pręceptor aliorum.
             <div n="19">
                <head>De corporis manvvmqve labore. 
 Caput XIX </head>
-               <p><!-- 1235W 52S -->
+               <p>
+            <!-- 1235W 52S -->
                   <seg xml:id="E6.19.1" ana="#NORMAL">
 
 Quoniam uero prędicandi ac docendi exercitatio ad eruditos tantum pertinet, 
@@ -40139,7 +40306,8 @@ diuinę gratię curatione saluus euades.
             <div n="21">
                <head>De hvmilitatis virtvte. 
 Caput XXI </head>
-               <p><!-- 587W 27S -->
+               <p>
+            <!-- 587W 27S -->
                   <seg xml:id="E6.21.1" ana="tekst">
  
 Porro quoniam ad acquirendam diuinę benignitatis gratiam opus est humilitatis uirtute, 
@@ -40929,7 +41097,8 @@ cuius humilitatem in terra fuerimus imitati.
             <div n="25">
                <head>De hvmilitate vitiosa. 
 Caput XXV </head>
-               <p><!-- 761W 27S -->
+               <p>
+            <!-- 761W 27S -->
                   <seg xml:id="E6.25.1" ana="propositio">
 
 Sciendum tamen esse alias quasdam humilitates, 
@@ -41185,7 +41354,8 @@ Nam uirtutem ardentius amplectemur cum nequitię turpitudinem magis plene cognou
          </div>
          <div xml:id="E7" n="7">
             <head>LIBER SEPTIMUS. CHARITATIS. 
-<!-- var LIBER VII KK --></head>
+<!-- var LIBER VII KK -->
+        </head>
             <div n="01">
                <head> De Superbię vitio. 
 Caput I</head>
@@ -42025,7 +42195,8 @@ ipsi possint perficere.
             <div n="05">
                <head> Qvod alii dignitate, alii hvmilitate lavdari appetvnt, alii deo qvoqve se avdent comparare. 
 Caput V </head>
-               <p><!-- 645W 22S -->
+               <p>
+            <!-- 645W 22S -->
                   <seg xml:id="E7.5.1" ana="citat">
  
 Alii sane per ambitionem magni apparere uolunt | 
@@ -42206,7 +42377,8 @@ in Domino glorietur.
             <div n="06">
                <head> Qvod sancti qvandoque lapsi sint per svperbiam. 
 Caput VI </head>
-               <p><!-- 414W 17S -->
+               <p>
+            <!-- 414W 17S -->
                   <seg xml:id="E7.6.1" ana="#NORMAL">
  
 Nihil aliud habemus, 
@@ -42526,7 +42698,8 @@ si poenę quoque eorum particeps efficietur.
             <div n="08">
                <head> De svperborvm poena. 
 Caput VIII </head>
-               <p><!-- 1272W 41S -->
+               <p>
+            <!-- 1272W 41S -->
                   <seg xml:id="E7.8.1" ana="#NORMAL">
 
 Qualis autem superborum poena futura sit, 
@@ -42930,7 +43103,8 @@ Quam rem ut impensius pręstet,
             <div n="09">
                <head> De obedientia deo praestanda. 
 Caput IX</head>
-               <p><!-- 700W 32S -->
+               <p>
+            <!-- 700W 32S -->
                   <pb n="130v" ed="1516"/> 
                   <seg xml:id="E7.9.1" ana="dvodjelno">
 
@@ -43173,7 +43347,8 @@ si prius quibus post Deum obediendum sit uiderimus.
             <div n="10">
                <head> Qvorvm imperio parendvm sit. 
 Caput X</head>
-               <p><!-- 829W 39S -->
+               <p>
+            <!-- 829W 39S -->
                   <seg xml:id="E7.10.1" ana="#NORMAL">
 
 Omnibus illis qui nobis iure <!-- var iure om.?? KK --> pręsunt, 
@@ -43463,7 +43638,8 @@ mortua est in semetipsa.</q>
             <div n="11">
                <head> De obedientivm pręmio. 
 Caput XI</head>
-               <p><!-- 928W 39S -->
+               <p>
+            <!-- 928W 39S -->
                   <seg xml:id="E7.11.1" ana="tekst">
 
 Videamus nunc quęnam bona pollicetur obedientibus Dominus. 
@@ -43802,7 +43978,8 @@ in Deo beatitudinis.
             <div n="12">
                <head> De inobedientię poena. 
 Caput XII </head>
-               <p><!-- 1353W 52S -->
+               <p>
+            <!-- 1353W 52S -->
                   <seg xml:id="E7.12.1" ana="#NORMAL">
 
 Et cum tot bona obedientium sint, 
@@ -44582,7 +44759,8 @@ ex iusto Dei iudicio prouenire sciamus |
  feramus-que molliter ac modeste. 
 iuxta illud Micheę prophetę: 
 <note place="margin">
-                           <bibl><!-- Mich --> vii.</bibl>
+                           <bibl>
+                    <!-- Mich --> vii.</bibl>
                         </note>
                         <q>Iram Domini portabo, 
 quoniam peccaui ei, 
@@ -44699,7 +44877,8 @@ et ad perfectionem uitę perueniant |
             <div n="15">
                <head> De patientia ingratitvdinis, percvssionis | et bonorvm ablationis. 
 Caput XV</head>
-               <p><!-- 653W 24S -->
+               <p>
+            <!-- 653W 24S -->
                   <seg xml:id="E7.15.1" ana="sermocinatio">
 
 Sed ab illis inquies, 
@@ -44921,7 +45100,8 @@ Crede igitur Prophetę dicenti:
             <div n="16">
                <head> De patientia morbi | et adversitatvm. 
 Caput XVI</head>
-               <p><!-- 859W 41S -->
+               <p>
+            <!-- 859W 41S -->
                   <seg xml:id="E7.16.1" ana="ti">
 
 Siqua pręterea corporis ęgritudine laboras | 
@@ -45417,7 +45597,8 @@ qui illa in malis ponenda arbitratur?
             <div n="18">
                <head> De patientia Iob. et qvare bonis accidant mala. 
 Caput XVIII</head>
-               <p><!-- 397W 18S -->
+               <p>
+            <!-- 397W 18S -->
                   <seg xml:id="E7.18.1" ana="#MARK tekst ti">
 
 Vt autem omnium pręsentium tempestatum magnitudinem superes, 
@@ -45523,7 +45704,8 @@ quę secundo flatu feruntur.
             <div n="19">
                <head> De patientia martyrii. 
 Caput XIX</head>
-               <p><!-- 942W 42S -->
+               <p>
+            <!-- 942W 42S -->
                   <seg xml:id="E7.19.1" ana="#NORMAL">
  
 Porro ad confirmandam patientię uirtutem | 
@@ -45817,7 +45999,8 @@ qui spem suam in Deo collocauit.
             <div n="20">
                <head> De exhortationibus ad patientiam martyrii. 
 Caput XX </head>
-               <p><!-- 514W 16S -->
+               <p>
+            <!-- 514W 16S -->
                   <seg xml:id="E7.20.1" ana="metaf-militia">
 
 Quod si milites suos rex ipse cęlestis non in delicias et uoluptates huius seculi, 
@@ -45968,7 +46151,8 @@ qui supplicia necem-que pati maluerunt |
             <div n="21">
                <head> Verba sanctorvm martyrvm ad tyrannvm in ipsos saevientem. 
 Caput XXI</head>
-               <p><!-- 725W 33S --> 
+               <p>
+            <!-- 725W 33S --> 
                   <seg xml:id="E7.21.1" ana="#MARK sermocinatio">
  
 Quid enim aliud dum torquerentur, 
@@ -46448,7 +46632,8 @@ ut per hoc probetur |
             <div n="24">
                <head> De impatientiae vitio erga devm. 
 Caput XXIV </head>
-               <p><!-- 1096W 49S -->
+               <p>
+            <!-- 1096W 49S -->
                   <seg xml:id="E7.24.1" ana="tekst">
 
 Et quoniam uirtus optabilior atque amabilior sit uitii comparatione, 
@@ -46825,7 +47010,8 @@ dum alterum odio atque maleuolentia persequi non desistit <!-- var desinit?? KK 
             <div n="25">
                <head> De impatientiae vitio erga proximvm. 
 Caput XXV </head>
-               <p><!-- 1384W 52S -->
+               <p>
+            <!-- 1384W 52S -->
                   <seg xml:id="E7.25.1" ana="tekst">
 
 Persequamur igitur nunc in proximos impatientiam | 
@@ -47267,7 +47453,8 @@ si ei usque ad uitę exitum dominata fuerit.
             <div n="26">
                <head> De ira non vitiosa sed vtili et de ira dei. 
 Caput XXVI</head>
-               <p><!-- 568W S25 -->
+               <p>
+            <!-- 568W S25 -->
                   <seg xml:id="E7.26.1" ana="#NORMAL propositio">
 
 Est tamen ira quędam rationi parens, 
@@ -47459,7 +47646,8 @@ sed beniuolentię et dilectionis.
             <div n="27">
                <head> De remediis iracvndiae. 
 Caput XXVII</head>
-               <p><!-- 657W 43S -->
+               <p>
+            <!-- 657W 43S -->
                   <seg xml:id="E7.27.1" ana="#NORMAL">
 
 Non possumus efficere, 
@@ -47722,7 +47910,8 @@ ut tali Domino digni inuenirentur.
             <div n="28">
                <head> De benedicendi stvdio. 
 Caput XXVIII</head>
-               <p><!-- 828W 39S -->
+               <p>
+            <!-- 828W 39S -->
                   <seg xml:id="E7.28.1" ana="#NORMAL">
  
 Post hęc optimum erit |
@@ -48018,7 +48207,8 @@ Qui autem linguam suam ad benedicendum assuefecerit,
             <div n="29">
                <head> De maledicendi neqvitia 
 caput XXIX </head>
-               <p><!-- 616W 26S -->
+               <p>
+            <!-- 616W 26S -->
                   <seg xml:id="E7.29.1" ana="tekst">
  
 Vt autem benedicendi studio diligentius incumbamus,
@@ -48236,7 +48426,8 @@ Qui enim obsequetur Deo,
             <div n="30">
                <head> De calvmnia et detractione. 
 Caput XXX </head>
-               <p><!-- 617W 27S -->
+               <p>
+            <!-- 617W 27S -->
                   <seg xml:id="E7.30.1" ana="#NORMAL">
  
 Ad hęc quoniam omnis offensa,
@@ -48451,7 +48642,8 @@ Id quoque Salomon testatur dicens:
             <div n="31">
                <head> De delatorum malignitate. 
 Caput XXXI </head>
-               <p><!-- 389W 15S -->
+               <p>
+            <!-- 389W 15S -->
                   <pb n="146v" ed="1516"/>
                   <seg xml:id="E7.31.1" ana="#NORMAL">
  
@@ -48459,7 +48651,8 @@ Delator etiam qui suis <!-- var suis om.KK --> criminationibus discordias conser
  maledicitur in Ecclesiastico,
  ubi scriptum est: 
 <note place="margin">
-                        <bibl><!-- Eccli. --> xxviii.</bibl>
+                        <bibl>
+                  <!-- Eccli. --> xxviii.</bibl>
                      </note> 
                      <q>Susurro et bilinguis maledictus; multos enim turbauit pacem habentes.</q>
 et: 
@@ -48604,7 +48797,8 @@ Vnde rursum Salomon ait:
             <div n="32">
                <head> De maledicentiae vitandae cvra. 
 Caput XXXII </head>
-               <p><!-- 400W 30S -->
+               <p>
+            <!-- 400W 30S -->
                   <seg xml:id="E7.32.1" ana="dvodjelno mi metaf">
  
 Vt autem cuncta maledicentię uitia deuitemus,
