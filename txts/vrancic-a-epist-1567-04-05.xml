@@ -2,8 +2,7 @@
     <teiHeader>
         <fileDesc xml:id="vrancic-a-epist-1567-04-05">
             <titleStmt>
-                <title>Antonius Verantius episcopus Agriensis
-                    cardinali Commendone, versio electronica</title>
+                <title>Antonius Verantius episcopus Agriensis cardinali Commendone, versio electronica</title>
                 
                 <author ref="vranc01">
                     <persName xml:lang="hr">Vrančić, Antun</persName>
@@ -102,15 +101,17 @@
         </namespace>
       </tagsDecl>
     </encodingDesc>
-        <profileDesc>
+        <profileDesc xml:id="verantiusacommendone15670405">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q1085">Prag</placeName></place>
+             <place ana="destination"><placeName ref="https://www.wikidata.org/wiki/Q220">Roma</placeName></place>
          </settingDesc>
          <particDesc>
-            <p/>
+             <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
+             <person role="recipient"><persName ref="66600275">Commendone, Giovanni Francesco</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -157,7 +158,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="prosa-epistula" n="31.2">
+            <div type="prosa-epistula" n="31.2" corresp="#verantiusacommendone15670405">
                 <head>XXXI/2 <date when="1567-04-05">1567. 5. Aprilis</date>, Pragae Antonius Verantius episcopus Agriensis
                     cardinali Commendone</head>
 

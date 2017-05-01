@@ -86,15 +86,19 @@
         </namespace>
       </tagsDecl>
     </encodingDesc>
-      <profileDesc>
+      <profileDesc xml:id="verantiusademoros15420110">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q31487">Cracovia</placeName></place>
+             <place ana="destination" cert="medium">
+                 <placeName ref="https://www.wikidata.org/wiki/Q31487">Cracovia</placeName>
+             </place>
          </settingDesc>
          <particDesc>
-            <p/>
+             <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
+             <person role="recipient"><persName ref="36908544">Ruiz de Moros, Pedro</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -133,7 +137,7 @@
    <text>
       <body>
          <pb n="309"/>
-            <div type="prosa-epistula">
+            <div type="prosa-epistula" corresp="#verantiusademoros15420110">
                 <opener>Antonius Wrancius Petro Royzio Maureae S. D.</opener>
 
                 <p>Erasmus meus necessarius, vir in me non mediocriter semper officiosus, nimis

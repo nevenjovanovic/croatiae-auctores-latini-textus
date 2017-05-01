@@ -85,15 +85,17 @@
         </namespace>
       </tagsDecl>
     </encodingDesc>
-      <profileDesc>
+      <profileDesc xml:id="verantiusamillaversi15430720">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <p/>
+             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q174665">Alba Iulia</placeName></place>
+             <place ana="destination" cert="medium"><placeName ref="https://www.wikidata.org/wiki/Q617">Padua</placeName></place>
          </settingDesc>
          <particDesc>
-            <p/>
+             <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
+             <person role="recipient"><persName>Millaversi, Magdalena</persName></person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -132,7 +134,7 @@
    <text>
         <body>
             <pb n="309"/>
-            <div type="prosa-epistula">
+            <div type="prosa-epistula" corresp="#verantiusamillaversi15430720">
                 <opener>Antonius Verantius Magdalenae Millaversiae</opener>
 
                 <p>Quod a decennio nihil ad te de vitae ac status mei ratione vel semel nec
