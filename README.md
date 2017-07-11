@@ -1,5 +1,7 @@
 # Croatiae auctores Latini - texts #
 
+[![DOI](https://zenodo.org/badge/36577371.svg)](https://zenodo.org/badge/latestdoi/36577371)
+
 TEI XML encoded Latin texts from the Croatian auctores Latini collection, freely available under a [CC-BY license](LICENSE.md).
 
 The files edited here are published as a [PhiloLogic](https://sites.google.com/site/philologic3/) collection [CroALa](croala.ffzg.unizg.hr) (there is a [testing deployment](http://solr.ffzg.hr/philo4/croala0/) under PhiloLogic 4), and as a BaseX XML database (see an introductory analysis in [Quadrata rotundis](http://solr.ffzg.hr/dokuwiki/doku.php/z:crotyr-quadrata) paper).
