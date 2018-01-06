@@ -24,11 +24,25 @@
          </editionStmt>
          <extent ana="E">Mg:E Verborum 315700</extent>
          <publicationStmt>
-            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            <authority>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
-    Hrvatska.  <date>2010</date>.</p>
+    Hrvatska.  <date>2010</date>.</authority>
+            <publisher>
+               <orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>
+            </publisher>
+            <date>2010</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/" notBefore="2018-01-01">
+                  <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence applies to
+                     this document.</p>
+                  <p>The licence was added on January 1, 2018.</p>
+               </licence>
+            </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
@@ -38,72 +52,35 @@
             
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1573"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="55"/>
-          <tagUsage gi="author" occurs="40"/>
-          <tagUsage gi="bibl" occurs="777" withId="40"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="7"/>
-          <tagUsage gi="corr" occurs="128"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="10"/>
-          <tagUsage gi="del" occurs="8"/>
-          <tagUsage gi="div" occurs="884"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="6"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="2554"/>
-          <tagUsage gi="hi" occurs="1405"/>
-          <tagUsage gi="item" occurs="20237"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="list" occurs="1960" withId="1"/>
-          <tagUsage gi="milestone" occurs="810"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="num" occurs="324"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="9485"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1532"/>
-          <tagUsage gi="persName" occurs="11" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="4"/>
-          <tagUsage gi="ref" occurs="19646" withId="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="224"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="56"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="21"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
+      <encodingDesc>
+         
+         <refsDecl n="CTS">
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7']/*[@n='$8'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6']/*[@n='$7'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5']/*[@n='$6'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4']/*[@n='$5'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3']/*[@n='$4'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2']/*[@n='$3'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1']/*[@n='$2'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+            <cRefPattern n="segment" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/*[@n='$1'])">
+               <p>This pointer pattern extracts @n value of segment.</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -187,7 +164,7 @@
          </change>
       </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="urn:cts:croala:marul01.croala1113752.croala-lat1:" xml:lang="lat">
       <front>
    <!-- nost ram nost rum > nostram nostrum -->
    <!-- digas > dignas -->
@@ -54653,7 +54630,7 @@ Contemnuntur nihil agentes 120.</p>
                <p>Theodosio seniore: Marcellus episcopus. Theonistus episcopus. Tabra et Taborata diacones.</p>
                <p>Detiano: Carpasius cum Primo et Feliciano fratribus. <milestone unit="page" n="ms-450r"/>
                </p>
-               <p>In memoria aeterna erit iustus, et nomen eius non delebitur in saecula.</p>
+               <closer>In memoria aeterna erit iustus, et nomen eius non delebitur in saecula.</closer>
                <pb n="KK3-375"/>
     
     
