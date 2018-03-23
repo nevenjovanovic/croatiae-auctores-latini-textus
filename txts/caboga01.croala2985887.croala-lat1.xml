@@ -1,0 +1,712 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De exemplis illustrium virorum (a. 1594), versio electronica</title>
+            <author>
+          <persName xml:lang="hr">Euzebije Kaboga</persName>
+               <date>c. 1541-1594</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="305660390">Irena Bratičević</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2016-03-17T15:05:00</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>
+            </publisher>
+            <pubPlace>
+               <placeName ref="3186886">Zagreb</placeName>
+            </pubPlace>
+            <date>ožujak 2018</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/" notBefore="2017-12-25">
+                  <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence applies to
+                     this document.</p>
+                  <p>The licence was added on March 22, 2018.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Bratičević, I. (2016). De exemplis illustrium uirorum Euzebija Kaboge. Colloquia
+               Maruliana ..., 25.(25), 71-84. Preuzeto s https://hrcak.srce.hr/157552</bibl>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:*/tei:*[@n='$1']/tei:*[@n='$2'])">
+          <p>This pointer pattern extracts div or title and head or p or titlePage.</p>
+        </cRefPattern>
+        <cRefPattern n="div" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:*/tei:*[@n='$1'])">
+          <p>This pointer pattern extracts head and div or title.</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1594" period="15xx_3_third">non post 1594</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa - exempla</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName> Prvi unos. <date>2018-03-19T13:36:42.940202620</date>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text  xml:base="urn:cts:croala:caboga01.croala2985887.croala-lat1:" xml:lang="lat">
+      <front>
+         <pb n="2r"/>
+         <titlePage n="titlePage">
+            <titlePart n="titlePart">EVSEBII CABOGHAE BENEDICTINI 
+               <lb/>DE EXEMPLIS ILLVSTRIVM VIRORVM RHACVSANAE CIVITATIS
+               <lb/>VEL ET EXTERORVM QVI 
+               <lb/>IN EAM ALIQVO BENEFICIO NOTI HABENTVR</titlePart>
+         </titlePage>
+      </front>
+      <body xml:lang="lat">
+         <pb n="3r"/>
+         <head n="head">Eusebii Caboghae <hi>benedictini exempla aliqua illustrium uirorum Rhacusanę
+               ciuitatis</hi>
+         </head>
+         <div n="3" type="div2">
+            <head n="head">Prologus</head>
+            <p n="p"> Non possum non uehementer admirari tacitusque mecum laudare uirtutes et sapientiam
+               qua Rhacusanam rem ita a primis incunabulis institui contigit ut facile suo progressu
+               gentis ingenia et animorum integritatem significare potuerit. Quę enim uirium suarum
+               potentia minus consequi potuit, fide, iustitia et multa <pb n="3v"/> numinis pietate,
+               longe lateque fama nominis extensa, obtinuit maximorumque orbis regum et principum
+               gratia, studio et suauissimo affectu firmauit et auxit. Vbi et cuique spectare
+               licebit non <note xml:id="ftn1" place="foot" n="1"> non] ne <hi rend="italic">A</hi>
+               </note> solum autorum pręstantiam sed insequentium quoque non uulgaris uirtus quem
+               suis laboribus ac uigiliis fructum sibi pepererit. Satis enim partis non nihil
+               addidisse <note xml:id="ftn2" place="foot" n="2"> addidisse] addisse <hi rend="italic">A</hi>
+               </note> uidetur, dum optimis, <sic>que</sic> iacta fundamenta erant, sanctissimarum legum, quę
+               genti dedere, diligenti exactaque et fideli obseruantia reliquum ędificii exigerent,
+               sine quibus nulla ciuitas firma stabilisque esse potest, nullum imperium diuturnum et
+               florens. <pb n="4r"/> Vt ergo horum aliquam memoriam posterorum documentis tradere
+               possimus <note xml:id="ftn3" place="foot" n="3"> possimus] deduceremus <hi rend="italic">A in marg.</hi>
+               </note> , uel paucorum huius urbis illustrium uirorum ex tam numerosa multitudine
+               (quam tot seculorum ętates protulisse ambiguum <note xml:id="ftn4" place="foot" n="4"> ambiguum] ambigimus <hi rend="italic">A in marg.</hi>
+               </note> non est, etsi horum <note xml:id="ftn5" place="foot" n="5"> horum] aliquorum
+                     <hi rend="italic">A in marg.</hi>
+               </note> nomen non alicuius scriptoris beneficio iniuriam temporis effugere potuerit),
+               virtutes et horum in patriam benefacta aliquo scripturę monumento commendare opere
+               pretium uisum est, quum factorum exempla, pręsertim domestica, prę illis quę uerbis
+               exhibentur multo efficaciora ad uirtutem calcaria habentur, et illa quidem
+               pręclarorum uirorum, quę Rhacusanum nomen et <pb n="4v"/> domi et foris satis
+               illustrare possent non deerunt, ubi <note xml:id="ftn6" place="foot" n="6"> ubi] in
+                     quibus<hi rend="italic"> A in marg.</hi>
+               </note> primos eius conditores non <sic>imerito</sic> uindicare uidentur. </p>
+            <pb n="5r"/>
+         </div>
+         <div n="4" type="div2">
+            <head n="head">De sancto Hilarione Palestino</head>
+            <p n="p"> Non, ut uidetur, temere insigne <note xml:id="ftn7" place="foot" n="7"> insigne]
+                  insignire <hi rend="italic">A</hi>
+               </note> illud Hilarionis factum principem locum in his tenere uisum est, quo quanto
+               Dei optimi maximi prouidentia salutem necdum nati Rhacusani populi exitio subductam
+               adhuc parentis curauerit in lumbis, satis ostensum est. Dum hic sanctissimus homo,
+               pietate et humanitate plenus, pręclaris et diuinis signis genti uere <sic>illaritatis</sic>
+               nuntia <sic>pretulisse</sic> uisus sit, quibus illam seculis inauditam ęquoris inundationem
+               frenatam, <pb n="5v"/> mare receptis fluctibus pacatum <sic>redidit</sic> et prouinciam a uoraci
+               draconis ingluuie non sine magno incolarum stupore et extasi redemptam dedit, antro
+               belluam prępotenti uerborum uirtute extractam paratumque rogum conscendere et uoracem
+               ignis uirtutem ad exustam perferre adigens. Vnde et cęptis felicem progressum his
+               pręlibatis augurari placuit. </p>
+         </div>
+         <div n="5" type="div2">
+            <head n="head1">De Gregorio, Arsatio, Victorino Vitaleque archidiacono et Fauentino presbitero,
+               primis urbis Rhacusanę conditoribus</head>
+            <head n="head2">Ex Constantini VII. imperatoris libro</head>
+            <p n="p">Pręclara illustrium uirorum Gregorii, Arsatii, <pb n="6r"/> Victorini Vitalisque
+               archidiaconi et Fauentini presbiteri facinora satis ostendere et animi sui
+               pręstantiam et inuictę in aduersis Romanę uirtutis constantię nihil inaccessum
+               fuisse, a cuius ęmulatione animum nunquam abducere uisi sunt. Dum post Epidaurum
+               Slauorum <sic>exarsione</sic> cum reliqua Dalmatia euersum et Salonis, aliquantulum horum furore
+               declinato, unanimi conspiratione egressi, non prius desiere a cęptis quam damna, <sic>que</sic>
+               patrię malę fortunę <sic>procela</sic> intulerat, resarcita pro presenti rerum statu<note xml:id="ftn8" place="foot" n="8"> pro presenti rerum statu] pro presenti fortu
+                  rerum statu <hi>A</hi>
+               </note> dedissent, priori sede (data pro felici omine noua nominis <pb n="6v"/>
+               nuncupatione) munitionibus<note xml:id="ftn9" place="foot" n="9"> munitionibus]
+                  munitioribus <hi>A</hi>, munitionibus <hi>S</hi>
+               </note> translata, quibusque curis et solicitudinibus, quę multę et acerbissimę
+               undique obsidebant, infracto superatis animo.</p>
+         </div>
+         <div n="6" type="div2">
+            <head n="head1">De Polimiro Bello, Illirici rege, urbis Rhacusanę instauratore</head>
+            <head n="head2">Ex Docleate</head>
+            <p n="p"> Haud profecto incongruum esse existimo Polimirum regem Rhacusanorum ciuium numero
+               ascribere, et si minime natalium iure, at certe beneficii magnitudine, quod non <note xml:id="ftn10" place="foot" n="10"> non] ne <hi rend="italic">A</hi>, non <hi rend="italic">S</hi>
+               </note> solum illa adęquare, sed multo etiam superare certum est. Ecquis <note xml:id="ftn11" place="foot" n="11"> Ecquis] Et quis <hi rend="italic">S</hi>
+               </note> non <pb n="7r"/> uidet in huius clarissimi uiri opere magnanimi et religiosi
+               principis generosum et pium simul elucere animum? Qui regium stema, quo ortus erat,
+               non magis bellica uirtute, que et Belli cognomen indiderat, quam pietate exhornauit.
+               Studio enim optimatum regni sui ad auita sceptra <note xml:id="ftn12" place="foot" n="12"> sceptra] sceptra capessenda <hi rend="italic">S</hi>
+               </note> euocatus, affinitate, quam paricidii scelus infecerat, iam merito extincta,
+               postquam Seislaui patruelis impietas aliquandiu exulare fecisset, ex sanctitatis
+               asilo Romę, religione satis imbutus, pietati apprime studens, urbe <note xml:id="ftn13" place="foot" n="13"> urbe] Roma <hi rend="italic">S</hi>
+               </note> sacra martyrum pignora ad regni sui auspicia felicius capesenda, permissu
+               Romani pontificis asportat, nobilissimo <pb n="7v"/> frequentique illo suo comitatu
+               egresus, et ubi primum nauibus Dalmatiam appulit, clarissimi facinoris aliquod
+               emolumentum <note xml:id="ftn14" place="foot" n="14"> emolumentum] monumentum <hi rend="italic">A in marg.</hi>
+               </note> dare studens, ibi Rhacusę urbem <note xml:id="ftn15" place="foot" n="15">
+                  urbem] urbis <hi rend="italic">A</hi>,<hi rend="italic"> </hi>urbem <hi rend="italic">A in marg.</hi>
+               </note> , quam Epidauritani dirrutę patrię loco quamuis perexiguis initiis excitare
+               moliti fuerant, Sarracenicaque uis progressum inhibuerat, felici omine instaurare
+               aggressus est, arce ęditissimis rupibus extructa ad tutelam et munimen urbis, quam ad
+               Epidauritanos suorum frequentia, qui se affinitate contingebant satis excoluit;
+               Senatui allectoque ex utrisque <note xml:id="ftn16" place="foot" n="16"> allectoque
+                  ex utrisque] ex utrisque allecto <hi rend="italic">S</hi>
+               </note> curam et horum procurationem tradidit ędibusque, quas protomartyris <pb n="8r"/> numini excitatas dicarat, exornat diuorumque numine sanctorum artuum
+               depositione expleuit, quibus et adhuc maxima ueneratione memorabilis perdurat <note xml:id="ftn17" place="foot" n="17"> perdurat] perdurat cultus <hi rend="italic">S</hi>
+               </note> ; et ne quid tandem nouę urbi deesset, episcopum Epidauritanum nutu
+               Apostolicę Sedis donat. Unde ferunt et principi memorię (cui ob ingentia beneficia
+               conditoris detulere nomen) ęri, cuius adhuc in uenalibus usus, capitis expressam
+               asseruari effigiem. </p>
+         </div>
+         <div n="7" type="div2">
+            <head n="head">De Joanne, primo Rhacusę episcopo</head>
+            <p n="p">Rara nec communis uirtus, pręcipue <pb n="8v"/> uero fortitudo et in conciliandis
+               animis circumspecta dexteritas uirum commendat dum collapsę Ecclesię suppetias dare
+               annitenti multa sapienti consilio nec sine diuino nutu pręstare contigit, priori sede
+               Rhacusę tunc recens a Polimiro excitate; traslata <gap/> multos, dissidio et tumultu
+               circumadiacentium regionum iactatos, Epidauritanis reliquiis, etsi moribus et lingua
+               dissimiles, simul coalescere fecit, ut iis non imerito illum et sacri chorifei laudem
+               et restitutę patrię decus sibi parasse dicere possis. Semina enim sua prouidentia
+               iacta et diuino aucta munere posteros florentissima pręsentis <pb n="9r"/> ciuitatis
+               messe frui dedere; quam non tam pactione exoluendi annui tributi, quam morum et uitę
+               integritate ab accolarum redemit uexatione. His enim artibus sanctissimus pręsul
+               Slouinis suę uirtutis specimen dederat et recens susceptę fidei feruore cicures mire
+               in sui uenerationem allexerat.</p>
+         </div>
+         <div n="8" type="div2">
+            <head n="head1">De fide et gratitudine Rhacusani senatus</head>
+            <head n="head2">Ex Docleate</head>
+            <p n="p"> Qua memoria merita Rhacusanus retinuerit Senatus quantoque referendę gratię
+               studiosum se <note xml:id="ftn18" place="foot" n="18"> studiosum se] studiosum <hi rend="italic">A</hi>
+               </note> semper exhibuerit, non <pb n="9v"/> minus quam eius eximia fides, satis a
+               condita elucet urbe. Post Polimiri patris, regis clarissimi, decessum Tescemiro ad
+               optimatum perfidiam <note xml:id="ftn19" place="foot" n="19"> perfidiam] perfidia <hi rend="italic">A</hi>
+               </note> deserto, soli cum Tribuniensibus, ut semper suis regibus, integerimam
+               probarunt fidem, quibus, et merito, regum et principum pręsertim accolarum,
+               ingenuitatem animorum suorum mirantium, studia magis in se, non postremo urbis suę
+               progressu, allexerunt. </p>
+         </div>
+         <div n="9" type="div2">
+            <head n="head1">De pietate et religione Rhacusani senatus</head>
+            <head n="head2">Ex antiquis scriptis</head>
+            <p n="p">Quę olim futurę suę amplitudinis imagines <pb n="10r"/> protenderent christianis
+               Rhacusę optimatibus, non postrema pietatis et religionis semina enitere uisa sunt.
+               Fortunis adhuc tenues, quum horum res angustissimo terrarum clauderentur spatio, quam
+               propensum suum in Deum fuerit studium, satis misericordię ostenderunt operibus.
+               Cromensem insulam (quę tunc non postrema agrorum suorum pars erat et priuatas horum
+               fortunas non parum excolere poterat) diuo Benedicto, monastici instituti legislatori,
+               ędibus publicis sumptibus excitatis, Deo optimo maximo quasi primitias Romano
+               annuente pontifice obtulere anno fere septuagesimo salutis supra octingentesimum, <pb n="10v"/> ut ex uetustissimis horum scriptis conicere potui, quo facto breui
+               publice et priuatim diuitiis et amplitudine non parum aucti sunt. Diuino enim munere,
+               quod illa pietate promeritos facile crediderim, ita finitimorum iniere gratiam, ut
+               horum liberalitate terras et agros non paruipendendos partim dono partim exiguo
+               soluto pretio acceperint, quibus urbi suę et uires et ornamenta haud exigua
+               acceserunt. Nec alicui mirum esse debet me opinione duci Rhacusanas res ita
+               profecisse; neque enim desunt sacra simul et profana exempla quę pietate et
+               exactissimo numinis cultu urbes et prouincias sępe maximas incrementa sumpsisse et
+                  <pb n="11r"/> ad magna queque imperia accessisse doceant.</p>
+         </div>
+         <div n="10" type="div2">
+            <head n="head">De Vitale primo Rhacusę huius nominis episcopo</head>
+            <p n="p">Debet Rhacusa multis uariisque nominibus Vitali primo huius nominis suo episcopo.
+               Hunc siquidem sanctissimum antistitem morum integritas et spectabilis exactissimę
+               uitę innocentia Deo in paucis acceptum, urbique et Ecclesię magno fuisse usui et
+               decori clarissima attestarunt opera quibus posteris eximium uirtutis documentum
+               dedit. Cura enim et multa sui <pb n="11v"/> muneris uigilantia, quę nobilissimę
+               religiosęque ciuitati ornamentum esse possunt, expleta cumulataque non postremo
+               reipublicę emolumento dedit. Quandoquidem prę omnibus qui uel precessere uel
+               subsecuti sunt patientissimum et impigrum expediendis magnis se rebus, et patriam
+               doctis et religiosis uiris et quęque ad animarum salutem spectare uisa sunt
+               frequentem redidit. Strenua in Lacromensis cęnobii fundatione nauata opera, dignus
+               etiam fuit qui a Deo in gratiam haberet urbi cęlicolarum exorare patrocinia, dum ibi
+               sacra horum pignora sibi diuinitus reuelata importat.</p>
+            <pb n="12r"/>
+         </div>
+         <div n="11" type="div2">
+            <head n="head">De Petro monacho Benedictino qui primus Rhacusam ordinis sui instituto
+               excoluit</head>
+            <p n="p"> Exit et suus hic Petro, probato admodum uiro, iure optimo locus (familiare cognomen
+               priorum negligentia excidit), qui quanto pręclare se in ornatu patrię gesserit,
+               oculis omnium aperuit. Quum tunc primum nascente in urbe desiderarentur religiosa
+               cęnobia et hic diuino spiritu afflatus Diomedes insulas ad Ruffum abbatem, uirum illa
+               ętate sanctitatis fama celeberimum, Benedictini instituti norma se <note xml:id="ftn20" place="foot" n="20"> norma se] norma <hi rend="italic">A</hi>
+               </note> imbuens, accessit ibique religione et exacto numinis cultu adeo profecit <pb n="12v"/> ut non multo post superno ductu, quasi ad suos reuisendos, asportatus,
+               laudem patrię hoc ipso instituto excultę primus referre promeruit, Cromensi insula
+               magno suorum ciuium studio sibi et successoribus sacris exędificatis ędibus, ubi, in
+               religiosę disciplinę apice excolendo die noctuque indefessus perseuerans, breui
+               plures suo exemplo perfectę uirtutis ęmulatores reliquit. </p>
+         </div>
+         <div n="12" type="div2">
+            <head n="head">De consilio et prouidentia Rhacusani senatus</head>
+            <p n="p"> Cum denuo Sarracenica uis Adriaticis <pb n="13r"/> imineret litoribus et mens
+               superiori pernitie exterrita fluctuaret, Rhacusani patres prudentissime communicato
+               cum Iadertinis <note xml:id="ftn21" place="foot" n="21"> Iadertinis] Iadestinis <hi rend="italic">A</hi>
+               </note> consilio (quorum ciuitas, sicut regionis et agri felicitate reliquas Dalmatię
+               urbes longe superat, ita id temporis opibus et magni spiritus ciuibus eminebat)
+               Slauenos accolas, qui nuper Christianam cęperant admirari religionem, missis
+               persuadent legationibus Dalmatię et Christiano nomini subuenire, illaque remota
+               pernitie, pulsis e Gargano Sarracenis, se non solum ab hoste tutos, uerum etiam
+               fortunę suę Elaphidum insularum accesione non parum adiectum uidere, et ita <pb n="13v"/> prouidentiam, quam in sui senatus consilio prudentię coniunctam habere
+               consueuerunt, non <note xml:id="ftn22" place="foot" n="22"> non] ne <hi rend="italic">A</hi>
+               </note> solum tuendis sed parandis quoque nouis rebus adfuisse animaduertunt. </p>
+         </div>
+         <div n="13" type="div2">
+            <head n="head">De Joanne Fructio</head>
+            <p n="p"> Vt annumerata his illustrium exemplis Joannis Fructii, suo munere non ignobilis
+               uiri, facilius memoria excoleretur et posteris absterso aliquanto uetustatis squalore
+               quo magis commendata esset, <note xml:id="ftn23" place="foot" n="23"> commendata
+                  esset] commendaretur <hi rend="italic">A in marg.</hi>
+               </note> non indigna fuit. Eam enim uix adhuc perexiguis quibusdam simbolis insinuari
+               potius quam <pb n="14r"/> ut uiri merita postulare uidebantur aperte testata
+               animaduerteris, unde et ingratitudinis labem genti dimouendam his aliquanto firmius
+               commendari uisum est. Licet enim hic molestissimo nauigationis labore fortunam pro
+               nationis instituto extendere eniteretur, se tamen patrię pio nunquam defuisse studio
+               satis aperuit importatis sacris Zenobii martiris pignoribus et eius sororis, quę
+               Christianę ueritati haud obscuro uirginei sanguinis effusione testimonia redidit et
+               cum fratre fama nominis ubique Christiano orbi extensa innotuit. Quos quidem
+               singularis Niceferi <pb n="14v"/> religiosi pręsulis et Vitalis Vetrani prętoris
+               ueneratio urbi in pręcipuos protectores dedit, quum non casus, sed diuina prouidentia
+               religiosis et christianis affectibus largiri satis uisa sit. </p>
+         </div>
+         <div n="14" type="div2">
+            <head n="head">De Stojco presbitero</head>
+            <p n="p"> Vereor ne hęc tam pia ęquis auribus aliqui legant, quod hęc ipsa ciuitas Venetas
+               insidias immerita sępius sustinuit. Senatum enim illum, plusquam hostilibus odiis
+               libertatis <note xml:id="ftn24" place="foot" n="24"> libertatis] liberatis <hi rend="italic">A</hi>
+               </note> suę infestum, immiti quadam rabie et cupiditatis suę stimulis exagitatum, <pb n="15r"/> ut sui iuris sceptra toti Dalmatię inferret, non semel experta est. Quę
+               sane non pertulit Stoicus ille ętate sua ornatissimus et religiosus sacerdos in
+               patrię oppressione, unde et merito et oppresse patrię ass<gap/> laudem tulit et clarum
+               nomen apud suos est assecutus. Protomartyris quippe ędibus ad sacras reliquias
+               pernoctans et orationi uacans, insidiarum et mali horum in Rhacusam animi diuinis
+               oraculis edoceri meruit, eamque exemptam non aliqua classe uel insanis copiis uel
+               <gap/> militis, sed diuorum <gap/> tutela. Ferunt enim hostibus uisam martyris faciem
+               multo fulgore ex <pb n="15v"/> prepotenti numinis uirtute radiantem, męnibus in urbis
+               protectionem ualentibus uiribus deambulantem urbanorumque stationes et excubias
+               existimantes pedem retulisse ac his adeo horum concidisse audaciam, ut quoad ille
+               superuiueret, ab eius inuasione prorsus deturbarentur <note xml:id="ftn25" place="foot" n="25"> deturbarentur] deturbarent <hi rend="italic">A</hi>
+               </note> . Ne ergo locus numine plenus debita religione careret, mox delubrum ubi hęc
+               uisa sunt magno patri Blasio senatus consulto decretum est. </p>
+         </div>
+         <div n="15" type="div2">
+            <head n="head">De Siluestro Illyrici rege</head>
+            <p n="p"> Non indignabitur clarissimi Siluestri regis maiestas decori urbis, in aduersis
+               fidissime <pb n="16r"/> regii stematis seruatricis, adesse <note xml:id="ftn26" place="foot" n="26"> adesse] accedere <hi rend="italic">A in marg.</hi>
+               </note> . Cuius affinitatem contracto pater conubio non aborruerat, et quę suam
+               infantiam legitima re omni a spuria prole trucidatam, <note xml:id="ftn27" place="foot" n="27"> trucidatam] trucidata <hi rend="italic">A</hi>
+               </note> neci subductam, incolumem ad adultam ętatem multa fide et constantia
+               regalibus seruauit sceptris, quum et regię claritati non nihil religiosa institutione
+               adiectum, et urbem publice et priuatim excultam nemo inficias ire poterit, ita ut
+               regem et urbem tunc inuice <note xml:id="ftn28" place="foot" n="28"> inuice] mutuo
+                     <hi rend="italic">A in marg.</hi>
+               </note> beneficiis inter se decertasse diceres, nec facile ad quem inclinare uictoria
+               uisa fuerit diiudicare posses. </p>
+            <pb n="16v"/>
+         </div>
+         <div n="16" type="div2">
+            <head n="head">De Bono anachoreta</head>
+            <p n="p">Dedit et Roma uirum, et quidem multa religione pręditum, cuique merito exacta bonorum
+               operum perfectio nomen dedisse uisa est. Promeruit enim actio et multa in Deum uiri
+               pietas pręsentibus simul et futuris uirtutis monimenta dari, dum cęlestia et diuina
+               oracula, singulari Dei benignitate supernis detectis arcanis, illi sacra diuorum
+               Laurentii, Petri et Andreę martyrum pignora pręstitisse probantur, quę quidem ex
+               diuina dispositione exornatam contutarent urbem, miraculisque et salutaribus signis
+               hęc et martyrum gloriam quibusque satis <pb n="17r"/> testatam redderent. Vnde et
+               ciuitatem his diuinę prouidentię comendatam edoctus suo posthac incolatu dignam
+               existimasse ferunt.</p>
+         </div>
+         <div n="17" type="div2">
+            <head n="head1">De Stephano Cotromano rege</head>
+            <head n="head2">Liberalitati</head>
+            <p n="p"> Vindicabit sibi non imerito Stephanus Nemagna, Rassie ille celeberimus rex, non
+                  <note xml:id="ftn29" place="foot" n="29"> non] ne <hi rend="italic">A</hi>
+               </note> auctę solum sed exornatę Rhacusę pręcipuam laudem, qui quanto studio urbis
+               incrementa complexus fuerit, ostendunt Stęi et Rhatanei chersonesus, pro captu
+               regionis satis ampli agri, quibus eius non <pb n="17v"/> communis certe illa
+               munificientia suę ditionis terminos in duplum protensos dedit, quodque ciuium
+               ingenuitate ita captus sit ut urbem aliquando inuitatus (dimissis quę ad manum erant
+               copiis, solo suo illo ut semper illustri nobilium comitatu contentus et quo <note xml:id="ftn30" place="foot" n="30"> et quo] quum his <hi rend="italic">A in
+                     marg.</hi>
+               </note> potius regię maiestati quam suę securitati prospicere animus erat <note xml:id="ftn31" place="foot" n="31"> erat] esset <hi rend="italic">A in marg.</hi>
+               </note> ) cum uxore et familia diuertere minime recusauit, ubi liberalitate pietati
+               addita ciuium animos maximam traxit in admirationem, ędibus diui Blasii, incolatu
+               uestalium cęsie sectę notis, argento <note xml:id="ftn32" place="foot" n="32">
+                  argento] argenti <hi rend="italic">A suprascr.</hi>
+               </note> non mediocris ponderis <note xml:id="ftn33" place="foot" n="33"> ponderis]
+                  pondere <hi rend="italic">A suprascr.</hi>
+               </note> ad sacra diuorum pignora <pb n="18r"/> excipienda, sargito et sericis auro et
+               gemis ex opere polimito elaboratis ad eius aras et sacerdotum <note xml:id="ftn34" place="foot" n="34"> sacerdotum] sacerdotes <hi rend="italic">A suprascr.</hi>
+               </note> ornatum <note xml:id="ftn35" place="foot" n="35"> ornatum] ornatos <hi rend="italic">A suprascr.</hi>
+               </note> satis illustratis <note xml:id="ftn36" place="foot" n="36"> illustratis]
+                  illustrauit <hi rend="italic">A suprascr.</hi>
+               </note> , ad multos cęteros fauores et gratias quibus urbem et eius ciues in
+               mercaturę negotiis ita prosecutus est ut non parum horum fortune publice et priuatim
+               incrementum dedit <note xml:id="ftn37" place="foot" n="37"> dedit] acciperent <hi rend="italic">A in marg.</hi>
+               </note> . </p>
+         </div>
+         <div n="18" type="div2">
+            <head n="head1">De Bernardo Binciola</head>
+            <head n="head2">Pietati</head>
+            <p n="p"> Ne religiosę Binciolę familię sua inter ciues laus deesset, satis pręstantia
+               Bernardi Marini filii fecit, cuius spectabilis et religiosa <pb n="18v"/> cęteris
+               conuersatio posteris multę uirtutis exemplar esse potuit. Animus enim a primis fere
+               annis diuinam spirans seruitutem suspensus, supernis affixus, non nisi circa et
+               ecclesias et monasteria diuersantem <note xml:id="ftn38" place="foot" n="38">
+                  diuersantem] diuersari <hi rend="italic">A suprascr.</hi>
+               </note> paginasque Diuinę scripturę perscrutantem <note xml:id="ftn39" place="foot" n="39"> perscrutantem] perscrutari <hi rend="italic">A suprascr.</hi>
+               </note> detineri potuit et nisi generosę stirpis, cuius sobolis propagandę se solum
+               relictum męrebat, necessaria cura importunius admonere uideretur, Benedictini
+               instituti normam, quam sumis habebat in uotis, prorsus <note xml:id="ftn40" place="foot" n="40"> prorsus] omnino <hi rend="italic">A suprascr.</hi>
+               </note> excoluisset, cuius sola exterioris indumenti lacerna sibi defuit, quam tamen
+               obitus sui die impartienda <note xml:id="ftn41" place="foot" n="41"> impartienda]
+                  indui <hi rend="italic">A in marg.</hi>
+               </note>
+               <pb n="19r"/> procurare non destitit. Ac ita respublica (cui domi fide et sapienti
+               consilio, foris uero laboriosis negotiis presto semper fuit) non <note xml:id="ftn42" place="foot" n="42"> non] ne <hi rend="italic">A</hi>
+               </note> solum sibi studiosum, sed etiam litteris preclaraque <note xml:id="ftn43" place="foot" n="43"> preclaraque] preclaris <hi rend="italic">A suprascr.</hi>
+               </note> scientia <note xml:id="ftn44" place="foot" n="44"> scientia] scientiis <hi rend="italic">A suprascr.</hi>
+               </note> exornatum non ad postremam nominis sui accessionem habuit, ne nichilum <note xml:id="ftn45" place="foot" n="45"> nichilum] nantilum <hi rend="italic">A</hi>
+               </note> quidem a sua pietate auocatum; ita enim labentis generis excipiendi operam
+               dedit ut in eo religionis quoque propagandę memoria nunquam excideret. Virtute in hoc
+               magis quam diuitiis commendari semper enitens <note xml:id="ftn46" place="foot" n="46"> enitens] cupiens <hi rend="italic">A in marg.</hi>
+               </note> et his totum uitę cursum maximis in laboribus perpetuis ac indefessis uerę
+               pietatis cultor summa cum laude <pb n="19v"/> exegit, celebris assidua religiosorum
+               uirorum et grauissimorum patriciorum consuetudine, castoque et sancto sermone, qui
+               uel ad excolendos animos, uel ad componendos mores multa sale conditus plurimum
+               faciebat. </p>
+         </div>
+         <div n="19" type="div2">
+            <head n="head1">De Joanne Stoico, episcopo Argentinę</head>
+            <head n="head2">De his qui ex humili genere clari euaserunt</head>
+            <p n="p">Qui Joannis Stoici insignia, quę multa eruditio ad religiosam pręstitit uitam, satis
+               contemplatus fuerit, haud quidem difficulter animaduertere poterit illum satis
+               declarasse uirtutem lucis prosequi naturam, <pb n="20r"/> neque enim generis
+               obscuritas, quę fortuna ex infima Rhacusanę plebis gente dederat, Predicatorum
+               familiam amplexo aliquid<note xml:id="ftn47" place="foot" n="47"> aliquid] nihil
+                     <hi>A in marg.</hi>
+               </note> obsistere<note xml:id="ftn48" place="foot" n="48"> obsistere] obistere
+                     <hi>A</hi>
+               </note> potuit, quominus decorem suum externis prolatum extensumque comendaret. Res
+               quippe gestę et uita innocentissime<note xml:id="ftn49" place="foot" n="49">
+                  inocentissime] inocentissimę <hi>A</hi>
+               </note> acta, precipue uero sacra theologię scientia, clarissimos inter sacros suę
+               ętatis homines nomen dedere, ita ut apostolicum apud Constantinopolitanum imperatorem
+               agens nuntium, opera Christianę reipublicę strenue nauata plurimum laudis nec imerito
+               retulisse uisus est. Tanti enim <pb n="20v"/> eius officii munera apud patres
+               Basiliensis concilii e totius Christiani eruditione orbis celebritateque euocatis
+               uisa sunt, ut uiri dignitatem amplissimo cardinalatus gradu augere non dubitarent.
+               Sed quamuis illa synodus principio legitime congregata fuisset, non tamen omnia eius
+               acta ab eo cui iure apostolicum contigit tenere tronum approbata fuere, sed illa
+               tantum, quę Martini V. et Nicolai V. litteris continentur, ubi<note xml:id="ftn50" place="foot" n="50"> Vnde et hunc cardinalis dignitatem nequaquam attinuisse
+                  uidetur <hi>A in marg. add.</hi>
+               </note> et hunc cardinalium<note xml:id="ftn51" place="foot" n="51"> Cardinalem
+                  gradum Argentinę episcopatu comutasse cui exornatissimum pontificis decretum <hi>A
+                     in marg. add.</hi>
+               </note> numero minime ascriptum uidetur. Ferunt tamen exornatissimum Argentinę
+               nobilissimę urbis Germanię <pb n="21r"/> pręsulem dedisse, sed mortalitatem et
+               corporis huius spolia Basileę ad cęlum amigrans dimisit, ubi et mausoleum eius
+               cernitur et ipsi urbi bonarum litterarum studiosisime insigni librorum manuscriptorum
+               legato satis sui memoriam commendauit. Scripsit quędam, e quibus opus instructum ad
+               patres Concilii Basiliensis contra husitas<note xml:id="ftn52" place="foot" n="52">
+                  husitas] husites <hi>A</hi>
+               </note> librum unum. Reuerendissimi †Veniem.</p>
+         </div>
+         <div n="20" type="div2">
+            <head n="head">De Margarita Gotia</head>
+            <p n="p">Ne religiosis<note xml:id="ftn53" place="foot" n="53"> religiosis] religionis
+                     <hi>K</hi>
+               </note> quoque fęminis sua ad uirtutem<note xml:id="ftn54" place="foot" n="54">
+                  uirtutem] pietatem <hi>K</hi>
+               </note> subtraheremus<note xml:id="ftn55" place="foot" n="55"> subtraheremus]
+                  subraeremus <hi>A</hi>, subtraheremus <hi>K</hi>
+               </note> documenta, <pb n="21v"/> libet etiam his Margaritę Gotię, illustris quidem
+               multa pietate fęmine, suę uirtutis premia anectere. Hęc quippe pia<note xml:id="ftn56" place="foot" n="56"> quippe pia] quippia <hi>A</hi>,<hi> </hi>quippe pia <hi>K</hi>
+               </note> et religiosa admodum matrona cubiculum ubi moribunda decumbebat maxima luce
+               et quę meridianam multo superare uidebatur compleri (nullo sopore tecta, sed prorsus
+               uigilans) uidit, cumque eleuatis oculis undequaque circumspiceret, animaduertit
+               iuuenem pulcherrimum albis ac micantibus uestibus amictum triclinio adesse. Intuita
+               exhilarataque admodum inquit: “O speciosissime adolescens<note xml:id="ftn57" place="foot" n="57"> inquit: “O speciosissime adolescens] “O adolescens”, inquit:
+                  “speciosissime” <hi>K</hi>
+               </note>, quinam sis<note xml:id="ftn58" place="foot" n="58"> sis] es <hi>K</hi>
+               </note>, aperias quęso”, et ubi eum sua petitione dissimulata propius accedentem ipsa
+                  <pb n="22r"/> secum eius uenustatem multamque uestis dignitatem et pulchritudinem
+               diligentius considerat et contemplatur, canistrum suauissimis et recentibus rosis
+                  ipsum<note xml:id="ftn59" place="foot" n="59"> ipsum] <hi>deest K</hi>
+               </note> manibus gestare<note xml:id="ftn60" place="foot" n="60"> gestare] tenere
+                     <hi>A in marg.</hi>
+               </note> animaduertit mirataque<note xml:id="ftn61" place="foot" n="61"> mirataque] et
+                  mirata <hi>K</hi>
+               </note> hibernum tempus tam nitidas dare rosas, iterum ab eo, et quis ipse
+               nobilissimus haberetur iuuenis et ubi<note xml:id="ftn62" place="foot" n="62"> ubi]
+                  ubinam <hi>K</hi>
+               </note> ipsi tam suaue ille redolentes rosę asperrimo illo hiemis tempore essent, ne
+               graue esset aperire rogauit. Ad quę ipse ac si ex nobilissimo<note xml:id="ftn63" place="foot" n="63"> nobilissimo] suauissimo <hi>A in marg.</hi>, <hi>K</hi>
+               </note>, quem secum ferebat, afflatu, illisque amenissimis floribus ipsam cuias<note xml:id="ftn64" place="foot" n="64"> cuias] cuius <hi>K</hi>
+               </note> is esset iam satis experire<note xml:id="ftn65" place="foot" n="65">
+                  experire] expedire <hi>K</hi>
+               </note> fecisset,<note xml:id="ftn66" place="foot" n="66"> fecisset] posset <hi>A in
+                     marg.</hi>
+               </note> tantum quid iis sibi uellet exponere <pb n="22v"/> uolens, ipsam<note xml:id="ftn67" place="foot" n="67"> ipsam] eam <hi>K</hi>
+               </note> alloquens ita dixit: “Ubi nitentes hę rosę et tam<note xml:id="ftn68" place="foot" n="68"> et tam] tamque <hi>K</hi>
+               </note> elegantiusculi flores haberentur, te ipsam fore post triduum certo certius
+                  esse<note xml:id="ftn69" place="foot" n="69"> esse] <hi>deest K</hi>
+               </note> scias”. Quę cum dixisset, statim illa suauissima lux discedentem iuuenem nec
+               aliud elocutum paulatim consecuta dilabitur. Hęc autem ipsa fortunata mulier spiritu
+               letitię pleno<note xml:id="ftn70" place="foot" n="70"> pleno] plena <hi>K</hi>
+               </note> illico religioso fratri Petro, filio suo, qui aliquanto post uigilantissimum
+               Stagnensis ecclesię speculatorem per XV<note xml:id="ftn71" place="foot" n="71"> XV]
+                  13 <hi>K</hi>
+               </note> dedit annos, matrem ęgrotantem inuisenti<note xml:id="ftn72" place="foot" n="72"> inuisenti] invisente <hi>K</hi>
+               </note> inenarabili lętitia gestiens et ueluti is sibi eum congratulari<note xml:id="ftn73" place="foot" n="73"> congratulari] congratulare <hi>A</hi>,
+                  congratulari <hi>K</hi>
+               </note> inuitaret, retulit, asserens se primo <pb n="23r"/> huius aspectu ex candore
+               abitus, quem dominicanum ordinem, ubi filius merebat, seruare subierat<note xml:id="ftn74" place="foot" n="74"> subierat] subiicerat <hi>K</hi>
+               </note>, hallucinatam, suum natum aduenisse existimatam. Et uti<note xml:id="ftn75" place="foot" n="75"> uti] ubi <hi>K</hi>
+               </note> tandem cęlestis ille paranymphus sibi nuntiarat, exacto triduo hęrumnosę huic
+               uitę erepta, florenti illo uiridario, cuius imarcescibiles rosas uidere et sibi in
+               eternę felicitatis aram<note xml:id="ftn76" place="foot" n="76"> aram] arrham
+                     <hi>K</hi>
+               </note> spirare meruit, donata est.</p>
+         </div>
+         <div n="21" type="div2">
+            <head n="head1">De quadam fęmella quę diuam Vrsulam martirem cum suo sodalitio in emigrationis suę
+               solatium habuit</head>
+            <head n="head2">Pietas</head>
+            <pb n="23v"/>
+            <p n="p"> Nec minus illam quoque dixerim felicem, quam in subsidium et consolationem
+               emigrationis suę, quum ea sanctis etiam plerisque formidabilis esse non ignoratur,
+               beatissimam martirem Vrsulam cum pręclaro sodalitio suo glorioso aspectu dignatam
+               fuisse memorantur. Et dum ea <note xml:id="ftn77" place="foot" n="77"> ea] ipsa <hi rend="italic">A in marg.</hi>
+               </note> non <note xml:id="ftn78" place="foot" n="78"> non] ne <hi rend="italic">A</hi>
+               </note> solum propalare hęc, sed ipsam martirem et gloriosum commitatum
+               circumstantibus, qui agenti animam solatii gratia multa pietate aderant, indicare
+               conatur, leta extremum clausit diem. </p>
+         </div>
+         <div n="22" type="div2">
+            <head n="head">
+               De alia quadam muliere quam <pb n="24r"/> diabolus in exitu sui a corpore falsis
+                  criminibus
+               <note xml:id="ftn79" place="foot" n="79"> criminibus] criminationibus <hi rend="italic">A suprascr.</hi>
+               </note>
+               <hi> oppugnando accerrime deterrere conatus est</hi>
+            </head>
+            <p n="p">Quam autem antiqui hostis immanes in nostram pernitiem existant conatus, quum multis
+               sępe aliis, tum uel his potissimum deprehendere satis est<note xml:id="ftn80" place="foot" n="80"> re illa etiam non leuiter iudicare uidentur <hi>A in marg.
+                     add.</hi>
+               </note>, quibus nuper christianissimam quendam mulierculam, a spe et fide eam
+               decidere attentans, agentem iam animam, procacius aggressus est, ipsam crudelissime
+               minitans ac deterrens cęlestia nunquam subituram sed mox ad Tartara, utpote rapacem
+               ruituram. Obiciebat autem ei, cum nil <pb n="24v"/> aliud haberet (erat enim
+               christianissima et satis religiosa fęmina) illam coronam, ut uocant, orariam sodali
+               detinuisse. Ad quę ipsa: “Etsi”, inquiens “licite”, pro his scilicet <note xml:id="ftn81" place="foot" n="81"> scilicet] silicet <hi rend="italic">A</hi>
+               </note> quę debebat, “nec sine domine uoluntate possiderem, ne tamen alicuius inique
+               calumnię locus tibi aliquando pateret”, ancilla extemplo aduocata traditaque pretensa
+               corona, iniunxit hanc domine citius restituendam. “Et quidnam ultra”, aduersario
+               inquiens, “mihi opponas? Habebis certe nihil”, sicque omni oppositione semota
+               tranquilla et pacata in Domino quieuit <note xml:id="ftn82" place="foot" n="82">
+                  quieuit] obdormiuit <hi rend="italic">A in marg.</hi>
+               </note> . </p>
+            <pb n="25r"/>
+         </div>
+         <div n="23" type="div2">
+            <head n="head1">De puero Marino a demone asportato</head>
+            <head n="head2">Presagium neglectae religionis</head>
+            <p n="p"> Quam pernitiem mala liberorum educatio horum saluti inducat, nuper cuiusdam Marini
+               infantuli exemplum non obscurę admonitionis fuisse uidetur. Hic <note xml:id="ftn83" place="foot" n="83"> Hic] His <hi rend="italic">A</hi>
+               </note> enim nimia parentum indulgentia uel potius impietate a teneris, ut dicitur,
+               unguiculis iracundię derelictus, in quam ueluti quadam insita naturę procliuitate ita
+               facilis esse deprehendebatur ut uel leuissima quaque occasione perustus <note xml:id="ftn84" place="foot" n="84"> perustus] peristus <hi rend="italic">A</hi>
+               </note> ac si furore quodam exagitaretur, cacodemoni se asportandum exponens, hunc
+               inclamare sępius exaudiebatur. Et stupenda quędam diuini iudicii <pb n="25v"/> res
+               accidit et quę merito omnium mentes percellere posset. Necdum scilicet <note xml:id="ftn85" place="foot" n="85"> scilicet] silicet <hi rend="italic">A</hi>
+               </note> septenis morbo, quo et decessit, correptus, sępius accersitum diabolum sibi
+               adstare uidens, pręter modum exterritus ac prope nimio furore exanimatus, ipsum
+               teterrimum draconem ad se asportandum adesse uociferatur <note xml:id="ftn86" place="foot" n="86"> uociferatur] inclamat <hi rend="italic">A in marg.</hi>
+               </note> et ueluti presentem circumstantibus indicans ex hac uita miserime eripitur
+                  <note xml:id="ftn87" place="foot" n="87"> eripitur] subtraitur <hi rend="italic">A
+                     in marg.</hi>
+               </note> . Finem quem ipse sibi male infelix preluserat nactus, nec his quid boni,
+               nisi reliquis sua miseria monita melioris conuersationis dedit. </p>
+            <pb n="26r"/>
+         </div>
+         <div n="24" type="div2">
+            <head n="head1">De Marino Caboga 1411</head>
+            <head n="head2">Quę cuique magnifico contigerunt</head>
+            <p n="p">Huius uirtute illustrique filiorum ac nepotum numerosa sobole progeniem in hac
+               antiqua et generosa familia augeri et satis exornari non immerito contigisse uidetur,
+               quandoquidem omnibus hiis, quę in hominem cadere possunt, et animi et corporis
+               dotibus ita ornatus est ut nulli in patria secundus habeatur. Vnde et cum cęteris ex
+               ordine politicis functus esset honoribus, prętorem quoque urbis sępius cum dignitate
+               gessit, quodque diuinę benignitatis est non obscurum inditium, non postremas diuitias
+               honestis artibus adeptus est, quibus latissimos agros <pb n="26v"/> hędesque
+               magnificas et dignas tanta successione parauit, quandoquidem felicitati suę non parum
+               addidit elegans et preclara proles, in qua mares, quos tres habebat moribus
+               compositissimos, generositate animi et illustrium factorum decore non solum in patria
+               sed ad exteros quoque celebritatem protulere nominis et familiam genuere et illustri
+               nepotum serie non parum excoluere.</p>
+         </div>
+         <div n="25" type="div2">
+            <head n="head">De Micaele Caboga Marini filio</head>
+            <p n="p2">Quę cuique magnifico contigerunt</p>
+            <p n="p3"> Hic, quum animi sui pręstantiam patrię <pb n="27r"/> angustiis minime continere
+               posset, huberiorem explicandę uirtutis materiam expetens Panoniam profectus est, ubi
+               tunc Sigismundi Augusti generositas homines uirtutis undequaque alliciebat <note xml:id="ftn88" place="foot" n="88"> alliciebat] allicebat <hi rend="italic">A</hi>
+               </note> . Existimabat enim reges et principes beatos esse, <note xml:id="ftn89" place="foot" n="89"> Quandoquidem reges et principes beatos esse existimatur <hi rend="italic">A in marg. add.</hi>
+               </note> qui exclusis superbis uiros mansuetudinis et misericordię cultores in curia
+               assesores et consiliarios haberent <note xml:id="ftn90" place="foot" n="90">
+                  haberent] haberet <hi rend="italic">A</hi>
+               </note> . Ibi quę Michaelis uirtus et prudentia in agendis fuerit, non uulgare de eo
+               dicti cęsaris iuditium non pręsentibus tantum <note xml:id="ftn91" place="foot" n="91"> non ... tantum] ne ... tantum <hi rend="italic">A</hi>;<hi rend="italic"> </hi>non ... solum <hi rend="italic">A in marg.</hi>
+               </note> sed futuris quoque ostendisse uidetur. Neque enim tantum magnis et intimis
+               consiliis admissum detineri satis fuit, <pb n="27v"/> sed etiam eius fidei, quam in
+               multis maximis et arduis rebus non semel expertus erat, tantum tribuere uisum est ut
+               unum belicosissime et efferate Croatorum genti pręfecisse, prolato in totam
+               inferiorem Dalmatiam imperio, nunquam pęniteret, unde et ipse cęsar tantum ornatum
+                  <note xml:id="ftn92" place="foot" n="92"> ornatum] ornatu <hi rend="italic">A</hi>
+               </note> uiri effecit, ut nunquam grati animi laudem in eo Michael requireret. </p>
+         </div>
+         <div n="26" type="div2">
+            <head n="head1">De Nicolao Caboga Marini filio</head>
+            <head n="head2">De pietate patriae</head>
+            <p n="p3">Fortis Nicolai animus et robustę continentię pectus, quę, etsi intra patrię penates,
+               tantum </p>
+            <p n="p4"> enituere ut non postremam laudem mihi merere uidentur, <pb n="28r"/> unde et eius
+               iustitia <note xml:id="ftn93" place="foot" n="93"> iustitia] constantia <hi rend="italic">A in marg.</hi>
+               </note> summa cum prudentia coniuncta ea merito consecuta est quę in omni republica
+                  <note xml:id="ftn94" place="foot" n="94"> republica] gente <hi rend="italic">A in
+                     marg.</hi>
+               </note> putantur esse amplissima. Virtuti quippe pro magnis rebus honoris insignia et
+               pręclara monumenta merito debentur; et quidem eius uirtus et pręcipue charitas erga
+               patriam quum in multis tum in eo maxime apparuit quod, quum urbis pręturam (quamuis
+               iniquo illo tempore, quo Rhacusana res Cosacio bello excidio proxima periclitabat)
+               maxima cum dignitate pręstaret, ad ciuium animos, quos patrię defensioni satis
+               apposita oratione paratos dedit, non <note xml:id="ftn95" place="foot" n="95"> non]
+                  ne <hi rend="italic">A</hi>
+               </note> solum proprias opes, quas patrię incolumitati rara liberalitate <pb n="28v"/>
+               primus obtulit, sed etiam filios, quos ornatissimos et manu promptos quatuor habebat
+               iuuenes, singulari patrię charitatis documento minime deuouere <note xml:id="ftn96" place="foot" n="96"> deuouere] deuore <hi rend="italic">A</hi>
+               </note> ueritus est. </p>
+         </div>
+         <div n="27" type="div2">
+            <head n="head1">De Daniele Caboga Marini filio</head>
+            <head n="head2">De indole</head>
+            <p n="p"> Generosa huius adolescentis indoles magna quęque promittere nec clarissimorum
+               fratrum uirtuti <note xml:id="ftn97" place="foot" n="97"> uirtuti] <hi rend="italic">A in marg. additum</hi>
+               </note> degenerare satis uisa est, cuius gratiosus spectabilisque aspectus, mores
+               ornatissimi et non insuauis sermo Matthię Coruini, regis quidem sua ętate facile
+               omnium clarissimi, affectum et gratiam non uulgariter <pb n="29r"/> conciliarunt. Vbi
+               enim magnanimus rex ornatissimum iuuenem sola sui nominis celebritate euocatum ultro
+               cum gentis oratoribus suo conspectui, tot regionibus emensis, astare uidit
+               uirtutesque et potentiam regiam admirari atque celebrare animaduertit, eius <note xml:id="ftn98" place="foot" n="98"> eius] indole <hi rend="italic">A in marg.</hi>
+               </note> animi generositate plurimum delectatus inter cętera regię benignitatis
+               simbola, quibus eum prosequi <note xml:id="ftn99" place="foot" n="99"> prosequi]
+                  ornari <hi rend="italic">A in marg.</hi>
+               </note> placuit, insignium Coruinę suę gentis clarissimę participatione ornatum cum
+               posteritate excoluit. </p>
+         </div>
+         <div n="28" type="div2">
+            <head n="head1">De Luciano Caboga</head>
+            <head n="head2">De uarietate casuum et fortunae</head>
+            <p n="p"> Domum etiamnum adolescens egressus oportuneque <pb n="29v"/> uinculis matrimonii
+               (quibus impotens parentis imperium inuitum iretierat) solutus, otii impatientem
+               generosa magnanimitas in mores et urbes multorum cognoscendas uirtutis ęmulatione
+               indefessum toto uitę asportauit tempore; et quamuis fortunae leuitate et inconstantia
+               sua diu exagitauit, non tamen pręclaris facinoribus multisque nec paruipendendis
+               naturę dotibus suum decus eripere potuit. Superatis enim tandem arduis quibusque, ad
+               multam illustrium uirorum consuetudinem admissus, hisque consilium, prudentiam <note xml:id="ftn100" place="foot" n="100"> prudentiam] prudentia <hi rend="italic">A</hi>
+               </note> et singulare animi robur Christianę reipublicę fortissime <note xml:id="ftn101" place="foot" n="101"> et singulare animi robur Christianę
+                  reipublicę fortissime <hi rend="italic">A add. in margine</hi>
+               </note> et non sine aliquo uitę discrimine pręstitit. Ferdinandi et Maximiliani
+               augustissimorum principum <pb n="30r"/> gratia minime defuit, quę et fortunis auctum
+               et equestri dignitate satis illustrem et exornatum magnanimum merito dedit uirum.
+            </p>
+         </div>
+         <div n="29" type="div2">
+            <head n="head">De Marini simplicis innocentia et felici obitu</head>
+            <p n="p"> Hic locum Marinus rusticus et simplex ille quidem homuncio non immerito sibi
+               uendicare uidetur, qui agresti prosapia ortus, quum mitis, patiens et ne ulli unquam
+               iniurius uel molestus Melitensibus monachis infima coquine seruitia multis annis
+               humillime prestitisset (neque <pb n="30v"/> enim potioribus aliquibus utilis esse
+               uidebatur), diuina tandem pietas et uiri merita et patientiam, coronam dignam piorum
+               documentis, ut in diuinis occulis erant exhibere uolens, paucis ante diebus quam e
+               caliginoso hoc adimeretur carcere, quum prius febris ita medulitus hominis artus
+               depasta esset ut uix exilis spiritus ossibus herere uideretur, solum per se relicto
+               cubili surgere dedit tenebrisque intempeste noctis Basilium Gradeum, non modico
+               itineris spatio numerosisque gradibus conscensis, omnium admiratione adhire
+               concessit, suorum illum confessionem criminum (ut qui extremum suę <pb n="31r"/> uitę
+               adesse non ignoraret) audire petit et expiationem perpetratis sacramento pęnitentię
+               indulgere rogauit. Ad quorum sane humillimam, ordinatam et exactissimam enarrationem
+               multa pręclara ac plane diuina ita diserte prosecutus est, ut merito non <note xml:id="ftn102" place="foot" n="102"> non] ne <hi rend="italic">A</hi>
+               </note> solum admirabilis sed maximo quoque stupori probatissimo et doctissimo illo
+               patri esset. Quippe quum prius non <note xml:id="ftn103" place="foot" n="103"> non]
+                  ne <hi rend="italic">A</hi>
+               </note> solum balbum sed pene elinguem optime nosset, ut uix uerbum aliquod recte
+               proferet, tanta sapientia et facundia de repente hominem inuadere non nisi diuino
+               miraculo posse uidebatur. Idque quod (quamuis breuissimum) <pb n="31v"/> reliquum
+               uitę erat tanta spiritus lętitia exegit, ut omne ualetudinis incomodum prorsus
+               obliuisci uideretur totusque spiritu diuinis affixus beatissimam Mariam Magdalenem
+                  <note xml:id="ftn104" place="foot" n="104"> Magdalenem] Magdalene <hi rend="italic">A</hi>
+               </note> , illo quo et decessit die, lucidissimam et candidatam, utpote cęlestis lucis
+               radiis micantem, pauperculum illum, ubi decumbebat, cubiculum in suum solatium
+               ingressam uidere meruit, hancque adesse hilaris, uultu oreque decentissimum in risum
+               composito ac ueluti gloriabundus ex amoris quodam affectu, ad ipsam suauissimis
+               tenerrimoque animo prolatis uerbis, astantibus denuntians et ostendens. Cęteraque
+               omnia sacramentorum misteria deuotissima perceptione ueneratus, spe plenus ac fide
+               satis munitus ex hac euolauit luce, electis et post se plerisque sapientia et
+               dignitate huius sęculi summis et celebratissimis uiris longe relictis. </p>
+         </div>
+
+      </body>
+   </text>
+</TEI>
