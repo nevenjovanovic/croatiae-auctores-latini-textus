@@ -1,0 +1,1925 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="skalic-p-satira">
+        <titleStmt>
+           <title>De statu huius mundi (1560), editio electronica</title>
+            <author ref="skali01">
+               <persName xml:lang="hr">Skalić, Pavao</persName>
+               <date>1534-1575</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+                <resp>Hanc editionem electronicam curavit</resp>
+                <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+        </titleStmt>
+        <editionStmt>
+            <edition>Digitalizat prema faksimilu izvornog izdanja (1563-2018).</edition>
+        </editionStmt>
+        <extent ana="D">Mg:D Verborum 11045</extent>
+         <publicationStmt>
+            <publisher>
+               <orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u
+                     Zagrebu</ref>
+               </orgName>
+            </publisher>
+            <pubPlace>
+               <placeName ref="3186886">Zagreb</placeName>
+            </pubPlace>
+            <date when-iso="2018-01">Siječnja 2018</date>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/3.0/"
+                  notBefore="2017-12-25">
+                  <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence applies to
+                     this document.</p>
+                  <p>The licence was added on January 13, 2018.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Satirae philosophicae sive miscellaneorum tomus primus. Accessit genealogia...
+               Regiomonti Borussorum in officina Ioannis Daubmann. Anno 1563.</bibl>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abbr" occurs="6"/>
+          <tagUsage gi="abstract" occurs="1"/>
+          <tagUsage gi="argument" occurs="124"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="back" occurs="1"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="3"/>
+          <tagUsage gi="creation" occurs="1"/>
+          <tagUsage gi="date" occurs="6"/>
+          <tagUsage gi="div" occurs="171"/>
+          <tagUsage gi="docTitle" occurs="1"/>
+          <tagUsage gi="edition" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="emph" occurs="495"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="front" occurs="1"/>
+          <tagUsage gi="head" occurs="169"/>
+          <tagUsage gi="item" occurs="59"/>
+          <tagUsage gi="keywords" occurs="3"/>
+          <tagUsage gi="langUsage" occurs="1"/>
+          <tagUsage gi="language" occurs="1"/>
+          <tagUsage gi="list" occurs="7"/>
+          <tagUsage gi="name" occurs="31"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="note" occurs="1"/>
+          <tagUsage gi="num" occurs="1"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="400"/>
+          <tagUsage gi="particDesc" occurs="1"/>
+          <tagUsage gi="persName" occurs="7"/>
+          <tagUsage gi="placeName" occurs="1"/>
+          <tagUsage gi="profileDesc" occurs="1"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="ref" occurs="4"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="settingDesc" occurs="1"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="tagUsage" occurs="48"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="21"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="1"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titlePart" occurs="9"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1560" period="15xx_2_third">1560</date>
+        </creation>
+         <textClass>
+            <keywords scheme="typus">
+                <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+                <term>prosa oratio - satyra</term>
+            </keywords>
+        </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+        Prva XML verzija
+        <persName>Neven Jovanovic</persName>
+            <date>2018-01-20</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="prosa-satyra">
+      <front>
+         <docTitle>
+            <titlePart>De statu huius mundi</titlePart>
+         </docTitle>
+         <div>
+            <head>Paulus Scalichius commilito regalis et dynasta Huniorum etc. marchio Veronae etc.
+               orphanus Christi exul ac Illustrissimi Principis et Domini D. Alberti Senioris
+               Marchionis Brandenburgensis etc. a Consiliis perpetuis, etc. Ad I. Sebastianum
+               Phauserum, etc. fratrem in fide et veritate De statu huius mundi</head>
+
+            <p>Per otium mi Phausere, si quomodo Terentiana Phrasis imitationem pateretur, tentaui:
+               simul et ludendo uera dicere, colloquia proinde institui: ut dicas Terentii iocum: ex
+               Terentio namque desumptum. Statum autem huius mundi accipies paucis: De moribus per
+               ampla uolumina, Politias artem: tum quae domi atque foris gubernanda ueniant. Noui
+               quantum arte et experientia possis, cui exempla defuerunt nunquam, ad augendam rerum
+               cognitionem: tamen haec consulas aequiori animo, quod non tam aequo quam syncero a me
+               procedant: maxime ut uarios casus reuocent in memoriam, quibus praesentia regere
+               atque futura meditari queas. Prudentem esse oportet, qui mundo mori atque uiuere Deo
+               cupit: Serpentum naturam et columbarum coniungere, Neque Sampsonis fortitudo, neque
+               Dauidis sanctitas, neque sapientia Salomonis quod innuo praestare posset: Sola est
+               paruulorum simplicitas, Huic adhaerere, consilium diuinum est, ab hac deflectere,
+               mundi. Vtrumque his Dialogis tracto. Quod tibi dicatum, tanto gratius, quanto uerius,
+               esse debet. </p>
+            <closer> Vale <dateline>Tubingae 3. Idus Nouembris, 1560.</dateline>
+            </closer>
+
+         </div>
+         <div>
+            <head>Interlocutores.</head>
+            <list>
+               <item>Euphorbus, Mastinus.</item>
+               <item>Democritus, <orig>Aristipus</orig>.</item>
+               <item> Empedocles, Marullus.</item>
+               <item> Facinus, Brunorus.</item>
+               <item> Alexander, Dalus.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div>
+            <head>Prologus.</head>
+
+            <p>De mundo quid et qualis: quae natura quaeue sient uires, Philosophi plus satis: et
+               cui intendimus, patres uiri, sedulo in genere. Causas hic praeteribimus ideo, neque
+               errantem et uagam, sed more nostro, stabilem certamque sententiam adferemus. Actiones
+               propter, siue bonas: siue prauas spectabimus: et tum quae amplectenda, tum fugienda
+               ueniant, depingemus, Personas introducimus, re haud, negotium bene ubi expendatur,
+               fictas. Tanto gratius colloquium, quanto fabulae minus, ueritatis plurimum ad bene
+               beateque uiuendum oppido necessarium, complectitur. Maxime si nostra causa, causam
+               hanc acceperitis, et silentium gratissimum negotio dederitis.</p>
+
+         </div>
+         <div>
+            <head>Colloquium I. De hoc Mundo et eius Ornatu.</head>
+
+            <stage>Euphorbus Mastinus</stage>
+
+            <p>Philosophi mundum ab ornatu habent: quid mirum? Sophi cum sint: Pulchritudinem eius
+               qui satis laudare, potis esse, queant nunquam. Ego molestam hanc mihi sarcinam, si
+               perpetuo insudandum quibus isti uolunt, censerem. Sumptum quem facio <orig>indies</orig> et
+               splendorem, haec mihi phantasmata dabunt? haec me curabunt molliter? scilicet,
+               lauteque munus administrabunt meum? ita me Dii amabunt, <orig>Aristipum</orig> ut nunc amplector.
+               Mulierem ipse alit cum tanta familia et quae magno ei semper fuit desiderio. Etsi non
+               sibi non uidet, tantos domi quotidianos fieri sumptus, nec fieri modum: optat
+               nihilominus ab se ne unquam recedat. Hic paruae consuetudinis causa, mortem uicinae
+               tulit familiarius: quid si ipse amasset? quid huic, quam tantopere obseruat? Ad
+               flammam si accedit imprudentius, ibi tum Aristipus examinatus adcurrit, mediam
+               complectitur, nec quiescit consolari, tum illa pro consueto amore, flens in illum se
+               <orig>reiicit</orig> quam familiariter. Vxorem ipse, uix credo, suam amaret aeque Apud eum iura
+               florent, ut pinguedinem potius dixeris. Misere nimis cupit, ut coepit, perpetuum in
+               laetitia uiuere. Atque iste primus ornatus, pollis utique mundi est. Hic Aristipus
+               exemplar tenuissimi pulueris, subtiliorisque farinae partis, reuera. Proinde pinguis,
+               robustus et ad ualetudinem natus tuendam. Contra miseret me Mastini uicem, tantum
+               deuenisse ad eum mali. Ad rem est nihil minus quam attentus, et studiis qui
+               conficitur crebris Exercitia laetiora, melancholicus consuetudine opinor, non natura,
+               detestatur. Laboribus et uigiliis oneratus, uiribus prope destituitur. Eccum
+               Mastinum, ni me animus fallat. Sed is est: accedam, dehortabor. Salue Mastine. </p>
+            <p><stage>MAST.</stage> Et tu salue Euphorbe.</p>
+            <p><stage>EVPHOR.</stage> Reputaui mecum paulo diligentius singula, quae ad Mundi statum pertinere
+               uidentur, gratiorem <orig>Aristipo</orig> inueni neminem. Ipsum iam adibo, atque unumquodque, quod
+               quidem erit bellissimum carpam, et cyathos sorbillans paulatim hunc producam diem.
+               Haec namque actio totius facultatis iuridicae apud me finis est.</p>
+            <p><stage>MAST.</stage> Lepidum caput.</p>
+            <p><stage>EVPHOR.</stage> Illepidus fui nunquam, festiuus semper.</p>
+            <p><stage>MAST.</stage> Et quid Aristipus?</p>
+            <p><stage>EVPH.</stage> Rogitas? in amore est totus: propterea, prandium ne corrumpatur, ego iam
+               prospiciam mihi.</p>
+            <p><stage>MAST.</stage> Pro Dii immortales, facinus indignum, Euphorbe, quid narras?</p>
+            <p><stage>EVPH.</stage> Factum, et quidem mihi atque illiue cupiditati conueniens.</p>
+            <p><stage>MAST.</stage> Ex illa ne tam illiberale facinus ortum? O
+               <orig>Aristipe</orig>, pol haud diuinum <orig>isthuc</orig> dedisti.</p>
+            <p><stage>EVPH.</stage> Omnes quibus res sunt minus secundae, magis sunt nescio quomodo suspiciosi: ad
+               contumeliam omnia accipiunt magis: propter suam impotentiam se credunt semper
+               negligi. Nonne uel inde animus tuus patet, dolore ac miseria tabescens? Tuo officio
+               te existimas fungi, si macer et mortuus fere desideas; imitabimur te omnes scilicet.
+               Tu rationem antiquam obtine, conserua, quaere, parce: fac quamplurimum tuis
+               relinquas; gloriam tu istam obtine: <orig>Aristipi</orig> liberalitate, quae praeter spem euenit,
+               utamur sine. De summa nihil decedet: quod hinc accesserit id de lucro putato esse.
+               Omnia si haec uoles in animo uere cogitare, Mastine, et mihi et tibi, et illi
+               dempseris molestiam.</p>
+            <p><stage>MAST.</stage> Crede Euphorbe <orig>Aristipum</orig> senem delicatum, uafrum et truculentum atque simul
+               perdite amantem. Attentior est ad rem, quam sat sit, quod uitium senectus hominibus
+               affert. Simulat: uidene reddere te minimum quemque quadrantem oporteat. Metuas ne ab
+               re sit <orig>omissior</orig> paulo. Aetate non potest non sapere: etiamsi ad sobrietatem minime ad
+               rem tamen. Ariolor: non frustra saltat, nec equis uehitur delicatis <orig>Phyga</orig>.</p>
+            <p><stage>EVP.</stage> Mastine nunquid minus mihi idem ius aequum est esse, quod mecum est tibi? O
+               quando ego tua non curo, ne cura mea.</p>
+            <p><stage>MAS.</stage> Mitto rem, consuetudinem tuam: tua res agitur, et de corio luditur tuo.</p>
+
+         </div>
+         <div>
+            <head>Colloquium II. De huius mundi moribus, etc.</head>
+
+            <stage>Mastinus Democritus</stage>
+
+            <p>Vah, quanquamne hominem in animo instituere aut parare quod sit <orig>charius</orig>, quam ipse
+               est sibi? Atqui hoc in homine Euphorbo, ne gutta equidem ex me sanguinis: is adeo
+               dissimili studio est Iam inde a cunis ego hanc clementem uitam literariam atque otium
+               <orig>sequutus</orig> sum, et quod fortunatum putant multi, uxorem nondum habui. Ille contra haec
+               omnia: Lupanari agere uitam, in diem uiuere semper, apud amicos parce ac duriter se
+               habere, quo semel ita sua cum scortis prodigat: ut, congesserit donec tantidem,
+               mensas nullo pudore circumeat alienas. Didicit dubie procul non pauciora ab <orig>Aristipo</orig>,
+               dare, praetermittere: pro suo tamen compendio. Celauit olim patrem quae ferebat
+               adolescentia, qui non consuefecit filium, Vt ergo mentiri et fallere insueuit patrem,
+               tanto magis audebit caeteros. Videret ipse, Sed quem nam uideo? Democritus est, amabo
+               <orig>ipsen'</orig> est Sane ipsus, Democrite te ipsum uolebam.</p>
+            <p><stage>DEM.</stage> Quid noui Mastine? studiis id temporis te arbitrabar tribuere. Rarum hoc apud me
+               et inauditum. Obambulas hic praeter solitum: ne quid accidat, quod nolim, tibi non
+               timebo? Melancholia, ut conspecto, uexaris. Cedo uenas aliquod incidam, si forte
+               restituaris. <orig>Laetalis</orig> appares, et qualem uiderim uix aliquem.</p>
+            <p><stage>MAST.</stage> Democrite aut demens mihi prorsus aut non multum abesse uideris In funambulo
+               stupidus animum occupasti? Res Philosopho quam digna, metire. Studiosum hominem, qui
+               literas, etiam ualetudine postposita, curat ac defendit, tu insanire putas? <orig>Nouistin'</orig>
+               Euphorbum?</p>
+            <p><stage>DEMO.</stage> Recte.</p>
+            <p><stage>MAST.</stage> Iste helluo, prodigus, gulae uentrique deditus, istas mihi cogitationes
+               incussit. Antequam ad <orig>Aristipum</orig>, qui proprie Gerro, fraus, helluo, iners, ganeo,
+               damnosus, cognominatur, iret: quam bonas artes exagitarit, referre nequeo. Putas rem
+               adeo leuem, quae praetereatur? Excandescas nisi et tu, eiusdem cum eo farinae quin
+               sis, persuadebis haud.</p>
+            <p><stage>DEM.</stage> Profundas iam primum tuas intellexi meditationes et graues, ignosce: gratificari
+               enim tibi nunquam non studui. Miror nihil, Euphorbum delirare, atque errare longe:
+               qui imperium credat grauius esse, aut stabilius adulatione quod fit, quam illud quod
+               amicitia adiungitur. Tu idcirco hac molestia animum releua: nec quid hic aut ille
+               sentiat curiosius inquire. A conscientia propria, quam ab aliorum iudiciis potius
+               pendeas.</p>
+            <p><stage>MAST.</stage> Re ipsa reperi facilitate nihil homini esse melius neque clementia. Id uerum
+               esse cuiuis facile est noscere. Nunquam ita quispiam bene subducta ratione ad uitam
+               fuit, quin res, aetas, usus, semper aliquid adportet noui, Ego tibi acceptum fero, et
+               hominem nihili mitto: abeat ipse in malam, cum suis technis, crucem.</p>
+
+         </div>
+         <div>
+            <head>Colloquium III. De Ianua huius Mundi.</head>
+
+            <stage>Euphorbus Aristipus.</stage>
+
+            <p>Hui uicit perfortiter: sed acu rem, me uidelicet huic rei caput esse, tetigit. Estne
+               intus Aristipus ubi illum quaeram, uerum noui locum ubi sit. Dicamne? Hei mihi quid
+               faciam? quid clamem, aut quaerar? O coelum o terra o maria Neptuni. Eccum <orig>Aristipum</orig>.
+               Aedepol commessatorem sane commodum. Aristipe apparata omnia: nil, te saltem
+               praestolantur.</p>
+            <p><stage>ARIS.</stage> Te ipsum quaerito, Ego pulchre meo defunctus offitio, et uilli quod hauseram
+               edormiui, et reliquum perfeci: nostin?</p>
+            <p><stage>EUPH.</stage> Rem te perdignam hercle.</p>
+            <p><stage>ARIS.</stage> Restat igitur ut ad genium redeamus.</p>
+            <p><stage>EVPH.</stage> Placet.</p>
+            <p><stage>ARIS.</stage> Hem illa Helena nobilissima mulier huc appulit, instructissimo cum Gynaeceo,
+               Virginem habet facie pulchra, et quae nullas non omnibus dotibus superat. Relinquam
+               istam, ac tandem priusquam exhauriar, aliquid in legitimum conferam thorum.
+               Iuridicundo ab adolescentia te grauiter incubuisse testatur res ipsa. Naua hanc tam
+               praeclaream operam: persuadeas uirgini ne senem spernat. Aurum et argentum magna in
+               copia est. Aes cusum, utensilia argentea et deaurata, quaedam etiam aurea uidistin?
+               mea haec omnia: uirginis pariter futura. Autoritatem ante omnia inculcabis maximam,
+               apud reges et principes mundi, puta Polemarchum, Aemilium Maximinum, Mausolum,
+               Marium, potissimum apud Alexandrum, et caetera. Haec faciunt ad rem plurimum. Sed
+               quid est, quod in facultate dicendi te uirum tantum instituo? Rem tuae mando et
+               committo fidei, officio quouis et sedulitate compensandam.</p>
+            <p><stage>EVPHOR.</stage> Curabo, ne sit, quod iure in me reprehendas. Arti non parcam: uires omnes
+               intendam, spe ut minime frustreris. Vnum adhuc restat: quamobrem non parum hodie
+               anxius fuerim. Mastinus ille, huic tuae uitae contradicit plane, improbat omnia, et
+               quae uirtutem deceant haudquaquam. Laudauero ego frustra, cum ille senserit diuersum.
+               Ridendum te simul atque me propinabo.</p>
+            <p><stage>ARIS.</stage> Mastinum tantopere uereris? ei haec consilia non minus cordi sunt. Signa
+               insunt, ex quibus coniectura facile fit. Iuuenis est, ardet, sapit in loco atque
+               intelligit, sat denique eum acuit aetas.</p>
+            <p><stage>EVPHO.</stage> Nae nimium modo bonae tuae istae nos rationes Aristipe, et tuus iste animus
+               aequus subuortant. Mastinus studiis perpetuis libidinem uincit: uictitat parce,
+               Voluptati quod maxime aduersatur.</p>
+            <p><stage>ARIS.</stage> Tace, non fiet.</p>
+            <p><stage>EVPH.</stage> Mitte iam isthaec: da te hodie mihi: exporge frontem: mouebo lapidem.</p>
+            <p><stage>ARIS.</stage> Faciundum est.</p>
+            <p><stage>EVPH.</stage> Heus, quod dicam restat. Ego quidem isthuc uidero: ad eam tamen rem nouum
+               facere Gynaeceum oportebit. Alias fauillae plena fumi, ac pollinis coquendo sit
+               faxis, et molendo praeter haec meridie ipso facies, ut stipulam colligat. Tam excocta
+               reddetur atque atra, quam carbo est. Tecum illa, ut tandem una cubet, admittes?</p>
+            <p><stage>ARIS.</stage> Placet: mihi haud uidere parum sapere. Ad id negotii neptes eduxi, proposito
+               aptissimas. Imo Mastino unam promisi. Affinis est, non impediet.</p>
+            <p><stage>EVPH.</stage> Fortunatus qui isthoc animo sies. Eamus intro: et cui opus est rei hilarem hunc
+               sumamus diem.</p>
+
+         </div>
+         <div>
+            <head>Colloquium IIII. De Praxi huius Mundi.</head>
+            <stage>Aristipus Euphorbius.</stage>
+
+            <p>O populares, ecquis me uiuit hodie fortunatior? Nemo hercle quisquam: nam in me plane
+               dii potestatem suam omnem ostendere: cui tam subito tot congruerint commoda. Hic
+               Euphorbus mearum uoluptatum omnium inuentor, inceptor, perfector sponsam hic mihi
+               dabit mansuetam, formosam, adhuc iuuenculam, cui me tuto in clientelam et fidem
+               commendabo: ipsa uicissim se mihi dabit. Residuum est nihil, quam ut ad Alexandrum
+               mittam, noua simul annunciem: utque mihi sumptus liberales instituit, amorem ut omnem
+               in tranquillitate possideam, fugadeian firmabo, pariter ac promouebo pomerium.
+               Liberos mihi Iuno: opes Pluto dabit, Cerere atque Bacho nec destituar: Venus
+               propitia, Euphorbus siquidem circumspectus fuerit. Sed fores pultat quis? uidebo:
+               Euphorbus est. Quid noui Euphorbe? ex sententia opinor omnia.</p>
+            <p><stage>EVPH.</stage> Dii deaeque perdant Paridem, Helenae suasit, hinc quam primum in montana
+               commigret. Virgo laeta, consensum habet nondum, quid uis faciam? Redii, offendi
+               nullibi.</p>
+            <p><stage>ARIS.</stage> Occidi. Neque uirgo est usquam, neque ego, qui illam e conspectu amisi meo. Vbi
+               quaeram? ubi inuestigem? quem perconter? quam insistam uiam? O faciem pulchram: deleo
+               omnes dehinc ex animo mulieres. Taedet harum quotidianarum formarum.</p>
+            <p><stage>EVPH.</stage> O infortunatum senem: amare occepit ut ludum iocumque quis dixerit iuuenem
+               quempiam fuisse, praeut huius rabies quae dabit.</p>
+
+         </div>
+         <div>
+            <head>Colloquium V. De fallacia huius Mundi.</head>
+
+            <stage>Aristipus Marullus.</stage>
+
+            <p>Conficiam me ipsum? uadam ad Marullum praestat. Hic consilio me iuuabit, atque
+               remedio: Ellum exit obuiam. Ehem oportune, te ipsum quaerito: quid fit Marulle?</p>
+            <p><stage>MARVL.</stage> in tuto est omnis res: Tu autem quid adeo tristis?</p>
+            <p><stage>ARIS.</stage> Nunc illud est, quod si omnes omnia sua consilia conferant, atque huic malo
+               salutem quaerant, auxilii nihil afferant, quod mihi meaeque Psaltriae est: uae misero
+               mihi: tot res repente circumuallant, unde emergi non potest: Vis, iniustitia,
+               solitudo, infamia. Hoccine seculum? O scelera, o genera sacrilega, o hominem impium.
+               Quem neque fides, neque misericordia ulla repressit, neque reflexit neque quod
+               nuptiae instabant prope. Ah me miserum, uix sum compos animi: ita ardeo iracundia.
+               Nihil est, quod malim, quam illam totam familiam dari mihi obuiam, ut iram hanc in
+               eos euomam omnem, dum aegritudo haec est recens. Satis mihi id habeam supplicii, dum
+               illos ulciscar modo. Paridis animam antequam extinguerem ipsi, qui illud produxit
+               scelus, uah, quibus lacerarem modis: Sublimem medium arriperem, et capite primum in
+               terram statuerem, ut cerebro dispergat uiam. Helenae ipsi eriperem oculos: posthaec
+               praecipitem darem. Caeteros ruerem, agerem, raperem, tunderem, et prosternerem.</p>
+            <p><stage>MAR.</stage> Oppido oportune te obtulisti mihi obuiam Aristipe. Minaris audio. Quid causae
+               subsit non intelligo, quid est? quid trepidas? quid festinas mi Aristipe?</p>
+            <p><stage>ARIS.</stage> Hei mihi.</p>
+            <p><stage>MAR.</stage> Animum recipe.</p>
+            <p><stage>ARIS.</stage> Prorsus.</p>
+            <p><stage>MAR.</stage> Quid isthuc prorsus est?</p>
+            <p><stage>ARIS.</stage> Perii, actum est.</p>
+            <p><stage>MAR.</stage> Eloquere obsecro quid sit!</p>
+            <p><stage>ARIS.</stage> Iam.</p>
+            <p><stage>MAR.</stage> Quid iam Aristipe.</p>
+            <p><stage>ARIS.</stage> Paris.</p>
+            <p><stage>MAR.</stage> Quid Paris.</p>
+            <p><stage>ARIS.</stage> Alienus est a nostra religione. Impios nos proclamauit, Idololatras, iniquos,
+               indoctos: Quid multis? suasit Helenae, hinc ut se quamprimum exoluat placide.
+               Seductores quod hic, et homines nihili sient: item in ipso inferni medio constitutam
+               persuasit. Ego ista patiar? reformator orbis a Ioue Principe Deorum constitutus cum
+               siem. Mox ad Alexandrum ibo, narrabo, dicam singula, commonebo sedulo, excitabo
+               diligenter, e uestigio ut catenis aliquot uinctus in pistrinum detur: aut ego pro eo
+               molam: carceribus tandem mancipatus ut finiat uitam, exemplo omnibus.</p>
+            <p><stage>MAR.</stage> Bona uerba quaeso: Paris uir probus est, et ad grauitatem omnemque pietatem
+               compositus. Qui talia efutiuerit, credam ut, potis non sum, deliberandum proinde diu,
+               quod semel statuendum est.</p>
+            <p><stage>ARIS.</stage> Vale Marulle, uale, pro me cum statuas nihil.</p>
+
+         </div>
+         <div>
+            <head>Colloquium VI. De proposito huius Mundi.</head>
+
+            <stage>Aristipus Empedocles.</stage>
+
+            <p>Perpol quam paucos reperias fideles amicos: Vel hic Marullus, qui tantopere Paridem
+               defendit, apparebat quoties noster? quoties Helena sancte promittebat, ut quiuis
+               facile posset credere, nunquam religionem abnegaturam? Hem commigrauit.</p>
+            <p><stage>EMP.</stage> Ergo propterea te sedulo et moneo et hortor, ne cuiusquam misereat, quin
+               spolies, mutiles, laceres quenquam nactus sis.</p>
+            <p><stage>ARIS.</stage> Vtin excepissem hunc Paridem tam liberaliter nunquam Fercula delicatiora
+               absumpsit, et deuorauit omnia: Pocula hausit plurima, et euacuauit integra: Ecce quam
+               gratus, aufert qui animulam: corculum meum Paris aufert, Cauebo ne ab iis imposterum
+               decipiar.</p>
+            <p><stage>EMP.</stage> Nemo ad te uenerit scito, quin ita paret sese, abs te ut blanditiis suis, nihil
+               non consequatur. Hiscine tu amabo, non contra insidiabere?</p>
+            <p><stage>ARIS.</stage> Iam in mentem mihi uenit: Ioui uindicta et ipse retribuet. Iniurium est:
+               mittam.</p>
+            <p><stage>EMP.</stage> Iniurium autem est ulcisci aduersarios? ac qua uia captent te illi, eadem ipsos
+               capi? Eheu cur non aut isthaec mihi authoritas et facultas est, aut tibi haec
+               sententia? Fuistin cum Alexandro?</p>
+            <p><stage>ARIS.</stage> In aedibus quidem: sed miser effeci nihil: abfuit siquidem. Non pepercissem ego
+               autoritati, minus facultatibus: omnem sane intendebam animum res tota eius per
+               absentiam cecidit. Videres id mora nis accidisset, Paridem pulchre, turritis illis,
+               insidentem aedibus.</p>
+            <p><stage>EMP.</stage> Liceret si tua pace, confidentius non nihil dicerem.</p>
+            <p><stage>ARIS.</stage> Dic sodes.</p>
+            <p><stage>EMP.</stage> Trebonianum illum quam circumueneris ignoras?</p>
+            <p><stage>ARIST.</stage> Cui equos et famulum, ut hic otius dimoueretur concessi?</p>
+            <p><stage>EMP.</stage> Ipsum uolebam.</p>
+            <p><stage>ARIS.</stage> Noui plus satis.</p>
+            <p><stage>EMP.</stage> Eius tam subitum discessum in te omnes tranferunt. Itan' est?</p>
+            <p><stage>ARIST.</stage> Fatear rem ipsam, soli cum simus, Trebonianus ille doctissimus quod sit,
+               inficias iuerit nemo. Prudentia certare cum nemine non poterit: In consiliis dandis,
+               secundus nemini: In docendo cedit nemini: Tanta est eius uiri et autoritas et
+               doctrina. Hunc ego aduertissem cum primum apud Alexandrum summma pollere gratia: mihi
+               ne id noceret, prospexi. Scis mi Empedocles, me magi praestare quicquam non posse.
+               Adulari didici a primis annis, et artem ipsam calleo probe: Reliqua tanquam in mundum
+               minus necessaria, spreui. Nunc aetas alia, anni diuersi, mores mutati: senio
+               confectus quid agam. Postremum ut occupem locum non conseui, maiorem ut patiiar,
+               minus. Doctus fui nunquam: docti nomen hactenus simulaui semper. Disputare coram
+               mundo, scis quam ridiculum sit? Scire igitur et ignorare idem: imo praestat nescire:
+               ingenium quod minus oneratum, ad haec quae mundi sunt, reseruetur. Fingere sufficit
+               eruditionem: et uel toga referre. Improbas tu consilum? Iam cur uirubus totis, hunc
+               eiicere conatus sim intellextin?</p>
+            <p>EM. Ne tibi eximia eruditione incommodaret.</p>
+            <p><stage>ARIS.</stage> Illud est.</p>
+            <p><stage>EMP.</stage> Peccatum hoc, an iam olim Superis innotuisse diffidis? Hinc existimarem utique
+               hanc tuam calamitatem.</p>
+            <p><stage>ARIS.</stage> Loqueris quae non placent: et tu Vale.</p>
+
+         </div>
+         <div>
+            <head>Colloquium VII. De Imposturis huius Mundi</head>
+
+            <stage>Empedocles Mastinus</stage>
+
+            <p>Quanquam hoc inter nos colloquium, inceptum familiariter: ut uix coniunctiores quis
+               putasset: finitum quam praeter expectationem in confesso est. Reuera, obsequium
+               amicos, Veritas odium parit. Huic Aristipo nobili rustico, nihil placet, nisi suum.
+               Patitur quiduis: sed non extra suum compendium. Audacter eum et familiariter monebam
+               (quod ego in propinqua parte amicitiae puto) quod et praeter aetatem suam facere
+               uidebatur, et praeterquam res se abhortaretur sua. Nam pro deum atque hominum fidem,
+               quid sibi uelit? aut quid quaerit? annos sexaginta natus est, aut plus eo, ut
+               coniicio. Neque pudet eum circa res tam turpes uersari. Nunquam tam mane egredior,
+               neque tam uesperi domum reuertor, quin ipsum conspicer in libidinibus fodere, aut in
+               committendis amicis arare, aut aliquid iniqui ferre: denique nullum remittit tempus,
+               quin se respiciat, suaeque consulat cuticulae: Eccum Mastinum: sed ipsus est. Optatus
+               uenis mi Mastine.</p>
+            <p><stage>MAS.</stage> Quid noui?</p>
+            <p><stage>EMP.</stage> Ah quaeritas? Aristipus quam auidus sit, credis haud: iners rerum omnium quod
+               sit, hoc minus credis: ad obtrectandum et decipiendum quam promptus: ne id quidem
+               credis. Voluptatibus eum deditum, cum mundus noscat, credes forte: Sed cum alieno id
+               ut exerceat periculo, minime qui credas, arbitror. Trebonianum detulit: delatum
+               amouit, quam opera sua pepulit, equis denique propriis, cuius discessum maturauit:
+               hunc clam se subduxisse, etiam aput Alexandrum sparsit.</p>
+            <p><stage>MAS.</stage> Aristipus?</p>
+            <p><stage>EMP.</stage> Ipsus.</p>
+            <p><stage>MAS.</stage> Artifex quod sit noui.</p>
+            <p><stage>EMP.</stage> Mille,</p>
+            <p><stage>MAS.</stage> Multos ipse circumuenit: decepit multos: imposuit multis. Nostin? Dedali in
+               historiam quomodo se ingesserit?</p>
+            <p><stage>EMP.</stage> In Dedali historiam? more forte Pilati.</p>
+            <p><stage>MAST.</stage> Praeclaram facit eius mentionem admodum, et quae fidei apud omnes magnae est:
+               ei ideo autoritatis accessit plurimum.</p>
+            <p><stage>EMP.</stage> Mirum si boni quid iste agere possit unquam. Occasionem tamen, huius scripti
+               intelligere percuperem.</p>
+            <p><stage>MAS.</stage> licebit difficultate nulla: Dedalus uir celebris, et ad dicendum natus. Athenis
+               diu satis morabatur. Is rerum uicissitudinem in manus scribendam ubi sumpsisset:
+               Aristipo subito innotuit. Callidus Athenas profectus. Daedalum crebris inuitationibus
+               clementauit: corrupit pollicitationibus magnis: suasit et persuasit, credat ut somnia
+               et nugas iam olim conceptas, rem gestam.</p>
+            <p><stage>EMP.</stage> Stolidus quid egit Daedalus? rem ne tanti momenti existimabat, quae scriptis
+               posteritati commendetur?</p>
+            <p><stage>MAST.</stage> Intelligo quam teneas, quod uelim, minime. Aristipus sub praetextu Ixionis se
+               ipsum celebrauit. Arcana sibi concredita, rara et quae a nemine prodita sient,
+               affirmabat. Allexit Daedalum, utique oppido necessaria, suae inserat historiae.</p>
+            <p><stage>EMP.</stage> Daedalus ipsus audiuit?</p>
+            <p><stage>MAS.</stage> Imo extulit ad astra: ut lector non possit non in eius amicitiam pellici.</p>
+            <p><stage>EMP.</stage> Hinc illae lachrimae: haec illa est misericordia. Non abs re indelebilem se
+               toties gloriatus est.</p>
+            <p><stage>MAS.</stage> Heus dementiam audi Aristipi. Superiori anno Phrygiam peragrando, casu ne dicam
+               ex proposito ad Herneum Iunonis sacrificum diuertit. Mox historiam Daedali habeatne
+               inquirit. Accipit, euoluit, ac diligenter suam notat. Sub coenam, occasione arrepta,
+               Aristipi subinde egregiam mentionem facit: cuius ueluti nomen ad Herneum peruenerat
+               nondum: Deinde successiue adnotata loca, quibus celebratur aliud quasi agendo,
+               legenda obtrudit. Herneus proinde Aristipum aliquando uidere simul et sui, haud parum
+               desiderant. Tunc Aristipus procedit medius, ego, inquit, sum Aristipus. Attoniti
+               omnes ad uocem obstupescunt, ad genua prouoluuntur, adorant, agunt, promittunt,
+               tradunt se suaque omnia: Superis pro hoc tanto beneficio, illis qui Aristipi
+               praesentiam concesserint, gratias agere non desinunt perpetuas.</p>
+            <p><stage>EMP.</stage> Dignum monstrum.</p>
+            <p><stage>MAS.</stage> Monstrum fuit reuera, et apud eos rarum. Vidisses, risisses quasi anum aetate
+               desipientem: Impudentiam hominis derisisses Empedocles.</p>
+
+         </div>
+         <div>
+            <head>Colloquium VIII. De defectu huius Mundi.</head>
+
+            <stage>Aristipus Empedocles</stage>
+
+            <p>O Iupiter, ubi nam est fides? dum ego errans, patria careo demens, interea loci satis
+               collocupletatus in his deseruit malis: in summa infamia sum, et amicis minus
+               obsequens, cuius nunc pudet me et miseret: qui hosce mores cantabat mihi, monuisse
+               frustra, nec potuisse unquam ab his me dehortari: quod tamen nunc faciam: tum cum
+               gratum mihi esse potuit, nolui. Nemo est miserior me.</p>
+
+            <p><stage>EMP.</stage> Hic de nostris uerbis errat uidelicet, quae hic sumus locuti, aliter tuum amorem
+               atque est accipis: nam et uita est eadem et animus te erga idem, ac fuit: ac quantum
+               ex ipsa re coniecturam fecimus. Nonne ubi uentum ad aedeis est, nepos ipsius pultat
+               fores: anus quaedam prodit: haec ubi aperuit hostium, continuo hic se coniecit intro.
+               Anus foribus obdit pessulum: Glycerium uocat, pedibus ipsa aquam ut paret: Solus cum
+               sola, quid egerit?</p>
+
+            <p><stage>ARIS.</stage> Ecce reuertitur, quam non poteram Empedocles? at est, profecto est. Empedocles
+               fili, cur senem spretum et reiectum deseruisti?</p>
+
+            <p><stage>EMP.</stage> Bene habet: pax.</p>
+
+            <p><stage>ARIS.</stage> In te omnis mea spes, tu salus, tu meum denique solatium. Audiui te quo minus,
+               parce: Senio non nihil condona oro: te fili ut exorem patere.</p>
+
+            <p><stage>Emp.</stage> Iam demum egone tibi filius? fecisses id antea: non te in letitiam coniecisses
+               frustra. Quid est quod apud anum subtegmen quae nebat, cum ancilla texente una
+               agebas? pannis utique obsita, neglecta, immunda illuuie.</p>
+
+            <p><stage>ARIS.</stage> Sordidatam et sordidam uix habere, cum me aliae nolint, possum.</p>
+
+            <p><stage>Emp.</stage> Ita tui negliguntur internuncii?</p>
+
+            <p><stage>Aris.</stage> Disciplina est eisdem, munerarier ancillas primum, ad dominas qui affectant
+               uitam(?).</p>
+
+            <p><stage>Emp.</stage> Perge et caue ne falsam gratiam studeas inire.</p>
+
+         </div>
+         <div>
+            <head>Colloquium IX. De conatibus huius Mundi.</head>
+
+            <stage>Euphorbus Aristipus</stage>
+
+            <p>Non est opus prolato: hoc percontarier desinam, Diceret mihi ut latina, ea nempe
+               causa, id ne palam fieret, rogitabam. Ita me dii bene ament: haud propterea ipsam
+               uolebam, ut hoc proferam, sed ut tacitus mecum gaudeam. Ipsa continuo: Nunquam dices
+               tam commode, ut tergum meum Aristipi in fidem committam. Ego rursus ha noli Psaltria:
+               quasi non tu multo id malis quam ego quae perconter, scire. Illa mox: Heri uoluntas
+               cum primum pernoscenda, tum fidem mihi si das, te taciturum, dicam. Ita Dii deaeque
+               faxint, in rem nisi sit Aristipi, mouebo me otius, ac quid siet, quidue faxo, ordine
+               narrabo, sed uideone ego Aristipum? Vnde hic aduenit? Aristipe salue multum.</p>
+
+            <p><stage>Aris.</stage> O salue Euphorbe, ubi te oblectasti tam diu?</p>
+
+            <p><stage>Euph.</stage> Minime equidem me oblectaui, occupatus huc usque in re tua.</p>
+
+            <p><stage>Aris.</stage> Quid est quod tantopere tibi sum curae: quando Helena et solatium illud cum
+               ipsa hinc? Senex quod siem, non uides? uxorem ducere iam olim expediebat, cum et tu
+               idem orare occeperas.</p>
+
+            <p><stage>Euph.</stage> Quid malum, Helenae toties mentionem factitas? pulchriorem longe uidi, noui, et
+               hucusque, tibi ut placeat, egi.</p>
+
+            <p><stage>Aris.</stage> Amabo, ubi?</p>
+
+            <p><stage>Eup.</stage> Bono animo, intelliges iamiam.</p>
+
+            <p><stage>Aris.</stage> Quid iamiam adhuc me detines?</p>
+
+            <p><stage>Euph.</stage> quam impatiens es, neque ut respirem placet. Latina est haec nomine, cum Vlysse
+               moratur.</p>
+
+            <p><stage>Aris.</stage> Ex Latio?</p>
+
+            <p><stage>Euph.</stage> Non sed linguam quod teneat sic ideo denominatur.</p>
+
+            <p><stage>Aris.</stage> Audio.</p>
+
+            <p><stage>Euph.</stage> Apud eam peius audiebas, priusquam omnem ego ei scrupum ademissem. Res salua:
+               consensus facilis: Herum ut conueniam res est. Quod sedulo curatum ut fiet, enitar.
+               Tu hic hortulanum habes, paulo iuniorem: fac equitem pulchre ornes, peditemque
+               adiungas, hunc uiderit ubi, te mox praesentem suspicabitur. Capta amore iunioris, ad
+               te seniorem facilius pellicietur. Iuuenculis innatum fere cum siet, neminem ut senem
+               ferant.</p>
+
+            <p><stage>Aris.</stage> Consilium ex animo: periculum in mora ne sit, ehem Daue equum festinans
+               conscendas, puerum tecum sumas, et modo quae audisti, fideliter exequere.</p>
+
+         </div>
+         <div>
+            <head>Colloquium X. De uanitate huius Mundi.</head>
+
+            <stage>Euphorbus Aristipus</stage>
+
+            <p>Eheu miserum Dauum, parum quam abfuerit, quin plus sexaginta colaphos acceperit.
+               Accessit ad aedes simulator egregius, credidit Psaltria Aristipum esse, seruolum
+               quoque ipsius, simul et equum: perplacuit. Aliquot ibi diebus haesit, Haero absente
+               nil minus cogitans quam ut propositum labefactetur. Ego cum ad dicendum uenissem
+               offendi herum implacabilem, morosum, male compositum, et qui uerbera moliretur. Vix
+               euasi manus furientis: Dauus itidem et marsupio releuato, eques, aliquot tamen
+               acceptis plagis, saluti suae consuluit. Herus Psaltriam despondit extero nemini:
+               Tundendo, coniicio, atque odio haec fieri. Referamne id Aristipo? Non poterit non
+               infoelix senex moleste isthuc ferre.</p>
+
+            <p><stage>Aris.</stage> Eho Euphorbe an non habes?</p>
+
+            <p><stage>Euph.</stage> Vtique.</p>
+
+            <p><stage>Aris.</stage> Psaltriam?</p>
+
+            <p><stage>Euph.</stage> Nequaquam.</p>
+
+            <p><stage>Aris.</stage> Quid ergo?</p>
+
+            <p><stage>Euph.</stage> Caput depexum, et tergum dedolatum.</p>
+
+            <p><stage>Aris.</stage> Occidi, quid ita?</p>
+
+            <p><stage>Eup.</stage> Oleum et opera incassum. Virginis consensum remoratur Herus. Excepit me, et
+               paulo melius Dauum, suo pro more.</p>
+
+            <p><stage>Aris.</stage> Quis hic mos?</p>
+
+            <p><stage>Euph.</stage> Fustuarius, nam glebis ac fustibus Dauum, de fundo praecipitem egit: ego
+               baculum uix euasi. Circa illum sedulo occupatus dum esset: me clam subduxi, uxorem
+               tibi neque ego, neque ille in posterum quaesituri.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XI. De immortali uerme ipsa uidelicet conscientia huius Mundi.</head>
+
+            <stage>Aristipus, Euphorbus</stage>
+
+            <p>Quid ego egi? in quod me conieci malum? non potero hoc ferre: perii miser. Vt ipsum
+               dii deaeque perdant cum isthoc odio. Non poterat famae parcere, aetati uel ipsi?</p>
+
+            <p><stage>Euph.</stage> Tute causa haud postrema Aristipe pudens quae sit, modesta, incommoda, atque
+               iniurias uiri omnes ferre et tegere contumelias didicit, tibi contingere uix unquam
+               poterit: nisi tu ante omnia talis sies.</p>
+
+            <p><stage>Aris.</stage> Quid est quod in me desideratur?</p>
+
+            <p><stage>Euph.</stage> Ego sane nihil. Mihi aptus sane atque idoneus es: sed qua in existimatione apud
+               caeteros uerseris, et id manifestum est.</p>
+
+            <p><stage>Aris.</stage> Igitur uulgus de me opinionem malam concepit? quamobrem?</p>
+
+            <p><stage>Euph.</stage> Scire cupis: dicam ferre si potes.</p>
+
+            <p><stage>Aris.</stage> Quidni? </p>
+
+            <p>Tu mihi Aristipe a natura ita es comparatus, ut de nemine recte sentias, nemini bene
+               dicas: quid mirum si peius audias? Detulisti pium uirum Homerum apud Alexandrum: Item
+               Virgilium non minus uirum bonum et doctum, causae quid erat? nisi quod alter tibi
+               suos labores, alter operam denegarit importuno. Conatus es officio et beneficio
+               deiicere, quos plus uiginti annos Litium aluit. Trebonianum praetereo, de quo tu ipse
+               paulo ante plurima. Pari modo, iniurias non pauciores multis inferre consueuisti.
+               Miraberis nihil, tibi si eueniat idem. Concitasti aduersus te tam maximos quam
+               minimos, et aliis tua malitia haud parum incommodasti. Dubitauero nihil, hos tuos
+               mores innocentibus etiam nocituros. Iam intelligere si uoles, tua utique culpa.
+               Clarius ubi uoles mox audies.</p>
+
+            <p><stage>Aris.</stage> Detuli homines istos, fateor: imo longe plures, quid tum postea? uxorem ideo
+               negant? causa est, scilicet. Nostin' me hominem mundanum? Virtus omnis apud me probro
+               datur, quid mirum, bonos si detester. Vxorem expeto, non ob uirtutem: potius ut
+               uoluptatem expleam. Haec palam quando sint, et naturae meae peroptume conueniant:
+               uideris nodum in scirpo quaerere. Risum uix teneo. Detulisti, inquis, Vxorem ergo non
+               duces.</p>
+
+            <p><stage>Euph.</stage> Philosopharis Aristipe? rides uera dicentem? flagitium omne laudi ducis? haec
+               sic omnia rebar iam olim futura. Tegere ego tot adulteria et stupra a te commissa
+               uolebam: ideo aliunde etiam longius petitas rationes attuli. Quoties digressas a
+               marito post biduum statim duxistis? commisisti probrum uirginum uestalium quoties?
+               capite utique, etiam lege permulgata, puniendum. Factum simul atque uoces probosae,
+               passim perstrepunt ubique. Duxeras illam, ad hanc quotidie interea ibas. An non ut
+               fit, postquam te alienum altera ab sese uidet, maligna multo et magis procax fit
+               illico? Non aedepol mirum uirgines honestae, te si fugiant, si neque parentes
+               consensum admittant. Ea res multo maxime disiunxit te ab illa, postquam et illam, et
+               hanc quae domi erat, cognouisses satis, ad exemplum ambarum mores omnium existimans.
+               Primum dies complusculos bene conueniebat sane inter eas, interim miris modis odisse
+               cepit Glycerium: neque lites ullae inter eas, postulatio nunquam. Si quando ad eam
+               accesserat confabulatum, fugere e conspectu illico, uidere nolle: denique ubi non
+               quit pati simulat nunc hoc, nunc illud. Haec deterreant quam homines, iudica ipse. A
+               conuersatione omni arcent reuera.</p>
+
+            <p><stage>Aris.</stage> Egone culpam alienam et fortunam praestare possum? dissident amasiae meae:
+               utique me inscio. Possem eas saltem muneribus, si non uiribus conciliare.</p>
+
+            <p><stage>Euph.</stage> Ah Aristipe, quam te ubique turpiter dare, consueris. Soli iam sumus sub rosa
+               haec dicier putamus: omnibus reuera notissima. Atque hoc ipsum in te aduersarii
+               criminantur. Vnam tibi sufficere aiunt debere, nisi lasciua te iamdudum perdidisset
+               libido. Mos hic non cynicus, humanus scias, est. Vxorem ducere humano: non canino
+               more, leges admittunt. Honestatem promouent et tuentur: tibi aduersam. Vtque uno
+               uerbo quod concepi edisseram corrumpere multas soles, atque libidine expleta,
+               negligere. Id ferre Europa nequit: ac ideo potissimum, et tibi et tuis, gnatas
+               despondebit nemo.</p>
+
+            <p><stage>Aris.</stage> Rursus soloecismum facis. Ego si talis: meus aliis quomodo oberit mos?</p>
+
+            <p><stage>Euph.</stage> placet modeste de omnibus ut conferamus. Rem proinde in controuersia quae est,
+               expendamus. Tuorum quispiam duxit cum primum uxorem, cubuerit cum ea te prior quis?
+               Nomine ille: tu reuera maritus, aut dicere ut solent, adulter.</p>
+
+            <p><stage>Aris.</stage> Vulgo haec uersarier, non uerisimile, neque uerum arbitror.</p>
+
+            <p><stage>Euphor.</stage> Zorostes ille, cui Glycerium obtrusisti, narrat uirginem a se haud inuentam.
+               Quin itidem reddere ut acceperat a suis cunctabatur. Quis obsecro uidit spatio duorum
+               mensium partum muliebrem? Glycerium ecce peperit.</p>
+
+            <p><stage>Aris.</stage> Scio.</p>
+
+            <p><stage>Euph.</stage> Sciunt et alii te nuptias illas maturauisse, aegritudinem quod uerebare.
+               Peperisset ubi aedibus in tuis: mox paralisin peperisset tibi, cum dedecore.</p>
+
+            <p><stage>Aris.</stage> Accedo. Testatur id haec quae modo puerperium misera pistrino in ipso celebrat.
+               Lesbia et ipsa anxie perplexa aedibus detinetur ingratis. Spero tamen utramque
+               euasuram: non sine periculo, utinam et istius Mastinus paranymphus fuisset.</p>
+
+            <p><stage>Euph.</stage> Iam igitur dispice, gnatam quis tibi credet? quis fidei tuae mandabit.</p>
+
+            <p><stage>Aris.</stage> Recte ais, sed obsecro Euphorbe audi attentius. Nondum spes prorsus omnis
+               oblata est. Pollux ille Gynaeceum habet bene institutum: promisit dudum uxorem, age,
+               isthic forte melius succedet res.</p>
+
+            <p><stage>Euph.</stage> Ridebit et irridebit sat scio: quorsum euenturum hoc siet habeo: pergam tamen
+               quo coepit hoc iter.</p>
+
+            <p><stage>Aris.</stage> Dii uortant bene quod agis.</p>
+
+            <p><stage>Euph.</stage> Vale.</p>
+
+            <p><stage>Aris.</stage> Et tu bene uale Euphorbe.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XII. De refugio huius Mundi.</head>
+
+            <stage>Euphorbus Marullus</stage>
+
+            <p>Pro Deum atque hominum fidem, quod hoc genus est? quae haec coniuratio? ut omnes
+               mulieres eadem aeque studeant, nolintque omnia: neque declinatam quicquam ab aliarum
+               ingenio ullam reperies. Ecce Pollux beneuolus, mitis, pius, et placidus, astuta autem
+               illa, quam continuo Aristipi depinxerit mores. Perturbauit omnia, ut non sit dubium,
+               etiam hac spe Aristipum excidisse. Verum toto in corpore iuris, unico adhuc animabor
+               diuerticulo. Hic Mastinus cognatus Pollucis est, pronubum si habere eum possem: salua
+               quidni omnia essent? Eccum Mastinum: te ipsum o Mastine optabam.</p>
+
+            <p><stage>Mast.</stage> Quid agitur? Rei quid?</p>
+
+            <p><stage>Eup.</stage> Recte omnia te uero desiderabam plurimum.</p>
+
+            <p><stage>Mast.</stage> Quamobrem?</p>
+
+            <p><stage>Euph.</stage> Mastine optime, te ab adolescentia rebus honestis deditum noui, et patrocinari
+               omnibus qui pietatem sectantur. Aristipus deploratus senex, resipiscere proposuit
+               certo, et ad uirtutem probitatemque redire quo cauetur deinceps ne quid indecore
+               effoeminate, libidinose, turpiter fiat, cogiteturue.</p>
+
+            <p><stage>Mast.</stage> Inauditum hoc et plane nouum.</p>
+
+            <p><stage>Euph.</stage> Cupit proinde pronubus ut hic sies. Hem uirginem apud Pollucem, affinem tuum,
+               quam liberali facie, quam aetate integra? eam si tu uoles adiutare, habebit.</p>
+
+            <p><stage>Mast.</stage> Egone auspex ero? ac denuo ab isthoc decipier me sinam? Necdum sufficit
+               turpiter, quam ab eo circumuentus antea siem?</p>
+
+            <p><stage>Euphor.</stage> Me id latet prorsus.</p>
+
+            <p><stage>Mast.</stage> Quid prorsus? Nostin adolescentem tectoris filiam ambiuisse olim?</p>
+
+            <p><stage>Euph.</stage> Vtique.</p>
+
+            <p><stage>Mast.</stage> Huic despondit Glycerium iam pregnantem: me Paranymphum exorauit. Putas eo tum
+               mihi ignominiae parum accessisse? Denuo me in pristinum ut det, uoles?</p>
+
+            <p><stage>Euph.</stage> Iniquus tum fuit: iam porro resipuit.</p>
+
+            <p><stage>Mast.</stage> Aut desipuit rectius.</p>
+
+            <p><stage>Euph.</stage> Caste nunc uitam transigere instituit.</p>
+
+            <p><stage>Mast.</stage> Naturam si expellas furca: tamen usque recurrit.</p>
+
+            <p><stage>Euph.</stage> Non audebit: familia haec magna est.</p>
+
+            <p><stage>Mast.</stage> Demens mihi uidere, Euphorbe, qui Pollucis nobilissimam prosapiam ita
+               prostituendam existimas. Fiet nunquam, ne in somniis quidem, quod concepisti, ut
+               obueniat.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XIII. De diuersitate huius et illius Mundi.</head>
+
+            <stage>Euphorbus Empedocles</stage>
+
+            <p>Lassus oppido hic mihi Mastinus uidetur, eo quod cupio non admittit. Aristipi esse
+               illi mores, morbum magis quam ullam aliam rem arbitror. Et merito adeo, nam ad rem
+               iniquam toties exoratum habuit, ut ne mihi quidem consultum, qui repetam idem
+               uidetur. Ducere uxorem simulat Aristipus, ut quae sibi placita conditio est, detur.
+               Alieno ducere impulsu cupit, eodem ut exigat. Etsi scio ei ius esse, ut me cogat,
+               quae imperarit facere: neque enim eius libidini aduersari queo: At efficere potis cum
+               minime siem, quid est, quod agam? Atque eccum Empedoclem optume uideo: ex hoc iam
+               scibo quid siet. Empedocles non dubito quin scias me Aristipo esse apprime
+               obsequentem. Hac tamen in re facilitas mea nullius corrumpat animos.</p>
+
+            <p><stage>Emp.</stage> Quid noui?</p>
+
+            <p><stage>Euph.</stage> Noui quid sit quaeris? Te isthaec latere debent, quem in Aristipi potestate
+               esse uideam?</p>
+
+            <p><stage>Emp.</stage> Eia uero.</p>
+
+            <p><stage>Euph.</stage> Adii Mastinum heri de uirgine Pollucis: ut ueni, effeci nihil. Quid uis
+               Aristipo dicam?</p>
+
+            <p><stage>Emp.</stage> Verum ut fatear Mastinus grauiter est saepe ab Aristipo laesus. Non mirabere
+               difficilior si appareat: causam certe Aristipo ut bene faciat, quod sciam habet
+               nullam: male rependendi maximam.</p>
+
+            <p><stage>Eup.</stage> Quid ita?</p>
+
+            <p><stage>Emp.</stage> Quam omnia enarrare, dies nos prius deficiet, possem.</p>
+
+            <p><stage>Eup.</stage> Innue saltem.</p>
+
+            <p><stage>Emp.</stage> Habes.</p>
+
+            <p><stage>Eup.</stage> Partum illum atque hunc?</p>
+
+            <p><stage>Emp.</stage> Accepisti.</p>
+
+            <p><stage>Euph.</stage> Laudo hanc <sic>tuam astutium</sic>.</p>
+
+            <p><stage>Emp.</stage> Et ego <sic>calliditatem tuum</sic>.</p>
+
+            <p><stage>Euph.</stage> Pol quam uterque uersutus.</p>
+
+            <p><stage>Emp.</stage> Imo cautus.</p>
+
+            <p><stage>Euph.</stage> Certe non ars, aut astus, uel dextra deerat.</p>
+
+            <p><stage>Emp.</stage> Ita fit ut tua ista ratio existimetur astuta, meum hoc consilium
+               necessarium.</p>
+
+            <p><stage>Euph.</stage> Cedo.</p>
+
+            <p><stage>Emp.</stage> Nec fallaciam astutiorem ullus fecerit.</p>
+
+            <p><stage>Euph.</stage> Age dic.</p>
+
+            <p><stage>Emp.</stage> Certe non aperti, non simplicis, non ingenui, non iusti, non uiri boni: sed
+               uersuti potius, obscuri, astuti, fallacis, malitiosi, callidi, ueteratoris,
+               uafri.</p>
+
+            <p><stage>Euph.</stage> Quorsum isthaec?</p>
+
+            <p><stage>Emp.</stage> Quasi ignores.</p>
+
+            <p><stage>Euph.</stage> Aristipum nisi intelligas.</p>
+
+            <p><stage>Emp.</stage> Ipsus est quem depingo.</p>
+
+            <p><stage>Euph.</stage> Itan me purgabo? hanc adferam causam abnegatae sponsae?</p>
+
+            <p><stage>Emp.</stage> Vtique. Imprecabitur ipse mihi omnia mala.</p>
+
+            <p><stage><sic>Emp.</sic></stage> At in ipsum redundabunt. Partus uterque crebrior mentem occupet tuam optarem.
+               Ita omnes sponsas iam olim prostituendas statuit. Deest nihil quam ut Mastinus
+               Paranymphus proxime fuisset: implesset nuptias.</p>
+
+            <p><stage>Euph.</stage> Clarius sodes.</p>
+
+            <p><stage>Emp.</stage> Peperit ipsa noctu: mox Aristipus partum ut dissimularet, paralisin simulauit.
+               Postea Cerealia a Triptolemo instituta siue Thesmophoria, quae et Adonia nuncupantur
+               fieri curauit.</p>
+
+            <p><stage>Euph.</stage> Quid sibi hoc ludo uoluit.</p>
+
+            <p><stage>Emp.</stage> Vt facilius excusaret facinus.</p>
+
+            <p><stage>Euph.</stage> Quid ad haec Artemisii?</p>
+
+            <p><stage>Emp.</stage> Dinus inter caeteros monuit eum humanae fragilitatis, mox cui Aristipus Vale,
+               uale, Dine, inquit.</p>
+
+            <p><stage>Euph.</stage> Quaeso edissere quid est, quod Mastinum tantopere oderit?</p>
+
+            <p><stage>Emp.</stage> Pronubus quod non sit factus, et facinus tectum.</p>
+
+            <p><stage>Euph.</stage> Detectum ergo?</p>
+
+            <p><stage>Emp.</stage> Maxime. Ipsa una cum Sophrona in pistrino molit.</p>
+
+            <p><stage>Euph.</stage> Puerpera?</p>
+
+            <p><stage>Emp.</stage> Res mirabilis. Peperit ipsa: At Aristipus puerperium sustinet.</p>
+
+            <p><stage>Euph.</stage> Res noua.</p>
+
+            <p><stage>Emp.</stage> Inaudita sane.</p>
+
+            <p><stage>Euph.</stage> Qui id potuit fieri?</p>
+
+            <p><stage>Emp.</stage> Nec dum intelligis? peperit Bachis, utque tegeret facinus dissimulauit, prodiit
+               in forum pro more, uenter conspicitur subito mutatus, uicinae omnes mirantur, uarius
+               sermo circumfertur, interea pro Bachide Aristipus decumbit.</p>
+
+            <p><stage>Euph.</stage> Haec forte secus habentur.</p>
+
+            <p><stage>Emp.</stage> Res est quam narro. Paulo post enim Sophrona purificationi prolem obtulit,
+               finxit patrem simul et matrem. Innotuit fraus. Inquisitioni adhibita proinde Sophrona
+               rem patefecit Bachis ne prodat senem Charino scelus adscribit Tandem Aristipo
+               obtruditur, nemo quod uolebat.</p>
+
+            <p><stage>Eup.</stage> Iustene?</p>
+
+            <p><stage>Emp.</stage> Proletario infelici.</p>
+
+            <p><stage>Eup.</stage> Quid ad haec Alexander?</p>
+
+            <p><stage>Emp.</stage> Quid uis ut agat? taedet pudetque: ferat tamen quem hucusque tulit
+               clementia.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XIIII. De quaerela huius Mundi et huius rabie</head>
+
+            <stage>Mastinus Facinus</stage>
+
+            <p>Aedepol ne quam huic Aristipo inique aeque omnis probus est inuisus, propter
+               iustitiam, dignos malo qui cupiat. Nam (ita me ament dii) quod me accusat nunc iste,
+               sum extra noxiam. Ita animum induxit, ut siem iniquus, haud pol me quidem: nam
+               nunquam secus habui illum, ac si ex eo essem natus: nec qui hoc mihi eueniat scio.
+               Fui proxime cum Polluce, detulit me ibi, irritauit, et sic ad iracundiam prouocauit:
+               ut omnes affirmarent infestius Pollucem exarsurum. Quid? nemo est tam mitis, quin
+               exacerbescat. Affinem hunc mihi negauit, rem tectam protulit: Sed quae tam aperta est
+               ut palliari nequeat, suarum quae sunt partium duntaxat personat. Ita pol fratrem
+               multis iam modis expecto, ut redeat domum.</p>
+
+            <p><stage>Faci.</stage> Nemini ego plura acerba esse credo ex studiis unquam oblata, quam Mastino
+               fratri, heu infelicem hanccine uitam parsit perdere? haccine causa ego eram tantopere
+               cupidus redeundi domum? Cui quanto fuerat praestabilius ubiuis gentium agere aetatem,
+               quam huc redire, atque haec ita esse resciscere.</p>
+
+            <p><stage>Mas.</stage> Eccum Facinum, Salue frater.</p>
+
+            <p><stage>Fac.</stage> Et tu salue</p>
+
+            <p><stage>Mas.</stage> Quid noui?</p>
+
+            <p><stage>Fac.</stage> Mali satis.</p>
+
+            <p><stage>Mas.</stage> Quid ita?</p>
+
+            <p><stage>Fac.</stage> Omnes nos quibus est alicunde aliquis obiectus labos, omne quod est interea
+               tempus, priusquam id rescitum est, lucro est.</p>
+
+            <p><stage>Mast.</stage> At sic citius qui te expedias his aerumnis, reperias.</p>
+
+            <p><stage>Fac.</stage> Aerumnae istae non meae: tuae potius sunt.</p>
+
+            <p><stage>Mas.</stage> Eho nunquid nam accusat me Aristipus.</p>
+
+            <p><stage>Fac.</stage> Etiam diffamat.</p>
+
+            <p><stage>Mast.</stage> Quid malum? quae istum dementia coepit? quid feci? commerui quid?</p>
+
+            <p><stage>Fac.</stage> Fuit apud me quidam ex suis.</p>
+
+            <p><stage>Mas.</stage> Forte Symbulus.</p>
+
+            <p><stage>Fac.</stage> Engonus est.</p>
+
+            <p><stage>Mast.</stage> Ipsum uolebam.</p>
+
+            <p><stage>Fac.</stage> Symbulus non fuit. Ergo crine ruber, niger ore breuis pede, lumine laesus.</p>
+
+            <p><stage>Fac.</stage> Ipsus.</p>
+
+            <p><stage>Mas.</stage> Quaeso quid est quod uoluit?</p>
+
+            <p><stage>Fac.</stage> Conquestus est de tua phreniti.</p>
+
+            <p><stage>Mast.</stage> Frater, Phreneticus non sum, nec opus lacte mulieris habui unquam. Aristipus
+               paraliticus seu potius puerper, hoc eget remedio.</p>
+
+            <p><stage>Fac.</stage> Scio tibi illaesam esse mentem: sed miror quod feratur Aristipus cum suis ad
+               tantam insaniam furoremque, crediderim ei flauam bilem esse ualde adustam, et
+               membranulas quas meningas uocant uehementer inflatas.</p>
+
+            <p><stage>Mast.</stage> Reuera neque pallida est, neque flaua simpliciter.</p>
+
+            <p><stage>Fac.</stage> Ideo deterrima.</p>
+
+            <p><stage>Mas.</stage> Tu quid respondisti?</p>
+
+            <p><stage>Fac.</stage> Dimisi uacuum, inflatum, superbum, elatum, turgidum, tumidumque.</p>
+
+            <p><stage>Mast.</stage> Factum belle.</p>
+
+            <p><stage>Fac.</stage> Multa ex me arcana si quae audiuissem ex Aemilio sciscitabatur, opinor
+               stolidus.</p>
+
+            <p><stage>Mast.</stage> Excors utique et stupidus.</p>
+
+            <p><stage>Fac.</stage> Circumferebat carmina quaedam impressa, tuisque parasematis anexa.</p>
+
+            <p><stage>Mast.</stage> Ille impius?</p>
+
+            <p><stage>Fac.</stage> Audisti.</p>
+
+            <p><stage>Mast.</stage> Furcifer est, res meas si impressit, me inscio.</p>
+
+            <p><stage>Fac.</stage> Imo aduersus te quaedam Cholus ille, nomine Aristipi scribere instituit.</p>
+
+            <p><stage>Mast.</stage> Vtinam.</p>
+
+            <p><stage>Fac.</stage> Arrogantiam in te reprehendit.</p>
+
+            <p><stage>Mas.</stage> Me id latet.</p>
+
+            <p><stage>Fac.</stage> Turrenum te non Turnum concedit.</p>
+
+            <p><stage>Mas.</stage> Ergo quid intersit inter primitiuum et deriuatiuum ignorat.</p>
+
+            <p><stage>Fac.</stage> Affinitatem Pollucis adimit.</p>
+
+            <p><stage>Mas.</stage> Pollucis iniuria, suoque damno et malo.</p>
+
+            <p><stage>Fac.</stage> Haec sunt mecum quae actitauit.</p>
+
+            <p><stage>Mas.</stage> Miror haud parum, istum insolescere. Vbi rediero, hae irae fient multo
+               ampliores. Re cognita, ira expedita: neque in gratiam restitui patiar. Leuia non sunt
+               haec, quae ego per grauia in animum induxi meum.</p>
+
+            <p><stage>Fac.</stage> Videne reconciliationis in te aliqua fiet mora neue grauiter aduersus te Iouem
+               concilies.</p>
+
+            <p><stage>Mas.</stage> Ah quid crucias me? an quisquam usquam gentium est aeque turbatus? Ecce Dinum
+               meditatum et grauem, reconciliationis actorem instituit: interea quid sceleris non
+               perpetrauit?</p>
+
+            <p><stage>Fac.</stage> Quid audio</p>
+
+            <p><stage>Mas.</stage> Rem ipsam.</p>
+
+            <p><stage>Fac.</stage> Valeat iste Moraus cum suis imposturis.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XV. De suspitione iniqua huius Mundi, et quod nihil non conuasare
+               soleat.</head>
+
+            <stage>Marullus Mastinus</stage>
+
+            <p>Mastinum in crimen uocauit Aristipus, noui: ego uero, opinor propter conuersationem
+               Mastini, in magnum malum ueni. Ad me introisse ipsum, illico Aristipo dicebant,
+               quoties uidissent. Comminiscebantur tulisse aliquid mali capiti Aristipi, atque
+               aetati eius, et morbum auctum. Quid mirum? mali sibi quia conscius, de se dicier
+               putat omnia. Proinde inuisos omnes nos illi iam pridem sensi. Id uitare qui cupit, ei
+               non usus facto est, ipsum unquam intro sequi, uel admittere.</p>
+
+            <p><stage>Mas.</stage> Marullum uocem intendere percipio praeter solitum: cesso hinc ire intro, ut hoc
+               quam primum, quicquid est, certum sciam?</p>
+
+            <p><stage>Maru.</stage> Ecce lupus in fabula, teipsum uolebam Mastine.</p>
+
+            <p><stage>Mas.</stage> Quonam modo Marulle mi, nunc te offendam affectum? Nam si periculum ullum in te
+               est, perisse me una haud dubium est.</p>
+
+            <p><stage>Mar.</stage> Aristipo incommodaui nunquam: profui semper. Familiaritatem cum primum perspexit
+               nostram: a maledicendo sibi temperare potis est quando? inuersum mihi cerebrum,
+               truncum me et stipitem: imo plumbeum passim ubique spargit, nulla mea culpa.
+               Paralisin suam tantopere celebrat: ut malit eo in morbo consenescere, quam mores meos
+               ferre. Hoc praemium laborum meorum, has gratias, hoc acceptum refert. Importunitatem
+               ego ipsius, quin immanitatem toties tuli: molestiam eius et impudentiam consului:
+               fuit senex abominandus semper, quem tantopere obseruaui: frustra? En animal ex omnium
+               scelerum importunitate, et omnium flagitiorum impunitate concretum.</p>
+
+            <p><stage>Mast.</stage> Marulle noua isthaec nulla: apud omnes, et omnibus idem Aristipus. Facinum
+               fratrem meum Aemilio gratissimum, Theophilum eidem charissimum, doctissimos uiros, a
+               quibus omne humanitatis et hospitalitatis officium acceperat, maximis calumniis
+               affecit. Hunc ne iura quidem legere posse: illum Epicurum indoctum promulgauit: me
+               uero iuuenem ignarum, Aemilii tamen sapientes. Propterea Aemilium talem iudicauit:
+               quales aleret: nempe indoctum, Epicurum, iuuenem, imprudentem, etc. Cessabis ergo
+               mirari tibi si quid euenerit: quippe qui neque illis parcit a quibus praeter
+               humanitatem eximiam etiam munera amplissima habuit. Heus in Sarmatia optimi uiri
+               Hegionis filium ignobilem reddere nitebatur, de se optime meritum. Audi et hoc: ex
+               Sarmatia ad Mausolum profectus. Marios ambire, sorores ipsius narrauit, a quo bene
+               onustus ubi rediret. Ecce alter Mariorum Maximini filiam in uxorem duxit. Vides
+               quibus non illudat? Ex Aemilio Dardanarium facere conabatur: ignoras? Itaque praestat
+               illum te calumniatorem habere. Obtrectationes cuius laudes sunt: contra laudes,
+               uituperia exquisita.</p>
+
+            <p><stage>Marul.</stage> Ego tamen illi non desinam uel ex officio gratificari: quamuis cauebo ne in me
+               iure quae spargit, quadrent.</p>
+
+            <p><stage>Mast.</stage> Nosti Phrygium.</p>
+
+            <p><stage>Mar.</stage> Optime.</p>
+
+            <p><stage>Mas.</stage> Huic uiro optimo imposuit iste helluo: nostin?</p>
+
+            <p><stage>Marul.</stage> Aliquot drachmas auri in usum Iouialem Phrygio tradendos, ipse retinuit: putas
+               hoc?</p>
+
+            <p><stage>Mast.</stage> Boni uiri officium eum praestitisse quis asseret? furtum imo sacrilegium
+               est.</p>
+
+            <p><stage>Marul.</stage> Res utique impia. Sed constant isthaec?</p>
+
+            <p><stage>Mast.</stage> Vtique.</p>
+
+            <p><stage>Marul.</stage> Obsecro.</p>
+
+            <p><stage>Mast.</stage> Ducentos aureos ab Alexandro accepit: at in usum publicum quadraginta saltem
+               exposuit.</p>
+
+            <p><stage>Marul.</stage> Vbi reliqui?</p>
+
+            <p><stage>Mas.</stage> Reconditi ab eo ne Solem uideant.</p>
+
+            <p><stage>Marul.</stage> Sacrilegium istuc sane.</p>
+
+            <p><stage>Mast.</stage> Imo et Pollux in piam hanc operam contulit quinquaginta argenteos: quos
+               Aristipus prioribus adiunxit. Phrygius quoque nobilis uiginti quinque dedit: et ipsos
+               associauit suis: Phrygia ipsa ducentos porrexit. Sed Phrygii in manus peruenerunt, et
+               recte distributi sunt. Tamen etiam inde habere decimas contendebat. Nam octuaginta
+               sub mirabili praetextu petebat, sed frustra. Praesensit namque pius uir dolum, ideo
+               negauit. Plura sunt in eum usum a piis contributa: conuersa autem in abusum. Si
+               fraudem inspicias, qua Pollucem circumuenerat, miraberis. Equum, famulum sumptus
+               insuper extorsit, ut Iouialia transmitterentur in Phrygiam. At Thebis Aristipus
+               uendidit equum et retulit in suum fiscum ut etiam sumptus Phrigiae Socrates soluere
+               coactus sit. Ita huic horum nihil est adeo curae, quam immensos corradat ut
+               Thezauros.</p>
+
+            <p><stage>Mar.</stage> Fructus isti dedecent Phygam.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XVI. De cura huius Mundi.</head>
+
+            <stage>Euphorbus Aristipus</stage>
+
+            <p>Nescio quid iam dudum hic audio tumultuari: male metuo ne Aristipo magis morbus
+               aggrauescat: Quod te Aesculapi, et te salus, ne quid sit huius, oro. Nunc ad eum
+               uisam. Salue Aristipe huius mundi unice, et amphora Bachi atque Veneris
+               celebratissima.</p>
+
+            <p><stage>Arist.</stage> Gaudeo uenisse saluum, Saluane Venus?</p>
+
+            <p><stage>Euph.</stage> Meliuscula est.</p>
+
+            <p><stage>Aris.</stage> Vtinam ithuc ita Dii faxint. Porro Bachus quomodo?</p>
+
+            <p><stage>Euph.</stage> Exhaustus fere. Vasa continent parum: uineae praeter expectationem:</p>
+
+            <p><stage>Aris.</stage> Bono animo Euphorbe ne hac in parte quaeraris, curabo: tuum est res meas ut
+               cures.</p>
+
+            <p><stage>Euph.</stage> Sedulo. At propter Latinam sollicitus, ne sies. Colaphos plurimuos Dauus
+               accepit atque ego fustes euasi uix. Species illa spectat alio.</p>
+
+            <p><stage>Aris.</stage> Nulla ergo praesentium euasio periculorum, futurae securitatis optimorum quae
+               faciat datur?</p>
+
+            <p><stage>Euph.</stage> Autoritas tua ibi corruit: uirtus ut nulla extet.</p>
+
+            <p><stage>Aris.</stage> Quid? Non sciunt ipsi: omnes mihi cedere fortunis, corporibus, imo animis
+               ipsis?</p>
+
+            <p><stage>Euph.</stage> Rogabo.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XVII. De Iudicio huius Mundi.</head>
+
+            <stage>Euphorbus Empedocles.</stage>
+
+            <p>Nequeo istarum rerum initium ullum inuenire idoneum, Vnde exordiar narrare, quae nec
+               opinati accidunt, partim quae perspexi his oculis, partim quae accepi auribus: Qua me
+               propter exanimatum citius eduxi foras. O fortuna ut nunquam perpetuo esse bona,
+               pietatem raro complecteris: detestaris autem crebro quicquid ad uirtutem attinet.
+               Asotum hunc, Laphystium et Helluonem istum: istum inquam Gerronem, fraudem, inertem,
+               ganeonem, damnosum tanta clementia foues? omnes iste prae se damnat, male dicit
+               omnibus, sentit bene de nemine: neque ut quisquam de se bene sentiat, ullam
+               occasionem praebet. Platonem uirum tantum, et tam optime de nemine non meritum, prima
+               uix hausisse literarum elementa asseruit Dyonisium fundamenta uix tenere syncerae
+               doctrinae Athenarum scholam miseram et penitus destitutam: Galenum compilatorem:
+               Aristotelem uix Philosophiae studiosum: humanitati studuisse neminem concedit.
+               Porphyrium Idiotam: Simplicium tardum atque hebetem: Aphrodiseum delirum, Themistium
+               ineptum; Hegionem et reliquos insulsos et seductores spargit. Aemilium simulatorem:
+               Marium nulla affectum pietate. Maximinum superbum: Mausolum schismaticum concionatur.
+               De suo Alexandro peius sentit, quid est quod aliis tribuat? Sed iam prior actio me ad
+               hanc rem exercitatum reddidit: bibam ego atque edam imo deuorabo Aristipum quousque
+               in malam deueniat crucem. Affirmat, affirmabo: negat, negabo: faciam omnia pro more,
+               proque meo compendio. Quis est quem obuiam habeo? Empedocles quo pergis?</p>
+
+            <p><stage>Emp.</stage> Non hercle Euphorbe uerbis dici potest tantum quam re ipsa iste Aristipus
+               insanit.</p>
+
+            <p><stage>Euph.</stage> Itane est?</p>
+
+            <p><stage>Emp.</stage> O fortunate nescis quid mali praeterieris, qui modo huc ingressus non es. Post
+               discessum ego tuum, horas per tres, aut plus eo, cum eo fui, cum interea semper
+               discedere percuperem: ita usque aduersa tempestate usus sum.</p>
+
+            <p><stage>Euph.</stage> Odiosum.</p>
+
+            <p><stage>Emp.</stage> Haud clam me est. Denique hercle auffugerim potius, quam redeam, si eo mihi
+               redeundum sciam.</p>
+
+            <p><stage>Euph.</stage> Mutatus subito.</p>
+
+            <p><stage>Emp.</stage> Quid non mutarier me uoles?</p>
+
+            <p><stage>Euph.</stage> Lepidus mihi quia uidetur.</p>
+
+            <p><stage>Emp.</stage> Traducit hic mortuos nedum uiuos: quod uel ex Mausolano patet: septennes nondum
+               natos coniungere nititur.</p>
+
+            <p><stage>Euph.</stage> Quid est quod dicis?</p>
+
+            <p><stage>Emp.</stage> Laonicus ex templo ingressus, deprehendit paruulam ab Aristipo cum paruulo
+               coniunctam, reliqua intelligis.</p>
+
+            <p><stage>Euph.</stage> Ah scelus.</p>
+
+            <p><stage>Emp.</stage> Quouis probro turpius egit. Ad turpitudinem namque innocentes, et quibus aetas
+               nondum intelligendi fuit, ultro prouocauit.</p>
+
+            <p><stage>Eup.</stage> Poena isthaec capitis est.</p>
+
+            <p><stage>Emp.</stage> Quid non furcifer apportarit Mastino mali? Quale non iuditium multis
+               ingessit?</p>
+
+            <p><stage>Eup.</stage> Mastino.</p>
+
+            <p><stage>Emp.</stage> Ipsi.</p>
+
+            <p><stage>Eup.</stage> Quid noui obsecro?</p>
+
+            <p><stage>Emp.</stage> Incredibilis calliditas.</p>
+
+            <p><stage>Eup.</stage> Sodes ediscere.</p>
+
+            <p><stage>Emp.</stage> Fui hodie cum Mastino. Accepit literas a Segrone Daronco, uiro nostra aetate
+               doctissimo. Hic inter alia haec commemorat. Sed quoniam, ait, amicorum est, non
+               iucunda solum communicare: sed prorsus omnia, iuxta prouerbium: Non potui non aperire
+               tibi, quanquam inuitus, quod nuper quidam ex literis nescio cuius, nec ad quem,
+               transcriptum mihi ostendit. Ego ut te admonere possem excepi: quae sic habent: De
+               Mastino, inquit, nullo per Deum odio proprio, sed communi iudicio liquido confirmare
+               possum, nomen eius parum in Comitatu Aemilii, minus apud Polemarchum gratum esse: ac
+               illum pro scurra, et qui daemones quosdam familiares haberet, indignissime habitum.
+               Sic ille. Ego qui calumniam insignem hac esse, et iniuriam summam uirtutibus tuis
+               fieri non dubito. Idcirco scripsi, ut cum alias calumniis istis occurras, si opus
+               uidebitur, et mihi quoque (qui te amo ac ueneror, si quis alius) ad te defendendum
+               argumenta suppedites: nisi potius placeat homines tum Sycophantas, tum qui nimis
+               facile credunt, nullo plane responso dignari. Ipsa enim uita tua, et doctrina, ac
+               pietate instructissimi libri, et grauissimorum uirorum testimonia, laudes et uirtutes
+               tuas loquuntur. Haec <sic>Daroneus</sic> Segronus ad uerbum. </p>
+
+            <p><stage>Euph.</stage> Non diffido isthaec ex Aristipeo hausta fonte.</p>
+
+            <p><stage>Emp.</stage> Idem ego subolfacio.</p>
+
+            <p><stage>Euph.</stage> Sit utcunque: Daruncus certe prudenter scribit: Praetereundos hosce lingulacas,
+               et contemnendos esse.</p>
+
+            <p><stage>Emp.</stage> Nemo fidem istis nugis adhibebit, qui uel a limine scripta Mastini salutauit:
+               Nonne Polemarchus? et multi alii de Mastino perquem graue testimonium uitae
+               perhibent? aliud, sane, quam isti sycophantae spargunt, sonant. Quare nebulonum nugas
+               (eum ingratum esse) postputandas censeo.</p>
+
+            <p><stage>Euph.</stage> Aemilii animus minime dissimilis est. Vidi siquidem literas plenas amoris: in
+               quibus Mastino omne bonum, omnesque pollicetur gratias. Itaque ab impiis istam
+               contumeliam natam scias. Qui quod nesciunt: damnant. Quod indefessi est laboris:
+               Daemonio adscribunt. Non defuerunt Christo qui idem obiiciebant. At peccatum illis
+               irremissibile obiectum est. Mastinus quod ieiunia obseruet, sedulo studiis incumbat,
+               non Daemones, Christum potius doctorem imitatur. Neque potest simul Christo et Belial
+               seruire. Vita porro, mores, conuersatio, doctrina, et omnis eius actio Christum
+               sapit. Valeant igitur Iscariotides sanginiuendi. Aemulis caruit uirtus nunquam, et
+               raro magnis uirtutibus parcit iniqua fortuna.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XVIII. De comparatione huius mundi et commutatione.</head>
+
+            <stage>Empedocles, Mastinus.</stage>
+
+            <p>Conueniam eum? non possum: me frustra illic expectat. Cadauerosa facies: Dii illum
+               perduint. Tullium amicissimum, et qui multa, gratiam in ipsius faciebat, et omnia sua
+               composuit, odit. Sed retrectationem translatam ab optimo uiro, Scariae filio
+               adscripsit. Laborem qui tulit, uacuum dimisit, filium Gerronem alienis plumis
+               ornauit. Expectabon' ego aliud? mos hic si inoleuit, ingratus ut in omnes siet. Cur
+               Troiam repetere non audet. Causam reor quam obtinuit; causam esse. Ambitio miserum,
+               fastus et pompa perdunt. En quam suae gnatae partum celat: scilicet ut pietatem
+               colat. Nam amori ipsum potius, quam Ioui obsequi oportet. At eccum Mastinum uideo:
+               horsum pergit: quid dicat hicce, incertus sum.</p>
+
+            <p><stage>Mast.</stage> Dixin dudum nullo istum zelo pietatis affici? cumulandis opibus inhiat:
+               religio. proximum quando non decipere meditatur? studet maxime omnibus incommodare,
+               contemnere: imo opprimere omnes. Versutus est in consiliis, et uaferrimus Stoicorum
+               somniorum interpres: foedus, crudelis, dirus: tetra bellua, tetra uox, teter odor,
+               teter aspectus, teterrima mens. Ego sane ipso neque tetriorem belluam uidisse me
+               unquam, neque peiorem, censeo. Quem ego audiui hic loqui?</p>
+
+            <p><stage>Emp.</stage> Certum obfirmare est uiam me; quam decreui persequi.</p>
+
+            <p><stage>Mast.</stage> Ipsus est quo cum plura conferam.</p>
+
+            <p><stage>Emp.</stage> Salue mi Mastine.</p>
+
+            <p><stage>Mas.</stage> Empedocles mi salue.</p>
+
+            <p><stage>Emp.</stage> Bene factum te aduenisse Mastine, atque adeo, quod maximum est, saluum atque
+               ualidum.</p>
+
+            <p><stage>Mas.</stage> Creditur.</p>
+
+            <p><stage>Emp.</stage> Aduenis modo?</p>
+
+            <p><stage>Mast.</stage> Admodum.</p>
+
+            <p><stage>Emp.</stage> Cedo, quid reliquit Aristipus lepidulum caput?</p>
+
+            <p><stage>Mast.</stage> Sane hercle homo uoluptati obsequens, dum uiuit, est: et qui sic sunt, haud
+               multum proximum adiuuant. Sibi uero hanc laudem relinquet: uixit dum uixit
+               pessime.</p>
+
+            <p><stage>Emp.</stage> Tum tu igitur nihil attulisti huc plus una sententia?</p>
+
+            <p><stage>Mast.</stage> Quicquid est id quod relinquit, oberit.</p>
+
+            <p><stage>Emp.</stage> Imo proderit: Nam exponet uitium omnibus fugiendum: neque uenenum ita, nisi per
+               ignorantiam hauritur.</p>
+
+            <p><stage>Mast.</stage> Proderit?</p>
+
+            <p><stage>Emp.</stage> Vtique, Peruersam mentem conspexerit quisquis, uitabit: dolum improbabit,
+               imposturas damnabit: scelus omne, omnemque reiiciet nequitiam:</p>
+
+            <p><stage>Mast.</stage> Istane sunt quae relinquet?</p>
+
+            <p><stage>Emp.</stage> Margaritas sane praetiosas istas praeter, nullas habet.</p>
+
+            <p><stage>Mast.</stage> Quam perdere existimationem?</p>
+
+            <p><stage>Emp.</stage> Suam quidem: quin et si posset alterius.</p>
+
+            <p><stage>Mast.</stage> Age.</p>
+
+            <p><stage>Emp.</stage> Aristipo unica uirtus est: nempe circumuenire ita semel, ut raro opus sit
+               secundo. Fuit in Latio, emergere ibi quisset cum minime, Gothiam in ipsam uenit:
+               praetextu sub Phyge Eparchis innotuit.</p>
+
+            <p><stage>Mast.</stage> Inspector, ut audio, fuerat Galatinus: quin et Liburnicus.</p>
+
+            <p><stage>Emp.</stage> Fuit equidem labore perpetuo.</p>
+
+            <p><stage>Mast.</stage> Nonne igitur emerserat?</p>
+
+            <p><stage>Emp.</stage> Titulo non uitulo.</p>
+
+            <p><stage>Mast.</stage> Putas nomen sine re?</p>
+
+            <p><stage>Emp.</stage> Istud.</p>
+
+            <p><stage>Mast.</stage> Hic, nomen uix habet.</p>
+
+            <p><stage>Emp.</stage> Rem autem.</p>
+
+            <p><stage>Mast.</stage> Rem?</p>
+
+            <p><stage>Emp.</stage> Dicam quod sentio. Nummos centum ibi uix: hic etiam sexingentos possidet: nec
+               errauero, mille si dixero.</p>
+
+            <p><stage>Mast.</stage> Huic commutationem bellam. Phygadiam quis est talem qui sibi non optaret?
+               delicatum uidelicet testimonium. At obsecro quamobrem tot talenta accipit?</p>
+
+            <p><stage>Emp.</stage> Prodat ut uicissim Gothos: sicut Latinos. Edidit hactenus illustria, ut nosti,
+               aliquot exempla.</p>
+
+            <p><stage>Mast.</stage> Ixion ille scio arcana quaedam illi quod commiserit.</p>
+
+            <p><stage>Emp.</stage> Omnia reuelauit.</p>
+
+            <p><stage>Mas.</stage> Qua temeritate?</p>
+
+            <p><stage>Emp.</stage> Aduersarii ratus consilia reticenda haud quaquam?</p>
+
+            <p><stage>Mast.</stage> Idem ubique sub eodem faciet praetextu. Sed audiui, ut fatear quod res est,
+               historiam Laconicam causam defectionis fuisse.</p>
+
+            <p><stage>Emp.</stage> Ne dicas ignorantiam et emergendi <sic>desperatiorem</sic>.</p>
+
+            <p><stage>Mast.</stage> Neglexit tamen et reliquit omnia quae habuit.</p>
+
+            <p><stage>Emp.</stage> Callide. Nam pro aureo teruncium exposuit. Quid est quod amisit: nihil si
+               habuit? Sciuit nihil? Putas Ixion passus fuisset eum discedere, uti opera eius ubi
+               quiuisset? Raphae exemplo Dianae opes uenebatur: opinione proinde <sic>folsus</sic> nescio
+               quo infortunio huc a quo denique malo genio delatus sit.</p>
+
+            <p><stage>Mas.</stage> Audio certe eum spoliatam Galatiam et Liburniam atque exhausta reliquisse.</p>
+
+            <p><stage>Emp.</stage> Miraris? Quomodo alia fastum illum ferre potuisset?</p>
+
+            <p><stage>Mast.</stage> Sacrilegium narratur ergo.</p>
+
+            <p><stage>Emp.</stage> Sannio(?) namque est. Imaginem hic suam circumferre iubet, Haec inquiens est
+               imago Aristipi, olim Ixionis praesulis, nunc uero praeconis et inspectoris
+               Gothiae.</p>
+
+            <p><stage>Mast.</stage> Heus ambitionem.</p>
+
+            <p><stage>Emp.</stage> Histrionum more profecto sua distraxit.</p>
+
+            <p><stage>Mas.</stage> Clamoribus?</p>
+
+            <p><stage>Emp.</stage> Imo et ludis, ostentatione, picturis quoque ipsis populo innotuit.</p>
+
+            <p><stage>Mast.</stage> Dementauit ita homines?</p>
+
+            <p><stage>Emp.</stage> Sane omnes.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XIX. De concordia huius et illius Mundi.</head>
+            <stage> Euphorbus, Marullus.</stage>
+
+            <p>Omnem rem scio ut sit gesta, adueniens audiui omnia. At istum Aristipum Dii perdant,
+               qui tam libenter seminat rixas, insanit ut uideo. Reprehendit omnia, intactum
+               relinquit nihil. Quid est, ipse quod in Vindelicia Hyperetem aluerit, pro se qui
+               ageret singula: interea statua uelut Mercurii existens, de alapis disserebat? Si
+               quando de sacris Dianae, matris Diuorumque, aut sacris Iouis Stygii dicendum erat,
+               mutus in illum pondus transferebat. Consumptis tandem spoliis, Alexandro, mirabili
+               insinuatione, adhaesit. Rideo haud parum si expendo, rem ipsam cum sperneret,
+               tantaque industria a re prorsus aliena, curaret: Ecce Philostorgia in promptu est.
+               Auenticorum religionem amplectitur propter metum: Mariam propter fauorem:
+               Dardanariam, propter aurum. Restabat nihil, quam ut diceret: Nos poma natamus.</p>
+
+            <p><stage>Mar.</stage> Scio me cauisse, ne ulla merito contumelia fieri ab istis posset, idque si nunc
+               memorare hic uelim, quam fideli animo et benigno in illum, et clementi fui, uere
+               possim: ni ex hoc magis uelim resciscere. Namque eo pacto maxime apud eum meo erit
+               ingenio fides. Cum ille qui nunc in me iniquus est, aequa de me dixerit. Neque culpa
+               hoc euenisse dissidium mea, id testor Deos. Sed cur sese indignum deputat mihi? cui
+               concedo, cuius mores tollero mea modestia: neque alio pacto componi potest inter eos
+               gratia: segreganda aut ab Aristipo iniquitas, aut ab Mastino praecipitantia est.
+               Verum adest Euphorbus. Vales Euphorbe?</p>
+
+            <p><stage>Euph.</stage> Ego equidem ualeo: tu quomodo?</p>
+
+            <p><stage>Mar.</stage> Bene.</p>
+
+            <p><stage>Euphor.</stage> Gratulor.</p>
+
+            <p><stage>Mar.</stage> Euphorbe, ad aures haud intro sermo mihi accessit tuus. Porro uelim te omnes
+               postputasse res, prae Aristipo. Vide ne impulsus ira praue insistas Euphorbe.</p>
+
+            <p><stage>Euph.</stage> Quibus iris impulsus, nunc in illum iniquus sim? qui nunquam quicquam erga me
+               commeritus est, Marulle, quod nollem: et saepe, quod uellem, meritum scio: amoque et
+               laudo et uehementer desidero. Nam fuisse erga me miro ingenio expertus sum: illique
+               exopto, ut reliquam uitam exigat cum eo, me qui sit fortunatior: quandoquidem illum a
+               me distrahit necessitas.</p>
+
+            <p><stage>Mar.</stage> Rursus noui aliquid?</p>
+
+            <p><stage>Euph.</stage> Professione ego Iurisperitus: officio Aristipo ut adsim, Lenonem ex me facit.
+               Vina ego amo, fateor: egi pro facultate mea: pugnis quin pulsatus siem ea propter,
+               caui, credere si placet, uix. Dauus nouit: utpote pexus pro dignitate et dolatus.</p>
+
+            <p><stage>Mar.</stage> Quid audio? Molior concordiam: laterem sane lauo.</p>
+
+
+
+
+         </div>
+         <div>
+            <head>Colloquium XX. De fraude et crasso dolo huius mundi, tum fine.</head>
+
+            <stage>Empedocles, Mastinus.</stage>
+
+            <p>Ita me dii ament, itaque obtingant ex eo quae exopto mihi, ut nunquam sciens
+               commerui, merito ut caperet ille odium mei ipsaque antequam officio esse rebar, ei
+               rei firmauit fidem. Narrauit mihi iam iam, quo pacto se habuerit, apud Aemilium: nunc
+               certum est contra gratiam quam referat. Acceptis poculis, et refertis marsupiis
+               Dardanarium cum efficere nitebatur prorsus: quod successisset cum minus:
+               inconstantiae eum apud plerosque insimulauit, Arbitratur nihilominus hoc suae esse
+               commodum famae. Mouet illum etiam Alexandri clementia nihil. Tractauit multis iam
+               ipsum annis clementer, et ab eo nunc abitum parat. Opinor omnino innotuisse, istius
+               hominis, omnibus, imposturas. E re propterea putat, quam primum ut discedat.</p>
+
+            <p><stage>Mast.</stage> Videbo Empedocles quid secum meditetur.</p>
+
+            <p><stage>Emp.</stage> Ingredere Mastine, audies quae pensitabam.</p>
+
+            <p><stage>Mas.</stage> Age.</p>
+
+            <p><stage>Emp.</stage> Aristipus retulit quaedam: ea referanturne, digna haud puto. Gloriatur Aemilium:
+               eius item quomodo circumuenerit Symbulum. Nescit miser, quam sua praesentia omnem
+               amiserit authoritatem. Quis est inutilem qui, pompa in tanta, nutriat? Importunitatem
+               et petulantiam patiatur quis? Alexander reuera mitis ac benignus est, tale possit qui
+               ferre monstrum. Heus nostin Aristipi Iopen.</p>
+
+            <p><stage>Mas.</stage> Non credo senem hunc et decrepitum id commitere.</p>
+
+            <p><stage>Emp.</stage> Valdessum Mastine si audires, inficias haud ires. Paedotriuicam hic scripsit.
+               Quam Aristipus apud Hegeonem acceptam Galapneumaticae nomine insigniuit, Translata
+               deinde in clientelam se Alexandri insinuauit. Eadem mutata dedicatione Mausolio
+               cuidam Principi innotuit.</p>
+
+            <p><stage>Mast.</stage> Ad aures haud inuito sermo mihi accessit tuus, cum ipsum Aporritas quoque
+               praxes sibi arrogare, Daedali stilum prorsus redolentes, intelligam. Praetereo
+               Phrygii metaphoram, pro sua passim ubique distrahentem, et similia.</p>
+
+            <p><stage>Emp.</stage> Quid Dydascalus nominari, sit cum minime, cupit.</p>
+
+            <p><stage>Mast.</stage> Leges tamen profiteri eum arbitror:</p>
+
+            <p><stage>Emp.</stage> Ne grammatices quidem. Omnia: et Epistolas ipsas prior ille composuit: ut
+               proprii habeat nihil: nihilque extet.</p>
+
+            <p><stage>Mast.</stage> Non potest non aliquid praestare praesuiarum(?) quando plurima obeat munia.</p>
+
+            <p><stage>Emp.</stage> Munera sane Scurrae quid non suis gesticulationibus efficiunt? uerbo dicam ut
+               uno, rota quinta nullibi non Aristipus est.</p>
+
+            <p><stage>Mast.</stage> Prostata est: praue uide ne insistas.</p>
+
+            <p><stage>Emp.</stage> Scilicet: qui omnes res prae sceleribus postputauit. Sardanapali, Heliogabali,
+               Xerxis denique mores, atque Bachi orgia retinet: Centaurorum conuiuia, cicatricibus,
+               furore, cruoreque plena, et uoracitatem Eresichtonis colit: ut mirum haud sit,
+               hydropisi, podagra, morphea, aut colica laboret. Asiaticus ei luxus pro libris est.
+               Epulae apud istum, coquus, culina, ollae, patina, tunstilli, mortarii, ueru et
+               similia splendent: nec mirum nomen si eius in helluonis ac gulonis transierit
+               cognomentum. Maria quod terramque percurrat, uini saltem praeciosioris gratia,
+               ignoras? Vitam sed quod profiteatur suam. Vinum, haud dubie intelligis: nec quenquam
+               hominem in mundo esse, uinum cui ita sapiat, quoties affirmauit? Res nulla in quam
+               non se ultro ingerat, iam saltem percipias.</p>
+
+            <p><stage>Mas.</stage> Illud humanum esse: hoc licet humanitati contradicat, uideo.</p>
+
+            <p><stage>Emp.</stage> Risum teneo uix Biantis mortem cum expendo ab isto uulgatam. Proinde Prostatam
+               Thebanum sequi continuo iactauit.</p>
+
+            <p><stage>Mas.</stage> Viuit ipse: noui.</p>
+
+            <p><stage>Emp.</stage> Tanto stolidior miser Simulatam et palliatam dum profitetur sapientiam: Sic
+               Ciceronis filium ad se inuitum traxit: at non multo post insignem prodidit
+               turpitudinem.</p>
+
+            <p><stage>Mast.</stage> Persequi uoles ubi singulatim omnia, deficiat te ut prius lingua, uereor. Missa
+               ea propter haec faciamus. Valeat mundus immundus, in Aristipo, omnibus qui, nulla
+               difficultate, patet. Honestatem quisquis curat suam: caueat oppido, incidat ne in
+               Aristipi mores. Adumbratum, quin ad uiuum etiam depictum habet hic mundum.</p>
+
+            <p><stage>Emp.</stage> Iam demum, uera quae sint, attulimus quae, sentis.</p>
+
+            <p><stage>Mas.</stage> Opera adamussim Aristipea excussa sunt.</p>
+
+            <p><stage>Emp.</stage> Nam fornicatio, immundicia, impudicitia, luxuria, Idolorum seruitus, ueneficia,
+               inimicitiae, contentiones, aemulationes, irae, rixae, dissensiones, sectae, inuidiae,
+               homicidia, ebrietates, commessationes, et his similia, exposita, unico in Aristipo
+               sunt.</p>
+
+            <p><stage>Mast.</stage> Memini de ueneficio nihil: homicidio minus.</p>
+
+            <p><stage>Emp.</stage> Malis artibus refertum: a ueneficio alienum dices? Committere qui amicos nunquam
+               non studet: homicidam negabis? Charitas apud hunc nulla: gaudium, pax, patientia,
+               nulla: nulla longanimitas, aut bonitas: benignitas, mansuetudo, fidesque prorsus
+               nulla: denique modestia, continentia, castitas nulla.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XXI. De gloria huius mundi.</head>
+
+            <stage>Brunorus Mastinus</stage>
+
+            <p><stage>Brun.</stage> Ubi Mastinum reperiam? aut qua quaerere insistam uia? domum ire pergam: ibi
+               plurimum est, perpetuo studiis incumbens.</p>
+
+            <p><stage>Mast.</stage> Quid noui Brunore.</p>
+
+            <p><stage>Brun.</stage> Sat mali.</p>
+
+            <p><stage>Mas.</stage> Vt ut sit, edissere.</p>
+
+            <p><stage>Brun.</stage> Sepulta si retinueris.</p>
+
+            <p><stage>Mast.</stage> Obsecro me ne perplexum detineas.</p>
+
+            <p><stage>Brun.</stage> Aristipus insanit.</p>
+
+            <p><stage>Mas.</stage> Furit forte.</p>
+
+            <p><stage>Bru.</stage> Ita demens exagitatur: ut conquiescere non queat.</p>
+
+            <p><stage>Mas.</stage> Quid isthuc, ocius narra sodes.</p>
+
+            <p><stage>Bru.</stage> Fui hodie cum Theno: dysphimiam apud eum aduersus te uidi.</p>
+
+            <p><stage>Mas.</stage> Itan?</p>
+
+            <p><stage>Bru.</stage> Sic est.</p>
+
+            <p><stage>Mas.</stage> Nihil metuo: Salua mihi cum sit conscientia</p>
+
+            <p><stage>Bru.</stage> Grauis est, et ad permouendum haud inepta: licet barbara.</p>
+
+            <p><stage>Mast.</stage> Ipsen' autor?</p>
+
+            <p><stage>Bru.</stage> Minime: sed Aristipus.</p>
+
+            <p><stage>Mast.</stage> Natura eius haec fuit semper: rideo eum potius, quam curo.</p>
+
+            <p><stage>Bru.</stage> Et isthaec alius instinctu facta, intellexi.</p>
+
+            <p><stage>Mast.</stage> Pol cuius.</p>
+
+            <p><stage>Bru.</stage> Sanguiniuendi et Blateronis illius.</p>
+
+            <p><stage>Mast.</stage> Quis ipsus?</p>
+
+            <p><stage>Bru.</stage> Cholohiereus est</p>
+
+            <p><stage>Mast.</stage> Socius est Aristipi.</p>
+
+            <p><stage>Brun.</stage> Iste?</p>
+
+            <p><stage>Mast.</stage> Nel(?) pol iste metuit Deos: nec hunc respicere deos opinor.</p>
+
+            <p><stage>Brun.</stage> Quid ita?</p>
+
+            <p><stage>Mast.</stage> Proh fidem deum, facinus quam foedum scelestus commiserit.</p>
+
+            <p><stage>Brun.</stage> Sodes <orig>ediscere</orig>.</p>
+
+            <p><stage>Mast.</stage> Quid ni auderem? Ita natus est ut de nemine bene loquatur. Committere amicos a
+               primis annis didicit. Opitulatur ei et id quod natura sit notatus. Vt praeteream quam
+               obscuro, quin et abominabili loco natus siet. Mentiri praecipua apud eum ars,
+               circumuenire non postrema.</p>
+
+            <p><stage>Brun.</stage> Multi ex Philosophis ad multa uiciorum genera propensi erant: Philosophiae
+               tamen studio mutarunt naturam: Forte hic quoque ea in parte elaborauit. Nondum
+               facinus proin, cuius meministi, sequitur.</p>
+
+            <p><stage>Mas.</stage> Intercepisti sermonem: sed dedisti quoque occasionem singula penitius
+               inspiciendi.</p>
+
+            <p><stage>Brun.</stage> Perge.</p>
+
+            <p><stage>Mas.</stage> Quae ei natura insunt, eo praemisi, ut inexcusabilis sit. Vt propria malitia:
+               non aliunde mutuata, haec ab eo fieri intelligas. Quoties Thebis carceribus
+               mancipatus fuit? Quoties Ephesiis?</p>
+
+            <p><stage>Bru.</stage> Heus Mastine, uide ne ira impulsus, praue insistas. Ob Dianae templi
+               defensionem, id ei, ut audio, contigit.</p>
+
+            <p><stage>Mas.</stage> Vnde audisti?</p>
+
+            <p><stage>Bru.</stage> Ipsemet narrauit.</p>
+
+            <p><stage>Mas.</stage> Fefellit te, Iscariotides est. Quadruplator est. Lingulaca est, Ephesis exosus
+               omnibus maledicam ob linguam. Matrem propriam domo pepulit: hospitium negauit: Ansam
+               ei submergendi praebuit.</p>
+
+            <p><stage>Brun.</stage> Submersit se ipsam igitur?</p>
+
+            <p><stage>Mas.</stage> Submerist: expirauit. Deinde ut tegeret graue peccatum, extra moenia perrexit,
+               quasi matrem quaesiturus, totos septem, et plus eo dies cum prostibulis transegit.
+               Reuorsus dolorem finxit et moerorem: et uicinis imposuit multis: at non omnibus.</p>
+
+            <p><stage>Bru.</stage> Pepercit senatus?</p>
+
+            <p><stage>Mas.</stage> Hieropiis omnia licent.</p>
+
+            <p><stage>Brun.</stage> Hui egregius uero magistratus, ubi impune omnia fieri licent.</p>
+
+            <p><stage>Mast.</stage> Haec minima sunt. Ansas necis praebuit. Sed factum audi.</p>
+
+            <p><stage>Bru.</stage> Ausculto. Sed ne excidat, unum est, antea dicas. Matrem Ephesiis etiamnum uiuere
+               aiunt.</p>
+
+            <p><stage>Mas.</stage> Recte monuisti: uiuit sane illa: sed mater non est. Ideo memini obscuri loci et
+               abominabilis.</p>
+
+            <p><stage>Bru.</stage> Qui sic?</p>
+
+            <p><stage>Mas.</stage> Colohiereus in adulterio ex ancilla natus est.</p>
+
+            <p><stage>Bru.</stage> Qui scis?</p>
+
+            <p><stage>Mas.</stage> Quam putabas matrem: ipsa fassa est coram Prostata, pectorali et similibus. Quin
+               et hinc ingenium impostoris deprehendes. Pater proximus extremo diei, uxorem rogat,
+               legare spurio aliquid ut liceat. Concedit ipsa. Vbi creuisset ipse, legatum accepit.
+               Chirographo acceptum firmauit. Matrona pia, nullam cum suscepisset unquam ex marito
+               prolem, Spurium haeredem instituere cogitabat. Malis autem eius moribus et uita,
+               remorata: Ioui haereditatem dicauit. Fremens proin Cholohiereus apud Prostatam:
+               institutum remoratus est. Ibi tum optima matrona, quis sit Cholohiereus: et quibus
+               parentibus natus, patefecit. Qui mox legatum se necdum patris habere quaerebatur.
+               Egregia porro mulier ad Chirographum id referebat. Hic Cholohiereus propriam matrem
+               negabat. Victus tandem: nimio pudore ad Alexandrum fugit. Ac ratus ignotum hoc
+               scelus: rediit ad ingenium. Omnibus imponit, omnes concitat, omnibus molestus
+               est.</p>
+
+            <p><stage>Bru.</stage> Habet tamen ab Aemilio commendaticias, tum ab aliis: et quod legitimae sit
+               originis</p>
+
+            <p><stage>Mast.</stage> Aemilius dare renuit, et uix, Facini, magnae apud eum autoritatis, opera eas
+               consecutus est. Ignorauit haec Aemilius. Ignorarunt et alii, quos turpiter, sub
+               Dianae Hieropio titulo, decepit. Propterea a quodam simplici uiro, nomine
+               Vleposeanto, legitimi ortus emendicauit testimonium. At nihil prodest. Eius namque
+               rei, Ephesus sola fidem facere potest. Huius ut proferat autoritatem, crede non
+               habet.</p>
+
+            <p><stage>Brun.</stage> Heus perfidiam hominum. Quis unquam istum talem putasset? Sed redeas unde
+               digressus es.</p>
+
+            <p><stage>Mas.</stage> Factum putas.</p>
+
+            <p><stage>Bru.</stage> Factum.</p>
+
+            <p><stage>Mas.</stage> Nec dum facti plus satis accepisti?</p>
+
+            <p><stage>Brun.</stage> Vtique. At aliud erat, quod commemorandum censebas.</p>
+
+            <p><stage>Mas.</stage> Nunc recolo. <sic>Aliquod</sic> iam annis illicitam turpitudinem exercuit.</p>
+
+            <p><stage>Bru.</stage> Ergo igni mandandus.</p>
+
+            <p><stage>Mas.</stage> Dudum isthuc praemii meruit. Sed nunc quoque haud dissimilis casus circumfertur:
+               adminus aut adulterium et fornicatio uaria, ubique passim percrebescunt. Ideo ab
+               Eubulis Alexandri accersitus est.</p>
+
+            <p><stage>Bru.</stage> Cur uxorem non ducit?</p>
+
+            <p><stage>Mas.</stage> Quaeris? Quas ipse uelit, nolunt: quae uellent, non uult.</p>
+
+            <p><stage>Bru.</stage> Quid ita?</p>
+
+            <p><stage>Mas.</stage> Spurius hic est, Cholohiereus quem omnis habet. Apud hos parturiunt montes, et
+               nascitur <sic>rediculus</sic> mus.</p>
+
+            <p><stage>Bru.</stage> Quod narrasti sane ridiculum minime est: poena potius dignum.</p>
+
+            <p><stage>MAS.</stage> Futura et isthaec est, non doubito.</p>
+
+            <p><stage>Bru.</stage> Cum isthoc Aristipus commertii tantum habet? Aliumne hunc ab illo dicam? Cum
+               bonis bonus, cum malis non nisi malus. Iam desino mirari, atrox istuc facinus. Vadant
+               uterque in <sic>malem</sic> crucem.</p>
+
+         </div>
+         <div>
+            <head>Colloquium XXII. De autoritate huius mundi.</head>
+
+            <stage>Mastinus Dalus</stage>
+
+            <p>Itan tandem nebulo iste, maledicta in me tot congerere pergit? Hunc ne hominis iniqui
+               et praui animum feram? En tacui, Alexandro obsequutus, omnia post putaui. Honorem
+               mihi omnem adimere conatur. Omnia confingit, quibus ipse nisi fidem facit. Quis famam
+               ut amittam suadebit? Defendam ut: quis improbabit? Alexander ne alit hunc seditionis
+               autorem? qui nemini non sit detrahere ausus. Nec dum uidet Alexander pistrino quam
+               proximus siet? Perfidus Aristipus semel, talis praesumitur semper. Eparchos facit
+               iste pro arbitrio Transfert regna pro libidine. conciliat matrimonia pro placito,
+               Decipit Commarchos pro libito. Audet omnia. Omnia perpetrat. Iam in Netensium se
+               insinuat clientelam. Alexander quid? An duobus inseruiet Aristipus? Quae isthaec
+               insinuatio? O fortunatum senem, cui prae foribus obtigit eius insinuationis ansa,
+               Quid deputato, portendit isthaec insinuatio? Alexandro labores et dolores. Obtulit
+               aliquando terram Mausoli Aemilio: Sed irrisus et confusus discessit. Quorsum haec? Ex
+               Norico antea conuentu, propter praxim inter Comatos, fuga sibi quaesiuit salutem.
+               Dudum operam suam aliis dedicauit. Ingratum animal et uecors quam siet ignorabo? Nec
+               dum distillationem uasorum aduertam? Symbolum nec dum Poldense expendam? Praeteribon
+               structuram illam, cum structor Alexandri structoria deponeret? Negligam ueneni
+               praetextum: tantam Parrhisiam? Sed explorationem illam Tlingensium militum
+               obliuiscar? Capiet Alexandrum: comittet eum. Dedit ad Eparchos commendatitias.
+               Fructum nisi sensit, persentiet. Occurrat huic malo tempus est. Res Alexandri agitur.
+               Corio de suo luditur. Imminet ei a fideli infidelitas. Tradetur, capietur,
+               periclitabitur. Symbola isthaec expendenda sunt.</p>
+            <p><stage>DAL.</stage> Hoccine credibile est, aut memorabile, tanta uecordia innata cuiquam ut siet, ut
+               malis gaudeat, atque incommodis alterius sua comparet ut commoda? Ah id ne uerum est?
+               imo id genus hominum est pessimum, in denegando modo queis pudor est paululum: post
+               ubi tempus promissa iam perfici, tum necessario sese aperiunt, et timent. Et tamen
+               res cogit negare. Ibi tum impudentissima eorum oratio est. Vbi fides est, si roges
+               nihil pudet, hic ubi opus est, non uerentur. Nemo est qui de Mastino non nisi recte
+               sentit. Vnicus cum suis Aristipus, nescio quid non monstri aduersus eum alit. Ecce
+               quae et quanta de eo spargebat. Ad probandum seipsum ultro ingerebat: Deiicere ipsum
+               totis uiribus contendebat. Tandem iniurium omne negat. Mox aliud meditatur. Sed quid
+               agam? adeamne ad eum, et ei hanc iniuriam exponam?</p>
+            <p><stage>MAS.</stage> Ecce Dalum admodum properantem. At, aedes in meas ingreditur. Salue Dale.</p>
+            <p><stage>DAL.</stage> Tu uicissim salue Mastine.</p>
+            <p><stage>MAS.</stage> Quid noui? Celeritas ista, uix ut respirare queas, quid portendit?</p>
+            <p><stage>DAL.</stage> Optime Mastine non conquiescit inquietissimus Aristipus donec te in ingens
+               aliquod praecipitet malum.</p>
+            <p><stage>MAS.</stage> Quid ita?</p>
+            <p><stage>DAL.</stage> Postquam nihil obtinuit obtrectator, iam tandem ad parasemata uenit.</p>
+            <p><stage>MAS.</stage> Nebulo non minus hic ac ibi. Nostin' Dromo quam eius, ad necem fere, pulsatus
+               sit?</p>
+            <p><stage>DAL.</stage> Quid noui?</p>
+            <p><stage>MAS.</stage> Qualis Dominus talis seruus. At seruus raptor. Reliquum intelligis.</p>
+            <p><stage>DAL.</stage> Quid fecit: quid commeruit.</p>
+            <p><stage>MAST.</stage> Fecit rapinam: Fustes, ne dicam funem commeruit.</p>
+            <p><stage>DAL.</stage> Quid istuc negotii?</p>
+            <p><stage>MAS.</stage> Praetor nouit.</p>
+            <p><stage>DAL.</stage> Sodes dic.</p>
+            <p><stage>MAS.</stage> Praetor haud raro gallinarum defectum miratus est. Ecce deprehensus Aristipi
+               Dromo in ipsa rapina. Merito exceptus fuit pro dignitate, dolatus pro statu, pexus
+               pro forma, ut uix retinuerit animam. Sed uidisti eum paucos ante dies aegre
+               decumbentem et paulo melius notatum. Inde maculam prodiisse scias.</p>
+            <p><stage>DAL.</stage> Ex tot pugnis et plagis?</p>
+            <p><stage>MAS.</stage> Sane non alicunde.</p>
+            <p><stage>DAL.</stage> Recte actum. Rem custodiat in posterum suam, alienam sinat. Furum namque haec
+               propria et praedonum sunt.</p>
+            <p><stage>MAS.</stage> Nonne dixi quod nebulo sit.</p>
+            <p><stage>DAL.</stage> Et Caponem uicino surripuerat: Vbi autem crassescuissent, cum foenore rediit.
+               Nam secum et alterum abduxit. Vtroque recepto uicinus subolfecit mores Aristipeos
+               caponarios et rapaces esse, quod in propinqua parte furti est. Non deprehendit
+               campanulam appensam, fraudem protinus iudicauit. Protinus utroque sublato, sociis
+               conuiuio exhibitis, hilarem producit diem, Ita factum, ut dum capone alieno tantopere
+               delectaretur, et proprium amiserit, sed ad rem.</p>
+            <p><stage>DAL.</stage> Apud Polemarchum instabit, et omnem, ut similia parasemata acquirat, mouebit
+               lapidem.</p>
+            <p><stage>MAS.</stage> Dissimilia nequaquam habebit. Noui his longe maiora. Verum nil me mouebunt ista.
+               An ignoras quanto studio committere Alexandri Didascalos nitebatur? At magna uis est
+               ueritatis, quae contra hominum ingenia, calliditatem, solertiam, contraque fictas
+               omnium insidias, facile se per se ipsam defendit. Ab hac status huius mundi alienus
+               prorsus est. Quisquis communem hominum atque Deorum domum Mundum esse cupit: ab
+               isthoc mundo Aristipeo sibi abstineat. Est siquidem fluctus ex imo maris spirans.
+               Valeat igitur mundus.</p>
+            <p><stage>DAL.</stage> Aristipus ualeat.</p>
+         </div>
+         <div>
+
+            <head>Epilogus</head>
+
+            <p>Accepimus paucis multa. Statum huius mundi expendimus. Regem Aristipum, eiusque
+               consortem calumniam, bestiam inferni mordacissimam, Diabolo satam, Inuidentia matre
+               progenitam, deprehendimus. Zoilos, Momos, Coryceos, Iscariotides, Aemulos, Inuidos,
+               Delatores, Vitiligatores, Gerrones, Obtrectatores, Adulatores, Susurrones,
+               Impostores, Bilingues, Aurium inspiratores, Blaterones, Nugatores, Proditores,
+               Nuguiendos, Sanguiniuendos, Fabulatores, Quadruplatores, Lingulacas, Sycophantas et
+               Lernas omnium malorum, satellites Aristipi conspeximus. Finis eius luxus est
+               pernitiosa uoluptas. Nec mirum tot stipatoribus septus, si uniuersum nedum subiiciat
+               quin et euertat hunc mundum. Princeps qui caeteris cauere didicerunt, ab Aristipi
+               incursionibus caueant Vbi se semel ingesserit iste: certam adfert desolationem.
+               Scindit omnia et conturbat: ut nulla sit spes futurae securitatis: Cunctos populos
+               premit, nec sine rabie quicquam fortiter facere potest. Monarchias hic solus
+               transtulit et demolitus est. Inclinationem hic Romani Imperii peperit. Hic inuexit
+               omnem errorem et tremorem Liuorem hic introduxit: Infestum iustis pestiferumque
+               bonis. Genuit deas furoris, ex nocte simul et Acheronte. Ergo ut ille canit:
+                     <quote><l>Hoc moniti exemplo, terrestria numina, Reges:</l>
+                  <l>Pellite de uestris talia monstra focis.</l></quote></p>
+
+         </div>
+
+      </body>
+      <back>
+         <div>
+            <head>Aristipinae descriptio N. autore</head>
+
+            <l>En ego inaurata incedo regina corona:</l>
+            <l>Et populos cunctos, Imperiosa premo,</l>
+            <l>Aligera in terris circumuolo, et omnibus adsum,</l>
+            <l>Offitiisque domus, officiisque fori.</l>
+            <l>Saucia sum proprio consumens Corda dolore:</l>
+            <l>Alterius dum res, conspicio ire bene.</l>
+            <l>Vestitu croceo, coecus sub pectore morbus</l>
+            <l>Proditur Inuidiae, dira uenena, meae.</l>
+            <l>In Tergo laeuam teneo, nec dicere coram</l>
+            <l>Audeo: quae spargo gutture falsiloquo.</l>
+            <l>Sanguineo gesto Cultrum rabiosa uirago:</l>
+            <l>Exprimo quod linguae, uulnera saeua, meae.</l>
+            <l>Nulla mihi Frons est, nullus Pudor omnibus aeque</l>
+            <l>Obloquor: Insonti non minus, atque Reo.</l>
+            <l>Capta oculis cum sim, careo ratione, modoque</l>
+            <l>Virtuti suum, denego saepe Decus.</l>
+            <l>Cunius dependet textus Serpentibus atris:</l>
+            <l>Et mea sunt uariis, uerba referta, dolis.</l>
+            <l>Dextraque auratam Pateram mea dulciter offert:</l>
+            <l>Sic ego sinceri, praefero signa animi.</l>
+            <l>Sed fundo in paterae mistum latet acre Venenum:</l>
+            <l>Quo mens Auditor, contaminatus abit.</l>
+            <l>Ignitumque traho mea post uestigia Rhombum</l>
+            <l>Qui notat ultrices, damna futura, manus.</l>
+         </div>
+      </back>
+   </text>
+</TEI>
