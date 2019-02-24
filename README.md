@@ -40,10 +40,10 @@ Download the files or clone the repository.
 
 
 ### Current state ###
-On 2016-05-15 the collection contains:
+On 2019-02-24 the collection contains:
 
-*  *467* documents
-*  words *5,734,839*
+*  *562* documents
+*  words *5,892,803*
 
 ### Editor ###
 
