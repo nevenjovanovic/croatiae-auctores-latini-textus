@@ -39,7 +39,7 @@ Download the files or clone the repository.
 * Replicate the data on your computer with [hg clone](https://bitbucket.org/nevenjovanovic/croalatxt#clone)
 
 
-### Current state ###
+### Current state of the collection ###
 On 2019-02-24 the collection contains:
 
 *  *562* documents
