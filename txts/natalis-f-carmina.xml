@@ -5,12 +5,13 @@
             <title>Francisci Natalis Carmina, versio electronica</title>
             <author ref="bozic01">
                <persName xml:lang="hr">Božićević Natalis, Frano</persName>
+               <persName xml:lang="la">Natalis, Franciscus</persName>
                <date>1469-1562</date>
             </author>
          
             <editor>
                <persName>
-                  <ref>Miroslav Marcovich</ref>
+                  <ref type="viaf" target="109913306">Miroslav Marcovich</ref>
                </persName>
             </editor>
             <respStmt>
@@ -201,14 +202,14 @@ Tipfeler haee.
          </change>
            </revisionDesc>
    </teiHeader>
-   <text>
+   <text xml:base="urn:cts:croala:natalis-f.carmina.croala-lat1:" xml:lang="lat">
       <front>
          <docTitle>
             <titlePart>Francisci Natalis carmina</titlePart>
          </docTitle>
       </front>
       <body>
-         <div type="poesis-liber">
+         
             <milestone unit="page" n="2r"/>
             <div xml:id="FBN001" type="poesis-elegia" met="elegiacum">
 	              <head>1.</head>
@@ -16479,7 +16480,7 @@ sacrosanctae fidei nationes saluabuntur elegia</head>
    
             <!--	86. Hieronymi Papalis iunioris(E) -->
             <closer>FINIS</closer>
-         </div>
+         
       </body>
    </text>
 </TEI>
