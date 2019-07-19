@@ -4,8 +4,14 @@
      <fileDesc xml:id="zamagna-b-idyllia">
          <titleStmt>
            <title>Theocriti, Moschi et Bionis idyllia omnia (excerpta), versio electronica</title>
+            <author ref="viaf95161348">
+               <persName xml:lang="hr">Teokrit</persName>
+               <persName xml:lang="la">Theocritus</persName>
+               <date>c. 270 a. Chr.</date>
+            </author>
             <author ref="zama01" role="trl">
                <persName xml:lang="hr">Zamanja, Bernard </persName>
+               <persName xml:lang="la">Zamagna, Bernardus </persName>
                <date>1735-1820</date>
            </author>
            <editor>
@@ -141,14 +147,8 @@
        </change>
      </revisionDesc>
    </teiHeader>
-   <text>
-      <group>
-         <text>
-            <body>
-               <p>Grčki tekst</p>
-            </body>
-         </text>
-         <text>
+         <!-- Graeca omittuntur -->
+   <text xml:base="urn:cts:croala:zamagna-b.idyllia.croala-lat1:" xml:lang="lat">
             <front>
                <docTitle>
                   <titlePart>Theocriti, Moschi et Bionis idyllia omnia</titlePart>
@@ -732,6 +732,7 @@
                         <l>Necdum a fonte, agnae? non furem cernitis illum,</l>
                         <l>Garrula cui nuper syrinx mea rapta, Comatan?</l>
                      </sp>
+                     <gap reason="sampling"/>
                   </div>
                   <milestone unit="page"/>
                   <div>
@@ -742,6 +743,7 @@
                      <l>Damoetas una Daphnisque bubulcus, Arate,</l>
                      <l>Compulerant armenta. Erat alter rufus, et alter</l>
                      <l>Vix tenera spargens roseas lanugine malas.</l>
+                     <gap reason="sampling"/>
                   </div>
                   <milestone unit="page"/>
                   <div>
@@ -758,6 +760,7 @@
                      <l>Qui gelida de rupe, genu connixus utroque,</l>
                      <l>Aetherias fontem Burhinum eduxit in auras,</l>
                      <l>Durum opus aggressus. Circum frondentibus alni</l>
+                     <gap reason="sampling"/>
                   </div>
                   <milestone unit="page"/>
                   <div>
@@ -787,18 +790,21 @@
                         </speaker>
                         <l>Daphni boum custos, certa sis carmine mecum;</l>
                      </sp>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium IX.</head>
                      <argument>
                         <p>Pastor quidam Daphnin et Menalcam hortatur ad cantum: qui duo bubulci postquam iussi cantum absolverunt, et ipse Pastor breviter canit.</p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium X. Operarii.</head>
                      <argument>
                         <p>Duo agricolae, vel potius messores inducuntur colloquentes, Milon alter, et alter Battus: Milon Battum ignaviae accusat, causamque exposcit. Battus se excusat, culpamque in Amorem reiicit. Deinde canunt inter opus.</p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XI. Cyclops.</head>
@@ -842,6 +848,7 @@
                         <l>Carpere purpureos optans in montibus istis:</l>
                         <l>Monstrabam dux ipse viam, laetusque praeibam.</l>
                      </lg>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XII. Aites.</head>
@@ -863,6 +870,7 @@
                      <l>Frondiferae quercus ramosa umbracula fagi,</l>
                      <l>Te solum optabam, solum te voce vocabam.</l>
                      <milestone unit="page"/>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XIII. Hylas.</head>
@@ -871,6 +879,7 @@
             Hoc XIII. Idyllium inter Theocritaea est item scriptum ad Niciam: docemur autem, non solis hominibus Amorem imperitare, verum etiam heroibus.
           </p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XIV.</head>
@@ -889,6 +898,7 @@
                            <persName>Thyonicus</persName>
                         </person>
                      </listPerson>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XV.</head>
@@ -922,30 +932,35 @@
                            <occupation>vates</occupation>
                         </person>
                      </listPerson>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XVI. Charites.</head>
                      <argument>
                         <p>Videtur huius Idyllii argumentum esse consueta poëtarum noenia, nimirum fructum, quem percipere sperarunt, non respondere votis; quod homines vel nimium avari sint, vel turpi inscitia teneantur, neque pervideant, quantam assequi gloriam potuissent ex poëtarum laudibus. Demum in Hieronis laudes famamque bellicam excurrit Vates.</p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XVII. Encomium Ptolemaei.</head>
                      <argument>
                         <p>Altius heic assurgit poeta, regemque Aegypti Ptolemaeum Philadelphum praesertim ex generis nobilitate, ex immensae ditionis potentia, ex amplissima divitiarum copia, regiaque munificentia laudat.</p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XVIII. Helenae epithalamium.</head>
                      <argument>
                         <p>Virgines Spartanae, uti mos erat in Graecia, in Menelai domum congregatae, multa canunt in honorem coniugum.</p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XIX. Favorum fur.</head>
                      <argument>
                         <p>Vt apis, sic Amor pusillus est; magnum tamen vulnus infigit.</p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XX. Bubulcus.</head>
@@ -954,190 +969,219 @@
                      </argument>
                      <l>Oscula me nuper defigere blanda volentem,</l>
                      <l>Eunice derisit, et haec super addidit ultro</l>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XXI.</head>
                      <argument>
                         <p>Asphalion piscator vana spe inflatus narrat hospiti nocturnum visum de pisce aureo, quo capto, comnians iuraverat, se divitem iam factum, piscandi finem facturum. Cui hospes auctor est, ut omissis nugis, artem suam exerceat, si quidem inter aurea somnia fame perire nolit.</p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XXII. Dioscuri seu gemini.</head>
                      <argument>
                         <p>Duas in partes hoc Idyllium de laudibus Pollucis atque Castoris divisum est. In prima parte Pollucis pugna cum Amyco Bebryciorum tyranno describitur, victoriaque celebratur, quam retulit Pollux. In altera vero parte Castorem inter et Lynceum certamen initum, Leucippi filiarum ergo, continetur. Vincit Castor.</p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XXIII. Amator infelix.</head>
                      <argument>
                         <p>Tragicus omnino huiusce miserandi hominis est exitus, qui quum se contemni crederet, laqueo mortem quaesivit. Nec minus tragice ab Amore animadversum in eum est, a quo se ille contemptum putabat.</p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XXIV. Herculiscus-129</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XXV. Augiae opulentia-136</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XXVI. Lenae, seu Bacchae.-149</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idylium XXVII.-152</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XXVIII. Colus.-155</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XXIX. Amores-157</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium XXX. In mortuum Adonidem.-159</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllia Moschi-161</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium I. Amor fugitivus.-163</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium II. Europa.-165</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium <num value="3">III</num>. Epitaphium Bionis.-172</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium IV. Megara.-178</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium V.-184</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium VI.-185</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium VII.-186</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium VIII.-187</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Epigramma.-188</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllia Bionis Smyrnaei-189</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium I. Epitaphium Adonidis.-191</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium II.-196</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium <num value="3">III</num>.-197</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium IV.-198</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium V.-199</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium VI.-200</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium VII.-201</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium VIII. Epithalamium Achillis cum Deidamia.-202</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                   <div>
                      <head>Idyllium IX.-207</head>
                      <argument>
-                        <p/>
+                        <p><gap reason="sampling"/></p>
                      </argument>
+                     <gap reason="sampling"/>
                   </div>
                </div>
             </body>
          </text>
-      </group>
-   </text>
 </TEI>
