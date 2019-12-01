@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc xml:id="vitezov-ritter-p-epist-lichtensteinkastelkorn-1687">
+         <titleStmt>
+            <title>Epistula elegiaca autobiographica ad Carolum episcopum Olomucensem (1687-06-29), versio electronica</title>
+            <author ref="vitezov01">
+               <persName xml:lang="hr">Ritter Vitezović, Pavao</persName> 
+               <persName xml:lang="la">Ritter, Paulus</persName>
+               <date>1652–1713</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="45350100">František Snopek (1853–1921)</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+          Kasnije znanstveno izdanje (1906).
+        </edition>
+         </editionStmt>
+         <extent ana="B">Mg:B verborum 969, versuum 144</extent>
+         <publicationStmt>
+            <p>Versio electronica TEI XML: Croatiae auctores Latini, indagatio in <orgName>
+                  <ref type="viaf" target="124389134">Facultate philosophica Universitatis Zagrabiensis</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>, Croatia, <date>mense Decembri 2019.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Snopek, F. Paul Ritter Vitezović, Beiträge zu seiner Biographie. Archiv für slavische Philologie 28 (1906) 593-600. 
+               <ref type="internet">https://slavistik-portal.de/datenpool/bibslavarb-db.html?data=1541#</ref>
+               <ref type="internet">https://archive.org/stream/archivfrslavis28berluoft#page/593/mode/1up</ref>.</bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <!-- CTS for a single poem in document -->
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p)"
+                         n="paragraph">
+              <p>This pointer pattern extracts line</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:opener)"
+                         n="opener">
+              <p>This pointer pattern extracts opener</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l)"
+              n="verse">
+              <p>This pointer pattern extracts verse line</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1687-06-29" precision="high" period="16xx_3_third">1687-04-28</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 17 (1601-1700)</term>
+               <term>1651-1700</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epistula</term>
+               <term>poesis - elegia</term>
+               <term>poesis - autobiographia</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2019-12-01</date>
+        Početna verzija.
+      </change>
+      </revisionDesc>
+  </teiHeader>
+   <text xml:base="urn:cts:croala:vitezov01.croala6806382.croala-lat1:">
+      <body>
+         <div type="poesis-epistula-elegia">
+
+            <opener>Celsissimo ac reverendissimo principi ac domino domino Carolo episcopo
+               Olomucensi, regiae capellae Bohemiae comiti, duci, <abbr>S. R. I.</abbr> et
+               Liechtensteinii principi <abbr>etc.</abbr>
+               <lb/>Paulus Ritter <expan>sempiternam felicitatem</expan>. </opener>
+            <l n="1">Ut nuper reliquos inter regesque ducesque,</l>
+            <l n="2">Quorum Nympha piam Pannona sensit opem:</l>
+            <l n="3">Et tibi sacratam, princeps celsissime, laurum</l>
+            <l n="4">Misissem paucas associando notas.</l>
+            <l n="5">Nescio, num placuit pro spe votoque dicantis, 5</l>
+            <l n="6">Numve satis tanto principe digna fuit?</l>
+            <l n="7">Hoc correspondens fecit tantummodo notum,</l>
+            <l n="8">Quod tua, quisnam sim, gratia scire volet.</l>
+            <l n="9">Id paucis isthic describens versibus, oro:</l>
+            <l n="10">Ne graviter (quia sunt vera) legendo feras. 10</l>
+            <l n="11">Regia Crovatis vetus urbs et libera Segnae </l>
+            <l n="12">Ad maris Adriacas condita <corr resp="editor">perstat</corr> aquas. </l>
+            <l n="13">Illic sum genitus, sacro baptismatis illic </l>
+            <l n="14">Romani ritus fonte lavatus ego. </l>
+            <l n="15">Patre a Germana procedo nobilitate: 15 </l>
+            <l n="16">Per matrem Illyridum nobile duco genus. </l>
+            <l n="17">Ne numerem proavos hic Marte domique potentes, </l>
+            <l n="18">Clarum de Luka Rittereumque genus, </l>
+            <l n="19">Vivit adhuc genitor, regni qui gaudet equestri </l>
+            <l n="20">Patriciique urbis gaudet honore status. 20</l>
+            <l n="21">Ante duos fratres ego natus totque sorores, </l>
+            <l n="22">Post ambos fratres unicus ipse modo. </l>
+            <l n="23">Natu etenim minimus moritur puerilibus annis: </l>
+            <l n="24">Vixisset! magnae nam fuit ille spei. </l>
+            <l n="25">Alter, qui primus sub cincta a Thrace Vienna 25 </l>
+            <l n="26">Et caput et signum victor ab hoste tulit, </l>
+            <l n="27">Ante et post etiam praeclare multa patrando </l>
+            <l n="28">Ante et post etiam vulnera dura tulit. </l>
+            <l n="29">Vulneribus tandem renovatis isque strategi 1) </l>
+            <l n="30">Ultima persolvit fata gerendo vices, 30 </l>
+            <l n="31">Unicus ut modo sim matri; sed et ipse magistri </l>
+            <l n="32">Supra equites Slavnos munia nactus eram. </l>
+            <l n="33">A quo nam Zagraba (slavne sic dicitur) urbe </l>
+            <l n="34">Facta meis studiis Suada coronis erat, </l>
+            <l n="35">Inviso patriae contermina regna Croatae, 35 </l>
+            <l n="36">Osculor et divi limina sancta Petri. </l>
+            <l n="37">Indeque vicinis iterum versatus ab oris </l>
+            <l n="38">Egregiis cupii cognitus esse viris. </l>
+            <l n="39">Discebam varias, sed honestas sedulus artes </l>
+            <l n="40">Otia namque animo non placuere meo. </l>
+            <l n="41">Interea Caesar generali regna diaetae, </l>
+            <l n="42">Sempronii fuerat quae celebrata, vocat. </l>
+            <l n="43">Ad quam Segniadum legati munere functus, </l>
+            <l n="44">Ordinis atque status nomine missus eram, </l>
+            <l n="45">Cuius felici demum pro fine diaetae 45 </l>
+            <l n="46">Regnorum grates regis honore cano. </l>
+            <l n="47">Factus Caesaream post haec orator ad aulam </l>
+            <l n="48">Ad quam sesqui anno pene moratus eram. </l>
+            <l n="49">Hinc postquam redii, belli coepere tumultus, </l>
+            <l n="50">Et cincta a duro Thrace Vienna fuit. 50 </l>
+            <l n="51">In positis Dravi Muraeque ad flumina castris </l>
+            <l n="52">Illyrici semper cum vicerege fui. </l>
+            <l n="53">Sed post (Brezencza Babocsaque arce crematis) </l>
+            <l n="54">Lincii ad Augustum nuntius eius eram. </l>
+            <l n="55">Dumque moratus ibi bis binos transigo menses, 55 </l>
+            <l n="56">Supra equites Slavnos fio magister eques. </l>
+            <l n="57">Fama mihi interea fraternae nuntia mortis, </l>
+            <l n="58">Praesidis atque mei plena dolore volat. </l>
+            <l n="59">Et dum alii contra Turcos contraque rebelles </l>
+            <l n="60">Justa movent fortes Caesaris arma viri: 60 </l>
+            <l n="61">Acta relaturus bano (ceu iure decebat) </l>
+            <l n="62">Non bene Saviacis ipse recurro plagis. </l>
+            <l n="63">Nam non fraterno mala sors contenta dolore </l>
+            <l n="64">Plura ultro voluit me subiisse mala. </l>
+            <l n="65">Quippe salebrosas Styriae currendo per Alpes, 65 </l>
+            <l n="66">Cum titubo, in petram sum male lapsus equo. </l>
+            <l n="67">Occurrere dein plura infortunia semper: </l>
+            <l n="68">Retrogrado potui nec rediisse Iove. </l>
+            <l n="69">Ne tamen omnino castris (licet aeger) abessem, </l>
+            <l n="70">Me cum prorege ad castra Croata tuli. 70 </l>
+            <l n="71">Legio quippe mei procul est mandata tribuni, </l>
+            <l n="72">Leucsae et Russiacis proxima facta plagis. </l>
+            <l n="73">Iamque Viennensem brumae sub tempus in urbem </l>
+            <l n="74">Veni, et tunc absens inde tribunus erat. </l>
+            <l n="75">Sed me per proprias hortatus saepe tabellas 75 </l>
+            <l n="76">Iussit, ut hic, donec venerit ille, morer. </l>
+            <l n="77">Qui septem primo post menses appulit, at si </l>
+            <l n="78">Nec tunc venisset, res bene facta foret. </l>
+            <l n="79">Longius hic etenim, quam par fuit ille moratus. </l>
+            <l n="80">Cassatum regimen tempus ad hocce dolet. 80 </l>
+            <l n="81">Ipse reformatus quoque, nec post castra secutus </l>
+            <l n="82">Nec redii in patrias post ea facta plagas, </l>
+            <l n="83">Namque requisitus fueram, qui regis ad aulam </l>
+            <l n="84">Regnorum patriae publica vota geram. </l>
+            <l n="85">Talibus ad praesens moror hic rationibus actus 85 </l>
+            <l n="86">Unde tamen menses ante movebo duos. </l>
+            <l n="87">Hinc ut apostolici pergant bene commoda regni, </l>
+            <l n="88">Cuius ut Illyrica nobilitate fruor, </l>
+            <l n="89">Composui sacram certantibus atque patronis </l>
+            <l n="90">Laurum, quaeque illis non moritura viret. 90 </l>
+            <l n="91">Quos inter sacro fautores, Carole, bello </l>
+            <l n="92">Non sunt missa tuis ultima serta comis. </l>
+            <l n="93">Quae quod grato animo perceperis atque benigna, </l>
+            <l n="94">Ipse mihi certum suadeo, fronte legas. </l>
+            <l n="95">Sed ne confusus turbet, precor, ordo legentem, 95 </l>
+            <l n="96">Sparsaque diversis nomina magna locis, </l>
+            <l n="97">Non fuit apta satis tanto brevis hora labori, </l>
+            <l n="98">Nec fuit haec nostro res agitanda foro. </l>
+            <l n="99">Quas sed in hoc vires ars vel natura negavit, </l>
+            <l n="100">Has pietas supplet candida, supplet amor. 100 </l>
+            <l n="101">Omnia non omnis: vix omnia possumus omnes: </l>
+            <l n="102">Communi proprium digero sorte malum. </l>
+            <l n="103">Primus ab instructis anagrammatis arte libellis, </l>
+            <l n="104">Fert hic principibus laurea serta viris; </l>
+            <l n="105">Imperiis, regnis, rebus communibus alter; 105 </l>
+            <l n="106">Tertius ad belli fert sua serta duces; </l>
+            <l n="107">Caesareao primis aulae regnique ministris </l>
+            <l n="108">Quartus; ad heroum funera quintus erit. </l>
+            <l n="109">Hi tamen expectant meritae primordia lucis. </l>
+            <l n="110">Quos reliquum sequitur nominis huius opus, 110 </l>
+            <l n="111">Res et materies lectu sat grata profecto </l>
+            <l n="112">Haec erit, ad quorum venerit illa manus. </l>
+            <l n="113">Nec primus nostrae foetus liber iste <corr resp="editor">Camoenae</corr>
+            </l>
+            <l n="114">Hactenus ad lucem, quem dedit illa, fuit. </l>
+            <l n="115">Quatuor iam Slavis <foreign xml:lang="hr">Odilenja Sigetskoga</foreign> libris 115 </l>
+            <l n="116">Et Latiis Musam nam dedit usque novam. </l>
+            <l n="117">Plura suis matura iacent sua pignora cunis </l>
+            <l n="118">Instructa Ausoniis Illyricisque notis. </l>
+            <l n="119">Sed <corr resp="editor">Maecenates</corr> quibus inde leventur ad auras, </l>
+            <l n="120">Esse sub hoc paucos tempore moesta dolet. 120 </l>
+            <l n="121">Nam nec avi mihi nec genitor nummosa pararunt </l>
+            <l n="122">In duris illic commoda opesque plagis, </l>
+            <l n="123">Qui semper Marti praeclara ad gesta studentes, </l>
+            <l n="124">Sat sibi credebant nomen habere bonum, </l>
+            <l n="125">Pro quo saepe tamen passi non pauca fuere, 125 </l>
+            <l n="126">Fortuna ut secum bellica ferre solet, </l>
+            <l n="127">Ipse parens semel at bis frater uterque parentis </l>
+            <l n="128">Ferrea Threicio carcere vincla tulit. </l>
+            <l n="129">Haec breviter de me mihi perscripsisse licebat: </l>
+            <l n="130">De me plura alii plura meisque dabunt. 130 </l>
+            <l n="131">Quem cum nil mage, quam clarorum fama virorum </l>
+            <l n="132">Delectat: tales semper honore colo. </l>
+            <l n="133">Cumque tua audissem plures de laude loquentes, </l>
+            <l n="134">Indolis illustris norma quod ipse viges: </l>
+            <l n="135">Mox in me dixi, dux Lichtensteine, colentes 135 </l>
+            <l n="136">Inter postremus non erit iste tuos. </l>
+            <l n="137">Devoti affectus hinc argumenta per illam </l>
+            <l n="138">Laurum conabar prima dedisse mei. </l>
+            <l n="139">Postquam (si liceat princeps generose) sequetur </l>
+            <l n="140">Nominis in laudem Musa canora tui. 140 </l>
+            <l n="141">Quem virtus ornat, celebrant quem carmina vatum, </l>
+            <l n="142">Felici aeternos vivit honore dies. </l>
+            <l n="143">Expectans reliquo tanti mandata patroni, </l>
+            <l n="144">Cui me commendo. Finio scripta. Vale.</l>
+
+
+            <p>Viennae 29. Junii 1687.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

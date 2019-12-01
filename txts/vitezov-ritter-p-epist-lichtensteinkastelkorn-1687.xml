@@ -1,0 +1,110 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+     <fileDesc xml:id="vitezov-ritter-p-epist-lichtensteinkastelkorn-1687">
+         <titleStmt>
+            <title>Epistula ad Carolum episcopum Olomucensem (1687-04-28), versio electronica</title>
+            <author ref="vitezov01">
+               <persName xml:lang="hr">Ritter Vitezović, Pavao</persName> 
+               <persName xml:lang="la">Ritter, Paulus</persName>
+               <date>1652–1713</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref  type="viaf" target="45350100">František Snopek (1853–1921)</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+          Kasnije znanstveno izdanje (1906).
+        </edition>
+         </editionStmt>
+         <extent ana="B">Mg:B verborum 75</extent>
+         <publicationStmt>
+            <p>Versio electronica TEI XML: Croatiae auctores Latini, indagatio in <orgName>
+                  <ref type="viaf" target="124389134">Facultate philosophica Universitatis Zagrabiensis</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>, Croatia, <date>mense Decembri 2019.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Snopek, F. Paul Ritter Vitezović, Beiträge zu seiner Biographie. Archiv für slavische Philologie 28 (1906) 593-600. 
+               <ref type="internet">https://slavistik-portal.de/datenpool/bibslavarb-db.html?data=1541#</ref>
+               <ref type="internet">https://archive.org/stream/archivfrslavis28berluoft#page/593/mode/1up</ref>.</bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <!-- CTS for a single poem in document -->
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p)" n="paragraph">
+              <p>This pointer pattern extracts line</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:opener)" n="opener">
+              <p>This pointer pattern extracts line</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1687-04-28" precision="high" period="16xx_3_third">1687-04-28</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 17 (1601-1700)</term>
+               <term>1651-1700</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2019-12-01</date>
+        Početna verzija.
+      </change>
+      </revisionDesc>
+  </teiHeader>
+   <text xml:base="urn:cts:croala:vitezov01.croala2205469.croala-lat1:">
+      <body>
+         <div type="prosa-epistula">
+
+            <opener>Celsissime reverendissime princeps, domine domine patrone
+               gratiosissime.</opener>
+            <p>Transmitto, qua decet submissione et reverentia <expan>celsitudini vestrae</expan>
+               reverendissimae levidensem opellam hanc honori et aeviternae memoriae
+                  <expan>celsitudinis vestrae</expan> dicatam, inscriptam directamque, de genu
+               orans, dignetur pro innata sua clementia et benignitate tam opus ipsum, quam auctorem
+               operis suis gratiis favoreque prosequi, qui se virtutibus nomineque eius aeternum
+               vovet, paratus vita ipsa ad iussa et nutus celsitudinis vestrae reverendissimae
+               humillimus obsequentissimus servus Paulus Ritter.</p>
+            <p>Viennae Austriae 28. Aprilis 1687.</p>
+         </div>
+      </body>
+  </text>
+</TEI>
