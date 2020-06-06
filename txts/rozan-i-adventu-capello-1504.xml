@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="rozan-i-adventu-capello-1504">
+         <titleStmt>
+            <title>In aduentu clarissimi uiri Aloysii Capello, Spalatine urbis prętoris dignissimi (1504), versio electronica</title>
+            <author ref="rozan02">
+               <persName xml:lang="hr">Rozan, Ivan</persName> 
+               <persName xml:lang="la">Rosanus, Ioannes</persName>
+               <date>floruit 1499–1507</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="5178395">Bratislav Lučin</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               Kasnije znanstveno izdanje (2019).
+            </edition>
+         </editionStmt>
+         <extent ana="B">Mg:B verborum 969, versuum 144</extent>
+         <publicationStmt>
+            <p>Versio electronica TEI XML: Croatiae auctores Latini, indagatio in <orgName>
+               <ref type="viaf" target="124389134">Facultate philosophica Universitatis Zagrabiensis</ref>
+            </orgName>, <placeName ref="3186886">Zagreb</placeName>, Croatia, <date>mense Decembri 2019.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Lučin, Bratislav i Ioannes Rosanus. "Novi je knez došao u grad: pozdravni govor
+               Splićanina Ivana Rozana u čast Alviza Cappella." Colloquia Maruliana 28
+               (2019): 111-141. <ref type="internet"
+                  >https://hrcak.srce.hr/219716</ref></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <!-- CTS for a single poem in document -->
+         <refsDecl n="CTS">
+            <cRefPattern matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div)"
+               n="paragraph">
+               <p>This pointer pattern extracts section</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p)"
+               n="paragraph">
+               <p>This pointer pattern extracts line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:opener)"
+               n="opener">
+               <p>This pointer pattern extracts opener</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p/tei:q)"
+               n="opener">
+               <p>This pointer pattern extracts quote</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p/tei:quote)"
+               n="opener">
+               <p>This pointer pattern extracts citation</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p/tei:quote/tei:l)"
+               n="opener">
+               <p>This pointer pattern extracts verse line</p>
+            </cRefPattern>
+            <cRefPattern matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:head)"
+               n="verse">
+               <p>This pointer pattern extracts heading</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1504-05-23" precision="high" period="15xx_1_third">1504-05-23</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 17 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa - oratio</term>
+               <term>prosa - epistula</term>
+               <term>prosa - dedicatio</term>
+               <term>poesis - versus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+               <date>2019-09-06T17:40:27.287541526</date>
+               Prva XML verzija.
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:rozan02.croala4716816.croala-lat1:" xml:lang="lat">
+      <body>
+         <div type="prosa-epistula-dedicatio">
+            <opener> Ioannes Rosanus magnifico Marino felicitatem dicit </opener>
+            <p>Solent Parthi ad reges suos et dominos accedere non uacuis manibus. Cum igitur certi
+               nuncii copiam nactus essem soceris, ymo patris mei, comestabilis meritissimi,
+               obstrictus sum sibi ad magnificentiam tuam dare oratiunculam dedicandam huic
+               clarissimo pretori nostro, uiro sane integerrimo, quamquam in ista urbe uirtutem
+               uelut Bruti simulationes opus est supprimere, adeo ceca est inuidia – inuidia,
+               inquam, mordax sui. Interea, magnifice domine (namque tu soles has meas esse aliquid
+               putare nugas), has meas lucubratiunculas, qualescumque sint, prospicies et perleges,
+               nec ascribas uolantis calami deliramentis, nec si alicubi diui Hieronimi me
+               plagiarium esse offendes: ille enim mihi in hoc dicendi genere et cothurnum et
+               petasos et estrum suggerit. </p>
+            <p>Vale, et si tuo consilio, ope aut opera socer meus, ymo pater, in peragendo meo
+               negotio uti uellet, fac tandem intelligam penes simplicitatem tuam fidem, uirtutem et
+               commendationem nostram non uulgarem fuisse. </p>
+            <p>Iterum uale et clarissimo patruo tuo me commendare non dedigneris, quem optime ualere
+               cupio et uiuere Nestoris annos. </p>
+            <p>Ex Spalato, die <num>XXIII</num> Maii <num>1504</num>.</p>
+            <p>Magnifico et generoso domino Marino Sanuto, ordinum sapienti, domino suo
+               collendissimo, Venetiis.</p>
+         </div>
+         <div type="prosa-oratio">
+            <head> Ioannes Rosanus in aduentu clarissimi uiri Aloysii Capello, <lb/>Spalatine urbis
+               prętoris dignissimi </head>
+            <p>Legimus, reuerendissime presul, clarissime prętor, Lycurgum illum Lacedemonium, uirum
+               sane non minus grauissimum quam omnium disciplinarum consumatissimum, plura ludorum
+               genera inuenisse: Troium, cęstum, pilum, pangratium, palestram et cętera id genus,
+               quę a Propertio meo luculenter et graphice exarata offendimus. Quibus etiam puellas
+               cum maribus colluctari haud indecens esse constituit; non quod ille sapientissimus
+               uir ad aliquod libidinis oblectamentum id faceret (ut forsan ignauum uulgus et qui
+               nasum rhinocerotis habent existimant), sed, cum femine eiusdem sint nature cum
+               maribus, isdem etiam studiis ob euitandam imprimis ignauiam, quę teste Augustino uiui
+               hominis est sepultura, uterentur. In his enim ludis, ut Plutarchus tradit, uerecundia
+               aderat, petulantia aberat. Quod genus ludicri etiam Plato, philosophorum deus, in
+               libris de legibus et re publica sumopere approbat.</p>
+            <p>Quorsum ista tam longo repetita ellogio et forsan nonnullis strumoso? Si in
+               antiquorum spectaculis his ludis uti licebat, quanto minus mihi temerarium esse debet
+               hanc meam oratiunculam in hoc festiuissimo tempore, in hac candidissima luce, ante
+               tantam ciuium coronam more patrio consumere? Nec uereor in capitalem penam iuxta
+               Alexandri Macedonis edictum incidisse si ego, nec Apelles nec Lysippus, tanti hominis
+               ymaginem effigiare presumpserim. Dicturus enim sum de tuis amplissimis laudibus,
+               clarissime pretor, de nostro omnium in te animo ac singulari quadam exultatione. </p>
+            <p>Cum primum apud nos increbruisset te in isto munere assumptum fuisse, omnes isti tui
+               dilectissimi ciues tanta animi uoluptate affecti fuerunt quod, si in illa (quę tota
+               fuit rationis et mere simplicitatis) summum bonum extitisset, nos omnes fęlices ac
+               beatos esse existimaremus. Effluxit enim cor nostrum, gauisus fuit animus,
+               exultauerunt uiscera, gestierunt affectus, ut pote quod talem ac tantum prętorem
+               nacti essemus, iustissimum, prudentissimum, sapientissimum, integerrimum! Quod si
+               nobis omnibus, et pueris etiam, qui nondum ere lauantur, illo tunc coram ostendere
+               licuisset uel translationem Abacuc ad Danielem, uel Philippi ad eunucum, uel, ut
+               poetice loquar, Dedaleis aut Persei pęnnis, partes nostras nullis tempestatum
+               anfractibus, nullis procellarum fragoribus, nullo uentorum turbine obeundas
+               destituissemus. Quę omnia pro uirili parte reposuimus, dum in aduentu tuo, prętor, in
+               dies era tinnitibus, aera tormentis fatigauimus, cum isto nostro reuerendissimo
+               archipręsule omnes tibi obuiam surreximus, aras deorum lentiscentibus sertis
+               redimimus, templa lauro et redolentibus flosculis instaurauimus, thuris et mirrę et
+               ceterorum aromatum odore impleuimus (non enim Deus diligit nisi bona, ualde bona, ut
+               in Scripturis de finibus bonis, ualde bonis legimus), cum presertim nobis non
+               ecatumbe, non statę cerimonię, non Quinquatria, non itidem ludi Isthmici, non
+               Olimpiaci, non Terapnęi suppetant, quibus te ac tuum aduentum merito prosequi
+               deberemus. </p>
+            <p>Venisti tandem: <q>quę te tam leta tulerunt sęcula, qui talem tanti genuere
+                  parentes?</q> Quid igitur primum, quid medium, quid ultimum dicam? An de tuę
+               nobilissimę familie et parentum titulis sumam exordia? An de tuis amplissimis
+               uirtutibus, an de nostra singulari congratulatione? Nam si de maiorum tuorum laudibus
+               omnia congrua dicere uoluero, adulari putabor; si quędam subtraxero (ne incredibilia
+               uideantur), illis damnum mea faciet uerecundia. Huiusce igitur Eleusini maris me
+               credere fragoribus desistam: ad te ueniam, de te mihi sermo habendus sit. </p>
+            <p>Video te, clarissime pretor, bonis auibus, meliori omine, optima temporis
+               oportunitate aduenisse, quo uidelicet augustissimum sydus supremo Ioui et
+               dilectissimę suę rapinę dicatum dominatur, quo uniuersus orbis nouis uiribus
+               decoratur, aeris temperie, stellarum clementia, uentorum lenitate, maris
+               tranquilitate, arborum proceritate, herbarum luxurie, florum odore, aquarum susurro,
+               auium concentibus, quę omnia nobis tecum uel media hyeme arriderent arridebuntque:
+               uidimus enim in tuo felicissimo aduentu tantam rerum copiam affluxisse quanta non
+               Romanis cum regis Porsene bona uendebantur, non Syculis ad aram Palici forsan in
+               omnibus affluxerant. </p>
+            <p>Iustitiam, quam in cęlum migrasse tradunt, te comitatam fuisse arbitramur. Illa tibi
+               in omnibus faculas suggerit quales nec Cęres in raptu Proserpinę, illam tu diligis,
+               illam amplecteris, illam foues, ab illa numquam recedis. Legisti enim Egiptios oculum
+               pro iustitia pingere consueuisse, quasi pro nobiliore parte corporis et iustitię
+               uigilantissimo custode; unde poete fabulantur Argum illum totum oculatum fuisse,
+               iustitia silicet plenum. Aristides non alia de re iure optimus dicitur nisi quod
+               iustissimus haberetur. Oculum igitur iustitię dirrigis dum nulla personarum
+               acceptatione, nullis precibus, nullo odio, nullo timore, nullo amore deflecteris, sed
+               obturatis auribus, ut alter Vlyxes ad cantus Syrenarum, omnia pertransis, repellis,
+               suppeditas. Caueant a te assentatores, qui nisi eo confluunt ubi plurimum tum
+               temerarię fortunę, tum leuitatis odorauerint; caueant a te susurrones, genus omnium
+               pessimum, caueant, inquam, tamquam nautę a saxo Ceraunio. <q>Susurro enim et
+                  bilinguis maledictus</q>, ut inquit Ecclesiastes, <q>multos turbauit pacem
+                  habentes, multos comouit et disperdit illos de gente in gentem, urbes munitas
+                  destruxit et domos magnatorum effodit, uirtutes populorum concidit, gentes fortes
+                  dissoluit; qui illos respicit, non habebit requiem nec amicum in quo requiescat,
+                  et plaga eorum linguę cominuet ossa</q>. Oculum iustitię dirrigis dum omnibus
+               oppressis succurris, uiduas defendis, pupillos adiuuas, aduenis opitularis; monuit
+               enim hoc illud Dominicum per Esaiam: <q>Quęrite iuditium, subuenite oppresso,
+                  iudicate pupillo, defendite uiduam</q>; item per Hieremiam: <q>Facite iuditium et
+                  iustitiam, et liberate ui oppressum de manu calumpniatoris, aduenam et pupillum et
+                  uiduam nolite contristari neque opprimatis inique</q>. Oculum iustitię dirrigis
+               dum te omnibus humanissimum, benignissimum ac clementissimum prębes. </p>
+            <p>Quid enim in principe ipsa clementia comendabilius, quid nobilius, quid pręclarius?
+               Laudatur ille sapientissimus rex Dauid, qui ad preces unius mulierculę Abigail Anabal
+               Carmello uiro omnium ingratissimo pepercit. Laudatur diuus Augustus, qui
+               interpellationibus Liuię suę <abbr>L.</abbr> Cinnam, uirum scelestissimum, missum fecerit. Et
+               quanto plus laudum principibus clementia uendicat, tanto seueritas supprimit. Nullum
+               enim in utendo clementia aut errare aut culpari uidimus; in summa autem seueritate
+               plurimos et pene omnes. Seueritas enim non sine aliqua ira peruenit et iratus numquam
+               recte iudicat. Hoc solo sumopere culpatur Alexander, qui propter iram multos
+               interremisset. Vnde non temere natura ipsa apes ita iracundas esse uoluit, quod
+               relicto in uulnere hostis aculeo pereunt, regem tamen eorum inermem et sic mitem et
+               mansuetum.</p>
+            <p>Et quamquam multę alię illustresque uirtutes in principibus requiri solent,
+               abstinentia uirtus non uulgaris habetur. Vnde Chilo philosophus dicere solebat potius
+               iacturam quam malum lucrum desiderare. Et Abacuc: <q>Vhe qui multiplicat non sua,
+                  usquequo et agrauat contra se densum lutum</q>. Comendatur aprime ille Curius,
+               ille Fabritius, quorum alter a Samnitibus, alter ab Epirotis oblata munera recusauit.
+               Hoc institutum uidimus te non solum immitari, sed tuarum potius fortunarum in omnes
+               uti quadam magnanimitate et munificentia. </p>
+            <p>Non deest etiam tibi, clarissime prętor, sapientia, nec illa, inquam, qua Parasatis
+               Artaxersem, filium suum, uti monebat, non illa de qua Plato cum ait foelices fore
+               illas res publicas quę aut a sapientibus, aut a sapientię studiosis gubernarentur,
+               nec item illa de qua scriptum est: <q>Initium sapientię timor Domini</q>. Qui enim
+               timet Deum, in semitis mandatorum suorum ambulat pedibus non coinquinatis, sed de
+               quibus Scriptura loquitur: <q>Quam pulchri pedes sint euangelizantium pacem,
+                  euangelizantium bona</q>. Qui timet Deum, illud a cęlo in templum Apolinis
+               Delphici lapsum ruminatur: <q>Nosce te ipsum</q>, quasi mortalis homo haberet in se
+               aliquid immortalitatis, animam silicet paulominus, teste propheta, ab angelis
+               inferiorem, quę ab isto tenebroso corporis eculeo emancipata ad supernam patriam est
+               euolatura, redditura rationem uillicationis suę ad minimum quadrantem. Vnde
+               Hieronymus: <q>Facile</q>, inquit, <q>contemnit omnia qui quotidie cogitat se
+                  moriturum.</q> Qui timet Deum, mores suos introspectans, quos nobis natura tamquam
+               rudem massam et uoluntati more pecudum obsequentes tribuit, in polliticos transformat
+               et tandem uel deum uel deorum simillimum se reddit. Vnde, ut nostros ob maiorem
+               reuerentiam preteream, ethnici etiam comemorant Tyresiam, Calcanta, Lycurgum et Numam
+               Ponpilium cum deo et nimpha sermocinationes habuisse.</p>
+            <p>O, fęlices illas res publicas, illos populos quibus sanctissimi atque innocentissimi
+               presunt principes: illorum sanctimonia sepenumero Deus diuertit manum indignationis
+               sue a populis etiam iniquissimis, ut ipse in Esaia clare indicat cum ait: <q>Et si
+                  uenerit ad me Enoch et Helia, non est </q>
+               <q>anima mea ad populum istum</q>, quasi quod illi innocentissimi principes maximam
+               apud ipsius maiestatem haberent efficatiam. Dure ceruicis Hebraicus populus
+               appellatur et in gladio furoris Domini iam percuti destinatus; Mosis tamen precibus
+               et sanctimonia ueniam consequi meruit.</p>
+            <p>Sed quid iam longius protrahere et floribus Hyblam exornare? Plato, summus
+               philosophus, indicat hominibus nomina indita fuisse non temere aut casu, sed
+               prudentia quadam suasuque naturę. Tibi enim et cognomen et familia est pileus, non
+               sine grandi misterio, indumentum sane comodissimum, foelicissimum, magnificum,
+               ornatissimum. Illo enim nunc ad coercendos feruentissimos solis ardores et pluuiarum
+               nimbos utimur, illo gemini fratres ex Ioue et Leda nati (signa foelicissima) a poetis
+               induti pinguntur, illo a Romanis Quiritibus serui manumissi libertate donabantur,
+               illo demum Ecclesię nostrę cardinales fulciuntur. Quid igitur nobis sperandum est,
+               optimi ciues, nisi quod sub illius umbra et a feruentissimis hostium incursionibus
+               (si opus fuerit), et a ceteris scelestissimorum uirorum insultibus protegemur, in
+               creperi fori ambagibus uel Sybillinis responsis dillucidabimur, legum formulis
+               conseruabimur, et tandem bonis moribus, pace et ceteris cardinalibus uirtutibus
+               ornabimur? </p>
+            <p>Egratulemur igitur, celeberrimi ciues, gratulemur: habemus enim illum ducem de quo
+               Apostolus: <q>a Deo</q>
+               <q>missum ad uindictam malorum et laudem bonorum</q>, de quo Dominus per Aggeum:
+                  <q>comouebo cęlum et terram, et mouebo omnes gentes, et ueniet desideratus
+                  tibi.</q> Gratulemur igitur, et eo magis gratulemur quod cum isto clarissimo
+               pretore habemus hunc nostrum chirurgycum spiritalem, reuerendissimum archipresulem,
+               linguę nostrę sidus non obscurum, eloquentię fontem uberrimum, uitę integerrimum,
+               sanctimonia plenum, qui ob ingentem in nos suam et paternam charitatem nec cum Esaia
+               nostra causa nudus incedere erubesceret, nec cum Hieremia ad Eufratem Messopotamię
+               <sic>fluminem</sic> per inimicas Caldeorum et Assiriorum gentes ponere lumbare corrumpendum. Sic
+               ille Policratis tyramni sardonix cum Pirrhi achate conueniebat, sic illud Ponpei
+               alueum cum preciosissima Mitridatis dactilotheca. </p>
+            <p>Sed ne iam mea oratio elephantes gestare uideatur, nunc tibi, reuerende pontifex,
+               tibi, clarissime pretor, hoc institutum, hoc mnemosomum, hanc benedictionem relinquo:
+                     <quote><l>Viuite concordes ut uitis palmite et ulmo,</l>
+                  <l>Vt truncis hederę; non gaudia uestra triumphus</l>
+                  <l>Vincat Cęsareus, plausus non scoene theatri.</l></quote></p>
+            <p>Dixi.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
