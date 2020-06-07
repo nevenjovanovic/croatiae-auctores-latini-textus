@@ -1,0 +1,1708 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <!-- radna verzija -->
+      <fileDesc xml:id="andreis-f-epist-nadasd">
+         <titleStmt>
+            <title>Epistolae ad Thomam Nadasdinum, versio electronica</title>
+            <author ref="and02">
+               <persName xml:lang="hr">Andreis, Franjo Trankvil</persName>
+               <date>1490-1571</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Izdanje prema rukopisnom izvorniku.</edition>
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum 5603 (pro tem)</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma,
+          (<orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Srpnja
+            2012.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>ms...</bibl>
+         </sourceDesc>
+      </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="abbr" occurs="28"/>
+          <tagUsage gi="abstract" occurs="22"/>
+          <tagUsage gi="addrLine" occurs="63"/>
+          <tagUsage gi="address" occurs="19"/>
+          <tagUsage gi="author" occurs="1"/>
+          <tagUsage gi="bibl" occurs="2"/>
+          <tagUsage gi="body" occurs="1"/>
+          <tagUsage gi="change" occurs="2"/>
+          <tagUsage gi="closer" occurs="20"/>
+          <tagUsage gi="corr" occurs="2"/>
+          <tagUsage gi="creation" occurs="22"/>
+          <tagUsage gi="date" occurs="70"/>
+          <tagUsage gi="dateline" occurs="20"/>
+          <tagUsage gi="del" occurs="4"/>
+          <tagUsage gi="div" occurs="21"/>
+          <tagUsage gi="edition" occurs="1"/>
+          <tagUsage gi="editionStmt" occurs="1"/>
+          <tagUsage gi="editor" occurs="1"/>
+          <tagUsage gi="encodingDesc" occurs="1"/>
+          <tagUsage gi="expan" occurs="159"/>
+          <tagUsage gi="extent" occurs="1"/>
+          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
+          <tagUsage gi="gap" occurs="14"/>
+          <tagUsage gi="keywords" occurs="66"/>
+          <tagUsage gi="langUsage" occurs="22"/>
+          <tagUsage gi="language" occurs="22"/>
+          <tagUsage gi="namespace" occurs="1"/>
+          <tagUsage gi="num" occurs="4"/>
+          <tagUsage gi="opener" occurs="20"/>
+          <tagUsage gi="orgName" occurs="1"/>
+          <tagUsage gi="p" occurs="65"/>
+          <tagUsage gi="particDesc" occurs="22"/>
+          <tagUsage gi="pb" occurs="24"/>
+          <tagUsage gi="persName" occurs="66"/>
+          <tagUsage gi="person" occurs="43"/>
+          <tagUsage gi="place" occurs="50"/>
+          <tagUsage gi="placeName" occurs="106"/>
+          <tagUsage gi="postscript" occurs="1"/>
+          <tagUsage gi="profileDesc" occurs="22" withId="21"/>
+          <tagUsage gi="publicationStmt" occurs="1"/>
+          <tagUsage gi="ref" occurs="5"/>
+          <tagUsage gi="resp" occurs="1"/>
+          <tagUsage gi="respStmt" occurs="1"/>
+          <tagUsage gi="revisionDesc" occurs="1"/>
+          <tagUsage gi="salute" occurs="35"/>
+          <tagUsage gi="settingDesc" occurs="22"/>
+          <tagUsage gi="sic" occurs="16"/>
+          <tagUsage gi="signed" occurs="20"/>
+          <tagUsage gi="sourceDesc" occurs="1"/>
+          <tagUsage gi="supplied" occurs="45"/>
+          <tagUsage gi="tagUsage" occurs="55"/>
+          <tagUsage gi="tagsDecl" occurs="1"/>
+          <tagUsage gi="teiHeader" occurs="1"/>
+          <tagUsage gi="term" occurs="132"/>
+          <tagUsage gi="text" occurs="1"/>
+          <tagUsage gi="textClass" occurs="22"/>
+          <tagUsage gi="title" occurs="1"/>
+          <tagUsage gi="titleStmt" occurs="1"/>
+          <tagUsage gi="unclear" occurs="7"/>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date from="1532" to="1547" period="15xx_2_third">1532-1547</date>
+        
+            <date when="1547-03-26" period="15xx_2_third">26. ožujka 1547</date>
+            <placeName>Venecija</placeName>
+            <date when="1541-01-15" period="15xx_2_third">15. siječnja 1541</date>
+            <placeName>Beč</placeName>
+            <date when="1541-03-17" period="15xx_2_third">17. ožujka 1541</date>
+            <placeName>Beč</placeName>
+            <date when="1541-12-04" period="15xx_2_third">4. prosinca 1541</date>
+            <placeName>Beč</placeName>
+            <date when="1545-11-30" period="15xx_2_third">30. studenoga 1545.</date>
+            <placeName>Venecija</placeName>
+            <date when="1545-12-10" period="15xx_2_third">10. prosinca 1545.</date>
+            <placeName>Venecija</placeName>
+            <date when="1547-04-04" period="15xx_2_third">4. travnja 1547.</date>
+            <placeName>Venecija</placeName>
+            <date when="1549-11-01" period="15xx_2_third">1. studenoga 1549.</date>
+            <placeName>Trogir</placeName>
+            <date when="1550-03-11" period="15xx_2_third">11. ožujka 1550.</date>
+            <placeName>Rab</placeName>
+            <date when="1551-12-06" period="15xx_2_third">6. prosinca 1551.</date>
+            <placeName>Sarvar</placeName>
+            <date when="1551-01-16" period="15xx_2_third">16. siječnja 1551.</date>
+            <placeName>Venecija</placeName>
+            <date when="1552-05-22" period="15xx_2_third">22. svibnja 1552.</date>
+            <placeName cert="medium">Trogir</placeName>
+            <date when="1553-11-05" period="15xx_2_third">5. studenoga 1553.</date>
+            <placeName>Bakar</placeName>
+            <date when="1553-04-28" period="15xx_2_third">28. travnja 1553.</date>
+            <placeName>Sarvar</placeName>
+            <date when="1553-11-29" period="15xx_2_third">29. studenoga 1553.</date>
+            <placeName>Trogir</placeName>
+            <date when="1554-07-12" period="15xx_2_third">12 srpnja 1554.</date>
+            <placeName>Sarvar</placeName>
+            <date when="1554-04-01" period="15xx_2_third">1. travnja 1554.</date>
+            <placeName>Trogir</placeName>
+            <date when="1555-05-24" period="15xx_2_third">24. svibnja 1555.</date>
+            <placeName>Venecija</placeName>
+            <date when="1555-06-12" period="15xx_2_third">12. lipnja 1555.</date>
+            <placeName>Trogir</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+     <profileDesc xml:id="andreisnadasd15470326">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q641">Venetia</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           <person role="mentioned">
+               <persName ref="64015055">Giòvio, Paolo</persName>
+            </person>
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1547-03-26" period="15xx_2_third">26. ožujka 1547</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15320320">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q193478">Buda</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+           <place ana="mentioned">
+               <placeName ref="http://www.wikidata.org/wiki/Q193478">Buda</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1532-03-20" period="15xx_1_third">20. ožujka 1532</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15410115">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1741?uselang=en">Vienna</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1541-01-15" period="15xx_2_third">15. siječnja 1541</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15410317">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1741?uselang=en">Vienna</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1541-03-17" period="15xx_2_third">17. ožujka 1541</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15411204">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q1741?uselang=en">Vienna</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1541-12-04" period="15xx_2_third">4. prosinca 1541</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15451130">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q641">Venetiae</placeName>
+            </place>
+           <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q1741">Vienna</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1545-11-30" period="15xx_2_third">30. studenoga 1545.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15451210">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q641">Venetiae</placeName>
+            </place>
+           <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q1741">Vienna</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1545-12-10" period="15xx_2_third">10. prosinca 1545.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15xxxxxx">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+           
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+           <date type="unknown" period="15xx_3_third">Unknown</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15470404">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q641">Venetiae</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+           <place ana="mentioned">
+               <placeName ref="http://www.wikidata.org/wiki/Q406">Constantinopolis</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1547-04-04" period="15xx_2_third">4. travnja 1547.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15491101">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q189161">Tragurium</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1549-11-01" period="15xx_2_third">1. studenoga 1549.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15500311">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q13277">Arba</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+           <place ana="mentioned">
+               <placeName ref="http://www.wikidata.org/wiki/Q189161">Tragurium</placeName>
+            </place>
+           <place ana="mentioned">
+               <placeName ref="http://www.wikidata.org/wiki/Q641">Venetiae</placeName>
+            </place>
+           
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1550-03-11" period="15xx_2_third">11. ožujka 1550.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15511206">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q843043">Sarvar</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+           <place ana="mentioned">
+               <placeName ref="http://www.wikidata.org/wiki/Q756598">Lippa</placeName>
+            </place>
+           
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1551-12-06" period="15xx_2_third">6. prosinca 1551.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15510116">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q641">Venetiae</placeName>
+            </place>
+           <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q28">Hungaria</placeName>
+            </place>
+           
+           
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1551-01-16" period="15xx_2_third">16. siječnja 1551.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15520522">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+           <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q28">Hungaria</placeName>
+            </place>
+           <place ana="mentioned">
+               <placeName ref="http://www.wikidata.org/wiki/Q189161">Tragurium</placeName>
+            </place>
+           <place ana="mentioned">
+               <placeName ref="http://www.wikidata.org/wiki/Q28">Hungaria</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1552-05-22" period="15xx_2_third">22. svibnja 1552.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15531105">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q740324">Bucharis</placeName>
+            </place>
+           <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q843043">Sarvar</placeName>
+            </place>
+          
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName>Perneszith, György</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1553-11-05" period="15xx_2_third">5. studenoga 1553.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15530428">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q843043">Sarvar</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1553-04-28" period="15xx_2_third">28. travnja 1553.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15531129">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q189161">Tragurium</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1553-11-29" period="15xx_2_third">29. studenoga 1553.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15540712">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q843043">Sarvar</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1554-07-12" period="15xx_2_third">12 srpnja 1554.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15540401">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q189161">Tragurium</placeName>
+            </place>
+           <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1554-04-01" period="15xx_2_third">1. travnja 1554.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15550524">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q641">Venetiae</placeName>
+            </place>
+           <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q28">Hungaria</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1555-05-24" period="15xx_2_third">24. svibnja 1555.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+     <profileDesc xml:id="andreisnadasd15550612">
+        <abstract>
+            <p/>
+         </abstract>
+        <settingDesc>
+           <place ana="origin">
+               <placeName ref="http://www.wikidata.org/wiki/Q189161">Tragurium</placeName>
+            </place>
+           <place ana="destination">
+               <placeName ref="http://www.wikidata.org/wiki/Q28">Hungaria</placeName>
+            </place>
+        </settingDesc>
+        <particDesc>
+           <person role="sender">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+           <person role="recipient">
+               <persName ref="64810095">Nádasdy, Tamás</persName>
+            </person>
+           
+        </particDesc>
+        <langUsage>
+           <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1555-06-12" period="15xx_2_third">12. lipnja 1555.</date>
+         </creation>
+        <textClass>
+           <keywords scheme="typus">
+              <term>prosa</term>
+           </keywords>
+           <keywords scheme="aetas">
+              <term>Litterae renatae (1400-1600)</term>
+              <term>Saeculum 16 (1501-1600)</term>
+              <term>1501-1550</term>
+              <term>1551-1600</term>
+           </keywords>
+           <keywords scheme="genre">
+              <term>prosa oratio - epistula</term>
+           </keywords>
+        </textClass>
+     </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>        
+            <date>2015-02-07</date>
+            Svako pismo ima poseban profiledesc, za rastavljanje.
+         </change>
+      
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>        
+            <date>2012-07-21</date>
+        Radna verzija.
+      </change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+      
+      
+         <div type="prosa-epistula" corresp="#andreisnadasd15470326">
+            <opener>
+               <address>
+                  <addrLine>Illustri et <expan>Magnifico</expan> 
+                     <expan>Domino Domino</expan>
+Thome Nadasdino comiti
+<supplied>de Fogaras</supplied> et Judici curie
+<gap/>eg. <expan>Maiestatis</expan> 
+                     <expan>Romanę</expan> 
+                     <abbr>etc.</abbr>
+                     <gap/> meo semper <expan>obseruandissimo</expan>
+In Hungariam</addrLine>
+               </address>
+               <salute>Illustris et Magnifice Domine Domine semper obseruandissime, salue.</salute>
+            </opener>
+            <p>Datis ultimis ad te litteris <date when="1547-03-22">22. Martij</date>, nil aliud hactenus sequutum est: nec fama de Thurcorum apparatu in Hungariam leuatur. Preterea significatur nondum omnia satis esse parata in Germania. Quoniam binas litteras ad me dederas uno exemplo, alterę paucis ante diebus redditę mihi sunt. Ex utrisque et amorem tuum agnosco, et uoluntatem tuam percipio: et in hoc sum, ut tibi praesto semper sim. Tu interim curato, ut ad diem et equos et pecuniam mittas. <persName>Paulus Jovius</persName> recens edidit librum de imaginibus clarorum virorum inter quos et nomen tuum breviter perstrinxit, quod ut perscriptum est, ad te mecum afferam, si librum ipsum ferre non potuero. </p>
+            <closer>
+               <salute>Vale feliciter. </salute>
+               <dateline>Venetiis, <date when="1547-03-26">26 Martij 1547</date>.</dateline>
+               <signed>Tue <expan>Illustrissimę</expan> et <expan>Magnificę</expan> 
+                  <expan>Dominationis</expan> 
+                  <expan>obsequentissimus</expan> seruitor Tranquillus</signed>
+            </closer>
+         </div>
+      
+         <div type="prosa-epistula" corresp="#andreisnadasd15320320">
+            <opener>
+               <address>
+                  <addrLine>
+                     <gap/>g-co Dno Thome Nadasdino
+<gap/>onsiliario Regie <expan>Maiestatis</expan> 
+                     <expan>domino</expan>
+                     <expan>obseruandissimo</expan>
+                  </addrLine>
+               </address>
+               <salute>Magnifice domine domine obseruandissime, salue.</salute>
+            </opener>
+            <p>Diu <placeName>Bude</placeName> expectaui litteras et mandata <abbr>V. D. M.</abbr> Paulus etiam Curta negat quicquam sibi a te commissum esse de <supplied>salibus</supplied>: si es oblitus, accipio excusationem, sin plus cuiquam credis, quam Tranquillo, admodum egre fero: hactenus enim non didici fallere amicos. non tam mouet me damnum quam iniuria. deum testor si manebo in Hungaria recordabor, ut <supplied>leniter</supplied> dicam, hujus insolentis temeritatis pumilionis illius, etiam si deos et homines <supplied>propterea</supplied> offendam. Ego pro commodo tuo et honore libenter et sanguinem et fortunas meas profuderim, sed contumelia abiectissimi hominis intolerabilis mihi est. Hac de re pleraque dominus Thurcouith vir integer narrabit <abbr>V. M. D.</abbr> cui mea seruitia commendo. </p>
+            <closer>
+               <dateline>Bude feria quarta ante Dominicam palmarem 1532.</dateline>
+               <signed>
+                  <expan>Seruitor</expan> Tranquillus</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15410115">
+            <opener>
+               <address>
+                  <addrLine>
+                     <expan>Spectabili</expan> et <expan>Magnifico</expan> 
+                     <expan>domino</expan>
+                     <expan>domino</expan> Thome Nadasdino <abbr>etc</abbr> 
+                     <abbr>domino</abbr> meo
+<abbr>obseruandissimo</abbr>
+                  </addrLine>
+               </address>
+               <salute>Spectabilis et Magnifice domine domine obseruandissime, salutem et mei commendationem.</salute>
+            </opener>
+            <p>Non potui expectare istic reditum <abbr>V. M. D.</abbr> multis de causis, sed praecipue ualetudinis gratia, nunc <supplied>etiam</supplied> non satis ualeo contracto istic frigore. Scripsi <expan>Reuerendissimo</expan> 
+               <expan>domino</expan> 
+               <supplied>Traussith</supplied> de re mea ut agat apud regem. <expan>Vestra</expan> etiam <abbr>M. D.</abbr> uelit esse adiutor. quod si <supplied>equum</supplied> non possum impetrari: rogo accomodet mihi <abbr>V. M. D.</abbr> unum equum et bene valeat. decreui nullo pacto mihi deesse, ut si Judices iniquos habeo, ad deum tamen refero causam meam. </p>
+            <closer>
+               <salute>Omnia fortunata tibi opto ex animo.</salute>
+               <dateline> Vienne, <date when="1541-01-15">15. Januarij 1541</date>.</dateline>
+               <signed>
+                  <expan>Seruitor</expan> Tranquillus</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15410317">
+            <opener>
+               <address>
+                  <addrLine>
+                     <expan>Spectabili</expan> et <expan>Magnifico</expan> 
+                     <expan>domino</expan>
+meo <expan>domino</expan> Thome
+Nadasdino Consiliario <expan>Regię</expan> 
+                     <expan>Maiestatis</expan>
+                     <abbr>etc</abbr>
+                  </addrLine>
+               </address>
+               <salute>Spectabilis et Magnifice domine domine obseruandissime, salutem et mei commendationem.</salute>
+            </opener>
+            <p>Clementissimus dominus meus mittit me ad longinquam legationem. Indigeo forti equo: tu succurre. Fortasse discedam hinc ad triduum. hic expectaui in dies <supplied>tuam</supplied> 
+               <abbr>M. D.</abbr>; vellem coram alloqui. </p>
+            <closer>
+               <salute>Commendo me plurimum Vestre Spectabili et Magnificae Dominationi. </salute>
+               <dateline>Vienne. <date when="1541-03-17">17. Martij 1541</date>.</dateline>
+               <signed>
+                  <expan>Seruitor</expan> Tranquillus</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15411204">
+            <opener>
+               <address>
+                  <addrLine>
+                     <expan>Spectabili</expan> et <expan>Magnifico</expan> 
+                     <expan>domino</expan> 
+                     <expan>domino</expan>
+Thomę Nadasdino
+<expan>Magistro</expan> Tauernicorum
+<expan>Regię</expan> 
+                     <expan>Maiestatis</expan> 
+                     <abbr>etc</abbr> 
+                     <expan>domino</expan> 
+                     <expan>obseruandissimo</expan>
+                  </addrLine>
+               </address>
+               <salute>Spectabilis et Magnifice domine domine obseruandissime, salutem et seruitiorum meorum commendationem.</salute>
+            </opener>
+            <p>Nescio quo fato meo semper accidit te abesse a domo, quum ad te scribo pro equo: sunt circiter dies 12 ex quo ueniens huc ad te scripsi, arbitratus te domi tue esse, hodie quum expectarem responsum <persName>Farkas Janus</persName> dixit a te litteras accepisse <placeName>Tyrnauiae</placeName> ex conuentu atque ibi te futurum aliquot dies. Optabam tecum esse, sed iussit rex se sequar in Bohemiam, deinde Spiram: cuius voluntate hic excuditur illa nostra oratiuncula, sed addita sunt quedam de Hungaria, ut tempus istud postulat, puto non ingrata tibi futura. Non manebo hic diutius quam ad diem Sabbati: si quem in promptu equum pro me habes, rogo quam primum mitte, oportet autem ualidum esse et <supplied>sallutarium</supplied>, magna enim instant mihi itinera in hanc hyemem. si missurus es mitte ad feriam sextam <pb/> tardius frustra miseris. Post cladem acceptam miserat me rex ad pontificem per postas. Reperi eum Luce in Etruria cum Cesare, eodem die utrumque allocutus sum. Cesar omnino ab expeditione Africana redibit in Italiam ad primum ver. Pontifex magnis auxiliis nos iuuabit, imperaueramus duo millia et quingentos milites quos Placentie in promptu habuit, et iam peruenerant non procul a Tridento, sed iussu regis redierunt. Serio apparantur omnia ad bellum uernum, abundabimus omnibus opibus, vereor solum ne ducum <supplied>laborumque</supplied> penuria. <expan>Magnificus</expan> 
+               <expan>dominus</expan> Laski longo morbo detinetur, si dei ope conualescat, bene sperare possumus. Breuiter scribo, quoniam spero me <expan>dominum</expan> Sarkan esse visurum antequam discedam. Mithridatum ex Constantinopoli quod magno labore aquisivi una cum fundo et ipsa pixide relinquam apud Farkas <sic>Janus</sic>. </p>
+            <closer>
+               <salute>Plurimum commendo me tibi et operam meam polliceor. Vale feliciter.</salute>
+               <dateline>Vienne, <date when="1541-12-04">4 Decembris die sabbato. 41</date>.</dateline>
+               <signed>Tue <expan>Spectabilis</expan> et <expan>Magnificę</expan> 
+                  <expan>Dominationis</expan> 
+                  <expan>Seruitor</expan> Tranquillus</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15451130">
+            <opener>
+               <address>
+                  <addrLine>Illustri et <expan>Magnifico</expan> 
+                     <expan>domino</expan> 
+                     <expan>domino</expan> meo</addrLine>
+                  <addrLine>
+                     <expan>obseruandissimo</expan> 
+                     <expan>domino</expan> Thome Nadasdino</addrLine>
+                  <addrLine>
+                     <supplied>comiti</supplied> et iudici curie <expan>serenissimi</expan>
+                  </addrLine>
+                  <addrLine>
+                     <supplied>regis</supplied> Romanorum <abbr>etc.</abbr>
+                  </addrLine>
+                  <addrLine>Viennam</addrLine>
+               </address>
+               <salute>Illustrissime et Magnifice domine domine obseruandissime, salue.</salute>
+            </opener>
+            <p>Nescio quam celeriter meę litterę tibi redduntur: tuę quidem et Carabeti uix intra unum mensem ad me perueniunt. Quę tarditas nullam utilitatem negocijs affert. Ego uero pręter diligentiam nihil aliud prestare possum. Tuis binis litteris quas utrasque ad me Pape 19. et 23. Nouembris, respondi 22. X-bris. Noua ista (ut mandaueras) legi <expan>magnifico</expan> domino Petro Erdeudi, eumque et uxorem tuo nomine salutaui: quę res illi valde grata fuit. Indies <sic>expectabat</sic> famulum ex Hungaria: nescio an hoc biduo venerit.</p>
+            <p>Ragusini seruitorem Regis <expan>Romanorum</expan> cum octo brigantinis conduxerunt Tergestum, qui Ragusii tamdiu fuit donec reuerteretur Constantinopoli, quem ipse miserat: quid autem curauerit, nondum intellexi: nam et brigentini detinentur aduersis ventis in Istria.</p>
+            <p>Quidam Coruati subsidium petunt a pontifice, quod aduersus Sanzacum Bosnensem defendere se nequeunt.</p>
+            <p>Meministi, opinor, scripsisse me duobus mensibus ante, quod pontifex procurarit <expan>Dominam</expan> Victoriam tradere nuptui regi Polonię et postea scripseram eam rem in fumum abiisse. Nuper regina Bona misit unum expeditissimum nuntium ad <expan>Cardinalem</expan> Farnesium <pb/> in eodem negocio. Qui in reditu mecum est pransus 24. X-bris. Dicebat se mutatis equis properare dies et noctes negociumque patefecit ac dixit, scito rem esse perfectam si me ante carnisprivium hic videbis.</p>
+            <p>
+               <sic>Monsiur</sic> de <sic>Monluch</sic> legatus regis Gallie, qui venit ex Thurcia per Hungariam, nudiustertius abiit ad regem per postas. Dicitur uoluisse ire per Heluetios sed ne faceret preiudicium apostolicę discordię profectus est per Insubriam.</p>
+            <p>Heri accepi litteras a <expan>domino</expan> Carabeto et <expan>domino</expan> Sarkano, has 14. Nouembris, illas 1. X-bris Vienne scriptas. Iam oculos laceraui obseruando ac <supplied>eos</supplied> extendendo unde primum Carabetus occureret.  Emam pro domino Sarkano zambilotum et illi mittam, quum ero nactus fidelem nuntium, vel ipse mihi significet, in cuius manus illud daturus sim, ne me arguat obliuionis aut negligentie. Negocium totum de prepositura tuę bonitati comitto. </p>
+            <closer>
+               <salute>Vale pancratice, et seruum tuum amare ne desinas.</salute>
+               <dateline>Venetijs, <date when="1545-11-30">pridie Cal. Xbris 45.</date>.</dateline>
+               <signed>Tue <expan>illustrissimę</expan> et <expan>Magnificę</expan> 
+                  <expan>Dominationis</expan>
+            
+                  <expan>addictissimus</expan> seruitor
+            Tranquillus</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15451210">
+            <opener>
+               <address>
+                  <addrLine>Illustri et <expan>Magnifico</expan> 
+                     <expan>domino</expan> 
+                     <expan>domino</expan>
+                  </addrLine>
+                  <addrLine>meo <expan>obseruandissimo</expan> 
+                     <expan>domino</expan> Thomae</addrLine>
+                  <addrLine>Nadasdino comiti et judici</addrLine>
+                  <addrLine>
+                     <gap/>lę regię <expan>maiestatis</expan> 
+                     <expan>Romanorum</expan> 
+                     <abbr>etc.</abbr> 
+                     <abbr>etc.</abbr>
+                  </addrLine>
+                  <addrLine>Viennam.</addrLine>
+               </address>
+               <salute>Illustrissime et Magnifice domine obseruandissime salue.</salute>
+            </opener>
+            <p>Hodie accepi unas Carabeti nostri, tuas uero binas litteras, alteras quidem 8. Nouembris, alteras in Papa XI. die datas: gaudeo probari tibi officium meum, presertim quod in optimum uirum Carabetum singulari sis affectione. Conatus tuos uehementer laudo: siquidem in commoda religionis et patrię incumbis. Sed uide, ut rem modo optimo aggrediaris, ne famam tuam in discrimen conijcias, alienaue negligentia traharis in calumniam.  De prępositura, ut scribit Carabetus, nihil dum actum est. Si eo rex animo est, ut scripsisti, miror quod episcopus audeat reluctari voluntati regie; sin rex conniuet, puto rem non esse amplius <corr>tentandam</corr>. Ergo ea natus sum felicitate ut ipse omnibus, mihi pauci seruent fidem. Quid decreuerim de rebus Thurcicis, scripsi Carabeto. Diu nihil intellegi de legatis in Thurcia. Pax inter Gallum et Anglum non <supplied>procedit</supplied>. Hic enim vult retinere Bolognam, petit insuper expensas in bello factas. Sed neque cum Cesare Gallo videtur conuenturum. Video nobis imminere magnas <supplied>bellorum</supplied> tempestates. Pontifex decreuit aperire concilum Tridenti. Ut antea scripseram, Luterani autem iam <supplied>ceperunt</supplied> nationale concilium celebrare Frankfordie ad Menum fluuium. Nihil aliud dignum est ut scribatur.</p>
+            <closer>
+               <salute> Bene vale et vince, ut te laureatum redeuntem complectamur.</salute>
+               <dateline>Venetiis, <date when="1545-12-10">X. Decembris 1545.</date>.</dateline>
+               <signed>Tue <expan>Illustrisimę</expan> et Magnifice <expan>Dominationis</expan>
+            seruitor <expan>deditissimus</expan>
+            
+            Tranquillus</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15xxxxxx">
+            <opener>
+          
+               <salute>
+                  <expan>Illustrissime</expan> et <expan>Magnifice</expan> 
+                  <expan>domine</expan> 
+                  <expan>domine</expan> 
+                  <expan>obseruandissime</expan> salue.</salute>
+            </opener>
+            <p>In negocio <expan>Magnifici</expan> 
+               <expan>domini</expan> 
+               <expan>Ioannis</expan> Balassa omnem curam et operam, quam potui maiorem impendi. Quod quidem feci magna cum alacritate, primum ut parerem tuę voluntati, qua re nihil est mihi antiquius, ac tum demum intelligam, me abs te perfecte amari, quum sępe studium meum et operam exercueris: deinde quod illius nobilissimę familię laudi consultum cupio: nam et ea natione est, pro cuius incolumitate atque gloria ingentes ego labores exhausi, et mihi cum fratre Ballassorum <expan>domino</expan> Emerico uiro plane magnifico et generoso non tenuis superioribus annis consuetudo intercęssit. Vsi sumus in ea re consilio Oratoris ducis Vrbinatis, qui sese nobis facilem admodum ac perbenignum prebuit. Vehementer gaudeo istius optimi principis extare in me clementiam non vulgarem, quem ut talem haberem magnopere contendi: Cui an rursus me uelim adijcere queris. Ego uero ingenue tibi confirmo, sic me de virtute et mansuetudine <pb/> Regię majestatis iudicavisse, ut decrevissem omnia vitę meę spacia in servitiis eius consumere, nec voluntate quidem mea, nec ulla culpa principis, sed acerbitate illius, qui nuper decessit, coactus sum alienari ex aula regia: indignitas et contemptio plerumque vel sanctos homines transversos agit. Sed tamen ita me gessi hoc toto tempore, quo absens fui, quasi seruitute non abiisem: ac tantum abest ut vel <sic>incomodum</sic> aliquod ei optarim, vel ad hostes eius profugerim, ut cum iis, quos existimaui esse ipsi maleuolos, ne colloquia quidem consociare atque commiscere voluerim: semper aule ac ubique sue <expan>regię</expan> 
+               <expan>maiestatis</expan> inquisiui amicos, eosque adhęsi, et nunc etiam cum illis sum.  Quantum vero illius principis predicauerim laudes, quantum de ipsius commodis cogitarim, testis est mihi pontifex et multi viri principes. Quod ut faciam, subigit me cum natura mea, quę nequit non bene precari regi optimo et innocentissimo, ac ex cuius salute <expan>reipublicae</expan> salus dependet: tum quod eius in me gratiam sępe sum expertus singularem: ac nisi me obtrectatores alienassent, neminem <pb/> haberet principem magis clementem ac benignum. Quare si est voluntas suę <expan>Maiestatis</expan> et bono modo redire licet, omnes alias spes et magnas et paruas relinquam. Mitto autem in tuas manus omnem potestatem honoris mei atque fortunarum quicquid perfeceris, perficies autem quod e re mea putabis, gratum et ratum habebo. Episcopum Jauriensem si tibi uidetur, postquam strenue improbus et iniustus est, citabo Romam in judicium: omnia tamen ex tua voluntate faciam.</p>
+            <p>Duo hec audiui ex quodam magno et probo viro Cesarem petiisse a Venetis ut liceret ei per Tridentum in Italiam mittere <num value="10000">X milia</num> peditum, ac Venetos quidem recusauisse; preterea Dulfinum dixisse patri ut omitteret facere pacem simulatam cum Cesare, sed totum se conuerteret ad bellum serio gerendum, eoque summam rei experiretur. Rex <expan>Romanorum</expan> cogitur impedito Cesare in bello Gallico tentare proferre inducias cum Thurco: sed uereor ne minus id obtineat, obstante Gallo. Nuper ex Thurcia rediit legatus Venetorum Stephanus Chiepuli. Quid attulerit adhuc intelligi non potest.</p>
+            <pb/>
+            <gap/>
+        
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15470404">
+            <opener>
+               <address>
+                  <addrLine>Illustri et <expan>Magnifico Domino Domino</expan>
+                  </addrLine>
+                  <addrLine>Thome Nadasdino comiti</addrLine>
+                  <addrLine>
+                     <supplied>in Fogaras</supplied> et Iudici curie</addrLine>
+                  <addrLine>
+                     <gap/> 
+                     <expan>Regię Maiestatis Romanorum</expan> 
+                     <abbr>etc</abbr>.</addrLine>
+                  <addrLine>
+                     <gap/> meo semper <expan>obseruandissimo</expan>.</addrLine>
+               </address>
+               <pb/>
+               <salute>Illustris et <expan>Magnifice</expan> 
+                  <expan>Domine Domine</expan> semper <expan>obseruandissime</expan> salue.</salute>
+            </opener>
+            <p>A proximis meis litteris, quas ad te <date when="1547-03-22">22. Martii</date> dedi, ex Thurcia nihil aliud allatum est, nisi quod in hac <supplied>sceda</supplied> continetur. Et Veneti quidem, si eadem primis ex <placeName>Constantinopoli</placeName> litteris confirmabuntur, cogitant et classem maritimam instruere, et generalem ei ducem preficere.</p>
+            <p>Vellem res Germanice pacatiores essent: sed id velimus oportet, quod possumus.</p>
+            <p>Cetera breui coram. Veniam autem subsarcinatus rerum nouarum. Te autem, quemadmodum optaui, facturum esse omnia non dubito.</p>
+            <closer>
+               <salute>Vale cum tuis omnibus feliciter.</salute>
+          Transegi cum quodam amico qui subinde nos faciat de successu rerum certiores.
+          <dateline>Venetiis. <date when="1547-04-04">4. Aprilis 1547.</date>
+               </dateline>
+               <signed>Tue <expan>Illustris et Magnificę Dominationis</expan>
+            
+                  <expan>Obsequentissimus</expan> seruitor
+            Tranquillus</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15491101">
+            <opener>
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo et Magnifico Domino Domino</expan>
+                  </addrLine>
+                  <addrLine>Thome Nadasdino comiti</addrLine>
+                  <addrLine>in Fogaras Judici curię</addrLine>
+                  <addrLine>
+                     <gap/> 
+                     <expan>Regię Maiestatis</expan> supremoque</addrLine>
+                  <addrLine>in Hungaria capitaneo <abbr>etc</abbr>.</addrLine>
+                  <addrLine>
+                     <gap/> et patrono meo semper <expan>obseruandissimo</expan>
+                  </addrLine>
+                  <addrLine>In Hungariam.</addrLine>
+               </address>
+               <pb/>
+               <salute>Illustrissime et Magnifice domine domine semper obseruandissime salutem et seruitiorum meorum perpetuam commendationem.</salute>
+            </opener>
+            <p>
+               <date when="1549-10-20">Ad uigesimum diem Octobris</date> redditę sunt mihi tuę litterę ex arce tua Stenijsnak cumulatę quidem omnibus amoris et humanitatis officijs. Pergratum mihi fuit intelligere cum itinera successumque rerum tuarum, tum pręcipue quod tu una cum optima coniuge tua cęterisque tibi carissimis recte uales: quod precor tibi diuturnum sit ad honorem Dei tuamque consolationem et tranquillitatem animi. Si me certiorem reddidisses ipso in ingressu in Croatiam, sine dubio illic te conuenissem partim propinquitate loci, quod sane non est in postrema parte commoditatis ponendum, partim quibusdam de causis, quę tibi (ut existimo) haud ingratę fuissent. Sed ne longiore quidem uia, dum ualeo, absterrebor a te conueniendo, si tu probaueris idque commode fieri poterit primo uere, nisi quid interim accidat, quod meum consilium anteuertat, postuletque accelerari meam profectionem: quam ego ex tuo mandato extemplo arripiam: tantum enim apud me ualet grati animi fidelis memoria ut quoniam in me amando atque ornando nunquam defatigaris, meam quidem uoluntatem in adeundis subeundisque laboribus atque periculis, in omni denique pręstanda opera tuis iussis posthabeam. Credebam transactum esse de redemptione tui sororii ex relatione cuiusdam Ragusini, qui hac aestate Constantinopoli uenerat. affirmabat eum pactum esse pro capite <num value="12000">12 milia</num>, principi basse uero <num value="3000">3 milia</num> neque iam quicquam esse impedimento, quo minus liberetur si princeps adesset. Qua de re quum nihil amplius mihi dubium esset, gratulatus sum tibi per litteras. Sed, ut ipse scribis, nihil adhuc uideo <pb/> confectum esse. Si hec solicitudo eximi posset ex animo tuo, iudicarem te beatissimum, quod nihil aliud est, quod te curis angat ac pene consumat. Sed utcunque res cadat, magnum sane fructum laudis ex istis etiam doloribus et molestiis feres: nam licet maximę tuę dotes animi et ingenii in luce hominum existant, illustremque agendo et consulendo es famam consecutus, tamen tantos pro fratre tuos conatus, tantam fidem, tantum studium, tot cursitationes, tot impensas, hanc tantam memoriam amicicię cęteris uirtutibus omnibus antepono.</p>
+            <p>De rebus <sic>Thurcis</sic> nihil habeo certi quod scribam. Et ab his quidem Thurcis, qui nobis confines sunt, ueritas omnis ignoratur de rebus Asiaticis prope magnam et longam absentiam principis; alioquin non ommisissem ad te scribere, neque deinceps omittam si quid intelligam quod te dignum putem. Quę Venetias perferuntur scio ad te scribi diligenter. Crebrius ad te scriberem si aut inuenirentur sępe quibus recte dari possent literę, aut acciderent eiuscemodi negocia quibus ipse delectari posses. Nam occupari te nugis dumtaxat et inanitate verborum qui distringeris muneribus publicis dementis est.</p>
+            <p>Gaudeo quod <expan>illustris</expan> comes a Salmis profert nomen suum strenue castellis rebellium expugnandis patientia et fide erga principem singulari, cui me etiam atque etiam commendes rogo. Haberem ad te mittere polipos et gelatos pisces ad mensem Februarium: proinde indica quo et ad quem mittere debeam. </p>
+            <closer>
+               <salute>Vale feliciter una cum optima tua coniuge atque nepote, Pernessithio et Sarkanio tibi fidelissimis meique amantibus.</salute>
+               <dateline>Tragurij <date when="1549-11-01">primo die Novembris 1549.</date>.</dateline>
+               <signed>Tuę <expan>Illustrissimę et Magnificę Dominationis</expan>
+                  <expan>obsequentissimus</expan> seruitor
+            Tranquillus.</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15500311">
+        
+            <p>
+               <gap reason="perditum"/>
+          quod scripsisti cogitare te <del>uelle</del> aut <placeName>Tragurium</placeName> esse uenturum, aut me ad arcem Stenisynak ad te accersiturum, et ego quum statuissem ad festum Ascensionis Domini <placeName>Venetias</placeName> petere, ac post festum decimo illius die redire in patriam, eram ualde solicitus ut hunc animum primo quoque tempore declararem, ne tu huius inscius, aut me accersires ad se, aut venires <placeName>Tragurium</placeName>. Itaque anxie quesiui si quis nauigaturus esset <placeName>Bucharim</placeName> uersus. nemo fuit <placeName>Tragurii</placeName>, <placeName>Jadram</placeName> profectus sum, itidem non erat <placeName>Jadre</placeName>. Cepi tandem iter versus <placeName>Bucharim</placeName>, ut ipse mearum litterarum tabellarium essem. Sed in itinere aduersis tempestatibus multos dies detentus fui, hasque litteras cuidam mercatori Pharensi commisi ut Petro <supplied>denti</supplied> redderet, is enim mercator <placeName>Bucharim</placeName> petit. Sed diu ex hac insula propter uentos contrarios non potest discedere. Rogo quam primum significes an accersas me, an venias ad nos, ne ego petam <placeName>Venetias</placeName>. Si neutrum feceris, effice apud Antonium Sarkan, ut pensionem sequentis anni mittat ad me <placeName>Venetias</placeName>. quemadmodum illi scripsi, erit enim opus mihi illa pecunia. Miror quod nullam fecisti mencionem de illo medicamento; non putes nugas, illud quoque mecum feram <placeName>Venetias</placeName> uel si uolueris ad te ipsum. Gelatina ueris aduentu regelata et destructa est. Polipos distraximus, quia diu nihil respondebas. hic annus ut in aliis, sic in prouentu <pb/> piscium fuit infelicissimus quamquam retia <supplied>sero mergamus</supplied> tamen uix tantum piscium capimus, quod satis ad esum esset. quicqud me uoles facere, extemplo scribe et uale feliciter.</p>
+            <closer>
+               <dateline>Ex insula Arba. <date when="1550-03-11">XI. Martij 1550.</date>.</dateline>
+               <signed>
+                  <expan>Tranquillus</expan>
+               </signed>
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo Domino Domino</expan> Thome Nadasdino Iudici curie</addrLine>
+                  <addrLine>
+                     <expan>Regię Maiestatis</expan> et capitaneo</addrLine>
+                  <addrLine>regni Hungarie generali</addrLine>
+                  <addrLine>
+                     <abbr>etc.</abbr> domino et patrono</addrLine>
+                  <addrLine>meo semper obseruandissimo</addrLine>
+               </address>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15511206">
+            <opener>
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo Domino Domino</expan> Thomę de Nadasd comiti in Fogaras Judici</addrLine>
+                  <addrLine>Curię <expan>Regię Maiestatis</expan> et supremo regni</addrLine>
+                  <addrLine>
+                     <supplied>Hungarię</supplied> capitaneo <abbr>etc.</abbr> Dno</addrLine>
+                  <addrLine>
+                     <supplied>patrono</supplied> meo semper <expan>observandissimo</expan>
+                  </addrLine>
+                  <addrLine>Ad exercitum.</addrLine>
+               </address>
+               <pb/>
+               <salute>Illustrissime et magnifice domine domine et patrone semper obseruandissime salue.</salute>
+            </opener>
+            <p>Proximę litterę tuę <placeName>Lippe</placeName> 
+               <date when="1551-11-13">13. Nouembris</date> datę exemerunt nobis omnem solicitudinem, quam ob diuturnum tuum silentium contraxeramus sane quam maximam: sciebamus enim te magnitudine animi et caritate in patriam singulari nullum discrimen esse vitaturum, dum tua vel morte vel salute publice utilitati consuleris. Sed <expan>dominus</expan> deus misericors sit benedictus semper in secula, qui te preclara dignaque tuo genere aggressum in tanta cedium flamma seruauit, victoriaque potitum reduxit incolumem. Nam quanta vehementia <sic>comilitones</sic> incitaueris ad pugnam, quam fortiter ipse irruperis in urbem cum hoste manum conserens ex aliorum litteris et nuntiis satis intelleximus, quorum tu pre modestia non meministi. Nunc conuersis curis in gaudium ardentissime tum reditum expectamus, ut te victorem rebus pro patria bene gestis complectamur, tuo colloquio atque adeo conspectu aures atque oculos satiemus. De tritico causis abs te cognitis posthac ne verbum quidem faciam: ad pauca respicientes (ut verbis <persName>Aristotelis</persName> utar) facile decipimur. Hic assiduus ego sum apud <expan>dominum</expan> 
+               <persName>Georgium</persName> omni acceptus humanitate, nullius quidem rei indigens, nisi unius tui presentia, quem deus faxit quam primum videamus. Iam ex frigore quod in itinere contraxeram in occipicio, preterea etiam ex cruditate propter insomnium pene conualui, nuntio precipue de optatissimo tuo successu mirum in modum confirmatus.</p>
+            <closer>
+               <salute>Vale felix et redi.</salute>
+               <dateline>Ex arce tua Saruar, <date when="1551-12-06">6 Xbris 1551.</date>.</dateline>
+               <signed>Tue <expan>illustrissimę et magnificę Dominationis obsequentissimus</expan> seruitor
+            
+            Tranquillus.</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15510116">
+            <opener>
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo</expan> et <expan>Magnifico Domino Domino</expan> Thome</addrLine>
+                  <addrLine>Nadasdino comiti in Fogaras</addrLine>
+                  <addrLine>Iudici curie <expan>Regię Maiestatis</expan> ac supremo</addrLine>
+                  <addrLine>
+                     <supplied>Regni</supplied> Hungarię capitaneo</addrLine>
+                  <addrLine>
+                     <supplied>domino</supplied> et patrono meo semper</addrLine>
+                  <addrLine>
+                     <supplied>obseruandissimo</supplied>
+                  </addrLine>
+                  <addrLine>In Hungariam.</addrLine>
+               </address>
+               <pb/>
+               <salute>Illustrissime et magnifice domine domine et patrone semper obseruandissime felicitatem.</salute>
+            </opener>
+            <p>Multa sum passus aduersa in hoc itinere, ac uix XVI-o die <placeName>Venetias</placeName> ueni malis equis: nam et albus gradarius in uia decessit, et ego calce percussus equi nunc etiam male affectus claudico. Quamobrem continerem me <placeName>Venetiis</placeName> aliquot diebus dum vulnus coiret, nisi mihi properandum esset in <placeName>Dalmatiam</placeName> propter <placeName>Zaladiam</placeName>, ut seruitutem meam saltem hoc genere officii testatum tibi faciam. Nec fraudabor spe mea, si cito prestabit sese mare nauigabile, ac si etiam prospera utar nauigatione, quippe quum hyems hactenus mitis fuerit, necesse est ut postrema eius pars inhorrescat aptaque gelandis piscibus fiat. Certo velim tibi persuadeas, me non modo hac in re, sed etiam in ceteris omnibus, quę ad te pertinere putabo, omnem meam operam atque studium adhibiturum esse vel supra vires meas, efficiamque ut si successibus inuiderit fortuna, mei tamen conatus abs te probentur. Nunc profecto non licuit hinc ad te res mittere in ea copia, quemadmodum ego destinaueram. nam et hic equus in quo famulus reuertitur uix equitem ipsum istuc reducet, et ille quem <persName>Petrus</persName> seruitor tuus dedit, partim quod macilentus est admodum, partim etiam quod valde iuuenis, egre potuit ad litus Venetum appelli. Mitto cauiarem, farcimina, butargas, acus ducentas et filum album, paria perspicillorum 14, maluasiam, duas scatulas cidoniati, et alias duas domino <persName>Georgio</persName>, pistachia quoque adiunxi maluasię. Que sane omnia curauimus, nescio an perfecimus, ut essent optima. Fideli et diligenti opera sum usus <persName>Ioanis Olassi</persName>. Nusquam potuimus inueniri tecas <pb/> osseas pro perspicillis; meam tibi qualecunque mitto. Is qui in confinio <placeName>Italie</placeName> 
+               <persName>
+                  <expan>Ioanem</expan> Olassum</persName> benigne in tui gratiam olim acceperat dicebatur esse in aula regis, vocaturque <persName>Michael Paczner</persName>, ciuis Viennensis. Huc recens venit fama <persName>fratrem Georgium</persName> composuisse cum regina et <supplied>Cassum</supplied> bassam cum quatuor zanzachis vulneratos esse sub una arce. Turcus affirmatur parare terrestres et nauales copias in Hungaria, classem enim dicitur subuecturus per Danubium. Res autem Germanice <supplied>distrahent</supplied> nostros principes a defensione Hungarie. Cesar enim decreuit contumaciam Madeburgi compescere, cui <supplied>quidam</supplied> suppetias contra Cesarem tulerunt. Sunt autem qui censeant nunc agi a nostris de protrahendis induciis. Sed Turcus, ut aiunt, misit ad regem Persarum pro tractanda pace, quo expeditior sese in Hungariam conferat: quod deus auertat, et conatus impios demoliatur. Hec, ut accepi, ita scripsi.</p>
+            <closer>
+               <salute>Vale feliciter cum tuis omnibus.</salute>
+               <dateline>Venetijs, <date when="1551-01-16">16 Januarij 1551.</date>.</dateline>
+               <signed>Tue <expan>illustrissimę et magnificę Dominationis obsequentissimus</expan> seruitor
+            
+            Tranquillus</signed>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15520522">
+            <opener>
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo Domino Domino</expan> Thome Nadasdino</addrLine>
+                  <addrLine>Comiti in Fogaras Iudici</addrLine>
+                  <addrLine>
+                     <supplied>Curie</supplied> 
+                     <expan>Regię Maiestatis</expan> et supremo</addrLine>
+                  <addrLine>
+                     <supplied>Regni</supplied> Hungarię capitaneo <abbr>etc.</abbr>
+                  </addrLine>
+                  <addrLine>
+                     <supplied>domino</supplied> meo et patrono semper</addrLine>
+                  <addrLine>
+                     <supplied>obseruandissimo</supplied>
+                  </addrLine>
+                  <addrLine>In Hungariam.</addrLine>
+               </address>
+               <pb/>
+               <salute>Illustrissime et Magnifice domine.</salute>
+            </opener>
+            <p>Post meum reditum ex <placeName>Hungaria</placeName> bis ad te scripsi, primum ex oppido <placeName>Buchari</placeName>, unde et confectionem ad te misi, deinde <placeName>Tragurio</placeName>. Equidem anceps sum obliuione, an magnis occupationibus acciderit, quod meam rem non curaueris apud regem ut receperas, quod vehementer turbauit mea negocia. Id vero tibi non solum non esset arduum, sed per quemlibet vel mediocre familiarem perficeres. Rogo saltem patentes a rege litteras obtineas, quod licet commeatum mihi dederit quiescendi a laboribus aulicis, tamen esse me suum seruitorem, et me non vulgariter commendet omnibus apud quos vivere me continget, <expan>videlicet</expan> non patiantur a quoquam iniuriam mihi fieri.</p>
+            <p>His diebus feceram te certiorem quemadmodum quatuor sanzachi cum magno comitatu erant profecti praedatum regiones ultra Sauum. Qui accepta fama banum illic esse cum magnis copiis, e uestigio quisque ad sua redierunt. <persName>Malkoczbeg</persName> bis vocatus est a belerbego in <placeName>Hungariam</placeName>: semper excusauit, non audere se relinquere nuda confinia: interea misit nuntium ad portam, id tandem facturus quod iniunctum illi fuerit a Cesare. Hortatur ipsum <persName>Rostanbassa</persName>, qui ei magnus amicus et affinis est, ut pergat illustribus factis nomen suum illustrare, quo et honor et stipendium illi augeatur. Itaque certo scias eum pro huiusmodi suasionibus et natura sua non esse quieturum. Clam intellexi ipsum decreuisse oppidum <placeName>Bihach</placeName> expugnare, quod ei <sic>perdificile</sic> esset quamdiu flumine alluitur: proinde adducet maximam peditum manum, ut fluuium diuertat. Duabus causis <placeName>Bihats</placeName> inuadet, quod inde Thurcis multa incommoda fiunt, et potiti illo oppido facile reliquam <placeName>Croatiam</placeName> sese vastare atque subigere arbitrantur. Hec boni consule et litteras regias quamprimum mittere velis rogo.</p>
+            <closer>
+               <dateline>
+                  <date when="1552-05-22">22. Maij 1552.</date>.</dateline>
+            </closer>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15531105">
+            <opener>
+               <address>
+                  <addrLine>Generoso et egregio domino</addrLine>
+                  <addrLine>
+                     <supplied>Georgio</supplied> Pernesits <supplied>locumtenti</supplied> 
+                     <expan>Illustrissimi Domini</expan> Nadasdini</addrLine>
+                  <addrLine>
+                     <expan>domino</expan> et amico <expan>obseruandissimo</expan>
+                  </addrLine>
+                  <addrLine>In Saruar.</addrLine>
+               </address>
+               <pb/>
+               <salute>Generose et egregie domine.</salute>
+            </opener>
+            <p>Mitto tibi in uno barileto semina caulium et raparum et tertium nescio quod semen ex Apulia mihi allatum, et lentem magni grani, preterea pauculum semen cuiusdam rubri floris purpurei sed nullius odoris, et unum magnum citrum pomum, et duas pixidulas <supplied>tiriace</supplied>. Vnam dabis domino Sarkano, alteram <expan>domino Francisco</expan> Segnej. Item septem pixidulas cidoniati nostratis, duas pro te seruabis, reliquas quoque dabis domino nostro Magnifico. Hęc pauca <corr resp="FTA">sed</corr> grata accipias et <supplied>beneuola</supplied>, ut soles manu. excusatum me habeas quod narancias nec tibi nec domino mitto. Vbique perquisiui, sed nusquam reperi. Tu vero si hec vel alia eiusmodi velis tibi mitti, significabis; nam tibi in re omni morem gerere et cupio et volo. Cui me et seruitia mea <sic>comendo</sic>.</p>
+            <closer>
+               <dateline>Buchari, <date when="1553-11-05">5. Novembris 1553.</date>
+               </dateline>
+               <signed>Tue generose et egregie Dominationis
+            
+            deditissimus Tranquillus</signed>
+          
+            </closer>
+            <postscript>
+               <p>Dices <supplied>nostro</supplied> domino quod hoc anno non est prouentus poliporum et loliginis; nondum ceperant capi nisi <supplied>rare</supplied> admodum.</p>
+            </postscript>
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15530428">
+            <opener>
+          
+               <salute>Illustrissime et Magnifice domine domine Comes <abbr>etc.</abbr> S.</salute>
+            </opener>
+            <p>Etsi ueneram huc media quidem et aspera hyeme haud certe dubia mei non ingrati animi significatione ut pro uirili mea parte uestris periculis praesens adessem, meumque sanguinem et uitam etiam (si res ita postularet) profunderem: tamen quod res uestras pace composita uideo in tuto esse collocatas, nec amplius cuiusque opera egere, tantum abest ut me facti mei atque consilij peniteat, ut etiam uehementissime gaudeam illuxisse istis reliquijs insperatam lucem et salutem: pro quibus uos quidem aut undique circumsessos ab hoste prępotenti atque barbaro, et qui in uniuersum sitiat sanguinem Christianorum omnium, pugnare usque ad extremum necesse esset (muscam uidelicet contra elephantum) aut alia quoppiam uia saluti consulere, quum ad paucos redacti sitis, nemine res uestras iuuante, sed <gap reason="lacuna"/>micis quodammodo <supplied>attritis</supplied> qui maxime vestram salutem curare deberent, deserti et relicti. Sed alias tempus erit de his querendi: nunc solemur nostram infęlicitatem hac presenti commoditate, si maiore parte regni nobis depulsis et eiectis in his saltem reliquiis datur in pace consistere, neque de summa rei periclitari. Ego in tua domo magnis utor commodis et precipue domini <persName>Georgii</persName> paterna quadam indulgentia: multum ex ancipiti m<gap reason="lacuna"/> recreor, accedente quotidie pristino robore atq<gap reason="lacuna"/>itute. Nec aliud expecto, nisi tuum fęlicem reditum, ut vestris istic compositis ex sententia rebus (quoad eius fieri potest) <placeName>Hungarię</placeName> parta pace quasi triumphatis hostibus e vestigio ad intermissa mea studia reuertar paceque hac fruar et quam dominus deus Christus nobis reliquit.  </p>
+            <closer>
+               <salute>Tu interim pancratice <supplied>viuas</supplied>, et celeriter ad nos redeas.</salute>
+               <dateline>Ex tua arce Saruar, <date when="1553-04-28">28 Aprilis 1553.</date>
+               </dateline>
+               <signed>Tuus <expan>obsequentissimus</expan> Tranquillus
+            
+          </signed>
+               <pb/>
+               <signed>Tranquillus</signed>
+          
+          
+            </closer>
+        
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15531129">
+        
+            <opener>
+          
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo et Magnifico Domino Domino</expan> Thomae</addrLine>
+                  <addrLine>Nadasdino comiti de Fogaras, Judici</addrLine>
+                  <addrLine>Curie <expan>Regię Maiestatis</expan> 
+                     <abbr>etc.</abbr> 
+                     <expan>domino</expan> meo et patrono</addrLine>
+                  <addrLine>meo semper <expan>obseruandissimo</expan>.</addrLine>
+               </address>
+               <pb/>
+               <salute>Illustrissime et magnifice domine.</salute>
+            </opener>
+        
+            <p>In primis illis amicicie nostre prope cunabulis, deinde in uarietate rerum multarum, <expan>quando</expan> multa suspecta esse poterant, nunquam tamen tuum amorem intermisisti. Arbitror te existimasse non posse in homine his studiis ab ineunte aetate dedito (licet tenuia sint) aut inconstantiam aut perfidiam aut ullum dolum existere. Aliena postmodum culpa uarie et misere uexatus, extrema quoque passus, quum tot haberem uite insidiatores, denique spoliatus presidiis et fortunis omnibus, abs te subleuatus sum. Non solum non abhorruisti iacentem amicum, ut plerumque fit, sed complexus es ut florentem, ornasti beneficiis, spe tandem in futurum implesti optima: quae mihi periucunda sunt et fructu et memoria, nec ulla temporis iniquitas ex animo delebit. id uero et tibi magnificentius accidit, quod nullam expectaris a me remunerationem, et mihi grauius, quod ad referendam gratiam non sum idoneus; nam uincere beneficiis quam uinci magis preclarum puto. Vtique solatio me non paruo afficiet memoria grati animi sempiterna. Sed quorsum hec tam longa commemoratio? nempe ut intelligeres tum recessus mei pectoris, tum beneficia tua recte collocata esse: et profecto citius fecerim uite finem, quam colendi tui.</p>
+            <p>Nunc etiam incidit mihi necessitas expetendi tui auxilij. redemi unam possessiunculam florenis <unclear>90</unclear>. altera multo melior restat redimenda: ad eam uero pecuniam, quam habeo, desunt aurei 60. Tu quęso huius pecunie facias mihi copiam, et mittas quam primum, ne tam bona possessio a nobis alienetur: et iubeas <expan>Dominum</expan> 
+               <persName>Sarkanum</persName> totidem aureos tibi ex proxima pensione prepositure numerare. Hoc tibi facilius est facere, quam mihi dicere, nam ego sine pudore non postulo, tu quidem ultro congeris in me ampliora. Paro senectuti et tranquillitati uiaticum: nunc demum cępi procul ambitione et cura rerum publicarum mihi et amicis uiuere, ut innocentia fretus et securitate animi ne ipsam quidem mortem, que in his annis non potest abesse diu, pertimescam, quamquam nihil omnino est illud diu, in <pb/> quo est aliquid extremum.</p>
+            <p>Fui <placeName>Buchari</placeName> 
+               <date when="1553-11-05">5. Nouembris</date>, nunquam maiores tempestates neque magis diuturnas passus. Aegre <date when="1553-11-22">22.</date> domum incolumis redii, assiduis pluuiis et mari turbulento, quamquam nihil defuerat condendis piscibus, si tranquillitas arrisisset. Misi tamen ea que mecum attuleram ex <placeName>Dalmatia</placeName>: uidelicet bariletos electorum ficorum 5, in his duos maiores; oliuarum nostratium bariletos maiusculos 3; unum sardellarum omnium maximum; pro domino <persName>Pernessits</persName> in uno mediocri barileto <sic>miscelanea</sic>, et in eodem tibi pixidulas aliquot cidoniati. Scripseram quod mitterem in uno barileto pisces frictos, sed nescio quo pacto iam obsignatis litteris quispiam in domo de <persName>Piero Dente</persName> ipso ignaro pęnitus aperto vasculo pisces aliquot exemerat: itaque non fuit consilium mittere semiplenum, corrumperetur enim in uia; preterea misi satis bonam copiam lauri. Hec omnia si tibi reddita sunt integra et incorrupta, facias me certiorem rogo, et si quid aliud uelis significes.</p>
+            <p>Narrantias, garum et farcimina, pro quibus diligenter scripseram <placeName>Venetias</placeName>, nondum habere potui; credo consumpta esse uetera, et noua in dies expectari. Hic Thurcis autoribus murmuratur a principe Thurcorum filium <persName>Mustafam</persName> et eius paruum filium et <persName>Rostanbassam</persName> interfectum esse ob suspitionem rerum nouarum. Classis Thurcica, ut antea scripsi, recepit se <placeName>Constantinopolim</placeName>. <placeName>Corsica</placeName> potitus est Gallus, relicto duce Salerni ad tutelam insule cum presidio. Genuenses pro recuperanda insula parant expeditionem, iamque eo miserunt <num value="12000">12m</num> peditum, et <expan>noster</expan> Cesar Genuensibus aderit. Veneti, quod nemo infestat hec maria, magna ex parte classem subduxerunt.</p>
+            <p>Tu etiam ne graueris perscribere quid istic geratur, et qui sunt nostri Cesaris in <placeName>Gallia</placeName> successus. Sed maxime omnium me delectaret, si tua uxor, matrona honestissima, faceret te pulcra prole parentem, et recte ualeret. </p>
+            <closer>
+               <salute>Vale feliciter.</salute>
+               <dateline>Tragurij, <date when="1553-11-29">29. Nouembris 1553.</date>
+               </dateline>
+               <signed>Tuus obsequentissimus Tranquillus
+            
+          </signed>
+            </closer>
+        
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15540712">
+        
+            <opener>
+          
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo Domino Domino </expan> palatino</addrLine>
+               </address>
+               <pb/>
+               <salute>
+                  <expan>Illustrissime domine</expan> 
+                  <abbr>etc.</abbr>
+               </salute>
+            </opener>
+        
+            <p>Nescio cur istic malis esse in loco plane deserto, et siluis inamęnibus undique circumsępto, quam <del resp="FTA">apud</del> in tua arce <placeName>Saruar</placeName>, omnibus commoditatibus et propectu iucundissimo atque <del resp="FTA">iucundissimo</del> longissimo abundante. Nunquam dixerim Leucam salubrem esse in tanta multitudine, habitaculis tam angustis. Velis nolis necesse est malum odorem contrahi ex multitudine ferculorum et variarum rerum mixtione. Deinde nulla quidem a prandio et a cena commoda expaciacio extra arcem, ubique clivis permolestis sese opponentibus. Quin igitur advolas cum optima uxore in regnum tui Pernessith, ubi semper mollis aura spirat, ubi tot, tam varia sunt odoramenta, ut languentem animum recreare possint. Hic florum vis magna, hic plante conspectu perjucunde, hic pregnantes arbores electis et variis fructibus, iam peponibus adest sua maturitas. Aquę in perpetuo fluxu, aer salubris, amplitudo regni amenissima. Credo in hoc horto consedisse Venerem et Gratias. Velim ignoscat mihi <del resp="FTA">haec dumtax</del> tuus medicus, alioquin vir doctissimus, si hac sola in re ab ipso dissentio; aliis in rebus eius opinioni, ut par est, non refragabor ac me semper in tui gratiam commendo.</p>
+            <closer>
+               <dateline>Ex Saruar <date when="1554-07-12">die 12 Julij 1554.</date>
+               </dateline>
+               <signed>Tuus Tranquillus</signed>
+            </closer>
+        
+         </div>
+         <div type="prosa-epistula" corresp="#andreisnadasd15540401">
+        
+            <opener>
+          
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo Domino Domino et Magnifico</expan>
+                     <expan>Domino</expan> Thome Nadasdino
+<supplied>comiti</supplied> de Fogaras, <supplied>iudici</supplied>
+ curie <expan>Regie Maiestatis</expan> 
+                     <abbr>etc.</abbr>
+                     <expan>Domino</expan> meo et patrono 
+semper <expan>obseruandissimo</expan>
+                  </addrLine>
+               </address>
+               <pb/>
+               <salute>
+                  <expan>Illustrissime</expan> et <expan>Magnifice</expan> 
+                  <expan>domine domine</expan> et patrone semper obseruandissime.</salute>
+            </opener>
+        
+            <p>Hec ad te scribo manu nepotis mei, qui nuper reddijt ex Turcis, quod ego adhuc non sane recte ualeo; per hos enim dies laboraui morbo ualido, sed dei gratia quotidie firmior sum; opto etiam ut recte omnia etiam tibi tuisque <sic>subcedant</sic>. A meo discessu ex Hungaria unas dumtaxat tuas litteras accepi, in quibus inter <sic>alias</sic> significabas, te si indutie succedent, <sic>a Stinsicach</sic> esse uenturum, eoque me euocaturum; quod utinam faxit, nam haberem pleraque tecum coram loqui. Fama est constans principem Turcorum expeditionem facere in Persas, seque eo proficisci; instituit autem Mexmetbassam Sanzachum Bosnensem in Europa generalem capetaneum, eiusque imperio subiecit omnes acanzias et spachias supra uiginti duos sanzacos. Itaque totus exercitus accedet ad centum millia.
+        </p>
+            <p>
+          In <sic>histis</sic> partibus Turchorum fit magna congregatio. Etiam singuli homines de singulis domibus Valacorum coguntur ad militiam, multitudo etiam bouum conqueritur ad uehendas machinas; licet sparserint famam eos uelle munire sua quedam castella nuper exstructa, tamen ego timeo ne uelint uel Bichac uel aliam nostram arcem finitimam opugnare, antequam aliam prouintiam suscipiant. Itaque uos decet esse cautos in rebus uestris. Turchus instruit triremes octuaginta preter piraticas.</p> 
+            <pb/>
+            <p>fuit in stipendiis nostri regis cum aliquot equitibus quidam Dalmata qui olim militabat apud regem Anglie. Nuper enim comoratus est in oppido <unclear>Tregeste</unclear>, deinde profectus Venetias repente remuneratus, <unclear>etsi</unclear> ob aliquam delationem, et in sumo honore habitus; musitant homines quod prodiderit quedam arcana nostri regis, qualia autem <sic>hista</sic> sint nondum uenere in lucem. orator regis Galię nuper profectus est ad Turcum. <sic>Hignosce</sic> quod nihil habeo ad te mittere, ne narantie quidem reperiuntur, utique aliquid non deesset si ego recte ualuisem.</p>
+            <closer>
+               <salute>deus omnibus te coniugemque carissimam tuosque omnes fortunet. </salute>
+          
+               <dateline>Tragurij, <date when="1554-04-01">primo Aprilis 1554</date>.</dateline>
+          
+               <signed>Tue <expan>illustrissime</expan> 
+                  <abbr>D.</abbr> Tranquillus</signed>
+            </closer>
+        
+         </div>
+      
+         <div type="prosa-epistula" corresp="#andreisnadasd15550524">
+        
+            <opener>
+          
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo</expan> et <expan>Magnifico</expan> 
+                     <expan>Domino Domino</expan>
+Thomę Nadasdino comiti
+<supplied>de</supplied> Fogaras, Judici curię
+<supplied>regię,</supplied> supremo Regni <expan>Hungarici</expan>
+Capitaneo <abbr>etc.</abbr> 
+                     <supplied>Domino</supplied> et
+patrono meo semper <expan>obseruandissimo</expan>
+In Hungariam</addrLine>
+               </address>
+               <pb/>
+               <salute>
+                  <expan>Illustrissime</expan> et <expan>Magnifice Domine</expan> et patrone
+            Semper mihi <expan>obseruandissime</expan>, salue.</salute>
+            </opener>
+        
+            <p>In hunc errorem incidi quod sum profectus Venetias antequam mihi responderes, propterea quod tarde sunt redditę litterę tuę, quas iam desieram expectare. Peruenerunt enim ad meum fratrem quarto die ante <expan>Domini</expan> 
+               <unclear>Aj...ini</unclear> me iam profecto Venetias. Credebam autem quod mihi responsurus esses una cum <expan>domino</expan> Sarchano in hac urbe. Nunc itaque missis tuis ad me litteris a meo fratre, nauim e uestigio conscendam mandatum tuum expectaturus in patria: nam postquam nihil ad me huc scripsisti, putabis me non mouisse pedem e domo. presertim quando addidisti in tuis litteris ut a te expectarer. 
+        </p>
+            <p>
+          Aduersa ualetudo <expan>magnifice domine</expan> tue consortis honestissime matrone uehementer me male habet, optoque ex animo, ut te nosque tuos omnes reddita pristine sanitati exhilaret.
+        </p>
+            <p>
+          Miror de eliberatione sororii spem refrixisse, <expan>quum</expan> omnino iam transactum esse oportuit, quemadomodum ferebatur. Litterę mee, quas ad te per manus Christophori Milich factoris <unclear>Fucerorum</unclear> superioribus diebus dederam, <pb n="49"/> a tabellario regis Polonie fuerant Cracouiam negligentia ipsius tabellarii portate, deinde iterum huc, nec multo ante quam istas leges ad te uenisse puto. Pupilli bonę memorie <expan>Joannis</expan> Jacobi de Cruce plurimum sese tibi commendant, sunt in extrema egestate, quicquid illis reliqui fuit, pater in longa egritudine consumpsit, egrotus enim in lecto decubuit annum integrum. Tanta es animi magnitudine ut liberalitatis tui nullum modum reperiam, sed certe in his pupillis iuuandis etiam cęlum merebere. Ad nos <unclear>aut</unclear> ipse uenias, aut me istuc accersas, utrum <unclear>feceris</unclear> gratissimum erit. sed multo esset iucundius ut tu nos inuiseres, uestigiisque tuis nostram patriam illustrares, et nos uicissim te piscatione oblectaremus. Nihil noui est alicuius momenti, nisi quod Galli et Angli non dubiam inter se pacem habent. </p>
+            <closer>
+               <salute>Vale cum tuis omnibus felix. </salute>
+          
+               <dateline>Venetiis, <date when="1555-05-24">24. Maii 1555.</date>
+               </dateline>
+          
+               <signed>Tue <expan>illustrissime et magnifice dominationis</expan>
+                  <expan>obsequentissimus</expan> seruitor
+            Tranquillus</signed>
+            </closer>
+        
+         </div>
+      
+         <div type="prosa-epistula" corresp="#andreisnadasd15550612">
+            <pb n="50"/>
+            <opener>
+          
+               <address>
+                  <addrLine>
+                     <expan>Illustrissimo et Magnifico Domino Domino</expan> Thome de 
+Nadasd palatino regni Hungarie et locumtenenti Regie Maiestatis <abbr>etc.</abbr>
+domino meo semper patronique <expan>obseruandissimo</expan>
+            
+            In Hungariam
+            </addrLine>
+               </address>
+               <pb n="51"/>
+               <salute>
+                  <expan>Illustrissime Domine</expan> 
+                  <abbr>etc.</abbr>
+               </salute>
+            </opener>
+        
+            <p>Proximo mense Maio misi ad te <placeName>Buchari</placeName> pisces, ut in litteris perscripsi, Tu uero quid de iis sentias, an grati fuerint, et si eius generis alios ad te posthac mitti uelis aut quicquid aliud tibi placuerit, quod terra nostra marique gignitur, non graueris ad me perscribere: presertim de istis rebus et successu pacis, tuoque statu certiorem facias, si penitus ex animo tibi non excidimus: nam et ad <expan>proletarios</expan> quoque soles interdum manu tua scribere. Hic postea nihil noui de rebus Thurcicis allatum est nisi quod in pontifices mors grassatur. Et omnino tedio multitudinis abdidi me in rus, aucupio piscationi litteris deditus. </p>
+            <closer>
+               <salute>Deus te seruet.
+            
+            
+            
+            </salute>
+          
+               <dateline>Tragurii,  <date when="1555-06-12">12. Junii 1555.</date>
+               </dateline>
+          
+               <signed>Tue <expan>Illustrissime et Magnifice Dominationis</expan>
+                  <expan>obsequentissimus Seruitor</expan> Tranquillus.</signed>
+            </closer>
+        
+         </div>
+      </body>
+  </text>
+</TEI>
