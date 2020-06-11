@@ -1,0 +1,1 @@
+xquery:eval("db:export('croalatextussubset', replace(file:parent(static-base-uri()), '/scripts/xq/', '/subset-tokenized/'))", map { '': db:open('croalatextussubset') })
