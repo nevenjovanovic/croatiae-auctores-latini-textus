@@ -5,9 +5,19 @@ declare function local:copy-nodes-filter-text($element) {
   else element { node-name($element) }
              { $element/@*,
                for $child in $element/node()
-                  return if (not($child/self::text()))
+               return if (not($child/self::text()))
                     then local:copy-nodes-filter-text($child)
                     else for $c in tokenize($child, "\s+") return local:tokenize-words-pc($c)
+           }
+ };
+ declare function local:copy-nodes-filter-supplied($element) {
+  if ($element[name()="supplied"]) then $element/text()
+  else element { node-name($element) }
+             { $element/@*,
+               for $child in $element/node()
+               return if (not($child/self::text()))
+                    then local:copy-nodes-filter-supplied($child)
+                    else for $c in tokenize($child, "\s+") return $c
            }
  };
 (: tokenize string ending with punctuation into characters and punctuation :)
@@ -18,5 +28,5 @@ declare function local:tokenize-words-pc($token){
 };
 
 for $xml_nodeset in db:open("croalatextussubset")//*:text
-return replace node $xml_nodeset with local:copy-nodes-filter-text($xml_nodeset)
+return replace node $xml_nodeset with local:copy-nodes-filter-text(local:copy-nodes-filter-supplied($xml_nodeset))
 (: return local:copy-nodes-filter-text($xml_nodeset) :)
