@@ -10,7 +10,7 @@
             </author>
             <editor>
                <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+                  <ref type="viaf" target="6913774" xml:id="NJ">Neven Jovanović</ref>
                </persName>
             </editor>
             <respStmt>
@@ -38,67 +38,10 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
+      <tagsDecl resp="#NJ">
         <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="28"/>
-          <tagUsage gi="abstract" occurs="22"/>
-          <tagUsage gi="addrLine" occurs="63"/>
-          <tagUsage gi="address" occurs="19"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="20"/>
-          <tagUsage gi="corr" occurs="2"/>
-          <tagUsage gi="creation" occurs="22"/>
-          <tagUsage gi="date" occurs="70"/>
-          <tagUsage gi="dateline" occurs="20"/>
-          <tagUsage gi="del" occurs="4"/>
-          <tagUsage gi="div" occurs="21"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="159"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="14"/>
-          <tagUsage gi="keywords" occurs="66"/>
-          <tagUsage gi="langUsage" occurs="22"/>
-          <tagUsage gi="language" occurs="22"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="4"/>
-          <tagUsage gi="opener" occurs="20"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="65"/>
-          <tagUsage gi="particDesc" occurs="22"/>
-          <tagUsage gi="pb" occurs="24"/>
-          <tagUsage gi="persName" occurs="66"/>
-          <tagUsage gi="person" occurs="43"/>
-          <tagUsage gi="place" occurs="50"/>
-          <tagUsage gi="placeName" occurs="106"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="22" withId="21"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="35"/>
-          <tagUsage gi="settingDesc" occurs="22"/>
-          <tagUsage gi="sic" occurs="16"/>
-          <tagUsage gi="signed" occurs="20"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="supplied" occurs="45"/>
-          <tagUsage gi="tagUsage" occurs="55"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="132"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="22"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="unclear" occurs="7"/>
+                    <tagUsage gi="supplied">With attribute @scope=verbum: a whole word is supplied.
+                       This description is important for word tokenization.</tagUsage>
         </namespace>
       </tagsDecl>
     </encodingDesc>
@@ -1120,16 +1063,16 @@
               <w>Thome</w>
               <w>Nadasdino</w>
               <w>comiti</w>
-              <supplied>
-                <w>de</w>
-                <w>Fogaras</w>
-              </supplied>
+              <w>de</w>
+              <w>Fogaras</w>
               <w>et</w>
               <w>Judici</w>
               <w>curie</w>
-              <gap/>
-              <w>eg</w>
-              <pc>.</pc>
+              <abbr>
+                <gap/>
+                <w>eg</w>
+                <pc>.</pc>
+              </abbr>
               <expan>
                 <w>Maiestatis</w>
               </expan>
@@ -1389,9 +1332,7 @@
           <w>commissum</w>
           <w>esse</w>
           <w>de</w>
-          <supplied>
-            <w>salibus</w>
-          </supplied>
+          <w>salibus</w>
           <pc>:</pc>
           <w>si</w>
           <w>es</w>
@@ -1436,9 +1377,7 @@
           <w>recordabor</w>
           <pc>,</pc>
           <w>ut</w>
-          <supplied>
-            <w>leniter</w>
-          </supplied>
+          <w>leniter</w>
           <w>dicam</w>
           <pc>,</pc>
           <w>hujus</w>
@@ -1452,9 +1391,7 @@
           <w>deos</w>
           <w>et</w>
           <w>homines</w>
-          <supplied>
-            <w>propterea</w>
-          </supplied>
+          <w>propterea</w>
           <w>offendam</w>
           <pc>.</pc>
           <w>Ego</w>
@@ -1591,9 +1528,7 @@
           <w>gratia</w>
           <pc>,</pc>
           <w>nunc</w>
-          <supplied>
-            <w>etiam</w>
-          </supplied>
+          <w>etiam</w>
           <w>non</w>
           <w>satis</w>
           <w>ualeo</w>
@@ -1608,9 +1543,7 @@
           <expan>
             <w>domino</w>
           </expan>
-          <supplied>
-            <w>Traussith</w>
-          </supplied>
+          <w>Traussith</w>
           <w>de</w>
           <w>re</w>
           <w>mea</w>
@@ -1635,9 +1568,7 @@
           <pc>.</pc>
           <w>quod</w>
           <w>si</w>
-          <supplied>
-            <w>equum</w>
-          </supplied>
+          <w>equum</w>
           <w>non</w>
           <w>possum</w>
           <w>impetrari</w>
@@ -1782,9 +1713,7 @@
           <w>expectaui</w>
           <w>in</w>
           <w>dies</w>
-          <supplied>
-            <w>tuam</w>
-          </supplied>
+          <w>tuam</w>
           <abbr>
             <w>M</w>
             <pc>.</pc>
@@ -2015,9 +1944,7 @@
           <w>ualidum</w>
           <w>esse</w>
           <w>et</w>
-          <supplied>
-            <w>sallutarium</w>
-          </supplied>
+          <w>sallutarium</w>
           <pc>,</pc>
           <w>magna</w>
           <w>enim</w>
@@ -2123,9 +2050,7 @@
           <w>solum</w>
           <w>ne</w>
           <w>ducum</w>
-          <supplied>
-            <w>laborumque</w>
-          </supplied>
+          <w>laborumque</w>
           <w>penuria</w>
           <pc>.</pc>
           <expan>
@@ -2259,9 +2184,7 @@
               <w>Nadasdino</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>comiti</w>
-              </supplied>
+              <w>comiti</w>
               <w>et</w>
               <w>iudici</w>
               <w>curie</w>
@@ -2270,9 +2193,7 @@
               </expan>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>regis</w>
-              </supplied>
+              <w>regis</w>
               <w>Romanorum</w>
               <abbr>
                 <w>etc</w>
@@ -2618,9 +2539,7 @@
           <w>laceraui</w>
           <w>obseruando</w>
           <w>ac</w>
-          <supplied>
-            <w>eos</w>
-          </supplied>
+          <w>eos</w>
           <w>extendendo</w>
           <w>unde</w>
           <w>primum</w>
@@ -2938,9 +2857,7 @@
           <w>et</w>
           <w>Anglum</w>
           <w>non</w>
-          <supplied>
-            <w>procedit</w>
-          </supplied>
+          <w>procedit</w>
           <pc>.</pc>
           <w>Hic</w>
           <w>enim</w>
@@ -2967,9 +2884,7 @@
           <w>nobis</w>
           <w>imminere</w>
           <w>magnas</w>
-          <supplied>
-            <w>bellorum</w>
-          </supplied>
+          <w>bellorum</w>
           <w>tempestates</w>
           <pc>.</pc>
           <w>Pontifex</w>
@@ -2985,9 +2900,7 @@
           <w>Luterani</w>
           <w>autem</w>
           <w>iam</w>
-          <supplied>
-            <w>ceperunt</w>
-          </supplied>
+          <w>ceperunt</w>
           <w>nationale</w>
           <w>concilium</w>
           <w>celebrare</w>
@@ -3643,10 +3556,8 @@
               <w>comiti</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>in</w>
-                <w>Fogaras</w>
-              </supplied>
+              <w>in</w>
+              <w>Fogaras</w>
               <w>et</w>
               <w>Iudici</w>
               <w>curie</w>
@@ -3719,9 +3630,7 @@
           <w>quod</w>
           <w>in</w>
           <w>hac</w>
-          <supplied>
-            <w>sceda</w>
-          </supplied>
+          <w>sceda</w>
           <w>continetur</w>
           <pc>.</pc>
           <w>Et</w>
@@ -4622,9 +4531,7 @@
           <w>commisi</w>
           <w>ut</w>
           <w>Petro</w>
-          <supplied>
-            <w>denti</w>
-          </supplied>
+          <w>denti</w>
           <w>redderet</w>
           <pc>,</pc>
           <w>is</w>
@@ -4756,10 +4663,8 @@
           <w>infelicissimus</w>
           <w>quamquam</w>
           <w>retia</w>
-          <supplied>
-            <w>sero</w>
-            <w>mergamus</w>
-          </supplied>
+          <w>sero</w>
+          <w>mergamus</w>
           <w>tamen</w>
           <w>uix</w>
           <w>tantum</w>
@@ -4874,9 +4779,7 @@
               <w>regni</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>Hungarię</w>
-              </supplied>
+              <w>Hungarię</w>
               <w>capitaneo</w>
               <abbr>
                 <w>etc</w>
@@ -4885,9 +4788,7 @@
               <w>Dno</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>patrono</w>
-              </supplied>
+              <w>patrono</w>
               <w>meo</w>
               <w>semper</w>
               <expan>
@@ -5221,25 +5122,19 @@
               <w>supremo</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>Regni</w>
-              </supplied>
+              <w>Regni</w>
               <w>Hungarię</w>
               <w>capitaneo</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>domino</w>
-              </supplied>
+              <w>domino</w>
               <w>et</w>
               <w>patrono</w>
               <w>meo</w>
               <w>semper</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>obseruandissimo</w>
-              </supplied>
+              <w>obseruandissimo</w>
             </addrLine>
             <addrLine>
               <w>In</w>
@@ -5607,9 +5502,7 @@
           <w>cum</w>
           <w>regina</w>
           <w>et</w>
-          <supplied>
-            <w>Cassum</w>
-          </supplied>
+          <w>Cassum</w>
           <w>bassam</w>
           <w>cum</w>
           <w>quatuor</w>
@@ -5640,9 +5533,7 @@
           <w>Res</w>
           <w>autem</w>
           <w>Germanice</w>
-          <supplied>
-            <w>distrahent</w>
-          </supplied>
+          <w>distrahent</w>
           <w>nostros</w>
           <w>principes</w>
           <w>a</w>
@@ -5657,9 +5548,7 @@
           <w>compescere</w>
           <pc>,</pc>
           <w>cui</w>
-          <supplied>
-            <w>quidam</w>
-          </supplied>
+          <w>quidam</w>
           <w>suppetias</w>
           <w>contra</w>
           <w>Cesarem</w>
@@ -5769,9 +5658,7 @@
               <w>Iudici</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>Curie</w>
-              </supplied>
+              <w>Curie</w>
               <expan>
                 <w>Regię</w>
                 <w>Maiestatis</w>
@@ -5780,9 +5667,7 @@
               <w>supremo</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>Regni</w>
-              </supplied>
+              <w>Regni</w>
               <w>Hungarię</w>
               <w>capitaneo</w>
               <abbr>
@@ -5791,18 +5676,14 @@
               </abbr>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>domino</w>
-              </supplied>
+              <w>domino</w>
               <w>meo</w>
               <w>et</w>
               <w>patrono</w>
               <w>semper</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>obseruandissimo</w>
-              </supplied>
+              <w>obseruandissimo</w>
             </addrLine>
             <addrLine>
               <w>In</w>
@@ -6155,13 +6036,9 @@
               <w>domino</w>
             </addrLine>
             <addrLine>
-              <supplied>
-                <w>Georgio</w>
-              </supplied>
+              <w>Georgio</w>
               <w>Pernesits</w>
-              <supplied>
-                <w>locumtenti</w>
-              </supplied>
+              <w>locumtenenti</w>
               <expan>
                 <w>Illustrissimi</w>
                 <w>Domini</w>
@@ -6238,9 +6115,7 @@
           <w>et</w>
           <w>duas</w>
           <w>pixidulas</w>
-          <supplied>
-            <w>tiriace</w>
-          </supplied>
+          <w>tiriace</w>
           <pc>.</pc>
           <w>Vnam</w>
           <w>dabis</w>
@@ -6280,9 +6155,7 @@
           <w>grata</w>
           <w>accipias</w>
           <w>et</w>
-          <supplied>
-            <w>beneuola</w>
-          </supplied>
+          <w>beneuola</w>
           <pc>,</pc>
           <w>ut</w>
           <w>soles</w>
@@ -6366,9 +6239,7 @@
         <postscript>
           <p>
             <w>Dices</w>
-            <supplied>
-              <w>nostro</w>
-            </supplied>
+            <w>nostro</w>
             <w>domino</w>
             <w>quod</w>
             <w>hoc</w>
@@ -6384,9 +6255,7 @@
             <w>ceperant</w>
             <w>capi</w>
             <w>nisi</w>
-            <supplied>
-              <w>rare</w>
-            </supplied>
+            <w>rare</w>
             <w>admodum</w>
             <pc>.</pc>
           </p>
@@ -6545,9 +6414,7 @@
           <gap reason="lacuna"/>
           <w>micis</w>
           <w>quodammodo</w>
-          <supplied>
-            <w>attritis</w>
-          </supplied>
+          <w>attritis</w>
           <w>qui</w>
           <w>maxime</w>
           <w>vestram</w>
@@ -6684,9 +6551,7 @@
             <w>Tu</w>
             <w>interim</w>
             <w>pancratice</w>
-            <supplied>
-              <w>viuas</w>
-            </supplied>
+            <w>viuas</w>
             <pc>,</pc>
             <w>et</w>
             <w>celeriter</w>
@@ -7773,15 +7638,11 @@
               </expan>
               <w>Thome</w>
               <w>Nadasdino</w>
-              <supplied>
-                <w>comiti</w>
-              </supplied>
+              <w>comiti</w>
               <w>de</w>
               <w>Fogaras</w>
               <pc>,</pc>
-              <supplied>
-                <w>iudici</w>
-              </supplied>
+              <w>iudici</w>
               <w>curie</w>
               <expan>
                 <w>Regie</w>
@@ -8197,17 +8058,13 @@
               <w>Thomę</w>
               <w>Nadasdino</w>
               <w>comiti</w>
-              <supplied>
-                <w>de</w>
-              </supplied>
+              <w>de</w>
               <w>Fogaras</w>
               <pc>,</pc>
               <w>Judici</w>
               <w>curię</w>
-              <supplied>
-                <w>regię</w>
-                <pc>,</pc>
-              </supplied>
+              <w>regię</w>
+              <pc>,</pc>
               <w>supremo</w>
               <w>Regni</w>
               <expan>
@@ -8218,9 +8075,7 @@
                 <w>etc</w>
                 <pc>.</pc>
               </abbr>
-              <supplied>
-                <w>Domino</w>
-              </supplied>
+              <w>Domino</w>
               <w>et</w>
               <w>patrono</w>
               <w>meo</w>
