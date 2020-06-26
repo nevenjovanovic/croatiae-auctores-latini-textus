@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="benesa-d_epigr03_croala5095251.croala-lat1">
@@ -21,7 +20,7 @@
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
                <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+                  <ref type="viaf" target="6913774" xml:id="NJ">Neven Jovanović</ref>
                </persName>
             </respStmt>
          </titleStmt>
@@ -39,8 +38,7 @@
             <date>Siječanj 2018</date>
 
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/"
-                        notBefore="2018-01-01">
+               <licence target="http://creativecommons.org/licenses/by/3.0/" notBefore="2018-01-01">
                   <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence applies to
                      this document.</p>
                   <p>The licence was added on January 1, 2018.</p>
@@ -76,6 +74,17 @@
             </keywords>
          </textClass>
       </profileDesc>
+      <encodingDesc>
+         <tagsDecl resp="#NJ">
+            <namespace name="#benesa-d_epigr03_croala5095251.croala-lat1">
+               <tagUsage gi="supplied">With attribute @scope=verbum: a whole word is supplied.
+               With attribute @scope=incipit: beginning of the word is supplied.
+               With attribute @scope=medium: letters in the middle of the are supplied.
+               With attribute @scoep=finis: end of the word is supplied.
+               This description is important for word tokenization.</tagUsage>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
    </teiHeader>
    <text>
       <front>
@@ -244,11 +253,11 @@
             <l n="3.4.11">Si modo <orig>cęlestes</orig> infesti sontibus obstent,</l>
             <l n="3.4.12"> 
                <orig>Hęserit</orig>, heu, uinctus pes tibi reste leui!</l>
-            <l n="3.4.13">Quare adhibe mentem monitis c<supplied>ęle</supplied>stibus,
-                  <supplied>atque</supplied>
+            <l n="3.4.13">Quare adhibe mentem monitis c<supplied scope="medium">ęle</supplied>stibus,
+                  <supplied scope="verbum">atque</supplied>
             </l>
-            <l n="3.4.14"> Auge una imperium pr<supplied>omoueasque</supplied>
-               <supplied>fi</supplied>dem. </l>
+            <l n="3.4.14"> Auge una imperium pr<supplied scope="finis">omoueasque</supplied>
+               <supplied scope="incipit">fi</supplied>dem. </l>
          </div>
          <div type="poesis-epigramma" n="3.5">
             <head>
@@ -331,10 +340,11 @@
             <l n="3.8.2"> Infera latratu persono regna graui.</l>
             <l n="3.8.3">Iniecta uates sic me transformat in offa,</l>
             <l n="3.8.4"> Cui ueteres explent carmina ficta uices,</l>
-            <l n="3.8.5">P<supplied>asquino</supplied>que nouum nomen uenit inde, quod ultro</l>
-            <l n="3.8.6"> Ex<supplied>hibet</supplied>
-               <supplied>officium</supplied>
-               <orig><supplied>ced</supplied>ula</orig> <orig>quęque</orig> cani.</l>
+            <l n="3.8.5">P<supplied scope="medium">asquino</supplied>que nouum nomen uenit inde, quod ultro</l>
+            <l n="3.8.6"> Ex<supplied scope="finis">hibet</supplied>
+               <supplied scope="incipit">officium</supplied>
+               <orig>
+            <supplied scope="incipit">ced</supplied>ula</orig> <orig>quęque</orig> cani.</l>
          </div>
          <div type="poesis-epigramma" n="3.9">
             <head>
@@ -390,15 +400,12 @@
             <l n="3.11.5">Hic uir consultus, mercator, <orig>lęno</orig> repente,</l>
             <l n="3.11.6"> Nil hominis prorsus, nil probitatis habet.</l>
             <l n="3.11.7">Et licet inde sophos magnum iactauerit ille,</l>
-            <l n="3.11.8"> At condit <orig>quęnam</orig> pectore monstra <supplied>rogo</supplied>.</l>
+            <l n="3.11.8"> At condit <orig>quęnam</orig> pectore monstra <supplied scope="verbum">rogo</supplied>.</l>
          </div>
          <div type="poesis-epigramma" n="3.12" met="iambicum">
             <head>
                <supplied ana="editorial">(12)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1035">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1035">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">De --- hominis] </mentioned>
                      <hi rend="font-style:italic;">metr. iamb.</hi>
@@ -406,7 +413,7 @@
                </note>
                <seg xml:id="w1035">hominis</seg>
             </head>
-            <l n="3.12.1"> Non tot procellis tollitur uastu<supplied>m</supplied> mare,</l>
+            <l n="3.12.1"> Non tot procellis tollitur uastu<supplied scope="finis">m</supplied> mare,</l>
             <l n="3.12.2">Mox cardine ut uerso petit Orion polum</l>
             <l n="3.12.3">Tempestuosus funditus miscens salum,</l>
             <l n="3.12.4">Casus habet quot uita, quot uariat uices:</l>
@@ -421,16 +428,14 @@
             <l n="3.12.12">
                <orig>Hęc</orig> amouens coelo statim Orco reicit,</l>
             <l n="3.12.13">Summi simul degant ut immemores boni.</l>
-            <l n="3.12.14"><orig>Mulctata</orig> patrum noxa sic olim fuit,</l>
+            <l n="3.12.14">
+          <orig>Mulctata</orig> patrum noxa sic olim fuit,</l>
             <l n="3.12.15">Nostrum genus <orig>quę</orig> sede patria reppulit.</l>
          </div>
          <div type="poesis-epigramma" n="3.13" met="phalaecium">
             <head>
                <supplied ana="editorial">(13)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1129">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1129">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Ad --- ipsum] </mentioned>
                      <hi rend="font-style:italic;">metr. phalaec.</hi>
@@ -439,13 +444,7 @@
                <seg xml:id="w1129">ipsum</seg>
             </head>
             <l n="3.13.1"> Quidnam, quod magis expediret, illud,</l>
-            <l n="3.13.2">Votis omnibus, ut fiat, quod optas,<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="1"
-                     target="#fn1"
-                     targetEnd="#fn1">
+            <l n="3.13.2">Votis omnibus, ut fiat, quod optas,<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="1" target="#fn1" targetEnd="#fn1">
                   <p rendition="#rd-Text"> Videantur notata ad <abbr>pag.</abbr> 322. sub litera <q>a</q>.</p>
                </note>
                <anchor type="N2" xml:id="fn1"/>
@@ -470,10 +469,7 @@
          <div type="poesis-epigramma" n="3.14" met="iambicum">
             <head>
                <supplied ana="editorial">(14)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1209">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1209">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">De --- aetatis] </mentioned>
                      <hi rend="font-style:italic;">metr. iamb.</hi>
@@ -481,29 +477,23 @@
                </note>
                <seg xml:id="w1209">aetatis</seg>
             </head>
-            <l n="3.14.1"> Qu<supplied>os</supplied>
-               <supplied>iam</supplied>
-               <supplied>magis</supplied>
-               <supplied>com</supplied>mendo plurisue <orig>ęstimo</orig>
+            <l n="3.14.1"> Qu<supplied scope="finis">os</supplied>
+               <supplied scope="verbum">iam</supplied>
+               <supplied scope="verbum">magis</supplied>
+               <supplied scope="incipit">com</supplied>mendo plurisue <orig>ęstimo</orig>
             </l>
             <l n="3.14.2">Vatum <orig>meę</orig> aetatis, nec exiguus, licet,</l>
             <l n="3.14.3">Horum numerus, at <orig>cęteris</orig> quos <orig>pręfero</orig>
             </l>
             <l n="3.14.4">Graius <seg xml:id="w1229">Marullus,</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1229">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1229">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Marullus] </mentioned>
                      <hi rend="font-style:italic;">sc. Michael Marullus Tarchaniota (1458-1500)</hi>
                   </p>
                </note> tum tametsi animoque ei</l>
             <l n="3.14.5">Iam nil amico litteratus <seg xml:id="w1238">Angelus,</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1238">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1238">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Angelus] </mentioned>
                      <hi rend="font-style:italic;">sc. Angelus Politianus (1454-1494)</hi>
@@ -513,18 +503,12 @@
             <l n="3.14.6">Florentia nobis profectis obuii</l>
             <l n="3.14.7">
                <seg xml:id="w1243">Pontanus</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1243">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1243">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Pontanus] </mentioned>
                      <hi rend="font-style:italic;">sc. Iovianus Pontanus (1429-1503)</hi>
                   </p>
-               </note> Acciusue<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1245">
+               </note> Acciusue<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1245">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Acciusue Sincęrus] </mentioned>
                      <hi rend="font-style:italic;">sc. Iacobus Sannazarus (1458-1530)</hi>
@@ -569,10 +553,7 @@
                <seg xml:id="w1390">
                   <supplied ana="editorial">(17)</supplied>
                </seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1390">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1390">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">17] </mentioned>
                      <hi rend="font-style:italic;">sine titulo, in regem Galliarum, Turcas sibi
@@ -584,32 +565,23 @@
             <l n="3.17.2">Quorsum, quod exitio est, fere hoc omnes iuuat?</l>
             <l n="3.17.3">Maturus interitus nequit cur conspici?</l>
             <l n="3.17.4">Coniurat orbis, <seg xml:id="w1413">mutua</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w1413">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w1413">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">mutua] </mentioned>matura <hi rend="font-style:italic;">Aghich</hi>
                   </p>
                </note> 
-               <orig>cęde</orig> ut <supplied>ruant</supplied>,</l>
-            <l n="3.17.5">Fratrumque sanguis petitur, ut <supplied>uaste</supplied>nt fidem. </l>
-            <l n="3.17.6">Tu, quos<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1429">
+               <orig>cęde</orig> ut <supplied scope="verbum">ruant</supplied>,</l>
+            <l n="3.17.5">Fratrumque sanguis petitur, ut <supplied scope="incipit">uaste</supplied>nt fidem. </l>
+            <l n="3.17.6">Tu, quos<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1429">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">quos --- petis] </mentioned>
                      <hi rend="font-style:italic;">sc. Turcas</hi>
                   </p>
-               </note> amicos, <orig>quęso</orig>, iamdudum <seg xml:id="w1429">p<supplied>e</supplied>tis,</seg>
+               </note> amicos, <orig>quęso</orig>, iamdudum <seg xml:id="w1429">p<supplied scope="medium">e</supplied>tis,</seg>
             </l>
             <l n="3.17.7">Rem sedulo perpende, nec malus impetus</l>
             <l n="3.17.8">Turbatum agat: quidnam imminet, cernis parum.</l>
-            <l n="3.17.9">Nescis<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1458">
+            <l n="3.17.9">Nescis<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1458">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Nescis --- 11 modo] </mentioned>
                      <hi rend="font-style:italic;">sc. Christianis inter se bellantibus Turcica res
@@ -622,10 +594,7 @@
             </l>
             <l n="3.17.12">Sed cur futuro tu malo non prospicis?</l>
             <l n="3.17.13">Contundet <seg xml:id="w1467">hunc</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1467">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1467">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">hunc] </mentioned>
                      <hi rend="font-style:italic;">sc. Carolum regem</hi>
@@ -634,10 +603,7 @@
             <l n="3.17.14">Iam restiteris, <orig>hęc</orig> 
                <orig>sęuiet</orig> pestis suo</l>
             <l n="3.17.15">Tunc more, mox absumat ut uiuum ferox.</l>
-            <l n="3.17.16">Iram<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1493">
+            <l n="3.17.16">Iram<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1493">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Iram --- 17 habenas] </mentioned>
                      <hi rend="font-style:italic;">sc. de bello a. 1536. inter Franciscum et Carolum
@@ -646,10 +612,7 @@
                </note> tene, neu tu furori siueris</l>
             <l n="3.17.17">Omnes <seg xml:id="w1493">habenas,</seg> teque honesti finibus</l>
             <l n="3.17.18">Cohibe, nisi expendas prius, neu quid <seg xml:id="w1503">face,</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1503">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1503">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">face] </mentioned>
                      <hi rend="font-style:italic;">sc. fac </hi>
@@ -674,10 +637,7 @@
             <l n="3.18.3">Diuersumque deo fatum sortimur ab uno,</l>
             <l n="3.18.4"> Pro uotis uariis sunt uaria ut studia.</l>
             <l n="3.18.5">Atque acuit quemque iccirco, <seg xml:id="w1583">una</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w1583">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w1583">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">una] </mentioned>
                      <hi rend="font-style:italic;">sscr</hi>.</p>
@@ -689,10 +649,7 @@
          <div type="poesis-epigramma" n="3.19">
             <head>
                <supplied ana="editorial">(19)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1617">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1617">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">In --- nostrum] </mentioned>
                      <hi rend="font-style:italic;">cf. epigr. 17. huius libri</hi>
@@ -700,18 +657,15 @@
                </note>
                <seg xml:id="w1617">nostrum</seg>
             </head>
-            <l n="3.19.1"> Si c<supplied>ursus</supplied>
-               <supplied>olim</supplied>
-               <supplied>R</supplied>ubiconis ripa morata est,</l>
-            <l n="3.19.2"> Atque <supplied>acrem</supplied>
-               <supplied>
+            <l n="3.19.1"> Si c<supplied scope="finis">ursus</supplied>
+               <supplied scope="verbum">olim</supplied>
+               <supplied scope="incipit">R</supplied>ubiconis ripa morata est,</l>
+            <l n="3.19.2"> Atque <supplied scope="verbum">acrem</supplied>
+               <supplied scope="verbum">
                   <orig>patrię</orig>
                </supplied>
-               <supplied>f</supplied>regit imago <seg xml:id="w1633">ducem,</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1633">
+               <supplied scope="incipit">f</supplied>regit imago <seg xml:id="w1633">ducem,</seg>
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1633">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">ducem] </mentioned>
                      <hi rend="font-style:italic;">sc. Gaium Iulium Caesarem</hi>
@@ -733,10 +687,7 @@
          <div type="poesis-epigramma" n="3.20">
             <head>
                <supplied ana="editorial">(20)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1713">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1713">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">In principes] </mentioned>
                      <hi rend="font-style:italic;">cf. epigr. praeced.</hi>
@@ -770,36 +721,27 @@
             <l n="3.21.6"> Cui poenas sceleris diruta Troia luit,</l>
             <l n="3.21.7">Heu, nostri fuerit non hoc modo dedecus aeui,</l>
             <l n="3.21.8"> Non, <orig>quęso</orig>, opprobrium perpetuusque pudor,</l>
-            <l n="3.21.9">Quos non regna amissa, fides eiecta p<supplied>aternis</supplied>
+            <l n="3.21.9">Quos non regna amissa, fides eiecta p<supplied scope="finis">aternis</supplied>
             </l>
-            <l n="3.21.10"> Finibus, et non tot damna rece<supplied>pta</supplied>
-               <supplied>mouent</supplied>,</l>
+            <l n="3.21.10"> Finibus, et non tot damna rece<supplied scope="finis">pta</supplied>
+               <supplied scope="verbum">mouent</supplied>,</l>
             <l n="3.21.11">Sed, penetrare parum uelut atque in uiscera condi</l>
             <l n="3.21.12"> 
                <orig>Europę</orig> fuerit, <orig>fędera</orig>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1898">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1898">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">fędera iniqua] </mentioned>
                      <hi rend="font-style:italic;">sc. foedera Francisci regis cum Turcis</hi>
                   </p>
                </note>
                <seg xml:id="w1898">iniqua</seg> petunt?</l>
-            <l n="3.21.13">At<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w1961">
+            <l n="3.21.13">At<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1961">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">At --- 20 ducis] </mentioned>
                      <hi rend="font-style:italic;">cf. Hom. Il. I</hi>
                   </p>
                </note> non <seg xml:id="w1902">Aeacides,</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w1902">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w1902">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Aeacides] </mentioned>Alcides <hi rend="font-style:italic;">Aghich</hi>
                   </p>
@@ -809,7 +751,8 @@
             <l n="3.21.16"> Nimirum haud Troas ille iuuabat ope,</l>
             <l n="3.21.17">Conquestus matri tantum, <orig>quę</orig> protinus alto</l>
             <l n="3.21.18"> Rettulit ad naues omnia facta Ioui;</l>
-            <l n="3.21.19"><orig>Iupiter</orig> ultorem tunc se nil plura dolenti</l>
+            <l n="3.21.19">
+          <orig>Iupiter</orig> ultorem tunc se nil plura dolenti</l>
             <l n="3.21.20"> Pollicitus, uirtus claruit unde <seg xml:id="w1961">ducis.</seg>
             </l>
             <l n="3.21.21">Sed quid adhuc, tuleris si iam grauiora ferasque,</l>
@@ -822,10 +765,7 @@
                <orig>quęrenda</orig> fuit tunc medicina mali.</l>
             <l n="3.21.27">Quin hodie <orig>culpę</orig> spes omni posse mederi,</l>
             <l n="3.21.28"> Si placeat Christo sumpta medela duce,</l>
-            <l n="3.21.29">Quo<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w2041">
+            <l n="3.21.29">Quo<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w2041">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Quo --- 30 est] </mentioned>
                      <hi rend="font-style:italic;">cf. Lc 7, 36-70</hi>
@@ -844,28 +784,22 @@
             <l n="3.21.37">An frustra exhaustos regum patiere labores,</l>
             <l n="3.21.38"> Quorum olim fidei gloria creuit ope?</l>
             <l n="3.21.39">At nunc iam <seg xml:id="w2107">coeant,</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w2107">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w2107">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">coeant] </mentioned>
                      <hi rend="font-style:italic;">mut. e</hi> coheant</p>
                </note> cognoscant denique causas,</l>
             <l n="3.21.40"> Atque queri ualeat ius sibi nemo rapi.</l>
-            <l n="3.21.41">Sit <supplied>patrum</supplied>
-               <supplied>stu</supplied>dium tantos componere motus,</l>
-            <l n="3.21.42"> Et <supplied>moli pariter </supplied>reddere <orig>menbra</orig> <orig>suę</orig>.</l>
+            <l n="3.21.41">Sit <supplied scope="incipit">patrum</supplied>
+               <supplied scope="incipit">stu</supplied>dium tantos componere motus,</l>
+            <l n="3.21.42"> Et <supplied scope="verbum">moli</supplied> <supplied scope="verbum">pariter</supplied>reddere <orig>menbra</orig> <orig>suę</orig>.</l>
             <l n="3.21.43">Vt pars in toto uitam sortitur et ipsum</l>
             <l n="3.21.44"> Nomen, quo remanet officiosa simul,</l>
             <l n="3.21.45">Sicque sibi cunctis moles digesta redactis</l>
             <l n="3.21.46"> Vtilior prorsus plusue decora redit.</l>
             <l n="3.21.47">Namque alternatim deseruiet usibus ultro,</l>
             <l n="3.21.48"> Vt iam <seg xml:id="w2175">quodque</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w2175">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w2175">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">quodque] </mentioned>quemque <hi rend="font-style:italic;">e marg. alia manu</hi>
                   </p>
@@ -885,7 +819,8 @@
             <milestone unit="page" n="39"/>
             <l n="3.21.61">Nunc age, monstrato ponas uestigia calle,</l>
             <l n="3.21.62"> Fac coeant moli dissita <orig>menbra</orig> <orig>suę</orig>. </l>
-            <l n="3.21.63"><orig>Aedas</orig> exemplum uirtutis, Gallia coelo</l>
+            <l n="3.21.63">
+          <orig>Aedas</orig> exemplum uirtutis, Gallia coelo</l>
             <l n="3.21.64"> Quod iactet, referant postera secla diu,</l>
             <l n="3.21.65">Hostilemque animum in fratres depone, tuumque</l>
             <l n="3.21.66"> Ius simul et socium iure tuere bono.</l>
@@ -895,10 +830,7 @@
          <div type="poesis-epigramma" n="3.22">
             <head>
                <supplied ana="editorial">(22)</supplied>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w2343">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w2343">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Epitaphium --- familiaris] </mentioned>
                      <hi rend="font-style:italic;">hoc epigramma in sequenti codicis pagina scriptum
@@ -910,10 +842,7 @@
             <l n="3.22.1"> Olim nos etiam <seg xml:id="w2348">
                   <orig>cęlestes</orig>
                </seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w2348">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w2348">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">cęlestes] </mentioned>
                      <hi rend="font-style:italic;">sc. nominativus</hi>
@@ -924,34 +853,19 @@
             <l n="3.22.4"> Collabique una parte necesse fuit.</l>
             <l n="3.22.5">Altera sed sospes tenebras euasit inanes,</l>
             <l n="3.22.6"> Et compos uoti est reddita <seg xml:id="w2389">rite</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w2389">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w2389">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">rite] </mentioned>iure <hi rend="font-style:italic;">in secunda uersione </hi>
                   </p>
                </note> sui,</l>
             <l n="3.22.7">Instar <orig>materię</orig>, dum <orig>uerę</orig> lucis hiulca</l>
-            <l n="3.22.8"> Impletur <orig>uitę</orig> consociata iugi.<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="2"
-                     target="#fn2"
-                     targetEnd="#fn2">
+            <l n="3.22.8"> Impletur <orig>uitę</orig> consociata iugi.<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="2" target="#fn2" targetEnd="#fn2">
                   <p rendition="#rd-Text"> Errauit auctor in metro: prima enim syllaba uocis <mentioned>iugi</mentioned> longa est.</p>
                </note>
                <anchor type="N2" xml:id="fn2"/>
             </l>
             <l n="3.22.9">Diua mente, inquam, manat sibi uita perennis,</l>
-            <l n="3.22.10"> Citra quam remanet carcere clausa tetro.<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="3"
-                     target="#fn3"
-                     targetEnd="#fn3">
+            <l n="3.22.10"> Citra quam remanet carcere clausa tetro.<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="3" target="#fn3" targetEnd="#fn3">
                   <p rendition="#rd-Text"> Excusari haud posse Benessa uidetur primam syllabam in
                         <mentioned>tetro</mentioned> corripiens, quae constantissime
                      apud poetas producta inuenitur etiam in casu recto generis masculini, in quo
@@ -968,10 +882,7 @@
          <div type="poesis-epigramma" n="3.23">
             <head>
                <supplied ana="editorial">(23)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w2461">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w2461">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">De --- nostro] </mentioned>
                      <hi rend="font-style:italic;">hic</hi>
@@ -998,13 +909,7 @@
                <seg xml:id="w2510">
                   <orig>Alieuticon</orig>
                </seg>
-               <note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="4"
-                     target="#fn4"
-                     targetEnd="#fn4">
+               <note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="4" target="#fn4" targetEnd="#fn4">
                   <p rendition="#rd-Text"> Scribendum erat <mentioned>Halieuticon</mentioned>.</p>
                </note>
                <anchor type="N2" xml:id="fn4"/>
@@ -1017,10 +922,7 @@
             <l n="3.24.2">
                <orig>Hęsurus</orig> nunquam <orig>quę</orig> mitibus imminet undis</l>
             <l n="3.24.3">Rupi, tota uocat fere quam uicinia <seg xml:id="w2538">Batum.</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w2538">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w2538">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Batum] </mentioned>
                      <hi rend="font-style:italic;">hoc sinus Malphi promontorium, econtra uillam
@@ -1030,7 +932,9 @@
             </l>
             <l n="3.24.4">Sed me nunc sessum componam, tempus et <orig>aescam</orig> </l>
             <l n="3.24.5">Spargere, iam calamos tempus deponere ponto.</l>
-            <stage><orig>‌Molorcus</orig></stage>
+            <stage>
+          <orig>‌Molorcus</orig>
+        </stage>
             <l n="3.24.6">Heus, gelido in saxo qui setis ocia fallis,</l>
             <l n="3.24.7">Sollicitusque simul pisces sectare natantes,</l>
             <l n="3.24.8">Sic uotis captura tuis respondeat uber,</l>
@@ -1041,7 +945,9 @@
                <anchor type="N2" xml:id="fn5"/>
             </l>
             <l n="3.24.11">Vt lateant hodie te sic manifesta petentem?</l>
-            <stage><orig>‌Molorcus</orig></stage>
+            <stage>
+          <orig>‌Molorcus</orig>
+        </stage>
             <l n="3.24.12">
                <orig>Hęc</orig> si, quid mirum, maneant incognita Graio:</l>
             <l n="3.24.13">Nota quidem cunctis et sola domestica <orig>curę</orig>.</l>
@@ -1054,10 +960,7 @@
                 qua longa sinu <orig>pręcingere</orig> littora cernis,</l>
             <l n="3.24.17">
                <seg xml:id="w2639">Malpho</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w2639">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w2639">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Malpho] </mentioned>
                      <hi rend="font-style:italic;">sc. Zaton sinus</hi>
@@ -1070,10 +973,7 @@
                <orig>Hęc</orig> nando melior geminam post terga reliquit</l>
             <l n="3.24.21">Germanam, iungunt <orig>quę</orig> mutua brachia pone,</l>
             <l n="3.24.22">Cincta arcus <seg xml:id="w2674">Grauosa</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w2674">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w2674">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Grauosa] </mentioned>
                      <hi rend="font-style:italic;">sc. Gruž sinus</hi>
@@ -1081,15 +981,12 @@
                </note> leues de more <orig>Dianę</orig>,</l>
             <l n="3.24.23">
                <seg xml:id="w2679">Ombula</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w2679">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w2679">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Ombula] </mentioned>
                      <hi rend="font-style:italic;">sc. Ombla flumen</hi>
                   </p>
-               </note> tum palam suris subducta <supplied>fluentem</supplied>, </l>
+               </note> tum palam suris subducta <supplied scope="verbum">fluentem</supplied>, </l>
             <l n="3.24.24">Nemo pedem melius qua sciret ferre choreis,</l>
             <l n="3.24.25">Orbibus <orig>egressę</orig> dum longum ducitur agmen,</l>
             <l n="3.24.26">Dumque una excipiat subeuntes ordine uerso,</l>
@@ -1103,10 +1000,7 @@
                <orig>Quę</orig> 
                <orig>Napęa</orig> latet saliceti clausa recessu.</l>
             <l n="3.24.34">Inde sinit <seg xml:id="w2754">Daxam</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w2754">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w2754">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Daxam] </mentioned>
                      <hi rend="font-style:italic;">sc. Daksa insula</hi>
@@ -1119,7 +1013,9 @@
                <orig>Quę</orig> tradit, tandem huc <orig>Lybico</orig> de littore Battum</l>
             <l n="3.24.38">Appulsum uentis uersa tenuisse figura.</l>
             <l n="3.24.39">Ast hic quis fuerit, res porro incognita nobis.</l>
-            <stage><orig>‌Molorcus</orig></stage>
+            <stage>
+          <orig>‌Molorcus</orig>
+        </stage>
             <l n="3.24.40">Ille genus longa ducebat origine Graium,</l>
             <l n="3.24.41">Nam, si prisca sequar repetamque exordia prima,</l>
             <milestone unit="page" n="40v"/>
@@ -1128,7 +1024,8 @@
             <l n="3.24.44">In Libicam ad pactas glebas et pascua <orig>lęta</orig>,</l>
             <l n="3.24.45">Euphemi vulgo celebrem de stirpe uetusta, </l>
             <l n="3.24.46">Inter cui Minias certo iam foedere tellus</l>
-            <l n="3.24.47"><orig>Euripili</orig> pacta est rastris uertenda nepotum.</l>
+            <l n="3.24.47">
+          <orig>Euripili</orig> pacta est rastris uertenda nepotum.</l>
             <l n="3.24.48">Progenies saxo tantis ambagibus acta</l>
             <l n="3.24.49">Debuit hoc condi gelidaque rigescere <seg xml:id="w2859">caute.</seg>
             </l>
@@ -1151,7 +1048,8 @@
             <l n="3.24.63">Non sic euadit cupidos <orig>compręhendere</orig> Proteus,</l>
             <l n="3.24.64">Iniectis Batti uelut illa elabitur ulnis.</l>
             <l n="3.24.65">Dumque diu poenas tales exsoluit amori,</l>
-            <l n="3.24.66"><orig>Infoelix</orig> teneris tandem contabuit annis. </l>
+            <l n="3.24.66">
+          <orig>Infoelix</orig> teneris tandem contabuit annis. </l>
             <l n="3.24.67">Vt sese periisse dolis cognouit et arte,</l>
             <l n="3.24.68">Egressum obsedit, contraque obstabat eunti,</l>
             <l n="3.24.69">Germanas fuerat quoties inuisere cordi,</l>
@@ -1160,23 +1058,23 @@
             <milestone unit="page" n="41"/>
             <l n="3.24.72">Mox ille obriguit <orig>prędura</orig> caute, stetitque</l>
             <l n="3.24.73">Qua stabat, qua me piscantem currere cernis.</l>
-            <stage><orig>‌Molorcus</orig></stage>
+            <stage>
+          <orig>‌Molorcus</orig>
+        </stage>
             <l n="3.24.74">Me posthac equidem semper meminisse iuuabit</l>
             <l n="3.24.75">Hic fecisse moras grata dulcedine captum,</l>
             <l n="3.24.76">Fabula narratur dum cannas inter et hamos,</l>
             <l n="3.24.77">Cui studium ponto gentes lustrare natantum.</l>
             <l n="3.24.78">Vtqui eadem meminisse tamen ualeamque referre,</l>
             <l n="3.24.79">Ne pigeat, <orig>quęso</orig>, quem te dixere parentes.</l>
-            <l n="3.24.80">Quin etiam ipse mei poteris meminisse: <orig>Molorcus</orig></l>
+            <l n="3.24.80">Quin etiam ipse mei poteris meminisse: <orig>Molorcus</orig>
+        </l>
             <l n="3.24.81">Oebalii de stirpe equidem sum littoris alta,</l>
             <l n="3.24.82">Vna qui terras atque <orig>ęquora</orig> peruagor erro.</l>
             <stage>‌Capis</stage>
             <l n="3.24.83">Quin etiam ipse quoque istius sum peruetus <orig>orę</orig>
             </l>
-            <l n="3.24.84">Incola: namque<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w3099">
+            <l n="3.24.84">Incola: namque<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3099">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">namque --- Illyrus] </mentioned>
                      <hi rend="font-style:italic;">interpretatio obscura</hi>
@@ -1185,16 +1083,15 @@
             <l n="3.24.85">
                <orig>Illyricę</orig> ueniunt longa propagine gentes.</l>
             <l n="3.24.86">Ipse Capim refero genere una et nomine <seg xml:id="w3114">priscum.</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w3114">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w3114">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">priscum] </mentioned>priscam <hi rend="font-style:italic;">Aghich</hi>
                   </p>
                </note>
             </l>
-            <stage><orig>‌Molorcus</orig></stage>
+            <stage>
+          <orig>‌Molorcus</orig>
+        </stage>
             <l n="3.24.87">Non <orig>operę</orig> <orig>precium</orig>, nec iam licet amplius horas</l>
             <l n="3.24.88">Hic segnes trahere et uentos tempusque morari:</l>
             <l n="3.24.89">O facunde Capi, posthac memorande, ualeto,</l>
@@ -1203,10 +1100,7 @@
          <div type="poesis-epigramma" n="3.25" met="iambica-stropha">
             <head>
                <supplied ana="editorial">(25)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w3148">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3148">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Laconum cętus] </mentioned>
                      <hi rend="font-style:italic;">stropha iamb. secunda</hi>
@@ -1234,10 +1128,7 @@
          <div type="poesis-epigramma" n="3.26">
             <head>
                <seg xml:id="w3202">(26)</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w3202">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3202">
                   <p rendition="#rd-Text">
                      <mentioned rend="visible bracket">26] </mentioned>
                      <hi rend="font-style:italic;">Körbler huic epigr. titulum </hi>
@@ -1254,13 +1145,7 @@
             <l n="3.26.5" xml:lang="grc"> Ἀλλὰ κάτω ζοφερὸς καὶ τοῦδ' ὑποκείμενος αὐτὴ </l>
             <l n="3.26.6" xml:lang="grc"> Οὐρανόθεν πολλοῖς ὄμμασι βλεψάμενος. </l>
             <l n="3.26.7" xml:lang="grc"> Ἀρσενικὴ δύναμις κεῖνος, τὸ δὲ θηλικὸν αὐτή, </l>
-            <l n="3.26.8" xml:lang="grc"> Τίκτω καὶ μήτηρ ὥσπερ ἅπαντα τρέφω.<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="6"
-                     target="#fn6"
-                     targetEnd="#fn6">
+            <l n="3.26.8" xml:lang="grc"> Τίκτω καὶ μήτηρ ὥσπερ ἅπαντα τρέφω.<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="6" target="#fn6" targetEnd="#fn6">
                   <p rendition="#rd-Text"> Cum duos priores uersus Graecis notulis exscripsisset
                      Amatius, haec addidit: <q>Adeo in hoc epigrammate
                         obscurus est sensus, et constructio peruersa ac dubia, ut transcribere et
@@ -1281,13 +1166,7 @@
             <l n="3.27.5" xml:lang="grc"> Εὐνομίῃ τε καλῇ καί σοι δ' ἁμᾶ, πότνια Δίκα· </l>
             <l n="3.27.6" xml:lang="grc"> Ἄμφω γὰρ μεγάλων ὄντε κλέος πτολίων. </l>
             <l n="3.27.7" xml:lang="grc"> Ὑμῖν γοῦν, ἀγαθῶν ὅσσοι γλίχεσθε διδόντος, </l>
-            <l n="3.27.8" xml:lang="grc"> Μέλλοι τοῦ τεμένους κείμενα καλλὸν ἔχειν.<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="7"
-                     target="#fn7"
-                     targetEnd="#fn7">
+            <l n="3.27.8" xml:lang="grc"> Μέλλοι τοῦ τεμένους κείμενα καλλὸν ἔχειν.<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="7" target="#fn7" targetEnd="#fn7">
                   <p rendition="#rd-Text"> Sex tantum secundi epigrammatis, quod est <q>De pace</q>, Graecos uersus descripsit idem
                      Amatius, subiciens: <q>Et hoc epigramma erroribus ac
                         mala constructione insigne est, ut tamen sensum aliquem efficiat, sed
@@ -1303,10 +1182,7 @@
                <seg xml:id="w3340">
                   Κονσταντίνῳ
                </seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w3340">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3340">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Κονσταντίνῳ] </mentioned>
                      <hi rend="font-style:italic;">nomen Constantini Ragusae raro uel numquam potius
@@ -1323,18 +1199,13 @@
             <l n="3.28.5" xml:lang="grc"> Τούτων οὖν μετέχοντα ἰδὼν νῦν ἄχνυμαι αὐτῶς, </l>
             <l n="3.28.6" xml:lang="grc"> Πένθος γὰρ τόδε, τοὶ πένθεος οὐδὲν ἄκος, </l>
             <l n="3.28.7" xml:lang="grc"> Δειλὸς καὶ δοκέω μοι οὐτιδανός τε γενέσθαι, </l>
-            <l n="3.28.8" xml:lang="grc"> Αὐτίκα μὴ παρέχειν οὐ δυνατὸς μάκαρα.<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="8"
-                     target="#fn8"
-                     targetEnd="#fn8">
+            <l n="3.28.8" xml:lang="grc"> Αὐτίκα μὴ παρέχειν οὐ δυνατὸς μάκαρα.<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="8" target="#fn8" targetEnd="#fn8">
                   <p rendition="#rd-Text"> Constantino inscriptum est, illudque integrum Graece
                      exscripsit Amatius, sed priores tantum tres uersus interpretatus est in hunc
                      modum: <q>Dolores et morbi et omnino mala alia
                         infinita, / Queis nostra obnoxia est infelix uita, / Omne sane uirtutis
-                        bonum pessumdant semper <abbr>etc</abbr></q>... addiditque: <q>sequentia similis prorsus farinae sunt cum
+                        bonum pessumdant semper <abbr>etc</abbr>
+              </q>... addiditque: <q>sequentia similis prorsus farinae sunt cum
                         superioribus.</q>
                   </p>
                </note>
@@ -1344,10 +1215,7 @@
          <div type="poesis-carmen" n="3.29" met="hexameter">
             <head>
                <supplied ana="editorial">(29)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w3414">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3414">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Epicędion --- Boni] </mentioned>
                      <hi rend="font-style:italic;">Iacobus Bonus Ragusinus, poeta clarus et Benessae
@@ -1365,10 +1233,7 @@
             <l n="3.29.4">Qui legi media multis certantibus urbe,</l>
             <l n="3.29.5">Atque uetus studium quamuis elanguit annis,</l>
             <l n="3.29.6">Excussus nostro quamuis de <seg xml:id="w3448">pectore</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w3448">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w3448">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">pectore] </mentioned>corpore <hi rend="font-style:italic;">Aghich</hi>
                   </p>
@@ -1384,10 +1249,7 @@
                <orig>quęnam</orig> facies et imago iacentis?</l>
             <l n="3.29.15">Huc cunctas congessit opes sibi Flora, Venusque</l>
             <l n="3.29.16">Vnquam non alias tantos afflauit <seg xml:id="w3516">honores,</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w3516">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w3516">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">honores] </mentioned>s <hi rend="font-style:italic;">sscr.</hi>
                   </p>
@@ -1397,10 +1259,7 @@
             <l n="3.29.18">Plurima cui Veneris nuper iam gratia cessit.</l>
             <l n="3.29.19">Hinc stat certamen uarium nec lene dearum,</l>
             <l n="3.29.20">Quas Ida iratas <orig>Phrigio</orig> sub iudice uidit:</l>
-            <l n="3.29.21">Contendunt<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w3590">
+            <l n="3.29.21">Contendunt<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3590">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Contendunt --- 27 olim] </mentioned>
                      <hi rend="font-style:italic;">sc. rem mercatura nauali quaesiuit</hi>
@@ -1409,7 +1268,8 @@
             <l n="3.29.22">Intulit huc Iuno conchis, quas decolor Indus</l>
             <l n="3.29.23">Legit opes, secum diuersas permeat oras</l>
             <l n="3.29.24">Dum simul, occiduis dum partibus aduehit una</l>
-            <l n="3.29.25"><orig>Aeoas</orig> merces, nec non longe orta Britannis</l>
+            <l n="3.29.25">
+          <orig>Aeoas</orig> merces, nec non longe orta Britannis</l>
             <l n="3.29.26">Dum spectanda sinit, simul ac ditescit ab arte,</l>
             <l n="3.29.27">Quam Maia genitus mortales edocet <seg xml:id="w3590">olim.</seg>
             </l>
@@ -1426,18 +1286,15 @@
             <l n="3.29.36">Qua manat triplex amplexu gratia caro,</l>
             <l n="3.29.37">Erigit et mentem uati uelut excitat oestro.</l>
             <l n="3.29.38">Hinc me corripuit sacro modo diua furore,</l>
-            <l n="3.29.39">Concipio uates <supplied>quanta</supplied> sit laude ferendus.</l>
+            <l n="3.29.39">Concipio uates <supplied scope="verbum">quanta</supplied> sit laude ferendus.</l>
             <l n="3.29.40">Nil generis <orig>pręlustre</orig> decus nomenque
-               m<supplied>o</supplied>rab<supplied>o</supplied>r,</l>
+               m<supplied scope="medium">o</supplied>rab<supplied scope="medium">o</supplied>r,</l>
             <l n="3.29.41">Quamque etiam semper fuerit gens ampla Bonorum,</l>
             <l n="3.29.42">Iam pridem quorum uirtus fortunaque certant.</l>
             <l n="3.29.43">Mens alio properat fugiens dispendia rerum,</l>
             <l n="3.29.44">Complectorque domus mores, quibus Helius olim</l>
             <l n="3.29.45">A teneris sobolem ingenuam pater educat annis,</l>
-            <l n="3.29.46">Grande<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w3779">
+            <l n="3.29.46">Grande<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3779">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Grande --- 57 mortis] </mentioned>
                      <hi rend="font-style:italic;">Benessa patrem amisit eodem anno quo natus est
@@ -1447,14 +1304,14 @@
             <l n="3.29.47">Helius, et <orig>patrię</orig> columen nutantis amicum,</l>
             <l n="3.29.48">Cuius non merita unquam nos meminisse pigebit.</l>
             <l n="3.29.49">Excipit eiectos rapti post fata parentis,</l>
-            <l n="3.29.50">Ille mihi patuit portus solusque <supplied>recept</supplied>us,</l>
+            <l n="3.29.50">Ille mihi patuit portus solusque <supplied scope="incipit">recept</supplied>us,</l>
             <l n="3.29.51">Quem fera mox genitum fortuna orbauerat olim,</l>
             <l n="3.29.52">Subuectisque fuit sedes concessa quieti.</l>
             <l n="3.29.53">Parte stetit nobis tunc luctus, naufraga qualis</l>
-            <l n="3.29.54">Ex<supplied>cipitur</supplied>
-               <supplied>scop</supplied>ulis <supplied>optato aut</supplied> littore puppis.</l>
+            <l n="3.29.54">Ex<supplied scope="finis">cipitur</supplied>
+               <supplied scope="incipit">scop</supplied>ulis <supplied scope="verbum">optato</supplied> <supplied scope="verbum">aut</supplied> littore puppis.</l>
             <l n="3.29.55">Suscepti hic demum <orig>primęuis</orig> 
-               <supplied>creuimus</supplied> annis,</l>
+               <supplied scope="verbum">creuimus</supplied> annis,</l>
             <l n="3.29.56">At uetera, hei misero, semper lamenta nouanti</l>
             <l n="3.29.57">Nunquam oblita cadet <orig>patrię</orig> querimonia <seg xml:id="w3779">mortis,</seg>
             </l>
@@ -1473,44 +1330,37 @@
             <l n="3.29.68">Et pecori faciunt, faciunt cultoribus umbras,</l>
             <l n="3.29.69">Et nunquam deserta manent loca sola per aestus,</l>
             <l n="3.29.70">Ventorumque minas <orig>
-                  <supplied>latur</supplied>ę</orig>
-               <supplied>robor</supplied>e firmo</l>
+                  <supplied scope="incipit">latur</supplied>ę</orig>
+               <supplied scope="incipit">robor</supplied>e firmo</l>
             <l n="3.29.71">
                <orig>Hęrent</orig>, nec <orig>terrę</orig> metuunt <orig>cęliue</orig> ruinam,</l>
             <l n="3.29.72">Sic uirtus experta uirum, quodcunque ferebat</l>
-            <l n="3.29.73">Tempus, et impulsu <orig>f<supplied>ortunę</supplied>
-               </orig> haud <supplied>mota</supplied> ruebat.</l>
-            <l n="3.29.74">Sed<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w3901">
+            <l n="3.29.73">Tempus, et impulsu <orig>f<supplied scope="finis">ortunę</supplied>
+               </orig> haud <supplied scope="verbum">mota</supplied> ruebat.</l>
+            <l n="3.29.74">Sed<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3901">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Sed --- 76 recinctus] </mentioned>
                      <hi rend="font-style:italic;">Iacobi frater Petrus habitum ordinis sancti
                         Francisci assumpsit </hi>
                   </p>
                </note>
-               <supplied>prior</supplied> insanos <orig>furibundę</orig> intercipit ictus,</l>
-            <l n="3.29.75">Et <supplied>medium</supplied>
-               <supplied>Petrus</supplied>
-               <supplied>lude</supplied>nti ostenderat unguem,</l>
+               <supplied scope="verbum">prior</supplied> insanos <orig>furibundę</orig> intercipit ictus,</l>
+            <l n="3.29.75">Et <supplied scope="verbum">medium</supplied>
+               <supplied scope="verbum">Petrus</supplied>
+               <supplied scope="incipit">lude</supplied>nti ostenderat unguem,</l>
             <l n="3.29.76">Pauperie lecta, Francisci ueste <seg xml:id="w3901">
-                  <supplied>recinc</supplied>tus.</seg>
+                  <supplied scope="incipit">recinc</supplied>tus.</seg>
             </l>
-            <l n="3.29.77">O<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w3974">
+            <l n="3.29.77">O<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3974">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">O --- 87 superstes] </mentioned>
                      <hi rend="font-style:italic;">sc. de sancto Francisco loquitur</hi>
                   </p>
                </note> 
-               <orig>fęlix</orig> animi, o <seg xml:id="w3906"><orig>Cressi</orig></seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w3906">
+               <orig>fęlix</orig> animi, o <seg xml:id="w3906">
+            <orig>Cressi</orig>
+          </seg>
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w3906">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Cressi] </mentioned>
                      <hi rend="font-style:italic;">ita</hi>
@@ -1523,35 +1373,24 @@
             <l n="3.29.82">Quotidie ambrosia diuino et nectare pastis.</l>
             <l n="3.29.83">Hinc claustri petiit semotos ille recessus</l>
             <l n="3.29.84">Addictus libris, dum mentis pabula carpit,</l>
-            <l n="3.29.85"><orig>Foelix</orig> propositi, studiumque ad fata secutus</l>
+            <l n="3.29.85">
+          <orig>Foelix</orig> propositi, studiumque ad fata secutus</l>
             <l n="3.29.86">Vltima, demum eadem moriens in <seg xml:id="w3965">uota</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w3965">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w3965">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">uota] </mentioned>fata <hi rend="font-style:italic;">Aghich</hi>
                   </p>
                </note> quieuit,</l>
             <l n="3.29.87">Et sic iam fratrum, quos condidit ante, <seg xml:id="w3974">superstes.</seg>
             </l>
-            <l n="3.29.88">Susceptis<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w4039">
+            <l n="3.29.88">Susceptis<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w4039">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Susceptis --- 97 carpit] </mentioned>
                      <hi rend="font-style:italic;">sc. Iohannes et Simon Boni, fratres Iacobi
                         poetae</hi>
                   </p>
-               </note> liberis natu nam maxim<supplied>us</supplied>
-               <supplied>horum<note resp="viaf311814881" ana="editorial"
-                        place="end"
-                        type="n2"
-                        rend="visible"
-                        n="9"
-                        target="#fn9"
-                        targetEnd="#fn9">
+               </note> liberis natu nam maxim<supplied scope="finis">us</supplied>
+               <supplied scope="verbum">horum<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="9" target="#fn9" targetEnd="#fn9">
                      <p rendition="#rd-Text">
                         <mentioned>Liberis</mentioned> haud equidem anapaestus est, sed
                         pes Creticus: nempe prima et ultima syllaba longae sunt, media breuis.</p>
@@ -1568,25 +1407,19 @@
             <l n="3.29.94">Ad summos reges, habitus non futilis autor,</l>
             <l n="3.29.95">Ambiguo quoties sententia dicta senatu est.</l>
             <l n="3.29.96">Nec tamen ille domum uiduatam prole reliquit</l>
-            <l n="3.29.97">Occumbens, <supplied>modo</supplied> 
+            <l n="3.29.97">Occumbens, <supplied scope="verbum">modo</supplied> 
                <orig>quę</orig> 
                <orig>lętissima</orig> tempora <seg xml:id="w4039">carpit.</seg>
             </l>
             <l n="3.29.98">Ast hic, Musarum meliori cultor in aeuo,</l>
             <l n="3.29.99">Et pectus simul atque animos ad carmina dignos</l>
             <l n="3.29.100">Attulit, unde <seg xml:id="w4057">suos</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w4057">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w4057">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">suos] </mentioned>
                      <hi rend="font-style:italic;">sscr. pro </hi>suum</p>
                </note> certator prouocat <seg xml:id="w4060">annos,</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w4060">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w4060">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">annos] </mentioned>
                      <hi rend="font-style:italic;">sscr. pro</hi> aeuum</p>
@@ -1594,21 +1427,15 @@
             </l>
             <l n="3.29.101">Qualis olor placido lugens sua fata <orig>Meandro</orig>,</l>
             <l n="3.29.102">Dum cantus iterat, resonant loca, pulsus et amnis,</l>
-            <l n="3.29.103">Et simul <supplied>au</supplied>ditur circum querimonia late.</l>
+            <l n="3.29.103">Et simul <supplied scope="incipit">au</supplied>ditur circum querimonia late.</l>
             <l n="3.29.104">Nec terit ille uias uulgares, tollit in auras</l>
-            <l n="3.29.105">Aspirans animo uis<note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w4095">
+            <l n="3.29.105">Aspirans animo uis<note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w4095">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">uis --- uatem] </mentioned>
                      <hi rend="font-style:italic;">mut. e </hi>uis enthea protinus</p>
                </note> protinus enthea <seg xml:id="w4095">uatem.</seg>
             </l>
-            <l n="3.29.106">Tunc<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w4108">
+            <l n="3.29.106">Tunc<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w4108">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Tunc --- 107 Orco] </mentioned>
                      <hi rend="font-style:italic;">sc. carmen epicum De raptu Cerberi, circa a.
@@ -1618,13 +1445,7 @@
             <l n="3.29.107">Extulit, ut domito Alcides euaserit <seg xml:id="w4108">Orco.</seg>
             </l>
             <l n="3.29.108">Conatusque simul generosos inde secutus,</l>
-            <l n="3.29.109">Et peregrina petit gymnasia, desidis ultro<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="10"
-                     target="#fn10"
-                     targetEnd="#fn10">
+            <l n="3.29.109">Et peregrina petit gymnasia, desidis ultro<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="10" target="#fn10" targetEnd="#fn10">
                   <p rendition="#rd-Text"> Secunda syllaba uocis <mentioned>gymnasia</mentioned> breuis est teste <bibl>Lucano Pharsal. lib. 7. v. 271</bibl>, et Catullo,
                      qui bis eandem syllabam breuiauit in <bibl>carmine galliambico de Atti <abbr>v.</abbr> 60. et
                      64</bibl>.</p>
@@ -1638,7 +1459,7 @@
             <l n="3.29.113">Pendentis turpe et pulchrum discrimine nullo,</l>
             <l n="3.29.114">Inde solum natale petit patriamque requirit. </l>
             <l n="3.29.115">
-               <supplied>Enitu</supplied>it <orig>postac</orig> ubi demum cognita uirtus,</l>
+               <supplied scope="incipit">Enitu</supplied>it <orig>postac</orig> ubi demum cognita uirtus,</l>
             <milestone unit="page" n="44"/>
             <l n="3.29.116">Et res commissa est fungenti publica porro,</l>
             <l n="3.29.117">Ad reges toties dum iam legatus obiret.</l>
@@ -1649,10 +1470,7 @@
             <l n="3.29.121">Quin etiam ut melius ciuilis degeret aeuum,</l>
             <l n="3.29.122">Non sine iam thalami consorte senescere uisum.</l>
             <l n="3.29.123">Cui coniuncta thoro <seg xml:id="w4211">Marie</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w4211">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w4211">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Marie] </mentioned>
                      <hi rend="font-style:italic;">ita</hi>
@@ -1664,10 +1482,7 @@
             <l n="3.29.127">
                <orig>Hęc</orig> sibi curarum solamen, solus amorque,</l>
             <l n="3.29.128">Dum uixit, nec nota Venus fuit altera uati:</l>
-            <l n="3.29.129">Non<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w4260">
+            <l n="3.29.129">Non<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w4260">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Non --- 130 fuere] </mentioned>
                      <hi rend="font-style:italic;">unam filiam et duos filios e Maria suscepit
@@ -1687,10 +1502,7 @@
             <l n="3.29.138">Quanta fuit! Pietas tum qualis, scripta docebunt</l>
             <l n="3.29.139">Culta nimis, docto quo non et carmine maior,</l>
             <l n="3.29.140">Qui claris Christi <orig>pręlusit</orig> in Hercule gestis.</l>
-            <l n="3.29.141">Dulcisono<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w4384">
+            <l n="3.29.141">Dulcisono<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w4384">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Dulcisono --- 148 cęlo] </mentioned>
                      <hi rend="font-style:italic;">sc. carmen epicum De uita et gestis Christi, anno
@@ -1713,10 +1525,7 @@
             <l n="3.29.151">Artibus, unde Lares non multis ampliat annis,</l>
             <l n="3.29.152">Dum terras peragrat circum, dumque ambit, et ultro</l>
             <l n="3.29.153">Externas merces semotis aduehit oris.</l>
-            <l n="3.29.154">Qua<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w4706">
+            <l n="3.29.154">Qua<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w4706">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Qua --- 198 tuetur] </mentioned>
                      <hi rend="font-style:italic;">pernotum est iter hoc Benessae, quia loca hic
@@ -1725,13 +1534,7 @@
                </note> subit, explorat, septemfluus aequora Nilus,</l>
             <l n="3.29.155">Memphin adit, gentis uario sub tegmine texta</l>
             <l n="3.29.156">Mercator coemit, coemit pulcrosque tapetas,</l>
-            <l n="3.29.157">Atque legit gemmas.<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="11"
-                     target="#fn11"
-                     targetEnd="#fn11">
+            <l n="3.29.157">Atque legit gemmas.<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="11" target="#fn11" targetEnd="#fn11">
                   <p rendition="#rd-Text"> Sine amplificatione haec scripsisse Benessam puto, ductus
                      auctoritate Benuenuti Cellini (<q>Trattato intorno
                         alle otto principali arti dell' oreficeria,</q> in Firenze 1568). Ibi enim
@@ -1761,11 +1564,9 @@
                <orig>Romęque</orig> simul uersatur, obitque</l>
             <l n="3.29.161">Passim nobilium diuersa <orig>palacia</orig> regum. </l>
             <l n="3.29.162">Hinc mox digressum subit <orig>illicet</orig> altera cura,</l>
-            <l n="3.29.163">Et petit <seg xml:id="w4477"><orig>occassum</orig>,</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w4477">
+            <l n="3.29.163">Et petit <seg xml:id="w4477">
+            <orig>occassum</orig>,</seg>
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w4477">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">occassum] </mentioned>
                      <hi rend="font-style:italic;">ita</hi>
@@ -1778,10 +1579,7 @@
             <l n="3.29.168">Indole natiua regio ditissima prorsus.</l>
             <l n="3.29.169">Hinc sua <orig>cunctę</orig> hominum gentes <orig>commertia</orig> poscunt:</l>
             <milestone unit="page" n="45"/>
-            <l n="3.29.170">Huc<note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w4525">
+            <l n="3.29.170">Huc<note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w4525">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Huc --- Eoas] </mentioned>
                      <hi rend="font-style:italic;">in marg. alia manu (M</hi>
@@ -1798,10 +1596,7 @@
             <l n="3.29.176">Mox secat Oceano tribuunt qua nomina <orig>Celtę</orig>,</l>
             <l n="3.29.177">Pirenem superat, Tartesia littora radit.</l>
             <l n="3.29.178">Flectit iter, qua iam Calpem disiunxit <seg xml:id="w4576">Abila</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w4576">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w4576">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Abila] </mentioned>ab Hila <hi rend="font-style:italic;">Aghich</hi>
                   </p>
@@ -1811,7 +1606,7 @@
             <l n="3.29.180">Intranti, et cano fluctu iuga nigra prementi.</l>
             <l n="3.29.181">Hic demum <orig>geminę</orig> cernit confinia <orig>terrę</orig>,</l>
             <l n="3.29.182">Europam et Libiam, medius licet euolet alto.</l>
-            <l n="3.29.183">Eu<supplied>e</supplied>ctus pelago spumantes <orig>illicet</orig> undas</l>
+            <l n="3.29.183">Eu<supplied scope="medium">e</supplied>ctus pelago spumantes <orig>illicet</orig> undas</l>
             <l n="3.29.184">Et secat, et rapta pontum tellure polumque</l>
             <l n="3.29.185">Cernit: tum meliusque notat discrimine partes</l>
             <l n="3.29.186">Orbis, ea facie sibi uisus crescere maior.</l>
@@ -1829,10 +1624,7 @@
             <l n="3.29.196">Iamque arat Adriacum scindens temone profundum,</l>
             <milestone unit="page" n="45v"/>
             <l n="3.29.197">Sub <seg xml:id="w4693">Cromam</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w4693">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w4693">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Cromam] </mentioned>
                      <hi rend="font-style:italic;">sc. Lacromam, hodie Lokrum (insula)</hi>
@@ -1858,7 +1650,7 @@
             <l n="3.29.214">Seu male cum mutis positos animalibus una</l>
             <l n="3.29.215">In terra labi communi more repente,</l>
             <l n="3.29.216">Aut animam potius recte non ossibus addi</l>
-            <l n="3.29.217">Aptam luce f<supplied>r</supplied>ui diuina et carpere flatus</l>
+            <l n="3.29.217">Aptam luce f<supplied scope="medium">r</supplied>ui diuina et carpere flatus</l>
             <l n="3.29.218">Aetherios, secreta sequi <orig>commertia</orig> diuum,</l>
             <l n="3.29.219">Siue dari nimium nobis, heu, debile corpus,</l>
             <l n="3.29.220">At magnas contra uires, quibus extera <orig>lędunt</orig>
@@ -1880,11 +1672,9 @@
             <l n="3.29.234">Debuit <orig>ignauę</orig> nisi protinus ocia <orig>uitę</orig>
             </l>
             <l n="3.29.235">Pellere et in mediis semper uigilare periclis,</l>
-            <l n="3.29.236">Virtutesque peti, quot nos infesta <seg xml:id="w4963"><sic>lacescunt</sic>,</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w4963">
+            <l n="3.29.236">Virtutesque peti, quot nos infesta <seg xml:id="w4963">
+            <sic>lacescunt</sic>,</seg>
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w4963">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">lacescunt] </mentioned>
                      <hi rend="font-style:italic;">ita</hi>
@@ -1909,10 +1699,7 @@
             <l n="3.29.251">Ergo et tu tanto modo, desine, digna marito,</l>
             <l n="3.29.252">Vxor, siste graues gemitus turpemque querelam.</l>
             <l n="3.29.253">Scilicet ut doleas, quod parto fine <seg xml:id="w5083">potitur</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5083">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5083">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">potitur] </mentioned>
                      <hi rend="font-style:italic;">pro exp.</hi> tuetur </p>
@@ -1920,8 +1707,10 @@
             </l>
             <l n="3.29.254">Ille, uices tandem fatorum egressus iniquas?</l>
             <l n="3.29.255">Quod bene sic actum secum, modo gaudia nobis</l>
-            <l n="3.29.256"><orig>Auspitiis</orig> potius iam debent gliscere <orig>lętis</orig>,</l>
-            <l n="3.29.257"><orig>Ocyus</orig> hinc etiam traduci optantibus illo.</l>
+            <l n="3.29.256">
+          <orig>Auspitiis</orig> potius iam debent gliscere <orig>lętis</orig>,</l>
+            <l n="3.29.257">
+          <orig>Ocyus</orig> hinc etiam traduci optantibus illo.</l>
             <l n="3.29.258">Ergo fides hodie neu corda incredula prorsus</l>
             <l n="3.29.259">Arguat, affectu uel quo nos degere turpi.</l>
             <l n="3.29.260">Eia parentari qua fasque piumque fideli,</l>
@@ -1933,10 +1722,7 @@
          <div type="poesis-epigramma" n="3.30">
             <head>
                <supplied ana="editorial">(30)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5155">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5155">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Epitaphium --- Benessę<hi rend="vertical-align:super;font-size:smaller;">‌2</hi>] </mentioned>
                      <hi rend="font-style:italic;">circa a. 1535, et procul dubio ante annos
@@ -1971,10 +1757,7 @@
             <l n="3.31.6"> 
                <orig>Quę</orig> manat gremio gloria, Christe, tuo?</l>
             <l n="3.31.7">Interea compone animum, moresque refinge,</l>
-            <l n="3.31.8"> Neu nostri<note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5282">
+            <l n="3.31.8"> Neu nostri<note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5282">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">nostri quicquam] </mentioned>
                      <hi rend="font-style:italic;">mut. e </hi>quicquam nostri</p>
@@ -1984,10 +1767,7 @@
          <div type="poesis-epigramma" n="3.32">
             <head>
                <supplied ana="editorial">(32)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5294">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5294">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">De --- Francorum] </mentioned>
                      <hi rend="font-style:italic;">pax inter principes Christianos mense Iunio a.
@@ -1997,13 +1777,7 @@
                <seg xml:id="w5294">Francorum</seg>
             </head>
             <l n="3.32.1"> Alma meos inter certo pax <orig>fędere</orig> reges</l>
-            <l n="3.32.2"> Constitit, et fratres gratia inita facit.<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="12"
-                     target="#fn12"
-                     targetEnd="#fn12">
+            <l n="3.32.2"> Constitit, et fratres gratia inita facit.<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="12" target="#fn12" targetEnd="#fn12">
                   <p rendition="#rd-Text"> Vox <mentioned>inita</mentioned> pedem
                      tribrachum conficit, ideoque peccat hic uersus: saepius in suis operibus auctor
                      secundam syllabam illius uocis male produxit.</p>
@@ -2013,10 +1787,7 @@
             <l n="3.32.3">Iurgia cuncta abeunt sibi mox omnisque simultas,</l>
             <l n="3.32.4">
                <seg xml:id="w5323">Deque</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5323">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5323">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Deque] </mentioned>
                      <hi rend="font-style:italic;">pro</hi>
@@ -2026,10 +1797,7 @@
             <l n="3.32.6"> Sic nullo nituit tempore simplicitas.</l>
             <l n="3.32.7">O, rara macti uirtute bonisque repente</l>
             <l n="3.32.8"> Omnibus, <seg xml:id="w5353">o,</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5353">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5353">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">o] </mentioned>
                      <hi rend="font-style:italic;">pro exp.</hi> hanc</p>
@@ -2037,10 +1805,7 @@
                <orig>quę</orig> uos, cernite, parta manent!</l>
             <l n="3.32.9">
                <seg xml:id="w5359">En</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5359">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5359">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">En] </mentioned>
                      <hi rend="font-style:italic;">pro exp.</hi> hic</p>
@@ -2052,10 +1817,7 @@
          <div type="poesis-epigramma" n="3.33" met="phalaecium">
             <head>
                <supplied ana="editorial">(33)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5394">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5394">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Ad --- pappam] </mentioned>
                      <hi rend="font-style:italic;">Alexander Farnesius (1468-1549) a. 1534. papa
@@ -2079,10 +1841,7 @@
             <l n="3.33.11">
                <orig>Quę</orig> sic te facilem Deoque carum</l>
             <l n="3.33.12">Nostro reddidit utilemque seclo.</l>
-            <l n="3.33.13">O,<note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5469">
+            <l n="3.33.13">O,<note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5469">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">O --- <hi rend="font-weight:bold;">14</hi>
                         optem] </mentioned>
@@ -2095,7 +1854,7 @@
             </l>
             <l n="3.33.15">O, dignus superis repente reddi,</l>
             <l n="3.33.16">Nobiscum quoque dignus et manere,</l>
-            <l n="3.33.17">Aedem qui rep<supplied>a</supplied>res Dei labantem,</l>
+            <l n="3.33.17">Aedem qui rep<supplied scope="medium">a</supplied>res Dei labantem,</l>
             <l n="3.33.18">Solus tum excidio fero resistas!</l>
             <l n="3.33.19">
                <orig>Pręsens</orig> 
@@ -2106,10 +1865,7 @@
          <div type="poesis-epigramma" n="3.34">
             <head>
                <supplied ana="editorial">(34)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5505">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5505">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">De --- naualis] </mentioned>
                      <hi rend="font-style:italic;">sc. ante pugnam naualem apud urbem Preuezam sinu
@@ -2123,18 +1879,12 @@
             </l>
             <l n="3.34.2"> Hostilis classis littore in Actiaco,</l>
             <l n="3.34.3">Docta acies <seg xml:id="w5523">urgere</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5523">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5523">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">urgere] </mentioned>
                      <hi rend="font-style:italic;">pro exp.</hi> agitare</p>
                </note> feras subsistit <seg xml:id="w5526">Enio,</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5526">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5526">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Enio] </mentioned>
                      <hi rend="font-style:italic;">sc. dea Bellona</hi>
@@ -2154,10 +1904,7 @@
             <l n="3.35.1"> Cum mecum reputo meritum graue, plectimur unde,</l>
             <l n="3.35.2"> Non <orig>pęnis</orig> uideo uerberibusue modum,</l>
             <l n="3.35.3">Quando <seg xml:id="w5590">fidem</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5590">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5590">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">fidem] </mentioned>
                      <hi rend="font-style:italic;">sc. reputo</hi>
@@ -2186,10 +1933,7 @@
             <l n="3.36.7">Non post <orig>militię</orig> 
                <orig>pręlustria</orig> facta domique</l>
             <l n="3.36.8"> Olim <seg xml:id="w5712">Scipiades</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5712">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5712">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Scipiades] </mentioned>
                      <hi rend="font-style:italic;">sc. Publius Cornelius Scipio Africanus maior, qui
@@ -2203,10 +1947,7 @@
             <head>
                <supplied ana="editorial">(37)</supplied>
                <seg xml:id="w5735">Epigramma</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5735">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5735">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Epigramma] </mentioned>
                      <hi rend="font-style:italic;">sc. post cladem naualem apud Preuezam, de papalis
@@ -2216,13 +1957,7 @@
             </head>
             <l n="3.37.1"> Cum fugeret, uoluit conuiua recumbere <orig>lętus</orig>
             </l>
-            <l n="3.37.2"> Et plenos lebethes disposuisse thoris.<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="13"
-                     target="#fn13"
-                     targetEnd="#fn13">
+            <l n="3.37.2"> Et plenos lebethes disposuisse thoris.<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="13" target="#fn13" targetEnd="#fn13">
                   <p rendition="#rd-Text">
                      <mentioned>Lebetes</mentioned> haud equidem est pes Anapaestus, sed
                      Bacchius.</p>
@@ -2230,10 +1965,7 @@
                <anchor type="N2" xml:id="fn13"/>
             </l>
             <l n="3.37.3">Non sapit id <seg xml:id="w5755">Liguri,</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5755">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5755">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Liguri] </mentioned>
                      <hi rend="font-style:italic;">sc. Andreae Doriae, ciui Genuensi, qui classi
@@ -2251,10 +1983,7 @@
             <head>
                <supplied ana="editorial">(38)</supplied>
                <seg xml:id="w5803">Epigramma</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5803">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5803">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Epigramma] </mentioned>
                      <hi rend="font-style:italic;">sc. de eadem pugna nauali hic agitur prout in
@@ -2268,10 +1997,7 @@
             <l n="3.38.4">
                <seg xml:id="w5831">
                   <orig>Andręas</orig>,</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5831">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5831">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Andręas] </mentioned>
                      <hi rend="font-style:italic;">sc. Doria</hi>
@@ -2280,10 +2006,7 @@
             <milestone unit="page" n="48v"/>
             <l n="3.38.5">Nostrorum quod non decepti fraude perimus,</l>
             <l n="3.38.6"> Ascribi nobis debeat usque <seg xml:id="w5851">lucro.</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5851">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5851">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">lucro] </mentioned>
                      <hi rend="font-style:italic;">pro exp.</hi> rogo</p>
@@ -2297,10 +2020,7 @@
          <div type="poesis-ode" n="3.39" met="sapphica">
             <head>
                <supplied ana="editorial">(39)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5895">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5895">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Tu --- deficiunt] </mentioned>
                      <hi rend="font-style:italic;">cf. Ps 101, 28; Hebr 1, 12; stropha Sapphica</hi>
@@ -2311,18 +2031,12 @@
             <l n="3.39.1"> Quid recens tecum meditare, Musa,</l>
             <l n="3.39.2">Quod diu restet strepitu sonoro,</l>
             <l n="3.39.3">Vltima <seg xml:id="w5907">accentus</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5907">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5907">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">accentus] </mentioned>attentas <hi rend="font-style:italic;">Aghich</hi>
                   </p>
                </note> teneant <seg xml:id="w5909">ut</seg>
-               <note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w5909">
+               <note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w5909">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">ut] </mentioned>
                      <hi rend="font-style:italic;">pro exp.</hi> et</p>
@@ -2332,10 +2046,7 @@
             <l n="3.39.6">Dum <orig>lyrę</orig> mecum memini loquacis,</l>
             <l n="3.39.7">Quale cit carmen geminatque <orig>sępe</orig>
             </l>
-            <l n="3.39.8"> Vatis<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w5950">
+            <l n="3.39.8"> Vatis<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w5950">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Vatis Hebręi] </mentioned>
                      <hi rend="font-style:italic;">sc. Dauidis</hi>
@@ -2344,7 +2055,7 @@
                <seg xml:id="w5950">
                   <orig>Hebręi</orig>?</seg>
             </l>
-            <l n="3.39.9">Tu potens rerum, Deus, atque fa<supplied>c</supplied>tor,</l>
+            <l n="3.39.9">Tu potens rerum, Deus, atque fa<supplied scope="medium">c</supplied>tor,</l>
             <l n="3.39.10">Seu capit quid mens oculique cernunt,</l>
             <l n="3.39.11">Nilque mutatus remanes subinde</l>
             <l n="3.39.12"> Ipsemet idem,</l>
@@ -2357,10 +2068,7 @@
          <div type="poesis-epigramma" n="3.40" met="iambicum">
             <head>
                <supplied ana="editorial">(40)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w6010">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w6010">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Psalmus --- uersus] </mentioned>
                      <hi rend="font-style:italic;">cf. Ps 1; metr. iamb.</hi>
@@ -2373,10 +2081,7 @@
             <l n="3.40.3">Nec prostat exemplo malo <orig>fędissimus</orig>,</l>
             <milestone unit="page" n="49"/>
             <l n="3.40.4">Sed uir bonus legem Dei <seg xml:id="w6036">quam</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w6036">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w6036">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">quam] </mentioned>
                      <hi rend="font-style:italic;">sc. ualde</hi>
@@ -2388,13 +2093,7 @@
             <l n="3.40.8">Fructum suo quo sic ferat sub tempore,</l>
             <l n="3.40.9">Intonsa nec nudat caput uiridi coma,</l>
             <l n="3.40.10">Cui prospere cedunt et ex uoto omnia.</l>
-            <l n="3.40.11">Non impiorum sic manus perseuerat,<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="14"
-                     target="#fn14"
-                     targetEnd="#fn14">
+            <l n="3.40.11">Non impiorum sic manus perseuerat,<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="14" target="#fn14" targetEnd="#fn14">
                   <p rendition="#rd-Text"> Turpissime errauit auctor corripiens penultimam syllabam
                      uerbi <mentioned>perseuerat</mentioned>.</p>
                </note>
@@ -2404,10 +2103,7 @@
             <l n="3.40.13">Si perflat Eurus, uel magis <orig>sęuit</orig> Aquilo,</l>
             <l n="3.40.14">
                <seg xml:id="w6096">Cur</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w6096">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w6096">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Cur] </mentioned>
                      <hi rend="font-style:italic;">sc. quam ob rem</hi>
@@ -2421,10 +2117,7 @@
             <head>
                <supplied ana="editorial">(41)</supplied>
                <seg xml:id="w6120">Epigramma</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w6120">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w6120">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Epigramma] </mentioned>
                      <hi rend="font-style:italic;">contextus huius carminis arcis Ragusanae Reuelin
@@ -2442,10 +2135,7 @@
             <l n="3.41.6"> Pergama fatali diruta prorsus equo?</l>
             <l n="3.41.7">Non Danai longum potuitque excindere tempus,</l>
             <l n="3.41.8"> Summa <seg xml:id="w6179">hic</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w6179">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w6179">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">hic] </mentioned>
                      <hi rend="font-style:italic;">sc. equus</hi>
@@ -2463,10 +2153,7 @@
             <head>
                <supplied ana="editorial">(42)</supplied>
                <seg xml:id="w6234">Epigramma</seg>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w6234">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w6234">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Epigramma] </mentioned>
                      <hi rend="font-style:italic;">poetae praeparatio poetica ad mortem
@@ -2483,13 +2170,7 @@
             <l n="3.42.6"> Et natura suo tramite mota labat.</l>
             <l n="3.42.7">Qui Manes igitur non credit et infera regna,</l>
             <l n="3.42.8"> 
-               <orig>Isthęc</orig> inspiciat, credulus inde fiet.<note resp="viaf311814881" ana="editorial"
-                     place="end"
-                     type="n2"
-                     rend="visible"
-                     n="15"
-                     target="#fn15"
-                     targetEnd="#fn15">
+               <orig>Isthęc</orig> inspiciat, credulus inde fiet.<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="15" target="#fn15" targetEnd="#fn15">
                   <p rendition="#rd-Text"> Vide notata sub haec eadem littera ad <abbr>pag.</abbr> 322. </p>
                </note>
                <anchor type="N2" xml:id="fn15"/>
@@ -2498,10 +2179,7 @@
          <div type="poesis-epigramma" n="3.43">
             <head>
                <supplied ana="editorial">(43)</supplied>
-               <note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w6302">
+               <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w6302">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">De --- epigramma] </mentioned>
                      <hi rend="font-style:italic;">alia manu adscriptum in calce epigrammatum libri
@@ -2511,10 +2189,7 @@
                </note>
                <seg xml:id="w6302">epigramma</seg>
             </head>
-            <l n="3.43.1"> Postquam<note place="foot" ana="editorial"
-                     type="a1"
-                     rend="visible bracket"
-                     targetEnd="#w6367">
+            <l n="3.43.1"> Postquam<note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w6367">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Postquam --- <hi rend="font-weight:bold;">8</hi> fera] </mentioned>
                      <hi rend="font-style:italic;">alia manu (M</hi>
@@ -2523,12 +2198,10 @@
                   </p>
                </note> de nigro Thrax gressum retulit Orco,</l>
             <l n="3.43.2"> <orig>Euridicen</orig> questa est usque canora chelis.</l>
-            <l n="3.43.3">Sed manus, heu, Ciconum graue tunc scelus ausa <orig>nephasque</orig></l>
+            <l n="3.43.3">Sed manus, heu, Ciconum graue tunc scelus ausa <orig>nephasque</orig>
+        </l>
             <l n="3.43.4"> Abscisum ferri mox caput amne dedit.</l>
-            <l n="3.43.5">At<note place="foot" ana="editorial"
-                     type="n1"
-                     rend="visible bracket"
-                     targetEnd="#w6367">
+            <l n="3.43.5">At<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w6367">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">At --- 8 fera] </mentioned>
                      <hi rend="font-style:italic;">cf. Petrar. Trion. d’Amore IV, 13-15</hi>
@@ -2541,10 +2214,7 @@
          </div>
       </body>
       <back>
-         <closer>Epigrammatum<note place="foot" ana="editorial"
-                  type="a1"
-                  rend="visible bracket"
-                  targetEnd="#w6370">
+         <closer>Epigrammatum<note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w6370">
                <p rendition="#rd-Text" rend="text-align:left;">
                   <mentioned rend="visible bracket">Epigrammatum finis] </mentioned>
                   <hi rend="font-style:italic;">alia manu (M</hi>

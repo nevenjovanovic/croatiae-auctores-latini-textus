@@ -20,7 +20,7 @@
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
                <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+                  <ref type="viaf" target="6913774" xml:id="NJ">Neven Jovanović</ref>
                </persName>
             </respStmt>
          </titleStmt>
@@ -74,6 +74,17 @@
             </keywords>
          </textClass>
       </profileDesc>
+      <encodingDesc>
+         <tagsDecl resp="#NJ">
+            <namespace name="#benesa-d_epigr03_croala5095251.croala-lat1">
+               <tagUsage gi="supplied">With attribute @scope=verbum: a whole word is supplied.
+               With attribute @scope=incipit: beginning of the word is supplied.
+               With attribute @scope=medium: letters in the middle of the are supplied.
+               With attribute @scoep=finis: end of the word is supplied.
+               This description is important for word tokenization.</tagUsage>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
    </teiHeader>
    <text>
       <front>
@@ -242,11 +253,11 @@
             <l n="3.4.11">Si modo <orig>cęlestes</orig> infesti sontibus obstent,</l>
             <l n="3.4.12"> 
                <orig>Hęserit</orig>, heu, uinctus pes tibi reste leui!</l>
-            <l n="3.4.13">Quare adhibe mentem monitis c<supplied>ęle</supplied>stibus,
-                  <supplied>atque</supplied>
+            <l n="3.4.13">Quare adhibe mentem monitis c<supplied scope="medium">ęle</supplied>stibus,
+                  <supplied scope="verbum">atque</supplied>
             </l>
-            <l n="3.4.14"> Auge una imperium pr<supplied>omoueasque</supplied>
-               <supplied>fi</supplied>dem. </l>
+            <l n="3.4.14"> Auge una imperium pr<supplied scope="finis">omoueasque</supplied>
+               <supplied scope="incipit">fi</supplied>dem. </l>
          </div>
          <div type="poesis-epigramma" n="3.5">
             <head>
@@ -329,11 +340,11 @@
             <l n="3.8.2"> Infera latratu persono regna graui.</l>
             <l n="3.8.3">Iniecta uates sic me transformat in offa,</l>
             <l n="3.8.4"> Cui ueteres explent carmina ficta uices,</l>
-            <l n="3.8.5">P<supplied>asquino</supplied>que nouum nomen uenit inde, quod ultro</l>
-            <l n="3.8.6"> Ex<supplied>hibet</supplied>
-               <supplied>officium</supplied>
+            <l n="3.8.5">P<supplied scope="medium">asquino</supplied>que nouum nomen uenit inde, quod ultro</l>
+            <l n="3.8.6"> Ex<supplied scope="finis">hibet</supplied>
+               <supplied scope="incipit">officium</supplied>
                <orig>
-            <supplied>ced</supplied>ula</orig> <orig>quęque</orig> cani.</l>
+            <supplied scope="incipit">ced</supplied>ula</orig> <orig>quęque</orig> cani.</l>
          </div>
          <div type="poesis-epigramma" n="3.9">
             <head>
@@ -389,7 +400,7 @@
             <l n="3.11.5">Hic uir consultus, mercator, <orig>lęno</orig> repente,</l>
             <l n="3.11.6"> Nil hominis prorsus, nil probitatis habet.</l>
             <l n="3.11.7">Et licet inde sophos magnum iactauerit ille,</l>
-            <l n="3.11.8"> At condit <orig>quęnam</orig> pectore monstra <supplied>rogo</supplied>.</l>
+            <l n="3.11.8"> At condit <orig>quęnam</orig> pectore monstra <supplied scope="verbum">rogo</supplied>.</l>
          </div>
          <div type="poesis-epigramma" n="3.12" met="iambicum">
             <head>
@@ -402,7 +413,7 @@
                </note>
                <seg xml:id="w1035">hominis</seg>
             </head>
-            <l n="3.12.1"> Non tot procellis tollitur uastu<supplied>m</supplied> mare,</l>
+            <l n="3.12.1"> Non tot procellis tollitur uastu<supplied scope="finis">m</supplied> mare,</l>
             <l n="3.12.2">Mox cardine ut uerso petit Orion polum</l>
             <l n="3.12.3">Tempestuosus funditus miscens salum,</l>
             <l n="3.12.4">Casus habet quot uita, quot uariat uices:</l>
@@ -466,10 +477,10 @@
                </note>
                <seg xml:id="w1209">aetatis</seg>
             </head>
-            <l n="3.14.1"> Qu<supplied>os</supplied>
-               <supplied>iam</supplied>
-               <supplied>magis</supplied>
-               <supplied>com</supplied>mendo plurisue <orig>ęstimo</orig>
+            <l n="3.14.1"> Qu<supplied scope="finis">os</supplied>
+               <supplied scope="verbum">iam</supplied>
+               <supplied scope="verbum">magis</supplied>
+               <supplied scope="incipit">com</supplied>mendo plurisue <orig>ęstimo</orig>
             </l>
             <l n="3.14.2">Vatum <orig>meę</orig> aetatis, nec exiguus, licet,</l>
             <l n="3.14.3">Horum numerus, at <orig>cęteris</orig> quos <orig>pręfero</orig>
@@ -559,14 +570,14 @@
                      <mentioned rend="visible bracket">mutua] </mentioned>matura <hi rend="font-style:italic;">Aghich</hi>
                   </p>
                </note> 
-               <orig>cęde</orig> ut <supplied>ruant</supplied>,</l>
-            <l n="3.17.5">Fratrumque sanguis petitur, ut <supplied>uaste</supplied>nt fidem. </l>
+               <orig>cęde</orig> ut <supplied scope="verbum">ruant</supplied>,</l>
+            <l n="3.17.5">Fratrumque sanguis petitur, ut <supplied scope="incipit">uaste</supplied>nt fidem. </l>
             <l n="3.17.6">Tu, quos<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1429">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">quos --- petis] </mentioned>
                      <hi rend="font-style:italic;">sc. Turcas</hi>
                   </p>
-               </note> amicos, <orig>quęso</orig>, iamdudum <seg xml:id="w1429">p<supplied>e</supplied>tis,</seg>
+               </note> amicos, <orig>quęso</orig>, iamdudum <seg xml:id="w1429">p<supplied scope="medium">e</supplied>tis,</seg>
             </l>
             <l n="3.17.7">Rem sedulo perpende, nec malus impetus</l>
             <l n="3.17.8">Turbatum agat: quidnam imminet, cernis parum.</l>
@@ -646,14 +657,14 @@
                </note>
                <seg xml:id="w1617">nostrum</seg>
             </head>
-            <l n="3.19.1"> Si c<supplied>ursus</supplied>
-               <supplied>olim</supplied>
-               <supplied>R</supplied>ubiconis ripa morata est,</l>
-            <l n="3.19.2"> Atque <supplied>acrem</supplied>
-               <supplied>
+            <l n="3.19.1"> Si c<supplied scope="finis">ursus</supplied>
+               <supplied scope="verbum">olim</supplied>
+               <supplied scope="incipit">R</supplied>ubiconis ripa morata est,</l>
+            <l n="3.19.2"> Atque <supplied scope="verbum">acrem</supplied>
+               <supplied scope="verbum">
                   <orig>patrię</orig>
                </supplied>
-               <supplied>f</supplied>regit imago <seg xml:id="w1633">ducem,</seg>
+               <supplied scope="incipit">f</supplied>regit imago <seg xml:id="w1633">ducem,</seg>
                <note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w1633">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">ducem] </mentioned>
@@ -710,10 +721,10 @@
             <l n="3.21.6"> Cui poenas sceleris diruta Troia luit,</l>
             <l n="3.21.7">Heu, nostri fuerit non hoc modo dedecus aeui,</l>
             <l n="3.21.8"> Non, <orig>quęso</orig>, opprobrium perpetuusque pudor,</l>
-            <l n="3.21.9">Quos non regna amissa, fides eiecta p<supplied>aternis</supplied>
+            <l n="3.21.9">Quos non regna amissa, fides eiecta p<supplied scope="finis">aternis</supplied>
             </l>
-            <l n="3.21.10"> Finibus, et non tot damna rece<supplied>pta</supplied>
-               <supplied>mouent</supplied>,</l>
+            <l n="3.21.10"> Finibus, et non tot damna rece<supplied scope="finis">pta</supplied>
+               <supplied scope="verbum">mouent</supplied>,</l>
             <l n="3.21.11">Sed, penetrare parum uelut atque in uiscera condi</l>
             <l n="3.21.12"> 
                <orig>Europę</orig> fuerit, <orig>fędera</orig>
@@ -779,9 +790,9 @@
                      <hi rend="font-style:italic;">mut. e</hi> coheant</p>
                </note> cognoscant denique causas,</l>
             <l n="3.21.40"> Atque queri ualeat ius sibi nemo rapi.</l>
-            <l n="3.21.41">Sit <supplied>patrum</supplied>
-               <supplied>stu</supplied>dium tantos componere motus,</l>
-            <l n="3.21.42"> Et <supplied>moli pariter </supplied>reddere <orig>menbra</orig> <orig>suę</orig>.</l>
+            <l n="3.21.41">Sit <supplied scope="incipit">patrum</supplied>
+               <supplied scope="incipit">stu</supplied>dium tantos componere motus,</l>
+            <l n="3.21.42"> Et <supplied scope="verbum">moli</supplied> <supplied scope="verbum">pariter</supplied>reddere <orig>menbra</orig> <orig>suę</orig>.</l>
             <l n="3.21.43">Vt pars in toto uitam sortitur et ipsum</l>
             <l n="3.21.44"> Nomen, quo remanet officiosa simul,</l>
             <l n="3.21.45">Sicque sibi cunctis moles digesta redactis</l>
@@ -975,7 +986,7 @@
                      <mentioned rend="visible bracket">Ombula] </mentioned>
                      <hi rend="font-style:italic;">sc. Ombla flumen</hi>
                   </p>
-               </note> tum palam suris subducta <supplied>fluentem</supplied>, </l>
+               </note> tum palam suris subducta <supplied scope="verbum">fluentem</supplied>, </l>
             <l n="3.24.24">Nemo pedem melius qua sciret ferre choreis,</l>
             <l n="3.24.25">Orbibus <orig>egressę</orig> dum longum ducitur agmen,</l>
             <l n="3.24.26">Dumque una excipiat subeuntes ordine uerso,</l>
@@ -1275,9 +1286,9 @@
             <l n="3.29.36">Qua manat triplex amplexu gratia caro,</l>
             <l n="3.29.37">Erigit et mentem uati uelut excitat oestro.</l>
             <l n="3.29.38">Hinc me corripuit sacro modo diua furore,</l>
-            <l n="3.29.39">Concipio uates <supplied>quanta</supplied> sit laude ferendus.</l>
+            <l n="3.29.39">Concipio uates <supplied scope="verbum">quanta</supplied> sit laude ferendus.</l>
             <l n="3.29.40">Nil generis <orig>pręlustre</orig> decus nomenque
-               m<supplied>o</supplied>rab<supplied>o</supplied>r,</l>
+               m<supplied scope="medium">o</supplied>rab<supplied scope="medium">o</supplied>r,</l>
             <l n="3.29.41">Quamque etiam semper fuerit gens ampla Bonorum,</l>
             <l n="3.29.42">Iam pridem quorum uirtus fortunaque certant.</l>
             <l n="3.29.43">Mens alio properat fugiens dispendia rerum,</l>
@@ -1293,14 +1304,14 @@
             <l n="3.29.47">Helius, et <orig>patrię</orig> columen nutantis amicum,</l>
             <l n="3.29.48">Cuius non merita unquam nos meminisse pigebit.</l>
             <l n="3.29.49">Excipit eiectos rapti post fata parentis,</l>
-            <l n="3.29.50">Ille mihi patuit portus solusque <supplied>recept</supplied>us,</l>
+            <l n="3.29.50">Ille mihi patuit portus solusque <supplied scope="incipit">recept</supplied>us,</l>
             <l n="3.29.51">Quem fera mox genitum fortuna orbauerat olim,</l>
             <l n="3.29.52">Subuectisque fuit sedes concessa quieti.</l>
             <l n="3.29.53">Parte stetit nobis tunc luctus, naufraga qualis</l>
-            <l n="3.29.54">Ex<supplied>cipitur</supplied>
-               <supplied>scop</supplied>ulis <supplied>optato aut</supplied> littore puppis.</l>
+            <l n="3.29.54">Ex<supplied scope="finis">cipitur</supplied>
+               <supplied scope="incipit">scop</supplied>ulis <supplied scope="verbum">optato</supplied> <supplied scope="verbum">aut</supplied> littore puppis.</l>
             <l n="3.29.55">Suscepti hic demum <orig>primęuis</orig> 
-               <supplied>creuimus</supplied> annis,</l>
+               <supplied scope="verbum">creuimus</supplied> annis,</l>
             <l n="3.29.56">At uetera, hei misero, semper lamenta nouanti</l>
             <l n="3.29.57">Nunquam oblita cadet <orig>patrię</orig> querimonia <seg xml:id="w3779">mortis,</seg>
             </l>
@@ -1319,13 +1330,13 @@
             <l n="3.29.68">Et pecori faciunt, faciunt cultoribus umbras,</l>
             <l n="3.29.69">Et nunquam deserta manent loca sola per aestus,</l>
             <l n="3.29.70">Ventorumque minas <orig>
-                  <supplied>latur</supplied>ę</orig>
-               <supplied>robor</supplied>e firmo</l>
+                  <supplied scope="incipit">latur</supplied>ę</orig>
+               <supplied scope="incipit">robor</supplied>e firmo</l>
             <l n="3.29.71">
                <orig>Hęrent</orig>, nec <orig>terrę</orig> metuunt <orig>cęliue</orig> ruinam,</l>
             <l n="3.29.72">Sic uirtus experta uirum, quodcunque ferebat</l>
-            <l n="3.29.73">Tempus, et impulsu <orig>f<supplied>ortunę</supplied>
-               </orig> haud <supplied>mota</supplied> ruebat.</l>
+            <l n="3.29.73">Tempus, et impulsu <orig>f<supplied scope="finis">ortunę</supplied>
+               </orig> haud <supplied scope="verbum">mota</supplied> ruebat.</l>
             <l n="3.29.74">Sed<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3901">
                   <p rendition="#rd-Text" rend="text-align:left;">
                      <mentioned rend="visible bracket">Sed --- 76 recinctus] </mentioned>
@@ -1333,12 +1344,12 @@
                         Francisci assumpsit </hi>
                   </p>
                </note>
-               <supplied>prior</supplied> insanos <orig>furibundę</orig> intercipit ictus,</l>
-            <l n="3.29.75">Et <supplied>medium</supplied>
-               <supplied>Petrus</supplied>
-               <supplied>lude</supplied>nti ostenderat unguem,</l>
+               <supplied scope="verbum">prior</supplied> insanos <orig>furibundę</orig> intercipit ictus,</l>
+            <l n="3.29.75">Et <supplied scope="verbum">medium</supplied>
+               <supplied scope="verbum">Petrus</supplied>
+               <supplied scope="incipit">lude</supplied>nti ostenderat unguem,</l>
             <l n="3.29.76">Pauperie lecta, Francisci ueste <seg xml:id="w3901">
-                  <supplied>recinc</supplied>tus.</seg>
+                  <supplied scope="incipit">recinc</supplied>tus.</seg>
             </l>
             <l n="3.29.77">O<note place="foot" ana="editorial" type="n1" rend="visible bracket" targetEnd="#w3974">
                   <p rendition="#rd-Text" rend="text-align:left;">
@@ -1378,8 +1389,8 @@
                      <hi rend="font-style:italic;">sc. Iohannes et Simon Boni, fratres Iacobi
                         poetae</hi>
                   </p>
-               </note> liberis natu nam maxim<supplied>us</supplied>
-               <supplied>horum<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="9" target="#fn9" targetEnd="#fn9">
+               </note> liberis natu nam maxim<supplied scope="finis">us</supplied>
+               <supplied scope="verbum">horum<note resp="viaf311814881" ana="editorial" place="end" type="n2" rend="visible" n="9" target="#fn9" targetEnd="#fn9">
                      <p rendition="#rd-Text">
                         <mentioned>Liberis</mentioned> haud equidem anapaestus est, sed
                         pes Creticus: nempe prima et ultima syllaba longae sunt, media breuis.</p>
@@ -1396,7 +1407,7 @@
             <l n="3.29.94">Ad summos reges, habitus non futilis autor,</l>
             <l n="3.29.95">Ambiguo quoties sententia dicta senatu est.</l>
             <l n="3.29.96">Nec tamen ille domum uiduatam prole reliquit</l>
-            <l n="3.29.97">Occumbens, <supplied>modo</supplied> 
+            <l n="3.29.97">Occumbens, <supplied scope="verbum">modo</supplied> 
                <orig>quę</orig> 
                <orig>lętissima</orig> tempora <seg xml:id="w4039">carpit.</seg>
             </l>
@@ -1416,7 +1427,7 @@
             </l>
             <l n="3.29.101">Qualis olor placido lugens sua fata <orig>Meandro</orig>,</l>
             <l n="3.29.102">Dum cantus iterat, resonant loca, pulsus et amnis,</l>
-            <l n="3.29.103">Et simul <supplied>au</supplied>ditur circum querimonia late.</l>
+            <l n="3.29.103">Et simul <supplied scope="incipit">au</supplied>ditur circum querimonia late.</l>
             <l n="3.29.104">Nec terit ille uias uulgares, tollit in auras</l>
             <l n="3.29.105">Aspirans animo uis<note place="foot" ana="editorial" type="a1" rend="visible bracket" targetEnd="#w4095">
                   <p rendition="#rd-Text" rend="text-align:left;">
@@ -1448,7 +1459,7 @@
             <l n="3.29.113">Pendentis turpe et pulchrum discrimine nullo,</l>
             <l n="3.29.114">Inde solum natale petit patriamque requirit. </l>
             <l n="3.29.115">
-               <supplied>Enitu</supplied>it <orig>postac</orig> ubi demum cognita uirtus,</l>
+               <supplied scope="incipit">Enitu</supplied>it <orig>postac</orig> ubi demum cognita uirtus,</l>
             <milestone unit="page" n="44"/>
             <l n="3.29.116">Et res commissa est fungenti publica porro,</l>
             <l n="3.29.117">Ad reges toties dum iam legatus obiret.</l>
@@ -1595,7 +1606,7 @@
             <l n="3.29.180">Intranti, et cano fluctu iuga nigra prementi.</l>
             <l n="3.29.181">Hic demum <orig>geminę</orig> cernit confinia <orig>terrę</orig>,</l>
             <l n="3.29.182">Europam et Libiam, medius licet euolet alto.</l>
-            <l n="3.29.183">Eu<supplied>e</supplied>ctus pelago spumantes <orig>illicet</orig> undas</l>
+            <l n="3.29.183">Eu<supplied scope="medium">e</supplied>ctus pelago spumantes <orig>illicet</orig> undas</l>
             <l n="3.29.184">Et secat, et rapta pontum tellure polumque</l>
             <l n="3.29.185">Cernit: tum meliusque notat discrimine partes</l>
             <l n="3.29.186">Orbis, ea facie sibi uisus crescere maior.</l>
@@ -1639,7 +1650,7 @@
             <l n="3.29.214">Seu male cum mutis positos animalibus una</l>
             <l n="3.29.215">In terra labi communi more repente,</l>
             <l n="3.29.216">Aut animam potius recte non ossibus addi</l>
-            <l n="3.29.217">Aptam luce f<supplied>r</supplied>ui diuina et carpere flatus</l>
+            <l n="3.29.217">Aptam luce f<supplied scope="medium">r</supplied>ui diuina et carpere flatus</l>
             <l n="3.29.218">Aetherios, secreta sequi <orig>commertia</orig> diuum,</l>
             <l n="3.29.219">Siue dari nimium nobis, heu, debile corpus,</l>
             <l n="3.29.220">At magnas contra uires, quibus extera <orig>lędunt</orig>
@@ -1843,7 +1854,7 @@
             </l>
             <l n="3.33.15">O, dignus superis repente reddi,</l>
             <l n="3.33.16">Nobiscum quoque dignus et manere,</l>
-            <l n="3.33.17">Aedem qui rep<supplied>a</supplied>res Dei labantem,</l>
+            <l n="3.33.17">Aedem qui rep<supplied scope="medium">a</supplied>res Dei labantem,</l>
             <l n="3.33.18">Solus tum excidio fero resistas!</l>
             <l n="3.33.19">
                <orig>Pręsens</orig> 
@@ -2044,7 +2055,7 @@
                <seg xml:id="w5950">
                   <orig>Hebręi</orig>?</seg>
             </l>
-            <l n="3.39.9">Tu potens rerum, Deus, atque fa<supplied>c</supplied>tor,</l>
+            <l n="3.39.9">Tu potens rerum, Deus, atque fa<supplied scope="medium">c</supplied>tor,</l>
             <l n="3.39.10">Seu capit quid mens oculique cernunt,</l>
             <l n="3.39.11">Nilque mutatus remanes subinde</l>
             <l n="3.39.12"> Ipsemet idem,</l>

@@ -10,7 +10,7 @@
             </author>
             <editor>
                <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+                  <ref type="viaf" target="6913774" xml:id="NJ">Neven Jovanović</ref>
                </persName>
             </editor>
             <respStmt>
@@ -38,67 +38,10 @@
          </sourceDesc>
       </fileDesc>
     <encodingDesc>
-      <tagsDecl>
+      <tagsDecl resp="#NJ">
         <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="28"/>
-          <tagUsage gi="abstract" occurs="22"/>
-          <tagUsage gi="addrLine" occurs="63"/>
-          <tagUsage gi="address" occurs="19"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="20"/>
-          <tagUsage gi="corr" occurs="2"/>
-          <tagUsage gi="creation" occurs="22"/>
-          <tagUsage gi="date" occurs="70"/>
-          <tagUsage gi="dateline" occurs="20"/>
-          <tagUsage gi="del" occurs="4"/>
-          <tagUsage gi="div" occurs="21"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="159"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="14"/>
-          <tagUsage gi="keywords" occurs="66"/>
-          <tagUsage gi="langUsage" occurs="22"/>
-          <tagUsage gi="language" occurs="22"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="4"/>
-          <tagUsage gi="opener" occurs="20"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="65"/>
-          <tagUsage gi="particDesc" occurs="22"/>
-          <tagUsage gi="pb" occurs="24"/>
-          <tagUsage gi="persName" occurs="66"/>
-          <tagUsage gi="person" occurs="43"/>
-          <tagUsage gi="place" occurs="50"/>
-          <tagUsage gi="placeName" occurs="106"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="22" withId="21"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="35"/>
-          <tagUsage gi="settingDesc" occurs="22"/>
-          <tagUsage gi="sic" occurs="16"/>
-          <tagUsage gi="signed" occurs="20"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="supplied" occurs="45"/>
-          <tagUsage gi="tagUsage" occurs="55"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="132"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="22"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="unclear" occurs="7"/>
+                    <tagUsage gi="supplied">With attribute @scope=verbum: a whole word is supplied.
+                       This description is important for word tokenization.</tagUsage>
         </namespace>
       </tagsDecl>
     </encodingDesc>
@@ -1112,8 +1055,8 @@
                   <addrLine>Illustri et <expan>Magnifico</expan> 
                      <expan>Domino Domino</expan>
 Thome Nadasdino comiti
-<supplied>de Fogaras</supplied> et Judici curie
-<gap/>eg. <expan>Maiestatis</expan> 
+                     <supplied scope="verbum">de</supplied> <supplied scope="verbum">Fogaras</supplied> et Judici curie
+<abbr><gap/>eg.</abbr> <expan>Maiestatis</expan> 
                      <expan>Romanę</expan> 
                      <abbr>etc.</abbr>
                      <gap/> meo semper <expan>obseruandissimo</expan>
@@ -1143,7 +1086,7 @@ In Hungariam</addrLine>
                </address>
                <salute>Magnifice domine domine obseruandissime, salue.</salute>
             </opener>
-            <p>Diu <placeName>Bude</placeName> expectaui litteras et mandata <abbr>V. D. M.</abbr> Paulus etiam Curta negat quicquam sibi a te commissum esse de <supplied>salibus</supplied>: si es oblitus, accipio excusationem, sin plus cuiquam credis, quam Tranquillo, admodum egre fero: hactenus enim non didici fallere amicos. non tam mouet me damnum quam iniuria. deum testor si manebo in Hungaria recordabor, ut <supplied>leniter</supplied> dicam, hujus insolentis temeritatis pumilionis illius, etiam si deos et homines <supplied>propterea</supplied> offendam. Ego pro commodo tuo et honore libenter et sanguinem et fortunas meas profuderim, sed contumelia abiectissimi hominis intolerabilis mihi est. Hac de re pleraque dominus Thurcouith vir integer narrabit <abbr>V. M. D.</abbr> cui mea seruitia commendo. </p>
+            <p>Diu <placeName>Bude</placeName> expectaui litteras et mandata <abbr>V. D. M.</abbr> Paulus etiam Curta negat quicquam sibi a te commissum esse de <supplied scope="verbum">salibus</supplied>: si es oblitus, accipio excusationem, sin plus cuiquam credis, quam Tranquillo, admodum egre fero: hactenus enim non didici fallere amicos. non tam mouet me damnum quam iniuria. deum testor si manebo in Hungaria recordabor, ut <supplied scope="verbum">leniter</supplied> dicam, hujus insolentis temeritatis pumilionis illius, etiam si deos et homines <supplied scope="verbum">propterea</supplied> offendam. Ego pro commodo tuo et honore libenter et sanguinem et fortunas meas profuderim, sed contumelia abiectissimi hominis intolerabilis mihi est. Hac de re pleraque dominus Thurcouith vir integer narrabit <abbr>V. M. D.</abbr> cui mea seruitia commendo. </p>
             <closer>
                <dateline>Bude feria quarta ante Dominicam palmarem 1532.</dateline>
                <signed>
@@ -1163,9 +1106,9 @@ In Hungariam</addrLine>
                </address>
                <salute>Spectabilis et Magnifice domine domine obseruandissime, salutem et mei commendationem.</salute>
             </opener>
-            <p>Non potui expectare istic reditum <abbr>V. M. D.</abbr> multis de causis, sed praecipue ualetudinis gratia, nunc <supplied>etiam</supplied> non satis ualeo contracto istic frigore. Scripsi <expan>Reuerendissimo</expan> 
+            <p>Non potui expectare istic reditum <abbr>V. M. D.</abbr> multis de causis, sed praecipue ualetudinis gratia, nunc <supplied scope="verbum">etiam</supplied> non satis ualeo contracto istic frigore. Scripsi <expan>Reuerendissimo</expan> 
                <expan>domino</expan> 
-               <supplied>Traussith</supplied> de re mea ut agat apud regem. <expan>Vestra</expan> etiam <abbr>M. D.</abbr> uelit esse adiutor. quod si <supplied>equum</supplied> non possum impetrari: rogo accomodet mihi <abbr>V. M. D.</abbr> unum equum et bene valeat. decreui nullo pacto mihi deesse, ut si Judices iniquos habeo, ad deum tamen refero causam meam. </p>
+               <supplied scope="verbum">Traussith</supplied> de re mea ut agat apud regem. <expan>Vestra</expan> etiam <abbr>M. D.</abbr> uelit esse adiutor. quod si <supplied scope="verbum">equum</supplied> non possum impetrari: rogo accomodet mihi <abbr>V. M. D.</abbr> unum equum et bene valeat. decreui nullo pacto mihi deesse, ut si Judices iniquos habeo, ad deum tamen refero causam meam. </p>
             <closer>
                <salute>Omnia fortunata tibi opto ex animo.</salute>
                <dateline> Vienne, <date when="1541-01-15">15. Januarij 1541</date>.</dateline>
@@ -1187,7 +1130,7 @@ Nadasdino Consiliario <expan>Regię</expan>
                </address>
                <salute>Spectabilis et Magnifice domine domine obseruandissime, salutem et mei commendationem.</salute>
             </opener>
-            <p>Clementissimus dominus meus mittit me ad longinquam legationem. Indigeo forti equo: tu succurre. Fortasse discedam hinc ad triduum. hic expectaui in dies <supplied>tuam</supplied> 
+            <p>Clementissimus dominus meus mittit me ad longinquam legationem. Indigeo forti equo: tu succurre. Fortasse discedam hinc ad triduum. hic expectaui in dies <supplied scope="verbum">tuam</supplied> 
                <abbr>M. D.</abbr>; vellem coram alloqui. </p>
             <closer>
                <salute>Commendo me plurimum Vestre Spectabili et Magnificae Dominationi. </salute>
@@ -1214,7 +1157,7 @@ Thomę Nadasdino
                </address>
                <salute>Spectabilis et Magnifice domine domine obseruandissime, salutem et seruitiorum meorum commendationem.</salute>
             </opener>
-            <p>Nescio quo fato meo semper accidit te abesse a domo, quum ad te scribo pro equo: sunt circiter dies 12 ex quo ueniens huc ad te scripsi, arbitratus te domi tue esse, hodie quum expectarem responsum <persName>Farkas Janus</persName> dixit a te litteras accepisse <placeName>Tyrnauiae</placeName> ex conuentu atque ibi te futurum aliquot dies. Optabam tecum esse, sed iussit rex se sequar in Bohemiam, deinde Spiram: cuius voluntate hic excuditur illa nostra oratiuncula, sed addita sunt quedam de Hungaria, ut tempus istud postulat, puto non ingrata tibi futura. Non manebo hic diutius quam ad diem Sabbati: si quem in promptu equum pro me habes, rogo quam primum mitte, oportet autem ualidum esse et <supplied>sallutarium</supplied>, magna enim instant mihi itinera in hanc hyemem. si missurus es mitte ad feriam sextam <pb/> tardius frustra miseris. Post cladem acceptam miserat me rex ad pontificem per postas. Reperi eum Luce in Etruria cum Cesare, eodem die utrumque allocutus sum. Cesar omnino ab expeditione Africana redibit in Italiam ad primum ver. Pontifex magnis auxiliis nos iuuabit, imperaueramus duo millia et quingentos milites quos Placentie in promptu habuit, et iam peruenerant non procul a Tridento, sed iussu regis redierunt. Serio apparantur omnia ad bellum uernum, abundabimus omnibus opibus, vereor solum ne ducum <supplied>laborumque</supplied> penuria. <expan>Magnificus</expan> 
+            <p>Nescio quo fato meo semper accidit te abesse a domo, quum ad te scribo pro equo: sunt circiter dies 12 ex quo ueniens huc ad te scripsi, arbitratus te domi tue esse, hodie quum expectarem responsum <persName>Farkas Janus</persName> dixit a te litteras accepisse <placeName>Tyrnauiae</placeName> ex conuentu atque ibi te futurum aliquot dies. Optabam tecum esse, sed iussit rex se sequar in Bohemiam, deinde Spiram: cuius voluntate hic excuditur illa nostra oratiuncula, sed addita sunt quedam de Hungaria, ut tempus istud postulat, puto non ingrata tibi futura. Non manebo hic diutius quam ad diem Sabbati: si quem in promptu equum pro me habes, rogo quam primum mitte, oportet autem ualidum esse et <supplied scope="verbum">sallutarium</supplied>, magna enim instant mihi itinera in hanc hyemem. si missurus es mitte ad feriam sextam <pb/> tardius frustra miseris. Post cladem acceptam miserat me rex ad pontificem per postas. Reperi eum Luce in Etruria cum Cesare, eodem die utrumque allocutus sum. Cesar omnino ab expeditione Africana redibit in Italiam ad primum ver. Pontifex magnis auxiliis nos iuuabit, imperaueramus duo millia et quingentos milites quos Placentie in promptu habuit, et iam peruenerant non procul a Tridento, sed iussu regis redierunt. Serio apparantur omnia ad bellum uernum, abundabimus omnibus opibus, vereor solum ne ducum <supplied scope="verbum">laborumque</supplied> penuria. <expan>Magnificus</expan> 
                <expan>dominus</expan> Laski longo morbo detinetur, si dei ope conualescat, bene sperare possumus. Breuiter scribo, quoniam spero me <expan>dominum</expan> Sarkan esse visurum antequam discedam. Mithridatum ex Constantinopoli quod magno labore aquisivi una cum fundo et ipsa pixide relinquam apud Farkas <sic>Janus</sic>. </p>
             <closer>
                <salute>Plurimum commendo me tibi et operam meam polliceor. Vale feliciter.</salute>
@@ -1234,10 +1177,10 @@ Thomę Nadasdino
                      <expan>obseruandissimo</expan> 
                      <expan>domino</expan> Thome Nadasdino</addrLine>
                   <addrLine>
-                     <supplied>comiti</supplied> et iudici curie <expan>serenissimi</expan>
+                     <supplied scope="verbum">comiti</supplied> et iudici curie <expan>serenissimi</expan>
                   </addrLine>
                   <addrLine>
-                     <supplied>regis</supplied> Romanorum <abbr>etc.</abbr>
+                     <supplied scope="verbum">regis</supplied> Romanorum <abbr>etc.</abbr>
                   </addrLine>
                   <addrLine>Viennam</addrLine>
                </address>
@@ -1249,7 +1192,7 @@ Thomę Nadasdino
             <p>Meministi, opinor, scripsisse me duobus mensibus ante, quod pontifex procurarit <expan>Dominam</expan> Victoriam tradere nuptui regi Polonię et postea scripseram eam rem in fumum abiisse. Nuper regina Bona misit unum expeditissimum nuntium ad <expan>Cardinalem</expan> Farnesium <pb/> in eodem negocio. Qui in reditu mecum est pransus 24. X-bris. Dicebat se mutatis equis properare dies et noctes negociumque patefecit ac dixit, scito rem esse perfectam si me ante carnisprivium hic videbis.</p>
             <p>
                <sic>Monsiur</sic> de <sic>Monluch</sic> legatus regis Gallie, qui venit ex Thurcia per Hungariam, nudiustertius abiit ad regem per postas. Dicitur uoluisse ire per Heluetios sed ne faceret preiudicium apostolicę discordię profectus est per Insubriam.</p>
-            <p>Heri accepi litteras a <expan>domino</expan> Carabeto et <expan>domino</expan> Sarkano, has 14. Nouembris, illas 1. X-bris Vienne scriptas. Iam oculos laceraui obseruando ac <supplied>eos</supplied> extendendo unde primum Carabetus occureret.  Emam pro domino Sarkano zambilotum et illi mittam, quum ero nactus fidelem nuntium, vel ipse mihi significet, in cuius manus illud daturus sim, ne me arguat obliuionis aut negligentie. Negocium totum de prepositura tuę bonitati comitto. </p>
+            <p>Heri accepi litteras a <expan>domino</expan> Carabeto et <expan>domino</expan> Sarkano, has 14. Nouembris, illas 1. X-bris Vienne scriptas. Iam oculos laceraui obseruando ac <supplied scope="verbum">eos</supplied> extendendo unde primum Carabetus occureret.  Emam pro domino Sarkano zambilotum et illi mittam, quum ero nactus fidelem nuntium, vel ipse mihi significet, in cuius manus illud daturus sim, ne me arguat obliuionis aut negligentie. Negocium totum de prepositura tuę bonitati comitto. </p>
             <closer>
                <salute>Vale pancratice, et seruum tuum amare ne desinas.</salute>
                <dateline>Venetijs, <date when="1545-11-30">pridie Cal. Xbris 45.</date>.</dateline>
@@ -1280,7 +1223,7 @@ Thomę Nadasdino
                </address>
                <salute>Illustrissime et Magnifice domine obseruandissime salue.</salute>
             </opener>
-            <p>Hodie accepi unas Carabeti nostri, tuas uero binas litteras, alteras quidem 8. Nouembris, alteras in Papa XI. die datas: gaudeo probari tibi officium meum, presertim quod in optimum uirum Carabetum singulari sis affectione. Conatus tuos uehementer laudo: siquidem in commoda religionis et patrię incumbis. Sed uide, ut rem modo optimo aggrediaris, ne famam tuam in discrimen conijcias, alienaue negligentia traharis in calumniam.  De prępositura, ut scribit Carabetus, nihil dum actum est. Si eo rex animo est, ut scripsisti, miror quod episcopus audeat reluctari voluntati regie; sin rex conniuet, puto rem non esse amplius <corr>tentandam</corr>. Ergo ea natus sum felicitate ut ipse omnibus, mihi pauci seruent fidem. Quid decreuerim de rebus Thurcicis, scripsi Carabeto. Diu nihil intellegi de legatis in Thurcia. Pax inter Gallum et Anglum non <supplied>procedit</supplied>. Hic enim vult retinere Bolognam, petit insuper expensas in bello factas. Sed neque cum Cesare Gallo videtur conuenturum. Video nobis imminere magnas <supplied>bellorum</supplied> tempestates. Pontifex decreuit aperire concilum Tridenti. Ut antea scripseram, Luterani autem iam <supplied>ceperunt</supplied> nationale concilium celebrare Frankfordie ad Menum fluuium. Nihil aliud dignum est ut scribatur.</p>
+            <p>Hodie accepi unas Carabeti nostri, tuas uero binas litteras, alteras quidem 8. Nouembris, alteras in Papa XI. die datas: gaudeo probari tibi officium meum, presertim quod in optimum uirum Carabetum singulari sis affectione. Conatus tuos uehementer laudo: siquidem in commoda religionis et patrię incumbis. Sed uide, ut rem modo optimo aggrediaris, ne famam tuam in discrimen conijcias, alienaue negligentia traharis in calumniam.  De prępositura, ut scribit Carabetus, nihil dum actum est. Si eo rex animo est, ut scripsisti, miror quod episcopus audeat reluctari voluntati regie; sin rex conniuet, puto rem non esse amplius <corr>tentandam</corr>. Ergo ea natus sum felicitate ut ipse omnibus, mihi pauci seruent fidem. Quid decreuerim de rebus Thurcicis, scripsi Carabeto. Diu nihil intellegi de legatis in Thurcia. Pax inter Gallum et Anglum non <supplied scope="verbum">procedit</supplied>. Hic enim vult retinere Bolognam, petit insuper expensas in bello factas. Sed neque cum Cesare Gallo videtur conuenturum. Video nobis imminere magnas <supplied scope="verbum">bellorum</supplied> tempestates. Pontifex decreuit aperire concilum Tridenti. Ut antea scripseram, Luterani autem iam <supplied scope="verbum">ceperunt</supplied> nationale concilium celebrare Frankfordie ad Menum fluuium. Nihil aliud dignum est ut scribatur.</p>
             <closer>
                <salute> Bene vale et vince, ut te laureatum redeuntem complectamur.</salute>
                <dateline>Venetiis, <date when="1545-12-10">X. Decembris 1545.</date>.</dateline>
@@ -1315,7 +1258,7 @@ Thomę Nadasdino
                   </addrLine>
                   <addrLine>Thome Nadasdino comiti</addrLine>
                   <addrLine>
-                     <supplied>in Fogaras</supplied> et Iudici curie</addrLine>
+                     <supplied scope="verbum">in</supplied> <supplied scope="verbum">Fogaras</supplied> et Iudici curie</addrLine>
                   <addrLine>
                      <gap/> 
                      <expan>Regię Maiestatis Romanorum</expan> 
@@ -1327,7 +1270,7 @@ Thomę Nadasdino
                <salute>Illustris et <expan>Magnifice</expan> 
                   <expan>Domine Domine</expan> semper <expan>obseruandissime</expan> salue.</salute>
             </opener>
-            <p>A proximis meis litteris, quas ad te <date when="1547-03-22">22. Martii</date> dedi, ex Thurcia nihil aliud allatum est, nisi quod in hac <supplied>sceda</supplied> continetur. Et Veneti quidem, si eadem primis ex <placeName>Constantinopoli</placeName> litteris confirmabuntur, cogitant et classem maritimam instruere, et generalem ei ducem preficere.</p>
+            <p>A proximis meis litteris, quas ad te <date when="1547-03-22">22. Martii</date> dedi, ex Thurcia nihil aliud allatum est, nisi quod in hac <supplied scope="verbum">sceda</supplied> continetur. Et Veneti quidem, si eadem primis ex <placeName>Constantinopoli</placeName> litteris confirmabuntur, cogitant et classem maritimam instruere, et generalem ei ducem preficere.</p>
             <p>Vellem res Germanice pacatiores essent: sed id velimus oportet, quod possumus.</p>
             <p>Cetera breui coram. Veniam autem subsarcinatus rerum nouarum. Te autem, quemadmodum optaui, facturum esse omnia non dubito.</p>
             <closer>
@@ -1377,7 +1320,7 @@ Thomę Nadasdino
         
             <p>
                <gap reason="perditum"/>
-          quod scripsisti cogitare te <del>uelle</del> aut <placeName>Tragurium</placeName> esse uenturum, aut me ad arcem Stenisynak ad te accersiturum, et ego quum statuissem ad festum Ascensionis Domini <placeName>Venetias</placeName> petere, ac post festum decimo illius die redire in patriam, eram ualde solicitus ut hunc animum primo quoque tempore declararem, ne tu huius inscius, aut me accersires ad se, aut venires <placeName>Tragurium</placeName>. Itaque anxie quesiui si quis nauigaturus esset <placeName>Bucharim</placeName> uersus. nemo fuit <placeName>Tragurii</placeName>, <placeName>Jadram</placeName> profectus sum, itidem non erat <placeName>Jadre</placeName>. Cepi tandem iter versus <placeName>Bucharim</placeName>, ut ipse mearum litterarum tabellarium essem. Sed in itinere aduersis tempestatibus multos dies detentus fui, hasque litteras cuidam mercatori Pharensi commisi ut Petro <supplied>denti</supplied> redderet, is enim mercator <placeName>Bucharim</placeName> petit. Sed diu ex hac insula propter uentos contrarios non potest discedere. Rogo quam primum significes an accersas me, an venias ad nos, ne ego petam <placeName>Venetias</placeName>. Si neutrum feceris, effice apud Antonium Sarkan, ut pensionem sequentis anni mittat ad me <placeName>Venetias</placeName>. quemadmodum illi scripsi, erit enim opus mihi illa pecunia. Miror quod nullam fecisti mencionem de illo medicamento; non putes nugas, illud quoque mecum feram <placeName>Venetias</placeName> uel si uolueris ad te ipsum. Gelatina ueris aduentu regelata et destructa est. Polipos distraximus, quia diu nihil respondebas. hic annus ut in aliis, sic in prouentu <pb/> piscium fuit infelicissimus quamquam retia <supplied>sero mergamus</supplied> tamen uix tantum piscium capimus, quod satis ad esum esset. quicqud me uoles facere, extemplo scribe et uale feliciter.</p>
+          quod scripsisti cogitare te <del>uelle</del> aut <placeName>Tragurium</placeName> esse uenturum, aut me ad arcem Stenisynak ad te accersiturum, et ego quum statuissem ad festum Ascensionis Domini <placeName>Venetias</placeName> petere, ac post festum decimo illius die redire in patriam, eram ualde solicitus ut hunc animum primo quoque tempore declararem, ne tu huius inscius, aut me accersires ad se, aut venires <placeName>Tragurium</placeName>. Itaque anxie quesiui si quis nauigaturus esset <placeName>Bucharim</placeName> uersus. nemo fuit <placeName>Tragurii</placeName>, <placeName>Jadram</placeName> profectus sum, itidem non erat <placeName>Jadre</placeName>. Cepi tandem iter versus <placeName>Bucharim</placeName>, ut ipse mearum litterarum tabellarium essem. Sed in itinere aduersis tempestatibus multos dies detentus fui, hasque litteras cuidam mercatori Pharensi commisi ut Petro <supplied scope="verbum">denti</supplied> redderet, is enim mercator <placeName>Bucharim</placeName> petit. Sed diu ex hac insula propter uentos contrarios non potest discedere. Rogo quam primum significes an accersas me, an venias ad nos, ne ego petam <placeName>Venetias</placeName>. Si neutrum feceris, effice apud Antonium Sarkan, ut pensionem sequentis anni mittat ad me <placeName>Venetias</placeName>. quemadmodum illi scripsi, erit enim opus mihi illa pecunia. Miror quod nullam fecisti mencionem de illo medicamento; non putes nugas, illud quoque mecum feram <placeName>Venetias</placeName> uel si uolueris ad te ipsum. Gelatina ueris aduentu regelata et destructa est. Polipos distraximus, quia diu nihil respondebas. hic annus ut in aliis, sic in prouentu <pb/> piscium fuit infelicissimus quamquam retia <supplied scope="verbum">sero</supplied> <supplied scope="verbum">mergamus</supplied> tamen uix tantum piscium capimus, quod satis ad esum esset. quicqud me uoles facere, extemplo scribe et uale feliciter.</p>
             <closer>
                <dateline>Ex insula Arba. <date when="1550-03-11">XI. Martij 1550.</date>.</dateline>
                <signed>
@@ -1402,9 +1345,9 @@ Thomę Nadasdino
                      <expan>Illustrissimo Domino Domino</expan> Thomę de Nadasd comiti in Fogaras Judici</addrLine>
                   <addrLine>Curię <expan>Regię Maiestatis</expan> et supremo regni</addrLine>
                   <addrLine>
-                     <supplied>Hungarię</supplied> capitaneo <abbr>etc.</abbr> Dno</addrLine>
+                     <supplied scope="verbum">Hungarię</supplied> capitaneo <abbr>etc.</abbr> Dno</addrLine>
                   <addrLine>
-                     <supplied>patrono</supplied> meo semper <expan>observandissimo</expan>
+                     <supplied scope="verbum">patrono</supplied> meo semper <expan>observandissimo</expan>
                   </addrLine>
                   <addrLine>Ad exercitum.</addrLine>
                </address>
@@ -1430,11 +1373,11 @@ Thomę Nadasdino
                   <addrLine>Nadasdino comiti in Fogaras</addrLine>
                   <addrLine>Iudici curie <expan>Regię Maiestatis</expan> ac supremo</addrLine>
                   <addrLine>
-                     <supplied>Regni</supplied> Hungarię capitaneo</addrLine>
+                     <supplied scope="verbum">Regni</supplied> Hungarię capitaneo</addrLine>
                   <addrLine>
-                     <supplied>domino</supplied> et patrono meo semper</addrLine>
+                     <supplied scope="verbum">domino</supplied> et patrono meo semper</addrLine>
                   <addrLine>
-                     <supplied>obseruandissimo</supplied>
+                     <supplied scope="verbum">obseruandissimo</supplied>
                   </addrLine>
                   <addrLine>In Hungariam.</addrLine>
                </address>
@@ -1443,7 +1386,7 @@ Thomę Nadasdino
             </opener>
             <p>Multa sum passus aduersa in hoc itinere, ac uix XVI-o die <placeName>Venetias</placeName> ueni malis equis: nam et albus gradarius in uia decessit, et ego calce percussus equi nunc etiam male affectus claudico. Quamobrem continerem me <placeName>Venetiis</placeName> aliquot diebus dum vulnus coiret, nisi mihi properandum esset in <placeName>Dalmatiam</placeName> propter <placeName>Zaladiam</placeName>, ut seruitutem meam saltem hoc genere officii testatum tibi faciam. Nec fraudabor spe mea, si cito prestabit sese mare nauigabile, ac si etiam prospera utar nauigatione, quippe quum hyems hactenus mitis fuerit, necesse est ut postrema eius pars inhorrescat aptaque gelandis piscibus fiat. Certo velim tibi persuadeas, me non modo hac in re, sed etiam in ceteris omnibus, quę ad te pertinere putabo, omnem meam operam atque studium adhibiturum esse vel supra vires meas, efficiamque ut si successibus inuiderit fortuna, mei tamen conatus abs te probentur. Nunc profecto non licuit hinc ad te res mittere in ea copia, quemadmodum ego destinaueram. nam et hic equus in quo famulus reuertitur uix equitem ipsum istuc reducet, et ille quem <persName>Petrus</persName> seruitor tuus dedit, partim quod macilentus est admodum, partim etiam quod valde iuuenis, egre potuit ad litus Venetum appelli. Mitto cauiarem, farcimina, butargas, acus ducentas et filum album, paria perspicillorum 14, maluasiam, duas scatulas cidoniati, et alias duas domino <persName>Georgio</persName>, pistachia quoque adiunxi maluasię. Que sane omnia curauimus, nescio an perfecimus, ut essent optima. Fideli et diligenti opera sum usus <persName>Ioanis Olassi</persName>. Nusquam potuimus inueniri tecas <pb/> osseas pro perspicillis; meam tibi qualecunque mitto. Is qui in confinio <placeName>Italie</placeName> 
                <persName>
-                  <expan>Ioanem</expan> Olassum</persName> benigne in tui gratiam olim acceperat dicebatur esse in aula regis, vocaturque <persName>Michael Paczner</persName>, ciuis Viennensis. Huc recens venit fama <persName>fratrem Georgium</persName> composuisse cum regina et <supplied>Cassum</supplied> bassam cum quatuor zanzachis vulneratos esse sub una arce. Turcus affirmatur parare terrestres et nauales copias in Hungaria, classem enim dicitur subuecturus per Danubium. Res autem Germanice <supplied>distrahent</supplied> nostros principes a defensione Hungarie. Cesar enim decreuit contumaciam Madeburgi compescere, cui <supplied>quidam</supplied> suppetias contra Cesarem tulerunt. Sunt autem qui censeant nunc agi a nostris de protrahendis induciis. Sed Turcus, ut aiunt, misit ad regem Persarum pro tractanda pace, quo expeditior sese in Hungariam conferat: quod deus auertat, et conatus impios demoliatur. Hec, ut accepi, ita scripsi.</p>
+                  <expan>Ioanem</expan> Olassum</persName> benigne in tui gratiam olim acceperat dicebatur esse in aula regis, vocaturque <persName>Michael Paczner</persName>, ciuis Viennensis. Huc recens venit fama <persName>fratrem Georgium</persName> composuisse cum regina et <supplied scope="verbum">Cassum</supplied> bassam cum quatuor zanzachis vulneratos esse sub una arce. Turcus affirmatur parare terrestres et nauales copias in Hungaria, classem enim dicitur subuecturus per Danubium. Res autem Germanice <supplied scope="verbum">distrahent</supplied> nostros principes a defensione Hungarie. Cesar enim decreuit contumaciam Madeburgi compescere, cui <supplied scope="verbum">quidam</supplied> suppetias contra Cesarem tulerunt. Sunt autem qui censeant nunc agi a nostris de protrahendis induciis. Sed Turcus, ut aiunt, misit ad regem Persarum pro tractanda pace, quo expeditior sese in Hungariam conferat: quod deus auertat, et conatus impios demoliatur. Hec, ut accepi, ita scripsi.</p>
             <closer>
                <salute>Vale feliciter cum tuis omnibus.</salute>
                <dateline>Venetijs, <date when="1551-01-16">16 Januarij 1551.</date>.</dateline>
@@ -1459,15 +1402,15 @@ Thomę Nadasdino
                      <expan>Illustrissimo Domino Domino</expan> Thome Nadasdino</addrLine>
                   <addrLine>Comiti in Fogaras Iudici</addrLine>
                   <addrLine>
-                     <supplied>Curie</supplied> 
+                     <supplied scope="verbum">Curie</supplied> 
                      <expan>Regię Maiestatis</expan> et supremo</addrLine>
                   <addrLine>
-                     <supplied>Regni</supplied> Hungarię capitaneo <abbr>etc.</abbr>
+                     <supplied scope="verbum">Regni</supplied> Hungarię capitaneo <abbr>etc.</abbr>
                   </addrLine>
                   <addrLine>
-                     <supplied>domino</supplied> meo et patrono semper</addrLine>
+                     <supplied scope="verbum">domino</supplied> meo et patrono semper</addrLine>
                   <addrLine>
-                     <supplied>obseruandissimo</supplied>
+                     <supplied scope="verbum">obseruandissimo</supplied>
                   </addrLine>
                   <addrLine>In Hungariam.</addrLine>
                </address>
@@ -1486,7 +1429,7 @@ Thomę Nadasdino
                <address>
                   <addrLine>Generoso et egregio domino</addrLine>
                   <addrLine>
-                     <supplied>Georgio</supplied> Pernesits <supplied>locumtenti</supplied> 
+                     <supplied scope="verbum">Georgio</supplied> Pernesits <supplied scope="verbum">locumtenenti</supplied> 
                      <expan>Illustrissimi Domini</expan> Nadasdini</addrLine>
                   <addrLine>
                      <expan>domino</expan> et amico <expan>obseruandissimo</expan>
@@ -1496,7 +1439,7 @@ Thomę Nadasdino
                <pb/>
                <salute>Generose et egregie domine.</salute>
             </opener>
-            <p>Mitto tibi in uno barileto semina caulium et raparum et tertium nescio quod semen ex Apulia mihi allatum, et lentem magni grani, preterea pauculum semen cuiusdam rubri floris purpurei sed nullius odoris, et unum magnum citrum pomum, et duas pixidulas <supplied>tiriace</supplied>. Vnam dabis domino Sarkano, alteram <expan>domino Francisco</expan> Segnej. Item septem pixidulas cidoniati nostratis, duas pro te seruabis, reliquas quoque dabis domino nostro Magnifico. Hęc pauca <corr resp="FTA">sed</corr> grata accipias et <supplied>beneuola</supplied>, ut soles manu. excusatum me habeas quod narancias nec tibi nec domino mitto. Vbique perquisiui, sed nusquam reperi. Tu vero si hec vel alia eiusmodi velis tibi mitti, significabis; nam tibi in re omni morem gerere et cupio et volo. Cui me et seruitia mea <sic>comendo</sic>.</p>
+            <p>Mitto tibi in uno barileto semina caulium et raparum et tertium nescio quod semen ex Apulia mihi allatum, et lentem magni grani, preterea pauculum semen cuiusdam rubri floris purpurei sed nullius odoris, et unum magnum citrum pomum, et duas pixidulas <supplied scope="verbum">tiriace</supplied>. Vnam dabis domino Sarkano, alteram <expan>domino Francisco</expan> Segnej. Item septem pixidulas cidoniati nostratis, duas pro te seruabis, reliquas quoque dabis domino nostro Magnifico. Hęc pauca <corr resp="FTA">sed</corr> grata accipias et <supplied scope="verbum">beneuola</supplied>, ut soles manu. excusatum me habeas quod narancias nec tibi nec domino mitto. Vbique perquisiui, sed nusquam reperi. Tu vero si hec vel alia eiusmodi velis tibi mitti, significabis; nam tibi in re omni morem gerere et cupio et volo. Cui me et seruitia mea <sic>comendo</sic>.</p>
             <closer>
                <dateline>Buchari, <date when="1553-11-05">5. Novembris 1553.</date>
                </dateline>
@@ -1506,7 +1449,7 @@ Thomę Nadasdino
           
             </closer>
             <postscript>
-               <p>Dices <supplied>nostro</supplied> domino quod hoc anno non est prouentus poliporum et loliginis; nondum ceperant capi nisi <supplied>rare</supplied> admodum.</p>
+               <p>Dices <supplied scope="verbum">nostro</supplied> domino quod hoc anno non est prouentus poliporum et loliginis; nondum ceperant capi nisi <supplied scope="verbum">rare</supplied> admodum.</p>
             </postscript>
          </div>
          <div type="prosa-epistula" corresp="#andreisnadasd15530428">
@@ -1514,9 +1457,9 @@ Thomę Nadasdino
           
                <salute>Illustrissime et Magnifice domine domine Comes <abbr>etc.</abbr> S.</salute>
             </opener>
-            <p>Etsi ueneram huc media quidem et aspera hyeme haud certe dubia mei non ingrati animi significatione ut pro uirili mea parte uestris periculis praesens adessem, meumque sanguinem et uitam etiam (si res ita postularet) profunderem: tamen quod res uestras pace composita uideo in tuto esse collocatas, nec amplius cuiusque opera egere, tantum abest ut me facti mei atque consilij peniteat, ut etiam uehementissime gaudeam illuxisse istis reliquijs insperatam lucem et salutem: pro quibus uos quidem aut undique circumsessos ab hoste prępotenti atque barbaro, et qui in uniuersum sitiat sanguinem Christianorum omnium, pugnare usque ad extremum necesse esset (muscam uidelicet contra elephantum) aut alia quoppiam uia saluti consulere, quum ad paucos redacti sitis, nemine res uestras iuuante, sed <gap reason="lacuna"/>micis quodammodo <supplied>attritis</supplied> qui maxime vestram salutem curare deberent, deserti et relicti. Sed alias tempus erit de his querendi: nunc solemur nostram infęlicitatem hac presenti commoditate, si maiore parte regni nobis depulsis et eiectis in his saltem reliquiis datur in pace consistere, neque de summa rei periclitari. Ego in tua domo magnis utor commodis et precipue domini <persName>Georgii</persName> paterna quadam indulgentia: multum ex ancipiti m<gap reason="lacuna"/> recreor, accedente quotidie pristino robore atq<gap reason="lacuna"/>itute. Nec aliud expecto, nisi tuum fęlicem reditum, ut vestris istic compositis ex sententia rebus (quoad eius fieri potest) <placeName>Hungarię</placeName> parta pace quasi triumphatis hostibus e vestigio ad intermissa mea studia reuertar paceque hac fruar et quam dominus deus Christus nobis reliquit.  </p>
+            <p>Etsi ueneram huc media quidem et aspera hyeme haud certe dubia mei non ingrati animi significatione ut pro uirili mea parte uestris periculis praesens adessem, meumque sanguinem et uitam etiam (si res ita postularet) profunderem: tamen quod res uestras pace composita uideo in tuto esse collocatas, nec amplius cuiusque opera egere, tantum abest ut me facti mei atque consilij peniteat, ut etiam uehementissime gaudeam illuxisse istis reliquijs insperatam lucem et salutem: pro quibus uos quidem aut undique circumsessos ab hoste prępotenti atque barbaro, et qui in uniuersum sitiat sanguinem Christianorum omnium, pugnare usque ad extremum necesse esset (muscam uidelicet contra elephantum) aut alia quoppiam uia saluti consulere, quum ad paucos redacti sitis, nemine res uestras iuuante, sed <gap reason="lacuna"/>micis quodammodo <supplied scope="verbum">attritis</supplied> qui maxime vestram salutem curare deberent, deserti et relicti. Sed alias tempus erit de his querendi: nunc solemur nostram infęlicitatem hac presenti commoditate, si maiore parte regni nobis depulsis et eiectis in his saltem reliquiis datur in pace consistere, neque de summa rei periclitari. Ego in tua domo magnis utor commodis et precipue domini <persName>Georgii</persName> paterna quadam indulgentia: multum ex ancipiti m<gap reason="lacuna"/> recreor, accedente quotidie pristino robore atq<gap reason="lacuna"/>itute. Nec aliud expecto, nisi tuum fęlicem reditum, ut vestris istic compositis ex sententia rebus (quoad eius fieri potest) <placeName>Hungarię</placeName> parta pace quasi triumphatis hostibus e vestigio ad intermissa mea studia reuertar paceque hac fruar et quam dominus deus Christus nobis reliquit.  </p>
             <closer>
-               <salute>Tu interim pancratice <supplied>viuas</supplied>, et celeriter ad nos redeas.</salute>
+               <salute>Tu interim pancratice <supplied scope="verbum">viuas</supplied>, et celeriter ad nos redeas.</salute>
                <dateline>Ex tua arce Saruar, <date when="1553-04-28">28 Aprilis 1553.</date>
                </dateline>
                <signed>Tuus <expan>obsequentissimus</expan> Tranquillus
@@ -1594,7 +1537,7 @@ Thomę Nadasdino
                   <addrLine>
                      <expan>Illustrissimo Domino Domino et Magnifico</expan>
                      <expan>Domino</expan> Thome Nadasdino
-<supplied>comiti</supplied> de Fogaras, <supplied>iudici</supplied>
+<supplied scope="verbum">comiti</supplied> de Fogaras, <supplied scope="verbum">iudici</supplied>
  curie <expan>Regie Maiestatis</expan> 
                      <abbr>etc.</abbr>
                      <expan>Domino</expan> meo et patrono 
@@ -1633,10 +1576,10 @@ semper <expan>obseruandissimo</expan>
                      <expan>Illustrissimo</expan> et <expan>Magnifico</expan> 
                      <expan>Domino Domino</expan>
 Thomę Nadasdino comiti
-<supplied>de</supplied> Fogaras, Judici curię
-<supplied>regię,</supplied> supremo Regni <expan>Hungarici</expan>
+<supplied scope="verbum">de</supplied> Fogaras, Judici curię
+<supplied scope="verbum">regię,</supplied> supremo Regni <expan>Hungarici</expan>
 Capitaneo <abbr>etc.</abbr> 
-                     <supplied>Domino</supplied> et
+                     <supplied scope="verbum">Domino</supplied> et
 patrono meo semper <expan>obseruandissimo</expan>
 In Hungariam</addrLine>
                </address>
