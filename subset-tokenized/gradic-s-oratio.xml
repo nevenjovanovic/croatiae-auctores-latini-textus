@@ -4,7 +4,7 @@
          <titleStmt>
             <title>Oratio de eligendo Summo Pontifice, versio electronica</title>
         
-            <author ref="gradi01">
+            <author ref="gradi01" key="viaf25401346">
                <persName xml:lang="hr">Gradić, Stjepan</persName>,
           Dubrovnik, <date>1613. — 1683.</date>
             </author>
@@ -140,7 +140,7 @@
          </change>
       </revisionDesc>
   </teiHeader>
-  <text>
+   <text xml:base="urn:cts:croala:gradic25401346.oratiodeeligendo2063942.croala-lat2:" xml:lang="lat">
     <front>
       <docAuthor>
         <w>STEPHANI</w>
@@ -154,8 +154,10 @@
           <w>De</w>
           <w>eligendo</w>
           <w>Summo</w>
-          <w>Pont</w>
-          <pc>.</pc>
+          <abbr>
+            <w>Pont</w>
+            <pc>.</pc>
+          </abbr>
           <w>Sede</w>
           <w>vacante</w>
           <pc>,</pc>
@@ -166,23 +168,31 @@
         </titlePart>
         <titlePart>
           <w>ALEXANDRI</w>
-          <w>VII</w>
-          <pc>.</pc>
+          <num value="7">
+            <w>VII</w>
+            <pc>.</pc>
+          </num>
         </titlePart>
         <titlePart>
           <w>AD</w>
-          <w>EMINENTISS</w>
-          <pc>.</pc>
-          <w>S</w>
-          <pc>.</pc>
-          <w>R</w>
-          <pc>.</pc>
-          <w>E</w>
-          <pc>.</pc>
-          <w>CAR</w>
-          <pc>.</pc>
-          <w>DD</w>
-          <pc>.</pc>
+          <abbr>
+            <w>EMINENTISS</w>
+            <pc>.</pc>
+          </abbr>
+          <abbr>
+            <w>S</w>
+            <pc>.</pc>
+            <w>R</w>
+            <pc>.</pc>
+            <w>E</w>
+            <pc>.</pc>
+          </abbr>
+          <abbr>
+            <w>CAR</w>
+            <pc>.</pc>
+            <w>DD</w>
+            <pc>.</pc>
+          </abbr>
         </titlePart>
         <titlePart>
           <w>Habita</w>
@@ -195,15 +205,19 @@
       </docTitle>
       <docDate>
         <w>Die</w>
-        <w>II</w>
-        <pc>.</pc>
+        <num value="2">
+          <w>II</w>
+          <pc>.</pc>
+        </num>
         <w>Junii</w>
-        <w>M</w>
-        <pc>.</pc>
-        <w>DC</w>
-        <pc>.</pc>
-        <w>LXVII</w>
-        <pc>.</pc>
+        <num value="1667">
+          <w>M</w>
+          <pc>.</pc>
+          <w>DC</w>
+          <pc>.</pc>
+          <w>LXVII</w>
+          <pc>.</pc>
+        </num>
       </docDate>
     </front>
     <body>
