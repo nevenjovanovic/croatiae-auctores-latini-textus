@@ -10,7 +10,7 @@ declare function local:copy-nodes-filter-text($element) {
                     else for $c in tokenize($child, "\s+") return local:tokenize-words-pc($c)
            }
  };
- declare function local:copy-nodes-filter-supplied($element) {
+declare function local:copy-nodes-filter-supplied($element) {
   if ($element[name()="supplied"]) then $element/text()
   else element { node-name($element) }
              { $element/@*,
