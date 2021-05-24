@@ -2,14 +2,14 @@
   <teiHeader>
       <fileDesc xml:id="crnkovic-p-epist">
          <titleStmt>
-            <title>Epistula ad Paulum Ritter, versio electronica</title>
+            <title>Epistula ad Paulum Ritter (1702), versio electronica</title>
             <author ref="crnkovic01">
                <persName xml:lang="hr">Črnković, Petar Stanislav</persName> 
                <date>1658–1703</date>
             </author>
             <editor>
                <persName>
-                  <ref>Vjekoslav Klaić</ref>
+                  <ref type="viaf" target="55050403">Vjekoslav Klaić</ref>
                </persName>
             </editor>
             <respStmt>
@@ -36,56 +36,7 @@
             <bibl>Klaić, Vjekoslav: Život i djela Pavla Rittera Vitezovića (1652.-1713.). Zagreb : Matica hrvatska, 1914, s. 182-183.</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="18"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="2"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="person" occurs="4"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-      <profileDesc xml:id="crnkovicvitezovic17020928">
+     <profileDesc xml:id="crnkovicvitezovic17020928">
          <abstract>
             <p/>
          </abstract>
@@ -143,49 +94,31 @@
       </change>
       </revisionDesc>
   </teiHeader>
-  <text>
+   <text xml:base="crnkovicp1702.epistulavitezovic17020928.croala">
       <body>
       
          <pb n="182"/>
          <div type="poesis-elegia-epistula" met="elegiacum" corresp="#crnkovicvitezovic17020928">
             <l n="1">Ritter Eques maestum renovasti Paule dolorem, </l>
-             
             <l n="2" met="pentameter">Dum plangis Patriam, deflet et ipsa suos. </l>
-             
             <l n="3">His binis saeclis o quantos perdidit illa, </l>
-             
-            <l n="4" met="pentameter">Qui pro se pugnent, pignora chara. Duces. </l>
-             
+            <l n="4" met="pentameter">Qui pro se pugnent, pignora chara, Duces. </l>    
             <l n="5">Amissos deflens Heroes gaudet, amantes, </l>
-             
-            <l n="6" met="pentameter">Claros et fortes, tot se habuisse viros. </l>
-             
+            <l n="6" met="pentameter">Claros et fortes, tot se habuisse viros. </l>       
             <l n="7">Pressa fuit crebro, nunquam suppressa remansit </l>
-             
             <l n="8" met="pentameter">Tota; Deo, Regi Patria fida stetit. </l>
-             
             <l n="9">Stabit adhuc semper constans, generosior inde, </l>
-             
-            <l n="10" met="pentameter">Hunc librum quando pignora chara legent, </l>
-             
+            <l n="10" met="pentameter">Hunc librum quando pignora chara legent,</l>
             <pb n="183"/>
-            <l n="11">Quem tu fecisti, Patriae commotus amore : </l>
-             
+            <l n="11">Quem tu fecisti, Patriae commotus amore: </l>
             <l n="12" met="pentameter">Exemplum, speculum posteritatis erit. </l>
-             
             <l n="13">
-               <persName>Naso</persName> poeta tibi cedat qui se gemit, et flet </l>
-             
+               <persName>Naso</persName> poeta tibi cedat qui se gemit, et flet; </l> 
             <l n="14" met="pentameter">Esto <persName>Virgilius</persName> qui memor es Patriae. </l>
-             
             <l n="15">Et quia pro Patria scribis tu digna, laboras </l>
-             
-            <l n="16" met="pentameter">Non minus, ipsa tibi praemia debet, Eques. </l>
-             
+            <l n="16" met="pentameter">Non minus, ipsa tibi praemia debet, Eques. </l>     
             <l n="17">Plurima scripsisti, liber hic superasse videtur </l>
-             
-            <l n="18" met="pentameter">Omnia; pro Patria scribito plura, Vale.</l>
-             
+            <l n="18" met="pentameter">Omnia; pro Patria scribito plura. Vale.</l>
               </div>
       </body>
   </text>

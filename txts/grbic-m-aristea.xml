@@ -3,18 +3,26 @@
       <fileDesc xml:id="grbic-m-aristea">
          <titleStmt>
             <title>Aristeae historia cum conversione Latina, versio electronica</title>
+            <author key="#anonymus">
+               <ref target="anonymus.280bc">Anonymus</ref>
+               <date>floruit 280 a. Chr. n.</date>
+            </author>
             <author ref="grbic01" role="trl">
-               <persName xml:lang="hr">Grbić Ilirik, Matija</persName>
+               <persName xml:lang="hr" ref="grbicm-v5682091">Grbić Ilirik, Matija</persName>
                <date>1503/1512 - 1559</date>
+            </author>
+            <author ref="croala.publika.schard-v59158070" role="editor">
+               <persName xml:lang="de" ref="v59158070">Schard, Simon</persName>
+               <date>1535 - 1573</date>
             </author>
             <editor>
                <persName>
-                  <ref>Nino Zubović</ref>
+                  <ref type="viaf" target="305630957">Nino Zubović</ref>
                </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
@@ -34,76 +42,13 @@
             </p>
          </publicationStmt>
          <sourceDesc>
-            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl type="opus"><ref type="croala" target="aristea-v179861036">Aristeae epistula ad Philocratem</ref>
+               <ref type="viaf" target="179861036">VIAF 179861036</ref></bibl>
             <bibl>Aristeas De legis divinae, ex Hebraica lingua in Graecam translatione per septuaginta interpretes ... absoluta historia ... cum conversione Latina autore Matthia Garbitio Basileae Per Joannem Oporinum 1561 24, 87, 98, 13 str. ; 8o
         </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="16"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="4"/>
-          <tagUsage gi="corr" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="6"/>
-          <tagUsage gi="docAuthor" occurs="2"/>
-          <tagUsage gi="docImprint" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="8"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="24"/>
-          <tagUsage gi="item" occurs="327"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="list" occurs="20"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="129"/>
-          <tagUsage gi="opener" occurs="2"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="162"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="117"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="quote" occurs="3"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="54"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-      <profileDesc>
+     <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -137,6 +82,14 @@
       </profileDesc>
       <revisionDesc>
          <change>
+            Sustavno reorganiziranje metapodataka i ID oznaka, povezivanje s bibliografijom.
+            Priprema za preimenovanje i Deliciae auctorum Croatiae.
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2021-05-12</date>
+         </change>
+         <change>
         Početna verzija. Latinski spellcheck.
         <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -158,7 +111,7 @@
             <docAuthor>Cum conversione Latina, autore Matthia Garbitio.</docAuthor>
             <docImprint>Basileae, per Ioannem Oporinum.</docImprint>
          </titlePage>
-         <div type="prosa-epistula">
+         <div type="prosa-epistula" xml:base="schardius-s.aristeaepistula1561.croala">
             <opener>Illustri et generoso viro Huldricho Fuggero, Kirchpergae et Weissenhorni Domino,
           viro eruditione, pietate et virtute amplissimo. S. P.</opener>
             <p>Si quae, ut censent, Fuggere generosissime, ex conquisitione, vel publicatione
@@ -240,7 +193,8 @@
           amplissimis donatos ita dimittit, ut illos subinde redire precetur, eorumque adventu
           maxima bona sibi contigisse profiteatur. Neque sane id sine causa, nam et rectam <pb n="VIII"/>
           regnandi rationem ab ipsis perceperat, et (ut Eleazarus de illo refert) compererat
-          <foreign xml:lang="grc">ἄνδρας δικαίους και σώφρονας τὴν μεγίστην ἂν φυλακὴν τῆς βασιλείας ἕξειν</foreign>.<note place="foot" n="1">
+          <foreign xml:lang="grc">ἄνδρας δικαίους και σώφρονας τὴν μεγίστην ἂν φυλακὴν τῆς βασιλείας ἕξειν</foreign>.<anchor xml:id="grbic-m-aristea001" ana="xmleditor" resp="#NJ"/>
+               <note place="foot" n="1" target="#grbic-m-aristea001">
                   <p> Aristeae epistula ad Philocratem 125.2.</p>
                </note> Noratque cum
           aliis regibus quamplurimis literatos charos gratosque fuisse: tum vero Alexandrum, cuius
@@ -338,7 +292,7 @@
             </closer>
             <pb n="XVII"/>
          </div>
-         <div type="prosa-argumentum">
+         <div type="prosa-argumentum" xml:base="schardius-s.aristeaargumentum.croala">
             <head>Argumentum libri autore Simone Schardio.</head>
             <p>Cum rex Aegypti Ptolemaeus Philadelphus Bibliothecam insignem, omnique librorum genere
           instructam, adornare constituisset, eius negocii partes Demetrio Phalereo dedit. Is
@@ -395,7 +349,7 @@
       </front>
       <body>
       
-         <div type="prosa-versio-historia">
+         <div type="prosa-versio-historia" xml:base="grbicm-v5682091.aristea-v179861036.croala">
             <head>Aristeae, de legis divinae ex Hebraica lingua in Gręcam translatione, per Septuaginta
           interpretes facta, Historia: Mathia Garbitio interprete. </head>
             <div type="prosa-epistula">
@@ -432,9 +386,10 @@
             doctrinae et eruditionis cultura, et quę in hęc confertur cura et opera. Sed ne
             protrahendo pręfationem, incidamus in vicium alicuius garrulitatis, accedere volumus ad
             persequendam commemorationem susceptam.</p>
+               <note place="margin">Demetrius Phalereus</note>
                <p> 
                   <pb n="4"/> 
-                  <note place="margin">Demetrius Phalereus</note> Demetrius ille Phalereus, cum esset praefectus
+                   Demetrius ille Phalereus, cum esset praefectus
             regiae Bibliothecae, diligenti studio multa et varia impendit, ad colligendos, si quo
             modo fieri posset, omnes in mundo libros. nam et emptionibus et descriptionibus librorum
             a se procuratis studuit, quantum in se esset, regis perficere voluntatem. Ex quo
@@ -547,10 +502,10 @@
             numerum et apparatum eorum quae fuerunt dono missa Eleazaro, propterea quod eorum
             quodque excellebat et munificentia et arte. Ad hunc autem modum Demetrius sententiam
             suam regi exposuit.</p>
-               <quote>
-                  <p>
-                     <note place="margin">Epistola Demetrii Phalerei de libris Iudaeorum
-                describendis</note> Cum Rex mandaveris mihi, ut qui deessent Bibliothecae tuae
+               <note place="margin">Epistola Demetrii Phalerei de libris Iudaeorum
+                  describendis</note> 
+               <p><quote>
+                  <ab>Cum Rex mandaveris mihi, ut qui deessent Bibliothecae tuae
               libri, eos curarem ad eam complendam conquisitos colligi: et simul si quid detrimenti
               cepissent, illos ad modum convenientem reficerem: ego hactenus non segnem in hoc
               operam navavi. Et nunc praeterea ad te refero, Legum Iudaicarum libros cum paucis
@@ -568,8 +523,9 @@
               viros maxime honestate vitae, senio et prudentia legum suarum praestantes: ut ita ex
               pluribus per diligentem examinationem nacti consentientem et accuratam
               interpretationem, hos libros pręclare, ut et rei ipsius et tuae voluntatis dignitas
-              postulat, recondamus. Sis felix perpetuo.</p>
+              postulat, recondamus. Sis felix perpetuo.</ab>
                </quote>
+               </p>
                <p> Facta hac relatione, Rex iussit ad Eleazarum istis de rebus scribi, et indicari
             redemptionem captivorum factam. Ac exhibuit ad confectionem craterarum, phialarum,
             mensae et vasorum <pb n="14"/> libationum, de auro quinquaginta pondo talentorum, de argento
@@ -578,10 +534,10 @@
             sacrificia et res alias ad talenta centum. Sed exponemus tibi etiam, quomodo singula
             fuerunt confecta, ubi epistolam regiam percurrerimus, quae ad hunc modum conscripta
             fuit.</p>
-               <quote>
-                  <p>Rex Ptolemaeus Eleazaro summo sacerdotum gaudium et salutem precatur.</p>
-                  <p> 
-                     <note place="margin">Epistola regis ad Eleazarum, de mittendis interpretibus</note> Quoniam evenit,
+               <note place="margin">Epistola regis ad Eleazarum, de mittendis interpretibus</note>
+               <p><quote>
+                  <ab>Rex Ptolemaeus Eleazaro summo sacerdotum gaudium et salutem precatur.</ab>
+                  <ab>Quoniam evenit,
             ut multi ex Iudaeis incolerent regionem nostram, quorum alii Hierosolymis abducti sunt a
             Persis tum temporis, cum illi potirentur rerum: alii cum patre nostro capti in regionem
             nostram pervenerunt, ex quibus ille multos selectos in exercitum et ad militiae usum
@@ -608,15 +564,15 @@
             primitias nostrae dedicationis, et ad sacra aliosque usus pecuniae talenta centum. Si
             autem et tu ad nos scripseris de quibus placuerit, rem et nobis gratam, et amicitia tua
             erga nos dignum facies. nam nos statim effecta curabimus, de quibus nos voluntatem tuam
-            cognoverimus. </p>
-                  <p>Vale. </p>
+            cognoverimus.</ab>
+                  <ab>Vale.</ab>
                </quote>
+               </p>
                <p>Ad hanc epistolam Eleazarus haec benigne rescripsit.</p>
-        
-               <quote type="div2">
-                  <p> Eleazarus summus sacerdos regi Ptolemaeo amico sincero Salutem. </p>
-                  <p> 
-                     <note place="margin">Eleazari pontifici ad regis Ptolemaei epistolam responsio</note> Valeas et tu,
+               <note place="margin">Eleazari pontifici ad regis Ptolemaei epistolam responsio</note>
+               <p><quote>
+                  <ab> Eleazarus summus sacerdos regi Ptolemaeo amico sincero Salutem.</ab>
+                  <ab>Valeas et tu,
             et regina Arsinoe soror tua: liberi etiam bene, et, ut cupimus, <pb n="17"/> habeant: valemus
             autem et nos. Accepta epistola tua, valde gavisi sumus, ob institutum et consilium tuum
             tam praeclarum: ac congregatae universae multitudini praelegimus, ut cognoscerent tuam
@@ -637,9 +593,9 @@
             procederet. Atque in praesentia omnium, eligimus honestos et bonos viros ex singulis
             tribubus sex seniores, quos etiam misimus ad te, una cum lege. Tu vero Rex iuste et
             praeclare facies, si post absolutam ex mandato tuo descriptionem librorum, curabis ut
-            isti viri rursus nobis tuto restituantur. Vale. </p>
+            isti viri rursus nobis tuto restituantur. Vale. </ab>
                </quote>
-          
+               </p>
                <p> 
                   <note place="margin">Nomina interpretum ab Eleazaro missorum ad legis interpretationem</note> Ex
             prima autem tribu hi sunt:</p>
@@ -1716,13 +1672,16 @@
             consequaris studii tui pulcherrimum praemium.</p>
                <closer>FINIS.</closer>
         
-            </div>
-            <div type="errata">
+            </div></div>
+      </body>
+     <back>
+        
+        <div type="errata" xml:base="grbic-m-aristeaerrata.croala">
                <head>ERRATA.</head>
                <p>Pag. 11 vers. 24. omni in re decreta 25.5. clavis 27.6. craterum 29.9. superliminarium
           85.16. primum 93.23. veniebant </p>
             </div>
-            <div type="index">
+        <div type="index" xml:base="grbic-m-aristeaindex.croala">
                <head>RERUM ET VERBORUM in Aristeae Historia memorabilium INDEX.</head>
                <list type="index-div">
                   <head>A</head>
@@ -2120,7 +2079,7 @@
                </list>
                <closer>FINIS.</closer>
             </div>
-         </div>
-      </body>
+         
+     </back>
   </text>
 </TEI>
