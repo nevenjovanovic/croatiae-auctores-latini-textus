@@ -4,25 +4,22 @@
       <fileDesc xml:id="paskalic-l-c">
          <titleStmt>
             <title>Carmina, versio electronica</title>
-            <author ref="#varii-1551">
-               <orgName ref="#varii-1551">Auctores varii:</orgName>
-            </author>
-            <author ref="paskal01">
+            <author ref="http://www.wikidata.org/entity/Q16111287">
                <persName xml:lang="hr">Paskalić, Ludovik</persName>
                <date>c. 1500–1551</date>
             </author>
-            <author ref="#alienus-viaf73909990">
+            <author ref="https://viaf.org/viaf/73909990">
                <persName xml:lang="it" type="viaf" ref="73909990">Camillo, Giulio</persName>, <date>c. 1480–1544</date>
             </author>
-            <author ref="#alienus-viaf21394">
+            <author ref="https://viaf.org/viaf/21394">
                <persName xml:lang="it" ref="21394" type="viaf">Molza, Francesco Maria</persName>, Modena, <date>18. 6. 1489 – 28. 2. 1544</date>
             </author>
-            <author ref="#alienus-viaf3643312">
+            <author ref="https://viaf.org/viaf/3643312">
                <persName xml:lang="it" ref="3643312" type="viaf">Volpe, Giovanni Antonio</persName>, <date>1515–1558</date>
             </author>
             <editor>
                <persName>
-                  <ref>Sanja Perić Gavrančić</ref>
+                  <ref target="http://viaf.org/viaf/54388439">Sanja Perić Gavrančić</ref>
                </persName>
             </editor>
             <respStmt>
@@ -45,10 +42,11 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
-            <bibl>Paskalić, Ludovik: Ludouici Pascalis, Iulii Camilli, Molsae, et aliorum illustrium
+            <bibl xml:id="V1551">Paskalić, Ludovik: Ludouici Pascalis, Iulii Camilli, Molsae, et aliorum illustrium
                poetarum carmina, ad illustriss. et doctiss. marchionem Auriae Bernardinum Bonifatium
                per Ludouicum Dulcium nunc primum in lucem aedita. Venetiis: apud Gabrielem Iolitum
                et fratres De Ferrariis (1551)</bibl>
+            <bibl xml:id="VD">MS Varia Dalmatica, Zadar, Znanstvena knjižnica</bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -1830,8 +1828,8 @@
         <!-- dodao nešto varijanata iz VD -->
                <head>
                   <app>
-                     <rdg wit="V1551">EIUSDEM SYLVA AD GALLIAE / REGEM RELIQUOSQUE / PRINCIPES CHRISTIANOS</rdg>
-                     <rdg wit="VD">Sylua prima eiusdem Ludouici Paschalis Catharensis ad Regem Gallorum, reliquosque christianos Principes contra Turcas exortatio</rdg>
+                     <rdg wit="#V1551">EIUSDEM SYLVA AD GALLIAE / REGEM RELIQUOSQUE / PRINCIPES CHRISTIANOS</rdg>
+                     <rdg wit="#VD">Sylua prima eiusdem Ludouici Paschalis Catharensis ad Regem Gallorum, reliquosque christianos Principes contra Turcas exortatio</rdg>
                   </app>
                </head>
                <l n="4.1.1">O qui terrarum magnas moderaris habenas,</l>
@@ -1839,8 +1837,8 @@
                <l n="4.1.3">Inde Pyrenaei praerupto vertice montes.</l>
                <l n="4.1.4">Obcingunt, mediasque vago secat amne Garumna, </l>
                <l n="4.1.5">Quem Pater <app>
-                     <rdg wit="V1551">aeterno</rdg>
-                     <rdg wit="VD">immenso</rdg>
+                     <rdg wit="#V1551">aeterno</rdg>
+                     <rdg wit="#VD">immenso</rdg>
                   </app> superum dignavit honore,</l>
                <l n="4.1.6">Excelsumque dedit super omnia nomina nomen:</l>
                <l n="4.1.7">En tibi protensis tellus Oenotria palmis</l>
@@ -1857,8 +1855,8 @@
                <l n="4.1.17">Invisaeque animum gentis saturasse ruina,</l>
                <l n="4.1.18">Ut, procul infrenis dum te rapit impetus irae,</l>
                <l n="4.1.19">Ante tuos oculos frustra, tibi credita, <app>
-                     <rdg wit="V1551">CHRISTE</rdg>
-                     <rdg wit="VD">Christi</rdg>
+                     <rdg wit="#V1551">CHRISTE</rdg>
+                     <rdg wit="#VD">Christi</rdg>
                   </app>
                </l>
                <l n="4.1.20">Hei mihi Barbaricae populentur ovilia turmae.</l>
@@ -1871,27 +1869,27 @@
                <l n="4.1.27">Semper habere Ducem, solum nunc sentiat hostem,</l>
                <l n="4.1.28">
                   <app>
-                     <rdg wit="V1551">Solius</rdg>
-                     <rdg wit="Vd">Illius</rdg>
+                     <rdg wit="#V1551">Solius</rdg>
+                     <rdg wit="#Vd">Illius</rdg>
                   </app> infestis videat sua templa catervis</l>
                <l n="4.1.29">Et sua sacra rapi: nec te super aethera fama</l>
                <l n="4.1.30">
                   <app>
-                     <rdg wit="V1551">Cognite</rdg>
-                     <rdg wit="VD">Cognita</rdg>
+                     <rdg wit="#V1551">Cognite</rdg>
+                     <rdg wit="#VD">Cognita</rdg>
                   </app> commoveant proavorum exempla tuorum;</l>
                <l n="4.1.31">Qui toties Scythico Latium turbante tumultu</l>
                <l n="4.1.32">
                   <app>
-                     <rdg wit="V1551">Transgressi</rdg>
-                     <rdg wit="Vd">Transuecti</rdg>
+                     <rdg wit="#V1551">Transgressi</rdg>
+                     <rdg wit="#Vd">Transuecti</rdg>
                   </app> gelidas multa cum laude per Alpes,</l>
                <l n="4.1.33">Sponte sua, afflictis per mille pericla tulere</l>
                <l n="4.1.34">Rebus opem, mediisque feri de faucibus hostis</l>
                <l n="4.1.35">Innocuos rapuere greges: maioraque longe</l>
                <l n="4.1.36">Audentes, <app>
-                     <rdg wit="V1551">tumida victricia</rdg>
-                     <rdg wit="Vd">tumidas foelicia</rdg>
+                     <rdg wit="#V1551">tumida victricia</rdg>
+                     <rdg wit="#Vd">tumidas foelicia</rdg>
                   </app> signa per undas</l>
                <l n="4.1.37">Vecta Palestinae fixere in littore terrae;</l>
                <l n="4.1.38">Tantus erat pietatis amor, CHRISTIQUE recepto</l>
@@ -2048,8 +2046,8 @@
                   <l n="4.2.1.5">Dumque alii varias versant sub pectore curas,</l>
                   <l n="4.2.1.6">		Tu mecum haec hylari carmina fronte lege.</l>
                   <l n="4.2.1.7">Bella gerant fortes; <app>
-                        <rdg wit="V1551">sed</rdg>
-                        <rdg wit="VD">at</rdg>
+                        <rdg wit="#V1551">sed</rdg>
+                        <rdg wit="#VD">at</rdg>
                      </app> nos lateamus inermes:</l>
                   <l n="4.2.1.8">		Sit tibi Corytium, sit mihi Parma nemus.</l>
                   <l n="4.2.1.9">Forsan et hic nostris aliquid succurret avenis,</l>
@@ -2058,8 +2056,8 @@
                <div type="poesis-silva" xml:id="pasch4.3" met="hexameter">
                   <head>
                      <app>
-                        <rdg wit="V1551">DE SPECU CORYTIO SILVA.</rdg>
-                        <rdg wit="VD">Ad Eundem de Nemore Corytio. Sylua Tertia</rdg>
+                        <rdg wit="#V1551">DE SPECU CORYTIO SILVA.</rdg>
+                        <rdg wit="#VD">Ad Eundem de Nemore Corytio. Sylua Tertia</rdg>
                      </app>
                   </head>
                   <lg>
@@ -2070,8 +2068,8 @@
                      <l n="4.2.2">Paulisper, Scythicisque iacet Mars fessus in antris,</l>
                      <l n="4.2.2">Semideos, Nymphasque canam, camposque virentes,</l>
                      <l n="4.2.2">Corytiumque Nemus. Vos o <app>
-                           <rdg wit="V1551">bona</rdg>
-                           <rdg wit="VD">pia</rdg>
+                           <rdg wit="#V1551">bona</rdg>
+                           <rdg wit="#VD">pia</rdg>
                         </app> numina coeptis</l>
                      <l n="4.2.2">Aspirate meis, quibus haec inculta dicamus</l>
                      <l n="4.2.2">Carmina, sed gratam certe testantia mentem.</l>
@@ -2081,8 +2079,8 @@
                      <l n="4.2.2">Intonsosque Syros, Regio; quam desuper horrens</l>
                      <l n="4.2.2">Taurus, et ingenti se vertice tollit Amanus;</l>
                      <l n="4.2.2">Qua mediam niveo <app>
-                           <rdg wit="V1551">praeterfluit aequora</rdg>
-                           <rdg wit="VD">praetermeat aequore</rdg>
+                           <rdg wit="#V1551">praeterfluit aequora</rdg>
+                           <rdg wit="#VD">praetermeat aequore</rdg>
                         </app> Tarson</l>
                      <l n="4.2.2">Cydnus, honorato quem fundit ab amne Coaspes.</l>
                      <l n="4.2.2">Hic super impositus pelago sublimis, opacum</l>
@@ -2090,8 +2088,8 @@
                      <l n="4.2.2">Corythium indigenae patrio cognomine dicunt:</l>
                      <l n="4.2.2">Quod circum laetas densum nemus efficit umbras,</l>
                      <l n="4.2.2">Et <app>
-                           <rdg wit="V1551">placidae</rdg>
-                           <rdg wit="VD">placido</rdg>
+                           <rdg wit="#V1551">placidae</rdg>
+                           <rdg wit="#VD">placido</rdg>
                         </app> labuntur aquae, quo credere dignum est</l>
                      <l n="4.2.2">Naturam artificem caecis spectacula terris </l>
                      <l n="4.2.2">Admiranda sui voluisse ostendere partus.</l>
@@ -2294,8 +2292,8 @@
             <div type="poesis-silva" xml:id="pasch4.4" met="hexameter">
                <head>
                   <app>
-                     <rdg wit="V1551">IN FOEDUS ICTUM INTER PRINCIPES CHRISTIANOS, SYLVA.</rdg>
-                     <rdg wit="VD">In foedus ictum inter Principes Christianos. <milestone unit="page" n="VD075v"/> Sylua secunda</rdg>
+                     <rdg wit="#V1551">IN FOEDUS ICTUM INTER PRINCIPES CHRISTIANOS, SYLVA.</rdg>
+                     <rdg wit="#VD">In foedus ictum inter Principes Christianos. <milestone unit="page" n="VD075v"/> Sylua secunda</rdg>
                   </app>
                </head>
                <lg>
@@ -2318,8 +2316,8 @@
                   <milestone unit="page" n="V044v"/>
                   <l n="4.3">Et qua stelliferi radices lambit Atlantis</l>
                   <l n="4.3">Oceanus, posuitque suas <app>
-                        <rdg wit="V1551">Tyrrinthius</rdg>
-                        <rdg wit="VD">Tyrrintius</rdg>
+                        <rdg wit="#V1551">Tyrrinthius</rdg>
+                        <rdg wit="#VD">Tyrrintius</rdg>
                      </app> aras,</l>
                   <l n="4.3">Et qua perpetuis nivibus riget ultima Thile</l>
                   <l n="4.3">Parrhasiae damnata ferae, quaque accipit ortus</l>
@@ -2334,29 +2332,29 @@
                <lg>
                   <l n="4.3">At quamvis mediis hinc atque hinc numina votis</l>
                   <l n="4.3">Aequa forent, <app>
-                        <rdg wit="V1551">tantasque</rdg>
-                        <rdg wit="Vd">tantęque</rdg>
+                        <rdg wit="#V1551">tantasque</rdg>
+                        <rdg wit="#Vd">tantęque</rdg>
                      </app> regat sors molis habenas:</l>
                   <l n="4.3">Non tamen eventu rerum cessabitur aequo.</l>
                   <milestone unit="page" n="V076r"/>
                   <l n="4.3">Si quid enim <app>
-                        <rdg wit="V1551">valet armorum</rdg>
-                        <rdg wit="Vd">rerum ualet</rdg>
+                        <rdg wit="#V1551">valet armorum</rdg>
+                        <rdg wit="#Vd">rerum ualet</rdg>
                      </app> experientia, si quid</l>
                   <l n="4.3">In Marte ingenium, virtusque, animusque pericli</l>
                   <l n="4.3">Contemptor, nulliquie obnoxia corda pavori,</l>
                   <l n="4.3">Vinces Sancte senex, vinces Leo, tuque rebelles</l>
                   <l n="4.3">Disiicies late volucrum Regina catervas,</l>
                   <l n="4.3">Queis tantum furor, et rabies, <app>
-                        <rdg wit="V1551">sed</rdg>
-                        <rdg wit="Vd">at</rdg>
+                        <rdg wit="#V1551">sed</rdg>
+                        <rdg wit="#Vd">at</rdg>
                      </app> pectus egenum</l>
                   <l n="4.3">Virtutis, patrioque animus algentior Aebro.</l>
                </lg>
                <l n="4.3.1">Horrendum fuerat, et formidabile nomen</l>
                <l n="4.3.2">Barbaricum, multos ad <app>
-                     <rdg wit="V1551">saecula</rdg>
-                     <rdg wit="Vd">tempora</rdg>
+                     <rdg wit="#V1551">saecula</rdg>
+                     <rdg wit="#Vd">tempora</rdg>
                   </app> nostra per annos:</l>
                <l n="4.3.3">At nunc, si qua prius fuit huius gloria gentis,</l>
                <l n="4.3.4">In ventos abiit, turpique est obruta labe.</l>
@@ -2462,8 +2460,8 @@
                   <l n="4.3">Nec Caesar negat auxilium. Venere tenentes</l>
                   <l n="4.3">Scaeptra maris Ligures, necnon trinacria pubes,</l>
                   <l n="4.3">Et Melitaea Rhodos <app>
-                        <rdg wit="V1551">veterem mutata figuram:</rdg>
-                        <rdg wit="VD">ueteres mutata penates,</rdg>
+                        <rdg wit="#V1551">veterem mutata figuram:</rdg>
+                        <rdg wit="#VD">ueteres mutata penates,</rdg>
                      </app>
                   </l>
                   <l n="4.3">Tum, qui nubivago Balearica littora plumbo</l>
@@ -2471,23 +2469,23 @@
                   <l n="4.3">Quosque Pyrenaeis Hispania misit ab oris,</l>
                   <l n="4.3">Quam Bethis, quam findit Anas, et maior Iberus,</l>
                   <l n="4.3">Et Tagus auriferis quam <app>
-                        <rdg wit="V1551">nobis</rdg>
-                        <rdg wit="VD">nobiles</rdg>
+                        <rdg wit="#V1551">nobis</rdg>
+                        <rdg wit="#VD">nobiles</rdg>
                      </app> irrigat undis;</l>
                   <l n="4.3">Qui sinuosa colunt Tyrrheni littora ponti,</l>
                   <l n="4.3">
                      <app>
-                        <rdg wit="VD">Qui Calabros montes habitantque Lacinia saxa</rdg>
+                        <rdg wit="#VD">Qui Calabros montes habitantque Lacinia saxa</rdg>
                      </app>
                   </l>
                   <l n="4.3">
                      <app>
-                        <rdg wit="VD">Quosque Phalantęi mollis tenet ora Tarenti</rdg>
+                        <rdg wit="#VD">Quosque Phalantęi mollis tenet ora Tarenti</rdg>
                      </app>
                   </l>
                   <l n="4.3">
                      <app>
-                        <rdg wit="VD">Oraque Gargani mediisque in fluctibus Ancon,</rdg>
+                        <rdg wit="#VD">Oraque Gargani mediisque in fluctibus Ancon,</rdg>
                      </app>
                   </l>
                   <l n="4.3">Venerunt ad iussa alacres sub nomine magni</l>
@@ -2499,8 +2497,8 @@
                <lg>
                   <l n="4.3">At vos, quos sancto iunxerunt foedere Divi </l>
                   <l n="4.3">Tuque adeo Caesar, cui se fortuna <app>
-                        <rdg wit="V1551">perennem</rdg>
-                        <rdg wit="VD">uolenti</rdg>
+                        <rdg wit="#V1551">perennem</rdg>
+                        <rdg wit="#VD">uolenti</rdg>
                      </app>
                   </l>
                   <l n="4.3">Dat sociam ,virtusque Ducem, cui terra fretumque</l>
@@ -2517,12 +2515,12 @@
                <lg>
                   <l n="4.3">Ite alacres, properate citi: nil vestra moretur</l>
                   <l n="4.3">Arma Deis ducibus: <app>
-                        <rdg wit="V1551">vobiscum Fasque</rdg>
-                        <rdg wit="VD">vobisque phasque</rdg>
+                        <rdg wit="#V1551">vobiscum Fasque</rdg>
+                        <rdg wit="#VD">vobisque phasque</rdg>
                      </app> piumque</l>
                   <l n="4.3">
                      <app>
-                        <rdg wit="VD">Et pietatis amor, causę et melioris honestas</rdg>
+                        <rdg wit="#VD">Et pietatis amor, causę et melioris honestas</rdg>
                      </app>
                   </l>
                   <l n="4.3">Et tandem plenis veniet victoria velis.</l>
