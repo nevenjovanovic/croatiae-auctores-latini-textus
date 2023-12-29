@@ -1,129 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="marul-mar-dial">
-            <titleStmt>
-                <title>Dialogvs de Hercule a Christicolis superato, versio electronica</title>
-                <author ref="marul01">
-                    <persName xml:lang="hr">Marulić, Marko</persName>
-                    <date>1450-1524</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="marul-mar-dial">
+         <titleStmt>
+            <title>Dialogvs de Hercule a Christicolis superato, versio electronica</title>
+            <author ref="marul01">
+               <persName xml:lang="hr">Marulić, Marko</persName>
+               <date>1450-1524</date>
+            </author>
+            <editor>
                <persName>
                   <ref>Branimir Glavičić</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName xml:id="NJ">
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Digitalizat modernog znanstvenog izdanja (1992).
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat modernog znanstvenog izdanja (1992).
                 </p>
-            </editionStmt>
-            <extent ana="C">Mg:C Verborum 8236</extent>
-            <publicationStmt>
-                <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum 8236</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2009-07">Srpanj 2009</date>.</p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                <title level="a">M. MARVLI DIALOGVS DE HERCVLE 
-                A CHRISTICOLIS SVPERATO</title> 
-                    <author>Marulić, Marko </author> 
+                A CHRISTICOLIS SVPERATO</title>
+               <author>Marulić, Marko </author>
                <date>1450–1524</date>
-                    <respStmt>
-                  <resp>Edidit</resp> 
+               <respStmt>
+                  <resp>Edidit</resp>
                   <name>Branimir Glavičić</name>
                </respStmt>, 
                     <title level="m">Latinska manja djela I</title>
-                    <respStmt>
-                        <resp>Preveo, komentirao, priredio latinski tekst i dodao
+               <respStmt>
+                  <resp>Preveo, komentirao, priredio latinski tekst i dodao
                             kazala 
                         </resp>
-                        <name>Branimir Glavičić</name>
-                    </respStmt>
-                    <title level="s">Sabrana djela Marka Marulića = Opera omnia</title>
-                    <biblScope>knj. 8</biblScope>
-                    <pubPlace>Split</pubPlace>
-                    <publisher>Književni krug</publisher> 
-                    <date>1992</date>
-                    <edition>2, dotjerano i dopunjeno izdanje.</edition>
-                    <extent>p. 19–138</extent>
-                </bibl>
+                  <name>Branimir Glavičić</name>
+               </respStmt>
+               <title level="s">Sabrana djela Marka Marulića = Opera omnia</title>
+               <biblScope>knj. 8</biblScope>
+               <pubPlace>Split</pubPlace>
+               <publisher>Književni krug</publisher>
+               <date>1992</date>
+               <edition>2, dotjerano i dopunjeno izdanje.</edition>
+               <extent>p. 19–138</extent>
+            </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="biblScope" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="4"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="div" occurs="4"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="3"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="22"/>
-          <tagUsage gi="name" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="68"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="70"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="ptr" occurs="2"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="q" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="3"/>
-          <tagUsage gi="respStmt" occurs="3"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="18"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="63"/>
-          <tagUsage gi="speaker" occurs="63"/>
-          <tagUsage gi="tagUsage" occurs="54"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="4"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -137,68 +74,62 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1519" period="15xx_1_third">1519-1520</date>
-            </creation>
+            <date when="1519" period="15xx_1_third">1519-1520</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - dialogus</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - dialogus</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-04-30</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-04-30</date>
                 Novo, unificirano zaglavlje.
             </change>
-            <change>
-                <date>2011-11-29</date>
-                <persName>
+         <change>
+            <date>2011-11-29</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 recitaucris &gt; recitaueris.
                 "Herculis acta nunc mihi..." preoblikovano u novu repliku
             </change>
-            <change>
-                <date>2010-12-02</date>
-                <persName>
+         <change>
+            <date>2010-12-02</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 perfosspque ispravljeno.
             </change>
-            <change>
-                <date>2009-07-03</date>
-                <persName>
+         <change>
+            <date>2009-07-03</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 TEI zaglavlje uređeno prema PhiloLogic obrascu. 
                 Ukonjene suvišne oznake.
             </change>
-            
-        </revisionDesc>
-        
-        
-    </teiHeader>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <front>
-         <div type="prosa-dedicatio"> 
-
+         <div type="prosa-dedicatio">
             <milestone unit="page"/>
             <opener>MARCVS MARVLVS THOMAE NIGRO, SCARDONENSI EPISCOPO, 
-SALVTEM PLVRIMAM DICIT</opener> 
-
+SALVTEM PLVRIMAM DICIT</opener>
             <p>Audio Te ad episcopalis dignitatis culmen ascendisse. Gaudeo quidem de honore, sed nisi Te 
 satis in omnibus circumspectum nossem, timerem de periculo. Grauius enim elidi necesse est, cui 
 de ęditiore loco ruere contigerit. Te tamen ita officio isto perfuncturum confido, ut adhuc sublimius 
@@ -222,21 +153,18 @@ contrahis? Quid timidus pallescis? Non est, mihi crede, quod timeas. Olim ille m
 nunc a nostris uictus est. Abs Te etiam uictum intelliges, cum ista, quę mittimus, perlegeris; uictum, 
 inquam, non corporis robore, sed, quod multo magnificentius est, animi uirtute. Porro, ne putes me 
 meas nugas tam expolitis Erasmi opusculis conferri uelle, ingenue fatebor: quoties ea lego, toties, 
-quam multa mihi desunt, disco.</p> 
+quam multa mihi desunt, disco.</p>
          </div>
       </front>
       <body>
-        <div type="prosa-dialogus">
+         <div type="prosa-dialogus">
             <milestone unit="page"/>
             <head>M. MARVLI DIALOGVS DE HERCVLE A CHRISTICOLIS SVPERATO 
-CONLOCVTORES THEOLOGVS ET POETA</head> 
-
-
+CONLOCVTORES THEOLOGVS ET POETA</head>
             <sp>
-               <speaker>THEOLOGVS:</speaker> 
+               <speaker>THEOLOGVS:</speaker>
                <p>Salue, poeta, Musarum alumne, laurea corona insignite, lyre carminumque cantu 
-Celeberrime!</p> 
-
+Celeberrime!</p>
             </sp>
             <sp>
                <speaker>POETA:</speaker>
@@ -280,7 +208,7 @@ mortalibus prisci poetę tui praecipuis extollunt laudibus quosue maxime mirantu
             </sp>
             <sp>
                <speaker>POETA:</speaker>
-               <p> 
+               <p>
                   <note place="margin">(Heroes)</note> Nunc, ut reor, nulli, sed multis ante sęculis aliqui fuisse memorantur, ut Hercules, 
 Iason, Perseus, Diomedes Argiuus, Aiax <sic>Thelemonius</sic>, Meleager Calydonius, Vlixes, 
 Theseus, Achilles, Aeneas et his alii similes. Heroas enim nominarunt uiros fortissimos et 
@@ -296,7 +224,7 @@ supra humanam uim euectos ac semideos.
             </sp>
             <sp>
                <speaker>POETA:</speaker>
-               <p> 
+               <p>
                   <note place="margin">(Hercules)</note> Absque ulla controuersia Hercules ipse, utpote ob res pręclare gestas in deos 
 relatus, opinione eorum, qui olim ante nos in terra uixere. Et quidem plura magisque 
 admiratione digna de illo narrantur quam de ullo alio ex iis, quorum tibi retuli nomina. 
@@ -342,7 +270,7 @@ postea, quę iniussus uolensque perpetrasse dicitur.
             </sp>
             <sp>
                <speaker>POETA:</speaker>
-               <p> 
+               <p>
                   <note place="margin">(Leo Nemęus I)</note> Euristei mandata sequens, ut Diodorus Siculus, haud parum grauis autor, 
 scriptum nobis rehiquit, Nemęum leonem, qui neque ferro neque ęre neque saxo interfici 
 poterat, brachiorum amplexu grauiter admodum rugientem ad pectus constringens atque anxie 
@@ -363,7 +291,7 @@ stringendus esset, ne suffocaretur, nec ita laxandus, ut mordere posset.
             </sp>
             <sp>
                <speaker>POETA:</speaker>
-               <p> 
+               <p>
                   <note place="margin">(Cerua IV)</note> Audi reliqua, fortasse magis obstupesces. Aeripedem ceruam, pulchritudine 
 conspicuam, aureis cornibus insignem, uiuacissima pernicitate fugacem et quam nulla 
 uelocium canum uis consequi poterat, ingeniosi laquei cuiusdam uenatu captam, ut iussus 
@@ -899,7 +827,7 @@ tricorporeum hominem occidere. Plus est etiam a malis abstinendo bene agere quam
 quę aliorum erant, sibi uendicare. Et quoniam boues, quorum labore fruges comedimus, 
 Hercules largitus est Euristeo, nostri hoc imitari mihi uidentur, quando bonarum actionum 
 laudem non sibi, sed Deo tribuunt, cum psalmista dicentes: <q>Non nobis, Domine, non nobis, 
-sed nomini tuo da gloriam!</q> 
+sed nomini tuo da gloriam!</q>
                   <note place="margin">(Cerberus)</note> Pręter hęc, ad inferos descendere et Cerberum 
 tricipitem superne eductum hominibus ostendere, totum hoc fabulosum est et melius atque 
 uerius a nostris quam ab Hercule obseruatum. Quid est enim ad inferos descendere nisi 
@@ -1248,25 +1176,23 @@ maximas. Vtinam quandoque et referre queam, qui me et erroris uacuum et sententi
 compotem reddidisti. Atque interim et tu uale! 
 </p>
             </sp>
-  
          </div>
       </body>
       <back>
-        <div type="poesis-carmen">
+         <div type="poesis-carmen">
             <head>Eiusdem carmen de gestis Herculis</head>
             <gap reason="alibi"/>
             <l>
                <ptr target="http://ffzg.hr/klafil/croala/cgi-bin/getobject.pl?c.4:5.croala.16821"/>
             </l>
-        </div>
-        <div type="poesis-epigramma">
+         </div>
+         <div type="poesis-epigramma">
             <head>Eiusdem tetrasticon</head>
             <gap reason="alibi"/>
             <l>
                <ptr target="http://ffzg.hr/klafil/croala/cgi-bin/getobject.pl?c.4:5.croala.16821"/>
             </l>
-        </div>
-        
+         </div>
       </back>
    </text>
 </TEI>

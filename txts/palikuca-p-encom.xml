@@ -1,13 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="palikuca-p-encom">
          <titleStmt>
-           <title>In suam patriam encomiasticon, editio electronica</title>
-           <author ref="palikuc01">
-              <persName xml:lang="hr">Palikuća, Petar</persName>,
+            <title>In suam patriam encomiasticon, editio electronica</title>
+            <author ref="palikuc01">
+               <persName xml:lang="hr">Palikuća, Petar</persName>,
               Dubrovnik, <date>1564. — 1650.</date>
             </author>
-           <editor>
+            <editor>
                <persName>
                   <ref>Stjepan Krasić</ref>
                </persName>
@@ -18,20 +19,18 @@
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
-
          </titleStmt>
-        <extent ana="A">Mg:A 
+         <extent ana="A">Mg:A 
           66 verborum, versus 10
         </extent>
          <publicationStmt>
-	           <p>Elektronska verzija: Neolatina Croatica, znanstveni
+            <p>Elektronska verzija: Neolatina Croatica, znanstveni
 	   projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
 	   Hrvatska.  <date>Ožujak 2012.</date>
             </p>
-	        </publicationStmt>
-	 
+         </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
@@ -42,54 +41,7 @@
            </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="3"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="10"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="37"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-     <profileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -119,14 +71,14 @@
             </keywords>
          </textClass>
       </profileDesc>
-     <revisionDesc>
+      <revisionDesc>
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
        Početna verzija.
        </change>
-     </revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
@@ -134,27 +86,16 @@
          <gap reason="non-necesse"/>
          <div met="elegiacum" type="poesis-epigramma">
             <head>EIVSDEM IN SVAM PATRIAM ENCOMIASTICON.</head>
-
             <l n="1">Quae iacet Illyricis Elaphite nobilis undis</l>
-             
             <l n="2" met="pentameter">Insula, Racusio subditur imperio.</l>
-             
             <l n="3">Gignit parua viros, melius queis gurgite vasto</l>
-             
             <l n="4" met="pentameter">Nulla per aequoreum gens trabe currit iter.</l>
-             
             <l n="5">Hic nemus Hesperidum, sunt hic Peneia Tempe;</l>
-             
             <l n="6" met="pentameter">Sunt fontis latices, Naiadesque Deae</l>
-             
             <l n="7">Neptunus fert sceptra, Venus Cytherea videtur</l>
-             
             <l n="8" met="pentameter">Post habuisse Gnidon, postque habuisse Cypron.</l>
-             
             <l n="9">I nunc, qui blateras, in nos mendacia scribe;</l>
-             
             <l n="10" met="pentameter">Dentes ni cesses experiere meos.</l>
-             
             <gap reason="non-necesse"/>
          </div>
       </body>

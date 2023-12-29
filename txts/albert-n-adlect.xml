@@ -1,83 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="albert-n-adlect">
-            <titleStmt>
-                <title>Ad lectorem vitae Maruli, versio electronica</title>
-                <author ref="alb02">
-                    <persName xml:lang="hr">Alberti, Nikola</persName>
-                    <date>c. 1450 - c. 1500</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="albert-n-adlect">
+         <titleStmt>
+            <title>Ad lectorem vitae Maruli, versio electronica</title>
+            <author ref="alb02">
+               <persName xml:lang="hr">Alberti, Nikola</persName>
+               <date>c. 1450 - c. 1500</date>
+            </author>
+            <editor>
                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </editor>
-            </titleStmt>
-            <editionStmt>
-                <edition>
+         </titleStmt>
+         <editionStmt>
+            <edition>
                <date>Digitalizat modernog znanstvenog izdanja (2006).</date>
             </edition>
-            </editionStmt>
-            <extent ana="A">Mg:A 6 versus, verborum 44</extent>
-            <publicationStmt>
-                <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName>
+         </editionStmt>
+         <extent ana="A">Mg:A 6 versus, verborum 44</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName>
                   <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Listopad 2011</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Jovanović, Neven: Prolegomena za retoriku Marulićeve splitske ekipe. In:
                     Colloquia Maruliana XV. Split : Književni krug - Marulianum, 2006, S.
                     141--173</bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1" withId="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="6"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="35"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -94,55 +50,52 @@
             <date notBefore="1524" period="15xx_1_third">1524</date>
          </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - epigramma</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
+      <revisionDesc>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <persName>Luka Špoljarić</persName>
             <date>2012-06-12</date>
                 Novo, unificirano zaglavlje. Datoteka rastavljena na cjeline (teme, autori). </change>
-            <change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2011-10-29</date> Auctores elementum ref
                 acceperunt quod notam in prosopographia indicat. </change>
-            <change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2011-10-23T20:46:39</date> Versionem XML
                 fecit. </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            
-                <div type="epigramma" xml:id="nicalb-c03">
-                    <head>14  Nicolaus Albertus ad lectorem</head>
-                    <l>Qui Maruli formam, patriam, dictamina, mores,</l>
-                    <l>    Et tanti qui uult noscere facta uiri,</l>
-                    <l>Quis genitor genitrixque sibi, quibus aeditus annis,</l>
-                    <l>    Qualiter aetherei nunc tenet astra poli,</l>
-                    <l n="5">Natalis legat ille mei monumenta diserti,</l>
-                    <l>    Quo nihil in nostra doctius urbe uiget.</l>
-                </div>
-            
-        </body>
-        
-    </text>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="epigramma" xml:id="nicalb-c03">
+            <head>14  Nicolaus Albertus ad lectorem</head>
+            <l>Qui Maruli formam, patriam, dictamina, mores,</l>
+            <l>    Et tanti qui uult noscere facta uiri,</l>
+            <l>Quis genitor genitrixque sibi, quibus aeditus annis,</l>
+            <l>    Qualiter aetherei nunc tenet astra poli,</l>
+            <l n="5">Natalis legat ille mei monumenta diserti,</l>
+            <l>    Quo nihil in nostra doctius urbe uiget.</l>
+         </div>
+      </body>
+   </text>
 </TEI>

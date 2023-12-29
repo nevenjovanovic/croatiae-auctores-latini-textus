@@ -1,9 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="baricev-aa-eclog">
          <titleStmt>
-            <title>Eclogae, versio electronica</title>
-            <author ref="baric01">
+            <title>Eclogae (1780-1782), versio electronica</title>
+            <author ref="http://www.wikidata.org/entity/Q12626532">
                <persName xml:lang="hr">Baričević, Adam Alojzije</persName>
                <date>1756-1806</date>
             </author>
@@ -35,60 +36,6 @@
             <bibl>Perić, Olga: Ekloge Adama Alojzija Baričevića iz rukopisa u Arhivu HAZU (II B 79). Hrvatska književna baština, 2 (2003), s. 255-268 </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="3"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="10"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="item" occurs="6"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="120" withId="14"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="list" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="32"/>
-          <tagUsage gi="speaker" occurs="32"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="trailer" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -120,17 +67,26 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-    
+         <change>
+            <date>2023-12-28</date>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName> 
+         Dodao Wikidata ID za autora.
+         Uklonio popis tagova.
+         Dodao id za bilješke.
+         Napraviti: ujednačiti u / v?
+         </change>
          <change>
             <date>2012-06-06</date>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName> Početna verzija. Još samo treba urediti fusnote.</change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-        <div type="poesis-ecloga" met="hexameter">
+         <div type="poesis-ecloga" met="hexameter">
             <head>Ecloga qua deplorat rusticus grandine concussam vineam</head>
             <list type="personae">
                <item>Jolas,</item>
@@ -186,7 +142,7 @@
                <l> Lux fuit! Heu tristi lux infensissima clade;</l>
                <l n="25"> Nubila, lurida, squallida, tetrica, terribilis lux!</l>
             </sp>
-        </div>
+         </div>
          <div type="poesis-ecloga" met="hexameter">
             <head>Ecloga nautico-piscatoria in aduentum Pii VI. Pontificis M. Venetias</head>
             <list type="personae">
@@ -259,7 +215,7 @@
             </sp>
             <sp>
                <speaker>Celadon</speaker>
-               <l>Alta tene, rector, clauis saxa aequore tecta </l>
+               <l>Alta tene, rector, clauis<ref target="#n1b"/> saxa aequore tecta </l>
                <l>Abstrusas Syrtes infidaque littora specta.</l>
             </sp>
             <sp>
@@ -276,8 +232,6 @@
                <l xml:id="e2-32b"> O Lycida! Pulcerrima visu</l>
                <l>Fit propior terrasque cita ratis adtigit aura.</l>
             </sp>
-          
-          
             <sp>
                <speaker>Lycidas</speaker>
                <l xml:id="e2-34a" next="#e2-34b">Huc ego contendam, Celadon!</l>
@@ -323,16 +277,17 @@
                <l>Est valido constans animo, licet obsitus annis.</l>
                <l>Nullus ei cultus: niueo sub tegmine tecta est</l>
                <l>Majestas, communis amor, tum florea serta </l>
-               <l n="65">Tempora circumdant. Prior illum quisquis videre</l>
+               <l n="65">Tempora circumdant. Prior illum quisquis videre<ref target="#n2b"/>
+               </l>
                <l>Optat; funduntur lacrymae; pulcra ubere riuo </l>
-               <l>Ora madent tenerosque movent pia gaudia fletus.</l>
+               <l>Ora madent tenerosque movent pia<ref target="#n3b"/> gaudia fletus.</l>
                <l>Procumbunt alii et defigunt oscula plantis</l>
                <l>Mirantesque virum atque auidi spectare sequuntur</l>
                <l n="70">Nympharumque Chori circumfunduntur eunti.</l>
                <l>Nereidumque pater fremit et Neptunia proles </l>
                <l>Certatim ingenti celebrant noua gaudia plausu.</l>
                <l>Hunc ego credebam similem pastoribus istis,</l>
-               <l>Sic noram phocas phocis, cymbasque phaselis</l>
+               <l>Sic noram<ref target="#n4b"/> phocas phocis, cymbasque phaselis</l>
                <l n="75">Ast praestat, quantum nostris his bellica classis</l>
                <l>Cymbis. Hoc etiam memori sub pectore conde. </l>
             </sp>
@@ -364,23 +319,18 @@
                <l>Mox fallam pisces calamo linoque madente.</l>
             </sp>
             <trailer>Finis</trailer>
-          
-        </div>
-      
+         </div>
       </body>
       <back>
          <div type="notes">
-            <note>28 clavis: <emph>corr.</emph> ex clavi</note>
-            <note>65-66 Prior illum quisquis videre optat (vel certat) <emph>scripsit</emph>
-               <emph>in margine, ut verba notata</emph> Illum ruit undique turba / Visum
+            <note xml:id="n1b">28 clavis: <emph>corr.</emph> ex clavi</note>
+            <note xml:id="n2b">65-66 Prior illum quisquis videre / optat (vel certat) <emph>scripsit in margine, ut verba notata</emph> Illum ruit undique turba / Visum
           <emph>commutarentur.</emph>
             </note>
-            <note>67 mouent pia: <emph>scripsit</emph>
-               <emph>in margine, ut verbum notatum </emph>urgebant <emph>commutaretur.</emph>
+            <note xml:id="n3b">67 mouent pia: <emph>scripsit in margine, ut verbum notatum </emph>urgebant <emph>commutaretur.</emph>
             </note>
-            <note>74 noram: <emph>scripsit</emph>
-               <emph>in margine, ut verbum notatum </emph>noueram <emph>corrigeretur</emph>.</note>
+            <note xml:id="n4b">74 noram: <emph>scripsit in margine, ut verbum notatum </emph>noueram <emph>corrigeretur</emph>.</note>
          </div>
       </back>
-  </text>
+   </text>
 </TEI>

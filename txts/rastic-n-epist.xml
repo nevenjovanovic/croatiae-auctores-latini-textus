@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="rastic-n-epist">
-        <titleStmt>
+         <titleStmt>
             <title>Clarissimo Equiti D. Francisco Barbaro S., versio electronica</title>
             <author ref="rest02">
-                <persName xml:lang="hr">Rastić, Nikola</persName>
-                <date>c. 1418.–1454.</date>
+               <persName xml:lang="hr">Rastić, Nikola</persName>
+               <date>c. 1418.–1454.</date>
             </author>
             <editor>
                <persName>
@@ -13,16 +14,16 @@
                </persName>
             </editor>
             <respStmt>
-                <resp>Hanc editionem electronicam curavit</resp>
-                <persName>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
-        </titleStmt>
-        <editionStmt>
+         </titleStmt>
+         <editionStmt>
             <p>Blago moderniziran i ispravljen digitalizat kasnijeg izdanja.</p>
-        </editionStmt>
-        <extent ana="B">Mg:B Verborum 532</extent>
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 532</extent>
          <publicationStmt>
             <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
             projekt na <orgName>
@@ -34,83 +35,29 @@
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Barbaro, Francesco ; Quirini, Angelo Maria (ed.): Francisci Barbari et aliorum ad ipsum epistolae ab anno Chr. 1425-53 (vol. 2). Brixiae : Rizzardi, 1743. p. 196-198, ep. 133 Nicolaus Restis D. F. Barbaro (1451-11-1); <relatedItem type="digitalizat">
-                  <ref type="internet" target="http://books.google.co.uk/books?id=vqoNAAAAQAAJ&amp;pg=PA196">GBS</ref>
+                  <ref type="internet"
+                       target="http://books.google.co.uk/books?id=vqoNAAAAQAAJ&amp;pg=PA196">GBS</ref>
                </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="5"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="10"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="3"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="45"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin">
+            <place ana="origin">
                <placeName ref="https://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName>
             </place>
-             <place ana="destination">
+            <place ana="destination">
                <placeName ref="https://www.wikidata.org/wiki/Q641">Venecija</placeName>
             </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender">
+            <person ana="sender">
                <persName ref="rest02">Rastić, Nikola</persName>
             </person>
-             <person ana="recipient">
+            <person ana="recipient">
                <persName ref="100951498">Barbaro, Francesco</persName>
             </person>
          </particDesc>
@@ -120,39 +67,37 @@
          <creation>
             <date when="1451-01-11" period="14xx_2_third">1451-01-11</date>
             <placeName>Dubrovnik</placeName>
-        </creation>
+         </creation>
          <textClass>
             <keywords scheme="typus">
-                <term>prosa</term>
+               <term>prosa</term>
             </keywords>
             <keywords scheme="aetas">
-                <term>Litterae renatae (1400-1600)</term>
-                <term>Saeculum 15 (1401-1500)</term>
-                <term>1451-1500</term>
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
             </keywords>
             <keywords scheme="genre">
-                <term>prosa oratio - epistula</term>
+               <term>prosa oratio - epistula</term>
             </keywords>
-        </textClass>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2012-04-15</date>
+            <date>2012-04-15</date>
                 Početna verzija.
             </change>
-        </revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
-        <div>
+         <div>
             <pb n="196"/>
             <head>Epistola CXXXIII.</head>
             <opener>Nicolaus Restis clarissimo equiti d. Francisco Barbaro s.</opener>
-            
             <p>Si oblivione, vel potius aliqua intermissione tuae maximae in me benevolentiae his superioribus temporibus saepissime ad te meas litteras dare destitissem, merito hominis ingratissimi nomen, quod ab ineunte aetate mea totis viribus evitare conatus sum, profecto incurrerem. Sed quia illa tempora cum in partibus regni Rassiae, tum etiam in Pannonia me pluribus incumbentibus causis detinuerunt, non parum dolui hanc causam me a scribendo tantum retardare potuisse. Quod tametsi intervallum jam satis longum visum est, tamen et recordatione tuarum clarissimarum virtutum, et tui amplitudine nominis, quod jam in terris quamplurimis celeberrimum est, quam maxime commotus, alienum a professione mea (<corr resp="NJ">quam</corr> et praesens, et per litteras tuae spectabilitati saepissime feceram) esse duxi, ut saltem ad praesens aliquid
             <pb n="197"/>
             tuae dignitati non scriberem. </p>
@@ -165,16 +110,16 @@
             <p>Quod si pro tua humanitate alterum impetravero, alterum vero jam impetratum conservari intellexero, munus 
             <pb n="198"/>
                 divitiarum multarum pretiosius me adquisivisse fatebor. Erit namque mihi hoc praestantissimum munus et ad animi jocunditatem et apud nostros homines ad memoriae dignitatem quam maximam, si in his partibus tua mihi scripta pervenerint. Quamobrem te plurimum exorare ac magnopere obtestari non desinam ne clarissimam auctoritatem spectatissimi et pro maximis gravissimisque causis a toto orbe terrarum cogniti atque probati viri huic meo honori deesse velis. </p>
-            <p>Dolui profecto saepissime, et <bibl>libellum vestrum de re uxoria</bibl> et <bibl>commentariolos Brixienses</bibl> mecum ad has partes non attulisse, cum quibus plurimorum vota, ad quos illorum fama pervenit, adimplerem; quos ut haberem, domino Zachariae nostro causam committere statui.</p> 
-                <closer>
-                    <salute>Vale, pater patriae, et me tibi deditissimo in omni re tuo arbitrio
+            <p>Dolui profecto saepissime, et <bibl>libellum vestrum de re uxoria</bibl> et <bibl>commentariolos Brixienses</bibl> mecum ad has partes non attulisse, cum quibus plurimorum vota, ad quos illorum fama pervenit, adimplerem; quos ut haberem, domino Zachariae nostro causam committere statui.</p>
+            <closer>
+               <salute>Vale, pater patriae, et me tibi deditissimo in omni re tuo arbitrio
                         uti velis.</salute>
-                    <dateline>Ex Ragusio <date when="1451-11-01">
+               <dateline>Ex Ragusio <date when="1451-11-01">
                      <num value="3">III</num>. Idus Januarias
                         MCCCCLI.</date>
                </dateline>
             </closer>
-        </div>
+         </div>
       </body>
-    </text>
+   </text>
 </TEI>

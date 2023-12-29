@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="modr-n-navic">
          <titleStmt>
             <title>Nauicula Petri, versio electronica</title>
@@ -35,61 +36,6 @@
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="2"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="2"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="hi" occurs="12"/>
-          <tagUsage gi="keywords" occurs="6"/>
-          <tagUsage gi="langUsage" occurs="2"/>
-          <tagUsage gi="language" occurs="2"/>
-          <tagUsage gi="milestone" occurs="38"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="103"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="26"/>
-          <tagUsage gi="particDesc" occurs="2"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="2" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="45"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="12"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="2"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -121,47 +67,47 @@
             </keywords>
          </textClass>
       </profileDesc>
-     <profileDesc xml:id="modruskivardai1463">
-        <abstract>
-           <p/>
-        </abstract>
-        <settingDesc>
-           <place ana="origin" type="unknown">
-              <placeName type="unknown">Unknown</placeName>
-           </place>
-           <place ana="destination" type="unknown">
-              <placeName type="unknown">Unknown</placeName>
-           </place>
-        </settingDesc>
-        <particDesc>
-           <person ana="recipient">
+      <profileDesc xml:id="modruskivardai1463">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person ana="recipient">
                <persName ref="nikolamodr01">Nikola Modruški</persName>
             </person>
-           <person ana="sender">
+            <person ana="sender">
                <persName ref="https://www.wikidata.org/wiki/Q1772166">Várdai, István</persName>
             </person>
-        </particDesc>
-        <langUsage>
-           <language ident="lat" xml:lang="hrv">latinski</language>
-        </langUsage>
-        <creation>
-           <date when="1463-11" precision="medium" period="14xx_2_third">1463-11</date>
-        </creation>
-        <textClass>
-           <keywords scheme="typus">
-              <term>poesis</term>
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae renatae (1400-1600)</term>
-              <term>Saeculum 15 (1401-1500)</term>
-              <term>1451-1500</term>
-           </keywords>
-           <keywords scheme="genre">
-              <term>prosa oratio - tractatus</term>
-              <term>prosa oratio - epistula</term>
-           </keywords>
-        </textClass>
-     </profileDesc>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1463-11" precision="medium" period="14xx_2_third">1463-11</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - tractatus</term>
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc>
          <change>
             <persName>
@@ -175,8 +121,9 @@
             <date>2012-04-18T22:48:00</date>
          </change>
       </revisionDesc>
-  </teiHeader>
-   <text xml:base="urn:cts:croala:nikolamodruski23432692.navicula1767587.croala-lat2:" xml:lang="lat">
+   </teiHeader>
+   <text xml:base="urn:cts:croala:nikolamodruski23432692.navicula1767587.croala-lat2:"
+         xml:lang="lat">
       <front>
          <docAuthor>NICOLAI EPISCOPI MODRVSSIENSIS</docAuthor>
          <docTitle>
@@ -207,7 +154,6 @@
          </div>
       </front>
       <body>
-
          <p n="3"> Nauicula Petri periclitatur in fluctibus atque usque in hodiernum diem recto Dei
             consilio fluctuat; neque enim aliud teste Ambrosio nauicula Petri designat quam fidelium
             coetum seu congregationem,<note ana="editorial" place="foot" n="4">Π ecclesia est coetus

@@ -1,49 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="tihic-n-epigr">
-            <titleStmt>
-                <title>In librum statutorum Sibenicensium epigramma, versio electronica</title>
-                
-                <author ref="tihic02">
+   <teiHeader>
+      <fileDesc xml:id="tihic-n-epigr">
+         <titleStmt>
+            <title>In librum statutorum Sibenicensium epigramma, versio electronica</title>
+            <author ref="tihic02">
                <persName xml:lang="hr">Tihić, Nikola</persName>
-                    
-                    <date when="1608" precision="medium">fl. 1608</date>
+               <date when="1608" precision="medium">fl. 1608</date>
             </author>
-                <editor>
+            <editor>
                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
                     Prema faksimilu izvornika (1608).
                 </edition>
-            </editionStmt>
-            <extent ana="A">Mg:A Verborum 47, versus 6</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni projekt na
+         </editionStmt>
+         <extent ana="A">Mg:A Verborum 47, versus 6</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni projekt na
                     <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date when="2010-03">ožujka 2010</date>
             </p>
-            </publicationStmt>
-            
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
-                    <editor>
+               <editor>
                   <persName>
                      <ref>Grubišić, S.</ref>
                   </persName>
-               </editor>  
-                    <editor>
+               </editor>
+               <editor>
                   <persName>
                      <ref>Herkov, Z.</ref>
                   </persName>
@@ -52,60 +50,8 @@
             <bibl>Volumen statutorum legum et reformationum civitatis Sibenici : cum tabula rubricarum. <pubPlace>Venetiis</pubPlace> : <publisher>Apud Nicolaum Morettum</publisher>, <date>1608</date>
             </bibl>
          </sourceDesc>
-            
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="3"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="6"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -119,60 +65,54 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date notBefore="1608" period="16xx_1_third">1608</date>
-            </creation>
+            <date notBefore="1608" period="16xx_1_third">1608</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 17 (1601-1700)</term>
-                    <term>1601-1650</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - epigramma</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 17 (1601-1700)</term>
+               <term>1601-1650</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-07-22</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-07-22</date>
                 Novo, unificirano zaglavlje.
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2010-01-30</date>
+            <date>2010-01-30</date>
                Prva verzija.
             </change>
-            
-        </revisionDesc>
-        
-    </teiHeader>
-    <text type="poesis">
-                <body>
-                    <gap resp="NJ" reason="irrelevant"/>
+      </revisionDesc>
+   </teiHeader>
+   <text type="poesis">
+      <body>
+         <gap resp="NJ" reason="irrelevant"/>
          <milestone unit="page" n="2v"/>
-                    <div type="poesis-epigramma" met="elegiacum">
-                        <head>Ad nobilissimam urbem Sici Nicolai Tranquilli nobilis Sicensis.</head>
-                        <l>Curia te maior, Michaelis maxima diui</l>
-                        <l met="pentameter">Te tutela facit non nituisse minus</l>
-                        <l>Inclita quam uirtus Donati et gloria, caelum</l>
-                        <l met="pentameter">Quem tibi donauit qui tibi tutor erit.</l>
-                        <l>Vrbs o fortunata, beat custodia tanti</l>
-                        <l met="pentameter">En te Donati, te iubar esse canam.</l>
-                    </div>
-                    <gap resp="NJ" reason="irrelevant"/>
-
-                    
-                    
-                </body>
-  </text>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Ad nobilissimam urbem Sici Nicolai Tranquilli nobilis Sicensis.</head>
+            <l>Curia te maior, Michaelis maxima diui</l>
+            <l met="pentameter">Te tutela facit non nituisse minus</l>
+            <l>Inclita quam uirtus Donati et gloria, caelum</l>
+            <l met="pentameter">Quem tibi donauit qui tibi tutor erit.</l>
+            <l>Vrbs o fortunata, beat custodia tanti</l>
+            <l met="pentameter">En te Donati, te iubar esse canam.</l>
+         </div>
+         <gap resp="NJ" reason="irrelevant"/>
+      </body>
+   </text>
 </TEI>

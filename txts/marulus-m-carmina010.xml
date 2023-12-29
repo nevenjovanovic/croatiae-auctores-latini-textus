@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="marulus-m-carmina010">
          <titleStmt>
             <title>Carmina Latina X, versio electronica</title>
@@ -45,66 +46,6 @@
             <bibl>Francisco Javier Juez y Gálvez, Maruliana u Kolumbovoj knjižnici u Sevilli, Colloquia Maruliana, Vol.14 Travanj 2005. Str. 199 - 233</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="15"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="5"/>
-          <tagUsage gi="body" occurs="12"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="div" occurs="210" withId="194"/>
-          <tagUsage gi="docTitle" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="6"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="13"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="group" occurs="1"/>
-          <tagUsage gi="head" occurs="208"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2206" withId="64"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="39"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="11" withId="2"/>
-          <tagUsage gi="ref" occurs="8"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="36"/>
-          <tagUsage gi="speaker" occurs="25"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="9"/>
-          <tagUsage gi="text" occurs="13"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -170,27 +111,28 @@
       </change>
          <change>
             <date>2005-04-08T17:24:54</date>
-            <persName><ref type="viaf" target="6913774">Neven Jovanovic</ref></persName> revision </change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanovic</ref>
+            </persName> revision </change>
       </revisionDesc>
-  </teiHeader>
-  
-   <text xml:base="urn:cts:croala:marulus-m.carmina010.croala-lat1:" xml:lang="lat">
-            <front>
-               <head>Fragmentum</head>
-            </front>
-            <body>
-               <div xml:id="C192" met="hexameter" type="poesis-panegyris">
-                  <head>Panegyris ad Iohannem Antonium Dandolum
+   </teiHeader>
+   <text xml:base="urn:cts:croala:marulus-m.carmina010.croala-lat1:"
+         xml:lang="lat">
+      <front>
+         <head>Fragmentum</head>
+      </front>
+      <body>
+         <div xml:id="C192" met="hexameter" type="poesis-panegyris">
+            <head>Panegyris ad Iohannem Antonium Dandolum
             
           </head>
-                  <l>O ego si tali condenda in carmina cantu
+            <l>O ego si tali condenda in carmina cantu
           </l>
-                  <l>ire queam qualem ...<gap resp="scriba" reason="omisit"/>
-                  </l>
-                  <note resp="NJ">Biblioteca Colombina, Sevilla, Abecedarium B (columna 1200, nota 25):
+            <l>ire queam qualem ...<gap resp="scriba" reason="omisit"/>
+            </l>
+            <note resp="NJ">Biblioteca Colombina, Sevilla, Abecedarium B (columna 1200, nota 25):
             O ego si tali condenda in carmina cantu ire queam qualem · 10808 ·</note>
-               </div>
-            </body>
-         </text>
-         
+         </div>
+      </body>
+   </text>
 </TEI>

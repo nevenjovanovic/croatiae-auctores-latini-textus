@@ -1,82 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="nn-inscriptio-ragninae-1004">
-            <titleStmt>
-                <title>Inscriptio in Chronica Ragusina 1004, versio electronica</title>
-                <author ref="#anonymus_1004">
-                    <persName xml:lang="lat">Anonymus</persName>
-                    <date when="1004">floruit 1004</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="nn-inscriptio-ragninae-1004">
+         <titleStmt>
+            <title>Inscriptio in Chronica Ragusina 1004, versio electronica</title>
+            <author ref="#anonymus_1004">
+               <persName xml:lang="lat">Anonymus</persName>
+               <date when="1004">floruit 1004</date>
+            </author>
+            <editor>
                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </editor>
-            </titleStmt>
-            <editionStmt>
-                <edition>
+         </titleStmt>
+         <editionStmt>
+            <edition>
                     Prema starijem znanstvenom izdanju
                <date>QUO ANNO</date>
             </edition>
-            </editionStmt>
-            <extent ana="A-G">Mg:A-G QUOT versus, verborum QUOT</extent>
-            <publicationStmt>
-                <p>Rad nastao u okviru znanstvenog projekta NOMEN, (<orgName>
+         </editionStmt>
+         <extent ana="A-G">Mg:A-G QUOT versus, verborum QUOT</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta NOMEN, (<orgName>
                   <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>MENSE ANNO</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>FONS</bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="1" withId="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="1"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="3"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="3"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="35"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -94,41 +50,38 @@
             <date notBefore="1234" period="12xx_2_third">1234</date>
          </creation>
          <textClass>
-                <keywords scheme="typus">
+            <keywords scheme="typus">
                     <!-- PROSA / POESIS -->
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
                     <!-- VERBA PRAEDEFINITA -->
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
                     <!-- VERBA PRAEDEFINITA -->
-                    <term>poesis - epigramma</term>
-                </keywords>
-            </textClass>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
+      <revisionDesc>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>ANNUS-MENSIS-DIES</date> Versionem XML
                 fecit. 
             </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            
-                <div type="TYPUS" xml:id="ID-01">
-                    <head>TITULUS</head>
-                    <l>TEXTUS</l>
-                </div>
-            
-        </body>
-        
-    </text>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="TYPUS" xml:id="ID-01">
+            <head>TITULUS</head>
+            <l>TEXTUS</l>
+         </div>
+      </body>
+   </text>
 </TEI>

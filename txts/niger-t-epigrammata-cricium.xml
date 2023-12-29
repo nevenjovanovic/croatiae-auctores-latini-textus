@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-     <fileDesc xml:id="niger-t-epigrammata-cricium">
+   <teiHeader>
+      <fileDesc xml:id="niger-t-epigrammata-cricium">
          <titleStmt>
             <title ref="niger02-epi02-1523">Carmina tria ad Andream Cricium, versio electronica</title>
             <author ref="niger02">
@@ -37,59 +38,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="6"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="7"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="3"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="3"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="64"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="3"/>
-          <tagUsage gi="persName" occurs="4" withId="1"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6" withId="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="18"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="42"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-     <profileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -103,25 +52,25 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-           <date notBefore="1522-12" notAfter="1523-03" period="15xx_1_third">1522-12 - 1523-3</date>
-           <placeName>Krakow</placeName>
-           <date when="1520" period="15xx_1_third">1520</date>
-           <placeName>Rim</placeName>
-        </creation>
+            <date notBefore="1522-12" notAfter="1523-03" period="15xx_1_third">1522-12 - 1523-3</date>
+            <placeName>Krakow</placeName>
+            <date when="1520" period="15xx_1_third">1520</date>
+            <placeName>Rim</placeName>
+         </creation>
          <textClass>
-           <keywords scheme="typus">
-              <term>poesis</term>
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae renatae (1400-1600)</term>
-              <term>Saeculum 16 (1501-1600)</term>
-              <term>1501-1550</term>
-           </keywords>
-           <keywords scheme="genre">
-              <term>poesis - elegia</term>
-              <term>poesis - epigramma</term>
-           </keywords>
-        </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - elegia</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -132,112 +81,68 @@
             Početna verzija
          </change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <pb n="249"/>
          <div type="poesis-elegia" met="elegiacum">
             <head>
                <add>12. </add>Thomas Nigro episcopus Scardonensis apostolicus ad Regem Polonie Sigismundum nuncius Andree Cricio episcopo Premisliensi <add>k. 297a-297b</add>
             </head>
-            
             <l n="1.1">Vir sacer et nostro presul memorabilis euo</l>
-             
             <l n="1.2" met="pentameter">O decus et patrii stella serena soli.</l>
-             
             <l n="1.3">Gloria nam laudum tanta est veneranda tuarum</l>
-             
             <l n="1.4" met="pentameter">Ut qui te solo nomine norit amet.</l>
-             
             <l n="1.5">Te neque <sic>conteritum</sic> vix solo nomine notum</l>
-             
             <l n="1.6" met="pentameter">Prosequor et laudes cogor inire tuas.</l>
-             
             <l n="1.7">Immo tuos doctus quicumque relegerit <sic>orsus</sic>
             </l>
-             
             <l n="1.8" met="pentameter">Cogitur haec Phebo precipiente loqui.</l>
-             
             <l n="1.9">Mantua Virgilium, Ciceronem Romana sileto</l>
-             
             <pb n="250"/>
             <l n="1.10" met="pentameter">En Cicero nostri <corr resp="#NJ">temporis</corr> atque Maro</l>
-             
             <l n="1.11">Nasonem Sulmo taceat, Verona Catullum</l>
-             
             <l n="1.12" met="pentameter">Et sileat vates Itala terra suos.</l>
-             
             <l n="1.13">Ne ferat in celum Milesia terra poetas</l>
-             
             <l n="1.14" met="pentameter">Tuque tuos sileas, Creta diserta, sales</l>
-             
             <l n="1.15">
                <sic>Destinat</sic> insipiens sapientes Grecia <corr resp="#NJ">septem</corr>
             </l>
-             
             <l n="1.16" met="pentameter">Iactare; octavi nos meminisse iuvat.</l>
-             
             <l n="1.17">Hec quicumque tuas vidit legitque Camenas</l>
-             
             <l n="1.18" met="pentameter">Personat et Cricii nomen ad astra levat.</l>
-             
             <l n="1.19">Et merito; quis enim nisi vera probanda <sic>fatur</sic>
             </l>
-             
             <l n="1.20" met="pentameter">Cogitur hec eadem vate iubente loqui.</l>
-             
             <l n="1.21">Nam cui nota magis fuerit Parnasia <sic>ruppes</sic>?</l>
-             
             <l n="1.22" met="pentameter">Cui dederit Latiam Caliopea Chelym?</l>
-             
             <l n="1.23">Quis veneranda <sic>nomen</sic> coluit magis antra sororum?</l>
-             
             <l n="1.24" met="pentameter">Cui dedit auratam doctus Apollo lyram</l>
-             
             <l n="1.25">Quam tibi? Qui tumido cantas fera <sic>bello</sic> cothurno.</l>
-             
             <l n="1.26" met="pentameter">Seu leuibus numeris nectis amoris opus</l>
-             
             <l n="1.27">
                <corr resp="#NJ">Sive</corr> Sophocleo iuvat arma referre cothurno</l>
-             
             <l n="1.28" met="pentameter">
                <corr resp="#NJ">Sevaque</corr> non humili condere<ref>[a]</ref> bella tuba </l>
-             
             <l n="1.29">Sive per alternos Venerem tibi ponere versus.</l>
-             
             <l n="1.30" met="pentameter">Seu placet ad lyrici carminis ire pedem.</l>
-             
             <l n="1.31">Cum sis ergo sacre censor venerandus <sic>pagine</sic>
             </l>
-             
             <l n="1.32" met="pentameter">Cum te Phebus <corr resp="#NJ">amet</corr>, Pieridesque colant.</l>
-             
             <l n="1.33">Cesar Apollinea cinxit tua tempora lauro</l>
-             
             <l n="1.34" met="pentameter">Judicium equali cum dare <sic>Laure</sic> vales.</l>
-             
             <l n="1.35">Carmina nostra refer tibi si subiecta probantur</l>
-             
-            <l n="1.36" met="pentameter">Si nostram docte laudaveris <sic>ode</sic> 
+            <l n="1.36" met="pentameter">Si nostram docte laudaveris <sic>ode</sic>
                <sic>thaliam</sic>
             </l>
-             
             <l n="1.37">Contingam summis sydera verticibus;</l>
-             
-            <l n="1.38" met="pentameter">Protinus<ref>[b]</ref> 
+            <l n="1.38" met="pentameter">Protinus<ref>[b]</ref>
                <sic>lex</sic> triplicem spargam tua gesta per orbem</l>
-             
             <l n="1.39">Syderibusque meo carmine notus eris.</l>
-             
             <l n="1.40" met="pentameter">At si forte meos, presul, damnaveris orsus</l>
-             
             <l n="1.41">Accipiet nostros flamma vel unda modos</l>
-             
             <l n="1.42" met="pentameter">Hactenus haec; brevibus peragetur pagina verbis,</l>
-             
             <l n="1.43">Posthac carminibus vir celebrande meis.</l>
-             
             <note>a: corr. ex contendere</note>
             <note>b: del. Syderibusque meo</note>
          </div>
@@ -246,55 +151,34 @@
                <add>13. [Thomas Nigro]</add> episcopus Scardonensis ad Leonem papam X<add>, k. 297b-297bv</add>
             </head>
             <l n="2.1">Dic, rogo, Leo papa faciat quid hypocrita prestans</l>
-             
             <l n="2.2" met="pentameter">Egidius? Cur non, Graeca pariterque Latina</l>
-             
             <l n="2.3">Necnon Hebrea, Caldea, Arabaque disertus</l>
-             
             <l n="2.4" met="pentameter">Lingua, declaret fratrem nil scire Lutherum?</l>
-             
             <l n="2.5">Quid Gaietanus tribuens sibi cuncta Thomista?</l>
-             
             <l n="2.6" met="pentameter">Cur tuus, Augusta quando legatus in Urbe</l>
-             
             <l n="2.7">Cesaris obstabat velis versansque Lutherum,</l>
-             
             <l n="2.8" met="pentameter">Non illum solitos spretum conclusit ad ignes?</l>
-             
             <l n="2.9">
                <sic>Quid nam</sic> Christophorus nodosus et ille Scholista</l>
-             
             <l n="2.10" met="pentameter">Lignipedum nactus <sic>qui pileum qui</sic> labe Simonis</l>
-             
             <l n="2.11">Cur nunc <sic>veniis</sic> tot opes quibus ipse paravit</l>
-             
             <l n="2.12" met="pentameter">Non stat contra unum, quem spernit et ipse, Lutherum?</l>
-             
             <l n="2.13">Sed scio cur isti muti surdique videntur;</l>
-             
             <l n="2.14" met="pentameter">Quod papam cernunt et mente et lumine castum.</l>
-             
             <pb n="251"/>
             <l n="2.15">Nunc tibi consilium si vis <corr resp="#NJ">prebebo</corr> salubre:</l>
-             
             <l n="2.16" met="pentameter">Ut scribant rursus <sic>rersusque</sic> loquantur ut isti,</l>
-             
             <l n="2.17">Deme illis rubeos pileos et redde cucullos.</l>
-             
          </div>
          <div type="poesis-epigramma" met="elegiacum">
             <head>
                <add>14. </add>Thomas Nigro episcopus Scardonensis ad Andream Cricium episcopum<add>[a], k. 297bv</add>
             </head>
             <l n="3.1">Si tua sic <corr rend="NJ">vulgo</corr> Cricii monumenta leguntur</l>
-             
             <l n="3.2" met="pentameter">Post obitum <sic>quantum</sic> cum laude superstes eris!</l>
-             
             <l n="3.3">Postera quin etiam longe <sic>mirabiliter</sic> etas</l>
-             
             <l n="3.4" met="pentameter">Sarmatico Latinum cedere pene solo.</l>
-                
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

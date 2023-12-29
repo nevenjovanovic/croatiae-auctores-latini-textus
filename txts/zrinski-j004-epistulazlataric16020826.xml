@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-     <fileDesc xml:id="zrinski-j004-epistulazlataric16020826">
+   <teiHeader>
+      <fileDesc xml:id="zrinski-j004-epistulazlataric16020826">
          <titleStmt>
-            <title ref="croala.drama.316631-d1e3">Epistola Georgii Zrinii Dominico Zlatarich, versio electronica</title>
-            <author ref="croala_drama_316631">
+            <title ref="croala.drama.316631-d1e3">Epistola Georgii Zrinii Dominico Zlatarich (1602-08-26), versio electronica</title>
+            <author ref="http://www.wikidata.org/entity/Q681324">
                <persName xml:lang="hr">Zrinski, Juraj IV.</persName>
                <persName xml:lang="la">Zrinius, Georgius IV comes</persName>
                <date>1599-1626</date>
             </author>
             <editor>
                <persName>
-                  <ref type="viaf" target="41870255">Stjepan Krasić</ref>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q12642791">Stjepan Krasić</ref>
                </persName>
             </editor>
             <respStmt>
@@ -40,7 +41,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-     <profileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -65,15 +66,21 @@
                <term>Litterae recentiores (1601-1800)</term>
                <term>Saeculum 17 (1601-1700)</term>
                <term>1601-1650</term>
-          
             </keywords>
             <keywords scheme="genre">
                <term>prosa oratio - epistula</term>
             </keywords>
-        
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change>
+            <date>2023-12-29</date>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName> 
+            Revizija.
+            Dodao Wikidata ID za autora.
+         </change>
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -89,10 +96,11 @@
             Prva XML verzija
          </change>
       </revisionDesc>
-  </teiHeader>
-   <text type="prosa-oratio"  xml:base="urn:cts:croala:zrinski-j004.epistulazlataric16020826.croala-lat1:" xml:lang="lat">
-     <body ana="prosa-epistula">
-         
+   </teiHeader>
+   <text type="prosa-oratio"
+         xml:base="urn:cts:croala:zrinski-j004.epistulazlataric16020826.croala-lat1:"
+         xml:lang="lat">
+      <body ana="prosa-epistula">
          <opener>Prudenti et circumspecto ac nobili domino Dominico Zlatariich, civi civitatis
             liberae Ragusiensis, amico nobis honorando. Ragusii.  Zrinius comes.
             Prudens et circumspecte ac nobilis domine, amice nobis benevole et honorande.
@@ -114,13 +122,10 @@
             communicare velit, quod nos eidem maiori specimine amicitiae refundere satagemus, modo
             nos tuto requirat, si quando nostra familiaritate uti voluerit tua dominatio, quam diu
             et feliciter valere optamus.</p>
-
-            <closer>
+         <closer>
                Datae in arce nostra Chiaktorniae die XXVI Augusti anno MDCII.
                Dominationis vestrae amicus singularis Georgius comes de Zrijn.
             </closer>
-
-         
       </body>
-  </text>
+   </text>
 </TEI>

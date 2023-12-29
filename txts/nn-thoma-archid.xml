@@ -1,93 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="nn-thoma-archid">
-            <titleStmt>
-                <title>Epitaphium Thomae Archidiaconis, versio electronica</title>
-                <author ref="#anonymus_1268">
-                    <persName xml:lang="lat">Anonymus</persName>
-                    <date>fl. 1268</date>
+   <teiHeader>
+      <fileDesc xml:id="nn-thoma-archid">
+         <titleStmt>
+            <title>Epitaphium Thomae Archidiaconis, versio electronica</title>
+            <author ref="#anonymus_1268">
+               <persName xml:lang="lat">Anonymus</persName>
+               <date>fl. 1268</date>
             </author>
-                <editor>
+            <editor>
                <persName>
                   <ref>Bratislav Lučin</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Prema digitalnom izdanju na internetu (2011-04-30).</edition>
-            </editionStmt>
-            <extent ana="A">Mg:A 8 versus, verborum 60</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Profil hrvatskog latiniteta, znanstveni projekt na
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prema digitalnom izdanju na internetu (2011-04-30).</edition>
+         </editionStmt>
+         <extent ana="A">Mg:A 8 versus, verborum 60</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Profil hrvatskog latiniteta, znanstveni projekt na
                     <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date>Kolovoza
                         2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                     Dva splitska srednjovjekovna epitafa 
-                    Marulus et al. - De rebus Marulianis et nonnullis aliis, <ref type="internet" target="http://marcusmarulus.blogspot.com/2011/04/dva-splitska-srednjovjekovna-epitafa.html">Marulićev blog.</ref>
+                    Marulus et al. - De rebus Marulianis et nonnullis aliis, <ref type="internet"
+                    target="http://marcusmarulus.blogspot.com/2011/04/dva-splitska-srednjovjekovna-epitafa.html">Marulićev blog.</ref>
                <date when="2011-04-30">2011-04-30</date> Internet.
                 </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="8"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="37"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="8"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -101,66 +56,63 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1268-05-08" period="12xx_3_third">1268-05-08</date>
-                <placeName>Split</placeName>
+            <date when="1268-05-08" period="12xx_3_third">1268-05-08</date>
+            <placeName>Split</placeName>
          </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                    <term>paratextus prosaici</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae medii aevi (700-1400)</term>
-                    <term>Saeculum 13 (1201-1300)</term>
-                    <term>1251-1300</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - epitaphium</term>
-                    <term>poesis - inscriptio</term>
-                    <term>poesis - epigramma</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+               <term>paratextus prosaici</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae medii aevi (700-1400)</term>
+               <term>Saeculum 13 (1201-1300)</term>
+               <term>1251-1300</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epitaphium</term>
+               <term>poesis - inscriptio</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
+      <revisionDesc>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2012-08-29</date> Svaki epigram u zasebnoj
                 datoteci. </change>
-            <change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <persName>Luka Špoljarić</persName>
             <date>2012-02-11</date>
                 Novo, unificirano zaglavlje. </change>
-            <change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2011-10-29</date> Versio prima. </change>
-        </revisionDesc>
-    </teiHeader>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <body>
          <div type="poesis-inscriptio-epitaphium" met="rhythmus-elegiacus">
                 <!-- Nadgrobni natpis Tome Arhiđakona († 1268) -->
-                
-                <l>Doctrinam, Christe, docet Archidiaconus iste</l>
-                <l>Thomas, hanc tenuit moribus et docuit:</l>
-                <l>Mundum sperne, fuge vicium, carnem preme, luge</l>
-                <l>Pro vite fruge, lubrica lucra fuge.</l>
-                <l>Spaletumque dedit ortum, quo vita recedit.</l>
-                <l>Dum mors succedit vite, mea gloria cedit.</l>
-                <l>Hic me vermis edit, sic iuri mortis obedit,</l>
-                <l>Corpus quod ledit, animamve qui sibi credit.</l>
-                
-                <p>
+            <l>Doctrinam, Christe, docet Archidiaconus iste</l>
+            <l>Thomas, hanc tenuit moribus et docuit:</l>
+            <l>Mundum sperne, fuge vicium, carnem preme, luge</l>
+            <l>Pro vite fruge, lubrica lucra fuge.</l>
+            <l>Spaletumque dedit ortum, quo vita recedit.</l>
+            <l>Dum mors succedit vite, mea gloria cedit.</l>
+            <l>Hic me vermis edit, sic iuri mortis obedit,</l>
+            <l>Corpus quod ledit, animamve qui sibi credit.</l>
+            <p>
                <date when="1268-05-08">A. D. <num value="1268">MCCLXVIII</num>, mense Madii octavo die intrante.</date>
             </p>
-                
-            </div>
+         </div>
       </body>
    </text>
 </TEI>

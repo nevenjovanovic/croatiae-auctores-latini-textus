@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="vrancic-a-epist-1543-05-16">
-        <titleStmt>
+         <titleStmt>
             <title>Paulo Murany epistula, versio electronica</title>
             <author ref="vranc01">
-                <persName xml:lang="hr">Vrančić, Antun</persName>
-                <date>1504-1573</date>
+               <persName xml:lang="hr">Vrančić, Antun</persName>
+               <date>1504-1573</date>
             </author>
             <editor>
                <persName>
@@ -13,16 +14,16 @@
                </persName>
             </editor>
             <respStmt>
-                <resp>Hanc editionem electronicam curavit</resp>
-                <persName>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
-        </titleStmt>
-        <editionStmt>
+         </titleStmt>
+         <editionStmt>
             <p>Digitalizat kasnijeg izdanja (1857).</p>
-        </editionStmt>
-        <extent ana="B">Mg:B Verborum 101</extent>
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 101</extent>
          <publicationStmt>
             <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
             projekt na <orgName>
@@ -30,74 +31,30 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
             Hrvatska.  <date>Srpnja 2012</date>.</p>
          </publicationStmt>
-            <sourceDesc>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Verancsics, Antal. Verancsics Antal összes munkái, vol. 12, s. 211, br. VI.</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc xml:id="verantiusamurany15430516">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q31487">Cracovia</placeName></place>
-             <place ana="destination" type="unknown">
-                 <placeName type="unknown">Unknown</placeName>
-             </place>
-             
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q31487">Cracovia</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-             <person role="recipient"><persName>Murany, Paulus</persName></person>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName>Murany, Paulus</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -105,20 +62,20 @@
          <creation>
             <date when="1543-05-16" period="15xx_2_third">1543-05-16</date>
             <placeName>Kraków</placeName>
-        </creation>
+         </creation>
          <textClass>
             <keywords scheme="typus">
-                <term>prosa</term>
+               <term>prosa</term>
             </keywords>
             <keywords scheme="aetas">
-                <term>Litterae renatae (1400-1600)</term>
-                <term>Saeculum 16 (1501-1600)</term>
-                <term>1501-1550</term>
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
             </keywords>
             <keywords scheme="genre">
-                <term>prosa oratio - epistula</term>
+               <term>prosa oratio - epistula</term>
             </keywords>
-        </textClass>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -130,27 +87,26 @@
         Novo, unificirano zaglavlje.
         Prva verzija.
     </change>
-
       </revisionDesc>
    </teiHeader>
    <text>
-        <body>
-            <pb n="211"/>
-            <div type="prosa-epistula" corresp="#verantiusamurany15430516">
-                <opener>Antonius Verancsics Paulo Murany S. P. D. </opener>
-                <p>Cur gratulationis huius meae in nuptiis Sigismundi Augusti Poloniae Regis habitae tam pertinaciter exemplum ad te mitti contenderis, non video.  
+      <body>
+         <pb n="211"/>
+         <div type="prosa-epistula" corresp="#verantiusamurany15430516">
+            <opener>Antonius Verancsics Paulo Murany S. P. D. </opener>
+            <p>Cur gratulationis huius meae in nuptiis Sigismundi Augusti Poloniae Regis habitae tam pertinaciter exemplum ad te mitti contenderis, non video.  
                     Nihil enim habet in se dignius, quam quod ex sententia Reginae meae habitam putem. Misi tamen, ut mutuae nostrae amicitiae, cui ambo nihil unquam negavimus, morem geram. Ceterum oro vehementer, ne 
                     cuipiam eius feceris copiam. Nam etsi fortasse aptius recitata piacuit : vereor tamen, ne pensitatius lecta 
                     displiceat. Porro judicia publica, quibus non omnes 
                     litterati scripta sua feliciter committunt, quam varia 
                     semper, quam saepe iniqua consueverunt esse, non 
                     ignoras.</p>
-                <closer>
-                    <salute>Vale.</salute>
-                    <dateline>Cracoviae <date when="1543-05-16">XVII. Kalendas Junii 1543.</date>
+            <closer>
+               <salute>Vale.</salute>
+               <dateline>Cracoviae <date when="1543-05-16">XVII. Kalendas Junii 1543.</date>
                </dateline>
-                </closer>
-            </div>
-        </body>    
+            </closer>
+         </div>
+      </body>
    </text>
 </TEI>

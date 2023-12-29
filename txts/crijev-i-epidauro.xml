@@ -1,30 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-        <fileDesc xml:id="crijev-i-epidauro">
-                <titleStmt>
-                        <title>De Epidauro, versio electronica</title>
-                        <author ref="crije02">
-                                <persName xml:lang="hr">Crijević, Ilija</persName>
-                                <date>1463-1520</date>
-                        </author>
-                        <editor>
+      <fileDesc xml:id="crijev-i-epidauro">
+         <titleStmt>
+            <title>De Epidauro, versio electronica</title>
+            <author ref="crije02">
+               <persName xml:lang="hr">Crijević, Ilija</persName>
+               <date>1463-1520</date>
+            </author>
+            <editor>
                <persName>
                   <ref xml:id="DN">Darko Novaković</ref>
                </persName>
             </editor>
-                        <respStmt>
-                                <resp>Hanc editionem electronicam curavit</resp>
-                                <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                        </respStmt>
-                </titleStmt>
+            </respStmt>
+         </titleStmt>
          <editionStmt>
             <edition>
                Tekst priređen za kritičko izdanje (2004).
             </edition>
          </editionStmt>
-                <extent ana="C">Mg:C 573 versus, verborum 3825</extent>
+         <extent ana="C">Mg:C 573 versus, verborum 3825</extent>
          <publicationStmt>
             <p>TEI XML verzija priređena u okviru znanstvenog projekta Hrvatska latinistička epika,
             (<orgName>
@@ -41,64 +42,7 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="3"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="7"/>
-          <tagUsage gi="corr" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="10"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="573"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="25"/>
-          <tagUsage gi="persName" occurs="11"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="1"/>
-          <tagUsage gi="ref" occurs="9" withId="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="8"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -112,25 +56,25 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                        <date notAfter="1506-03-09" period="15xx_1_third">1506-03-09</date>
-                        <placeName>Dubrovnik</placeName>
-                </creation>
+            <date notAfter="1506-03-09" period="15xx_1_third">1506-03-09</date>
+            <placeName>Dubrovnik</placeName>
+         </creation>
          <textClass>
-                        <keywords scheme="typus">
-                                <term>poesis</term>
-                                <term>paratextus prosaici</term>
-                        </keywords>
-                        <keywords scheme="aetas">
-                                <term>Litterae renatae (1400-1600)</term>
-                                <term>Saeculum 15 (1401-1500)</term>
-                                <term>Saeculum 16 (1501-1600)</term>
-                                <term>1451-1500</term>
-                                <term>1501-1550</term>
-                        </keywords>
-                        <keywords scheme="genre">
-                                <term>poesis - epica</term>
-                        </keywords>
-                </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+               <term>paratextus prosaici</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1451-1500</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epica</term>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -140,39 +84,39 @@
             <date>2014-06-23</date>
             Izdvojio Epidaur zbog epike. Dodao prozni uvod.
          </change>
-        <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-02-18</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-02-18</date>
                 Novo, unificirano zaglavlje.
         </change>
-        <change>
-                <persName>
-               <ref type="viaf" target="6913774">Neven Jovanović</ref> 
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2012-01-01</date>
+            <date>2012-01-01</date>
                 Uglate zagrade &gt; corr resp="DN"
                 militae &gt; corr. militiae
         </change>
-        <change>
-                <persName>
-               <ref type="viaf" target="6913774">Neven Jovanović</ref> 
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2011-12-17</date>
+            <date>2011-12-17</date>
                 TEI zaglavlje.
         </change>
-        <change>
-                <persName>
-               <ref type="viaf" target="6913774">Neven Jovanović</ref> 
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2011-12-13</date>
+            <date>2011-12-13</date>
                 Dvaput brojevi stihova premješteni u n atribut.
         </change>
          <change>
             <persName>
-               <ref type="viaf" target="6913774">Neven Jovanović</ref> 
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2011-11-28</date>
         TEI formatiranje, svaka pjesma posebno, stihovi, krajevi folija, zaglavlje.
@@ -190,13 +134,12 @@
             <p>
                Quod non solum Graecos, sed etiam Romanos auctores in suis theatris factitasse memoriae proditum est, hoc ego non sum reueritus facere, presertim hoc tempore nouum Poema recitaturus de maioribus uestris, hoc est Epidauro Romana Colonia, in quo sane sin minus ingenio saltem amore atque beniuolentia erga patriam laudabimur; alioquin proderit me hoc uobis emendandi operis gratia priusquam publicetur recitasse. Nam ut stilus et usus magister est, sic etiam auditorum consessus, hominum concursus et expectatio, recitantis pallor et iudicii metus, multorumque censura multo magis quam paucorum emendat, praesertim cum legimus, non dicimus, neque incendimus, sed citra ullum affectum consulimus auditores. Quare prestat recitantis scripta quam dicentis uerba laudari. In illis <sic>enim</sic> mera lucubratio et ingenii uis, in his uero et extrorsum quamplurima commendantur lenocinia; nanque uiuida uox, gestus
                <milestone unit="page" n="VII"/>
-               animi motibus pares, corporisque uigor et manus et oculi non minus quam <corr>oratio</corr> plaerunque auditorum aures eblandiuntur. Sedentis uero refrigerata lectio et quasi mortua, quo minus incendit, minus audientium iudicia praeuertit. Iuuabit igitur me non solum recitando sed etiam culpando proficere neque meam editionem temere et inconsulte <sic>precipitasse</sic>; sciens enim non fallor: quicquid uobis est dedicandum diu multumque <add resp="#crije02">a</add> pluribus examinari oportere seruarique; quod ille <sic>praecipit</sic>, <q>nonumque prematur in annum</q>. Caeterum <corr resp="#crije02">hic</corr> dies celebrandae patriae potissimum electus est quod in <corr resp="#crije02">illo</corr> 
+               animi motibus pares, corporisque uigor et manus et oculi non minus quam <corr>oratio</corr> plaerunque auditorum aures eblandiuntur. Sedentis uero refrigerata lectio et quasi mortua, quo minus incendit, minus audientium iudicia praeuertit. Iuuabit igitur me non solum recitando sed etiam culpando proficere neque meam editionem temere et inconsulte <sic>precipitasse</sic>; sciens enim non fallor: quicquid uobis est dedicandum diu multumque <add resp="#crije02">a</add> pluribus examinari oportere seruarique; quod ille <sic>praecipit</sic>, <q>nonumque prematur in annum</q>. Caeterum <corr resp="#crije02">hic</corr> dies celebrandae patriae potissimum electus est quod in <corr resp="#crije02">illo</corr>
                <expan>Sanctissimi</expan> martyres, quibus benemerentibus maiores nostri tot honores decreuerant, non solum conseruandae libertatis sed etiam publicę salutis a perniciosissimis ciuibus auctores fuerunt, ut mihi non alia ratio illustrandae ciuitatis quam illis seruandae et adserendae ab ultimo periculo fuisse <sic>uideatur</sic>.
             </p>
          </div>
       </front>
       <body>
-
          <pb n="155"/>
          <div type="poesis-epica" met="hexameter">
             <head>3.</head>

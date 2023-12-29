@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="andreis-f-epist">
          <titleStmt>
             <title>Epistolae III, versio electronica</title>
@@ -42,115 +43,56 @@
           Szent-István-Társulat Tud. és Irod. Osztálya, 1906, pp. 521--522, nr. 528.</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="6"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="3"/>
-          <tagUsage gi="creation" occurs="6"/>
-          <tagUsage gi="date" occurs="13"/>
-          <tagUsage gi="dateline" occurs="2"/>
-          <tagUsage gi="div" occurs="5"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="keywords" occurs="18"/>
-          <tagUsage gi="l" occurs="33"/>
-          <tagUsage gi="langUsage" occurs="6"/>
-          <tagUsage gi="language" occurs="6"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="2"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="17"/>
-          <tagUsage gi="particDesc" occurs="6"/>
-          <tagUsage gi="persName" occurs="34"/>
-          <tagUsage gi="person" occurs="19"/>
-          <tagUsage gi="place" occurs="10"/>
-          <tagUsage gi="placeName" occurs="16"/>
-          <tagUsage gi="profileDesc" occurs="6" withId="5"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="6"/>
-          <tagUsage gi="signed" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="38"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="6"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-     <profileDesc>
-        <abstract>
+      <profileDesc>
+         <abstract>
             <p/>
          </abstract>
-        <settingDesc>
+         <settingDesc>
             <p/>
          </settingDesc>
-        <particDesc>
-           <person role="sender">
+         <particDesc>
+            <person role="sender">
                <persName ref="and02">Andreis, Franjo Trankvil</persName>
             </person>
-           <person role="recipient">
+            <person role="recipient">
                <persName ref="29572382">Vadian, Joachim</persName>
             </person>
-           <person role="recipient">
+            <person role="recipient">
                <persName ref="27173507">Pirckheimer, Willibald, 1470-1530.</persName>
             </person>
-           <person role="recipient">
+            <person role="recipient">
                <persName ref="51698517">Ferdinand I, Holy Roman Emperor</persName>
             </person>
-        </particDesc>
-        <langUsage>
-           <language ident="lat" xml:lang="hrv">latinski</language>
-        </langUsage>
-        <creation>
-           <date from="1515" to="1569" period="15xx_3_third">1515-1569</date>
-           
-           <date when="1515" period="15xx_1_third">1515.</date>
-           <date when="1519-01-03" period="15xx_1_third">3. siječnja 1519</date>
-           <placeName ref="http://www.wikidata.org/wiki/Q2079">Lipsia</placeName>
-           <placeName ref="http://www.wikidata.org/wiki/Q2090">Nürnberg</placeName>
-           <date when="1541-01-15" period="15xx_2_third">15. siječnja 1541</date>
-           <placeName ref="http://www.wikidata.org/wiki/Q1741?uselang=en">Vienna</placeName>
-        </creation>
-        <textClass>
-           <keywords scheme="typus">
-              <term>prosa</term>
-              <term>poesis</term>
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae renatae (1400-1600)</term>
-              <term>Saeculum 16 (1501-1600)</term>
-              <term>1501-1550</term>
-              <term>1551-1600</term>
-           </keywords>
-           <keywords scheme="genre">
-              <term>poesis - elegia</term>
-              <term>prosa oratio - epistula</term>
-           </keywords>
-        </textClass>
-     </profileDesc>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date from="1515" to="1569" period="15xx_3_third">1515-1569</date>
+            <date when="1515" period="15xx_1_third">1515.</date>
+            <date when="1519-01-03" period="15xx_1_third">3. siječnja 1519</date>
+            <placeName ref="http://www.wikidata.org/wiki/Q2079">Lipsia</placeName>
+            <placeName ref="http://www.wikidata.org/wiki/Q2090">Nürnberg</placeName>
+            <date when="1541-01-15" period="15xx_2_third">15. siječnja 1541</date>
+            <placeName ref="http://www.wikidata.org/wiki/Q1741?uselang=en">Vienna</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - elegia</term>
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <profileDesc xml:id="andreisvadian1515">
          <abstract>
             <p/>
@@ -162,7 +104,6 @@
             <place ana="destination" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
-            
          </settingDesc>
          <particDesc>
             <person role="sender">
@@ -193,7 +134,6 @@
          <textClass>
             <keywords scheme="typus">
                <term>prosa</term>
-               
             </keywords>
             <keywords scheme="aetas">
                <term>Litterae renatae (1400-1600)</term>
@@ -202,188 +142,177 @@
                <term>1551-1600</term>
             </keywords>
             <keywords scheme="genre">
-               
                <term>prosa oratio - epistula</term>
             </keywords>
          </textClass>
       </profileDesc>
-     <profileDesc xml:id="andreisvadianpoesis">
-        <abstract>
+      <profileDesc xml:id="andreisvadianpoesis">
+         <abstract>
             <p/>
          </abstract>
-        <settingDesc>
-           <place ana="origin" type="unknown">
+         <settingDesc>
+            <place ana="origin" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
-           <place ana="destination" type="unknown">
+            <place ana="destination" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
-           
-        </settingDesc>
-        <particDesc>
-           <person role="sender">
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
                <persName ref="and02">Andreis, Franjo Trankvil</persName>
             </person>
-           <person role="recipient">
+            <person role="recipient">
                <persName ref="29572382">Vadian, Joachim</persName>
             </person>
-          </particDesc>
-        <langUsage>
-           <language ident="lat" xml:lang="hrv">latinski</language>
-        </langUsage>
-        <creation>
-           <date when="1515" period="15xx_1_third">1515</date>
-        </creation>
-        <textClass>
-           <keywords scheme="typus">
-              
-              <term>poesis</term>
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae renatae (1400-1600)</term>
-              <term>Saeculum 16 (1501-1600)</term>
-              <term>1501-1550</term>
-              <term>1551-1600</term>
-           </keywords>
-           <keywords scheme="genre">
-              <term>poesis - elegia</term>
-              
-           </keywords>
-        </textClass>
-     </profileDesc>
-     <profileDesc xml:id="andreispirckheimer15190103">
-        <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1515" period="15xx_1_third">1515</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - elegia</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="andreispirckheimer15190103">
+         <abstract>
             <p/>
          </abstract>
-        <settingDesc>
-           <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q2079">Lipsia</placeName>
             </place>
-           <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q2090">Nürnberg</placeName>
             </place>
-           </settingDesc>
-        <particDesc>
-           <person role="sender">
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
                <persName ref="and02">Andreis, Franjo Trankvil</persName>
             </person>
-           <person role="recipient">
+            <person role="recipient">
                <persName ref="27173507">Pirckheimer, Willibald, 1470-1530.</persName>
             </person>
-           <person role="mentioned">
+            <person role="mentioned">
                <persName ref="54050081">Vitus Verlerus</persName>
             </person>
-           
-        </particDesc>
-        <langUsage>
-           <language ident="lat" xml:lang="hrv">latinski</language>
-        </langUsage>
-        <creation>
-           <date when="1519-01-03" period="15xx_1_third">3. siječnja 1519</date>
-        </creation>
-        <textClass>
-           <keywords scheme="typus">
-              <term>prosa</term>
-              
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae renatae (1400-1600)</term>
-              <term>Saeculum 16 (1501-1600)</term>
-              <term>1501-1550</term>
-              <term>1551-1600</term>
-           </keywords>
-           <keywords scheme="genre">
-              
-              <term>prosa oratio - epistula</term>
-           </keywords>
-        </textClass>
-     </profileDesc>
-     <profileDesc xml:id="andreispirckheimerpoesis">
-        <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1519-01-03" period="15xx_1_third">3. siječnja 1519</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="andreispirckheimerpoesis">
+         <abstract>
             <p/>
          </abstract>
-        <settingDesc>
-           <place ana="origin" type="unknown">
+         <settingDesc>
+            <place ana="origin" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
-           <place ana="destination" type="unknown">
+            <place ana="destination" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
-        </settingDesc>
-        <particDesc>
-           <person role="sender">
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
                <persName ref="and02">Andreis, Franjo Trankvil</persName>
             </person>
-           <person role="recipient">
+            <person role="recipient">
                <persName ref="27173507">Pirckheimer, Willibald, 1470-1530.</persName>
             </person>
-           </particDesc>
-        <langUsage>
-           <language ident="lat" xml:lang="hrv">latinski</language>
-        </langUsage>
-        <creation>
-           <date ana="unknown" period="15xx_1_third">Unknown</date>
-        </creation>
-        <textClass>
-           <keywords scheme="typus">
-              
-              <term>poesis</term>
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae renatae (1400-1600)</term>
-              <term>Saeculum 16 (1501-1600)</term>
-              <term>1501-1550</term>
-              <term>1551-1600</term>
-           </keywords>
-           <keywords scheme="genre">
-              <term>poesis - elegia</term>
-              
-           </keywords>
-        </textClass>
-     </profileDesc>
-     <profileDesc xml:id="andreisferdinand15410115">
-        <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date ana="unknown" period="15xx_1_third">Unknown</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - elegia</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="andreisferdinand15410115">
+         <abstract>
             <p/>
          </abstract>
-        <settingDesc>
-           <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q1741?uselang=en">Vienna</placeName>
             </place>
-           <place ana="destination" type="unknown">
+            <place ana="destination" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
-        </settingDesc>
-        <particDesc>
-           <person role="sender">
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
                <persName ref="and02">Andreis, Franjo Trankvil</persName>
             </person>
-           <person role="recipient">
+            <person role="recipient">
                <persName ref="51698517">Ferdinand I, Holy Roman Emperor</persName>
             </person>
-        </particDesc>
-        <langUsage>
-           <language ident="lat" xml:lang="hrv">latinski</language>
-        </langUsage>
-        <creation>
-           <date when="1541-01-15" period="15xx_2_third">15. siječnja 1541</date>
-        </creation>
-        <textClass>
-           <keywords scheme="typus">
-              <term>prosa</term>
-              
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae renatae (1400-1600)</term>
-              <term>Saeculum 16 (1501-1600)</term>
-              <term>1501-1550</term>
-              <term>1551-1600</term>
-           </keywords>
-           <keywords scheme="genre">
-              
-              <term>prosa oratio - epistula</term>
-           </keywords>
-        </textClass>
-     </profileDesc>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1541-01-15" period="15xx_2_third">15. siječnja 1541</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc>
          <change>
             <persName>
@@ -396,20 +325,16 @@
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </persName>        
+            </persName>
             <date>2011-11-27</date>
         TEI zaglavlje, formatiranje
       </change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-      
-      
          <div type="prosa-epistola" corresp="#andreisvadian1515">
-        
             <opener>Tranquillus Parthenius Vadiano</opener>
-        
             <p>Quamquam scio me refricare vulnus quotienscunque de meis miseriis aut cogito aut scribo,
           tamen, quod nullam medicinam tanti vulneris reperiam, facere non possum quin meus animus
           tot circumplexus calamitatibus altius ingemiscat et ipse scribendo meae virus acerbitatis
@@ -418,7 +343,6 @@
           sufferre autem nequeo; neque ita subita me clades et inopinatus furor afflixit (id enim
           temeritati fortunae ascribebam), quam quum cogitem, nunc eo me locorum esse, ubi nec
           quispiam magnitudine mearum miseriarum tangitur neque locus virtuti datur.</p>
-
             <p>Quas igitur spes mihi est habenda, quomodo leniendus est dolor, plane non video. Ad
           patriamne, quę remotissima est et in hostium faucibus, an ad fratres amicosve confugiam,
           quibus nihil est de mea vita exploratum? Unicum profecto auxilium in tua Dominatione mihi
@@ -426,14 +350,12 @@
           pręsertim quum considerem, quanta humanitate, quanta benivolentia, obscura adhuc hominis
           condicione me tua Dominatio complexa sit ac nihil prętermisit quod et meo honori et
           commodo interesse putaret.</p>
-
             <p>Quamobrem quantum debeam tuae Dominationi, exprimere non ausim, ne blandiendo videar
           aliquem favorem apud tuam Dominationem captare; sed vel ipsam posteritatem (ut facile
           confido), nedum homines aetatis nostrae intellecturos et tuae Dominationis amplissimam in
           me voluntatem et meam in tuam Dominationem apertam gratitudinem. Etsi vero tuae
           Dominationi sum obligatissimus, multo magis tamen me sibi obnoxium fore intelligat, si in
           re mea vel mediocrem diligentiam adhibuerit.</p>
-
             <p>Hoc est in causa. Quum nescio quo turbine quave procella violenter actus per tot
           discrimina rerum tandem inops consilii et auxilii huc appulerim tuaeque Dominationis
           beneficio hunc locum nactus sim, ubi perbenigne a venerabili magistro <persName>Ioanne Kilmair</persName>
@@ -447,7 +369,6 @@
           apud aliquem dominum possem habere locum. Sed circumspicienti mihi nullus hic talis
           occurrit praeter reverendissimum dominum episcopum Viennensem, apud quem tua Dominatio et
           pręstantissimus dominus <persName>Collimitius</persName> magnę estis aestimationis.</p>
-
             <p>Quare, si quid tua Dominatio in re huiusmodi possit efficere (efficiet autem, quantum
           voluerit), vehementer oro, velit animum intendere, ne suum <persName>Tranquillum</persName> in extrema
           caiamitate deserat. Iam diu scripsissem aliquid ad dominum <persName>Collimitium</persName> in testimonium meae
@@ -456,39 +377,33 @@
           vix excussi; quod, ut ingenue fatear, non implet aures meas. Illud autem una cum mea
           salute iudicio atque consilio tuae Dominationis subiicio. De his plenius coram tua
           Dominatione acturus eram, nisi me capitis dolor prohibuisset.</p>
-
             <p>Quid decreverit tua Dominatio, significet mihi, et suum <persName>Tranquillum</persName> solito prosequatur
           amore, rogo. Ego, quamprimum hac molestia liberabor, ad tuam Dominationem accurram,</p>
             <l met="hexameter">pulveris <placeName>Euboici</placeName> felix quae vivat in annos.</l>
-
             <closer>
                <signed>Tranquillus Parthenius.</signed>
             </closer>
          </div>
-      
-         <div type="poesis-epigramma" met="elegiacum" corresp="#andreisvadianpoesis">
+         <div type="poesis-epigramma"
+              met="elegiacum"
+              corresp="#andreisvadianpoesis">
             <head>Ad elegantissimum poetam et medicum D. Vadianum Tranquillus Parthenius.</head>
-        
             <l>Quem decor et probitas, praestantia, gloria, virtus</l>
-            <l met="pentameter">Et genus exornat, o Vadiane, tuum,</l> 
+            <l met="pentameter">Et genus exornat, o Vadiane, tuum,</l>
             <l>Non ego iam blandis tua pectora culta Camenis,</l>
             <l met="pentameter">Non animi referam munera rara tui.</l>
             <l n="5">Unica facundi tua gratia me tenet oris</l>
             <l met="pentameter">Attonitum miris sollicitatque modis,</l>
             <l>Non modo Tranquilli qua tu cor molle fatigas</l>
-            <l met="pentameter">Et trahis addictum sub tua iura caput;</l> 
+            <l met="pentameter">Et trahis addictum sub tua iura caput;</l>
             <l>Saxa sed et gelidos adamantas et ardua montis</l>
             <l n="10" met="pentameter">Culmina Riphaei Sarmatiamque trucem</l>
             <l>Flexissetque lupos, Hircanias denique tigres</l>
-            <l met="pentameter">Et quae sub gelido terra Trione riget.</l> 
+            <l met="pentameter">Et quae sub gelido terra Trione riget.</l>
             <l>Nostra igitur quoniam si versas pectora vates,</l>
             <l met="pentameter">In causa est probitas, gloria, Musa, lepos.</l>
-          
          </div>
-      
-      
          <div type="prosa-epistola" corresp="#andreispirckheimer15190103">
-        
             <p>Crebro memoria mihi repetenti tuam singularem beneuolentiam qua me nuper es complexus,
           quum istac iter facerem, testimonio atque commendatione dumtaxat <persName>Viti Verleri</persName>, uiri optimi
           meique amantissimi et tui obseruantissimi, obrepere non parua solicitudo solet, quae me
@@ -501,21 +416,16 @@
           mei grati animi testimonium relinquens. Caeterum altiori cura et grauioribus laboribus
           enitar ut id, quod meis optatis inuidens fortuna intercepit, propediem absoluam. Tu
           interim eodem animo ut coepisti – es autem optimo et beneuolentissimo – uel absentis mei
-          memoriam retinere uelis, rogo.</p> 
-        
+          memoriam retinere uelis, rogo.</p>
             <closer>
-               <salute>Vale.</salute> 
-        
+               <salute>Vale.</salute>
                <dateline>Ex Lypsia, <num value="3">III</num> Nonas Ianuarii MDXIX.</dateline>
             </closer>
-        
          </div>
-         <div type="poesis-elegidium" met="elegiacum" corresp="#andreispirckheimerpoesis">
-        
+         <div type="poesis-elegidium"
+              met="elegiacum"
+              corresp="#andreispirckheimerpoesis">
             <head>Excellentisimo uiro domino Bilibaldo Pirckheimero, primario senatori Norimbergensi, Tranquillus Parthenius</head>
-        
-        
-        
             <l>Qui colis Aonias felix, Bilibalde, Camoenas,</l>
             <l met="pentameter">Maxima Germaniae gloria nempe togae,</l>
             <l>Taenariis redeat si Titus Caesar ab oris,</l>
@@ -534,39 +444,24 @@
             <l met="pentameter">Inter fortunae dona beata tuae,</l>
             <l>Vincere te saeuae miracula ficta chymerae?</l>
             <l met="pentameter">Diuitiis Croesus, moribus ipse Numa es.</l>
-        
          </div>
-      
-         <!-- pisma -->    
-      
-      
+         <!-- pisma -->
          <div type="prosa-epistola" corresp="#andreisferdinand15410115">
-
             <opener>
                <address>
                   <name>Sacre Regie Maiestati Romanorum, Hungarie, Bohemie regi <abbr>etc.</abbr> Domino meo clementissimo.</name>
                </address>
           Sacratissime Rex et Domine Domine Clementissime, post humilem servitiorum commendationem
           meorum. </opener>
-        
             <p>Audio nunc vacare unum archidiaconatum in <placeName>Transsilvania</placeName> per mortem Fratris <persName>Donati</persName>. Hoc
           volui tantum revocare in memoriam V. S. R. M.<note>V. S. R. M. = Vestra sacra regia
             maiestas (declinatur ut necesse est).</note> ut sciat, ubi mihi providere posset.</p>
-
             <closer>
                <salute>Opto succedere omnia feliciter V. S. R. M.</salute>
-
                <dateline>Vienne 15 Januarii 1541.</dateline>
-
                <signed>V. S. R. M. servus Tranquillus.</signed>
             </closer>
-
-
          </div>
-      
-      
-      
-      
       </body>
-  </text>
+   </text>
 </TEI>

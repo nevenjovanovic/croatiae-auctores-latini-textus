@@ -1,129 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="vrancic-m-ligario">
-            <titleStmt>
-                <title>Ad lectorem, versio electronica</title>
-                <author ref="vranc03">
-                    <persName xml:lang="hr">Vrančić, Mihovil</persName>
-                    <date>1507 - ante 1571</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="vrancic-m-ligario">
+         <titleStmt>
+            <title>Ad lectorem, versio electronica</title>
+            <author ref="vranc03">
+               <persName xml:lang="hr">Vrančić, Mihovil</persName>
+               <date>1507 - ante 1571</date>
+            </author>
+            <editor>
                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Edidit et editionem electronicam praeparavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Edidit et editionem electronicam praeparavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Prema citatu u kasnijem izdanju (1895).
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prema citatu u kasnijem izdanju (1895).
                 </edition>
-            </editionStmt>
-            <extent ana="A">Mg:A 41 verborum, 7 versus</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+         </editionStmt>
+         <extent ana="A">Mg:A 41 verborum, 7 versus</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2010-12">prosinca 2010</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <biblStruct>
-                    <analytic>
-                        <author>Michael Wrancius Dalmata</author>
-                        <title>Ad Lectorem.</title>
-                    </analytic>
-                    <monogr>
-                        <author>Cicero, Marcus Tullius</author>
-                        <title>Oratio pro Quinto Ligario ... </title>
-                        <imprint>
-                            <pubPlace>Cracoviae</pubPlace>
-                            <publisher>Per Mathiam Szarffenbergk</publisher>
-                            <date>s. a.</date>
-                        </imprint>
-                        <extent>
+               <analytic>
+                  <author>Michael Wrancius Dalmata</author>
+                  <title>Ad Lectorem.</title>
+               </analytic>
+               <monogr>
+                  <author>Cicero, Marcus Tullius</author>
+                  <title>Oratio pro Quinto Ligario ... </title>
+                  <imprint>
+                     <pubPlace>Cracoviae</pubPlace>
+                     <publisher>Per Mathiam Szarffenbergk</publisher>
+                     <date>s. a.</date>
+                  </imprint>
+                  <extent>
                      <add>8</add> f. ; 4o </extent>
-                    </monogr>
-                    <note>Reference: <bibl>Estreicher, XIV, pag. 259.</bibl> - Continet: Michael
+               </monogr>
+               <note>Reference: <bibl>Estreicher, XIV, pag. 259.</bibl> - Continet: Michael
                         Wrancius Dalmata Ad Lectorem. <add>Carmen</add>.</note>
-                    <idno type="other">Xa * Jurić. Scriptores * Xb * Jurić. Scriptores</idno>
-                </biblStruct>
+               <note type="other">Xa * Jurić. Scriptores * Xb * Jurić. Scriptores</note>
+            </biblStruct>
             <bibl>Textus citatur in: <ref target="http://www.archive.org/details/beitrgezurincun00reicgoog">Beiträge
                         zur incunabelnkunde I. von p. Gottfried Reichhart, O.S.B. Eingeleitet von O.
                         Hartwig. Published 1895 by O. Harrassowitz in Leipzig .</ref>
             </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="2"/>
-          <tagUsage gi="addrLine" occurs="1"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="analytic" occurs="1"/>
-          <tagUsage gi="author" occurs="3"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="7"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="52"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="3"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -137,69 +75,62 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1530" period="15xx_1_third">1530</date>
-                <address>
-                    <addrLine>Cracoviae</addrLine>
-                </address>
-            </creation>
+            <date when="1530" period="15xx_1_third">1530</date>
+            <address>
+               <addrLine>Cracoviae</addrLine>
+            </address>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - epigramma</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-07-22</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-07-22</date>
                 Novo, unificirano zaglavlje.
             </change>
-            <change>
-                <date>2010-12-05</date>
-                <persName>
+         <change>
+            <date>2010-12-05</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 Početna revizija
             </change>
-            
-            
-        </revisionDesc>
-        
-        
-    </teiHeader>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <front>
          <titlePage>
             <titlePart>Oratio pro Q. Ligario</titlePart>
          </titlePage>
       </front>
-        <body>
-            <gap reason="irrelevant"/>
-            <div type="poesis-epigramma" met="hendecasyllabus">
-                <head>Michael Wrancius Dalmata ad lectorem</head>
-                <l>Istac ut Cicero actione vitam</l>
-                <l>Quinti Ligarii Charonte ab ipso</l>
-                <l>Divini eloquii tuba evocavit:</l>
-                <l>Sic vos, o juvenes, labore multo</l>
-                <l>Saevam barbariem jugo prementes</l>
-                <l>Hoc Marci auxilio evocemus orco</l>
-                <l>Musaque eloquiumque Tullianum.</l>
-
-            </div>
-            <gap reason="irrelevant"/>
-        </body>
-
-    
+      <body>
+         <gap reason="irrelevant"/>
+         <div type="poesis-epigramma" met="hendecasyllabus">
+            <head>Michael Wrancius Dalmata ad lectorem</head>
+            <l>Istac ut Cicero actione vitam</l>
+            <l>Quinti Ligarii Charonte ab ipso</l>
+            <l>Divini eloquii tuba evocavit:</l>
+            <l>Sic vos, o juvenes, labore multo</l>
+            <l>Saevam barbariem jugo prementes</l>
+            <l>Hoc Marci auxilio evocemus orco</l>
+            <l>Musaque eloquiumque Tullianum.</l>
+         </div>
+         <gap reason="irrelevant"/>
+      </body>
    </text>
 </TEI>

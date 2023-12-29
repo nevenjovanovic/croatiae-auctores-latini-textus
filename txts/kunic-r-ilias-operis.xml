@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="kunic-r-ilias-operis">
@@ -34,7 +35,6 @@
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <biblStruct type="externum">
                <monogr>
-                  
                   <author>Homerus</author>
                   <author ref="kunic02" role="vertit">
                      <name xml:lang="hr">Kunić, Rajmund</name>
@@ -50,7 +50,7 @@
                   <extent>XLVII + 611 pag. ; 2o </extent>
                </monogr>
                <note>Orig.: 'Ilias.</note>
-               <idno type="other">Xb * Jurić. Scriptores</idno>
+               <note type="other">Xb * Jurić. Scriptores</note>
                <relatedItem type="primjerak">
                   <ref type="signatura">NSK Zagreb RIIF-2o-28</ref>
                </relatedItem>
@@ -61,83 +61,13 @@
                   <ref type="gbs" target="http://books.google.com/books?id=XXxBAAAAcAAJ">Homeri Ilias Latinis versibus ... - Google Books</ref>
                </relatedItem>
                <relatedItem type="digitalizat-internet">
-                  <ref type="bsb" target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10209549-1">Ilias / Homerus<note> RaimundusCunichius hrvlat-internet</note>
+                  <ref type="bsb"
+                       target="http://www.mdz-nbn-resolving.de/urn/resolver.pl?urn=urn:nbn:de:bvb:12-bsb10209549-1">Ilias / Homerus<note> RaimundusCunichius hrvlat-internet</note>
                   </ref>
                </relatedItem>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="3"/>
-          <tagUsage gi="bibl" occurs="7"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="cit" occurs="1"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="corr" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="2"/>
-          <tagUsage gi="div" occurs="6"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="10"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="2"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="5"/>
-          <tagUsage gi="hi" occurs="3"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="218"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lb" occurs="4"/>
-          <tagUsage gi="mentioned" occurs="22"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="29"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="13"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="30"/>
-          <tagUsage gi="persName" occurs="4" withId="2"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="q" occurs="11"/>
-          <tagUsage gi="quote" occurs="45"/>
-          <tagUsage gi="ref" occurs="9" withId="1"/>
-          <tagUsage gi="relatedItem" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="5"/>
-          <tagUsage gi="signed" occurs="3"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="61"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="7"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -153,7 +83,6 @@
          </langUsage>
          <creation>
             <date notAfter="1776" period="17xx_3_third">1776</date>
-            
          </creation>
          <textClass>
             <keywords scheme="typus">
@@ -210,7 +139,6 @@
                Fulgentem clare; quam multis illa deorum
             </l>
                   <pb n="xxvii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT30"/>
-            
                   <l>
                Levia protendens brachia pollicita est.
             </l>
@@ -338,7 +266,6 @@
                   <l>αὐτοῦ εἰς ὅ κεν ἄστυ μέγα Πριάμοιο ἕλωμεν. </l>
                </quote>
                his Homeri versibus addatur, eorum gratia qui Graece nesciunt.</p>
-            
             <quote>
                <title>INTERPRETATIO TOTIDEM VERBIS</title>
                <l>Tolerate, amici, et manete aliquandiu; ut sciamus</l>
@@ -384,7 +311,7 @@
                <l>Heic, quousque urbem magnam Priami ceperimus,</l>
             </quote>
             <pb n="xxxvii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT40"/>
-               <p>Haec descripsi ex interpretatione Samuelis Clarkii, quam ipse, in operis praefatione, ait, esse, <quote>non elegantem nec venustam</quote>, sed ita confectam, ut <quote>verbis verba, singulis singula respondeant, Graecis Latina.</quote> Age jam proferatur ea, quam laudavi,</p>
+            <p>Haec descripsi ex interpretatione Samuelis Clarkii, quam ipse, in operis praefatione, ait, esse, <quote>non elegantem nec venustam</quote>, sed ita confectam, ut <quote>verbis verba, singulis singula respondeant, Graecis Latina.</quote> Age jam proferatur ea, quam laudavi,</p>
             <quote>
                <title>INTERPRETATIO M. TULLII</title>
                <l>Ferte viri, et duros animo tolerate labores; </l>
@@ -483,7 +410,7 @@
                </quote>
                sive, ut ego meo more converti,
                <quote>
-                  <l>Fictori fictor, fabro faber invidet; odit</l> 
+                  <l>Fictori fictor, fabro faber invidet; odit</l>
                   <l>Mendicus mendicum, oditque poëta poëtam:</l>
                </quote>
                haec ne quis mihi objectet, quid inter me et Eobanum intersit, quanta sit utriusque eodem in genere facultas, tibi atque aliis idoneis lectoribus, ut consideretis, ac statuatis, permitto; <pb n="xlii" facs="http://books.google.hr/books?id=Hx1LAAAAcAAJ&amp;pg=PT45"/> meque polliceor de me, deque illo, non aliud judicaturum, quam quod a vobis sensero judicari. Id judicium ut possit fieri, erit profecto non inopportunum, si eorumdem, quos supra recitavi, Homeri versuum, post Tullianam, et meam, afferatur etiam haec
@@ -559,7 +486,7 @@
          <div type="prosa">
             <head>APPROBATIONES.</head>
             <div type="prosa-epistula">
-               <p>Quod literati homines bene multi, sed in Graecis literis non admodum versati jamdiu vehementer optabant; tandem aliquando repertus est, qui cum Graece Latineque optime sciret, tum poetarum omnium facile principem Homerum ita <lb/>verteret, ut non illius modo sententiam utcumque adumbraret, sed latinis versibus elegantissime exprimeret. Is enim est stili nitor atque elegantia, ea latini carminis majestas ac dignitas, ut hic unus veteres omnes interpretes, qui magno numero idem conati sunt, longe antecesserit, primusque omnium mihi effecisse videatur, ut Homerus latine legi cum voluptate possit. Hanc ob causam ago equidem gratias Reverendissimo S. Palatii Magistro, qui hanc pulcherrimam versionem legendam mihi, probandamque tradiderit. Cui etiam sancte affirmo, atque testificor nihil in ea esse, quod sanctissimae Religionis puritati, optimaeque morum disciplinae adversetur.</p> 
+               <p>Quod literati homines bene multi, sed in Graecis literis non admodum versati jamdiu vehementer optabant; tandem aliquando repertus est, qui cum Graece Latineque optime sciret, tum poetarum omnium facile principem Homerum ita <lb/>verteret, ut non illius modo sententiam utcumque adumbraret, sed latinis versibus elegantissime exprimeret. Is enim est stili nitor atque elegantia, ea latini carminis majestas ac dignitas, ut hic unus veteres omnes interpretes, qui magno numero idem conati sunt, longe antecesserit, primusque omnium mihi effecisse videatur, ut Homerus latine legi cum voluptate possit. Hanc ob causam ago equidem gratias Reverendissimo S. Palatii Magistro, qui hanc pulcherrimam versionem legendam mihi, probandamque tradiderit. Cui etiam sancte affirmo, atque testificor nihil in ea esse, quod sanctissimae Religionis puritati, optimaeque morum disciplinae adversetur.</p>
                <closer>
                   <dateline>Datum ex Aedibus Quirinalibus die 20. Augusti 1776.</dateline>
                   <signed>Philippus Bonamicius </signed>

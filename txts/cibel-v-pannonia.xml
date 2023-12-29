@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="cibel-v-pannonia">
          <titleStmt>
             <title>Ad Pannoniam, versio electronica</title>
@@ -38,58 +39,12 @@
         Ács Pál (1954–), Jankovics József (1949–), Kőszeghy Péter (1951–) 
         Balassi Kiadó
         <relatedItem type="digitalisatum">
-                  <ref type="internet" target="http://www.tankonyvtar.hu/hu/tartalom/tkt/regi-magyar-irodalmi-1/ch15.html">Régi magyar irodalmi szöveggyűjtemény I.</ref>
+                  <ref type="internet"
+                       target="http://www.tankonyvtar.hu/hu/tartalom/tkt/regi-magyar-irodalmi-1/ch15.html">Régi magyar irodalmi szöveggyűjtemény I.</ref>
                </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="108"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="37"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -121,24 +76,20 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-      
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </persName>        
+            </persName>
             <date>2012-08-27</date>
         Početna verzija.
         Latinski spellcheck.
       </change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <div type="poesis-epigramma" met="hendecasyllabus">
             <head>AD PANNONIAM</head>
-    
-    
-    
             <l>Foelix Pannonia et beata certe es,</l>
             <l>Caelo quae frueris sereniore,</l>
             <l>Quae omnes fertilitate vincis oras</l>
@@ -247,7 +198,7 @@
             <l>Praeberis numerum, volabis ecce</l>
             <l>Iam iam Romuleis in orbe toto</l>
             <l>Fama notior, clarior. Valeto.</l>
-         </div>    
-          </body>
-      </text>
+         </div>
+      </body>
+   </text>
 </TEI>

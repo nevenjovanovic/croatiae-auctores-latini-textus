@@ -1,94 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-        <teiHeader>
-            <fileDesc xml:id="tubero-comm-rhac">
-                <titleStmt>
-                    <title>Commentariolus de origine et incremento urbis Rhacusanae, versio electronica</title>
-                    <author ref="crije01" key="viaf166980878">
-                        <persName xml:lang="hr">Crijević Tuberon, Ludovik</persName>
-                        <date>1458-1527</date>
-                    </author>
-                    <editor>
+   <teiHeader>
+      <fileDesc xml:id="tubero-comm-rhac">
+         <titleStmt>
+            <title>Commentariolus de origine et incremento urbis Rhacusanae, versio electronica</title>
+            <author ref="crije01" key="viaf166980878">
+               <persName xml:lang="hr">Crijević Tuberon, Ludovik</persName>
+               <date>1458-1527</date>
+            </author>
+            <editor>
                <persName>
                   <ref type="viaf" target="2726561">Vladimir Rezar</ref>
                </persName>
             </editor>
-                    <respStmt>
-                        <resp>Hanc editionem electronicam curavit</resp>
-                        <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                    </respStmt>
-                </titleStmt>
-            <editionStmt>
-                <p>Digitalizat modernog kritičkog izdanja (2009).
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat modernog kritičkog izdanja (2009).
                 </p>
-            </editionStmt>
-                <extent ana="C">Mg:C Verborum 5404</extent>
-            <publicationStmt>
-                <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum 5404</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date>Prosinca 2009</date>.</p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                     Vladimir Rezar, "Kritičko izdanje djela Commentariolus de origine et incremento urbis Rhacusanae Ludovika Crijevića Tuberona", rukopis (2008-2009)
                 </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="62"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-            <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -102,43 +53,45 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                    <date when="1520" period="15xx_1_third">c. 1520-1525</date>
-                </creation>
+            <date when="1520" period="15xx_1_third">c. 1520-1525</date>
+         </creation>
          <textClass>
-                    <keywords scheme="typus">
-                        <term>prosa</term>
-                    </keywords>
-                    <keywords scheme="aetas">
-                        <term>Litterae renatae (1400-1600)</term>
-                        <term>Saeculum 16 (1501-1600)</term>
-                        <term>1501-1550</term>
-                    </keywords>
-                    <keywords scheme="genre">
-                        <term>prosa oratio - historia</term>
-                    </keywords>
-                </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - historia</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-05-03</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-05-03</date>
                 Novo, unificirano zaglavlje.
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2009-10-05</date>
+            <date>2009-10-05</date>
                 TEI zaglavlje i formatiranje.
             </change>
-        </revisionDesc>
-    </teiHeader>
-    <text xml:base="urn:cts:croala:crijevictuberon166980878.commentariolus1321636.croala-lat2:" xml:lang="lat" type="historia">
+      </revisionDesc>
+   </teiHeader>
+   <text xml:base="urn:cts:croala:crijevictuberon166980878.commentariolus1321636.croala-lat2:"
+         xml:lang="lat"
+         type="historia">
       <front>
-        <div type="prosa-epistula">
+         <div type="prosa-epistula">
             <opener>Ludouicus Ceruarius Tubero Mario Bona Jupani Bona ex filio nepoti S.D.</opener>
             <p>
                 Rogatu Bernardi Bamphii, Baciensis Ecclesiae archidiaconi, exscripsi ex
@@ -162,17 +115,17 @@
             <closer>
                <salute>Vale.</salute>
             </closer>
-        </div>
-      </front>    
-        <body>
-            <div type="prosa-historia">
-                <head>Ex quinto Commentariorum de temporibus Lodouici Ceruarii Tuberonis libro quae
+         </div>
+      </front>
+      <body>
+         <div type="prosa-historia">
+            <head>Ex quinto Commentariorum de temporibus Lodouici Ceruarii Tuberonis libro quae
                     quidem historia incipit ab interitu regis Matthiae Chugniadis Coruini,
                     persequiturque omnia memoratu digna, quae gesta sunt in circumistranis
                     regionibus, atque in ea parte Asiae et Europae quae Turcarum imperio
                 obtinetur.
                 </head>
-                <p>
+            <p>
                     Iam Vuladislauus Casimirus uidebatur apud Hungaros aliqua ex parte
                     regiam assecutus esse maiestatem. Itaque multae exterae nationes aut
                     renouandae ueteris amicitiae gratia, aut nouae instituendae ad eum mittunt
@@ -185,7 +138,7 @@
                     rege comiter excepti omnibusque quae postulauerant impetratis munifice
                     insuper donati ad suos remissi sunt.
                 </p>
-                <p>
+            <p>
                     Caeterum, Rhacusanae ciuitatis admonitus mentione, quae quidem
                     ciuitas Dalmatici nominis hac tempestate longe opulentissima est, aliquantisper
                     a suscepto excedam negotio repetamque eius urbis primordia, et
@@ -203,7 +156,7 @@
                     Rhacusanae cum Hungaris, utpote ueteribus sociis, haud absurde possint
                     coniungi.
                 </p>
-                <p> 
+            <p> 
                     Memoriae proditum est Sarracenos, Arabicam gentem, quondam ex Sicilia, quam
                     armis magna ex parte iam occuparant, ingenti classe ad litora Dalmatiae
                     praedandi studio delatos urbemque Epidaurum, Slouinorum armis iam fractam, ui
@@ -213,7 +166,7 @@
                     composito parum constat - terra, Sarracenis mari urbem aggredientibus resistere
                     queunt. 
                 </p>
-                <p>
+            <p>
                     Post Epidauri excidium Sarraceno multis cladibus reliquae quoque
                     Dalmatiae illatis Hadriaticum relinquente sinum Epidaurii ciues, qui forte aut
                     mercaturis, ut fit, rem quaerendo a domo abfuerant, aut fuga inter tumultum
@@ -239,7 +192,7 @@
                     industria subleuare. Quandoquidem Epidaurus, teste Plinio atque eo auctore,
                     qui libros aliquot C. Caesaris commentariis contexuit, Romana fuit colonia.
                 </p>
-                <p>
+            <p>
                     Aliquot deinde post annis Polimirus, cognomento Belus, materno
                     genere Romanus, paterno uero Rhatislaui, Bossinatium quondam regis
                     pronepos, qui a filio Gothislauo regno pulsus Romam sese exulatum
@@ -252,7 +205,7 @@
                     administrari, nec fas esse quemquam in regem assumi nisi regio sanguine
                     ortum.
                 </p>
-                <p>
+            <p>
                     Igitur Polimirus posteaquam in Dalmatiam nauibus appulit, in portu,
                     qui XIII circiter stadiis ab urbe Rhacusa abest (incolae Grauosium a regionis
                     quae portui adiacet asperitate lingua Epidauria nuncupant) se suosque exponit.
@@ -269,7 +222,7 @@
                     fortunae suae insignia tunc accipiebant.
                     
                 </p>
-                <p>
+            <p>
                     Porro Bossinates, Thracum Bessorum soboles, olim Thracia a Bulgaris
                     pulsi eas regiones Illyrici insederunt, quae Sauo, Valdano, Drino amnibus et
                     mari Adriatico, qua Dalmatiae <sic>pretenditur</sic>, continentur. Slouini enim, Bulgaris
@@ -279,7 +232,7 @@
                     eandem esse gentem: in quam quidem opinionem uix adducor quandoquidem
                     lingua inter se haud parum differunt.
                 </p>
-                <p>
+            <p>
                     Adeptus auitum regnum Polimirus conuocat ad se quos secum Roma
                     in Dalmatiam uenisse demonstrauimus: sciscitatur in mediterraneisne locis an
                     maritimis malint sedes habere. Vbi intellexit eos maxime, qui tenuiores genere
@@ -295,7 +248,7 @@
                     forum est, post conditam urbem deducto inde humore constratum esse
                     constat.
                 </p>
-                <p>
+            <p>
                     Rex igitur, priusquam urbis iaceret fundamenta, arcem in praealtis
                     rupibus mari subiecto imminentibus, ubi nunc Diuae Virginis aedes est ac
                     monasterium, quod Sacrae uirgines incolunt, exaedificauit, munimentum et
@@ -308,14 +261,14 @@
                     Lauusam, eo quod in praeruptis saxis posita esset, uocitatam; in quod quidem
                     nomen totam mox urbem abiisse tradunt, Lauusa in Rhacusam mutata.
                 </p>
-                <p>
+            <p>
                     Ductis deinde duobus muri utrinque brachiis, regionem, protensis
                     munitionibus ad rupes zephyro obiectas, moenibus circumdant, planitie omni
                     extra munitiones relicta, quam partim silua, partim palustre solum id temporis
                     obtinebat. Nam quicquid urbi inde adiectum est, id totum postea ciues aucti
                     fortuna extruxere.
                 </p>
-                <p>
+            <p>
                     In medio fere oppidi - regionem hanc nunc incolae Pusternam
                     nuncupant - Polimirus Diui Stephani Protomartyris erigit templum reliquiasque
                     Neraei, Archillaei et Pancratii martyrum Petronillaeque ac Domitillae uirginum
@@ -323,7 +276,7 @@
                     quibusdam clientibus suis, e familia a cruce denominata, quae iam maiorum
                     ignauia pene extincta est.
                 </p>
-                <p>
+            <p>
                     Nomen urbis quidam a Rhacusa Siciliae oppido, eius insulae putantes
                     coloniam, deducunt. Nonnulli a Rhadagaso, Slouinorum seu Gothorum rege, a
                     quo Polimirus ipse urbis conditor uetustam ducebat originem, nuncupatam
@@ -332,7 +285,7 @@
                     Lauusam appellarunt, paulatimque vulgo per linguae corruptelam literas
                     immutante nomenque deprauante pro Lauusa Rhacusam esse nominatam.
                 </p>
-                <p>
+            <p>
                     Satis enim constat Epidaurios, qui tunc patriae superstites erant, suasu
                     maxime pontificis eorum, cuius nomen uetustate excidit, e Burno, quod
                     quidem oppidum, ut demonstrauimus, instaurare coeperant, in nouam urbem
@@ -343,7 +296,7 @@
                     elegerat, eundem ibi honorem obtinere permisit, quem olim in antiqua
                     habuerant patria, senatui duntaxat urbis administratione concessa.
                 </p>
-                <p>
+            <p>
                     Et ne quid nouae ciuitati deesset, pontificem Epidaurium, quem
                     quidam Ioannem nominant, amissa priori sede Burni agentem praesulem
                     Rhacusanum Romano pontifice annuente designat, atque a <sic>ditione</sic> Salonitani
@@ -351,7 +304,7 @@
                     eximi curat, licet eodem fere tempore Salonae quoque ab Vcris, Glacialis
                     Oceani accolis, euersae sint.
                 </p>
-                <p>
+            <p>
                     Iam noua urbs opibus ac ciuium multitudine, soli inopia industriam
                     acuente, aliquantisper coaluerat, quum iterum Rhacusanorum animis Epidaurii
                     excidii metus obuersari coepit. Nam Sarraceni Calabris ac Appulis superatis
@@ -367,7 +320,7 @@
                     pontificis tempore, Seuropylo Dalmatiae regnum permissu Constantinopolitani
                     imperatoris administrante, Christianam susceperant religionem.
                 </p>
-                <p>
+            <p>
                     Gens Slouinorum, simul religionis amore, simul Dalmatiae periculo
                     moti, ui magna nauium coacta atque imposito in <sic>naueis</sic> exercitu, in Apuliam
                     traicit pulsisque e monte Gargano Sarracenis Rhacusanos non solum ab hoste
@@ -375,7 +328,7 @@
                     <sic>ditione</sic> sunt, partim precio, partim dono dedit, qua ex re Rhacusanae fortunae
                     haud parum adiectum.
                 </p>
-                <p>
+            <p>
                     Caeterum, ciuitas Rhacusana, ueluti humanum corpus, quum solito
                     speciosius coloratiusque factum est, in grauiorem plerumque incidit morbum,
                     intestina tyrannide fortunis aucta premi coepit, mortuo iam orbo liberis
@@ -385,7 +338,7 @@
                     Constantinopolitano alienata erat, nomen magis senescentis imperii quam uires
                     respiciens.
                 </p>
-                <p>
+            <p>
                     Mos erat apud Rhacusanos urbis praetores semestri imperio creare.
                     Forte obtigerat praetura Demiano cognomento Iudae (nemo superest ex hac
                     familia). Is quum auctoritate ac opibus caeteris ciuibus praestaret,
@@ -394,7 +347,7 @@
                     munitus maximo senatum nobilitatemque oppresserat terrore, utpote qui in
                     metu ciuium spem suam in primis reponeret.
                 </p>
-                <p> Iam duos annos Demiani tyrannis expleuerat grauisque ea non caeteris magis quam
+            <p> Iam duos annos Demiani tyrannis expleuerat grauisque ea non caeteris magis quam
                     his, qui affinitate atque cognatione tyrannum contingebant, esse coeperat,
                     libertatis amore necessitudinis iura superante. Itaque Pyrrhus Benessa, tyranni
                     ipsius gener, aduocatis clam domum suam e Rhacusano senatu potioribus et qui
@@ -408,9 +361,10 @@
                     maluerunt externa ope aduersus illum uti quam propriis armis in libertatem sese
                     uindicare. Itaque ueluti indigni qui suis legibus uiuerent id consilii
                     coeperunt, quo quidem neque ipsi seruitutem effugerunt et patriam alienae
-                    <sic>ditioni</sic> <sic>subiicientes</sic> sibi pariter et posteris suis perpetuam inusserunt notam.
+                    <sic>ditioni</sic>
+               <sic>subiicientes</sic> sibi pariter et posteris suis perpetuam inusserunt notam.
                 </p>
-                <p>
+            <p>
                     Erat inclyta eo tempore Veneti populi, non tam imperii, quod
                     admodum tenue erat, quam iustitiae caeterarumque ciuilium artium fama. Huc
                     accedebat publicum simul et priuatum hospitium cum Veneto senatu
@@ -422,7 +376,7 @@
                     attulerant, quamquam Rhacusani, temporibus ita postulantibus, ad Venetas
                     leges multas ipsi a se latas addiderunt.
                 </p>
-                <p>
+            <p>
                     Itaque nihil ueriti Venetorum fraudem mandant Benessae ut praetextu
                     negotiationis proficiscatur Venetias, auxilium a Veneto senatu aduersus
                     tyrannum petiturus. Qui quidem amicorum opera in senatum introductus (erat
@@ -430,7 +384,7 @@
                     familiaris) ostendit se publice a Rhacusanis missum opem imploratum ad
                     tyrannum e patria pellendum societatemque cum Venetis iungendam.
                 </p>
-                <p>
+            <p>
                     Veneti, ne a mercatorum moribus desciscerent, quorum proprium est
                     nulla honesti ratione habita omnia utilitate metiri, ut gratuitam operam
                     praestarent haudquaquam in animum inducere, sed officium suum aliena
@@ -451,7 +405,7 @@
                     effugisse et ipsi paulo post satis perspicerent, dum pro continuo ciuis sui
                     imperio quotannis alium atque alium dominum, et hunc externum, sortirentur.
                 </p>
-                <p>
+            <p>
                     Et quia ui aperta pelli urbe tyrannus non poterat - id enim temporis
                     Veneti nullas fere, ut dictum est, uires habebant - rem astu hunc in modum
                     aggrediuntur. Per speciem legationis ad Constantinopolitanum imperatorem
@@ -463,14 +417,14 @@
                     secum iungendae causa. Orat Venetos domum hospitaliter inuitet, esse inter
                     suos primarios uiros, amicitiam eorum honori simul et utilitati futuram.
                 </p>
-                <p>
+            <p>
                     Tyrannus, nihil minus quam generi fraudem timens, libenti animo eius
                     paruit uoluntati. Venetos in aedes suas benigne inuitatos apparatis accipit
                     epulis. Habitabat autem Demianus modicis aedibus ad portam urbis, paludi
                     quae tunc ibi erat adiacentem, in ea regione ubi nunc Lixiua familia a gente
                     Ceruaria aedes habet.
                 </p>
-                <p>
+            <p>
                     Post epulas monet socerum gener Venetos uti e conuiuio reuertentes
                     ad <sic>naueis</sic> usque officii gratia prosequatur. Neque enim tyranni dignitas ea re
                     minui uidebatur quandoquidem Veneti oratores locum senatus sui legationis
@@ -484,7 +438,7 @@
                     priuatum, accusata Venetorum fraude ac generi parricidio puppi caput illisit.
                     Itaque interiit amissi imperii magis quam Christiani officii memor.
                 </p>
-                <p>
+            <p>
                     Hic exitus fuit Demiani Iudae, cuius imperium si ciues pati potuissent,
                     praeterquam quod externam seruitutem minime subituri fuissent, magis
                     honestis artibus quam mutandis mercibus noti essent. Erat enim uir
@@ -495,13 +449,13 @@
                     inuasisse dominatum magis ut erigeret patriae fortunam quam ut orbus
                     praesertim uirili stirpe tyrannidem in suos exerceret.
                 </p>
-                <p>
+            <p>
                     Sublato tyranno de medio bonisque eius in publicum redactis
                     Rhacusani praetorem a Venetis ex pacto missum in urbem accepere, qui
                     quidem princeps duntaxat in senatu Rhacusano esset, caeterum nullum ius in
                     ciuem Rhacusanum haberet, suaeque leges, sui magistratus Rhacusanis essent.
                 </p>
-                <p>
+            <p>
                     Igitur ciuitas ad insitam animis humilitatem sordidis Venetorum artibus
                     adiectis - nempe principum suorum mores populi imitantur - coepit esse non
                     paruo apud finitimos contemptui. Hunc contemptum Veneti, ne
@@ -514,7 +468,7 @@
                     nulli rei quae accolarum inuidiam ureret magnopere studebant, ipsa humilitas
                     animi probitatis atque innocentiae apud finitimos obtinebat locum.
                 </p>
-                <p>
+            <p>
                     Per idem fere tempus regnabat in Illyrico apud Bossinates Bodinus, a
                     Polimiro Belo, quem conditorem Rhacusanae urbis diximus, genus ducens. Is
                     suasu uxoris Branislauum, fratrem patruelem suum, qui et ipse ad Drinum
@@ -525,7 +479,7 @@
                     idem sibi quoque periculum impendere rati confestim Rhacusam cum suis
                     omnibus, ueluti in liberam ciuitatem, se conferunt.       
                 </p>
-                <p>Quos Bodinus quum per literas atque legatos nequiquam repetisset -
+            <p>Quos Bodinus quum per literas atque legatos nequiquam repetisset -
                     responderant enim Rhacusani se fidei suae commissos nunquam prodituros -
                     comparato exercitu Rhacusam hostili animo accessit, in radicibusque Vergati
                     (ita montem uocant Rhacusae imminentem) e regione urbis consedit, ubi id
@@ -542,7 +496,7 @@
                     externorum militum manum sui defendendi causa aere proprio conduxerant.
                     
                 </p>
-                <p>
+            <p>
                     Bodinus hanc Rhacusanorum constantiam uirtutemque Branislaui
                     liberorum ac cognatorum admiratus, simul inutilis pertaesus belli tandem
                     necato Branislauo ex agro Rhacusano excessit. Corpus interfecti sepulturae
@@ -551,13 +505,13 @@
                     ciuitatis sepultum, extructo ei marmoreo, cuius adhuc extant uestigia,
                     monumento.
                 </p>
-                <p>
+            <p>
                     Ex hac belli uexatione Rhacusanis animus simul et industria adiecta.
                     Itaque Slauinis Dubrauiae incolis inde ui pulsis uicum et quicquid campi
                     interiacebat moenibus circumseptum cum urbe coniungunt, atque ita
                     magnitudo urbis breui duplicatur tectis toto eo spatio exaedificatis.
                 </p>
-                <p>
+            <p>
                     Et quoniam haud paruo certamine Dubrauiam de Slauinis coeperant
                     Rhacusani, templum Diuo Nicolao pontifici, monumentum uictoriae, in capite
                     uici, qui nunc fabrorum argentariorum ac uasculariorum frequens est officinis,
@@ -570,7 +524,7 @@
                     Rhacusano populo hospitium inierant. Hunc autem in modum Docleates
                     Rhacusanis operam tunc nauarunt.
                 </p>
-                <p>
+            <p>
                     Importauerant Docleates naui Rhacusam inter alias fruges aliquot uini
                     amphoras, appetente festo die, quem Christiani Sacrosanctam <sic>ressurrectionem</sic>
                     appellant, quo sane solemni lustrari solent religiosi uiri, et quicquid piaculo
@@ -588,7 +542,7 @@
                     fortuna, quae tunc erat ciuitatis, onerati promissi fidem praestare maturant,
                     tempori insidiandum rati.
                 </p>
-                <p>
+            <p>
                     Tuto igitur aditu impetrato uinum Slouinis leui pretio de industria
                     addicunt. Quos ubi cibo uinoque grauatos, nullamque pro castris stationem
                     hosti obiectam Docleates conspiciunt (nempe eodem die et Rhacusanos epulis
@@ -600,7 +554,7 @@
                     Graedeos fuisse, quorum alteri iam pene extincti sunt, alteri diuitiis et
                     auctoritate inter suos adhuc florent.
                 </p>
-                <p>
+            <p>
                     Amplificata moenibus ac tectis urbe ciuium quoque numerus in dies
                     magis magisque augebatur. Nam multi ex proximis regionibus, Illyrico,
                     Macedonia, Epiro, Graecia, atque etiam nonnulli ex Italia eo habitatum
@@ -608,14 +562,14 @@
                     Eorum quidam in patritios allecti opibus ac familiae amplitudine clari ad hanc
                     durant diem.
                 </p>
-                <p>
+            <p>
                     Caeterum, quum ciuitas soli asperitate frumento anguste uteretur,
                     nauigationi multo enixius quam antea inopia cogente incumbere coepit,
                     frugesque nauibus conuehere, nec non alias merces aliis, ut fieri solet,
                     permutare. Ex qua profecto re et ingentes breui compararunt opes, et Illyricis
                     regulis mercibus aduectis magno simul usui, simul uoluptati esse.
                 </p>
-                <p>
+            <p>
                     Sane prisci Rhacusani finitimos reges omnibus officiis adeo <sic>prosequuti</sic>
                     sunt ut uir religione insignis, Stephanus Nemagna, Bossinatibus in Illyrico id
                     temporis imperans, Rhacusanorum in se officiis, quibus eius gratiam
@@ -627,7 +581,7 @@
                     cuius os Phariam, seu, ut nunc dicitur, Lesinam excipit insulam; qua austrum
                     spectat, ei Melyte et Corcyra Nigra adiacent.
                 </p>
-                <p> Quin etiam eadem fere tempestate Lodouicum Hungarorum regem, Caroli filium, eum
+            <p> Quin etiam eadem fere tempestate Lodouicum Hungarorum regem, Caroli filium, eum
                     qui cum Venetis bellum gessit, amicitiam cum Rhacusanis instituisse comperio.
                     Etenim quum Ludouicus rex ex quibusdam maritimae Dalmatiae urbibus Venetos
                     expulisset, Rhacusanos liberos et suis legibus in perpetua tamen Hungarorum
@@ -636,7 +590,7 @@
                     non quo stipendiariam urbem efficeret, sed ut leue tributum urbi Dalmatiae
                     opulentissimae impositum testaretur Dalmatiam ipsam esse Hungarici regni
                     prouinciam et ad regis imperium spectare. </p>
-                <p>
+            <p>
                     Porro Hungari, attrito Constantinopolitano imperio, a Seuropyli
                     Dalmatarum regis usque tempore affinitatis iure Dalmatiam imperio suo
                     adiunxerant, ipsius Seuropyli filia, quum is uirili stirpe careret, regi suo in
@@ -647,14 +601,14 @@
                     autem Veneti quasdam in litore Dalmatico urbes, cum quorundam regum
                     ignauia, tum intestina Dalmatarum seditione.
                 </p>
-                <p>
+            <p>
                     Porro ferunt hanc Ludouici regis societatem Rhacusanis magno
                     extitisse splendori atque emolumento, cum apud caeteros Dalmatas, tum
                     maxime apud Bossinates reges, apud quos sane, pulsis e litore Dalmatico
                     Venetis, summam coeperant obtinere auctoritatem, magnusque his honos
                     fidesque praecipue ob integritatis famam est habita.
                 </p>
-                <p>
+            <p>
                     Caeterum ciuitas Venetorum imperio liberata parum abfuit quin haud
                     multo post quorundam adolescentium, leuitate animi et egestate, ut fit,
                     uenalium, proditione diriperetur, quos quidem nominatim tradere familiae
@@ -675,14 +629,14 @@
                     quendam, cuius fratris filius coniurationis damnatus erat, purpurea ueste
                     indutum in foro inambulasse dum de coniuratis poena caperetur.
                 </p>
-                <p>
+            <p>
                     Iisdem fere temporibus ager Epidaurius, addita Vitalina et tota regione
                     quae ab aquaeductu lingua Epidauria Canalis appellatur, post <sic>sexingentos</sic>
                     circiter annos ab excidio Epidauri, pretio quibusdam accolis regulis
                     Bossinatibus soluto recuperatus est uiritimque inter ciues magna ueterum
                     possessorum inuidia atque contentione diuisus.
                 </p>
-                <p>
+            <p>
                     Quod autem Canalensis ager territorii Epidaurii fuerit, argumento est
                     opus mirabili structura effectum, quo a uigesimo prope milliario aqua in urbem
                     perducta est, partim subterraneo riuo, partim substructione, partim opere
@@ -690,7 +644,7 @@
                     uestigia atque quibusdam in locis inscriptiones Latinis literis nomina curatorum
                     indicantes.
                 </p>
-                <p>
+            <p>
                     Per idem quoque tempus Sigismundus Augustus, Hungarorum ac
                     Bohemorum rex, Phariam, quam quidam <sic>Lesinem</sic>, ut dictum est, uocant,
                     Bratiam, et Corcyram Nigram, insulas habitatoribus satis frequentes, singulari
@@ -705,7 +659,7 @@
                     Itaque confestim consilium coeperunt sese in regiam potestatem restituendi,
                     adiutore in primis Iaxia quodam ex Naresiis principibus.
                 </p>
-                <p>
+            <p>
                     Erat Iaxias et per se Rhacusanis infensus, ut est inter plerosque uicinos
                     ex aemulatione odium. Itaque profectus in Hungariam adit Barbaram,
                     Sigismundi uxorem, cui se cordi esse haud quaquam ignorabat. Erat enim et
@@ -719,7 +673,7 @@
                     exemptas Iaxiae tradi, Rhacusanis oratoribus apud Caesarem nequicquam
                     nitentibus ne insulae fidelibus sociis, falsis Iaxiae criminibus, adimerentur.
                 </p>
-                <p>
+            <p>
                     Sed crimen ualuit eo maxime quod Rhatanei Canalensisque agri diuisio
                     eiectis ueteribus colonis parum purgata esset, cum insulani alienae cladis
                     exemplum metumque, qui non uanus esse uidebatur, in suam defensionem
@@ -729,7 +683,7 @@
                     possessiones prauo consilio inito sibi uendicare conabantur, mercaturae
                     consuetudine proprium magis quam publicum emolumentum sequentes.
                 </p>
-                <p>
+            <p>
                     Quo autem studio fidem caeteris in rebus semper coluerint Rhacusani,
                     eo maxime tempore declaratum est quo Georgius, Triballorum ac Dardanorum
                     rex, Stephani Nemagnae successor fere ultimus, regno a Turcis pulsus
@@ -741,7 +695,7 @@
                     admiratum dixisse ferunt urbem haud facile perditum iri in qua scilicet tanti
                     ducitur fides.
                 </p>
-                <p>
+            <p>
                     Caeterum Rhacusani haudquaquam contenti hoc tantummodo in
                     Dardanum regem officio consuluerunt ei ut confestim Hungariam peteret
                     fortunamque recuperandi regni tentaret. Itaque Rhacusanis nauibus Scardonam
@@ -749,7 +703,7 @@
                     Hunniadis, regis Matthiae patris, tum thesauro in militum stipendium erogato,
                     quem ei, ut dictum est, Rhacusani conseruarant, in regnum est restitutus.
                 </p>
-                <p>
+            <p>
                     Atqui recuperato regno haud immemor beneficii Dardanus rex extitit.
                     Semper enim gratiae Rhacusanis referendae summo studio incubuit atque adeo
                     omnibus eos est <sic>prosequutus</sic> officiis ut etiam modum excesserit. Nam praeter
@@ -759,7 +713,7 @@
                     tenere permisit. Quo facto multi ex Rhacusanis id temporis amplissimas nacti
                     sunt opes, quibus sane, et publice et priuatim, urbs magnopere est exculta.
                 </p>
-                <p>
+            <p>
                     Caeterum Rhacusani, mente eorum secundis, ut fit, rebus sublata,
                     fortuna sua haud modeste uti coepere. Itaque cum Stephano Cossacio, Volcatii
                     filio, Bossinate finitimo et amico, sub quo aliquot Dalmatiae regiones tunc
@@ -775,7 +729,7 @@
                     speciem expeditionis extra urbem ablegatos posthac urbem ingredi non
                     permiserunt, itaque urbs incolumis ab intestino hoste conseruata.
                 </p>
-                <p>
+            <p>
                     Verum fugatis mox ab externo hoste Rhacusanis copiis rebusque
                     accisis consternata ciuitas in detestabili scelere spem posuit salutis. Erat
                     Stephano Cossacio filius natu maximus, patri, ob ereptam sibi ab ipso patre
@@ -787,7 +741,7 @@
                     desciscat patremque Turcarum incursionibus uexet. Ad haec, ne belli quidem
                     iure seruato, licitati sunt hostis caput, pecunia percussori promissa.
                 </p>
-                <p>
+            <p>
                     Nec ex altera parte Stephanus destitit externis auxiliis Rhacusanos
                     oppugnare. Pactus est enim cum Venetis ut expugnata Venetorum ope urbe
                     Rhacusa praeda rerum omnium Stephani esset, urbs uero Venetis cederet.
@@ -800,7 +754,7 @@
                     rebus diuinis interdicit si ullum auxilii genus aduersus Rhacusanos Bossinati
                     homini praestitissent. Atque ita Veneti metu Pontificiae censurae quieuere.
                 </p>
-                <p>
+            <p>
                     Sed nec quies Venetorum belli finem fecit. Nam filius Stephani, quem a
                     patre defecisse demonstrauimus, ita inimico animo regiones ad patris imperium
                     spectantes Turcaica manu sibi adiuncta deuastando peruagatus est ut hoc in
@@ -808,7 +762,7 @@
                     extinxerit, Rhacusanamque ciuitatem non modo tributariam fecerit, sed etiam
                     in Turcaicam pene seruitutem redegerit.
                 </p>
-                <p>
+            <p>
                     Nimirum, ita plerumque usu uenire solet ut qui hostem alienis armis
                     uincere nititur, iisdem et ipse superetur, nec multo leuius uictori quam uicto
                     accidat.     Quod quidem patrum nostrorum aetate Illyricis, Thracibus,
@@ -816,7 +770,7 @@
                     Gallorum ope, alii Hispanorum aduersarios suos oppugnant, omnes externum
                     iugum subiere.
                 </p>
-                <p>
+            <p>
                     Atqui haec seruitus, quamquam Rhacusanorum animos infregit,
                     attamen, quantum de dignitate dempsit, tantum opibus eorum adiecit. Etenim
                     infirmitatis suae iam satis gnari in omnibus publicis actionibus metum inde in
@@ -826,7 +780,7 @@
                     Sed iam procul ab incepto tractus, eo, unde me Rhacusana ciuitas auocauerat,
                     reuertar.
                 </p>
-            </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>

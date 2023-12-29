@@ -1,93 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="nn-paulus-epigramma">
-            <titleStmt>
-                <title>Epigramma Pauli archiepiscopi Spalatensis, versio electronica</title>
-                <author ref="#anonymus_1015">
-                    <persName xml:lang="lat">Anonymus</persName>
-                    <date>fl. 1015-1030</date>
+   <teiHeader>
+      <fileDesc xml:id="nn-paulus-epigramma">
+         <titleStmt>
+            <title>Epigramma Pauli archiepiscopi Spalatensis, versio electronica</title>
+            <author ref="#anonymus_1015">
+               <persName xml:lang="lat">Anonymus</persName>
+               <date>fl. 1015-1030</date>
             </author>
-                <editor>
+            <editor>
                <persName>
                   <ref>Veljko Gortan</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Prema modernom kritičkom izdanju.</edition>
-            </editionStmt>
-            <extent ana="A">Mg:A 8 versus, verborum 72</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Profil hrvatskog latiniteta, znanstveni projekt na
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prema modernom kritičkom izdanju.</edition>
+         </editionStmt>
+         <extent ana="A">Mg:A 8 versus, verborum 72</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Profil hrvatskog latiniteta, znanstveni projekt na
                     <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date>Kolovoza
                         2012.</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Gortan, Veljko: Natpis na mramornom stupu splitskog nadbiskupa Pavla. Historijski zbornik, XVII (1964), s. 423-429.
                 </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="12"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="7"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="8"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lb" occurs="13"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="8"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -102,71 +53,70 @@
          </langUsage>
          <creation>
             <date when="1015" period="10xx_1_third">1015</date>
-                <placeName>Split</placeName>
+            <placeName>Split</placeName>
          </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae medii aevi (700-1400)</term>
-                    <term>Saeculum 11 (1001-1100)</term>
-                    <term>1001-1050</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - inscriptio</term>
-                    <term>poesis - epigramma</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae medii aevi (700-1400)</term>
+               <term>Saeculum 11 (1001-1100)</term>
+               <term>1001-1050</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - inscriptio</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
+      <revisionDesc>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2013-07-02</date> Versio prima. </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="poesis-inscriptio-epitaphium" met="hexameter">
-                
-               <l> 
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poesis-inscriptio-epitaphium" met="hexameter">
+            <l>
                <add>Crv</add>X VENERAND<add>a poli</add>
                <lb/>
-                   <add>ren</add>ATOS MVNIAT <add>alm</add>OS<lb/>
+               <add>ren</add>ATOS MVNIAT <add>alm</add>OS<lb/>
             </l>
-                <l>AVSTRALI DE PART<add>e mina</add>N<add>s</add>
+            <l>AVSTRALI DE PART<add>e mina</add>N<add>s</add>
                <lb/>
                     VT SIDVS AB A<add>ltis</add>
-            </l> 
+            </l>
             <l>
                <add>coel</add>IS<lb/>
-                LV<add>ceb</add>IT C<expan>er</expan>T<expan>vs</expan> SVPER <add>omnia</add> 
-                <expan>CHRistvS</expan>
+                LV<add>ceb</add>IT C<expan>er</expan>T<expan>vs</expan> SVPER <add>omnia</add>
+               <expan>CHRistvS</expan>
                <lb/>
-            </l> 
+            </l>
             <l>EOI CRVX ALMA D<expan>e</expan>I TVEATVR<lb/>
                     AB <sic>OSTE</sic>
-            </l> 
+            </l>
             <l>INTRANTES <sic>CVNTOS<lb/>QVE</sic> PIOS CONCORDIA NEC <add>tv<expan>m</expan>
                </add>
                <lb/>
             </l>
-                <l>VIR APOSTATA <sic>SEDEN</sic> SIMVLA<add>bat</add>
+            <l>VIR APOSTATA <sic>SEDEN</sic> SIMVLA<add>bat</add>
                <lb/>
-                    <sic>ABERE</sic>
-            </l> 
+               <sic>ABERE</sic>
+            </l>
             <l>
                <expan>CHRistvS</expan> IN ARCE POLI REGIA<lb/>
-                        MOX <sic>EXPVLLIT</sic> ILLVD</l> 
+                        MOX <sic>EXPVLLIT</sic> ILLVD</l>
             <l>
                <sic>DOMNO</sic>
                <lb/>
                             PAVLVS <sic>PRESVLVS</sic> OFERT<lb/>
-                            <sic>VEXILLV</sic> ISTV<expan>m</expan>.<lb/>
+               <sic>VEXILLV</sic> ISTV<expan>m</expan>.<lb/>
             </l>
-            </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>

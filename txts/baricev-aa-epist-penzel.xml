@@ -1,1013 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="baricev-aa-epist-penzel">
-            <titleStmt>
-                <title>Epistulae XVI invicem scriptae, versio electronica</title>
-                <author ref="baric01">
-                    <persName xml:lang="hr">Baričević, Adam Alojzije</persName>
-                    <date>1756-1806</date>
-                </author>
-                <author ref="#alienus-viaf32739326">
-                    <persName ref="croala.publika.penzel">Abraham Jakob Penzel</persName>
-                    <date>Törten, 1749 – Jena, 1819</date>
+   <teiHeader>
+      <fileDesc xml:id="baricev-aa-epist-penzel">
+         <titleStmt>
+            <title>Epistulae XVI invicem scriptae (1793–1799), versio electronica</title>
+            <author ref="http://www.wikidata.org/entity/Q12626532">
+               <persName xml:lang="hr">Baričević, Adam Alojzije</persName>
+               <date>1756-1806</date>
             </author>
-                <editor>
-                    <persName>
+            <author ref="http://www.wikidata.org/entity/Q26333763">
+               <persName ref="croala.publika.penzel">Penzel, Abraham Jakob</persName>
+               <date>Törten, 1749 – Jena, 1819</date>
+            </author>
+            <editor>
+               <persName>
                   <ref type="viaf" target="305665942">Luka Vukušić</ref>
                </persName>
-                </editor>
-                <respStmt>
-                    <resp>Editionem electronicam praeparavit</resp>
-                    <persName>
+            </editor>
+            <respStmt>
+               <resp>Editionem electronicam praeparavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Znanstveno izdanje prema rukopisu (2003).
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Znanstveno izdanje prema rukopisu (2003).
                 </edition>
-            </editionStmt>
-            <extent ana="C">Mg:C Verborum 7902</extent>
-            <publicationStmt>
-                <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum 7902</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2010-12">Prosinca 2010</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                <title level="a">Korespondencija Adama Baričevića i Abrahama Penzela. </title>
-                    <author>Luka Vukušić</author>, <title level="m">Diplomski rad, studeni 2003. </title>
-                    <respStmt>
-                        <resp>Mentorica: </resp>
-                        <name>Dr. sc. Olga Perić.</name>
-                    </respStmt>
-                    <pubPlace>Zagreb</pubPlace>
-                    <publisher>Odsjek za klasičnu filologiju, Filozofski fakultet Sveučilišta u
+               <author>Luka Vukušić</author>, <title level="m">Diplomski rad, studeni 2003. </title>
+               <respStmt>
+                  <resp>Mentorica: </resp>
+                  <name>Dr. sc. Olga Perić.</name>
+               </respStmt>
+               <pubPlace>Zagreb</pubPlace>
+               <publisher>Odsjek za klasičnu filologiju, Filozofski fakultet Sveučilišta u
                         Zagrebu</publisher>
-                    <date when="2003-11">studeni 2003</date>
-                </bibl>
+               <date when="2003-11">studeni 2003</date>
+            </bibl>
          </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <classDecl>
-                <taxonomy xml:id="genus">
-                    <!-- kontrolirani katalog za žanrove, za novolatinski? -->
-                    <category>
-                        <catDesc>genera litteraria</catDesc>
-                    </category>
-                </taxonomy>
-                
-                <taxonomy xml:id="aetas">
-                    <!-- gdje je kontrolirani katalog za periodizaciju? -->
-                    <category>
-                        <catDesc>aetates</catDesc>
-                    </category>
-                    <category xml:id="locus">
-                        <catDesc>locus</catDesc>
-                    </category>
-                </taxonomy>
-            </classDecl>
-        <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="21"/>
-          <tagUsage gi="abstract" occurs="17"/>
-          <tagUsage gi="addrLine" occurs="2"/>
-          <tagUsage gi="address" occurs="14"/>
-          <tagUsage gi="author" occurs="3"/>
-          <tagUsage gi="bibl" occurs="37"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="catDesc" occurs="3"/>
-          <tagUsage gi="category" occurs="3" withId="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="classDecl" occurs="1"/>
-          <tagUsage gi="closer" occurs="16"/>
-          <tagUsage gi="creation" occurs="17"/>
-          <tagUsage gi="date" occurs="72"/>
-          <tagUsage gi="dateline" occurs="16"/>
-          <tagUsage gi="div" occurs="16" withId="16"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="110"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="35"/>
-          <tagUsage gi="hi" occurs="1"/>
-          <tagUsage gi="keywords" occurs="51"/>
-          <tagUsage gi="langUsage" occurs="17"/>
-          <tagUsage gi="language" occurs="17"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="17"/>
-          <tagUsage gi="num" occurs="4"/>
-          <tagUsage gi="opener" occurs="16"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="57"/>
-          <tagUsage gi="particDesc" occurs="17"/>
-          <tagUsage gi="persName" occurs="125"/>
-          <tagUsage gi="person" occurs="61"/>
-          <tagUsage gi="place" occurs="54"/>
-          <tagUsage gi="placeName" occurs="130"/>
-          <tagUsage gi="postscript" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="17" withId="16"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="q" occurs="1"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="16"/>
-          <tagUsage gi="settingDesc" occurs="17"/>
-          <tagUsage gi="sic" occurs="16"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="61"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="taxonomy" occurs="2" withId="2"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="85"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="17"/>
-          <tagUsage gi="title" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place>
+            <place>
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-             <place>
+            <place>
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
          </settingDesc>
          <particDesc>
-             <person>
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+            <person>
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-             <person>
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person>
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date notBefore="1793" notAfter="1799" period="17xx_3_third">1793–1799</date>
-                <address>
-                    <addrLine>Zagrabiae</addrLine>
-                </address>
-                <address>
-                    <addrLine>Aemonae</addrLine>
-                </address>
-             <date when="1793-10-14" period="17xx_3_third">14. listopada 1793.</date>
-             <date when="1793-10-28" period="17xx_3_third">28. listopada 1793.</date>
-             <date when="1793-12-24" period="17xx_3_third">24. prosinca 1793.</date>
-             <date when="1794-01-03" period="17xx_3_third">3. siječnja 1794.</date>
-             <date when="1794-04-13" period="17xx_3_third">13. travnja 1794.</date>
-             <date when="1795-10-15" period="17xx_3_third">15. listopada 1795.</date>
-             <date when="1795-12-12" period="17xx_3_third">12. prosinca 1795.</date>
-             <date when="1795-12-27" period="17xx_3_third">27. prosinca 1795.</date>
-             <date when="1796-01-27" period="17xx_3_third">27. siječnja 1796.</date>
-             <date when="1796-12-30" period="17xx_3_third">30. prosinca 1796.</date>
-             <date when="1797-01-07" period="17xx_3_third">07. siječnja 1797.</date>
-             <date when="1797-01-30" period="17xx_3_third">30. siječnja 1797.</date>
-             <date when="1797-02-16" period="17xx_3_third">16. veljače 1797.</date>
-             <date when="1797" period="17xx_3_third">1797.</date>
-             <date when="1798-06-08" period="17xx_3_third">8. lipnja 1798.</date>
-             <date when="1799-04-15" period="17xx_3_third">15. travnja 1799.</date>
-            </creation>
+            <date notBefore="1793" notAfter="1799" period="17xx_3_third">1793–1799</date>
+            <address>
+               <addrLine>Zagrabiae</addrLine>
+            </address>
+            <address>
+               <addrLine>Aemonae</addrLine>
+            </address>
+            <date when="1793-10-14" period="17xx_3_third">14. listopada 1793.</date>
+            <date when="1793-10-28" period="17xx_3_third">28. listopada 1793.</date>
+            <date when="1793-12-24" period="17xx_3_third">24. prosinca 1793.</date>
+            <date when="1794-01-03" period="17xx_3_third">3. siječnja 1794.</date>
+            <date when="1794-04-13" period="17xx_3_third">13. travnja 1794.</date>
+            <date when="1795-10-15" period="17xx_3_third">15. listopada 1795.</date>
+            <date when="1795-12-12" period="17xx_3_third">12. prosinca 1795.</date>
+            <date when="1795-12-27" period="17xx_3_third">27. prosinca 1795.</date>
+            <date when="1796-01-27" period="17xx_3_third">27. siječnja 1796.</date>
+            <date when="1796-12-30" period="17xx_3_third">30. prosinca 1796.</date>
+            <date when="1797-01-07" period="17xx_3_third">07. siječnja 1797.</date>
+            <date when="1797-01-30" period="17xx_3_third">30. siječnja 1797.</date>
+            <date when="1797-02-16" period="17xx_3_third">16. veljače 1797.</date>
+            <date when="1797" period="17xx_3_third">1797.</date>
+            <date when="1798-06-08" period="17xx_3_third">8. lipnja 1798.</date>
+            <date when="1799-04-15" period="17xx_3_third">15. travnja 1799.</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <profileDesc xml:id="penzelbarichevic17931014">
-            <abstract>
+      <profileDesc xml:id="penzelbarichevic17931014">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1793-10-14" period="17xx_3_third">14. listopada 1793.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="baricevicpenzel17931028">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1793-10-14" period="17xx_3_third">14. listopada 1793.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="baricevicpenzel17931028">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-                <person role="sender">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1793-10-28" period="17xx_3_third">28. listopada 1793.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="baricevicpenzel17931224">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1793-10-28" period="17xx_3_third">28. listopada 1793.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="baricevicpenzel17931224">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-                <person role="sender">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="krcel01">Krčelić, Baltazar Adam</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="blask01">Blašković, Andrija</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1793-12-24" period="17xx_3_third">24. prosinca 1793.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="penzelbaricevic17940103">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1793-12-24" period="17xx_3_third">24. prosinca 1793.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="penzelbaricevic17940103">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1794-01-03" period="17xx_3_third">3. siječnja 1794.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="penzelbaricevic17940413">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1794-01-03" period="17xx_3_third">3. siječnja 1794.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="penzelbaricevic17940413">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q1741">Vienna</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1794-04-13" period="17xx_3_third">13. travnja 1794.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="penzelbaricevic17951015">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1794-04-13" period="17xx_3_third">13. travnja 1794.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="penzelbaricevic17951015">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1795-10-15" period="17xx_3_third">15. listopada 1795.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="baricevicpenzel17951212">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1795-10-15" period="17xx_3_third">15. listopada 1795.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="baricevicpenzel17951212">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="destination">
+         <settingDesc>
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="origin">
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q192119">Sisak</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q41753">Klagenfurt</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q210205">Pest</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="sender">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="recipient">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1795-12-12" period="17xx_3_third">12. prosinca 1795.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="penzelbaricevic17591227">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1795-12-12" period="17xx_3_third">12. prosinca 1795.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="penzelbaricevic17591227">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1795-12-27" period="17xx_3_third">27. prosinca 1795.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="penzelbaricevic17960127">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1795-12-27" period="17xx_3_third">27. prosinca 1795.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="penzelbaricevic17960127">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1796-01-27" period="17xx_3_third">27. siječnja 1796.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="penzelbaricevic17961230">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1796-01-27" period="17xx_3_third">27. siječnja 1796.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="penzelbaricevic17961230">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1796-12-30" period="17xx_3_third">30. prosinca 1796.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="baricevicpenzel17970107">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1796-12-30" period="17xx_3_third">30. prosinca 1796.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="baricevicpenzel17970107">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="destination">
+         <settingDesc>
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="origin">
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                
-            </settingDesc>
-            <particDesc>
-                <person role="sender">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="recipient">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="45100908">Bernolák, Anton</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1797-01-07" period="17xx_3_third">07. siječnja 1797.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="penzelbaricevic17970130">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1797-01-07" period="17xx_3_third">07. siječnja 1797.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="penzelbaricevic17970130">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="45100908">Bernolák, Anton</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1797-01-30" period="17xx_3_third">30. siječnja 1797.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="baricevicpenzel17970216">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1797-01-30" period="17xx_3_third">30. siječnja 1797.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="baricevicpenzel17970216">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="destination">
+         <settingDesc>
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="origin">
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q10860737">Gorlicium</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="sender">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="recipient">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="74623782">Scheller, Immanuel Johann Gerhard</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="100198334">Gellius, Aulus</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="45100908">Bernolák, Anton</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1797-02-16" period="17xx_3_third">16. veljače 1797.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="penzelbaricevic1797">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1797-02-16" period="17xx_3_third">16. veljače 1797.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="penzelbaricevic1797">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q14835">Bautzen</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q3214">Cottbus</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q32530">Lusatia</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q584815">Lübben</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q13298">Graz</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q1741">Vienna</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q1524">Athens</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="61893842">Matthaei, Georg</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="5363351">Hauptmann, Johann Gottlieb</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="28014479">Bierling, Kaspar Zacharias</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="19648071">Frentzel, Abraham</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="73862436">Baumgarten, Alexander Gottlieb</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="23250010">Böhmer, Johann</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="5462861">Lange, Johan</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="308739220">Jockisch, Matthäus</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="308739219">Wauer, Johann</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="32844829">Kühn, Johann Gottfried</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="14773105">Luther, Martin</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="54995951">Fritze, Johann Friedrich</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="78822416">Johannes Evangelist</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="67393021">Durich, Fortunatus</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="49974517">Eckhel, Joseph Hilarius</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="305114654">Phrantzes, Georgios</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="27410928">Locella, Aloys Emmerich von</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="83987541">Xenophon Ephesius</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="27409795">Michaeler, Karl</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1797" period="17xx_3_third">1797.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="penzelbaricevic17980608">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1797" period="17xx_3_third">1797.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="penzelbaricevic17980608">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="origin">
+         <settingDesc>
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q2079">Leipzig</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="recipient">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="sender">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-                <person role="mentioned">
+            <person role="mentioned">
                <persName ref="51787739">Frischlin, Nicodemus</persName>
             </person>
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1798-06-08" period="17xx_3_third">8. lipnja 1798.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <profileDesc xml:id="baricevicpenzel17990415">
-            <abstract>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1798-06-08" period="17xx_3_third">8. lipnja 1798.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="baricevicpenzel17990415">
+         <abstract>
             <p/>
          </abstract>
-            <settingDesc>
-                <place ana="destination">
+         <settingDesc>
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-                <place ana="origin">
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q1435">Zagreb</placeName>
             </place>
-                <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q437">Ljubljana</placeName>
             </place>
-            </settingDesc>
-            <particDesc>
-                <person role="sender">
-               <persName ref="baric01">Baričević, Adam Alojzije</persName>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q12626532">Baričević, Adam Alojzije</persName>
             </person>
-                <person role="recipient">
-               <persName ref="32739326">Penzel, Abraham Jakub</persName>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q26333763">Penzel, Abraham Jakub</persName>
             </person>
-                
-            </particDesc>
-            <langUsage>
-                <language ident="lat" xml:lang="hrv">latinski</language>
-            </langUsage>
-            <creation>
-                <date when="1799-04-15" period="17xx_3_third">15. travnja 1799.</date>
-                
-            </creation>
-            <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-        <revisionDesc>
-            <change>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1799-04-15" period="17xx_3_third">15. travnja 1799.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2023-12-28</date>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName> 
+                Dodao Wikidata ID za autora.
+                Uklonio popis tagova.
+            </change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
@@ -1015,39 +913,35 @@
             <date>2012-07-22</date>
             Novo, unificirano zaglavlje.
             </change>
-            <change>
-                <date>2010-12-02</date>
-                <persName>
+         <change>
+            <date>2010-12-02</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 početno oblikovanje.
             </change>
-            
-            
-        </revisionDesc>
-        
-        
-    </teiHeader>
-    <text>
-        <body>
-            <div type="prosa-epistula" xml:id="ajp01" corresp="#penzelbarichevic17931014">
-                <opener>Abrahamus Jacobus Penzel poeseos professor in Lycaeo Aemonensi Adamo
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="prosa-epistula"
+              xml:id="ajp01"
+              corresp="#penzelbarichevic17931014">
+            <opener>Abrahamus Jacobus Penzel poeseos professor in Lycaeo Aemonensi Adamo
                     Barichevich, <abbr>v. s. r.</abbr>
-                    <note place="foot" n="1">Viro summum reverendo.</note>
-                    <foreign xml:lang="el">χαίρειν και εὐπράττειν</foreign>
-                    <address>
+               <note place="foot" n="1">Viro summum reverendo.</note>
+               <foreign xml:lang="el">χαίρειν και εὐπράττειν</foreign>
+               <address>
                   <placeName>Zagrabiam</placeName>
                </address>
-                </opener>
-
-
-                <p>Grato equidem animo, vir summum reverende, munus, quo me beare voluisti, accipio,
+            </opener>
+            <p>Grato equidem animo, vir summum reverende, munus, quo me beare voluisti, accipio,
                     gratior tamen longe est, quam mihi ultro offers, amicitia et qua me dignum
                     semper praestabo. Ita tandem aliquando adire licebit doctae Croatiae penetralia
                     atque inde decerpere flores, unde prius nulli velarant tempora Musae. Agedum
                     vero, antequam ulterius scribo, paucis exponere iuvat, quis et qualis sim.</p>
-                <p>Natus sum <abbr>a. d.</abbr>
-                    <note place="foot" n="2">Anno domini. <foreign xml:lang="hr">Penzel ne navodi
+            <p>Natus sum <abbr>a. d.</abbr>
+               <note place="foot" n="2">Anno domini. <foreign xml:lang="hr">Penzel ne navodi
                             godinu rođenja.</foreign>
                </note> XVII. Novembris Dessaviae quae urbs
                     nunc quidem ad circulum Saxoniae Superioris pertinet, ubi Slavonica lingua tota
@@ -1059,7 +953,7 @@
                     1770. prima linguae Polonicae rudimenta a magistro Polono didici. Mox, anno
                     insequenti Halae Saxonum tria specimina eruditionis meae Slavicae edidi,
                     nimirum: <bibl>Dissertationem de Barangis in aula Byzantina militantibus,</bibl>
-                    <bibl>De origine Slavica vocis caminatae</bibl>, atque <bibl>De
+               <bibl>De origine Slavica vocis caminatae</bibl>, atque <bibl>De
                     Hyperboreis</bibl>. Triennium post eiuravi Calvinismum, in quo natus eram, et
                     Herbipoli prima vice 1774. cum Catholicis communicavi. Adii postea Borussiam,
                     Curoniam, Livoniam, Russiam, ubi linguam Letticam, Lithuanam, Esthonicam atque
@@ -1120,24 +1014,25 @@
                     tecta adveniat; nequaquam hoc ex negligenta fit, sed cum illam Hörnerianis
                     litteris includendam putaverim, spissiores illas quem par erat facere nolui, ne
                     vectorium augmentaretur.</p>
-                <closer>
-                    <salute>Vale, vir <abbr>s. r.</abbr> atque si litterarum, vel civile quoque
+            <closer>
+               <salute>Vale, vir <abbr>s. r.</abbr> atque si litterarum, vel civile quoque
                         negotium Aemonae habes, impera liberrime, me semper ad omnia servitia
                         paratissimum invenies. Iterum vale.</salute>
-                    <dateline>Scripsi Aemonae <date when="1793-10-14">a. d. Idus Octobr:
+               <dateline>Scripsi Aemonae <date when="1793-10-14">a. d. Idus Octobr:
                     MDCCLXXXXIII.</date>
                </dateline>
-                </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ab01" corresp="#baricevicpenzel17931028">
-                <opener>Abrahamo Jacobo Penzel Adamus Barichevich <abbr>s. p. d.</abbr>
-                    <note place="foot" n="4">Salutem plurimam dicit.</note>
-                    <address>
+            </closer>
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ab01"
+              corresp="#baricevicpenzel17931028">
+            <opener>Abrahamo Jacobo Penzel Adamus Barichevich <abbr>s. p. d.</abbr>
+               <note place="foot" n="4">Salutem plurimam dicit.</note>
+               <address>
                   <placeName>Labacum</placeName>
                </address>
-                </opener>
-
-                <p>Gratulor Noricorum provinciae, in quam delatus es Caesaris iussu. Et quidni
+            </opener>
+            <p>Gratulor Noricorum provinciae, in quam delatus es Caesaris iussu. Et quidni
                     gratuler? Ex quo enim Nicodemus Frischlinius, popularis pene tuus, et
                     Schoenlebenius decesserunt, qui singulari erant Aemonae ornamento, nullum ego
                     quidem in ea urbe novi virum ingenii tam exculti, ut tecum comparari possit. Sed
@@ -1160,20 +1055,22 @@
                         <bibl>Evangelio <foreign xml:lang="el">Συνταττομένῳ</foreign>
                </bibl>
                     Vindobonae operam tuam narrasti, multam tibi salutem.</p>
-                <closer>
-                    <salute>Ama nos et vale.</salute>
-                    <dateline>
+            <closer>
+               <salute>Ama nos et vale.</salute>
+               <dateline>
                   <date when="1793-10-28">V. Kal. Nov: MDCCXCIII.</date>
-                        <placeName>Zagrabiae</placeName>.</dateline>
-                </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ab02" corresp="#baricevicpenzel17931224">
-                <opener>Jacobo Penzel A. Barichevich <abbr>s. p. d.</abbr>
-                    <address>
+                  <placeName>Zagrabiae</placeName>.</dateline>
+            </closer>
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ab02"
+              corresp="#baricevicpenzel17931224">
+            <opener>Jacobo Penzel A. Barichevich <abbr>s. p. d.</abbr>
+               <address>
                   <placeName>Labacum</placeName>
                </address>
             </opener>
-                <p>Quas ad te dedi <date when="1793-10-28">V. Kal. Nov.</date> litteras, vereor ut acceperis. Ex iis meum in te
+            <p>Quas ad te dedi <date when="1793-10-28">V. Kal. Nov.</date> litteras, vereor ut acceperis. Ex iis meum in te
                     amorem, et obsequendi studium perspicere potuisti. Me vero maxime angit
                     exspectatio opportuna cujusdam occasionis, qua <persName>Kerchelichii</persName>, <persName>Blaskovichii</persName> et
                     aliorum opera ad te mittam. Mittam autem dono. Hominis tibi deditissimi officium
@@ -1183,20 +1080,22 @@
                     isthic degere commode ut possis. Quod si acciderit, ut ad me rescribas, quod
                     mihi erit longe jucundissimum efficies profecto litteris tuis, ut cum eas
                     legero, te ipsum videre, te alloqui, te demum amplecti suavissime mihi videar.</p>
-                <closer>
-                    <salute>Vale ipso nominis mei die.</salute>
-                    <dateline>
+            <closer>
+               <salute>Vale ipso nominis mei die.</salute>
+               <dateline>
                   <placeName>Zagrabiae</placeName>
-                        <date when="1793-12-24">MDCCXCIII</date>.</dateline>
-                </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ajp02" corresp="#penzelbaricevic17940103">
-                <opener>Abraham Jacobus Penzel A. Barichevich <abbr>s. p. d.</abbr> 
-                <address>
+                  <date when="1793-12-24">MDCCXCIII</date>.</dateline>
+            </closer>
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ajp02"
+              corresp="#penzelbaricevic17940103">
+            <opener>Abraham Jacobus Penzel A. Barichevich <abbr>s. p. d.</abbr>
+               <address>
                   <placeName>Zagrabiam</placeName>
                </address>
             </opener>
-                <p>Litteras quas ipso nominis tui die, vir doctissime, mihi transmittendas
+            <p>Litteras quas ipso nominis tui die, vir doctissime, mihi transmittendas
                     curaveras, laetus hodie in prandio accepi, nec, ita Dii me Deaeque omnes juvent,
                     salubriores nec jucundiores umquam epulas gustavi. Unum tamen est in illis, quod
                     aegre fero; videor enim ex tuis intelligere, te meas ultimas minimum accepisse.
@@ -1214,7 +1113,7 @@
                     sumere, quas amicis quidem, minime vero reipublicae litterariae scribo. Nos vero
                     Deus non adeo disjunxit, ut hanc sive veredariorum, sive pueruli mei incuriam
                     non aequo animo pati, eamque brevi temporis intervallo resarcire possimus: sed
-                    <placeName>Lipsiam</placeName> 
+                    <placeName>Lipsiam</placeName>
                <placeName>Bratislaviam</placeName>que de rebus majoris momenti scripseram, nec hinc nec inde
                     responsum aliquod fero. Id vero utique dutius, nam hic unius epistolae iactura
                     quatuor vel quinque mensium dispendio est redimenda. Quod vero nunc ad ultimas
@@ -1261,31 +1160,32 @@
                     summopere laetor. Nam et mihi amicus est, ejusque in aedibus <placeName>Vindobonam</placeName>
                     transiens, prandium sumpsi. Meri lepores, merae veneres sunt, nec erubesceret,
                     ut opinor, <persName>Catullus</persName>, ubi suas esse affirmare deberet. <persName>Durichii</persName>
-                        <emph>Bibliothecam Slavicam</emph> sic exspecto, ut puella Horatiana
+               <emph>Bibliothecam Slavicam</emph> sic exspecto, ut puella Horatiana
                     iuvenem, trans mare Adriaticum ventorum vi retentum. Dii faxint, ut pretium ejus
                     non adeo arrogans sit. Nam si utcumque loculorum meorum potestatem non
                     exsuperaverit, habebit et illa vel primarium in pluteis meis locum. <persName>Hörnerum</persName>,
                     cui amicitiam tuam debeo, verbis meis saluta. Scripseram homini optimo de
                     libellis Croaticis mihi transmittendis, sed quia hactenus litteris meis nihil
                     regessit, (primis statim rescripserat) vereor ne illas acceperit. </p>
-                <closer>
-                    <salute>Ea de re fac me certiorem, vir summum reverende, atque iterum vale.</salute>
-                    <dateline>
-                        <placeName>Aemonae</placeName>
-                        <date when="1794-01-03">a. d. <num value="3">III</num>. Nonas Januarii MDCCXCIIII.</date>
-                    </dateline>
-                </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ajp03" corresp="#penzelbaricevic17940413">
-                <opener>Abraham Jacobus Penzel <abbr>P. P.</abbr>
-                        <note place="foot" n="7">Professor poeseos.</note>
+            <closer>
+               <salute>Ea de re fac me certiorem, vir summum reverende, atque iterum vale.</salute>
+               <dateline>
+                  <placeName>Aemonae</placeName>
+                  <date when="1794-01-03">a. d. <num value="3">III</num>. Nonas Januarii MDCCXCIIII.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ajp03"
+              corresp="#penzelbaricevic17940413">
+            <opener>Abraham Jacobus Penzel <abbr>P. P.</abbr>
+               <note place="foot" n="7">Professor poeseos.</note>
                      Adamo Barichevich <foreign>χαίρειν</foreign>
-                    <address>
+               <address>
                   <placeName>Zagrabiam</placeName>
                </address>
-                </opener>
-                
-                <p>Ecce iterum Crispinus!
+            </opener>
+            <p>Ecce iterum Crispinus!
                         <note place="foot" n="8">
                   <bibl>Juvenal,<emph> Saturae</emph>, IV,1.</bibl>
                </note>
@@ -1301,40 +1201,41 @@
                     plagula? Ephemerides ipsae continuant vulgari, et quod in sinu gaudeo,
                     <placeName>Vindobonae</placeName> maxime emptores nactae sunt. Tu, ubi perscriberis esse quoque
                     <placeName>Zagrabiae</placeName>, qui me measque nugas esse aliquid putant<hi rend="sup">
-                        <note place="foot" n="9">Katul, <emph>Carmina</emph>, 1, 3-4.</note>
-                    </hi>, rem facies gratissimam aeque ac jucundissimam. De ceteris rebus qua ad
+                  <note place="foot" n="9">Katul, <emph>Carmina</emph>, 1, 3-4.</note>
+               </hi>, rem facies gratissimam aeque ac jucundissimam. De ceteris rebus qua ad
                     rem litterariam pertinent, iam nihil dicere juvat, quia nescio, an, absit tamen
                     omen, ad <sic>Elÿsios</sic> campos transmigraveris. Mox ubi litteras tuas accepero,
-                    prolixe rescribam, gratiasque quam possum maximas agam.</p> 
-                <closer>
-                    <salute>Vale vir summum reverende, et quod facis me amare, doctamque Zagrabiam
+                    prolixe rescribam, gratiasque quam possum maximas agam.</p>
+            <closer>
+               <salute>Vale vir summum reverende, et quod facis me amare, doctamque Zagrabiam
                         ornare, facere perge. Iterum vale.</salute>
-                    <dateline>Aemonae <date when="1794-04-13">ipsis Aprilis Idibus, quibus olim
+               <dateline>Aemonae <date when="1794-04-13">ipsis Aprilis Idibus, quibus olim
                             Caesar fuit occisus. MDCCXCIV.</date>
                </dateline>
-                </closer>
-                <postscript>
+            </closer>
+            <postscript>
                <p>Ubi haec scripseram venit studiosus, qui decem mihi nummos aereos Diocletiani,
                     Valentiniani, Aureliani, Constantini <abbr>etc.</abbr> attulit. His <foreign>κειμηλίοις</foreign>
                     Aemona valde dives est. Plus centum nummorum hic effossorum, sine unius nummuli
                     iactura iam ipse possideo. Quaeso te, frequentesne sunt hujus generis messes in
                     Croatia?</p>
             </postscript>
-            </div>
-            <div type="prosa-epistula" xml:id="ajp04" corresp="#penzelbaricevic17951015">
-                <opener>Abraham Jacobus Penzel A. Barichevich <abbr>s. p. d.</abbr> 
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ajp04"
+              corresp="#penzelbaricevic17951015">
+            <opener>Abraham Jacobus Penzel A. Barichevich <abbr>s. p. d.</abbr>
                <address>
                   <placeName>Zagrab.</placeName>
                </address>
             </opener>
-                
-                <p>Quoniam sero quam numquam gratias agere praestat, malui nunc demum officium quod
+            <p>Quoniam sero quam numquam gratias agere praestat, malui nunc demum officium quod
                     multis nominibus diu tibi debeo, quam numquam explere. Quamquam res sit non tam
                     difficilis quam odiosa peccatis nubem obvertere, et ea quae minus recte facta
                     sunt, verborum lenociniis ita, quasi benefacta essent, ornare: abstineam prorsus
                     ab omni, quae mihi non plane deesset, excusatione, memor antiqui dicti, quod
                     docet: peccati confessionem optimam esse excusandi se rationem.</p>
-                <p>Accepi omnia ea quae mihi anno praeterito per negotiatores Desselbrunerianos
+            <p>Accepi omnia ea quae mihi anno praeterito per negotiatores Desselbrunerianos
                     mense Augusto transmiseras. Non nego, mihi ex illis summopere bina
                     Kerchelichiana opera placuisse, quo splendido sane munere doctissimus Joseph
                     Mikoczij (Ignotus ignotorum, en hominis
@@ -1359,7 +1260,7 @@
                     Dombajo inscriptas, nesciens, an et ille, Turcus homo, et Arabs, ad vestrum
                     contubernium pertineat. Litteras inclusi sedulo sic ut decet, atque rogo, ut
                     illas ipsi reddas vel deferendas cures.</p>
-                <p>
+            <p>
                <sic>Caeterum</sic>, mi Barichevich, cave credas, mittutorum horum libellorum, quos tu
                     adjeceras, vel minimum in vicum piper vendentem venisse. Ab eo tempore inde, quo
                     hic vivo, nihil tam minutum est, sit modo nomen urbis Aemoniensis praelixum,
@@ -1382,7 +1283,7 @@
                     de Dalmatinis (habeo Dalmatica nonnulla, quae Venetiis impressa sunt, loquor
                     vero de iis, quae ditioni Austriaca subsunt), Bosnensibus, Bulgaris <abbr>etc.</abbr>
             </p>
-                <p>Unum est, quod tibi narrabo, post dormitum ibo. <foreign>Τρίμηνον</foreign> erit, et
+            <p>Unum est, quod tibi narrabo, post dormitum ibo. <foreign>Τρίμηνον</foreign> erit, et
                     aderat hic nobilis Hungarus, e comitibus Szechenyi una cum paedagogo suo. Hi
                     inviserunt me, lustraruntque libellos, nummos, chartas geographicas, imagines
                     aere insculptas <abbr>etc.</abbr> et reliqua, quae hic ultra fortuna mea mensuram collegi.
@@ -1396,26 +1297,28 @@
                     esse potest. Dedi etiam illi e nummis meis ternos, unum Trajani cum <emph>Dacia
                         capta</emph>, quem aegre perdidi, iacturam binorum aliorum non adeo aegre
                     tuli. Nam erant bracteati, quibus nec dives sum, nec ut sim, valde laboro.</p>
-                <closer>
+            <closer>
                <salute>Vale vir summum reverende, meque tibi obstrictissimum, devinctissimumque habeto.
-                Iterum vale.</salute> 
+                Iterum vale.</salute>
                <dateline>Scribebam e museo meo Aemoniensi <date when="1795-10">Id. Octob: MDCCXCV.</date>
                </dateline>
             </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ab03" corresp="#baricevicpenzel17951212">
-                <opener>Adam Barichevich Joachimo Penzel s. p. d. </opener>
-                <p>Labacum</p>
-                <p>Putabam te iam <placeName>Aemonam</placeName> reliquisse. Cum ecce fasciculus epistolarum mihi allatus
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ab03"
+              corresp="#baricevicpenzel17951212">
+            <opener>Adam Barichevich Joachimo Penzel s. p. d. </opener>
+            <p>Labacum</p>
+            <p>Putabam te iam <placeName>Aemonam</placeName> reliquisse. Cum ecce fasciculus epistolarum mihi allatus
                     significat et vivere <placeName>Aemonae</placeName> te, et valere, de quo magis gaudeo quam complecti
                     queam. <persName>Blaskovichio</persName> litteras, <persName>Mikoczyo</persName> vero salutem ipse tuli. Huic meas
                     legendas tradidi, quas cum legisset, ad me conversus mandavit suis te verbis
                     quam diligentissime salutarem. Id quod ego perlibenter quidem facio cum illius,
-                    tum tua, tum vero etiam mea caussa. <persName>Katanchichius</persName> 
+                    tum tua, tum vero etiam mea caussa. <persName>Katanchichius</persName>
                <placeName>Pestinum</placeName> mense Julio evocatus
                     est. Ibi Bibliotheca et Numophylacio Academico praefectus campum habet satis
                     magnum, in quo excurrere possit ejus ingenium et industria. Homo fortunam sibi
-                    suam finxit. Itaque tardius accipiet litteras Tuas. <persName>C. Szechenyius</persName> 
+                    suam finxit. Itaque tardius accipiet litteras Tuas. <persName>C. Szechenyius</persName>
                <placeName>Zagrabiae</placeName> cum
                     esset, non solum me invisit, sed de libris meis, quos percupido adolescenti
                     donavi, aliquot abstulit secum. Numismata ostenderem, a me nullis hortationibus,
@@ -1429,19 +1332,21 @@
                     collocata, eodem illo tempore periere. Sed ad Te redeo. Epistolas Tuas cupide
                     exspecto, quarum Tomum I. in lucem proditurum opera et impensis librarii
                     <placeName>Clagenfurtensis</placeName> nunciaveras. </p>
-                <closer>
+            <closer>
                <salute>Valetudinem Tuam cura diligenter et quod facis me
-                    ama. Vale. </salute> 
+                    ama. Vale. </salute>
                <dateline>
-                  <placeName>Zagr.</placeName> 
+                  <placeName>Zagr.</placeName>
                   <date when="1795-12">Pridie Idus Decembr: MDCCXCV.</date>
                </dateline>
             </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ajp05" corresp="#penzelbaricevic17591227">
-                <opener>Abraham Jacob Penzel Adamo Barichevich s. p. d. </opener>
-                <p>Zagrabiam</p>
-                <p>Litteras Tuas, amicorum optime, pridie Saturnalium scriptas (nosti enim hos dies,
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ajp05"
+              corresp="#penzelbaricevic17591227">
+            <opener>Abraham Jacob Penzel Adamo Barichevich s. p. d. </opener>
+            <p>Zagrabiam</p>
+            <p>Litteras Tuas, amicorum optime, pridie Saturnalium scriptas (nosti enim hos dies,
                     quos devota Religio Christo nunc dicavit, <emph>ἅγιος κρόνος</emph> fuisse antiquitus) accepi hodie, quem diem s. Joanni Evang.
                     sacrum esse, eodemque illo vinum lustrare jussere patres. Eone igitur die, qui
                     duplici modo sanctus esse debet, quo nimirum et natus es, memoriamque genii
@@ -1469,8 +1374,7 @@
                     exclusis, liberum patuisse aditum. Vaco schola, foras non egredior, et
                         <emph>large reponens ligna super focum, vivamque lucernam protrahens in
                         lucem</emph>
-                    
-                        <note place="foot" n="12">
+               <note place="foot" n="12">
                   <bibl>Horacije, <emph>Carmina</emph>, I, 9, 5-8.</bibl>
                </note>
                      facile tempus idque commodum nanciscor confabulandi cum amicis. Verum
@@ -1486,7 +1390,7 @@
                   <bibl>Horacije, <emph>Carmina</emph>, II, 18, 15.</bibl>
                </note>
                     , ac tandem nihil fiat.</p>
-                <p>De <emph>Gothis</emph> candide, et ut sentio, agam, licet hic strictim meam modo
+            <p>De <emph>Gothis</emph> candide, et ut sentio, agam, licet hic strictim meam modo
                     sententiam enunciare possim, quam justa argumentationum serie fulcire, res non
                     quidem altioris indaginis. Nam inter Gothos habito, ast majoris otii foret. Ut
                     ab Herodoto totius historiae patre incipiam, penes eum invenio
@@ -1535,13 +1439,13 @@
                     dulcissime rerum, atque veram Ungarorum originem eccum! Rogo tamen etiam atque
                     etiam, ut haec tibi retineas, ne Katanchichius aliquid exinde resciscat, cujus
                     nunc officium est placere Ungaris, qui <emph>πῦρ καὶ</emph>
-                    <emph>λᾶρ</emph> pugnant se Lappones non esse. Cum vero ego Europam universam
+               <emph>λᾶρ</emph> pugnant se Lappones non esse. Cum vero ego Europam universam
                     tribus his distribuerim populis: 1. <emph>Getis</emph>, 2. <emph>Celtis</emph>,
                     3. <emph>Quenis</emph>; jure quodam tuo rogare poteris: Slavis meis equid
                     facies? Ego vero candide et aperte pronunciabo: prisco tempore non diversae ne
                     sejunctae a se invicem gentes Geticae, Slavicaeque fuere. Una erat eademque
                     atque illa communis patria amborum. Id quod linguae eorum mirifice ostendunt.</p>
-                <p>Dixeram supra <emph>me intra Gothos habitare</emph>. Ea <emph>φράσει</emph> quid
+            <p>Dixeram supra <emph>me intra Gothos habitare</emph>. Ea <emph>φράσει</emph> quid
                     significare voluerim, iam explicabo. Nimirum lingua Mesogothica mihi in deliciis
                     est, nec unquam transiit dies, quo non aliquam <emph>Codici argentei</emph>
                     particulam, vel saltem libellum ad explicationem ejusdem pertinentem perlegerim.
@@ -1563,7 +1467,7 @@
                     tu fortasse ridebis? et proh dolor, testimoniis, disquisitionibusque haec
                     epistola non potest onerari, quippe qua iam praeterea nimis diu otium tuum
                     detinui.</p>
-                <p>Succurrit adhuc unum, quod supra de Gothis scribens, omiseram.
+            <p>Succurrit adhuc unum, quod supra de Gothis scribens, omiseram.
                     <emph>Herbelotius</emph> in divino suo opere omne hoc appellat <emph>le paÿs de
                         Getes</emph> cui ego superius limitem Getarum adscripseram. Nec frivolus,
                     nec vanus Gallus, sed optimae frugis homo, e quo multa discere possumus,
@@ -1578,14 +1482,14 @@
                     (Dombajum intelligo). Nam earum litterarum mihi interest, siquidem iis
                     incluseram <foreign>ἀποσπάσματα</foreign> quaedam Arabica <foreign>ἀνέκδοτα</foreign>, quae perdere nollem. Tum Blaskovichius iratusne meis
                     litteris fuit. </p>
-                <closer>
-                    <salute>Vale</salute>
-                    <dateline>
-                        <date when="1794-12">VI. Kal. Januarias. MDCCXCV.</date>
-                        <placeName>Aemonae.</placeName>
-                    </dateline>
-                </closer>
-                <postscript>
+            <closer>
+               <salute>Vale</salute>
+               <dateline>
+                  <date when="1794-12">VI. Kal. Januarias. MDCCXCV.</date>
+                  <placeName>Aemonae.</placeName>
+               </dateline>
+            </closer>
+            <postscript>
                <p>P. S. Quoniam te dolere testaris, nihil nugarum mearum in lectissima tua
                     bibliotheca habere, ut habeas aliquid, mitto carmen hoc. De ceteris plane nihil
                     mittere queo, quia ipse libris meis, ab uno si discessero <emph>Strabone</emph>,
@@ -1593,11 +1497,13 @@
                     Penes nos, ubi librarius manuscriptum nostrum codicem redimit, exempla operum
                     nostrorum difficiliora repertu quam apud vos sunt. Iterum vale.</p>
             </postscript>
-            </div>
-            <div type="prosa-epistula" xml:id="ajp06" corresp="#penzelbaricevic17960127">
-                <opener>Abrahamus Jacobus Penzel Adamo Barichevich s. p. d.</opener>
-                <p>Zagrabiam</p>
-                <p>Nundinas hodie celebramus <placeName>Aemonae</placeName>, dulcissime rerum, et ita ut penes Romanos olim
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ajp06"
+              corresp="#penzelbaricevic17960127">
+            <opener>Abrahamus Jacobus Penzel Adamo Barichevich s. p. d.</opener>
+            <p>Zagrabiam</p>
+            <p>Nundinas hodie celebramus <placeName>Aemonae</placeName>, dulcissime rerum, et ita ut penes Romanos olim
                     non fas praetori fuit per Nundinarum dies agere cum populo, ita et noster
                     Academicus Senatus nefas professoribus putavit per dies cum discipulis agere,
                     quare otio destinati sunt, quo, ut fieri plerumque solet, maxima pars vel eorum
@@ -1655,7 +1561,7 @@
                     tunc catalogum addam quoque specimen <emph>Catalogi critici</emph>, quem
                     scribere incepi, et de quo candidum sincerumque tuum judicium sine felle quidem
                     ut par est, sed etiam sine ullis verborum lenociniis expecto.</p>
-                <p>Amabo, <emph>Dombajus</emph> vester qualis homo est? Ego illum nonnulla de rebus
+            <p>Amabo, <emph>Dombajus</emph> vester qualis homo est? Ego illum nonnulla de rebus
                     Slavicis, hoc est de iis Slavicae linguae dialectis quaesivi, quae in provinciis
                     Turcarum imperio subjectis loquuntur. Addidi quoque orientalia nonnulla,
                     Arabicis characteribus scripta, quae ipse, qui minus adsuetus manuscriptis
@@ -1672,65 +1578,67 @@
                     munuscula tua mihi mellitissima sint) indica quaeso pretium, facili modo per
                     Kornium bibliopolio episcopi vestri solvam, libens solvam, lubens, et animo quam
                     gratissimo.</p>
-                <p>Tu igitur, miser, perfidia puelluli perdidissimi numismata, ego his feriis
+            <p>Tu igitur, miser, perfidia puelluli perdidissimi numismata, ego his feriis
                     ratione 50 florenorum sphaerarum par emeram. Puer admota nimis prope lucerna non
                     quidem cremavit earum unam, attamen foede maculavit.</p>
-                <p>Katanchichii epistolas avide exspecto, non quidem ab officio ejus, (nam si par
+            <p>Katanchichii epistolas avide exspecto, non quidem ab officio ejus, (nam si par
                     pari referre vult, non intra anni spatium respondere debet) sed ab ejus
                     humanitate, adjiciet forsitan etiam specimen suum, ut iam aliis opusculis facere
                     non dubitavit. Fac si potest fieri, ut Blaskovichius, nisi litterae meae eum
                     irritarunt, transmittat reliqua Historiae Illÿricae volumina, cui ut ego modo
                     prius volumen ex ejus benevolentia accepi. </p>
-                <closer>
+            <closer>
                <salute>Vale, mi Barichevichi, et me tibi
-                    quam commendatissimum habe.</salute> 
+                    quam commendatissimum habe.</salute>
                <dateline>
-                  <placeName>Aemonae</placeName> 
+                  <placeName>Aemonae</placeName>
                   <date when="1796-01">a. d. VI. Kal. Febr. MDCCXCVI.</date>
                </dateline>
             </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ajp07" corresp="#penzelbaricevic17961230">
-                <opener>Abrahamus Penzel A. Barichevich <abbr>s. p. d.</abbr>
-                    <address>
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ajp07"
+              corresp="#penzelbaricevic17961230">
+            <opener>Abrahamus Penzel A. Barichevich <abbr>s. p. d.</abbr>
+               <address>
                   <placeName>Zagrabiam</placeName>
                </address>
             </opener>
-
-                <p>Tu vero, dulcissime rerum, ecquid agis, aut potius quidnam frigidissimis hisce
+            <p>Tu vero, dulcissime rerum, ecquid agis, aut potius quidnam frigidissimis hisce
                     diebus egisti, ubi omnis truculenti boreae vis miserae incubuit Carnioliae?
                     Oblitus tandem prorsus mei es, ita ut ne <foreign>γρῦ</foreign> quidem ad ea
                     rescripseris, quae ego optima mente, at <sic>fasius</sic> forsan, quam par erat,
                     scripseram? Oblitus tandem librorum, quos mihi destinatos, penes se esse
                     insinuaveras? Ast ego non credulus illis. Frigus dissolvens, largius supra focum
                     ligna reponens <note place="foot" n="14">
-                        <bibl>Horacije, <emph>Carmina</emph>, I, 9, 5-8.</bibl>
-                    </note> , ac vinum Pucinum, quod Livia olim octoginta annos vivere fecit,
+                  <bibl>Horacije, <emph>Carmina</emph>, I, 9, 5-8.</bibl>
+               </note> , ac vinum Pucinum, quod Livia olim octoginta annos vivere fecit,
                     benignius depromens Adami nomen sancte, rite, caste, veneratus sum. Atque hodie
                     Dombayo scribens accipio ansam, quam instantes Januarii Calendae praebent, omnia
                     tibi fausta apprecandi, quae mea vota rata esse DEUS rex optimus maximus faxit.
                     Tu vero, mi Barichevichi, arce hunc a te veternum, exspue omnem ex animo tuo
                     pigritiam, ac recrea me tuis litteris, quas jucundissimas mihi esse simul et
                     carissimas esse scito. </p>
-                <closer>
-                    <salute>Vale vir summum reverende, rescribe quantocytiusque per cetera tua
+            <closer>
+               <salute>Vale vir summum reverende, rescribe quantocytiusque per cetera tua
                         negotia licebit, et res tuas non instanti solummodo anno sed diu etiam, in
                         undevicesimum seculum age feliciter. Iterum vale, et ama paulisper Penzelium
                         tuum, tui amantissimum.</salute>
-                    <dateline>
-                        <placeName>Aemonae</placeName>
-                        <date when="1796-12-30">a. d. <num value="3">III</num>. Kalend Jan. MDCCXCVI.</date>
-                    </dateline>
-                </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ab04" corresp="#baricevicpenzel17970107">
-                <opener>Adam Barichevich Jacobo Penzel <abbr>s. p. d.</abbr> 
-                    <address>
+               <dateline>
+                  <placeName>Aemonae</placeName>
+                  <date when="1796-12-30">a. d. <num value="3">III</num>. Kalend Jan. MDCCXCVI.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ab04"
+              corresp="#baricevicpenzel17970107">
+            <opener>Adam Barichevich Jacobo Penzel <abbr>s. p. d.</abbr>
+               <address>
                   <placeName>Aemonam</placeName>
                </address>
             </opener>
-                
-                <p>Ex hac pagella, quam mitto, cognosces de studio hodierna Slavicae linguae in
+            <p>Ex hac pagella, quam mitto, cognosces de studio hodierna Slavicae linguae in
                     <placeName>Pannonia</placeName>, quam proferre quidam, atque exornare pergunt, irritati cultarum
                     nationum morem. In tanto armorum strepitu, qui per omnem late <placeName>Europam</placeName> exauditur
                     et hoc praesertim tempore, bonis artibus adverso, non deesse nobis, qui de
@@ -1746,18 +1654,20 @@
                     gratius. Tuae scilicet in me voluntatis declarationem, et vota veluti strenae
                     loco accepi. Id quod a me jure quodam tuo exigis, cum se occasio dederit,
                     diligentissime curabo. Sed haec satis. </p>
-                <closer>
-               <salute>Vale</salute> 
+            <closer>
+               <salute>Vale</salute>
                <dateline>
-                  <placeName>Zagrabiae</placeName> 
+                  <placeName>Zagrabiae</placeName>
                   <date when="1797-01-07">VII. Id. Jan: MDCCXCVII.</date>
                </dateline>
             </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ajp08" corresp="#penzelbaricevic17970130">
-                <opener>Abrahamus Jacobus Penzel A. Barichevich s. p. d. </opener>
-                <p>Zagrabiam</p>
-                <p>Gratissima mihi fuit plagula illa, quam mihi transmiseras, et quae populis
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ajp08"
+              corresp="#penzelbaricevic17970130">
+            <opener>Abrahamus Jacobus Penzel A. Barichevich s. p. d. </opener>
+            <p>Zagrabiam</p>
+            <p>Gratissima mihi fuit plagula illa, quam mihi transmiseras, et quae populis
                     Pannoniam incolentibus, idem hoc praestiturum dictionarium indicit, quod
                     adeuntibus orientales regiones, immortali suo thesauro praestitit
                         <emph>Meninskius</emph>. Gratior ea plagula vel eo nomine, quia ex ea
@@ -1770,7 +1680,7 @@
                     cujus rei ratio in communi, quo usi sumus praeceptore, quaerenda. Prodiit enim
                     Schellerus, licet ad viginti annos me major natu sit, e schola
                     <emph>Ernestina</emph>, a qua et ego prodii. </p>
-                <p>Lego tamen in illa plagula, solutionis tempus iam effluxisse. Indica mihi, vir
+            <p>Lego tamen in illa plagula, solutionis tempus iam effluxisse. Indica mihi, vir
                     reverende! si adhuc spes libri habendi supersit. Quod si res ita se habet,
                     indica quaeso, cuinam onus solutionis imponere possim. Si Zagrabiae librarius
                     est, qui suscipere vellet, res erit in vado. Nam tunc valde proclive est per
@@ -1796,24 +1706,25 @@
                   <bibl>Petronije, <emph>Satyrica</emph>, 76, 9, 3.</bibl>
                </note>
                     , nisi falcem alienae messi injecisse credar. </p>
-                <closer>
-                    <salute>Vale, vir venerabilis, et saluta meo nomine omnes Zagrabienses, qui me
+            <closer>
+               <salute>Vale, vir venerabilis, et saluta meo nomine omnes Zagrabienses, qui me
                         vel munusculis, vel litteris suis ditarunt, qui me noscunt et mihi bene esse
                         gaudent. Iterum vale.</salute>
-                    <dateline>Scribebam <placeName>Aemonae</placeName>
-                        <date when="1797-01-30">a. d. <num value="3">III</num>. Kal. Februarii
+               <dateline>Scribebam <placeName>Aemonae</placeName>
+                  <date when="1797-01-30">a. d. <num value="3">III</num>. Kal. Februarii
                     MDCCXCVII.</date>
                </dateline>
-                </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ab05" corresp="#baricevicpenzel17970216">
-                <opener>Abrahamo Jacobo Penzel A. Barichevich s. p. d.
+            </closer>
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ab05"
+              corresp="#baricevicpenzel17970216">
+            <opener>Abrahamo Jacobo Penzel A. Barichevich s. p. d.
                     <address>
                   <placeName>Labacum</placeName>
                </address>
             </opener>
-                
-                <p>Multa mihi, eademque cognitu non injucunda narraverunt litterae tuae <date when="1797-02-07">VII. Idus
+            <p>Multa mihi, eademque cognitu non injucunda narraverunt litterae tuae <date when="1797-02-07">VII. Idus
                     Febr</date>: redditae. Illud prae ceteris gratum fuit, quod addidisti, prodiisse Te et
                     item <persName>Schellerum</persName> e schola Ernesti. Huic paucos omnino doctrina, vix unum aliquem
                     eloquentia parem habuit aetate nostra Germania. <persName>Schellerus</persName> autem <emph>homo
@@ -1826,7 +1737,7 @@
                     librum, quem praestitisset ne emere quidem. Et Tu id ipsum ex plagula, ad te
                     missa, videris mihi non obscure indicasse. <sic>Caeterum</sic> editum opus citius tibi
                     curabimus.</p>
-                <p>Linguae Slavicae dialecti sunt plurimae. Croaticam autem Carniolicae et Russicae
+            <p>Linguae Slavicae dialecti sunt plurimae. Croaticam autem Carniolicae et Russicae
                     viciniorem esse, omnibusque meridionalis plagae dialectis, quam aut Bohemicae,
                     aut Polonicae, explanatum est. Hinc fit ut ab homine Croata, nisi edoctus sit,
                     magnam partem illa, qua Hungari utuntur, non intelligatur. Non tamen vana est
@@ -1839,22 +1750,21 @@
                     Poteris vero otiosus perscribere. Salutem, quibus voluisti officiosissimis
                     verbis dixi, ille te jubent multum salvere et rem Latinam strenue, ut coepisti,
                     urgere. </p>
-                <closer>
-                    <salute>Vale</salute>
-                    <dateline>
-                        <placeName>Zagrabiae</placeName>
-                        <date when="1797-02-16">XIV. Kal. Martias MDCCXCVII.</date>
-                    </dateline>
-                </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ajp09" corresp="#penzelbaricevic1797">
-                <opener>Abrahamus Jacobus Penzel Adamo Barichevich s. p. d. <address>
+            <closer>
+               <salute>Vale</salute>
+               <dateline>
+                  <placeName>Zagrabiae</placeName>
+                  <date when="1797-02-16">XIV. Kal. Martias MDCCXCVII.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="prosa-epistula" xml:id="ajp09" corresp="#penzelbaricevic1797">
+            <opener>Abrahamus Jacobus Penzel Adamo Barichevich s. p. d. <address>
                   <placeName>Zagrabiam</placeName>
                </address>
             </opener>
-                
-                <p>Legi, vir summum <sic>everende</sic>, maxima cum animi mei voluptate litteras, quas
-                    <placeName>Zagrabiae</placeName> 
+            <p>Legi, vir summum <sic>everende</sic>, maxima cum animi mei voluptate litteras, quas
+                    <placeName>Zagrabiae</placeName>
                <date when="1797-02-16">a. d. XIV. Kal. Martias</date> scriptas, dispensatores currus publici recte
                     tradiderunt, atque ut morem gererem humanissimis precibus tuis, subjunxi hisce,
                     sed timidiuscule, indiculum omnium earum versionum, editionumque Biblicarum,
@@ -1864,8 +1774,8 @@
                     septem hos annos numquam ea usus sum <sic>conditione</sic>, per quam mihi coemere
                     libros licuisset, iis potissimum, quos fors mihi objecit, contentus? Videbis
                     inibi bina exempla versionis Bibliorum Venedicae, unam utriusque foederis
-                    <placeName>Budissae</placeName> 
-               <date when="1742">1742.</date> impressam, alteram solius novi Testamenti excusam <placeName>Cottbusii</placeName> 
+                    <placeName>Budissae</placeName>
+               <date when="1742">1742.</date> impressam, alteram solius novi Testamenti excusam <placeName>Cottbusii</placeName>
                <date when="1710">1710.</date>
                     utraque octonis. <emph>Venedicam</emph> linguam ubi dixi, Tu eam intellexisse
                     putato, quae longe lateque per utramque <placeName>Lusatiam</placeName> tam superiorem, quam inferiorem
@@ -1881,15 +1791,15 @@
                     dialecti peculiarem grammaticam ediderit. Grammaticam ejus dialecti, qua <placeName>Lusatia
                     superior</placeName> utitur, edidit <persName>
                   <emph>Georgius Matthaci</emph>
-               </persName> 
-               <placeName>Budissae</placeName> 
-               <date when="1721">1721.</date> 
+               </persName>
+               <placeName>Budissae</placeName>
+               <date when="1721">1721.</date>
                <abbr>etc</abbr>,
                     alterius vero <persName>
                   <emph>Hauptmannus</emph>
-               </persName> 
-               <placeName>Lubbanii</placeName> 
-               <date>1761.</date> 
+               </persName>
+               <placeName>Lubbanii</placeName>
+               <date>1761.</date>
                <abbr>etc.</abbr> Fere omnes libri
                     impressi, dialecto <placeName>superioris Lusatiae</placeName> conscripti sunt cujus orthographiam, qua
                     nunc etiam utitur, <persName>
@@ -1901,13 +1811,13 @@
                     <bibl>
                   <date when="1693">1693.</date> quaternis de Originibus linguae Sorabicae</bibl>, opus insanientis
                     sanaeque eruditionis refertissimum scripsit.</p>
-                <p>Quod si mentem litterarum Tuarum recte percepi, videris putare Sorabos nunc demum
+            <p>Quod si mentem litterarum Tuarum recte percepi, videris putare Sorabos nunc demum
                     versionem Bibliorum accepisse. Sed ego, quod facile fieri potuit, vel mentem
                     tuam, non ita, ut par erat, adsecutus sum, vel Tu cl. <persName>Antonii</persName> mentem sinistre
                     interpretatus es. Nosti, vir cl. eam <foreign>ἀκρίβειαν</foreign>, qua jejunam nudamque Bibliorum
                     Lectionem <persName>Lutheri</persName> adsectae prosequi solent, et qua nihil iis curae magis
                     cordique est, quam <foreign>τὸ γράμμα ἄνευ τοῦ πνεύματος</foreign> blaterare. Hinc facile divinare licet,
-                    nec Venedos, quorum pars maxima <persName>Lutheri</persName> 
+                    nec Venedos, quorum pars maxima <persName>Lutheri</persName>
                <foreign>αἵρεσιν</foreign> sectatur, diu sine
                     interpretatione aliqua divinorum librorum mansisse. Atque ita se res habent.
                     Statim enim post <persName>Lutheri</persName> obitum, vel eo adhuc vivente, particellae nonnullae
@@ -1939,7 +1849,7 @@
                </persName> quidam
                         <persName>
                   <emph>Fabricius</emph>
-               </persName> 
+               </persName>
                <date when="1709">1709.</date> dederat, quibus tamen huc usque vetus
                     testamentum defuit. Hunc defectum suppletutus <persName>
                   <emph>Joannes Fridericus
@@ -1965,26 +1875,22 @@
                     linguam utriusque <placeName>Lusatiae</placeName> dialectum, ea de re tu ipse judex sedeto.
                     Descripturus enim sum, quoniam credo libris Venedicis Te carere, initium
                     Evangelii <persName>s. Johannis</persName>:</p>
-                <p>Lingua Superioris et Inferioris <placeName>Lusatiae</placeName>
+            <p>Lingua Superioris et Inferioris <placeName>Lusatiae</placeName>
             </p>
-                <quote>
-                    <foreign> 1. We spocίatku bie to slowo,</foreign>
-                    <foreign>1. Wo sachopenu bescho to slowo,</foreign>
-
-
-                    <foreign>a to slowo bie pola Boha,</foreign>
-                    <foreign> a to slowo bescho podla Bohga,</foreign>
-
-
-                    <foreign>a Boh bie to slowo.</foreign>
-                    <foreign> a Bohg bescho to slowo.</foreign>
-                </quote>
-                <p>Adjeci his litteris etiam plagulam unam ephemeridum nostrarum, quae nunc singulis
+            <quote>
+               <foreign> 1. We spocίatku bie to slowo,</foreign>
+               <foreign>1. Wo sachopenu bescho to slowo,</foreign>
+               <foreign>a to slowo bie pola Boha,</foreign>
+               <foreign> a to slowo bescho podla Bohga,</foreign>
+               <foreign>a Boh bie to slowo.</foreign>
+               <foreign> a Bohg bescho to slowo.</foreign>
+            </quote>
+            <p>Adjeci his litteris etiam plagulam unam ephemeridum nostrarum, quae nunc singulis
                     septimanis hic prodeunt, veniam petens, si forte, quod facile fieri potuit,
                     superiores meas hisce iam quisquiliis oneraverim, ac tandem, quoniam te meas
                     esse aliquid putare nugas
                         <note place="foot" n="16">Katul, <emph>Carmina</emph>, 1, 3-4.</note>
-                     confido, <foreign>ἐπινίκιον</foreign> 
+                     confido, <foreign>ἐπινίκιον</foreign>
                <persName>Carolo</persName> nostro adclamatum, quod nolim a te
                     severe nimis iudicari. Ipse enim scio, <foreign>οἰκονομίαν</foreign> totius <emph>ὠδῆς</emph>
                     melius disponendam fuisse, ut taceam unum alterumque prosodicum
@@ -1996,7 +1902,7 @@
                     statim post Pascha esse aperiendas, et sane nunquam claudenda fuissent.
                     Subdubito tamen. Cum enim studiosorum multi e perperam sic dictis stipendiis
                     vivant, quae ante discessum Gallorum numquam solventur, puto hos omnes
-                    <placeName>Zagrabiam</placeName>, <placeName>Gracium</placeName>, <placeName>Vindobonam</placeName> 
+                    <placeName>Zagrabiam</placeName>, <placeName>Gracium</placeName>, <placeName>Vindobonam</placeName>
                <abbr>etc.</abbr> migraturos, ubi et suis stipendiis uti, et
                     studium litterarium ulterius percurrere possunt. Quod si hoc acciderit, et ubi
                     totam aestatem mihi sine discipulis degendam esse conspexero, relinquam et ego
@@ -2008,8 +1914,8 @@
                     scribe an hoc consilium meum calculo tuo adprobaveris, an non. Nam si iter hoc
                     susciperem, nec postea haberem, unde viverem, <sic>conditio</sic> mea <placeName>Zagrabiae</placeName>
                     deterior adhuc foret, quam hic est. Interim meliora sperabimus.</p>
-                <p>Nactus tandem sum <bibl>primum volumen Bibliotheca Slavica, quam
-                        <persName>Durichius</persName> 
+            <p>Nactus tandem sum <bibl>primum volumen Bibliotheca Slavica, quam
+                        <persName>Durichius</persName>
                   <placeName>Vindobonae</placeName> edidit</bibl>. De quo doctissimo opere, quod tu
                     dubio procul, iam diu vidisti, nihil tibi ulterius <sic>scribendim</sic> esse putavi.
                     Pergunt Vindobonenses bene de re litteraria mereri. Ut enim de immenso illo
@@ -2033,35 +1939,36 @@
                     quem nondum videre licuit, quem tamen aveo evolvere, quia omne studium Biblicum
                     praesertim vero sacra geographia summis mihi in deliciis est. Sed cur ego
                     noctuas <placeName>Athenis</placeName>? Tibi enim, procul dubio omnia haec iam diu innotuere.</p>
-                <p>Subscribere diem nequeo: domus enim currus publici clusa, et nescio, quando Galli
+            <p>Subscribere diem nequeo: domus enim currus publici clusa, et nescio, quando Galli
                     eam aperient, usque ad exoptatum illud tempus litterae hae una cum aliis penes
                     me restare reponique in scriniis meis debent. </p>
-                <closer>
-                    <salute>Tu vero, vir doctissime, vive feliciter procul ab omni armorum strepitu,
+            <closer>
+               <salute>Tu vero, vir doctissime, vive feliciter procul ab omni armorum strepitu,
                         et, quod facis, <persName>Penzelium</persName> Tuum, Te amantem, quantum pote, redama. Iterum
                         vale, et cura valetudinem Tuam.</salute>
-                    <dateline>
-                        <placeName>Labaci</placeName>
-                        <date when="1797">MDCCXCVII.</date>
-                    </dateline>
-                </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ajp10" corresp="#penzelbaricevic17980608">
-                <opener>Abrahamus Jacobus Penzel Ad. Barichevichio s. p. d.
+               <dateline>
+                  <placeName>Labaci</placeName>
+                  <date when="1797">MDCCXCVII.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ajp10"
+              corresp="#penzelbaricevic17980608">
+            <opener>Abrahamus Jacobus Penzel Ad. Barichevichio s. p. d.
                     <address>
                   <placeName>Zagrabiam</placeName>
                </address>
             </opener>
-
-                <p>Accepi, vir amicissime, odaica illa Tua mellitissima, qua tibi nomini meo
+            <p>Accepi, vir amicissime, odaica illa Tua mellitissima, qua tibi nomini meo
                     inscrebere placuit. Mellitiora fuissent, si, ita ut exspectare par erat, lineas
                     nonnullas tua manu signatas, addere voluisses. <sic>Caeterum</sic> ille ego, quem
                     quondam <persName>Frischlino</persName> comparasti et munus, et exitum <persName>Frischlini</persName>, utrumque subivi.
                     Remotus sum a munere meo sine ullo viatico, sine pensione. Quare? Hoc non dicam,
                     nam nemo <sic>judet</sic> in caussa propria, et mihi difficili bile tumet jecur
                         <note place="foot" n="17">
-                        <bibl>Horacije,<emph> Carmina</emph>, I, 13, 4.</bibl>
-                    </note> . Praestat igitur <foreign>ἐπέχειν</foreign>. Attamen, tu vir
+                  <bibl>Horacije,<emph> Carmina</emph>, I, 13, 4.</bibl>
+               </note> . Praestat igitur <foreign>ἐπέχειν</foreign>. Attamen, tu vir
                     amicissime, si esset <placeName>Zagrabiae</placeName> nobilis Croata, qui paedagogum filiorum suorum
                     desideraret, rem faceres mihi gratissimam, si me comendares. Musicam equidem
                     nescio, sed Gallice, Italice, atque Anglice scribo loquorque. Testes commercium
@@ -2069,22 +1976,24 @@
                     Latinas litteras continens, nunc jam impressus est <placeName>Lipsiae</placeName> et cujus exemplum
                     tibi transmittam, si modo, adhuc <placeName>Aemonae</placeName> degens, fasciculum Nundinarum
                     Lipsiensium accepero. </p>
-                <closer>
-                    <salute>Vale, vir optime, atque me etiam extra <placeName>Carnioliae</placeName> fines amare non
+            <closer>
+               <salute>Vale, vir optime, atque me etiam extra <placeName>Carnioliae</placeName> fines amare non
                         desine. Iterum vale.</salute>
-                    <dateline>
-                  <placeName>Aemonae</placeName> 
+               <dateline>
+                  <placeName>Aemonae</placeName>
                   <date when="1798-06-08">a. d. VI. Id. Junias MDCCXCVIII.</date>
                </dateline>
-                </closer>
-            </div>
-            <div type="prosa-epistula" xml:id="ab06" corresp="#baricevicpenzel17990415">
-                <opener>Adam Barichevich Jacobo Penzel s. p. d.
+            </closer>
+         </div>
+         <div type="prosa-epistula"
+              xml:id="ab06"
+              corresp="#baricevicpenzel17990415">
+            <opener>Adam Barichevich Jacobo Penzel s. p. d.
                     <address>
                   <placeName>Labacum</placeName>
                </address>
             </opener>
-                <p>Jamdudum ad Te litteras dare statueram, vir optime, ne existimares, Te ex animo
+            <p>Jamdudum ad Te litteras dare statueram, vir optime, ne existimares, Te ex animo
                     meo excidisse. Sed ab hoc officio cohibuit me nuncius de subita profectione tua
                     Aemonensi ab urbe. Facit tamen mea erga Te amoris magnitudo, ut, cum isthuc
                     Zagrabiensis quidam civis iter haberet, eum sine mea epistola <placeName>Labacum</placeName> venire
@@ -2092,14 +2001,14 @@
                     <sic>Caeterum</sic> ubicumque terrarum sedem figes fortunarum tuarum, DEUS te
                     incolumem ac nobis amicum diu servet, quod profecto intelligam ex frequentiore
                     missione litterarum, quae semper, ut adhuc, gratissimae accident. </p>
-                <closer>
-                    <salute>Vale</salute>
-                    <dateline>
-                  <placeName>Zagrabiae</placeName> 
+            <closer>
+               <salute>Vale</salute>
+               <dateline>
+                  <placeName>Zagrabiae</placeName>
                   <date when="1799-04-15">XVIII. Kal. Mayas MDCCXCIX.</date>
                </dateline>
-                </closer>
-            </div>
-        </body>
-    </text>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

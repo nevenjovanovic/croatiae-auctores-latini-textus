@@ -1,152 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="vrancic-m-epist-1557-12-22">
-            <titleStmt>
-                <title>Stephano Chiacchio, versio electronica</title>
-                <author ref="vranc03">
-                    <persName xml:lang="hr">Vrančić, Mihovil</persName>
-                    <date>1507 - ante 1571</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="vrancic-m-epist-1557-12-22">
+         <titleStmt>
+            <title>Stephano Chiacchio, versio electronica</title>
+            <author ref="vranc03">
+               <persName xml:lang="hr">Vrančić, Mihovil</persName>
+               <date>1507 - ante 1571</date>
+            </author>
+            <editor>
                <persName>
                   <ref>László Szalay</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Edidit et editionem electronicam praeparavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Edidit et editionem electronicam praeparavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Digitalizat kasnijeg izdanja (1857).</p>
-            </editionStmt>
-            <extent ana="B">Mg:B verborum 149</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat kasnijeg izdanja (1857).</p>
+         </editionStmt>
+         <extent ana="B">Mg:B verborum 149</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2012-07">Srpnja 2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Verancsics, Antal. Verancsics Antal összes munkái, vol. 12, s. 218, br. XI.</bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="37"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc xml:id="vrancicmchiacchius15571022">
+      </fileDesc>
+      <profileDesc xml:id="vrancicmchiacchius15571022">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q1741">Vienna</placeName></place>
-             <place ana="destination" type="unknown">
-                 <placeName type="unknown">Unknown</placeName>
-             </place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q1741">Vienna</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person role="sender"><persName ref="vranc03">Vrančić, Mihovil</persName></person>
-             <person role="recipient"><persName>Chiacchius (Csaky), Stephanus</persName></person>
+            <person role="sender">
+               <persName ref="vranc03">Vrančić, Mihovil</persName>
+            </person>
+            <person role="recipient">
+               <persName>Chiacchius (Csaky), Stephanus</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1557-12-22" period="15xx_2_third">1557-12-22</date>
-                <placeName>Vienna</placeName>
-            </creation>
+            <date when="1557-12-22" period="15xx_2_third">1557-12-22</date>
+            <placeName>Vienna</placeName>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1551-1600</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <persName>Luka Špoljarić</persName>
             <date>2012-06-28</date>
                 Novo, unificirano zaglavlje.</change>
-            <change>
-                <date>2010-12-05</date>
-                <persName>
+         <change>
+            <date>2010-12-05</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 Početna revizija
             </change>
-            
-            
-        </revisionDesc>
-        
-        
-    </teiHeader>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <body>
          <pb n="218"/>
-          <div type="prosa-epistula" corresp="vrancicmchiacchius15571022">
+         <div type="prosa-epistula" corresp="vrancicmchiacchius15571022">
             <opener>Stephano Chiacchio de Mihal. 
         
-        Egregie Domine, amice nobis honorande, salutem.</opener> 
-        
+        Egregie Domine, amice nobis honorande, salutem.</opener>
             <p>Grato animo perdices a vobis accepimus, vicissimque Eidem amicitiam nostram offerimus, quandocunque 
         tulerit occasio. Ceterum quod ad fratrem suum attinet, diu iam de eo nihil intellexi. Neque, ut verum 
         fatear, nimis multam illius curam gessi; postquam 
@@ -160,12 +115,10 @@
         aleam; nec scio, quam sit ei feliciter casura. Haec 
         ideo ad Eam scripsi de antiquo fratre meo, quod eius 
         vices fraterne doleam ; et non solum vices ipsius, sed 
-        etiam Dominationis Vestrae, cui me amicum et fautorem offero.</p> 
-        
+        etiam Dominationis Vestrae, cui me amicum et fautorem offero.</p>
             <dateline>Viennae <date when="1557-12-22">22. Decembris 1557.</date>
             </dateline>
          </div>
       </body>
-    
    </text>
 </TEI>

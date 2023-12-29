@@ -1,41 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="sobota-i-epist-1454-07-27">
-            <titleStmt>
-                <title>Joannis Sobote Dalmate epistola, versio electronica</title>
-                <author ref="sobot01">
+   <teiHeader>
+      <fileDesc xml:id="sobota-i-epist-1454-07-27">
+         <titleStmt>
+            <title>Joannis Sobote Dalmate epistola, versio electronica</title>
+            <author ref="sobot01">
                <persName xml:lang="hr">Sobota, Ivan</persName>
                <date>mortuus
                         1467</date>
             </author>
-                <editor>
+            <editor>
                <persName>
                   <ref>Luka Jelić</ref>
                </persName>
             </editor>
-                <editor>
+            <editor>
                <persName>
                   <ref>Franjo Rački</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition> Prema kasnijim znanstvenim izdanjima (1867, 1898). </edition>
-            </editionStmt>
-            <extent ana="B">Mg:B Verborum 545</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni projekt na
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition> Prema kasnijim znanstvenim izdanjima (1867, 1898). </edition>
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 545</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni projekt na
                     <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date when-iso="2010-12">Prosinca 2010</date>.</p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                <title level="a">Johannes Sobotae Mapheo archiepiscopo Hyadrensi, Venetiis,
@@ -76,80 +77,24 @@
                     (1905), Nr. 3, S. 55-59. <note>Posljednje pismo br. 6 na s. 59</note>
             </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="4"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="12"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1" withId="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="4"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="3"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="15"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="5"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="11"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="6"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin">
+            <place ana="origin">
                <placeName ref="https://www.wikidata.org/wiki/Q189161">Trogir</placeName>
             </place>
-             <place ana="destination" type="unknown">
+            <place ana="destination" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender">
+            <person ana="sender">
                <persName ref="sobot01">Sobota, Ivan</persName>
             </person>
-             <person ana="recipient">
+            <person ana="recipient">
                <persName>Morosini, Pietro</persName>
             </person>
          </particDesc>
@@ -157,65 +102,66 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1454-07-27" period="14xx_2_third">1454-07-27</date>
+            <date when="1454-07-27" period="14xx_2_third">1454-07-27</date>
             <placeName>Trogir</placeName>
-            </creation>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 15 (1401-1500)</term>
-                    <term>1451-1500</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
+      <revisionDesc>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <persName>Luka Špoljarić</persName>
             <date>2012-08-31</date>
                 Svako pismo u posebnoj datoteci. </change>
-            <change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <persName>Luka Špoljarić</persName>
             <date>2012-02-14</date>
                 Novo, unificirano zaglavlje. </change>
-            <change>
+         <change>
             <date>2011-12-19</date>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName> dignnm corr. </change>
-            <change>
+         <change>
             <date>2011-12-17</date>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName> Klasifikacija u zaglavlju. </change>
-            <change>
+         <change>
             <date>2010-12-11</date>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName> Početna verzija. </change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="prosa">
-        <body>
-            <div xml:id="sob1454d" type="prosa-epistula">
-                <head>
+      </revisionDesc>
+   </teiHeader>
+   <text type="prosa">
+      <body>
+         <div xml:id="sob1454d" type="prosa-epistula">
+            <head>
                <date when="1454-07-27">1454-07-27</date>, Tragurio</head>
-                <opener>Joannis Sobote Dalmate epistola.</opener>
-                <p>Superioribus diebus literis significavi illa, que rumore quodam ad nos referri
+            <opener>Joannis Sobote Dalmate epistola.</opener>
+            <p>Superioribus diebus literis significavi illa, que rumore quodam ad nos referri
                     videbantur: secundum Macometum, Teucrorum principem superbissimum, ingenti cum
                     audacia Serviam invasisse. Parvo deinde interjecto tempore non rumore, sed veris
-                    auctoribus hoc declaratum est; qui rei <milestone unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA153"/> novitate
+                    auctoribus hoc declaratum est; qui rei <milestone unit="page"
+                          facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA153"/> novitate
                     et periculi magnitudine exteriti ad nos venere affirmant tantas copias agrum
                     eius despoti invasisse, quantas vix unquam aut legimus aut vidimus. Traditum
                     est, ipsum praeter domesticas gentes X. legiones mercenarias in armis habere, ex
@@ -248,7 +194,8 @@
                     ipsos audacissime persecuti sunt; hostes et fuga et proelio fracti belluarum
                     more in flumen se praecipitavere. Dux Hesibeg cum quatuor militibus evassise
                     dicitur; preclari facinoris gradus factus est. Macometus, postquam ab Esibego
-                    male pugnatum fuit, contractis undique omnibus copiis, <milestone unit="page" facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA154"/>
+                    male pugnatum fuit, contractis undique omnibus copiis, <milestone unit="page"
+                          facs="http://books.google.com/books?id=cmJIAAAAYAAJ&amp;pg=PA154"/>
                     diligentius diurnas nocturnasque excubias facere imperavit; totis viribus molem
                     tanti belli adire statuit. Panones tantum novitate hujus periculi commoti
                     traduntur adeo, ut numquam in ducibus legendis, nec in exercitu scribendo
@@ -258,22 +205,21 @@
                     disciplina cedendum esse. Alii vero sunt, qui affirmant, nunc inter Panonnes
                     ingentem de principatu contentionem esse, mulieris ritu inter se desides
                     altercantur. Haec sunt, quae mihi digna relatu visa sunt.</p>
-
-                <p>Audio Johanem Albertum iurisconsultum a senatu praetorem Traguriensem designatum
+            <p>Audio Johanem Albertum iurisconsultum a senatu praetorem Traguriensem designatum
                     esse. Hortare virum dignissimum, ut veniat, expectatus mihi crede veniet in
                     praesentiarum. Apud nos aer saluberrimus est, valetudo optima, urbs pristine
                     sanitati restituta est; nihil est, quod formidandum sit. Paulo <abbr>M.</abbr>
                     me commendatum facito. <abbr>M. A.</abbr>
-                    <abbr>S.</abbr> dicito. Coriolanus tanquam claudus sutor ruri, domi se continet,
+               <abbr>S.</abbr> dicito. Coriolanus tanquam claudus sutor ruri, domi se continet,
                     equino calce sibi crus percussum.</p>
-                <closer>
+            <closer>
                <salute>Vale et me amare persevera.</salute>
-                    <dateline>Ex <placeName>
+               <dateline>Ex <placeName>
                      <abbr>Trag.</abbr>
                   </placeName>
-                        <date when="1454-07-27">Kal. VI. Sextilis (1454)</date>.</dateline>
+                  <date when="1454-07-27">Kal. VI. Sextilis (1454)</date>.</dateline>
             </closer>
-            </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-     <fileDesc xml:id="pima-b-epig">
+   <teiHeader>
+      <fileDesc xml:id="pima-b-epig">
          <titleStmt>
             <title ref="pima01-c01-1498">Bernardi Pimae Delmatae Tetrastichon in laudem Domici Palladii Sorani, versio electronica</title>
             <author ref="pima01">
@@ -40,55 +41,7 @@
             <bibl>Palladius, Domicus / Sabellicus, Marcus Antonius / Gigas, Christophorus Pierius: Epigrammata, mit Widmungsbrief des Autors an Marcus Antonius Sabellicus. Mit Gedichten an Palladius von Christophorus Pierius Gigas, Paulus Cincius, Laurentius Cingulus und Bernardus Pima und mit Brief und Gedicht von P. Nardinus Maniacus, Venedig, 1498.05.16 [BSB-Ink P-7GW M29126] </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="3"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="4"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="5" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="38"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-     <profileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -102,22 +55,22 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-           <date when="1498" period="14xx_3_third">1498</date>
-        </creation>
+            <date when="1498" period="14xx_3_third">1498</date>
+         </creation>
          <textClass>
-           <keywords scheme="typus">
-              <term>poesis</term>
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae renatae (1400-1600)</term>
-              <term>Saeculum 15 (1401-1500)</term>
-              <term>1451-1500</term>
-           </keywords>
-           <keywords scheme="genre">
-              <term>poesis - paratextus poetici</term>
-              <term>poesis - epigramma</term>
-           </keywords>
-        </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - paratextus poetici</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -128,24 +81,18 @@
             Početna verzija.
          </change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <pb n="37r"/>
          <div type="poesis-epigramma" met="elegiacum">
             <head>Bernardi Pimae Delmatae Tetrastichon
                in laudem Domici Palladii Sorani.</head>
-            
-            
             <l n="1.1">Phoebus ab Eois non hic tibi nascitur oris;</l>
-             
             <l n="1.2" met="pentameter">Non Cyrrha, hunc potuit gignere Sora sibi.</l>
-             
             <l n="1.3">Sora sibi genuit, totus nunc possidet orbis:</l>
-             
             <l n="1.4" met="pentameter">Orta est in tenui lucida gemma solo.</l>
-             
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

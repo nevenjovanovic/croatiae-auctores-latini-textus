@@ -1,132 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="marul-mar-vir-ill">
-            <titleStmt>
-                <title>De Veteris instrumenti uiris illustribus, versio electronica</title>
-                <author ref="marul01">
-                    <persName xml:lang="hr">Marulić, Marko</persName>
-                    <date>1450-1524</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="marul-mar-vir-ill">
+         <titleStmt>
+            <title>De Veteris instrumenti uiris illustribus, versio electronica</title>
+            <author ref="marul01">
+               <persName xml:lang="hr">Marulić, Marko</persName>
+               <date>1450-1524</date>
+            </author>
+            <editor>
                <persName>
                   <ref xml:id="BG">Branimir Glavičić</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName xml:id="NJ">
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Textum ex editione descripsit</resp>
-                    <persName>Iva Karabaić</persName>
-                </respStmt>
-                
-            </titleStmt>
-            
-            <editionStmt>
-                <p>Digitalizat modernog kritičkog izdanja, bez aparata (1991).</p>
-            </editionStmt>
-            <extent ana="D">Mg:D Verborum 29840</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+            <respStmt>
+               <resp>Textum ex editione descripsit</resp>
+               <persName>Iva Karabaić</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat modernog kritičkog izdanja, bez aparata (1991).</p>
+         </editionStmt>
+         <extent ana="D">Mg:D Verborum 29840</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2008-05">srpanj 2009</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
-                    <title>Starozavjetne ličnosti</title>
-                    <author>Marulić, Marko </author> 
-                    <editor>
+               <title>Starozavjetne ličnosti</title>
+               <author>Marulić, Marko </author>
+               <editor>
                   <persName>
                      <ref>Glavičić, Branimir</ref>
                   </persName>
                </editor>
-                    <author>Novaković, Darko</author>
-                    <editor>
+               <author>Novaković, Darko</author>
+               <editor>
                   <persName>
                      <ref>Bratulić, Josip</ref>
                   </persName>
                </editor> .
                     
                     <title level="s">Sabrana djela Marka Marulića = Opera omnia</title>
-                    <biblScope>knj. 7 ; Humanisti / Splitski književni krug ; knj. 4, sv. 6 ; Latinska djela ; 6</biblScope>
-                    <pubPlace>Split</pubPlace>
-                    <publisher>Književni krug</publisher> 
-                    <date>1991</date>
-                    <edition>2. dvojezično, pregledano i prerađeno izd .</edition>
-                </bibl>
+               <biblScope>knj. 7 ; Humanisti / Splitski književni krug ; knj. 4, sv. 6 ; Latinska djela ; 6</biblScope>
+               <pubPlace>Split</pubPlace>
+               <publisher>Književni krug</publisher>
+               <date>1991</date>
+               <edition>2. dvojezično, pregledano i prerađeno izd .</edition>
+            </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="2"/>
-          <tagUsage gi="author" occurs="3"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="biblScope" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="corr" occurs="10"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="122"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="3"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="3"/>
-          <tagUsage gi="head" occurs="122"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="1"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="mentioned" occurs="36"/>
-          <tagUsage gi="milestone" occurs="185"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="38"/>
-          <tagUsage gi="num" occurs="11"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="130"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="ptr" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="q" occurs="258"/>
-          <tagUsage gi="ref" occurs="7" withId="1"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="75"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="53"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -140,52 +76,48 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1517" period="15xx_1_third">1517-1518</date>
-            </creation>
+            <date when="1517" period="15xx_1_third">1517-1518</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - vita</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - vita</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-03-09</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-03-09</date>
                 Novo, unificirano zaglavlje. U div dodani tipovi.
             </change>
-            <change>
-                <date>2009-07-03</date>
-                <persName>
+         <change>
+            <date>2009-07-03</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 TEI zaglavlje uređeno prema PhiloLogic obrascu. 
                 Marginalije vraćene iz fusnota.
                 Označeni tipfeleri i sumnjiva čitanja (sic).
             </change>
-            
-        </revisionDesc>
-        
-        
-    </teiHeader>
-
+      </revisionDesc>
+   </teiHeader>
    <text>
       <front>
-            <div type="prosa-praefatio">
-                <milestone unit="page" n="25r"/>
-                <head>DE VETERIS INSTRVMENTI VIRIS ILLVSTRIBVS M. MARVLI COMMENTARIVM.</head>
-                <p>Divi Hieronymi de uiris illustribus librum nuper euoluenti mihi uenit in mentem
+         <div type="prosa-praefatio">
+            <milestone unit="page" n="25r"/>
+            <head>DE VETERIS INSTRVMENTI VIRIS ILLVSTRIBVS M. MARVLI COMMENTARIVM.</head>
+            <p>Divi Hieronymi de uiris illustribus librum nuper euoluenti mihi uenit in mentem
                     illius ea in re studium pro uiribus emulari uelle. ut sicut ipse de ijs, qui sub
                     euangelio erant, texuit historiam, ita et ego eorum qui in ueteris legis
                     uoluminibus continentur gesta breuis succinctaque narratione subnecterem. Vtile
@@ -198,18 +130,17 @@
                     esse, quia bona bonis cęlestia largitur, et timendum quod iniquos atque impios
                     poena punit ęterna. Igitur eodem domino fauente atque adiuuante, ab ipsius
                     protoplasto, hoc est a primo humani generis parente initium capiamus. </p>
-            </div>
+         </div>
       </front>
-        <body>
-            <milestone unit="page" n="25v"/>
-
-            <div type="prosa-vita">
-                <head>
+      <body>
+         <milestone unit="page" n="25v"/>
+         <div type="prosa-vita">
+            <head>
                <add>Genesis</add>
             </head>
-                <div>
-                    <head>Adam </head>
-                    <p> Adam post quinque dierum opera die sexto de limo terrę et spiraculo uitę ad
+            <div>
+               <head>Adam </head>
+               <p> Adam post quinque dierum opera die sexto de limo terrę et spiraculo uitę ad
                         similitudinem Dei factus ponitur in paradiso uoluptatis, bonis gratuitis
                         donatur, nomina rebus imponit.  Eua de costa eius dormientis fuit formata.
                          Serpentis fallacia decepti legem Dei pręuaricati sunt.  Maledicitur primum
@@ -226,10 +157,10 @@
                         Caynan DCCCCX, <milestone unit="page" n="26r"/> Malahelel DCCCXCV, Iared
                         DCCCCLXII, Enoch CCCLXV, et non apparuit, quia tulit eum Deus, Mathusalem
                         DCCCCLXIX, Lamech DCCLXXVII et genuit Noe.</p>
-                </div>
-                <div>
-                    <head>Noe</head>
-                    <p> Noe, uir iustus, genuit Sem, Cham, et Iapheth.  Iussu Dei diluuium parantis
+            </div>
+            <div>
+               <head>Noe</head>
+               <p> Noe, uir iustus, genuit Sem, Cham, et Iapheth.  Iussu Dei diluuium parantis
                         fabricauit arcam, cuius longitudo CCC cubitorum fuit, XL latitudo.  Illo
                         ingresso arcam cum uxore et liberis et nuribus et omnis generis animantibus
                         inundantes aquę operuerunt terram, reliqua animalia suffocata sunt.  Noe cum
@@ -243,18 +174,18 @@
                         retulit fratribus, et ipsi suis indumentis operuerunt pudenda patris.  Qui
                         cum euigilasset, maledixit Chanaan, filio Cham, benedixit autem Sem et
                         Iapheth.  Vixit annos DCCCCL.</p>
-                </div>
-                <div>
-                    <head>Sem</head>
-                    <p> Sem, Noe filius, genuit Arphaxat, hic Sale, hic Heber, hic Phalech, hic
+            </div>
+            <div>
+               <head>Sem</head>
+               <p> Sem, Noe filius, genuit Arphaxat, hic Sale, hic Heber, hic Phalech, hic
                         Rheu, hic Saruch, hic Nachor, hic Thare, hic Abram et Nachor et Aram.  Aram
                         genuit Loth.  Vxor Abrahę fuit Sarai, uxor Nachor Melcha.  Thare autem
                         eduxit eos de Hur Caldeorum, et habitarunt in Aran.  Thare uixit annos
                     CCV.</p>
-                </div>
-                <div>
-                    <head>Abram</head>
-                    <p> Abram, Thare filius, benedicitur a Domino et eius iussu egressus de terra
+            </div>
+            <div>
+               <head>Abram</head>
+               <p> Abram, Thare filius, benedicitur a Domino et eius iussu egressus de terra
                         sua cum Loth nepote familiaque sua uenit usque in Sichem et Conuallem
                         illustrem.  Ibi posuit altare domino, alterum errexit in monte inter Bethel
                         et Hai.  Ingressus Aegyptum de Sarai uxore sororem suam esse dixit.  Quę ob
@@ -284,7 +215,7 @@
                         suscipiat.  Ea uero grauida facta exprobrauit Sarai, dominę suę, ignominiam
                         sterilitatis.  Hanc ob rem uerberibus affecta fugit.  Ab angelo admonita
                         reuertitur paritque Hismahelem; gratias egit Deo.</p>
-                    <p>Mambrę hostes inuadit, uictoria potitur,<note place="margin-right">Abraham
+               <p>Mambrę hostes inuadit, uictoria potitur,<note place="margin-right">Abraham
                             uictor.</note> Loth captum et substantiam eius recuperat. Accepta
                         benedictione a sacerdote <corr>Melchisedech</corr>, decimas omnium, quę
                             acquisierat<note place="margin-right">Decima.</note>, offert. Regi
@@ -294,7 +225,7 @@
                         reputatum est ei ad justitiam. Victimas mactat, dormienti prędicitur suorum
                         seruitus. Per uisum uidit clibanum fumantem et lampadem ignis transeuntem.
                         Pollicetur ei Dominus terre possessionem a Nilo usque ad Euphratem.</p>
-                    <p>Ipsa autem Sarai, cum sterilis esset, persuadet uiro, ut ex <milestone unit="page" n="3v"/> ancilla Aegyptia Agar sobolem <milestone unit="page" n="27v"/> suscipiat. Ea vero grauida facta exprobrauit
+               <p>Ipsa autem Sarai, cum sterilis esset, persuadet uiro, ut ex <milestone unit="page" n="3v"/> ancilla Aegyptia Agar sobolem <milestone unit="page" n="27v"/> suscipiat. Ea vero grauida facta exprobrauit
                         Sarai, dominę sue, ignominiam sterilitatis. Hanc ob rem uerberibus affecta
                         fugit. Ab angelo admonita reuertitur paritque Hismahelem; gratias egit Deo.
                         Porro, cum Abram Deo loquente pronus cecidisset in faciem, ait ei Dominus:
@@ -325,12 +256,11 @@
                         Heth ratum habuere. Amissa Sarra Ceturam accepit uxorem, de qua genuit
                         filios, quos a filio Isaac separauit. Vixit annos CLXXV et ipse in spelunca,
                         quam emerat, sepultus quieuit.</p>
-                    <milestone unit="page" n="28v"/>
-
-                </div>
-                <div>
-                    <head>LOTH</head>
-                    <p>LOTH, filius Aram, nepos Abrahę, Sodomę duos angelos suscepit hospitio. A
+               <milestone unit="page" n="28v"/>
+            </div>
+            <div>
+               <head>LOTH</head>
+               <p>LOTH, filius Aram, nepos Abrahę, Sodomę duos angelos suscepit hospitio. A
                         quibus uiolentiam Sodomitarum auertere uolens duas filias uirgines
                         stuprandas offerebat. Illi uero, dum magis hospites expeterent, a Deo puniti
                         sunt cęcitate. Loth inde cum uxore eductus monetur, ut in monte se saluet,
@@ -341,10 +271,10 @@
                         mansitque in spelunca. Filię cum illo ebrio concubuerunt. Maior peperit ei
                         Moab, a qua Moabitę, minor Ammon, a quo Ammonitę. Nihil ultra relatum
                         comperio de Loth.</p>
-                </div>
-                <div>
-                    <head>HISMAHEL</head>
-                    <p> HISMAHEL, Abrahę de Agar ancilla filius, ab ipso Abraham Sarra uxore
+            </div>
+            <div>
+               <head>HISMAHEL</head>
+               <p> HISMAHEL, Abrahę de Agar ancilla filius, ab ipso Abraham Sarra uxore
                         suadente eiectus est una cum matre.  Agar ergo cum filio exturbata sitiens
                         atque esuriens per solitudinem errabat.  Posito puero sub arbore recessit,
                         ne expirantem uideret.  Mox angeli indicio intuita puteum repleuit utrem
@@ -352,10 +282,10 @@
                         adoleuisset, factus est sagittarius.   <milestone unit="page" n="29r"/>
                         Patrem Abraham sepeliuit fratre Isaac<note place="margin-right">V.</note>
                         adiuuante.  Vixit annos CXXXVII.</p>
-                </div>
-                <div>
-                    <head>ISAAC</head>
-                    <p> ISAAC, <sic>Abrahe</sic> filius, duxit uxorem Rebecham, Bathuelis filiam,
+            </div>
+            <div>
+               <head>ISAAC</head>
+               <p> ISAAC, <sic>Abrahe</sic> filius, duxit uxorem Rebecham, Bathuelis filiam,
                         filii Melchę, uxoris Nachor, fratris Abrahę.  Abiit enim seruus senior
                         Abrahę in Messopotamiam ad urbem Nachor quęsitum uxorem Isaac.  Rebecha
                         autem hauriens aquam ad puteum extra ciuitatem dedit ei camellisque eius
@@ -385,10 +315,10 @@
                         accipiat de filiabus Heth.  Pater ergo reuocatum misit in Messopotamiam.
                          Ipse uita defunctus est in ciuitate Mambre, hęc est Ebron.  Isaac cum
                         uixisset annos CLXXX, Esau et Iacob, filii, eum sepulturę mandarunt.</p>
-                </div>
-                <div>
-                    <head>IACOB </head>
-                    <p> IACOB ab Isaac patre benedictus et a Deo dilectus mittitur in Messopotamiam
+            </div>
+            <div>
+               <head>IACOB </head>
+               <p> IACOB ab Isaac patre benedictus et a Deo dilectus mittitur in Messopotamiam
                         ad Bathuelem, Rebechę patrem, ut de filiabus Laban, auunculi, ducat uxorem.
                          Pergens Aram, cum in uia obdormisset, uidit scalam usque in cęlum
                             <milestone unit="page" n="30"/> extensam, angelos quoque<note place="margin-right">VI.</note> ascendentes et descendentes.  Cui
@@ -425,7 +355,7 @@
                         offert munera, subiicit se dicens: <q>Hęc dat Esau domino seruus eius Jacob.
                         </q> Surgens transit uadum Iaboch.  Vir cum eo <milestone unit="page" n="31r"/> luctatus est usque mane et benedicens ei: <q>Non Jacob,
                             </q>inquit,<note place="margin-right">VII.</note>
-                        <q>sed Israhel uocaberis. </q> Iacob locum uocauit Phanuel dicens: <q>Vidi
+                  <q>sed Israhel uocaberis. </q> Iacob locum uocauit Phanuel dicens: <q>Vidi
                             Dominum facie ad faciem. </q> Claudicauit, quia luctator neruum femoris
                         eius contigerat.  Atque ideo non edunt neruum filii Israhel usque in
                         pręsentem diem.  Obuium sibi Esau septies adorauit usque ad terram pronus,
@@ -474,22 +404,22 @@
                         duodecim capita duodecim tribuum.  Idem mandauit, ut in Spelunca duplici
                         sepeliatur.  Sepeliuit eum Ioseph.  Locus uocatus <mentioned>Planctus
                             Aegypti. </mentioned> Vixit annos CXLVII.</p>
-                </div>
-                <div>
-                    <head>ESAV</head>
-                    <p> ESAV, Abrahę filius primogenitus, sua primogenita uendidit (ut diximus)
+            </div>
+            <div>
+               <head>ESAV</head>
+               <p> ESAV, Abrahę filius primogenitus, sua primogenita uendidit (ut diximus)
                         fratri Iacob, a quo benedictionem patris Isaac sibi subreptam
                         <sic>egerrime</sic> tulit, ita ut de illo interficiendo cogitaret.
                          Fecissetque indignationi suę satis, nisi eius benignitate ac blanditiis
                         placatus animi <sic>egritudinem</sic>
-                        <milestone unit="page" n="8v"/> remisisset.  Idem accepit uxores de filiabus
+                  <milestone unit="page" n="8v"/> remisisset.  Idem accepit uxores de filiabus
                         Chanaan.  Ex Ada natus est ei Eliphaz, e Basemath Rahuel, ex Olibama Iehus,
                         Iehedon et Chore.  Discedens a fratre Iacob habitauit in monte Seyr.  Ipse
                         est Edom.  Hinc Idumei.  Nihil pręterea de illo memorat Scriptura. </p>
-                </div>
-                <div>
-                    <head>IOSEPH</head>
-                    <p> IOSEPH, de Rachel filius Iacob, fratres suos criminis pessimi apud patrem
+            </div>
+            <div>
+               <head>IOSEPH</head>
+               <p> IOSEPH, de Rachel filius Iacob, fratres suos criminis pessimi apud patrem
                         accusauit.  Fratribus odio erat, quod magis a patre diligeretur.  Somnium
                         uidit, manipulos fratrum adorantes manipulum suum; iterum solem et lunam et
                         stellas XI adorantes se.  Missus a patre de ualle Ebron uenit in Sichem.
@@ -558,11 +488,10 @@
                          Joseph patrem defunctum fleuit, aromatibus conditum sepeliuit.  Ipse autem
                         uixit annos CX.  Sepultus in Aegypto et postea, sicut mandauerat, ad Terram
                         promissionis a Moyse translatus.</p>
-
-                </div>
-                <div>
-                    <head>IVDAS</head>
-                    <p> IVDAS, filius Jacob, Sue Chananei filiam duxit uxorem.  Quę peperit ei Her
+            </div>
+            <div>
+               <head>IVDAS</head>
+               <p> IVDAS, filius Jacob, Sue Chananei filiam duxit uxorem.  Quę peperit ei Her
                         et Onan et Sela.  Her coniugem accepit Tamar.  Peccauit Domino, et occisus
                         est.  Onan patris iussu, ut sobolem fratri suo mortuo suscitaret, iungitur
                         cum Thamar, ueruntamen ne illa conciperet, proiiciebat semen in terram.  Ob
@@ -578,12 +507,12 @@
                         manum protulisse.  A Juda ultra non fuit cognita.  De illo pater
                         prophetauit: <q>Iuda, </q>inquit, <q>adorabunt te filii patris tui</q>... et
                         reliqua, ut supra est dictum. </p>
-                </div>
-                <!-- dovde 3. 7. -->
             </div>
-            <div>
-                <head> EXODVS</head>
-                <p> MOYSES, de domo Leui, infantulus a matre secundum flumen exponitur.  Pręceperat
+            <!-- dovde 3. 7. -->
+         </div>
+         <div>
+            <head> EXODVS</head>
+            <p> MOYSES, de domo Leui, infantulus a matre secundum flumen exponitur.  Pręceperat
                     enim pharao pueros Hebreos, mox ut nati essent, interfici.  Filia regis inuentum
                     adoptauit eumque Moysen nuncupauit, hoc est <mentioned>Assumptum de aqua.
                     </mentioned> Qui adultus Aegyptium Hebreos percutientem interemit absconditque
@@ -711,10 +640,10 @@
                     et ad altare accederent.  Operuit nubes tabernaculum et gloria Domini impleuit
                     illud.  Nec poterat Moyses ingredi tectum.  Nubes per diem incubabat tabernaculo
                     et ignis per noctem.</p>
-            </div>
-            <div>
-                <head> LEVITICVS</head>
-                <p> Moysi de tabernaculo loquens disponit Dominus de sacrificiis faciendis et
+         </div>
+         <div>
+            <head> LEVITICVS</head>
+            <p> Moysi de tabernaculo loquens disponit Dominus de sacrificiis faciendis et
                     oblationibus et primitiis et <milestone unit="page" n="15v"/> uictimis et
                     hostiis et aliis <corr>huiusmodi</corr>.  Ipse Moyses deinde Domino iubente
                     congregauit coetum ad ostium tabernaculi obtulitque Aaronem et filios eius.
@@ -736,10 +665,10 @@
                     possessionibus uendundis uel emundis, de uotis soluendis, de decimis offerendis.
                      Pręcepta seruantibus cuncta prospera pollicetur Dominus, contraria minatur non
                     seruantibus. </p>
-            </div>
-            <div>
-                <head>NVMERI</head>
-                <p> Moyses Domino iubente censum agit populi.  Numero compręhendit familias tribuum
+         </div>
+         <div>
+            <head>NVMERI</head>
+            <p> Moyses Domino iubente censum agit populi.  Numero compręhendit familias tribuum
                     singularum pręter tribum Leui, quam postea censuit.  Accipit legem de
                     consecrandis et quomodo illi benedicere debeant filiis Israhel.  Ingressus
                     tabernaculum captabat responsum, quando audiuit uocem loquentis de
@@ -858,10 +787,10 @@
                     terra Chanaan.  Leuitis dantur ad habitandum XLVIII oppida.  Lex de homicidis
                     lata.  <q>Profugi, </q>inquit, <q>in urbe maneant, donec pontifex maximus
                         moriatur. </q> Lex, ne qua mulier extra suam tribum nubat.</p>
-            </div>
-            <div>
-                <head>DEVTERONOMIVM</head>
-                <p> Moyses ad populum uerba faciens dicta factaque eis a Domino recenset, a monte
+         </div>
+         <div>
+            <head>DEVTERONOMIVM</head>
+            <p> Moyses ad populum uerba faciens dicta factaque eis a Domino recenset, a monte
                     Oreb usque huc.  Admonet pręterea, ut pręcepta Dei obseruent et ea doceant
                     posteros.  De morte sua prędicit.  Tres ciuitates separat trans Iordanem ad
                     confugium illorum, qui nolentes occiderint proximum suum.  Hę fuerunt: Bosor,
@@ -892,10 +821,10 @@
                     Dominus omnem terram Galaad.  Atque ibi mortuus et sepultus est.  Non cognouit
                     homo sepulchrum eius usque in pręsentem diem.  Vixit annos CXX.  Mortem eius
                     luxerunt per dies XXX.  Non surrexit propheta in Israhel sicut Moyses. </p>
-            </div>
-            <div>
-                <head>IOSVE</head>
-                <p> IOSVE, filius Nun, repletur spiritu sapientię, dux Israhel constituitur post
+         </div>
+         <div>
+            <head>IOSVE</head>
+            <p> IOSVE, filius Nun, repletur spiritu sapientię, dux Israhel constituitur post
                     Moysem.  Hortatur eum Dominus, ut cum populo transeat Iordanem, ostenditque ei
                     terminos terrę per eum obtinendę.  Mittit ille duos exploratores in urbem
                     Hierico, quos domi exceptos Raab meretrix quęrentibus non prodidit.  Et hi
@@ -915,7 +844,7 @@
                     defecit.  Apparuit angelus cum gladio euaginato adorantique Iosue dixit:
                         <q>Solue calciamenta de pedibus! <milestone unit="page" n="21v"/> Locus
                         enim, in quo stas, sanctus est.</q>
-                    <note place="margin">Hierico corruit</note>  Inde monitu Domini obsessam Hierico
+               <note place="margin">Hierico corruit</note>  Inde monitu Domini obsessam Hierico
                     circumiuit cum bellatoribus semel per diem.  Die autem VII, dum sacerdotes arcam
                     circumferentes buccinis clangunt et reliquus populus acclamat, muri ciuitatis
                     funditus corruere.  Capta urbe, nequis aliquid tangeret, edictum est, quod
@@ -933,8 +862,7 @@
                     super Achan congesto placatus est Dominus.  Vallis, in qua iacuit, uocata
                     Hachor.  Vrbem Hay captam incenderunt, uiros interfecerunt, prędam inter se
                     diuiserunt, regem suspenderunt, super depositum lapides congesserunt. </p>
-
-                <p>Iosue de illis Iordanis duodecim lapidibus ędificauit altare in monte Hebal
+            <p>Iosue de illis Iordanis duodecim lapidibus ędificauit altare in monte Hebal
                     obtulitque holocaustum. Scripsit super lapidem Moysi legem. Quę autem scripta
                     erant in Volumine, exposuit. Sex reges in illum conspirauerunt. Gabaonitę se de
                     longinquo aduenisse fingentes pacem ab illo sibi inpetrarunt. Conuictos mendacii
@@ -977,19 +905,19 @@
                     Moysi scripta sunt, obseruare conentur. Sin autem ad gentium ritum declinauerint
                     eisque se iunxerint per connubia et amicicias, tunc sciant se a Domino de terra
                     delendos pręualentibus aduersariis.</p>
-                <p>
+            <p>
                <milestone unit="page" n="23v"/> Cunque illi Deum constanter colendi fidem
                     obtulissent, posuit eis pręcepta in Sichem scripsitque in lapide, quem
                     collocauit sub quercu in sanctuario Domini in testimonium percussi inter se
                     foederis. Tunc demum dimisit tribus in possessiones earum. Post hęc mortuus est,
                     cum esset annorum CX. Sepelitur in Thamnat Sarę in monte Ephraim. Ossa uero
                     Ioseph, quę tulerant de Aegypto, sepelierunt in Sychem.</p>
-            </div>
+         </div>
+         <div>
+            <head>IVDICVM</head>
             <div>
-                <head>IVDICVM</head>
-                <div>
-                    <head>IVDA</head>
-                    <p>IVDA tribus in locum successit Iosue ducis, quę iuncta sibi tribu Symeon
+               <head>IVDA</head>
+               <p>IVDA tribus in locum successit Iosue ducis, quę iuncta sibi tribu Symeon
                         subiugarunt Chananeum et Pherezeum. Interfecerunt in Bezech uirorum
                         decemmilia. Adonibezech fugientem consecuti sunt. Capto absciderunt summas
                         manuum pedumque partes, et ipse confessus est idem se fecisse LXX regibus.
@@ -1003,16 +931,16 @@
                         liberarent. Sed ne his quidem paruerunt. Itaque seruatę sunt gentes, a
                         quibus uexarentur traditusque est Israhel Cusanrasathaim, Mesopotamię regi,
                         in seruitutem per annos octo.</p>
-                </div>
-                <div>
-                    <head>OTHONIEL</head>
-                    <p>OTHONIEL, filius Cenez, iudicum primus, Israhelem, cum eos erroris
+            </div>
+            <div>
+               <head>OTHONIEL</head>
+               <p>OTHONIEL, filius Cenez, iudicum primus, Israhelem, cum eos erroris
                         poenituisset, de seruitute gentium uindicauit in libertatem regemque
                         oppressit. Et quieuit terra annis XL.</p>
-                </div>
-                <div>
-                    <head>AIOTH</head>
-                    <p>AIOTH, filius <sic>Gera</sic>, filii Gemini, ambidexter, cum defuncto
+            </div>
+            <div>
+               <head>AIOTH</head>
+               <p>AIOTH, filius <sic>Gera</sic>, filii Gemini, ambidexter, cum defuncto
                         Othoniele filii Israhel rursum pręuaricati essent seruissentque Egbon,
                         Moabitarum regi, XVIII annis ac tandem poenitentes ad Dominum exclamassent,
                         liberauit illos. Hic nempe ad regem Eglon cum muneribus missus finxit se
@@ -1020,15 +948,15 @@
                         interemit. Inde uenit in Seyrath coactaque Israhelitarum manu uada Iordanis
                         occupat et decemmilia Moabitarum interficit. Terra a pręliis quieuit annos
                         LXXX.</p>
-                </div>
-                <div>
-                    <head>SENGAR</head>
-                    <p>SENGAR, filius Anath, in demortui Aioth locum suffectus de Palestinis neci
+            </div>
+            <div>
+               <head>SENGAR</head>
+               <p>SENGAR, filius Anath, in demortui Aioth locum suffectus de Palestinis neci
                         sexcentos dedit uomere uno.</p>
-                </div>
-                <div>
-                    <head>DELBORA</head>
-                    <p>DELBORA, <sic>prophetis</sic>, uxor Lapidoth, populum <milestone unit="page" n="24v"/> iudicabat in monte Ephraim, quando post mortem Aioth filii
+            </div>
+            <div>
+               <head>DELBORA</head>
+               <p>DELBORA, <sic>prophetis</sic>, uxor Lapidoth, populum <milestone unit="page" n="24v"/> iudicabat in monte Ephraim, quando post mortem Aioth filii
                         Israhel ad idola prolapsi opprimuntur a <sic>Iabin</sic>, rege Chanaan,
                         seruieruntque ei annis XX. Regii exercitus dux erat Sysara. Illa autem
                         uocato Barach, Abinoen filio, de Cedes Neptalim, a Domino monita pręcepit
@@ -1041,10 +969,10 @@
                         coepere regem Iabin, donec eum delerent. Delbora et Barach canticum Domino
                         pro uictoria cecinerunt de omnibus laudem Deo tribuentes. Quieuit terra per
                         annos XL.</p>
-                </div>
-                <div>
-                    <head>GEDEONI</head>
-                    <p>GEDEONI, Ioas filio, de tribu Manasse, cum ob idolatrię peccatum filii
+            </div>
+            <div>
+               <head>GEDEONI</head>
+               <p>GEDEONI, Ioas filio, de tribu Manasse, cum ob idolatrię peccatum filii
                         Israhel a Madianitis per annos VII oppręssi fuissent et poenitentes
                         clamassent ad Dominum, apparuit angelus sub quercu in Ephra dicens, quod per
                         ipsum Dominus liberaturus esset Israhel et Madianitas oppręssurus. Petiit
@@ -1088,10 +1016,10 @@
                         ephot et posuit in ciuitate sua Ephra. Quieuit terra XL annis. Filii fuere
                         illi LXX. De concubina in Sichen genuit Abimelech. Eo defuncto auersi sunt
                         filii Israhel post Baalim et erga domum eius ingrati impiique fuere.</p>
-                </div>
-                <div>
-                    <head>ABIMELECH</head>
-                    <p>ABIMELECH, Gedeonis filius, per auunculos suos persuasit Sichimitis, ut eis
+            </div>
+            <div>
+               <head>ABIMELECH</head>
+               <p>ABIMELECH, Gedeonis filius, per auunculos suos persuasit Sichimitis, ut eis
                         dominaretur. Accepit ab illis LXX pondo argenti de phano Baal Berith. Ex eo
                         conduxit milites uenitque ad domum patris sui in Ephra. LXX fratres suos
                         interfecit super lapidem unum. Euasit Ioathan, minimus fratrum, qui
@@ -1110,19 +1038,19 @@
                         hic quidem tales pro fratricidio poenas dedit. Super Sichimitas quoque uenit
                             <sic>Ioathami</sic> maledictio, eo quod Abimelechum passi essent
                         dominari.</p>
-                </div>
-                <div>
-                    <head>THOLA</head>
-                    <p>THOLA, filius Phua, patrui ipsius Abimelechi, de tribu Isachar, post eum dux
+            </div>
+            <div>
+               <head>THOLA</head>
+               <p>THOLA, filius Phua, patrui ipsius Abimelechi, de tribu Isachar, post eum dux
                         iudexque fuit annis tribus et uiginti.</p>
-                </div>
-                <div>
-                    <head>IAIR</head>
-                    <p>IAIR, Galadites, post Tholan annis XXII. Fuere illi triginta filii.</p>
-                </div>
-                <div>
-                    <head>TEPTE</head>
-                    <p>TEPTE, Galadites, Galaad filius de meretrice genitus, cum eum ipsius Galaad
+            </div>
+            <div>
+               <head>IAIR</head>
+               <p>IAIR, Galadites, post Tholan annis XXII. Fuere illi triginta filii.</p>
+            </div>
+            <div>
+               <head>TEPTE</head>
+               <p>TEPTE, Galadites, Galaad filius de meretrice genitus, cum eum ipsius Galaad
                         liberi de paterna domo cieuissent, habitauit in terra Thob. Bellum
                         interneciuum erat inter Ammonitas et Israhelitas. Maiores natu de Galaad
                         Iepte ducem populi constituerunt. Defuncto enim Iair filii Israhel ad idola
@@ -1147,39 +1075,39 @@
                             <mentioned>seboleth, </mentioned>quod interprętatur spica, respondisset
                             <mentioned>cheboleth, </mentioned>hic de Ephraim esse depręhendebatur. Ceciderunt
                         ex eis quadragintaduo milia. Iepte iudicauit Israhel annis VI.</p>
-                </div>
-                <div>
-                    <head>ABESSAN</head>
-                    <p>ABESSAN de Bethleem, cui fuere XXX filii et totidem filię, iudicauit annis
+            </div>
+            <div>
+               <head>ABESSAN</head>
+               <p>ABESSAN de Bethleem, cui fuere XXX filii et totidem filię, iudicauit annis
                         VII post eum.</p>
-                </div>
-                <div>
-                    <head>AHIALON</head>
-                    <p>
+            </div>
+            <div>
+               <head>AHIALON</head>
+               <p>
                   <sic>AHIALON</sic>, Zabulonites, post Abessan iudicauit annis decem.</p>
-                </div>
-                <div>
-                    <head>ABDON</head>
-                    <p>ABDON, filius Hellel, Pharatonites, cui fuerunt XL filii et ex his XXX
+            </div>
+            <div>
+               <head>ABDON</head>
+               <p>ABDON, filius Hellel, Pharatonites, cui fuerunt XL filii et ex his XXX
                         nepotes, iudicauit annis VIII. In Pharatone Ephraim fuit sepultus in monte
                         Amalech.</p>
-                </div>
-                <div>
-                    <head>SANSON</head>
-                    <p>SANSON, Manuę filius, de tribu Dan, hos insecutus iudex et dux populi Israhel
+            </div>
+            <div>
+               <head>SANSON</head>
+               <p>SANSON, Manuę filius, de tribu Dan, hos insecutus iudex et dux populi Israhel
                         fuit, de quo ita traditur: Cum ob idolatriam seruissent Palestinis XL annis,
                         angelus apparuit uxori Manuę, quę sterilis erat, et ex ea nasciturum
                         prędixit nazareum, qui populum uindicabit in libertatem. Hoc ipsa retulit
                         marito. Angelus autem iterum ambobus apparens insinuauit illis nato puero,
                         quid facto opus esset. Manue quęrenti nomen angelus respondit: <note place="margin">Angeli
                             nomen mirabile</note>
-                        <q>Quid quęris nomen meum, quod est mirabile? </q>Manue obtulit hedum et
+                  <q>Quid quęris nomen meum, quod est mirabile? </q>Manue obtulit hedum et
                         libamina Domino super petram. Angelus autem per flammam altaris ascendit in
                         cęlum. Id illi cernentes proni adorauerunt. Mulier peperit filium nomine
                         Sanson. Coepit spiritus Domini esse cum eo in Castris Dan, inter Saraa et
                         Esthahol. Adultus descendit in Thamnata, adamauit mulierem Palestinam. In
                         uineis oppidi leonem manibus decerpsit. </p>
-                    <p>Reuertens uidit in ore leonis mortui examen apum et fauum mellis. Cum autem
+               <p>Reuertens uidit in ore leonis mortui examen apum et fauum mellis. Cum autem
                         inisset cum illa, in cuius amorem exarserat, matrimonium, in nuptiali
                         conuiuio proponit problema sodalibus, qui erant XXX: <q>De comedente,
                         </q>inquit, <q>exiuit cibus et de forti egressa est dulcedo. </q>Non
@@ -1214,13 +1142,13 @@
                         olim uiuens. Sui sepelierunt eum inter Saraa et Esthaol, in sepultura patris
                         eius Manuę. Iudicauit Israhel annis XX.
                     </p>
-                </div>
             </div>
+         </div>
+         <div>
+            <head>REGVM</head>
             <div>
-                <head>REGVM</head>
-                <div>
-                    <head>SAMVEL</head>
-                    <p>SAMVEL, Helcanę et Annę filius, de tribu Ephram, matris pręcibus a Domino
+               <head>SAMVEL</head>
+               <p>SAMVEL, Helcanę et Annę filius, de tribu Ephram, matris pręcibus a Domino
                         impetratus nascitur. Cum enim illa uouisset, si marem pareret, eum se Deo
                         dedicaturam (unde Samuel <mentioned>A Deo postulatus </mentioned>interprętatur),
                         genitum et ablactatum immolato uitulo obtulit Heli sacerdoti in Sylo. Ille
@@ -1243,7 +1171,7 @@
                         captas. Iudicabat populum, ędificauit altare in Ramatha. Cum senuisset,
                         filios suos iudices constituit In Helem et Abiam. His iudicium
                         peruertentibus populus petiit sibi regem. Moleste id tulit Samuel.</p>
-                    <p>Quęsiuit a Domino, quid facto opus esset. Iussit Dominus, ut obsequeretur eis
+               <p>Quęsiuit a Domino, quid facto opus esset. Iussit Dominus, ut obsequeretur eis
                         in ipsorum perniciem, eo quod spreuerant Deum spernendo a Deo electum
                         Samuelem. Samuel igitur prędixit eis, quali seruitutis iugo opprimendi erant
                         sub rege. In proposito <milestone unit="page"/> pertinaciter manentibus Saulem unxit regem Domino
@@ -1256,10 +1184,10 @@
                         capto Saul pepercerat, frustatim concidit Domino iubente. Vngit in regem
                         Dauidem de tribu Iuda. Regnante adhuc Saule mortuus est Samuel et sepultus
                         in Ramatha.</p>
-                </div>
-                <div>
-                    <head>SAVL</head>
-                    <p>SAVL, filius Cis, de tribu Beniamin, primus Hebreorum rex fuit. Cis, pater
+            </div>
+            <div>
+               <head>SAVL</head>
+               <p>SAVL, filius Cis, de tribu Beniamin, primus Hebreorum rex fuit. Cis, pater
                         eius, perdiderat asinas. Misit Saulem cum puero illas quęsitum. Quęrendo
                         igitur transierunt per montem Ephraim, per Salissa, per Salim, per Gemini,
                         et non inuenerunt. Veniunt in agrum Suph. Diuertunt ad Samuelem, ut sibi de
@@ -1277,8 +1205,8 @@
                         reliquo tempore contra legem. Cum decem milibus uirorum innumerabilem
                         Palestinorum exercitum fudit persecutusque est eos a Machmis usque
                             <sic>Haialon</sic>.</p>
-                    <!-- napomena: na strani 23. ispravila sam tiskarsku pogrešku <q>gnerationem</q>, dodano e sam stavila u uglate zagrade -->
-                    <p>Ionatam filium morte damnauerat, quod contra edictum die illo, quo inimicos
+               <!-- napomena: na strani 23. ispravila sam tiskarsku pogrešku <q>gnerationem</q>, dodano e sam stavila u uglate zagrade -->
+               <p>Ionatam filium morte damnauerat, quod contra edictum die illo, quo inimicos
                         fugientes persequebatur, parum melis gustasset, sed ille populi
                         intercessione liberatus est. Saul autem firmato regno uicinas gentes
                         infestabat. Graue bellum erat ei cum Palestinis. Vicit Amalechitas. Iussus
@@ -1312,10 +1240,10 @@
                         truncum suspenderunt in muro Bethsan. Habitatores autem Iabes Galad nocte
                         tulerunt cadauera Saulis et filiorum eius. Ea combusta sepeliere in nemore
                         Iabes. Regnauit Saul (ut Eusebius ait) annos XL.</p>
-                </div>
-                <div>
-                    <head>DAVID</head>
-                    <p>DAVID, Iesse filius, de tribu Iuda, de oppido Bethlem, pascebat oues patris
+            </div>
+            <div>
+               <head>DAVID</head>
+               <p>DAVID, Iesse filius, de tribu Iuda, de oppido Bethlem, pascebat oues patris
                         sui, quando a Samuele unctus est in regem futurum. Hic Saulem spiritu
                         immundo agitatum cytharę sono refocillabat. Fit deinde armiger eius. Goliam
                         Palestinum ad certamen prouocantem interfecit. Reliqui in fugam conuersi
@@ -1436,7 +1364,7 @@
                         Morti proximus psalmos cantauit, mysteria Christi uenturi prędixit. Tribuum
                         censum arroganter egit et in poenam peccati trium malorum optione proposita
                         pestilentiam elegit. Vidit angelum percutientem.</p>
-                    <p>
+               <p>
                   <milestone unit="page" n="35v"/> Statuit altare in area <milestone unit="page"/> Areunę. Obtulit
                         holocausta, et cessauit morbus. Cum per ętatem effoetis uiribus
                         frigeret,<note place="margin">Abisac</note> Abisac, Sunamitis puella, cum ipso cubans
@@ -1449,10 +1377,10 @@
                         peccauerit, puniat, ut denique Berzelai liberos in charis habeat. Obiit et
                         in arce Syon est sepultus. Regnauit annis XL, in Hebron VII, Hierosolymę
                         XXXIIII.</p>
-                </div>
-                <div>
-                    <head>SALOMON</head>
-                    <p>SALOMON, Dauidis de Bersabe filius, educandus traditur Nathano prophetę.
+            </div>
+            <div>
+               <head>SALOMON</head>
+               <p>SALOMON, Dauidis de Bersabe filius, educandus traditur Nathano prophetę.
                         Adultus, a patre in solio collocatur, ut regnet. Adonię, qui regnum sibi
                         uendicare nitebatur, supplici pepercit. Mox autem idem molientem interfici
                         iussit. Abiatarum sacerdotem, qui illum secutus fuerat, eiecit iubens,
@@ -1550,10 +1478,10 @@
                         mansitque apud illum usque ad obitum Salomonis. Salomon autem regnauit annis
                         XL. Sepultus est in ciuitate Dauid. Successit in regno Roboam, filius
                     eius.</p>
-                </div>
-                <div>
-                    <head>ROBOAM</head>
-                    <p>ROBOAM, Salomonis filius, ut in demortui patris loco rex crearetur, uenit in
+            </div>
+            <div>
+               <head>ROBOAM</head>
+               <p>ROBOAM, Salomonis filius, ut in demortui patris loco rex crearetur, uenit in
                         Sichem. Populus ad eum locutus est, ut onus sibi a patre eius impositum
                         eleuaret. Ille autem iuuenum potius quam sensum secutus consilium:
                         <q>Addam</q>, inquit, <q>super iugum uestrum. Pater meus cecidit uos
@@ -1570,13 +1498,13 @@
                             <sic>Ammonitis</sic>. Sepultus est in ciuitate Dauid. Successit in regno
                         Abia, eius filius, de quo dicemus, cum de aliis regibus Iuda tractare
                         coeperimus. Nunc reges Israhel ordine seruato exponentur.</p>
-                </div>
             </div>
+         </div>
+         <div>
+            <head>REGES ISRAHEL</head>
             <div>
-                <head>REGES ISRAHEL</head>
-                <div>
-                    <head>HIEROBOAM</head>
-                    <p>HIEROBOAM, filium Nabath, Ephrateum, Salomon constituerat super tributa domus
+               <head>HIEROBOAM</head>
+               <p>HIEROBOAM, filium Nabath, Ephrateum, Salomon constituerat super tributa domus
                         Ioseph. Huic obuiam factus <sic>Ahias</sic> Sylonites, propheta, palium
                         nouum, quo indutus erat, scidit in partes decem et ait: <q>Dominus locutus
                             est: scindam regnum de manu filii Salomonis et dabo tibi X tribus, illi
@@ -1584,9 +1512,9 @@
                   <note place="margin">Una tribus dicitur Iuda
                             et Beniamin propter eos qui Hierosolymis regnarunt de una
                             <sic>triba</sic> Iuda</note>
-                    </p>
-                    <p>
-                        <q>Tu si in precęptis meis ambulaueris, ero tecum et tradam tibi Israhel.
+               </p>
+               <p>
+                  <q>Tu si in precęptis meis ambulaueris, ero tecum et tradam tibi Israhel.
                         </q>Animadauertit autem Hieroboam, quod propterea Salomon machinaretur ipsi
                         necem. Fugit in Aegyptum <milestone unit="page"/>atque illic usque ad obitum eius moratus est. Tunc
                         demum ab iis, qui ab Roboamo defecerant, uocatus regnum ultro sibi oblatum
@@ -1607,31 +1535,31 @@
                             Israhel quoque percutiet Dominus, eo quod irritauerint eum in diis
                             alienis. </q>Illa uenit <milestone unit="page"/>in Thersa, et puer moritur, Hieroboam autem
                         regnauit annis XXII. <sic>Successit</sic> in regno filius eius Nadab.</p>
-                </div>
-                <div>
-                    <head>NADAB</head>
-                    <p>NADAB, Hieroboami filius, regnauit annis duobus super Israhel. Fecit malum in
+            </div>
+            <div>
+               <head>NADAB</head>
+               <p>NADAB, Hieroboami filius, regnauit annis duobus super Israhel. Fecit malum in
                         conspectu Domini, et Baasa, <sic>Ahię</sic> filius, de tribu Isachar,
                         interfecit eum in Gebethon et in loco eius coepit regnare deleuitque domum
                         Hieroboam iuxta uaticinium Ahię Sylonitis.</p>
-                </div>
-                <div>
-                    <head>BAASA</head>
-                    <p>BAASA, Ahię filius, de tribu Isachar, ascendens in Iudam ędificauit Rama.
+            </div>
+            <div>
+               <head>BAASA</head>
+               <p>BAASA, Ahię filius, de tribu Isachar, ascendens in Iudam ędificauit Rama.
                         Occidit Nadab regem, ut modo dictum est, et regnum occupauit deleuitque
                         domum Hieroboam. Regnauit in <sic>Thersa</sic> annis XXIIII. Ambulauit in
                         uiis impietatis Hieroboam. Hanc ob rem illius quoque domum delendam prędixit
                         Dominus per prophetam Iehu, Anani filium, quem ipse Baasa interimi fecit.
                         Post hęc moritur Baasa et regnum suscipit filius eius Hela.</p>
-                </div>
-                <div>
-                    <head>HELA</head>
-                    <p>HELA, Baasę filius, regnauit in Thersa super Israhel annis II. Hunc
+            </div>
+            <div>
+               <head>HELA</head>
+               <p>HELA, Baasę filius, regnauit in Thersa super Israhel annis II. Hunc
                         temulentum Zambri, seruus eius interfecit et regnauit super Israhel.</p>
-                </div>
-                <div>
-                    <head>ZAMBRI</head>
-                    <p>ZAMBRI Helam, dominum suum, uino obrutum interimit occupatque regnum.
+            </div>
+            <div>
+               <head>ZAMBRI</head>
+               <p>ZAMBRI Helam, dominum suum, uino obrutum interimit occupatque regnum.
                         Extinxit domum Baasę, quemadmodum Iehu propheta prędixerat. Regnauit diebus
                         VII. <milestone unit="page" n="40v"/> Exercitus enim Israhel obsidebat <milestone unit="page"/>
                         Gebethon, Palestinorum urbem, et audita nece regis Helę fecerunt super se
@@ -1639,15 +1567,15 @@
                         amissa fugę spe cum regia domo simul se concremauit. Tunc diuisus est
                         Israhel. Pars sequebatur Thebni, filium Gimeth, pars Amri. Mortuus est
                         Thebni et regnauit Amri.</p>
-                </div>
-                <div>
-                    <head>AMRI</head>
-                    <p>AMRI regnauit super Israhel annis XII. Aedificauit Samariam. Male operatus
+            </div>
+            <div>
+               <head>AMRI</head>
+               <p>AMRI regnauit super Israhel annis XII. Aedificauit Samariam. Male operatus
                         est. Successit ei ipsius filius Achab.</p>
-                </div>
-                <div>
-                    <head>ACHAB</head>
-                    <p>ACHAB, Amri filius, regnauit in Samaria super Israhel. Duxit uxorem Iezabel,
+            </div>
+            <div>
+               <head>ACHAB</head>
+               <p>ACHAB, Amri filius, regnauit in Samaria super Israhel. Duxit uxorem Iezabel,
                         filiam <sic>Ethbaal</sic>, regis Sydoniorum. Posuit aram Baal, plantauit
                         lucum. Omnium pessimus fuit. Helias Thesbites prędixit ei siccitatem
                         famemque futuram. <sic>Abdias</sic> dispensator agnoscens Heliam indicauit
@@ -1684,10 +1612,10 @@
                         reuertetur. Inito certamine Achab sagittę ictu interficitur. Cadauer relatum
                         Samarię sepelitur et, sicut prędictum fuerat, canes sanguinem eius
                         linxerunt. Regnauit annis XXIII suscepitque regnum filius eius Ochozias.</p>
-                </div>
-                <div>
-                    <head>OCHOZIAS</head>
-                    <p>OCHOZIAS, Achabi filius, Samarię rex, seruiuit Baal patris matrisque secutus
+            </div>
+            <div>
+               <head>OCHOZIAS</head>
+               <p>OCHOZIAS, Achabi filius, Samarię rex, seruiuit Baal patris matrisque secutus
                         impietatem. Cum cecidisset per coenaculi sui cancellos, misit seruos
                         consultum Belzebub, deum Acharon, utrum sic collisus conualesceret. Hinc
                         Helias Thesbites ab angelo monitus occurrit illis dicens Ochoziam moriturum.
@@ -1698,10 +1626,10 @@
                         angeli monitu descendit securus et simul cum illo adiit regem atque ita
                         fatus est, sicut antea dixerat. Mortuus est igitur Ochozias, cum regnasset
                         annis II. Ioram frater successit ei in regno.</p>
-                </div>
-                <div>
-                    <head>IORAM</head>
-                    <p>IORAM, Achabi filius, Ochozię frater, rex Israhel, sustulit statuas Baal,
+            </div>
+            <div>
+               <head>IORAM</head>
+               <p>IORAM, Achabi filius, Ochozię frater, rex Israhel, sustulit statuas Baal,
                         quas posuerat pater suus, sed ab impietate Hieroboami non recessit. Cum
                         Iosaphat, rege Iuda, et rege Edom perrexerunt per desertum Idumeę aduersus
                         Mosam, Moabitarum rege, eo quod noluerit ultra dare tributum regi Israhel.
@@ -1751,10 +1679,10 @@
                         Venit in Iezrahel. <milestone unit="page" n="43v"/> Pręcipitari fecit <milestone unit="page"/>
                         Iezabelem per fenestram, quod plenius mox exponemus, cum de Iehu
                         tractabimus. Ioram regnauit annis XII. Successit Iehu.</p>
-                </div>
-                <div>
-                    <head>IEHV</head>
-                    <p>IEHV per unum de filiis prophetarum ab Heliseo missum in Ramoth Galad
+            </div>
+            <div>
+               <head>IEHV</head>
+               <p>IEHV per unum de filiis prophetarum ab Heliseo missum in Ramoth Galad
                         ungitur, ut in Samaria regnet, diciturque ei: <q>Hęc dicit Dominus: Vnxi te
                             regem super Israhel. Percuties domum Achab, domini tui. Iezabel autem
                             comedent canes in agro Iezrahel nec erit, qui sepeliat eam. </q>Tunc
@@ -1783,10 +1711,10 @@
                         </q>Cęterum, cum non recederet a peccato Hieroboam, Dominum offendit et
                         Azahel, rex Syrię, uastauit fines Israhel. Regnauit Iehu in Samaria annis
                         XXVIII. Successit ei filius Ioachan.</p>
-                </div>
-                <div>
-                    <head>IOACHAN</head>
-                    <p>IOACHAN, Iehu filius, Samarię rex, fecit malum secutus impietatem Hieroboam,
+            </div>
+            <div>
+               <head>IOACHAN</head>
+               <p>IOACHAN, Iehu filius, Samarię rex, fecit malum secutus impietatem Hieroboam,
                         et Dominus tradidit Israhel in <milestone unit="page" n="44v"/> potestatem
                         Azahel, regis Syrię, et <milestone unit="page"/> Benadabi, filii eius. Deinde ad pręces Ioachan
                         dedit Dominus saluatorem Israheli et liberatus est. Nec adhuc tamen
@@ -1794,10 +1722,10 @@
                         reliqui Ioachan regi nisi L equites, X currus et X milia peditum. Vsque adeo
                         attriuerat eos rex Syrię. Regnauit Ioachan annis XVII. Suscepit regnum Ioas,
                         eius filius.</p>
-                </div>
-                <div>
-                    <head>IOAS</head>
-                    <p>IOAS, filius Ioachan, non deseruit stultitiam Hieroboam in uitulis adorandis.
+            </div>
+            <div>
+               <head>IOAS</head>
+               <p>IOAS, filius Ioachan, non deseruit stultitiam Hieroboam in uitulis adorandis.
                         Inuisit Heliseum aduersa ualitudine laborantem et miseratione motus fleuit.
                         Cui Heliseus iussit accipere arcum superponensque manus manibus regis atque
                         ita emissa sagitta per fenestram orientalem ait: <q>Sagitta salutis Domini
@@ -1811,55 +1739,55 @@
                         murorum partem demoliuit, diripuit thesauros, obsides accepit et in Samariam
                         rediit. Regnauit annos XVI. In demortui locum successit filius eius
                         Hieroboam.</p>
-                </div>
-                <div>
-                    <head>HIEROBOAM</head>
-                    <p>HIEROBOAM, filius Ioas, Samarię rex, male operatus est, sed terminos Israhel
+            </div>
+            <div>
+               <head>HIEROBOAM</head>
+               <p>HIEROBOAM, filius Ioas, Samarię rex, male operatus est, sed terminos Israhel
                         restituit, quod futurum prędixerat dominus per <sic>bonam</sic> prophetam.
                         Regnauit annis XLI. Eo defuncto regnauit filius eius Zacharias.</p>
-                </div>
-                <div>
-                    <head>ZACHARIAS</head>
-                    <p>ZACHARIAS, filius Hieroboam, Samarię rex, fecit malum, et conspirauit
+            </div>
+            <div>
+               <head>ZACHARIAS</head>
+               <p>ZACHARIAS, filius Hieroboam, Samarię rex, fecit malum, et conspirauit
                         aduersus eum Sellum, filius Iabes, regnauitque illo interempto. Et completa
                         est quarta generatio Iehu sedens super thronum Israhel in Samaria. Regnauit
                         Zacharias menses VI et locum eius occupauit Sellum.</p>
-                </div>
-                <div>
-                    <head>SELLVM</head>
-                    <p>SELLVM, filius Iabes, rex Israhel, Zacharię regis (ut diximus) molitus est
+            </div>
+            <div>
+               <head>SELLVM</head>
+               <p>SELLVM, filius Iabes, rex Israhel, Zacharię regis (ut diximus) molitus est
                         cędem. Quo morte sublato regnauit, sed non ultra mensem unum. Vt enim et
                         ipse pateretur, quod alteri intulerat, Manahen, Gaddi filius, interfecit eum
                         et interfecto regnauit.</p>
-                </div>
-                <div>
-                    <head>MANAHEN</head>
-                    <p>MANAHEN, filius Gaddi, de Thersa ascendens in Samariam interfecit Sellum
+            </div>
+            <div>
+               <head>MANAHEN</head>
+               <p>MANAHEN, filius Gaddi, de Thersa ascendens in Samariam interfecit Sellum
                         regem et loco eius potitus uexauit Thersam et fines eius, eo quod ei de
                         Samaria reuertenti <milestone unit="page" n="45v"/>noluerint <milestone unit="page"/> aperire; mulieres interfecit pręgnantes eorum uentres
                         discindens. Male operatus est, et tributum pendere coepit Phul, Assyriorum
                         regi. Edictum fecit principibus uiris Israhel, ut singuli eidem regi
                         singulis annis exoluerent siclos argenti L. Regnauit annis X. Successit ei
                         Phaceia, eius filius.</p>
-                </div>
-                <div>
-                    <head>PHACEIA</head>
-                    <p>PHACEIA, filius Manahen, regnauit super Israhel annis II. Fecit enim malum,
+            </div>
+            <div>
+               <head>PHACEIA</head>
+               <p>PHACEIA, filius Manahen, regnauit super Israhel annis II. Fecit enim malum,
                         et Phacee, Romelię filius, cede oppręssit illum et qui cum illo erant uiros
                         L. Erat autem ductor militum eius. Eo igitur per dolum sublato regnare
                         coepit.</p>
-                </div>
-                <div>
-                    <head>PHACEE</head>
-                    <p>PHACEE, Romelię filius, dux militum Phaceię regis erat, quando illo
+            </div>
+            <div>
+               <head>PHACEE</head>
+               <p>PHACEE, Romelię filius, dux militum Phaceię regis erat, quando illo
                         interempto regnum arripuit. Fecit malum, et uenit Theglatphalasar,
                         Assyriorum rex, magnamque populi partem captiuam transtulit in Assyriam.
                         Ipsum autem Phacee interfecit Osee, filius Hela, atque eo sublato regnauit
                         super Israhel. Phacee uero regnauit annis XX.</p>
-                </div>
-                <div>
-                    <head>OSEE</head>
-                    <p>OSEE, filius Hela, interfecto Phacee rege suscepit regnum Israhel. Impius in
+            </div>
+            <div>
+               <head>OSEE</head>
+               <p>OSEE, filius Hela, interfecto Phacee rege suscepit regnum Israhel. Impius in
                         Deum fuit, et factus est tributarius Salmanasar, Assyriorum regis. Qui
                         rebellare uolentem obsedit, captum atque uinctum misit in carcerem. Regno
                         igitur potitus omnes transtulit in Assyrios. <milestone unit="page"/> Peccauerat enim Israhel
@@ -1875,22 +1803,22 @@
                         non deserebant. Nonnulli etiam, qui erant de Sepharuaim, filios suos igni
                         comburebant diis Sepharuaim Adramelech et Anamelech simulque Deum Israhel
                         colebant. Regnauit Osee annis IX.</p>
-                    <p>Nunc de regibus Iudę restat dicendum.</p>
-                </div>
+               <p>Nunc de regibus Iudę restat dicendum.</p>
             </div>
+         </div>
+         <div>
+            <head>REGES IVDA</head>
             <div>
-                <head>REGES IVDA</head>
-                <div>
-                    <head>ABIA</head>
-                    <p>ABIA, filius Roboam, rex Iuda, patri successit in regno. Bellum cum
+               <head>ABIA</head>
+               <p>ABIA, filius Roboam, rex Iuda, patri successit in regno. Bellum cum
                         Hieroboam, rege Israhel, assidue gessit. Circumdatus ab exercitu eius
                         clamauit ad Dominum, et <milestone unit="page" n="46v"/> uictoria potitus
                         est. Oppida in deditionem accepit. <milestone unit="page"/> Vxores habuit XIIII, filios XXII,
                         filias XVI. Regnauit annis <num value="3">III</num>. Successit illi in regno Asa filius.</p>
-                </div>
-                <div>
-                    <head>ASA</head>
-                    <p>ASA, Abię filius, rex Iuda, iustus fuit. Abstulit effoeminatos, idola
+            </div>
+            <div>
+               <head>ASA</head>
+               <p>ASA, Abię filius, rex Iuda, iustus fuit. Abstulit effoeminatos, idola
                         exclusit, matrem a sacris Priapi auertit, simulachra confregit. Intulit in
                         templum argentum, aurum, uasa, quę pater Abia dedicauerat. Habebat secum
                         scutatorum hastatorumque de Iuda trecenta milia, de Beniamin scutatorum et
@@ -1909,10 +1837,10 @@
                         populo morte mulctauit. Ille autem anno XXXVIIII regni sui pedum dolore
                         decessit. Cum aromatis sepelierunt eum et Iosaphat, filius eius, successit
                         in regno.</p>
-                </div>
-                <div>
-                    <head>IOSAPHAT</head>
-                    <p>IOSAPHAT, Asę filius, rex Iuda, urbes muniuit, pręsidia disposuit. Dominus
+            </div>
+            <div>
+               <head>IOSAPHAT</head>
+               <p>IOSAPHAT, Asę filius, rex Iuda, urbes muniuit, pręsidia disposuit. Dominus
                         fuit cum eo, quia in uiis Dauidis ambulauit. Munera sibi ultro oblata a
                         populo accepit; diuitiis pręstitit et gloria. Misit Leuitas et sacerdotes,
                         ut peragrando urbes Iuda docerent populum leges Domini: Nemo eum bello
@@ -1937,10 +1865,10 @@
                         struxerant in Asiongaber, ut mitterent in Tharsis, naufragio interiit, quod
                         futurum prophetauerat Eliezer, filius Dodau de Maresa. Regnauit Iosaphat
                         annis XXV. Successit ei Ioram, eius filius.</p>
-                </div>
-                <div>
-                    <head>IORAM</head>
-                    <p>IORAM, filius Iosaphat, rex Iuda, fratres suos interemit, ut bona eorum
+            </div>
+            <div>
+               <head>IORAM</head>
+               <p>IORAM, filius Iosaphat, rex Iuda, fratres suos interemit, ut bona eorum
                         usurparet. Athaliam, regis Achab filiam, duxit uxorem. In Deum impietate
                         lapsus est. Rebellarunt ab eo Edom et Lobna. Dereliquerat enim Deum patrum
                         suorum, excelsa fabricauerat, Iudam fornicari fecerat. Quamobrem denunciauit
@@ -1952,10 +1880,10 @@
                         fuit, nomine Ioachaz. Ipse autem alui profluuio consumptus extabuit. Non
                         fecit ei populus, sicut aliis consueuerat, exequias nec in sepulchro regum
                         sepeliuit. Regnauit annis VIII. Successit in regno filius eius Ochozias.</p>
-                </div>
-                <div>
-                    <head>OCHOZIAS</head>
-                    <p>OCHOZIAS, filius Ioram, rex Iuda, impius in Deum fuit et id quidem impulsu
+            </div>
+            <div>
+               <head>OCHOZIAS</head>
+               <p>OCHOZIAS, filius Ioram, rex Iuda, impius in Deum fuit et id quidem impulsu
                         Athalię, suę matris, Achabi filię. Perrexit cum Ioram, filio Achab, rege
                         Israhel, aduersum Azahel, Syrię regem, in Ramoth Galad. Ioram uulneratus
                         rediit in Iezrahel. Ochozias inuisit eum. Ambo egressi obuiam Iehu, filio
@@ -1967,10 +1895,10 @@
                         Iosabeth, regis Ioram filia, Ioadę sacerdotis uxor et ipsius Ochozię soror.
                         Ioas itaque latuit in domo Domini annis VIII, quibus regnauit Athalia.
                         Ochozias regnauit anno uno. Athalię ergo successit Ioas.</p>
-                </div>
-                <div>
-                    <head>IOAS</head>
-                    <p>IOAS, Ochozię, regis Iuda, filius, ab amita Iosabeth et Ioiada pontifice
+            </div>
+            <div>
+               <head>IOAS</head>
+               <p>IOAS, Ochozię, regis Iuda, filius, ab amita Iosabeth et Ioiada pontifice
                         occultatus, ne ab auia sua Athalia interficeretur, cum reliquos fratres eius
                         ipsa regnandi causa occidisset. Deinde anno regni Athalię VII Ioiada
                         pontifex cum in illam coniurasset, produxit e latebris Ioam diademaque
@@ -1997,15 +1925,15 @@
                         ingentes Iuda copias superant atque prosternunt. Rex etiam Syrię Azahel
                         expugnata Geth obsedit Hierosolymam, sed a Ioa omni argento, quod in templo
                         et in pallatio erat, accepto recessit. Non multo post <sic>Iosachar</sic>
-                        filius Semath, et Iosaphat, filius Somer, <milestone unit="page" n="49v"/> 
+                        filius Semath, et Iosaphat, filius Somer, <milestone unit="page" n="49v"/>
                   <milestone unit="page"/>
                         conspirantes interfecerunt Ioam. Ioas itaque regnauit annis XL. Sepultus est
                         in ciuitate Dauid, sed non in sepulchro regum. Successit filius eius
                         Amasias.</p>
-                </div>
-                <div>
-                    <head>AMASIAS</head>
-                    <p>AMASIAS, Ioę, regis Iuda, filius, iustus fuit coram Domino. Interemit
+            </div>
+            <div>
+               <head>AMASIAS</head>
+               <p>AMASIAS, Ioę, regis Iuda, filius, iustus fuit coram Domino. Interemit
                         interfectores patris, filiis autem eorum pepercit, ne derogaret legi.
                         Decemmilia Idumeorum strauit in Valle salinarum. Expugnauit Petram et
                         appellauit eam Iezechel. Ioam, regem Israhel, ad certamen prouocauit. Illis
@@ -2015,10 +1943,10 @@
                         Amasias post mortem Ioę, regis Israhel, uixit annos XXV. Coniurauerunt in
                         eum, et fugit in Lachis. Illo ibi interfecto Azariam, eius filium,
                         constituerunt regem Iuda. Amasias autem regnauit annis XXIX.</p>
-                </div>
-                <div>
-                    <head>AZARIAS</head>
-                    <p>AZARIAS, qui et Ozias, Amasię filius, rex Iuda, ędificauit Ahilath, dimicauit
+            </div>
+            <div>
+               <head>AZARIAS</head>
+               <p>AZARIAS, qui et Ozias, Amasię filius, rex Iuda, ędificauit Ahilath, dimicauit
                         aduersum Palestinos. Deiecit murum Geth, construxit oppida in Azoto et in
                         Palestina, domuit Palestinos et Arabes in Gorbaal habitantes. Ammonitę eius
                         tributarii erant. Turres Hierosolymis ędificauit, cisternas <milestone unit="page"/> in solitudine
@@ -2029,21 +1957,21 @@
                         uoluit, quod sacerdotum officium erat, et lepra in <sic>facie</sic> eius est
                         orta ac deinceps uixit leprosus. Ioatan filius gubernabat pro illo populum,
                         defuncto successit in regnum. Ipse autem Azarias regnauit annis LII.</p>
-                </div>
-                <div>
-                    <head>IOATHAN</head>
-                    <p>IOATHAN, Azarię filius, rex Iuda, pietate in Deum ac bene gestis rebus
+            </div>
+            <div>
+               <head>IOATHAN</head>
+               <p>IOATHAN, Azarię filius, rex Iuda, pietate in Deum ac bene gestis rebus
                         clarus, portam domus Domini sublimissimam ędificauit, urbes et castella
                         construxit. Regem Ammonitarum in pręęlio uicit. Pendebant ei Ammonitę
                         talenta argenti C, chororum tritici decemmilia et totidem hordei. Huic uita
                         defuncto successit filius Achaz. Ipse regnauit annis XVI.</p>
-                </div>
-                <div>
-                    <head>ACHAZ</head>
-                    <p>ACHAZ, Ioathani filius, rex Iuda, impie in Deum se gessit. Filium suum iuxta
+            </div>
+            <div>
+               <head>ACHAZ</head>
+               <p>ACHAZ, Ioathani filius, rex Iuda, impie in Deum se gessit. Filium suum iuxta
                         ritum gentium consecrauit. In lucis et excelsis uictimas immolauit
                         incensumque adoleuit. Deo scelus hoc ulciscente Razin, Syrię rex, et Phacee,
-                        rex Israhel, obsederunt eum in urbe Hierosolyma, <milestone unit="page" n="50v"/> 
+                        rex Israhel, obsederunt eum in urbe Hierosolyma, <milestone unit="page" n="50v"/>
                   <milestone unit="page"/> quam quidem expugnare nequiuerunt. Sed inde decędens rex
                         Syrię Hailam cępit eiectisque Iudeis posuit in ea Medos et Syros. Achaz uero
                         ad aliena auxilia conuersus magnam auri argentique uim misit
@@ -2060,10 +1988,10 @@
                         Bethsames, Ahylon, Gadiroth, Socho, Thaman et Gamizo cum uiculis eius. Achaz
                         uita defunctum Hierosolymis sepelierunt, sed non in sepulchro regum.
                         Regnauit annis XVI. Successit filius eius Ezechias.</p>
-                </div>
-                <div>
-                    <head>EZECHIAS</head>
-                    <p>EZECHIAS, filius Achaz, pietate in Deum magis <milestone unit="page"/> quam regno nobilis, excelsa
+            </div>
+            <div>
+               <head>EZECHIAS</head>
+               <p>EZECHIAS, filius Achaz, pietate in Deum magis <milestone unit="page"/> quam regno nobilis, excelsa
                         dissipauit, statuas contriuit, lucos succidit, serpentem Moysi ęneum
                             <sic>confregit</sic> et in Domino, Deo Israhel, sperauit. Regi
                         Assyriorum non seruiuit. Palestinorum fines uastauit. Anno regni eius IIII
@@ -2106,10 +2034,10 @@
                         liberis eius quosdam Babylonio regi seruituros. Respondit Ezechias: <q>Bonus
                             sermo Domini. Sit tantum pax et ueritas in diebus meis! </q>Regnauit
                         annis XXIX. Successit ei Manasses filius.</p>
-                </div>
-                <div>
-                    <head>MANASSES</head>
-                    <p>MANASSES, Ezechię filius, rex Iuda, impiissimus in Deum fuit: ędificauit
+            </div>
+            <div>
+               <head>MANASSES</head>
+               <p>MANASSES, Ezechię filius, rex Iuda, impiissimus in Deum fuit: ędificauit
                         excelsa, errexit aras Baal, plantauit lucos, cęli sydera adorauit et coluit,
                         filium traduxit per ignem, auguria obseruauit, idolum luci posuit in templo
                         Domini. Propterea quidem Dominus minatus est inducturum se mala super
@@ -2118,21 +2046,21 @@
                         patrum suorum, et restituit eum Dominus in regnum. Correctus igitur omnem
                         impietatem abiecit, fit ex pessimo optimus. Altare Domini, quod olim
                         destruxerat, instaurauit immolauitque super illud, simulque populo Iudę
-                        pręcepit, ut seruiant Domino, <milestone unit="page" n="52v"/> 
+                        pręcepit, ut seruiant Domino, <milestone unit="page" n="52v"/>
                   <milestone unit="page"/> Deo suo
                         Israhel. Duodecim annos natus regnare coepit, regnauit autem annis LV. Eo
                         defuncto regnauit filius eius Ammon.</p>
-                </div>
-                <div>
-                    <head>AMMON</head>
-                    <p>AMMON, Manassę filius, male operatus est, idola coluit et domi sedens a
+            </div>
+            <div>
+               <head>AMMON</head>
+               <p>AMMON, Manassę filius, male operatus est, idola coluit et domi sedens a
                         seruis fuit interfectus. At uero populus uicem eius dolens in coniuratos,
                         qui em interfecerant, insurrexit et ad unum trucidauit. Ammon ipse annis
                         duobus regnauit et loco eius Iosiam filium crearunt regem.</p>
-                </div>
-                <div>
-                    <head>IOSIAS</head>
-                    <p>IOSIAS, filius Ammon, rex Iuda, patrię religionis studiosissimus fuit. Anno
+            </div>
+            <div>
+               <head>IOSIAS</head>
+               <p>IOSIAS, filius Ammon, rex Iuda, patrię religionis studiosissimus fuit. Anno
                         regni sui XVIII misit Saphan scribam ad Helchiam, sacerdotem magnum, iubens,
                         ut pecunia a populo in templum illata daretur fabris per prępositos domus
                         Domini ad instaurandum sarta tecta templi. Tunc repertus est Liber legis in
@@ -2154,29 +2082,29 @@
                         Iosias autem profectus ei obuiam inito certamine uulneratur, ex uulnere in
                         Magedo moritur. Hierosolymis sepelitur. Octo annorum erat, quando regnum
                         adiit. Regnauit annis XXX. Successit filius eius Ioachaz.</p>
-                </div>
-                <div>
-                    <head>IOACHAZ</head>
-                    <p>IOACHAZ, Iosię filius, rex Iuda, Deo Israhel contempto gentium idola coluit
+            </div>
+            <div>
+               <head>IOACHAZ</head>
+               <p>IOACHAZ, Iosię filius, rex Iuda, Deo Israhel contempto gentium idola coluit
                         atque Deo ulciscente impietatis suę poenas dedit. Vinxit eum pharao Nechao
                         in Reblata; inde transtulit in Aegyptum, ne Hierosolymis regnet. Ciuitati
                             <milestone unit="page" n="53v"/> mulctam imposuit centum talentorum <milestone unit="page"/>
                         argenti, unius auri. Loco illius regem creauit Heliachin, fratrem eius, quem
                         mutato nomine appellauit Ioakim. Ioachaz autem regnauit mensibus <num value="3">III</num>, donec
                         fuit translatus.</p>
-                </div>
-                <div>
-                    <head>IOAKIM</head>
-                    <p>IOAKIM, Iosię filius, rex Iuda, ipse quoque fratris Ioachaz impietatem
+            </div>
+            <div>
+               <head>IOAKIM</head>
+               <p>IOAKIM, Iosię filius, rex Iuda, ipse quoque fratris Ioachaz impietatem
                         secutus Deum offenderat. Vriam prophetam interfecerat. Inde compulsus est
                         pendere tributum Nechao pharaoni, Aegypti domino, deinde annis <num value="3">III</num> seruire
                         Nabuchodonosor, Babylonis regi. Et cum ab eo contra iusiurandum desciuisset,
                         Deus iratus latrunculos immisit, qui Iudam disperderent propter scelera
                         Manassę. Regnauit Ioakim annis XL. Mortuo successit filius Ioachin.</p>
-                </div>
-                <div>
-                    <head>IOACHIN</head>
-                    <p>IOACHIN, qui et Iechonias, filius Ioakim, rex Iuda, etiam ipse gentillium
+            </div>
+            <div>
+               <head>IOACHIN</head>
+               <p>IOACHIN, qui et Iechonias, filius Ioakim, rex Iuda, etiam ipse gentillium
                         errore pollutus diuinam in se prouocauit iram. Ob hoc quidem Caldeorum
                         exercitus Hierosolymam uallauit obsidione. Et cum ipse rex Nabuchodonosor
                         urbem oppugnaturus superuenisset, egressus Ioachin se suaque eius tradidit
@@ -2188,10 +2116,10 @@
                         anno XXXVII translationis ab <sic>Euilmerodach</sic>, Babylonis rege,
                         eductus de carcere super throno regum collocatur, donantur ei uestes, datur
                         panis, constituitur annona in diem, toto tempore uitę suę.</p>
-                </div>
-                <div>
-                    <head>SEDECHIAS</head>
-                    <p>SEDECHIAS, qui ante Matthanias, patruus Ioachin, rex Iuda, in Deum impius,
+            </div>
+            <div>
+               <head>SEDECHIAS</head>
+               <p>SEDECHIAS, qui ante Matthanias, patruus Ioachin, rex Iuda, in Deum impius,
                         Hieremiam aduersa prophetantem contempsit, a rege Babylonis desciuit. Anno
                         IX regni eius Nabuchodonosor rex obsedit Hierosolymam et ad XI Sedechię
                         annum inualuit fames in ciuitate. Fugerunt ab ea propugnatores nocte, fugit
@@ -2207,22 +2135,22 @@
                         Regis iussu interfecti sunt. Itaque translatus est Iuda de terra sua ad
                         alienos, quibus seruierunt. Sedechias regnauit annos XI. Successit
                     Godolias.</p>
-                </div>
-                <div>
-                    <head>GODOLIAS</head>
-                    <p>GODOLIAM, filium Ahicam, filii Saphan, pręfecit rex Nabuchodonosor iis, qui
+            </div>
+            <div>
+               <head>GODOLIAS</head>
+               <p>GODOLIAM, filium Ahicam, filii Saphan, pręfecit rex Nabuchodonosor iis, qui
                         relicti erant in terra Iuda. Et qui dispersi fuerant conuenerunt ad eum in
                         Maspha. Venit Ismahel, Nathanię filius, uir stirpis regię, cum decem aliis
                         et interfecerunt Godoliam atque illos, qui circa eum erant in Maspha.
                         Populus repentino tumultu consternatus transtulit se in Aegyptum.</p>
-                    <p>Hactenus de regibus, nunc dicendum de transmigratis.</p>
-                </div>
+               <p>Hactenus de regibus, nunc dicendum de transmigratis.</p>
             </div>
+         </div>
+         <div>
+            <head>ESDRAS</head>
             <div>
-                <head>ESDRAS</head>
-                <div>
-                    <head>IOSVE</head>
-                    <p>IOSVE, filius Iosedech, et Zorobabel, filius Salathiel, per Cyrum, Persarum
+               <head>IOSVE</head>
+               <p>IOSVE, filius Iosedech, et Zorobabel, filius Salathiel, per Cyrum, Persarum
                         regem, de Babylone dimissi ędificauerunt altare Hierosolymis Deo Israhel,
                         obtulerunt holocausta, egerunt solennitatem, tabernaculorum, fundauerunt
                         templum. Plebs lętabunda laudabat Deum. Seniores autem, qui prioris templi <milestone unit="page"/>
@@ -2233,10 +2161,10 @@
                         Iosue templum ędificare coepere. Anno autem Darii VI opus coeptum
                         absoluerunt. Eo perfecto obtulerunt sacrificia, pasca et azima cum lętitia
                         et exultatione celebrarunt.</p>
-                </div>
-                <div>
-                    <head>ESDRAS</head>
-                    <p>ESDRAS, <sic>Saraię</sic> filius, de genere Aaron, cum filiis Israhel et
+            </div>
+            <div>
+               <head>ESDRAS</head>
+               <p>ESDRAS, <sic>Saraię</sic> filius, de genere Aaron, cum filiis Israhel et
                         filiis sacerdotum et Leuitarum anno Artaxerxis regis VII ascenderunt de
                         Babylone et mense quinto Hierosolymam peruenere. Porro Esdras ipse animum
                         intendit, ut inuestigaret legem Domini et populum in ea erudiret. Artaxerxes
@@ -2268,12 +2196,12 @@
                         consensere, ut cum uxoribus, quas de gentibus acceperant, faciant diuortium
                         et ab iis genitos abdicent. Eiecere igitur uxores suas cum filiis earum, ut
                         legi Dei obedirent.</p>
-                    <p>------------------------</p>
-                </div>
+               <p>------------------------</p>
             </div>
-            <div>
-                <head>NEEMIAS</head>
-                <p>NEEMIAS, Helchię filius, erat Susis pincerna Artaxerxis regis. Anno XX regni eius
+         </div>
+         <div>
+            <head>NEEMIAS</head>
+            <p>NEEMIAS, Helchię filius, erat Susis pincerna Artaxerxis regis. Anno XX regni eius
                     dimissus urbis Hierosolymę muros coepit ędificare. Vicinę gentes eum irrisione
                     et subsannatione lacessebant. Aedificatę sunt portę: porta Gregis, porta
                     Piscium, porta Vetus, porta Vallis, porta Sterquilinii, porta Fontis, porta
@@ -2286,10 +2214,10 @@
                     fuit <sic>consummatum</sic>. At uero inuidi illi terrebant Neemiam et eidem
                     insidiabantur. Neemias pręterea censum egit populi ac sacerdotum, quosdam autem
                     de sacerdotio eiecit, eo quod eorum nomina in censu non inuenisset.</p>
-            </div>
-            <div>
-                <head>TOBIAS</head>
-                <p>TOBIAS, ex tribu et ciuitate Neptalim, in urbe Niniuę captiuus sub Salmanasar,
+         </div>
+         <div>
+            <head>TOBIAS</head>
+            <p>TOBIAS, ex tribu et ciuitate Neptalim, in urbe Niniuę captiuus sub Salmanasar,
                     Assyriorum rege, suis conterraneis eodem translatis, quicquid poterat, libenter
                     impartiebat. Olim in Samaria cum esset liber, nunquam adorauit uitulos
                     Hieroboam, sed <sic>statutis</sic> temporibus pergebat Hierosolymam et in templo
@@ -2346,10 +2274,10 @@
                         <milestone unit="page" n="58v"/> Niniue. <milestone unit="page"/> Moriens prędixit proximum Niniue
                     interitum, liberationem filiorum Israhel, templi reparationem. Salutaria monita
                     suis dedit et posteritas eius in conuersatione sancta permansit.</p>
-            </div>
-            <div>
-                <head>IVDIT</head>
-                <p>IVDIT uidua uiros uirtute, foeminas sanctitate superauit. Bethulię in superiori
+         </div>
+         <div>
+            <head>IVDIT</head>
+            <p>IVDIT uidua uiros uirtute, foeminas sanctitate superauit. Bethulię in superiori
                     domus secreto cubiculo cum ancillis morabatur. Super lumbos cilicium gerens
                     quotidianis ieiuniis carnis lasciuiam refrenabat. Forma insignis, diuitiis
                     potens, nobilis genere in tribu Simeon. Iam annos <num value="3">III</num> et menses VI in uiduitate
@@ -2402,12 +2330,12 @@
                     uiri sui, in uiduitate sancta permansit. Vixit annos CV. Abram seruam manumissam
                     reliquit. Luxit eam populus diebus VII. Ipse uictorię dies apud Hebreas per
                     annos plurimos celebris fuit.</p>
-            </div>
+         </div>
+         <div>
+            <head>HESTER</head>
             <div>
-                <head>HESTER</head>
-                <div>
-                    <head>MARDOCHEUS</head>
-                    <p>MARDOCHEUS, filius Iair, de stirpe Saul et tribu Beniamin fuit. Hic Susis
+               <head>MARDOCHEUS</head>
+               <p>MARDOCHEUS, filius Iair, de stirpe Saul et tribu Beniamin fuit. Hic Susis
                         captiuus Hester, fratris sui <sic>Abihail</sic> filiam, parentibus orbatam
                         sibi adoptauerat. Assuerus autem, Persarum rex, reginam Vasthi, quod dicto
                         sibi audiens non fuisset, repudiarat. Ac proinde Egeo eunucho datum est
@@ -2453,16 +2381,16 @@
                         secundum iam constituerat. Dies liberationis festus habitus apud Iudeos per
                         annos omnes. Hic dicendum restat: <q>Iustus es, Domine, qui iniustos
                             persecutores iuste punis et in te sperantes nunquam deseris.</q>
-                    </p>
-                </div>
-                <div>
-                    <head>IOB </head>
-                    <p>IOB in terra Hus simplex et rectus ac timens Deum fuit. Erant ei VII filii,
+               </p>
+            </div>
+            <div>
+               <head>IOB </head>
+               <p>IOB in terra Hus simplex et rectus ac timens Deum fuit. Erant ei VII filii,
                         <num value="3">III</num> filię, VII milia ouium, <num value="3">III</num> milia camellorum, D iuga boum, D asinę,
                         familia multa nimis. Magni habitus fuit inter orientalis. Filii eius
                         quotidie mutua inter se actitabant conuiuia. Ille summo mane surgens pro
                         singulis holocausta offerebat. Sed dum a Domino laudatur, Sathanas inuidit:
-                            <q>Nunquid, </q>ait, <milestone unit="page"/> 
+                            <q>Nunquid, </q>ait, <milestone unit="page"/>
                   <q>frustra Iob timet Deum? </q>Accepta igitur
                         potestate in cuncta, quę eius erant, boues, asinos et pueros illius tradidit
                         Sabeis in prędam, oues et pueros igne consumpsit, camellos et custodes dedit
@@ -2526,13 +2454,13 @@
                         et tres filię. Gratulati sunt ei amici eius, et quem ante exasperauerant,
                         eidem nunc blandiuntur. Vixit autem Iob post flagella hęc annis CXL. Mortuus
                         est senex et plenus dierum.</p>
-                </div>
             </div>
+         </div>
+         <div>
+            <head>HELIAS ET HELISEVS</head>
             <div>
-                <head>HELIAS ET HELISEVS</head>
-                <div>
-                    <head>HELIAS</head>
-                    <p>HELIAS Thesbites, habitator Galaad, prophetię et miraculorum uirtute nobilis,
+               <head>HELIAS</head>
+               <p>HELIAS Thesbites, habitator Galaad, prophetię et miraculorum uirtute nobilis,
                         Achab, regi Israhel, famem propter scelera eius futuram ausus est prędicare.
                             <q>Hęc dicit Dominus, </q>inquit, <q>si erit annis his ros et pluuia,
                             nisi iuxta oris mei uerba. </q>Vt autem euitaret iniquissimi regis
@@ -2549,7 +2477,7 @@
                             Baalim. </q>Et tunc quidem in monte Carmello coram Israhel proposuit
                         prophetis Baalim, ut offerant ad altare duos boues in holocaustum et super
                         altero boue inuocent illi deum suum, ipse autem super altero Deum Israhel.</p>
-                    <p>Tum qui exaudient per ignem, ipse sit Deus. Inuocarunt illi Baal, et non
+               <p>Tum qui exaudient per ignem, ipse sit Deus. Inuocarunt illi Baal, et non
                         exaudiuit. At Helias ad euidentius ueri experimentum quatuor hydrias aquę
                         ter infundi fecit super ligna holocausti. Et tamen inuocato Deo Abraham,
                         Isaac et Iacob continua de cęlo lapsus ignis absumpsit holocaustum. Conuerso
@@ -2584,10 +2512,10 @@
                         duplicis spiritus sui uirtutem et igneo curru sublatus abiit. Toto triduo
                         quęsitus inueniri nequiuit, quia Dominus transtulerat eum cum corpore
                     uiuum.</p>
-                </div>
-                <div>
-                    <head>HELISEVS</head>
-                    <p>HELISEVS, filius Saphat, factus est Helię prophetę discipulus, cum ille
+            </div>
+            <div>
+               <head>HELISEVS</head>
+               <p>HELISEVS, filius Saphat, factus est Helię prophetę discipulus, cum ille
                         arantem (sicut dictum est) comperisset. Quando autem Helias a Domino fuit
                         sublatus, ipse uirtute <milestone unit="page" n="65v"/> magistri sui <milestone unit="page"/>
                         repletus clarere miraculis coepit. Reuertens Helię palio percussit Iordanem
@@ -2632,13 +2560,13 @@
                         Hominis quippe cadauer in sepultura cius deiectum, cum sepulti ossa
                         tetigisset, reuixit atque is, qui erat mortuus, a mortuo prophetę corpore
                         iterum uiuens exiit.</p>
-                </div>
             </div>
+         </div>
+         <div>
+            <head>QVATVOR PROPHETAE</head>
             <div>
-                <head>QVATVOR PROPHETAE</head>
-                <div>
-                    <head>ESAIAS</head>
-                    <p> ESAIAS, filius Amos, uir nobilis a regibus Iuda originem trahens,
+               <head>ESAIAS</head>
+               <p> ESAIAS, filius Amos, uir nobilis a regibus Iuda originem trahens,
                         prophetauit in diebus Ozię, Ioathan, Achaz et Ezechię regum Iuda.  Hic
                         Ezechiam regem, cum Syrorum exercitus urbem obsedisset et ciuitatem magis
                         fames quam arma <sic>pręmerent</sic>, tum cibi copiam tum obsidionis
@@ -2678,7 +2606,7 @@
                             annunciandum mansuetis misit me, ut mederer contritis corde et
                             prędicarem captiuis indulgentiam et clausis apertionem</q>.  Manifestat,
                         quę etiam miracula facturus erat: <milestone unit="page" n="68"/>
-                        <q>Tunc</q>, inquit, <q>aperientur oculi cęcorum et aures surdorum patebunt.
+                  <q>Tunc</q>, inquit, <q>aperientur oculi cęcorum et aures surdorum patebunt.
                             Tunc saliet sicut ceruus claudus et aperta erit lingua mutorum.
                         </q> Prophetauit pręterea de eucharistię mysterio, in quo sub panis uinique
                         specie Christum sumimus.  <q>Faciet, </q>inquit, <q>dominus exercituum
@@ -2769,7 +2697,7 @@
                         idem qui in Apocalypsi ait: <q>Ego sum Alpha et Omega, principium et finis,
                         </q>hic dicit: <q>Ego primus et ego nouissimus et absque me non est Deus.
                             Quis similis mei? </q>
-                  <note place="margin">Trinitas</note> 
+                  <note place="margin">Trinitas</note>
                   <milestone unit="page"/>  Negant quoque in Deo
                         trinitatem, et tamen idipsum apud hunc prophetam habent: <q>Manus mea
                             fundauit terram et dextera mea mensa est cęlos. Ex tempore antequam
@@ -2826,10 +2754,10 @@
                         diuinam denunciasset uindictam. Sepultus fuit sub quercu Rogel iuxta
                         torrentem aquarum, quem olim Ezechias rex terra iniecta obstruxerat. Nunc
                         reliqua, sicut proposuimus, prosequamur.</p>
-                </div>
-                <div>
-                    <head>HIEREMIAS</head>
-                    <p>HIEREMIAS, Helchię filius, fuit de sacerdotibus, qui fuerunt in Anathot, in
+            </div>
+            <div>
+               <head>HIEREMIAS</head>
+               <p>HIEREMIAS, Helchię filius, fuit de sacerdotibus, qui fuerunt in Anathot, in
                         terra Beniamin. Anathot erat uiculus tribus milibus ab Hierosolyma distans.
                         Hic in matris utero sanctificatus dicitur; uirginitatem seruauit. Puer adhuc
                         prophetare coepit. Prophetauit autem in diebus Iosię et Sedechię, regum
@@ -2859,10 +2787,10 @@
                         ibi eum religione Aegyptii uenerabantur, quod ab ictu aspidum tueri eos
                         crederetur, cum olim uiuus a pharaone rogatus de loco quodam serpentum
                         multitudinem effugasset.</p>
-                </div>
-                <div>
-                    <head>EZECHIEL</head>
-                    <p>EZECHIEL, Buzi filius, cum Ioachin, rege Iuda, qui et Sedechias dicitur,
+            </div>
+            <div>
+               <head>EZECHIEL</head>
+               <p>EZECHIEL, Buzi filius, cum Ioachin, rege Iuda, qui et Sedechias dicitur,
                         captiuus ductus est in Babylonem. Trigesimo ętatis suę anno, captiuitatis
                         quinto, exorsus est ad concaptiuos prophetare. Fuit de sacerdotali genere,
                         sicut et Hieremias. Vidit secus flumen Chobar uentum ab aquilone furentem,
@@ -2872,7 +2800,7 @@
                         Describit rotam in rota - Vetus Testamentum Nouo copulatum. Cernit
                         firmamentum, super firmamento thronum, super throno quasi hominis aspectum,
                         hoc est Dei filium, hominem futurum et paterna maiestate fulgentem.</p>
-                    <p>Accipit librum intus et fons scriptum, quia, quę in Lege abdita erant, ea
+               <p>Accipit librum intus et fons scriptum, quia, quę in Lege abdita erant, ea
                         manifestari oportebat in Euangelio. Comedit uolumen, et factum est dulce
                         sicut mel in ore eius. Scriptura enim diuina, quanuis horreat <milestone unit="page" n="73v"/> in cortice, dulcescit in nucleo; omnis gloria eius
                         abintus. Idem propheta per alias rerum uisiones aduersa denunciat Iudeis,
@@ -2888,10 +2816,10 @@
                         defunctus sit, uel ubi sepultus, nusquam memini me legere. Reor tamen illic
                         eum obisse, ubi et prophetant, atque illic etiam sepulturę mandatum
                     fuisse.</p>
-                </div>
-                <div>
-                    <head>DANIEL</head>
-                    <p>DANIEL, Babylone captiuus, cum ęqualibus sibi pueris Anania, Missahel, Azaria
+            </div>
+            <div>
+               <head>DANIEL</head>
+               <p>DANIEL, Babylone captiuus, cum ęqualibus sibi pueris Anania, Missahel, Azaria
                         nutritus in aula regis Nabuchodonosor noluit contaminari in cibis de mensa
                         regis, sed a pręfecto <sic>Asphanez</sic> obtenta gratia legumina ęsitauit.
                         Data est illi dono Dei intelligentia uisionum et somniorum. Regis somnia,
@@ -2913,13 +2841,13 @@
                         mortem inique damnatam adhuc puer diuinitus inspiratus liberauit et
                         accussatores manifesti mendacii conuictos lapidantibus obiecit. Durauit ipse
                         usque ad tempora Astiagis et Cyri, regum.</p>
-                </div>
             </div>
+         </div>
+         <div>
+            <head>XII PROPHETAE</head>
             <div>
-                <head>XII PROPHETAE</head>
-                <div>
-                    <head>OSEE</head>
-                    <p>OSEE, filius Beri, syncronos Esaię fuit. Prophetauit temporibus Ozię,
+               <head>OSEE</head>
+               <p>OSEE, filius Beri, syncronos Esaię fuit. Prophetauit temporibus Ozię,
                         Ioathan, Achaz, Ezechię, regum Iuda, et Hieroboam, filii Iohę, regis
                         Israhel. Ex his Achaz, regem Iuda, et Hieroboam, regem Israhel, arguit
                         idolatrię sub figura uxoris fornicarię et filiorum fornicationum. Ob hoc
@@ -2933,18 +2861,18 @@
                         instituendo uaticinatur dicens: <q>Viuent tritico et germinabunt quasi
                             uinea; memoriale eius sicut uinum Lybani. </q>Atque hęc de propheta isto
                         memorię prodita in prophetarum libello habentur.</p>
-                </div>
-                <div>
-                    <head>IOHEL</head>
-                    <p>IOHEL, filius Fatuel, denunciauit Iudeorum terram ab inimicis uastandam atque
+            </div>
+            <div>
+               <head>IOHEL</head>
+               <p>IOHEL, filius Fatuel, denunciauit Iudeorum terram ab inimicis uastandam atque
                         consumendam, et hoc sub metaphora erucę, bruci, locustę, rubiginis. Prędixit
                         populi a captiuitate dimissi ad suum natale solum reuersionem.</p>
-                    <p>Vidit Spiritum Sanctum super Dei seruos effundendum. Prophetauit iisdem
+               <p>Vidit Spiritum Sanctum super Dei seruos effundendum. Prophetauit iisdem
                         regibus quibus Osee eademque tempore.</p>
-                </div>
-                <div>
-                    <head>AMOS</head>
-                    <p>AMOS, cum esset pastor, a Domino iussus est prophetare. Fuit de pastoribus
+            </div>
+            <div>
+               <head>AMOS</head>
+               <p>AMOS, cum esset pastor, a Domino iussus est prophetare. Fuit de pastoribus
                         Thecuę, quod oppidum sex milibus passuum distare dicitur a Bethlem. Fuit
                         ille magis pręditus scientia quam politus sermone. Prophetauit iisdem
                         temporibus quibus Iohel, Naum, Ionas, Osee, Esaias. Prędixit aduersa decem
@@ -2964,10 +2892,10 @@
                         a filio eius Ozia interremptum sepultumque fuisse cum patribus suis in
                         Samaria. Idem de Ecclesia per Christum ędificanda, sicut cęteri fere omnes,
                         prophetauit.</p>
-                </div>
-                <div>
-                    <head>ABDIAS</head>
-                    <p>ABDIAS pauisse fertur centum prophetas in specubus latentes persequente eos
+            </div>
+            <div>
+               <head>ABDIAS</head>
+               <p>ABDIAS pauisse fertur centum prophetas in specubus latentes persequente eos
                         Achab, Samarię rege, et impiissima Iezabele, eius uxore, eo quod non
                         curuassent genua ante Baal. Et quia prophetas pauerat, meruit gratiam
                         accipere prophetandi. Prophetauit autem sub Iosaphat rege ipse et Micheas.
@@ -2977,10 +2905,10 @@
                         perturbant Ecclesiam. In Sebaste sepultum ferunt, quę tunc Samaria nuncupata
                         est, et nunc quidem iuxta sepulturas Helię et Ioannis Baptistę monumentum
                         eius cerni uenerationique haberi.</p>
-                </div>
-                <div>
-                    <head>IONAS</head>
-                    <p>IONAS, Amathi filius et (ut Hebrei aiunt) uiduę Sareptanę, quem puerum Helias
+            </div>
+            <div>
+               <head>IONAS</head>
+               <p>IONAS, Amathi filius et (ut Hebrei aiunt) uiduę Sareptanę, quem puerum Helias
                         propheta mortuum reuocauerat ad uitam, iussus ire Niniuen, ut eos, qui illic
                         erant, arguat delicti, nauim conscendit, ut Tharsum fugeret, sed sęuiente
                         tempestate mittitur in mare, ut reliqui saluentur, Christi pro nobis in
@@ -2991,10 +2919,10 @@
                         relictis idolis Christum suscepturas et Iudeos inuisuros. Quod in se
                         figurauit Ionas egre ferens non euenisse illa, quę prędixerat. Prophetauit
                         sub Ozia, rege Iuda, quando et Osee et Amos et Esaias.</p>
-                </div>
-                <div>
-                    <head>MICHEAS </head>
-                    <p>MICHEAS Morasthites prophetauit in diebus Ioathan, Achaz et Ezechię, regum
+            </div>
+            <div>
+               <head>MICHEAS </head>
+               <p>MICHEAS Morasthites prophetauit in diebus Ioathan, Achaz et Ezechię, regum
                         Iuda. Prędixit mala Samarię et Hierusalem, captiuitatem atque intentum.
                         Coram Iosaphat, <sic>rege</sic> Iuda, et Achab, rege Israhel, expeditionem
                         in regem Syrię parantibus, <milestone unit="page" n="76v"/> prophetę Baal
@@ -3007,10 +2935,10 @@
                         tandem de persecutione ipsis quoque qui persequebantur credentibus
                         liberationem. Dixit de iudicio per ignem futuro et Iudeis in fine
                         conuertendis atque saluandis.</p>
-                </div>
-                <div>
-                    <head>NAVM </head>
-                    <p>NAVM <note place="margin">
+            </div>
+            <div>
+               <head>NAVM </head>
+               <p>NAVM <note place="margin">
                             Niniue euersa
                         </note>propheta, a uico Galileę Helcheseus dictus, aduersus Niniuen acerbe
                         admodum declamat et Deo grauiter irascente funditus euertendam nunciat.
@@ -3029,10 +2957,10 @@
                             uniuersus interiit. </q>Tunc enim pax reddita est Ecclesię, cum sublato
                         mortiferę superstitionis cultu desiit in Christianos principum
                     persecutia.</p>
-                </div>
-                <div>
-                    <head>ABBACUCH </head>
-                    <p>ABBACUCH Babyloniis minatur et, quemadmodum Naum Assyrios ex Domini sententia
+            </div>
+            <div>
+               <head>ABBACUCH </head>
+               <p>ABBACUCH Babyloniis minatur et, quemadmodum Naum Assyrios ex Domini sententia
                         damnat, quod in captiuos decem tribuum impii fuerint, ita iste Caldeos
                         arguit, quod duri grauesque extitissent populo duarum tribuum Babylonem
                         translato. Cum Deo autem disputat, quare permittat, ut mali apprimant et
@@ -3047,10 +2975,10 @@
                         </q>Babylon autem a Cyro, Persarum rege, capta seruiuit et ab eadem Iudei de
                         captiuitate liberati Hierosolymam rediere. Impletum est igitur Abbacuch
                         prophetę super Babylonios uaticinium.</p>
-                </div>
-                <div>
-                    <head>SOPHONIAS</head>
-                    <p>SOPHONIAS, filius Chusi, filii Godolię, filii <sic>Amarię</sic>, filii
+            </div>
+            <div>
+               <head>SOPHONIAS</head>
+               <p>SOPHONIAS, filius Chusi, filii Godolię, filii <sic>Amarię</sic>, filii
                         Ezechię, prophetasse traditur in diebus Iosię filii Ammon, regis Iuda. Hic
                         in suis uaticiniis prędicit Hierosolymam Romanorum uiribus casuram.
                         Sacerdotibus praue uiuentibus exprobrat, idolatras maledictione lacessit,
@@ -3062,11 +2990,11 @@
                         pręmanet terrę deos et Christum a gentibus adorandum. Iudeos quoque in fine
                         conuertendos demonstrat: <q>Reliquię Israhel, </q>inquit, <q>non facient
                             iniquitatem nec laquentur mendacium. </q>
-                    </p>
-                </div>
-                <div>
-                    <head>AGGEVS</head>
-                    <p>AGGEVS propheta locutus est ad Zorobabel, filium Salathiel, ducem earum, qui
+               </p>
+            </div>
+            <div>
+               <head>AGGEVS</head>
+               <p>AGGEVS propheta locutus est ad Zorobabel, filium Salathiel, ducem earum, qui
                         de Babylone a Cyro dimissi Hierosolymam redierant, et ad Iesum, filium
                         Iosedech, sacerdotem magnum, qui tunc cum Zorobabele erat. Increpat primo
                         ignauiam eorum, quod post uetus destructum iactis iam noui templi
@@ -3098,11 +3026,11 @@
                         apparuit, in suę diuinitatis maiestate super omnes dominetur. Prophetauit
                         Aggeus Darii regis anno II mensis sexti die primo, mensis septimi die primo,
                         mensis noni die XXIIII.</p>
-                    <p>---------------------</p>
-                </div>
-                <div>
-                    <head>ZACHARIAS</head>
-                    <p>ZACHARIAS, filius Barachię, filii Addo, etiam ipse eodem anno quo Aggeus
+               <p>---------------------</p>
+            </div>
+            <div>
+               <head>ZACHARIAS</head>
+               <p>ZACHARIAS, filius Barachię, filii Addo, etiam ipse eodem anno quo Aggeus
                         prophetauit, postea tamen quam ille coepisset mense secundo. Per multas
                         uisionum figuras de his, quę futura erant, uaticinatus est. Vidit uirum
                         ascendere super equum ruffum in myrteto, qua uisione nunciauit Deum in
@@ -3147,10 +3075,10 @@
                         repudio, de Christi passione, de martyrum fide, de ultimo Christi ad
                         iudicandum aduentu, de Hierusalem cęlesti a sanctis hominibus perpetuo
                         perenniterque habitanda.</p>
-                </div>
-                <div>
-                    <head>MALACHIAS</head>
-                    <p>MALACHIAS, XII prophetarum postremus, ipse quoque diuinitus inspiratus
+            </div>
+            <div>
+               <head>MALACHIAS</head>
+               <p>MALACHIAS, XII prophetarum postremus, ipse quoque diuinitus inspiratus
                         prophetauit Iudeos in Esau primogenito reprobandos, Christianos uero in
                         Iacob benedicendos: <q>Iacob, inquit Dominus, dilexi, Esau autem odio habui.
                         </q>Hinc arguere coepit propheta sacerdotum uitia: <milestone unit="page" n="80v"/> in <sic>cogitanda</sic> cordis <sic>immunditiam</sic>, in operando
@@ -3172,15 +3100,15 @@
                         et emendatis atque correctis bona <milestone unit="page" n="81"/> pollicetur
                         ęterna. Heliam uenturum prędicit, antequam ueniat dies Domini magnus et
                         horribilis. Prophetauit Babylone, quando Aggeus et Zacharias.</p>
-                    <p>Hęc de prophetis. Restat, ut dicamus de Machabeis, ducibus prępositisque
+               <p>Hęc de prophetis. Restat, ut dicamus de Machabeis, ducibus prępositisque
                         Iudeorum.</p>
-                </div>
             </div>
+         </div>
+         <div>
+            <head>EX LIBRIS MACHABEORVM</head>
             <div>
-                <head>EX LIBRIS MACHABEORVM</head>
-                <div>
-                    <head>MATHATIAS</head>
-                    <p>MATHATIAS sacerdos, Ioannis, filii Symeonis, sacerdotis, filius fuit. Huic
+               <head>MATHATIAS</head>
+               <p>MATHATIAS sacerdos, Ioannis, filii Symeonis, sacerdotis, filius fuit. Huic
                         fuere quinque filii: Ioannes, Symon, Iudas, Eleazarus et Ionathas. Consedit
                         in monte Modin. Quo cum uenissent Antiochi regis legati (sub illo enim erat
                         tunc Iudea), compellere populum coeperunt, ut idola adorarent. Multis ergo
@@ -3193,7 +3121,7 @@
                         illos persecuti inuadunt die sabbati; nolentes repugnare occidunt. Putabant
                         enim illi non licere sibi die sabbati arma tractare, et <sic>mari</sic> maluerunt quam
                         Deum offendere. Itaque mille ferme ex <milestone unit="page" n="81v"/>
-                        <note place="margin">
+                  <note place="margin">
                             Sabbatum
                         </note> eis tunc traduntur cecidisse. Maxima quidem dolori ea calamitas
                         Mathatię fuit. Tunc seniorum consulta decretum est fas esse etiam sabbatis
@@ -3206,10 +3134,10 @@
                         autem, corporis atque animi uiribus insignis, militię dux esset.
                         Benedicensque eis animam reddidit. Sepultus est in Modin anno ętatis suę
                         centesimo quadragesimo sexto.</p>
-                </div>
-                <div>
-                    <head>IVDAS</head>
-                    <p>IVDAS, cognomento Machabeus, Mathatię sacerdotis filius, dux creatus
+            </div>
+            <div>
+               <head>IVDAS</head>
+               <p>IVDAS, cognomento Machabeus, Mathatię sacerdotis filius, dux creatus
                         Apollonium, Samarię pręfectum, aduersum Israhelitas insurgentem fusis
                         fugatisque eius copiis interfecit spoliisque potitus est. Seronem, Syrię
                         principem, cum multa pugnatorum manu egressum usque Bethoron ipse cum paucis
@@ -3258,10 +3186,10 @@
                         dilapsi sunt. Corpus precio redemptum sepelierunt in oppido Modin Symon et
                         Ionathas fratres. Atque talis finis Iudę Machabei, fortissimi uiri ac bello
                         strenui ducis, fuit.</p>
-                </div>
-                <div>
-                    <head>IONATHAS</head>
-                    <p>IONATHAS, Mathatię filius, in demortui Iudę locum omnium suffragiis
+            </div>
+            <div>
+               <head>IONATHAS</head>
+               <p>IONATHAS, Mathatię filius, in demortui Iudę locum omnium suffragiis
                         subfectus, ut Bachidis, Antiochenorum pręfecti, uitaret insidias, recessit
                         cum suis et in deserto Thecuę ad lacum Asphalti consedit. Vbi uero audiuit
                         Bachidem copias ultra Iordanem <milestone unit="page" n="83v"/> traduxisse,
@@ -3363,10 +3291,10 @@
                         ereptum planxere. Aduersarii uero ad delendum Iudeorum regnum occasionem
                         sibi datam gaudebant. Sed Iudei Symonem, et ipsum strenuum bello uirum, sibi
                         ducem constituunt. De quo nunc dicemus.</p>
-                </div>
-                <div>
-                    <head>SYMON </head>
-                    <p> SYMON post fratris Ionathę captiuitatem dux creatus collegit exercitum,
+            </div>
+            <div>
+               <head>SYMON </head>
+               <p> SYMON post fratris Ionathę captiuitatem dux creatus collegit exercitum,
                         muros urbis muniuit pręsidiaque disposuit.  Ionatham, Absalomi filium, cum
                         militum manu misit Ioppem.  Quo ille ueniens eiectis, qui in arce erant,
                         ipse in pręsidium mansit.  Tryphon a Ptolomaide mouit Ionatham captiuum
@@ -3432,10 +3360,10 @@
                         conlegimus, non habentur. Atque ut extremam operi manum imponamus, breuiter
                         deinceps explicabimus Onię sacerdotis et aliorum quorundam in Deum pietatem,
                         qui occidi pręoptarunt quam pręuaricari.</p>
-                </div>
-                <div>
-                    <head>ONIAS </head>
-                    <p> ONIAS pontifex magnus Antiochi regis, cognomento Magni, tempore Hierosolymis
+            </div>
+            <div>
+               <head>ONIAS </head>
+               <p> ONIAS pontifex magnus Antiochi regis, cognomento Magni, tempore Hierosolymis
                         erat.  Cum autem Symon, de tribu Beniamin, templi prępositus, Apollonium,
                         Tharseę filium, Celesyrię ducem, adiens ad spoliandum Hierosolymitanum
                         ęrarium concitasset idque ille regi retulisset, datum fuit negocium
@@ -3473,10 +3401,10 @@
                         iubente Andronicus ibidem, ubi Oniam occiderat, necatur.  Menelaus uero
                         accusatus, ne capite mulctaretur, pecunia se redemit.  Atque hic finis Onię,
                         Deo gratissimi sacerdotis, fuit.</p>
-                </div>
-                <div>
-                    <head>ELEAZARVS</head>
-                    <p> ELEAZARVS, scribarum princeps, cum uidisset Antiochi Epiphanis iussu Iudeos
+            </div>
+            <div>
+               <head>ELEAZARVS</head>
+               <p> ELEAZARVS, scribarum princeps, cum uidisset Antiochi Epiphanis iussu Iudeos
                         ad gentilium ritum compelli, sabbata non custodiri ac <sic>pene</sic>
                         neminem esse, qui se Iudeum profiteri auderet - depręhensi sabbatum
                         obseruare igni cremabantur, duę mulieres, quę filios circumciderant,
@@ -3487,10 +3415,10 @@
                         porcinam comedisset, exemplum esset pręuaricationis.  Igitur ductus ad
                         supplicium, cum cęderetur, dixit ęquo animo se et dolores et mortem ferre
                         propter Deum et legem ipsius olim Moysi populoque datam.</p>
-                </div>
-                <div>
-                    <head>MACHABEI </head>
-                    <p> MACHABEI septem fratres tam fortes fuere in sustinendis pro lege Dei poenis
+            </div>
+            <div>
+               <head>MACHABEI </head>
+               <p> MACHABEI septem fratres tam fortes fuere in sustinendis pro lege Dei poenis
                         quam illi Mathatię filii bello strenui duces in pręlio cum hostibus
                         commitendo.  Septem erant et, cum suillam edere cogi nequiuissent, iussit
                         rex primogenito linguam amputari, cute caput denudari, manus pedesque
@@ -3512,10 +3440,10 @@
                                 <sic>referctam</sic> ducere. </q> Quem ego istorum magis mirer,
                         nescio, nisi quod leuius puto ferre tormenta quam in tormentis positos
                         spectare eos, quos genuimus, nobis non dissimiles.</p>
-                </div>
-                <div>
-                    <head>RASIAS</head>
-                    <p> RASIAS, uir nobilis et iam senior, sed tota ętate continentię proposito
+            </div>
+            <div>
+               <head>RASIAS</head>
+               <p> RASIAS, uir nobilis et iam senior, sed tota ętate continentię proposito
                         clarus et clarior adhuc in tuenda erga Deum pietate legeque eius obseruanda,
                         Nicanoris, teterrimi omnium tyranni, minas contempsit neque ullo tormentorum
                         metu cogi potuit, ut suscepto prophanę religionis ritu pollueretur.  Ac ne
@@ -3528,13 +3456,13 @@
                         instinctu eum in se perimendo sua usum fuisse manu.  Alioquin omnibus
                         pręceptum est: <q>Non occidas</q>. Occidit autem hominem etiam is, qui
                         semetipsum perimit.</p>
-                </div>
             </div>
-            <div type="prosa-epilogus">
-                <head>
+         </div>
+         <div type="prosa-epilogus">
+            <head>
                <add>epilogus</add>
             </head>
-                <p> Hic opusculi nostri finis.  Pro quo tibi, summe Deus, omnium, quę pie ac iuste
+            <p> Hic opusculi nostri finis.  Pro quo tibi, summe Deus, omnium, quę pie ac iuste
                     fiunt, autori, gratias ago et, ut legentibus ista, quę scripsimus, ad uitę
                     sanctioris institutionem beatitudinemque adipiscendam proficere facias, precor.
                      Tum, siquid in eloquendo peccatum est, ut mihi ignoscas, oro habita
@@ -3546,24 +3474,24 @@
                     exardescant.  Cuius unius in immensum effusa gloria nec uerbis enarrari nec
                     cogitatione potest compręhendi.  Omnis autem conatus noster eo uertitur, ut te,
                     qui infinitus es, super omnia diligendo tecum sine fine uiuamus.</p>
-            </div>
-        </body>
+         </div>
+      </body>
       <back>
-        <div type="index">
+         <div type="index">
             <head>Index librorum</head>
             <gap reason="omisimus"/>
-        </div>
-        <div>
+         </div>
+         <div>
             <head>Index hominum</head>
             <gap reason="omisimus"/>
-        </div>
-        <div type="epigramma">
+         </div>
+         <div type="epigramma">
             <head>Bibliopola ad lectorem</head>
             <gap reason="alibi"/>
             <l>
                <ptr target="http://ffzg.hr/klafil/croala/cgi-bin/getobject.pl?c.4:5.croala.16179"/>
             </l>
-        </div>
+         </div>
       </back>
    </text>
 </TEI>

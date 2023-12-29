@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader type="text">
+   <teiHeader>
       <fileDesc xml:id="djurdjevic-b-prognoma">
-
          <titleStmt>
             <title>Prognoma, sive Praesagium Mehemetanorum : primùm de Christianorum calamitatibus, deinde de suae gentis interitu, ex Persica lingua in Latinum sermonem conversum.</title>
             <title type="sub">Machine-readable text</title>
@@ -41,80 +41,11 @@
    2014</date>
             </p>
          </publicationStmt>
- 
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Antwerpen: Bartolomej Georgijevic, Eg[idius]. Copenius, 1545 [?].</bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <p>Regeln fuer die Texterfassung 03/2001</p>
-         </editorialDecl>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="24"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="choice" occurs="21"/>
-          <tagUsage gi="corr" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="div1" occurs="1" withId="1"/>
-          <tagUsage gi="div2" occurs="3" withId="3"/>
-          <tagUsage gi="div3" occurs="3" withId="3"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="editorialDecl" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="18"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="2"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="hi" occurs="59"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="4"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lg" occurs="1"/>
-          <tagUsage gi="name" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="2"/>
-          <tagUsage gi="p" occurs="75"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="32" withId="32"/>
-          <tagUsage gi="persName" occurs="3"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="2"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="3"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="56"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="8"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -152,15 +83,12 @@
       <revisionDesc>
          <change>
             <date>05/2007</date>
-
             <persName>Reinhard Gruhl</persName>
             <p>markup</p>
-
             <p>typed text - structural tagging completed - no semantic tagging - spell check partially performed - no orthographical standardization - note the passage in Turkish language (TR; cf. http://www.loc.gov/standards/iso639-2/)</p>
          </change>
       </revisionDesc>
    </teiHeader>
-
    <text>
       <front>
          <titlePage>
@@ -174,12 +102,12 @@ gentis interitu, ex Persica
 lingua in Latinum
 sermonem conuersum.
 <choice>
-                  <abbr>Auth.</abbr> 
+                  <abbr>Auth.</abbr>
                   <expan>Authore</expan>
                </choice> Bartholomaeo
 Georgieuits.
 Cum Gratia et <choice>
-                  <sic>Preuilegio</sic> 
+                  <sic>Preuilegio</sic>
                   <corr>Priuilegio</corr>
                </choice>
             </titlePart>
@@ -189,16 +117,16 @@ Cum Gratia et <choice>
          <div type="prosa-epistula-dedicatio">
             <pb xml:id="s003"/>
             <head>AD <choice>
-                  <abbr>REVERENDISS.</abbr> 
+                  <abbr>REVERENDISS.</abbr>
                   <expan>REVERENDISSIMUM</expan>
                </choice> PRINcipem et Dominum, D. Ottonem, ex Illustri prosapia Baronum <choice>
-                  <abbr>Waltpurgen</abbr> 
+                  <abbr>Waltpurgen</abbr>
                   <expan>Waltpurgensium</expan>
                </choice> oriundum, sacrosanctae Romanae Curiae Cardinalem, et Episcopum Augustanum, Caesareae <choice>
-                  <abbr>Maiestat.</abbr> 
+                  <abbr>Maiestat.</abbr>
                   <expan>Maiestatis</expan>
                </choice> apud Vangiones in comitijs ordinum Imperij vicem locumque tenentem, Dominum Moecenatemque suum, Bartholomaeus Georgieuits clientum <choice>
-                  <abbr>deditiss.</abbr> 
+                  <abbr>deditiss.</abbr>
                   <expan>deditissimus</expan>
                </choice>
             </head>
@@ -219,19 +147,19 @@ mores corrigerentur, ac non potius in deterius omnia quotidie pessum irent, omni
 <pb xml:id="s007"/>
 Christi reuocabit: quae res melius ex vaticinio intelligetur.</p>
             <p>Verum ego postquam vsu cognouissem illustrissimos eruditissimosque viros ob excellentissimas tuas in ecclesia Dei ac reipublicae administratione virtutes, te <choice>
-                  <abbr>Reuerend.</abbr> 
+                  <abbr>Reuerend.</abbr>
                   <expan>Reuerende</expan>
                </choice> Princeps venerari, et in summo honore habere, imprimis Reuerendissimum Heroem Dominum Christophorum Madrucium sacrosanctae Romanae Curiae Cardinalem Episcopumque Tridentinum, virum animi magnitudine, fide, sapientia praestantissimum, Ferdinandi regis Hungariae, Bohemiae, <abbr>etc.</abbr> et Caroli Romanorum Imperatoris amicum fidelissimum, qui nuper post cladem Carinai acceptam cum tota Lombardia in periculum venisset, ne in ditionem Gallorum recideret, fratre cum subitario milite misso suis opibus et viribus rem illic nutabundam sustentauit. Dominum item Granuellanum intimum Caesaris Consiliarium, et eius filium Episcopum Atrebatensem, in quo cum omnes dotes animi emineant, maxime tamen elucet humanitas, vt qui illud Titi Vespasiani sibi videtur aemulationi habere, ne quem tristem a se dimittat. Item et clarissimum Principem <abbr>D. </abbr>
                <choice>
-                  <sic>Wolfangum</sic> 
+                  <sic>Wolfangum</sic>
                   <corr>Wolfgangum</corr>
                </choice> Episcopum Patauiensem, virum summa eruditione, pietate, et omni laude
 <pb xml:id="s008"/>
 sublimem. <choice>
-                  <abbr>Reuerendiss.</abbr> 
+                  <abbr>Reuerendiss.</abbr>
                   <expan>Reuerendissimum</expan>
                </choice> item Praesulem Constantiensem <abbr>D.</abbr> Iohannem Veza, virum robore animi et corporis, sanctitateque et pietate, eruditioneque excellentissimum, multis in Caesareis rebus foelicissime obitis legationibus. Vt interim omittam Cornelium Scepperum multarum linguarum peritum Caesareae <abbr>M.</abbr> non solum inter Christianos, sed etiam apud Turcarum Imperatores, legatum incomparabilem, cuius fidem an foelicitatem magis mireris in tractandis negocijs, in dubio est. Omittam quoque omnes electores Romani Imperij, Satrapas, Consiliarios, et summi <choice>
-                  <abbr>Pontific.</abbr> 
+                  <abbr>Pontific.</abbr>
                   <expan>Pontificis</expan>
                </choice> proceres, qui omnes in te honorando et venerando mirifice consentiunt. Imo ipse Carolus <abbr>Ro.</abbr> Imperator tanti te habet, eaque veneratione et charitate amplectitur, vt te suum vicarium locumque tenentem in Comitijs ordinum Imperij in Germania fecerit.</p>
             <p>Iam igitur cum et ego deuotionem animi mei erga tuam amplitudinem declarare vellem, nihil habebam nisi istud Turcicum vaticinium quod offerrem: quod tametsi nugatius et vanius est, quam vt tuae magnitudini inscribi debeat, tuae tamen humanitatis benignitate fretus, id ausus sum facere. Cum enim coelum post tot luminaria stellarum, etiam lucernarum tenuem illam lucem
@@ -279,7 +207,7 @@ rex Persarum eodem nomine ab ipsis solet appellari, sed saepius fit, vt vocetur 
 videlicet, <hi rend="italic">Kuzulalmai</hi> et <hi rend="italic">Vrumpapai)</hi> id est, rubrum pomum siue Graecum sacerdotem vel patriarcham, quia vt iam diximus <hi rend="italic">Vrum)</hi> significat Graecum, eo quod olim erat sub imperio Romano tota Graecia, et est corruptum per adiectionem v literae in principio, et mutatione o in u, quia huic nomini <hi rend="italic">Vrum)</hi> si demas primum v, et medium mutetur in o, erit Rom. Itaque multi sunt huius opinionis, quod significet imperium Constantinopolitanum, cuius differentiam suo loco prolixius declarabimus.</p>
                   <p>
                      <hi rend="italic">Kapzeiler)</hi> est verbum, et significat opprimere iugo seruitutis, et nemo dubitat illorum tyrannicam afflictionem esse crudelem oppressionem, quod facile probabunt ij, qui eorum captiuitatem et tributi exactionem experti sunt, quemadmodum sunt Graeci, Armenij, Thraces, prout facile poterunt intelligere hi, qui legerunt nostrum libellum de <choice>
-                        <abbr>afflictionib.</abbr> 
+                        <abbr>afflictionib.</abbr>
                         <expan>afflictionibus</expan>
                      </choice> Latina, Gallica, Teuthonica et Bohemica, linguis diuulgatum.</p>
                   <p>
@@ -307,7 +235,7 @@ est mirum, quod a tot annis postquam ince pit saeuire, ita muniuit, vt ne pagum 
 damnatos, distringere velint, et discordia qui solummodo moratur nostras victorias, a nostris rebus auferre studeant. Sed redeamus ad verba vaticinij de interitu eorum.</p>
                   <p>
                      <hi rend="italic">Turki)</hi> Id est, Turcam ipsum hactenus regnantem. <hi rend="italic">Gheressine)</hi> id est, retrorsum vnde egressus est, adeo vt vel ad latebras <choice>
-                        <sic>Bythiniae</sic> 
+                        <sic>Bythiniae</sic>
                         <corr>Bithyniae</corr>
                      </choice> vnde primum erupit, vel in Scythiam vnde originem traxit, repellatur.</p>
                   <p>
@@ -323,21 +251,21 @@ plebeis parentes se exhibeant, docti idiotis viam virtutum et veritatis commonst
 <pb xml:id="s020"/>
 pro vno et altero oppidulo, et post acerrimas praeliorum conflictationes, post exhaustas opes, nihilo imperio auctiores efficimur. Heu quantum pelagi potuit, terraeque parari, Hoc quem ciuili fuderunt sanguine dextrae.</p>
                   <p>Nunc igitur cum <choice>
-                        <abbr>Potentiss.</abbr> 
+                        <abbr>Potentiss.</abbr>
                         <expan>Potentissimi</expan>
                      </choice> Monarchae, et vere Cnristiani in pacem inter sese consentiunt, spes est eos occasionibus temporum, et fatorum mutationibus vti velle, neque permissuros, vt reliquiae Hungaricae ditionis quae adhuc supersunt, et adiunctis aliorum viribus plurimum possunt, in ditionem et potestatem Turcarum veniant, quorum nomina etsi non omnium infra subieci, vt qui omnia amissa putant in Hungaria, aliquid consolationis accipiant, cum videant tantum in eo regno adhuc incolume superesse.</p>
                   <p>Alij rursum doleant, si modo dolere possunt, magis ac magis suum appropinquans periculum sentire, tam tenues portiunculas Hungarici imperij olim a mari Baltheo vsque ad paludes Baeotidis exporrecti, in tantas angustias redactas esse: quanquam vt hoc obiter dicam, ipsi nos Hungari maxime nobis hanc caussam mali dedimus, dum Germanos fere ita exosos habemus vt Turcas, dum omnia in duos reges distrahimus, dum alij Turcam accersunt, alij propellunt, nec nisi sero didicimus, Omne regnum in se
 <pb xml:id="s021"/>
 diuisum collabascere, et domum supra domum cadere, ac maximas res discordia comminui. Sed serae sunt querimoniae. malo epinicia, vel triumphum canere, saltem laetiora ominari volo. Quamobrem carptim Hungarorum nomina, quae nuper ab eorum legatis egregio viro Georgio Euskero Senatore Cremonensi, et Christophoro Hofkircher, viris doctissimis ad Maiestatem reginae Mariae missis, pro petendis praesidijs conscripta habui, qui etiam fatebantur reliquias Hungariae posse praestare exercitatissimos equites, si tantum Romanorum Imperatoris ac caeterorum principum Christianorum copias adesse viderent. Quapropter in quibus aliquid virium est, nunc subijciam, nullo ne hic quidem seruato ordine, sed vt quisque se nostrae memoriae ingerit, ita prius ponetur.</p>
                   <p>Magnifice sperandum est de <choice>
-                        <abbr>Reuerendiss.</abbr> 
+                        <abbr>Reuerendiss.</abbr>
                         <expan>Reuerendissimo</expan>
                      </choice> D. Paulo de Varda Archiepiscopo Strigoniensi, cuius opes adhuc praeualidae, et tantum prudentiae in eius animo est, vt eius sine opibus magna in eo fiducia collocanda esset, quamuis etiam amiserit maiorem partem dominij, ex quo captum est Strigonium.</p>
                   <p>Laeta quoque ac magna Nicolai Olahi Episcopi Zagrabiensis, et vicecancellarij regni Hungariae authoritas, rerum peritia
 <pb xml:id="s022"/>
 et multiplex eruditio, corporis animique robur de se promittit.</p>
                   <p>Egregios item spiritus gerit <choice>
-                        <abbr>Reuerendiss.</abbr> 
+                        <abbr>Reuerendiss.</abbr>
                         <expan>Reuerendissimus</expan>
                      </choice> D. Martinus de Kecheth Episcopus Vuesprimiensis, elegantia et belli laudibus mire insignis, et natus (vt videtur) in Turcarum perniciem, vir praedecessori suo Petro Berisso in re militari vel iam par, vel mox futurus. His addo Franciscum Turzonem ecclesiae Nitriensis praesulem, de quo omnes mira et laeta augurantur.</p>
                   <p>Item inter Barones clarissima est domus Bathorea, qui auita indole praediti, armis animisque infestissimi sunt Turcico generi. Nec magnifici viri Thomas Nadasdi, Franciscus Batyani, Balassea domus illustrissimae dignitatis suo officio deerunt, inter quos facile pri mus Melchior Balassa.</p>
@@ -369,7 +297,7 @@ nunc tutor regij pueri et vxoris Ioannis Vaiuodae, ducis Transyluaniae, qui si f
 adeo vt in cladibus Christianorum, si natura vtriusque numinis expendatur, mortui videantur viuos armis potentia que superare. Iam cum robore corporum, dotibus animi praecellamus, quae magna praesidia afferre vi dentur ad hostes profligandos, ipsi vbique miserrime profligamur.</p>
                <p>Quid Hungaro induratius? quid Germano vastius? quid Gallo procerius? Hispano solidius? quid Italo robustius? vt de caeteris nationibus taceam, quibus dotes corporis, aut meliores, aut certe aequales. Rursus si indolem animi spectes, quid Hungaro vulnerum periculorumque securius? quid Germano generosius? Italo sapientius? Gallo ambitiosius? Hispano callidius? quorum singula videntur posse veldare victoriam, vel adiuuare. Saepe vicit sine alijs viribus audacia, saepe generositas animi, saepe sapientia, saepe honoris illa auida ambitiositas, saepe calliditas: tamen me miserum, inter tot victrices res a victoria excidimus.</p>
                <p>Iam si apparatum videas, armorumque genera, multis <choice>
-                     <abbr>rationib.</abbr> 
+                     <abbr>rationib.</abbr>
                      <expan>rationibus</expan>
                   </choice> Turcis praestantiores videmur. Nostra inuenta sunt bombardae, nostra tot genera panopliae. Ipsi Persae nudi, aut seminudi ad bella prodeunt: illis arcus, nobis sloppetae. hoc est nobis fulmina, illis sagittae, quae per du ra armorum nullam vim penetrandi habent,
 <pb xml:id="s027"/>
@@ -390,10 +318,10 @@ luxus, et omnis luxuriae commeatus, adest grauior turba meretricum, quam virorum
                <p>Quid ergo mirum si vincant illi, apud quos sobrietas, parsimonia, continentia, vigilantia? vincantur illi, qui ab hostibus vel vagi ad praedas, vel inter pocula, vel in somno, vel apud meretricem, aliasque nequitias inueniantur? Sed haec culpa est plebeiorum. Principes ipsi, dum mutuis bellis se conficiunt, causam praestant, vt nunquam pares vires contra Turcas afferamus.</p>
                <p>Sed quia nunc bellum Gallicum finem accepit, sperandum quod non solum haeresis inter Ecclesiasticos sparsa, et omnis abusus ab Ecclesia tolletur, sed etiam principum discordiae cessabunt, et tandem firma auxilia contra Turcas coibunt.</p>
                <p>Igitur facile armabit Germania quinquaginta milia peditum, <choice>
-                     <abbr>.XX.</abbr> 
+                     <abbr>.XX.</abbr>
                      <expan>viginti milia</expan>
                   </choice> equitum. Nec minorem numerum conficiet Italia. Idem vel aliquanto plus ex Gallia sperandum. Nec Hispania inferiores vires ad hanc expeditionem addet. Praeterea ditiones Brabantiae, Flandriae, Hollandiae, Zelandiae, Frisiae, vna cum <choice>
-                     <abbr>Traiecten</abbr> 
+                     <abbr>Traiecten</abbr>
                      <expan>Traiectensibus</expan>
                   </choice>, decem milia equitum et viginti
 <pb xml:id="s031"/>
@@ -403,16 +331,16 @@ milia peditum, vel etiam maiorem numerum implebunt. Reliquiae Hungariae, Morauia
                <p>Quod vbi apud Persas inauditum fuerit, ex altera parte vsque ad Constantinopolim excurrent. Nec cessabunt praepotentes Reges Russiae, et Georgianorum, quibus non minor vis, quam odium in Turcas. Nec Imperator Indiae Ioannes presbyter otium aget, sed omni conspiratione contendet, ad communem hostem opprimendum.</p>
                <pb xml:id="s032"/>
                <p>HAEC ad te scribere libuit Maximiliane <choice>
-                     <abbr>Augustiss.</abbr> 
+                     <abbr>Augustiss.</abbr>
                      <expan>Augustissime</expan>
-                  </choice> Caesarum inclyta proles: tum quia miserias Christianorum, et illas intolerandas calamitates sub imperio Turcarum et inspexi, et expertus sum: tum quia omnes de te eam spem, ominaque concipiunt, quod existimant te et Maximiliani proaui tui mores, patris item Ferdinandi, et Caroli Caesaris patrui tui relaturum: quae expectatio hominum maxime confirmatur, dum quotidie virtutes tuae istius excellentissimae indolis aspiciunt. Nobis igitur omnipotens Deus exorandus est, vt spem expectationemque tui, quam ipse non frustraris, fouere suo numine, et maturare velit, quo tandem Christianus orbis a tot perpetuis cladibus respiret. 16. Calend. Apr.</p> 
+                  </choice> Caesarum inclyta proles: tum quia miserias Christianorum, et illas intolerandas calamitates sub imperio Turcarum et inspexi, et expertus sum: tum quia omnes de te eam spem, ominaque concipiunt, quod existimant te et Maximiliani proaui tui mores, patris item Ferdinandi, et Caroli Caesaris patrui tui relaturum: quae expectatio hominum maxime confirmatur, dum quotidie virtutes tuae istius excellentissimae indolis aspiciunt. Nobis igitur omnipotens Deus exorandus est, vt spem expectationemque tui, quam ipse non frustraris, fouere suo numine, et maturare velit, quo tandem Christianus orbis a tot perpetuis cladibus respiret. 16. Calend. Apr.</p>
                <p>LAVS DEO</p>
                <p>ANTVERPIAE, CVRA ET impendio Bartholomaei Georgieuits, <choice>
-                     <abbr>typ.</abbr> 
+                     <abbr>typ.</abbr>
                      <expan>typis</expan>
-                  </choice> 
+                  </choice>
                   <choice>
-                     <abbr>Eg.</abbr> 
+                     <abbr>Eg.</abbr>
                      <expan>Egidii</expan>
                   </choice> Copenij.</p>
             </div2>

@@ -1,38 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="lipavic-eleg">
-            <titleStmt>
-                <title>Joannes Lipauich post pestem Tragurium rediens composuit, versio electronica</title>
-                <author ref="lipav01">
-                    <persName xml:lang="hr">Lipavić, Ivan</persName>
-                    <date>floruit 1465</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="lipavic-eleg">
+         <titleStmt>
+            <title>Joannes Lipauich post pestem Tragurium rediens composuit, versio electronica</title>
+            <author ref="lipav01">
+               <persName xml:lang="hr">Lipavić, Ivan</persName>
+               <date>floruit 1465</date>
+            </author>
+            <editor>
                <persName>
                   <ref>Šime Jurić</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date>Versio electronica in lucem primum edita die 21. Januarii anno 2009.</date>
-                </edition>
-            </editionStmt>
-            <extent ana="B">Mg:B 70 versus, verborum 465</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>Versio electronica in lucem primum edita die 21. Januarii anno 2009.</date>
+            </edition>
+         </editionStmt>
+         <extent ana="B">Mg:B 70 versus, verborum 465</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date>Siječnja 2009</date>.</p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Šime Jurić. 
                     Tri kodeksa značajna za kulturnu povijest Trogira. 
@@ -40,65 +41,8 @@
                     Mogućnosti, 10-11:1107--1114, 1980. 
                     (s. 1110--1112, prijepis iz Vat. Lat. 5174, f. 96v--97).</bibl>
          </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
-            <!-- CTS for a single poem in document -->
-            <refsDecl n="CTS">
-                <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
-                    <p>This pointer pattern extracts line</p>
-                </cRefPattern>
-            </refsDecl>
-        <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="cRefPattern" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="70"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="refsDecl" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="6"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="42"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -112,45 +56,43 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1465" period="14xx_2_third">1465</date>
-            </creation>
+            <date when="1465" period="14xx_2_third">1465</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 15 (1401-1500)</term>
-                    <term>1451-1500</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - elegia</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - elegia</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-02-16</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-02-16</date>
                 Novo, unificirano zaglavlje. Sitne ispravke u raznim naslovima.
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2008-08-27T00:50:28</date>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        
-        <body>
-            <div met="elegiacum">
-                <head>Joannes Lipauich post pestem Tragurium rediens composuit</head>
-               
+            <date>2008-08-27T00:50:28</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div met="elegiacum">
+            <head>Joannes Lipauich post pestem Tragurium rediens composuit</head>
             <l>Salue terra tuo populo priuata, diu quae</l>
             <l met="pentameter">crudeli morbo languida facta sedes</l>
             <l>Salue iterum quoniam pestis demissa periclo es</l>
@@ -221,10 +163,8 @@
             <l met="pentameter">pensa trahit Lachesis de meliore colo.</l>
             <l>Saluator mundi sic <sic>anuet</sic> aure benigna</l>
             <l met="pentameter">non meritis nostris sed pietate sua.</l>
-
-                <closer>Finis.</closer>
-                
-            </div>
-        </body>
-    </text>
+            <closer>Finis.</closer>
+         </div>
+      </body>
+   </text>
 </TEI>

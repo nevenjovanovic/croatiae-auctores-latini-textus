@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="cival-d-endecasyll">
          <titleStmt>
             <title>In Palladii Fusci Commentarios Endecasyllabon et In laudem Antonii Grimani epigramma, versio electronica</title>
@@ -36,82 +37,25 @@
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <biblStruct type="externum">
                <monogr>
-            
                   <author>Catullus, Gaius Valerius</author>
                   <title>Carmina, comm. Palladius Fuscus </title>
                   <imprint>
                      <pubPlace>Venetiis</pubPlace>
                      <publisher>Johannes Tacuinus de Tridino</publisher>
-                     <date>28. IV. 1496</date> 
+                     <date>28. IV. 1496</date>
                   </imprint>
                   <extent>2o </extent>
                </monogr>
                <note>Reference: HC+ 4768. - Reference: BMC, V, 530. - Reference: GW 6390. -
             Reference: Ind. gen. 2617. - F. 2, lin. 16: Viri clarissimi Donati
             Civalelli In Palladii Fusci Commentarios endecasyllabon.</note>
-               <idno type="other">Xb * Jurić. Scriptores</idno>
+               <note type="other">Xb * Jurić. Scriptores</note>
                <relatedItem>
                   <ref target="http://daten.digitale-sammlungen.de/bsb00051738/image_3">BSB Digital</ref>
                </relatedItem>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="1"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="10"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -158,12 +102,11 @@
             <date>2011-12-10</date>
          </change>
       </revisionDesc>
-  </teiHeader>
-  <text type="poesis">
+   </teiHeader>
+   <text type="poesis">
       <body>
          <div type="poesis-epigramma" met="hendecasyllabus">
             <head>Viri clarissimi Donati Ciualelli in Palladii Fusci Commentarios Endecasyllabon.</head>
-
             <l>Si quis per tenebras Catullianas</l>
             <l>Securos cupit explicare gressus:</l>
             <l>Hic mox Palladium meum sequatur</l>
@@ -172,13 +115,13 @@
             <l>Quaerenti Cereri abditam rapinam:</l>
             <l>Vt docti tenebrae nitent Catulli</l>
             <l>Claras Palladio faces ferente.</l>
-         </div>  
+         </div>
          <div type="poesis-epigramma" met="elegiacum">
-            <head>In laudem Antonii Grimani Donati Civalelli</head> 
+            <head>In laudem Antonii Grimani Donati Civalelli</head>
             <l>Mille rates Danaum Atride duo fortis Achilles</l>
             <gap/>
             <l met="pentameter">verum pugnavit validis Mars ipse lacertis</l>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

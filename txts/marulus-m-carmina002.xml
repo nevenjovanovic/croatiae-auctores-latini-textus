@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="marulus-m-carmina002">
          <titleStmt>
             <title>Carmina Latina II, versio electronica</title>
@@ -45,66 +46,6 @@
             <bibl>Francisco Javier Juez y Gálvez, Maruliana u Kolumbovoj knjižnici u Sevilli, Colloquia Maruliana, Vol.14 Travanj 2005. Str. 199 - 233</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="15"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="5"/>
-          <tagUsage gi="body" occurs="12"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="div" occurs="210" withId="194"/>
-          <tagUsage gi="docTitle" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="6"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="13"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="group" occurs="1"/>
-          <tagUsage gi="head" occurs="208"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2206" withId="64"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="39"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="11" withId="2"/>
-          <tagUsage gi="ref" occurs="8"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="36"/>
-          <tagUsage gi="speaker" occurs="25"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="9"/>
-          <tagUsage gi="text" occurs="13"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -170,125 +111,122 @@
       </change>
          <change>
             <date>2005-04-08T17:24:54</date>
-            <persName><ref type="viaf" target="6913774">Neven Jovanovic</ref></persName> revision </change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanovic</ref>
+            </persName> revision </change>
       </revisionDesc>
-  </teiHeader>
-         
-   <text xml:base="urn:cts:croala:marulus-m.carmina002.croala-lat1:" xml:lang="lat">
-            <front>
-               <docTitle>
-                  <titlePart>POPRATNICE UZ KNJIGE I JAVNI NATPISI</titlePart>
-               </docTitle>
-            </front>
-            <body>
-               
-
-                  <div xml:id="C64" met="elegiacum">
-                     <head> Bibliopola ad lectorem</head>
-                     <l>Quisquis nosse cupis modico collecta libello </l>
-                     <l>Bibliacis quę sunt sparsa uoluminibus, </l>
-                     <l>Primorum mores hominum regumque potentum </l>
-                     <l>Res uarias et opes et fera bella ducum </l>
-                     <l n="5">Et gnaras fati mentes sortisque futurę </l>
-                     <l>Actaque tergemini prodigiosa Dei – </l>
-                     <l>Hortamur paruum parua mercede parato </l>
-                     <l>Hoc quod non paruę est utilitatis opus.</l>
-                  </div>
-                  <div xml:id="C65" met="elegiacum" type="poesis-carmen-elegia">
-                     <head> Carmen de gestis Herculis</head>
-                     <l>Paruulus Alcydes geminos interficit angues </l>
-                     <l>Aggressus tenera dura pericla manu. </l>
-                     <l>Ast ubi creuerunt pariter cum uiribus anni, </l>
-                     <l>Liberat oppressam seruitio patriam. </l>
-                     <l n="5">Illo autore perit Nemeę leo bellua siluę, </l>
-                     <l>De multis unum non habet hydra caput, </l>
-                     <l>Ipsa Erimanthei feritas elanguit apri </l>
-                     <l>Et ceruam celeres destituere pedes. </l>
-                     <l>Stymphalidas domat arcus aues tinnitus et ęris, </l>
-                     <l n="10">Et stabuli sordes fluminis unda rapit. </l>
-                     <l>Taurum, Creta, tuum tellus Argiua recępit </l>
-                     <l>Pasiphen captam cuius amore ferunt. </l>
-                     <l>Quos aluit quondam Diomedes hospite cęso, </l>
-                     <l>Illos deinde suo sanguine pauit equos. </l>
-                     <l n="15">Tris animas triplici fudit de corpore uictus </l>
-                     <l>Pro grege Geryones dum capit arma suo. </l>
-                     <l>Agmina Amazonidum peltis fugere relictis, </l>
-                     <l>Zonam uicta suam perdidit Hippolite. </l>
-                     <l>Mactato Hesperidum carpuntur poma dracone </l>
-                     <l n="20">Aurea: peruigilem profuit esse nihil. </l>
-                     <l>Ferrea soluuntur religati uincla Promethei, </l>
-                     <l>Improba cui misero cor lacerabat auis. </l>
-                     <l>Cerberus ad superos raptus mirantibus umbris </l>
-                     <l>Ducitur, infernę ianitor ille domus.</l>
-                     <l n="25">Humana gaudens Busiris cęde cruentus </l>
-                     <l>Pertulit occisus quod dabat exitium. </l>
-                     <l>Herculeas uires uasti sensere Gygantes </l>
-                     <l>Cęlicolis ausi bella mouere deis </l>
-                     <l>Et Centaurorum uis ardens quadrupedantum </l>
-                     <l n="30">Concidit Herculeę uerbere fracta manus. </l>
-                     <l>Victus Achelous propriis caput intulit undis </l>
-                     <l>Illum dum Alcydę succubuisse pudet. </l>
-                     <l>Fortis Erix cestu, flammę munimine Cacus, </l>
-                     <l>Antheus terrę dum cadit usus ope, </l>
-                     <l n="35">Oechalię regno fidens Euritus – ab illo </l>
-                     <l>Victi omnes dirę damna tulere necis. </l>
-                     <l>Neptunno natos saxis prostrauit, ut aiunt, </l>
-                     <l>Saxa hęc e cęlo suppeditante Ioue. </l>
-                     <l>Sed licet hic semper uictor superauerit olim </l>
-                     <l n="40">Terribilesque feras terribilesque uiros, </l>
-                     <l>Fortior est illo quisquis se uicerit ipsum </l>
-                     <l>Addideritque malis frena cupidinibus, </l>
-                     <l>Atque iter ad cęlum uera uirtute pararit </l>
-                     <l>Donandus uitę munere perpetuę.</l>
-                  </div>
-                  <div xml:id="C66" met="elegiacum">
-                     <head> Tetrasticon de Hercule</head>
-                     <l>Quem non euertit uitiorum dira libido, </l>
-                     <l>Fortior hic ipso est Amphitrioniade. </l>
-                     <l>Esse ita cognosces Marci quicunque libellum </l>
-                     <l>Quo magni Alcydę rettulit acta leges.</l>
-                  </div>
-                  <div xml:id="C67" met="elegiacum">
-                     <head> Ad lectorem</head>
-                     <l>Sęclorum finem paruus tenet iste libellus</l>
-                     <l>Et summi examen iudiciumque Dei </l>
-                     <l>Clangoremque tubę quo mortua corpora surgent</l>
-                     <l>Et referent meritis pręmia digna suis. </l>
-                     <l n="5">Hunc lege et incipies uitiis post terga relictis </l>
-                     <l>Iudicis ęterni iussa uerenda sequi. </l>
-                     <l>Ille dabit populo cęlestia regna fideli </l>
-                     <l>Infernisque reos ignibus ille dabit. </l>
-                  </div>
-                  <div xml:id="C68" met="elegiacum">
-                     <head> Supra portam urbis Tragurinę</head>
-                     <l>Hoc prętoris opus Pizamani conspicis, hospes,</l>
-                     <l> Dominico si uis noscere nomen erat.</l>
-                     <l>Quęris qualis erat? Celebrarunt laudibus illum</l>
-                     <l> Cum patribus populus cum populoque patres.</l>
-                  </div>
-                  <div xml:id="C69" met="elegiacum">
-                     <head> De Sancto Christophoro</head>
-                     <l>Christophorus plusquam cęlum gestauit in armo.</l>
-                     <l> Cędat Athlas — prisco carmine clarus Athlas!</l>
-                  </div>
-                  <div xml:id="C70" met="elegiacum">
-                     <head> De Sancto Stephano Protomartyre</head>
-                     <l>Primum pro patria cęlesti uulnera passum,</l>
-                     <l> Stephane, te dicunt: tu, Protomartir, aue!</l>
-                  </div>
-                  <div xml:id="C71" met="elegiacum">
-                     <head> De templo S. Domnii olim Ioui dicato</head>
-                     <l>Hęc sunt templa tibi, Domni, data: Iuppiter absit —</l>
-                     <l> Vanus cum ritu Iuppiter ille suo!</l>
-                  </div>
-                  <div xml:id="C72" met="elegiacum">
-                     <head> De dracone marmoreo</head>
-                     <l>In magnum latrare, canes, nolite draconem:</l>
-                     <l> Hic etiam tauros ore uorare potest.</l>
-                  </div>
-               
-            </body>
-         </text>
-         
-
+   </teiHeader>
+   <text xml:base="urn:cts:croala:marulus-m.carmina002.croala-lat1:"
+         xml:lang="lat">
+      <front>
+         <docTitle>
+            <titlePart>POPRATNICE UZ KNJIGE I JAVNI NATPISI</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div xml:id="C64" met="elegiacum">
+            <head> Bibliopola ad lectorem</head>
+            <l>Quisquis nosse cupis modico collecta libello </l>
+            <l>Bibliacis quę sunt sparsa uoluminibus, </l>
+            <l>Primorum mores hominum regumque potentum </l>
+            <l>Res uarias et opes et fera bella ducum </l>
+            <l n="5">Et gnaras fati mentes sortisque futurę </l>
+            <l>Actaque tergemini prodigiosa Dei – </l>
+            <l>Hortamur paruum parua mercede parato </l>
+            <l>Hoc quod non paruę est utilitatis opus.</l>
+         </div>
+         <div xml:id="C65" met="elegiacum" type="poesis-carmen-elegia">
+            <head> Carmen de gestis Herculis</head>
+            <l>Paruulus Alcydes geminos interficit angues </l>
+            <l>Aggressus tenera dura pericla manu. </l>
+            <l>Ast ubi creuerunt pariter cum uiribus anni, </l>
+            <l>Liberat oppressam seruitio patriam. </l>
+            <l n="5">Illo autore perit Nemeę leo bellua siluę, </l>
+            <l>De multis unum non habet hydra caput, </l>
+            <l>Ipsa Erimanthei feritas elanguit apri </l>
+            <l>Et ceruam celeres destituere pedes. </l>
+            <l>Stymphalidas domat arcus aues tinnitus et ęris, </l>
+            <l n="10">Et stabuli sordes fluminis unda rapit. </l>
+            <l>Taurum, Creta, tuum tellus Argiua recępit </l>
+            <l>Pasiphen captam cuius amore ferunt. </l>
+            <l>Quos aluit quondam Diomedes hospite cęso, </l>
+            <l>Illos deinde suo sanguine pauit equos. </l>
+            <l n="15">Tris animas triplici fudit de corpore uictus </l>
+            <l>Pro grege Geryones dum capit arma suo. </l>
+            <l>Agmina Amazonidum peltis fugere relictis, </l>
+            <l>Zonam uicta suam perdidit Hippolite. </l>
+            <l>Mactato Hesperidum carpuntur poma dracone </l>
+            <l n="20">Aurea: peruigilem profuit esse nihil. </l>
+            <l>Ferrea soluuntur religati uincla Promethei, </l>
+            <l>Improba cui misero cor lacerabat auis. </l>
+            <l>Cerberus ad superos raptus mirantibus umbris </l>
+            <l>Ducitur, infernę ianitor ille domus.</l>
+            <l n="25">Humana gaudens Busiris cęde cruentus </l>
+            <l>Pertulit occisus quod dabat exitium. </l>
+            <l>Herculeas uires uasti sensere Gygantes </l>
+            <l>Cęlicolis ausi bella mouere deis </l>
+            <l>Et Centaurorum uis ardens quadrupedantum </l>
+            <l n="30">Concidit Herculeę uerbere fracta manus. </l>
+            <l>Victus Achelous propriis caput intulit undis </l>
+            <l>Illum dum Alcydę succubuisse pudet. </l>
+            <l>Fortis Erix cestu, flammę munimine Cacus, </l>
+            <l>Antheus terrę dum cadit usus ope, </l>
+            <l n="35">Oechalię regno fidens Euritus – ab illo </l>
+            <l>Victi omnes dirę damna tulere necis. </l>
+            <l>Neptunno natos saxis prostrauit, ut aiunt, </l>
+            <l>Saxa hęc e cęlo suppeditante Ioue. </l>
+            <l>Sed licet hic semper uictor superauerit olim </l>
+            <l n="40">Terribilesque feras terribilesque uiros, </l>
+            <l>Fortior est illo quisquis se uicerit ipsum </l>
+            <l>Addideritque malis frena cupidinibus, </l>
+            <l>Atque iter ad cęlum uera uirtute pararit </l>
+            <l>Donandus uitę munere perpetuę.</l>
+         </div>
+         <div xml:id="C66" met="elegiacum">
+            <head> Tetrasticon de Hercule</head>
+            <l>Quem non euertit uitiorum dira libido, </l>
+            <l>Fortior hic ipso est Amphitrioniade. </l>
+            <l>Esse ita cognosces Marci quicunque libellum </l>
+            <l>Quo magni Alcydę rettulit acta leges.</l>
+         </div>
+         <div xml:id="C67" met="elegiacum">
+            <head> Ad lectorem</head>
+            <l>Sęclorum finem paruus tenet iste libellus</l>
+            <l>Et summi examen iudiciumque Dei </l>
+            <l>Clangoremque tubę quo mortua corpora surgent</l>
+            <l>Et referent meritis pręmia digna suis. </l>
+            <l n="5">Hunc lege et incipies uitiis post terga relictis </l>
+            <l>Iudicis ęterni iussa uerenda sequi. </l>
+            <l>Ille dabit populo cęlestia regna fideli </l>
+            <l>Infernisque reos ignibus ille dabit. </l>
+         </div>
+         <div xml:id="C68" met="elegiacum">
+            <head> Supra portam urbis Tragurinę</head>
+            <l>Hoc prętoris opus Pizamani conspicis, hospes,</l>
+            <l> Dominico si uis noscere nomen erat.</l>
+            <l>Quęris qualis erat? Celebrarunt laudibus illum</l>
+            <l> Cum patribus populus cum populoque patres.</l>
+         </div>
+         <div xml:id="C69" met="elegiacum">
+            <head> De Sancto Christophoro</head>
+            <l>Christophorus plusquam cęlum gestauit in armo.</l>
+            <l> Cędat Athlas — prisco carmine clarus Athlas!</l>
+         </div>
+         <div xml:id="C70" met="elegiacum">
+            <head> De Sancto Stephano Protomartyre</head>
+            <l>Primum pro patria cęlesti uulnera passum,</l>
+            <l> Stephane, te dicunt: tu, Protomartir, aue!</l>
+         </div>
+         <div xml:id="C71" met="elegiacum">
+            <head> De templo S. Domnii olim Ioui dicato</head>
+            <l>Hęc sunt templa tibi, Domni, data: Iuppiter absit —</l>
+            <l> Vanus cum ritu Iuppiter ille suo!</l>
+         </div>
+         <div xml:id="C72" met="elegiacum">
+            <head> De dracone marmoreo</head>
+            <l>In magnum latrare, canes, nolite draconem:</l>
+            <l> Hic etiam tauros ore uorare potest.</l>
+         </div>
+      </body>
+   </text>
 </TEI>

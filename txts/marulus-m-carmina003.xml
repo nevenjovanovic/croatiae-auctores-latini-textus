@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="marulus-m-carmina003">
          <titleStmt>
             <title>Carmina Latina III, versio electronica</title>
@@ -45,66 +46,6 @@
             <bibl>Francisco Javier Juez y Gálvez, Maruliana u Kolumbovoj knjižnici u Sevilli, Colloquia Maruliana, Vol.14 Travanj 2005. Str. 199 - 233</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="15"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="5"/>
-          <tagUsage gi="body" occurs="12"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="div" occurs="210" withId="194"/>
-          <tagUsage gi="docTitle" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="6"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="13"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="group" occurs="1"/>
-          <tagUsage gi="head" occurs="208"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2206" withId="64"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="39"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="11" withId="2"/>
-          <tagUsage gi="ref" occurs="8"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="36"/>
-          <tagUsage gi="speaker" occurs="25"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="9"/>
-          <tagUsage gi="text" occurs="13"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -170,252 +111,250 @@
       </change>
          <change>
             <date>2005-04-08T17:24:54</date>
-            <persName><ref type="viaf" target="6913774">Neven Jovanovic</ref></persName> revision </change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanovic</ref>
+            </persName> revision </change>
       </revisionDesc>
-  </teiHeader>
-  
-   <text xml:base="urn:cts:croala:marulus-m.carmina003.croala-lat1:" xml:lang="lat">
-            <front>
-               <head>POHVALNI EPIGRAMI I EPIGRAMSKE POSLANICE</head>
-            </front>
-            <body>
-               
-
-                  <div xml:id="C73" met="elegiacum">
-                     <head> Ad Ioannem Asclepianum poetam de eius Ariminea in qua Robertum Ariminensium
+   </teiHeader>
+   <text xml:base="urn:cts:croala:marulus-m.carmina003.croala-lat1:"
+         xml:lang="lat">
+      <front>
+         <head>POHVALNI EPIGRAMI I EPIGRAMSKE POSLANICE</head>
+      </front>
+      <body>
+         <div xml:id="C73" met="elegiacum">
+            <head> Ad Ioannem Asclepianum poetam de eius Ariminea in qua Robertum Ariminensium
                 ducem Latium Achillem appellat</head>
-                     <l>Pyerios cantus Latiumque sonantia plectra</l>
-                     <l> Eacidem superis, Asclepiane, parem</l>
-                     <l>Legimus. Ipsa suas tibi tanta ad carmina uires</l>
-                     <l> Diuinumque dedit Calliope ingenium.</l>
-                     <l n="5">Sic, puto, Phlegreę referens certamina pugnę </l>
-                     <l> Increpuit resonam Cinthius ipse lyram</l>
-                     <l>Et toto plaudente polo, mirantibus astris,</l>
-                     <l> Victoris cecinit fortia facta Iouis.</l>
-                  </div>
-                  <div xml:id="C74" met="elegiacum">
-                     <head> Ad Franciscum Sricham saltatriculum</head>
-                     <l>Exercere choros et molli ludere saltu</l>
-                     <l> Et terram tremulo uix tetigisse gradu</l>
-                     <l>Et pede lasciuo dulces circundare gyros</l>
-                     <l> Te circum tenero sępe micante sinu,</l>
-                     <l n="5">Postremo ad citharę uocem saltare canorę </l>
-                     <l> Nunc his, nunc aliis, denique mille modis,</l>
-                     <l>Sic, Francisce, soles ut dicant forte puellę:</l>
-                     <sp who="puellae">
-                        <l> »Hunc docuit lusus nostra Diana suos!«</l>
-                     </sp>
-                  </div>
-                  <div xml:id="C75" met="elegiacum">
-                     <head> 
-                        <add>Ad Franciscum Martiniacum</add>
-                     </head>
-                     <l>Nascenti, Francisce, tibi risere Camenę </l>
-                     <l> Porrexitque suam lętus Apollo lyram, </l>
-                     <l>Et tua ter sacra lustrans cunabula lauro </l>
-                     <l> Ter quoque Castaliis illa rigauit aquis. </l>
-                     <l n="5">Hinc nondum puber, sed adhuc puerilibus annis, </l>
-                     <l> Ędis iam Siculo carmina digna sene. </l>
-                     <l>Si fera maturum Lachesis tibi uoluerit ęuum,</l>
-                     <l> Aoniam flabis forsan et ipse tubam </l>
-                     <l>Atque cothurnatis pedibus comitabere uatem </l>
-                     <l n="10"> Qui profugos Troas, qui canit arma uirum. </l>
-                     <l>Viue igitur, sed uiue diu, ne nostra uetustis </l>
-                     <l> Inuideant semper sęcula temporibus, </l>
-                     <l>Ne semper uictam doleat se fama nepotum,</l>
-                     <l> Te tandem sed auis pręferat et proauis. </l>
-                  </div>
-                  <div xml:id="C76">
-                     <head> 
-                        <add>Ad Hieronymum Martiniacum</add>
-                     </head>
-                     <l>Hieronyme, Aonię quanuis nouus incola siluę, </l>
-                     <l> Iudice me potis es dicier esse uetus: </l>
-                     <l>Nam tua iam redolent Phoebeam carmina laurum </l>
-                     <l> Et serta ex hedera iam tibi texta petunt. </l>
-                     <l n="5">Eia igitur biiugi cape celsa cacumina montis, </l>
-                     <l> Quo uerę laudis semita pandit iter, </l>
-                     <l>Et tecum comitem fratrem trahe, nanque duorum </l>
-                     <l> Vis una ingenii est unus et artis amor. </l>
-                     <l>Parcite sed tandem me tollere ad ęthera pennis,</l>
-                     <l n="10"> Ne forte Icarię fabula dicar aquę. </l>
-                     <l>Magna decent magnos: mihi sat perrepere terram </l>
-                     <l> Atque per exiguos uelificare lacus; </l>
-                     <l>Sat mihi uester amor, tristes nam temnere possum </l>
-                     <l> Inuidię uestro tectus amore minas. </l>
-                  </div>
-                  <div xml:id="C77">
-                     <head> 
-                        <add>Ad Hieronymum Papalem</add>
-                     </head>
-                     <l>Hieronyme, in teneris sic carmina concinis annis </l>
-                     <l> Vt liceat de te coniicere ista mihi: </l>
-                     <l>Tempora Apollinea gestabis cincta corona </l>
-                     <l> Et solues Lycio debita uota deo;</l>
-                     <l n="5">Tunc tua per terras ibit perque ęquora fama,  </l>
-                     <l> Quisque feret nomen sydera ad alta tuum. </l>
-                     <l>Si, quibus incumbis, studiis pręstabis in illis, </l>
-                     <l> Tędia nec longus conferet ulla labor; </l>
-                     <l>At si blanda magis te delectare uoluptas </l>
-                     <l n="10"> Segnis et incipiet gratior esse quies, </l>
-                     <l>Obscurus uiues, et tellus nomen eadem</l>
-                     <l> Obruat illa tuum quę tua membra teget. </l>
-                     <l>Id tibi ne ueniat, Musarum cultibus, oro, </l>
-                     <l> Exerce ingenium nocte dieque tuum. </l>
-                  </div>
-                  <div xml:id="C78">
-                     <head> 
-                        <add>Ad Nicolaum de Albertis</add>
-                     </head>
-                     <l>Quę mihi misisti, iuuenum doctissime, scripta, </l>
-                     <l> Hęc admiranti sępius ore lego, </l>
-                     <l>Ingeniique tui mecum noua liba rependens </l>
-                     <l> Musarum et Phoebi censeo digna laris, </l>
-                     <l n="5">Non quia tu nostram tollis super astra Camenam, </l>
-                     <l> Incultis solitam stridere arundinibus, </l>
-                     <l>Sed quia uix puber iam proximus ire uideris </l>
-                     <l> Vatibus antiquis Pierioque choro. </l>
-                     <l>Ergo iter incoeptum, quęso, ne desere, donec </l>
-                     <l n="10"> Aonii superes culmina summa iugi.  </l>
-                     <l>O quam magna tibi succedet gloria cum te </l>
-                     <l> Ętas nostra simul posteriorque leget! </l>
-                  </div>
-                  <div xml:id="C79">
-                     <head> 
-                        <add>Ad Thomam Chrancum</add>
-                     </head>
-                     <l>Nondum bis geminum memorant tua tempora lustrum, </l>
-                     <l> Tandem maturos ędis ab ore sonos. </l>
-                     <l>Sed non est coepisse satis: persistere oportet </l>
-                     <l> Quisquis par magnis uatibus esse cupit. </l>
-                     <l n="5">Perge igitur multisque tuis comes ire memento </l>
-                     <l> Vsque ad Pierii culmina, Chrance, iugi. </l>
-                     <l>Carmina cum Musis tibi tunc dictabit Apollo, </l>
-                     <l> Quę pręsens ętas posteriorque leget. </l>
-                     <l>Ergo primitias frugum, iucunde, tuarum </l>
-                     <l n="10"> Ad iustam messem crescere, Chrance, sine.  </l>
-                     <l>Ore rudi culicem cecinit Maro, mox tamen idem </l>
-                     <l> Arma uirum miris retulit ille modis. </l>
-                     <l>Post ranas muresque suos diuinus Homerus </l>
-                     <l> Victurum sęclis omnibus egit opus. </l>
-                     <l n="15">Nemo repente fuit sat magno dignus honore,  </l>
-                     <l> Grandescitque suo planta nouella die, </l>
-                     <l>Quęque humili raras gestabat stipite frondes, </l>
-                     <l> Iam pandit ramos fertque sub astra caput. </l>
-                  </div>
-                  <div xml:id="C80">
-                     <head> Ad Phoebum pro Hannibale iuuene poeticę studioso</head>
-                     <l>Sume lyram lauroque tuos pręcinge capillos</l>
-                     <l> Et lętus uatem suscipe, Phoebe, nouum.</l>
-                     <l>Carmina nam primis tibi promere coepit ab annis</l>
-                     <l> Hannibal eximio pręditus ingenio</l>
-                     <l n="5">Atque idem facie pręstans et crine superbus, </l>
-                     <l> Candida qui flauo colla colore tegit.</l>
-                     <l>Huic, oro, faueas ut, qui te corpore refert,</l>
-                     <l> Cantibus accedat proximus ille tuis.</l>
-                     <l>Et qui nunc iuuenum fertur pulcherrimus, idem</l>
-                     <l n="10"> Arte sua iuuenes anteeat atque senes. </l>
-                  </div>
-                  <div xml:id="C81">
-                     <head> Ad Caterinum poetam Pharensem</head>
-                     <l>Dulce tuum nobis carmen, Caterine, nimisque</l>
-                     <l> Dulcia polito uerba soluta sono.</l>
-                     <l>Est tibi Musarum certus fauor atque canenti</l>
-                     <l> Non negat argutam Cinthius ipse lyram.</l>
-                     <l n="5">Talia sępe tuo manant de pectore uerba </l>
-                     <l> Qualia ab Hybleis roscida mella fauis.</l>
-                     <l>Et tua nos tantum delectant carmina quantum</l>
-                     <l> Fessos ęstiui temporis aura uiros.</l>
-                     <l>Gaudeat ista quidem tua nobilis insula Pharos</l>
-                     <l n="10"> Se demum uatem progenuisse nouum, </l>
-                     <l>Quique suę patrię celebret per sęcula nomen</l>
-                     <l> Quique simul laudes edat in orbe suas.</l>
-                     <l>Perge alios aliosque refer modulamine cantus</l>
-                     <l> Et tibi dii faueant Pyeridumque cohors!</l>
-                  </div>
-                  <div xml:id="C82" met="hendecasyllabus">
-                     <head> De Alberto citharedo</head>
-                     <l>Albertus cithara sonabat ista</l>
-                     <l>Quando illum roseis Diana labris,</l>
-                     <l>Dum fratrem putat, ipsa basiauit.</l>
-                  </div>
-                  <div xml:id="C83">
-                     <head> De Marino in cęna dulciter canente</head>
-                     <l>Dulcior ambrosia est cęna hęc et nectare sacro;</l>
-                     <l>Dulcius est cęna carmen cantante Marino.</l>
-                  </div>
-                  <div xml:id="C84">
-                     <head> In Hieronymum Papalem, psalocitharistam omnium pręstantissimum</head>
-                     <l>Cantibus Orphei Rhodope lętetur et Hemus,</l>
-                     <l> Thebe Amphioniam laudet ametque lyram;</l>
-                     <l>Pandus et argutum quod gessit Ariona delphin,</l>
-                     <l> Hoc Metimna super sydera cuncta ferat.</l>
-                     <l n="5">Gloria non leuior Spalatinę contigit urbi: </l>
-                     <l> Hieronymum quo se tam bene iactet habet.</l>
-                     <l>Huic admirantes plaudunt hominesque deique</l>
-                     <l> Quum cytharam digitis pulsat et ore canit.</l>
-                     <l>Hunc prędulce melos Musę sensere sonantem</l>
-                     <l n="10"> Nullaque non Phoebi credidit esse sui. </l>
-                     <l>Fama licet saxis alios placuisse ferisque,</l>
-                     <l> Hic placet his quorum mens animusque sapit.</l>
-                  </div>
-                  <div xml:id="C85">
-                     <head> De Diodoro statuario</head>
-                     <l>Perdidit infelix charam Diodorus amicam,</l>
-                     <l> Quam potuit nullo iam reuocare modo.</l>
-                     <l>Quod potuit, similes formauit marmore uultus:</l>
-                     <l> Quam fuerat similis ipsa puella sibi!</l>
-                     <l n="5">Non poterunt igitur crudelia fata negare </l>
-                     <l> Hoc, Diodore, tibi: mortua uiuit enim!</l>
-                  </div>
-                  <div xml:id="C86">
-                     <head> Ad Triphonem Buchiam</head>
-                     <l>Qualis amor fratrum fuit olim Tyndaridarum,</l>
-                     <l> Qualis amor Thesei Pirithoique fuit,</l>
-                     <l>Qualiter ipse suum Pilades dilexit Orestem,</l>
-                     <l> Damonem Pithias qualiter ipse suum,</l>
-                     <l>Talis amor, Triphon, nostro sub pectore feruet, <note type="numvers">5</note>
-                     </l>
-                     <l> Concilians pariter me tibi teque mihi.</l>
-                     <l>Quos alios nobis poterit pręferre uetustas,</l>
-                     <l> Istis si noster cędere nescit amor?</l>
-                     <l>Sum tuus atque tuus, dum pręsens suppetit ętas</l>
-                     <l> Et dum nostra uigent corpora, semper ero. <note type="numvers">10</note>
-                     </l>
-                  </div>
-                  <div xml:id="C87">
-                     <head> Ad Nicolaum sibi carissimum</head>
-                     <l>Si modo tanta foret dicendi copia nobis</l>
-                     <l> Quantam iudicio dicor habere tuo,</l>
-                     <l>Horrida sanguinei canerem nunc pręlia Martis</l>
-                     <l> Atque coturnato bella cruenta pede.</l>
-                     <l n="5">Non ea, sed potius quantum te pectore fixi, </l>
-                     <l> Me quoque tu quantum diligis ex animo,</l>
-                     <l>Hoc arguta meę resonarent plectra Camenę</l>
-                     <l> Tamque pium nobis extrueretur opus.</l>
-                     <l>Pasiphes generi iuuenisque Ixione nati</l>
-                     <l> Esset, crede mihi, non mage notus amor. <note type="numvers">10</note>
-                     </l>
-                     <l>Sed licet aut sacrę faueant mihi numina Cyrrhę</l>
-                     <l> Siue colit Nysę qui iuga celsa deus,</l>
-                     <l>Effari, Nicolae, tamen non carmine possem</l>
-                     <l> Quam mihi sit nostrum dulce sodalicium.</l>
-                  </div>
-                  <div xml:id="C88">
-                     <head> Ad Franciscum Natalem</head>
-                     <l>Dum, Francisce, meum tollis super ęthera nomen</l>
-                     <l> Assiduo cantu carminibusque tuis,</l>
-                     <l>Efficis ut comptę mirer dictata Camenę</l>
-                     <l> Ipsaque Phoebea uerba sonanda lyra.</l>
-                     <l n="5">Cingent Aonię lauro tua tempora Musę </l>
-                     <l> Teque colit pręsens posteriorque dies.</l>
-                     <l>Hęc dico non ut laudem pro laude rependam,</l>
-                     <l> Sed quia me semper dicere uera iuuat.</l>
-                     <l>Hęc ego si taceam, taceant si deniqui cuncti,</l>
-                     <l n="10"> Incipient siluę mutaque saxa loqui. </l>
-                  </div>
-               
-            </body>
-         </text>
-         
+            <l>Pyerios cantus Latiumque sonantia plectra</l>
+            <l> Eacidem superis, Asclepiane, parem</l>
+            <l>Legimus. Ipsa suas tibi tanta ad carmina uires</l>
+            <l> Diuinumque dedit Calliope ingenium.</l>
+            <l n="5">Sic, puto, Phlegreę referens certamina pugnę </l>
+            <l> Increpuit resonam Cinthius ipse lyram</l>
+            <l>Et toto plaudente polo, mirantibus astris,</l>
+            <l> Victoris cecinit fortia facta Iouis.</l>
+         </div>
+         <div xml:id="C74" met="elegiacum">
+            <head> Ad Franciscum Sricham saltatriculum</head>
+            <l>Exercere choros et molli ludere saltu</l>
+            <l> Et terram tremulo uix tetigisse gradu</l>
+            <l>Et pede lasciuo dulces circundare gyros</l>
+            <l> Te circum tenero sępe micante sinu,</l>
+            <l n="5">Postremo ad citharę uocem saltare canorę </l>
+            <l> Nunc his, nunc aliis, denique mille modis,</l>
+            <l>Sic, Francisce, soles ut dicant forte puellę:</l>
+            <sp who="puellae">
+               <l> »Hunc docuit lusus nostra Diana suos!«</l>
+            </sp>
+         </div>
+         <div xml:id="C75" met="elegiacum">
+            <head>
+               <add>Ad Franciscum Martiniacum</add>
+            </head>
+            <l>Nascenti, Francisce, tibi risere Camenę </l>
+            <l> Porrexitque suam lętus Apollo lyram, </l>
+            <l>Et tua ter sacra lustrans cunabula lauro </l>
+            <l> Ter quoque Castaliis illa rigauit aquis. </l>
+            <l n="5">Hinc nondum puber, sed adhuc puerilibus annis, </l>
+            <l> Ędis iam Siculo carmina digna sene. </l>
+            <l>Si fera maturum Lachesis tibi uoluerit ęuum,</l>
+            <l> Aoniam flabis forsan et ipse tubam </l>
+            <l>Atque cothurnatis pedibus comitabere uatem </l>
+            <l n="10"> Qui profugos Troas, qui canit arma uirum. </l>
+            <l>Viue igitur, sed uiue diu, ne nostra uetustis </l>
+            <l> Inuideant semper sęcula temporibus, </l>
+            <l>Ne semper uictam doleat se fama nepotum,</l>
+            <l> Te tandem sed auis pręferat et proauis. </l>
+         </div>
+         <div xml:id="C76">
+            <head>
+               <add>Ad Hieronymum Martiniacum</add>
+            </head>
+            <l>Hieronyme, Aonię quanuis nouus incola siluę, </l>
+            <l> Iudice me potis es dicier esse uetus: </l>
+            <l>Nam tua iam redolent Phoebeam carmina laurum </l>
+            <l> Et serta ex hedera iam tibi texta petunt. </l>
+            <l n="5">Eia igitur biiugi cape celsa cacumina montis, </l>
+            <l> Quo uerę laudis semita pandit iter, </l>
+            <l>Et tecum comitem fratrem trahe, nanque duorum </l>
+            <l> Vis una ingenii est unus et artis amor. </l>
+            <l>Parcite sed tandem me tollere ad ęthera pennis,</l>
+            <l n="10"> Ne forte Icarię fabula dicar aquę. </l>
+            <l>Magna decent magnos: mihi sat perrepere terram </l>
+            <l> Atque per exiguos uelificare lacus; </l>
+            <l>Sat mihi uester amor, tristes nam temnere possum </l>
+            <l> Inuidię uestro tectus amore minas. </l>
+         </div>
+         <div xml:id="C77">
+            <head>
+               <add>Ad Hieronymum Papalem</add>
+            </head>
+            <l>Hieronyme, in teneris sic carmina concinis annis </l>
+            <l> Vt liceat de te coniicere ista mihi: </l>
+            <l>Tempora Apollinea gestabis cincta corona </l>
+            <l> Et solues Lycio debita uota deo;</l>
+            <l n="5">Tunc tua per terras ibit perque ęquora fama,  </l>
+            <l> Quisque feret nomen sydera ad alta tuum. </l>
+            <l>Si, quibus incumbis, studiis pręstabis in illis, </l>
+            <l> Tędia nec longus conferet ulla labor; </l>
+            <l>At si blanda magis te delectare uoluptas </l>
+            <l n="10"> Segnis et incipiet gratior esse quies, </l>
+            <l>Obscurus uiues, et tellus nomen eadem</l>
+            <l> Obruat illa tuum quę tua membra teget. </l>
+            <l>Id tibi ne ueniat, Musarum cultibus, oro, </l>
+            <l> Exerce ingenium nocte dieque tuum. </l>
+         </div>
+         <div xml:id="C78">
+            <head>
+               <add>Ad Nicolaum de Albertis</add>
+            </head>
+            <l>Quę mihi misisti, iuuenum doctissime, scripta, </l>
+            <l> Hęc admiranti sępius ore lego, </l>
+            <l>Ingeniique tui mecum noua liba rependens </l>
+            <l> Musarum et Phoebi censeo digna laris, </l>
+            <l n="5">Non quia tu nostram tollis super astra Camenam, </l>
+            <l> Incultis solitam stridere arundinibus, </l>
+            <l>Sed quia uix puber iam proximus ire uideris </l>
+            <l> Vatibus antiquis Pierioque choro. </l>
+            <l>Ergo iter incoeptum, quęso, ne desere, donec </l>
+            <l n="10"> Aonii superes culmina summa iugi.  </l>
+            <l>O quam magna tibi succedet gloria cum te </l>
+            <l> Ętas nostra simul posteriorque leget! </l>
+         </div>
+         <div xml:id="C79">
+            <head>
+               <add>Ad Thomam Chrancum</add>
+            </head>
+            <l>Nondum bis geminum memorant tua tempora lustrum, </l>
+            <l> Tandem maturos ędis ab ore sonos. </l>
+            <l>Sed non est coepisse satis: persistere oportet </l>
+            <l> Quisquis par magnis uatibus esse cupit. </l>
+            <l n="5">Perge igitur multisque tuis comes ire memento </l>
+            <l> Vsque ad Pierii culmina, Chrance, iugi. </l>
+            <l>Carmina cum Musis tibi tunc dictabit Apollo, </l>
+            <l> Quę pręsens ętas posteriorque leget. </l>
+            <l>Ergo primitias frugum, iucunde, tuarum </l>
+            <l n="10"> Ad iustam messem crescere, Chrance, sine.  </l>
+            <l>Ore rudi culicem cecinit Maro, mox tamen idem </l>
+            <l> Arma uirum miris retulit ille modis. </l>
+            <l>Post ranas muresque suos diuinus Homerus </l>
+            <l> Victurum sęclis omnibus egit opus. </l>
+            <l n="15">Nemo repente fuit sat magno dignus honore,  </l>
+            <l> Grandescitque suo planta nouella die, </l>
+            <l>Quęque humili raras gestabat stipite frondes, </l>
+            <l> Iam pandit ramos fertque sub astra caput. </l>
+         </div>
+         <div xml:id="C80">
+            <head> Ad Phoebum pro Hannibale iuuene poeticę studioso</head>
+            <l>Sume lyram lauroque tuos pręcinge capillos</l>
+            <l> Et lętus uatem suscipe, Phoebe, nouum.</l>
+            <l>Carmina nam primis tibi promere coepit ab annis</l>
+            <l> Hannibal eximio pręditus ingenio</l>
+            <l n="5">Atque idem facie pręstans et crine superbus, </l>
+            <l> Candida qui flauo colla colore tegit.</l>
+            <l>Huic, oro, faueas ut, qui te corpore refert,</l>
+            <l> Cantibus accedat proximus ille tuis.</l>
+            <l>Et qui nunc iuuenum fertur pulcherrimus, idem</l>
+            <l n="10"> Arte sua iuuenes anteeat atque senes. </l>
+         </div>
+         <div xml:id="C81">
+            <head> Ad Caterinum poetam Pharensem</head>
+            <l>Dulce tuum nobis carmen, Caterine, nimisque</l>
+            <l> Dulcia polito uerba soluta sono.</l>
+            <l>Est tibi Musarum certus fauor atque canenti</l>
+            <l> Non negat argutam Cinthius ipse lyram.</l>
+            <l n="5">Talia sępe tuo manant de pectore uerba </l>
+            <l> Qualia ab Hybleis roscida mella fauis.</l>
+            <l>Et tua nos tantum delectant carmina quantum</l>
+            <l> Fessos ęstiui temporis aura uiros.</l>
+            <l>Gaudeat ista quidem tua nobilis insula Pharos</l>
+            <l n="10"> Se demum uatem progenuisse nouum, </l>
+            <l>Quique suę patrię celebret per sęcula nomen</l>
+            <l> Quique simul laudes edat in orbe suas.</l>
+            <l>Perge alios aliosque refer modulamine cantus</l>
+            <l> Et tibi dii faueant Pyeridumque cohors!</l>
+         </div>
+         <div xml:id="C82" met="hendecasyllabus">
+            <head> De Alberto citharedo</head>
+            <l>Albertus cithara sonabat ista</l>
+            <l>Quando illum roseis Diana labris,</l>
+            <l>Dum fratrem putat, ipsa basiauit.</l>
+         </div>
+         <div xml:id="C83">
+            <head> De Marino in cęna dulciter canente</head>
+            <l>Dulcior ambrosia est cęna hęc et nectare sacro;</l>
+            <l>Dulcius est cęna carmen cantante Marino.</l>
+         </div>
+         <div xml:id="C84">
+            <head> In Hieronymum Papalem, psalocitharistam omnium pręstantissimum</head>
+            <l>Cantibus Orphei Rhodope lętetur et Hemus,</l>
+            <l> Thebe Amphioniam laudet ametque lyram;</l>
+            <l>Pandus et argutum quod gessit Ariona delphin,</l>
+            <l> Hoc Metimna super sydera cuncta ferat.</l>
+            <l n="5">Gloria non leuior Spalatinę contigit urbi: </l>
+            <l> Hieronymum quo se tam bene iactet habet.</l>
+            <l>Huic admirantes plaudunt hominesque deique</l>
+            <l> Quum cytharam digitis pulsat et ore canit.</l>
+            <l>Hunc prędulce melos Musę sensere sonantem</l>
+            <l n="10"> Nullaque non Phoebi credidit esse sui. </l>
+            <l>Fama licet saxis alios placuisse ferisque,</l>
+            <l> Hic placet his quorum mens animusque sapit.</l>
+         </div>
+         <div xml:id="C85">
+            <head> De Diodoro statuario</head>
+            <l>Perdidit infelix charam Diodorus amicam,</l>
+            <l> Quam potuit nullo iam reuocare modo.</l>
+            <l>Quod potuit, similes formauit marmore uultus:</l>
+            <l> Quam fuerat similis ipsa puella sibi!</l>
+            <l n="5">Non poterunt igitur crudelia fata negare </l>
+            <l> Hoc, Diodore, tibi: mortua uiuit enim!</l>
+         </div>
+         <div xml:id="C86">
+            <head> Ad Triphonem Buchiam</head>
+            <l>Qualis amor fratrum fuit olim Tyndaridarum,</l>
+            <l> Qualis amor Thesei Pirithoique fuit,</l>
+            <l>Qualiter ipse suum Pilades dilexit Orestem,</l>
+            <l> Damonem Pithias qualiter ipse suum,</l>
+            <l>Talis amor, Triphon, nostro sub pectore feruet, <note type="numvers">5</note>
+            </l>
+            <l> Concilians pariter me tibi teque mihi.</l>
+            <l>Quos alios nobis poterit pręferre uetustas,</l>
+            <l> Istis si noster cędere nescit amor?</l>
+            <l>Sum tuus atque tuus, dum pręsens suppetit ętas</l>
+            <l> Et dum nostra uigent corpora, semper ero. <note type="numvers">10</note>
+            </l>
+         </div>
+         <div xml:id="C87">
+            <head> Ad Nicolaum sibi carissimum</head>
+            <l>Si modo tanta foret dicendi copia nobis</l>
+            <l> Quantam iudicio dicor habere tuo,</l>
+            <l>Horrida sanguinei canerem nunc pręlia Martis</l>
+            <l> Atque coturnato bella cruenta pede.</l>
+            <l n="5">Non ea, sed potius quantum te pectore fixi, </l>
+            <l> Me quoque tu quantum diligis ex animo,</l>
+            <l>Hoc arguta meę resonarent plectra Camenę</l>
+            <l> Tamque pium nobis extrueretur opus.</l>
+            <l>Pasiphes generi iuuenisque Ixione nati</l>
+            <l> Esset, crede mihi, non mage notus amor. <note type="numvers">10</note>
+            </l>
+            <l>Sed licet aut sacrę faueant mihi numina Cyrrhę</l>
+            <l> Siue colit Nysę qui iuga celsa deus,</l>
+            <l>Effari, Nicolae, tamen non carmine possem</l>
+            <l> Quam mihi sit nostrum dulce sodalicium.</l>
+         </div>
+         <div xml:id="C88">
+            <head> Ad Franciscum Natalem</head>
+            <l>Dum, Francisce, meum tollis super ęthera nomen</l>
+            <l> Assiduo cantu carminibusque tuis,</l>
+            <l>Efficis ut comptę mirer dictata Camenę</l>
+            <l> Ipsaque Phoebea uerba sonanda lyra.</l>
+            <l n="5">Cingent Aonię lauro tua tempora Musę </l>
+            <l> Teque colit pręsens posteriorque dies.</l>
+            <l>Hęc dico non ut laudem pro laude rependam,</l>
+            <l> Sed quia me semper dicere uera iuuat.</l>
+            <l>Hęc ego si taceam, taceant si deniqui cuncti,</l>
+            <l n="10"> Incipient siluę mutaque saxa loqui. </l>
+         </div>
+      </body>
+   </text>
 </TEI>

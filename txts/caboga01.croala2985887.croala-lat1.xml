@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="caboga01.croala2985887.croala-lat1">
          <titleStmt>
             <title>De exemplis illustrium virorum (a. 1594), versio electronica</title>
             <author>
-          <persName xml:lang="hr">Euzebije Kaboga</persName>
+               <persName xml:lang="hr">Euzebije Kaboga</persName>
                <date>c. 1541-1594</date>
             </author>
             <editor>
@@ -36,7 +37,8 @@
             </pubPlace>
             <date>ožujak 2018</date>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by/3.0/" notBefore="2017-12-25">
+               <licence target="http://creativecommons.org/licenses/by/3.0/"
+                        notBefore="2017-12-25">
                   <p>The Creative Commons Attribution 3.0 Unported (CC BY 3.0) Licence applies to
                      this document.</p>
                   <p>The licence was added on March 22, 2018.</p>
@@ -49,16 +51,6 @@
                Maruliana ..., 25.(25), 71-84. Preuzeto s https://hrcak.srce.hr/157552</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <refsDecl n="CTS">
-        <cRefPattern n="segment" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:*/tei:*[@n='$1']/tei:*[@n='$2'])">
-          <p>This pointer pattern extracts div or title and head or p or titlePage.</p>
-        </cRefPattern>
-        <cRefPattern n="div" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:*/tei:*[@n='$1'])">
-          <p>This pointer pattern extracts head and div or title.</p>
-        </cRefPattern>
-      </refsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -99,7 +91,8 @@
          </listChange>
       </revisionDesc>
    </teiHeader>
-   <text  xml:base="urn:cts:croala:caboga01.croala2985887.croala-lat1:" xml:lang="lat">
+   <text xml:base="urn:cts:croala:caboga01.croala2985887.croala-lat1:"
+         xml:lang="lat">
       <front>
          <pb n="2r"/>
          <titlePage n="titlePage">
@@ -706,7 +699,6 @@
                satis munitus ex hac euolauit luce, electis et post se plerisque sapientia et
                dignitate huius sęculi summis et celebratissimis uiris longe relictis. </p>
          </div>
-
       </body>
    </text>
 </TEI>

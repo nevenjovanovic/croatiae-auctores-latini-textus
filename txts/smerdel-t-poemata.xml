@@ -1,96 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="smerdel-t-poemata">
-            <titleStmt>
-                <title>Poemata octo, versio electronica</title>
-                <author ref="smerdel01">
-                    <persName xml:lang="hr">Smerdel, Ton</persName>
-                    <date from="1904" to="1970">1904-1970</date>
-                </author>
-                <editor>
-                    <persName xml:id="NJ">
+   <teiHeader>
+      <fileDesc xml:id="smerdel-t-poemata">
+         <titleStmt>
+            <title>Poemata octo, versio electronica</title>
+            <author ref="smerdel01">
+               <persName xml:lang="hr">Smerdel, Ton</persName>
+               <date from="1904" to="1970">1904-1970</date>
+            </author>
+            <editor>
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Prvo elektronsko izdanje. <date>Srpnja 2012.</date>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prvo elektronsko izdanje. <date>Srpnja 2012.</date>
             </edition>
-            </editionStmt>
-            <extent ana="B">Mg:B 279 verborum, 90 versus</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+         </editionStmt>
+         <extent ana="B">Mg:B 279 verborum, 90 versus</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when="2012-07">Srpnja 2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Smerdel, Ton: Pontes lucentes. Zagreb, 1962 </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="8"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="8"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="90"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lg" occurs="14"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="7"/>
-          <tagUsage gi="persName" occurs="4" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="42"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-            
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -104,43 +52,37 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1962" period="19xx_2_third">1962</date>
-            </creation>
+            <date when="1962" period="19xx_2_third">1962</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae novissimae (1850-2000)</term>
-                    <term>Saeculum 20 (1901-2000)</term>
-                    <term>1951-2000</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - poema</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae novissimae (1850-2000)</term>
+               <term>Saeculum 20 (1901-2000)</term>
+               <term>1951-2000</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - poema</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <date>2012-07-22</date>
-                <persName>
+      <revisionDesc>
+         <change>
+            <date>2012-07-22</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 Versio prima.
             </change>
-           
-        </revisionDesc>
-    </teiHeader>
-    <text>
-
-	
-
+      </revisionDesc>
+   </teiHeader>
+   <text>
       <body>
          <pb n="5"/>
          <div type="poesis-poema">
-        
             <head>RISUS PANIS</head>
-        
             <l>Accipe serene omnia in vita,    </l>
             <l>Dum in anima tua                </l>
             <l>Cuncta in somno vivunt          </l>
@@ -166,7 +108,6 @@
          </div>
          <div type="poesis-poema">
             <head>Tota pulchra</head>
-        
             <lg>
                <l>Ecce praecedit</l>
                <l>candida virgo</l>
@@ -175,7 +116,6 @@
                <l>veris nascentis</l>
                <l>abdita pandit</l>
             </lg>
-        
             <lg>
                <l>Carmine tota vicinia exultat</l>
                <l>sole oriente</l>
@@ -183,7 +123,6 @@
                <l>ramus olivae</l>
                <l>Oculi eius columbarum volatus per aerem</l>
             </lg>
-        
             <lg>
                <l>Et splendens ut nuntia veris</l>
                <l>calcat per viam</l>
@@ -192,8 +131,8 @@
             </lg>
          </div>
          <pb n="8"/>
-         <div type="poesis-poema"> 
-            <head>MUNUSCULA MARIS</head>          
+         <div type="poesis-poema">
+            <head>MUNUSCULA MARIS</head>
             <lg>
                <l>Caecus nauta                                             </l>
                <l>sedens in horto villulae              </l>
@@ -205,7 +144,6 @@
                <l>Facies eius plena rugarum</l>
                <l>Personae veteris histrionis similis.    </l>
             </lg>
-        
             <lg>
                <l>Aratrum vitae multa delevit             </l>
                <l>Sed circa labia senescentis nautae</l>
@@ -213,7 +151,6 @@
                   <corr resp="#NJ">Splendet</corr> risus</l>
                <l>unius lepidae memoriae.            </l>
             </lg>
-        
             <lg>
                <l>Et tremescente manu</l>
                <l>Bibit vinum caecus nauta</l>
@@ -221,7 +158,6 @@
                <l>Sentiens fratrem se esse                  </l>
                <l>Sonantium undarum.                        </l>
             </lg>
-        
             <lg>
                <l>Sol palmam tendens                        </l>
                <l>Siccat lacrimas</l>
@@ -229,12 +165,10 @@
                <l>iam labentes                          </l>
                <l>in barbam niveam.                       </l>
             </lg>
-        
          </div>
          <pb n="36"/>
          <div type="poesis-poema">
             <head>PROPE SEPULCRUM J. KEATS</head>
-        
             <lg>
                <l>Dies</l>
                <l>avis fatigata</l>
@@ -243,18 +177,15 @@
                </l>
                <l>Forsan dies erit praeda tenebrarum.</l>
             </lg>
-        
             <lg>
                <l>Aliquis dixit</l>
                <l>nomen tuum Keats</l>
                <l>in aqua inscriptum:</l>
             </lg>
-        
             <lg>
                <l>Ubi susurrus istarum aquarum,</l>
                <l>Super quas volant agmina stellarum</l>
             </lg>
-        
             <lg>
                <l>Keats</l>
                <l>hic melius audio</l>
@@ -262,7 +193,6 @@
                <l>semper virentem</l>
                <l>tuum nomen cantantem</l>
             </lg>
-        
             <lg>
                <l>Etiam in sipario crepusculi</l>
                <l>Arridens tibi,</l>
@@ -270,33 +200,28 @@
                <l>Cantat invisibilis luscinia.</l>
             </lg>
          </div>
-    
          <pb n="15"/>
-         <div type="poesis-poema">  
+         <div type="poesis-poema">
             <head>POESIS</head>
             <l>Quid poesis. —</l>
             <l>Momentum inflammatae mentis</l>
             <l>Raptum ex sinu Fati</l>
             <l>Ex palma divitis sed fluentis temporis.</l>
-        
          </div>
          <pb n="28"/>
-         <div type="poesis-poema">  
-        
+         <div type="poesis-poema">
             <head>VISU MIRABILE</head>
-        
             <lg>
                <l>Super mare smaragdinei montes</l>
                <l>sicut pontes</l>
                <l>Oculos et cor</l>
                <l>ad immensum ducunt.</l>
             </lg>
-        
             <lg>
                <l>Digituli ignoti</l>
                <l>poesin in nubibus scribunt</l>
             </lg>
-            </div>
+         </div>
          <pb n="10"/>
          <div type="poesis-poema">
             <head>HASTA SOLARIS</head>
@@ -308,5 +233,5 @@
             <l>In ignotum ruit.</l>
          </div>
       </body>
-    </text>
-    </TEI>
+   </text>
+</TEI>

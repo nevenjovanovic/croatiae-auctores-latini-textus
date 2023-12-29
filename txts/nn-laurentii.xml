@@ -1,92 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="nn-laurentii">
-            <titleStmt>
-                <title>Laurentii archiepiscopi epitaphium, versio electronica</title>
-                <author ref="#anonymus_1099">
-                    <persName xml:lang="lat">Anonymus</persName>
-                    <date>fl. 1099</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="nn-laurentii">
+         <titleStmt>
+            <title>Laurentii archiepiscopi epitaphium, versio electronica</title>
+            <author ref="#anonymus_1099">
+               <persName xml:lang="lat">Anonymus</persName>
+               <date>fl. 1099</date>
+            </author>
+            <editor>
                <persName>
                   <ref>Bratislav Lučin</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Prema digitalnom izdanju na internetu (2011-04-30).</edition>
-            </editionStmt>
-            <extent ana="A">Mg:A 5 versus, verborum 38</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Profil hrvatskog latiniteta, znanstveni projekt na
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prema digitalnom izdanju na internetu (2011-04-30).</edition>
+         </editionStmt>
+         <extent ana="A">Mg:A 5 versus, verborum 38</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Profil hrvatskog latiniteta, znanstveni projekt na
                     <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date>Kolovoza
                         2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                     Dva splitska srednjovjekovna epitafa 
-                    Marulus et al. - De rebus Marulianis et nonnullis aliis, <ref type="internet" target="http://marcusmarulus.blogspot.com/2011/04/dva-splitska-srednjovjekovna-epitafa.html">Marulićev blog.</ref>
+                    Marulus et al. - De rebus Marulianis et nonnullis aliis, <ref type="internet"
+                    target="http://marcusmarulus.blogspot.com/2011/04/dva-splitska-srednjovjekovna-epitafa.html">Marulićev blog.</ref>
                <date when="2011-04-30">2011-04-30</date> Internet.
                 </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="5"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="36"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -100,57 +56,56 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1099" period="10xx_3_third">1099</date>
-                <placeName>Split</placeName>
+            <date when="1099" period="10xx_3_third">1099</date>
+            <placeName>Split</placeName>
          </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae medii aevi (700-1400)</term>
-                    <term>Saeculum 11 (1001-1100)</term>
-                    <term>1051-1100</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - epitaphium</term>
-                    <term>poesis - inscriptio</term>
-                    <term>poesis - epigramma</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae medii aevi (700-1400)</term>
+               <term>Saeculum 11 (1001-1100)</term>
+               <term>1051-1100</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epitaphium</term>
+               <term>poesis - inscriptio</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
+      <revisionDesc>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2012-08-29</date> Svaki epigram u zasebnoj
                 datoteci. </change>
-            <change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <persName>Luka Špoljarić</persName>
             <date>2012-02-11</date>
                 Novo, unificirano zaglavlje. </change>
-            <change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2011-10-29</date> Versio prima. </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="poesis-inscriptio-epitaphium" met="hexameter-leoninus">
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poesis-inscriptio-epitaphium" met="hexameter-leoninus">
                 <!-- Natpis na sarkofagu splitskoga nadbiskupa Lovre († 1099) -->
-
-                <l>Quis sim, scire venis, qui mortis stringor habenis?</l>
-                <l>Pastor eram turbis huius Laurentius urbis.</l>
-                <l>Quam ego dum rexi, si quid minus utile gessi,</l>
-                <l>Id prece, te flagito, tergas, ut opifice Christo</l>
-                <l>Crimine te Sanctus Rex purget Vergine natus.</l>
-            </div>
-        </body>
-    </text>
+            <l>Quis sim, scire venis, qui mortis stringor habenis?</l>
+            <l>Pastor eram turbis huius Laurentius urbis.</l>
+            <l>Quam ego dum rexi, si quid minus utile gessi,</l>
+            <l>Id prece, te flagito, tergas, ut opifice Christo</l>
+            <l>Crimine te Sanctus Rex purget Vergine natus.</l>
+         </div>
+      </body>
+   </text>
 </TEI>

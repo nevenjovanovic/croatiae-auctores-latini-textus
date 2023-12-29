@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="marulus-m-carmina004">
          <titleStmt>
             <title>Carmina Latina IV, versio electronica</title>
@@ -45,66 +46,6 @@
             <bibl>Francisco Javier Juez y Gálvez, Maruliana u Kolumbovoj knjižnici u Sevilli, Colloquia Maruliana, Vol.14 Travanj 2005. Str. 199 - 233</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="15"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="5"/>
-          <tagUsage gi="body" occurs="12"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="div" occurs="210" withId="194"/>
-          <tagUsage gi="docTitle" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="6"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="13"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="group" occurs="1"/>
-          <tagUsage gi="head" occurs="208"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2206" withId="64"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="39"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="11" withId="2"/>
-          <tagUsage gi="ref" occurs="8"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="36"/>
-          <tagUsage gi="speaker" occurs="25"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="9"/>
-          <tagUsage gi="text" occurs="13"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -170,290 +111,288 @@
       </change>
          <change>
             <date>2005-04-08T17:24:54</date>
-            <persName><ref type="viaf" target="6913774">Neven Jovanovic</ref></persName> revision </change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanovic</ref>
+            </persName> revision </change>
       </revisionDesc>
-  </teiHeader>
-   <text xml:base="urn:cts:croala:marulus-m.carmina004.croala-lat1:" xml:lang="lat">
-            <front>
-               <head>PRIGODNI I POLITIČKI EPIGRAMI</head>
-            </front>
-            <body>
-               
-
-                  <div xml:id="C89">
-                     <head> De uirtute animique pręstantia Dominici Manlipetri, Venetę classis pręfecti,
+   </teiHeader>
+   <text xml:base="urn:cts:croala:marulus-m.carmina004.croala-lat1:"
+         xml:lang="lat">
+      <front>
+         <head>PRIGODNI I POLITIČKI EPIGRAMI</head>
+      </front>
+      <body>
+         <div xml:id="C89">
+            <head> De uirtute animique pręstantia Dominici Manlipetri, Venetę classis pręfecti,
                 cum Pisas obsedione liberauit iuuitque frumento</head>
-                     <l>Pisa, Fluentinę quę multo tempore genti</l>
-                     <l> Seruisti indignum ferre coacta iugum,</l>
-                     <l>Gaude! Nam Venetum tibi parta potentibus armis</l>
-                     <l> Libertas ueteri sorte rediit melior,</l>
-                     <l n="5">Libertas auro, gemmis quoque charior Indis </l>
-                     <l> Et uitę cunctis anteferenda bonis.</l>
-                     <l>Hanc tibi dum rursum conatur ut auferat hostis,</l>
-                     <l> Obsedit portus undique classe tuos.</l>
-                     <l>Introclusa maris fuerat uia; coeperat ęgra</l>
-                     <l n="10"> Heu miseros ciues solicitare fames. </l>
-                     <l>At Manlipetri bello ducis inclyta uirtus</l>
-                     <l> Affuit et tantos iussit abire metus.</l>
-                     <l>Irrumpens celsas humili myoparone puppes</l>
-                     <l> Dispulit — o, magno dignus Achille uigor! —</l>
-                     <l>Atque hinc ingentem frugum uim contulit urbi — <note type="numvers">15</note>
-                     </l>
-                     <l> O, pietas nullo non recolenda die!</l>
-                     <l>Huic geminum debes (nec fallor), Pisa, triumphum:</l>
-                     <l> Hostem a te pariter qui fugat atque famem!</l>
-                  </div>
-                  <div xml:id="C90">
-                     <head> Autor et Cęsar</head>
-                     <sp>
-                        <speaker>Autor:</speaker>
-                        <l part="I">Quo, Cęsar Germane, ruis?</l>
-                     </sp>
-                     <sp>
-                        <speaker>Cęsar:</speaker>
-                        <l part="F">Peto regna Latina.</l>
-                     </sp>
-                     <sp>
-                        <speaker>Autor:</speaker>
-                        <l> Vade, sed in Venetos arma mouere caue. </l>
-                     </sp>
-                     <sp>
-                        <speaker>Cęsar:</speaker>
-                        <l part="I">Cur mi hoc suades?</l>
-                     </sp>
-                     <sp>
-                        <speaker>Autor:</speaker>
-                        <l part="F"> Toracis tegmen Hiberi</l>
-                        <l>Et Galli cristas pignus amoris habent. </l>
-                     </sp>
-                     <sp>
-                        <speaker>Cęsar:</speaker>
-                        <l n="5"> Ast mecum est pręsul Tiberinę Iulius urbis. </l>
-                     </sp>
-                     <sp>
-                        <speaker>Autor:</speaker>
-                        <l> Huic fidis, Venetis qui dedit ipse togam? </l>
-                     </sp>
-                     <sp>
-                        <speaker>Cęsar:</speaker>
-                        <l part="I">Cui ergo fidam?</l>
-                     </sp>
-                     <sp>
-                        <speaker>Autor:</speaker>
-                        <l part="F">Illis.</l>
-                     </sp>
-                     <sp>
-                        <speaker>Cęsar:</speaker>
-                        <l part="F">Dic quo.</l>
-                     </sp>
-                     <sp>
-                        <speaker>Autor:</speaker>
-                        <l part="F"> Munera pacis </l>
-                        <l>Da; uitas nisi des, oppida, crede, dabis. </l>
-                     </sp>
-                  </div>
-                  <div xml:id="C91">
-                     <head> De Leone X. Pontifice Maximo Florentino de Medicum familia</head>
-                     <l>Ipse Deus Medicem clarum pietate fideque</l>
-                     <l> Ecclesię iussit totius esse caput</l>
-                     <l>Atque uolens illi dare congrua nomina dixit:</l>
-                     <sp who="deus">
-                        <l> »Tu decimus posthac, tu Leo dictus eris!</l>
-                        <l>Iste etenim numerus numero est perfectior omni <note type="numvers">5</note>
-                        </l>
-                        <l> Nobiliorque feris omnibus ista fera.«</l>
-                     </sp>
-                     <l>Gaude igitur, Medices, tibi conuenit ampla potestas:</l>
-                     <l> Conuenit et meritis nomen utrumque tuis.</l>
-                  </div>
-                  <div xml:id="C92">
-                     <head> In Medicem Leonem X. Pontificem Maximum</head>
-                     <l>Ducere securas ad pascua lęta capellas </l>
-                     <l>Pastoris cura est officiumque pii; </l>
-                     <l>Desertoris opes pecudes et ouilia tota </l>
-                     <l>Tradere raptori dilanianda lupo. </l>
-                     <l n="5">Tale nefas Latiis admisit Iulius oris </l>
-                     <l>Dissidio perdens oppida, cęde ciues. </l>
-                     <l>Successit Medicę Leo proles inclyta gentis </l>
-                     <l>Dum petitur tantis apta medela malis. </l>
-                     <l>Conueniunt placidi stirpis cum nomine mores </l>
-                     <l n="10">Et mens non belli, sed studiosa togę. </l>
-                     <l>Ergo Italo Mauors quę uulnera contulit orbi </l>
-                     <l>Sanabit Medici cura benigna patris. </l>
-                  </div>
-                  <div xml:id="C93">
-                     <head> Pro sanctissimo patre Leone X. Pontifice Maximo oratio</head>
-                     <l>Pontifici da, Christe, tuo quę posco Leoni:</l>
-                     <l> Apta illi et populis commoda posco tuis.</l>
-                     <l>Ecclesiam regat ille tuam moderamine tanto</l>
-                     <l>
-                        <q>»Non possum melius«</q> dicat ut ipsa <q>»regi«</q>;</l>
-                     <l>Commissisque sibi gregibus sic pręsit, hiantes <note type="numvers">5</note>
-                     </l>
-                     <l> Vt procul a caulis cogat abesse lupos.</l>
-                     <l>Illo autore feri tollantur pręlia Martis</l>
-                     <l> Et iam pacis amor pectora fida liget.</l>
-                     <l>Illius auspiciis uicti domitique prophani</l>
-                     <l n="10"> Sub leges nostrę religionis eant. </l>
-                     <l>Illo iter in cęlum post hęc monstrante fideles</l>
-                     <l> Dimissis terris regna beata petant.</l>
-                     <l>Talia si dederis, non soli, Christe, Leoni,</l>
-                     <l> Sed cunctis sequimur qui tua signa dabis.</l>
-                     <l>Est commune bonum quicquid conceditur uni: <note type="numvers">15</note>
-                     </l>
-                     <l> Omnes membra sumus, omnibus ille caput.</l>
-                  </div>
-                  <div xml:id="C94">
-                     <head> Pro Adriano VI. Pontifice Maximo ad Christum oratio </head>
-                     <l>Pontifici da, Christe, tuo quę posco Adriano:</l>
-                     <l> Apta illi et populis commoda posco tuis.</l>
-                     <l>Ecclesiam regat ille tuam moderamine tanto</l>
-                     <l> »Non possum melius« dicat ut ipsa »regi«;</l>
-                     <l>Commissisque sibi gregibus sic pręsit, hiantes <note type="numvers">5</note>
-                     </l>
-                     <l> Vt procul a caulis cogat abesse lupos.</l>
-                     <l>Illo autore feri tollantur pręlia Martis</l>
-                     <l> Et iam pacis amor pectora fida liget.</l>
-                     <l>Illius auspiciis uicti domitique prophani</l>
-                     <l n="10"> Sub leges nostrę religionis eant. </l>
-                     <l>Illo iter in cęlum post hęc monstrante fideles</l>
-                     <l> Dimissis terris regna beata petant.</l>
-                     <l>Talia si dederis, non soli, Christe, Adriano,</l>
-                     <l> Sed cunctis sequimur qui tua signa dabis.</l>
-                     <l>Est commune bonum quicquid concesseris uni: <note type="numvers">15</note>
-                     </l>
-                     <l> Omnes membra sumus, omnibus ille caput.</l>
-                  </div>
-                  <div xml:id="C95">
-                     <head> De Gallis et Hispanis inter se bellantibus</head>
-                     <l>Inter sese odiis nimio furore calentes</l>
-                     <l> Gallus et Hispanus bella cruenta gerunt.</l>
-                     <l>Infensus genti Maumetes Christicolarum</l>
-                     <l> Nititur imperio subdere cuncta suo.</l>
-                     <l n="5">Hi cum se multis consument cędibus, ille — </l>
-                     <l> Ille sui uoti quid nisi compos erit?</l>
-                     <l>Si tam grande nefas cupiunt uitare, necesse est</l>
-                     <l> Placatis animis foedera pacis ament,</l>
-                     <l>Viribus et iunctis communi protinus hosti</l>
-                     <l n="10"> Occurrant: nullam res petit ista moram. </l>
-                     <l>Ille etenim reliquas properat disperdere gentes,</l>
-                     <l> Vnus qui mundi plurima regna tenet.</l>
-                  </div>
-                  <div xml:id="C96">
-                     <head> In discordiam principum Christianorum</head>
-                     <l>Mus et rana lacu medio dum pręlia miscent,</l>
-                     <l> Alter in alterius damna suprema furens,</l>
-                     <l>Prędę auidus miluus luctantes cernit ab alto:</l>
-                     <l> Deuolat et rostro pręndit utrumque suo.</l>
-                     <l n="5">Talia fata manent nostros (mihi credite) reges </l>
-                     <l> Inter se Martis dum fera bella cient.</l>
-                     <l>Exausti alternis fuerint cum cędibus omnes,</l>
-                     <l> Irruet in uacuam barbarus hostis humum.</l>
-                     <l>O utinam falsus uates sim uerbaque uentus</l>
-                     <l n="10"> Nostra ferens auras dissipet in tenues! </l>
-                     <l>Sed nisi discordes iungat commune periclum,</l>
-                     <l> Phoebea fient uera magis tripode!</l>
-                  </div>
-                  <div xml:id="C97">
-                     <head> Domino Ioanni Baptistę de Molino Spalati prętori bene merito</head>
-                     <l>Qui Christum profudit aqua Baptista uocatur</l>
-                     <l> Atque eadem noster nomina prętor habet.</l>
-                     <l>Alter sanctus erat, iustus nunc dicitur alter:</l>
-                     <l> Ergo ut nominibus, sunt ita laude pares.</l>
-                     <l n="5">Illius est merces cęlum; speramus et istum </l>
-                     <l> Consortem cęli participemque fore.</l>
-                     <l>Tale bonum capiet, cum terram liquerit olim,</l>
-                     <l> Sed iuuat et terras ut colat ipse diu.</l>
-                  </div>
-                  <div xml:id="C98">
-                     <head> Ad inclytum uirum Andream Grittum Venetorum principem bene meritum nuperrime
+            <l>Pisa, Fluentinę quę multo tempore genti</l>
+            <l> Seruisti indignum ferre coacta iugum,</l>
+            <l>Gaude! Nam Venetum tibi parta potentibus armis</l>
+            <l> Libertas ueteri sorte rediit melior,</l>
+            <l n="5">Libertas auro, gemmis quoque charior Indis </l>
+            <l> Et uitę cunctis anteferenda bonis.</l>
+            <l>Hanc tibi dum rursum conatur ut auferat hostis,</l>
+            <l> Obsedit portus undique classe tuos.</l>
+            <l>Introclusa maris fuerat uia; coeperat ęgra</l>
+            <l n="10"> Heu miseros ciues solicitare fames. </l>
+            <l>At Manlipetri bello ducis inclyta uirtus</l>
+            <l> Affuit et tantos iussit abire metus.</l>
+            <l>Irrumpens celsas humili myoparone puppes</l>
+            <l> Dispulit — o, magno dignus Achille uigor! —</l>
+            <l>Atque hinc ingentem frugum uim contulit urbi — <note type="numvers">15</note>
+            </l>
+            <l> O, pietas nullo non recolenda die!</l>
+            <l>Huic geminum debes (nec fallor), Pisa, triumphum:</l>
+            <l> Hostem a te pariter qui fugat atque famem!</l>
+         </div>
+         <div xml:id="C90">
+            <head> Autor et Cęsar</head>
+            <sp>
+               <speaker>Autor:</speaker>
+               <l part="I">Quo, Cęsar Germane, ruis?</l>
+            </sp>
+            <sp>
+               <speaker>Cęsar:</speaker>
+               <l part="F">Peto regna Latina.</l>
+            </sp>
+            <sp>
+               <speaker>Autor:</speaker>
+               <l> Vade, sed in Venetos arma mouere caue. </l>
+            </sp>
+            <sp>
+               <speaker>Cęsar:</speaker>
+               <l part="I">Cur mi hoc suades?</l>
+            </sp>
+            <sp>
+               <speaker>Autor:</speaker>
+               <l part="F"> Toracis tegmen Hiberi</l>
+               <l>Et Galli cristas pignus amoris habent. </l>
+            </sp>
+            <sp>
+               <speaker>Cęsar:</speaker>
+               <l n="5"> Ast mecum est pręsul Tiberinę Iulius urbis. </l>
+            </sp>
+            <sp>
+               <speaker>Autor:</speaker>
+               <l> Huic fidis, Venetis qui dedit ipse togam? </l>
+            </sp>
+            <sp>
+               <speaker>Cęsar:</speaker>
+               <l part="I">Cui ergo fidam?</l>
+            </sp>
+            <sp>
+               <speaker>Autor:</speaker>
+               <l part="F">Illis.</l>
+            </sp>
+            <sp>
+               <speaker>Cęsar:</speaker>
+               <l part="F">Dic quo.</l>
+            </sp>
+            <sp>
+               <speaker>Autor:</speaker>
+               <l part="F"> Munera pacis </l>
+               <l>Da; uitas nisi des, oppida, crede, dabis. </l>
+            </sp>
+         </div>
+         <div xml:id="C91">
+            <head> De Leone X. Pontifice Maximo Florentino de Medicum familia</head>
+            <l>Ipse Deus Medicem clarum pietate fideque</l>
+            <l> Ecclesię iussit totius esse caput</l>
+            <l>Atque uolens illi dare congrua nomina dixit:</l>
+            <sp who="deus">
+               <l> »Tu decimus posthac, tu Leo dictus eris!</l>
+               <l>Iste etenim numerus numero est perfectior omni <note type="numvers">5</note>
+               </l>
+               <l> Nobiliorque feris omnibus ista fera.«</l>
+            </sp>
+            <l>Gaude igitur, Medices, tibi conuenit ampla potestas:</l>
+            <l> Conuenit et meritis nomen utrumque tuis.</l>
+         </div>
+         <div xml:id="C92">
+            <head> In Medicem Leonem X. Pontificem Maximum</head>
+            <l>Ducere securas ad pascua lęta capellas </l>
+            <l>Pastoris cura est officiumque pii; </l>
+            <l>Desertoris opes pecudes et ouilia tota </l>
+            <l>Tradere raptori dilanianda lupo. </l>
+            <l n="5">Tale nefas Latiis admisit Iulius oris </l>
+            <l>Dissidio perdens oppida, cęde ciues. </l>
+            <l>Successit Medicę Leo proles inclyta gentis </l>
+            <l>Dum petitur tantis apta medela malis. </l>
+            <l>Conueniunt placidi stirpis cum nomine mores </l>
+            <l n="10">Et mens non belli, sed studiosa togę. </l>
+            <l>Ergo Italo Mauors quę uulnera contulit orbi </l>
+            <l>Sanabit Medici cura benigna patris. </l>
+         </div>
+         <div xml:id="C93">
+            <head> Pro sanctissimo patre Leone X. Pontifice Maximo oratio</head>
+            <l>Pontifici da, Christe, tuo quę posco Leoni:</l>
+            <l> Apta illi et populis commoda posco tuis.</l>
+            <l>Ecclesiam regat ille tuam moderamine tanto</l>
+            <l>
+               <q>»Non possum melius«</q> dicat ut ipsa <q>»regi«</q>;</l>
+            <l>Commissisque sibi gregibus sic pręsit, hiantes <note type="numvers">5</note>
+            </l>
+            <l> Vt procul a caulis cogat abesse lupos.</l>
+            <l>Illo autore feri tollantur pręlia Martis</l>
+            <l> Et iam pacis amor pectora fida liget.</l>
+            <l>Illius auspiciis uicti domitique prophani</l>
+            <l n="10"> Sub leges nostrę religionis eant. </l>
+            <l>Illo iter in cęlum post hęc monstrante fideles</l>
+            <l> Dimissis terris regna beata petant.</l>
+            <l>Talia si dederis, non soli, Christe, Leoni,</l>
+            <l> Sed cunctis sequimur qui tua signa dabis.</l>
+            <l>Est commune bonum quicquid conceditur uni: <note type="numvers">15</note>
+            </l>
+            <l> Omnes membra sumus, omnibus ille caput.</l>
+         </div>
+         <div xml:id="C94">
+            <head> Pro Adriano VI. Pontifice Maximo ad Christum oratio </head>
+            <l>Pontifici da, Christe, tuo quę posco Adriano:</l>
+            <l> Apta illi et populis commoda posco tuis.</l>
+            <l>Ecclesiam regat ille tuam moderamine tanto</l>
+            <l> »Non possum melius« dicat ut ipsa »regi«;</l>
+            <l>Commissisque sibi gregibus sic pręsit, hiantes <note type="numvers">5</note>
+            </l>
+            <l> Vt procul a caulis cogat abesse lupos.</l>
+            <l>Illo autore feri tollantur pręlia Martis</l>
+            <l> Et iam pacis amor pectora fida liget.</l>
+            <l>Illius auspiciis uicti domitique prophani</l>
+            <l n="10"> Sub leges nostrę religionis eant. </l>
+            <l>Illo iter in cęlum post hęc monstrante fideles</l>
+            <l> Dimissis terris regna beata petant.</l>
+            <l>Talia si dederis, non soli, Christe, Adriano,</l>
+            <l> Sed cunctis sequimur qui tua signa dabis.</l>
+            <l>Est commune bonum quicquid concesseris uni: <note type="numvers">15</note>
+            </l>
+            <l> Omnes membra sumus, omnibus ille caput.</l>
+         </div>
+         <div xml:id="C95">
+            <head> De Gallis et Hispanis inter se bellantibus</head>
+            <l>Inter sese odiis nimio furore calentes</l>
+            <l> Gallus et Hispanus bella cruenta gerunt.</l>
+            <l>Infensus genti Maumetes Christicolarum</l>
+            <l> Nititur imperio subdere cuncta suo.</l>
+            <l n="5">Hi cum se multis consument cędibus, ille — </l>
+            <l> Ille sui uoti quid nisi compos erit?</l>
+            <l>Si tam grande nefas cupiunt uitare, necesse est</l>
+            <l> Placatis animis foedera pacis ament,</l>
+            <l>Viribus et iunctis communi protinus hosti</l>
+            <l n="10"> Occurrant: nullam res petit ista moram. </l>
+            <l>Ille etenim reliquas properat disperdere gentes,</l>
+            <l> Vnus qui mundi plurima regna tenet.</l>
+         </div>
+         <div xml:id="C96">
+            <head> In discordiam principum Christianorum</head>
+            <l>Mus et rana lacu medio dum pręlia miscent,</l>
+            <l> Alter in alterius damna suprema furens,</l>
+            <l>Prędę auidus miluus luctantes cernit ab alto:</l>
+            <l> Deuolat et rostro pręndit utrumque suo.</l>
+            <l n="5">Talia fata manent nostros (mihi credite) reges </l>
+            <l> Inter se Martis dum fera bella cient.</l>
+            <l>Exausti alternis fuerint cum cędibus omnes,</l>
+            <l> Irruet in uacuam barbarus hostis humum.</l>
+            <l>O utinam falsus uates sim uerbaque uentus</l>
+            <l n="10"> Nostra ferens auras dissipet in tenues! </l>
+            <l>Sed nisi discordes iungat commune periclum,</l>
+            <l> Phoebea fient uera magis tripode!</l>
+         </div>
+         <div xml:id="C97">
+            <head> Domino Ioanni Baptistę de Molino Spalati prętori bene merito</head>
+            <l>Qui Christum profudit aqua Baptista uocatur</l>
+            <l> Atque eadem noster nomina prętor habet.</l>
+            <l>Alter sanctus erat, iustus nunc dicitur alter:</l>
+            <l> Ergo ut nominibus, sunt ita laude pares.</l>
+            <l n="5">Illius est merces cęlum; speramus et istum </l>
+            <l> Consortem cęli participemque fore.</l>
+            <l>Tale bonum capiet, cum terram liquerit olim,</l>
+            <l> Sed iuuat et terras ut colat ipse diu.</l>
+         </div>
+         <div xml:id="C98">
+            <head> Ad inclytum uirum Andream Grittum Venetorum principem bene meritum nuperrime
                 creatum</head>
-                     <l>Placatis animis et uerso numina fato</l>
-                     <l> Subsidium nobis auxiliumque ferunt.</l>
-                     <l>Nanque deum nutu lectus mihi, Gritte, uideris,</l>
-                     <l> Vt pręsis Venetę prospiciasque rei.</l>
-                     <l n="5">Quis te nobilior? Quis te formosior uno? </l>
-                     <l> Quis quoque te notus Marte togaque magis?</l>
-                     <l>Certas cum magno fama uirtutis Achille,</l>
-                     <l> Cęsar es officiis Attiliusque fide.</l>
-                     <l>Iam sperare licet, quod non sperauimus ante,</l>
-                     <l n="10"> Principe sub tali prospera cuncta fore. </l>
-                  </div>
-                  <div xml:id="C99">
-                     <head> In laudem eiusdem</head>
-                     <l>Si qua fides uatum, formosus Parthenopeius,</l>
-                     <l> Prouidus ingenio dux Itacensis erat.</l>
-                     <l>Inuicta uirtute ferox memoratur Achilles,</l>
-                     <l> Hannibal armorum pręditus arte fuit.</l>
-                     <l n="5">Munificus Cęsar, Cicero sermone disertus, </l>
-                     <l> Felici Croesus sorte beatus erat.</l>
-                     <l>Tempora temporibus ne cędant nostra uetustis,</l>
-                     <l> Vnus, quę multis sunt data, Grittus habet:</l>
-                     <l>Formosus, prudens, animosus, Marte probatus,</l>
-                     <l n="10"> Largus opum, dulci nobilis eloquio. </l>
-                     <l>In dubiis usus fortunę munere rebus</l>
-                     <l> Totque bonis fultus culmen honoris adit.</l>
-                     <l>Nam Veneti imperii summa est in sede locatus</l>
-                     <l> Cunctorum uotis consilioque patrum.</l>
-                     <l n="15">Quis non iam tandem speret sub principe tali </l>
-                     <l> Stamine Parcarum prosperiore frui?</l>
-                  </div>
-                  <div xml:id="C100">
-                     <head> Quod omnia prospera sperare liceat Andrea Gritto Venetorum principe</head>
-                     <l>Spirabit faciles Venetis pater Eolus auras</l>
-                     <l> Neptunusque fauens ęquora tuta dabit;</l>
-                     <l>Flaua Ceres fruges et dulces Bromius uuas</l>
-                     <l> Incipient larga suppeditare manu;</l>
-                     <l n="5">Ditabit merces quęstu Mercurius amplo: </l>
-                     <l> Hic etenim lucris fertur adesse deus;</l>
-                     <l>Pręstabit claros uicto Mars hoste triumphos</l>
-                     <l> Et Venetum domitus uiribus orbis erit.</l>
-                     <l>Annuet his magni magnus regnator Olympi</l>
-                     <l n="10"> Et rata, quę fieri uiderit, esse uolet. </l>
-                     <l>Nil non sperandum est Andrea principe Gritto,</l>
-                     <l> Omnes quem pariter diique hominesque colunt.</l>
-                  </div>
-                  <div xml:id="C101">
-                     <head> Ad Clementem VII. Pontificem Maximum</head>
-                     <l>Pontifices magnos modico discrimine binos</l>
-                     <l> Ex una excitos uidimus esse domo.</l>
-                     <l>Vna domus Medicum tanto lętatur honore</l>
-                     <l> Prima Fluentinos inter habenda uiros.</l>
-                     <l>Est et in hoc Medicum nobis uenerabile nomen <note type="numvers">5</note>
-                     </l>
-                     <l> Quod bello oppressis omina lęta dedit,</l>
-                     <l>Scilicet ut Medices pręstet medicamina plagis</l>
-                     <l> Quas infert nobis perfida barbaries.</l>
-                     <l>At nisi succurrat regum uis tota piorum</l>
-                     <l> Nequaquam Medicum gens erit una satis. <note type="numvers">10</note>
-                     </l>
-                     <l>Hac ratione tamen nobis potes ipse mederi</l>
-                     <l> Et tanto, o Medices, obuius ire malo,</l>
-                     <l>Christicolam populum si cogas foedus in unum</l>
-                     <l> Turcarum ut ualidas frangere possit opes.</l>
-                     <l n="15">Hi sunt qui cupiunt cunctos delere fideles </l>
-                     <l> Et uiolare tuo templa dicata Deo.</l>
-                     <l>Hi tibi commisso generi fera bella mouentes</l>
-                     <l> Desistunt nullo carpere nostra die.</l>
-                     <l>Hi pecus atque homines prędantur, cędibus instant</l>
-                     <l n="20"> Vdaque de nostro tela cruore gerunt. </l>
-                     <l>Pignora ab amplexu miserorum rapta parentum</l>
-                     <l> Suscipere erroris dogmata plena iubent.</l>
-                     <l>Christo igitur geniti Maumetica sacra sequuntur</l>
-                     <l> Et qui saluari debuerant pereunt.</l>
-                     <l>Quid fiet reliquis, quando pars maxima nostrum <note type="numvers">25</note>
-                     </l>
-                     <l> Vrgetur tantis opprimiturque malis?</l>
-                     <l>Efficere ergo tuum est, cum sis caput omnibus unum,</l>
-                     <l> Omnes ut pariter foedera pacis ament,</l>
-                     <l>Vnanimesque ferum properent mordere tyrannum</l>
-                     <l n="30"> Qui sibi nunc uni subdere cuncta parat. </l>
-                     <l>Vnanimes Deus ipse iuuat, discordibus obstat,</l>
-                     <l> Nec nisi pacatis prosperitate fauet.</l>
-                  </div>
-               
-            </body>
-         </text>
-         
-         
+            <l>Placatis animis et uerso numina fato</l>
+            <l> Subsidium nobis auxiliumque ferunt.</l>
+            <l>Nanque deum nutu lectus mihi, Gritte, uideris,</l>
+            <l> Vt pręsis Venetę prospiciasque rei.</l>
+            <l n="5">Quis te nobilior? Quis te formosior uno? </l>
+            <l> Quis quoque te notus Marte togaque magis?</l>
+            <l>Certas cum magno fama uirtutis Achille,</l>
+            <l> Cęsar es officiis Attiliusque fide.</l>
+            <l>Iam sperare licet, quod non sperauimus ante,</l>
+            <l n="10"> Principe sub tali prospera cuncta fore. </l>
+         </div>
+         <div xml:id="C99">
+            <head> In laudem eiusdem</head>
+            <l>Si qua fides uatum, formosus Parthenopeius,</l>
+            <l> Prouidus ingenio dux Itacensis erat.</l>
+            <l>Inuicta uirtute ferox memoratur Achilles,</l>
+            <l> Hannibal armorum pręditus arte fuit.</l>
+            <l n="5">Munificus Cęsar, Cicero sermone disertus, </l>
+            <l> Felici Croesus sorte beatus erat.</l>
+            <l>Tempora temporibus ne cędant nostra uetustis,</l>
+            <l> Vnus, quę multis sunt data, Grittus habet:</l>
+            <l>Formosus, prudens, animosus, Marte probatus,</l>
+            <l n="10"> Largus opum, dulci nobilis eloquio. </l>
+            <l>In dubiis usus fortunę munere rebus</l>
+            <l> Totque bonis fultus culmen honoris adit.</l>
+            <l>Nam Veneti imperii summa est in sede locatus</l>
+            <l> Cunctorum uotis consilioque patrum.</l>
+            <l n="15">Quis non iam tandem speret sub principe tali </l>
+            <l> Stamine Parcarum prosperiore frui?</l>
+         </div>
+         <div xml:id="C100">
+            <head> Quod omnia prospera sperare liceat Andrea Gritto Venetorum principe</head>
+            <l>Spirabit faciles Venetis pater Eolus auras</l>
+            <l> Neptunusque fauens ęquora tuta dabit;</l>
+            <l>Flaua Ceres fruges et dulces Bromius uuas</l>
+            <l> Incipient larga suppeditare manu;</l>
+            <l n="5">Ditabit merces quęstu Mercurius amplo: </l>
+            <l> Hic etenim lucris fertur adesse deus;</l>
+            <l>Pręstabit claros uicto Mars hoste triumphos</l>
+            <l> Et Venetum domitus uiribus orbis erit.</l>
+            <l>Annuet his magni magnus regnator Olympi</l>
+            <l n="10"> Et rata, quę fieri uiderit, esse uolet. </l>
+            <l>Nil non sperandum est Andrea principe Gritto,</l>
+            <l> Omnes quem pariter diique hominesque colunt.</l>
+         </div>
+         <div xml:id="C101">
+            <head> Ad Clementem VII. Pontificem Maximum</head>
+            <l>Pontifices magnos modico discrimine binos</l>
+            <l> Ex una excitos uidimus esse domo.</l>
+            <l>Vna domus Medicum tanto lętatur honore</l>
+            <l> Prima Fluentinos inter habenda uiros.</l>
+            <l>Est et in hoc Medicum nobis uenerabile nomen <note type="numvers">5</note>
+            </l>
+            <l> Quod bello oppressis omina lęta dedit,</l>
+            <l>Scilicet ut Medices pręstet medicamina plagis</l>
+            <l> Quas infert nobis perfida barbaries.</l>
+            <l>At nisi succurrat regum uis tota piorum</l>
+            <l> Nequaquam Medicum gens erit una satis. <note type="numvers">10</note>
+            </l>
+            <l>Hac ratione tamen nobis potes ipse mederi</l>
+            <l> Et tanto, o Medices, obuius ire malo,</l>
+            <l>Christicolam populum si cogas foedus in unum</l>
+            <l> Turcarum ut ualidas frangere possit opes.</l>
+            <l n="15">Hi sunt qui cupiunt cunctos delere fideles </l>
+            <l> Et uiolare tuo templa dicata Deo.</l>
+            <l>Hi tibi commisso generi fera bella mouentes</l>
+            <l> Desistunt nullo carpere nostra die.</l>
+            <l>Hi pecus atque homines prędantur, cędibus instant</l>
+            <l n="20"> Vdaque de nostro tela cruore gerunt. </l>
+            <l>Pignora ab amplexu miserorum rapta parentum</l>
+            <l> Suscipere erroris dogmata plena iubent.</l>
+            <l>Christo igitur geniti Maumetica sacra sequuntur</l>
+            <l> Et qui saluari debuerant pereunt.</l>
+            <l>Quid fiet reliquis, quando pars maxima nostrum <note type="numvers">25</note>
+            </l>
+            <l> Vrgetur tantis opprimiturque malis?</l>
+            <l>Efficere ergo tuum est, cum sis caput omnibus unum,</l>
+            <l> Omnes ut pariter foedera pacis ament,</l>
+            <l>Vnanimesque ferum properent mordere tyrannum</l>
+            <l n="30"> Qui sibi nunc uni subdere cuncta parat. </l>
+            <l>Vnanimes Deus ipse iuuat, discordibus obstat,</l>
+            <l> Nec nisi pacatis prosperitate fauet.</l>
+         </div>
+      </body>
+   </text>
 </TEI>

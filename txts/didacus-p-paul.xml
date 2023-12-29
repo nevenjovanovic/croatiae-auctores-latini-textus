@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="didacus-p-paul">
@@ -38,70 +39,12 @@
     Prepisala <name>Nives Pantar</name>, <date>srpanj 2007</date>.
   </p>
          </publicationStmt>
-
-
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Pirro, Didaco: Ad Paulum.. Ferrariae : apud Valentem Panizzam Mantuanum, ducalem typographum,
 1563 </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="526"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="26"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="9"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc xml:id="didakpirmanuzio1563">
          <abstract>
             <p/>
@@ -174,7 +117,9 @@ zaglavlje.
    <text>
       <milestone unit="page" n="1" facs="didacus/adpaulum/1"/>
       <body>
-         <div type="poesis-epistula" met="hexameter" corresp="#didakpirmanuzio1563">
+         <div type="poesis-epistula"
+              met="hexameter"
+              corresp="#didakpirmanuzio1563">
             <head>AD PAVLVM</head>
             <!-- uvod -->
             <l n="1">Sic tranquilla meae contingant, Paule, senectae</l>
@@ -189,7 +134,6 @@ zaglavlje.
             <l n="10">Quam mea iam cedens annis peioribus aetas</l>
             <l n="11">Sepositam studiis sedem quaerebat honestis, </l>
             <l n="12">Quaeris amicitiae pro iure; en accipe paucis: </l>
-
             <!-- grad -->
             <l n="13">Commoueor sane (nec enim manifesta sodalem</l>
             <l n="14">Tam fidum celare meum est); et praeterea, quem</l>
@@ -198,7 +142,6 @@ zaglavlje.
             <l n="16">Non capiat? Stat Romanis fundata colonis</l>
             <l n="17">Illyrici regina maris quam barbara circum</l>
             <l n="18">Agmina, quam magni iungunt sibi foedere reges.</l>
-
             <!-- uprava -->
             <l n="19">Illa nec horribiles fasces neque sceptra tyranni</l>
             <l n="20">Imperiosa timet, sed quas tulit ipsa probatque</l>
@@ -221,12 +164,10 @@ zaglavlje.
             <milestone unit="page" n="3" facs="didacus/adpaulum/3"/>
             <l n="37">Figere magnanimi uictricia signa Leonis,</l>
             <l n="38">Elicere occulto rerum decreta metallo.</l>
-
             <!-- kopljanici -->
             <l n="39">Stant et duryphori circum, praetoria turba,</l>
             <l n="40">Pars latus obseruat regis, pars limina propter </l>
             <l n="41">Excubat et uigiles peragit custodia noctes.</l>
-
             <!-- rektor -->
             <l n="42">Praetereo quos clara patrum gens addat honores, </l>
             <l n="43">Quam meritos scribat titulos, quae splendida uerba</l>
@@ -237,7 +178,6 @@ zaglavlje.
             <l n="48">Cornua formoso coepere albescere caelo, </l>
             <l n="49">Ille domum priuatus abit, uenit alter in aulam </l>
             <l n="50">Et uariata breues exaequat purpura fastos.</l>
-
             <!-- amor patriae et pacis -->
             <l n="51">Omnes unus amor patriae tenet, omnibus idem</l>
             <l n="52">Ardor inest, nulli iucundior altera cura.</l>
@@ -245,7 +185,6 @@ zaglavlje.
             <l n="54">Ducere nec desint instructae littore classes, </l>
             <l n="55">Vincit pacis amor; sanctae quis munera pacis</l>
             <l n="56">Spernat et insani Martis praeponat amorem?</l>
-
             <!-- mercatus -->
             <l n="57">Hinc reuerens legum clarisque exculta iuuentus</l>
             <milestone unit="page" n="4" facs="didacus/adpaulum/4"/>
@@ -282,7 +221,6 @@ zaglavlje.
             <l n="86">Vndantis scopuli liceat cognoscere causas</l>
             <l n="87">Ipse licet caecos iactet Trebina meatus </l>
             <l n="88">Antraque furtiuis Nympharum conscia flammis.</l>
-
             <!-- aedificia -->
             <l n="89">Quid referam eductas moles atque addita ponto</l>
             <l n="90">Claustra? Quid edomitos Boreaeque Austrique furores? </l>
@@ -291,7 +229,6 @@ zaglavlje.
             <l n="93">Ipsa foro in medio quadrato regia saxo</l>
             <l n="94">Erigitur, hoc templum ingens, haec curia patrum, </l>
             <l n="95">Porticibus uastis centumque innixa columnis.</l>
-
             <!-- ecphrasis -->
             <l n="96">Hic genus antiquum primamque ab origine gentem</l>
             <l n="97">Docta manus uario depinxerat argumento.</l>
@@ -327,7 +264,6 @@ zaglavlje.
             <l n="125">Pallentes uultus, lacrymarumque hymbre madentes,</l>
             <l n="126">Pacem orare deos, pacem exorasse uidetur.</l>
             <l n="127">Tantus honos saxo, uiuunt sic arte colores.</l>
-
             <!-- locus -->
             <l n="128">Ipsa quoque (humanis proh quantum industria rebus,</l>
             <l n="129">Quantum artes animique ualent), ipsa aequora ponti</l>
@@ -337,7 +273,6 @@ zaglavlje.
             <!-- punta? -->
             <l n="132">Quaque per angustas apparent Rhizana fauces </l>
             <l n="133">Moenia et Hispanis squallentes ossibus agri.</l>
-
             <!-- pisces -->
             <l n="134">Nam neque ad Euxinos tractus neque Pontica qua se</l>
             <l n="135">In freta suspectae nautis Symplegades arctant,</l>
@@ -365,7 +300,6 @@ zaglavlje.
             <l n="156">Auertitque cibos et uis humana fatiscit.</l>
             <l n="157">Continuo <corr>accurrit</corr> praesens medicina nec ultra</l>
             <l n="158">Vim morbi penetrare sinit uiresque reducit.</l>
-
             <!-- locus -->
             <l n="159">Nec non Nereidum pulcher chorus, alba Lopude </l>
             <l n="160">Flauaque Mellite et adhuc intacta Logussa,</l>
@@ -374,7 +308,6 @@ zaglavlje.
             <milestone unit="page" n="9" facs="didacus/adpaulum/9"/>
             <l n="163">Sic felix Pomona suos et maxima Tethys</l>
             <l n="164">Distribuunt terris alterno munere fructus.</l>
-
             <!-- artes -->
             <l n="165">Nec suus ingenuis defit locus artibus; instat</l>
             <l n="166">Acer et Ausoniae totas permiscet Athenas</l>
@@ -409,7 +342,6 @@ zaglavlje.
             <l n="194">Sueta dare; haud illa felicior altera uiuit.</l>
             <l n="195">Non premitur curis, non spes consumit inanes,</l>
             <l n="196">Spernit opes et regna quibus tabescit auarus.</l>
-
             <!-- cives -->
             <l n="197">Iam uero quos clara uiros urbs educat et quae</l>
             <l n="198">Pectora, quam sanctis elucent moribus omnes,</l>
@@ -574,7 +506,6 @@ zaglavlje.
             <l n="349">Illa meum de te longum testentur amorem.</l>
             <l n="350">Interea tibi nostra chelys, tibi noster Apollo</l>
             <l n="351">Seruiat, et magnum ferat usque ad sydera nomen.</l>
-
             <milestone unit="page" n="18" facs="didacus/adpaulum/18"/>
             <!-- simile -->
             <l n="352">Haud equidem plures mentita heroas ab aluo</l>
@@ -583,7 +514,6 @@ zaglavlje.
             <l n="355">Illa tamen meditata dolos et noxia ferro</l>
             <l n="356">Turba fuit, fallax Ithacus, crudelis Epaeus</l>
             <l n="357">Periuriusque Sinon diuumque irrisor Oileus.</l>
-
             <!-- civica virtus -->
             <l n="358">Nostram pura fides placidoque modestia uultu</l>
             <l n="359">Et regale sonans clementia et omnia supra</l>
@@ -597,7 +527,6 @@ zaglavlje.
             <l n="367">Nec sese ob factum iactauit et arma ferentem</l>
             <l n="368">Atque indignantem pacta mercede tyrannum</l>
             <l n="369">Leniit et patriae auertit ceruicibus urbis.</l>
-
             <!-- bellica virtus -->
             <l n="370">At Gradium imparibus diuis in bella ruentem</l>
             <l n="371">Marte domat uictrix nec longum passa iacere</l>
@@ -630,7 +559,6 @@ zaglavlje.
             <l n="396">Diuinos latices foecundaque pectora uersat.</l>
             <l n="397">Hunc Calabri montes misere, at maxima Roma</l>
             <l n="398">Et decus et mores et claras contulit artes.</l>
-
             <!-- honor perpetuus urbis -->
             <l n="399">Scilicet his animi studiis, hac indole morum</l>
             <l n="400">Creuit, et hac longum felix Racusa per aeuum</l>
@@ -659,21 +587,18 @@ zaglavlje.
             <l n="422">Non odii causas nec causas cladis habemus.</l>
             <l n="423">Alta per unanimes regnat concordia ciues</l>
             <l n="424">Et sperare deos fas longa in saecla secundos.</l>
-
             <!-- poeta fessus -->
             <l n="425">Sed quid ego exiguo comprendere singula uersu</l>
             <l n="426">Conor? In immensum crescit labor omnibus horis</l>
             <l n="427">Et cum magna loquar, longe maiora supersunt,</l>
             <l n="428">Ingens uatis opus, nostris neque uiribus aequum.</l>
             <l n="429">Ergo illuc, unde egressus paulo ante, reuertor.</l>
-
             <!-- responsum doloris -->
             <l n="430">Commoueor sane, uerum primoribus annis</l>
             <l n="431">Qui patriae fines, Eborae qui tecta reliqui,</l>
             <l n="432">Libertatis amans et in hoc insaniam ad usque</l>
             <l n="433">Perdurare paratus, eant uel flumina retro,</l>
             <l n="434">Deliciis spero uestris me posse carere.</l>
-
             <!-- exilium -->
             <l n="435">Atqui res dura exilium. Durissima sane.</l>
             <milestone unit="page" n="22" facs="didacus/adpaulum/22"/>
@@ -696,7 +621,6 @@ zaglavlje.
             <l n="452">Accedat nec sit qui consoletur egentem:</l>
             <l n="453">Hae uerae lacrymae, dolor hic extremus in omnes</l>
             <l n="454">Transcendit gemitus et curis conficit aegrum.</l>
-
             <!-- exilii exempla -->
             <l n="455">Sed me maiorum moueant exempla uolentem</l>
             <l n="456">Vrbe procul patria peregrinis ossa sepulchris</l>
@@ -710,7 +634,6 @@ zaglavlje.
             <l n="463">Sed quid opus priscis annalibus? Omne sub aeuum</l>
             <l n="464">Indulget fortuna sibi uictrixque uocari</l>
             <l n="465">Gaudet et alternis insultat libera fatis.</l>
-
             <!-- exilium assuetum -->
             <l n="466">At durum est, inquis. Durum. Verum ipse subinde</l>
             <l n="467">Dum reputo culpare nefas, quae ferre necesse est,</l>
@@ -721,7 +644,6 @@ zaglavlje.
             <l n="472">Diis licet inuitis. Quod si comes ire recuses,</l>
             <l n="473">Ah miser, ah demens. Tortum quatit illa flagellum</l>
             <l n="474">Implicitumque coma barathro demergit Auerni.</l>
-
             <!-- exilii exempla moderna -->
             <l n="475">Cernis ut extorris laribus Marianus auitis</l>
             <l n="476">Laetus agat duris in rebus? Dulcis amicus, </l>
@@ -741,7 +663,6 @@ zaglavlje.
             <l n="489">Apparat ut patriis succedat sedibus exul,</l>
             <l n="490">Contra stare deos sensit; nam turbida fumo</l>
             <l n="491">Machina anhelantem iussit descendere ad umbras.</l>
-
             <!-- fabula -->
             <l n="492">Thybridis aut certe non longe a fonte Numici </l>
             <!-- Aesop
@@ -778,10 +699,8 @@ Gibbs 202, Perry 70, Aphthonius 36 -->
             <l n="520">Consenuit uictrix herbosae in sede paludis.</l>
             <l n="521">Sed quid opus multis? Fortunae cedat oportet</l>
             <l n="522">Qui sapit et non uult fortunae ludus haberi.</l>
-
          </div>
       </body>
-  
       <back>
          <div type="poesis-epigramma" met="elegiacum">
             <head>MVSONII CREMONENSIS EPITAPHIVM.</head>

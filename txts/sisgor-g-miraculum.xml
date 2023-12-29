@@ -1,97 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="sisgor-g-miraculum">
-          <titleStmt>
-              <title>De situ Illyriae et civitate Sibenici, versio electronica</title>
-              <author ref="sizgo01">
-                  <persName xml:lang="hr">Šižgorić, Juraj</persName>
-                  <date>c. 1445-1509?</date>
-              </author>
-              <editor>
+         <titleStmt>
+            <title>De situ Illyriae et civitate Sibenici, versio electronica</title>
+            <author ref="sizgo01">
+               <persName xml:lang="hr">Šižgorić, Juraj</persName>
+               <date>c. 1445-1509?</date>
+            </author>
+            <editor>
                <persName>
                   <ref>Daniele Farlati</ref>
                </persName>
             </editor>
-              <respStmt>
-                  <resp>Hanc editionem electronicam curavit</resp>
-                  <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-              </respStmt>
-          </titleStmt>
-        <editionStmt>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
             <edition>Prema starijem izdanju (1769)
                 <date>2014</date>
             </edition>
-        </editionStmt>
-          <extent ana="B">Mg:B Verborum 687</extent>
-        <publicationStmt>
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 687</extent>
+         <publicationStmt>
             <p>elektronska verzija: Croatica et Tyrolensia, znanstveni
                 projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                 Hrvatska.  <date>2014</date>.</p>
-        </publicationStmt>
-        
-        <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
-            
-               <bibl>Farlati 4 (1769), 472-3
+            <bibl>Farlati 4 (1769), 472-3
                    <note>Exemplum sumptum ex autentico existente in schola venerabilis Confraternitatis S. Marci in Burgo Sibenici a parte maris, scripto in Membrana.</note>
-            </bibl> 
+            </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="3"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="20"/>
-          <tagUsage gi="placeName" occurs="7"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -106,67 +54,56 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-              <date when="1485-03-01" period="14xx_3_third">1485-03-01</date>
-              <placeName>Šibenik</placeName>
-          </creation>
+            <date when="1485-03-01" period="14xx_3_third">1485-03-01</date>
+            <placeName>Šibenik</placeName>
+         </creation>
          <textClass>
-              <keywords scheme="typus">
-                  <term>prosa</term>
-              </keywords>
-              <keywords scheme="aetas">
-                  <term>Litterae renatae (1400-1600)</term>
-                  <term>Saeculum 15 (1401-1500)</term>
-                  <term>1451-1500</term>
-              </keywords>
-              <keywords scheme="genre">
-                  <term>prosa oratio - epistula</term>
-              </keywords>
-          </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
-          <change>
-              <date>2014-03-06</date>
-              
-              <persName key="neven.jovanovic">
+         <change>
+            <date>2014-03-06</date>
+            <persName key="neven.jovanovic">
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
               Prva TEI verzija
           </change>
-          
       </revisionDesc>
-  </teiHeader>
-    <text>
-        <body>
-            <div type="prosa-littera">
-                <pb n="472"/>
-                
-                
-                <opener>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="prosa-littera">
+            <pb n="472"/>
+            <opener>
                <persName>Georgius Sisgoreus decretorum Doctor Canonicus, ac <persName>Reverendissimi in Christo Patris, et D.D. Lucae de Tollentis Dei, et apostolicae Sedis gratia dignissimi Episcopi Sibenicensis</persName>, in spiritualibus, et temporalibus vicarius generalis</persName>. Universis, et singulis Christi fidelibus praesentes litteras inspecturis salutem in Domino, et felicitatem sempiternam.</opener>
-                
-                <p>Miraculis splendor paternae gloriae, qui sua mundum illustrat ineffabili claritate, pia vota fidelium de ipsius clementissima majestate sperantium tunc potissimo prosequitur favore, cum devota ipsorum humilitas Christi passionis memoria , ac meritis adjuvatur. Cupientes itaque notificare, ad excitandam fidelium devotionem rem miram, quae divina permissione acciderat in <placeName>ecclesia Sanctae Mariae in <placeName>Burgo <placeName>civitatis Sibenici</placeName>
+            <p>Miraculis splendor paternae gloriae, qui sua mundum illustrat ineffabili claritate, pia vota fidelium de ipsius clementissima majestate sperantium tunc potissimo prosequitur favore, cum devota ipsorum humilitas Christi passionis memoria , ac meritis adjuvatur. Cupientes itaque notificare, ad excitandam fidelium devotionem rem miram, quae divina permissione acciderat in <placeName>ecclesia Sanctae Mariae in <placeName>Burgo <placeName>civitatis Sibenici</placeName>
                   </placeName>
-               </placeName>, in qua devotissima Frattalia reducta est , et congregata sub titulo <persName>S. Marci Evangelistae</persName>, cujus insignia processionaliter in vexillo crucis portat, et in pectore. <date when="1483-03-27">Anno salutis 1483. die 27. Martii</date> 
+               </placeName>, in qua devotissima Frattalia reducta est , et congregata sub titulo <persName>S. Marci Evangelistae</persName>, cujus insignia processionaliter in vexillo crucis portat, et in pectore. <date when="1483-03-27">Anno salutis 1483. die 27. Martii</date>
                <abbr>etc.</abbr>
             </p>
-                
-                
-                <p>Occurrente tunc Caena Domini dum Vesperi clerus plurimus et populus esset in offitio lamentationum in ecclesia cathedrali: hoc modo <abbr>etc.</abbr> Plurimi veniebant, et dicebant cum lacrymis Crucifixum in praefata <placeName>S. Mariae ecclesia</placeName> guttas sudare sanguineas, quod audiens clerus, et populus Sibenicensis cum gemitu, et magni devotionis stupore commovebant ad dictam ecclesiam, quo tempore <persName>magnificus Dominus Petrus de Canali Comes Sibenici</persName>, et <persName>ejus filius Dominus Angelus</persName> cum magna nobilium multitudine, et nos Praefati Vicarius cum quibusdam de Capitulo, et clero personaliter accedentes ad dictam ecclesiam, ibi assistente <persName>venerabile viro Domino Joanne Dorzcia capellano dictae ecclesiae, et Frattagliae</persName>, et eodem praesente , accipientes in manibus dictum crucifixum, vidimus in capite, et in <pb n="473"/> brachio dextero, et in pedibus quosdam sudores sanguineos, non delusione, aut fraude aliqua effectos, sed permissione divina emanatos: Quamvis multi in ista ostensione fuerunt stulti et tardi corde ad credendum . Nos itaque quod scimus 
+            <p>Occurrente tunc Caena Domini dum Vesperi clerus plurimus et populus esset in offitio lamentationum in ecclesia cathedrali: hoc modo <abbr>etc.</abbr> Plurimi veniebant, et dicebant cum lacrymis Crucifixum in praefata <placeName>S. Mariae ecclesia</placeName> guttas sudare sanguineas, quod audiens clerus, et populus Sibenicensis cum gemitu, et magni devotionis stupore commovebant ad dictam ecclesiam, quo tempore <persName>magnificus Dominus Petrus de Canali Comes Sibenici</persName>, et <persName>ejus filius Dominus Angelus</persName> cum magna nobilium multitudine, et nos Praefati Vicarius cum quibusdam de Capitulo, et clero personaliter accedentes ad dictam ecclesiam, ibi assistente <persName>venerabile viro Domino Joanne Dorzcia capellano dictae ecclesiae, et Frattagliae</persName>, et eodem praesente , accipientes in manibus dictum crucifixum, vidimus in capite, et in <pb n="473"/> brachio dextero, et in pedibus quosdam sudores sanguineos, non delusione, aut fraude aliqua effectos, sed permissione divina emanatos: Quamvis multi in ista ostensione fuerunt stulti et tardi corde ad credendum . Nos itaque quod scimus 
                 loquimur, et quod vidimus testamur, quod ipsa 
                 devotionis experientia postea didicimus, et ex 
                 votis multorum cognoscimus crucifixum illum gloriosum, et Salvatoris nostri Imaginem, aliqua 
                 mirabiliter in ejus famulis devotis fuisse operatum. Igitur ut dicta ecclesia, in qua est cum
                 tali gloria crucifixus congruis frequentetur honoribus, et debite conservetur, et quantum opus 
                 fuerit reparetur, et fideles <sic>ipsam</sic> libenter devotionis causa confluant ad eandem, quo ibidem dono caelestis gratiae uberius se conspexerint esse refectos; Et <persName>dilectus nobis in Christo Michael quondam Nicolai Charmetich civis Sibenici in dicto Burgo habitator</persName>, juxta ipsius devotionem exoptans debitum honorem in ecclesia praefati crucifixi augere, et ipsam dotare in vita, et facere cantare primos Vesperos et Missam <date>die 27. Martii</date> in honorem Crucis Domini, et in ultima voluntate, praedicta devotione de propriis bonis relinquere; supplicavit, ut auctoritate ordinaria in dictis Vesperis, et Missae cantandis debeamus indulgentiam, quam possumus, liberaliter concedere omnibus, et singulis qui dictis Vesperi, et Missae interesse curaverint. Nos passionis Christi memores, et devotis precibus <persName>dicti Michaelis</persName> inclinati, de Omnipotentis Dei misericordiam et <persName>beatorum <persName>Petri</persName>, et <persName>Pauli</persName> Apostolorum</persName> ejus auctoritate confisi, omnibus, et singulis vere paenitentibus, et confessis, qui dictis Vesperis, et Missae interesse studuerint, quadraginta dies in Vesperis de injunctis eis paenitentiis, et in Missa alios quadraginta misericorditer relaxamus: et si praefata <date>dies 27. Martii</date> venerit in Caena Domini, vel in parasceve, vel Sabbato sancto, vel die Paschae, quod non in istis diebus, sed prima die non impredita immediate sequente debeat Missa antescripta celebrari, et primi Vesperi cum quadraginta dierum indulgentia, ut supra constat expressum. In quorum fidem, et testimonium praesentes litteras fieri, et per Cancellarium nostrum scribi, et in actis ecclesiasticis poni nostrique majoris sigilli apensione fecimus communiri.</p>
-                
-                
-                <closer>Datum <placeName>Sibenici in Aula audientiae causarum</placeName> 
+            <closer>Datum <placeName>Sibenici in Aula audientiae causarum</placeName>
                <date when="1485-03-01">anno Domini 1485. die prima Martii</date>. Pontificatus <persName>sanctissimi in Christo Patris, et Domini nostri Domini Innocentii divina providentia Papae Octavi</persName> anno primo. Praesentibus <persName>venerabili viro domino Presbytero Michaele Radigostica Canonico</persName>, et <persName>Domino Presbytero Gieorgio Vodanovich</persName>, et <persName>Domino clerico Michaele Draganich</persName> sub Canonicis, et civibus Sibenicensibus Testibus habitis, et rogatis.</closer>
-                
-                <closer>Et ego <persName>Clericus Lucas Miusseus civis Sibenici publicus imperiali auctoritate Notarius et curiae Episcopalis Sibenicensis Cancellarius</persName> de praefati Reverendissimi Domini Vicarii Commissione, ac mandato qui una cum testibus praemissis suprascripti instrumenti sive privilegii concessione sub die, mense et millesimo suprascriptis rogatus, et requisitus interfui; Ideo manu propria hujusmodi instrumentum sive privilegium in hanc formam redigens ex autenticis meis extrahendo cum praefati Reverendissimi Domini Vicarii sigilli majoris appensione in fidem, et testimonium omnium, et singulorum praemissorum, sub meis signo nomine, et cognomine solitis, et consuetis publicavi requisitus <abbr>etc.</abbr>
+            <closer>Et ego <persName>Clericus Lucas Miusseus civis Sibenici publicus imperiali auctoritate Notarius et curiae Episcopalis Sibenicensis Cancellarius</persName> de praefati Reverendissimi Domini Vicarii Commissione, ac mandato qui una cum testibus praemissis suprascripti instrumenti sive privilegii concessione sub die, mense et millesimo suprascriptis rogatus, et requisitus interfui; Ideo manu propria hujusmodi instrumentum sive privilegium in hanc formam redigens ex autenticis meis extrahendo cum praefati Reverendissimi Domini Vicarii sigilli majoris appensione in fidem, et testimonium omnium, et singulorum praemissorum, sub meis signo nomine, et cognomine solitis, et consuetis publicavi requisitus <abbr>etc.</abbr>
             </closer>
-                
-            </div>
-        </body>
-    </text>
+         </div>
+      </body>
+   </text>
 </TEI>

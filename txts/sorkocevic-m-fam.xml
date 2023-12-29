@@ -1,134 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    
-    <teiHeader>
-        <fileDesc xml:id="sorkocevic-m-fam">
-            <titleStmt>
-                <title>De illustribus familiis quae hodie Rhacusae exstant, versio electronica</title>
-                <author ref="sorko02">
-                    <persName xml:lang="hr">Sorkočević, Miho</persName>
-                    <date>1739-1796</date>
-                </author>
-                <author ref="#alienus-croala.publika.malinius.01">
-                    <persName xml:lang="lat" type="croala" ref="croala.publika.malinius.01">Malinius Sandecensis, Gasparus</persName>
-                </author>
-                <author ref="#alienus-croala.publika.assirelli.01">
-                    <persName xml:lang="it" ref="croala.publika.assirelli.01" type="croala">Asirelli, Pierfilippo</persName>, Secretarius
+   <teiHeader>
+      <fileDesc xml:id="sorkocevic-m-fam">
+         <titleStmt>
+            <title>De illustribus familiis quae hodie Rhacusae exstant, versio electronica</title>
+            <author ref="sorko02">
+               <persName xml:lang="hr">Sorkočević, Miho</persName>
+               <date>1739-1796</date>
+            </author>
+            <author ref="#alienus-croala.publika.malinius.01">
+               <persName xml:lang="lat" type="croala" ref="croala.publika.malinius.01">Malinius Sandecensis, Gasparus</persName>
+            </author>
+            <author ref="#alienus-croala.publika.assirelli.01">
+               <persName xml:lang="it" ref="croala.publika.assirelli.01" type="croala">Asirelli, Pierfilippo</persName>, Secretarius
                     Florentinus, la Rocca di San Casciano.</author>
-                <author ref="#alienus-viaf17382014">
-                    <persName xml:lang="it" type="viaf" ref="17382014">Fortis, Alberto</persName>
-                </author>
-                <author ref="#alienus-viaf39470442">
-                    <persName xml:lang="it" type="viaf" ref="39470442">Marullo, Michelle</persName>
-                </author>
-                <editor key="sorko02">
-                    <persName>
+            <author ref="#alienus-viaf17382014">
+               <persName xml:lang="it" type="viaf" ref="17382014">Fortis, Alberto</persName>
+            </author>
+            <author ref="#alienus-viaf39470442">
+               <persName xml:lang="it" type="viaf" ref="39470442">Marullo, Michelle</persName>
+            </author>
+            <editor key="sorko02">
+               <persName>
                   <ref xml:lang="hr">Miho Sorkočević</ref>
                </persName>
-                    <date>1739-1796</date>
-                </editor>
-                <respStmt>
-                    <resp>Editionem electronicam curavit</resp>
-                    <persName xml:id="NJ">
+               <date>1739-1796</date>
+            </editor>
+            <respStmt>
+               <resp>Editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Digitalizat izvornog izdanja (1790)
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Digitalizat izvornog izdanja (1790)
                 </edition>
-            </editionStmt>
-            <extent ana="C">Mg:C 121 versus, verborum 3295</extent>
-            <publicationStmt>
-                <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+         </editionStmt>
+         <extent ana="C">Mg:C 121 versus, verborum 3295</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date>prosinca 2009</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <biblStruct>
-                    <monogr>
-                        
-                        <author>Didak Pir</author>
-                        <title>De illustribus familiis, quae hodie Rhacusae exstant. Elegia </title>
-                        <imprint>
-                            <pubPlace>Ragusii </pubPlace>
-                            <publisher>s. n.</publisher>
-                            <date>1790</date>
-                        </imprint>
-                    </monogr>
-                    <note>Reference: Koerbler. Život i rad Didaka Pira, pag. 5.</note>
-                    <idno type="other">Xb * Jurić. Scriptores</idno>
-                </biblStruct>
+               <monogr>
+                  <author>Didak Pir</author>
+                  <title>De illustribus familiis, quae hodie Rhacusae exstant. Elegia </title>
+                  <imprint>
+                     <pubPlace>Ragusii </pubPlace>
+                     <publisher>s. n.</publisher>
+                     <date>1790</date>
+                  </imprint>
+               </monogr>
+               <note>Reference: Koerbler. Život i rad Didaka Pira, pag. 5.</note>
+               <note type="other">Xb * Jurić. Scriptores</note>
+            </biblStruct>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="ab" occurs="2"/>
-          <tagUsage gi="abbr" occurs="3"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="author" occurs="6"/>
-          <tagUsage gi="bibl" occurs="1"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="4"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="div" occurs="5" withId="3"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="floatingText" occurs="3"/>
-          <tagUsage gi="head" occurs="8"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="121"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lg" occurs="15"/>
-          <tagUsage gi="milestone" occurs="15"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="5" withId="4"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="10" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="ptr" occurs="5"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="quote" occurs="4"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="53"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="10"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -142,113 +77,107 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1790" period="17xx_3_third">1790</date>
-            </creation>
+            <date when="1790" period="17xx_3_third">1790</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                    <term>paratextus prosaici</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae recentiores (1600-1850)</term>
-                    <term>Saeculum 18 (1701-1800)</term>
-                    <term>1751-1800</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - carmen</term>
-                    <term>poesis - elegia</term>
-                    <term>poesis - epigramma</term>
-                    <term>prosa oratio - tractatus</term>
-                    <term>prosa oratio - commentarius</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+               <term>paratextus prosaici</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - carmen</term>
+               <term>poesis - elegia</term>
+               <term>poesis - epigramma</term>
+               <term>prosa oratio - tractatus</term>
+               <term>prosa oratio - commentarius</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date when="2012-08-30">2012-08-30</date>
+            <date when="2012-08-30">2012-08-30</date>
                 Izostavljeni tekstovi Didaka Pira; uputnica na njegovu datoteku.
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date when="2010-12-17">2010-12-17</date>
+            <date when="2010-12-17">2010-12-17</date>
                 Premjestio elegiju Vetranoviću, Asirellija i Mallinija u glavno tijelo datoteke. Dotjerao imena autora (latinski prvo).
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date when="2009-12-30">2009-12-30</date>
+            <date when="2009-12-30">2009-12-30</date>
                 TEI zaglavlje i formatiranje.
             </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <milestone unit="page" n="35"/>
-        <body>
-            <div type="poesis-elegia" met="elegiacum">
-                <head>DE ILLUSTRIBUS FAMILIIS, QUAE RHACUSAE EXTANT AD AMPLISSIMUM SENATUM DIDACI
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <milestone unit="page" n="35"/>
+      <body>
+         <div type="poesis-elegia" met="elegiacum">
+            <head>DE ILLUSTRIBUS FAMILIIS, QUAE RHACUSAE EXTANT AD AMPLISSIMUM SENATUM DIDACI
                     PYRRHI. (****) ELEGIA.</head>
-
-                <ab>
-                    <ptr type="croala-datoteka" target="didacus-p-cato.xml"/>
-                </ab>
-
-
-            </div>
-            <div type="poesis-elegia" met="elegiacum" xml:id="dp-mv">
-                <head>Michaeli Mensio Senatori gravissimo et aerarii IV. viro in Mauri Vetrani
+            <ab>
+               <ptr type="croala-datoteka" target="didacus-p-cato.xml"/>
+            </ab>
+         </div>
+         <div type="poesis-elegia" met="elegiacum" xml:id="dp-mv">
+            <head>Michaeli Mensio Senatori gravissimo et aerarii IV. viro in Mauri Vetrani
                     Poetae Illyrici obitu.</head>
-                <ab>
-                    <ptr type="croala-datoteka" target="didacus-p-cato.xml"/>
-                </ab>
-            </div>
-            <div type="poesis-epigramma" xml:id="gaspmal-dp" met="elegiacum">
-                <head>Gaspari Malinii Sandecensis de laudibus Didaci Pyrrhi</head>
-                <l n="1">Quam sit amoena situ, quam splendida civibus amplis,</l>
-                <l n="2" met="pentameter">Quamque potens armis, quamque Rhacusa toga;</l>
-                <l n="3">Egregio vates hic monstrat carmine Pyrrhus,</l>
-                <l n="4" met="pentameter">Pyrrhus Apollineae gloria magna lyrae.</l>
-                <l n="5">Haec Veneto nuper vulgata encomia praelo,</l>
-                <l n="6" met="pentameter">Natalis Craci nunc dat in urbe legi.</l>
-                <l n="7">Prima igitur Pyrrho debetur gratia, Thomae</l>
-                <l n="8" met="pentameter">Altera, pars hinc est laudis utrique sua.</l>
-            </div>
-            <div type="poesis-epigramma" xml:id="asirel-rag" met="elegiacum">
-                <head>
+            <ab>
+               <ptr type="croala-datoteka" target="didacus-p-cato.xml"/>
+            </ab>
+         </div>
+         <div type="poesis-epigramma" xml:id="gaspmal-dp" met="elegiacum">
+            <head>Gaspari Malinii Sandecensis de laudibus Didaci Pyrrhi</head>
+            <l n="1">Quam sit amoena situ, quam splendida civibus amplis,</l>
+            <l n="2" met="pentameter">Quamque potens armis, quamque Rhacusa toga;</l>
+            <l n="3">Egregio vates hic monstrat carmine Pyrrhus,</l>
+            <l n="4" met="pentameter">Pyrrhus Apollineae gloria magna lyrae.</l>
+            <l n="5">Haec Veneto nuper vulgata encomia praelo,</l>
+            <l n="6" met="pentameter">Natalis Craci nunc dat in urbe legi.</l>
+            <l n="7">Prima igitur Pyrrho debetur gratia, Thomae</l>
+            <l n="8" met="pentameter">Altera, pars hinc est laudis utrique sua.</l>
+         </div>
+         <div type="poesis-epigramma" xml:id="asirel-rag" met="elegiacum">
+            <head>
                <add resp="#NJ">Illustrissimis Dominis Ragusiae, Petrus Philippus Asirellus, 
                     Secretarius Florentinus. 
-                    <abbr>S. P. D.</abbr>, <date>1578</date> 
+                    <abbr>S. P. D.</abbr>, <date>1578</date>
                </add>
             </head>
-                <l n="1">Hic mare dat scopulos, salebrosaque litora circum,</l>
-                <l n="2" met="pentameter">Urbsque sub immani libera monte jacet.</l>
-                <l n="3">Orbe suum toto pandit Rhacusia nomen,</l>
-                <l n="4" met="pentameter">Integra quod nullo laesa pudore manet.</l>
-                <l n="5">Haec habet innumeras naves in gurgite vasto:</l>
-                <l n="6" met="pentameter">Quaelibet huc auro pondus adaucta vehit.</l>
-                <l n="7">Et sibi quae tellus prohibet, Neptunus aquarum</l>
-                <l n="8" met="pentameter">Arva dedit multo fertiliora Deus.</l>
-                
-                    <milestone unit="page" n="71"/>
-                <l n="9">Haec juvat externos dapibus conferta superbis,</l>
-                <l n="10" met="pentameter">Aereque dat dignis munera digna suo.</l>
-                <l n="11">Moribus ac animo secum Florentia compar,</l>
-                <l n="12" met="pentameter">Diligit ac civem civis amore pari.</l>
-                <l n="13">Vive memor doni Divum Rhacusia felix,</l>
-                <l n="14" met="pentameter">Atque mei semper candida vive memor.</l>
-                
-            </div>
-                <div type="notes">
-                    <head>NOTAE, AC SUPPLEMENTA.</head>
+            <l n="1">Hic mare dat scopulos, salebrosaque litora circum,</l>
+            <l n="2" met="pentameter">Urbsque sub immani libera monte jacet.</l>
+            <l n="3">Orbe suum toto pandit Rhacusia nomen,</l>
+            <l n="4" met="pentameter">Integra quod nullo laesa pudore manet.</l>
+            <l n="5">Haec habet innumeras naves in gurgite vasto:</l>
+            <l n="6" met="pentameter">Quaelibet huc auro pondus adaucta vehit.</l>
+            <l n="7">Et sibi quae tellus prohibet, Neptunus aquarum</l>
+            <l n="8" met="pentameter">Arva dedit multo fertiliora Deus.</l>
+            <milestone unit="page" n="71"/>
+            <l n="9">Haec juvat externos dapibus conferta superbis,</l>
+            <l n="10" met="pentameter">Aereque dat dignis munera digna suo.</l>
+            <l n="11">Moribus ac animo secum Florentia compar,</l>
+            <l n="12" met="pentameter">Diligit ac civem civis amore pari.</l>
+            <l n="13">Vive memor doni Divum Rhacusia felix,</l>
+            <l n="14" met="pentameter">Atque mei semper candida vive memor.</l>
+         </div>
+         <div type="notes">
+            <head>NOTAE, AC SUPPLEMENTA.</head>
             <pb n="nts"/>
-                    <milestone unit="page" n="65"/>
-
-                <note xml:id="nxxxx" place="foot" target="refxxxx" resp="Author">(****) Didacus
+            <milestone unit="page" n="65"/>
+            <note xml:id="nxxxx" place="foot" target="refxxxx" resp="Author">(****) Didacus
                     Pyrrhus, vel ut alii malunt Flavius Jacobus Lusitanus, Eborensis, humanitatis
                     atque eloquentiae Rhacusae publicus professor; floruit Sec. XVI. Plurima ejus
                     latina opera habentur impressa Venetiis an 1596 apud Felicem Valgrisium;
@@ -261,14 +190,13 @@
                     nihilominus acerbe in Lusitania fuit vexatus a saevissimis inquisitoribus
                     illorum temporum Melio, et Parede, quorum meminit in quadam Elegia Rhacusae
                     scripta. <quote>
-                        <l>Quidquid erit, manes descendam liber ad imos,</l>
-                        <l>Stet mihi libertas morte redempta mea;</l>
-                        <l>Dis invise Meli, et Melio mage saeve Paredes,</l>
-                        <l>Nil vobis in me jam modo juris erit.</l>
-                    </quote>
-                </note>
-
-                    <note xml:id="ng" place="foot" target="refg" resp="Author">(g) In quodam carmine Aelii Lampridii P. L. de patriae suae
+                  <l>Quidquid erit, manes descendam liber ad imos,</l>
+                  <l>Stet mihi libertas morte redempta mea;</l>
+                  <l>Dis invise Meli, et Melio mage saeve Paredes,</l>
+                  <l>Nil vobis in me jam modo juris erit.</l>
+               </quote>
+            </note>
+            <note xml:id="ng" place="foot" target="refg" resp="Author">(g) In quodam carmine Aelii Lampridii P. L. de patriae suae
                         laudibus, poeta queritur de antiquis scriptoribus, quod pauca de Illyrica
                         Epidauro tradiderint; deinde dicit Epidaurum eversam a Saracenis, postremo
                         Rhacusanas patricias gentes enumerat. Id forsitan Didaco Pyrrho occasionem
@@ -277,27 +205,24 @@
                         redigatur, praecipue si longus est, jure suo taedium ac satietatem
                         lectoribus affert. Testis est ipsius Homeri navium enumeratio. En Aelii
                         versus. <quote>
-                            <l>Atque adeo Proceres aliquos numerare juvabit,</l>
-                            <l>Quos cladi superesse libet, mihi crede, futuros</l>
-                            <l>Solamen tibi grande: tuo nam sanguine proles</l>
-                            <l>Gotia, Gondoleumque genus, Gradiique manebunt,</l>
-                            <l>Bonda, Benessa, Boni, Cervinorumque propago,</l>
-                            <l>Mentia progenies, Putei, clarique Georgi,</l>
-                            <l>Calisti, et Sorgi celebres, et Aranea proles,</l>
-                            <l>Et Zamana domus, Crucii, dictique Bobales,</l>
-                            <l>Buccinolum, Restique genus, Palmottaque; gensque</l>
-                            <l>Volcia, Luccarei, Lucae, Sarracha, Basellus,</l>
-
-                            <milestone unit="page" n="67"/>
-
-                            <l>Et Martinusia cum gente Cabusius, et vos</l>
-                            <l>Bucchia, Malasconae, Proculi, Binciola, Ghetalde,</l>
-                            <l>Et cum Theodosiis Prothanelli <abbr>etc.</abbr>
+                  <l>Atque adeo Proceres aliquos numerare juvabit,</l>
+                  <l>Quos cladi superesse libet, mihi crede, futuros</l>
+                  <l>Solamen tibi grande: tuo nam sanguine proles</l>
+                  <l>Gotia, Gondoleumque genus, Gradiique manebunt,</l>
+                  <l>Bonda, Benessa, Boni, Cervinorumque propago,</l>
+                  <l>Mentia progenies, Putei, clarique Georgi,</l>
+                  <l>Calisti, et Sorgi celebres, et Aranea proles,</l>
+                  <l>Et Zamana domus, Crucii, dictique Bobales,</l>
+                  <l>Buccinolum, Restique genus, Palmottaque; gensque</l>
+                  <l>Volcia, Luccarei, Lucae, Sarracha, Basellus,</l>
+                  <milestone unit="page" n="67"/>
+                  <l>Et Martinusia cum gente Cabusius, et vos</l>
+                  <l>Bucchia, Malasconae, Proculi, Binciola, Ghetalde,</l>
+                  <l>Et cum Theodosiis Prothanelli <abbr>etc.</abbr>
                   </l>
-                        </quote>
-                    </note>
-
-                    <note xml:id="nh" place="foot" target="refh" resp="Author">(h) Epirum in tertio
+               </quote>
+            </note>
+            <note xml:id="nh" place="foot" target="refh" resp="Author">(h) Epirum in tertio
                         Europae sinu ponit Plinius et addit: omnis Graeciae fabulositas, sicut
                         literarum claritas ex hoc primum sinu effulsit. Incipit autem Epirus a
                         Celidno flumine, et definit in Acheloo, qui ab Achaja eam separat: Jonium
@@ -318,8 +243,7 @@
                         potius censuerunt, quam eos, qui cives nullo sibi emolumento proposito suis
                         opibus insperato servaverant. Utinam quibus artibus civitatem nobilitatemque
                         assecuti sunt, iisdem etiam perpetuo colant!</note>
-
-                    <note xml:id="ni" place="foot" target="refi" resp="Author">(i) Primum Cracoviae
+            <note xml:id="ni" place="foot" target="refi" resp="Author">(i) Primum Cracoviae
                         edita fuit haec Pyrrhi Elegia per Thomam Natalis anno 1582. deinde Venetiis
                         per Felicem Valgrisium anno 1596. ad calcem ejus Carminum. Est et tertia
                         editio ista prior item Veneta sub signo Leonis anno 1592. ubi haec Pyrrhi
@@ -339,7 +263,7 @@
                         imperatorem, quique in eo itinere amico ac libenti animo commoratus apud nos
                         est. 
                         <ptr target="#gaspmal-dp"/>
-                        <ptr target="#asirel-rag"/>
+               <ptr target="#asirel-rag"/>
                         
                          Non possum hic non indulgere
                         genio, permotus etiam argumenti similitudine, ac recordatione potissimum
@@ -367,39 +291,39 @@
                         doctissimus; nihilo <milestone unit="page" n="72"/> tamen minus inter tot
                         naturae, atque mentis bona, solus is esse videtur, qui proprii ingenii
                         amplitudinem atque vim aut ignoret, aut certe non magni pendat. <quote>
-                            <floatingText>
-                                <body>
-                                    <head>AD RHACUSAM</head>
-                                    <l>Terrarum decus o quotquot maris alluit unda</l>
-                                    <l>Illyrici eximium, dia Rhacusa vale.</l>
-                                    <l>Abstrahit invitum vis me hinc fati aspera; at intra</l>
-                                    <l>Moenia sacra urbis cor manet atque anima;</l>
-                                    <l>Qua sanctae amtiquum referunt Lacedaemona leges,</l>
-                                    <l>Qua degunt charites Atticae, et ingenium.</l>
-                                    <l>O utinam amplexes reducem me olim; ac mea demum</l>
-                                    <l>Ossa tuo condas, libera terra, sinu!</l>
-                                </body>
-                            </floatingText> 
-                            <floatingText xml:lang="it">
-                                <body>
-                                    <head>TRADUZIONE.</head>
-                                    <l>Onor d' ogni altra terra, a cui s' arresta</l>
-                                    <l>Il mare Illirio, alma Ragusa, addio;</l>
-                                    <l>Da te mi svelle, oime, malgrado mio</l>
-                                    <l>Dell' avverso destin forza funesta.</l>
-                                    <l>Ma fra le sacre tue mura sen resta</l>
-                                    <l>Ogni mio giusto affetto, ogni desio,</l>
-                                    <l>Se per le sante leggi tue vegg' io</l>
-                                    <l>Che il cenere di Sparta in te si desta.</l>
-                                    <l>In mezzo alle tue Donne onesto regno</l>
-                                    <l>Poser le grazie, ed entro al tuo confine</l>
-                                    <l>Bel rifugio trovo l' Attico ingegno.</l>
-                                    <l>Deh concedano a me fausti gli Dei,</l>
-                                    <l>Che rivederti io possa, e ch' abbian fine</l>
-                                    <l>Nel tuo libero seno i giorni mei!</l>
-                                </body>
-                            </floatingText>
-                        </quote> Priusquam hujus collectanei operis terminum, cui jam proximus sum,
+                  <floatingText>
+                     <body>
+                        <head>AD RHACUSAM</head>
+                        <l>Terrarum decus o quotquot maris alluit unda</l>
+                        <l>Illyrici eximium, dia Rhacusa vale.</l>
+                        <l>Abstrahit invitum vis me hinc fati aspera; at intra</l>
+                        <l>Moenia sacra urbis cor manet atque anima;</l>
+                        <l>Qua sanctae amtiquum referunt Lacedaemona leges,</l>
+                        <l>Qua degunt charites Atticae, et ingenium.</l>
+                        <l>O utinam amplexes reducem me olim; ac mea demum</l>
+                        <l>Ossa tuo condas, libera terra, sinu!</l>
+                     </body>
+                  </floatingText>
+                  <floatingText xml:lang="it">
+                     <body>
+                        <head>TRADUZIONE.</head>
+                        <l>Onor d' ogni altra terra, a cui s' arresta</l>
+                        <l>Il mare Illirio, alma Ragusa, addio;</l>
+                        <l>Da te mi svelle, oime, malgrado mio</l>
+                        <l>Dell' avverso destin forza funesta.</l>
+                        <l>Ma fra le sacre tue mura sen resta</l>
+                        <l>Ogni mio giusto affetto, ogni desio,</l>
+                        <l>Se per le sante leggi tue vegg' io</l>
+                        <l>Che il cenere di Sparta in te si desta.</l>
+                        <l>In mezzo alle tue Donne onesto regno</l>
+                        <l>Poser le grazie, ed entro al tuo confine</l>
+                        <l>Bel rifugio trovo l' Attico ingegno.</l>
+                        <l>Deh concedano a me fausti gli Dei,</l>
+                        <l>Che rivederti io possa, e ch' abbian fine</l>
+                        <l>Nel tuo libero seno i giorni mei!</l>
+                     </body>
+                  </floatingText>
+               </quote> Priusquam hujus collectanei operis terminum, cui jam proximus sum,
                         pertingam; nam optimum consilium est paulum jejuno potius, quam nimis
                         expleto stomacho recedere; ferculum adhuc unum apponam, quod delicatiori
                         palato praeditis probari ut spero maxime debet. Quum enim nuper in
@@ -422,104 +346,104 @@
                         propositum revertar, en hic de quo agitur Michaelis Tarchaniotae Marulli
                         Constantinopolitani de laudibus Rhacusae 
                         <quote>
-                            <floatingText>
-                                <body>
-                                    <head>HYMNUS.</head>
-                                    <lg>
-                                        <l>Rhacusa multis gens Epidauria,</l>
-                                        <l>Sicana pubes pluribus; at mihi,</l>
-                                        <l>Ut nomen incertum genusque,</l>
-                                        <l>Grande soli decus urbiumque,</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Quascunque longus subluit Adria,</l>
-                                        <l>Quo te merentem carmine prosequar</l>
-                                        <l>Non falsus, aut somno petita</l>
-                                        <l>Materia sine teste inani?</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Amica quondam dulcis, ubi puer</l>
-                                        <l>Primas querelas, et miseri exili</l>
-                                        <l>Lamenta, de tristi profudi</l>
-                                        <l>Pectore non inimicus hospes.</l>
-                                    </lg>
-                                    <milestone unit="page" n="74"/>
-                                    <lg>
-                                        <l>Hinc me locorum vis rapit aspera</l>
-                                        <l>Evicta cultu, saxaque mollibus</l>
-                                        <l>Servire Phaeacum viretis</l>
-                                        <l>Jussa virum docili labore;</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Et cuncta cressa vite nitentia,</l>
-                                        <l>Qua longa Sercus brachia porrigit</l>
-                                        <l>Objectus hibernis pruinis,</l>
-                                        <l>Et boream populis tuetur.</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Hinc tuta passim sponte deum freta:</l>
-                                        <l>Litusque fretum portubus, et bonis</l>
-                                        <l>Gens laeta convectis utroque</l>
-                                        <l>Limine flammiferentis astri.</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Hinc ipsa muro moenia duplici</l>
-                                        <l>Educta coelo; pars licet altera</l>
-                                        <l>Natura, et abrupti superbit</l>
-                                        <l>Rupibus aeriis profundi:</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Complexa portus mole Cyclopea,</l>
-                                        <l>Urbisque quantas divitias neque</l>
-                                        <l>Mater syracusae tulere,</l>
-                                        <l>Nec gemino mare dives Isthmos.</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Etsi ista (quamquam maxima, nec nisi</l>
-                                        <l>Concessa raris munere coelitum)</l>
-                                        <l>Virtutis et laudum tuarum </l>
-                                        <l>Vera loqui quota pars volenti!</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Quum morem et urbis saepe animo sacra</l>
-                                        <l>Tot jura mecum cogito, quum decus,</l>
-                                        <l>Pulchramque libertatem avorum</l>
-                                        <l>Perpetua serie retentam,</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Interque Turcas, et Venetum asperum,</l>
-                                        <l>Et inquietae regna Neapolis,</l>
-                                        <l>Vix qualis aetneo profundo</l>
-                                        <l>Unda freti natat aestuosi.</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Heu! quae suetum nec patitur jugum,</l>
-                                        <l>Nec, si carendum sit, ferat otium,</l>
-                                        <milestone unit="page" n="75"/>
-                                        <l>Incerta votorum, suisque</l>
-                                        <l>Exitio toties futura.</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Nam quae remotis usque adeo jacet</l>
-                                        <l>Gens ulla terris? quod mare tam procul</l>
-                                        <l>Ignotum acerbis Appulorum</l>
-                                        <l>Exiliis, Calabrumque cladi?</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Non his beati quaeritur artibus</l>
-                                        <l>Quies Honesti, non bona strenuae</l>
-                                        <l>Virtutis: et frugi parata</l>
-                                        <l>Regna domi, populique pace.</l>
-                                    </lg>
-                                    <lg>
-                                        <l>Sed haec silenti non patiens amor:</l>
-                                        <l>Tu vero captis artibus optima</l>
-                                        <l>Rem auge, decusque; et nationum,</l>
-                                        <l>Ut merita es, caput usque vive.</l>
-                                    </lg>
-                                </body>
-                            </floatingText>
-                        </quote> Quod hucusque diligenter attuli, haud prorsus inutile futurum huic
+                  <floatingText>
+                     <body>
+                        <head>HYMNUS.</head>
+                        <lg>
+                           <l>Rhacusa multis gens Epidauria,</l>
+                           <l>Sicana pubes pluribus; at mihi,</l>
+                           <l>Ut nomen incertum genusque,</l>
+                           <l>Grande soli decus urbiumque,</l>
+                        </lg>
+                        <lg>
+                           <l>Quascunque longus subluit Adria,</l>
+                           <l>Quo te merentem carmine prosequar</l>
+                           <l>Non falsus, aut somno petita</l>
+                           <l>Materia sine teste inani?</l>
+                        </lg>
+                        <lg>
+                           <l>Amica quondam dulcis, ubi puer</l>
+                           <l>Primas querelas, et miseri exili</l>
+                           <l>Lamenta, de tristi profudi</l>
+                           <l>Pectore non inimicus hospes.</l>
+                        </lg>
+                        <milestone unit="page" n="74"/>
+                        <lg>
+                           <l>Hinc me locorum vis rapit aspera</l>
+                           <l>Evicta cultu, saxaque mollibus</l>
+                           <l>Servire Phaeacum viretis</l>
+                           <l>Jussa virum docili labore;</l>
+                        </lg>
+                        <lg>
+                           <l>Et cuncta cressa vite nitentia,</l>
+                           <l>Qua longa Sercus brachia porrigit</l>
+                           <l>Objectus hibernis pruinis,</l>
+                           <l>Et boream populis tuetur.</l>
+                        </lg>
+                        <lg>
+                           <l>Hinc tuta passim sponte deum freta:</l>
+                           <l>Litusque fretum portubus, et bonis</l>
+                           <l>Gens laeta convectis utroque</l>
+                           <l>Limine flammiferentis astri.</l>
+                        </lg>
+                        <lg>
+                           <l>Hinc ipsa muro moenia duplici</l>
+                           <l>Educta coelo; pars licet altera</l>
+                           <l>Natura, et abrupti superbit</l>
+                           <l>Rupibus aeriis profundi:</l>
+                        </lg>
+                        <lg>
+                           <l>Complexa portus mole Cyclopea,</l>
+                           <l>Urbisque quantas divitias neque</l>
+                           <l>Mater syracusae tulere,</l>
+                           <l>Nec gemino mare dives Isthmos.</l>
+                        </lg>
+                        <lg>
+                           <l>Etsi ista (quamquam maxima, nec nisi</l>
+                           <l>Concessa raris munere coelitum)</l>
+                           <l>Virtutis et laudum tuarum </l>
+                           <l>Vera loqui quota pars volenti!</l>
+                        </lg>
+                        <lg>
+                           <l>Quum morem et urbis saepe animo sacra</l>
+                           <l>Tot jura mecum cogito, quum decus,</l>
+                           <l>Pulchramque libertatem avorum</l>
+                           <l>Perpetua serie retentam,</l>
+                        </lg>
+                        <lg>
+                           <l>Interque Turcas, et Venetum asperum,</l>
+                           <l>Et inquietae regna Neapolis,</l>
+                           <l>Vix qualis aetneo profundo</l>
+                           <l>Unda freti natat aestuosi.</l>
+                        </lg>
+                        <lg>
+                           <l>Heu! quae suetum nec patitur jugum,</l>
+                           <l>Nec, si carendum sit, ferat otium,</l>
+                           <milestone unit="page" n="75"/>
+                           <l>Incerta votorum, suisque</l>
+                           <l>Exitio toties futura.</l>
+                        </lg>
+                        <lg>
+                           <l>Nam quae remotis usque adeo jacet</l>
+                           <l>Gens ulla terris? quod mare tam procul</l>
+                           <l>Ignotum acerbis Appulorum</l>
+                           <l>Exiliis, Calabrumque cladi?</l>
+                        </lg>
+                        <lg>
+                           <l>Non his beati quaeritur artibus</l>
+                           <l>Quies Honesti, non bona strenuae</l>
+                           <l>Virtutis: et frugi parata</l>
+                           <l>Regna domi, populique pace.</l>
+                        </lg>
+                        <lg>
+                           <l>Sed haec silenti non patiens amor:</l>
+                           <l>Tu vero captis artibus optima</l>
+                           <l>Rem auge, decusque; et nationum,</l>
+                           <l>Ut merita es, caput usque vive.</l>
+                        </lg>
+                     </body>
+                  </floatingText>
+               </quote> Quod hucusque diligenter attuli, haud prorsus inutile futurum huic
                         parvi operis instituto putavi; utrum me mea haec fallat opinio, sincerum
                         attenti lectoris judicium indicabit; sed si ille unquam procliviori animo ad
                         favendum erit, prius velim intelligat, cui aliqua habenda sit gratia. Haec
@@ -671,8 +595,7 @@
                         qua potissimum Patricius ordo apud Rhacusanos optime promeruit, habui
                         dicere, quae si nimis longa videtur, imperitiae; si brevia, brevitati hujus
                         operis attribuantur.</note>
-                </div>
-            
-        </body>            
+         </div>
+      </body>
    </text>
 </TEI>

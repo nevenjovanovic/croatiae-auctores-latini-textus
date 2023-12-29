@@ -1,39 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="anffredus-savinae-donatio">
-            <titleStmt>
-                <title>Sauinae donatio, versio electronica</title>
-                <author ref="anffredus1034">
-                    <persName>Anffredus presbiter</persName>
-                    <date when="1034">floruit 1034</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="anffredus-savinae-donatio">
+         <titleStmt>
+            <title>Sauinae donatio, versio electronica</title>
+            <author ref="anffredus1034">
+               <persName>Anffredus presbiter</persName>
+               <date when="1034">floruit 1034</date>
+            </author>
+            <editor>
                <persName>
                   <ref type="viaf" target="305665942">Luka Vukušić</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
                 Prema digitalizatu znanstvenog izdanja (1967).
                 </edition>
-            </editionStmt>
-            <extent ana="B">Mg:B 403 verborum</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+         </editionStmt>
+         <extent ana="B">Mg:B 403 verborum</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date>Kolovoza 2012.</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                     HR-HDA-876-2
@@ -42,61 +43,13 @@
                     Diplomatički zbornik Kraljevine Hrvatske, Dalmacije i Slavonije, sv. I, Zagreb, 1967, str.68-69.
                     Priredio: Luka Vukušić, arhivist HDA 
                     <relatedItem type="digitalizat">
-                        <ref type="internet" target="http://arhinet.arhiv.hr/_DigitalniArhiv/Monumenta/HR-HDA-876-2.htm">HDA Arhinet</ref>
-                    </relatedItem>
-                </bibl>
+                  <ref type="internet"
+                       target="http://arhinet.arhiv.hr/_DigitalniArhiv/Monumenta/HR-HDA-876-2.htm">HDA Arhinet</ref>
+               </relatedItem>
+            </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signatures" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -110,49 +63,45 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1034" period="10xx_2_third">1034</date>
-                <placeName>Zadar</placeName>
-            </creation>
+            <date when="1034" period="10xx_2_third">1034</date>
+            <placeName>Zadar</placeName>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae medii aevi (700-1400)</term>
-                    <term>Saeculum 11 (1001-1100)</term>
-                    <term>1001-1050</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - donatio</term>
-                    <term>prosa oratio - diploma</term>
-                    <term>prosa oratio - acta</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae medii aevi (700-1400)</term>
+               <term>Saeculum 11 (1001-1100)</term>
+               <term>1001-1050</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - donatio</term>
+               <term>prosa oratio - diploma</term>
+               <term>prosa oratio - acta</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-08-08</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-08-08</date>
                 Prva verzija. Latinski spellcheck.
             </change>
-            
-        </revisionDesc>
-    </teiHeader>
-    <text type="prosa">
-        <body>
+      </revisionDesc>
+   </teiHeader>
+   <text type="prosa">
+      <body>
          <div type="prosa-donatio">
-            <opener>In nomine domini dei eterni. Anno ab incarnatione eiusdem millesimo XXX IIII, regnante piissimo imperatore Romano, in ciuitate autem Jadera presidente domino Andrea episcopo, prioratus autem eiusdem ciuitatis regente Gregorio decentessimo uiro. </opener> 
-            <p>Qualiter ego Sauina, uxor Gimmai, cogitaui diuina inspirante clementia meo animo pro remedium anime mee octaua pars de domus, que uisa sum habere et que me tangere uidetur, in monasterio sancti Grisogoni offerre pro anime mee remedio, quatinus ea pars uidelicet octaua monasterium possideat in perpetuum, et ab eodem rectore, qui in eodem monasterio in die obitus mei uisus fuerit fore, infelici corpori meo sepulturam tribuatur. Si quis autem post meum decessum in aliquo contrarius eiusdem octave partiuncule esse uoluerit, habeat mecum una cum meis heredibus, habeatque maledictionem dei et sanctorum omnium sitque cum apostata dampnatus in die aduentus domini.</p> 
+            <opener>In nomine domini dei eterni. Anno ab incarnatione eiusdem millesimo XXX IIII, regnante piissimo imperatore Romano, in ciuitate autem Jadera presidente domino Andrea episcopo, prioratus autem eiusdem ciuitatis regente Gregorio decentessimo uiro. </opener>
+            <p>Qualiter ego Sauina, uxor Gimmai, cogitaui diuina inspirante clementia meo animo pro remedium anime mee octaua pars de domus, que uisa sum habere et que me tangere uidetur, in monasterio sancti Grisogoni offerre pro anime mee remedio, quatinus ea pars uidelicet octaua monasterium possideat in perpetuum, et ab eodem rectore, qui in eodem monasterio in die obitus mei uisus fuerit fore, infelici corpori meo sepulturam tribuatur. Si quis autem post meum decessum in aliquo contrarius eiusdem octave partiuncule esse uoluerit, habeat mecum una cum meis heredibus, habeatque maledictionem dei et sanctorum omnium sitque cum apostata dampnatus in die aduentus domini.</p>
             <closer>
                <signatures>† Ego Andreas episcopus, testis. † Ego Gregorius prior, testis. Ego Prestantius tribunus, testis. Ego Dabro tribunus, testis. Ego diaconus Petrus, testis. Ego Anffredus presbiter scripsi et roboraui.</signatures>
             </closer>
          </div>
-        </body>
-
- 
-
-            </text>
+      </body>
+   </text>
 </TEI>

@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="brlic-ia-epist">
-        <titleStmt>
+         <titleStmt>
             <title>Epistula ad Andriam Torquatum filium, versio electronica.</title>
             <author ref="brlic01">
-                <persName xml:lang="hr">Brlić, Ignjat Alojzije</persName>
-                <date>1795-1855</date>
+               <persName xml:lang="hr">Brlić, Ignjat Alojzije</persName>
+               <date>1795-1855</date>
             </author>
             <editor>
                <persName>
@@ -13,18 +14,18 @@
                </persName>
             </editor>
             <respStmt>
-                <resp>Hanc editionem electronicam curavit</resp>
-                <persName>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
-        </titleStmt>
+         </titleStmt>
          <editionStmt>
             <edition>
     Prema kasnijem tiskanom izdanju (1942).
 </edition>
          </editionStmt>
-        <extent ana="B">Mg:B Verborum 442</extent>
+         <extent ana="B">Mg:B Verborum 442</extent>
          <publicationStmt>
             <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
             projekt na <orgName>
@@ -41,95 +42,35 @@
         </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="11"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="6"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="mentioned" occurs="6"/>
-          <tagUsage gi="milestone" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="12"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="14"/>
-          <tagUsage gi="person" occurs="5"/>
-          <tagUsage gi="place" occurs="3"/>
-          <tagUsage gi="placeName" occurs="6"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="4"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="5"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="4"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-       <profileDesc xml:id="brlicignjatbrlicandrija18371022">
+      <profileDesc xml:id="brlicignjatbrlicandrija18371022">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin">
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q4686">Slavonski Brod</placeName>
             </place>
-             <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q221495">Vinkovci</placeName>
             </place>
-             <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q273114">Požega</placeName>
             </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender">
+            <person ana="sender">
                <persName ref="brlic01">Brlić, Ignjat Alojzije</persName>
             </person>
-             <person ana="recipient">
+            <person ana="recipient">
                <persName ref="croala.publika.brlic.andrija.torkvat">Brlić, Andrija Torkvat</persName>
             </person>
-             <person ana="mentioned">
+            <person ana="mentioned">
                <persName>Acxich</persName>
             </person>
-             <person ana="mentioned">
+            <person ana="mentioned">
                <persName>Popovich</persName>
             </person>
-             <person ana="mentioned">
+            <person ana="mentioned">
                <persName>Müller</persName>
             </person>
          </particDesc>
@@ -139,19 +80,19 @@
          <creation>
             <date when="1837-10-22" period="18xx_2_third">22.10.1837.</date>
             <placeName ref="3190586" type="geonames">Brod</placeName>
-        </creation>
+         </creation>
          <textClass>
             <keywords scheme="typus">
-                <term>prosa</term>
+               <term>prosa</term>
             </keywords>
             <keywords scheme="aetas">
-                <term>Litterae recentiores (1600-1850)</term>
-                <term>Saeculum 19 (1801-1850)</term>
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 19 (1801-1850)</term>
             </keywords>
             <keywords scheme="genre">
-                <term>prosa oratio - epistula</term>
+               <term>prosa oratio - epistula</term>
             </keywords>
-        </textClass>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -182,15 +123,14 @@
         XI Calend. Novembris 1837.
         <abbr>NB</abbr> idest 22a 8bris</dateline>
                <salute>Charissime filiole!</salute>
-            </opener>    
+            </opener>
             <p> 
         Mihi quidem debeo gratulari quod latinas literas ad me
         mittas, sed dolendum, quod eas tam <sic>eronee</sic> scribas. Itaque
         tibi plus attentionis commendo tum in ordinatione tuarum
-        literarum, tum in syntaxi <abbr>etc.</abbr> 
+        literarum, tum in syntaxi <abbr>etc.</abbr>
                <sic>prosertim</sic> in significationibus
         verborum, eapropter grammaticam et lexicon pro manibus habes.</p>
-        
             <p>Inter caetera dicis, in prima mihi sine loco et dato missa
         epistola, <q>quemlibet vestrum in scholam scriptoriam ire debere</q>,
         loco <mentioned>schola scriptoria</mentioned>; quaere quidnam in lexico
@@ -206,21 +146,18 @@
                   <foreign xml:lang="de">die Uhr</foreign>
                </mentioned> latine
             vocetur. ― In ambis literis mihi scribis: <q>salve
-        Patrem Paschalem</q> 
+        Patrem Paschalem</q>
                <abbr>etc. etc</abbr>. Ex lexico edoceberis quidnam
         <mentioned>salve</mentioned> significet. Quomodo latine dicatur <mentioned>
                   <foreign xml:lang="de">grüssen</foreign>
                </mentioned> inspice
         lexicon.</p>
-        
             <milestone unit="page"/>
-        
             <p>Scholam graphidis cum meo annutu non frequentabis,
         sed tamen si vis, liceat tibi, at cum modo pro ista arte 
         necessaria instrumenta non habeam, tardius tibi illa mittam.
         Satage ut quo saepissime ad scholam caligraphicam venias,
         nam pessimam scripturam habes.</p>
-        
             <p>Ut musicae studeas semper opto, et quidem ut vocalem
         omnibus caeteris musicis <sic>praeferras</sic>; cupio, et ni fallor, 
         primum quod in publica schola es percepturus, erit musica 
@@ -232,35 +169,26 @@
         Si tempus et otium habes, studeas et caeteris omnibus,
         ego non ero contrarius. Sed ne praeferras alia dulcia,
         necessariis et officiosis.</p>
-        
             <p>Mihi plurimum salutabis admodum <abbr>rever-dos</abbr> dominos 
         Cathechetam et tuum Professorem, etiam tuum Patrem familias
         apud quem vesceris, et ejus dominam, mea et matris ex
         parte.</p>
-        
             <p>Scholam musices tibi mitto. Invenies etiam pro <persName>Müller</persName>
         ibidem duo folia Charto pro Cottis, trade eidem illa.
-        Responsum <abbr>Dno.</abbr> 
+        Responsum <abbr>Dno.</abbr>
                <persName>Popovich</persName> adjacens dabis.</p>
-        
             <p>Quid pro instructione in Musica solvendum fuerit, <abbr>A. R.
         Dnus.</abbr> Cathecheta, meus singularis amicus pro me solvet, cui
         omnia restituam.</p>
-        
             <closer>Percipe tuas res bene, ut mihi studium gaudio sit, vale.</closer>
-        
             <signed>Tuus pater</signed>
-        
             <postscript>
                <p>
                   <abbr>P. S.</abbr> Unum kalendarium dabis <abbr>a. r. Dno.</abbr>
                   <sic>Cathecheta</sic>, unum clarissimo <abbr>Dno.</abbr> tuo Professori,
         unum <abbr>Dno.</abbr> Directori <persName>Acxich</persName>, residuum pro te servare poteris.</p>
-        
                <milestone unit="page"/>
-        
                <p>Plurimam salutem tibi dicit Mater, fratres cum sororibus.</p>
-        
                <p>Horologium tibi destinatum necdum <placeName>Posega</placeName> venit, dum
         autem venerit, si promeritus fueris, tibi mittam, sed <abbr>NB</abbr> si
         promeritus fueris, nam, si male te gesseris, non illud accipies,
@@ -269,7 +197,6 @@
     </p>
             </postscript>
          </div>
-   
       </body>
    </text>
 </TEI>

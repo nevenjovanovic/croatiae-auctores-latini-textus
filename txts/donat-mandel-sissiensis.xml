@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="donat-mandel-sissiensis">
@@ -29,11 +30,10 @@
                </persName>
             </respStmt>
          </titleStmt>
-         
-            <editionStmt>
-               <p>Izdanje prema faksimilu izvornika (1717).
+         <editionStmt>
+            <p>Izdanje prema faksimilu izvornika (1717).
                </p>
-            </editionStmt>
+         </editionStmt>
          <extent ana="D">Mg:D 13523 versus, verborum 84448</extent>
          <publicationStmt>
             <p>Elektronska verzija: Croatica et Tyrolensia, znanstveni
@@ -54,74 +54,6 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="35"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="argument" occurs="15"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="19"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="29"/>
-          <tagUsage gi="docDate" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="2"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="head" occurs="25"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="1065" withId="263"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lb" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="30"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="32"/>
-          <tagUsage gi="persName" occurs="5" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="10"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="17"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="308"/>
-          <tagUsage gi="speaker" occurs="307"/>
-          <tagUsage gi="stage" occurs="7"/>
-          <tagUsage gi="tagUsage" occurs="58"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="unclear" occurs="39"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -167,17 +99,17 @@
    <text>
       <front>
          <titlePage>
-            <titlePart>Sissiensis victoria Christianis felix, Turcis funesta, antea in scenam data dum <expan>reverendissimus</expan> Dominus Dominus Thomas Kovachevich venerabilis Capituli Ecclesiae Zagrabiensis canonicus senior et custos proto-notarius apostolicus <abbr>etc.</abbr> 
+            <titlePart>Sissiensis victoria Christianis felix, Turcis funesta, antea in scenam data dum <expan>reverendissimus</expan> Dominus Dominus Thomas Kovachevich venerabilis Capituli Ecclesiae Zagrabiensis canonicus senior et custos proto-notarius apostolicus <abbr>etc.</abbr>
                <abbr>etc.</abbr> bene meritis de re litteraria scholaribus in academico, caesareo et regio Societatis JESU Zagrabiensi lycaeo praemia decerneret. </titlePart>
-               <titlePart>Nunc vero honori totius venerabilis Capituli Ecclesiae Zagrabiensis praelo commissa. </titlePart>
-                  <titlePart>Dum praeside reverendi patris Francisco Prekenfeldt e Societate JESU philosophiae professore emerito positiones ex universa philosophia defenderet eruditus ac perdoctus dominus Andreas Mandel philosophiae auditor emeritus. </titlePart>
+            <titlePart>Nunc vero honori totius venerabilis Capituli Ecclesiae Zagrabiensis praelo commissa. </titlePart>
+            <titlePart>Dum praeside reverendi patris Francisco Prekenfeldt e Societate JESU philosophiae professore emerito positiones ex universa philosophia defenderet eruditus ac perdoctus dominus Andreas Mandel philosophiae auditor emeritus. </titlePart>
             <docDate>Anno Domini 1717. Mense <gap reason="netiskano"/> die <gap reason="netiskano"/>
             </docDate>
          </titlePage>
          <div type="prosa-epistula-dedicatio">
             <opener>Illustrissimi et Reverendissimi Domini Domini.</opener>
-            <p>Qui terrarum orbi metiendo insudant, numerum ternarium optimum statuunt: triplex spectaculum vos, Illustres et <expan>Reverendissimi</expan> domini, exhibetis; victoriae, triumphi, scientiarum. Unum ab immortali de immortali vero conscripta historia suum esse voluit, quorum utrumque Manibus, cum gratias habere nequeamus, devota posteritas agimus: Poësis gloriatur in alio, nuper edito, et, ut speramus, perennaturo <corr resp="#NJ">munificentiae</corr> prototypo numquam delendo: tertium tandem ne abiret in gloria, Philosophia nostra in theatro favoris vestri sibi construit optimo progressu; ut, quod olim ab uno Vestri Collegii gloriose patratum est, bis celebraretur per singulos: ex universis haberet aeternitatem mari similis, quod fluvios emittit <corr resp="#NJ">ideo</corr>, ut recipiat. Frustra in Caelum tollit antiquitas magnum Alexandrum, dum majores illo conspicio; non enim unius Odysseae, sed omnium ingenuarum artium amantes, et tamen sacri Martis adeo studiosi ut dubium sit, utrum plus meritis vestris debeat salutem? Novit Regnum Croatiae, quam intrepide <unclear>istum</unclear>, pro Religione stringitis; novit etiam, quam amplo liberalitatis gremio fovetis illos pro Pallade, utroque bonum Patriae promovetis.  Exemplum <pb n="54"/>videlicet estis, Magnos Viros probari vigilantia. Et sicut Sol, Mundi oculus, licet interdum occidat, totus tamen non perit, lumine suo lunam vicariam submittens, eo gratior etiam, quod per vices redeat, beneficia sua, quae largitur mortalibus, non revisurus tantum, sed etiam aucturus.</p> 
-               <closer>
+            <p>Qui terrarum orbi metiendo insudant, numerum ternarium optimum statuunt: triplex spectaculum vos, Illustres et <expan>Reverendissimi</expan> domini, exhibetis; victoriae, triumphi, scientiarum. Unum ab immortali de immortali vero conscripta historia suum esse voluit, quorum utrumque Manibus, cum gratias habere nequeamus, devota posteritas agimus: Poësis gloriatur in alio, nuper edito, et, ut speramus, perennaturo <corr resp="#NJ">munificentiae</corr> prototypo numquam delendo: tertium tandem ne abiret in gloria, Philosophia nostra in theatro favoris vestri sibi construit optimo progressu; ut, quod olim ab uno Vestri Collegii gloriose patratum est, bis celebraretur per singulos: ex universis haberet aeternitatem mari similis, quod fluvios emittit <corr resp="#NJ">ideo</corr>, ut recipiat. Frustra in Caelum tollit antiquitas magnum Alexandrum, dum majores illo conspicio; non enim unius Odysseae, sed omnium ingenuarum artium amantes, et tamen sacri Martis adeo studiosi ut dubium sit, utrum plus meritis vestris debeat salutem? Novit Regnum Croatiae, quam intrepide <unclear>istum</unclear>, pro Religione stringitis; novit etiam, quam amplo liberalitatis gremio fovetis illos pro Pallade, utroque bonum Patriae promovetis.  Exemplum <pb n="54"/>videlicet estis, Magnos Viros probari vigilantia. Et sicut Sol, Mundi oculus, licet interdum occidat, totus tamen non perit, lumine suo lunam vicariam submittens, eo gratior etiam, quod per vices redeat, beneficia sua, quae largitur mortalibus, non revisurus tantum, sed etiam aucturus.</p>
+            <closer>
                <salute>Florete, igitur, Magni Patroni, lucete, animati soles clarissimi: et, quam totam complectimini, Togatae et Sagatae <sic resp="#NJ">Palladi</sic> perpetuum venerandi. Ita Vovet
             Illustrissimorum, ac Reverendissimorum Dominorum Cliens infimus</salute>
                <signed>ANDREAS MANDELL</signed>
@@ -199,39 +131,39 @@
                   <p>Luna dum nocturna inter sidera de imperio gloriabunda exultat, Aurorae a Phosphoro evocatae diluculum conatur eripere, sed Sole radiis universum illustrante eclypsim patitur. </p>
                </argument>
                <sp>
-                  <speaker>Luna:</speaker> 
-                  <l>Coeli pulchras inter faces, Et nocturnas cunctas faces</l> 
+                  <speaker>Luna:</speaker>
+                  <l>Coeli pulchras inter faces, Et nocturnas cunctas faces</l>
                   <l>Principatum teneo.</l>
-                  <l>Orta terris fero lucem, Et post solem tamquam Ducem</l> 
+                  <l>Orta terris fero lucem, Et post solem tamquam Ducem</l>
                   <l>Inter astra sedeo.</l>
                </sp>
                <sp>
-                  <speaker>Phosphorus:</speaker> 
-                  <l>Jam regnavit satis nox, Nunc aurora adsit mox</l> 
+                  <speaker>Phosphorus:</speaker>
+                  <l>Jam regnavit satis nox, Nunc aurora adsit mox</l>
                   <l>O aurora chara hora tandem terris orere.</l>
                </sp>
                <sp>
-                  <speaker>Aurora:</speaker> 
-                  <l>Terris diem nuntiare, Est aurorae inclamare</l> 
+                  <speaker>Aurora:</speaker>
+                  <l>Terris diem nuntiare, Est aurorae inclamare</l>
                   <l>Bona dies.</l>
-                  <l>Ergo diem nunciabo Terris cunctis inclamabo</l> 
+                  <l>Ergo diem nunciabo Terris cunctis inclamabo</l>
                   <l>Bona dies.</l>
-               </sp> 
+               </sp>
                <sp>
-                  <speaker>Luna:</speaker> 
-                  <l>Et cur ades huc scelesta! dum tu ades, sunt omnia moesta.</l> 
+                  <speaker>Luna:</speaker>
+                  <l>Et cur ades huc scelesta! dum tu ades, sunt omnia moesta.</l>
                   <l>A te fessis, somno pressis non est ulla requies.</l>
                </sp>
                <sp>
-                  <speaker>Aurora:</speaker> 
+                  <speaker>Aurora:</speaker>
                   <l>Non abibo, sed hic ibo, quoad sol adveniat.</l>
                </sp>
                <sp>
-                  <speaker>Sol:</speaker> 
-                  <l>Quid hoc? quis solem moratur? quid hoc? quis hic altercatur?</l> 
+                  <speaker>Sol:</speaker>
+                  <l>Quid hoc? quis solem moratur? quid hoc? quis hic altercatur?</l>
                   <l>Siccine? Luna Auroram invadat post suam horam? Non abibis interibis sic imperat Sol.</l>
                   <l>Discat Solem venerari, si sic non vult obscurari</l>
-                  <l>Luna post hac amplius.</l> 
+                  <l>Luna post hac amplius.</l>
                </sp>
             </div>
             <div type="poesis-drama-actus">
@@ -504,7 +436,6 @@
                   </sp>
                </div>
                <pb n="68"/>
-
                <div type="poesis-drama-scena">
                   <head>SCENA IV.</head>
                   <argument>
@@ -600,7 +531,6 @@
                      <l> Quando ciebas miles: iterato vicem:</l>
                      <l> Semper nocivus militi est longus situs.</l>
                   </sp>
-
                   <sp>
                      <speaker>Nuncius primus:</speaker>
                      <l> Invicte Princeps, nuncia, ut puto tibi</l>
@@ -694,7 +624,6 @@
                   </sp>
                   <stage>*Fit saltus Nautarum</stage>
                </div>
-
                <div type="poesis-drama-scena">
                   <head>SCENA VI.</head>
                   <argument>
@@ -703,7 +632,6 @@
                         exploraturus Fabritii apparatus et machinamenta, dissimulato animo ab
                         obsequiis remanet. </p>
                   </argument>
-
                   <sp>
                      <speaker>
                         <abbr>Oec.</abbr>
@@ -737,7 +665,6 @@
                      <l> Desideratum nostra consilia exitum.</l>
                   </sp>
                </div>
-
                <div type="poesis-drama-chorus">
                   <head>CHORUS I.</head>
                   <argument>
@@ -745,7 +672,6 @@
                         Satyris: exoratus eos fugat Jupiter, missoque per Mercurium, arcu et
                         pharetra, Dianam adversus quaevis monstra obarmat. </p>
                   </argument>
-
                   <sp>
                      <speaker>Diana:</speaker>
                      <l xml:id="p39">Favete.</l>
@@ -1062,9 +988,7 @@
                      <l>Haud esse possum. quod voles posthac, jube.</l>
                      <l>Ad jussa <corr resp="#NJ">Mechmett</corr> illico, volabit tua.</l>
                   </sp>
-
                </div>
-
                <div type="poesis-drama-scena">
                   <head>SCENA III.</head>
                   <argument>
@@ -1072,7 +996,6 @@
                         expedito, ad Fabritium Legatum suum mittit, ut in tempore signo e castro
                         dato imploret suppetias. </p>
                   </argument>
-
                   <sp>
                      <speaker>Chiliarcha:</speaker>
                      <l> Utrum remissi nuncii salvi suos</l>
@@ -1130,9 +1053,7 @@
                      <l> Vos promovete singuli instructi suis</l>
                      <l xml:id="p94"> Ferro et sclopetis...</l>
                   </sp>
-
                   <pb n="84"/>
-
                </div>
                <div type="poesis-drama-scena">
                   <head>SCENA IV.</head>
@@ -1141,7 +1062,6 @@
                         liberam custodiam traditur, quatuor Turcas Adolescentes ad obsequium
                         relictos Christiana fide initiat. </p>
                   </argument>
-
                   <sp>
                      <l xml:id="p95">o amor quantum tuos</l>
                      <l> Torques amantes! Saeva sic nunquam freta</l>
@@ -1180,7 +1100,7 @@
                      <l> Ex ore roseo verba, candorem indicant.</l>
                      <l> Sit ergo, praesens indicet amorem dies;</l>
                      <l> Lucillla salve, quem vides, Czari nepos,</l>
-                     <l> Amantis instar advenit, charam <unclear>sibi</unclear> 
+                     <l> Amantis instar advenit, charam <unclear>sibi</unclear>
                      </l>
                      <l xml:id="p96"> Quaerens Lucillam. </l>
                   </sp>
@@ -1205,7 +1125,6 @@
                      <l> Unde favor, obsecro? desine et quid sit nepos</l>
                      <l> Amuratis respice, osculor charam manum.</l>
                   </sp>
-
                   <sp>
                      <speaker> Mechmetus: </speaker>
                      <l> O chara dextra! nulla sic unquam meos</l>
@@ -1232,7 +1151,7 @@
                   </sp>
                   <sp>
                      <speaker> Mech. </speaker>
-                     <l xml:id="p103"> nescit <unclear>modum</unclear> 
+                     <l xml:id="p103"> nescit <unclear>modum</unclear>
                      </l>
                      <l> Amor, Lucilla, vivito, valeto optime. </l>
                   </sp>
@@ -1242,7 +1161,7 @@
                   </sp>
                   <sp>
                      <speaker> Bega primus: </speaker>
-                     <l> 
+                     <l>
                         <unclear>Ac</unclear> tu Lucilla seriis misce jocos,</l>
                      <l> Haec cum juventa, plaude, tripudia, novam</l>
                      <l> Maerore pulso, gaudia haec sponsam deceat.</l>
@@ -1258,9 +1177,7 @@
                      <l xml:id="p105"> Turcico pubes modo</l>
                      <l xml:id="p106"> Incipe salire. </l>
                      <stage> * <corr resp="#NJ">fit</corr> saltus.</stage>
-
                      <l xml:id="p107">Saltui satis datum.</l>
-
                      <l> Iam quae voluptas cumque Lucillae placet</l>
                      <l> Eo fruatur, castra ego visam parum.</l>
                   </sp>
@@ -1284,11 +1201,9 @@
                      <l> Meminisse quondam juverit et horum puto.</l>
                      <l> Audire plura flagitas? mecum veni.</l>
                   </sp>
-                  
                   <pb n="88"/>
                </div>
                <div type="poesis-drama-scena">
-
                   <head>SCENA V.</head>
                   <argument>
                      <p>Fabritius a nuntio exploratoribus Turcicis elapso edoctus de robore Caesarei
@@ -1303,7 +1218,7 @@
                      <l> At hic profugit salvus, is nostrum refert</l>
                      <l> Viribus et armis militem cuivis parem.</l>
                      <l> Ad haec paratum semper auxilio suo</l>
-                     <l> 
+                     <l>
                         <unclear>Adesse</unclear> nobis, habeat indicium modo.</l>
                      <l> Io triumphe! vicimus, stratus jacet</l>
                      <l> Superbus hostis, qualiter dicam modo.</l>
@@ -1350,12 +1265,12 @@
                   </sp>
                   <sp>
                      <speaker> Praef. primus: </speaker>
-                     <l> 
+                     <l>
                         <unclear>Cunctis</unclear> Fabritii sensa, non dubito placent.</l>
                   </sp>
                   <sp>
                      <speaker> Praef. tertius: </speaker>
-                     <l> 
+                     <l>
                         <unclear>Cunctis</unclear> Fabritii sensa, ego testor, placent.</l>
                   </sp>
                   <sp>
@@ -1369,7 +1284,7 @@
                      <l> Dedere paratum, litteris firma fidem.</l>
                      <l> Prudenter autem cuncta, quae dices, prius</l>
                      <l> Meditare tecum, nostra sic salus eris.</l>
-                     <l> 
+                     <l>
                         <unclear>Exoro</unclear> porro Coelites, iter tuum.</l>
                      <l xml:id="p114"> Teque ut secundent. </l>
                   </sp>
@@ -1380,7 +1295,6 @@
                      <l> Curabo, quam quae dicis, explere omnia. </l>
                   </sp>
                </div>
-
                <div type="poesis-drama-scena">
                   <head>SCENA VI.</head>
                   <argument>
@@ -1407,7 +1321,7 @@
                      <l> Valete Moenia, Sissium quondam mihi</l>
                      <l> Valeto charum! cogor invitus tibi</l>
                      <l> Suprema verba dicere et nunquam amplius</l>
-                     <l> 
+                     <l>
                         <unclear>Cernere</unclear> sepultum nisi vel aequatum solo.</l>
                      <l> Ludenda jam custodia est, hinc me virum </l>
                      <l xml:id="p116"> Probabo, si uspiam? </l>
@@ -1519,7 +1433,6 @@
                </div>
             </div>
             <div>
-
                <div type="poesis-drama-actus">
                   <head>ACTUS III.</head>
                   <div type="poesis-drama-scena">
@@ -1568,7 +1481,6 @@
                         <l xml:id="p135"> Venite, provoco. <ref>*</ref>
                         </l>
                         <stage> * Inflat cornu</stage>
-
                         <l xml:id="p136">Nullus huc gressum movet.</l>
                      </sp>
                      <sp>
@@ -1623,7 +1535,7 @@
                      </sp>
                      <sp>
                         <speaker> Bassa: </speaker>
-                        <l xml:id="p150"> cui bono<sic>!</sic> 
+                        <l xml:id="p150"> cui bono<sic>!</sic>
                         </l>
                      </sp>
                      <sp>
@@ -1681,12 +1593,10 @@
                         <l> Curabimusque, cernuo ut Turcas genu</l>
                         <l xml:id="p159"> Adoret hodie Sissium...</l>
                      </sp>
-
                   </div>
                   <div type="poesis-drama-scena">
                      <pb n="98"/>
                      <head>SCENA II.</head>
-
                      <p>Lucilla cum quatuor Adolescentibus Turcicis longius a castris profecta a
                         Legato <unclear>Caesareo Regnique militia</unclear> ad Fabritium misso capitur. Illustrissimi
                         sanguinis germen agnoscitur, vim et consilia hostium ob interceptas
@@ -1740,7 +1650,7 @@
                         <l xml:id="p164"> nescia juventus boni</l>
                         <l> Garrire noli, vera laetitia est ea,</l>
                         <l> Quae vera sunt agnoscere, e cunctis Deo</l>
-                        <l xml:id="p165"> 
+                        <l xml:id="p165">
                            <unclear>Fieri</unclear> propinquum rebus. </l>
                      </sp>
                      <sp>
@@ -1848,7 +1758,6 @@
                      </sp>
                      <sp>
                         <speaker> Oec. </speaker>
-
                         <l xml:id="p185"> Libens volensque. </l>
                      </sp>
                      <sp>
@@ -1890,7 +1799,7 @@
                      </sp>
                      <sp>
                         <speaker> Bassa: </speaker>
-                        <l> 
+                        <l>
                            <unclear>Facesse</unclear> perfide! grande mysterium audio;</l>
                         <l> Ductore sine te, Sissium hac die cadet.</l>
                         <l> Num Bassa fies noster imbellis Kaur?</l>
@@ -2110,7 +2019,7 @@
                         <l> Quaecunque scripta littera haec tenet, dabit,</l>
                         <l> Si dabitis hodie, Sissium; quod si favor</l>
                         <l> Spernetur iste, juro Mahometem meum,</l>
-                        <l xml:id="p221"> 
+                        <l xml:id="p221">
                            <unclear>Caro</unclear> luetis. </l>
                      </sp>
                      <sp>
@@ -2139,7 +2048,7 @@
                         <!-- dovde -->
                         <l xml:id="p226"> --- Semper audivi hactenus,</l>
                         <l> Non est miserior, faeminae quam qui gerit</l>
-                        <l> 
+                        <l>
                            <sic resp="#NJ">Quamcuoque</sic> curam; mulier, o quantum malum!</l>
                         <l> Astuta vulpes nulla sic caudam rotat,</l>
                         <l> Varios ut animum mulier in parte agit</l>
@@ -2207,7 +2116,7 @@
                      <sp>
                         <speaker> Del. secundus: </speaker>
                         <l> Haec magna virtus solis est, sed num tuus</l>
-                        <l> 
+                        <l>
                            <unclear>Hunc</unclear> Cursum adaequet animus, hoc est quod rogo.</l>
                      </sp>
                      <sp>
@@ -2228,7 +2137,7 @@
                      </sp>
                      <sp>
                         <speaker> Beg.</speaker>
-                        <l> 
+                        <l>
                            <unclear>Illaesus</unclear> animus crimen alienum luet.</l>
                      </sp>
                      <sp>
@@ -2237,7 +2146,7 @@
                      </sp>
                      <sp>
                         <speaker> Beg. </speaker>
-                        <l> 
+                        <l>
                            <sic>Aequm</sic> atque <sic>iniqum</sic> Iudici injusto est idem.</l>
                      </sp>
                      <sp>
@@ -2358,7 +2267,7 @@
                      <sp>
                         <speaker> Mech. </speaker>
                         <stage>* Exploditur intra scenam</stage>
-                        <l xml:id="p258"> 
+                        <l xml:id="p258">
                            <ref>*</ref> nescio quis istos pavor</l>
                         <l> Concussit artus: tuta vix credo omnia.</l>
                      </sp>
@@ -2386,8 +2295,8 @@
                      </sp>
                      <sp>
                         <speaker> Chili. </speaker>
-                        <l xml:id="p262"> Barbaros miles feri,</l> 
-                           <pb n="114"/>
+                        <l xml:id="p262"> Barbaros miles feri,</l>
+                        <pb n="114"/>
                         <l xml:id="p263">nec parce cuiquam. <ref>*</ref> terga verterunt, bene est, </l>
                         <stage>* Fit conflictus</stage>
                         <l xml:id="p264"> Vestigia premam. </l>

@@ -1,132 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="andreis-f-sylla">
-            <titleStmt>
-                <title>Dialogus Sylla, versio electronica.</title>
-                <author ref="and02">
-                    <persName xml:lang="hr">Andreis, Franjo Trankvil</persName>
-                    <date>1490-1571</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="andreis-f-sylla">
+         <titleStmt>
+            <title>Dialogus Sylla, versio electronica.</title>
+            <author ref="and02">
+               <persName xml:lang="hr">Andreis, Franjo Trankvil</persName>
+               <date>1490-1571</date>
+            </author>
+            <editor>
                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-                <respStmt>
-                    <resp>Electronice descripsit (<date>2010-12-04T14:22:00</date>)</resp>
-                    <persName>Ema Bakran</persName>
-                </respStmt>
-            </titleStmt>
-            
-            <editionStmt>
-                <edition>
+            </respStmt>
+            <respStmt>
+               <resp>Electronice descripsit (<date>2010-12-04T14:22:00</date>)</resp>
+               <persName>Ema Bakran</persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
                     Digitalizat prema izvornom izdanju.
                 </edition>
-            </editionStmt>
-            <extent ana="D">Mg:D Verborum 15372</extent>
-            <publicationStmt>
-                <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName>
+         </editionStmt>
+         <extent ana="D">Mg:D Verborum 15372</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName>
                   <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Listopad 2011</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <biblStruct>
-                        <monogr>
-                            
-                            <author>Andreis, Franjo Trankvil</author>
-                            <title>Dialogus Sylla, authore Tranquillo </title>
-                            <imprint>
-                                <pubPlace>
-                                    <add>Strasbourg </add>
-                                </pubPlace>
-                                <publisher>s. n.</publisher>
-                                <date>1527</date>
+               <monogr>
+                  <author>Andreis, Franjo Trankvil</author>
+                  <title>Dialogus Sylla, authore Tranquillo </title>
+                  <imprint>
+                     <pubPlace>
+                        <add>Strasbourg </add>
+                     </pubPlace>
+                     <publisher>s. n.</publisher>
+                     <date>1527</date>
                   </imprint>
-                            <extent>/50/ f. ; 8o </extent>
-                        </monogr>
-                        <note>Reference: DGK, 4, col. 690. - Reference: VD16, I, pag. 399.</note>
-                        <note>Xa * Jurić. Scriptores</note>
-                        <note>BN Paris Res. Z. 2431</note>
-                    </biblStruct>
+                  <extent>/50/ f. ; 8o </extent>
+               </monogr>
+               <note>Reference: DGK, 4, col. 690. - Reference: VD16, I, pag. 399.</note>
+               <note>Xa * Jurić. Scriptores</note>
+               <note>BN Paris Res. Z. 2431</note>
+            </biblStruct>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="138"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="corr" occurs="94"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="idno" occurs="2"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="135"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="98"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="q" occurs="2"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="145"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="129"/>
-          <tagUsage gi="speaker" occurs="129"/>
-          <tagUsage gi="tagUsage" occurs="58"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -140,57 +71,54 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1527" period="15xx_1_third">1527</date>
-            </creation>
+            <date when="1527" period="15xx_1_third">1527</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - dialogus</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - dialogus</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
+      <revisionDesc>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <persName>Luka Špoljarić</persName>
             <date>2012-06-12</date>
                 Novo, unificirano zaglavlje.</change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2011-03-04</date> versio correctior. Vide sic et corr! </change>
-            <change>
-                <persName>
+            <date>2011-03-04</date> versio correctior. Vide sic et corr! </change>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2011-01-09</date> versio prima. </change>
-            
-            
-        </revisionDesc>
-    </teiHeader>
-
+            <date>2011-01-09</date> versio prima. </change>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <front>
-        <titlePage>
-            <titlePart>DIALOGVS SYLLA</titlePart> 
+         <titlePage>
+            <titlePart>DIALOGVS SYLLA</titlePart>
             <titlePart>AVTHORE TRANQVILLO</titlePart>
          </titlePage>
-        <pb n="xx"/>
-            <div>
-                <opener>ILLVSTRI ET MAGNIFICO VIRO <abbr>D.</abbr> IANO LASCARI RHINDACENO DOCTRINARVM ET
+         <pb n="xx"/>
+         <div>
+            <opener>ILLVSTRI ET MAGNIFICO VIRO <abbr>D.</abbr> IANO LASCARI RHINDACENO DOCTRINARVM ET
                     ANTIQVITATIS PARENTI, TRANQVILLUS ANDRONICVS DALMATA, <abbr>S. D.</abbr>
             </opener>
-                <p>CVM MICHAELE NARDINO meo necessario, uiro ingenioso et docto, longa mihi
+            <p>CVM MICHAELE NARDINO meo necessario, uiro ingenioso et docto, longa mihi
                     disceptatio fuit de nostrę nationis homine Diocletiano Imperatore, qui eadem
                     animi magnitudine, qua sublatus erat ad fastigium rerum humanarum, ad priuatam
                     uitam redierat. Quod me defendente, illo contra nitente, eam disputationem sub
@@ -205,22 +133,20 @@
                     Itaque mitto tibi hunc dialogum ut cum tua forte conferas ac, si probaueris, te
                     authore exeat in manus hominum, et noster Diocletianus uindicetur a calumnia.
                     </p>
-                <closer>
+            <closer>
                <salute>Vale.</salute>
             </closer>
-            </div>
-       
+         </div>
       </front>
-        <body>
-            <pb n="xx"/>
-            <div>
-                <head>Tranquilli Andronici Dalmatae dialogus Sylla,</head> 
-                <head>Interlocutores Caesar, Sylla,
+      <body>
+         <pb n="xx"/>
+         <div>
+            <head>Tranquilli Andronici Dalmatae dialogus Sylla,</head>
+            <head>Interlocutores Caesar, Sylla,
                     Pompeius, Minos.</head>
-                <sp who="caesar">
-                    <speaker>CAESAR.</speaker>
-
-                    <p>AN EVAsimus in terram, <sic>uale</sic> Charon; ego ad Plutonem festino. Dii
+            <sp who="caesar">
+               <speaker>CAESAR.</speaker>
+               <p>AN EVAsimus in terram, <sic>uale</sic> Charon; ego ad Plutonem festino. Dii
                         immortales, in quod discrimen adduxerat me fortuna, linter putri carie quasi
                         cribrum fathiscit: undique Palus scaturiebat, iam alluebat poplites, ac
                         posteaquam in ripam impegimus, pęne tota cimba dissiliit. Non ita me rabies
@@ -304,31 +230,31 @@
                         sua uero in coelum tollere. Caeterum quoniam iniquitas et perfidia
                         improborum et inuidorum hominum ab hoc fastigio deiecit, in proxima regibus
                         tribunalia recipiar.</p>
-                </sp> 
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Pompei, uides hunc qui citato cursu properat, Cęsarem uultu expressit.</p>
-                </sp> 
-                <sp who="pomp">
-                    <speaker>
-                        <abbr>POMP.</abbr>
-                    </speaker>
-                    <p>Eum ipsum color ac liniamenta referunt, sed nondum plane satis queo
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Pompei, uides hunc qui citato cursu properat, Cęsarem uultu expressit.</p>
+            </sp>
+            <sp who="pomp">
+               <speaker>
+                  <abbr>POMP.</abbr>
+               </speaker>
+               <p>Eum ipsum color ac liniamenta referunt, sed nondum plane satis queo
                         dignoscere: tam lacero est et cruento corpore.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Si Cęsar est, nouo te certamini accingas oportet.</p>
-                </sp>
-                <sp who="pomp">
-                    <speaker>
-                        <abbr>Pom.</abbr>
-                    </speaker>
-                    <p>Ipse tandem profecto est: non admodum sero pęnas suorum scelerum dedit:
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Si Cęsar est, nouo te certamini accingas oportet.</p>
+            </sp>
+            <sp who="pomp">
+               <speaker>
+                  <abbr>Pom.</abbr>
+               </speaker>
+               <p>Ipse tandem profecto est: non admodum sero pęnas suorum scelerum dedit:
                         nescio quam Monarchiam mente conceperat immensa honorum ambitione et
                         insatiabili cupiditate gloriae quibusdam ueluti furiis agitatus, ut erepta
                         ciuium libertate, profligatis iudiciis, prostrata ac euersa incolumitate
@@ -345,12 +271,12 @@
                         istuc peruenisset. Siquidem odia grauiora, tametsi recentibus in malis
                         plaerumque metu se cohibent a uindicta, mox tamen tanquam ex abdito
                         prorumpunt ac in auctorem malorum repente grassantur.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
+            </sp>
+            <sp who="caesar">
+               <speaker>
                   <abbr>CAES.</abbr>
                </speaker>
-                    <p>Deum immortalem, quid ego uideo, ingens profecto monstrum si uera uisio est:
+               <p>Deum immortalem, quid ego uideo, ingens profecto monstrum si uera uisio est:
                     atque utinam somniarem et hoc spectaculum euanidum redderetur. Sed corneis
                     nimirum, non eburneis oculis aspicio: quod me non solum delectatione non afficit,
                     sed pęne dolore <sic>examinat</sic>, omnes aduersarii primi atque illustres regum ad latus
@@ -377,31 +303,30 @@ et mox defunctum referent inter diuos aris, apud quas uotis se obligent meo
                     nomini constructis. Cur igitur moror, et primum (si repugnarit) sella non
                     detraham et deturbem?</p>
             </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker> 
-                    <p>Vt uoluit oculos accensos, ut indignabundus secum meditatur truci nos
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Vt uoluit oculos accensos, ut indignabundus secum meditatur truci nos
                     subinde uultu inspectans perinde quasi minitetur: bellum tibi paratum cerno, nec
                     enim poterit unquam uel odium eius in te uel ambitio conquiescere.</p>
-                </sp>
-                <sp who="pomp">
+            </sp>
+            <sp who="pomp">
                <speaker>
                   <abbr>POM.</abbr>
-               </speaker> 
+               </speaker>
                <p>Vide
                     potius Sylla ne tecum contendat, siue cum Bruto, quorum dignitas illustriore
                     loco sita est; mecum olim armis decertauit qui reliquos omnes ea tempestate
                     uirtute honoribus auctoritate superaueram: nunc quoque, certus sum, qua mentis
                     est uecordia, maxime illustria inuasurum. En recta <sic>perficiscit</sic> ad te Sylla, sed
                     non reor magnopere timendum, quin nullos secum ueteranos adduxerit.</p>
-            </sp> 
-                
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAE.</abbr>
-                    </speaker>
-                    <p>Sylla cur cessas? Quin descendis <corr>actutum</corr>? non didicisti ab istis
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAE.</abbr>
+               </speaker>
+               <p>Sylla cur cessas? Quin descendis <corr>actutum</corr>? non didicisti ab istis
                         sectatoribus tuis inuictam Cęsaris magnitudinem, cuius gratia ei locus iste
                         destinatus est? Nam Brutum minime uidetur ęquum suo loco mouere: non
                         mehercule qui nescio cuius libertatis assertor et uindex fuisse nuncupetur
@@ -410,27 +335,27 @@ et mox defunctum referent inter diuos aris, apud quas uotis se obligent meo
                         ipso Bruto <sic>consularis</sic> impii auctore hic honor ad nos tamquam per manus
                         traditus peruenerit <pb n="xx"/> quo nostra uirtus non excitata solum,
                         uerum adaucta quoque ac celebris per totum orbem diffusa est.</p>
-                </sp> 
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>At quidem nec Pompeius, nec Scipio, nec Domitius et reliqui, quos in sublimi
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>At quidem nec Pompeius, nec Scipio, nec Domitius et reliqui, quos in sublimi
                         uides conspici, licet olim tibi ui coacti succubuerint, nunc tamen nequaquam
                         loco decędent.</p>
-                </sp> 
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Dum integrum est non obluctamini pertinaciter meis optatis, alioqui more meo
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Dum integrum est non obluctamini pertinaciter meis optatis, alioqui more meo
                         ius uiribus quęram.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Neque tuis honoribus inuidemus, neque magnitudine terremur, quin potius haud
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Neque tuis honoribus inuidemus, neque magnitudine terremur, quin potius haud
                         parum miramur te accepta tanta clade, quam hoc tuum <sic>lancinatum</sic>
                         uulneribus corpus indicat, quum tantum denique uirium et sanguinis amiseris,
                         nondum resipuisse, atque ex longa tanquam peregrinatione non remigrasse
@@ -452,14 +377,14 @@ et mox defunctum referent inter diuos aris, apud quas uotis se obligent meo
                         facto animorum experimento quum uidet homines prosperis rebus insolescere,
                         quasi postico clanculum delapsa ludificat spes inanes, dissipat uanas
                         cogitationes: hanc euanidam foelicitatem conterit ac euertit.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAESAR.</abbr>
-                    </speaker>
-                    <p>Obstrepis isto sermone Sylla: nec enim modo uacat sententiosam orationem
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAESAR.</abbr>
+               </speaker>
+               <p>Obstrepis isto sermone Sylla: nec enim modo uacat sententiosam orationem
                         audire.</p>
-                </sp>
+            </sp>
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
@@ -483,42 +408,41 @@ adactus sis: circumspice ac perpende singula: omnia, quocumque te uerteris,
                     propugnant nec unquam a defensione desistunt, nisi quum uis aduersariorum et
                     numerus praeualuerint. Proinde honores, imperia, triumphos <sic>hinc</sic> iam obliuiscere.</p>
             </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAESAR.</abbr>
-                    </speaker>
-                    <p>Quid malum, philosophaster? magistrum te mihi praebes, et grauem sane, non
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAESAR.</abbr>
+               </speaker>
+               <p>Quid malum, philosophaster? magistrum te mihi praebes, et grauem sane, non
                     secus ac si esses aliquis Antisthenes aut Diogenes aut Crates aut Menippus.</p>
-                    </sp>
-                <sp who="sylla">
-                    <speaker>
+            </sp>
+            <sp who="sylla">
+               <speaker>
                         SyLLA.
                     </speaker>
-                    <p>Operepraecium arbitrabor <pb n="xx"/> fecisse, si te nunc maxime
+               <p>Operepraecium arbitrabor <pb n="xx"/> fecisse, si te nunc maxime
                         repuerascentem ab errore sanis admonitionibus reuocauero.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>CAESAR.</speaker>
-                    <p> Cur discipulos tuos huiusmodi pręceptis non instruebas quum
+            </sp>
+            <sp who="caesar">
+               <speaker>CAESAR.</speaker>
+               <p> Cur discipulos tuos huiusmodi pręceptis non instruebas quum
                     eos ad cędem, sanguinem, bonorum proscriptionem hortabare?</p>
-                </sp>
-                
-                <sp who="sylla">
+            </sp>
+            <sp who="sylla">
                <speaker>
-                    <abbr>POM.</abbr>
-               </speaker> 
+                  <abbr>POM.</abbr>
+               </speaker>
                <p>Discrutior ista
                     Caesaris petulantia, qui sibi persuaserit se pium facinus ęgisse quum ad
                     inuadendam Tyrannidem in uiscera reipublicę arma inferret, nos uero nefarios
                     atque sacrilegos affirmat qui restitimus sceleri, qui repellere iniuria conati
                     sumus, quorum periculo nil aliud tentatum est nisi ut ciuibus libertas ocium et
-                    sua commoda seruarentur integra.</p> 
+                    sua commoda seruarentur integra.</p>
             </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Ego semper uolui bonos ciues saluos esse una cum incolumi republica, atque
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Ego semper uolui bonos ciues saluos esse una cum incolumi republica, atque
                         omnes labores et pericula mihi subeunda esse duxi quoad id perficerem ac, ut
                         opinor, iam perfeci. Eos uero, quos aut ambitio ad seditionem, aut cupiditas
                         ad rapinam, aut ad cędem odium stimularat, <corr>ad hoc</corr> omnes
@@ -535,36 +459,36 @@ adactus sis: circumspice ac perpende singula: omnia, quocumque te uerteris,
                         patriaque mea uirtute conseruata, iudicia, quae iacebant, erecta sint,
                         legibus, quae silebant, auctoritas data, postremo suo cuique dignitas et
                         decor ciuitati redditus sit ac restitutus?</p>
-                </sp>
-                <sp who="caesar">
+            </sp>
+            <sp who="caesar">
                <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker> 
+                  <abbr>CAES.</abbr>
+               </speaker>
                <p>Nimirum ut ingentes sub hoc prętextu parares diuitias et miseria
                         multorum fieres magnus et formidabilis.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Nihil minus, per Iouem, siquidem patrimonium a patre tam amplum accoepi
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Nihil minus, per Iouem, siquidem patrimonium a patre tam amplum accoepi
                         relictum ut uel ad tutelam amicorum satis fuerit: quapropter dixeris
                         imprudenter me rebus nouis ob inopiam studuisse.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Id refert perpendas non quantum tibi redierit ex <sic>s</sic> paternis, sed
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Id refert perpendas non quantum tibi redierit ex <sic>s</sic> paternis, sed
                         quam multa appetieris: quo pacto licet et Gargara conderentur in tuis
                         horreis et fluenta Lydię possideres, tamen ut quispiam Irus egentissimus
                         iudicareris.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Tua, Caesar, <pb n="xx"/> interest haec animo reuoluere, qui ad inusitata
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Tua, Caesar, <pb n="xx"/> interest haec animo reuoluere, qui ad inusitata
                         incredibiliaque aspirabas: mihi quidem satis superque ad bene beateque
                         uiuendum illa successione paratum esse uidebatur. <corr>Quin etiam</corr>
                         alia longe maior et melior a maioribus obuenerat haereditas, uidelicet
@@ -587,20 +511,19 @@ adactus sis: circumspice ac perpende singula: omnia, quocumque te uerteris,
                         auertat, ac huiusmodi turbulentos homines, seditionum faces, sentinam
                         flagitiorum perpetuo oderit: quos satius fuisset abolere de memoria hominum,
                         nisi quum citantur, in dedecus uocarentur.</p>
-                </sp>
+            </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
                </speaker>
-
-                    <p>Vidisses profecto senatorios magistratus non obnunciantibus tribunis plębis
-                    impunitate proposita furere in eos in quos libido suasisset.</p> 
+               <p>Vidisses profecto senatorios magistratus non obnunciantibus tribunis plębis
+                    impunitate proposita furere in eos in quos libido suasisset.</p>
             </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Vtrumque comprobatum Radamanthus <sic>confimauit</sic>: non uides ut inter se
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Vtrumque comprobatum Radamanthus <sic>confimauit</sic>: non uides ut inter se
                         diuersi longeque dispares sint? illos uirtus extulit ad laudem: hos ad
                         ignominiam depressit improbitas: illi fructum bene actę uitae capiunt: his
                         ob iniquitatem <sic>suplicia</sic> non desunt, unde non immerito crebris mei
@@ -632,21 +555,21 @@ adactus sis: circumspice ac perpende singula: omnia, quocumque te uerteris,
                         deprecor, reuiuiscendi facultas <sic>haerbis</sic> Aesculapii daretur,
                             <corr>sola</corr> me plane commoda ciuitatis et ornamenta sibi
                         uendicarent.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Non aliter tu, Sylla, uerbis cupiditates tuas prętexis ac multi Gręcorum
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Non aliter tu, Sylla, uerbis cupiditates tuas prętexis ac multi Gręcorum
                         philosophi barba et baculo uelabant, nam quorsum candidatus ambiebas tribus,
                         singulos prehensabas, discurrebas ut amens in Campo martio comitiis
                             <sic>conturiatis</sic> alliciendo largitione suffragia?</p>
-                </sp>
+            </sp>
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
                </speaker>
-                    <p>Nimium es, Cęsar, in contumeliam procax: at hercle in primis illud
+               <p>Nimium es, Cęsar, in contumeliam procax: at hercle in primis illud
                         incredibili me delectatione afficit quod nulla fuerim cupiditate stimulatus
                         ad munia bellorum ac reipublicę obeunda. Sed quum de summa rerum ageretur,
                         soli tunc mihi non ambienti, ne optanti quidem causa mea, fuerant honores
@@ -669,14 +592,13 @@ adactus sis: circumspice ac perpende singula: omnia, quocumque te uerteris,
                         titulis atque triumphis gratia nouitatis accederet: nam uulgus <sic>mirum
                             immodum</sic> rebus nouis capitur iisque applaudit, et in auctores
                         beniuolentia ducitur: qui dumtaxat uictorias numerat, <pb n="xx"/> causas
-                        bellorum non ponderat.</p> 
+                        bellorum non ponderat.</p>
             </sp>
-               
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Haud contemnenda (ni fallor) documenta nostrae uirtutis in Gallia reliquimus:
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Haud contemnenda (ni fallor) documenta nostrae uirtutis in Gallia reliquimus:
                         neque me poenituisset rerum a me gestarum etiam si nunquam Germanos et
                         Britannos adiissem: unde tamen patrię titulos non mihi quęsiui. Sed alias
                         quoque <sic>oportunum</sic> erit meum animum ad calculos reuocare, atque in coniecturam
@@ -688,12 +610,12 @@ adactus sis: circumspice ac perpende singula: omnia, quocumque te uerteris,
                         ac sumptuosam comparare supellectilem. Nam illę certe decumae ex uniuersis
                         fortunis Herculi consecratae, lautaque populo Romano conuiuia facta
                         uidebantur ampliores opes et fortunatiorem uitam aucupari.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Quum hostium furor, quasi tempestas, omnia protereret, pecuniae fuerant
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Quum hostium furor, quasi tempestas, omnia protereret, pecuniae fuerant
                         undecunque coaceruandae: sine quibus (ut te non latet) nihil potest
                         expugnari, sunt enim instrumenta rerum agendarum et nerui belii. Cęterum <pb n="xx"/> exhausto aerario, amicorum pecunia usi sumus: nemo autem nisi
                         quem senatus hostem patriae iudicauerat, proscriptus fuit: nemo facultates
@@ -711,14 +633,13 @@ adactus sis: circumspice ac perpende singula: omnia, quocumque te uerteris,
                         quod imperium contulissent in hominem abiectum: et qui nesciret se gerere
                         principem ciuitatis, ex quo caeteris gentibus contemptui facile
                     haberemur.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-
-                    <p>Opinionem cupiditatis tuę <pb n="xx"/>
-                        <sic>tam</sic> diluisti: inuidię uero, glorię, atque ambitionis uehemens
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Opinionem cupiditatis tuę <pb n="xx"/>
+                  <sic>tam</sic> diluisti: inuidię uero, glorię, atque ambitionis uehemens
                         suspitio restat. Quippe si dulcedine laudis non titillabare, cur tanto
                         conatu resistebas <abbr>C.</abbr> Mario ne tua statua una cum monumentis
                         Bocchi regis tolleretur? Pręterea ut cum eodem <abbr>C.</abbr> Mario iam
@@ -734,8 +655,7 @@ adactus sis: circumspice ac perpende singula: omnia, quocumque te uerteris,
                         terribili marte ululantes <sic>caeciderat</sic> ad internitionem, atque
                         posthac spes omnes ciuitatis in Mario fuerunt sitę ut tertius urbis conditor
                         appellaretur.</p>
-                </sp>
-                
+            </sp>
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
@@ -784,46 +704,46 @@ habuerunt. Quamquam haec mortalium natura est ut saepe uanis, interdum etiam
                     anhelanti, spectatorem? qui audacior, qui melior exitiabili commotus odio in
                     nobilitatem quam apud populum uarie criminando (ut Syracusis Dionysius Daphneum
                     et diuites accusans tyrannidem obtinuerat), minime uero suis meritis consulatum
-                    adeptus est.</p> 
+                    adeptus est.</p>
             </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
                </speaker>
-               <p>Sylla, plus nimio commoueris.</p> 
+               <p>Sylla, plus nimio commoueris.</p>
             </sp>
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
                </speaker>
                <p>Ne transuersum quidem
-                    unguem a semita ueritatis discedo, puta dictum ex Tripode.</p> 
+                    unguem a semita ueritatis discedo, puta dictum ex Tripode.</p>
             </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Saltem astringas orationem qua <sic>poene</sic> obruor, neque poscit hoc tempus isto
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Saltem astringas orationem qua <sic>poene</sic> obruor, neque poscit hoc tempus isto
                         sermone teramus ocium.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Immo necesse est patienter audias: nam et nefarios animos aduersariorum et me
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Immo necesse est patienter audias: nam et nefarios animos aduersariorum et me
                         culpe omnis expertum cognosces.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Dum tamen orationi laciniosę modum adhibeas.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr> Syl.</abbr>
-                    </speaker>
-                    <p>Ergo Marius, quo etiam fauorem plebis sibi conciliaret, se publicum
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Dum tamen orationi laciniosę modum adhibeas.</p>
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr> Syl.</abbr>
+               </speaker>
+               <p>Ergo Marius, quo etiam fauorem plebis sibi conciliaret, se publicum
                         optimatium inimicum professus est: siquidem alia uia non dabatur aditus ad
                         honores, uidelicet ut odium, quod secum ipse e domo attulerat, noua causa
                         geminaretur. <pb n="xx"/> compertum habuerunt homo callidus ac ueterator
@@ -863,34 +783,33 @@ habuerunt. Quamquam haec mortalium natura est ut saepe uanis, interdum etiam
                         insolens imperii modicisque parentibus, quo dignus principatu uideatur,
                         omnia sursum deorsum miscet in uitam et fortunas ciuium debacchatur: in
                         summa timeri mauult quam amari.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Nunquam talia mihi uenerant in mentem: nec possum adduci ut credam tantum
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Nunquam talia mihi uenerant in mentem: nec possum adduci ut credam tantum
                         facinus a Mario cogitatum fuisse.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Non uideris, Cęsar, satis cognoscere naturas hominum, pręcipue quum ingenium
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Non uideris, Cęsar, satis cognoscere naturas hominum, pręcipue quum ingenium
                         Marii uafrum, ferox, malignum, ingratum, ac plane rusticum et ad
                         dominationem semper erectum non perspexeris: nam ea, quae hactenus recensui,
                         porro leuia dixeris prę iis quae referenda sunt.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Illam iacturam ex disiectis monumentis maiorum et memoria generis oblitterata
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Illam iacturam ex disiectis monumentis maiorum et memoria generis oblitterata
                         intolerabilem, nedum grauem accępissemus: praestaret meo iudicio uita carere
                         quam per summam iniuriam in ordinem plebeium coactos amissis ornamentis
                         familię infęlicem spiritum trahere. Sed quę sunt ea qua grauiora
                     dixisti?</p>
-                </sp>
-                
+            </sp>
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
@@ -919,17 +838,17 @@ Aethiopumque criptas lari patrio non anteferret? profecto non expectaremur donec
                     sponte profugi solum uerteremus, nec diuersis temporibus eiiceremur singuli, sed
                     eodem momento uniuersi, ut Arpinatibus libera urbs remaneret uel potius in
                     <sic>Arpinate</sic> municipium Romę nomen migraret. Haec ipse nefaria consilia paucorum
-                    auxilio, mea tamen imprimis uirtute fregi, oppressi, extinxi.</p> 
+                    auxilio, mea tamen imprimis uirtute fregi, oppressi, extinxi.</p>
             </sp>
-                <sp who="caesar">
-                    <speaker>Caesar.</speaker>
-                    <p> Sylla, quam proxime accędis ad eos qui cribro uaticinantur.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Non sunt hae uanę coniecturę, Caesar, neque sine ueteribus exemplis: te
+            <sp who="caesar">
+               <speaker>Caesar.</speaker>
+               <p> Sylla, quam proxime accędis ad eos qui cribro uaticinantur.</p>
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Non sunt hae uanę coniecturę, Caesar, neque sine ueteribus exemplis: te
                         quoque in Graecorum libris, quum Rhodum ad Molonem <corr>nauigasses</corr>,
                         lectitasse puto plaerumque nobilitatem uel inuidia uel auaritia plębis
                         ciuitatibus eiectam, <sic>fere</sic> obseruatum est eos maxime qui
@@ -940,20 +859,20 @@ Aethiopumque criptas lari patrio non anteferret? profecto non expectaremur donec
                         etiam patria domo eiecerunt. Nuper uero a nostris militibus Messanę facinus
                         secutis optimates oppido Rhegio, non tamen ultionis expertes, fuerunt
                         expulsi: frustra creditur salus leuitati uulgi etiam in tranquillo, <pb n="xx"/> qui Euripo inconstantior est.</p>
-                </sp>
+            </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
                </speaker>
                <p>Necdum excidit mihi suspitio te restitisse
                     Marianis conatibus tua ipsius causa: haec opinio, nisi me ratione liberaueris,
-                    aetherna futura <sic>esse</sic>.</p> 
+                    aetherna futura <sic>esse</sic>.</p>
             </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Quemadmodum gloriam non appetere modesti hominis officium esse arbitror, ita,
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Quemadmodum gloriam non appetere modesti hominis officium esse arbitror, ita,
                         si sua sponte in pręmium uirtutis et laboris accesserit, negligere superbi
                         est: nec enim aliud post reipublicę commoda restabat quo uulnera iacturamque
                         temporis simul etiam aetatis nostrę consolaremur: quod si passus fuissem
@@ -970,49 +889,47 @@ Aethiopumque criptas lari patrio non anteferret? profecto non expectaremur donec
                         hanc dedecoris egregiam haereditatem liberis ac nepotibus relinquerem? his
                         gloriarentur minores triumphorum titulis? his posteris ego praelucerem
                         ornamentis qui lumini maiorum perpetuas tenebras offudissem?</p>
-                </sp>
-                
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-
-                    <p>Iam non improbo quod famę detrimentum sis fortiter <sic>amolitus</sic>: quod
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Iam non improbo quod famę detrimentum sis fortiter <sic>amolitus</sic>: quod
                         hercle ipse quoque tunc faciendum putarem. uerum id absoluas quibus de
                         causis bellum ciuile suscitaueris, perniciosę rei detestandus auctor, ne
                         amplius ambitionis et inuidiae postuleris.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Ego uero tibi morem geram, efficiamque (ut spero) credas me culpae nullius
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Ego uero tibi morem geram, efficiamque (ut spero) credas me culpae nullius
                         affinem fuisse.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Si minus absurda nec aliena fuerint a ratione: imprimis a te peto ne inuoluas
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Si minus absurda nec aliena fuerint a ratione: imprimis a te peto ne inuoluas
                         me Dialecticorum ambagibus, neque per angulos Chrisippi decurras.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Hęc nugamenta iampridem garrientibus in Exhedra scolasticis reliquimus: nunc
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Hęc nugamenta iampridem garrientibus in Exhedra scolasticis reliquimus: nunc
                         autem non diuersum ab eo sermonem audies, quem in senatu de republica
                         faciebamus.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>CAESAR.</speaker>
-                    <p>Perge igitur.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Quum aliquot in difficilimis bellis <corr>praesidio</corr> fuissem populo
+            </sp>
+            <sp who="caesar">
+               <speaker>CAESAR.</speaker>
+               <p>Perge igitur.</p>
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Quum aliquot in difficilimis bellis <corr>praesidio</corr> fuissem populo
                         Romano bellumque sociale grauissimum profligauissem multisque aliis in rebus
                         nostram rempublicam pro mea uirili parte iuuissem, ut <pb n="xx"/> neque me
                         laborum, nec eam poeniteret operum meorum: insuper honestissime functus
@@ -1030,45 +947,43 @@ Aethiopumque criptas lari patrio non anteferret? profecto non expectaremur donec
                         gallias, Caesar, unde non mediocrem uirtutis famam reportasti, aliquis tibi
                         Mysorum postremus uel fullo uel sutor eripuisset. Quid? inuiderem
                         <abbr>C.</abbr> Mario, quem nunquam mihi parem existimauerim?</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Multos gesserat continuos consulatus.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker> SyLLA.</speaker>
-                    <p>Leuitas populi fuit qui <pb n="xx"/> sępe improbos suique similimos
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Multos gesserat continuos consulatus.</p>
+            </sp>
+            <sp who="sylla">
+               <speaker> SyLLA.</speaker>
+               <p>Leuitas populi fuit qui <pb n="xx"/> sępe improbos suique similimos
                         beneficiis persequitur.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>De Iugurtha triumphauit.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Quamquam illud bellum uirtute Metelli magna ex parte confectum erat, tamen
-                        adhuc triumphus successori fortasse reseruatus fuisset, nisi egomet
-                        Iugurtham a Boccho rege impetrauissem.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Cimbros Theutonesque cęcidit.</p>
-                </sp>
-                
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>De Iugurtha triumphauit.</p>
+            </sp>
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
                </speaker>
-
-                    <p>Has etiam uictorias cum <abbr>C.</abbr> Mario communes mihi duco: siquidem legatus in his
+               <p>Quamquam illud bellum uirtute Metelli magna ex parte confectum erat, tamen
+                        adhuc triumphus successori fortasse reseruatus fuisset, nisi egomet
+                        Iugurtham a Boccho rege impetrauissem.</p>
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Cimbros Theutonesque cęcidit.</p>
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Has etiam uictorias cum <abbr>C.</abbr> Mario communes mihi duco: siquidem legatus in his
                     pręliis haud paruam operam <sic>nauauii</sic>. <corr>Posthac</corr> uictorię Marii conticuerunt, et
                     belli splendor obsoleuit. At enumera <sic>quiem</sic> ipse in Italia, Sicilia, Graecia, Asia
                     gesserim, qui semel praelio Marium uicerim, deinde <sic>redditus</sic> fama necarim, ad hęc
@@ -1083,20 +998,20 @@ Aethiopumque criptas lari patrio non anteferret? profecto non expectaremur donec
 <pb n="xx"/>
 Atheniensibus obtinuerunt. Proinde non fuit inferendum in nostra republica adeo
                     fędum exemplum neque fuerunt nouis hominibus aditus aperiendi, ut sęse supra
-                    suam naturam attollerent quibus utilius est parere quam pręesse.</p> 
+                    suam naturam attollerent quibus utilius est parere quam pręesse.</p>
             </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Nescio medius fidius cur tantopere extollas nobilitatem, quum plęrique
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Nescio medius fidius cur tantopere extollas nobilitatem, quum plęrique
                         reperiantur quibus, si nomen hoc ademeris, indigni luce iudicabuntur.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Et si nonnullos contingit a suis parentibus degenerasse, qui eo maiore odio
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Et si nonnullos contingit a suis parentibus degenerasse, qui eo maiore odio
                         digni sunt quod spretis legibus honestatis, ad quam uirtute maiorum quasi
                         lumine inuitabantur, maluerint uitam sordidissimis uitiis inquinare, tamen
                         si canes, equi, et alia animalia optima sunt, quae generosissima, certe
@@ -1114,35 +1029,35 @@ Atheniensibus obtinuerunt. Proinde non fuit inferendum in nostra republica adeo
                         plaerumque deteriores, ex malis uero nisi mali non procreantur, ut Thersitem
                         Codrus interdum generet, Codrus a Thersite nunquam generetur: peruulgatum
                         est mali corui malum ouum, et hiacinthum e squilla nequaquam prouenire.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Ita est ut dicis, Sylla, agnoscimus aliquot uirtutis tuę rudimenta,
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Ita est ut dicis, Sylla, agnoscimus aliquot uirtutis tuę rudimenta,
                             <corr>nunc</corr> etiam aspicere Marii errorem incipio: cui non est
                         amplius in animo patrocinari nec enim fas est malefacta cuiusquam defendere,
                         ubi rationem repugnare constiterit.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Sero, Cęsar, incipis oculos aperire, et quasi de longissimo somno
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Sero, Cęsar, incipis oculos aperire, et quasi de longissimo somno
                     expergisci.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>At ego non intempestiuum puto, quoties emendare atque in melius uertere
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>At ego non intempestiuum puto, quoties emendare atque in melius uertere
                         licet.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>Syl.</abbr>
-                    </speaker>
-                    <p>Nullus neque locus, neque tempus, neque rerum status prohibet immutare
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>Syl.</abbr>
+               </speaker>
+               <p>Nullus neque locus, neque tempus, neque rerum status prohibet immutare
                         uoluntatem: caeterum quo pacto caedes, rapinas, iniurias, bonorum
                         reipublicęque ac pęne orbis terrarum uexationes apud inferos, ubi
                             <corr>cuncta</corr> geruntur alieno imperio, corriges? irrita sunt uota
@@ -1153,12 +1068,12 @@ Atheniensibus obtinuerunt. Proinde non fuit inferendum in nostra republica adeo
                             <sic>narium</sic> putabas affuturum, cuius satelles fędere scelerum ac
                         nefaria societate coniunctus fuisti? At ipse porro nequicquam suos errores
                         deplorat.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Nolim, Sylla, tibi persuadeas me ullius necessitudinis gratia secutum fuisse
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Nolim, Sylla, tibi persuadeas me ullius necessitudinis gratia secutum fuisse
                         partes Marianas: uerum quod occupandus ea potissimum uia principatus
                         uidebatur. Ad excitandum uero bellum ciuile sum necessitate compulsus, quum
                         rescindenda magnis uiribus tot <corr>impedimenta</corr> fuerint: alioquin
@@ -1167,21 +1082,20 @@ Atheniensibus obtinuerunt. Proinde non fuit inferendum in nostra republica adeo
                         Pharsalico praelio circumsonabat, ut ciuibus parceretur: multique iam
                         profligatis omnibus aduersariis, et bellis ciuilibus extinctis mea clementia
                         seruati sunt, quum poenam iure belli meruissent.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>
                   <sic>Tanti ne</sic> fuit istec dominatio, ut per uulnera reipublicę
                         peteretur?</p>
-                </sp>
-                
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Propter imperium nihil non fas esse, in cęteris <pb n="xx"/> uero rebus
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Propter imperium nihil non fas esse, in cęteris <pb n="xx"/> uero rebus
                         pietatem colendam arbitror. Quo magis te, Sylla, demiror, qui te ipsum
                         abdicaris a pulcherrimo terrarum imperio magnis a te difficultatibus adepto,
                         et senatus consulto populique auctoritate in perpetuum confirmato. unde
@@ -1206,12 +1120,12 @@ Atheniensibus obtinuerunt. Proinde non fuit inferendum in nostra republica adeo
                         semper timuisse uidetur Saturnus et ipse animi a parricidio non alieni, ut a
                         se potius deuorandos liberos quam educandos in sui detrimentum
                     statuerit.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Non sinam te, Caesar, diutius in tanta turpiter hallucinatum impietate
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Non sinam te, Caesar, diutius in tanta turpiter hallucinatum impietate
                         uersari, nec sacrilegis aliorum erratis accedentem a cognitione summi boni
                         uerique immenso separatum interuallo existere. Videndum autem in primis est
                         non quid quisque de diis sentiat (quando plęrique figmentis anilibus
@@ -1241,8 +1155,7 @@ Atheniensibus obtinuerunt. Proinde non fuit inferendum in nostra republica adeo
                         occidentesque ad continuam rerum propagationem et decorem uniuersitatis
                         demonstrant in supremis deorum sedibus nihil non agi summa cum sapientia
                         atque uirtute.</p>
-                </sp>
-                
+            </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
@@ -1271,7 +1184,7 @@ sanctitatis in principibus apparuere. Tu nunc speras Minoas, Aeacos, et
                     cessabunt aut insecare lingua, aut uirus in auribus principis instillare quoad
                     cuiusque optimi uirtutem reddiderint inuisam? quam ut extinguant, sub specie
                     beniuolentię durissimis <sic>prouinciis</sic> onerabere: uel tibi labores <corr>Herculani</corr>
-                    proponentur uel <sic>Chymere</sic> 
+                    proponentur uel <sic>Chymere</sic>
                   <sic>Bellorophontis</sic> obiicieris, uel ut Iugurtha parentum
                     nostrorum memoria profligare difficillimas bellorum procellas cogeris. Quid si
                     uel iniquitate locorum uel hostium magnitudine, uel arbitrio fortunae, cuius uis
@@ -1285,15 +1198,14 @@ ostendere, aut inermis furorem in republica concitati populi subire? Quicquid
                     prospexisse dicatur. Interdum etiam corruptus hostium auro proditionis
                     insimulabere. Quapropter accepta ignominia nisi ciuium crudelitatem experiri
                     malis, Alcibiadis, Cononis, Thucididis, Annibalis exemplo solum exilii gratia
-                    uertendum est.</p> 
+                    uertendum est.</p>
             </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Quid si redeas uictor omnium opinione superata?</p>
-                </sp>
-                
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Quid si redeas uictor omnium opinione superata?</p>
+            </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
@@ -1311,7 +1223,7 @@ fratris <sic>Aphricani</sic> aut fortius, aut sublimius, aut populo Romano condu
                     fuit? Contra quid magis ingratum ciuitate nostra, quae optimos ciues ac de se
                     bene meritos uariis criminibus in foro atque iudiciis petulantissime proscidit
                     ad iniuste damnauit? Haud aliena mihi quoque merces ab inimicis meis proposita
-                    fuerat: qui constituerant, si priuatus redirem postquam utrasque <corr>Gallias</corr> 
+                    fuerat: qui constituerant, si priuatus redirem postquam utrasque <corr>Gallias</corr>
                   <sic>decenio</sic>
                     potestatis Romanorum fecissem, eorum omnium, quae ad splendorem et decus populi
                     Romani gesseram, circumpositis armis in foro rationem publice redderem. Hac in
@@ -1347,7 +1259,7 @@ castiges rebelles, superbos excidas, subiectis ignoscas, adsis pręsidis tuam op
                     restituat, aliorum perfidia clementiam a te non impetret: insuper hos <sic>distes</sic>,
                     illis honores et praefecturas largiaris; in summa, quem libuerit, extollas et
                     pręcipites: Quos fauores hominum senties? quot audies acclamationes? quae uota
-                    publice priuatimque pro tua salute suscipientur?</p> 
+                    publice priuatimque pro tua salute suscipientur?</p>
             </sp>
             <sp who="sylla">
                <speaker>
@@ -1355,7 +1267,7 @@ castiges rebelles, superbos excidas, subiectis ignoscas, adsis pręsidis tuam op
                </speaker>
                <p>nempe multi risum in
                     conspectu Sardonium ridebunt: multi etiam clanculum subsannantes genuinum
-                    infigent.</p> 
+                    infigent.</p>
             </sp>
             <sp who="caesar">
                <speaker>
@@ -1372,7 +1284,7 @@ latere, uidebis undique certatim concurrere, alios ex fenestris prospectare,
                     multos fornices, epistyllia, tectaque domorum <sic>concendisse</sic> repletis omnibus
                     plateis: atque ibidem studio e proximo conspiciendi alios inter se trudere
                     aliis pressura proculcatis, nonnullis etiam suffocatis interemptisque. Tum ędium
-                    uestibula tapetis et auleis ornari, uicos spargi floribus, <sic>extrui</sic> 
+                    uestibula tapetis et auleis ornari, uicos spargi floribus, <sic>extrui</sic>
                   <sic>temperarios</sic>
                     arcus, imagines tuarum uictoriarum in ferculis uectari. Quid autem dicam de his
                     qui adolent odores exoticos et diapasmata, symphoniacosque pueros proponunt?
@@ -1387,20 +1299,19 @@ latere, uidebis undique certatim concurrere, alios ex fenestris prospectare,
                     Vtinam,
 <pb n="xx"/>
 Sylla, uidisses magnificentiam atque splendorem meorum triumphorum cum spectaculis
-                    apparatissimis, affirmauerim te pedibus in meam sententiam iturum.</p> 
+                    apparatissimis, affirmauerim te pedibus in meam sententiam iturum.</p>
             </sp>
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
                </speaker>
-
-                    <p>Hispaniensem innuis an <sic>Aphricanum</sic>, qui non de externis uictis agebantur, sed de
+               <p>Hispaniensem innuis an <sic>Aphricanum</sic>, qui non de externis uictis agebantur, sed de
                     ciuibus et liberis <abbr>Cn.</abbr> Pompei? Quibus oculis putas huius luctuosi spectaculi
                     funestam lętitiam a populo inspectatam? maxime quum intuerentur imaginem
                     Scipionis in pompa <corr>delatam</corr> sibi gladio pectus traiicientis, et effigiem Petrei
                     inedia ferroque se necantis? Nempe uel sola Catonis forma repręsentata, quo
                     pacto manibus uestem atque recentia uulnera dilacerauerat, gemitus et lachrimas
-                    inspectantibus excussit.</p> 
+                    inspectantibus excussit.</p>
             </sp>
             <sp who="caesar">
                <speaker>
@@ -1408,23 +1319,21 @@ Sylla, uidisses magnificentiam atque splendorem meorum triumphorum cum spectacul
                </speaker>
                <p>Nihil citius lachrima arescit, pręsertim uulgi
                     qui miseratur aliena mala. Quamobrem facile uno epulo atque congiario rediimus
-                    in gratiam omnesque ueteres iniurias pręsentia commoda <sic>oblitterarunt</sic>.</p> 
+                    in gratiam omnesque ueteres iniurias pręsentia commoda <sic>oblitterarunt</sic>.</p>
             </sp>
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
                </speaker>
-
-                    <p>Fateor his animos plębis deliniri ac in seruitutem addictę nummo pertrahi, sed
+               <p>Fateor his animos plębis deliniri ac in seruitutem addictę nummo pertrahi, sed
                     aemulorum, quibus honores libertatem omnem uiuendi iucunditatem ademeras, fuit
                     insanabilis dolor. Nolim existimes nobilitatem Romanam stoliditati Capadocum
                     auctoratam esse quibus persuasum erat uiuere populum sine rege non posse:
                     excelsi nostris hominibus
 <pb n="xx"/>
 semper animi fuerunt et insueti iugum pati. Caeterum de his satis est, redi ad
-cardinem.</p> 
+cardinem.</p>
             </sp>
-                
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
@@ -1440,7 +1349,7 @@ cardinem.</p>
                     reportent. Atque opinor, Sylla, te aliquoties erroris tui pęnituisse: mihi uero ut
                     diuturna possessio tantę fęlicitatis iucundissima fuisset, ita nunc sane męrore
                     <sic>poene</sic> conficior quod repente fastigio deiectus ad hanc rerum inopiam et
-                    solitudinem (ne manticis quidem relictis) deuolutus sim.</p> 
+                    solitudinem (ne manticis quidem relictis) deuolutus sim.</p>
             </sp>
             <sp who="sylla">
                <speaker>
@@ -1468,16 +1377,14 @@ summaque uersari cęcitate, ut ipsemet agnoscas ac tandem confiteare (si per
                     abstrahuntur? <corr>Atqui</corr> neminem opinor bonum atque integro et sancto animi iudicio
                     fuisse, neque posthac futurum, qui
                     <pb n="xx"/>
-                    uel opera mea uellicet, uel consiliis constantiam abroget ac maturitatem.</p> 
+                    uel opera mea uellicet, uel consiliis constantiam abroget ac maturitatem.</p>
             </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
                </speaker>
-
-                    <p>Nimis de te magnifice, ne dicam arroganter praedicas.</p> 
+               <p>Nimis de te magnifice, ne dicam arroganter praedicas.</p>
             </sp>
-                
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
@@ -1541,7 +1448,7 @@ propagassent, inuictum esse (si diis ita uideretur conuenire) uoluerunt: quod
                     discordię grauissimę cum acerrimis contentionibus ciuile bellum suscitarent, ac
                     usque adeo cędibus inter se furerent, quoad suis imperatorum uiribus
                     conficerentur imperiumque totius orbis clarissimum omnibus ex paribus quassatum
-                    rueret ac penitus extingueretur.</p> 
+                    rueret ac penitus extingueretur.</p>
             </sp>
             <sp who="caesar">
                <speaker>
@@ -1576,89 +1483,88 @@ mihi uidetur haec tua de posteritate sollicitudo: quę necessitas allatura est,
      cecinit: <q>Non potis est fixas parcarum auertare leges</q>.<note resp="NJ">
                      <bibl>Sil. It. 9,475</bibl>: nec speret fixas
          Parcarum uertere leges.</note>
-               </p> 
+               </p>
             </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Quae postremo de ui fatorum adiecisti, inexplicabiles <corr>anfractus</corr>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Quae postremo de ui fatorum adiecisti, inexplicabiles <corr>anfractus</corr>
                         habent: opinor haec in scrinio Iouis tantum seruari, nunquam ad mortales
                         peruenisse. Itaque ne uideamur in tenebris palpare, satius esse puto nos
                         quęstionem hanc silentio praetermittere.</p>
-                </sp>
+            </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
                </speaker>
-
-                    <p>Redeas igitur ad institutam disputationem.</p> 
+               <p>Redeas igitur ad institutam disputationem.</p>
             </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Non inficior equidem res humanas mutationibus obnoxias crebro fortunę
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Non inficior equidem res humanas mutationibus obnoxias crebro fortunę
                         uolubilitatem experiri: nec enim cuiquam dubium est nihil aethernum
                         constansue cęli ambitu complecti, nullius pedes adeo inconcussa stabilitate
                         figi ut proni ad lapsum non sint. Quapropter non sumus ita leues ut speremus
                         dominationem Romanam cunctis saeculis duraturam: caeterum foelicem optamus
                         ac diuturnam.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Atqui uereor ne multorum opinio sit eam nimis diu floruisse in magnis
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Atqui uereor ne multorum opinio sit eam nimis diu floruisse in magnis
                         praesertim seditionibus et malis intestinis. Cogita quamdiu reges urbi
                         praefuerint, quamdiu respublica per consules administrata sit, longam seriem
                         annorum inuenies: <pb n="xx"/> mirum quo pacto iam senescens imperium
                         quicquam sui pristini uigoris retineat.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Pręcipuę quum tu, Cęsar, ipsius uiscera laceraueris cęterisque tradideris
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Pręcipuę quum tu, Cęsar, ipsius uiscera laceraueris cęterisque tradideris
                         laceranda. Viguisset profecto uigeretque diu, si non tibi ipsi, sed populo
                         Romano dominationem comparauisses eiusque fuisses honorem tutatus: non
                         dolerent hodie tui ciues impunitas Crassiana clade legiones.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>nimirum iste dolor nunquam ad me peruenit.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Ergo tibi soli uiuebas, qui nec bonis tuorum lętareris nec malis
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>nimirum iste dolor nunquam ad me peruenit.</p>
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Ergo tibi soli uiuebas, qui nec bonis tuorum lętareris nec malis
                         ingemisceres? nescis te cum naturam tot animi et corporis dotibus muniuisse,
                         tum ad summos honores indulgenter a fortuna prouectum, ut ex tua industria
                         quam plurimi fructum decerperent?</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Decet mehercule suam quisque rem agat, suis commodis attentus sit: ex
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Decet mehercule suam quisque rem agat, suis commodis attentus sit: ex
                         superfluis uero liberalitatem exerceat.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>quasi non haec potissima sit, deorumque potentię non aequiparetur: quippe nec
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>quasi non haec potissima sit, deorumque potentię non aequiparetur: quippe nec
                         alio itinere Liber pater, Hercules, Ceres, Pallas et alii ad diuinitatem
                         profecti sunt.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Sylla, nimium obsoleta uetustate narras: qua si res ita se haberet uti ais,
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Sylla, nimium obsoleta uetustate narras: qua si res ita se haberet uti ais,
                         nihil istoc magis tuę sententię subscriberem: sed contrahe iam uela et
                         cursum quo cęperas intende. Nequeo tamen intelligere quomodo te isto ex
                         labyrinto euolueres: haec maxime <pb n="xx"/> pugnant inter se: perpetuus
@@ -1672,12 +1578,12 @@ mihi uidetur haec tua de posteritate sollicitudo: quę necessitas allatura est,
                         intricata sunt, ut ad Sphyngem Thebanum autorem referri queant, adeo quidem
                         obscura ut puteo (quemadmodum aiunt) constrictus incedere per tenebras
                         Heracliti uideare.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>At ego facile tibi ostendam orationem meam nulla in parte a se ipsa dissidere
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>At ego facile tibi ostendam orationem meam nulla in parte a se ipsa dissidere
                         neque ullis ita nubibus uelatam quominus prima facie intelligi possit. Quum
                         populus Romanus summam in grauissimis periculis mihi potestatem mandasset,
                         uoluit succurri periclitanti reipublicę: cuius incolumitatem una cum uita
@@ -1720,20 +1626,20 @@ mihi uidetur haec tua de posteritate sollicitudo: quę necessitas allatura est,
                         penitiores fibrę pectoris accuratius <corr>disquirendę</corr>, singula
                         denique grauissimo iudicio tanquam trutina ponderanda priusquam de uita
                         cuiuspiam illustris uiri sententiam pronunties.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Hactenus maledictis respondisti: nunc uero quemadmodum
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Hactenus maledictis respondisti: nunc uero quemadmodum
                         <sic>polliciberaris</sic>, compara principum <sic>arumnas</sic> una cum
                         uoluptatibus.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Sedulo tibi mors geram de tyrannorum cruciatibus, quos probe cognoscemus si
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Sedulo tibi mors geram de tyrannorum cruciatibus, quos probe cognoscemus si
                         non superficiem tanquam per transennam considerantes, sed quasi Lynceis
                         oculis eorum anxietates introspexerimus. Deum immortalem, quot ueluti
                         diducta Chlamyde uectes, quot claui, quot tela, quot fędę cicatrices et
@@ -1821,7 +1727,7 @@ mihi uidetur haec tua de posteritate sollicitudo: quę necessitas allatura est,
                         hi, quum sint potentiores, multisque cognationibus et affinitatibus
                         muniantur, mordebunt frenum, ut dicitur, ac periculum periculo
                     propulsabunt.</p>
-                </sp>
+            </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
@@ -1881,7 +1787,7 @@ tabernaculo egressus, ne qua uel proditione uel <corr>ignauia</corr> excubiarum 
                     ingrediantur: mox nunciatur adesse hostes in propinquo, magno instare impetu,
                     uel pulueris indicio instar <corr>crassę</corr> nebulę continenter augescentis, ut necessario
                     conferendę sint manus.</p>
-                <p>Tunc repente (ut fit) multa oritur trepidatio,
+               <p>Tunc repente (ut fit) multa oritur trepidatio,
 <pb n="xx"/>
 tumultuatur passim, suam quisque spem sua consilia secum agitat. Tyrannus intimis
                     pręcordiis compresso cruciatu, caeterum uultu spem simulans transfugam ex
@@ -1911,9 +1817,9 @@ tumultuatur passim, suam quisque spem sua consilia secum agitat. Tyrannus intimi
                     dici malum esse custodem diuturnitatis metum), omnia ferro, flamma, ruina excidenda
                     sunt, unde aliqua periculi suspitio apparuerit. </p>
             </sp>
-                <sp who="sylla">
+            <sp who="sylla">
                <speaker>
-                    SyLLA.</speaker> 
+                    SyLLA.</speaker>
                <p>Recte ais, o Caesar,
                     quando multa sunt in uita hominum turpiter et calamitose neglecta, emendatione
                     tamen aliqua corrigi possunt: istius autem sceleris, si pręsens occasio
@@ -1929,20 +1835,20 @@ non obuiam ire flagitiis et improborum hominum ferociam legibus contundere,
                     singulis momentis expectans ad supplicia rapi? applaudent alacres tibi cruento
                     sanguine popularium ac truculentissimae <corr>tygridis</corr> in morem saeuientis? quinimmo
                     clandestinis imprecationibus deuouebunt et ex singulorum formidine commune
-                    odium in tyrannum procreabitur.</p> 
+                    odium in tyrannum procreabitur.</p>
             </sp>
-                    <sp who="caesar">
+            <sp who="caesar">
                <speaker>
                         CAESAR.</speaker>
                <p> Oderint dum metuant: <corr>quę uis</corr> enim
                     extimescenda est quum assistant delectarum cohortium praesidia,
-                    fortimissimisque stipatoribus latera circundentur?</p> 
+                    fortimissimisque stipatoribus latera circundentur?</p>
             </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Falsus es, Caesar, ac toto (uti ferunt) aberras cęlo: siquidem ad tuendum et
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Falsus es, Caesar, ac toto (uti ferunt) aberras cęlo: siquidem ad tuendum et
                         conseruandum regni statum nihil esse tam firmum, tam stabile, saepe
                         compertum fuit, neque classes, neque exercitus, neque bellicas machinas,
                         neque cum ingentibus thesauris arces munitissimas, quam est subditorum fauor
@@ -1965,8 +1871,7 @@ non obuiam ire flagitiis et improborum hominum ferociam legibus contundere,
                         tyrannum irrumpitur, uel uxor iugulat per quietem, uel amicorum liberorumue
                         indignatione, aut spe commodorum et honoris, aut desiderio uindicandę
                         liberatis ex improuiso tyrannicidia <pb n="xx"/> conficiantur?</p>
-                </sp>
-                
+            </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
@@ -1978,7 +1883,7 @@ non obuiam ire flagitiis et improborum hominum ferociam legibus contundere,
                     tentatur, ut est inconstans, unico reflatu sua pulcherrima beneficia miserabili
                     ruina inuoluit; si uero bella pręter opinionem ingruerint, ea legatis
                     demandentur, quo pacto tuum periculum alieno periculo ueluti clauum clauo
-                    expelles.</p> 
+                    expelles.</p>
             </sp>
             <sp who="sylla">
                <speaker>
@@ -2016,13 +1921,13 @@ fideliter abscondit. Quod si etiam in manus hostium inciderit, paruo precio
 et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                     agmina proiiciendum quod manipuli deprecandę ignominię gratia fortiter pugnando
                     recuperent. His atque aliis distringi malis necesse est, quae a neutro nostrum,
-                    dum exercitibus deuincti mortalitate pręessemus, abfuere.</p> 
+                    dum exercitibus deuincti mortalitate pręessemus, abfuere.</p>
             </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>fateor esse <sic>labore</sic> ingentes perferendos et maxima pericula: quae
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>fateor esse <sic>labore</sic> ingentes perferendos et maxima pericula: quae
                         tamen incredibilem gloriam pariunt: illa quidem choreas, conuiuia, somnum
                         ueluti pestem abominata per senticosa loca pendentesque rupes uagatur,
                         difficilis inuentu, difficilior apprehensu, plęrunque multis armatorum
@@ -2038,12 +1943,12 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         res absque sudatis et anhelis laboribus, id est, quod aiunt, citra puluerem
                         et sudorem ne Iouis quidem filio (quo tuis utar exemplis) concessum
                     fuit.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Haud facile dixerim uaniorem opinionem an magis pestilentem induerint
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Haud facile dixerim uaniorem opinionem an magis pestilentem induerint
                         mortales: quae adeo altas ęgit radices, ita mentibus obcęcatis adhęsit, ut
                         ad nullas rationes oculos aperiri patiatur. Quippe ratio iampridem persuasit
                         constantem gloriam nequaquam ex iis rebus scaturire, quae licet magnę sint,
@@ -2077,12 +1982,12 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         fortunę blandimenta, omnem istam longe lateque imperandi dulcedinem unico
                         momento extinxit: nec tamen istius fęlicitatis tragicum finem inter mala
                         referam, qui suauissimas uoluptates amarissimo felle condiit.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>In corpus omnibus casibus obnoxium, quod potuit, uis liuoris
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>In corpus omnibus casibus obnoxium, quod potuit, uis liuoris
                         <corr>egit</corr>: cęterum illustris et peruagata fama nomenque Cęsaris per
                         cunctas gentes, urbes, insulas, portus, ultra fines imperii Romani
                         celebratum, haud ullo potuit affici detrimento. Nisi me ratio meorum honorum
@@ -2091,28 +1996,28 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         factum est, nisi ęqua mecum reliquis hominibus conditione mortalitatis ob
                         ingentem gloriam immortalitatem adeptum esse, ac propediem inter diuos
                         consecrandum.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Caesar, illa sunt adulantis et formidolosę plebis deliramenta, etiamnum rebus
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Caesar, illa sunt adulantis et formidolosę plebis deliramenta, etiamnum rebus
                         nudis inania nomina deorum imponentis: nihil amplius ab hominibus pręstari
                         potest quam ipsi habeant: quodsi possent immortalitatem in alios conferre,
                         eam potius sibi quisque arriperet.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Non sum adeo rationis expers, ut me deum <pb n="xx"/> esse credam: illa
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Non sum adeo rationis expers, ut me deum <pb n="xx"/> esse credam: illa
                         hominum opinio est.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>At nullus istius uanę persuasionis tanto locorum interuallo sensus ad inferos
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>At nullus istius uanę persuasionis tanto locorum interuallo sensus ad inferos
                         descendit, nulla unquam rerum humanarum delectatio Stygem pręteruecta est.
                         Libenter scire uelim, Caesar, ubi substiterint illę ueteranę cohortes,
                         quamdiu uoluptates prosecutę sint: nam uidimus nudum et cicatricosum ac
@@ -2131,38 +2036,38 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         radii <pb n="xx"/> dissecant, uel <sic>Tyciin</sic> uultur depascitur, uel
                         saxum Sysiphi assidue reuoluendum delassat, uel hi Chymerę lacerandi
                         alligantur, uel obiiciuntur Cerbero in frusta dilaniandi.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Incassum terres hominem impauidum, qui ad nullos casus et minas fortunę
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Incassum terres hominem impauidum, qui ad nullos casus et minas fortunę
                         consueuerit oculis conniuere.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Id certe non faciebam: nec attinet illi formidinem incutere quem illico
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Id certe non faciebam: nec attinet illi formidinem incutere quem illico
                         terrores inuasuri sunt. Sed nimirum, dum aliud ago, tua interpellatione huc
                         sermo deflexit.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Dum sinuosis Meandris acies instruis et moribus inferorum occuparis, longior
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Dum sinuosis Meandris acies instruis et moribus inferorum occuparis, longior
                         quam decebat oratio fluxit: qua re factum est ut animum quoque ab instituta
                         dissertatione diuerteris. Atqui uellem comparationem tyrannicae uoluptatis
                         ac iuxta malorum (ut proposueras) tanquam in aliqua breui tabella
                         depingeres, ac uelut imaginem poneres pręter oculos, ut sub compendio
                         facilius intelligerentur.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Nihil refert dissimules an oblitus sis, nam utramque paginam legisti: magis
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Nihil refert dissimules an oblitus sis, nam utramque paginam legisti: magis
                         tamen putarim falli memoria, aut sane, quod uerisimilius est, ad huius modi
                         collationem animum non adiecisse. Quippe ita natura delectatione <sic>totos
                             proluunt</sic> quo pacto aliunde premantur non satis uideant, quod uel
@@ -2192,32 +2097,32 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         Osiridis musae: frequenter se offeret Apicius, magister gulę, nouis
                         gannearum condimentis fastidientem stomachum irritans: spumabunt Cecuba
                         gemmeis identidem sitim ab ingressu prohibentia.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Tot ac tanta commemorasti bona ut nesciam plane, an Iupiter quicquam amplius
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Tot ac tanta commemorasti bona ut nesciam plane, an Iupiter quicquam amplius
                         habeat.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Haec tibi puta contigisse.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Si fortuna tuo dicto subscriberet, auderem fęlicitate cum unoquoque deorum
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Haec tibi puta contigisse.</p>
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Si fortuna tuo dicto subscriberet, auderem fęlicitate cum unoquoque deorum
                         certare.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>Syl.</abbr>
-                    </speaker>
-                    <p> Nunc, Cęsar, audi reliqua, largius ex altero dolio Iouis hausturus. Sic
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>Syl.</abbr>
+               </speaker>
+               <p> Nunc, Cęsar, audi reliqua, largius ex altero dolio Iouis hausturus. Sic
                         inter delitias uoluptuanti tristis affertur Laconica scytala hinc Syriam a
                         Parthis uastari, illinc Gallias rebellasse, atque Hispanos ab imperio
                         deficientes iniisse societatem cum Pęnis: alius ab Hannibale cęsas nuntiat
@@ -2225,7 +2130,7 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         praesidiis et negociatoribus Romanis oppressam teneri. Iam classes in Lybico
                         mari tempestate submersę: quam multa <sic>laedoria</sic> liberę dicacitatis
                         deuoranda et ingrato decoquenda stomacho: <pb n="xx"/>
-                        <sic>…am</sic> etiam multi ciuiles motus bellorumque tumultus et nocturna
+                  <sic>…am</sic> etiam multi ciuiles motus bellorumque tumultus et nocturna
                         conuenticula deferuntur, hic insusurrat in aurem cauendum a medico grandi
                         pecunia corrupto, mox significatur uxorem nuptias cum adultero celebrasse
                         earumque pręmium tyranni cędem pactam esse. Interim plęrique semianimes
@@ -2253,35 +2158,34 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         digrediantur. Quotus quisque est non dicam tyrannorum, sed iustissimorum
                         regum, qui curricula uitę leuiter emensus fato, non uiolenta morte
                     perierit?</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Homerus tamen ait eos sub aureo Iouis clypeo consistere.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-
-                    <p>Mirum quo processerit humana credulitas; <corr>quasi</corr> non gratior esset
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Homerus tamen ait eos sub aureo Iouis clypeo consistere.</p>
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Mirum quo processerit humana credulitas; <corr>quasi</corr> non gratior esset
                         diis innocentia pauperum <sic>impotenti</sic> regum dominatione, aut
                         fortasse minus accepta est thuris et uerbenarum incensio lactisque
                         sacrifici, quam Hecatonbe superbę litationis uana ostentatio.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Verisimile est deos magis gaudere quum immolantur armenta tanquam <sic>opipare</sic>
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Verisimile est deos magis gaudere quum immolantur armenta tanquam <sic>opipare</sic>
                         cęntauros.</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Nequaquam ita est, Caesar: <pb n="xx"/> nam quum omnia deorum sint, nulla re
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Nequaquam ita est, Caesar: <pb n="xx"/> nam quum omnia deorum sint, nulla re
                         indigent, quo stultius est credere eos fumo uesci atque nidore sacrarum
                         carnium, quibus affatim nectar et ambrosia suppeditantur; uerumtamen
                         incredibilem capiunt uoluptatem ubi facultas inciderit in quempiam dignum
@@ -2368,8 +2272,7 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         hiatu detexerint; unde <sic>quum</sic> scelera omnia grauissime uindicentur:
                         nimirum cupidis Pluto non immerito succensus in auaritiam longe atrocius
                         animaduertit.</p>
-                </sp>
-                
+            </sp>
             <sp who="caesar">
                <speaker>
                   <abbr>CAES.</abbr>
@@ -2381,30 +2284,29 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                     <pb n="xx"/>
                     quo fęlicitatis fastigio rerum constiteram, sed plane nostra consilia de his
                     irrita sunt, quibus <sic>dana</sic> nobis in uniuersum interdixere. Quin redeamus ad
-                    nostram rem, et tu iam <corr>cedas</corr> mihi, nisi mauis meas uires experiri.</p> 
+                    nostram rem, et tu iam <corr>cedas</corr> mihi, nisi mauis meas uires experiri.</p>
             </sp>
-                
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Apage cum istac tua uecordia: hunc locum iudices mihi decreuerunt, deus
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Apage cum istac tua uecordia: hunc locum iudices mihi decreuerunt, deus
                         auctor fuit, omnes ordines subscripserunt.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Non ipse potius a temeritate desistes, qui te Caesari comparandum putas, quum
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Non ipse potius a temeritate desistes, qui te Caesari comparandum putas, quum
                         in gremio scurrarum per dedecora nundinati pudoris adoleueris, et per
                         quasque damnosas libidines magna tuę famę iactura, uel potius interitu ad
                         quaesturam ascenderis?</p>
-                </sp>
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Quoniam ueteris me comedię licentia proscindis, tu quoque non graueris de
+            </sp>
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Quoniam ueteris me comedię licentia proscindis, tu quoque non graueris de
                         plaustro uicissim audire: siquidem usu sępe uenit ut, qui dicit quecumque
                         uult, audiat que minime uelit. Haud equidem inficias eo me paulo
                         intemperantius in adolescentia uixisse, neque id uni mihi contigit, sed
@@ -2442,44 +2344,42 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         cruciatus afferat? Si tibi iniuria factum <sic>itur</sic>: experire iudicio.
                         Sed ecce Ascalaphum nomenclatorem ad nos uideo properare: audin quae mandata
                         ferat? uterque iubemur ad Minoen.</p>
-                </sp>
-                
+            </sp>
             <sp who="caesar">
                <speaker>
-    
                   <abbr>CAES.</abbr>
                </speaker>
-                    <p>Non sum impedimento quin eamus, dum tamen morosis comperendinationibus
-                        nonnullis in annum protrahatur.</p> 
+               <p>Non sum impedimento quin eamus, dum tamen morosis comperendinationibus
+                        nonnullis in annum protrahatur.</p>
             </sp>
             <!-- dovde -->
-                <sp who="sylla">
-                    <speaker>
-                        <abbr>SyL.</abbr>
-                    </speaker>
-                    <p>Hi iudices a nostris centumuiris longe diuersi nec flectuntur gratia, nec
+            <sp who="sylla">
+               <speaker>
+                  <abbr>SyL.</abbr>
+               </speaker>
+               <p>Hi iudices a nostris centumuiris longe diuersi nec flectuntur gratia, nec
                         muneribus capiuntur, nec odio indulgent, nec oratorum lenociniis abducuntur
                         a uero: ubi causam sub <corr>comperendio</corr> proposuerint litigatores,
                         extemplo secundum eum a iudicibus, qui iustas fouere partes uisus fuerit, de
                         lite pronunciatur.</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Id cuilibet optandum existimo ut repente uel uictus concidat, uel uictor
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Id cuilibet optandum existimo ut repente uel uictus concidat, uel uictor
                         exultet.</p>
-                </sp>
-                <sp who="minos">
-                    <speaker>MINOS.</speaker>
-                    <p> Dic noue hospes, quid tibi uis? quorsum has turbas concitas, nouis
+            </sp>
+            <sp who="minos">
+               <speaker>MINOS.</speaker>
+               <p> Dic noue hospes, quid tibi uis? quorsum has turbas concitas, nouis
                         litigiorum generibus nostra tribunalia distringens, quasi uero legitimis <pb n="xx"/> negotiis non obrueremur?</p>
-                </sp>
-                <sp who="caesar">
-                    <speaker>
-                        <abbr>CAES.</abbr>
-                    </speaker>
-                    <p>Is ego sum Caesar (si quando, Minos, ad tuas aures fama ipsius peruenit) qui
+            </sp>
+            <sp who="caesar">
+               <speaker>
+                  <abbr>CAES.</abbr>
+               </speaker>
+               <p>Is ego sum Caesar (si quando, Minos, ad tuas aures fama ipsius peruenit) qui
                         domi belloque clarus omnes (excepto rege Macedonum) externos et Romanos
                         imperatores magnitudine rerum gestarum (ne sit inuidia dicto) superarim.
                         Vtrasque Gallias seminarium triumphorum pacatas populo Romano reddidi:
@@ -2489,17 +2389,17 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         nunquid ergo, Minos, indigna postulare uideor, si contendo pręferri L.
                         Syllę, uiro alioquin egregio, nequaquam tamen amplitudini Cęsaris
                         comparando. </p>
-                </sp>
-                <sp who="minos">
-                    <speaker>MIN.</speaker>
-                    <p>
-                        <corr>Ad haec</corr> quid tu, Sylla?</p>
-                </sp>
+            </sp>
+            <sp who="minos">
+               <speaker>MIN.</speaker>
+               <p>
+                  <corr>Ad haec</corr> quid tu, Sylla?</p>
+            </sp>
             <sp who="sylla">
                <speaker>
                   <abbr>SyL.</abbr>
                </speaker>
-                    <p> Quamquam, Minos, non dubito tuam sententiam irreuocabilem esse, tamen, ut
+               <p> Quamquam, Minos, non dubito tuam sententiam irreuocabilem esse, tamen, ut
                         retundam insolentem Caesaris temeritatem, breuiter respondebo. Quo tempore,
                         Caesar, Gallia tibi prouincia decreta fuit, iam populus Romanus pollens
                         potensque totius imperator Italię, Siciliae, Sardiniae, Corsicę, Hispaniarum
@@ -2544,12 +2444,11 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         arripuit: Sylla urbem a tyrannide crudelissima liberauit: uter igitur laude
                         dignior uiderit, Minos?</p>
             </sp>
-                    
             <sp who="minos">
                <speaker>
                   <abbr>MI.</abbr>
-               </speaker> 
-                    <p>Qui nullam uitę dimicationem pro republica detrectarunt, eos honore semper
+               </speaker>
+               <p>Qui nullam uitę dimicationem pro republica detrectarunt, eos honore semper
                         censuimus prosequendos: in qua parte Syllam uel pręcipuum collocauimus et
                         nunc demum <corr>confirmamus</corr>. Eos uero, quibus proprium commodum fuit
                         publica potius incolumitate, sub pedibus illorum depressimus ut ab iis, quos
@@ -2558,13 +2457,11 @@ et ob haec segnius telis se obiectante uexillum abripiendum et in armatorum
                         sortis assessores habiturus es. Et sic statuimus in annum Platonis integrum,
                         atque in commentarios et acta publica referri iubemus.</p>
             </sp>
-                <closer>FINIS.</closer>
-                <dateline>
+            <closer>FINIS.</closer>
+            <dateline>
                <date when="1527">M. D. XXVII.</date>
             </dateline>
-            </div>
-
-        </body>
-    
+         </div>
+      </body>
    </text>
 </TEI>

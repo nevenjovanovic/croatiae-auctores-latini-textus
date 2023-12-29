@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="andronic-trag-elegia">
          <titleStmt>
             <title>Ad puerum forma superbientem elegia, versio electronica</title>
@@ -23,7 +24,6 @@
                </persName>
             </respStmt>
          </titleStmt>
-      
          <editionStmt>
             <edition>
                <date>Prima editio electronica, mense Decembri 2011.</date>
@@ -36,65 +36,13 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName>, Croatia, <date>mense Decembri 2011.</date>
             </p>
          </publicationStmt>
-      
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
-            
-               <bibl type="manuscript">MS: BAV, Vat. lat. 2835, f. 261-261v
+            <bibl type="manuscript">MS: BAV, Vat. lat. 2835, f. 261-261v
                   <note>(fotokopija)</note>
-            </bibl> 
+            </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="corr" occurs="20"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="48"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -146,8 +94,8 @@
             <date>2011-11-19T12:30:00</date>
          </change>
       </revisionDesc>
-  </teiHeader>
-  <text type="poesis">
+   </teiHeader>
+   <text type="poesis">
       <body>
          <pb n="261"/>
          <div type="elegia" met="elegiacum">
@@ -155,11 +103,8 @@
         Andronici Tragurini Ad puerum forma superbientem
       </head>
             <!-- [U rkp. umj. "ae" piše uvijek "e"] -->
-      
-        
-      
             <l>Quid tantum eximiae perituro flore figurae</l>
-            <l met="pentameter">	
+            <l met="pentameter">
                <corr>Elatus</corr> brevibus credis, inepte, bonis.</l>
             <l>Nulli fida satis fugitivae gratia formae,</l>
             <l met="pentameter">	Nil homini eximium perpetuumque datur.</l>
@@ -201,9 +146,9 @@
             <l met="pentameter">	Esse nec inferna conditione trahi.</l>
             <l>Sed quia <corr>Parcarum</corr> firmata lege negatur</l>
             <l met="pentameter">	Aevo hominis semper dexteriore frui,</l>
-            <l>Dum licet atque sinit facies, dum tempora <corr>vernant</corr> 
+            <l>Dum licet atque sinit facies, dum tempora <corr>vernant</corr>
             </l>
-            <l n="40" met="pentameter">	Gaudia festino carpe <corr>abitura pede</corr> 	
+            <l n="40" met="pentameter">	Gaudia festino carpe <corr>abitura pede</corr>
             </l>
             <l>
                <corr>Vtere</corr> non stabili <corr>fugiturae vere</corr> iuventae</l>
@@ -214,11 +159,10 @@
             <l n="45">Et si quando ulli talis meditaberis esse,			</l>
             <l met="pentameter">	Ipsum <corr>ego</corr> te qualem sensi in amore meo.</l>
             <l>
-               <corr>Aspice purpurei</corr> formosa rosaria <corr>Pesti</corr> 
+               <corr>Aspice purpurei</corr> formosa rosaria <corr>Pesti</corr>
             </l>
             <l met="pentameter">	Quae vix exacta languida <corr>luce</corr> cadunt.</l>
          </div>
-      
       </body>
-  </text>
+   </text>
 </TEI>

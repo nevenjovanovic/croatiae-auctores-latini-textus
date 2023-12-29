@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="milet-versus">
@@ -35,66 +36,15 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
-             <bibl>Serafin Marija Crijević (Seraphinus Maria Cerva), Bibliotheca Ragusina in qua Ragusini scriptores eorumque gesta et scripta recensentur, 4 sv., izd. <editor>
+            <bibl>Serafin Marija Crijević (Seraphinus Maria Cerva), Bibliotheca Ragusina in qua Ragusini scriptores eorumque gesta et scripta recensentur, 4 sv., izd. <editor>
                   <persName>
                      <ref>Stjepan Krasić</ref>
                   </persName>
                </editor>, <pubPlace>Zagreb</pubPlace>: <publisher>Jugoslavenska akademija znanosti i umjetnosti</publisher>, 1975-1980, sv. 2, s. 487-488.
              <note>Excerpta</note>
-             </bibl>
+            </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="7"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="7"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="91"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="8"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -110,20 +60,20 @@
          </langUsage>
          <creation>
             <date when="1340" period="13xx_2_third">c.1340</date>
-        </creation>
+         </creation>
          <textClass>
             <keywords scheme="typus">
-                <term>poesis</term>
+               <term>poesis</term>
             </keywords>
             <keywords scheme="aetas">
-                <term>Litterae medii aevi (700-1400)</term>
-                <term>Saeculum 14 (1301-1400)</term>
-                <term>1301-1350</term>
+               <term>Litterae medii aevi (700-1400)</term>
+               <term>Saeculum 14 (1301-1400)</term>
+               <term>1301-1350</term>
             </keywords>
             <keywords scheme="genre">
-                <term>poesis - historia</term>
+               <term>poesis - historia</term>
             </keywords>
-        </textClass>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -145,138 +95,130 @@
    </teiHeader>
    <text type="poesis">
       <body>
-        <milestone unit="page" n="487"/>
-            <div type="poesis-historia">
-                <head>II.</head>
-                <div type="poesis-historia-fragmentum">
-                    <head>(1)</head>
-                    <l>Urbi Epidauro nomen donavit et esse</l>
-                    <l>Temporibus Moysis fugiens Epidaurus Aegypto</l>
-                    <l>Quam signis visis perituram noverat urbem.</l>
-                    <milestone unit="page" n="217"/>
-                    <l> Quidam Romani, destructa sic Epidauro,</l>
-                    <l> Bellum civile fugientes forte subintrant</l>
-                    <l> Portum Dalmatiae, qui Gravosius vocatur. </l>
-                    <l> Hic pariter inopes fugientes ex Epidauro, </l>
-                    <l> In magnis ripis, tibi nunc est urbs Ragusina, </l>
-                    <l> Castellum statuunt monitis actuque Ioannis,</l>
-                    <l> Qui iam praedictae fuit archiepiscopus urbis.</l>
-                    <l> Atque arcem, vivi tutam munimine saxi,</l>
-                    <l> Aspectu horrendo, praecelso in vertice montis, </l>
-                    <l> Hoc castrum vocitat Epidaurica lingua Labusa, </l>
-                    <l> Namque ripa sonat hoc idiomate labes,</l>
-                    <l> A magnis ripis nomen traxere priores;</l>
-                    <l> Nunc L in R, G pro B mutando, moderni </l>
-                    <l> Ragusam dicunt, quae Sclavonice Dubrovnik </l>
-                    <l> Dicitur a sylva, quia sylva fuit locus ille, </l>
-                    <l> In quo nunc urbs est et Dubrava sylva vocatur.</l>
-                </div>
-
-                <div type="poesis-historia-fragmentum">
-                    <head>(2)</head>
-                    <l> Ad decus et laudem Stephani protomartyris extat</l>
-                    <l> Castellum, et templum fundant et corpora condunt </l>
-                    <l> Sanctorum, quorum sunt nomina scripta, subaudi </l>
-                    <l> Nerei, Achilei, Domitillae Petronillaeque, </l>
-                    <l> Quae secum furtim tulerant Roma fugientes.</l>
-                </div>
-
-                <div type="poesis-historia-fragmentum">
-                    <head>(3)</head>
-                    <l> Non multis post haec facta labentibus annis</l>
-                    <l> Quidam nauclerius, qui Fruntius est vocitatus, </l>
-                    <l> A castro, Straulum quod dicitur, urbis Aegeae,</l>
-                    <milestone unit="page" n="218"/>
-                    <l> Urbem Ragusam cum Zenobio Zenobiam</l>
-                    <l> Transtulit. Hic praesul, haec virgo, martyr uterque,</l>
-                    <l> Quos Nicophorus pastor metropolis huius,</l>
-                    <l> Vitalisque comes, qui dictus est Veteranus, </l>
-                    <l> Plebs simul ac populus, in aede metropolitana </l>
-                    <l> Cum prece, cum psalmis, cum laudis honore locarunt </l>
-                    <l> Sanctae Mariae Domini genitricis in aede</l>
-                    <l>
-                        <note place="margin">1012*</note> Anno milleno Domini simul ac duodeno. </l>
-                    <l> Ipsorum meritis sanatis pluribus aegris </l>
-                    <l> Plurima tunc et adhuc fiunt miracula multa.</l>
-                </div>
-
-                <div type="poesis-historia-fragmentum">
-                    <head>(4)</head>
-                    <l> Post modicum tempus Vitale metropolitano,</l>
-                    <l> Iudice Lampridio, residentibus urbe Ragusa,</l>
-                    <milestone unit="page" n="219"/>
-                    <l> Corpora Laurentii, sed non illius adusti,</l>
-                    <l> Andreae, Petri, non Christi discipulorum, </l>
-                    <l> Caelitus ostensa, simul translata fuerunt, </l>
-                    <l> Cum quibus et Blasii constat caput esse repertum, </l>
-                    <l>
-                        <note place="margin">1026</note> Millenus vicenus sextus cum foret annus. </l>
-                    <l> Hos versus edidit Miletius hinc inde testis.</l>
-
-                    <milestone unit="page" n="488"/>
-
-                    <l> Vivant felices, quibus hic licet esse frequenter,</l>
-                    <l> Tales reliquias videant habeantque revere</l>
-                    <l> Lis fugiat, maneat pax, dant bona cuncta petenti.</l>
-                </div>
-
-                <milestone unit="page" n="218"/>
-                <div>
-                    <head>(5)</head>
-                    <l> Stephanus hinc dux Bossinae imperatore Bodino,</l>
-                    <l> Cominus ecclesiae divi Nicolai de Campo</l>
-                    <l> Castellum construxit, post patriamque reversus,</l>
-                    <l> (Sub Constantino, Graecorum iudice nono) </l>
-                    <l> Post pacem factam quidam tradiditque castellum </l>
-                    <l> Ragusii dominis, vel opprimentibus eum.</l>
-                    <l> Vastarunt illud postea maenibusque cinxere.</l>
-                    <l> Instituit eos quidam certare Gradichna </l>
-                    <l> Qui in eius custodia stabat cognomine Vukus </l>
-                    <l> 1116 Accidit in die potitus Paschae triumphus, </l>
-                    <l> Anno milleno partum post Virginis almae</l>
-                    <l> Centum bis octavo, narravit pagina prisca.</l>
-                </div>
-
-                <milestone unit="page" n="219"/>
-                <div>
-                    <head>(6)</head>
-                    <l> Tempore post multo, quo praesidente tribuno</l>
-                    <l> Iudice Basilio Ragusa quo regebatur, </l>
-                    <l> 
+         <milestone unit="page" n="487"/>
+         <div type="poesis-historia">
+            <head>II.</head>
+            <div type="poesis-historia-fragmentum">
+               <head>(1)</head>
+               <l>Urbi Epidauro nomen donavit et esse</l>
+               <l>Temporibus Moysis fugiens Epidaurus Aegypto</l>
+               <l>Quam signis visis perituram noverat urbem.</l>
+               <milestone unit="page" n="217"/>
+               <l> Quidam Romani, destructa sic Epidauro,</l>
+               <l> Bellum civile fugientes forte subintrant</l>
+               <l> Portum Dalmatiae, qui Gravosius vocatur. </l>
+               <l> Hic pariter inopes fugientes ex Epidauro, </l>
+               <l> In magnis ripis, tibi nunc est urbs Ragusina, </l>
+               <l> Castellum statuunt monitis actuque Ioannis,</l>
+               <l> Qui iam praedictae fuit archiepiscopus urbis.</l>
+               <l> Atque arcem, vivi tutam munimine saxi,</l>
+               <l> Aspectu horrendo, praecelso in vertice montis, </l>
+               <l> Hoc castrum vocitat Epidaurica lingua Labusa, </l>
+               <l> Namque ripa sonat hoc idiomate labes,</l>
+               <l> A magnis ripis nomen traxere priores;</l>
+               <l> Nunc L in R, G pro B mutando, moderni </l>
+               <l> Ragusam dicunt, quae Sclavonice Dubrovnik </l>
+               <l> Dicitur a sylva, quia sylva fuit locus ille, </l>
+               <l> In quo nunc urbs est et Dubrava sylva vocatur.</l>
+            </div>
+            <div type="poesis-historia-fragmentum">
+               <head>(2)</head>
+               <l> Ad decus et laudem Stephani protomartyris extat</l>
+               <l> Castellum, et templum fundant et corpora condunt </l>
+               <l> Sanctorum, quorum sunt nomina scripta, subaudi </l>
+               <l> Nerei, Achilei, Domitillae Petronillaeque, </l>
+               <l> Quae secum furtim tulerant Roma fugientes.</l>
+            </div>
+            <div type="poesis-historia-fragmentum">
+               <head>(3)</head>
+               <l> Non multis post haec facta labentibus annis</l>
+               <l> Quidam nauclerius, qui Fruntius est vocitatus, </l>
+               <l> A castro, Straulum quod dicitur, urbis Aegeae,</l>
+               <milestone unit="page" n="218"/>
+               <l> Urbem Ragusam cum Zenobio Zenobiam</l>
+               <l> Transtulit. Hic praesul, haec virgo, martyr uterque,</l>
+               <l> Quos Nicophorus pastor metropolis huius,</l>
+               <l> Vitalisque comes, qui dictus est Veteranus, </l>
+               <l> Plebs simul ac populus, in aede metropolitana </l>
+               <l> Cum prece, cum psalmis, cum laudis honore locarunt </l>
+               <l> Sanctae Mariae Domini genitricis in aede</l>
+               <l>
+                  <note place="margin">1012*</note> Anno milleno Domini simul ac duodeno. </l>
+               <l> Ipsorum meritis sanatis pluribus aegris </l>
+               <l> Plurima tunc et adhuc fiunt miracula multa.</l>
+            </div>
+            <div type="poesis-historia-fragmentum">
+               <head>(4)</head>
+               <l> Post modicum tempus Vitale metropolitano,</l>
+               <l> Iudice Lampridio, residentibus urbe Ragusa,</l>
+               <milestone unit="page" n="219"/>
+               <l> Corpora Laurentii, sed non illius adusti,</l>
+               <l> Andreae, Petri, non Christi discipulorum, </l>
+               <l> Caelitus ostensa, simul translata fuerunt, </l>
+               <l> Cum quibus et Blasii constat caput esse repertum, </l>
+               <l>
+                  <note place="margin">1026</note> Millenus vicenus sextus cum foret annus. </l>
+               <l> Hos versus edidit Miletius hinc inde testis.</l>
+               <milestone unit="page" n="488"/>
+               <l> Vivant felices, quibus hic licet esse frequenter,</l>
+               <l> Tales reliquias videant habeantque revere</l>
+               <l> Lis fugiat, maneat pax, dant bona cuncta petenti.</l>
+            </div>
+            <milestone unit="page" n="218"/>
+            <div>
+               <head>(5)</head>
+               <l> Stephanus hinc dux Bossinae imperatore Bodino,</l>
+               <l> Cominus ecclesiae divi Nicolai de Campo</l>
+               <l> Castellum construxit, post patriamque reversus,</l>
+               <l> (Sub Constantino, Graecorum iudice nono) </l>
+               <l> Post pacem factam quidam tradiditque castellum </l>
+               <l> Ragusii dominis, vel opprimentibus eum.</l>
+               <l> Vastarunt illud postea maenibusque cinxere.</l>
+               <l> Instituit eos quidam certare Gradichna </l>
+               <l> Qui in eius custodia stabat cognomine Vukus </l>
+               <l> 1116 Accidit in die potitus Paschae triumphus, </l>
+               <l> Anno milleno partum post Virginis almae</l>
+               <l> Centum bis octavo, narravit pagina prisca.</l>
+            </div>
+            <milestone unit="page" n="219"/>
+            <div>
+               <head>(6)</head>
+               <l> Tempore post multo, quo praesidente tribuno</l>
+               <l> Iudice Basilio Ragusa quo regebatur, </l>
+               <l>
                   <note place="margin">1159</note> Centum anno mitte nostrae currente salutis </l>
-                    <l> Quinquaginta novem, etiam voluntate divina</l>
-                    <l> Septima tunc erat Iani. De cruce signatus</l>
-                    <l> Teuthonicorum unus procerum ab Hierosolymis urbe </l>
-                    <l> Attutit Simeonis Ragusam honorabile corpus </l>
-                    <l> Prophetae, qui dixit: Vos rogo, fratres, audite: </l>
-                    <l> Nunc, Deus, dimitte servum tuum in pace;</l>
-                    <l> Quod sancti Viti cum honore locarunt in aede.</l>
-                    <l> Incognito sic nomine, multo tempore stetit </l>
-                    <l> Vsque Leonardi tempus archipraesulis: inde </l>
-                    <l> Nobili Damiano Zade narravit proprium nomen, </l>
-                    <l> Quem et curavit caecum et a phantasmate mutum:</l>
-                    <l> Sum Simeon, dicens, qui Christum in ulnas recepi,</l>
-                    <l> Quem Virgo peperit et post partum Virgo permansit. </l>
-                    <milestone unit="page" n="220"/>
-                    <l> Post modicum tempus translatum in Virginis aede,</l>
-                    <l> Telluris arcano est sub altare maiori </l>
-                    <l> Temporibus nostris, qui fecit miracula multa.</l>
-                    <l> Postea requirunt tanto claritatis ardore</l>
-                    <l> Pro quadam causa suum revisere corpus. </l>
-                    <l> Multorum obitus stetit sententia patris, </l>
-                    <l> Qui procul dubio tunc subiverunt ad eum. </l>
-                    <l> Exinde reliqui timentes, ne morerentur,</l>
-                    <l> Flectuntur non ire: sic diem usque praesentem.</l>
-                    <l> Venturam Christi gloriam, qui maxime spectans, </l>
-                    <l> Stat illic arcano media in Virginis aede. </l>
-                    <l> Haec super elate narrantia carmina vobis,</l>
-                    <l> Siquid turpe sonat, nam pagina scripta probatur.</l>
-                    <l> Gloria sit Deo seculi per secula trino,</l>
-                    <l> Qui nos indignos ditavit munere tanto.<ref>1</ref>
+               <l> Quinquaginta novem, etiam voluntate divina</l>
+               <l> Septima tunc erat Iani. De cruce signatus</l>
+               <l> Teuthonicorum unus procerum ab Hierosolymis urbe </l>
+               <l> Attutit Simeonis Ragusam honorabile corpus </l>
+               <l> Prophetae, qui dixit: Vos rogo, fratres, audite: </l>
+               <l> Nunc, Deus, dimitte servum tuum in pace;</l>
+               <l> Quod sancti Viti cum honore locarunt in aede.</l>
+               <l> Incognito sic nomine, multo tempore stetit </l>
+               <l> Vsque Leonardi tempus archipraesulis: inde </l>
+               <l> Nobili Damiano Zade narravit proprium nomen, </l>
+               <l> Quem et curavit caecum et a phantasmate mutum:</l>
+               <l> Sum Simeon, dicens, qui Christum in ulnas recepi,</l>
+               <l> Quem Virgo peperit et post partum Virgo permansit. </l>
+               <milestone unit="page" n="220"/>
+               <l> Post modicum tempus translatum in Virginis aede,</l>
+               <l> Telluris arcano est sub altare maiori </l>
+               <l> Temporibus nostris, qui fecit miracula multa.</l>
+               <l> Postea requirunt tanto claritatis ardore</l>
+               <l> Pro quadam causa suum revisere corpus. </l>
+               <l> Multorum obitus stetit sententia patris, </l>
+               <l> Qui procul dubio tunc subiverunt ad eum. </l>
+               <l> Exinde reliqui timentes, ne morerentur,</l>
+               <l> Flectuntur non ire: sic diem usque praesentem.</l>
+               <l> Venturam Christi gloriam, qui maxime spectans, </l>
+               <l> Stat illic arcano media in Virginis aede. </l>
+               <l> Haec super elate narrantia carmina vobis,</l>
+               <l> Siquid turpe sonat, nam pagina scripta probatur.</l>
+               <l> Gloria sit Deo seculi per secula trino,</l>
+               <l> Qui nos indignos ditavit munere tanto.<ref>1</ref>
                </l>
-                </div>
-            </div>        
-        
+            </div>
+         </div>
       </body>
-    </text>
+   </text>
 </TEI>

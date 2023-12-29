@@ -1,105 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="severitan-ip-feretr">
-            <titleStmt>
-                <title>Feretreidos libri tres, versio electronica</title>
-                <author ref="severit01">
-                    <persName xml:lang="hr">Severitan, Ivan Polikarp</persName>
-                    <date>1472 - c. 1526</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="severitan-ip-feretr">
+         <titleStmt>
+            <title>Feretreidos libri tres, versio electronica</title>
+            <author ref="severit01">
+               <persName xml:lang="hr">Severitan, Ivan Polikarp</persName>
+               <date>1472 - c. 1526</date>
+            </author>
+            <editor>
                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Textum exscripsit</resp>
-                    <persName>Željka Salopek</persName>
+            <respStmt>
+               <resp>Textum exscripsit</resp>
+               <persName>Željka Salopek</persName>
             </respStmt>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Digitalizat izvornog izdanja (1522).</p>
-            </editionStmt>
-            <extent ana="C">Mg:C 807 versus, verborum 8510</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat izvornog izdanja (1522).</p>
+         </editionStmt>
+         <extent ana="C">Mg:C 807 versus, verborum 8510</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date>Siječnja 2009</date>.</p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Joannes Policarpus Severitanus. Magistri Ioannis Policarpi ... Feretreidos
                     libri tres.. Impressum per I.F. et I.A. fratres de Rusconibus, Venetijs,
                     1522.</bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="4"/>
-          <tagUsage gi="corr" occurs="15"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="17"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="14"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="807"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="44"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="148"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="13"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="20"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -113,58 +56,58 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1522" period="15xx_1_third">1522</date>
-            </creation>
+            <date when="1522" period="15xx_1_third">1522</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                    <term>paratextus prosaici</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - epica</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+               <term>paratextus prosaici</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epica</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2012-08-23</date>
+            <date>2012-08-23</date>
                 Latinski spellcheck (slabo koristan).
                 Obrojčavanje.
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-03-08</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-03-08</date>
                 Novo, unificirano zaglavlje.
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2009-06-01</date>
+            <date>2009-06-01</date>
                 XML formatiranje.
             </change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="poesis-epica">
-        <front>
-            <titlePage>
-                <titlePart>Magistri Ioannis Policarpi Seueritani Sibenicensis Dalmate predicatorii ad illustrem Guidobaldum Ruerium, Castriduranti comitem, inuictissimi Vrbini et Sore ducis Francisci Marie filium Feretreidos libri tres.</titlePart>
-            </titlePage>
-            <milestone unit="page"/>
-            <div type="prosa-epistula">
-                <opener>Magister Ioannes Policarpus Seueritanus Sibenicensis Dalmata predicatorius clarissimo Guidobaldo Ruerio, Castriduranti comiti, illustrissimi et inuictissimi Vrbini et Sore ducis Francisci Marie filio salutem plurimam dicit.</opener>
-                <p>Parthorum regem, ut inquit Calidonius, mi clarissime princeps, nemo sine munere salutare poterat. 
+      </revisionDesc>
+   </teiHeader>
+   <text type="poesis-epica">
+      <front>
+         <titlePage>
+            <titlePart>Magistri Ioannis Policarpi Seueritani Sibenicensis Dalmate predicatorii ad illustrem Guidobaldum Ruerium, Castriduranti comitem, inuictissimi Vrbini et Sore ducis Francisci Marie filium Feretreidos libri tres.</titlePart>
+         </titlePage>
+         <milestone unit="page"/>
+         <div type="prosa-epistula">
+            <opener>Magister Ioannes Policarpus Seueritanus Sibenicensis Dalmata predicatorius clarissimo Guidobaldo Ruerio, Castriduranti comiti, illustrissimi et inuictissimi Vrbini et Sore ducis Francisci Marie filio salutem plurimam dicit.</opener>
+            <p>Parthorum regem, ut inquit Calidonius, mi clarissime princeps, nemo sine munere salutare poterat. 
                 <note place="margin">Mores Parthorum</note>
                     Ego uero, Predicatorie Religioni a teneris unguiculis dicatus, in qua uoluntariam paupertatem profiteor, te adhuc <corr>in cunis</corr> uagientem, quamuis nunc Illustrem heroem, cui tota applaudit Enotria, quum decreuissem conuenire, sepius excogitabam quonam munere primum salutare deberem, et quum multa quidem ultro citroque se offerrent, nihil tamen nobilius fore <corr>arbitratus</corr> sum, quam illa tibi uirtutis opera condonare, quibus adeo inuigilaui ut quoad fieri poterit ego tuus tuique clarissimi parentis et inuictissimi ducis 
                     <milestone unit="page"/>
@@ -206,9 +149,9 @@
                     <note place="margin">Laus Feretrie domus.</note>
                     sed iustitia et pietate, clementia quoque ubi opus fuit, non solum suos populos rexit, sed coluit et obseruauit. At quid dicam de sua castissima coniuge Isabeta 
                     <note place="margin">Isabeta, coniunx Guidobaldi ducis.</note>
-                    quam qui non laudet, non efferat, non admiretur, bonorum morum et uirtutum parum amicus haberi poterit nostris temporibus, et huic etati ingratissimus iudicabitur. Huic est optimi maximi dei comitas, in Christum et pauperes immensa pietas, in omnes deos precibus assiduis pura sanctitas ut non mortalis femina, sed dea uideatur et iudicetur quam nihil aliud est laudare nisi eius laudes proferre non posse.</p> 
-                    <milestone unit="page"/>
-                    <p>Hoc tantum addam ne pro eius pietate ingratus uidear, patrem habuit Franciscum Mariam Mantue principem, summum ducem, cui adeo fortuna tribuit, ut et Venetus Senatus, fulminante in eum grauissima cede Iulio pontifice Maximo et fere totius imperii eorum exitio, in eo spem totam poneret. Tanti erat in bello gerendo consilii, tanteque fortitudinis ut Turcarum Cesar, eum non hominem, sed in homine latitantem Martem diceret, et ita gloriaretur huius principis consuetudine ut sue gentis cognomine tanquam alterum Martem sibi egida portantem appellari uoluerit. Tibi, mi princeps, est genus a superis, 
+                    quam qui non laudet, non efferat, non admiretur, bonorum morum et uirtutum parum amicus haberi poterit nostris temporibus, et huic etati ingratissimus iudicabitur. Huic est optimi maximi dei comitas, in Christum et pauperes immensa pietas, in omnes deos precibus assiduis pura sanctitas ut non mortalis femina, sed dea uideatur et iudicetur quam nihil aliud est laudare nisi eius laudes proferre non posse.</p>
+            <milestone unit="page"/>
+            <p>Hoc tantum addam ne pro eius pietate ingratus uidear, patrem habuit Franciscum Mariam Mantue principem, summum ducem, cui adeo fortuna tribuit, ut et Venetus Senatus, fulminante in eum grauissima cede Iulio pontifice Maximo et fere totius imperii eorum exitio, in eo spem totam poneret. Tanti erat in bello gerendo consilii, tanteque fortitudinis ut Turcarum Cesar, eum non hominem, sed in homine latitantem Martem diceret, et ita gloriaretur huius principis consuetudine ut sue gentis cognomine tanquam alterum Martem sibi egida portantem appellari uoluerit. Tibi, mi princeps, est genus a superis, 
                     <note place="margin">Vnde oritur filius ducis Vrbini.</note>
                     quibus nil mortale equari possit. Si abauos repetam Germani duces et quidem illustrissimi hii tibi erunt, si proauos Galli, si atauos Hispani et Parthenopei reges, si auos et a paterna et a materna stirpe hii sunt Mediolani et Ferrarie Incliti duces, quorum laudes tot et tante extitere, omnium uirtutum genere, ut nec uox ferrea narrare eas posset, nec mens facile excogitare auderet, si amicos memorem, 
                     <note place="margin">Amici Feretrie domus.</note>
@@ -230,13 +173,13 @@
                     <note place="margin">Dux fuit semper Romani senatus uerus filius.</note>
                     Equis uiribus, eodem ardore animorum res geruntur. Inuitus tandem pontifex maximus ne superari uideretur a sibi impare principe obsecrat, dux ab incepto desistat, breui se illi redditurum Regnum, dux obtemperat. Ipse uero immemor promissi 
                     <note place="margin">Proditur dux a principe.</note>
-                    <sic>scutendo</sic> non ignoscendo regnat et ducem titulo priuat et ope, crudeliter <corr>in deditos</corr> populos, inter spem et metum suspensum animum habet,
+               <sic>scutendo</sic> non ignoscendo regnat et ducem titulo priuat et ope, crudeliter <corr>in deditos</corr> populos, inter spem et metum suspensum animum habet,
                     <note place="margin">Crudelitas pontifici in ducem.</note>
                     delet Vrbini muros et aliarum urbium Vastas inde sollitudines
                     <milestone unit="page"/>
                     facit, unde sociali congregato exercitu per multa bella magnaque sepe usus fuit. Non usus exemplo maiorum qui rem Romanam augebant uictos in ciuitatem accipiendo quibus et materia crescendi per summam gloriam suppeditat. Certe, ut Liuianus Camillus ait, id firmissimum longe Imperium est quo obedientes gaudent.</p>
-                    <note place="margin">Pulchra sententia.</note>
-                    <p>Sed maturo opus est quicquid statuere placet, a populo quam primum curam absolui oportet ne timeant sed ament principem et illorum animos dum expectatione stupent seu pena seu beneficio preoccupari,
+            <note place="margin">Pulchra sententia.</note>
+            <p>Sed maturo opus est quicquid statuere placet, a populo quam primum curam absolui oportet ne timeant sed ament principem et illorum animos dum expectatione stupent seu pena seu beneficio preoccupari,
                     <note place="margin">Principis cura pro populo et regno.</note>
                     quod quia euentus rei minime probauit et quia et deorum nutu et celorum conflexu cuncta domari necessum est, hinc quae omnium rerum dari uicissitudinem uidemus. Laurentius cum coniuge et prole ab eo suscepta moritur, Alphonsina mater paulo post extremum diem claudit.
                     <note place="margin">Dei ultio pro uero et christiano duce Francisco Maria.</note>
@@ -254,1861 +197,1028 @@
                     <note place="margin">Proditur nepos ducis, Venantii filius.</note>
                     ciues subito deficiunt annuentes patruo duci pontificis genero. Hic uero presidiis dispositis per recepta oppida aduersus Fluentinos, qui Marachium uallabant, bellum parat, qui perculsi timore pacem petunt, 
                     <note place="margin">Dux pugnat aduersus Fluentinos iuste, ipsi cum eo componunt pacem.</note>
-                    absente pontifice Cymbro nuper creato nec dum triumphante Senatus Puniceus miseratus et cladem futuram utrinque et iam pietatem huius clarissimi ducis, quem omni iure fas esse censuerunt in regnum reponi, precipue quia uidebant in Italia nec esse, nec ad multa secula fore praestantiorem pro tuenda et Re Romana et tota Italia. Quo decreto prefectum et proconsulem eum agere perpetuo uoluerunt Romane urbis et ecclesie exercitus, quod et diis auspicibus effectum est.</p> 
-                <p>
+                    absente pontifice Cymbro nuper creato nec dum triumphante Senatus Puniceus miseratus et cladem futuram utrinque et iam pietatem huius clarissimi ducis, quem omni iure fas esse censuerunt in regnum reponi, precipue quia uidebant in Italia nec esse, nec ad multa secula fore praestantiorem pro tuenda et Re Romana et tota Italia. Quo decreto prefectum et proconsulem eum agere perpetuo uoluerunt Romane urbis et ecclesie exercitus, quod et diis auspicibus effectum est.</p>
+            <p>
                <note place="margin">Decernit senatus Puniceus Franciscum Mariam ecclesie Romanae perpetuum ducem uita et gestis.</note>
                     Ecce mi princeps qualem te nobis deus dederit breuibus exposui. Quare deum optimum maximum obsecro, ut te talem quales tui parentes sint nobis prestent, ut bonis omnibus opem assidue possis auxiliumque afferre, 
                     <milestone unit="page"/>
                     ut et illos et cunctos mortales clarissimis uirtutibus superes. In quo uno omnem spem meam
                     <note place="margin">Spes Policarpi in principe.</note>  
-                    et emolumenti et dignitatis. Ita constitui, ut nihil mihi defuturum quamdiu uiuas existimem, quem flexis genibus exoratum uelim ut hoc opusculum, quod tue perpetue memorie dicaui, serena fronte suscipias, libellum scilicet cui est nomen Feretreis a claro tue domus cognomento. Inspector non tantum muneris quam cordis, et mee sempiterne, mi princeps, in te seruitutis officio.</p> 
-                <closer>Vale mi prestantissime mecenas, presidium et dulce decus meum, et totius Italie unica fenix. <dateline>Calii. V. Idus Aprilis. 1522.</dateline> 
+                    et emolumenti et dignitatis. Ita constitui, ut nihil mihi defuturum quamdiu uiuas existimem, quem flexis genibus exoratum uelim ut hoc opusculum, quod tue perpetue memorie dicaui, serena fronte suscipias, libellum scilicet cui est nomen Feretreis a claro tue domus cognomento. Inspector non tantum muneris quam cordis, et mee sempiterne, mi princeps, in te seruitutis officio.</p>
+            <closer>Vale mi prestantissime mecenas, presidium et dulce decus meum, et totius Italie unica fenix. <dateline>Calii. V. Idus Aprilis. 1522.</dateline>
             </closer>
-                    
-                    
-            </div>
-            <div type="poesis-epigramma" met="hexameter">
-                <head>Argumentum Trium Librorum</head>
-                <l n="f2.1">Applaudit primus puero puerilibus ausis,</l>
-             
-                <l n="f2.2">Ad superos Muse mittuntur quippe secundo</l>
-              
-                <l n="f2.3">Tertius hunc optat perfundi Rore sereno.</l>
-             
-            </div>
-        </front>
-        <milestone unit="page"/>
-        <body>
-            <div type="poesis-liber" met="hexameter" n="1">
-                <head>Magistri Ioannis Policarpi Seueritani Sibenicensis Dalmatae Predicatorii ad Illustrem Principem Guidobaldum Ruerium, Castriduranti Comitem, Illustrissimi et Inuictissimi militie ducis Vrbini Francisci Marie Filium, Feretreidos Liber Primus.</head>
- 
-  
- 
- 
- 
-
- 
-
+         </div>
+         <div type="poesis-epigramma" met="hexameter">
+            <head>Argumentum Trium Librorum</head>
+            <l n="f2.1">Applaudit primus puero puerilibus ausis,</l>
+            <l n="f2.2">Ad superos Muse mittuntur quippe secundo</l>
+            <l n="f2.3">Tertius hunc optat perfundi Rore sereno.</l>
+         </div>
+      </front>
+      <milestone unit="page"/>
+      <body>
+         <div type="poesis-liber" met="hexameter" n="1">
+            <head>Magistri Ioannis Policarpi Seueritani Sibenicensis Dalmatae Predicatorii ad Illustrem Principem Guidobaldum Ruerium, Castriduranti Comitem, Illustrissimi et Inuictissimi militie ducis Vrbini Francisci Marie Filium, Feretreidos Liber Primus.</head>
             <l n="1.1">Vos precor, Aonides, sacras mihi ferte coronas, </l>
-             
             <note place="margin">Inuocat.</note>
             <l n="1.2">Cingite fronde comas lauri, per tempora laurus </l>
-             
             <l n="1.3">Laurus eat. Nam dulce cano per secula nomen, </l>
-             
             <note place="margin">Proponit simul.</note>
             <l n="1.4">Nomen et eternum, quo nec mihi clarius unquam </l>
-             
             <l n="1.5">Extitit aut orbi, quam quod tenet aurea proles </l>
-             
             <l n="1.6">Francisci Marie natus, Guidobaldus alumnus, </l>
-             
             <l n="1.7">Principis egregii, quo non uel fortior armis </l>
-             
             <note place="margin">Laus illustrissimi ducis Vrbini Francisci Marie.</note>
             <l n="1.8">Vel fuit ingenio, decorans Feretria sceptra.</l>
-             
             <l n="1.9">Hic est Vrbini dux, hic super ethera notus,   </l>
-             
             <l n="1.10">Hic uultu placidus, populis hic fronte benigna </l>
-             
             <l n="1.11">Imperat, ut cupiant Nemeo monstra leoni </l>
-             
             <l n="1.12">Cognita sceptra ducis tali considere terra </l>
-             
             <l n="1.13">Atque ea quaque diu memoratur bellua Lerne </l>
-             
             <l n="1.14">Improba, Niliacis populis Memphytica tellus </l>
-             
             <l n="1.15">Quos alit, aut Ganges, Rodope glacialis et Hermus </l>
-             
             <l n="1.16">Te Themis hic coluit, probitas te, cana fidesque, </l>
-             
             <l n="1.17">Maria Franciscus, princeps, Regumque ducumque </l>
-             
             <l n="1.18">Gloria, conseruat. Quo fit quod carmine nostro </l>
-             
             <note place="margin">Quibus uirtutibus ornatus dux inclytus.</note>
             <milestone unit="page"/>
             <l n="1.19">Et uestro auspitio natum super aethera tollam </l>
-             
             <l n="1.20">Et fatis huius, quo celum terraque plaudunt </l>
-             
             <l n="1.21">Enotrieque duces gaudent, Pancaica tellus </l>
-             
             <l n="1.22">Cui pia tura dabit, cui cynama querit et Indus </l>
-             
             <l n="1.23">Raraque prepulchro cui munera Parthus et offert </l>
-             
             <l n="1.24">Qui thyma seu rorem, uel qui meliloton amarunt, </l>
-             
             <l n="1.25">His et ego ipse sinum pueri complere uidebor </l>
-             
             <l n="1.26">Floribus et rubeis caput huius cingere pulchra </l>
-             
             <note place="margin">Poete aplausus pro principe.</note>
             <l n="1.27">Serta gerens, si me inspiciet puer almus ocelis </l>
-             
             <l n="1.28">Preclaris, quibus annuat, et mihi, talia dicens: </l>
-             
             <l n="1.29">Incipe iam, uates, et iam cane. Namque fauebo </l>
-             
             <note place="margin">Narrat.</note>
             <l n="1.30">Ipse tibi et fiam post officiosus amicus. </l>
-             
             <l n="1.31">Et quia sic fiet, cocco uel murice tinctum </l>
-             
             <l n="1.32">En probo te, Cesar. Gaudete et sidera celi </l>
-             
             <l n="1.33">Cunctaque letentur, quecumque sub orbe uirescunt </l>
-             
             <l n="1.34">Ethereo, noua nam proles surrexit et orbi </l>
-             
             <note place="margin">Poeta gaudet quod princeps Guidobaldus sit natus.</note>
             <l n="1.35">Aurea secla dabit, Cesar Ioue digna propago </l>
-             
             <l n="1.36">Clamet, io, quisquis seclorum gaudia longa </l>
-             
             <l n="1.37">Cernere quippe cupit, genus alto a sanguine diuum </l>
-             
             <l n="1.38">Ecce datur princeps, tantarum gloria rerum </l>
-             
             <l n="1.39">Gonzaga de stirpe, tibi Gonzaga propago </l>
-             
             <note place="margin">A qua stirpe oritur.</note>
             <l n="1.40">Felix quippe diu, nunquam felicior etas </l>
-             
             <l n="1.41">Extitit huic mundo, tibi uel nunc Vmbria clara </l>
-             
             <l n="1.42">Cui noua progenies celo demittitur alto, </l>
-             
             <l n="1.43">Alta Dodoneo spectabis stemmata colle, </l>
-             
             <l n="1.44">Vrbine gentis longas hoc exige messes,</l>
-             
             <l n="1.45">Hoc te pulchra manet libertas profuga uestris </l>
-             
             <l n="1.46">Enotriis oris Geticisque furentibus armis </l>
-             
             <note place="margin">Libertas Vrbinatum et Vmbrie populorum.</note>
             <milestone unit="page"/>
             <l n="1.47">Hoc grauis in sicco sternetur puluere ubique </l>
-             
             <l n="1.48">Ipsus Erix poterit nec ducere Cacus in antra </l>
-             
             <note place="margin">Erix et Cacus, latrones.</note>
             <l n="1.49">Iam pecudes, Lybice quo iam ceroma palestre </l>
-             
             <l n="1.50">Perfectum inspicies, triplex pastoris Hyberi </l>
-             
             <l n="1.51">Pugna diu stabit longoque subacta labori </l>
-             
             <l n="1.52">Infando, miles nec corrumpetur auarus  </l>
-             
             <l n="1.53">Auro, quo sacre preciosa silentia linguae </l>
-             
             <l n="1.54">Vndique prosternunt mortales Tartara adusque. </l>
-             
             <l n="1.55">Hic sapiens, hic prudens et pius, omnibus extans </l>
-             
             <note place="margin">Laus amoribus illustris principis Guidobaldi.</note>
             <l n="1.56">Laudibus heroum claros cumulabit honores </l>
-             
             <l n="1.57">Pro uobis populis umbris, qui moribus almis </l>
-             
             <l n="1.58">Clara Iouis soboles, quos ducet culmen ad altum </l>
-             
             <l n="1.59">Consiliis et Marte fero tolletur ad astra. </l>
-             
             <l n="1.60">Hoc et crede mihi duras calcare procellas </l>
-             
             <l n="1.61">Quisque pius poterit cuius moderamine culto </l>
-             
             <l n="1.62">Diuitias, fastus humanaque regna beabit, </l>
-             
             <l n="1.63">O utinam proceres, puerum mihi credere in euum </l>
-             
             <l n="1.64">Fata darent semper, cui culta poemata chartis </l>
-             
             <l n="1.65">Hystoriisque implerem. Nam solatia prebet </l>
-             
             <l n="1.66">Ipse mihi princeps, solus fauet, ipse cadenti </l>
-             
             <note place="margin">Aurea etas.</note>
             <l n="1.67">Erigit, et solum, quanto mihi gratia maior </l>
-             
             <l n="1.68">Illo fiet, tanto clarior omnibus ipse </l>
-             
             <l n="1.69">Ipse deus uatum mortales luce tenebras </l>
-             
             <l n="1.70">Augusta soluet, mortalibus omine sacro </l>
-             
             <l n="1.71">Credite, quod refero bellantum <corr>equare</corr> calore, </l>
-             
             <l n="1.72">Hic puer audebit Rodaneica uertere castra </l>
-             
             <l n="1.73">Ducere et in gentes Lusitanos inde paratus </l>
-             
             <l n="1.74">Euganeas noscet strages, huic arma, tubeque </l>
-             
             <milestone unit="page"/>
             <l n="1.75">Mox <sic>addeunt</sic>. Mesti damnum irreparabile mundi 	</l>
-             
             <l n="1.76">Soluet, et hic priscos ueluti reuocabit ad annos </l>
-             
             <l n="1.77">Italiae populos, nobis spes ultima, nobis </l>
-             
             <note place="margin">Italiae spes.</note>
             <l n="1.78">Feretriaeque domus decus immortale manebit </l>
-             
             <l n="1.79">Respiciens prolem Ausoniam laudesque suorum. </l>
-             
             <l n="1.80">O decus Hesperiae puer, o mi clara propago, </l>
-             
             <l n="1.81">Clara deum soboles, o mi puer inclyte princeps,</l>
-             
-            <note place="margin">Poeta blanditur puero principi.</note> 
+            <note place="margin">Poeta blanditur puero principi.</note>
             <l n="1.82">Vera referre placet, superis equatus honore </l>
-             
             <l n="1.83">Humano fies terrarum rector et inde </l>
-             
             <l n="1.84">Compones pacem populis, longosque furores </l>
-             
             <l n="1.85">Deiicies mihi, princeps, tot non passus et ultro </l>
-             
             <l n="1.86">Oblatas gentes seruabis sidere dextro </l>
-             
             <l n="1.87">Imperioque tuo cito seruiat ultima Thule </l>
-             
             <l n="1.88">Hoc precor ut faciat summi pia uirgo Tonantis</l>
-             
-            <note place="margin">Poetae desiderium.</note> 
+            <note place="margin">Poetae desiderium.</note>
             <l n="1.89">Maria, mi princeps, tantosque ostendat honores </l>
-             
             <l n="1.90">Dum uiuit uates, solio fortuna superbo </l>
-             
             <l n="1.91">Erectum sic te, uel nullo crimine famam </l>
-             
             <l n="1.92">Inficiat sanctumque decus det tempore longo. </l>
-             
             <l n="1.93">Quaeso, parue puer, cui nunc risere parentes, </l>
-             
             <l n="1.94">Quo gaudet mundus, proceres sanctique Quirites </l>
-             
             <l n="1.95">Saltant et tribuunt tibi iam diademata Romae,</l>
-             
-            <note place="margin">Cupit ut fiat Romanus Caesar.</note> 
+            <note place="margin">Cupit ut fiat Romanus Caesar.</note>
             <l n="1.96">Respice me uatem, qui te nunc praedicat olim </l>
-             
             <l n="1.97">Nec uagire uelis, duplex diadema paratur </l>
-             
             <l n="1.98">Ecce tibi quia iam, iam celsas temperat arces </l>
-             
             <l n="1.99">Tarpeias tua uirtus, mi puer, inspice uatem, </l>
-             
             <l n="1.100">Despicias nec, quem nunquam spreuere parentes.  </l>
-             
             <l n="1.101">Nobilitas sub amore iacet, cui candida uirtus </l>
-             
             <l n="1.102">Est comes, aeternum te duratura per aeuum. </l>
-             
-            <note place="margin">Poetae sententia.</note> 
+            <note place="margin">Poetae sententia.</note>
             <milestone unit="page"/>
             <l n="1.103">Quamuis te puerum uoco, tu tamen omnibus es par </l>
-             
             <l n="1.104">Gentibus ingenio, quo uirtus ipsa renata est </l>
-             
             <l n="1.105">In cunis uagis, mi princeps, et tibi Pallas </l>
-             
             <l n="1.106">Seruit Phydiaco coelo, cui forma deorum </l>
-             
             <l n="1.107">Est data, qua Iuno seruare cubilia curat </l>
-             
-            <note place="margin">Pulchritudo principis pueruli.</note> 
+            <note place="margin">Pulchritudo principis pueruli.</note>
             <l n="1.108">Matris quippe tuae, qua iam per saecula longa </l>
-             
             <l n="1.109">Clara pudicitia coronantur tecta domorum, </l>
-             
-            <note place="margin">Laus illustrissime matris principis.</note> 
+            <note place="margin">Laus illustrissime matris principis.</note>
             <l n="1.110">Huic Metabis cedet generosa stirpe Camilla, </l>
-             
             <l n="1.111">Cortice seruatam genitoris et arte Diana </l>
-             
             <l n="1.112">Quam sibi decreuit famulari more pudico </l>
-             
             <l n="1.113">Vestalesque intrare lares, cui nulla pharetra </l>
-             
             <l n="1.114">Defuit, ut sciret quid posset Cynthia uirgo </l>
-             
             <l n="1.115">Saltibus Ideis uenando figere ceruos </l>
-             
             <l n="1.116">Dux Anchysiades, quo nouit fortia tandem </l>
-             
-            <l n="1.117">Pectora, qua cecidit uel sancta mente <sic>chorebus</sic> 
+            <l n="1.117">Pectora, qua cecidit uel sancta mente <sic>chorebus</sic>
             </l>
-             
             <l n="1.118">Vulnere letifero domuit quam lege sinistra </l>
-             
             <l n="1.119">Fatorum, Casmilla tuae noua amentia mentis, </l>
-             
             <l n="1.120">Magnus Arons quondam Troiano sanguine creatus. </l>
-             
             <l n="1.121">Haec est uirgo pia et uiuae uirtutis imago,  </l>
-             
             <l n="1.122">Hac Gonzaga domus tolletur sidera adusque. </l>
-             
-            <note place="margin">Laus a progenie illustrissime Leonore.</note> 
+            <note place="margin">Laus a progenie illustrissime Leonore.</note>
             <l n="1.123">Regia namque tibi seruat uestigia mater, </l>
-             
             <l n="1.124">Vult haec et Astagiam rabiem Arpagique furorem </l>
-             
             <l n="1.125">Aufugere ob Cyrum Mediae Lydiaeque triumphum </l>
-             
             <l n="1.126">Quem Thomyri mansit, nulli exorabile limen </l>
-             
             <l n="1.127">Mortis, nam Scythycas cupiebat sternere gentes, </l>
-             
             <l n="1.128">Nec mirere tuae genitricis gesta pudica </l>
-             
             <l n="1.129">Aurea namque sibi pendent collocasia collo </l>
-             
             <l n="1.130">Candida quamque manebit uestis iaspide semper, </l>
-             
             <milestone unit="page"/>
             <l n="1.131">Castalii et laticis custodes ordine longo </l>
-             
             <l n="1.132">Prospiciunt genitricis, quam fit forma pudica, </l>
-             
-            <note place="margin">Illustrissima Lionora excellit fere omnes mulieres pudicitia.</note> 
+            <note place="margin">Illustrissima Lionora excellit fere omnes mulieres pudicitia.</note>
             <l n="1.133">Hanc et collatinus amans ueneratur ubique </l>
-             
             <l n="1.134">Cui nunquam pulchra respondet imagine lygdos </l>
-             
             <l n="1.135">Penelope sequitur, sequiturque hanc Claudia strages </l>
-             
             <l n="1.136">Virgineae uenerandus honos et Theutona proles </l>
-             
             <l n="1.137">Virginibus gratam matrem maiora merentem, </l>
-             
             <l n="1.138">Liliolis ornant Archo, Theosena pudica et </l>
-             
             <l n="1.139">Tucia uestalis nullo corrupta pudore, </l>
-             
             <l n="1.140">Magnus honestatis decor, et sibi Dido phalanges </l>
-             
             <l n="1.141">Exoptat uatum qui talem ad sidera tollant, </l>
-             
             <l n="1.142">Non minus Hersilie castae mens undique plaudit </l>
-             
             <l n="1.143">Indigetem factura deam mundoque uerendam. </l>
-             
-            <note place="margin">Illustris Lionora Indiges dea.</note>  
+            <note place="margin">Illustris Lionora Indiges dea.</note>
             <l n="1.144">O te foelicem tante genitricis honore, </l>
-             
             <l n="1.145">O te foelicem tali de sanguine cretum,  </l>
-             
             <l n="1.146">Foelices qui te talem genuere parentes,  </l>
-             
-            <note place="margin">Poetae admiratio.</note>  
+            <note place="margin">Poetae admiratio.</note>
             <l n="1.147">Et ut uera feram paucis ego cuncta resoluam, </l>
-             
             <l n="1.148">Est genus a proauis Lyguro de sanguine pater </l>
-             
-            <note place="margin">Laus illustrissimi ducis Vrbini Francisci Marie a progenie.</note>  
+            <note place="margin">Laus illustrissimi ducis Vrbini Francisci Marie a progenie.</note>
             <l n="1.149">Iannes prefectum quem diui numine firmant </l>
-             
-            <note place="margin">Illustris pater ducis Rome praefectus.</note>  
+            <note place="margin">Illustris pater ducis Rome praefectus.</note>
             <l n="1.150">Huic genitor Romane gentis et undique fulgent </l>
-             
             <l n="1.151">Dimensi clarique duces Fredericus et inde</l>
-             
-            <note place="margin">Fredericus dux.</note>   
+            <note place="margin">Fredericus dux.</note>
             <l n="1.152">Offertur superis Guidobaldus secula longa </l>
-             
-            <note place="margin">Guidobaldus dux.</note>  
+            <note place="margin">Guidobaldus dux.</note>
             <l n="1.153">Carmine Meonio uicturi sidere dextro </l>
-             
             <l n="1.154">Ductores clari, ferro quos aspera Martis </l>
-             
             <l n="1.155">Pugna uocat uolitant auro atque ostroque decori </l>
-             
             <l n="1.156">Pontificum celebranda domus quibus ethera fulgent </l>
-             
             <l n="1.157">Qui coelum terramque regunt, qui Tartara soluunt </l>
-             
             <l n="1.158">Systus erat celebris, puraque in ueste sacerdos </l>
-             
-            <note place="margin">Systus pontifex.</note>  
+            <note place="margin">Systus pontifex.</note>
             <milestone unit="page"/>
             <l n="1.159">Gloria pontificum, magne spes altera Rome </l>
-             
             <l n="1.160">Iulius hunc sequitur terram, mare, sidera torquens </l>
-             
-            <note place="margin">Iulius pontifex maximus.</note>  
+            <note place="margin">Iulius pontifex maximus.</note>
             <l n="1.161">Sancta pudicitiae uirtus, specimenque bonorum </l>
-             
             <l n="1.162">Extitit huic genetrix aqua dux inclytus exit </l>
-             
             <l n="1.163">Sidereo splendens clypeo et caelestibus armis, </l>
-             
             <l n="1.164">Et ne te afficiam tedio nunc, mi inclyte princeps, </l>
-             
             <l n="1.165">Spes mea, spes regum et uatum suprema uoluptas, </l>
-             
             <l n="1.166">Dum mea Castalio perfundam labra liquore </l>
-             
             <l n="1.167">Pierides, paulum, ne uagi, clara propago </l>
-             
             <l n="1.168">Ipse tacere uolo, ut te <sic>ninent</sic> ordine pulchro </l>
-             
             <l n="1.169">Cantantes, pia corda tui, clarique parentes </l>
-             
             <l n="1.170">Vtque ligent tenerum corpus complexibus arctis </l>
-             
             <l n="1.171">Paruulus interea fit suges ubera matris. </l>
-             
-            <note place="margin">Poeta applaudit puerulo principi.</note>  
+            <note place="margin">Poeta applaudit puerulo principi.</note>
             <closer>Finis. </closer>
-            </div>
-            <div type="poesis-liber" met="hexameter" n="2">
+         </div>
+         <div type="poesis-liber" met="hexameter" n="2">
             <head>Magistri Ioannis Policarpi Seueritani Sibenicensis Dalmate predicatorii ad illustrem principem Guidobaldum Ruerium Castriduranti comitem, illustrissimi et inuictissimi militie ducis Vrbini Francisci Marie filius, Feretreidos Liber Secundus. </head>
-
             <l n="2.1">Plaudite Thespiades, celebrem uiuacis oliue</l>
-             
             <note place="margin">Inuocat</note>
             <l n="2.2">Ferte ramum, noster curae quibus est honor olim</l>
-             
             <milestone unit="page"/>
             <l n="2.3">Heroum uatumque pius, uos pace serena </l>
-             
             <l n="2.4">Aspirate mihi, diuina poemata uati </l>
-             
             <l n="2.5">Nunc date, nunc quibus hic meritos nunc prolis honores </l>
-             
             <l n="2.6">Numine Pierio referam, quo candida uirtus </l>
-             
-            <note place="margin">Attenuat scriptum.</note>  
+            <note place="margin">Attenuat scriptum.</note>
             <l n="2.7">Quam fuerit puero ducis ex hoc sanguine <sic>craeto</sic>, </l>
-             
             <l n="2.8">Vos precor et Musae uobiscum, namque ego solus, </l>
-             
             <l n="2.9">Credite, deficio et mediis uox faucibus hesit </l>
-             
             <l n="2.10">Vsque huc subticui, in cunis ne paruulus algens </l>
-             
             <l n="2.11">Vagiret ueluti prius, et quia dulcia dantis </l>
-             
             <l n="2.12">Oscula iam suxit genetricis hic ubera, clare </l>
-             
             <l n="2.13">Secum, pauca loquar, puerilibus edita uerbis </l>
-             
             <l n="2.14">Vos quoque conueniam, Musae, mea pectora semper </l>
-             
             <note place="margin">Hortatur Musas ut faueant principi.</note>
             <l n="2.15">Pectora laurigero redolentia quippe liquore </l>
-             
             <l n="2.16">Laudibus hunc celebrate piis, fontesque replete </l>
-             
             <l n="2.17">Cantibus Aoniis, regem ueneramini et olim </l>
-             
             <l n="2.18">Venturum Italiae populis, plaudente senatu </l>
-             
-            <note place="margin">Poetae uaticinium pro puerulo principe.</note>  
+            <note place="margin">Poetae uaticinium pro puerulo principe.</note>
             <l n="2.19">Romano, uiduae hic reparabit moenia Romae </l>
-             
             <l n="2.20">Sacra diu, rerum dominos placabit, et ipsae </l>
-             
             <l n="2.21">Ducite iam choreas Parnasia per iuga uobis </l>
-             
             <l n="2.22">Personat aurata cythara Phoebus, puer atque </l>
-             
             <l n="2.23">Terrarum dominus, non fleuerit, atque ego secum </l>
-             
             <l n="2.24">
                <sic>Etherei</sic> super astra poli audiar ipsae canendo,  </l>
-             
             <l n="2.25">Vos scitis, quod iam multo sudore parata </l>
-             
             <l n="2.26">Virtus spreta iacet, cunctisque repellitur oris</l>
-             
-            <note place="margin">Ratio quare poeta cupit ut principi Muse faueant.</note>   
+            <note place="margin">Ratio quare poeta cupit ut principi Muse faueant.</note>
             <l n="2.27">Nil ualet, heu, dura superrarier ardua montis </l>
-             
             <l n="2.28">Saxa, et supremum crudo sudore cacumen </l>
-             
             <l n="2.29">Proh dolor, heu pietas, proh <corr>tristia</corr> fata deorum </l>
-             
             <l n="2.30">Vatibus omne bonum promittitis atque quietem </l>
-             
-            <milestone unit="page"/> 
+            <milestone unit="page"/>
             <l n="2.31">Veram, sed quid ego dicam, clamoribus implens </l>
-             
             <l n="2.32">Ethera, Tartaries summens et pocula rippis </l>
-             
             <l n="2.33">Spernuntur docti, dites monstrantur ubique </l>
-             
             <l n="2.34">Quanto quisque datur melior, tam peior habetur </l>
-             
             <l n="2.35">Quique datur peior, melior datur ipse nocenti </l>
-             
-            <note place="margin">Poetae sententia.</note>  
+            <note place="margin">Poetae sententia.</note>
             <l n="2.36">Pulpita continue qui implent clamoribus istis </l>
-             
             <l n="2.37">Vestibus est honor, excellens est gloria nummi,  </l>
-             
             <l n="2.38">Precipites fiant, qui nunc contendere cliuum </l>
-             
             <l n="2.39">Aonium cupiunt, nullo solamine grati </l>
-             
-            <note place="margin">Quoniam indocti spernunt doctos.</note>  
+            <note place="margin">Quoniam indocti spernunt doctos.</note>
             <l n="2.40">Per nemora errant hii semper requiemque petentes </l>
-             
             <l n="2.41">Carmine ad astra duces cupiunt extollere et altis </l>
-             
             <l n="2.42">Equant sideribus delusi carmine pulchro, </l>
-             
             <l n="2.43">Antra petunt, damnant postremo tempora lauro </l>
-             
             <l n="2.44">Immo nec minimum quis uatibus obtulit assem </l>
-             
             <l n="2.45">Lurida sit uestis uobis, extollite Olympo </l>
-             
             <l n="2.46">Heroas uestros, ferro belloque potentes, </l>
-             
-            <note place="margin">Poetarum miseria.</note>   
+            <note place="margin">Poetarum miseria.</note>
             <l n="2.47">Sit mihi pulchra Venus, sint nati, nulla Mineruae </l>
-             
             <l n="2.48">Gaudia sint nobis, Iuno sed clara Tonantis </l>
-             
             <l n="2.49">Et soror et coniunx faueat, quia sepe solebunt </l>
-             
-            <note place="margin">Indoctorum dulcis uoluptas.</note>  
+            <note place="margin">Indoctorum dulcis uoluptas.</note>
             <l n="2.50">Atria pontificum et regum perpulchra uideri,</l>
-             
-            <note place="margin">Diuitiarum laus.</note>  
+            <note place="margin">Diuitiarum laus.</note>
             <l n="2.51">Vera loquor uates uobis, qui ponere ad astra </l>
-             
             <l n="2.52">Tecta uirum cupitis, mortalibus apta feretris </l>
-             
             <l n="2.53">Diuicias fatui spernunt, et panis egentes </l>
-             
-            <note place="margin">Male spernuntur opes.</note>  
+            <note place="margin">Male spernuntur opes.</note>
             <l n="2.54">Vndique mendicant spreti, strata aurea luctu </l>
-             
             <l n="2.55">Mirantur, fului orbati custodibus auri, </l>
-             
             <l n="2.56">Quare querite delitias animi impia et antra </l>
-             
             <l n="2.57">Spernite Parnasi lauros, nil panis egenti, </l>
-             
             <l n="2.58">Credite, nil prodest, pauper fuit ipsus Homerus.</l>
-             
-            <note place="margin">Irrisio poetarum et doctorum hominum.</note>  
+            <note place="margin">Irrisio poetarum et doctorum hominum.</note>
             <milestone unit="page"/>
             <l n="2.59">Mendicant uates, mendicat tristis ubique. </l>
-             
             <l n="2.60">Pauper <corr>erat</corr> Maro, ueh. Gelidis datur ipse Thomitis </l>
-             
             <note place="margin">Maro.</note>
             <l n="2.61">Naso tuus pauper, superas euectus ad auras </l>
-             
-            <note place="margin">Ouidius.</note> 
+            <note place="margin">Ouidius.</note>
             <l n="2.62">Carminibus mulcere suos qui sepe solebat 	</l>
-             
             <l n="2.63">Reges atque duces, sceleris damnatus ab ipsis </l>
-             
             <l n="2.64">Occidit et nitidis se tandem condidit astris.  </l>
-             
             <note place="margin">Ouidii mors.</note>
             <l n="2.65">Quid dedit olim, dic mihi, docta Verona Catullo, </l>
-             
             <note place="margin">Catullus</note>
             <l n="2.66">Quidue suo tribuit Tybullo Roma superba, </l>
-             
             <note place="margin">Tybullus.</note>
             <l n="2.67">Tristis Aquinas lassabat sua brachia planctu </l>
-             
             <note place="margin">Iuuenalis.</note>
             <l n="2.68">Pauperie pressus, latis <sic>Meuania</sic> campis </l>
-             
             <l n="2.69">Nil prodest uati proprio, quondam tibi coce </l>
-             
             <l n="2.70">Domicianus erat Cesar, deceptor amicus, </l>
-             
             <note place="margin">Marcialis.</note>
             <l n="2.71">Et Plauto humebant oculi lachrimis sibi namque</l>
-             
-            <note place="margin">Plautus.</note> 
+            <note place="margin">Plautus.</note>
             <l n="2.72">Noxia tunc uirtus uitam panemque parabat </l>
-             
             <l n="2.73">Mola per assiduas noctes et pectora lassans </l>
-             
             <l n="2.74">Lux erat, heu clamans, uirtus ubi, laurea uirtus,  </l>
-             
             <note place="margin">Omnes poetae pauperes.</note>
             <l n="2.75">Serta tibi prosunt, quare contendite uates, </l>
-             
             <l n="2.76">Spernere Castalios fontes, et amena uireta </l>
-             
             <l n="2.77">Parnasi montis, quia dypsis illa uirescunt,  </l>
-             
             <l n="2.78">Postremo referam, quod nunc pro carmine uobis </l>
-             
             <l n="2.79">Mecenates non sunt, non datur amplius ille </l>
-             
             <l n="2.80">Augustus Cesar, qui clara poemata sanxit, </l>
-             
             <note place="margin">Laus olim Augusti et Mecenatis.</note>
             <l n="2.81">Dixit uera quidem, quamuis sint ore prophano </l>
-             
             <l n="2.82">A felicone uiro uerba impia uatibus aucta </l>
-             
             <note place="margin">Poete dolor propter conuicia quae mali bonis inferunt.</note>
             <l n="2.83">Iam pridem memini superans ego munera uestra, </l>
-             
             <l n="2.84">Purpureos penetrare lares, regumque ducumque </l>
-             
             <l n="2.85">Atria quum magno curarum fluctuat estu </l>
-             
             <l n="2.86">Mens mea, sepe fui blandus pro laudibus istis, </l>
-             
             <milestone unit="page"/>
             <l n="2.87">Carminis auspicio exclamans succurrite uati,  </l>
-             
             <l n="2.88">Viuere namque decet, delusus deinde recessi </l>
-             
             <l n="2.89">Qua de re <sic>exurio</sic> miser horum interque clyentes </l>
-             
             <l n="2.90">Atque etiam uilles offas micasque cadentes </l>
-             
             <l n="2.91">E mensa exciperem, ut faciunt pleno ore catelli </l>
-             
             <note place="margin">Magna poetarum calamitas.</note>
             <l n="2.92">Edibus in mediis uatum est dolor, hei mihi, quare </l>
-             
             <l n="2.93">Credite, credite, Pierides, ego uera fatebor </l>
-             
             <l n="2.94">Maior amor numi est nunc, quam uirtutis ubique,</l>
-             
-            <note place="margin">Poetae pulchra sententia contra auaros.</note> 
+            <note place="margin">Poetae pulchra sententia contra auaros.</note>
             <l n="2.95">Carmina nulla placent, non sunt nunc tempora prisca, </l>
-             
             <l n="2.96">Non sunt Romani proceres, quorum omine uel nil </l>
-             
             <l n="2.97">Imperium fuerat, nisi sola poemata uatum </l>
-             
             <l n="2.98">Scipiades fertur statuam imposuisse sepulchro </l>
-             
             <l n="2.99">Quippe suo uatis Rhodii qua uiuere posset </l>
-             
             <l n="2.100">Ditauit Caesar uates, ditabat et ille </l>
-             
             <l n="2.101">Maecenas, fautor miserum Flaccum atque Maronem </l>
-             
             <l n="2.102">Fouerat, unde sibi decus, is dux omne parauit </l>
-             
             <l n="2.103">Maecenas, Mecenas, uos memorate, poete, hoc </l>
-             
             <l n="2.104">Nomen ad astra ducis, cuius tegat ossa Minerua </l>
-             
             <l n="2.105">Cum casia, et cineres sibi uiuant omne per euum, </l>
-             
             <note place="margin">Principes ut fiant immortales debent fauere uirtuti.</note>
             <l n="2.106">Carmine uiuebant clari uates prius, at nunc </l>
-             
             <l n="2.107">Ingenio Musae, mihi credite, gratia nulla est, </l>
-             
             <l n="2.108">Quare opplere licet lachrimis multisque querellis </l>
-             
             <l n="2.109">Aonios colles, tanto magis, heu, quia nulla </l>
-             
             <l n="2.110">Viua meos unquam est uirtus miserata labores, </l>
-             
             <l n="2.111">Est peius quod nunc miseros, nunc impia corda </l>
-             
             <l n="2.112">Dilaniant uates tedio uirtutis amice, </l>
-             
             <note place="margin">Prius poete praemiabantur, nunc non.</note>
             <l n="2.113">Castalides mea cura quidem nam sola maligno </l>
-             
             <l n="2.114">Heu delatorii, hoc animosa superbia surgit </l>
-             
             <milestone unit="page"/>
             <l n="2.115">Heu, heu, cuius quum poterit uirtute uideri </l>
-             
             <l n="2.116">Haud bonus, haud doctus spernendo sidera tangit </l>
-             
             <l n="2.117">Improba lingua bonos famae exitialis amore </l>
-             
             <l n="2.118">Alterius dono aut odio corruptus, et inde </l>
-             
             <l n="2.119">Assumunt fatui famam per fasque nefasque </l>
-             
             <l n="2.120">O mundi impietas sceleratis dulce uenenum </l>
-             
             <l n="2.121">Carpere famam hominum, quae nunc sine crimine possunt </l>
-             
             <l n="2.122">Expleri illicitum est homini fraterna necare </l>
-             
             <note place="margin">Quam sit impium carpere aliorum famam.</note>
             <l n="2.123">Viscera delator, tibi dum uis laude superba </l>
-             
             <l n="2.124">Querere pre insanos uite presentis honores </l>
-             
             <l n="2.125">An nescis quod nolunt haec te sancta Tonantis </l>
-             
             <l n="2.126">Iussa dei facere, ut ueterum de more parentum </l>
-             
             <note place="margin">Deus non uult quod mali noceant bonis.</note>
             <l n="2.127">Insanus fias, namque est deiecta polorum </l>
-             
             <l n="2.128">Vertice et a summo olim dira superbia crede </l>
-             
             <l n="2.129">Displicet hoc uitium superis atque omnibus his qui </l>
-             
             <note place="margin">Quare superbi non placent deo.</note>
             <l n="2.130">Nolunt pestifero comitari turbine ad umbras </l>
-             
             <l n="2.131">Tartareas, uel uanos ambitione parari </l>
-             
             <l n="2.132">Fastus calle sibi illicito, uel pegmata celsa </l>
-             
             <note place="margin">Que pena est malorum quando nocent bonis.</note>
             <l n="2.133">Constitui in laudem hec hominum, mala praemia sunt hec, </l>
-             
             <l n="2.134">Hoc fit ab illis qui nunquam parere Tonantis </l>
-             
             <l n="2.135">Preceptis uoluere piis, quos nulla remordet </l>
-             
             <l n="2.136">Cura uel hoc uitium, sceleris iactantia tanti </l>
-             
             <l n="2.137">Te ipsum excrutias et tu tua pectora rodis </l>
-             
             <l n="2.138">Prosperitate gemens fratris teque acriter angens </l>
-             
             <l n="2.139">Ira tibi causa est, qua exoptas crimina nosce, </l>
-             
             <l n="2.140">Falsa tui socii, quibus huic maledicere possis</l>
-             
             <l n="2.141">Corde uel ore tuo uindictam queris et optas </l>
-             
             <l n="2.142">Scandala quod ueniant, quae sunt odiosa Tonanti </l>
-             
             <milestone unit="page"/>
             <l n="2.143">Summo, detractor comitis, mihi crede, susurro </l>
-             
             <l n="2.144">Haec scio cur fiunt, quia dexteritate malorum </l>
-             
             <l n="2.145">Torpens appetis illicita et tibi praua retentas, </l>
-             
             <l n="2.146">Praua per assiduos mores, et crimina laudans</l>
-             
             <l n="2.147">Proditor ipse tui, uatum bonitatis et expers </l>
-             
             <note place="margin">Mores malorum hominum.</note>
             <l n="2.148">Qui fugiunt male sana uirum consortia semper </l>
-             
             <l n="2.149">Fedam qui <corr>ingluuiem</corr> uentris nouere nec unquam </l>
-             
             <l n="2.150">Assiduis curis studiorum dicere fas sit </l>
-             
             <l n="2.151">Non hii luxuriam cupiunt, non carmina amorum </l>
-             
             <l n="2.152">Nec uates soluunt per turpia uerba pudorem </l>
-             
             <l n="2.153">Nam decet esse pios, casios decet, atque poetas </l>
-             
             <l n="2.154">Spernere quae exoptat semper uesana libido, </l>
-             
             <note place="margin">Mores optimi poetae.</note>
             <l n="2.155">Hi sed quando datur, quod scribant turpia uerba </l>
-             
             <note place="margin">Quare poete scribunt quandoque turpia.</note>
             <l n="2.156">Hoc fit, quod caute carpunt mala tempora uite, </l>
-             
             <l n="2.157">Ergo inuerte tuam trutinam miserabilis auceps </l>
-             
             <l n="2.158">Virtutis dum fuluo te nimis implicat auro </l>
-             
             <l n="2.159">Ambitione fera uitae male sana libido </l>
-             
             <note place="margin">Finis malorum.</note>
             <l n="2.160">Quod nisi tu facies, fies decliuis ad ipsos </l>
-             
             <l n="2.161">Manes praecipiti tendens in Tartara cursu, </l>
-             
             <l n="2.162">Nescio si uagor incassum, dixi hec tibi namque </l>
-             
             <l n="2.163">Pierides uoluere mee quod talia dicam, </l>
-             
             <l n="2.164">Pierides mea corda quidem, mea summa uoluptas, </l>
-             
             <l n="2.165">Quas ego tollere ad astra uolo, nunc teque relicto </l>
-             
             <l n="2.166">Conueniam puero faueant per Nestoris annos, </l>
-             
             <l n="2.167">Ite cite, caste, et meritos date semper honores</l>
-             
             <l n="2.168">Huic puero, ne uera loquatur bardulus atrox </l>
-             
             <l n="2.169">Verbula, que audistis, nunc, nunc ex ordine longo </l>
-             
             <l n="2.170">Soluite nunc tristes furue caliginis umbras,</l>
-             
             <milestone unit="page"/>
             <l n="2.171">Mentibus <sic>efatuis</sic> ostendite quod pia uirtus </l>
-             
             <l n="2.172">Tollit ad astra uiros permittens culmen et altum </l>
-             
             <l n="2.173">Celorum dat, quodque hec inclyta premia diuum </l>
-             
             <l n="2.174">Non sunt, o mea cura dee, o mea magna uoluptas,</l>
-             
-            <note place="margin">Finis bonorum.</note> 
+            <note place="margin">Finis bonorum.</note>
             <l n="2.175">Absint pro puero diuturna silentia uobis,  </l>
-             
             <l n="2.176">Ite cite ad superos et dicite clara Tonanti </l>
-             
             <l n="2.177">Verba, quod et uenit nunc nunc <corr>crinitus</corr> Apollo </l>
-             
             <l n="2.178">Vrbinum perfusurus pia membra puelli </l>
-             
             <l n="2.179">Rore sacro, in quo sint sibi fata per hemina mentis </l>
-             
             <note place="margin">Progressus Musarum ad Iouem, ut descendat perfundere puerum principem rore sacro.</note>
             <l n="2.180">Virtutisque pie, qua uos puer inclytus ornet </l>
-             
             <l n="2.181">Ipseque dignetur nostros celebrare penates </l>
-             
             <l n="2.182">Cantando interea defessus, labra liquore </l>
-             
             <l n="2.183">Ipse ego perfundam Aonio, uos ipse manebo </l>
-             
             <l n="2.184">Nec tangam cythare crepitantis pollice cordas, </l>
-             
             <l n="2.185">Vos nisi cum uates uenientes ordine pulchro </l>
-             
             <l n="2.186">Viderit atque ducis coronantes aurea tecta </l>
-             
             <l n="2.187">Aduentu superum, subitoque talibus ausis </l>
-             
             <l n="2.188">Discedunt uatemque suum tacite inde relinquunt. </l>
-             
             <closer>Finis </closer>
-            </div>
-            
+         </div>
          <milestone unit="page"/>
-            <div type="poesis-liber" met="hexameter" n="3">
+         <div type="poesis-liber" met="hexameter" n="3">
             <head>Magistri Ioannis Policarpi Seueritani Sibenicensis Dalmate predicatorii ad illustrem Guidobaldum Castriduranti comitem, illustrissimi et inuictissimi militie Ducis Vrbini Francisci Marie filium, Feretreidos Liber Tertius. </head>
-
             <l n="3.1">Talia secretus quum nostra mente refferem, </l>
-             
             <l n="3.2">Continuo sese nostris pulcherrima uisu </l>
-             
             <l n="3.3">Obtulit hic oculis uenerando et pectore uirgo, </l>
-             
             <l n="3.4">Virgo ignota tamen speculor quam talibus atque </l>
-             
             <l n="3.5">Alloquor haec eminus tardis se passibus offert   </l>
-             
             <l n="3.6">Quis petit Aonios colles, quis hec hostia pulsat,   </l>
-             
             <l n="3.7">Laurigerae rupis facies mihi cognita cuius </l>
-             
             <l n="3.8">Mox fuit et cominus sibi pauca referrem, 	      </l>
-             
             <l n="3.9">Fert animus, uirgo, decus et spes unica nostrum, </l>
-             
             <l n="3.10">Euterpe ueneranda mihi delecta sororum, </l>
-             
             <l n="3.11">Venisti tandem celorum cardine ab alto, </l>
-             
             <l n="3.12">Sola es, dic ubi sunt mihi cetera turba dearum </l>
-             
             <l n="3.13">Nonne cito venient, que nobis talibus insit. </l>
-             
             <l n="3.14">"O uates venerande mihi sunt ad Iouis alta </l>
-             
             <l n="3.15">Tecta dei, uenient cito." Cui sic ipse repono, </l>
-             
             <l n="3.16">Meonio celebranda diu clarissima uirgo, </l>
-             
             <l n="3.17">Vera refer nobis quibus es comes atque fuisti,   </l>
-             
             <milestone unit="page"/>
             <l n="3.18">Quid fecere mee, mea dulcis cura, sorores, </l>
-             
             <l n="3.19">Ad superos dic, Musa, precordia omine sancto, </l>
-             
             <l n="3.20">Principe pro nostro, uenietne huc summus ab alto </l>
-             
             <l n="3.21">Iuppiter omnipotens celo, que talia soluit.  </l>
-             
             <l n="3.22">Iuppiter omnipotens celo descendet ab alto </l>
-             
             <note place="margin">Euterpe ad poetam.</note>
             <l n="3.23">Rore leui et puerum perfundet fronte serena </l>
-             
             <l n="3.24">Ipse deus, deus hic magni moderator Olympi </l>
-             
             <l n="3.25">Virgine apelleida natus quem lege superna </l>
-             
             <l n="3.26">Praebuit ut mundo, nullo temerata pudore    </l>
-             
             <l n="3.27">Virgo dei genitrix, uirgo sanctissima uirgo, </l>
-             
             <note place="margin">Cuius fuerat uirgo Maria.</note>
             <l n="3.28">Ipse cito ueniet care genitricis amore </l>
-             
             <l n="3.29">Quae Leonora sibi placuit, nam mente pudica </l>
-             
-            <note place="margin"> Leonorae pudicitia, coniugis ducis. </note> 
+            <note place="margin"> Leonorae pudicitia, coniugis ducis. </note>
             <l n="3.30">Nati huius genitrix uidit quoque ture Sabeo </l>
-             
             <l n="3.31">Libauit superis uenerans pia templa deorum, </l>
-             
             <l n="3.32">Sola ego nunc ueni, ut referam tibi quod cito celsus, </l>
-             
             <l n="3.33">Celsus ab aethereo ueniet deus ordine diuum </l>
-             
             <l n="3.34">Vltima spes mundi huius duratura per aeuum </l>
-             
             <l n="3.35">Principio uel fine carens uel tempora nulla </l>
-             
             <l n="3.36">Noscens descendat magna comitante caterua </l>
-             
             <l n="3.37">Sit tibi parata lyra aurata, hanc ut pectine eburno </l>
-             
             <l n="3.38">Percutias, uates, quum uenerit ille salutis </l>
-             
             <note place="margin">Hortatio Muse ut poeta letetur aduentu Iouis pro principe baptizando.</note>
             <l n="3.39">Auctor et ipse deus sine quo nil uiuit in orbe </l>
-             
             <l n="3.40">Quumque tibi dicam, solers tunc sume canoram </l>
-             
             <l n="3.41">Sume chelym, uates, cantans ad sydera tecum </l>
-             
             <l n="3.42">Intonsum tibi mox Phebum dulcesque sorores </l>
-             
             <note place="margin">Phoebus intonsus.</note>
             <l n="3.43">Principi ut applaudant, diuino carmine uatum </l>
-             
             <l n="3.44">Ipse uoca Tyrio tu tunc e murice tinctus </l>
-             
             <l n="3.45">Et quia te scio me petiturum quid sit in illis, </l>
-             
             <milestone unit="page"/>
             <l n="3.46">Oris egregium dicam quod nulla referre </l>
-             
             <l n="3.47">Lingua potest, quam sint celorum gaudia magna </l>
-             
             <l n="3.48">Que deus eternum dedit his qui corde benigno </l>
-             
             <note place="margin">Apud Caelicolas nulla tristitia est.</note>
             <l n="3.49">Assidue seruant sacrae precepta salutis, </l>
-             
             <l n="3.50">An credis quod ibi reptat uesana libido </l>
-             
             <l n="3.51">Mortalis uite, non sed discrimine magno </l>
-             
             <l n="3.52">Inter se contendunt diuum numina et huius </l>
-             
             <l n="3.53">Ingluuies lucis mentisque hebetudo proterue </l>
-             
             <l n="3.54">Subiacet hic mundus peregrinis rebus, et omne </l>
-             
             <l n="3.55">Quod domitat Phebus radiis, soror atque Diana</l>
-             
             <note place="margin">Natura huius mundi.</note>
             <l n="3.56">Permanet inconstans tandem finemque reponit, </l>
-             
             <l n="3.57">Causa huius datur haec, tempus namque omnia uergit </l>
-             
             <l n="3.58">Aut credis quod ibi sint ditis numina nigri </l>
-             
             <l n="3.59">Aut sit Tartareis tellus decorata uenenis, </l>
-             
             <l n="3.60">Dira uel horriferis ornata haec terra figuris, </l>
-             
             <l n="3.61">Regio quippe micans flammis et sulphure feta </l>
-             
             <l n="3.62">Horridus hic premeris semper dolorose Typhea </l>
-             
-            <note place="margin">Inferorum misera conditio.</note>   
+            <note place="margin">Inferorum misera conditio.</note>
             <l n="3.63">Encelademque suum uoluit furibunda cathenis </l>
-             
             <l n="3.64">Etna diu ex se queque uomens ardentia saxa </l>
-             
             <l n="3.65">Gerionem quatit heu spumantem e guture flammas </l>
-             
             <l n="3.66">Qui Phlegetonteis summunt et pocula ripis 		</l>
-             
             <l n="3.67">Hinc ut perpetuis implent clamoribus orbem 		</l>
-             
             <l n="3.68">Eumenides seue quibus est committere leto </l>
-             
             <l n="3.69">Cura uiros, qui non seruarunt iussa Tonantis, </l>
-             
             <l n="3.70">Hic est Sulmoneus, terre hic Titania pubes, </l>
-             
             <l n="3.71">Hic sunt Aloydes et Tycion cui uultur obunco </l>
-             
             <l n="3.72">Euorat immortale iecur rostro isque sub alto </l>
-             
             <l n="3.73">Pectore se firmat semper cui nulli renatis </l>
-             
             <milestone unit="page"/>
             <l n="3.74">Est fibris requies, Medee est atque impia sortes</l>
-             
             <l n="3.75">Sulphureos fontes fedans atque horrida prata </l>
-             
             <l n="3.76">Hic sunt et Iaphyte infandi Tytion, et Pyrithous </l>
-             
             <l n="3.77">Infoelix Theseus districtus pendet in istis </l>
-             
             <l n="3.78">Sulphureis terris, Phlegiasque miserrimus hic est, </l>
-             
             <l n="3.79">Sysiphus et uasti uoluens onus, hei mihi, saxi </l>
-             
-            <l n="3.80">Expectat scelerum penas formidine <sic>mirra</sic> 
+            <l n="3.80">Expectat scelerum penas formidine <sic>mirra</sic>
             </l>
-             
             <l n="3.81">Lastenes et Curio, Cynaras est atque Thyestes </l>
-             
             <l n="3.82">Qui hic flendo ducunt uitam, per aquosa nocentum</l>
-             
             <l n="3.83">Nubila clamantes, fugiunt hic sidera nostrum </l>
-             
             <l n="3.84">Aspectum miseros hument in flumine flamme </l>
-             
             <l n="3.85">Exurunt nos, et tu, Tantale, false minister </l>
-             
             <l n="3.86">Deridens superos merito stas ordine in isto. </l>
-             
             <l n="3.87">Hic sunt qui in uanum diuinum sumere nomen </l>
-             
             <note place="margin">Transgressio decem praeceptorum.</note>
             <note place="margin">Non assumes nomen dei in uanum.</note>
             <l n="3.88">Audent et faciunt sanctis seruille diebus, </l>
-             
             <note place="margin">Sabbatum obserua.</note>
             <l n="3.89">Quique pios nullo uenerantur honore parentes </l>
-             
             <note place="margin">Parentes honora.</note>
             <l n="3.90">Et nece qui saeua cui uulnera quique patenter </l>
-             
             <note place="margin">Non occides.</note>
             <l n="3.91">Nititur inuetitum stupro uiolare pudicas </l>
-             
             <l n="3.92">Vxores quocumque modo, uel praua cupido </l>
-             
             <l n="3.93">Infestat quemque faciens damnum ore manuque </l>
-             
             <l n="3.94">Si quis erit mendax aut seditiosus ad umbras </l>
-             
             <l n="3.95">Atque ibi incurrens laudis mala premia uane </l>
-             
             <note place="margin">Non sis mendax.</note>
             <l n="3.96">Prosperitate gemens fratris seque acriter urgens, </l>
-             
             <l n="3.97">Ira furor breuis at cui talia mente reuoluat </l>
-             
             <l n="3.98">Ne incidat in tenebras torpens aurique minister </l>
-             
             <l n="3.99">Hec loca nunc caueat, semper te et proxima Syrte </l>
-             
             <l n="3.100">Ingluuies uentris nulli laudabilis unquam </l>
-             
             <l n="3.101">Perpetuo damnant uates, qui celsa Tonantis </l>
-             
             <milestone unit="page"/>
             <l n="3.102">Tecta uolunt habitare diu et post sidera clara </l>
-             
             <l n="3.103">Cernere, quique malum temnunt te, parue Cupido. </l>
-             
             <l n="3.104">Cerberus hic latrans uasteque uoraginis auceps </l>
-             
-            <note place="margin">Cerberus</note> 
+            <note place="margin">Cerberus</note>
             <l n="3.105">Irruit in miserum secli qui captus amore </l>
-             
             <l n="3.106">Dulcibus in uiciis monstrauit seque suosque, </l>
-             
             <l n="3.107">Est uia Tartarei que fert Phlegetontis ad undas </l>
-             
             <l n="3.108">Obscenas squallore Charon qua ducit inertes </l>
-             
             <l n="3.109">Terribilis uisus quibus aut auditus ubique </l>
-             
             <l n="3.110">Extitit in peius, quam conditor ille supernus </l>
-             
             <l n="3.111">His dederit, ne quando animi uiciatus odore </l>
-             
             <note place="margin">Quinque sensus corporis et animi.</note>
             <l n="3.112">Iucundo pauper sis preceps, hei mihi, semper </l>
-             
             <l n="3.113">Ne dicas nec sit tactu irritata libido, </l>
-             
             <l n="3.114">Iudicio extremo quondam exquirenda Tonantis </l>
-             
             <l n="3.115">Certe pauperibus tibi fiant atque pusillis </l>
-             
             <l n="3.116">Septem opera et noscas stimulos sufferre nocentum, </l>
-             
-            <note place="margin">Septem opera pietatis.</note> 
+            <note place="margin">Septem opera pietatis.</note>
             <l n="3.117">Disce diu, mi Vates, longa et tempora uita </l>
-             
             <l n="3.118">Que pia discussi uero atque examine mentem </l>
-             
             <l n="3.119">Inspice ut eternam fugias per secula mortem, </l>
-             
             <l n="3.120">Hec tibi non seruat celsi moderator Olympi </l>
-             
             <l n="3.121">Iuppiter ipse deus, cuius moderamine cuncta </l>
-             
             <l n="3.122">Torquentur semper, terre, mare, pontus et astra, </l>
-             
             <l n="3.123">Hic ubi nos fuimus diuos, sedesque beatas </l>
-             
             <l n="3.124">Vidimus heroas generoso et pectore uates, </l>
-             
-            <note place="margin">Elysiorum gaudia.</note> 
+            <note place="margin">Elysiorum gaudia.</note>
             <l n="3.125">Qui Musas semper coluerunt carmine pulchro,</l>
-             
             <l n="3.126">Vite horum datur egregium per secula nomen, </l>
-             
             <l n="3.127">Perpetuum columen latique in secula fines, </l>
-             
             <l n="3.128">Magna salus, magnum decus his et gloria magna </l>
-             
-            <note place="margin">Poetae clari sunt apud deum.</note> 
+            <note place="margin">Poetae clari sunt apud deum.</note>
             <l n="3.129">Perpetuo durant, est atque salutifer annus, </l>
-             
             <milestone unit="page"/>
             <l n="3.130">Eternum uer, maturos ibi tempora fructus </l>
-             
             <l n="3.131">Condensant superis, uiridantia gramina sunt hic </l>
-             
             <l n="3.132">In quibus exercent ludos, ubi fraude remota </l>
-             
             <l n="3.133">Quisque suo gaudet, nec sunt hic tristia bella </l>
-             
             <l n="3.134">Nec funesta dies, uiridi cum palmite uites </l>
-             
             <l n="3.135">Dulce affert mulsum, sudant opobalsama semper </l>
-             
             <l n="3.136">Hic salices lente sunt hic, noua nascitur alnus, </l>
-             
             <l n="3.137">Sunt liquidi fontes, sunt et Panchayca rura, </l>
-             
             <l n="3.138">Sunt uolucres patulis cantantes carmina ramis </l>
-             
             <l n="3.139">Dulcia per uarios <sic>mirre</sic> resonantia cantus, </l>
-             
             <l n="3.140">Libera simplicitas, nullis obnoxia curis, </l>
-             
             <l n="3.141">Dirigit heroas plaudentes uocibus altis,  </l>
-             
             <l n="3.142">His dulcis requies, his est et pura uoluptas,</l>
-             
             <l n="3.143">Hos quoque sine fine manet gratissima Tempe </l>
-             
             <l n="3.144">Lucidaque ethereo Phoebe splendescere mundo </l>
-             
             <l n="3.145">Cernitur et Phoebus luco residere uirenti </l>
-             
             <l n="3.146">Exoptans fulget semper saltante chorea </l>
-             
             <l n="3.147">Naiadum cetu sapiens quibus Orpheus ille </l>
-             
             <l n="3.148">Personat aurata cythara cum pectine eburno, </l>
-             
             <l n="3.149">Et satyri Driadesque suum peana canentes </l>
-             
             <l n="3.150">Applaudunt superis. Quis hoc esse beatior euo </l>
-             
             <l n="3.151">Concupiet, nullus uicturus tempora longa. </l>
-             
             <l n="3.152">Omnibus his diuis summi moderator Olympi </l>
-             
             <l n="3.153">Presidet in solio fulgens trabeatus et auro, </l>
-             
             <l n="3.154">Crisolito atque aliis gemmis clarisque lapillis, </l>
-             
             <l n="3.155">Qualis erat tandem quem dixit conditur almus, </l>
-             
             <l n="3.156">Lingua hominum narrare nequit, nec candida uultu </l>
-             
-            <note place="margin">Nemo unquam potuit narrare innumera gaudia paradisi.</note> 
+            <note place="margin">Nemo unquam potuit narrare innumera gaudia paradisi.</note>
             <l n="3.157">Clyo gesta canens, aut Vrania superba </l>
-             
             <milestone unit="page"/>
             <l n="3.158">Nec lauro redimita comasque Polimnia, necnon </l>
-             
             <l n="3.159">Caetera turba deum generoso carmine possent </l>
-             
             <l n="3.160">Dicere quot superi sint, quot sint sidera coelo, </l>
-             
             <l n="3.161">Qualia templa nitent, que sint hic turba ministrum </l>
-             
             <l n="3.162">Attalicis opibus, quot sint aut atria pulchra </l>
-             
             <l n="3.163">Pestano uiole quot sunt et cana colono </l>
-             
             <l n="3.164">Lilia, Phidiacis latio de marmore splendor </l>
-             
             <l n="3.165">Qualis uel niteat. Sunt hic Iouis ora sereni, </l>
-             
             <l n="3.166">Hic fuimus nos, nos, tua dulcis cura, sorores </l>
-             
             <l n="3.167">Quae postquam uenerunt ad Iouis atria celsa </l>
-             
             <l n="3.168">Prona humi prostrata iacens formidine magna </l>
-             
             <l n="3.169">Nobiscum paulum respirans talia cepit </l>
-             
             <l n="3.170">Dicere Calliope constanti uerbula corde, </l>
-             
-            <note place="margin">Oratio Caliopes ad Iouem.</note> 
+            <note place="margin">Oratio Caliopes ad Iouem.</note>
             <l n="3.171">Rex optate tuis Musis, nos uenimus ad te, </l>
-             
             <l n="3.172">Omnia quae dicam Charitum tibi nomine tradam, </l>
-             
             <l n="3.173">Summe deus, qui cuncta potes, qui cuncta gubernas, </l>
-             
             <l n="3.174">Exaudi, refoue auspiciis et mente serena </l>
-             
             <l n="3.175">Concipe, tu scis, summe deus, probitatis et alte </l>
-             
             <l n="3.176">Fons sacer eximiae uirtutis spesque salusque, </l>
-             
             <l n="3.177">Venisti ad nos, ut pulchra sub imagine nobis </l>
-             
             <l n="3.178">Ostensus miseris uirtute et uiribus et nos </l>
-             
             <l n="3.179">Exornes superum quibus est celestis origo </l>
-             
             <l n="3.180">Exolue hiis inuicte malis Parnasia laurus </l>
-             
             <l n="3.181">Sicca iacet, poterit nullo se rore foueri, </l>
-             
             <l n="3.182">Namque Helyconis honos periit sitientibus hortis </l>
-             
             <l n="3.183">Ad quos nulla potest secure pergere Musa, </l>
-             
             <l n="3.184">Irruit in mortem omne genus, nec mixta uerendo </l>
-             
             <l n="3.185">Imperio uatum stat gratia, nulla Quiritum </l>
-             
             <milestone unit="page"/>
             <l n="3.186">Gloria prisca datur nobis, sunt arma tubaeque </l>
-             
             <l n="3.187">Que nos infestant, durum genus atque ferarum </l>
-             
             <l n="3.188">Rupibus in uastis degens, qui castra secuntur. </l>
-             
             <l n="3.189">Hi sunt nunc homines, pietas quibus ulla nec hinc est </l>
-             
             <l n="3.190">Nec datur ulla fides, miserum spes ultima uite, </l>
-             
             <l n="3.191">Non est casta domus, non sunt hic atria nobis </l>
-             
             <l n="3.192">Hospita uirtutis, Musarum gloria quondam </l>
-             
             <l n="3.193">Non nisi pulchra Venus tetris ueneratur in oris, </l>
-             
             <l n="3.194">Nulla tibi laus est, offert nec tura Sabea </l>
-             
             <l n="3.195">Gens ingrata deo, nullus uel carminis usus </l>
-             
             <l n="3.196">Stat superis, quare uasti te preside mundi </l>
-             
             <l n="3.197">Conditor, expetimus fiat quod turba sororum </l>
-             
             <l n="3.198">Exoptat, natus nobis est aurea proles </l>
-             
             <l n="3.199">Francisci Mariae ducis, ut scis, filius almus, </l>
-             
             <l n="3.200">Fonte sacro puerum perfundas, conditor ingens, </l>
-             
             <l n="3.201">Pensaque parcarum durent sibi tempora longa, </l>
-             
             <l n="3.202">Vt fiat uirtutis honos et crimina rerum </l>
-             
             <l n="3.203">Irrita perpetuo expellat casusque nocentes </l>
-             
             <l n="3.204">Auertat nobis, pacemque imponere rebus </l>
-             
             <l n="3.205">Vtque diu possit te tollens semper ad astra. </l>
-             
             <l n="3.206">Annuit his dictis superum pater et cito diuos </l>
-             
             <l n="3.207">Conciliumque uocat quibus ille ex ordine cuncta </l>
-             
             <l n="3.208">Narrat et exiguo claros in secla tryumphos </l>
-             
             <l n="3.209">Tempore turba deum parat. Ergo dulcia rura </l>
-             
             <l n="3.210">Vrbine gentis petat illuc qui tua seruat </l>
-             
             <l n="3.211">Limina, Mercurius, narret quod Iuppiter alto </l>
-             
             <l n="3.212">Descendet celo uenturus ad atria diui </l>
-             
             <l n="3.213">Francisci Mariae narret cui quae tibi dixi. </l>
-             
             <milestone unit="page"/>
             <l n="3.214">Et si dixerit, ignoro loca, tu sibi serto </l>
-             
             <l n="3.215">Vrbine pulchram uallem mirabere gentis </l>
-             
             <l n="3.216">Colliculis cui culta iacent predulcia prata, </l>
-             
             <l n="3.217">Adsunt frugiferi surgentes undique montes, </l>
-             
             <l n="3.218">Flumina non desunt sibi sunt atque oppida plura, </l>
-             
             <l n="3.219">Vrbinum urbs inter pulchros sit consita montes, </l>
-             
             <l n="3.220">Vt quam uel riui non magno murmure mulcent </l>
-             
             <l n="3.221">Exiguis undis, liquidis tamen, unde poetae </l>
-             
             <l n="3.222">Vrbanos mores et munera pulchra deorum </l>
-             
             <l n="3.223">Carminibus placant, armis cultuque uetustas </l>
-             
             <l n="3.224">Quem decorat diuum, mulierum forma pudica </l>
-             
             <l n="3.225">Nunquam questa uiri reditus subtollit ad astra.  </l>
-             
             <l n="3.226">Illuc Mercurius directo uel pede tendat </l>
-             
             <l n="3.227">Conueniens pia tecta ducis cui talia dicat: </l>
-             
             <l n="3.228">Felicem cui uita dedit spectare coruscum </l>
-             
             <l n="3.229">Sidereumque ducem, qui nunc tua tecta uidere </l>
-             
             <l n="3.230">Accelerat diuum multa comitante caterua, </l>
-             
             <l n="3.231">Vt puto filiolum perfundet rore sereno. </l>
-             
             <l n="3.232">Talia cum ferret secum dux inclytus intra </l>
-             
             <l n="3.233">Pluria mente sua uoluebat temporis usu, </l>
-             
             <l n="3.234">Musa cui dixit uenerando e pectore: Princeps, </l>
-             
             <l n="3.235">Quid dubitas princeps? Opus est nunc uiribus atque </l>
-             
             <l n="3.236">Ingenio. Cilices domuisti pectore forti </l>
-             
-            <note place="margin">Gesta inclyti ducis Vrbini.</note> 
+            <note place="margin">Gesta inclyti ducis Vrbini.</note>
             <l n="3.237">Vicit Erithreos ensis tuus, unde tryumphos </l>
-             
             <l n="3.238">Irruit Hyrcano Hesperius cum gente feroci </l>
-             
             <l n="3.239">Littus ad Italiae populorum strage superbus </l>
-             
             <l n="3.240">Iulius Eridani ripas cum fulminat ipse </l>
-             
             <l n="3.241">Ferrariam exoptans diris circundare flammis,  </l>
-             
             <milestone unit="page"/>
             <l n="3.242">Dux belli fueras, bello clarissimus atque </l>
-             
             <l n="3.243">Felsina te timuit, tumidum te crescere Tybrim </l>
-             
             <l n="3.244">Vidimus, iniuste Leo quin te maximus olim</l>
-             
-            <note place="margin">Domat Felsinam et Romam, obstat iuste Leoni pontifici maximo.</note> 
+            <note place="margin">Domat Felsinam et Romam, obstat iuste Leoni pontifici maximo.</note>
             <l n="3.245">Extorrem uoluit patria regnoque superbo,</l>
-             
             <l n="3.246">Multa dies uariusque labor, pater ipse deorum </l>
-             
             <l n="3.247">Rettulit in melius tibi nam fortuna regressum </l>
-             
             <l n="3.248">Mox dedit ut Latio unquam nil uirtutis abesset </l>
-             
             <l n="3.249">Te uirtus clarum, te gloria tollit ad astra </l>
-             
             <l n="3.250">Ipse ducum ueterum nulli uirtute secundus </l>
-             
             <l n="3.251">Extans nam bello magnum prestabis Achillem</l>
-             
             <l n="3.252">Agmen agens equitum et florentes ere cateruas, </l>
-             
             <l n="3.253">Picenos domuit tua dextera, uictor ubique </l>
-             
-            <note place="margin">Franciscus Maria dux ubique uictor.</note> 
+            <note place="margin">Franciscus Maria dux ubique uictor.</note>
             <l n="3.254">Diceris, hoc narrant populi Camerina per arua, </l>
-             
             <l n="3.255">Hoc strages Perusina canit Malatesta benignus </l>
-             
-            <note place="margin">Superat Picenum et Camerinum et Perusiam.</note> 
-            <note place="margin">Malatesta.</note> 
+            <note place="margin">Superat Picenum et Camerinum et Perusiam.</note>
+            <note place="margin">Malatesta.</note>
             <l n="3.256">Quum patria pulsus remeabo inglorius urbem </l>
-             
             <l n="3.257">Diceret, is quamuis Phrygiis fulgeret in armis </l>
-             
             <l n="3.258">Ni duce te exuuias capiam pulsusque tropheum </l>
-             
             <l n="3.259">Hostibus eripiam, clarum te numina firment </l>
-             
             <l n="3.260">Huic seclo,  Hesperiae magne spes altera princeps </l>
-             
             <l n="3.261">Cessit Martigeno tibi, tunc uictoria quando </l>
-             
             <l n="3.262">Imperiale nemus cingis fulgentibus armis, </l>
-             
-            <note place="margin">Magna laus ducis Francisci Marie.</note> 
+            <note place="margin">Magna laus ducis Francisci Marie.</note>
             <l n="3.263">Est tibi religio diuum, est tibi pectus honestum, </l>
-             
             <l n="3.264">Iustus es et placide miseris succurris ubique </l>
-             
             <l n="3.265">Magnanimosque duces prae te fers, inclyte Caesar, </l>
-             
             <l n="3.266">Sidereo flagras clypeo et celestibus armis, </l>
-             
-            <note place="margin">Virtutes ducis.</note> 
+            <note place="margin">Virtutes ducis.</note>
             <l n="3.267">Nonne tuum poterunt superi perducere caelum </l>
-             
             <l n="3.268">Cyllaron ipse tuis cedet tibi Castor et armis, </l>
-             
             <l n="3.269">Nasceris a superis clarisque parentibus, unde </l>
-             
             <milestone unit="page"/>
             <l n="3.270">Vertice sidereas pulsabis semper et arces, </l>
-             
             <l n="3.271">Quare opus est animo cito nunc cuncta parata </l>
-             
             <l n="3.272">Parta domus clarique duces celeresque ministri </l>
-             
             <l n="3.273">Sint tibi qui tecum ueniant comitarier illum </l>
-             
             <l n="3.274">Quem celum, quem terram, mare et quem mundus adorat, </l>
-             
             <l n="3.275">Vellere Millessio ornetur tibi et aula Timaui </l>
-             
             <l n="3.276">Lana et erithreis sint uellera picta smaragdis, </l>
-             
             <l n="3.277">Albeat et paries ebore et sit gemma fenestris </l>
-             
             <l n="3.278">Indica et auratum limen sit, candide princeps, </l>
-             
             <l n="3.279">Lilia Parthenius post per loca strata uiarum </l>
-             
             <l n="3.280">Spargat et assidue sibi sint dilapsa ligustra </l>
-             
-            <note place="margin">Qualis sit ornatus aule principis pro aduentu Iouis ad ipsum.</note> 
+            <note place="margin">Qualis sit ornatus aule principis pro aduentu Iouis ad ipsum.</note>
             <l n="3.281">Dum fiant haec te expectabo suscipe uires. </l>
-             
             <l n="3.282">His dictis tacuit, placidus cui talia fatur </l>
-             
             <l n="3.283">Maria Franciscus: Diuum uenerande minister, </l>
-             
             <l n="3.284">Quamuis non sim dignus quod mea tecta supernus </l>
-             
             <l n="3.285">Conditor ingrediens uideat, tamen ipse ego seruus </l>
-             
             <l n="3.286">Indignus seruabo tanti iussa Tonantis, </l>
-             
             <l n="3.287">Vt fieri poterit cui sit laus, gloria sitque. </l>
-             
-            <note place="margin">Humilitas ducis plena relligione.</note> 
+            <note place="margin">Humilitas ducis plena relligione.</note>
             <l n="3.288">Perpetuo sine fine manens qui nulla relinquit </l>
-             
             <l n="3.289">Pectora pura pius tamen mox ex ordine cuncta </l>
-             
             <l n="3.290">Implet iussa dei, uarias it seruus ad urbes, </l>
-             
             <l n="3.291">Vrbinum ueniant proceres et amicus ubique </l>
-             
             <l n="3.292">Qui datur enotriae terris, princepsque comesque </l>
-             
             <l n="3.293">Iulius ethereo descendens ad axe minister </l>
-             
             <l n="3.294">Diuum, purpureo sequitur quem turba galero </l>
-             
             <l n="3.295">Ornata, et terre rector mundique ruentis </l>
-             
             <l n="3.296">Pro te lapsa fides natus de stemmate diuum </l>
-             
             <l n="3.297">Germanus Caesar superum et partitur honores </l>
-             
             <milestone unit="page"/>
             <l n="3.298">Congaudens puero tali de stirpe creato, </l>
-             
             <l n="3.299">Hunc quoque Paphlagones, Ligurum dux inclytus atque </l>
-             
             <l n="3.300">Gallos rex et Gaditanus, Pannonus huncque </l>
-             
             <l n="3.301">Sarmata et auratis armis pictusque Gelonus </l>
-             
             <l n="3.302">Marchio <sic>hianoreus</sic> clarus belloque superbus </l>
-             
             <l n="3.303">Dux quoque Ferrarie, forti dux horrida Martis </l>
-             
             <l n="3.304">Arma manu quassans comitantur ad atria. Tandem </l>
-             
             <l n="3.305">Venerat et grauibus Nymphis comitata Diana,</l>
-             
             <l n="3.306">Parthenopes regina soli, cui nata dabatur </l>
-             
             <l n="3.307">Nominis eiusdem nitido fulgentior ostro </l>
-             
             <l n="3.308">Sorte potens simili diuum de stirpe creata, </l>
-             
             <l n="3.309">Hunc Tarthesiacis induti uestibus omnes </l>
-             
             <l n="3.310">Donarunt puerum. Quibus omnibus undique uisis </l>
-             
             <l n="3.311">Maria Franciscus cepit tunc dicere: Diuum </l>
-             
-            <note place="margin">Sermo ducis.</note> 
+            <note place="margin">Sermo ducis.</note>
             <l n="3.312">Omnes quos uolui sunt hic mihi, sancte minister, </l>
-             
             <l n="3.313">Die quibus est opus, aut quo te duce tendimus ultro </l>
-             
             <l n="3.314">Cui deus hec breuibus nos princeps maxima celi </l>
-             
             <l n="3.315">Porta manet, quo fata uolunt, quo dextra Tonantis </l>
-             
             <l n="3.316">Carpere iter uoluit, stans consitus arbore multa </l>
-             
             <l n="3.317">Est nemus ex quo Phoebus flagrat ab ignibus illis </l>
-             
-            <note place="margin">Paradisus terrestris.</note> 
+            <note place="margin">Paradisus terrestris.</note>
             <l n="3.318">Qui uestros colles, mundum et iuga celsa perurunt, </l>
-             
             <l n="3.319">Illuc ferte pedem mecum quem casta secuntur </l>
-             
-            <note place="margin">Qui saluantur.</note> 
+            <note place="margin">Qui saluantur.</note>
             <l n="3.320">Pectora Sardonicis fulgentia quippe lapillis. </l>
-             
             <l n="3.321">Huc quum uenerunt, subito fulgore coruscans </l>
-             
             <l n="3.322">Panditur ecce domus coelorum cardine ab alto, </l>
-             
             <l n="3.323">Qua deus omnipotens uenturus cuncta beabit, </l>
-             
             <l n="3.324">Ex qua prodibat splendor solaris abunde </l>
-             
             <l n="3.325">Solares radios superans quo cernere nullus </l>
-             
             <milestone unit="page"/>
             <l n="3.326">
                <sic>Iuppiterem</sic> poterat, passim prostratur et omnis </l>
-             
             <l n="3.327">Turba uirorum, penetrant clamoribus ethera celsa, </l>
-             
             <l n="3.328">Pectora pectoribus collidunt: Parce, redemptor,</l>
-             
-            <note place="margin">Humile genus hominum.</note>  
+            <note place="margin">Humile genus hominum.</note>
             <l n="3.329">Parce piis precibus, superum rex, parce nephandis </l>
-             
             <l n="3.330">Criminibus nostris, nostrum miserere, creator. </l>
-             
             <l n="3.331">Talia dicentes esurgunt, splendor et omnes </l>
-             
             <l n="3.332">Humanos uisus penetrat, mirrantur ubique </l>
-             
             <l n="3.333">Talia mirra dei, conclamant quid sibi talis </l>
-             
             <l n="3.334">Portendit splendor, superans Phoebia thecta</l>
-             
-            <note place="margin">Nemo deum in uita uidit.</note>  
+            <note place="margin">Nemo deum in uita uidit.</note>
             <l n="3.335">Hunc subito montes et sylue, concaua et antra, </l>
-             
             <l n="3.336">Castalii latices atque alta cacumina montis </l>
-             
             <l n="3.337">Parnasi, depressa fronte extollere ad altum </l>
-             
             <l n="3.338">Expectant, omnes homines et mundus adorans </l>
-             
             <l n="3.339">Conclamant: Deus, o deus, o deus, accipe nostras, </l>
-             
             <l n="3.340">O deus, ipse preces, superum rex, nos tibi serua! </l>
-             
             <l n="3.341">Respirant paulum resupino pectore corda </l>
-             
             <l n="3.342">Inspiciuntque deum, quem uirtus nulla uidere </l>
-             
             <l n="3.343">Mortalis potuit, mortali in corpore cernunt.</l>
-             
-            <note place="margin">Perifrasis est Christi, nostri dei.</note>   
+            <note place="margin">Perifrasis est Christi, nostri dei.</note>
             <l n="3.344">Cui pia dux noster tremefactus uerbula dixit: </l>
-             
             <l n="3.345">Salue rex superum, superum saluete Penates. </l>
-             
             <l n="3.346">Cur mea tecta, deus, magni moderator Olympi, </l>
-             
             <l n="3.347">Ingrederis, qui cuncta potes, qui cuncta gubernas? </l>
-             
             <l n="3.348">Non ego sum dignus. Sat erat mihi conditor ut sic </l>
-             
             <l n="3.349">Diceret: Ecce tuus natus sit saluus et esset. </l>
-             
             <l n="3.350">At quia uenisti, tibi sit laus gloria sitque.</l>
-             
-            <note place="margin">Ostenditur Franciscus Maria dux esse uerus cristianus.</note>  
+            <note place="margin">Ostenditur Franciscus Maria dux esse uerus cristianus.</note>
             <l n="3.351">Cui deus omnipotens, natus de uirgine pura, </l>
-             
             <l n="3.352">Ipse deus sine fine manens in corpore uisus: </l>
-             
             <l n="3.353">Te genus humanum cernens in Tartara tendi </l>
-             
             <milestone unit="page"/>
             <l n="3.354">Incolui terras, manans de corde parentis, </l>
-             
             <l n="3.355">Subsistens uerbum, socius cum patre coeuus </l>
-             
             <l n="3.356">Vnica progenies, concors, equalis ubique</l>
-             
-            <note place="margin">Incarnatio Christi mirro mundo descripta.</note>  
+            <note place="margin">Incarnatio Christi mirro mundo descripta.</note>
             <l n="3.357">Spiritus est nobis diffusus cuncta per ample </l>
-             
             <l n="3.358">Corda hominum, cernens uolui te uisere, et heros </l>
-             
             <l n="3.359">Qui mea perpetuo seruasti iussa libenter, </l>
-             
             <l n="3.360">Seruasti miseros semper de nomine nostro.  </l>
-             
             <l n="3.361">Hanc ob rem tibi demisi memorabile munus</l>
-             
-            <note place="margin">Quare deus suffragatur duci Francisco Marie.</note>  
+            <note place="margin">Quare deus suffragatur duci Francisco Marie.</note>
             <l n="3.362">E celo, puerum. quare pergamus et illuc </l>
-             
             <l n="3.363">Vt genio sancto tandem moderatus et alter </l>
-             
             <l n="3.364">Infestet nunquam natum uicturum secula longa.</l>
-             
-            <note place="margin">Fatum Guidobaldi principis.</note>  
+            <note place="margin">Fatum Guidobaldi principis.</note>
             <l n="3.365">His auditis Musa iubet mox pectine eburno </l>
-             
             <l n="3.366">Percutiam cytharam, Phoebum cultasque sorores</l>
-             
             <l n="3.367">Commouet, ipsa liram capiant pia turba canoram, </l>
-             
             <l n="3.368">Instaurant thyasos populi, super astra meantem </l>
-             
             <l n="3.369">Iuppiterem laudant, mare, tellus, pontus et astra, </l>
-             
             <l n="3.370">Arguta ales quo resonat, quam Delphyca tellus, </l>
-             
             <l n="3.371">Quam lucus Gryneus alit, quam pulcher Apollo </l>
-             
             <l n="3.372">Exercere modos docuit plectroque lyraque, </l>
-             
             <l n="3.373">Vndique conclamant letique ad sydera tollunt </l>
-             
             <l n="3.374">Carminibus uocem, ducunt et turba choreas, </l>
-             
             <l n="3.375">Precedunt pueri nos innupteque puelle </l>
-             
             <l n="3.376">Aurea Saturni latium pia secla canentes </l>
-             
             <l n="3.377">Nunc decorant latium, sequimur nos, gloria quosque </l>
-             
             <l n="3.378">Tollit ad astra deum magna comitante caterua </l>
-             
             <l n="3.379">E celo superum. Tot non sunt in mare gutte, </l>
-             
-            <note place="margin">Cum quibus habitat deus.</note> 
+            <note place="margin">Cum quibus habitat deus.</note>
             <l n="3.380">Montibus aut altis syluae, uel in aequore pisces, </l>
-             
             <l n="3.381">Ethera nec decorant uolucres tot, sydera celum </l>
-             
             <milestone unit="page"/>
             <l n="3.382">Nec tot quippe suum complent, quot numina secum </l>
-             
             <l n="3.383">E celo ueniunt. Testantur gaudia mundi </l>
-             
             <l n="3.384">Omnes uoce pia, contemperat organa canis </l>
-             
             <l n="3.385">Et Phylomella suis, Phebus nascentis adortus </l>
-             
             <l n="3.386">Primos diffundit radios, aurora nitescit, </l>
-             
             <l n="3.387">Phoebe et sepe suum mutabat in ethere numen </l>
-             
             <l n="3.388">Congaudens puero, splendescunt sydera cuncta </l>
-             
             <l n="3.389">Vrbinum ueniunt, omnis tonat undique turba,</l>
-             
-            <note place="margin">Totus mundus letatur die natalico principis.</note>  
+            <note place="margin">Totus mundus letatur die natalico principis.</note>
             <l n="3.390">Carmine dulciloquo reges tollebat ad astra </l>
-             
             <l n="3.391">Atque ducem clarum cecinit crinitus Apollo. </l>
-             
-            <note place="margin">Cantilena Apollinis in laudem ducis.</note> 
+            <note place="margin">Cantilena Apollinis in laudem ducis.</note>
             <l n="3.392">Mirra loquar, nec mirra canam, quia uera fatebor.</l>
-             
             <l n="3.393">Alcides unum Lybicis prostrauit harenis </l>
-             
             <l n="3.394">Te, leo, sed domitum, quamuis fortissimus esses.  </l>
-             
             <l n="3.395">Fortis et hic fuerat magna stipante caterua </l>
-             
             <l n="3.396">Seque suosque duces diuino sanguine cretos </l>
-             
             <l n="3.397">Maria Franciscus, solus dux inclytus armis </l>
-             
             <l n="3.398">Solus et hic alios decimum post truncat et omnes </l>
-             
             <l n="3.399">Indomiti fuerant. Quare, quid uertere muros </l>
-             
             <l n="3.400">Profuit Vrbini, minime quem menia tutum </l>
-             
             <l n="3.401">Reddunt, ingenium sed post hoc uiuida uirtus </l>
-             
             <l n="3.402">Viuat, uiuat et hic superet Garamantas et Indos, </l>
-             
             <l n="3.403">Tygris et Eufrates capiant sua iura, quibus nunc </l>
-             
             <l n="3.404">Imperet, et celso superis equetur Olympo. </l>
-             
             <l n="3.405">Prosternunt pueri flores per opaca uiarum </l>
-             
             <l n="3.406">Omnia collustrant nitidos amplexa Penates </l>
-             
             <l n="3.407">Dextra dei subito cum diuis ipse quieuit </l>
-             
             <l n="3.408">Ethera concutiunt bombe, in templisque sonatur </l>
-             
             <l n="3.409">Ere cauo ludunt Fauni Driadesque puelle.  </l>
-             
-            <note place="margin">Letantur populi in aduentu Iouis.</note> 
+            <note place="margin">Letantur populi in aduentu Iouis.</note>
             <milestone unit="page"/>
-
-                <closer>Finis.</closer>
-                
-            </div>
-        </body>
-        <back>
-            <div type="poesis-epigramma" met="elegiacum">
-            <head>Marii Seraphyci Calliensis, Policarpi discipuli ad lectorem tetrasticon.</head> 
-                
+            <closer>Finis.</closer>
+         </div>
+      </body>
+      <back>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Marii Seraphyci Calliensis, Policarpi discipuli ad lectorem tetrasticon.</head>
             <l n="b1.1">                Carmine laurigeri Policarpi fertur ad astra </l>
-             
             <l n="b1.2">                Clara Feretrorum sanguine progenies, </l>
-             
             <l n="b1.3">                Maria Franciscus noster dux inclytus et qui </l>
-             
             <l n="b1.4">                Perpetuo uiuet hoc opere egregio. </l>
-             
-            </div>
-            <div type="poesis-epigramma" met="elegiacum">
-                <head>Ad lectorem Gismundi Montaini Pergulensis, Policarpi discipuli carmen.</head> 
-                
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Ad lectorem Gismundi Montaini Pergulensis, Policarpi discipuli carmen.</head>
             <l n="b2.1">                Tu quicumque cupis lepidum cognoscere uatem </l>
-             
             <l n="b2.2">                Pieridumque choros nosce uel ipse pios </l>
-             
             <l n="b2.3">                Que monumenta dedit Policarpus perlege, lector, </l>
-             
             <l n="b2.4">                Carmine perpetuo nobilitata quidem </l>
-             
             <l n="b2.5">                Hic nam Feretriae stirpis preconia cantat </l>
-             
             <l n="b2.6">                Laudibus his tollens sydera ad alta duces </l>
-             
             <l n="b2.7">                Atque Guidobaldum nitidum super ethera ponit </l>
-             
             <l n="b2.8">                Quo noscat superis hic dare tura focis.  </l>
-             
-            </div>
-            <div type="poesis-epigramma" met="elegiacum">
-                <head>Eiusdem ad librum carmen.</head> 
-                
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Eiusdem ad librum carmen.</head>
             <l n="b3.1">                Vade salutatum pro me, liber alme, sorores </l>
-             
             <l n="b3.2">                Hinc ad Feretrias uel cito perge domos </l>
-             
             <l n="b3.3">                Nec te nunc tentat moles radiata colossi </l>
-             
             <l n="b3.4">                Que Rhodium credit uincere semper opus, </l>
-             
             <l n="b3.5">                Quin sacri properes celebranda palatia tecti </l>
-             
             <l n="b3.6">                Nunc ubi preclari fulget imago ducis,  </l>
-             
             <l n="b3.7">                Namque tibi semper dabit hic in carmine uires </l>
-             
             <l n="b3.8">                Et de te pauidos <sic>excutet</sic> ipse metus </l>
-             
             <l n="b3.9">                Inuidiae rabiem, liuoris et arma repellet </l>
-             
             <l n="b3.10">                Quamuis uel nulla labe perosus eris.</l>
-             
-            </div>  
-            <milestone unit="page"/>
-            <div type="poesis-epigramma" met="elegiacum">
-                <head>
+         </div>
+         <milestone unit="page"/>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>
                <abbr>Luce. F.</abbr> 
-                Taurini Tyburtini predicatorii ad principem Guidobaldum carmen.</head> 
-                
+                Taurini Tyburtini predicatorii ad principem Guidobaldum carmen.</head>
             <l n="b4.1">                Letare o princeps clarissime, nam Policarpus </l>
-             
             <l n="b4.2">                Nunc te laudando tollet ad astra diu.</l>
-             
-            </div>  
-            
-            <div type="poesis-epigramma" met="elegiacum">
-                <head>Eiusdem ad lectorem. </head>
-                
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Eiusdem ad lectorem. </head>
             <l n="b5.1">                Hic cantat ueras Policarpus carmine laudes </l>
-             
             <l n="b5.2">                Francisci Marie Feretriaeque domus.</l>
-             
-            </div> 
-            
-            <div type="poesis-epigramma" met="elegiacum">
-                <head>Benedicti Iacobutii Calliensis, Policarpi discipuli carmen.</head> 
-                
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Benedicti Iacobutii Calliensis, Policarpi discipuli carmen.</head>
             <l n="b6.1">                Lector et auditor, Policarpi perlege librum </l>
-             
             <l n="b6.2">                Quo noster uates laudat ubique ducem </l>
-             
             <l n="b6.3">                Franciscum Mariam. Tanta est reuerentia recti,</l>
-             
             <l n="b6.4">                Cesare progenitus tura Sabea petat </l>
-             
             <l n="b6.5">                Numina qui uidit duris obnoxia fatis </l>
-             
             <l n="b6.6">                Inuidiam potuit hic superare deum, </l>
-             
             <l n="b6.7">                Qui quotiens ueteres poterit perquirere uates </l>
-             
             <l n="b6.8">                Dicet et est meus, est iste poeta meus.</l>
-             
-            </div>  
-            
-            <div type="poesis-epigramma" met="elegiacum">
-                <head>Caroli Paganutii, Policarpi discipuli disticon.</head>
-                
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Caroli Paganutii, Policarpi discipuli disticon.</head>
             <l n="b7.1">                Qui uult Feretriae bene noscere stemata gentis </l>
-             
             <l n="b7.2">                Hic Policarpus adest, Musarum gloria uates.</l>
-             
-            </div> 
-            
-            <div type="colophon">
+         </div>
+         <div type="colophon">
             <p>Impressum Venetiis per Magistrum Ioannem Franciscum et Ioannem Antonium fratres de Rusconibus. MCCCCCXXII. die XXIIII. Iulii.</p>
-         </div> 
-            <milestone unit="page"/>
+         </div>
+         <milestone unit="page"/>
+         <div type="errata">
             <div type="errata">
-                <div type="errata">
-               <head>Errores ex primo libello:</head> 
-                <p>mox adeunt dicatur aderunt.</p>
-            </div> 
-                <div type="errata">
-               <head>Errores ex secundo:</head> 
+               <head>Errores ex primo libello:</head>
+               <p>mox adeunt dicatur aderunt.</p>
+            </div>
+            <div type="errata">
+               <head>Errores ex secundo:</head>
                <p>superrarier scribatur unico r
                     et quia sepe solebat dicatur qua.</p>
-            </div> 
-                <div type="errata">
-               <head>Errores ex tertio:</head> 
+            </div>
+            <div type="errata">
+               <head>Errores ex tertio:</head>
                <p>alloquor hec eminus dicatur eminus hec; 
                     colles quis hec hostia pulsat, colles hec hostia pulsans;  
                     mox fuit et cominus, mox est cominus; 
@@ -2121,7 +1231,7 @@
                     huic ut perpetuis, et perpetuis; 
                     et nece qui seua cui, dicatur feriunt bos.</p>
             </div>
-         </div>                
-        </back>
-    </text>
+         </div>
+      </back>
+   </text>
 </TEI>

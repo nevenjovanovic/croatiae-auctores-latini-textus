@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="vrancic-a-epist-1553-08-12">
-        <titleStmt>
+         <titleStmt>
             <title>Petro Francisco Parrhisio, versio electronica</title>
             <author ref="vranc01">
-                <persName xml:lang="hr">Vrančić, Antun</persName>
-                <date>1504-1573</date>
+               <persName xml:lang="hr">Vrančić, Antun</persName>
+               <date>1504-1573</date>
             </author>
             <editor>
                <persName>
@@ -13,16 +14,16 @@
                </persName>
             </editor>
             <respStmt>
-                <resp>Hanc editionem electronicam curavit</resp>
-                <persName>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
-        </titleStmt>
-        <editionStmt>
+         </titleStmt>
+         <editionStmt>
             <p>Digitalizat kasnijeg izdanja (1857).</p>
-        </editionStmt>
-        <extent ana="B">Mg:B Verborum 137</extent>
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 137</extent>
          <publicationStmt>
             <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
             projekt na <orgName>
@@ -30,73 +31,31 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
             Hrvatska.  <date>Siječnja 2008</date>.</p>
          </publicationStmt>
-            <sourceDesc>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Verancsics, Antal. Verancsics Antal összes munkái Történelmi dolgozatok deák
                     nyelven. XXX (vol. 4, p. 49)</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="38"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc xml:id="verantiusaparrhysius15530812">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-            <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q472">Sofia</placeName></place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q472">Sofia</placeName>
+            </place>
             <place ana="destination" cert="medium">
                <placeName ref="https://www.wikidata.org/wiki/Q3711">Belgradum</placeName>
             </place>
          </settingDesc>
          <particDesc>
-            <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-            <person role="recipient"><persName>Parrhisius, Petrus Franciscus</persName></person>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName>Parrhisius, Petrus Franciscus</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
@@ -104,20 +63,20 @@
          <creation>
             <date when="1553-08-12" period="15xx_2_third">1553-08-12</date>
             <placeName>Sofia</placeName>
-        </creation>
+         </creation>
          <textClass>
             <keywords scheme="typus">
-                <term>prosa</term>
+               <term>prosa</term>
             </keywords>
             <keywords scheme="aetas">
-                <term>Litterae renatae (1400-1600)</term>
-                <term>Saeculum 16 (1501-1600)</term>
-                <term>1501-1550</term>
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
             </keywords>
             <keywords scheme="genre">
-                <term>prosa oratio - epistula</term>
+               <term>prosa oratio - epistula</term>
             </keywords>
-        </textClass>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -129,21 +88,19 @@
         Novo, unificirano zaglavlje.
         Prva verzija.
     </change>
-
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="prosa-epistula" corresp="#verantiusaparrhysius15530812">
             <opener>Antonius Verancius Petro Francisco Parrhisio suo S.</opener>
-        
             <p>Proxime quum Belgradi essem, dedi ad te litteras cuidam nobili viro, Josepho nomine, qui se dicebat in patriam profecturum.  Iis litteris quoniam latius refricavi inter nos mutuam nostri memoriam, non est quod his plura scribam, intentus alioqui etiam itineri, cujus vel horam praeter nocturnas non intermitto.  Ignosces itaque, et me vel spiritu tuo tecum amplectere, quum ipse meo te etiam exosculer, quoties in mentem venis.  Venis autem quam saepissime, hoc praesertim itinere, in quo dum passim in homines Ragusinos incido, nequeo quin tecum et somnos et vigilias exigam.  Verum quoniam avocor ab auriga,  qui jam junxit meos jugales et insedit, finire epistolam cogor.  Rogo itaque te, ut has inclusas ad patrem meum charissimum quamprimum mittere cures, in quo facturus es mihi rem pergratam.  </p>
             <closer>
-               <salute>Vale.</salute> 
+               <salute>Vale.</salute>
                <dateline>
                   <date when="1553-08-12">Duodecima Augusti, 1553.</date>  Zophiae apud Tracas.</dateline>
             </closer>
          </div>
-      </body>    
+      </body>
    </text>
 </TEI>

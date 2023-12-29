@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="bunic-j-vgc">
@@ -30,9 +31,7 @@
                <persName>
                   <ref type="viaf" target="6913774" xml:id="NJ">Neven Jovanović</ref>
                </persName>
-          
             </respStmt>
-        
          </titleStmt>
          <editionStmt>
             <edition>
@@ -52,7 +51,6 @@
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <biblStruct>
                <monogr>
-
                   <author>Bunić, Jakov (Iacobus Bonus Racusaeus, 1469-1534)</author>
                   <title>De vita et gestis Christi eiusque mysteriis et documentis opus egregium ...
                 carmine heroico eleganter ac mirifice congestum Eiusdem Iacobi Praeludium in treis
@@ -67,81 +65,12 @@
                      <add>4</add> + CCXCVIII pag. ; 4o </extent>
                </monogr>
                <note>Carmen ad lectorem / Ivan Polikarp Severitan.</note>
-               <idno type="other">Xb * Jurić. Scriptores * III * Jurić. Scriptores</idno>
-               <idno>NSK Zagreb RIIF-4o-232</idno>
+               <note type="other">Xb * Jurić. Scriptores * III * Jurić. Scriptores</note>
+               <note>NSK Zagreb RIIF-4o-232</note>
             </biblStruct>
          </sourceDesc>
-      
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="3"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="1"/>
-          <tagUsage gi="author" occurs="4"/>
-          <tagUsage gi="bibl" occurs="1"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="6"/>
-          <tagUsage gi="choice" occurs="47"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="corr" occurs="92"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="15"/>
-          <tagUsage gi="dateline" occurs="2"/>
-          <tagUsage gi="div" occurs="44" withId="26"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="7"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="3"/>
-          <tagUsage gi="head" occurs="33"/>
-          <tagUsage gi="idno" occurs="2"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="10283"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="260"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="191"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="15"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="9" withId="1"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="73"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="58"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-     <profileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -213,16 +142,14 @@
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName> Dodao brojeve pjevanja, id knjiga i posvetnih pjesama. Označio
         nekoliko tipfelera.</change>
-      
       </revisionDesc>
    </teiHeader>
    <text>
       <front>
          <milestone unit="page" n="2"/>
-            <div type="prosa-epistula">
-              <opener>CLAEMENS PAPA VII. DILECTO filio Iacobo Bono Racusaeo S.</opener>
-              
-              <p>Dilecte fili salutem et apostolicam benedictionem. Cum tu sicut nobis
+         <div type="prosa-epistula">
+            <opener>CLAEMENS PAPA VII. DILECTO filio Iacobo Bono Racusaeo S.</opener>
+            <p>Dilecte fili salutem et apostolicam benedictionem. Cum tu sicut nobis
               exposuisti sacra Euangelia carmine conscripseris, eaque aedere cupias,
               uerearisque ne qui fructus ex illis percipientur, ad alios deferantur,
               nos uolentes tuis supplicationibus annuere, omnibus et singulis extra
@@ -231,310 +158,177 @@
               praeterea sub poena amissionis librorum quos impresserint et centum
               ducatorum camerae apostolicae applicandorum, mandamus ne ipsos libros
               infra decennium imprimant, aut impressos uendant sine concessione
-              tua. Qui contrafecerit poenam statim incurrat, et ea multetur.</p> 
+              tua. Qui contrafecerit poenam statim incurrat, et ea multetur.</p>
             <closer>
                <dateline>Datum
               <placeName>Romae apud sanctum Petrum</placeName> sub annulo piscatoris <date when="1526-05-11">die XI. Maii
               M. D. XXVI. Pontificatus nostri Anno III.</date>
                </dateline>
             </closer>
-            </div>
+         </div>
          <milestone unit="page" n="3"/>
-            <div type="poesis-carmen" met="hexameter">
-                <head>AD SANCTISSIMVM D. N. CLAEMENTEM VII. PONT. MAX. et ad Imperatorem electum
+         <div type="poesis-carmen" met="hexameter">
+            <head>AD SANCTISSIMVM D. N. CLAEMENTEM VII. PONT. MAX. et ad Imperatorem electum
                     inuictissimumque Carolum Aug. Praefatio. Iacobi Boni Racusaei.</head>
-                <l n="1">Dextera uirtutum domini mihi sancta canenti</l>
-             
-                <l n="2">Hoc exegit opus, quod nulla incendia, nullas</l>
-             
-                <l n="3">Horret aquas, ullum nec ab aethere labile tempus,</l>
-             
-                <l n="4">Aut formidati tonitrus, aut fulminis iras.</l>
-             
-                <l n="5">Stat quia luce Dei, coeli quia mole tenetur,</l>
-             
-                <l n="6">Aeternaeque uirent aeterno in uertice laurus.</l>
-             
-                <l n="7">Non hic arma uirum miramur Apolline ficto,</l>
-             
-                <l n="8">Infandique graues iras agitamus Achillis,</l>
-             
-                <l n="9">Aut per inane uagum uento iactamus Vlissem,</l>
-             
-                <l n="10">Non falso quae multa mouent Helicone poetae,</l>
-             
-                <l n="11">Ah ualeant hoc sancta Dei qui templa profanant</l>
-             
-                <l n="12">Pruritu et uacuas uerbis mulcentibus aures.</l>
-             
-                <l n="13">Non hic horret humus syluestribus obsita dumis,</l>
-             
-                <l n="14">Non inaratus ager sterili syluescit auena.</l>
-             
-                <l n="15">Vt sine fruge suo parnasia uertice laurus</l>
-             
-                <l n="16">Vanescit, lucusque leues effutit in auras.</l>
-             
-                <l n="17">At magni canimus mirabile nomen Iesu</l>
-             
-                <l n="18">Quattuor a radiis haud ulli effabile diuum.</l>
-             
-                <l n="19">Per tris effusum Triadas, et munera septem.</l>
-             
-                <l n="20">Quo duplex natura coit, personaque triplex,</l>
-             
-                <l n="21">Quo lux et uita, et coelo uia panditur alto,</l>
-             
-                <l n="22">Et Deus aeterna nobis mercede paratur.</l>
-             
-                <l n="23">O cui summa dedit proprium claementia nomen,</l>
-             
-                <l n="24">Tu mihi sancte pater faueas, qui maximus alta</l>
-             
-                <l n="25">Sede Dei resides, et Numinis instar haberis,</l>
-             
-                <l n="26">Bissena aetherio qui limina pandis Olympo,</l>
-             
-                <l n="27">Qui tua tartareum sub frena Acheronta coerces,</l>
-             
-                <l n="28">Huc ades, et toti Christi uice praeside mundo,</l>
-             
-                <l n="29">Et uice pastoris triplices age, tende choraeas.</l>
-             
-                <l n="30">Tu quoque Romani imperii qui iura gubernas</l>
-             
-                <l n="31">Carole dexter ades, o rex Auguste Quiritum,</l>
-             
-                <l n="32">Indue Terpsicorem, septenaque dona, canoram,</l>
-             
-                <l n="33">Hinc ostende suo terris in lumine Christum</l>
-             
-                <milestone unit="page" n="4"/>
-
-                <l n="34">Romanas latio moderantem carmine classes</l>
-             
-                <l n="35">Hinc noua crassantis iam confice monstra Medusae</l>
-             
-                <l n="36">Pestiferum rescinde caput, ceu Perseus alte</l>
-             
-                <l n="37">Marte tuo cunctas Herebi superante proc<gap/>
+            <l n="1">Dextera uirtutum domini mihi sancta canenti</l>
+            <l n="2">Hoc exegit opus, quod nulla incendia, nullas</l>
+            <l n="3">Horret aquas, ullum nec ab aethere labile tempus,</l>
+            <l n="4">Aut formidati tonitrus, aut fulminis iras.</l>
+            <l n="5">Stat quia luce Dei, coeli quia mole tenetur,</l>
+            <l n="6">Aeternaeque uirent aeterno in uertice laurus.</l>
+            <l n="7">Non hic arma uirum miramur Apolline ficto,</l>
+            <l n="8">Infandique graues iras agitamus Achillis,</l>
+            <l n="9">Aut per inane uagum uento iactamus Vlissem,</l>
+            <l n="10">Non falso quae multa mouent Helicone poetae,</l>
+            <l n="11">Ah ualeant hoc sancta Dei qui templa profanant</l>
+            <l n="12">Pruritu et uacuas uerbis mulcentibus aures.</l>
+            <l n="13">Non hic horret humus syluestribus obsita dumis,</l>
+            <l n="14">Non inaratus ager sterili syluescit auena.</l>
+            <l n="15">Vt sine fruge suo parnasia uertice laurus</l>
+            <l n="16">Vanescit, lucusque leues effutit in auras.</l>
+            <l n="17">At magni canimus mirabile nomen Iesu</l>
+            <l n="18">Quattuor a radiis haud ulli effabile diuum.</l>
+            <l n="19">Per tris effusum Triadas, et munera septem.</l>
+            <l n="20">Quo duplex natura coit, personaque triplex,</l>
+            <l n="21">Quo lux et uita, et coelo uia panditur alto,</l>
+            <l n="22">Et Deus aeterna nobis mercede paratur.</l>
+            <l n="23">O cui summa dedit proprium claementia nomen,</l>
+            <l n="24">Tu mihi sancte pater faueas, qui maximus alta</l>
+            <l n="25">Sede Dei resides, et Numinis instar haberis,</l>
+            <l n="26">Bissena aetherio qui limina pandis Olympo,</l>
+            <l n="27">Qui tua tartareum sub frena Acheronta coerces,</l>
+            <l n="28">Huc ades, et toti Christi uice praeside mundo,</l>
+            <l n="29">Et uice pastoris triplices age, tende choraeas.</l>
+            <l n="30">Tu quoque Romani imperii qui iura gubernas</l>
+            <l n="31">Carole dexter ades, o rex Auguste Quiritum,</l>
+            <l n="32">Indue Terpsicorem, septenaque dona, canoram,</l>
+            <l n="33">Hinc ostende suo terris in lumine Christum</l>
+            <milestone unit="page" n="4"/>
+            <l n="34">Romanas latio moderantem carmine classes</l>
+            <l n="35">Hinc noua crassantis iam confice monstra Medusae</l>
+            <l n="36">Pestiferum rescinde caput, ceu Perseus alte</l>
+            <l n="37">Marte tuo cunctas Herebi superante proc<gap/>
             </l>
-             
-                <l n="38">Ignibus heus alte modo te succinge coruscis</l>
-                <l n="39">Sordentesque luto piceae Stygis ure Luteros.</l>
-             
-                <l n="40">Expectatus adest, en regna capessite Pastor,</l>
-             
-                <l n="41">Alter et <gap/>terius mundi componat habenas</l>
-             
-                <l n="42">Romanas latio moderantem carmine classes</l>
-             
-                <l n="43">Ille tibi, tu illi, sit et unum numen utrique.</l>
-             
-            </div>
-            <div type="poesis-carmen" met="hexameter">
-                <head>AD EVNDEM SANCTISSIMVM D. N. Claementem VII. Pont. Max. Praefatio II. Iacobi
+            <l n="38">Ignibus heus alte modo te succinge coruscis</l>
+            <l n="39">Sordentesque luto piceae Stygis ure Luteros.</l>
+            <l n="40">Expectatus adest, en regna capessite Pastor,</l>
+            <l n="41">Alter et <gap/>terius mundi componat habenas</l>
+            <l n="42">Romanas latio moderantem carmine classes</l>
+            <l n="43">Ille tibi, tu illi, sit et unum numen utrique.</l>
+         </div>
+         <div type="poesis-carmen" met="hexameter">
+            <head>AD EVNDEM SANCTISSIMVM D. N. Claementem VII. Pont. Max. Praefatio II. Iacobi
                     Boni Racusaei.</head>
-                <l n="1">Dum mea mente Dei circundata parturit aluus</l>
-             
-                <l n="2">Tris inter Triadas, septemque charismata Christum</l>
-             
-                <l n="3">Trux stetit aduerso serpens ut me ore uoraret.</l>
-             
-                <l n="4">Clauiger at sumpto mihi septimus aethere Claemens</l>
-             
-                <l n="5">Affuit, et diro me gutture liberat hydrae.</l>
-             
-                <l n="6">Hinc ego sublatus peperi te Principe rege<gap/>
+            <l n="1">Dum mea mente Dei circundata parturit aluus</l>
+            <l n="2">Tris inter Triadas, septemque charismata Christum</l>
+            <l n="3">Trux stetit aduerso serpens ut me ore uoraret.</l>
+            <l n="4">Clauiger at sumpto mihi septimus aethere Claemens</l>
+            <l n="5">Affuit, et diro me gutture liberat hydrae.</l>
+            <l n="6">Hinc ego sublatus peperi te Principe rege<gap/>
             </l>
-             
-                <l n="7">Te fautore deum <sic>dias id</sic> luminis oras</l>
-             
-                <l n="8">Praepetis, hoc o Rex partu clarescitis ambo.</l>
-             
-                <l n="9">Hunc etenim ipse geris, tantoq quoque codice gignis,</l>
-             
-                <l n="10">Tamque graui partus mihi das superesse labori.</l>
-             
-                <l n="11">Vnde nouae incipient ad pulpita surgere classes</l>
-             
-                <l n="12">Te duce per totum choreis uictricibus orbem,</l>
-             
-                <l n="13">Doctaque ueraces celebrabunt ora camoenas,</l>
-             
-                <l n="14">Tetraque falsiloquos abigent in tartara uates.</l>
-             
-                <l n="15">Hinc ego magnus ero, non ut Berecynthia falso</l>
-             
-                <l n="16">Mater erat partu, sed nati numinis author,</l>
-             
-                <l n="17">Auctor et ille meus, mea lucis origo salubris,</l>
-             
-                <l n="18">Cuius honore pio uestigia pronus adoro.</l>
-             
-                <l n="19">O me foelicem spe tanta, et pignore tanto</l>
-             
-                <l n="20">Mente mea gennito, <sic>cataphratae</sic> Palladis instar.</l>
-             
-                <l n="21">Vertice ab aetheriis quam Iuppiter extulit astris.</l>
-             
-                <l n="22">Foelix ore suo Regem qui et carmine pandit,</l>
-             
-                <l n="23">Hunc etenim ora Dei Deus inter et astra beabit.</l>
-             
-                <l n="24">Quid tu o Rex, homines an quid dabis inter honoris?</l>
-             
-                <l n="25">Vt par, Diua tuo Claementia nomine faxis,</l>
-             
-                <milestone unit="page" n="5"/>
-                <l n="26">Digna impende suo pro munere munera uati.</l>
-             
-                <l n="27">Nam sublime tuum fastigia celsa cacumen</l>
-             
-                <l n="28">Quam procul exuperat cunctorum stemmate regum,</l>
-             
-                <l n="29">Tam uirtute Dei, quam rex agis, omnibus extas.</l>
-             
-                <l n="30">Singula quaeque tenes unus terraeque polique</l>
-             
-                <l n="31">Munia pro Christo, cui laus et gloria soli</l>
-             
-                <l n="32">Sit, quamcunque meo dabit haec mihi carmine Clio.</l>
-             
-            </div>
-                        
-            <div type="poesis-carmen" met="hexameter">
-                <head>AD ELECTVM INVICTISSIMVMQVE Imperatorem Carolum August. Praefatio II. Iacobi
+            <l n="7">Te fautore deum <sic>dias id</sic> luminis oras</l>
+            <l n="8">Praepetis, hoc o Rex partu clarescitis ambo.</l>
+            <l n="9">Hunc etenim ipse geris, tantoq quoque codice gignis,</l>
+            <l n="10">Tamque graui partus mihi das superesse labori.</l>
+            <l n="11">Vnde nouae incipient ad pulpita surgere classes</l>
+            <l n="12">Te duce per totum choreis uictricibus orbem,</l>
+            <l n="13">Doctaque ueraces celebrabunt ora camoenas,</l>
+            <l n="14">Tetraque falsiloquos abigent in tartara uates.</l>
+            <l n="15">Hinc ego magnus ero, non ut Berecynthia falso</l>
+            <l n="16">Mater erat partu, sed nati numinis author,</l>
+            <l n="17">Auctor et ille meus, mea lucis origo salubris,</l>
+            <l n="18">Cuius honore pio uestigia pronus adoro.</l>
+            <l n="19">O me foelicem spe tanta, et pignore tanto</l>
+            <l n="20">Mente mea gennito, <sic>cataphratae</sic> Palladis instar.</l>
+            <l n="21">Vertice ab aetheriis quam Iuppiter extulit astris.</l>
+            <l n="22">Foelix ore suo Regem qui et carmine pandit,</l>
+            <l n="23">Hunc etenim ora Dei Deus inter et astra beabit.</l>
+            <l n="24">Quid tu o Rex, homines an quid dabis inter honoris?</l>
+            <l n="25">Vt par, Diua tuo Claementia nomine faxis,</l>
+            <milestone unit="page" n="5"/>
+            <l n="26">Digna impende suo pro munere munera uati.</l>
+            <l n="27">Nam sublime tuum fastigia celsa cacumen</l>
+            <l n="28">Quam procul exuperat cunctorum stemmate regum,</l>
+            <l n="29">Tam uirtute Dei, quam rex agis, omnibus extas.</l>
+            <l n="30">Singula quaeque tenes unus terraeque polique</l>
+            <l n="31">Munia pro Christo, cui laus et gloria soli</l>
+            <l n="32">Sit, quamcunque meo dabit haec mihi carmine Clio.</l>
+         </div>
+         <div type="poesis-carmen" met="hexameter">
+            <head>AD ELECTVM INVICTISSIMVMQVE Imperatorem Carolum August. Praefatio II. Iacobi
                     Boni Racusaei.</head>
-                <l n="1">Tu quoque magne ueni, nam te mea tibia Caesar</l>
-             
-                <l n="2">Inuocat, urbe tuus nam te manet aspice, pastor.</l>
-             
-                <l n="3">Huic ades, hunc et enim cultu uenerabere sancto,</l>
-             
-                <l n="4">Huic Aquilis in signa tuis uictricia cedent</l>
-             
-                <l n="5">Cuncta triumphali quae mox dabis aequora cymbae.</l>
-             
-                <l n="6">Pastor erit populis, Caesarque erit omnibus unus.</l>
-             
-                <l n="7">Nam noua purgatis implebit ut horrea granis</l>
-             
-                <l n="8">Alter ab Aegypto mundi seruator Ioseph</l>
-             
-                <l n="9">Aduenient ultro gentes, has ille minister</l>
-             
-                <l n="10">Pane salutifero saturabit, iura subactis</l>
-             
-                <l n="11">Atque reformatis ille et dabit optima terris,</l>
-             
-                <l n="12">Aurea succedent hinc saecula, Pastor ouilis.</l>
-             
-                <l n="13">Vnius unus erit, mundo pax alma, diescet.</l>
-             
-                <l n="14">Multa serenatis oracula mentibus alto</l>
-             
-                <l n="15"> Sol pandet, noua sol et lumina fundet Olympo.</l>
-             
-                <l n="16">Vnde propinqua pias inuisent numina terras.</l>
-             
-                <l n="17">Ille sedens in sede Dei reget omnia, iusta</l>
-             
-                <l n="18">Frena tenens, et Marte potens, et Numine fortis,</l>
-             
-                <l n="19">Turpe nefas omneis abolebitur omne per oras.</l>
-             
-                <l n="20">Interea Caesar tantos in frena tumultus</l>
-             
-                <l n="21">Coge tua, et terrae discordia comprime regna.</l>
-             
-            </div>
-                        <milestone unit="page" n="6"/>
-                        
-            <div type="poesis-epigramma" met="elegiacum">
+            <l n="1">Tu quoque magne ueni, nam te mea tibia Caesar</l>
+            <l n="2">Inuocat, urbe tuus nam te manet aspice, pastor.</l>
+            <l n="3">Huic ades, hunc et enim cultu uenerabere sancto,</l>
+            <l n="4">Huic Aquilis in signa tuis uictricia cedent</l>
+            <l n="5">Cuncta triumphali quae mox dabis aequora cymbae.</l>
+            <l n="6">Pastor erit populis, Caesarque erit omnibus unus.</l>
+            <l n="7">Nam noua purgatis implebit ut horrea granis</l>
+            <l n="8">Alter ab Aegypto mundi seruator Ioseph</l>
+            <l n="9">Aduenient ultro gentes, has ille minister</l>
+            <l n="10">Pane salutifero saturabit, iura subactis</l>
+            <l n="11">Atque reformatis ille et dabit optima terris,</l>
+            <l n="12">Aurea succedent hinc saecula, Pastor ouilis.</l>
+            <l n="13">Vnius unus erit, mundo pax alma, diescet.</l>
+            <l n="14">Multa serenatis oracula mentibus alto</l>
+            <l n="15"> Sol pandet, noua sol et lumina fundet Olympo.</l>
+            <l n="16">Vnde propinqua pias inuisent numina terras.</l>
+            <l n="17">Ille sedens in sede Dei reget omnia, iusta</l>
+            <l n="18">Frena tenens, et Marte potens, et Numine fortis,</l>
+            <l n="19">Turpe nefas omneis abolebitur omne per oras.</l>
+            <l n="20">Interea Caesar tantos in frena tumultus</l>
+            <l n="21">Coge tua, et terrae discordia comprime regna.</l>
+         </div>
+         <milestone unit="page" n="6"/>
+         <div type="poesis-epigramma" met="elegiacum">
             <head>Petrus Galatinus Minorita inutilis et indignus
             Christi seruus ad Iacobum Bonum.</head>
             <l n="1">Quae ex Euangelio possunt mysteria pandi,</l>
-             
             <l n="2">Haec Iacobe canis carmine grandiloquo.</l>
-             
          </div>
-            
-            <div type="poesis-epigramma" met="elegiacum">
-                <head>Idem ad Lectorem.</head>
-                <l n="1">Cuncta cupis quisquis Christi cognoscere gesta,</l>
-             
-                <l n="2">Haec miranda Dei spiritus hic aperit.</l>
-             
-                <l n="3">Ethnica ne ergo uoces diuina poemata falso,</l>
-             
-                <l n="4">Sed mage diuinum tale poema uoca.</l>
-             
-                <l n="5">Hoc diuina docet, pertractant illa profana,</l>
-             
-                <l n="6">Illa aciem excaecant, hoc oculos acuit.</l>
-             
-                <l n="7">Suggerit hoc uirtutes, illa fomenta ministrant</l>
-             
-                <l n="8">Criminibus uariis, hoc fugat omne malum,</l>
-             
-                <l n="9">Arbor ut Hesperidum liber hic fert aurea mala,</l>
-             
-                <l n="10">Bractea quae argenti textaque fila tegunt.</l>
-             
-                <l n="11">Haec legat assidue puer, haec iuuenesque, senesque,</l>
-             
-                <l n="12">Scire et quisquis auet tempore multa breui.</l>
-             
-                <l n="13">Haec legito et tu, qui uere bona noscere quaeris,</l>
-             
-                <l n="14">Et quae animas perimunt, proiice cuncta procul.</l>
-             
-            </div>
-            <milestone unit="page" n="7"/>
-            
-            <div type="poesis-epigramma" met="hexameter">
-                <head>OB NOMINA LIBRIS ET OPERI imposita ad Lectorem.</head>
-                <l n="1">Mystica cur nostris sunt indita nomina libris,</l>
-             
-                <l n="2">Per iuga summa nouem choreis agit agmina pastor</l>
-             
-                <l n="3">Rex ouium, ambrosiae riuis, et nectare plena.</l>
-             
-                <l n="4">His ut iungat oues alias, et daedala condat</l>
-             
-                <l n="5">Castra simul, simul insonuit septemplice cantu,</l>
-             
-                <l n="6">Factus homo niueae sancta de Virginis aluo.</l>
-             
-                <l n="7">Quolibet hinc proprium speculare in codice nomen.</l>
-             
-                <l n="8">Christus in heroa primo me laude refulsit,</l>
-             
-                <l n="9">Fons Euangelico primo me carmine manans</l>
-             
-                <l n="10">Fluxit, et Aegydii facundum strinxit acumen,</l>
-             
-                <l n="11">Dux Augustinus fuit ille Triuuultius heros,</l>
-             
-                <l n="12">Septimus at Claemens mihi Rex, ego bulla, cinisque,</l>
-             
-                <l n="13">Si qua datur, nobis laus est et gloria Iesus.</l>
-             
-                <l n="14">Si quis honorabit propria uirtute labores</l>
-             
-                <l n="15">Hoc opere exhaustos, non me, decorabit Iesum.</l>
-             
-                <l n="16">Quem canimus, Deus ille Boni uice mutua reddet.</l>
-             
-            </div>
-                
-            <milestone unit="page" n="8"/>
-            <div type="prosa-epistula">
-                <head>Magnifico Viro Domino Iacobo Bono Patritio Ragusino Bernardinus Cortonus de
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Idem ad Lectorem.</head>
+            <l n="1">Cuncta cupis quisquis Christi cognoscere gesta,</l>
+            <l n="2">Haec miranda Dei spiritus hic aperit.</l>
+            <l n="3">Ethnica ne ergo uoces diuina poemata falso,</l>
+            <l n="4">Sed mage diuinum tale poema uoca.</l>
+            <l n="5">Hoc diuina docet, pertractant illa profana,</l>
+            <l n="6">Illa aciem excaecant, hoc oculos acuit.</l>
+            <l n="7">Suggerit hoc uirtutes, illa fomenta ministrant</l>
+            <l n="8">Criminibus uariis, hoc fugat omne malum,</l>
+            <l n="9">Arbor ut Hesperidum liber hic fert aurea mala,</l>
+            <l n="10">Bractea quae argenti textaque fila tegunt.</l>
+            <l n="11">Haec legat assidue puer, haec iuuenesque, senesque,</l>
+            <l n="12">Scire et quisquis auet tempore multa breui.</l>
+            <l n="13">Haec legito et tu, qui uere bona noscere quaeris,</l>
+            <l n="14">Et quae animas perimunt, proiice cuncta procul.</l>
+         </div>
+         <milestone unit="page" n="7"/>
+         <div type="poesis-epigramma" met="hexameter">
+            <head>OB NOMINA LIBRIS ET OPERI imposita ad Lectorem.</head>
+            <l n="1">Mystica cur nostris sunt indita nomina libris,</l>
+            <l n="2">Per iuga summa nouem choreis agit agmina pastor</l>
+            <l n="3">Rex ouium, ambrosiae riuis, et nectare plena.</l>
+            <l n="4">His ut iungat oues alias, et daedala condat</l>
+            <l n="5">Castra simul, simul insonuit septemplice cantu,</l>
+            <l n="6">Factus homo niueae sancta de Virginis aluo.</l>
+            <l n="7">Quolibet hinc proprium speculare in codice nomen.</l>
+            <l n="8">Christus in heroa primo me laude refulsit,</l>
+            <l n="9">Fons Euangelico primo me carmine manans</l>
+            <l n="10">Fluxit, et Aegydii facundum strinxit acumen,</l>
+            <l n="11">Dux Augustinus fuit ille Triuuultius heros,</l>
+            <l n="12">Septimus at Claemens mihi Rex, ego bulla, cinisque,</l>
+            <l n="13">Si qua datur, nobis laus est et gloria Iesus.</l>
+            <l n="14">Si quis honorabit propria uirtute labores</l>
+            <l n="15">Hoc opere exhaustos, non me, decorabit Iesum.</l>
+            <l n="16">Quem canimus, Deus ille Boni uice mutua reddet.</l>
+         </div>
+         <milestone unit="page" n="8"/>
+         <div type="prosa-epistula">
+            <head>Magnifico Viro Domino Iacobo Bono Patritio Ragusino Bernardinus Cortonus de
                     Vtino Minorita. <abbr>S. D. P.</abbr>
             </head>
-                <p>Apollonium illum Magum, mi suauissime Iacobe, qui multorum hominum mores uidit et
+            <p>Apollonium illum Magum, mi suauissime Iacobe, qui multorum hominum mores uidit et
                     urbes, ut Pythagoram caeterosque subticeam, hic Romae quibusdam uerbis clam
                         <expan>perlatis</expan> mortuam puellam suscitasse quis dubitet? Hesiodum
                     insuper pastorem armentarium a nouem sororibus laurea donatum, Poetam repente
@@ -578,21 +372,19 @@
                     Ecclesiae omnes animas aggregare. Quod dum erit fiet unum ouile angelicum,
                     similisque (qui canitur a te) Pastor praestante domino nostro Iesu Christo, cui
                     sit laus omnis et honor ac gloria, Amen.</p>
-                <closer>
-                    <salute>Vale.</salute>
-                    <dateline>
-                        <placeName>Romae apud sanctum Franciscum Transtyberim</placeName>
-                        <date>XVI. Calend. Iunias. MDXXVI.</date>
-                    </dateline>
-                </closer>
-            </div>
+            <closer>
+               <salute>Vale.</salute>
+               <dateline>
+                  <placeName>Romae apud sanctum Franciscum Transtyberim</placeName>
+                  <date>XVI. Calend. Iunias. MDXXVI.</date>
+               </dateline>
+            </closer>
+         </div>
       </front>
       <body>
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc01" n="1">
-
-               <head>IACOBI BONI RACVSAEI / HIERARCHIAE PRIMAE CHORVS / PRIMVS, SERAPHIN / DEO PATRI DICATVS, PASTOR</head>	
-
+               <head>IACOBI BONI RACVSAEI / HIERARCHIAE PRIMAE CHORVS / PRIMVS, SERAPHIN / DEO PATRI DICATVS, PASTOR</head>
                <l n="1.1">Bis genitum regem, Diuina, humanaque pandam</l>
                <l n="1.2">Concilia, et causas, quibus utraque germen in unum</l>
                <l n="1.3">Virgineo natura sinu permista coiuit,</l>
@@ -601,7 +393,7 @@
                <l n="1.6">Et Patris, et Nati non enarrabilis ardor,</l>
                <l n="1.7">Pande uiam Vati, celsoque allapsus Olympo</l>
                <l n="1.8">Grata Salutiferi memora cunabula Christi,</l>
-               <l n="1.9">Tempus erat Pacis, quo numine plena tumeret<note place="margin">❦</note> 
+               <l n="1.9">Tempus erat Pacis, quo numine plena tumeret<note place="margin">❦</note>
                </l>
                <l n="1.10">Diua parens, coeloque salus descenderet alto,</l>
                <l n="1.11">Quom pater haec nato superis in sedibus insit,</l>
@@ -627,7 +419,7 @@
                <l n="1.31">Haec innotescat Verbo manifesta renato.</l>
                <l n="1.32">Illa beatificam uideat lucemque, Deumque.</l>
                <l n="1.33">Haec caligantes tenebras eliminet, illa</l>
-               <milestone unit="page"/>                                                  
+               <milestone unit="page"/>
                <l n="1.34">Numina subsannet cultu celebrata profano,</l>
                <l n="1.35">Atque suo authori credat, tum se ipse reflectat</l>
                <l n="1.36">Mundus amicitiae meliori foedere nexus,</l>
@@ -636,7 +428,7 @@
                <l n="1.39">Nam uelut a primo scelus exitiale parente</l>
                <l n="1.40">Serpit, et infectant contagia dira ueneno</l>
                <l n="1.41">Mortifero genus humanum, sic <choice>
-                     <sic>iussa</sic> 
+                     <sic>iussa</sic>
                      <corr>fusa</corr>
                   </choice> per omneis</l>
                <l n="1.42">Profluat ex uno uitalis gratia Christo.</l>
@@ -1082,8 +874,6 @@
             </div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc02" n="2">
                <head>Iacobi Boni Racusaei Hierarchiae Chorus .II. Cherubin Deo patri dicatus. Pastor.</head>
-
-
                <l n="2.1">Aurora interea croceo Titonia curru</l>
                <l n="2.2">Sole coloratis rutilans surgebat ab Indis,</l>
                <l n="2.3">Aduentante die, quom purior albicat aether,</l>
@@ -1162,7 +952,7 @@
                <l n="2.72">Et ratio, et uirtus sese in tua uiscera condet.</l>
                <l n="2.73">Tuque ideo, quem Diua tuo de sanguine gignes,</l>
                <l n="2.74">Filius excelsi, sanctumque uocabere germen.</l>
-               <l n="2.75"> 
+               <l n="2.75">
                   <choice>
                      <sic>Obliquus</sic>
                      <corr>Obliquas</corr>
@@ -1582,7 +1372,6 @@
             </div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc03" n="3">
                <head>Iacobi Boni Racusaei Hierarchiae primae Chorus tertius Throni, Deo Patri dedicatus, qui Pastor inscribitur.</head>
-
                <l n="3.1">Quum ea Virgineo processit corpore lampas,</l>
                <l n="3.2">Aetherio delapsa polo, tum protinus omnis</l>
                <l n="3.3">Mundus, et abiectis nox illa beata tenebris</l>
@@ -1810,7 +1599,7 @@
                <l n="3.213">Magnus aerias uincunt et cursibus auras. </l>
                <l n="3.214">Et Nubiae princeps sequitur, Chaldaeaque pubes, </l>
                <l n="3.215">Et proceres uastis animantibus horrida tranant </l>
-               <l n="3.216"> 
+               <l n="3.216">
                   <choice>
                      <sic>Aequota</sic>
                      <corr>aequora</corr>
@@ -1961,10 +1750,6 @@
                <l n="3.352">Sic et enim fatis portendi cernimus inquit. </l>
                <l n="3.353">Ergo hic Romanum si ius, si templa, Deosque</l>
                <milestone unit="page"/>
-
-
-
-
                <l n="3.354">Stare diu optamus, si te quoque, regnaque uestra, </l>
                <l n="3.355">O Rex, actutum nostris sic Consule rebus, </l>
                <l n="3.356">Tris ad colloquium iubeas accersere Reges, </l>
@@ -2066,7 +1851,6 @@
             </div>
             <div type="poesis-dedicatio" met="Sapphicum" xml:id="vgc-l1">
                <head>Laus et Dedicatio Hierarchiae primae / ad Deum Patrem.</head>
-
                <l n="l1.1">Laus, honor summo, et decus omne Patri,<note place="margin">❦</note>
                </l>
                <l n="l1.2">Qui Throno Coeli sedet eleuato, </l>
@@ -2092,7 +1876,6 @@
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc04" n="4">
                <head>Iacobi Boni Racusaei Hierarchiae secundae Chorus / quartus, Dominationes, Deo Filio dicatus, / qui Pastor inscribitur.</head>
-
                <l n="4.1">Vt Puer aeternae fulsit lux alma Diei, </l>
                <l n="4.2">Nocte abeunte, palam secreta antiqua reclusit, </l>
                <l n="4.3">Omnia qui nobis in se completa facrauit, </l>
@@ -2132,7 +1915,6 @@
                <l n="4.35">Iam uenit ad templum Coeli dominator et haeres </l>
                <l n="4.36">O fortunatum me, si tua saecla tulissent</l>
                <milestone unit="page"/>
-
                <l n="4.37">Parue Puer, quum te uidisse senilibus ulnis </l>
                <l n="4.38">Fas erat, et matrem uenerandam, coelica nossem </l>
                <l n="4.39">Lumina, pronus enim pedibus multa oscula ferrem, </l>
@@ -2174,9 +1956,6 @@
                <l n="4.75">Illa dies, noctesque domi, temploque manebat </l>
                <l n="4.76">Orando, et uiduos artus ieiuna domando.</l>
                <milestone unit="page"/>
-
-
-
                <l n="4.77">Illius ut praesens hausit mens Enthea numen, </l>
                <l n="4.78">Plenaque Diuini radiis inclaruit astri. </l>
                <l n="4.79">Illam omnis templo, Coeloque ascripta iuuentus, </l>
@@ -2220,10 +1999,6 @@
                <l n="4.115">Et celerem cum matre fugam, pete Nilus opimam </l>
                <l n="4.116">Qua rigat Aegyptum, foecundat et ubere pingui.</l>
                <milestone unit="page"/>
-
-
-
-
                <l n="4.117">Haec loca fida satis, statio tutissima uobis,</l>
                <l n="4.118">Hospitium populosa suo dabit aggere Memphis.</l>
                <l n="4.119">His aliquot dant fata dies agere otia terris,</l>
@@ -2266,10 +2041,6 @@
                <l n="4.155">Permissumque nefas infando Regis iniqui </l>
                <l n="4.156">Consilio, iustis quam debita tempora fatis</l>
                <milestone unit="page"/>
-
-
-
-
                <l n="4.157">Maturare sinat quidquid fit ubique malorum, </l>
                <l n="4.158">Quicquid agunt, alto Deus omnia lustrat Olympo, </l>
                <l n="4.159">Componitque uices, decoratque hoc ordine rerum, </l>
@@ -2408,9 +2179,9 @@
                <l n="4.284">Stellantes thalamos altis subit acta trophaeis. </l>
                <l n="4.285">Interea templi sacratas itur ad arces,<note place="margin">❦</note>
                </l>
-               <l n="4.286"> 
+               <l n="4.286">
                   <choice>
-                     <sic>Quos</sic> 
+                     <sic>Quos</sic>
                      <corr>quas</corr>
                   </choice> omnis Iudaea petit, quos misit Ioppe. </l>
                <l n="4.287">Quos Hiericontea Chariotide consita tellus, </l>
@@ -2443,16 +2214,7 @@
                <l n="4.314">Non tibi uasa auri, nec caesa armenta piabo, </l>
                <l n="4.315">Signa breui haec tantum posui pereuntia saeclo. </l>
                <l n="4.316">Hostia uera tibi Christus, templum, arca, sacerdos,</l>
-
-
-
-
-
-
-
-
                <milestone unit="page"/>
-
                <l n="4.317">Sic tibi complacui, completaque cuncta sacraui, </l>
                <l n="4.318">Non inuita Pater, sed qui mihi corde fideli, </l>
                <l n="4.319">Sponte litant et ore domum coeunt sub unam, </l>
@@ -2495,17 +2257,7 @@
                <l n="4.354">Curas nate meas omneis, onus omne leuabas. </l>
                <l n="4.355">Hei mihi quo uadam? quo te mea summa uoluptas </l>
                <l n="4.356">Quaeret moesta parens? ubi nunc mea uita moraris?</l>
-
-
-
-
-
-
-
-
                <milestone unit="page"/>
-
-
                <l n="4.357">Quem mihi nunc praefers? hostis tua terra mihi te </l>
                <l n="4.358">Eripuit, tua festa dies, pompaeque fugaces. </l>
                <l n="4.359">Eheu? quid faciam? quo te mi nate requiram? </l>
@@ -2546,15 +2298,7 @@
                <l n="4.394">Quoi mater, nec enim dolor amplius, ore recessit </l>
                <l n="4.395">Triste supercilium, sed non amor obticet, inquit. </l>
                <l n="4.396">Nate quid hoc actum per te est? sic anxia mater,</l>
-
-
-
-
-
-
                <milestone unit="page"/>
-
-
                <l n="4.397">Sic Pater ipse dolens te quaerebamus euntes</l>
                <l n="4.398">Men? quae causa fuit? quid quaerebatis euntes? </l>
                <l n="4.399">Inde refert, en scire iuuat, genitoris ut ipsis </l>
@@ -2669,7 +2413,6 @@
             </div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc05" n="5">
                <head>Iacobi Boni Racusaei Hierarchiae secundae Chorus .V. / Principatus Deo Filio Dedicatus, / qui Pastor incribitur.</head>
-
                <l n="5.1">Protinus aerias alpes, iuga summa citatus </l>
                <l n="5.2">Per Hiericontini sinuosa cacumina montis </l>
                <l n="5.3">Emicat, hic uanos saecli calcauit honores, </l>
@@ -3232,7 +2975,6 @@
             </div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc06" n="6">
                <head>Iacobi Boni Racusaei Hierarchiae secundae  Chorus .VI. / Potestates Deo Filio, qui Pastor inscribitur.</head>
-
                <l n="6.1">Electis ducibus medius Rex ipse resedit </l>
                <l n="6.2">Arduus aeria sublimis in arce Taboris, </l>
                <l n="6.3">Praemia uirtutum, et morum documenta daturus, </l>
@@ -3769,7 +3511,6 @@
             </div>
             <div type="poesis-dedicatio" met="Sapphicum" xml:id="vgc-l2">
                <head>Laus et dedicatio Hierarchiae secundae / Ad Deum Filium.</head>
-
                <l n="l2.1">O quibus porro memorem camoenis<note place="margin">❦</note>
                </l>
                <l n="l2.2">Christe te, totis celebrande terris? </l>
@@ -3801,7 +3542,6 @@
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc07" n="7">
                <head>Iacobi Boni Racusaei Hierarchiae <sic>tertii</sic> Chorus  .VII. / Virtutes, Deo Spiritui Sancto dicatus, / qui Pastor inscribitur. </head>
-
                <l n="7.1">Postquam oris rosei uallo compressit eburno,</l>
                <l n="7.2">Manantem et tenuit foelici flumine linguam. </l>
                <l n="7.3">Consilio arcano penetrali in fonte quieuit. </l>
@@ -4346,8 +4086,7 @@
                <l n="7.517">Langores hominum qui funditus enecat omneis.</l>
             </div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc08" n="8">
-               <head>Iacobi Boni Racusaei Hierarchiae tertiae Chorus .VIII. / Archangeli Deo Spiritui Sancto dicatus / qui Pastor inscribitur.</head>     
-
+               <head>Iacobi Boni Racusaei Hierarchiae tertiae Chorus .VIII. / Archangeli Deo Spiritui Sancto dicatus / qui Pastor inscribitur.</head>
                <l n="8.1">Hinc animaduertit turbas sua castra sequentes </l>
                <l n="8.2">In quascunque uias ibant, has sternere passim </l>
                <l n="8.3">Corpora sub diuo, sub aperto sydere Iesus. </l>
@@ -4911,7 +4650,6 @@
             </div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc09" n="9">
                <head>Iacobi Boni Racusaei Hierarchiae tertiae Chorus  .IX. / Angeli Deo Spiritui Sancto dedicatus, / qui Pastor inscribitur.</head>
-
                <l n="9.1">Christus ut inde uiam, et caeptas molitur habenas,</l>
                <l n="9.2">Bethaniam uenit, et munitam scandit in arcem</l>
                <l n="9.3">Palladii montis, nec inhospita lumina Marthae.</l>
@@ -5474,10 +5212,7 @@
                <l n="9.506">Septiforem recinet, mea si mihi diua supersit.</l>
             </div>
             <div type="poesis-dedicatio" met="Sapphicum" xml:id="vgc-l3">
-
                <head>Laus et Dedicatio Hierarchiae tertiae ad / Deum Spiritum Sanctum.</head>
-
-
                <l n="l3.1">Quas agam laudes recinente plectro?<note place="margin">❦</note>
                </l>
                <l n="l3.2">Pro tuis donis tibi summa sancti</l>
@@ -5514,9 +5249,6 @@
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc10" n="10">
                <head>Iacobi Boni Racusaei Donum primum Pastoralis <pb/> Tibiae Virgini Matri dedicatum.</head>
-
-
-
                <l n="10.1">Incipe septiforem mea Tibia dicere cantum,</l>
                <l n="10.2">Maxima dona Dei, sanctum meditare timorem,</l>
                <l n="10.3">Ipsa nouem gradibus triades efusa per latas</l>
@@ -6386,9 +6118,7 @@
                <l n="10.806">Iure potest aliquis, nisi sit praecognita iudex.</l>
             </div>
             <div type="poesis-dedicatio" met="hendecasyllabus" xml:id="vgc-l4">
-
                <head>Dedicatio doni primi ad / Matrem Virginem.</head>
-
                <l n="l4.1">Omnis gloria quae deo dicatur,</l>
                <l n="l4.2">Iure hanc possidet optimo, tenetque</l>
                <l n="l4.3">Mater sola dei, suae decorum</l>
@@ -6404,8 +6134,6 @@
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc11" n="11">
                <head>Iacobi Boni Rac. Donum secundum / Pastoralis Tibiae Matri Clementiae / dedicatum Pietas.</head>
-
-
                <l n="11.1">Christus oliueti montem petit, altera postquam</l>
                <l n="11.2">Orta dies, tum templa subit, populosque docebat.</l>
                <l n="11.3">Suscitat interea Daemon noua milite <sic>uafro</sic>
@@ -6682,7 +6410,7 @@
                <l n="11.262">Hoc ego sum mundo coelo delapsus ab alto</l>
                <l n="11.263">Iudicium, quo nocte dies dissultet ab atra,</l>
                <l n="11.264">Lumina quo coeci uideant, orbentur habentes,</l>
-               <l n="11.265"> 
+               <l n="11.265">
                   <corr>Haec</corr>  Christus.  contra pharisaeus opacior orco,</l>
                <l n="11.266">Ergo ne iam sine luce sumus? respondit Iesus.</l>
                <l n="11.267">Si sine luce fores, o, gens, et labe careres,</l>
@@ -7276,9 +7004,7 @@
                <l n="11.824">Christus ait, nam qui non obstat, fautor habetur.</l>
             </div>
             <div type="poesis-dedicatio" met="Sapphicum" xml:id="vgc-l5">
-
                <head>Dedicatio Doni secundi ad / Matrem Pietatis.</head>
-
                <l n="l5.1">Coelitum regis generosa Mater,</l>
                <l n="l5.2">Fontis aeterni pietate manans,</l>
                <l n="l5.3">Quem paris Virgo, supero et fruendum</l>
@@ -7297,7 +7023,6 @@
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc12" n="12">
                <head>Iacobi Boni Racusaei, Donum Tertium / Pastoralis Tibiae Matri <corr>Scientiae</corr> / Dedicatum Scientia.</head>
-
                <l n="12.1">Atqui tyrones a nostro auertere bello</l>
                <l n="12.2">Militiam quicunque meo iam Marte sequuntur,</l>
                <l n="12.3">Ausus erit, (sarmenta nouae diuellere pubis),</l>
@@ -8179,7 +7904,6 @@
             </div>
             <div type="poesis-dedicatio" met="hendecasyllabus" xml:id="vgc-l6">
                <head>Dedicatio Doni Tertii ad / Matrem Scientiae.</head>
-
                <l n="l6.1">Quam mari magno fluuii minores,</l>
                <l n="l6.2">Tam uiros omneis Sophia <sic>supestas</sic>,</l>
                <l n="l6.3">Mentis et uentris ueneranda mater,</l>
@@ -8198,7 +7922,6 @@
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc13" n="13">
                <head>Iacobi Boni Racusaei, Donum Quartum / Tibiae Pastoralis Martyrum Matri / dedicatum Fortitudo.</head>
-
                <l n="13.1">Mensis erat, quoi Roma suum mauortia nomen</l>
                <l n="13.2">Martius imposuit, quo lutea lumine Phoebe</l>
                <l n="13.3">Fraterno magis aucta nouem praeueterat orbes.</l>
@@ -9071,11 +8794,7 @@
                <l n="13.821">Maius onus, maiorque exactio quaeritur inde.</l>
             </div>
             <div type="poesis-dedicatio" met="Sapphicum" xml:id="vgc-l7">
-
                <head>Dedicatio Doni Quarti ad Matrem / FORTITUDINIS.</head>
-
-
-
                <l n="l7.1">Quae Deos omneis hominesque uictrix<note place="margin">❦</note>
                </l>
                <l n="l7.2">Bellico fortis superas triumpho,</l>
@@ -9097,9 +8816,6 @@
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc14" n="14">
                <head>Iacobi Boni Racusaei Donum Quintum / Pastoralis Tibiae Deo Patri / Dedicatum Consilium.</head>
-
-
-
                <l n="14.1">Panditur interea Coeli inuiolabile regnum</l>
                <l n="14.2">Virginibus, dena quae accaeptis lampade lychnis</l>
                <l n="14.3">Ire parant obiter uenientibus aethere nuptis.</l>
@@ -9262,7 +8978,7 @@
                <l n="14.152">Miscuit, arte ferox infanda, et iunxit Erinnys.</l>
                <l n="14.153">Proh scelus exultant in crimine, uenitur auro</l>
                <l n="14.154">Iustitia, et uili Christus uenalis in aula est.</l>
-               <l n="14.155"> 
+               <l n="14.155">
                   <choice>
                      <sic>Argenri</sic>
                      <corr>argenti</corr>
@@ -9545,7 +9261,7 @@
                <l n="14.420">Sermonemque tuum qui seruauere, fidemque.</l>
                <l n="14.421">Omnia quin etiam mihi tu quaecunque dedisti.</l>
                <l n="14.422">Cognouere sinu per me fluxisse paterno,</l>
-               <l n="14.423"> 
+               <l n="14.423">
                   <corr>Per me</corr>, qui tua uerba pio sub pectore figunt,</l>
                <l n="14.424">Me nouere tuo ueracem lumine lucem.</l>
                <l n="14.425">Hos cape iam, et defende tuo mucrone tuendos,</l>
@@ -9969,8 +9685,6 @@
             </div>
             <div type="poesis-dedicatio" met="hexameter" xml:id="vgc-l8">
                <head>Laus et Dedicatio / Doni Quinti / Deo Patri</head>
-
-
                <l n="l8.1">Sancte pater, quem res hominum, et genus omne fatentur<note place="margin">❦</note>
                </l>
                <l n="l8.2">Esse deum, sed non tua mox et lumina credunt,</l>
@@ -9987,8 +9701,6 @@
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc15" n="15">
                <head>Iacobi Boni Rac. Donum Sextum Pastoralis / Tibiae Iesu Christo dei filio dedicatum. (Intellectus).</head>
-
-
                <l n="15.1">Oceano interea plenissima Luna refuso</l>
                <l n="15.2">Conditur, extinctis stellata nocte Lucernis,</l>
                <l n="15.3">Moestaque supremum timuerunt sydera finem,</l>
@@ -10448,7 +10160,7 @@
                <l n="15.437">Placabit coelo? tunc has super ethera uoces</l>
                <l n="15.438">Ore ferens, imo gemitus a corde ciebat.</l>
                <l n="15.439">Vos, o, qui pedibus loca terrae, seu mare uastum</l>
-               <l n="15.440"> 
+               <l n="15.440">
                   <choice>
                      <sic>Pupibus</sic>
                      <corr>puppibus</corr>
@@ -10861,8 +10573,6 @@
             </div>
             <div type="poesis-dedicatio" met="hexameter" xml:id="vgc-l9">
                <head>Dedicatio Doni Sexti ad Iesum Christum Dei filium.</head>
-
-
                <l n="l9.1">Christe triumphato qui tartara pandis Abyso,</l>
                <l n="l9.2">Manibus ereptis diti, coelumque recludis,</l>
                <l n="l9.3">Suscipe uictor ouans haec quae tibi scripta icamus.</l>
@@ -10879,9 +10589,7 @@
          <div>
             <div type="poesis-liber" met="hexameter" xml:id="vgc16" n="16">
                <head>SAPIENTIA / Iacobi Boni Rac. Donum Septimum Tibiae Pastoralis Deo spiritui sancto dedicatum.</head>
-
-
-               <l n="16.1"> 
+               <l n="16.1">
                   <choice>
                      <sic>Proiicie</sic>
                      <corr>proiice</corr>
@@ -11305,7 +11013,7 @@
                <l n="16.395">Mene Simon Ioannis amas? hoc territa dicto</l>
                <l n="16.396">Pectora tristantur Petri, tum dicit Iesu,</l>
                <milestone unit="page"/>
-               <l n="16.397"> 
+               <l n="16.397">
                   <choice>
                      <sic>Omniaqui</sic>
                      <corr>omnia qui</corr>
@@ -11547,7 +11255,6 @@
             </div>
             <div type="poesis-dedicatio" met="hexameter" xml:id="vgc-l10">
                <head>Dedicatio Doni Septimi ad Spiritum Sanctum.</head>
-
                <l n="l10.1">O, Patris et nati pietas ab utroque uicissim<note place="margin">❦</note>
                </l>
                <l n="l10.2">Vna pari substans spiramine, parque potestas.</l>
@@ -11559,8 +11266,6 @@
                <l n="l10.8">Hic tuus est pastor, tua Tibia, Musaque uenit</l>
                <l n="l10.9">Tincta lepore tuo mihi te dictante Magistro.</l>
                <l n="l10.10">Pande tuum uatem populis tua gesta canentem.</l>
-
-
             </div>
          </div>
       </body>

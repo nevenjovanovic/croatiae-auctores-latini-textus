@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="andreis-f-epigr">
          <titleStmt>
             <title>Quattuor epigrammata in libris, versio electronica</title>
@@ -39,56 +40,6 @@
             <bibl>Augsburg; Staats- und Stadtbibliothek, Ms. Cod. Aug. 406 a. cart. misc. s. XVI., f. 30</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="5"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="4"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="4"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="105"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -131,19 +82,16 @@
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </persName>        
+            </persName>
             <date>2011-11-27</date>
         TEI zaglavlje, formatiranje
       </change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <div type="epigramma" met="asclepiadeum-primum">
-        
             <head>Tranquilli Parthenij in Pomponium Melam carmen Asclepiadeum</head>
-        
-
             <l>Quicquid sub gelido sydere desidet</l>
             <l>Telluris solidae, quicquid et aestuans</l>
             <l>Cancri perpetuis zona caloribus</l>
@@ -215,13 +163,9 @@
             <l>Et tandem patriis sedibus immorans</l>
             <l n="70">Nosces Persephones multiplices domos,</l>
             <l>Quascunque radiis Delius aspicit.</l>
-
          </div>
-      
-      
-        <div type="epigramma" met="elegiacum">
+         <div type="epigramma" met="elegiacum">
             <head>Tranquilli Parthenii Ragusini carmen</head>
-          
             <l>Qui modo in obscuris iacuit Pomponius oris,</l>
             <l met="pentameter">Difficilis, durus nec minus asper erat;</l>
             <l>Oedipodis quem uix aperiret cura labroque,</l>
@@ -232,12 +176,9 @@
             <l met="pentameter">Plurima sed multis contulit historiis.</l>
             <l>Quid non huic debes docto, Germania, uati?</l>
             <l n="10" met="pentameter">Excolit hic nomen progeniemque tuam.</l>
-          
-        </div>
+         </div>
          <div type="epigramma" met="elegiacum">
             <head>Ad excellentissimum uirum, maximum antiquitatis ac litterarum obseruatorem, dominum Conradum Peittinger, utriusque iuris doctorem, Tranquillus Parthenius</head>
-        
-        
             <l>Inclyte sacrarum custos sanctissime legum,</l>
             <l met="pentameter">Conrade, Aonii maxima cura gregis,</l>
             <l>Quem proceres magnique duces, quem Caesar honore</l>
@@ -254,12 +195,9 @@
                <sic>Efficient</sic> nullo cura dolorque modo</l>
             <l>Quin, Conrade, tuae cupiam meminisse Mineruae,</l>
             <l met="pentameter">Deditus ingenio pectoribusque tuis.</l>
-        
          </div>
-      
          <div type="epigramma" met="elegiacum">
             <head>Tranquillus Parthenius Dalmata ad lectorem</head>
-        
             <l>Quicquid in Hesperia Latię excoluere Camęnę</l>
             <l met="pentameter">Gallicaque et quondam Graia Minerua dedit,</l>
             <l>Eckius excelsa passim virtute refulgens</l>
@@ -270,16 +208,10 @@
             <l met="pentameter">Exuperant vires ardua nempe leues;</l>
             <l>Eckius ingenio quod transuolet astra polumque,</l>
             <l n="10" met="pentameter">Nemo hoc diuini muneris esse negat.</l>
-        
             <closer>
                <dateline>Ex Ingoldstat</dateline>
             </closer>
-        
-        
-        
-        
          </div>
-          
       </body>
-  </text>
+   </text>
 </TEI>

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="rozan-i-adventu-capello-1504">
          <titleStmt>
             <title>In aduentu clarissimi uiri Aloysii Capello, Spalatine urbis prętoris dignissimi (1504), versio electronica</title>
             <author ref="rozan02">
-               <persName xml:lang="hr">Rozan, Ivan</persName> 
+               <persName xml:lang="hr">Rozan, Ivan</persName>
                <persName xml:lang="la">Rosanus, Ioannes</persName>
                <date>floruit 1499–1507</date>
             </author>
@@ -29,58 +29,18 @@
          <extent ana="B">Mg:B verborum 969, versuum 144</extent>
          <publicationStmt>
             <p>Versio electronica TEI XML: Croatiae auctores Latini, indagatio in <orgName>
-               <ref type="viaf" target="124389134">Facultate philosophica Universitatis Zagrabiensis</ref>
-            </orgName>, <placeName ref="3186886">Zagreb</placeName>, Croatia, <date>mense Decembri 2019.</date>
+                  <ref type="viaf" target="124389134">Facultate philosophica Universitatis Zagrabiensis</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>, Croatia, <date>mense Decembri 2019.</date>
             </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Lučin, Bratislav i Ioannes Rosanus. "Novi je knez došao u grad: pozdravni govor
                Splićanina Ivana Rozana u čast Alviza Cappella." Colloquia Maruliana 28
-               (2019): 111-141. <ref type="internet"
-                  >https://hrcak.srce.hr/219716</ref></bibl>
+               (2019): 111-141. <ref type="internet">https://hrcak.srce.hr/219716</ref>
+            </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <!-- CTS for a single poem in document -->
-         <refsDecl n="CTS">
-            <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div)"
-               n="paragraph">
-               <p>This pointer pattern extracts section</p>
-            </cRefPattern>
-            <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p)"
-               n="paragraph">
-               <p>This pointer pattern extracts line</p>
-            </cRefPattern>
-            <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:opener)"
-               n="opener">
-               <p>This pointer pattern extracts opener</p>
-            </cRefPattern>
-            <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p/tei:q)"
-               n="opener">
-               <p>This pointer pattern extracts quote</p>
-            </cRefPattern>
-            <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p/tei:quote)"
-               n="opener">
-               <p>This pointer pattern extracts citation</p>
-            </cRefPattern>
-            <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p/tei:quote/tei:l)"
-               n="opener">
-               <p>This pointer pattern extracts verse line</p>
-            </cRefPattern>
-            <cRefPattern matchPattern="(\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:head)"
-               n="verse">
-               <p>This pointer pattern extracts heading</p>
-            </cRefPattern>
-         </refsDecl>
-      </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -126,7 +86,8 @@
          </listChange>
       </revisionDesc>
    </teiHeader>
-   <text xml:base="urn:cts:croala:rozan02.croala4716816.croala-lat1:" xml:lang="lat">
+   <text xml:base="urn:cts:croala:rozan02.croala4716816.croala-lat1:"
+         xml:lang="lat">
       <body>
          <div type="prosa-epistula-dedicatio">
             <opener> Ioannes Rosanus magnifico Marino felicitatem dicit </opener>
@@ -298,9 +259,12 @@
                alueum cum preciosissima Mitridatis dactilotheca. </p>
             <p>Sed ne iam mea oratio elephantes gestare uideatur, nunc tibi, reuerende pontifex,
                tibi, clarissime pretor, hoc institutum, hoc mnemosomum, hanc benedictionem relinquo:
-                     <quote><l>Viuite concordes ut uitis palmite et ulmo,</l>
+                     <quote>
+                  <l>Viuite concordes ut uitis palmite et ulmo,</l>
                   <l>Vt truncis hederę; non gaudia uestra triumphus</l>
-                  <l>Vincat Cęsareus, plausus non scoene theatri.</l></quote></p>
+                  <l>Vincat Cęsareus, plausus non scoene theatri.</l>
+               </quote>
+            </p>
             <p>Dixi.</p>
          </div>
       </body>

@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="marulus-m-carmina007">
          <titleStmt>
             <title>Carmina Latina VII, versio electronica</title>
@@ -45,66 +46,6 @@
             <bibl>Francisco Javier Juez y Gálvez, Maruliana u Kolumbovoj knjižnici u Sevilli, Colloquia Maruliana, Vol.14 Travanj 2005. Str. 199 - 233</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="15"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="5"/>
-          <tagUsage gi="body" occurs="12"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="div" occurs="210" withId="194"/>
-          <tagUsage gi="docTitle" occurs="2"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="6"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="13"/>
-          <tagUsage gi="gap" occurs="2"/>
-          <tagUsage gi="group" occurs="1"/>
-          <tagUsage gi="head" occurs="208"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2206" withId="64"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="39"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="7"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="10"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="11" withId="2"/>
-          <tagUsage gi="ref" occurs="8"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="sp" occurs="36"/>
-          <tagUsage gi="speaker" occurs="25"/>
-          <tagUsage gi="tagUsage" occurs="50"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="9"/>
-          <tagUsage gi="text" occurs="13"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="2"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -170,244 +111,242 @@
       </change>
          <change>
             <date>2005-04-08T17:24:54</date>
-            <persName><ref type="viaf" target="6913774">Neven Jovanovic</ref></persName> revision </change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanovic</ref>
+            </persName> revision </change>
       </revisionDesc>
-  </teiHeader>
-  
-   <text xml:base="urn:cts:croala:marulus-m.carmina007.croala-lat1:" xml:lang="lat">
-            <front>
-               <head>POSLANICE I ELEGIJE</head>
-            </front>
-            <body>
-               
-
-                  <div xml:id="C163" met="elegiacum">
-                     <head> Francisco Natali Marci Maruli in Valle surda commorantis responsio</head>
-                     <l>Grata salutatrix a te mihi littera uenit</l>
-                     <l> O Francisce, meę cultor amicicię!</l>
-                     <l>Hęc docuit quanto est absentia nostra dolori</l>
-                     <l> His quibus extiteram semper in urbe comes.</l>
-                     <l n="5">Tum quod tristitię cumulus superadditur isti </l>
-                     <l> Dum pecus in prędam ferri hominesque uident.</l>
-                     <l>Ferre utrumque malum mentique mederier ęgrę</l>
-                     <l> Dicere conabor qua ratione decet.</l>
-                     <l>Insula me retinet quę, scis, non amplius ista</l>
-                     <l> Quam stadiis decies distat ab urbe decem. <note type="numvers">10</note>
-                     </l>
-                     <l>Quod si forte uelint mecum simul esse sodales</l>
-                     <l> Et nostra cupiunt rusticitate frui,</l>
-                     <l>Acta ratis remo septenis ocius horis</l>
-                     <l> Sistet in hoc illos quo moror ipse loco.</l>
-                     <l n="15">Excipiam lętus uenientes; brachia collo </l>
-                     <l> Aduoluam, labris labra genisque genas.</l>
-                     <l>Inde recumbentes oleę uiridantis in umbra,</l>
-                     <l> Placati iuxta murmura blanda freti,</l>
-                     <l>Alterno dulces miscebimus ore profatus</l>
-                     <l> Dum pueri mensas prandiolumque parant. <note type="numvers">20</note>
-                     </l>
-                     <l>Mox inuitati pergemus sumere non quas</l>
-                     <l> Dicitur Antoni mensa uorasse dapes,</l>
-                     <l>Nec patinas, Luculle, tuas pinguesue capones,</l>
-                     <l> Siue papillatę sumina grata suis,</l>
-                     <l n="25">Sed cenam cui dimisso Serranus aratro </l>
-                     <l> Vellet honoratas applicuisse manus,</l>
-                     <l>Et qua contentus Samnitum sperneret aurum</l>
-                     <l> Vir pręstans animo Curius atque fide.</l>
-                     <l>Pulmento satiare famem potuque leuare</l>
-                     <l n="30"> Simpliciore sitim creditur esse satis </l>
-                     <l>Laudeque tam dignum quam prorsus turpe putatur</l>
-                     <l> Esse suę seruum mancipiumque gulę.</l>
-                     <l>Cena tamen uobis dabitur magis ampla, sodales,</l>
-                     <l> Nostri ruris opes: brassica, beta, cicer,</l>
-                     <l n="35">Et de uicino capti modo gurgite pisces: </l>
-                     <l> Sargus, męna, canis, sepia, salpa, lupus.</l>
-                     <l>Pocula non deerunt Baccho saturata rubello</l>
-                     <l> Quęque solet rigidum lympha domare merum.</l>
-                     <l>Denique quę mensę donat Pomona secundę,</l>
-                     <l n="40"> Vel pira uel ficos uel melimela dabo. </l>
-                     <l>Ergo, si qua meos nunc cura fatigat amicos</l>
-                     <l> Visendique mei si qua cupido tenet,</l>
-                     <l>Dic ueniant – iter est modici, Francisce, laboris – </l>
-                     <l> Cumque illis, si me diligis, ipse ueni.</l>
-                     <l n="45">Non sic aduentu quondam lętatus Ulyxis </l>
-                     <l> Hortorum cultor dicitur Alcinous,</l>
-                     <l>Nec tanto exceptum pastoris amore Molorchi =</l>
-                     <l> Amphitrioniadem fama fuisse refert,</l>
-                     <l>Ipse ego quam uobis hilari ferar obuius ore</l>
-                     <l n="50"> Et toto cędam protinus hospitio! </l>
-                     <l>Cunctorum, quęcunque Deus mihi donat, amicos </l>
-                     <l> Consortes fieri participesque uolo.</l>
-                     <l>Solari interea Martis, Francisce, maligni</l>
-                     <l> Casibus afflictos hac ratione potes:</l>
-                     <l n="55">Nec frangi aduersis nec lętis fidere rebus </l>
-                     <l> Egregium quiddam magnificumque putent.</l>
-                     <l>Terrarum nihil orbis habet firmumue ratumue:</l>
-                     <l> Omnia non stabili fertque refertque rota.</l>
-                     <l>Irus ut in Croesum, sic Croesus transit in Irum,</l>
-                     <l> De misero locuplex, de locuplete miser. <note type="numvers">60</note>
-                     </l>
-                     <l>Seruitio premitur dudum qui sceptra tenebat,</l>
-                     <l> Sceptra tenens regnat qui modo seruus erat.</l>
-                     <l>Denique cunctarum sunt magna uolumina rerum</l>
-                     <l> Atque agitat uarias sors animosa uices.</l>
-                     <l n="65">Illo igitur nostrę mentes et uota ferantur </l>
-                     <l> Est ubi perpetui mansio certa boni,</l>
-                     <l>Christicolas immensa beant ubi gaudia fidos,</l>
-                     <l> Gaudia non ulla deperitura die.</l>
-                     <l>Nil hostile timent, nec quicquam triste uerentur,</l>
-                     <l n="70"> Conspectum summi qui meruere Dei. </l>
-                     <l>Ipse quidem nobis cęlesti in lumine sedem</l>
-                     <l> Esse iubet, non quam nunc habitamus humum.</l>
-                     <l>Propterea quicunque gemit dispendia terrę,</l>
-                     <l> Fallitur hęc patrię si putat esse suę.</l>
-                     <l>Hic lugenda tamen prauę sunt crimina mentis, <note type="numvers">75</note>
-                     </l>
-                     <l> Vt dolor iratum mitiget iste Iouem.</l>
-                     <l>Hic culpas deflere docet, scandamus ut illo,</l>
-                     <l> Illo ubi tristities non habet ulla locum;</l>
-                     <l>Illo ubi lęta salus, pax candida, uita perennis,</l>
-                     <l n="80"> Et sine lite quies, et sine nocte dies. </l>
-                     <l>Hactenus hęc. Ipsos nunc nostra Thalia salutat</l>
-                     <l> Intima quos nobis iungit amicicia:</l>
-                     <l>Hieronymum cithara clarum, grauitate Marinum,</l>
-                     <l> Ruris et agrorum cultibus Aluisium,</l>
-                     <l n="85">Nicoleon risu facilem; sed ut ipse, iubemus, </l>
-                     <l> Ante salutetur Barbarus usque meus;</l>
-                     <l>Ille licet Musis et sanguine pręstet auorum,</l>
-                     <l> Non tamen inuitus carmina nostra legit.</l>
-                  </div>
-                  <div xml:id="C164" met="elegiacum">
-                     <head> Francisco Natali Marci Maruli responsio</head>
-                     <l>Angebant, Francisce, mei me funera fratris,</l>
-                     <l> Nulla quies lacrimis nec modus ullus erat.</l>
-                     <l>Omnibus ex illis fuit hic charissimus unus</l>
-                     <l> Quę quandoque animo grata fuere meo.</l>
-                     <l n="5">Non sic ipse suum dilexit Castora Pollux, </l>
-                     <l> Eurialus Niso non ita gratus erat.</l>
-                     <l>Illius affatu iocundo sępe fruebar,</l>
-                     <l> Nullo me facto lęserat ille suo.</l>
-                     <l>Promptus et urbanis fuerat disponere rebus</l>
-                     <l n="10"> Et regere inde suos sedulus usque lares. </l>
-                     <l>Illius cultu largo magis ubere glebę</l>
-                     <l> Frugibus implebant horrea nostra suis,</l>
-                     <l>Aprici colles et consita uitibus arua </l>
-                     <l> Vina cadis nostris uix capienda dabant.</l>
-                     <l n="15">Interea mihi multa quies et tempora lęta, </l>
-                     <l> Mens tamen in Musis ingeniumque fuit.</l>
-                     <l>Nunc illo amisso successit cura quieti,</l>
-                     <l> Dispulit adueniens ocia longa labor,</l>
-                     <l>Quęque aderant nobis procul effugere Camenę</l>
-                     <l> Deseruitque meam Pegasis unda sitim. <note type="numvers">20</note>
-                     </l>
-                     <l>Denique pressus ego tantorum mille laborum</l>
-                     <l> Optabam uitę fila suprema meę.</l>
-                     <l>Ast ubi missa mihi tua nuper carmina legi,</l>
-                     <l> Solamen casus grande fuere mei.</l>
-                     <l n="25">Abstersi lacrimas luctumque recedere iussi, </l>
-                     <l> Compulsus monitis consiliisque tuis.</l>
-                     <l>Dii tibi pro tali persoluant munere grates</l>
-                     <l> Fataque dent fatis candidiora meis.</l>
-                  </div>
-                  <div xml:id="C165" met="elegiacum" type="poesis-elegia">
-                     <head> Querela in canis sui Fusci interfectorem</head>
-                     <l>Hei mihi, Fusce meus, quis te tam uulnere diro</l>
-                     <l> Perdidit innocuum? Cui male notus eras?</l>
-                     <l>Dente minax nulli fueras nec uoce molestus,</l>
-                     <l> Sed cunctis lusu gratus et obsequio.</l>
-                     <l n="5">Tu mihi blanda dabas festiuo gaudia gestu </l>
-                     <l> Et caudę crebra mobilitate iocum.</l>
-                     <l>Tu custos nostrę fueras fidissimus aulę,</l>
-                     <l> Hesperidumque magis, Fusce, dracone uigil.</l>
-                     <l>At nunc uulnifico traiectus uiscera ferro</l>
-                     <l n="10"> In dura recubas sanguinolentus humo. </l>
-                     <l>Dextera sęua nimis, quę te, miserande, peremit,</l>
-                     <l> Quę mihi te rapuit, dextera sęua nimis!</l>
-                     <l>Illa etiam Getulos uicit feritate leones,</l>
-                     <l> Vicit et Hyrcanas asperitate tygres.</l>
-                     <l n="15">O utinam, quicunque fuit grassator et autor </l>
-                     <l> Cędis, Fusce, tuę, cęsus et ipse cadat,</l>
-                     <l>Siue canum rabido morsu laceretur, ut ille</l>
-                     <l> Gargaphiam uidit qui sine ueste deam!</l>
-                     <l>At tu, chare, super cęlestia sidera uiue,</l>
-                     <l n="20"> Quando tibi nostro est uita negata solo. </l>
-                     <l>Fertur et Erigones canis altis additus astris</l>
-                     <l> Dum queritur dominę tristia fata suę.</l>
-                     <l>Cur ego non sperem de te quoque tale futurum?</l>
-                     <l> Tam fidus dominę non fuit ille suę!</l>
-                  </div>
-                  <div xml:id="C166" met="elegiacum" type="poesis-elegia">
-                     <head> In somnum diurnum querela</head>
-                     <l>Vt quid ab ingenuo prohibes me, somne, labore?</l>
-                     <l> Nox data cum tibi sit, cur quoque luce uenis?</l>
-                     <l>Accire ecce paro pangenda ad carmina Musas,</l>
-                     <l> Tu tamen accitas pręuenis ecce deas!</l>
-                     <l n="5">Tunc pro litterulis cogor fecisse lituras, </l>
-                     <l> Donec cum calamo concidat ęgra manus.</l>
-                     <l>Si legere incipio uatum dictata priorum,</l>
-                     <l> Torpescit linguę te subeunte sonus.</l>
-                     <l>Pronum pono caput, pluteus languentia membra</l>
-                     <l n="10"> Excipit et totum iam sopor altus habet. </l>
-                     <l>Quando igitur uigilare datur, si luce negatur?</l>
-                     <l> Nam iuris tenebras dicimus esse tui.</l>
-                     <l>Ocia detestor, cogor tamen ocia semper</l>
-                     <l> Viribus euictus, somne, subire tuis.</l>
-                     <l>Nunquid Epimenides ego sum, quem tota sopore <note type="numvers">15</note>
-                     </l>
-                     <l> Perpetuo dicunt lustra quiesse decem?</l>
-                     <l>Nunquid ego Endimion, cui quondam colle sub alto</l>
-                     <l> Blanda quiescenti basia Luna dabat?</l>
-                     <l>I, potius segnes animos et corpora nulli</l>
-                     <l n="20"> Apta operi totos stertere coge dies. </l>
-                     <l>I, preme siluestres ursos uitulosque marinos</l>
-                     <l> Vel quos flagitiis inuigilare iuuat.</l>
-                     <l>Innocua est nobis, simplex sine crimine uita</l>
-                     <l> Et morum rectas tradere cura uias.</l>
-                     <l n="25">Insomnes mihi cęde dies, sub nocte licebit </l>
-                     <l> Me pręter ronchos nil agitare sinas.</l>
-                     <l>Sin me horis etiam pergas sopire diurnis,</l>
-                     <l> Nonne erit ista quies morte molesta magis?</l>
-                     <l>Mors etenim solos dissoluit corporis artus,</l>
-                     <l n="30"> Non animos perimit nec uigilare uetat. </l>
-                     <l>Tu me, somne, meam superans torpedine mentem</l>
-                     <l> Non ubi sum, non si sim quoque nosse sinis.</l>
-                  </div>
-                  <div xml:id="C167" met="elegiacum" type="poesis-elegia">
-                     <head> Ad Franciscum Martiniacum quod senectus non annis sed ualetudine conferenda est</head>
-                     <l>Sum quoniam, Francisce, tibi charissimus unus</l>
-                     <l> Optas me multas uiuere Olympiadas;</l>
-                     <l>Hoc propter uotis diuos precibusque fatigas</l>
-                     <l> Nec cessas sacris thura cremare focis.</l>
-                     <l n="5">Accipe sed quare longeuę tempora uitę </l>
-                     <l> Despiciam: uitii est plena senecta sui.</l>
-                     <l>Curuatur dorsum, titubat pes, membra tremiscunt,</l>
-                     <l> Caligant oculi, dens cadit, ora rigent.</l>
-                     <l>Laxa cutis fluitat, caluum caput ictibus urgent</l>
-                     <l> Crabro, uespa, culex, musca, tabanus, apis. <note type="numvers">10</note>
-                     </l>
-                     <l>Elanguent sensus nec quicquam dulce palato est</l>
-                     <l> Inque caua assiduus tintinat aure sonus.</l>
-                     <l>Crebrescunt morbi, quatit artus tussis anhellos,</l>
-                     <l> Consumit tabes et mala mille premunt.</l>
-                     <l n="15">Inde etiam mentem solet infestare frenesis </l>
-                     <l> Et fit delyrus qui catus ante fuit.</l>
-                     <l>Adde quod et mortes et plurima damna suorum</l>
-                     <l> Cogitur exhausto lumine flere senex:</l>
-                     <l>Non natos Neleus spectasset ab hoste peremptos</l>
-                     <l n="20"> Consumptus senium si foret ante suum; </l>
-                     <l>Non uersa in cineres uidisset Pergama si non</l>
-                     <l> Ętate Anchises pręteriisset auos.</l>
-                     <l>Nolo mihi toties, Lachesis, tua stamina laxes</l>
-                     <l> Vt pigeat soles me numerare meos.</l>
-                     <l>Sit ualidum corpus, mens sana et criminis expers, <note type="numvers">25</note>
-                     </l>
-                     <l> Cum nos de terris cędere fata uolent.</l>
-                     <l>Tunc neque me ceruis, neque me cornice fatebor</l>
-                     <l> Viuacem, nec te, corue, fuisse minus.</l>
-                     <l>Hinc tu, qui multos optas me uiuere in annos,</l>
-                     <l n="30"> Sat multos annos esse ualere puta. </l>
-                  </div>
-               
-            </body>
-         </text>
-         
+   </teiHeader>
+   <text xml:base="urn:cts:croala:marulus-m.carmina007.croala-lat1:"
+         xml:lang="lat">
+      <front>
+         <head>POSLANICE I ELEGIJE</head>
+      </front>
+      <body>
+         <div xml:id="C163" met="elegiacum">
+            <head> Francisco Natali Marci Maruli in Valle surda commorantis responsio</head>
+            <l>Grata salutatrix a te mihi littera uenit</l>
+            <l> O Francisce, meę cultor amicicię!</l>
+            <l>Hęc docuit quanto est absentia nostra dolori</l>
+            <l> His quibus extiteram semper in urbe comes.</l>
+            <l n="5">Tum quod tristitię cumulus superadditur isti </l>
+            <l> Dum pecus in prędam ferri hominesque uident.</l>
+            <l>Ferre utrumque malum mentique mederier ęgrę</l>
+            <l> Dicere conabor qua ratione decet.</l>
+            <l>Insula me retinet quę, scis, non amplius ista</l>
+            <l> Quam stadiis decies distat ab urbe decem. <note type="numvers">10</note>
+            </l>
+            <l>Quod si forte uelint mecum simul esse sodales</l>
+            <l> Et nostra cupiunt rusticitate frui,</l>
+            <l>Acta ratis remo septenis ocius horis</l>
+            <l> Sistet in hoc illos quo moror ipse loco.</l>
+            <l n="15">Excipiam lętus uenientes; brachia collo </l>
+            <l> Aduoluam, labris labra genisque genas.</l>
+            <l>Inde recumbentes oleę uiridantis in umbra,</l>
+            <l> Placati iuxta murmura blanda freti,</l>
+            <l>Alterno dulces miscebimus ore profatus</l>
+            <l> Dum pueri mensas prandiolumque parant. <note type="numvers">20</note>
+            </l>
+            <l>Mox inuitati pergemus sumere non quas</l>
+            <l> Dicitur Antoni mensa uorasse dapes,</l>
+            <l>Nec patinas, Luculle, tuas pinguesue capones,</l>
+            <l> Siue papillatę sumina grata suis,</l>
+            <l n="25">Sed cenam cui dimisso Serranus aratro </l>
+            <l> Vellet honoratas applicuisse manus,</l>
+            <l>Et qua contentus Samnitum sperneret aurum</l>
+            <l> Vir pręstans animo Curius atque fide.</l>
+            <l>Pulmento satiare famem potuque leuare</l>
+            <l n="30"> Simpliciore sitim creditur esse satis </l>
+            <l>Laudeque tam dignum quam prorsus turpe putatur</l>
+            <l> Esse suę seruum mancipiumque gulę.</l>
+            <l>Cena tamen uobis dabitur magis ampla, sodales,</l>
+            <l> Nostri ruris opes: brassica, beta, cicer,</l>
+            <l n="35">Et de uicino capti modo gurgite pisces: </l>
+            <l> Sargus, męna, canis, sepia, salpa, lupus.</l>
+            <l>Pocula non deerunt Baccho saturata rubello</l>
+            <l> Quęque solet rigidum lympha domare merum.</l>
+            <l>Denique quę mensę donat Pomona secundę,</l>
+            <l n="40"> Vel pira uel ficos uel melimela dabo. </l>
+            <l>Ergo, si qua meos nunc cura fatigat amicos</l>
+            <l> Visendique mei si qua cupido tenet,</l>
+            <l>Dic ueniant – iter est modici, Francisce, laboris – </l>
+            <l> Cumque illis, si me diligis, ipse ueni.</l>
+            <l n="45">Non sic aduentu quondam lętatus Ulyxis </l>
+            <l> Hortorum cultor dicitur Alcinous,</l>
+            <l>Nec tanto exceptum pastoris amore Molorchi =</l>
+            <l> Amphitrioniadem fama fuisse refert,</l>
+            <l>Ipse ego quam uobis hilari ferar obuius ore</l>
+            <l n="50"> Et toto cędam protinus hospitio! </l>
+            <l>Cunctorum, quęcunque Deus mihi donat, amicos </l>
+            <l> Consortes fieri participesque uolo.</l>
+            <l>Solari interea Martis, Francisce, maligni</l>
+            <l> Casibus afflictos hac ratione potes:</l>
+            <l n="55">Nec frangi aduersis nec lętis fidere rebus </l>
+            <l> Egregium quiddam magnificumque putent.</l>
+            <l>Terrarum nihil orbis habet firmumue ratumue:</l>
+            <l> Omnia non stabili fertque refertque rota.</l>
+            <l>Irus ut in Croesum, sic Croesus transit in Irum,</l>
+            <l> De misero locuplex, de locuplete miser. <note type="numvers">60</note>
+            </l>
+            <l>Seruitio premitur dudum qui sceptra tenebat,</l>
+            <l> Sceptra tenens regnat qui modo seruus erat.</l>
+            <l>Denique cunctarum sunt magna uolumina rerum</l>
+            <l> Atque agitat uarias sors animosa uices.</l>
+            <l n="65">Illo igitur nostrę mentes et uota ferantur </l>
+            <l> Est ubi perpetui mansio certa boni,</l>
+            <l>Christicolas immensa beant ubi gaudia fidos,</l>
+            <l> Gaudia non ulla deperitura die.</l>
+            <l>Nil hostile timent, nec quicquam triste uerentur,</l>
+            <l n="70"> Conspectum summi qui meruere Dei. </l>
+            <l>Ipse quidem nobis cęlesti in lumine sedem</l>
+            <l> Esse iubet, non quam nunc habitamus humum.</l>
+            <l>Propterea quicunque gemit dispendia terrę,</l>
+            <l> Fallitur hęc patrię si putat esse suę.</l>
+            <l>Hic lugenda tamen prauę sunt crimina mentis, <note type="numvers">75</note>
+            </l>
+            <l> Vt dolor iratum mitiget iste Iouem.</l>
+            <l>Hic culpas deflere docet, scandamus ut illo,</l>
+            <l> Illo ubi tristities non habet ulla locum;</l>
+            <l>Illo ubi lęta salus, pax candida, uita perennis,</l>
+            <l n="80"> Et sine lite quies, et sine nocte dies. </l>
+            <l>Hactenus hęc. Ipsos nunc nostra Thalia salutat</l>
+            <l> Intima quos nobis iungit amicicia:</l>
+            <l>Hieronymum cithara clarum, grauitate Marinum,</l>
+            <l> Ruris et agrorum cultibus Aluisium,</l>
+            <l n="85">Nicoleon risu facilem; sed ut ipse, iubemus, </l>
+            <l> Ante salutetur Barbarus usque meus;</l>
+            <l>Ille licet Musis et sanguine pręstet auorum,</l>
+            <l> Non tamen inuitus carmina nostra legit.</l>
+         </div>
+         <div xml:id="C164" met="elegiacum">
+            <head> Francisco Natali Marci Maruli responsio</head>
+            <l>Angebant, Francisce, mei me funera fratris,</l>
+            <l> Nulla quies lacrimis nec modus ullus erat.</l>
+            <l>Omnibus ex illis fuit hic charissimus unus</l>
+            <l> Quę quandoque animo grata fuere meo.</l>
+            <l n="5">Non sic ipse suum dilexit Castora Pollux, </l>
+            <l> Eurialus Niso non ita gratus erat.</l>
+            <l>Illius affatu iocundo sępe fruebar,</l>
+            <l> Nullo me facto lęserat ille suo.</l>
+            <l>Promptus et urbanis fuerat disponere rebus</l>
+            <l n="10"> Et regere inde suos sedulus usque lares. </l>
+            <l>Illius cultu largo magis ubere glebę</l>
+            <l> Frugibus implebant horrea nostra suis,</l>
+            <l>Aprici colles et consita uitibus arua </l>
+            <l> Vina cadis nostris uix capienda dabant.</l>
+            <l n="15">Interea mihi multa quies et tempora lęta, </l>
+            <l> Mens tamen in Musis ingeniumque fuit.</l>
+            <l>Nunc illo amisso successit cura quieti,</l>
+            <l> Dispulit adueniens ocia longa labor,</l>
+            <l>Quęque aderant nobis procul effugere Camenę</l>
+            <l> Deseruitque meam Pegasis unda sitim. <note type="numvers">20</note>
+            </l>
+            <l>Denique pressus ego tantorum mille laborum</l>
+            <l> Optabam uitę fila suprema meę.</l>
+            <l>Ast ubi missa mihi tua nuper carmina legi,</l>
+            <l> Solamen casus grande fuere mei.</l>
+            <l n="25">Abstersi lacrimas luctumque recedere iussi, </l>
+            <l> Compulsus monitis consiliisque tuis.</l>
+            <l>Dii tibi pro tali persoluant munere grates</l>
+            <l> Fataque dent fatis candidiora meis.</l>
+         </div>
+         <div xml:id="C165" met="elegiacum" type="poesis-elegia">
+            <head> Querela in canis sui Fusci interfectorem</head>
+            <l>Hei mihi, Fusce meus, quis te tam uulnere diro</l>
+            <l> Perdidit innocuum? Cui male notus eras?</l>
+            <l>Dente minax nulli fueras nec uoce molestus,</l>
+            <l> Sed cunctis lusu gratus et obsequio.</l>
+            <l n="5">Tu mihi blanda dabas festiuo gaudia gestu </l>
+            <l> Et caudę crebra mobilitate iocum.</l>
+            <l>Tu custos nostrę fueras fidissimus aulę,</l>
+            <l> Hesperidumque magis, Fusce, dracone uigil.</l>
+            <l>At nunc uulnifico traiectus uiscera ferro</l>
+            <l n="10"> In dura recubas sanguinolentus humo. </l>
+            <l>Dextera sęua nimis, quę te, miserande, peremit,</l>
+            <l> Quę mihi te rapuit, dextera sęua nimis!</l>
+            <l>Illa etiam Getulos uicit feritate leones,</l>
+            <l> Vicit et Hyrcanas asperitate tygres.</l>
+            <l n="15">O utinam, quicunque fuit grassator et autor </l>
+            <l> Cędis, Fusce, tuę, cęsus et ipse cadat,</l>
+            <l>Siue canum rabido morsu laceretur, ut ille</l>
+            <l> Gargaphiam uidit qui sine ueste deam!</l>
+            <l>At tu, chare, super cęlestia sidera uiue,</l>
+            <l n="20"> Quando tibi nostro est uita negata solo. </l>
+            <l>Fertur et Erigones canis altis additus astris</l>
+            <l> Dum queritur dominę tristia fata suę.</l>
+            <l>Cur ego non sperem de te quoque tale futurum?</l>
+            <l> Tam fidus dominę non fuit ille suę!</l>
+         </div>
+         <div xml:id="C166" met="elegiacum" type="poesis-elegia">
+            <head> In somnum diurnum querela</head>
+            <l>Vt quid ab ingenuo prohibes me, somne, labore?</l>
+            <l> Nox data cum tibi sit, cur quoque luce uenis?</l>
+            <l>Accire ecce paro pangenda ad carmina Musas,</l>
+            <l> Tu tamen accitas pręuenis ecce deas!</l>
+            <l n="5">Tunc pro litterulis cogor fecisse lituras, </l>
+            <l> Donec cum calamo concidat ęgra manus.</l>
+            <l>Si legere incipio uatum dictata priorum,</l>
+            <l> Torpescit linguę te subeunte sonus.</l>
+            <l>Pronum pono caput, pluteus languentia membra</l>
+            <l n="10"> Excipit et totum iam sopor altus habet. </l>
+            <l>Quando igitur uigilare datur, si luce negatur?</l>
+            <l> Nam iuris tenebras dicimus esse tui.</l>
+            <l>Ocia detestor, cogor tamen ocia semper</l>
+            <l> Viribus euictus, somne, subire tuis.</l>
+            <l>Nunquid Epimenides ego sum, quem tota sopore <note type="numvers">15</note>
+            </l>
+            <l> Perpetuo dicunt lustra quiesse decem?</l>
+            <l>Nunquid ego Endimion, cui quondam colle sub alto</l>
+            <l> Blanda quiescenti basia Luna dabat?</l>
+            <l>I, potius segnes animos et corpora nulli</l>
+            <l n="20"> Apta operi totos stertere coge dies. </l>
+            <l>I, preme siluestres ursos uitulosque marinos</l>
+            <l> Vel quos flagitiis inuigilare iuuat.</l>
+            <l>Innocua est nobis, simplex sine crimine uita</l>
+            <l> Et morum rectas tradere cura uias.</l>
+            <l n="25">Insomnes mihi cęde dies, sub nocte licebit </l>
+            <l> Me pręter ronchos nil agitare sinas.</l>
+            <l>Sin me horis etiam pergas sopire diurnis,</l>
+            <l> Nonne erit ista quies morte molesta magis?</l>
+            <l>Mors etenim solos dissoluit corporis artus,</l>
+            <l n="30"> Non animos perimit nec uigilare uetat. </l>
+            <l>Tu me, somne, meam superans torpedine mentem</l>
+            <l> Non ubi sum, non si sim quoque nosse sinis.</l>
+         </div>
+         <div xml:id="C167" met="elegiacum" type="poesis-elegia">
+            <head> Ad Franciscum Martiniacum quod senectus non annis sed ualetudine conferenda est</head>
+            <l>Sum quoniam, Francisce, tibi charissimus unus</l>
+            <l> Optas me multas uiuere Olympiadas;</l>
+            <l>Hoc propter uotis diuos precibusque fatigas</l>
+            <l> Nec cessas sacris thura cremare focis.</l>
+            <l n="5">Accipe sed quare longeuę tempora uitę </l>
+            <l> Despiciam: uitii est plena senecta sui.</l>
+            <l>Curuatur dorsum, titubat pes, membra tremiscunt,</l>
+            <l> Caligant oculi, dens cadit, ora rigent.</l>
+            <l>Laxa cutis fluitat, caluum caput ictibus urgent</l>
+            <l> Crabro, uespa, culex, musca, tabanus, apis. <note type="numvers">10</note>
+            </l>
+            <l>Elanguent sensus nec quicquam dulce palato est</l>
+            <l> Inque caua assiduus tintinat aure sonus.</l>
+            <l>Crebrescunt morbi, quatit artus tussis anhellos,</l>
+            <l> Consumit tabes et mala mille premunt.</l>
+            <l n="15">Inde etiam mentem solet infestare frenesis </l>
+            <l> Et fit delyrus qui catus ante fuit.</l>
+            <l>Adde quod et mortes et plurima damna suorum</l>
+            <l> Cogitur exhausto lumine flere senex:</l>
+            <l>Non natos Neleus spectasset ab hoste peremptos</l>
+            <l n="20"> Consumptus senium si foret ante suum; </l>
+            <l>Non uersa in cineres uidisset Pergama si non</l>
+            <l> Ętate Anchises pręteriisset auos.</l>
+            <l>Nolo mihi toties, Lachesis, tua stamina laxes</l>
+            <l> Vt pigeat soles me numerare meos.</l>
+            <l>Sit ualidum corpus, mens sana et criminis expers, <note type="numvers">25</note>
+            </l>
+            <l> Cum nos de terris cędere fata uolent.</l>
+            <l>Tunc neque me ceruis, neque me cornice fatebor</l>
+            <l> Viuacem, nec te, corue, fuisse minus.</l>
+            <l>Hinc tu, qui multos optas me uiuere in annos,</l>
+            <l n="30"> Sat multos annos esse ualere puta. </l>
+         </div>
+      </body>
+   </text>
 </TEI>

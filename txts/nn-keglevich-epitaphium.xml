@@ -1,120 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="nn-keglevich-epitaphium">
-            <titleStmt>
-                <title ref="nn-keglevich-epitaphium.opus.01">Epitaphium magnifici domini Simonis Keglewich, versio electronica</title>
-                <author ref="#anonymus_1579">
-                    <persName xml:lang="lat">Anonymus (Pregrada 1579)</persName>
-                    <date>floruit 1579</date>
-                </author>
-                <editor>
-                    <persName>
-                        <ref type="viaf" target="282416564">Lamers, Han</ref>
-                    </persName>
-                </editor>
-                <respStmt>
-                    <resp>Editionem electronicam curavit</resp>
-                    <persName>
+   <teiHeader>
+      <fileDesc xml:id="nn-keglevich-epitaphium">
+         <titleStmt>
+            <title ref="nn-keglevich-epitaphium.opus.01">Epitaphium magnifici domini Simonis Keglewich, versio electronica</title>
+            <author ref="#anonymus_1579">
+               <persName xml:lang="lat">Anonymus (Pregrada 1579)</persName>
+               <date>floruit 1579</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="viaf" target="282416564">Lamers, Han</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
                     Digitalizat prema novijem znanstvenom izdanju (2015).
                 </edition>
-            </editionStmt>
-            <extent ana="B">Mg:B Verborum 112, versus 14</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Croatica et Tyrolensia, znanstveni
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 112, versus 14</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Croatica et Tyrolensia, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2015-09">Rujna 2015</date>.</p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
-                <biblStruct xml:id="croala.sekundarna.lamers.2015">
-                    <analytic>
-                        <author>Lamers, Han</author>
-                        <title>Michele Marullo and the Epitaph of Šimun Keglević (1579): A Note on the Use of Latin Inscriptions in Croatia</title>
+            <biblStruct xml:id="croala.sekundarna.lamers.2015">
+               <analytic>
+                  <author>Lamers, Han</author>
+                  <title>Michele Marullo and the Epitaph of Šimun Keglević (1579): A Note on the Use of Latin Inscriptions in Croatia</title>
                </analytic>
-                    <monogr>
-                        <title>Bibliothèque d’Humanisme et Renaissance</title>
-                        <imprint>
-                            <biblScope>77.2</biblScope> 
-                            <date>2015</date>
-                            <biblScope>411-421</biblScope>
-                        </imprint>
-                    </monogr>
-                    <ref type="viaf" target="39470442">Marullo, Michele</ref>
-                    <ref type="croala" target="#croala.publika.keglevic.simun.01">Keglević, Šimun</ref>
-                </biblStruct>
+               <monogr>
+                  <title>Bibliothèque d’Humanisme et Renaissance</title>
+                  <imprint>
+                     <biblScope>77.2</biblScope>
+                     <date>2015</date>
+                     <biblScope>411-421</biblScope>
+                  </imprint>
+               </monogr>
+               <ref type="viaf" target="39470442">Marullo, Michele</ref>
+               <ref type="croala" target="#croala.publika.keglevic.simun.01">Keglević, Šimun</ref>
+            </biblStruct>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="analytic" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="1"/>
-          <tagUsage gi="biblScope" occurs="2"/>
-          <tagUsage gi="biblStruct" occurs="1" withId="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="14"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="2"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="3"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="9"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="3"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="location">
-                 <placeName ref="http://www.wikidata.org/wiki/Q844312">Pregrada</placeName>
+            <place ana="location">
+               <placeName ref="http://www.wikidata.org/wiki/Q844312">Pregrada</placeName>
             </place>
-             <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q221189">Krapina</placeName>
             </place>
          </settingDesc>
@@ -122,57 +69,57 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1579" period="15xx_3_third">1579</date>
-            </creation>
+            <date when="1579" period="15xx_3_third">1579</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1551-1600</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - inscriptio</term>
-                    <term>poesis - epitaphium</term>
-                    <term>poesis - epigramma</term>
-                    <term>opus anonymum</term>
-                    <term>poesis - cento</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - inscriptio</term>
+               <term>poesis - epitaphium</term>
+               <term>poesis - epigramma</term>
+               <term>opus anonymum</term>
+               <term>poesis - cento</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2015-10-25</date>
+            <date>2015-10-25</date>
                 Početna TEI XML verzija.
             </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="poesis-inscriptio" met="elegiacum">
-                <head>EPITAPHIVM MAGNIFICI DOMINI SIMONIS KEGLEWICH DE
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poesis-inscriptio" met="elegiacum">
+            <head>EPITAPHIVM MAGNIFICI DOMINI SIMONIS KEGLEWICH DE
                 BVSIN XVII DIE DECEMBRIS ANNO MDLXXIX KRAPYNE
                     <corr resp="editor">DEMORTVi</corr>  ET <corr resp="editor">SEPVLTi</corr> XXII DIE DECEMBRIS.</head>
-                <l n="1">PARCE HOSPES TVMVLO: SIMON KEGLOWICH HIC SVM</l>
-                <l n="2" met="pentameter">SEPE ETIAM IGNOTIS IPSE DEDI REQVIEM.</l>
-                <l n="3">QVOD SI QVEM TITVLI NIHIL HVIVS GRATIA TANGIT</l>
-                <l n="4" met="pentameter">AT MOVEAT PATRIA FRAVDE QVOD HIC IACEO.</l>
-                <l n="5">SED VIREO, QVAMVIS NON VITE, AT PLENVS HONORVM</l>
-                <l n="6" met="pentameter">HOC VNO INGRATVS QVOD GENVI PATRIE</l>
-                <l n="7">TESTATA EST MORES LACRIMIS PLEBESQue PATRESQVE</l>
-                <l n="8" met="pentameter">HEC SVNT SINCERI IVDICIA INGENIJ</l>
-                 <l n="9">FLENS PRIMVM HAS AVRAS HAVSI PVER: OMINE DICO</l>
-                <l n="10" met="pentameter">FLEBILIS EREPTA VITA FVIT PATRIA</l>
-                <l n="11">NVNC QVOQVE FLENS MORIOR: NE QVID NON FLEBILE RESTET</l>
-                <l n="12" met="pentameter">HEC EST HVMANI CONDITIO GENERIS</l>
-                <l n="13">INVICTVS POTVI NISI MORS VICISSET HABERI</l>
-                <l n="14" met="pentameter">HEC QVOQVE NON VICIT SED POCIVS <corr resp="editor">SOLVIt</corr>.</l>
-            </div>
-        </body>
-    </text>
+            <l n="1">PARCE HOSPES TVMVLO: SIMON KEGLOWICH HIC SVM</l>
+            <l n="2" met="pentameter">SEPE ETIAM IGNOTIS IPSE DEDI REQVIEM.</l>
+            <l n="3">QVOD SI QVEM TITVLI NIHIL HVIVS GRATIA TANGIT</l>
+            <l n="4" met="pentameter">AT MOVEAT PATRIA FRAVDE QVOD HIC IACEO.</l>
+            <l n="5">SED VIREO, QVAMVIS NON VITE, AT PLENVS HONORVM</l>
+            <l n="6" met="pentameter">HOC VNO INGRATVS QVOD GENVI PATRIE</l>
+            <l n="7">TESTATA EST MORES LACRIMIS PLEBESQue PATRESQVE</l>
+            <l n="8" met="pentameter">HEC SVNT SINCERI IVDICIA INGENIJ</l>
+            <l n="9">FLENS PRIMVM HAS AVRAS HAVSI PVER: OMINE DICO</l>
+            <l n="10" met="pentameter">FLEBILIS EREPTA VITA FVIT PATRIA</l>
+            <l n="11">NVNC QVOQVE FLENS MORIOR: NE QVID NON FLEBILE RESTET</l>
+            <l n="12" met="pentameter">HEC EST HVMANI CONDITIO GENERIS</l>
+            <l n="13">INVICTVS POTVI NISI MORS VICISSET HABERI</l>
+            <l n="14" met="pentameter">HEC QVOQVE NON VICIT SED POCIVS <corr resp="editor">SOLVIt</corr>.</l>
+         </div>
+      </body>
+   </text>
 </TEI>

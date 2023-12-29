@@ -1,120 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="bulic-f-epist">
-            <titleStmt>
-                <title>Epistula salutatoria, versio electronica</title>
-                <author ref="bulic01">
-                    <persName>Bulić, don Frane</persName>
-                    <date from="1846" to="1934">1846–1934</date>
-                </author>
-                <editor>
-                             
-                    <persName xml:id="NJ">
+   <teiHeader>
+      <fileDesc xml:id="bulic-f-epist">
+         <titleStmt>
+            <title>Epistula salutatoria, versio electronica</title>
+            <author ref="bulic01">
+               <persName>Bulić, don Frane</persName>
+               <date from="1846" to="1934">1846–1934</date>
+            </author>
+            <editor>
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Prema digitalnoj fotografiji izvornog rukopisa.</edition>
-            </editionStmt>
-            <extent ana="A">Mg:A 78 verborum</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prema digitalnoj fotografiji izvornog rukopisa.</edition>
+         </editionStmt>
+         <extent ana="A">Mg:A 78 verborum</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when="2012-07">Srpnja 2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Knjižnica Arheološkog muzeja u Splitu</bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="addrLine" occurs="5"/>
-          <tagUsage gi="address" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="byline" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="2"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="3"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="7" withId="1"/>
-          <tagUsage gi="person" occurs="2"/>
-          <tagUsage gi="place" occurs="3"/>
-          <tagUsage gi="placeName" occurs="6"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="47"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-            
-        <profileDesc xml:id="bulickubitschek19130608">
+      </fileDesc>
+      <profileDesc xml:id="bulickubitschek19130608">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin">
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q1258998">Salona</placeName>
             </place>
-             <place ana="destination">
+            <place ana="destination">
                <placeName ref="http://www.wikidata.org/wiki/Q1741">Wien</placeName>
             </place>
-             <place ana="mentioned">
+            <place ana="mentioned">
                <placeName ref="http://www.wikidata.org/wiki/Q1258998">Salona</placeName>
             </place>
          </settingDesc>
          <particDesc>
-             <person ana="sender">
+            <person ana="sender">
                <persName ref="bulic01">Bulić, don Frane</persName>
             </person>
-             <person ana="recipient">
+            <person ana="recipient">
                <persName ref="78774764">Kubitschek, Joseph Wilhelm</persName>
             </person>
          </particDesc>
@@ -122,41 +64,37 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1913-06-08" period="19xx_1_third">8. 6. 1913</date>
-                <placeName>Salonis</placeName>
-            </creation>
+            <date when="1913-06-08" period="19xx_1_third">8. 6. 1913</date>
+            <placeName>Salonis</placeName>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae novissimae (1850-2000)</term>
-                    <term>Saeculum 20 (1901-2000)</term>
-                    <term>1901-1950</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae novissimae (1850-2000)</term>
+               <term>Saeculum 20 (1901-2000)</term>
+               <term>1901-1950</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <date>2012-07-22</date>
-                <persName>
+      <revisionDesc>
+         <change>
+            <date>2012-07-22</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 Versio prima.
             </change>
-           
-        </revisionDesc>
-    </teiHeader>
-    <text>
-
-	
-
+      </revisionDesc>
+   </teiHeader>
+   <text>
       <body>
-            <div type="prosaOratio-epistula" corresp="#bulickubitschek19130608">
-                <opener>
+         <div type="prosaOratio-epistula" corresp="#bulickubitschek19130608">
+            <opener>
                <address>
                   <addrLine>Dr Hochwohlgeboren Reg. Rat J. W. Kubitschek</addrLine>
                   <addrLine>Univ. Prof.</addrLine>
@@ -167,22 +105,18 @@
                   <addrLine> 
         N. 1, <num value="3">III</num>. St.</addrLine>
                </address>
-                    <dateline>Salonis <date>8/VI 1913 hora 8 1/2 pomer.</date>
+               <dateline>Salonis <date>8/VI 1913 hora 8 1/2 pomer.</date>
                </dateline>
             </opener>
-
-                <p>Cum hodie hora sexta post meridiem equo (parvulo, <num type="ordinal" value="3">III-o</num> huius nominis) insidens, ruinas <placeName>Salonarum</placeName> peragrarem, prope
+            <p>Cum hodie hora sexta post meridiem equo (parvulo, <num type="ordinal" value="3">III-o</num> huius nominis) insidens, ruinas <placeName>Salonarum</placeName> peragrarem, prope
                     fundum <persName>Mikelić</persName>, ubi ille optimus <bibl>titulus n. 4429 A</bibl> repertus est,
                     cecidit equus et super eius caput <sic>eques</sic> qui Deo <abbr>Opt.</abbr>
-                    <abbr>Max.</abbr> gratias illaesus evasit.</p>
-                <salute>Salutem plurimam.</salute>
-                <pb/>
-                <salute>SALVTEM PLVRIMAM E RVINIS SALONAE</salute>
-                <byline>TVSCVLVM DIRECTORIS EFFOSIONVM BVLIĆ</byline>
-
-            </div>
-    
-    
+               <abbr>Max.</abbr> gratias illaesus evasit.</p>
+            <salute>Salutem plurimam.</salute>
+            <pb/>
+            <salute>SALVTEM PLVRIMAM E RVINIS SALONAE</salute>
+            <byline>TVSCVLVM DIRECTORIS EFFOSIONVM BVLIĆ</byline>
+         </div>
       </body>
-    </text>
-    </TEI>
+   </text>
+</TEI>

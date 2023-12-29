@@ -1,94 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="sizgor-j-documenta-sibenic">
-            <titleStmt>
-                <title>Documenta de ecclesia Sibenicensi a. 1449, versio electronica</title>
-                
-                <author ref="sizgo02">
-                    <persName xml:lang="hr">Šižgorić, Juraj (stariji)</persName>
-                    <date>biskup 1437-1454</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="sizgor-j-documenta-sibenic">
+         <titleStmt>
+            <title>Documenta de ecclesia Sibenicensi a. 1449, versio electronica</title>
+            <author ref="sizgo02">
+               <persName xml:lang="hr">Šižgorić, Juraj (stariji)</persName>
+               <date>biskup 1437-1454</date>
+            </author>
+            <editor>
                <persName>
                   <ref>Vincenzo Miagostovich</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Edidit et editionem electronicam praeparavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Edidit et editionem electronicam praeparavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <extent ana="C">Mg:C Verborum 1087</extent>
-            <publicationStmt>
-                <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+         </titleStmt>
+         <extent ana="C">Mg:C Verborum 1087</extent>
+         <publicationStmt>
+            <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2012-02">Veljača 2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
-               <ref type="liber" target="http://www.archive.org/details/inobilieilclerod00miag">I nobili e il clero di Sebenico nel 1449 per la fabbrica della cattedrale
+               <ref type="liber"
+                    target="http://www.archive.org/details/inobilieilclerod00miag">I nobili e il clero di Sebenico nel 1449 per la fabbrica della cattedrale
                     documenti editi e annotati da Vincenzo Miagostovich
                     Sebenico: U. Fosco, 1910, s. 51-59</ref>
             </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="corr" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="4"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="6"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="3"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -102,58 +53,51 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1449-05-26" period="14xx_2_third">1449-05-26</date>
-            </creation>
+            <date when="1449-05-26" period="14xx_2_third">1449-05-26</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 15 (1401-1500)</term>
-                    <term>1401-1450</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - acta officialia</term>
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1401-1450</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - acta officialia</term>
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <date>2012-08-24</date>
-                <persName>
+      <revisionDesc>
+         <change>
+            <date>2012-08-24</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 Latinski spellcheck
                 Izdvojeno Šigorićevo.
             </change>
-            <change>
-                <date>2010-12-05</date>
-                <persName>
+         <change>
+            <date>2010-12-05</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 Početna revizija
             </change>
-            
-            
-        </revisionDesc>
-        
-        
-    </teiHeader>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <body>
-
          <div type="prosaOratio-acta">
         
         <!-- IV. 
         
         Risposta del vescovo. -->
-        
             <opener>
                <date when="1449-05-26">Die XXVI mensis Maij MCCCCXLVIIII.</date>
-            </opener> 
-        
+            </opener>
             <p>Coram Vobis spectabili et generoso viro Domino Christoforo 
         Marcello honorabili Comite et Capitaneo civitatis Sibenici et eius 
         districtus, Nos Georgius Sisgorich Dei et Apostolice Sedis gratia 
@@ -161,10 +105,8 @@
         constituti responsuri ad quandam <sic>parte</sic> per Egregios et generosos 
         cives Sibenicenses in eorum generali Consilio sub 1449, die 23 
         mensis Martij, super provisione Ecclesie nostre Cathedralis, cuius 
-        tenor de verbo ad verbum talis est, videlicet:</p> 
-        
-            <note>(Sequitur tenor partis suprascripte)</note> 
-        
+        tenor de verbo ad verbum talis est, videlicet:</p>
+            <note>(Sequitur tenor partis suprascripte)</note>
             <p>Ad quam partem, infra terminum per dictum generosum 
         Consilium nobis in scriptis prefixum, obmissa verborum multiplicatione, taliter sub brevitate respondemus. Primum est ante omnia, ad vitium ingratitudinis excludendum, non quas debemus, 
         sed quas possumus, ex intimo corde, dicto generoso Consilio 
@@ -260,9 +202,8 @@
         mundo accepisse aliquid cernimus, ab auctore mundi gravius inde 
         judicemur; cum enim augentur dona, rationes etiam crescunt donorum; tanto ergo humilior atque serviendum Deo promptior 
         quisque debet esse ex munere, quanto se in collatis benefitiis 
-        obligatiorem esse conspicit in reddenda ratione. Et hec ad responsionem prefate partis dicta sufficiant.</p> 
+        obligatiorem esse conspicit in reddenda ratione. Et hec ad responsionem prefate partis dicta sufficiant.</p>
          </div>
       </body>
-    
    </text>
 </TEI>

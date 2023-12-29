@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="vrancic-a-epist-1538">
-        <titleStmt>
+         <titleStmt>
             <title>Epistulae anni 1538, versio electronica</title>
             <author ref="vranc01">
-                <persName xml:lang="hr">Vrančić, Antun</persName>
-                <date>1504-1573</date>
+               <persName xml:lang="hr">Vrančić, Antun</persName>
+               <date>1504-1573</date>
             </author>
             <editor>
                <persName>
@@ -13,16 +14,16 @@
                </persName>
             </editor>
             <respStmt>
-                <resp>Hanc editionem electronicam curavit</resp>
-                <persName>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
-        </titleStmt>
-        <editionStmt>
+         </titleStmt>
+         <editionStmt>
             <p>Digitalizat kasnijeg izdanja (1857).</p>
-        </editionStmt>
-        <extent ana="B">Mg:B Verborum 4332</extent>
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 4332</extent>
          <publicationStmt>
             <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
             projekt na <orgName>
@@ -30,64 +31,11 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
             Hrvatska.  <date>Siječnja 2008</date>.</p>
          </publicationStmt>
-            <sourceDesc>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Verancsics, Antal. Verancsics Antal összes munkái (vol. 6, p. 6, br. 2)</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="13"/>
-          <tagUsage gi="corr" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="18"/>
-          <tagUsage gi="dateline" occurs="13"/>
-          <tagUsage gi="div" occurs="13"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="13"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="21"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="12"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="12"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="3"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -103,492 +51,569 @@
          </langUsage>
          <creation>
             <date when="1538" period="15xx_2_third">1538</date>
-             
-             <date when="1538-11-13" period="15xx_2_third">13. studenog 1538.</date>
-             <placeName>Alba Iulia</placeName>
-             <date when="1538-10-12" period="15xx_2_third">12. listopada 1538.</date>
-             <placeName>Cluj-Napoca</placeName>
-             <date when="1538-05-26" period="15xx_2_third">26. svibnja 1538.</date>
-             <placeName>Turda</placeName>
-             <placeName>Kežmarok</placeName>
-             <date when="1538-05-08" period="15xx_2_third">08. svibnja 1538.</date>
-             <placeName>Segesvár</placeName>
-             <placeName>Krakov</placeName>
-             <date when="1538-06-22" period="15xx_2_third">22. lipnja 1538.</date>
-             <placeName>Alba Iulia</placeName>
-             <date when="1538-08-01" period="15xx_2_third">01. kolovoza 1538.</date>
-             <placeName>Cluj-Napoca</placeName>
-             <date when="1538-03-31" period="15xx_2_third">31. ožujka 1538.</date>
-             <placeName>Przemysl</placeName>
-             <date when="1538-05-04" period="15xx_2_third">04. svibnja 1538.</date>
-             <placeName>Turda</placeName>
-             <date when="1538-02-14" period="15xx_2_third">14. veljače 1538.</date>
-             <placeName>Segesvár</placeName>
-             <placeName>Vác</placeName>
-             <date when="1538-08-10" period="15xx_2_third">10. kolovoza 1538.</date>
-             <placeName>Turda</placeName>
-             <date when="1538-03-06" period="15xx_2_third">06. ožujka 1538.</date>
-             <placeName>Segesvár</placeName>
-             <date when="1538-04-13" period="15xx_2_third">13. travnja 1538.</date>
-             <placeName>Alba Iulia</placeName>
-             <placeName>Transilvanija</placeName>
-        </creation>
+            <date when="1538-11-13" period="15xx_2_third">13. studenog 1538.</date>
+            <placeName>Alba Iulia</placeName>
+            <date when="1538-10-12" period="15xx_2_third">12. listopada 1538.</date>
+            <placeName>Cluj-Napoca</placeName>
+            <date when="1538-05-26" period="15xx_2_third">26. svibnja 1538.</date>
+            <placeName>Turda</placeName>
+            <placeName>Kežmarok</placeName>
+            <date when="1538-05-08" period="15xx_2_third">08. svibnja 1538.</date>
+            <placeName>Segesvár</placeName>
+            <placeName>Krakov</placeName>
+            <date when="1538-06-22" period="15xx_2_third">22. lipnja 1538.</date>
+            <placeName>Alba Iulia</placeName>
+            <date when="1538-08-01" period="15xx_2_third">01. kolovoza 1538.</date>
+            <placeName>Cluj-Napoca</placeName>
+            <date when="1538-03-31" period="15xx_2_third">31. ožujka 1538.</date>
+            <placeName>Przemysl</placeName>
+            <date when="1538-05-04" period="15xx_2_third">04. svibnja 1538.</date>
+            <placeName>Turda</placeName>
+            <date when="1538-02-14" period="15xx_2_third">14. veljače 1538.</date>
+            <placeName>Segesvár</placeName>
+            <placeName>Vác</placeName>
+            <date when="1538-08-10" period="15xx_2_third">10. kolovoza 1538.</date>
+            <placeName>Turda</placeName>
+            <date when="1538-03-06" period="15xx_2_third">06. ožujka 1538.</date>
+            <placeName>Segesvár</placeName>
+            <date when="1538-04-13" period="15xx_2_third">13. travnja 1538.</date>
+            <placeName>Alba Iulia</placeName>
+            <placeName>Transilvanija</placeName>
+         </creation>
          <textClass>
             <keywords scheme="typus">
-                <term>prosa</term>
+               <term>prosa</term>
             </keywords>
             <keywords scheme="aetas">
-                <term>Litterae renatae (1400-1600)</term>
-                <term>Saeculum 16 (1501-1600)</term>
-                <term>1501-1550</term>
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
             </keywords>
             <keywords scheme="genre">
-                <term>prosa oratio - epistula</term>
+               <term>prosa oratio - epistula</term>
             </keywords>
-        </textClass>
+         </textClass>
       </profileDesc>
-       <profileDesc xml:id="verantiusamusnensis15381113">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q174665">Alba Iulia</placeName></place>
-               <place ana="destination" type="unknown">
-                   <placeName type="unknown">Unknown</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName>Musnensis, Franciscus</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-11-13" period="15xx_2_third">13. studenog 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusabaso15381012">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q209809">Thorda</placeName></place>
-               <place ana="destination">
-                   <placeName ref="https://www.wikidata.org/wiki/Q998961">Unknown</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName>Baso, Valentino</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-10-12" period="15xx_2_third">12. listopada 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusaandreis15380526">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q209809">Thorda</placeName></place>
-               <place ana="destination">
-                   <placeName ref="https://www.wikidata.org/wiki/Q327977">Kesmarkium</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName ref="and02">Andreis, Franjo Trankvil</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-05-26" period="15xx_2_third">26. svibnja 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusajacobinus15380508">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q193001">Segesvarium</placeName></place>
-               <place ana="destination" type="unknown">
-                   <placeName type="unknown">Unknown</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName>Jacobinus, Hieremia</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-05-08" period="15xx_2_third">08. svibnja 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusaporembius15380508">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q193001">Segesvarium</placeName></place>
-               <place ana="destination">
-                   <placeName ref="https://www.wikidata.org/wiki/Q31487">Cracovia</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName>Porembius, Petrus</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-05-08" period="15xx_2_third">08. svibnja 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusakalmancheh15380622">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q174665">Alba Iulia</placeName></place>
-               <place ana="destination" type="unknown">
-                   <placeName type="unknown">Unknown</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName>Kalmancheh, Martinus a</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-06-22" period="15xx_2_third">22. lipnja 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusaandreis15380801">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q100188">Colosvarium</placeName></place>
-               <place ana="destination">
-                   <placeName ref="https://www.wikidata.org/wiki/Q327977">Kesmarkium</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName ref="and02">Andreis, Franjo Trankvil</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-08-01" period="15xx_2_third">01. kolovoza 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusatarlo15380331">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q174665">Alba Iulia</placeName></place>
-               <place ana="destination">
-                   <placeName ref="https://www.wikidata.org/wiki/Q208473">Premislia</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName ref="272144782724363876248">Tarło, Stanisław</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-03-31" period="15xx_2_third">31. ožujka 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusamyndzentinus15380504">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q209809">Thorda</placeName></place>
-               <place ana="destination" type="unknown">
-                   <placeName type="unknown">Unknown</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName>Myndzentinus, Thoma</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-05-04" period="15xx_2_third">04. svibnja 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusabrodericus15380214">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q193001">Segesvarium</placeName></place>
-               <place ana="destination">
-                   <placeName ref="https://www.wikidata.org/wiki/Q207408">Vacium</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName ref="brod01">Brodarić, Stjepan</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-02-14" period="15xx_2_third">14. veljače 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusabogancius15380810">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q209809">Thorda</placeName></place>
-               <place ana="destination" type="unknown">
-                   <placeName type="unknown">Unknown</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName ref="croala.publika.nikola.brgancic">Nikola Brgančić ili Bogančić</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-08-10" period="15xx_2_third">10. kolovoza 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusabogancius15380306">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q193001">Segesvarium</placeName></place>
-               <place ana="destination" type="unknown">
-                   <placeName type="unknown">Unknown</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName ref="croala.publika.nikola.brgancic">Nikola Brgančić ili Bogančić</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-03-06" period="15xx_2_third">06. ožujka 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
-       <profileDesc xml:id="verantiusamaylad15380413">
-           <abstract>
-               <p/>
-           </abstract>
-           <settingDesc>
-               <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q174665">Alba Iulia</placeName></place>
-               <place ana="destination">
-                   <placeName ref="https://www.wikidata.org/wiki/Q39473">Transsylvania</placeName>
-               </place>
-           </settingDesc>
-           <particDesc>
-               <person role="sender"><persName ref="vranc01">Vrančić, Antun</persName></person>
-               <person role="recipient"><persName ref="68407721">Majlád, István</persName></person>
-           </particDesc>
-           <langUsage>
-               <language ident="lat" xml:lang="hrv">latinski</language>
-           </langUsage>
-           <creation>
-               <date when="1538-04-13" period="15xx_2_third">13. travnja 1538.</date>
-           </creation>
-           <textClass>
-               <keywords scheme="typus">
-                   <term>prosa</term>
-               </keywords>
-               <keywords scheme="aetas">
-                   <term>Litterae renatae (1400-1600)</term>
-                   <term>Saeculum 16 (1501-1600)</term>
-                   <term>1501-1550</term>
-               </keywords>
-               <keywords scheme="genre">
-                   <term>prosa oratio - epistula</term>
-               </keywords>
-           </textClass>
-       </profileDesc>
+      <profileDesc xml:id="verantiusamusnensis15381113">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q174665">Alba Iulia</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName>Musnensis, Franciscus</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-11-13" period="15xx_2_third">13. studenog 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusabaso15381012">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q209809">Thorda</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q998961">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName>Baso, Valentino</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-10-12" period="15xx_2_third">12. listopada 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusaandreis15380526">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q209809">Thorda</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q327977">Kesmarkium</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-05-26" period="15xx_2_third">26. svibnja 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusajacobinus15380508">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q193001">Segesvarium</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName>Jacobinus, Hieremia</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-05-08" period="15xx_2_third">08. svibnja 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusaporembius15380508">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q193001">Segesvarium</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q31487">Cracovia</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName>Porembius, Petrus</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-05-08" period="15xx_2_third">08. svibnja 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusakalmancheh15380622">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q174665">Alba Iulia</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName>Kalmancheh, Martinus a</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-06-22" period="15xx_2_third">22. lipnja 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusaandreis15380801">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q100188">Colosvarium</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q327977">Kesmarkium</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="and02">Andreis, Franjo Trankvil</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-08-01" period="15xx_2_third">01. kolovoza 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusatarlo15380331">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q174665">Alba Iulia</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q208473">Premislia</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="272144782724363876248">Tarło, Stanisław</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-03-31" period="15xx_2_third">31. ožujka 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusamyndzentinus15380504">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q209809">Thorda</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName>Myndzentinus, Thoma</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-05-04" period="15xx_2_third">04. svibnja 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusabrodericus15380214">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q193001">Segesvarium</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q207408">Vacium</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="brod01">Brodarić, Stjepan</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-02-14" period="15xx_2_third">14. veljače 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusabogancius15380810">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q209809">Thorda</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="croala.publika.nikola.brgancic">Nikola Brgančić ili Bogančić</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-08-10" period="15xx_2_third">10. kolovoza 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusabogancius15380306">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q193001">Segesvarium</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="croala.publika.nikola.brgancic">Nikola Brgančić ili Bogančić</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-03-06" period="15xx_2_third">06. ožujka 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <profileDesc xml:id="verantiusamaylad15380413">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q174665">Alba Iulia</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="https://www.wikidata.org/wiki/Q39473">Transsylvania</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="68407721">Majlád, István</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1538-04-13" period="15xx_2_third">13. travnja 1538.</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc>
          <change>
             <persName>
@@ -606,35 +631,34 @@
         Novo, unificirano zaglavlje.
         Prva verzija.
     </change>
-
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-        <div type="prosa-epistula" corresp="#verantiusamusnensis15381113">
+         <div type="prosa-epistula" corresp="#verantiusamusnensis15381113">
             <opener>Antonius Wrancius Francisco Musnensi S.</opener>
             <p> 
                 Quoniam unicus avunculus meus Statilius, episcopus amplissimus, prae omnibus caeteris mortalibus datus est, quem colere, quem observare, quem vereri, quem non offendere, cui demum per omnes numeros obtemperare debeam propter difficiliorem ejus naturam et severitatem nulli hominum parem. Apud eum te non exigua authoritate pollere, aditum ad illum, facileque colloquium omni tempore, non observatis momentis, secum habere, ac desideriorum compotem ab ipso semper discedere scio. Quare saepius ad te scribere et secretarum rerum mearum curam confidentius inducor commendare, cujus amorem ac benevolentiam erga me, saepenumero perspectam habui.</p>
             <p>Rogo itaque, fac me quamprimum certiorem, si intelligere potuisti: num avunculus meus moram hanc meam Albensem ferat iniquo animo, quo tempestive consilium capiam, et indignationem ejus evitem. Ea enim si a me abest, abest omne malum; si adest, adsunt omnia. Nam ipse mihi est et imperator et rex, immo uterque parens et fortuna. Si autem animum meum noscere desideras, certe is est, qui facile ab aula hujus corruptissimi temporis abesse possit, idque non quod jam otio domestico et ignaviae placeat decumbere, neque ingenium apud principes ac in luce vellem <pb n="37"/> seu bonis <sic>arcibus</sic> exercere, sed quod magis ibi sim otiosus quam domi, nullumque frequentius in aula ista quam sedentarium ago servitium. Quotidie autem vel unum in aula gradum non progredi, profecto undecim regredi est. Haec soli tibi duntaxat scribo, tu vero idem ad me vicissim facito, ut sciam quid animi hac de re meus avunculus in me habeat. Cui ut omnibus in rebus obtemperare possim, omnia mea et me ipsum nihili facio, ut nihil penitus ab officio me, quo illi teneor, dimoveat. De inopia autem mea rei pecuniariae vellem tacere. Scis enim, quanta laborem, sed timeo quod nuper in adventu Solimani Turcarum caesaris metuebam, qui scilicet si hoc regnum invadebat, ut minabatur, cogebar, per Deum, praeposituram hanc meam Transsylvanam, nam Budensem dudum desolavit, ita relinquere ut acceperam, nimirum pauper et vix decem ducatorum dominus. Cujus quidem reditus annuos non ego, nam parvo natura mea contenta est, sed aulicus decor, sed honoris suadela, et longae spei opinio totos exhaurit, neque animadverto prius, quam annus exierit. Congerendum itaque nonnihil est, et futuris casibus reservandum, quos odia principum ac procerum, et ambiguitas hujus regni status assidue polliceri videntur. 
             </p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Albae Juliae Transsylvanae <date when="1538-11-13">idibus Novembris MDXXXVIII.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Albae Juliae Transsylvanae <date when="1538-11-13">idibus Novembris MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusabaso15381012">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusabaso15381012">
             <opener>Antonius Wrancius Valentino Basoni S.</opener>
             <p>Audiens te, Valentine <sic>charissime</sic>, in patriam jam rediturum tandem, summam voluptatem accepi; majore nunc afficior tristitia, quum redire differas. Si de loco ac statu tuo dubitas, frustra id agis. Nam hic tibi omnia sunt integra et ex sententia successura. Apud Joannem Statilium, episcopum Transsylvanum, avunculum meum, quemadmodum Michael Farnae tecum perfecit, poteris habere conditionem non contemnendam, apud vero regem etiam optandam consequeris. Redeas tantummodo, nec ultra immoreris, posteaquam et quae Germanus Enyo turbaverat, pacata sint, et a Turca hoc anno tuti simus. Etenim avertimus illum a nobis qua dando, qua pollicendo, nonnihil etiam terrendo <sic>ampullosioribus</sic> apparatibus nostris, si modo tanta bellua exiguitate nostra terreri possit. Quod si quid insequenti molietur contra nos novi, aut etiam si non, speramus nos Pauli <num value="3">III</num>. pontificis maximi, Caroli V. imperatoris, Francisci regis Galliarum et senatus populique Veneti marte, ac duce Christo secum tuto pugnaturos, praesertim si tantorum principum foedus et consensus non refrigescet. Tu interim ad quae moveo, hortor, urgeo, adhibe animum, et redi vel fratris tui gratia, qui te plurimum in hoc regno esse desiderat, quique <pb n="35"/> tibi ob tam diuturnam istam tuam moram etiam vehementer irascitur, et quum accepta ab eo pecunia, qua te a creditoribus Viennensibus redimeres, nondum redemeris, neque domum redieris, etiam dejerat: nunquam posthac tibi suppeditaturum, quo te sustentes, tametsi ad Libitinam devenisses. Me, ut semper habuisti, habes tui amantissimum. Rogo mittas mihi Ursini Velii de rebus Hungaricis historiam, aut si malis, tute portes, quod et ipse malo; neque te taedeat: si pluris constabit, quam quae arca tua emere possit, supplebit mea, tibique claudetur nunquam. Brassicanis magna, sed majori majore diligentia me commendes, quocum et amicitia mea major est, et consuetudo intercessit frequentior, alioqui utrumque amo singulariter et complector propter mores ac litteras, quibus pollent. Si quid habes de rebus Germanicis et Italicis, perscribas velim, aut coram relaturus advola. 
                 
             </p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Colosvarii <date when="1538-10-12">XII. Octobris die 1538.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Colosvarii <date when="1538-10-12">XII. Octobris die 1538.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusaandreis15380526">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusaandreis15380526">
             <opener>Antonius Wrancius Francisco Andronico Tranquillo S.</opener>
             <p>Veteri necessitudine nostra, quam tum patria tum diuturna et fraterna olim inter nos consuetudo conciliavit, plurimum vero moribus tuis candidissimis, ac eruditione et comitate singulari, multaque humanitate, dudum, mi Tranquille, adhortabar, ut ad te litteras darem. Verum, si credis, scito me nunquam intellexisse, quisnam te locus in orbe terrarum haberet, posteaquam Gritteam cladem evaseras, et quam saepissime de vita etiam tua ob varios casus, quibus te actum ferebatur, dubitasse: quandoquidem diu te nobis et fidiculis Austriaca factio Viennae Pannoniae torserat et carceribus exstinxerat. Quoties ego tunc vicem tuam indolui, quoties tui sum misertus, et maledictis fortunam istam tuam incesserim, quae nullibi adhuc tibi certam sedem constituere voluerit, et surgentem te semper nequitia sua, virtuti quippe tuae non tibi inimica quasi manu colliserit: equidem confido, te, cui animus meus apertus est, vel me tacente perspecturum facile, idque sine dubio crediturum; quum te sincero corde semper amaverim, meque abs te amari non vulgaribus argumentis cognoverim. Nunc vero accepto certo nuncio, te esse in oppido Kesmark, vehementer ipsi mihi et gavisus et gratulatus sum, quod superesses et certe valeres, utererisque tanti viri contubernio ac patrocinio, statimque pro mea in te benevolentia scribendum mihi ad te esse duxi, ut saltem mutuis litteris colloqueremur et una essemus. Habes jam animum erga te meum, habes et voluntatem. Restat, ut te soler, si solandus es, quum et homo sis et humani a te nihil alienum putem. Casus itaque tuos, Tranquille charissime, fer, ut soles, forti animo, virtute tua te sustentes, nec fortunae succumbas, quae natura ipsa debilibus, et iis, quibus infra nihil est, facile parcit, et in suis caudicibus haerere permittit; magna vero ac fortissima quaeque ad oppugnandum sibi deligit, nimirum ut tandem victa a virtute, in summo victorem collocet, quod tibi procul dubio futurum fata tua pollicentur, quae te tam diu in afflictionibus servarunt, si modo infractus perstiteris. Etenim pugnandum tibi adhuc est, ut jam diu pugnas, et vincendum parandumque virtute, quod per fortunam auferri nequit, sciens, haud quaquam tuum esse, quod ipsa tuum fecerit. Sed ne infirmus, fortissimum et 
                 <pb n="17"/>
@@ -644,12 +668,12 @@
                 
             </p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Thordae <date when="1538-05-26">VII. kal. Junii MDXXXVIII.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Thordae <date when="1538-05-26">VII. kal. Junii MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusajacobinus15380508">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusajacobinus15380508">
             <opener>Antonius Wrancius Hieremiae Jacobino S.</opener>
             <p>Adagium est, multas amicitias silentium dirimere, quod etsi penitus necessitudini nostrae non contigit, nonnihil tamen ob diuturnam absentiam nostram mutuam, quum usu et consuetudine sua caruerit, oblivione jam labi ac cessare videbatur, nisi opportune nuper hic Segesvarii convenissemus, et velut a longo quodam postliminio, non dicam amicitiam, quae alioqui animo meo, arbitror, neque tuo unquam exciderit, sed amicitiam hanc sane nostram jucundissimam, dudum
                 <pb n="13"/>
@@ -658,74 +682,74 @@
                 <pb n="14"/>
                 dices, maximeque efficies, ut me quam maxime diligat, etiam atque etiam rogo; fraternam etiam operam ac studium meum, illaque omnia officia, quibus conjunctissimorum hominum amicitiae solent inviolabiliter, sempiterneque conservari, pollicearis ei velim. Ad te autem, quemadmodum optaveras, mitto de cervo regis mei versiculos, quorum nuper hic apud me memineramus; si placebunt, amoris atque humanitatis erit tuae, sin minus, nihil mirabor, nam et ipse dignos esse, qui in spongiam incumbant, dudum novi. Saltem itaque vel semel perlegito, et Vulcano dein tradas.</p>
             <closer>
-                <salute>Te ut ipsum me amo et diligo. Vale.</salute>
-                <dateline>Segesvarii <date when="1538-05-08">VIII. id. Maji MDXXXVIII.</date>
-                </dateline>
+               <salute>Te ut ipsum me amo et diligo. Vale.</salute>
+               <dateline>Segesvarii <date when="1538-05-08">VIII. id. Maji MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusaporembius15380508">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusaporembius15380508">
             <opener>Antonius Wrancius Petro Porembio. S.</opener>
             <p>Accepi litteras tuas per Erasmum Gyerlachonzchy regis mei secretarium datas, quae mihi eo quidem jucundiores exstiterunt, quo diutius fuerunt exspectatae. Visus sum hoc tempore, quo non mediocriter varia hujus regni fortuna affligimur, maximo gaudio affici, intelligens, te et vivere, et bene valere, esseque optimo loco, et auctum beneficiis ac dignitate conspicua atque insigni. Illo enim triduo, quo Cracoviae persistens nuper in amicitiam tecum concessi, tam fortiter animo meo inhaesisti, ut etiam memoriam tui constantissime, licet me Ister licet te Nilus habeat, vel si quid
                 
                 <pb n="15"/>
                 distantius dici possit, quoad superero, retinere decreverim. Quod si te dubitare crederem, pluribus argumentis declararem, sed ea nihil aliud essent quam verborum multiplicatio. At demus hoc locorum intervallis, quibus sejungimur, demus necessitudini nostrae, quae in otio, si vera est, esse non debet, et postquam praesente consuetudine frui nequimus, nihil superfluum, neque ab amicitia nostra alienum faciemus, si majore blandientium verborum copia voluntates nostras confirmabimus. Hoc tu certe proximis litteris tuis, tum amoris tum fidei erga me tuae plenis, egregie praestitisti, hoc ipse quoque nunc his meis exhibeo, reddoque benevolentiae erga te meae, perpetuo duraturae firmissimum pignus, et clarissimum testimonium. Ubi autem mones, ne de observantia in me tua in dubium veniam, facis tu quidem amice et ex humanitate, facileque abs te quanti fio, et quam vehementer me amas, perspicio, verum scito, nunquam meum cor ejusmodi ambiguitate fluctuasse, quamquam existimavi te Cracovia excessisse aut vita decessisse, quod nemo unquam ab eo tempore, quo ab invicem discessimus, ubi locorum ageres, nuncium mihi afferre potuerit; quum nullus istinc orator, aut quivis privatus civis ad nos venit, quem de te non quaesierim, litteras vero quot ad te dederim, ipse Erasmus testis sit. Sed nunc tu recte, mi Petre, et dignum amicitia nostra fecisti, quod usuram tanti, tamque diu muti inter nos temporis epistola tua redemisti, quodque ubi esses, et quod mei memoriam retineres, demonstrasti. Si itaque jam alter alteri a mutua quadam oblivione restituti sumus, postquam et ego te canonicum Cracoviensem esse sciam, et tu me Budensem ac Transsylvanum praepositum non ignores, rogo, velis me interdum saltem litteris tuis invisere, quod ipse quoque vicissim me facturum tibi polliceor. Nec quisquam amicitiam nostram invalidam putet, utpote quae parvis initiis orta, et nullis adhuc officiis beneficiisque, ultro citroque tum datis tum acceptis, aucta et communita fuerit, quandoquidem tanta me humanitate, tanta animi hilaritate ac rei tuae domesticae largitate superioribus annis ex Italia redeuntem excepisti, atque in contubernio tuo honorifice pro voto et conditione mea habuisti, ut te non solum prae caeteris amicis unum potissimum, verum etiam non secus, ac meipsum amem.</p>
             <closer>
-                <salute>Par pari itaque referas, et amantem redama, teque a me maximi fieri credas, velim. Vale. </salute>
-                <dateline>Segesvarii <date when="1538-05-08">VIII. id. Maji MDXXXVIII.</date>
-                </dateline>
+               <salute>Par pari itaque referas, et amantem redama, teque a me maximi fieri credas, velim. Vale. </salute>
+               <dateline>Segesvarii <date when="1538-05-08">VIII. id. Maji MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusakalmancheh15380622">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusakalmancheh15380622">
             <opener>Antonius Wrancius Martino a Kalmancheh S.</opener>
             <p>Persuasum tibi esse non dubito, magnas me et impensas facere et plurimum egere pecunia, idque propter praesentes tumultus bellicos, quibus tum equi plures tum majus famulitium est mihi alendum, nec mihi ipse deesse possum aut debeo, nec secus facere licet, nisi ex aula secessero, quod quidem nec per principem mihi, nec per avunculum meum, communem praesulem datur. Quare si ullo alio tempore quampiam rem gratam in me contulisti, hanc profecto longe gratissimam conferes, si aurum, ut dicunt, urburarum mearum ad festum divi Michaelis per te accipiam. Quod si praestiteris, omnes veri amoris erga me tui numeros explebis, et amicitiam nostram mutuam immortalem facies, meque magis tuum reddes imposterum, quam sim meus.
             </p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Albae Juliae Transsylvanae <date when="1538-06-22">X. kal. Julii MDXXXVIII.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Albae Juliae Transsylvanae <date when="1538-06-22">X. kal. Julii MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusaandreis15380801">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusaandreis15380801">
             <opener>Antonius Wrancius Francisco Andronico Tranquillo S.
             </opener>
             <p>Binas tuas accepi litteras, quas amore, officio, atque humanitate similes meis exspectabam, neque credebam, te magis ingeniosum in diluendis criminibus tuis esse velle, quam in recuperanda gratia principis, Statilii patrocinio, Wrancii vero amicitia confirmanda cupidum declarare. A me enim <corr>in</corr> ipso principio, atque adeo in toto contextu litterarum tuarum cuppas intempestivius profecto, quam pro tot officiis meis et tua modestia, reposcis; Statilium fortunae tuae <pb n="20"/> eversorem, regem fortunarum direptorem appellas; vindictas tuas in Deum, nunc demum Christianus effectus, rejicis; Grittumque, idolum illud tuum amplissimum et spei tuae cornucopiam, indigne, quemadmodum habet epistola tua, peremptum obtrudis ac declamitas. Vide quam opportune, quam egregie pro reditu tuo in Hungariam laboras; quas principi pro gratia nuper per Hieronymum Lasky tibi impetrata gratias habeas; quas Statilio referas, qui te quingentis ducatis a captivitate, jam morti destinatum, et sub carnifice supplicem, redemit. Ad me quod attinet, quam vellem aequius benevolentiam ac studium meum et officia in te expendisses, quippe qui reculas tuas ex hospitio, quo utebaris, custodiae meae, ut jusseras, admissis tribus juratis civibus Budensibus, in domum avunculi mei transtuleram. Duas cuppas, unam sellam turcalem, tapetem unum, trium ulnarum longum, praeterea nihil, proficiscens in Gallias orator, commonito prius eodem avunculo meo, et rogato ut tibi satisfaceret pretio, accepi. Reliquum quicquid fuit, Jacobus frater tuus tamquam ex igne, solius mei nomen praetexendo, eripuit et divendidit, dum caetera omnia, quae apud alios reposita fuerant, utpote proscripti hominis diriperentur. Et quamquam ea, quae velut e naufragio correpta servaveram, tua semper duxi, tibi servavi: ab illa tamen die, qua legi litteras tuas avarissimas et beneficiorum immemores, aculeorum tuorum impatiens, omnia cum aliis in proscriptionem abire permisi, et ne hilum quidem, quod tuum posses dicere, apud me reliquum feci. Tristissimus haec ad te scripsi et invitus, lacessitus tamen; verum quo animo tuas ad me dedisti litteras, eodem has meas accipe. Etenim torserunt me tuae, torqueant et te meae, <pb n="21"/> posteaquam non mei, qui te ut me alterum dilexi, sed cupparum, rei externae et periturae memoriam praecipue retinuisti.
             </p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Colosvarii <date when="1538-08-01">kalendis Augusti MDXXXVIII.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Colosvarii <date when="1538-08-01">kalendis Augusti MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusatarlo15380331">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusatarlo15380331">
             <opener>Antonius Wrancius Stanislao Tarloni episcopo Praemisliensi S.</opener>
             <p>Quamquam nullum mihi argumentum scribendi occurrebat, quod aut tua aut mea interesset, recordari tamen illorum, quos dudum amandos, colendos, observandosque nobis proposuimus, non tam debiti nostri muneris esse censeo, quam suave jucundumque futurum, si saepius id fecerimus. Quum enim superiore abhinc jam secundo anno essem Viennae Pannoniae cum oratoribus nostris, qui de pace nostra Hungarica apud serenissimum Romanorum regem agebant, et te ibidem legatum invisendi, cognoscendique gratia convenissem, quem de fama dudum, de facie nondum cognoveram, tanta me humanitate ac hilaritate vultus, animoque lucidissimo, ut conjicere licuit, et excepisti et alloquutus es, ut vix notissimum et charissimum hominem majore potuisses, quod ego nullis antea nec officiis nec meritis apud te promerueram. Verum omni amore atque obsequio, si quod a me in tanti viri ac praesulis usum abire possit, statui eundem sempiterne prosequi, et jussis ejus semper praesto esse, accedente huic scintillulae devotionis erga te meae ingenti igne laudum et magna vi praeconiorum, quae de virtutibus tuis Erasmus Gierlachonschy meus necessarius non raro, sed semper, nec apud me solum, sed apud omnes, quibuscum optimi <pb n="9"/> quique nominari cupiunt, libens ac sedulo excitat et diligenter enumerat. Id itaque quicquid est, quod a me tuae amplitudini offertur ac dicatur, ex intimo cordis penetrali procedit, rogoque, accipe paterno animo, et me complecti ac in numerum benevolorum tuorum velis assumere. Homines enim sumus, et sicut amare optimos jure quodam naturali inducimur, ita ab eisdem amari vehementer cupimus.</p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Albae Juliae Transsylvanae <date when="1538-03-31">pridie kal. Aprilis. M. D. XXXVIII.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Albae Juliae Transsylvanae <date when="1538-03-31">pridie kal. Aprilis. M. D. XXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusamyndzentinus15380504">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusamyndzentinus15380504">
             <opener>Antonius Verancius Thomae Myndzentino S.</opener>
             <p>Odiosiores, ut ais, colloquutiones, quae inter me et Franciscum Baccium proxime contigerunt, ex equisonum nostrorum temulentia scito provenisse, nec arbitror eorum rixas ac jurgia tanti debuisse fieri, ut nostras succendissent, et amicitiam, quae mihi secum intercedit, aut violassent aut exstinxissent. Quandoquidem illum ego semper per Deum sincere amavi ac magni feci, et si vel timor vel adulatio non est suspecta, etiam colui. Quod ut confirmem, et integritatem meam, qua in amicos esse soleo, defendam, nunc etiam inter rixas eum observo, propter ejus non mediocrem eruditionem, meque idipsum facturum, mea constantia ductum, posthac quoque <corr>polliceor</corr>, nisi me per calumniam ab se repulerit. Semper enim turpe duxi et illiberale, cito aut exili aut vili de causa ab amicitia discedere, quamquam et ipse praeceps in iram est, et ego in amicis ferendis pertinax, quamdiu non contemnar. Sed haec forsan dies et amici lenient, quae natura corruptior exacerbavit. Caeterum tantum abest, ut in his turbis nomen tuum miscuerimus, ut ne in mentem quidem nobis tunc veneris, quem sciebamus cum archiepiscopo Collocensi dudum in Hispanias profectum. Igitur ne expostules, nec injuriarum nos insimules, velim, mi Thoma, quia nec tu causam nobis
                 <pb n="12"/>
                 controversiarum praebuisti, nec nos quaepiam tunc carpsimus sine causa, praeter quam nos ipsos. Tui vero amice, ut par est, et memini interdum, et quoad vixero, absentis volo meminisse, praesentem vero ex animo diligere, quod versa vice abs te quoque non diffidenter spero. At his omissis, quae nunquam fuerunt, ni malevoli auribus tuis illa instillavissent, rogo interponas te, non enim pudet me amissum amicum recuperare, et nos utrique nostrum restituas. Si quidem pulcherrimum et christianum est, homines injuriarum oblivisci, errata corrigere, et dissidentia in unitatem revocare. De reditu tuo incolumi, quod primum debebat esse, gratulor, et felicitatem tibi precor, ac ex animo operam meam commendo.</p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Thordae <date when="1538-05-04">IIII. non. Maji MDXXXVIII.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Thordae <date when="1538-05-04">IIII. non. Maji MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusabrodericus15380214">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusabrodericus15380214">
             <opener>Antonius Wrancius Stephano Broderico Vaciensi episcopo S.</opener>
             <p>Tametsi deberem crebriores ad te dare litteras, praesul optime et de me saepe benemerite, quem filiali ac vigilantissima observantia prosequor et colo, ut ex me quoque nonnihil eorum intelligere posses, quae nunc in aulam quaeque dies afferat; tamen quum ego nonnisi vulgaria, et quae in triviis circumferuntur, id temporis habeam, quibus certe indignum esset aures tuas offendi, per me potissimum: minus multa ac non ita saepe scribo, quum alioqui te tum regiis, tum multorum aliorum litteris, ad quos res alicujus ponderis perveniant, quotidie certiorem fieri non dubitem. More itaque solito salutem tibi a Deo Optimo Maximo et omnem optatum statum cum felicitate,annosque quam longissimos, verum quoad taedium non afferent, precabor. Meam deinde operam, studium ac servitutem propensissimo animo, dudum alioqui tibi addictam offero et commendo, quae quidem in hac parte omni libertate mihi charior est, quum illa uteris. Ea ut saepe uti non dedigneris, oro, obsecroque plus quam vehementer.</p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Segesvarii <date when="1538-02-14">XVI. kal. Martii MDXXXVIII.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Segesvarii <date when="1538-02-14">XVI. kal. Martii MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusabogancius15380810">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusabogancius15380810">
             <opener>Antonius Wrancius Nicolao Bogaucio episcopo Dumnensi S.</opener>
             <p> 
                 Quoniam soleo ad amicos meos charissimos eo longiores dare litteras, quo rariores, nostra hujus temporis nova largius perscripta accipe, quae quidem non existimo nova esse, quum jam inde a conciliata Turcae amicitia semper nobis et timenda et exspectanda fuere. Solimanum imperatorem Turcarum omnino irati animi erga nos esse, non dubiis argumentis percipimus, nec alia causa est, quam quod in mutuam concordiam principum christianorum proxime factam, Joannem quoque regem nostrum ivisse, et sanctissimae eorum unitati nomen dedisse, cumque Romanorum rege Ferdinando pacem composuisse intelligat. Quare potiri hoc regno festinat, quo privati, Christiani debiliores reddantur, ipse vero commodius arma ipsorum sustinere atque arcere possit, sciens Hungariae regnum semper christianae reipublicae fortissimum ac indefessum exstitisse propugnaculum. Venire itaque maturat cum ingenti exercitu et bombardarum apparatu, nec tamen, ut ab exploratoribus affertur, habet ultra quam centum quinquaginta millia equitum, janizariorum ad summum octo. Iter per Transalpinos instituit, Moldaviam prius subacturus, deinde in Transsylvaniam cogitat. Una omnium vox est, ibi personaliter hiematurum, utinam non cum maximo nostro malo. Dicitur etiam jam et sanzachatus ex his provinciis decrevisse, ac alteri duorum filiorum, quos secum in castris duxit, Transsylvaniam, Moldaviam alteri, alias demum aliis simili ratione praecipuis viris dudum subscripsit. Rex noster, qui semper gessit christianum animum, nunc profecto, nec enim ulterius arte hostis duci potest, re ipsa, Deo favente, declarabit, quam male multi Christiani superioribus annis de se senserunt, eique falso conviciati sunt. Omnem ex Hungaria militem, omnes proceres, omnem nobilitatem ad se accivit, relictis Budae, aliisque in locis, exactiore cura conservandis, firmis atque opportunis praesidiis; Transsylvanos ad unum in arma domibus evocavit, et in aciem unam cum eis concessit; Stephano Maylad et Emerico Balassa vaivodis Transsylvanis obstruendi, impediendique materia semitas alpium provinciam injunxit; Brassoviam et Cibinium validas hujus regni civitates externis praesidiis communivit, diffisus Saxonibus; senes, impuberes ac omnem reliquam plebem imbellem atque imbecillem intra urbium, fortalitiorumque munitiones inclusit; fruges et quicquid cujusque generis annonae in campis colligendum rereponendumque superfuerat, cujus hic praesens annus tantam copiam attulit, ut nulli pene admirationi locus sit, exuri jussit, et pabula corrumpere; Moldavum et Transalpinum vajvodam per nuncios induxit, ut illi sese in Transsylvania cum totis copiis suis adjungerent, et ibi Turcam unanimes operirentur, quandoquidem neuter ipsorum per se sufficeret cum eo sine summo discrimine confligere, comprobans id consilii exemplo de jaculorum fasciculo, quo Scylurum quendam virum Scytham ad octoginta liberos usum fuisse accepimus,
@@ -737,33 +761,32 @@
             </p>
             <p>Habes publicarum rerum omnium faciem, in his nunc sumus; quae succedent, Deus scit. <persName>Ennio Verulano</persName>, cardinali, inquam, nostro dignissimo, cui tota nostra familia aeternum inserviet, diligenter me commendare, eidemque quicquid servitute mea praestare possim, oro velis offerre. Eum ita videre desidero, ut neminem mortalium ejus ordinis et sacerdotii desideravi, tanta illius integritas, tantus recti amor et magnitudo animi apud nos percrebuit.</p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Thordae <date when="1538-08-10">IIII. id. Augusti MDXXXVIII.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Thordae <date when="1538-08-10">IIII. id. Augusti MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusabogancius15380306">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusabogancius15380306">
             <opener>Antonius Wrancius Nicolao Bogaucio episcopo Dumnensi <abbr>S.</abbr>
             </opener>
             <p>Credo te non ignorare, antistes venerande, quod verae amicitiae, nisi novis ac ferme quotidianis officiis, beneficiisque interdum foveantur, ita ut incrementum sumant identidem, facile dissolvuntur. Id etsi nondum nostram attigerit morbi, quam sempiternam esse percupio: tamen nescio quo pacto brevissimum ad extinguendam occupasti compendium, dum desiderii ac petitionis meae assiduae saepe oblivisceris, quae quidem vix decem numorum aureorum utrique nostrum negotium facesseret. Est enim officium, quod poposci, non beneficium. Verum si illud praestitisses, beneficium mihi et quidem tanto majus, cumulatiusque exstitisset, quanto celerius a mora absolvisses, nec tot a me querimonias factas aure surda exspectasses. Utcunque tamen voluisti, fiat. Deinceps ego te non urgebo; forsan gratior ero, si minus utar opera tua. Atqui vereor, ne in rubiginem necessitudo nostra impingat, posteaquam illam exercere desierimus. Satis itaque nunc de his, de quibus nec in posterum quoque verbum faciam. Nihilominus colam te, et omni observantia habebo, amare certe, ut solebam, nequaquam potero, ubi abs te negligi videor.</p>
             <closer>
-                <salute>Vale.</salute>
-                <dateline>Segesvarii <date when="1538-03-06">pridie <abbr>non.</abbr> Martii MDXXXVIII.</date>
-                </dateline>
+               <salute>Vale.</salute>
+               <dateline>Segesvarii <date when="1538-03-06">pridie <abbr>non.</abbr> Martii MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
-        <div type="prosa-epistula" corresp="#verantiusamaylad15380413">
+         </div>
+         <div type="prosa-epistula" corresp="#verantiusamaylad15380413">
             <opener>Antonius Wrancius Stephano Maylad vaivodae Transsylvano S.</opener>
             <p>In tanta rerum hujus regni trepidatione propter hostilem Turcarum adventum, equo uno non imbecilli, non exiguo, non deformi, sed forti, pulchro, justa magnitudine, vegeto, et personae meae apto plurimum indigeo. Hanc abs te nec donari cupio, ne impudentiae perstringar, nec certo pretio deposco, ne tamquam cum mercatore videar agere, tuaeque dignitati per imprudentiam derogem. Verum si uno ex equitio tuo electiore pro munificentia vaivodali me dignaveris, eumque nunc per hominem istum meum miseris, quicquid oneris mihi imposueris, esto quod quinquaginta aureis aestimetur, nullum equidem detrectabo. Si autem id mihi ob instantis temporis iniquiorem conditionem condonabis, ego nihilominus operam dabo, ut
                 <pb n="10"/>
                 
                 imposterum per occasionem tum honoris, tum officii mei recorder, et liberalitatem, gratiam, benevolentiamque tuam angusto ac dubio tempore in me collocatam, memoria non praeteream. Oro itaque, velis talem mittere, cui vitam meam credere secure possim in periculo; quemque mihi caeteri omnes amici mei pernegarunt, tu, quem domini loco habeo, dare non recuses, praesertim cum petita recusare magnis viris indecens ac humile esse perhibetur, eoque magis si nihil citra honestatem petatur. Sed ne effrons esse et jam extorquere videar velle, quod facilius quidem dabitur, quam ut pluribus verbis petendum putem, hoc unum addam, me cum fiducia petere, ex eo, quod inter caeteros regni hujus proceres, ad quem in re mea, eaque sane summe necessaria ac difficili certiore spe accurram, praeter te habeo neminem. Ne igitur ego fallar, tuque ut magnitudini tuae ista munificentia cumulum et gradum adjungas, meque deditiorem tibi efficias, quem posco, mitte jam cornipedem, et recte valeas.</p>
             <closer>
-                <dateline>Albae Juliae Transsylvanae <date when="1538-04-13">idibus Aprilis MDXXXVIII.</date>
-                </dateline>
+               <dateline>Albae Juliae Transsylvanae <date when="1538-04-13">idibus Aprilis MDXXXVIII.</date>
+               </dateline>
             </closer>
-        </div>
+         </div>
       </body>
-    
    </text>
 </TEI>

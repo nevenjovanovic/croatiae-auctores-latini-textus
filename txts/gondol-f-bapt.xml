@@ -1,48 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="gondol-fl-bapt">
-            <titleStmt>
-                <title>Baptistinus, versio electronica</title>
-                <author ref="gundul01">
-                    <persName xml:lang="hr">Gundulić, Fran Lucijan</persName>
-                    <date>1451/2-1505</date>
-                </author>
-                <author ref="crije02">
-                    <persName xml:lang="hr">Crijević, Ilija</persName>
-                    <date>1463-1520</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="gondol-fl-bapt">
+         <titleStmt>
+            <title>Baptistinus, versio electronica</title>
+            <author ref="gundul01">
+               <persName xml:lang="hr">Gundulić, Fran Lucijan</persName>
+               <date>1451/2-1505</date>
+            </author>
+            <author ref="crije02">
+               <persName xml:lang="hr">Crijević, Ilija</persName>
+               <date>1463-1520</date>
+            </author>
+            <editor>
                <persName>
                   <ref>Dora Ivanišević</ref>
                </persName>
             </editor>
-                <editor>
+            <editor>
                <persName>
                   <ref>Petra Šoštarić</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date>2006-05-11T12:59:00</date>
-                </edition>
-            </editionStmt>
-            <extent ana="C">Mg:C 13 versus, verborum 3401</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2006-05-11T12:59:00</date>
+            </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C 13 versus, verborum 3401</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date>lipnja 2006</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                     Gundulić, Fran Lucijan
@@ -55,69 +56,10 @@
                     
                     <note>Napomene:	
                         <bibl>Str. 99-102: Baptistinus Frana Lucijana Gundulića / D. Ivanišević i P. Šoštarić</bibl>. Tekst usporedo na lat. i hrv. jeziku.</note>
-                    
-                </bibl>
+            </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="10"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="5"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="10"/>
-          <tagUsage gi="div" occurs="6"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="3"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="13"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="29"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="2"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="12"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="11"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="9"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="4"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="trailer" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -131,57 +73,57 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1490" period="14xx_3_third">1490-1500</date>
-                <placeName>Dubrovnik</placeName>
-            </creation>
+            <date when="1490" period="14xx_3_third">1490-1500</date>
+            <placeName>Dubrovnik</placeName>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                    <term>poesis - paratextus poetici</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 15 (1401-1500)</term>
-                    <term>1451-1500</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - novella</term>
-                    <term>poesis - epigramma</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+               <term>poesis - paratextus poetici</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - novella</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-02-19</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-02-19</date>
                 Novo, unificirano zaglavlje.
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2012-01-03</date>
+            <date>2012-01-03</date>
                 TEI zaglavlje. Tipovi tekstova itd.
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2009-06-25</date>
+            <date>2009-06-25</date>
                 Ostavio samo latinski tekst.
                 Raščlanio paratekstove (uključujući i drugo završno pisamce).
                 Promijenio tipove div: žanrovski.
                 U adresama naznačene abbr, u pismima zaglavlja i pozdravi.
                 Naznačen Crijević kao autor paratekstova.
             </change>
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2008-10-11</date>
+            <date>2008-10-11</date>
                 Uvod, latinski i hrvatski svaki su poseban tekst.
                 Jedna ispravka u tekstu (clarissimus)
                 Bilješke (note) i dodani milestone elementi (ali ne na pravim mjestima).
@@ -189,31 +131,26 @@
                 Bibl označeno u uvodnoj studiji i komentaru.
                 Referencije u bilješkama označene s quote.
             </change>
-            
-            <change>
-                <persName>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2008-08-27T00:50:28</date>
-            </change>
-        </revisionDesc>
-    </teiHeader>
-
-    <text>
-        <front>
-
-
-            <milestone unit="page"/>
-            <div type="prosa-praefatio">
-                <head>Francisci Luciani Gondolae praefatio in ridiclae fraudis historiam tituli
+            <date>2008-08-27T00:50:28</date>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <milestone unit="page"/>
+         <div type="prosa-praefatio">
+            <head>Francisci Luciani Gondolae praefatio in ridiclae fraudis historiam tituli
                     Baptistinus Nebulonis cuiusdam: qui sub fregosi illustrissimi Baptistini nomine
                     non nullis ellusis imposuit.</head>
-
-                <div type="prosa-epistula">
-                    <salute>Francischus Lucianus Gondola Claro uiro Marino <abbr>Iu.</abbr> Gradeo.
+            <div type="prosa-epistula">
+               <salute>Francischus Lucianus Gondola Claro uiro Marino <abbr>Iu.</abbr> Gradeo.
                         <abbr>S.</abbr>
                </salute>
-                <p> CVM Ex recenti iam dolore me curae acrius urgerent: Quo me conferem potius: ubi
+               <p> CVM Ex recenti iam dolore me curae acrius urgerent: Quo me conferem potius: ubi
                     delinimenta merori salubria meo quaererem: quam ad haec litterarum studia
                     diligentius a me olim culta: nunc intermissa. Plurimum namque ad cogitationem a
                     tristibus diuertendam rationi uiris obtemperantibus uoluptas non quae a corporis
@@ -232,21 +169,21 @@
                     lenire. Non enim litterarum studia (ut expertus ipse es) corporis segnius quam
                     animi dolorem mitigant: cum rationi et menti ab utroque pariter oppugnatae
                     subsidium praebeant. </p>
-                <milestone unit="page"/>
-                <p> Haec igitur qualiacumque erunt si quando ocium tibi dabitur aequo animo perlege:
+               <milestone unit="page"/>
+               <p> Haec igitur qualiacumque erunt si quando ocium tibi dabitur aequo animo perlege:
                     nec narrationem hanc rudem forte ac ieiunam: sed magis rem ipsam perpendito
                     examinatoque. Nam fabulae nulli comicae quae ad insidias cauendas hominum uitam
                     instruit iam censebis inferiorem: et quibus aegrum ipse animum rebus leuo: tu
                     quandoque languentem excita. </p>
-                <closer>Vale.</closer>
+               <closer>Vale.</closer>
             </div>
-                <milestone unit="page"/>
-            </div>
-        </front>
-        <body>
-            <div type="prosa-novella">
-                <head>Eiusdem francisci. <abbr>L. Gond.</abbr> Baptistinus incipit. </head>
-                <p> [V]IR quidam nostris hominibus prorsus ignotus mortalium redemptionis anno
+            <milestone unit="page"/>
+         </div>
+      </front>
+      <body>
+         <div type="prosa-novella">
+            <head>Eiusdem francisci. <abbr>L. Gond.</abbr> Baptistinus incipit. </head>
+            <p> [V]IR quidam nostris hominibus prorsus ignotus mortalium redemptionis anno
                     octuagesimo nono supra milesimum quadringentesimum mense septembri cum
                     mercatoribus quibusdam ferentanorum e nundinis redeuntibus Ragusium uenit:
                     caterua famulorum comitante: non propriis sed magistratuum inter se nominibus
@@ -263,7 +200,7 @@
                     merore maximo percitus: ac desperatione pene ductus: huc se tanquam propinquiori
                     loco tutiorique conferre interim statuisse: quo classem galorum sui causa
                     dominatus repetendi uere nouo exeuntem opperiret. </p>
-                <p>Quae uerba Petro animum diuitias per compendia querere (ut in adulterato prius
+            <p>Quae uerba Petro animum diuitias per compendia querere (ut in adulterato prius
                     argento indicauerat) properanti labefactauere: fortunaque in huiuscemodi uirum
                     fauente credens incidisse: negociatione omissa Francisci cuiusdam qui cum eo
                     uenerat licet consanguinei fraudum tamen ut quidam ex perspectis signis iam tum
@@ -278,8 +215,8 @@
                     ipsi quoque haud obliti patriae pleraque scirent: eique dediti post discessum
                     inuestigassent. Omnia enim (ut postea compertum est) gesta Baptistini secretaque
                     eo quod ex militibus eius fuisset familiarissimus nouerat. </p>
-                <milestone unit="page"/>
-                <p> Quae res tantam eis credulitatem induxit ut uafris appositisque: ipsius uerbis
+            <milestone unit="page"/>
+            <p> Quae res tantam eis credulitatem induxit ut uafris appositisque: ipsius uerbis
                     allucinati nihil que postulasset ei negarent. His itaque testibus confissus
                     necnon et aliis insuper falaciis arte sinonia machinatis: quibus ad credendi
                     pertinatiam ipsorum quoque animos testium impulit: ad uniuersam ciuitatem dolis
@@ -325,8 +262,8 @@
                     quicquid seu domi seu in taberna lanaria praecipuum rerum suarum alienarumue
                     habuisset: uti superfluum cum nulla tenus se passurum eum fore posthac lanificem
                     policitus esset. </p>
-                <milestone unit="page"/>
-                <p> Videns igitur plerisque se baptistinum esse persuasum: uerbisque suis quam
+            <milestone unit="page"/>
+            <p> Videns igitur plerisque se baptistinum esse persuasum: uerbisque suis quam
                     sperasset fortasse maiorem fidem adhiberi cepit hospitio iam mutato rebus
                     necessariis domus paratis ad cultum quoque atque ornatum supelectilem hinc inde
                     accomodando ellegantiorem uitam ducere lautiusque nullo sumptui parcendo amicos
@@ -478,17 +415,17 @@
                     Nec tam dolo malo aureos quibusdam mille circiter ablatos indignandum est: quam
                     temerario facinore ita audacter palam perpetrato impune eum cum uoluerit
                     discesisse: uerbaque uniuersae ciuitati posse iactari se dedisse.</p>
-            </div>
-        </body>
-        <back>
-                <div type="prosa-epistula">
-                    <opener>
-                    <milestone unit="page"/> 
-                        <salute>Franciscus <abbr>luci.</abbr> Gondola. Claro uiro Francisco
+         </div>
+      </body>
+      <back>
+         <div type="prosa-epistula">
+            <opener>
+               <milestone unit="page"/>
+               <salute>Franciscus <abbr>luci.</abbr> Gondola. Claro uiro Francisco
                         Delphino. <abbr>Sal:</abbr>
-               </salute> 
-                    </opener>
-                <p>Et si me splendor ciuitatis meas has istuc ad te dare nugas absterret: tua in me
+               </salute>
+            </opener>
+            <p>Et si me splendor ciuitatis meas has istuc ad te dare nugas absterret: tua in me
                     tamen officia innumera compulere: ut tibi uel hoc munusculo gratificarem: non ut
                     eruditos ullatenus prouocare ausim: sed ut tibi potius familiaribusue tuis cum
                     ab negocio cessares iocunditatis materiam exiberem: est enim fabellae ueluti
@@ -501,37 +438,33 @@
             <closer>
                <salute>Vale.</salute>
             </closer>
-                </div>
-                    <milestone unit="page"/>
-
-
-                
-           
-            <div type="poesis-epigramma">
-                <head>Ad lectorem <abbr>Hel. Lam. Cer. P. L.</abbr> in laudem Baptistini </head>
-                <l>Saepe sacerdotes legatos saepe professus.</l>
-                <l>Qui fallax multos luserat ante duces.</l>
-                <l>Hic nostros ciues operosa fraude fefellit.</l>
-                <l>Pseudo Baptistini principis ora gerens.</l>
-                <l>Qui puto uertumnum: uariisque Achelosa figuris.</l>
-                <l>Qui puto Mercurium uinceret arte sua.</l>
-                <l>Huius praestigias caecos Nebulonis et astus.</l>
-                <l>Gondola perpetuae traddidit historiae.</l>
-                <l>Ergo pellacis scelus euitare Monellae.</l>
-                <l>Qui docet: huic libro lector amice faue.</l>
-                <trailer>FINIS.</trailer>
-            </div>
-            <div type="prosa-epistula">
-                <opener>
-                    <milestone unit="page"/> 
-                    <salute>
-                        <abbr>Fran. Luci. Gon.</abbr> 
+         </div>
+         <milestone unit="page"/>
+         <div type="poesis-epigramma">
+            <head>Ad lectorem <abbr>Hel. Lam. Cer. P. L.</abbr> in laudem Baptistini </head>
+            <l>Saepe sacerdotes legatos saepe professus.</l>
+            <l>Qui fallax multos luserat ante duces.</l>
+            <l>Hic nostros ciues operosa fraude fefellit.</l>
+            <l>Pseudo Baptistini principis ora gerens.</l>
+            <l>Qui puto uertumnum: uariisque Achelosa figuris.</l>
+            <l>Qui puto Mercurium uinceret arte sua.</l>
+            <l>Huius praestigias caecos Nebulonis et astus.</l>
+            <l>Gondola perpetuae traddidit historiae.</l>
+            <l>Ergo pellacis scelus euitare Monellae.</l>
+            <l>Qui docet: huic libro lector amice faue.</l>
+            <trailer>FINIS.</trailer>
+         </div>
+         <div type="prosa-epistula">
+            <opener>
+               <milestone unit="page"/>
+               <salute>
+                  <abbr>Fran. Luci. Gon.</abbr>
                   <abbr>Helio. lamp.</abbr> ceruio Poetae <abbr>lau.</abbr> Suo
                     <abbr>Sa.</abbr>
-               </salute> 
+               </salute>
             </opener>
-                <p>
-                    <milestone unit="page"/>
+            <p>
+               <milestone unit="page"/>
  Cum interdum clarissimorum libros poetarum uates
                     egregie reuoluo: haud paruam animo meo sensibus eorum perscrutatis admirationem
                     concipio. Non enim fabellarum (uti rudi narantur) (uulgo) festiuitate permoueor:
@@ -569,11 +502,11 @@
                     ipsorum poetarum grauissimus elegantissimusque Maro una cum reliquis
                     inexorabilium damnans hominum mores saepius repetendo causam inde processisse
                     affirmet. cum dicit <milestone unit="page"/>
-                    <quote>
-                        <l>Nec tibi diua parens generis nec tibi dardanus auctor.</l>
-                        <l>Perfide: sed duris genuit te cautibus horrens</l>
-                        <l>Caucasus: hyrcanaeque admorunt ubera Tigres.</l>
-                    </quote> Hinc ille lupae alumni furor in fratrem. Caeterum cum non sit instituti
+               <quote>
+                  <l>Nec tibi diua parens generis nec tibi dardanus auctor.</l>
+                  <l>Perfide: sed duris genuit te cautibus horrens</l>
+                  <l>Caucasus: hyrcanaeque admorunt ubera Tigres.</l>
+               </quote> Hinc ille lupae alumni furor in fratrem. Caeterum cum non sit instituti
                     sermonis de liberorum aeducatione disserere: non enim in praesentia tantum ocii
                     nobis atque facultatis conceditur. Quorsum igitur nostra istec in efferos mores
                     repentina inuectio. Heli charissime fortasse interroganti respondeo: ambos
@@ -587,11 +520,7 @@
                     aegritudinis ex animo pellendae causa dedi: nec ambigo te (si cultissimas
                     camaenas tuas noui) illico mihi responsurum: maerorique huic meo gratissimum
                     leuamen praebiturum. </p>
-            </div>
-        </back>
-
-
-
-    </text>
-
+         </div>
+      </back>
+   </text>
 </TEI>

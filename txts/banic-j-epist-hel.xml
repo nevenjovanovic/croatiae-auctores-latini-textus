@@ -1,29 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="banic-j-epist-hel">
-        <titleStmt>
+         <titleStmt>
             <title>Epistula ad Stephanum Ponchierium, versio electronica.</title>
             <author ref="banic01">
-                <persName xml:lang="hr">Baničević, Jakov</persName>
-                <date>1466-1532</date>
+               <persName xml:lang="hr">Baničević, Jakov</persName>
+               <date>1466-1532</date>
             </author>
             <editor>
                <persName>
                   <ref>Alexander Apponyi</ref>
                </persName>
             </editor>
-            
             <respStmt>
-                <resp>Hanc editionem electronicam curavit</resp>
-                <persName>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
-        </titleStmt>
-        <editionStmt>
+         </titleStmt>
+         <editionStmt>
             <p>Digitalizat kasnijeg znanstvenog izdanja (1903).</p>
-        </editionStmt>
-        <extent ana="B">Mg:B Verborum 143</extent>
+         </editionStmt>
+         <extent ana="B">Mg:B Verborum 143</extent>
          <publicationStmt>
             <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
             projekt na <orgName>
@@ -41,76 +41,26 @@
         </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="4"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="person" occurs="3"/>
-          <tagUsage gi="place" occurs="2"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-       <profileDesc xml:id="banicevicponchier15100501">
+      <profileDesc xml:id="banicevicponchier15100501">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin">
+            <place ana="origin">
                <placeName ref="http://www.wikidata.org/wiki/Q2749">Augsburg</placeName>
             </place>
-             <place ana="destination" type="unknown">
+            <place ana="destination" type="unknown">
                <placeName type="unknown">Unknown</placeName>
             </place>
          </settingDesc>
          <particDesc>
-             <person role="sender">
+            <person role="sender">
                <persName ref="banic01">Jakov Baničević</persName>
             </person>
-             <person role="recipient">
+            <person role="recipient">
                <persName ref="233493311">Ponchier, Étienne</persName>
             </person>
-             <person role="mentioned">
+            <person role="mentioned">
                <persName ref="172650646">Hélian, Louis</persName>
             </person>
          </particDesc>
@@ -120,20 +70,20 @@
          <creation>
             <date when="1510-05-01" period="15xx_1_third">1.5.1510.</date>
             <placeName>Augsburg</placeName>
-        </creation>
+         </creation>
          <textClass>
             <keywords scheme="typus">
-                <term>prosa</term>
+               <term>prosa</term>
             </keywords>
             <keywords scheme="aetas">
-                <term>Litterae renatae (1400-1600)</term>
-                <term>Saeculum 16 (1501-1600)</term>
-                <term>1501-1550</term>
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
             </keywords>
             <keywords scheme="genre">
-                <term>prosa oratio - epistula</term>
+               <term>prosa oratio - epistula</term>
             </keywords>
-        </textClass>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -143,24 +93,20 @@
             <date>2012-03-09</date>
         Prva verzija.
     </change>
-
       </revisionDesc>
    </teiHeader>
    <text type="prosa">
-    
       <body>
          <div type="prosa-epistula" corresp="#banicevicponchier15100501">
             <opener>
             Jacobus Bannicius a Caesareis secretis Stephano Ponchierio Reverendissimo Episcopo Parisiensi salutem.
-    </opener>    
-            <p> 
+    </opener>
+            <p>
                <persName>Ludovicus Helianus</persName>, qui a Christianissimo Francorum Rege vestro hic apud invictissimum Caesarem nostrum oratorem agit, habuit orationem de Caesare, proceribus Germanisque omnibus adversus Venetianos ac Turcas concitandis, deque factiosis quibusdam concilium ac sanctissimam Principum confederationem interrumpere conantibus comprimendis. Non memini audire neque legere orationem nostra tempestate priscorum oratorum facundiae propius accedentem. Nam has nationes, maxime autem Caesarem ipsum ad id jam bellum incumbentem non delectavit modo, atque commovit, sed etiam affecit, et adversus illas gentes armorum ardore vehementer inflammavit, ac omnium concursantium conatus perfregit. Caesar voluit ut impressoribus ederetur. Ego sicuti dicta est, quae certe extemporanea est, pro ea, quae mihi tecum est gratia atque familiaritate eam ad te mitto, quem scio hoc dicendi genere delectari, <expan>et</expan> pollere, <expan>et</expan> plurimum posse.      
     </p>
             <closer>Bene vale. <dateline>Ex Augusta Vindelica Cal. Maijs. M. D. X.</dateline>
             </closer>
- 
          </div>
-   
       </body>
    </text>
 </TEI>

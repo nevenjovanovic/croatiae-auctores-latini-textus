@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="andreis-f-const">
          <titleStmt>
             <title>Commentarius rerum
@@ -48,63 +49,6 @@
           21-30.</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="47"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="corr" occurs="4"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="12"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="49"/>
-          <tagUsage gi="pRef" occurs="2"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="8"/>
-          <tagUsage gi="persName" occurs="50"/>
-          <tagUsage gi="placeName" occurs="45"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="68"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="46"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -135,7 +79,6 @@
             </keywords>
          </textClass>
       </profileDesc>
-    
       <revisionDesc>
          <change>
             <persName>
@@ -154,8 +97,8 @@
             <date>2011-11-27</date>
          </change>
       </revisionDesc>
-  </teiHeader>
-  <text type="prosa">
+   </teiHeader>
+   <text type="prosa">
       <body>
          <div type="epistola">
             <head>Commentarius rerum
@@ -194,7 +137,7 @@
           ipsorum confessione rei bellice non sunt idonei; quidquid virium habent, in finitimis
           consistit.</p>
             <p>
-          <sic>Hec</sic> et alia <corr>conscripseram</corr> ad <abbr>V.S.M.</abbr> Sperabam unius Thurci auxilio me posse litteras
+               <sic>Hec</sic> et alia <corr>conscripseram</corr> ad <abbr>V.S.M.</abbr> Sperabam unius Thurci auxilio me posse litteras
           mittere, beneficiis enim plurimum mihi eum devinxeram. Sed nulla pecunia potuit corrumpi,
           ut litteras <placeName>Galatam</placeName> ad fratrem Antonium deferret. Dicebat, se quoque observari, timere, ne
           sibi mortem, mihi vero periculum contrahat.</p>
@@ -210,7 +153,8 @@
           cumulate. Hic expressi munus, quod <abbr>V.S.M.tas</abbr> mandaverat mihi ut illi proponerem, si res
           optatum finem sortiretur.</p>
             <p>
-               <note resp="alter">[<sic>Que</sic> <persName>Solymannus Bassa</persName> responderit]</note> Bassa pro se modeste respondit. Primum sciscitatus est
+               <note resp="alter">[<sic>Que</sic>
+                  <persName>Solymannus Bassa</persName> responderit]</note> Bassa pro se modeste respondit. Primum sciscitatus est
           de sanitate <abbr>V.re Sac.M.</abbr>, deinde inquit, se libenter velle tanto principi gratificari,
           dummodo esset absque damno sui domini et sine detrimento sui honoris. Ad nomen 
         <pb n="23"/>
@@ -236,18 +180,19 @@
           pacem, ac ut ea fiat, authorem et adiutorem esse futurum. Quid autem illud est, quod tuus
           dominus petit a domino meo, tandem edissere.</p>
             <p>Existimo, inquam, constare <abbr>V.re M.</abbr> dominationi quo iure <placeName>
-            <sic>Hungarie</sic> Regnum</placeName> pertineat ad
+                  <sic>Hungarie</sic> Regnum</placeName> pertineat ad
           <abbr>Sacr.Reg.Ma.</abbr>; petit igitur atque etiam rogat illud ab Imperatore vestro sibi dari iis
           conditionibus quibus Joanni dederat. Persuasum est christianis omnibus, quod vester
           Imperator <placeName>Hungariam</placeName> per se non retinebit: nemini autem illud iustius maioreque cum laude
           atque securitate dabit, quam serenissimo domino meo, primo quia multo gloriosius est regna
           donare quam eripere; deinde quod Regia Maiestas liberalitatem illius recognoscet annuis
-          muneribus, et fidelitate amicitiam atque pacem <sic>eternam</sic> <sic>prestabit</sic>. Adornavi hanc petitionem
+          muneribus, et fidelitate amicitiam atque pacem <sic>eternam</sic>
+               <sic>prestabit</sic>. Adornavi hanc petitionem
           pluribus verbis, ut <sic>prescriptum</sic> fuit in <sic>Instructionem</sic>. <note resp="alter">[Responsum <persName>Solymanny</persName>]</note> Respondit
           Bassa: <sic>quommodo</sic> potest Imperator <placeName>Budam</placeName> dare, in qua munienda et conservanda infinitos
           sumptus fecit? Sunt et nostra templa <placeName>
-            <sic>Bude</sic>
-          </placeName> extructa, <sic>que</sic> nefas est a nobis alienare, et ad
+                  <sic>Bude</sic>
+               </placeName> extructa, <sic>que</sic> nefas est a nobis alienare, et ad
           manus infidelium tradere. Si rex tuus vult habere pacem cum Imperatore, reddat illas
           quatuor arces, <placeName>Strigonium</placeName>, <placeName>Vissegrad</placeName>, <placeName>Tattam</placeName>, <placeName>Albam Regalem</placeName>, ut prius regi significatum
           est. Quo facto statuentur ex utraque parte fines, et sic in perpetuum pace fruemini;
@@ -289,7 +234,8 @@
           fiunt, ea non est necesse explorare. </p>
             <p>Tunc vertit sermonem dicens, non inquam quod explorator es, sed cur tam longo itinere
           venisti, quum per Hungariam breviore via poteras venire? Negavi, tutum fuisse transire per
-          <sic>medias</sic> <sic>predones</sic>, et quod ab iis, qui manent in confiniis magnum periculum esset legatis
+          <sic>medias</sic>
+               <sic>predones</sic>, et quod ab iis, qui manent in confiniis magnum periculum esset legatis
           <sic>comeantibus</sic>, quoniam pacem et eos qui illam procurant exitialiter oderint.</p>
             <p>Post multa verba promisi ei nomine <abbr>V.M.tis</abbr> ea <sic>que</sic> mihi mandaverat, si negocium <abbr>V.re M.</abbr>
           proficeret, rogavique plurimum, ut rebus <abbr>V.M.tis</abbr> faveret, re ipsa esset <sic>expecturus</sic> optimo
@@ -314,20 +260,23 @@
           </p>
             <p>Tunc primum invasit me timor, considerantem quam perfidiam eorum, et quod in servitore cepissent <sic>sevire</sic>, ne a meo quidem sanguine esse temperaturos. Ac re vera dicebatur, Imperator vehementer excanduisse et etiam decrevisse me interfici, sed consilio bassarum inhibitus est, ne id faceret contra fidem publicam a se datam, sine ullo more, sine exemplo, ne violaret ius gentium; neminem posthac principem christianorum ausurum legatos ad eum mittere, nec ipsum ad christianos. Iam in <placeName>Galata</placeName> sparsa fuerat fama, ademptum esse mihi caput.</p>
             <p>5. <note resp="alter">[Secundum colloquium cum <persName>Solimanno Bassa</persName>.]</note> In prima sequente audientia missus est ad me interpres Imperatoris pro literis quas <abbr>V. M.</abbr> scripserat ad ipsum Imperatorem. Eodem die post meridiem vocatus sum ad <persName>Solimanum Bassam</persName>. Quum consedissemus, quesivit, quo iure pertineret <placeName>Regnum <sic>Hungarie</sic>
-          </placeName> ad <abbr>V. M.</abbr> In congressu, inquam, <persName>Maximiliani <sic>cesaris</sic>
-          </persName>, <persName>Ladislai regis <placeName>
-              <sic>Hungarie</sic>
-            </placeName>
-          </persName> et <persName>Sigismundi regis <placeName>
-              <sic>Polonie</sic>
-            </placeName>
-          </persName> <placeName>
-            <sic>Vienne</sic>
-          </placeName>, quum rex Ladislaus despondisset filiam suam <persName>reginam Annam</persName> serenissimo regi meo, firmatum est inter eos, si ita accideret, ut fato prius interiret <persName>Ludovicus rex</persName>, filius <persName>Ladislai regis</persName>, absque herede, <placeName>Regnum Hungariae</placeName> una cum filia <persName>Ladislai regis</persName> eademque sorore <persName>Ludovici regis</persName> devolveretur ad serenissimum dominum meum.</p>
+               </placeName> ad <abbr>V. M.</abbr> In congressu, inquam, <persName>Maximiliani <sic>cesaris</sic>
+               </persName>, <persName>Ladislai regis <placeName>
+                     <sic>Hungarie</sic>
+                  </placeName>
+               </persName> et <persName>Sigismundi regis <placeName>
+                     <sic>Polonie</sic>
+                  </placeName>
+               </persName>
+               <placeName>
+                  <sic>Vienne</sic>
+               </placeName>, quum rex Ladislaus despondisset filiam suam <persName>reginam Annam</persName> serenissimo regi meo, firmatum est inter eos, si ita accideret, ut fato prius interiret <persName>Ludovicus rex</persName>, filius <persName>Ladislai regis</persName>, absque herede, <placeName>Regnum Hungariae</placeName> una cum filia <persName>Ladislai regis</persName> eademque sorore <persName>Ludovici regis</persName> devolveretur ad serenissimum dominum meum.</p>
             <p>Quid, inquit, estis astrologi, ut divinare potueritis, <persName>Ludovicum regem</persName> absque filiis esse decessurum? Homines, inquam, prudentes cogitant <sic>que</sic> accidere possunt, mors et vita hominis in manu Dei est. Igitur mortuo <persName>
-            <sic>regi</sic> Ludovico</persName> serenissimus rex meus expulit <sic>Hungariam</sic> <persName>Joannem</persName>, qui in illud regnum nullo iure irrepserat, tamdiuque tenuit integrum consensu totius gentis de more patrie coronatus, donec vires <sic>vestre</sic> non prevaluissent.</p>
+                  <sic>regi</sic> Ludovico</persName> serenissimus rex meus expulit <sic>Hungariam</sic>
+               <persName>Joannem</persName>, qui in illud regnum nullo iure irrepserat, tamdiuque tenuit integrum consensu totius gentis de more patrie coronatus, donec vires <sic>vestre</sic> non prevaluissent.</p>
             <p>Deinde interrogavit de numero gentium: quis eas mitteret, an venirent cum voluntate <abbr>V.re M.tis</abbr>? Ego non potui negare, quin cum voluntate <abbr>V.re M.</abbr> venirent. Declaravi etiam numerum militum et unde mitterentur. <sic>que</sic> omnia confessus est <persName>Jonus Beg</persName>, se Venetiis audisse. Addidi preterea, christianos principes et status Imperii constituisse, <sic>tandiu</sic> bellum alere, etiam si per decennium opus esset, donec <placeName>Budam</placeName> recuperent.</p>
-            <p>Quid ita? inquit. Existente, inquam, <placeName>Buda</placeName> in manibus Christianorum nemo se commovit. Nunc vos ubi eam preter spem omnium occupastis, muniatisque quotidie mirum in modum, magnaque presidia in ea teneatis, unde Thurci terras serenissimi domini mei crebris excursionibus vastant incenduntque, ac sub meum discessum de Vienna civitatem Jaurinum depredati sunt ac <sic>inflamaverunt</sic>, non putant se tutos in domibus suis, si Thurci <placeName>Budam</placeName> tenuerint. Hic <persName>Jonus Beg</persName> summissa voce dixit: <foreign>Cussì</foreign>, quod placeret illi, si huiusmodi rationibus induci possent, ut <placeName>Budam</placeName> <abbr>V.re M.ti</abbr> redderent.</p>
+            <p>Quid ita? inquit. Existente, inquam, <placeName>Buda</placeName> in manibus Christianorum nemo se commovit. Nunc vos ubi eam preter spem omnium occupastis, muniatisque quotidie mirum in modum, magnaque presidia in ea teneatis, unde Thurci terras serenissimi domini mei crebris excursionibus vastant incenduntque, ac sub meum discessum de Vienna civitatem Jaurinum depredati sunt ac <sic>inflamaverunt</sic>, non putant se tutos in domibus suis, si Thurci <placeName>Budam</placeName> tenuerint. Hic <persName>Jonus Beg</persName> summissa voce dixit: <foreign>Cussì</foreign>, quod placeret illi, si huiusmodi rationibus induci possent, ut <placeName>Budam</placeName>
+               <abbr>V.re M.ti</abbr> redderent.</p>
             <p>Hec omnia ad verbum iussit Bassa advocato notario perscribi. Sunt et alia verba inter nos sequuta, sed non alicuius momenti, unum tamen referam: Quum dixissem, quosdam Hungaros (nam de iis mentio facta fuerat) nec esse Regie <abbr>M.ti</abbr> nec Imperatori fideles, et nihil aliud agere, nisi ut ipsi dominentur, quum quesivisset, quinam isti essent, ego commemoravi illos, qui <placeName>Budam</placeName> tradiderant. Inquit Bassa, iniuriam illis facitis <pb n="26"/> sic loquendo, nam Imperator, quum esset in Hungaria, interrogavit eos, an possent et tributum solvere et <placeName>Budam</placeName> contra Alemanos defendere, negaverunt utrumque prestare posse. Eam ob rem Imperator accepit <placeName>Budam</placeName> ad manus suas.</p>
             <p>Poteram obicere, perfidiose fuisse actum cum Hungaris, sed nolui venire ad contentiones inutiles. Iam nulla spes erat adeundi Imperatoris, itaque petitionem <abbr>V.re M.tis</abbr>, quam paratam in lingua italica admonitus ad manus Basse tradidi, quam hic subscripsi, premissa consueta salutatione:</p>
             <quote xml:lang="it">
@@ -366,7 +315,8 @@
             <p>Quesivit ab interprete, an etiam alie fuissent litere. Negavit interpres. Tandem, quum
           non esset inventum quicquam, quod iure mihi obesset, nec ipse auderet fidem Imperatoris
           reprehendere, dixit: Hec est voluntas Imperatoris, ut tantisper hic sedeas, donec te
-          <sic>dimittat</sic> <persName>Jonus Beg</persName> mirabatur, in quem eventum tamdiu <corr>detinerer</corr>. </p>
+          <sic>dimittat</sic>
+               <persName>Jonus Beg</persName> mirabatur, in quem eventum tamdiu <corr>detinerer</corr>. </p>
             <p>Hinc recta profectus sum ad <persName>Rhustam Bassam</persName>. Recensui illi verba <persName>Solimani Basse</persName> de
           responso Imperatoris. Non est, inquit, hoc responsum, ibis cum alio responso, fortasse cum
           meliore (hec autem ironice loquebatur). Venies ad bellum cum Imperatore, videbis, nos
@@ -500,10 +450,10 @@
                <sic>falleret</sic>, imparatamque aggrederentur. Plurima de industria <sic>pretermisi</sic>, <sic>que</sic> non
           videbantur magnopere pertinere ad rem. Attigi tamen, <sic>que</sic> magis digna scitu videbantur.</p>
             <signed>
-          <persName>Tranquillus</persName> manu sua fideliter</signed>
+               <persName>Tranquillus</persName> manu sua fideliter</signed>
             <note resp="alter" xml:lang="de">[Am 10. Januar 1543 an
           König Ferdinand gesandt.]</note>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

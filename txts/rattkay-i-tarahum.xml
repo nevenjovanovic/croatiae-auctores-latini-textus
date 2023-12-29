@@ -1,13 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="rattkay-i-tarahum">
          <titleStmt>
-           <title>Relatio Tarahumarum Missionum eiusque Tarahumarae Nationis Terraeque Descriptio, editio electronica</title>
-           <author ref="rattkay02">
+            <title>Relatio Tarahumarum Missionum eiusque Tarahumarae Nationis Terraeque Descriptio, editio electronica</title>
+            <author ref="rattkay02">
                <persName xml:lang="hr">Rattkay, Ivan</persName>
-              <date>1647–1683</date>
+               <date>1647–1683</date>
             </author>
-           <editor>
+            <editor>
                <persName>
                   <ref>Ludwig Fladerer</ref>
                </persName>
@@ -18,25 +19,23 @@
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
-
          </titleStmt>
-        <editionStmt>
+         <editionStmt>
             <edition>
             Prema TEI XML izdanju iz rukopisa (GAMS, Jesuitenliteratur Antikerezeption - Manuskript)
           </edition>
-        </editionStmt>
-        <extent ana="C">Mg:C 
+         </editionStmt>
+         <extent ana="C">Mg:C 
           9250 verborum
         </extent>
          <publicationStmt>
-	           <p>Elektronska verzija: Neolatina Croatica, znanstveni
+            <p>Elektronska verzija: Neolatina Croatica, znanstveni
 	   projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
 	   Hrvatska.  <date>Srpnja 2012.</date>
             </p>
-	        </publicationStmt>
-	 
+         </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
@@ -46,61 +45,10 @@
              <relatedItem type="internet">
                   <ref target="http://gams.uni-graz.at/fedora/get/o:arj-083-25/bdef:TEI/get/">TEI XML izdanje</ref>
                </relatedItem>
-           </bibl>
+            </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="3"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="22"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="38"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="132"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-     <profileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -130,26 +78,25 @@
             </keywords>
          </textClass>
       </profileDesc>
-     <revisionDesc>
+      <revisionDesc>
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
        Početna verzija.
        </change>
-     </revisionDesc>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="prosa-relatio">
             <head>Relatio Tarahumarum Missionum eiusque Tarahumarae Nationis Terraeque Descriptio</head>
-
             <p>Ubi primum post exactas multas itineris viarumque molestias in terris incognitis:1 desideratam missionum segetem in Tarahumara provincia in ibidem adlaborantium operariorum auxilium, laboribus apostolicis ad messem perducere admissus sum; primum id animo duxi, ut dilectae Matri meae Provinciae Austriacae religiosae educationis ergo gratus, quae Societatis honori atque consolationi esse<ref>2</ref> possent ad excitandum in charitatis obsequiis fervorem et augenda pia proximos iuvandi studia perscriberem. Sane<ref>3</ref>, quia haec plurima sunt, hoc unicum doleo, ut tam debili calamo nec hoc opere digna arte expressa eius encomia exarare cogar, quia tamen silentio omnia pertransire prius me facturum credebam, quam licet inerudite de omnibus certiorem facere. Hisce sincero innatoque candore omnia, quae aut oculis videre aut a fide dignis viris audire licuit, breviter, ut possum, exponam. Quia vero ad assumpti maiorem noticiam plurimum terrae incolarumque descriptio, ad harum autem descriptionem rudis saltem circumiacentium regionum noticia plurimum conducit, primum praemissa mappa circum iacentes regiones, tum Tarahumaram terram eiusque incolarum mores, ac demum Missionum hic existentium consuetudinem breviter referam.</p>
             <p>Circumiacentes porro provinciae quatuor orbis partes respecto<ref>4</ref> Tarahumarae repraesentantes hanc situationem sibi vendicant, ut Mexicana et reliquae usque Mexicum situatae regiones, in 250 circiter milliaria Hispanica in longum extensae meridiem versus iacere censeantur. Inter hanc extensionem in confiniis Tarahumarae frustum ferri ingens ad instar praegrandis saxi, quod nec 20 boves loco movere possunt, in signum positum est, quia nimirum id eo attulit vetula quaedam super humeros, dum daemon duobus fratribus regna divideret: uni, quidquid ab illo signo versus novum Mexicum terrae imminet, alteri, quidquid ab illo usque Mexicum et<ref>5</ref> hoc ipsum in dominium cederet<ref>6</ref>. Hoc saxum hic visitur nec ulla humana arte aut studio inde avelli<ref>7</ref> potest, ut a fide viris dignis narratur.</p>
             <p>Novum Mexicum autem, quod uni fratrum in dominium cessit, versus septentrionem a Tarahumara 150 circiter milliaribus distat. A 34M circiter gradu altitudinis polaris usque 40UM omnes Christiani fonte baptismatis abluti fuerunt. Ibidem missiones valde celebres administris Reverendis Patribus primi Ordinis Sancti Francisci longe lateque in hac America Septentrionali promulgatae optimum progressum habuere. <milestone unit="page" n="2"/> Illius terrae incolae<ref>8</ref> sponte se se iam bonis moribus ac educationi Christiana tradidere. Erecta iam ubique templa ampla ornamentis sacris sufficienter instructa, picturis, imaginibus reliquoque ornatu decora spectabantur. In quibus quotidie a iuvenibus aetateque provectis doctrina Christiana recitabatur, reliquaeque sacrae psalmodiae et sacra decantabantur. Iucundum erat videre, (ut mihi ipsi, qui inde expulsi sunt, narravere) qualiter omnes fere Hispanicum sermonem bene scientes, ad omnia dociles, in omnibus economicis reliquisque bene versati, ad instar Hispanorum terram excolebant, equos instruebant, boves et tauros domabant, patres in omnibus pietatis officiis adiuvabant; ante duos vero annos prohdolor<ref>9</ref> non sine calamitosa strage multorum Hispanorum viginti<ref>10</ref> duorum religiosorum Ordinis Sancti Francisci violenta morte crudeli auso<ref>11</ref>, nefaria traditione rebellionem eiusdem incolae attentarunt ac suppeditante daemone a catholica religione deficientes, suave iugum Christianae fidei rejicientes, quo liberius scelerum immanitas ibidem vigeret, se se pristinis erroribus tradiderunt ac stygiae servituti manciparunt. Expulsis catholicis, diruta templa, profanata sacra vasa, ornamenta benedicta in usum profanum adhibita, ebrietates denuo usurpatae sunt. Pristinus idolorum cultus admissus, odium in veram religionem invaluit: libertas vitae educationem bonam, perversa vita sanam doctrinam exulare iussit, et licet omnibus modis auxiliaribus armis ad perdita recuperanda sparsumque iam semel verbi Divini semen, ne penitus pereat, denuo excitandum adlaboretur, hucusque tamen nihil Deo ni<ref>12</ref> permittente factum est. Expectatur in dies miles arma iam coempta, equi ad pugnam instructi parati sunt, quibus ad ultionem Divinae lesae Maiestatis Regiaeque (ni pace gratiam conciliare vellent) in tam abominandum facinus saeviatur<ref>13</ref> ac rei eiusdem incolae pro debito puniantur.</p>
             <p>A Novi Mexici denuo in pristinum aut meliorem statum reductione plurimum omnes hae nationes dependent, solet enim plerumque unius error plures in malum pertrahere. Et hoc iam experti sumus anno antecedenti 1681, ubi ad exemplum rebellium in Sonora bis<ref>14</ref> rebellionem meditati sunt, non tamen eis successit. In capita rebellium inquisitio facta, eademque in patibulum affixa sunt.</p>
             <p>Fuit et in Guazaparibus, de quibus suo loco, tumultus aliquis, inque patrum necem gentiles fideles aliquos inducebant libertatem vitae suadentes vanamque nigrorum (sic hic vocamur) doctrinam dictitantes. Verum et hae adversariorum machinae feliciter elusae sollicita patrum ibi degentium cura, ex praesidio Cinaloae (quod prope iacet) satellitibus advocatis, compressa malevolorum audacia exstinctaque in patres odia, patefactis malorum insidiis pacifica rediit administrandi eosque pie edocendi consuetudo.</p>
-            <p>Nec sua defuit Tarahumaribus<ref>15</ref> malitia. Eodem enim anno circa mensem Octobris, quo <milestone unit="page" n="3"/> totum iam triticum collectum, cessantibus pluviis, (quae hic a Iulio usque Octobrem durare solent) ubi et tellus revirescit, pacate Indi<ref>16</ref> vivere videbantur. In Matachic 3 dierum spatio hinc dissito sanguineos<ref>17</ref> in primos<ref>18</ref> omnes dolos parabant. Ipse pater ibidem residens de nocte fugam molitur cum quodam iuvene Hispano, qui rerum domesticarum praediique curam habebat, in Papigochic ac demum nocte sequenti ad Sancti Borgiae pervenit, timor addidit alas, et timere debuit et fugiendo non tam suae, quam suorum vitae consulere (Rector erat). Eo mox sequenti nocte pater belga, qui in Papigochic residebat, advenit, quatociusque et nos quivis ex sua Missione advocati, ne incauti ab ingratis opprimeremur<ref>19</ref> ac morti traderemur. Congregatis iam patribus proditae<ref>20</ref> hostium insidiae<ref>21</ref> nobis patefieri, meditatae mortes proponi coeperunt et simul, ut in quattuor classes distinctae centuriae arcubus sagittisque instructae omnes repente invadere coniuraverint. Hinc ablata ad montana vivaria, omne triticum ad rupes absportatum, fidelissimi tres patres in necem dati, exploratores huc illuc praemissi, revelata omnia patri a pluribus et praecipue a quadam eiusdem nationis femina ibidem publice id asseverante. Haec postquam auribus nostris innotuit, crevit<ref>22</ref> fides et timor. Quamvis omnes animo voceque concordi in Dei voluntatem resignatissimi, in martyrii coronam summo desiderio intenti, in gloriosam mortem omnes paratissimi, sine magno labore (hanc enim quotidie et speravimus et speramus) ad omnia pro Dei gloria sustinenda alacres, nos ipsos Divinae consecravimus Maiestati, quia tamen non solum nostra inde dependebat salus, verum tot Christianorum ibidem viventium, tot Hispanorum pro salute sua operantium, status se se nostris objiciebat oculis, ut tot tantoque labore partos partus una finiet res<ref>23</ref>, qualiter avernalis ille Cerberus miseris hisce insidiabitur animabus, quam misero in statu Divina omnia periclitabuntur, quomodo calamitoso exitu tam feliciter coepta pro Dei gloria studia corruent. Simul etiam perpendimus temporalia bona Serenissimi Regis argenti fodinas tot Hispanorum locupletia praedia et possesiones, quas<ref>24</ref> si semel occupaverint<ref>25</ref> perduelles, difficili via recuperari poterunt. † nimium<ref>26</ref> cura sit parta sua<ref>27</ref> † cuivis facilius enim custodiuntur, quam iterum recuperantur. Haec dum maiora<ref>28</ref> severitate commendata Angelorum Reginae sanctissimis patronis pericula<ref>29</ref> perpendimus, venit nuntius, laetiora praedicit, nec tanta esse ut timemus mala. Quamprimum<ref>30</ref> enim seditiosi rescierunt suum a suis patrem recessisse fugaque vitam consuluisse<ref>31</ref>, ac in praesidium argentifodinarum eximia receptricum<ref>32</ref>, oppidum Paral dictum se recepisse, suas machinas detectas, rebellionem manifestatam, seditiosa consilia in mendacia verterunt. Et dum a nostris gubernatores et<ref>33</ref> capita ad iudicium accita vocarentur, vetularum fabulam asseverabant, et ita connexis inter se mendaciis omnem proditorem<ref>34</ref> 
+            <p>Nec sua defuit Tarahumaribus<ref>15</ref> malitia. Eodem enim anno circa mensem Octobris, quo <milestone unit="page" n="3"/> totum iam triticum collectum, cessantibus pluviis, (quae hic a Iulio usque Octobrem durare solent) ubi et tellus revirescit, pacate Indi<ref>16</ref> vivere videbantur. In Matachic 3 dierum spatio hinc dissito sanguineos<ref>17</ref> in primos<ref>18</ref> omnes dolos parabant. Ipse pater ibidem residens de nocte fugam molitur cum quodam iuvene Hispano, qui rerum domesticarum praediique curam habebat, in Papigochic ac demum nocte sequenti ad Sancti Borgiae pervenit, timor addidit alas, et timere debuit et fugiendo non tam suae, quam suorum vitae consulere (Rector erat). Eo mox sequenti nocte pater belga, qui in Papigochic residebat, advenit, quatociusque et nos quivis ex sua Missione advocati, ne incauti ab ingratis opprimeremur<ref>19</ref> ac morti traderemur. Congregatis iam patribus proditae<ref>20</ref> hostium insidiae<ref>21</ref> nobis patefieri, meditatae mortes proponi coeperunt et simul, ut in quattuor classes distinctae centuriae arcubus sagittisque instructae omnes repente invadere coniuraverint. Hinc ablata ad montana vivaria, omne triticum ad rupes absportatum, fidelissimi tres patres in necem dati, exploratores huc illuc praemissi, revelata omnia patri a pluribus et praecipue a quadam eiusdem nationis femina ibidem publice id asseverante. Haec postquam auribus nostris innotuit, crevit<ref>22</ref> fides et timor. Quamvis omnes animo voceque concordi in Dei voluntatem resignatissimi, in martyrii coronam summo desiderio intenti, in gloriosam mortem omnes paratissimi, sine magno labore (hanc enim quotidie et speravimus et speramus) ad omnia pro Dei gloria sustinenda alacres, nos ipsos Divinae consecravimus Maiestati, quia tamen non solum nostra inde dependebat salus, verum tot Christianorum ibidem viventium, tot Hispanorum pro salute sua operantium, status se se nostris objiciebat oculis, ut tot tantoque labore partos partus una finiet res<ref>23</ref>, qualiter avernalis ille Cerberus miseris hisce insidiabitur animabus, quam misero in statu Divina omnia periclitabuntur, quomodo calamitoso exitu tam feliciter coepta pro Dei gloria studia corruent. Simul etiam perpendimus temporalia bona Serenissimi Regis argenti fodinas tot Hispanorum locupletia praedia et possesiones, quas<ref>24</ref> si semel occupaverint<ref>25</ref> perduelles, difficili via recuperari poterunt. † nimium<ref>26</ref> cura sit parta sua<ref>27</ref> † cuivis facilius enim custodiuntur, quam iterum recuperantur. Haec dum maiora<ref>28</ref> severitate commendata Angelorum Reginae sanctissimis patronis pericula<ref>29</ref> perpendimus, venit nuntius, laetiora praedicit, nec tanta esse ut timemus mala. Quamprimum<ref>30</ref> enim seditiosi rescierunt suum a suis patrem recessisse fugaque vitam consuluisse<ref>31</ref>, ac in praesidium argentifodinarum eximia receptricum<ref>32</ref>, oppidum Paral dictum se recepisse, suas machinas detectas, rebellionem manifestatam, seditiosa consilia in mendacia verterunt. Et dum a nostris gubernatores et<ref>33</ref> capita ad iudicium accita vocarentur, vetularum fabulam asseverabant, et ita connexis inter se mendaciis omnem proditorem<ref>34</ref>
                <milestone unit="page" n="4"/> veritatem eludebant, ut ipsis potius parcendum, quam in eos severius agendum iudicaverimus. Leges tamen novae statutae, correptiones adhibitae aliaque omnia, quae ad emendationem videbantur idonea, ibidem sancita. His peractis quisque ad sua reversus, licet certi fuerimus de aliqua habita intentione mala, Deo omni commisso negotio suos, ut reverendus pater in Christianis moribus instruebat. Haec ocassione novi Mexici dicta.</p>
             <p>Versus Orientem immediate habet hos populos particulares ante Floridam novam, Franciam novam et Regnum Leon, quos vocamus Conchos, Tobosos et Parras; Conchia gens est barbara Tarahumarae non multum absimilis, alia tamen lingua utitur. Eos patres reverendi Ordinis Sancti Francisci administrant. Hos longe in barbarie superant Tobosi, illi nimirum ipsissimi, quos Societatis nostrae Viri Apostolici multis ante abhinc annis magno cum fervore et speciali religioni a Deo ad hoc munus concessa gratia cum summa laude administrarunt; quia tamen iuxta Societatis institutum cuidam hic residenti Episcopo, quo ad omnem subiectionem se subjicere noluerunt, sed potius spontanee cesserunt, nulla nostris administratio velut missionis titulo remansit, solum ibidem interea servatum est pro Collegio Parras, ubi etiamnum quidam Rector residet. Ad hos Tobosos positi erant sacerdotes saeculares, quia tamen Deus noluit, ut hi populi aeque avide ac libenter salutaria ab illis praecepta reciperent aut se subiectos regi sinerent sicut a nostris, perfracto iugo in abdita montium cum feris societatem inire maluerunt, quam sine patribus Societatis ibidem vitam degere et cum in rupibus et montibus seminare non potuerint, rapto vivere cogebantur. Hinc transeuntibus atque itinerantibus insidias struebant ac velut rebelles obvios quosque sine discrimine personarum sagittis confodiebant; et licet a pluribus annis noctu diuque excubias agerent et, quibus possint, dolis ad mortem intenti vias periculosissimas fecerint plurimosque enecuerint<ref>35</ref>, non tamen auditum est unquam ulli patri Societatis in vita quidquam contigisse; quin imo casus attulit, ut quempiam caperent, acceptis omnibus rebus mactatisque sociis illi vitam donarunt, usque ante praesidium de nocte attulerunt eiusque vitae sic consulere.</p>
             <p>Hispani<ref>36</ref> pro tutiori ordinarie, ut vivi et sani ad destinata pervenire potuerint, ex praesidio vicino milites secum accipiebant amicosque Indos, qui excubias per viam agentes eos secure deducerent. Inimici hi ad praedas, rapinas homicidiaque intenti, quidquid vi extorquere poterant animalium, ad suas latebras pepulerunt, praecipue mulas venabantur, spretis omnibus eduliis carne mulica vescebantur; quia<ref>37</ref> et humana se saginare carne non nauseabant<ref>38</ref>, mille per corpus exsectis signis et lineis feri <milestone unit="page" n="5"/> aspectu horridi velut alii fauni<ref>39</ref> huc illuc per montes cursitabant excubiasque agebant in aptissimis ad dolum locis, ubi cautissimum quemque fallere in sinuosis viarum ambagibus optimo noverant. Ac minime talia meditantes horribili clamore ac vociferatione simultanea praeparatis ad feriendum sagittis ita timore percelluere, ut timore perterriti, antequam sagittis vulnerati, in terram semimortui quandoque ceciderint. Hi ipsi sunt (o grande Societati encomium), qui denuo instanter aliquot Societatis patres appetunt barbarieque abiecta a Societatis Jesu sociis mansuefieri expetunt, ab illis regi ac instrui viam salutis ardenter exposcunt. In hunc finem a medio anno iam a gubernatore harum terrarum totius nimirum Biscaiae vehementi zelo et fervore agitur, ut eorundem petitionibus satisfiat. Multis iam cursoribus Mexixum ad Vice Regem missis strenue solicitatur, ut Societatis aliqui Viri Apostolici ibi vivant. Iam est in confiniis Tarahumara in Missione Las Bocas dicta Pater Josephus Tarda, Visitator Noster, qui linguam illorum discit, ut cum 2 patribus primus sedem figat. Ad citius hoc negotium componendum ipse gubernator Guadianam ad Episcopum hac septimana contendet 17 Septembri 1682, ne nobis obsistat et sit contrarius, cum ille solum adversetur moramque bonis eventibus iniiciat. Episcopus quidam est Ordinis Sancti Francisci ad instar aliquorum Episcoporum, qui ante hic vivebant nobis contrarii<ref>40</ref>. Retardare forte poterit itum nostrum, non tamen impedire, ne in illam admittamur messem. Deo enim adiuvante optime omnia disposita apparent, ut victor facile Societas ad maiorem Dei gloriam evadat, ut patiendo plura pro Deo multas animas lucrari possit. Plurimum enim interest, ut nobis fidelis et amica haec natio existat.</p>
@@ -187,8 +134,6 @@
         Jesu in Christo
         Joannes Rattkay</signed>
             </closer>
-        
-
          </div>
       </body>
    </text>

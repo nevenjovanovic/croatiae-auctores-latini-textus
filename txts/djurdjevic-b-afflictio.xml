@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="djurdjevic-b-afflictio">
@@ -41,91 +42,11 @@
    2014</date>
             </p>
          </publicationStmt>
- 
- 
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Worms: Gregorius Comiander, 1545.</bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <editorialDecl>
-            <p>Regeln fuer die Texterfassung 03/2001</p>
-         </editorialDecl>
- 
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="25"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="cell" occurs="1029"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="choice" occurs="29"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="90"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="3"/>
-          <tagUsage gi="div1" occurs="1" withId="1"/>
-          <tagUsage gi="div2" occurs="5" withId="5"/>
-          <tagUsage gi="div3" occurs="74" withId="74"/>
-          <tagUsage gi="div4" occurs="8" withId="8"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="editorialDecl" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="21"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="890"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="gap" occurs="9"/>
-          <tagUsage gi="head" occurs="86"/>
-          <tagUsage gi="hi" occurs="903"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="57"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lg" occurs="4"/>
-          <tagUsage gi="name" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="2"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="orgName" occurs="2"/>
-          <tagUsage gi="orig" occurs="3"/>
-          <tagUsage gi="p" occurs="473"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="70" withId="70"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="reg" occurs="3"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="row" occurs="142"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="8"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="table" occurs="11"/>
-          <tagUsage gi="tagUsage" occurs="65"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="8"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="3"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="unclear" occurs="8"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -163,7 +84,6 @@
       <revisionDesc>
          <change>
             <date>08/2012</date>
-
             <persName ref="6913774">Neven Jovanovic</persName>
             <p>markup;
 Latin spellcheck (marked with corr resp="NJ"). 
@@ -173,12 +93,10 @@ Added Greek words (marked with foreign); saved as UTF-8.
          </change>
          <change>
             <date>05/2007</date>
-
             <persName>Reinhard Gruhl</persName>
             <p>markup
 typed text - structural tagging completed - no semantic tagging - spell check only partially performed - no orthographical standardization - note the passages in foreign languages (HR [hrvatski] = Croatian [lingua Sclavonica]; TR = Turkish; cf. http://www.loc.gov/standards/iso639-2/) 
 </p>
-
          </change>
       </revisionDesc>
    </teiHeader>
@@ -204,7 +122,7 @@ eosdem seruitutem seruiens, omnia
 experientia uidit et didicit.
 Cum gratia et Priuilegio Caesareo, ad
 biennium, sub poena. C. <choice>
-                  <abbr>Karol.</abbr> 
+                  <abbr>Karol.</abbr>
                   <expan>Carolinorum</expan>
                </choice> et
 librorum confiscatione.
@@ -213,7 +131,7 @@ librorum confiscatione.
          <div type="poesis-epigramma">
             <pb xml:id="s002"/>
             <head>AD PIOS LECTORES <choice>
-                  <abbr>Cor. Scrib.</abbr> 
+                  <abbr>Cor. Scrib.</abbr>
                   <expan>Cornelius Scribonius</expan>
                </choice> Grapheus.</head>
             <lg>
@@ -234,7 +152,7 @@ librorum confiscatione.
                <l>Membra libro hoc Christi dilaniata leges.</l>
                <l>
                   <choice>
-                     <corr resp="transcriber">Christiadûm</corr> 
+                     <corr resp="transcriber">Christiadûm</corr>
                      <sic>Christiaedûm</sic>
                   </choice> ut manibus manicas, funesque lacertis,</l>
                <l>Et collo inijciat uincula Turca ferox.</l>
@@ -256,14 +174,14 @@ librorum confiscatione.
             <pb xml:id="s003"/>
             <head>INVICTISS. ROM. IMP. SEMPER AVGVSTO CAROLO QVINto, Bartholomaeus Gyurgieuits, clientum minimus et deditissimus.</head>
             <p>AIT Dido apud Vergilium:</p>
-            <l>Non ignara mali, miseris succurrere disco.</l> 
+            <l>Non ignara mali, miseris succurrere disco.</l>
             <p>Est enim naturale, eas aliorum calamitates misericordia prosequi, quas tu aliquando perpessus es. Ego igitur, inuictissime et augustissime Caesar, qui Turcicam captiuitatem tredecim annos expertus sum, septies uenditus sum, cui ipsis sensibus explorata sunt mala eius uitae, statui breui libello imaginem illarum Tragoediarum leuiter delineare: nam ad plenum exprimere, nulla uis ingenij humani poterit. Vt qui adhuc liberi sint, intelligant, quantopere illis omnibus opibus et uiribus enitendum, ne in hanc miseriam ueniant, et quo in odio esse debeant, qui domesticis (ut ita dicam) bellis, tua arma remorantur a Turcica expeditione, cum certa spes sit, idque ex oraculis, quae non minus in Turcia quam hic iactantur: te illum unicum futurum, qui regnum illud Satanae destruas, si modo uires integras ad id bellum conferre possis. Nam ut in praesentia omittamus oracula, multae coniecturae sunt, quibus
 <pb xml:id="s004"/>
  idem quod oracula diuines. Nullus unquam in Christiano orbe a septingentis retro annis potentior Imperator, nemo uictorijs plenior, uoluntate pronior in hoc bellum fuit, aut milite exercitato instructior, adeo ut in debellandis Turcis ocium tibi tantummodo uideatur deesse, quod qui tibi auferunt, quicunque illi sunt, et quocunque animo hoc faciunt, pessime uidentur de Christiana religione mereri. Intra septingentos plus minus annos Turcica arma inualuerunt, hactenus a nemine retusa, quia nemo tibi par opibus, fortuna, et uoluntate fuit. Nunc te unicum sanctissimis bellis per alia bella eripi, et dolendum maxime, et detestandum uehementissime. Ego igitur tibi istum libellum de Christianorum miserijs dedicandum censui, quem orbis agnoscit unum prae omnibus esse, qui huic calamitati remedium uelit apponere, et appositurum breui speramus. Diu sit incolumis tua Caesarea Maiestas, nec antea uel morbo uel morte tentetur, quam Christiana uexilla rursus in Asia et <choice>
-                  <orig>Aphrica</orig> 
+                  <orig>Aphrica</orig>
                   <reg>Africa</reg>
                </choice> et ubique <choice>
-                  <sic>terarum</sic> 
+                  <sic>terarum</sic>
                   <corr resp="transcriber">terrarum</corr>
                </choice> erigas. Louanij Idibus Mart.</p>
          </div>
@@ -332,7 +250,7 @@ cum uxore solus in <unclear reason="page damaged">tentorio</unclear> uersatur, e
 <pb xml:id="s014"/>
                      <gap reason="illustration" resp="sampling"/>
 et Abidon nunc autem Bogazassar dictas, id <choice>
-                        <orig>interpraetari</orig> 
+                        <orig>interpraetari</orig>
                         <reg>interpretari</reg>
                      </choice> potest, castella faucium maris, ibi enim mare angustissimum est. Hi secum deferunt securim et funes, ut et ligna caedant et colligant, quo inde ratem faciant ad traiectionem maris, nihil nisi salem secum deferentes nocte raticulam inscendunt. Si uenti et fortuna maris fauet, tribus aut <corr resp="NJ">quatuor</corr> horis traijciunt, sin minus, aut pereunt in fluctibus, aut ad littora Asiae reijciuntur. Emenso mari montes petunt, polumque et booten inspectantes ad Boream tendunt. In fame herbis suis sale conditis sese
 <pb xml:id="s015"/>
@@ -362,7 +280,7 @@ sustinent. Si plures societatem fugae inierint, noctu opiliones inuadunt, quibus
                   <p>VBI prouinciam cepit, omnia prouincialium bona tam mobilia quam immobilia in praedam cedunt. Nobilitatem stirpitus excindit, praecipue regiam sobolem. Et quod nunc Vaiuodae filium apud se retinent, non alio consilio faciunt, quam si illis Hungaria adimatur, cum immittant ad res nouas moliendas: ubi illis securae possessio Hungariae fuerit, haud dubie e uita tolletur, nam Turcae in ea re nec generis, nec soceris, imo ne fratribus quidem parcunt. Clericos si non occidunt, omni fortuna et dignitate nudatos ad ludibrium et mendicitatem relinquunt. Campanas omnes et organa, et alia instrumenta Musica templis adimunt, imo ipsa templa prophanata suo Mehemmeto consecrant. Misera et <corr resp="NJ">humillima sacella</corr> Christianis relinquunt, ubi sacra non publice
 <pb xml:id="s018"/>
  sed dissimulanter et silentiose faciant, quae ubi uel terraemotu corruerint, uel incendio <choice>
-                        <sic resp="NJ">deflagauerint</sic>  
+                        <sic resp="NJ">deflagauerint</sic>
                         <corr>deflagrauerint</corr>
                      </choice>, uel aetate computruerint, non licitum est instaurare, nisi magna pecunia depensa. Concio et annunciandi Euangelij munus plane interdicitur, nec fas est quenquam Christianum Remp. attingere, aut arma gestare, aut simili cultu cum Turcis indui, aut quae hilarioris uitae sunt, spectacula aedere, uel choreas ducere. Si iniuria fit contumeliosissimis uerbis uel tibi, uel Christo, tacendum atque serendum est. Quod si aliquid indignius contra loquaris de eorum religione, inuitus circuncideris: tum si hiscas contra Mehemmetum, ignes et incendia tibi parantur.</p>
                </div3>
@@ -399,7 +317,7 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                <pb xml:id="s024"/>
                <div3 xml:id="GeAW.01.02.01" n="1" type="section">
                   <head>Interrogationum, ac responsionum Linguae <choice>
-                        <abbr>Sclauon.</abbr> 
+                        <abbr>Sclauon.</abbr>
                         <expan>Sclauonicae</expan>
                      </choice>
                   </head>
@@ -408,7 +326,7 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                         <row role="data">
                            <cell>
                               <choice>
-                                 <abbr>Salut.</abbr> 
+                                 <abbr>Salut.</abbr>
                                  <expan>Salutatio</expan>
                               </choice>
                            </cell>
@@ -469,7 +387,7 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                         <row role="data">
                            <cell>
                               <choice>
-                                 <abbr>Resp.</abbr> 
+                                 <abbr>Resp.</abbr>
                                  <expan>Responsio</expan>
                               </choice>
                            </cell>
@@ -528,7 +446,7 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                         <row role="data">
                            <cell>
                               <choice>
-                                 <abbr>Inter.</abbr> 
+                                 <abbr>Inter.</abbr>
                                  <expan>Interrogatio</expan>
                               </choice>
                            </cell>
@@ -744,7 +662,7 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                            <cell>
                               <hi rend="italic">
                                  <choice>
-                                    <orig>Ventia</orig> 
+                                    <orig>Ventia</orig>
                                     <reg>Venetia</reg>
                                  </choice>.</hi>
                            </cell>
@@ -1362,7 +1280,7 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">tsiekai malo</foreign>
-                        </hi> 
+                        </hi>
                         <corr resp="NJ">expecta</corr>
                      </p>
                   </div4>
@@ -2629,7 +2547,7 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                                  <hi rend="italic"/>
                               </cell>
                            </row>
-                           <row role="data">	
+                           <row role="data">
                               <cell>
                                  <foreign xml:lang="HR">Viruyu</foreign>
                               </cell>
@@ -2857,9 +2775,9 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">tsetiri,</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>quat.</abbr> 
+                           <abbr>quat.</abbr>
                            <expan>quattuor</expan>
                         </choice>
                      </p>
@@ -2874,9 +2792,9 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">ssedam,</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>sept.</abbr> 
+                           <abbr>sept.</abbr>
                            <expan>septem</expan>
                         </choice>
                      </p>
@@ -2895,74 +2813,74 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">duadesset,</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>uigin.</abbr> 
+                           <abbr>uigin.</abbr>
                            <expan>uiginti</expan>
                         </choice>
                      </p>
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">tridesset,</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>trig.</abbr> 
+                           <abbr>trig.</abbr>
                            <expan>triginta</expan>
                         </choice>
                      </p>
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">tseterdess.</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>quad.</abbr> 
+                           <abbr>quad.</abbr>
                            <expan>quadraginta</expan>
                         </choice>
                      </p>
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">pethdess.</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>quinq.</abbr> 
+                           <abbr>quinq.</abbr>
                            <expan>quinquaginta</expan>
                         </choice>
                      </p>
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">sestdesset,</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>sexagin.</abbr> 
+                           <abbr>sexagin.</abbr>
                            <expan>sexaginta</expan>
-                        </choice> 
+                        </choice>
                         <note resp="transcriber">in the print: saxagin.</note>
                      </p>
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">ssedamdess.</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>sept.</abbr> 
+                           <abbr>sept.</abbr>
                            <expan>septuaginta</expan>
                         </choice>
                      </p>
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">ossamdess.</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>octog.</abbr> 
+                           <abbr>octog.</abbr>
                            <expan>octoginta</expan>
-                        </choice> 
+                        </choice>
                         <note resp="transcriber">in the print: octuag.</note>
                      </p>
                      <p>
                         <hi rend="italic">
                            <foreign xml:lang="HR">deuetdesset,</foreign>
-                        </hi> 
+                        </hi>
                         <choice>
-                           <abbr>nona.</abbr> 
+                           <abbr>nona.</abbr>
                            <expan>nonaginta</expan>
                         </choice>
                      </p>
@@ -2979,7 +2897,7 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                <div3 xml:id="GeAW.01.02.04" n="4" type="chapter">
                   <head>PEREGRINVS Lectori. S.</head>
                   <p>VIsum est nobis <choice>
-                        <abbr>humaniss.</abbr> 
+                        <abbr>humaniss.</abbr>
                         <expan>humanissime</expan>
                      </choice> lector, nonnulla uocabula Sclauonicae linguae addere, ut scias quam differat Sclauonica a Persarum lingua, qua Turcae utuntur. Scias etiam, quod omnibus hac lingua peritis tuto adire licet Croatiam, Dalmatiam, Russiam, Valachiam, Seruiam, Bohemiam, et Poloniam, quamuis propter prouinciarum distantiam in quibusdam uocabulis ac prolatione nonnihil differant, ut Itali ab Hispanis, Germani a Flandris. Nec te lateat, Ruthenos ac Seruios eadem lingua, uti in officijs diuinis. Habent enim <num>xxxiiij.</num> literas Graecis non multum dissimiles. Sic etiam Croaci: sed horum literae plurimum ab illis differunt forma, numero tamen et prolatione similes sunt. Et ideo impossibile est nobis latinis characteribus, ipsorum uocabulorum ueram prolationem imitari. Turcae quoque eadem lingua in aula eorum Regis, et in confinijs Sclauoniae uersantes, utuntur. Vale.</p>
                </div3>
@@ -2992,7 +2910,9 @@ Vulnera stantibus non ingerunt, nisi eminus. Quod si iam Veneti et Lusitani naua
                      <l>Raptus at a Turcis in uincula Bartholomaeus,</l>
                      <l>Neritio errauit per loca plura duce,</l>
                      <l>Hic Asianorum, atque Arabum distractus in oras,</l>
-                     <l>Quae tulit est testis dura <sic resp="NJ" ana="croala"><foreign xml:lang="GR">πενέια</foreign></sic> comes.</l>
+                     <l>Quae tulit est testis dura <sic resp="NJ" ana="croala">
+                           <foreign xml:lang="GR">πενέια</foreign>
+                        </sic> comes.</l>
                      <l>Ille Ithacen inter iactatus, et Ilion inter,</l>
                      <l>Clarior ingenio est factus Homere tuo.</l>
                      <l>Hic maris et terrae discrimina maxima sensit,</l>
@@ -3104,7 +3024,7 @@ suppositum remouent, donec in cineres resoluatur. Aliud genus uidi, qui incedunt
                <div3 xml:id="GeAW.01.03.11" n="11" type="section">
                   <head>DE PEREGRINATIONE illorum.</head>
                   <p>PEregrini, eorum lingua HAGSILAR <choice>
-                        <sic>appelati</sic> 
+                        <sic>appelati</sic>
                         <corr resp="transcriber">appellati</corr>
                      </choice>, loca ab ipsis sancta habita inuisunt, uidelicet MECHAM, ut nostri Hierosolymam, ibi aiunt Mehemmetum obijsse: sed non minus quaestus gratia quam religionis
 <pb xml:id="s041"/>
@@ -3147,7 +3067,7 @@ Abluunt cadauer, ac <corr resp="NJ">nitidissimis</corr> lineis induunt, postea e
                <div3 xml:id="GeAW.01.03.19" n="19" type="section">
                   <head>DE CONDITIONE Chazilariorum.</head>
                   <p>MIlites CHAZILAR. uocati, <choice>
-                        <sic>strennui</sic> 
+                        <sic>strennui</sic>
                         <corr resp="transcriber">strenui</corr>
                      </choice>, et iure militari miro modo exercitati, qui in primo congressu lanceas frangunt cum aduersarijs suis, nulla prorsus armatura, praeterquam <corr resp="NJ">clypeo</corr>, hasta, framea utentes more nostratum, ut puta loricae, galeae, sed fractis hastis,
 <pb xml:id="s046"/>
@@ -3223,7 +3143,7 @@ nunquam forum frequentant. Calciamenta BABVCS uel CSISME dicta, tam uirorum quam
                <div3 xml:id="GeAW.01.03.33" n="33" type="section">
                   <head>DE POTV ILLORVM.</head>
                   <p>TRiplex illis potus: Primus ex sucaro, ab illis SECHER uocato, aut melle diluto aqua, TSERBTH appellatur is potus. Secundus ex uuis passis detractis racinis in aqua decoctis, additur deinde aqua rosacea, et ali quantulum ueri mellis, et hic potus HOSSAPH uocatur, et uenditur ubique locorum in Turcia, est. <choice>
-                        <abbr>n.</abbr> 
+                        <abbr>n.</abbr>
                         <expan>enim</expan>
                      </choice> dulcis et inflat uentrem. Tertius fit ex illo defruto PECHMEZ appellato
 <pb xml:id="s056"/>
@@ -3866,7 +3786,7 @@ Similiter et caetera nomina fructuum, si praeponas huic nomini <foreign xml:lang
                   <p>
                      <hi rend="italic">
                         <foreign xml:lang="TR">Tsoha,</foreign>
-                     </hi> 
+                     </hi>
                      <corr resp="NJ">pannus</corr>.</p>
                   <p>
                      <hi rend="italic">
@@ -3876,7 +3796,7 @@ Similiter et caetera nomina fructuum, si praeponas huic nomini <foreign xml:lang
                      <hi rend="italic">
                         <foreign xml:lang="TR">
                            <choice>
-                              <abbr>Chautâ</abbr> 
+                              <abbr>Chautâ</abbr>
                               <expan>Chautam</expan>
                            </choice>,</foreign>
                      </hi> tunica.</p>
@@ -3899,7 +3819,7 @@ Similiter et caetera nomina fructuum, si praeponas huic nomini <foreign xml:lang
                   <p>
                      <hi rend="italic">
                         <foreign xml:lang="TR">Zarchula,</foreign>
-                     </hi> 
+                     </hi>
                      <corr resp="NJ">ienizerorum pileus</corr>.</p>
                   <p>
                      <hi rend="italic">
@@ -4122,7 +4042,7 @@ Similiter et caetera nomina fructuum, si praeponas huic nomini <foreign xml:lang
                   <p>
                      <hi rend="italic">
                         <foreign xml:lang="TR">Iol,</foreign>
-                     </hi> 
+                     </hi>
                      <unclear reason="print blotted">uia</unclear>.</p>
                   <p>
                      <hi rend="italic">
@@ -4381,7 +4301,7 @@ Similiter et caetera nomina fructuum, si praeponas huic nomini <foreign xml:lang
                            <cell>
                               <hi rend="italic">
                                  <choice>
-                                    <abbr>.i.</abbr> 
+                                    <abbr>.i.</abbr>
                                     <expan>idem</expan>
                                  </choice>
                               </hi>

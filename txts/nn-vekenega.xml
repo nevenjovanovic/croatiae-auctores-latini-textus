@@ -1,39 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="nn-vekenega">
-            <titleStmt>
-                <title>Vekenegae epitaphia, versio electronica</title>
-                <author ref="#anonymus_1111">
-                    <persName xml:lang="lat">Anonymus</persName>
-                    <date when="1111">floruit 1111</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="nn-vekenega">
+         <titleStmt>
+            <title>Vekenegae epitaphia, versio electronica</title>
+            <author ref="#anonymus_1111">
+               <persName xml:lang="lat">Anonymus</persName>
+               <date when="1111">floruit 1111</date>
+            </author>
+            <editor>
                <persName>
                   <ref>NN</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
                     Digitalni tekst na internetu.
                 </edition>
-            </editionStmt>
-            <extent ana="B">Mg:B 20 versus, 153 verborum</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+         </editionStmt>
+         <extent ana="B">Mg:B 20 versus, 153 verborum</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date>Kolovoza 2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                     Benediktinke - Zadar (internet)
@@ -42,63 +43,13 @@
                     III. Desna – srednja tabla
                     IV. Donja središnja tabla
                     <relatedItem type="digitalizat">
-                        <ref type="internet" target="http://www.benediktinke-zadar.com/root_files/cika_i_vekenega.html">Benediktinke - Zadar</ref>
-                    </relatedItem>
-                </bibl>
+                  <ref type="internet"
+                       target="http://www.benediktinke-zadar.com/root_files/cika_i_vekenega.html">Benediktinke - Zadar</ref>
+               </relatedItem>
+            </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="7"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="4"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="4"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="20"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -112,107 +63,71 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date notBefore="1111-09-27" period="11xx_1_third">post 27. 9. 1111</date>
-                <placeName>Zadar</placeName>
-            </creation>
+            <date notBefore="1111-09-27" period="11xx_1_third">post 27. 9. 1111</date>
+            <placeName>Zadar</placeName>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae medii aevi (700-1400)</term>
-                    <term>Saeculum 12 (1101-1200)</term>
-                    <term>1101-1150</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - inscriptio</term>
-                    <term>poesis - epigramma</term>
-                    <term>poesis - epitaphium</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae medii aevi (700-1400)</term>
+               <term>Saeculum 12 (1101-1200)</term>
+               <term>1101-1150</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - inscriptio</term>
+               <term>poesis - epigramma</term>
+               <term>poesis - epitaphium</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2012-08-25</date>
+            <date>2012-08-25</date>
                 Prva verzija. Latinski spellcheck.
             </change>
-            
-        </revisionDesc>
-    </teiHeader>
-    <text type="poesis">
-        <body>
+      </revisionDesc>
+   </teiHeader>
+   <text type="poesis">
+      <body>
          <div type="poesis-inscriptio" met="hexameter-leoninus">
             <head>I.</head>
-    
-    
-    
             <l n="1.1">1. Laude nitens multa, iacet hic Vekenega sepulta:</l>
-             
-    
             <l n="1.2">2. Quae fabricam turris simul et capitolia struxit</l>
-             
-    
             <l n="1.3">3. <corr>Haec</corr> obit undeno <corr>centum</corr> post mille sub aevo:</l>
-             
-    
             <l n="1.4">4. Quo ueniens <corr>Christus</corr> carnis gestauit amictus</l>
-             
-    
             <l n="1.5">5. Nos habet est annus quintus quo rex Colomannus:</l>
-             
-    
-            <l n="1.6">6. <corr>Praesul et est</corr> 
+            <l n="1.6">6. <corr>Praesul et est</corr>
                <corr>decimus</corr> quo Gregorius fuit annus:</l>
-             
-         </div>    
-            <div type="poesis-inscriptio">
-                <head>II.</head>
+         </div>
+         <div type="poesis-inscriptio">
+            <head>II.</head>
             <l n="2.1">Oret qui spectat dicens in pace quiescat</l>
-             
             <l n="2.2">Corpus ut arca tegat flatus et alta petat</l>
-             
-            </div>    
-            <div type="poesis-inscriptio">
-                <head>
+         </div>
+         <div type="poesis-inscriptio">
+            <head>
                <num value="3">III</num>.</head>
             <l n="3.1">Huc ueniens uultum <sic>feret</sic> hoc cernendo sepulchrum. </l>
-             
             <l n="3.2">huic pie dic anime da requiem Domine.</l>
-             
-            </div>    
-            <div type="poesis-inscriptio">
-                <head>IV.</head>
+         </div>
+         <div type="poesis-inscriptio">
+            <head>IV.</head>
             <l n="4.1">Res fluitant cunctae uelut <corr>impetus</corr> undae.</l>
-             
             <l n="4.2">Quicquid et exoritur labitur et moritur.</l>
-             
-    
             <l n="4.3">Mente deum pura semper Vekenega secuta.</l>
-             
             <l n="4.4">Non penitus moritur sed moriens oritur.</l>
-             
-    
             <l n="4.5">Namque probos mores cupiens seruare sorores.</l>
-             
             <l n="4.6">Actibus excoluit uoce quod has monuit</l>
-             
-    
             <l n="4.7">Hostis ab insidiis aditus bene cauit ouilis.</l>
-             
             <l n="4.8">Quaque regente domus creuit <corr>et</corr> iste locus.</l>
-             
-    
             <l n="4.9">In festo sacri Cosmae migrauit ac Damiani.</l>
-             
             <l n="4.10">Ut sit in arce dei uita perhennis ei:</l>
-             
-            </div>
-        </body>
-
- 
-
-            </text>
+         </div>
+      </body>
+   </text>
 </TEI>

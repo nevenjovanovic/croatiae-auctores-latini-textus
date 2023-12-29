@@ -1,99 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="smerdel-t-cicad">
-            <titleStmt>
-                <title>De cicadis et undis Parentinis, versio electronica</title>
-                <author ref="smerdel01">
-                    <persName xml:lang="hr">Smerdel, Ton</persName>
-                    <date from="1904" to="1970">1904-1970</date>
-                </author>
-                <editor>
-                             
-                    <persName xml:id="NJ">
+   <teiHeader>
+      <fileDesc xml:id="smerdel-t-cicad">
+         <titleStmt>
+            <title>De cicadis et undis Parentinis, versio electronica</title>
+            <author ref="smerdel01">
+               <persName xml:lang="hr">Smerdel, Ton</persName>
+               <date from="1904" to="1970">1904-1970</date>
+            </author>
+            <editor>
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>Prema tiskanom izdanju (1969).</edition>
-            </editionStmt>
-            <extent ana="B">Mg:B 552 verborum, 133 versus</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prema tiskanom izdanju (1969).</edition>
+         </editionStmt>
+         <extent ana="B">Mg:B 552 verborum, 133 versus</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when="2012-07">Srpnja 2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Smerdel, Ton: De cicadis et undis Parentinis. Scupis, 1969. </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="3"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="3"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="cit" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="15"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="1"/>
-          <tagUsage gi="head" occurs="15"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="133"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="1"/>
-          <tagUsage gi="persName" occurs="4" withId="1"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="quote" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="45"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-            
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -107,62 +51,53 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1969" period="19xx_3_third">1969</date>
-            </creation>
+            <date when="1969" period="19xx_3_third">1969</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae novissimae (1850-2000)</term>
-                    <term>Saeculum 20 (1901-2000)</term>
-                    <term>1951-2000</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - poema</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae novissimae (1850-2000)</term>
+               <term>Saeculum 20 (1901-2000)</term>
+               <term>1951-2000</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - poema</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <date>2012-07-22</date>
-                <persName>
+      <revisionDesc>
+         <change>
+            <date>2012-07-22</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 Versio prima.
             </change>
-           
-        </revisionDesc>
-    </teiHeader>
-    <text>
-
-	
-
+      </revisionDesc>
+   </teiHeader>
+   <text>
       <body>
          <pb n="1"/>
          <div>
             <head>DE CICADIS ET UNDIS PARENTINIS</head>
-        
-        
-         
             <cit>
                <quote>... Si quis tamen haec quoque, si quis 
         captus amore leget...</quote>
                <bibl>(<abbr>Verg.</abbr>, <abbr>Buc.</abbr> VI, 9).</bibl>
-            </cit> 
-        
+            </cit>
             <div type="poesis-poema">
-               <head>Cum navis</head> 
+               <head>Cum navis</head>
                <l>Cum navis sine funibus </l>
                <l>fractis carbasis portum somniferum </l>
                <l>cum vento incredibili </l>
                <l>in mari tetigerit invisibili </l>
                <l>dictum vetus animae </l>
                <l>in luce consummabitur</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>In unda</head> 
+               <head>In unda</head>
                <l>Molliter </l>
                <l>in unda cor nostrum oscillat </l>
                <l>Leniter </l>
@@ -170,20 +105,18 @@
                <l>manibus rosis purpureis plenis </l>
                <l>ad cor nostrum ut mater </l>
                <l>pia nostra mater venis</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Carmina mea</head> 
+               <head>Carmina mea</head>
                <l>Carmina mea visibiles movere fontes </l>
                <l>Multa illa invisibilia </l>
                <l>in corde meo videre </l>
                <l>ac in cordibus florum </l>
                <l>hominum </l>
                <l>arborum hilariumque avium</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Exegi parvum tumulum</head> 
+               <head>Exegi parvum tumulum</head>
                <l>Fortunam parvam in libris relicturus </l>
                <l>cum ero in aeternum abiturus </l>
                <l>quia opus tantum praesensio cordis fuit </l>
@@ -191,10 +124,9 @@
                <l>Felix eram cum aliis potens gaudere </l>
                <l>Sospes ero vere humilis </l>
                <l>poetis multis haud similis. . .</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Parcae Parentinae</head> 
+               <head>Parcae Parentinae</head>
                <l>In die plena lucis </l>
                <l>undique undae redundantes </l>
                <l>In oculis nostris </l>
@@ -209,20 +141,18 @@
                <l>induti pallio solari </l>
                <l>canticum caeruleum </l>
                <l>poesi ebrium</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Multa latent</head> 
+               <head>Multa latent</head>
                <l>In gremio densi rubeti </l>
                <l>avis parva refugium quaerit </l>
                <l>At illico serpens clam expectat </l>
                <l>Multa nobis </l>
                <l>ut avi parvae </l>
                <l>multa latent.</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Incipiunt cicadae</head> 
+               <head>Incipiunt cicadae</head>
                <l>Incipiunt cicadae garrulae </l>
                <l>in ramis olivarum </l>
                <l>cantum suum matutinum </l>
@@ -237,10 +167,9 @@
                <l>cantum cantant ebriae </l>
                <l>Et tremit aer solari stridore </l>
                <l>Nunc animae motae gracili sunt amore...</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Cicada piscatoribus</head> 
+               <head>Cicada piscatoribus</head>
                <l>Incentor coepit cicada cantum canere </l>
                <l>incensus flammeo sole </l>
                <l>piscatoribus in litore </l>
@@ -255,10 +184,9 @@
                <l>ut mater cantilenam piscatoribus </l>
                <l>fessis nunc in umbra olivarum </l>
                <l>quiete dormientibus. . .</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Tremens in undis</head> 
+               <head>Tremens in undis</head>
                <l>Tremens in undis navicula </l>
                <l>tam tristis spectat crepusculum </l>
                <l>donantem ei carmen ultimum </l>
@@ -269,10 +197,9 @@
                <l>Et cor tremens hominis </l>
                <l>Omnes in umbris sumus </l>
                <l>tantum nuda Moestitia</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Obrussa</head> 
+               <head>Obrussa</head>
                <l>Omnibus ignotis cantilenis </l>
                <l>asportant visiones animum </l>
                <l>Et serpit murmur amicum </l>
@@ -281,10 +208,9 @@
                <l>Splendent maris undae caeruleae </l>
                <l>et imago eius visibilis </l>
                <l>immensae immensitatis</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Voces puerorum</head> 
+               <head>Voces puerorum</head>
                <l>Ecce hirundines volant super rivulum -</l>
                <l>clamant voces puerorum: </l>
                <l>Ecce hirundines! </l>
@@ -295,10 +221,9 @@
                <l>Ecce hirundines! </l>
                <l>Amici, </l>
                <l>florent primae amoenae violae!</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Ad pedes fatigatos</head> 
+               <head>Ad pedes fatigatos</head>
                <l>Veniunt undae ad pedes fatigatos </l>
                <l>et dicunt aliquid musicae incomparabile </l>
                <l>Audit cor viatoris humile </l>
@@ -308,10 +233,9 @@
                <l>fit amore lucis raptim </l>
                <l>in abyssis ignotis </l>
                <l>cum gaudio invisibile. . .</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Recordor Parentium</head> 
+               <head>Recordor Parentium</head>
                <l>Parentii </l>
                <l>in peristylio basilicae Euphrasii </l>
                <l>sol splendens cum taciturnitate </l>
@@ -324,10 +248,9 @@
                <l>dum cicada in cupressi altae cacumine </l>
                <l>de ignotorum tessellatis cantat simulacris </l>
                <l>humili incitata pulchritudine</l>
-            </div> 
-        
+            </div>
             <div type="poesis-poema">
-               <head>Pallio caeruleo</head> 
+               <head>Pallio caeruleo</head>
                <l>Pallio amictus caeruleo </l>
                <l>in vertice montis saxosi sedeo </l>
                <l>Cor meum video ad olivam quietis plenam </l>
@@ -341,14 +264,11 @@
             </div>
             <closer>
                <dateline>(Parentii, 1967) 
-<foreign xml:lang="hrv">Zagreb</foreign>.</dateline> 
+<foreign xml:lang="hrv">Zagreb</foreign>.</dateline>
                <signed>
                   <abbr>T.</abbr> Smerdel.</signed>
-            </closer> 
-        
-        
-        
-            </div>
+            </closer>
+         </div>
       </body>
-    </text>
-    </TEI>
+   </text>
+</TEI>

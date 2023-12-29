@@ -1,16 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-     <fileDesc xml:id="vitezov-ritter-p-epist-lichtensteinkastelkorn-1687">
+   <teiHeader>
+      <fileDesc xml:id="vitezov-ritter-p-epist-lichtensteinkastelkorn-1687">
          <titleStmt>
             <title>Epistula ad Carolum episcopum Olomucensem (1687-04-28), versio electronica</title>
             <author ref="vitezov01">
-               <persName xml:lang="hr">Ritter Vitezović, Pavao</persName> 
+               <persName xml:lang="hr">Ritter Vitezović, Pavao</persName>
                <persName xml:lang="la">Ritter, Paulus</persName>
                <date>1652–1713</date>
             </author>
             <editor>
                <persName>
-                  <ref  type="viaf" target="45350100">František Snopek (1853–1921)</ref>
+                  <ref type="viaf" target="45350100">František Snopek (1853–1921)</ref>
                </persName>
             </editor>
             <respStmt>
@@ -39,17 +40,6 @@
                <ref type="internet">https://archive.org/stream/archivfrslavis28berluoft#page/593/mode/1up</ref>.</bibl>
          </sourceDesc>
       </fileDesc>
-     <encodingDesc>
-        <!-- CTS for a single poem in document -->
-        <refsDecl n="CTS">
-           <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p)" n="paragraph">
-              <p>This pointer pattern extracts line</p>
-           </cRefPattern>
-           <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:opener)" n="opener">
-              <p>This pointer pattern extracts line</p>
-           </cRefPattern>
-        </refsDecl>
-     </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -89,11 +79,10 @@
         Početna verzija.
       </change>
       </revisionDesc>
-  </teiHeader>
+   </teiHeader>
    <text xml:base="urn:cts:croala:vitezov01.croala2205469.croala-lat1:">
       <body>
          <div type="prosa-epistula">
-
             <opener>Celsissime reverendissime princeps, domine domine patrone
                gratiosissime.</opener>
             <p>Transmitto, qua decet submissione et reverentia <expan>celsitudini vestrae</expan>
@@ -106,5 +95,5 @@
             <p>Viennae Austriae 28. Aprilis 1687.</p>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

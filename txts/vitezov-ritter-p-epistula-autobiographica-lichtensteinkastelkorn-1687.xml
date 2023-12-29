@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-     <fileDesc xml:id="vitezov-ritter-p-epist-lichtensteinkastelkorn-1687">
+   <teiHeader>
+      <fileDesc xml:id="vitezov-ritter-p-epist-lichtensteinkastelkorn-1687">
          <titleStmt>
             <title>Epistula elegiaca autobiographica ad Carolum episcopum Olomucensem (1687-06-29), versio electronica</title>
             <author ref="vitezov01">
-               <persName xml:lang="hr">Ritter Vitezović, Pavao</persName> 
+               <persName xml:lang="hr">Ritter Vitezović, Pavao</persName>
                <persName xml:lang="la">Ritter, Paulus</persName>
                <date>1652–1713</date>
             </author>
@@ -40,26 +40,6 @@
                <ref type="internet">https://archive.org/stream/archivfrslavis28berluoft#page/593/mode/1up</ref>.</bibl>
          </sourceDesc>
       </fileDesc>
-     <encodingDesc>
-        <!-- CTS for a single poem in document -->
-        <refsDecl n="CTS">
-           <cRefPattern matchPattern="(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:p)"
-                         n="paragraph">
-              <p>This pointer pattern extracts line</p>
-           </cRefPattern>
-           <cRefPattern matchPattern="(\w+)"
-                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:opener)"
-                         n="opener">
-              <p>This pointer pattern extracts opener</p>
-           </cRefPattern>
-           <cRefPattern matchPattern="(\w+)"
-              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l)"
-              n="verse">
-              <p>This pointer pattern extracts verse line</p>
-           </cRefPattern>
-        </refsDecl>
-     </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -101,11 +81,10 @@
         Početna verzija.
       </change>
       </revisionDesc>
-  </teiHeader>
+   </teiHeader>
    <text xml:base="urn:cts:croala:vitezov01.croala6806382.croala-lat1:">
       <body>
          <div type="poesis-epistula-elegia">
-
             <opener>Celsissimo ac reverendissimo principi ac domino domino Carolo episcopo
                Olomucensi, regiae capellae Bohemiae comiti, duci, <abbr>S. R. I.</abbr> et
                Liechtensteinii principi <abbr>etc.</abbr>
@@ -138,7 +117,8 @@
             <l n="26">Et caput et signum victor ab hoste tulit, </l>
             <l n="27">Ante et post etiam praeclare multa patrando </l>
             <l n="28">Ante et post etiam vulnera dura tulit. </l>
-            <l n="29">Vulneribus tandem renovatis isque <corr resp="editor">strategi</corr></l>
+            <l n="29">Vulneribus tandem renovatis isque <corr resp="editor">strategi</corr>
+            </l>
             <l n="30">Ultima persolvit fata gerendo vices, 30 </l>
             <l n="31">Unicus ut modo sim matri; sed et ipse magistri </l>
             <l n="32">Supra equites Slavnos munia nactus eram. </l>
@@ -255,8 +235,6 @@
             <l n="142">Felici aeternos vivit honore dies. </l>
             <l n="143">Expectans reliquo tanti mandata patroni, </l>
             <l n="144">Cui me commendo. Finio scripta. Vale.</l>
-
-
             <p>Viennae 29. Junii 1687.</p>
          </div>
       </body>

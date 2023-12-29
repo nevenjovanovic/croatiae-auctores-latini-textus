@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="boskovic-r-epigr">
          <titleStmt>
             <title>Epigrammata, versio electronica</title>
@@ -17,7 +18,6 @@
                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-          
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -39,56 +39,7 @@
                Dopisi Boškovićevi : (1. U poslovih dubrovačkih. Lettere dell' Ab. R. G. Boscovich alla Republica di Ragusa. Publicate dal prof. Giuseppe Gelcich. - 2. S različitim osobinama / R. J. Bošković) U: Rad Jugoslavenske akademije znanosti i umjetnosti. Knj. 87., 88., 90(1887-8) : Život i ocjena djela Rugjera Josipa Boškovića. - str. 101-428. -- ep. 1: pismo 113, s. 271 = Lettere del P. Boscovich p. 33—36, 1772-08-25, Strà sulla Brenta; ostalo: s. 280,  CXVIII. 1772, 1. Ottobre Mestre. Boscovich al P. Girolamo Durazzo, fratello dell'ambasciatore imperiale.</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="corr" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="35"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="82"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="7"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-     <profileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -102,21 +53,21 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-           <date notAfter="1772" period="17xx_3_third">1772</date>
-        </creation>
+            <date notAfter="1772" period="17xx_3_third">1772</date>
+         </creation>
          <textClass>
-           <keywords scheme="typus">
-              <term>poesis</term>
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae recentiores (1600-1850)</term>
-              <term>Saeculum 18 (1701-1800)</term>
-              <term>1751-1800</term>
-           </keywords>
-           <keywords scheme="genre">
-              <term>poesis - epigramma</term>
-           </keywords>
-        </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1850)</term>
+               <term>Saeculum 18 (1701-1800)</term>
+               <term>1751-1800</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
       </profileDesc>
       <revisionDesc>
          <change>
@@ -128,7 +79,7 @@
          Latinski spellcheck.
          </change>
       </revisionDesc>
-  </teiHeader>
+   </teiHeader>
    <text>
       <body>
          <pb n="271"/>
@@ -292,7 +243,6 @@
             <l>Quis metuat nubes, ignesque, imbremque? Verentur</l>
             <l met="pentameter">Legatum Austriacae sidera et ipsa Deae.</l>
          </div>
-
-      </body>      
+      </body>
    </text>
 </TEI>

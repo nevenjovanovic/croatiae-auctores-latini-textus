@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="vrancic-f-carm-epist">
          <titleStmt>
             <title>Carmina e codice Variorum Dalmaticorum et epistula ad avunculum, versio electronica</title>
@@ -38,65 +39,6 @@
             <bibl>Priredio Bratislav Lučin, prema kodeksu Varia Dalmatica (tzv. <name>Varia Dalmatica, </name> sign. 25290, ms. 617, Znanstvena knjižnica Zadar)</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="7" withId="6"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="emph" occurs="3"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="7"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="33"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lb" occurs="1"/>
-          <tagUsage gi="name" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="3"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="8"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="postscript" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="2"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="signed" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="49"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="7"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -112,7 +54,6 @@
          </langUsage>
          <creation>
             <date when="1561" period="15xx_2_third">1561-1569</date>
-            
             <date when="1561-04-29" period="15xx_2_third">29. travnja 1561</date>
             <placeName>Bratislava</placeName>
          </creation>
@@ -132,43 +73,47 @@
             </keywords>
          </textClass>
       </profileDesc>
-     <profileDesc xml:id="vrancicfverantiusa15610429">
-        <abstract>
-           <p/>
-        </abstract>
-        <settingDesc>
-           <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q1780">Posonium</placeName></place>
-           <place ana="destination" type="unknown">
-              <placeName type="unknown">Unknown</placeName>
-           </place>
-        </settingDesc>
-        <particDesc>
-           <person role="sender"><persName ref="vranc02">Vrančić, Faust</persName></person>
-           <person role="recipient"><persName ref="vranc01">Vrančić, Antun</persName></person>
-        </particDesc>
-        <langUsage>
-           <language ident="lat" xml:lang="hrv">latinski</language>
-        </langUsage>
-        <creation>
-           <date when="1561-04-29" period="15xx_2_third">29. travnja 1561</date>
-           <placeName>Bratislava</placeName>
-        </creation>
-        <textClass>
-           <keywords scheme="typus">
-             
-              <term>prosa</term>
-           </keywords>
-           <keywords scheme="aetas">
-              <term>Litterae renatae (1400-1600)</term>
-              <term>Saeculum 16 (1501-1600)</term>
-              <term>1501-1550</term>
-           </keywords>
-           <keywords scheme="genre">
-              
-              <term>prosa oratio - epistula</term>
-           </keywords>
-        </textClass>
-     </profileDesc>
+      <profileDesc xml:id="vrancicfverantiusa15610429">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q1780">Posonium</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="vranc02">Vrančić, Faust</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1561-04-29" period="15xx_2_third">29. travnja 1561</date>
+            <placeName>Bratislava</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
       <revisionDesc>
          <change>
             <persName>
@@ -194,12 +139,11 @@
         TEI XML formatiranje.
       </change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <div type="poesis">
             <head>Carmina Fausti Verantii in codice Traguriensi Variorum Dalmaticorum. Epistula eiusdem ad Antonium Verantium</head>
-
             <pb n="68"/>
             <div type="poesis-epigramma" xml:id="fauvr-vd01" met="elegiacum">
                <head> In imaginem Christi crucifixi. Patauii, Faustus Verantius, 1569.</head>
@@ -262,7 +206,9 @@
                <l>At fouet ex alto qui conspicit omnia – Phaebus.</l>
             </div>
          </div>
-         <div type="prosa-epistula" xml:id="fauvr-ep06" corresp="vrancicfverantiusa15610429">
+         <div type="prosa-epistula"
+              xml:id="fauvr-ep06"
+              corresp="vrancicfverantiusa15610429">
             <head>Epistula Fausti Verantii ad Antonium Verantium, <date when="1561-04-29">29. die Aprilis anno 1561</date>.</head>
             <opener>Reverendissime et Amplissime Domine, domine pater et patrue mihi gratiosissime!
           <salute>Servitiorum meorum perpetuam et quam humillimam commendationem.</salute>
@@ -296,8 +242,7 @@
             </postscript>
             <signed>perpetuus famulus <lb/>
             Faustus Verantius</signed>
-        </div>
-      
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>

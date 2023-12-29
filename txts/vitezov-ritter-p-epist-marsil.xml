@@ -1,10 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="vitezov-ritter-p-epist-marsil">
          <titleStmt>
             <title>Ad comitem Marsilium, caesareum legatum, versio electronica</title>
             <author ref="vitezov01">
-               <persName xml:lang="hr">Ritter Vitezović, Pavao</persName> 
+               <persName xml:lang="hr">Ritter Vitezović, Pavao</persName>
                <date>1652–1713</date>
             </author>
             <editor>
@@ -36,62 +37,6 @@
             <bibl>Klaić, Vjekoslav: Život i djela Pavla Rittera Vitezovića (1652.-1713.). Zagreb : Matica hrvatska, 1914, s. 139-141.</bibl>
          </sourceDesc>
       </fileDesc>
-     <encodingDesc>
-        <!-- CTS for a single poem in document -->
-        <refsDecl n="CTS">
-           <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])" n="line">
-              <p>This pointer pattern extracts line</p>
-           </cRefPattern>
-        </refsDecl>
-     <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="cRefPattern" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="60"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="3"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="refsDecl" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="41"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -132,140 +77,75 @@
         Latinski spellcheck.
       </change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
-      
          <pb n="139"/>
          <div type="poesis-elegia">
-        
-            <head>Ad comitem Marsilium, caesareum legatum.</head> 
-        
+            <head>Ad comitem Marsilium, caesareum legatum.</head>
             <l n="1">Post tot Bellorum motus faustosque triumphos. </l>
-             
             <l n="2">In nova cum Turcis oscula Pacis eo. </l>
-             
             <l n="3">Atque ut maiori iungi videamur amore, </l>
-             
             <l n="4">Propria cedo illi, te mediante, loca. </l>
-             
             <pb n="140"/>
             <l n="5">Dura mihi (fateor) sunt oscula, cessio dura : </l>
-             
             <l n="6">Rarus amor nimis hic, insolitusque modus. </l>
-             
             <l n="7">Ante nec a victa me extorserat oscula Turcus : </l>
-             
             <l n="8">Oscula nec victi fida fuere mihi. </l>
-             
             <l n="9">Oscula dilectis mea servabantur amicis : </l>
-             
             <l n="10">Nam, scelus est, hosti prostituisse sacrum. </l>
-             
             <l n="11">Cedere non didici patrias sine sanguine terras : </l>
-             
             <l n="12">Maxima conditio semper in ense fuit. </l>
-             
             <l n="13">Sed quia sic voluit Deus, et Rex mandat: utrique </l>
-             
             <l n="14">Paret, Amice, vides, obsequiosa fides. </l>
-             
             <l n="15">Scilicet in Coelis cum regnet Jupiter almus : </l>
-             
             <l n="16">In terris Caesar iura suprema tenet. </l>
-             
             <l n="17">Tanta pii tamen est clementia Caesaris, hosti </l>
-             
             <l n="18">Ut victo vitam victor opesque sinat. </l>
-             
             <l n="19">Hinc noscat, si qua, Thrax, relligione tenetur, </l>
-             
             <l n="20">Quicquid habet, debet Caesari id omne meo. </l>
-             
             <l n="21">At ne posteritas, hoc me fecisse timore, </l>
-             
             <l n="22">Aut facili quadam de ratione, putet : </l>
-             
             <l n="23">Tu mihi testis eris, quo robore polleo, quaque </l>
-             
             <l n="24">Mente : mihi quod Thrax non metuendus erat. </l>
-             
             <l n="25">Nosti etenim populum fortem simul atque fidelem : </l>
-             
             <l n="26">Hosti et amicitiae pro ratione datum. </l>
-             
             <l n="27">Tot loca, tot terras, medium prope cedere regnum : </l>
-             
             <l n="28">Res proprio fratri cedere dura foret. </l>
-             
             <l n="29">Namque aliunde meos, undis obnoxia et auris </l>
-             
             <l n="30">Damnosis, natos parva coarctat humus. </l>
-             
             <l n="31">Das hosti Turrim sub Castaneapola aquosa, </l>
-             
             <l n="32">Non doleo ; Turca est aedificata manu. </l>
-             
             <l n="33">Dubiciam cedis, famosi nominis arcem : </l>
-             
             <l n="34">Et Jesenovacii lignea castra loci. </l>
-             
             <l n="35">Haec mihi cor aliquo tangunt, Ferdinande, dolore </l>
-             
             <l n="36">Hic mea sunt summo sacra peracta Deo. </l>
-             
             <l n="37">Nec me tanta movet concessae cura Gradiscae : </l>
-             
             <l n="38">Apparent veteris vix ibi signa loci. </l>
-             
             <l n="39">Pinguia Sirmiaci didicerunt oppida ruris </l>
-             
             <l n="40">Adversas omni tempore ferre vices. </l>
-             
             <l n="41">Ast utinam contentus iis Novioque sit hostis, </l>
-             
             <l n="42">Dreznikio et Popinis, quae colit ille novo : </l>
-             
             <l n="43">Et servet metas, tecum quas fixit Efendi : </l>
-             
             <l n="44">Non tanti facerem : his usa carere diu. </l>
-             
             <l n="45">Non sinet ambitio contentum (crede) tyrannum </l>
-             
             <l n="46">Hisce locis : poscet plura deinde sibi. </l>
-             
             <l n="47">Ut Deus et Caesar clemens vult, omnia fiant </l>
-             
             <l n="48">Maius ab hinc cedat, crescat, utrique decus. </l>
-             
             <l n="49">Si tamen hac aliquid sperandum Pace supersit: </l>
-             
-        
             <pb n="141"/>
-        
             <l n="50">Quam vix condicto tempore stare putem : </l>
-             
             <l n="51">Opto, ut Jajcensis claves tibi praebeat arcis, </l>
-             
             <l n="52">Paulo post Bello, Turcia, victa novo. </l>
-             
             <l n="53">Ut, qui nunc Regnum dirimis nos inter et hostem : </l>
-             
             <l n="54">Lauderis, totum restituisse mihi. </l>
-             
             <l n="55">Vade bonis avibus : rediturus sic aliquando, </l>
-             
             <l n="56">Ut reddas Bosnam et Sirmia rura mihi. </l>
-             
             <l n="57">Et quem Rama prius captum captiva tenebat, </l>
-             
             <l n="58">Reddatur Regi libera Rama suo. </l>
-             
             <l n="59">Ut facili humanae variantur tempore sortes : </l>
-             
             <l n="60">Sorte dein venias cum meliore. Vale.</l>
-             
-              </div>
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>

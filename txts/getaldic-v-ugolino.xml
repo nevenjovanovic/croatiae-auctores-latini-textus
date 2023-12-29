@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="getaldic-v-ugolino">
          <titleStmt>
             <title>Mortis Hugolini versio Latina, versio electronica</title>
@@ -45,55 +46,6 @@
             </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="gap" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="62"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="4"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="25" withId="1"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="4"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="39"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="9"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -129,7 +81,6 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -138,17 +89,16 @@
         Početna CroALa verzija.
       </change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <gap reason="alii" resp="#NJ"/>
          <div type="poesis-epica-versio-fragmentum" met="hexameter">
             <pb n="35"/>
             <head xml:lang="ita">VII. VERSIONE INEDITA DEL VIVENTE BIAGIO BARONE DE' GHETALDI NOBILE DI RAGUSA SOCIO DELLE ACCADEMIE ARCADICA E TIBERINA.</head>
-            
             <l>Immani os pastu crudelis sustulit ille, </l>
             <l>Infracti capitis detergens crinibus istud. </l>
-            <l>Infandum hinc, quem corde premo, renovare dolorem <ref>3</ref> 
+            <l>Infandum hinc, quem corde premo, renovare dolorem <ref>3</ref>
             </l>
             <l>Vis, <sic>caepit</sic>, meditans, effundam verba priusquam. </l>
             <l>At dictis, quem rodo, meis dum proditor iste </l>
@@ -160,15 +110,15 @@
             </l>
             <l>Praesulem et hunc terris Rogerum nosce fuisse. </l>
             <l>Isti, nunc dicam, quare sic proximus adstem. </l>
-            <l>Haud memorare iuvat miser ut confisus eidem <ref>12</ref> 
+            <l>Haud memorare iuvat miser ut confisus eidem <ref>12</ref>
             </l>
             <l>Insidiis fuerim captus, dein funere mersus. </l>
             <l>At, quod scire nequis, fuit ut mea scilicet horrens </l>
-            <l>Et fera mors, narrem, quantum et me laeserit ipse. <ref>15</ref> 
+            <l>Et fera mors, narrem, quantum et me laeserit ipse. <ref>15</ref>
             </l>
             <l>Carceris angustum, famis fuit iste, foramen, </l>
             <l>Et quo venturo claudentur tempore multi, </l>
-            <l>Mi plures rima lunae monstraverat orbes, <ref>18</ref> 
+            <l>Mi plures rima lunae monstraverat orbes, <ref>18</ref>
             </l>
             <pb n="36"/>
             <l>Somnia quum velum mihi discidere futuri.</l>
@@ -233,5 +183,5 @@
             <pb n="38"/>
          </div>
       </body>
-              </text>
+   </text>
 </TEI>

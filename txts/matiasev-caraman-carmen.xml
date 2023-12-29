@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="matiasev-caraman-carmen">
          <titleStmt>
             <title>Carmen ad v. c. Iacobum Candidum, versio electronica</title>
@@ -38,59 +39,6 @@
             <bibl>Allison, W. H. ; Schnur, H. C.: Antun Karamaneo's Carmen ad Jac. Candidum and the Hvar Theatre. In: Humanistica Lovaniensia, 29 (1980), S. 246--285.</bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editor" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="epigraph" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="351"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="lg" occurs="28"/>
-          <tagUsage gi="milestone" occurs="10"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="4"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="43"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="trailer" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -122,24 +70,22 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2012-06-03</date> Početna verzija. Neispravljen tekst</change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <front>
          <epigraph>
             <p>LAUS DEO SEMPER</p>
          </epigraph>
-    
       </front>
       <body>
          <div type="poesis-carmen" met="hexametrum">
-            <milestone unit="page" n="250"/>    
+            <milestone unit="page" n="250"/>
             <head>CARMEN AD <abbr>V. C.</abbr> IACOBUM CANDIDUM</head>
             <lg>
                <l>In Phariis quae cerno plagis? qua personat annus</l>
@@ -156,7 +102,6 @@
                <l>     Obstupet applausor populus longaque ferendum</l>
                <l>     Laude putat dignumque, vigil quod fama loquatur.</l>
             </lg>
-
             <lg>
                <l>       Quem fontem rear atque caput moliminis esse</l>
                <l n="15">   Huius et unde novae surgunt exordia pompae,</l>
@@ -177,7 +122,6 @@
                <l n="30">   Vix aliter poterat tantae praestantia mentis,</l>
                <l>     Dotibus usa suis, et magnificentia nosci</l>
                <milestone unit="page" n="252"/>
-
                <l>        Maiores imitata suos, quos fama superstes<note>V.   32 : Corr. ex superestes</note>
                </l>
                <l>        In caelum totis sublimes evehit alis.</l>
@@ -219,13 +163,9 @@
                <l n="65">        Hic circumpositas tollentia moenia pinnas</l>
                <l>        Struxit, ad hoc seris habitata nepotibus aevi.</l>
             </lg>
-
             <lg>
                <l>           Si quisquam me forte roget. quibus histrio quisque</l>
-
-
                <milestone unit="page" n="254"/>
-
                <l>       Haec apte potuit repraesentare theatris,</l>
                <l>       Is tacitus mea verba cavas admittat in aures.</l>
             </lg>
@@ -275,10 +215,7 @@
                <l>        (Plebis ibi veluti promus sua munia quisque</l>
                <l>        Annonae praefectus obit), quibus incubat amplum</l>
                <l>        Vestibulum circum parvis insigne columnis,</l>
-
-
                <milestone unit="page" n="256"/>
-
                <l n="105">Unde potest quacumque velit spectare plateam</l>
                <l>Quisquis in hac eius speculator parte resistit.</l>
             </lg>
@@ -299,7 +236,6 @@
                <l>Prima nocte latus, cum sensim turba coiret,</l>
                <l>Agmen in excelso residens auctura theatro.</l>
             </lg>
-
             <lg>
                <l n="120">  Non potis est rerum species aequare relatu</l>
                <l>Iussarum de nocte geri, quas forte nequiret</l>
@@ -327,7 +263,6 @@
                <l>Haec quadripartitis a vertice singula nodis</l>
                <l>Alligat extentus vicinas funis ad aedes,</l>
                <milestone unit="page" n="258"/>
-
                <l>      Reptantis ne forte viri sub pondere nutent,</l>
                <l>      Illorum nisi summum tetigisse cacumen.</l>
             </lg>
@@ -345,7 +280,6 @@
                <l n="155">      Regressu celerabat iter compendia funis</l>
                <l>      Propositumque rei secum referebat honorem.</l>
             </lg>
-
             <lg>
                <l>         Utque forum plausu longe maiore sonaret,</l>
                <l>      Et populus magis atque magis repleret ovatu</l>
@@ -371,7 +305,6 @@
                <l>      Ne pars alterius succumberet altera fraudi.</l>
                <l>      Provisum sic prorsus erat, ne vincere quisquam</l>
                <milestone unit="page" n="260"/>
-
                <l>    Auderet ratione loci. sed ut acriter ipsa</l>
                <l>    Vi fretus magnis penitus contenderet ausis.</l>
                <l n="180"> Conciliare sibi sola virtute favorem</l>
@@ -405,7 +338,6 @@
                <l>    Esset aquas, surgebat humo gaudensque relicta</l>
                <l>    Rursus inoffensis poscebat proelia membris.</l>
             </lg>
-
             <lg>
                <l>        Sit satis huius opus leviter mihi tangere belli.</l>
                <l>      Nunc alio me Musa vocat, velut horreat ictu</l>
@@ -416,7 +348,6 @@
                <l>      Non uni de plebe viro cunctanter edendos</l>
                <milestone unit="page" n="262"/>
                <l n="215">(Et mora commendat<note>V. 215 corr. ex commedat</note> factum!) quos arte redactus</l>
- 
                <l>in minimas celerante scobes consperserat apte</l>
                <l>Caseus et pinguis condiverat offa butyri.</l>
                <l>Utque modis lepidis haec commessatio multum</l>
@@ -460,8 +391,6 @@
                <l n="250">Ingluvies attenta modos, ne latret inanis</l>
                <l>Nec redeat visa stomachus ieiunus ab esca?</l>
             </lg>
-     
-     
             <milestone unit="page" n="264"/>
             <lg>
                <l>       Consilium tandem capiunt ut uterque iocosa</l>
@@ -475,7 +404,6 @@
                <l n="260"> Illud ab alterutro sibimet quod deesse videbat</l>
                <l>    Alteruter propulsurus ieiunia ventris.</l>
             </lg>
-
             <lg>
                <l>         Oblectamentum superest, ut ovantis in istos</l>
                <l>      Advolvam numeros populi, quod dicitur Urbis</l>
@@ -548,7 +476,6 @@
                <l>       Non breve praecipiti spatium fecisse volatu,</l>
                <l>       Talis inaccessa vir hic haerens pectore funi</l>
                <l n="325">    Vexillumque tenens<note>V. 325 corr. ex tendens</note> dextra, quod saepe rotabat,</l>
-     
                <l>       Ceu sic magnanimum vellet plausisse CAPELLUM,</l>
                <l>       Est in praelongam delapsus ab arce plateam.</l>
                <l>       Hunc et amicorum iam pronius ima petentem</l>
@@ -577,10 +504,8 @@
             <l>    Absenti defertur honor, quem grandibus illi</l>
             <l n="350"> Plenius obsequiis coram tribuisse solebam.</l>
             <l>    Hisque tuum nugis munus patiare rependi.</l>
-
-
             <trailer>FINIS.</trailer>
          </div>
       </body>
-  </text>
+   </text>
 </TEI>

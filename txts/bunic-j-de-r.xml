@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-     <fileDesc xml:id="bunic-j-de-r">
+      <fileDesc xml:id="bunic-j-de-r">
          <titleStmt>
             <title>De raptu Cerberi, editio electronica</title>
             <author ref="bunic02" key="viaf20744656">
@@ -21,13 +22,13 @@
          </titleStmt>
          <extent ana="C">Mg:C 1034 versus, verborum 6750</extent>
          <publicationStmt>
-	           <p>Elektronska verzija: Neolatina Croatica, znanstveni
+            <p>Elektronska verzija: Neolatina Croatica, znanstveni
 	   projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
 	   Hrvatska.  <date>lipanj 2005</date>
             </p>
-	        </publicationStmt>
+         </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Bunić, Jakov Ilijin / Iacobus Bonus
@@ -41,69 +42,10 @@
                   <name>Philippi Beroaldi</name> Hexasticon Glavičić omisit; ex
                editione eadem antiqua (Romae 1526) sumpsimus et adiecimus.
              </note>
-           </bibl>
+            </bibl>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <variantEncoding method="parallel-segmentation" location="internal"/>
-  
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="2"/>
-          <tagUsage gi="app" occurs="95"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="del" occurs="1"/>
-          <tagUsage gi="div" occurs="8"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="6"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="1034"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="listWit" occurs="1"/>
-          <tagUsage gi="name" occurs="2"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="6"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="7"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="rdg" occurs="182"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="48"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-          <tagUsage gi="variantEncoding" occurs="1"/>
-          <tagUsage gi="witness" occurs="5" withId="5"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-     <profileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -134,7 +76,7 @@
             </keywords>
          </textClass>
       </profileDesc>
-     <revisionDesc>
+      <revisionDesc>
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -152,10 +94,10 @@
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>Mense Augusti, anno 2010</date>. Validatio in TEI P5</change>
-     </revisionDesc>
+      </revisionDesc>
    </teiHeader>
-   <text xml:base="urn:cts:croala:bunic20744656.deraptucerberi1761880.croala-lat2:" xml:lang="lat">
-
+   <text xml:base="urn:cts:croala:bunic20744656.deraptucerberi1761880.croala-lat2:"
+         xml:lang="lat">
       <front>
          <div type="apparatus" ana="editorial">
             <listWit>
@@ -173,7 +115,6 @@
     Pro praeludio in opus quod sequitur / Responsio auctoris ad Lectorem.</rdg>
                </app>
             </head>
-    
             <l n="1">
                <app>
                   <rdg wit="#R2">Cur mea dicta Charis, cur Gratia Musa uocata est?</rdg>
@@ -204,10 +145,8 @@
                   <rdg wit="#R2">Hinc mihi quod Christus rite canendus erat.</rdg>
                </app>
             </l>
-    
          </div>
          <div type="epigramma" met="hendecasyllabus">
-    
             <head>
                <app>
                   <rdg wit="#R1 #Cu">
@@ -229,15 +168,12 @@
                   <rdg wit="#R1 #Cu">Istis</rdg>
                   <rdg wit="#R2 #Gl">Nostris</rdg>
                </app> praeposui tribus libellis,</l>
-    
             <l n="6">
                <app>
                   <rdg wit="#R1 #Cu">Quos: o gloria patrię, domusque</rdg>
                   <rdg wit="#R2 #Gl">Qui Christum Herculea canunt figura,</rdg>
                </app>
             </l>
-    
-    
             <l n="7">
                <app>
                   <rdg wit="#R1 #Cu">Carraphę nitor, et decus perenne</rdg>
@@ -299,11 +235,7 @@
          </div>
       </front>
       <body>
-
-
-
          <div type="poesis-epica" met="hexameter">
-
             <div type="poesis-liber" met="hexameter" n="1">
                <head>IACOBI BONI RACVSAEI
 SVB FIGVRA HERCVLIS CHRISTI PRAELVDIVM
@@ -311,12 +243,12 @@ DEDICATVM LEONI X PONT. MAX. LIBER PRIMVS: AGLAIA</head>
                <l n="1.1">Taenarias fauces et debellata profundi</l>
                <l n="1.2">Regna Iouis soliumque canam, quo clauiger heros</l>
                <l n="1.3">Tergeminum <app>
-                     <rdg wit="#R1 #Cu #Sn">traxisse canem sub sidera</rdg> 
+                     <rdg wit="#R1 #Cu #Sn">traxisse canem sub sidera</rdg>
                      <rdg wit="#R2 #Gl">domuisse canem ui Marteque</rdg>
                   </app> fertur.</l>
                <l n="1.4">Multa prius saeuae qui prodigiosa nouercae</l>
                <l n="1.5">Monstra Mycenaeo <app>
-                     <rdg wit="#R1 #Cu #Sn">domuit</rdg> 
+                     <rdg wit="#R1 #Cu #Sn">domuit</rdg>
                      <rdg wit="#R2 #Gl">superat</rdg>
                   </app> sub rege, timendus</l>
                <l n="1.6">Victor, et Oechalicas euertit funditus arces.</l>
@@ -350,10 +282,10 @@ DEDICATVM LEONI X PONT. MAX. LIBER PRIMVS: AGLAIA</head>
                <l n="1.34">Centauri, gens mixta feris partusque biformes,</l>
                <l n="1.35">Scyllaque, Circaeis quoi latrant inguina monstris,</l>
                <l n="1.36">
-            <sic>Infoelix</sic> stat uirgo procul, centumque mouentur</l>
+                  <sic>Infoelix</sic> stat uirgo procul, centumque mouentur</l>
                <l n="1.37">Aegaeone manus, linguisque sonantibus instat</l>
                <l n="1.38">Parrhasius serpens, ignisque <app>
-                     <rdg wit="#R1 #Sn">erructat</rdg> 
+                     <rdg wit="#R1 #Sn">erructat</rdg>
                      <rdg wit="#Cu #R2 #Gl">eructat</rdg>
                   </app> ad auras</l>
                <l n="1.39">Fumantes horrenda globos terno ore Chimaera.</l>
@@ -380,8 +312,8 @@ DEDICATVM LEONI X PONT. MAX. LIBER PRIMVS: AGLAIA</head>
                <l n="1.60">Praecipitesque fuga tenues diuerberat umbras</l>
                <l n="1.61">Et, qua pandit iter, se fert <app>
                      <rdg wit="#R1 #Cu">Acherontis ad
-amnes</rdg> 
-                     <rdg wit="#Sn">Acheruntis ad amnes</rdg> 
+amnes</rdg>
+                     <rdg wit="#Sn">Acheruntis ad amnes</rdg>
                      <rdg wit="#R2 #Gl">Acheruntis ad amnem</rdg>
                   </app>.</l>
                <l n="1.62">Iamque propinquabat Stygiae qua portitor undae</l>
@@ -392,16 +324,16 @@ amnes</rdg>
                <l n="1.67">Auritum caput et nigra ferrugine corpus</l>
                <l n="1.68">
                   <app>
-                     <rdg wit="#R1 #Cu #Sn">Atrius</rdg> 
+                     <rdg wit="#R1 #Cu #Sn">Atrius</rdg>
                      <rdg wit="#R2 #Gl">Furuius</rdg>
                   </app> inuoluit discincto syrmate, gentes</l>
                <l n="1.69">Quem circum innumerae uolitant ripasque per omnes</l>
                <l n="1.70">Turba inhumata ruit, quantus ruit aethere densis</l>
                <l n="1.71">Imber aquis quantaeque cauo tolluntur arenae</l>
                <l n="1.72">Gurgite <app>
-                     <rdg wit="#R1 #Cu">aristęis</rdg> 
+                     <rdg wit="#R1 #Cu">aristęis</rdg>
                      <rdg wit="#Sn">aristeis
-              </rdg> 
+              </rdg>
                      <rdg wit="#R2 #Gl">Aristaeis</rdg>
                   </app> Euro spirante Cyrenis.</l>
                <l n="1.73">Alcides tenuit uestigia pressa parumper,</l>
@@ -409,13 +341,13 @@ amnes</rdg>
                <l n="1.75">Cernit ibi plures tristi quos miserat Orco:</l>
                <l n="1.76">Agmina praecipue Centaurica nubigenarum</l>
                <l n="1.77">Atque Pelectronios <app>
-                     <rdg wit="#R1 #Cu #Sn">laphitas</rdg> 
-                     <rdg wit="#R2">lapitas</rdg> 
+                     <rdg wit="#R1 #Cu #Sn">laphitas</rdg>
+                     <rdg wit="#R2">lapitas</rdg>
                      <rdg wit="#Gl">Lapithas</rdg>
                   </app> Rhetumque Pholumque</l>
                <l n="1.78">
                   <app>
-                     <rdg wit="#R1 #Cu #Sn">Nelęumque</rdg> 
+                     <rdg wit="#R1 #Cu #Sn">Nelęumque</rdg>
                      <rdg wit="#R2 #Gl">Hylaeumque</rdg>
                   </app> datumque sua in praesepia regem</l>
                <l n="1.79">Atque cruentatam Pharii Busiridis umbram.</l>
@@ -430,14 +362,12 @@ amnes</rdg>
                   </app> nimium saeuus? Vix ora comamque</l>
                <l n="1.83">Auratam et faciem dulci candore nitentem,</l>
                <l n="1.84">Vix roseas agnosco genas. Heu, quis tibi uultus</l>
-
                <l n="1.85">
                   <app>
                      <rdg wit="#Cu"/>
                      <rdg wit="#R1 #Sn #R2 #Gl"> Foedauit, meus ille fuit crudelior hostis.</rdg>
                   </app>
                </l>
-
                <l n="1.86">Hei mihi, rapte puer, nunquam te has ire <app>
                      <rdg wit="#R1 #Cu #Sn">sub</rdg>
                      <rdg wit="#R2 #Gl">per</rdg>
@@ -471,10 +401,10 @@ amnes</rdg>
                <l n="1.106">En quoque me falso frater delusit Apollo!"</l>
                <l n="1.107">Tunc tristis laetatus Hylas stetit Hercule uiso</l>
                <l n="1.108">Atque ait: "O magni <app>
-                     <rdg wit="#R1">domitor</rdg> 
+                     <rdg wit="#R1">domitor</rdg>
                      <rdg wit="#R2">dominator</rdg>
                   </app> fortissime <app>
-                     <rdg wit="#R1">mundi</rdg> 
+                     <rdg wit="#R1">mundi</rdg>
                      <rdg wit="#R2 #Gl">regni</rdg>
                   </app>,</l>
                <l n="1.109">Alcide, neque te frater neque Thracius Orpheus</l>
@@ -491,50 +421,48 @@ amnes</rdg>
                <l n="1.118">Heroum accubuit mensae circumque ministri</l>
                <l n="1.119">Aurea uasa, dapes et dulcia uina ferebant,</l>
                <l n="1.120">Ipse ego iussus eram gelidis e fontibus urnam</l>
-
                <l n="1.121">
                   <app>
                      <rdg wit="#Cu"/>
                      <rdg wit="#R1 #Sn #R2 #Gl"> Implere ex haustu laticum. Quam fune reuinctam</rdg>
                   </app>
                </l>
-
                <l n="1.122">In uada proieci, frigentes flumine lymphas</l>
                <l n="1.123">Vt caperem. Tunc ecce procul sub sole calenti</l>
                <l n="1.124">Candida siccabat madidos Arethusa capillos,</l>
                <l n="1.125">Gurgite pube tenus uirgo stans nuda supremo.</l>
                <l n="1.126">Bis subito liquidas sese <app>
-                     <rdg wit="#R1">summergit</rdg> 
+                     <rdg wit="#R1">summergit</rdg>
                      <rdg wit="#R2 #Gl">summersit</rdg>
                   </app> in undas,</l>
                <l n="1.127">Bisque <app>
-                     <rdg wit="#R1">emergit</rdg> 
+                     <rdg wit="#R1">emergit</rdg>
                      <rdg wit="#R2 #Gl">emersit</rdg>
                   </app> aquis iterum nymphasque sorores</l>
                <l n="1.128">Euocat: extemplo nudatas aequore toto</l>
                <l n="1.129">Nayadas aspicio spumantes ire per undas.</l>
                <l n="1.130">Obstupui humoremque mihi <app>
                      <rdg wit="#R1">sub
-pectora</rdg> 
+pectora</rdg>
                      <rdg wit="#R2 #Gl">tum pectore</rdg>
                   </app> traxit</l>
                <l n="1.131">Sanguineum formido repens, gelidosque per artus</l>
                <l n="1.132">Pallor iit, nox orta oculis, labefactaque terram</l>
                <l n="1.133">Membra petunt, sopita cadit mens corde <app>
                      <rdg wit="#R1">sub
-imo</rdg> 
+imo</rdg>
                      <rdg wit="#R2 #Gl">subacta</rdg>
                   </app>.</l>
                <l n="1.134">Me tunc exanimo similem chorus omnis abegit</l>
                <l n="1.135">In caua Nayadum spumosae Doridos antra."</l>
                <l n="1.136">"Ergo uera pii dicebant omina uates",</l>
                <l n="1.137">Alcides <app>
-                     <rdg wit="#R1">ait: at</rdg> 
+                     <rdg wit="#R1">ait: at</rdg>
                      <rdg wit="#R2 #Gl">ait. "Ah,</rdg>
                   </app> male amantia numina nymphae,</l>
                <l n="1.138">Quae mihi <sic>delitias</sic> nimium rapuistis inique,</l>
                <l n="1.139">Non bene in Alcidae consultae damna<app>
-                     <rdg wit="#R1"> fuistis.</rdg> 
+                     <rdg wit="#R1"> fuistis.</rdg>
                      <rdg wit="#R2 #Gl">, Napaeae!</rdg>
                   </app>
                </l>
@@ -549,12 +477,12 @@ imo</rdg>
                <l n="1.147">Pallentes, tum membra mihi frigentia torquent</l>
                <l n="1.148">Et stringunt per crura, manus et brachia nodos.</l>
                <l n="1.149">Haec fert <app>
-                     <rdg wit="#R1">straceo pingues de</rdg> 
+                     <rdg wit="#R1">straceo pingues de</rdg>
                      <rdg wit="#R2 #Gl">Memphitico pingues e</rdg>
                   </app> cortice guttas,</l>
                <l n="1.150">Ast alia ampullis costum depromit olentem,</l>
                <l n="1.151">Spargit <app>
-                     <rdg wit="#R1">odorato</rdg> 
+                     <rdg wit="#R1">odorato</rdg>
                      <rdg wit="#R2 #Gl">odorata</rdg>
                   </app> necnon cum baccare nardum</l>
                <l n="1.152">Et cum purpureo myrrham styrace madentem.</l>
@@ -564,7 +492,7 @@ imo</rdg>
                <l n="1.156">Illa tuas ingressa fores proruptaque nuper</l>
                <l n="1.157">Limina, in Hispanam Calpen qua surgit Abyla</l>
                <l n="1.158">Quaque tui <app>
-                     <rdg wit="#R1 #R2 #Gl">monimenta</rdg> 
+                     <rdg wit="#R1 #R2 #Gl">monimenta</rdg>
                      <rdg wit="#Sn">monumenta</rdg>
                   </app> manent aeterna laboris,</l>
                <l n="1.159">O Hymenaee, tibi magno pulcherrima Nereo</l>
@@ -572,17 +500,17 @@ imo</rdg>
                <l n="1.161">Et noua progenies circum, fluuiique lacusque</l>
                <l n="1.162">Nympharumque chori, uasto genetricis in antro</l>
                <l n="1.163">Carmina rauca canunt ultro citroque <app>
-                     <rdg wit="#R1">uagantes.</rdg> 
+                     <rdg wit="#R1">uagantes.</rdg>
                      <rdg wit="#R2 #Gl">meantes:</rdg>
                   </app>
                </l>
                <l n="1.164">Protoque Meliteque 
 <app>
-                     <rdg wit="#R2">Taliaque</rdg> 
+                     <rdg wit="#R2">Taliaque</rdg>
                      <rdg wit="#Gl">Thaliaque</rdg>
-                  </app> 
+                  </app>
                   <app>
-                     <rdg wit="#R1">Dotoque</rdg> 
+                     <rdg wit="#R1">Dotoque</rdg>
                      <rdg wit="#R2 #Gl">Doto</rdg>
                   </app> Ieraque</l>
                <l n="1.165">Amphitoique comis in candida colla solutis,</l>
@@ -594,7 +522,7 @@ imo</rdg>
                </l>
                <l n="1.167">
                   <app>
-                     <rdg wit="#R1">Cymothoe, Cymodoceque,</rdg> 
+                     <rdg wit="#R1">Cymothoe, Cymodoceque,</rdg>
                      <rdg wit="#R2 #Gl">Cymothoeque Legaeaque Spio</rdg>
                   </app> et flaua Orithya,</l>
                <l n="1.168">Turba pharetratae nec adhuc uitiata Dianae,</l>
@@ -606,7 +534,7 @@ imo</rdg>
                <l n="1.174">Progeniem fluxisse deo quaecunque creata est.</l>
                <l n="1.175">Sed dicam breuius, ne <sic>dillabatur</sic> inani</l>
                <l n="1.176">Temporis hoc spatium sermone. Vt me ipsa <sic>recoepit</sic>
-          </l>
+               </l>
                <l n="1.177">Doris ait meque in gremio complexa tenebat:</l>
                <l n="1.178">Egregium decus hoc, nymphae, munusque parente</l>
                <l n="1.179">Dignum erit Oceano. Ite, citos mihi ducite currus,</l>
@@ -614,15 +542,15 @@ imo</rdg>
                <l n="1.181">Praeduro concreta gelu, quo conditus altos</l>
                <l n="1.182">Possit inoffensus nobiscum cernere fluctus</l>
                <l n="1.183">Et quod pontus habet iam prospectare <app>
-                     <rdg wit="#R1">sub undis</rdg> 
+                     <rdg wit="#R1">sub undis</rdg>
                      <rdg wit="#R2 #Gl">per undas</rdg>
                   </app>."</l>
                <l n="1.184">Dixit, et haud segnes referunt <app>
-                     <rdg wit="#R1">ascyntheta</rdg> 
+                     <rdg wit="#R1">ascyntheta</rdg>
                      <rdg wit="#R2 #Gl">acentea</rdg>
                   </app> nymphae</l>
                <l n="1.185">Alpinis extracta iugis, ac plaustra <app>
-                     <rdg wit="#R1">rotati</rdg> 
+                     <rdg wit="#R1">rotati</rdg>
                      <rdg wit="#R2 #Gl">rotato</rdg>
                   </app>
                </l>
@@ -641,20 +569,20 @@ imo</rdg>
                <l n="1.198">Conspicienda comis matrique simillima Doris</l>
                <l n="1.199">Dulcia crispabant tenera modulamina uoce.</l>
                <l n="1.200">Meque sub ingentis <app>
-                     <rdg wit="#R1">camerata</rdg> 
+                     <rdg wit="#R1">camerata</rdg>
                      <rdg wit="#R2 #Gl">camerato</rdg>
                   </app> fornice currus</l>
                <l n="1.201">Defigunt, intus diuinaque pocula ponunt</l>
                <l n="1.202">Ambrosiasque dapes, uitreo <app>
-                     <rdg wit="#R1">sub</rdg> 
+                     <rdg wit="#R1">sub</rdg>
                      <rdg wit="#R2 #Gl">tum</rdg>
                   </app> carcere clausum,</l>
                <l n="1.203">Qualis ubi in domibus magnis auis Inda puellis</l>
                <l n="1.204">
-            <sic>Delitium</sic> humanas meditatur promere uoces,</l>
+                  <sic>Delitium</sic> humanas meditatur promere uoces,</l>
                <l n="1.205">Argento contexta domus quam paruula claudit</l>
                <l n="1.206">Fixaque <app>
-                     <rdg wit="#R1">sub</rdg> 
+                     <rdg wit="#R1">sub</rdg>
                      <rdg wit="#R2 #Gl">de</rdg>
                   </app> trabibus recta suspendit ab hasta.</l>
                <l n="1.207">Iam uada sulcabat prouectus in aequora currus</l>
@@ -662,13 +590,13 @@ imo</rdg>
                <l n="1.209">Tergore <sic>pinnifero</sic>, uolucri quom Nerea curru</l>
                <l n="1.210">
                   <app>
-                     <rdg wit="#R1">Immanes</rdg> 
+                     <rdg wit="#R1">Immanes</rdg>
                      <rdg wit="#R2 #Gl">Immanis</rdg>
                   </app> longo <app>
-                     <rdg wit="#R1">uexerunt</rdg> 
+                     <rdg wit="#R1">uexerunt</rdg>
                      <rdg wit="#R2 #Gl">deuexit</rdg>
                   </app> corpore <app>
-                     <rdg wit="#R1">pristes</rdg> 
+                     <rdg wit="#R1">pristes</rdg>
                      <rdg wit="#R2 #Gl">pistrix</rdg>
                   </app>.</l>
                <l n="1.211">Agmina nam propior cupiebat iungere Nereus</l>
@@ -680,16 +608,16 @@ imo</rdg>
                <l n="1.217">Nereidum sic laeta cohors fluuiique sonantes</l>
                <l n="1.218">Nerea delapsi uastum comitantur in aequor</l>
                <l n="1.219">Immixti nymphis: Strymon, <app>
-                     <rdg wit="#R1">Sperchios, Ilerda,</rdg> 
+                     <rdg wit="#R1">Sperchios, Ilerda,</rdg>
                      <rdg wit="#R2 #Gl">Sperchius et Arar</rdg>
                   </app>
                </l>
                <l n="1.220">
                   <app>
                      <rdg wit="#R1">
-                <sic>Dillectus</sic>
-                <add>que</add>
-                     </rdg> 
+                        <sic>Dillectus</sic>
+                        <add>que</add>
+                     </rdg>
                      <rdg wit="#R2 #Gl">Dilectusque</rdg>
                   </app> Lycus nymphis et fuluus Oaxis</l>
                <l n="1.221">Et flauus Tybris cornuque Achelous adempto</l>
@@ -697,32 +625,33 @@ imo</rdg>
                <l n="1.223">Auratoque Tagus uultu Rhodanusque bicornis,</l>
                <l n="1.224">Omnigenosque ferens pisces <app>
                      <rdg wit="#R1">uarias<add>que</add>
-                     </rdg> 
+                     </rdg>
                      <rdg wit="#R2 #Gl">uariasque</rdg>
                   </app> uolucres</l>
                <l n="1.225">Dalmaticus Naron, Phasis Phrygiusque Caycus,</l>
                <l n="1.226">Laurifer Eurotas et nigro excussus ab Orco</l>
-               <l n="1.227">Corniger Eridanus, Liparis, <sic>Moedusque</sic> <sic>Nyphates</sic>
-          </l>
+               <l n="1.227">Corniger Eridanus, Liparis, <sic>Moedusque</sic>
+                  <sic>Nyphates</sic>
+               </l>
                <l n="1.228">
-            <sic>Smyrneusque</sic> Meles et multo Marte notatus</l>
+                  <sic>Smyrneusque</sic> Meles et multo Marte notatus</l>
                <l n="1.229">Ister et Illyrico ueniens a littore Narbon.</l>
                <l n="1.230">Iamque uias utraeque pares tenuere quadrigae</l>
                <l n="1.231">Marmore demersae in medio. Quae monstra natantum,</l>
                <l n="1.232">Quos pelagi populos et <app>
-                     <rdg wit="#R1">quęue sub ęquore</rdg> 
+                     <rdg wit="#R1">quęue sub ęquore</rdg>
                      <rdg wit="#R2 #Gl">quanta per aequora</rdg>
                   </app> uidi!</l>
                <l n="1.233">Longa est haec series; quod si mihi guttura mille,</l>
                <l n="1.234">Mille modis <app>
-                     <rdg wit="#R1">uariis:</rdg> 
+                     <rdg wit="#R1">uariis:</rdg>
                      <rdg wit="#R2 #Gl">multis</rdg>
                   </app> et mille per ora sonarent,</l>
                <l n="1.235">Vix equidem unius numerarem tempore mensis.</l>
                <l n="1.236">Omnia nam magno quaecunque sub aethere tellus</l>
                <l n="1.237">Concipit et pulchri profert in lumina solis,</l>
                <l n="1.238">Omnia multiparens <app>
-                     <rdg wit="#R1 #Gl">complectitur</rdg> 
+                     <rdg wit="#R1 #Gl">complectitur</rdg>
                      <rdg wit="#R2">amplectitur</rdg>
                   </app> Amphitrite</l>
                <l n="1.239">Nascunturque alto uasti sub gurgite ponti.</l>
@@ -749,15 +678,15 @@ imo</rdg>
                <l n="1.260">Mox ait, "ad caelum raptus, quoi Dardana pubes</l>
                <l n="1.261">Inuidet et superis qui dulcia pocula praebet!</l>
                <l n="1.262">
-            <sic>Foelix</sic> ille puer Phrygiis in montibus Atys,</l>
+                  <sic>Foelix</sic> ille puer Phrygiis in montibus Atys,</l>
                <l n="1.263">Cymbala quoi tollunt moestas resonantia curas</l>
                <l n="1.264">Atque leues Gallae et furibundae sacra <sic>Cybelles</sic>.</l>
                <l n="1.265">Ast ego qui dulci priuatus lumine uitae –</l>
                <l n="1.266">Heu, nimium <sic>infoelix</sic> – Stygias inhumatus arenas</l>
                <l n="1.267">Incolo, nec <app>
-                     <rdg wit="#R1">nostro solatia spesue dolori</rdg> 
+                     <rdg wit="#R1">nostro solatia spesue dolori</rdg>
                      <rdg wit="#Sn">
-                <sic>paenis</sic> spes aut solatia nostris</rdg> 
+                        <sic>paenis</sic> spes aut solatia nostris</rdg>
                      <rdg wit="#R2 #Gl">nostro spes uel postrema dolori</rdg>
                   </app>
                </l>
@@ -766,7 +695,7 @@ imo</rdg>
                <l n="1.270">Scilicet hoc pulchras prodest uidisse Napaeas</l>
                <l n="1.271">Nereidumque choros et Doridos antra marinae,</l>
                <l n="1.272">Hoc currum Nerei, <app>
-                     <rdg wit="#R1 #R2 #Gl">infidi</rdg> 
+                     <rdg wit="#R1 #R2 #Gl">infidi</rdg>
                      <rdg wit="#Sn">
                         <del>iniusti</del>infidi</rdg>
                   </app> hoc miracula ponti,</l>
@@ -786,32 +715,32 @@ imo</rdg>
                <l n="1.285">Thraces equi et Veneris niuei pascuntur olores;</l>
                <l n="1.286">Quattuor atque rotae, domitrix quas atra deorum</l>
                <l n="1.287">Nox tulit, adfugiens <app>
-                     <rdg wit="#Sn">Erebum</rdg> 
+                     <rdg wit="#Sn">Erebum</rdg>
                      <rdg wit="#R1 #R2 #Gl">Orcum</rdg>
                   </app>, Phanetis amores;</l>
                <l n="1.288">Et picti Bromii lynces et plaustra leonum,</l>
                <l n="1.289">Alma quibus uehitur diuum <sic>Berecynthia</sic> mater.</l>
                <l n="1.290">
                   <app>
-                     <rdg wit="#R1">Et te flaua Ceres</rdg> 
+                     <rdg wit="#R1">Et te flaua Ceres</rdg>
                      <rdg wit="#R2 #Gl">Teque, Ceres o diua,</rdg>
                   </app> nothae ad conuiuia bigae</l>
                <l n="1.291">Vexerunt et te gelidi, Saturne, iugales.</l>
                <l n="1.292">Et celer annexis <app>
-                     <rdg wit="#R1">uenerat</rdg> 
+                     <rdg wit="#R1">uenerat</rdg>
                      <rdg wit="#R2 #Gl">aderat</rdg>
                   </app> talaribus Arcas,</l>
                <l n="1.293">Cum patulo pennata gerit qui crura galero</l>
                <l n="1.294">Atque soporiferam <sic>laetali</sic> cuspide uirgam</l>
                <l n="1.295">Qua regit Elysium, qua Tartara quaque <app>
-                     <rdg wit="#R1">sub imo</rdg> 
+                     <rdg wit="#R1">sub imo</rdg>
                      <rdg wit="#R2 #Gl">uoraci</rdg>
                   </app>
                </l>
                <l n="1.296">Fas <sic>Phlegetonte</sic> tenet placidoque in flumine <sic>Laethes</sic>
-          </l>
+               </l>
                <l n="1.297">Elicit hinc manes, hic <app>
-                     <rdg wit="#R1">suffocat</rdg> 
+                     <rdg wit="#R1">suffocat</rdg>
                      <rdg wit="#R2 #Gl">
                         <sic>suprimit</sic>
                      </rdg>
@@ -819,7 +748,7 @@ imo</rdg>
                <l n="1.298">Ventum erat ad sedes, ubi conuenit omne deorum</l>
                <l n="1.299">
                   <app>
-                     <rdg wit="#R1 #Sn">Concilium</rdg> 
+                     <rdg wit="#R1 #Sn">Concilium</rdg>
                      <rdg wit="#R2 #Gl">Consilium</rdg>
                   </app> et nitidis collucet regia mensis.</l>
                <l n="1.300">Tum pater undisonus sobolem complectitur almam</l>
@@ -856,7 +785,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.8">Illa dies misero fatorum extrema meorum</l>
                <l n="2.9">
                   <app>
-                     <rdg wit="#R1">Illuxit</rdg> 
+                     <rdg wit="#R1">Illuxit</rdg>
                      <rdg wit="#R2 #Gl">Irruerat</rdg>
                   </app> maestamque mihi fudere querelam</l>
                <l n="2.10">Castorides, uox illa fuit praenuntia laeti.</l>
@@ -864,7 +793,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.12">Flumine delati rapido, procul ecce tumentes</l>
                <l n="2.13">
                   <app>
-                     <rdg wit="#Sn">Voluuntur</rdg> 
+                     <rdg wit="#Sn">Voluuntur</rdg>
                      <rdg wit="#R1 #R2 #Gl">Consurgunt</rdg>
                   </app> magno compulsi turbine fluctus</l>
                <l n="2.14">Versaque arenosum secum maria omnia fundum</l>
@@ -873,7 +802,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.17">Phocarumque greges magnarum et monstra rotarum</l>
                <l n="2.18">Arboribusque ferae similes similesque columnis</l>
                <l n="2.19">
-            <sic>Dilluuiem</sic> tetris ructantes faucibus atram.</l>
+                  <sic>Dilluuiem</sic> tetris ructantes faucibus atram.</l>
                <l n="2.20">Monstraque quadrupedum secum mare uoluit ab imo</l>
                <l n="2.21">Orbe trahens, causa et tantae uenit ecce procellae:</l>
                <l n="2.22">Balaenae saeuis infestabantur ab orcis</l>
@@ -885,7 +814,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.28">Occurrunt orcae contra rostrisque trucidant</l>
                <l n="2.29">Angustisque graues illidunt cautibus, illae</l>
                <l n="2.30">Commotae ingenti <app>
-                     <rdg wit="#R1">conturbant</rdg> 
+                     <rdg wit="#R1">conturbant</rdg>
                      <rdg wit="#R2 #Gl">perturbant</rdg>
                   </app> aequora flatu.</l>
                <l n="2.31">Dicas Aeoliis fluctus <sic>eferuere</sic> uentis</l>
@@ -895,15 +824,15 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.35">Tempestas sic atra deum denuntiet iras,</l>
                <l n="2.36">Si duros caelo lapides effulminet alto.</l>
                <l n="2.37">Crystallum fragile adueniens <app>
-                     <rdg wit="#R1">tunc</rdg> 
+                     <rdg wit="#R1">tunc</rdg>
                      <rdg wit="#R2 #Gl">hinc</rdg>
                   </app> impete turbo</l>
                <l n="2.38">
-            <sic>Disiicit</sic> in tenues crustas, mihi guttura densis</l>
+                  <sic>Disiicit</sic> in tenues crustas, mihi guttura densis</l>
                <l n="2.39">Irruit humor aquis uitalem et strangulat ignem:</l>
                <l n="2.40">Praecluduntque undae miserae spiracula uitae. </l>
                <l n="2.41">Tum pater Oceanus casum miseratus <app>
-                     <rdg wit="#R1">iniquum</rdg> 
+                     <rdg wit="#R1">iniquum</rdg>
                      <rdg wit="#R2 #Gl">acerbum</rdg>
                   </app>,</l>
                <l n="2.42">In pisces corpus uertit caeloque locauit.</l>
@@ -914,7 +843,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.47">Obtestor Phoebi et Dircaei Amphionis urbem,</l>
                <l n="2.48">Des ut opem misero quum tu remeabis ab umbris</l>
                <l n="2.49">Tristibus ad superas iucundi luminis <app>
-                     <rdg wit="#R1">auras</rdg> 
+                     <rdg wit="#R1">auras</rdg>
                      <rdg wit="#R2 #Gl">oras</rdg>
                   </app>
                </l>
@@ -922,8 +851,8 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.51">Constituas tumulum, saltum ut hoc munere fungar.</l>
                <l n="2.52">Aut tu si quid habes iuris seu roboris alti,</l>
                <l n="2.53">Si durum <app>
-                     <rdg wit="#R1">flegetonta</rdg> 
-                     <rdg wit="#Sn">Phlegethonta</rdg> 
+                     <rdg wit="#R1">flegetonta</rdg>
+                     <rdg wit="#Sn">Phlegethonta</rdg>
                      <rdg wit="#R2 #Gl">Phlegetonta</rdg>
                   </app> domas legesque deorum</l>
                <l n="2.54">Omnia quandoquidem uincis, tu me eripe tanto</l>
@@ -934,7 +863,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.59">Attrectasse queam tristesque refringere poenas </l>
                <l n="2.60">Et diuinarum decreta adamantina legum,</l>
                <l n="2.61">Tu uotis <app>
-                     <rdg wit="#R1 #Sn">fruere</rdg> 
+                     <rdg wit="#R1 #Sn">fruere</rdg>
                      <rdg wit="#R2 #Gl">fruerere</rdg>
                   </app> tuis, foret alter Olympo</l>
                <l n="2.62">Iuppiter Alcides, Saturnia regna redirent.</l>
@@ -945,7 +874,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.67">Demittet, uincat linguae qui fulmine Ditem</l>
                <l n="2.68">Transferat et qui te ad requiem sedesque beatas."</l>
                <l n="2.69">His dictis gauisus Hylas magnamque <sic>recoepit</sic>
-          </l>
+               </l>
                <l n="2.70">Spem puer, haec si qua est miseris sub tristibus umbris.</l>
                <l n="2.71">Proripit Alcides Stygiae se ad stagna paludis.</l>
                <l n="2.72">Quem simul atque Charon uiridi prospexit ab alueo</l>
@@ -956,7 +885,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.77">Cunctarique uirum et properandi quaerere causas.</l>
                <l n="2.78">Officii memor ipse sui: "Tu clauiger", inquit,</l>
                <l n="2.79">"Siste pedes! <app>
-                     <rdg wit="#R1">Quo</rdg> 
+                     <rdg wit="#R1">Quo</rdg>
                      <rdg wit="#R2 #Gl">Qui</rdg>
                   </app> te ad nostras rapit impetus undas?</l>
                <l n="2.80">Quis deus humanis indutus carnibus? Istud</l>
@@ -996,7 +925,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.114">Iuppiter ipse mihi genitor, me Iuno nouerca</l>
                <l n="2.115">Iussit adire domos Erebi Stygiamque paludem</l>
                <l n="2.116">
-            <sic>Transulcare</sic> rati magnam Plutonis ad arcem.</l>
+                  <sic>Transulcare</sic> rati magnam Plutonis ad arcem.</l>
                <l n="2.117">Hoc insigne mihi gestandum: robur et ipsa</l>
                <l n="2.118">Ferrea compago, sic Marti ferreus ensis,</l>
                <l n="2.119">Tela trisulca Ioui, Neptuno fuscina, Phoebo</l>
@@ -1012,18 +941,18 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.129">Suspicit admirans donum uenerabile uirgae.</l>
                <l n="2.130">Tunc se praecingit, remos et uela rudentesque</l>
                <l n="2.131">Expedit et tenui <app>
-                     <rdg wit="#R1">misso sub</rdg> 
+                     <rdg wit="#R1">misso sub</rdg>
                      <rdg wit="#R2 #Gl">demisso</rdg>
                   </app> gurgite conto</l>
                <l n="2.132">
                   <app>
-                     <rdg wit="#R1">Detrudit</rdg> 
+                     <rdg wit="#R1">Detrudit</rdg>
                      <rdg wit="#R2 #Gl">Protrudit</rdg>
                   </app> puppim proramque aduertit arenae.</l>
                <l n="2.133">Impiger ingreditur uasta cum mole carinam</l>
                <l n="2.134">Amphitryoniades. Tum lubrica pondere cymba</l>
                <l n="2.135">Subsedit tremefacta iugis undamque <sic>recaepit</sic>
-          </l>
+               </l>
                <l n="2.136">In latus et titubans tranauit flumina tandem.</l>
                <l n="2.137">Alcides postquam ripa ulteriore potitus,</l>
                <l n="2.138">Qua minus adgeritur limi fluuiique refusis</l>
@@ -1032,23 +961,23 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.141">Tartarei: hanc longo suspendit porticus arcu</l>
                <l n="2.142">Sublimesque alto tollunt adamante columnae</l>
                <l n="2.143">Et circum <app>
-                     <rdg wit="#R1">obductos</rdg> 
+                     <rdg wit="#R1">obductos</rdg>
                      <rdg wit="#R2 #Gl">obductas</rdg>
                   </app> atra fuligine turres</l>
                <l n="2.144">Diis ueneranda palus liuenti personat unda.</l>
                <l n="2.145">Hic prope uestibulum et diri palatia <app>
-                     <rdg wit="#Sn">regis</rdg> 
+                     <rdg wit="#Sn">regis</rdg>
                      <rdg wit="#R1 #R2 #Gl">Ditis</rdg>
                   </app>
                </l>
                <l n="2.146">Stat solium sublime dei iuxtaque triformis</l>
                <l n="2.147">Cerberus: humano depastus sanguine <app>
-                     <rdg wit="#R1">sternit</rdg> 
+                     <rdg wit="#R1">sternit</rdg>
                      <rdg wit="#R2 #Gl">condit</rdg>
                   </app>
                </l>
                <l n="2.148">Membra sub exesa scabri <app>
-                     <rdg wit="#R1">testudine</rdg> 
+                     <rdg wit="#R1">testudine</rdg>
                      <rdg wit="#R2 #Gl">rubigine</rdg>
                   </app> saxi,</l>
                <l n="2.149">Quo Stygias prostratus aquas custodit et alta </l>
@@ -1134,7 +1063,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.228">Humano quoties respersi sanguine campos!</l>
                <l n="2.229">Vincimur insoliti uinci, proh dedecus! Hostis</l>
                <l n="2.230">En nostras trahit exuuias, qui bella <sic>Typhaeum</sic>
-          </l>
+               </l>
                <l n="2.231">Vana lacessentem tumulo depressimus alto</l>
                <l n="2.232">Inarimes quique Enceladum subiecimus Aetnae</l>
                <l n="2.233">Atque tot anguipedes Phlegraea ualle Gigantas</l>
@@ -1186,7 +1115,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.279">Ange, precor, nostri capitis fortissime uindex! </l>
                <l n="2.280">Nec monstri miserere feri! Nihil iste dolebat</l>
                <l n="2.281">
-            <sic>Thaesea</sic> quom Stygiae uinctum duxere cateruae;</l>
+                  <sic>Thaesea</sic> quom Stygiae uinctum duxere cateruae;</l>
                <l n="2.282">Atque tot humanos crudelis manderet artus,</l>
                <l n="2.283">Me quoque Gnosiaci qui quaesitoris acerbum</l>
                <l n="2.284">Iudicium expecto tristis sortesque tremisco. </l>
@@ -1214,7 +1143,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="2.306">Circuitu: quorum ridenti lucidus aura</l>
                <l n="2.307">Vltimus aspectat ludentes mollibus aruis</l>
                <l n="2.308">
-            <sic>Foelices</sic> animas et fortunata piorum</l>
+                  <sic>Foelices</sic> animas et fortunata piorum</l>
                <l n="2.309">Concilia, octauus ueterum iam labe malorum </l>
                <l n="2.310">Lustratas, largo quae potu obliuia captant.</l>
                <l n="2.311">Septimus impressas uario purgamine culpas</l>
@@ -1305,7 +1234,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="3.55">Interea, dum iam properant, grauis ecce tumultus</l>
                <l n="3.56">Auditur, fragor insonuit, totumque repente</l>
                <l n="3.57">
-            <sic>Incaepit</sic> mugire chaos pulsuque rotarum</l>
+                  <sic>Incaepit</sic> mugire chaos pulsuque rotarum</l>
                <l n="3.58">Quadrupedante quati magni fundamina mundi,</l>
                <l n="3.59">Quales humenti uentosa tonitrua caelo</l>
                <l n="3.60">Quum glomerant Euri pluuia impendente sub aethra</l>
@@ -1483,7 +1412,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="3.232">Iam uero et manes certatim et daemonas omnes</l>
                <l n="3.233">Conspexisse iuuat diuersi numina regni</l>
                <l n="3.234">
-            <sic>Ingenteisque</sic> deos acri coiisse duello.</l>
+                  <sic>Ingenteisque</sic> deos acri coiisse duello.</l>
                <l n="3.235">Postquam autem rapido procursu comminus armis</l>
                <l n="3.236">Inuadunt Martem, crebris sonat ictibus omnis</l>
                <l n="3.237">Tartarus et tonitru longe domus alta remugit.</l>
@@ -1520,7 +1449,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="3.268">Taurum linquat humi saeuumque assurgat in hostem;</l>
                <l n="3.269">Hic, ut tanta lues antro discedat opaco,</l>
                <l n="3.270">
-            <sic>Obiicit</sic> atque alium taurum. Sic <sic>Thaesea</sic> forti</l>
+                  <sic>Obiicit</sic> atque alium taurum. Sic <sic>Thaesea</sic> forti</l>
                <l n="3.271">Amphitryoniadae pro munere tradidit Orcus.</l>
                <l n="3.272">Tum specus horrendum et fauces <sic>Phlegetontis</sic> anheli</l>
                <l n="3.273">Victor adit spoliis et munere laetus Auerni,</l>
@@ -1589,7 +1518,7 @@ LEONI X PONT. MAX. DICATVM LIBER SECVNDVS: THALIA</head>
                <l n="3.336">Aeripedem ceruam, taurum, Stymphalidas, hortos</l>
                <l n="3.337">Hesperidum: "Tu terrigenas, inuicte, Gigantes</l>
                <l n="3.338">
-            <sic>Deiicis</sic>, euertis Troiam, tu Albionas imbre</l>
+                  <sic>Deiicis</sic>, euertis Troiam, tu Albionas imbre</l>
                <l n="3.339">Ad Rhodani ripas sternis Nessumque latronemque</l>
                <l n="3.340">Acer Auentinum, tu templa Lacinia condis.</l>
                <l n="3.341">Te quoque labentem mundum superosque tenentem</l>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="rogacic-b-euthym">
@@ -37,7 +38,6 @@
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <biblStruct>
                <monogr>
-                  
                   <author>
                      <ref target="rogac01">Rogačić, Benedikt</ref>
                   </author>
@@ -51,8 +51,8 @@
                   </imprint>
                   <extent>/24/ + 282 + /2/ pag. ; 8o</extent>
                </monogr>
-               <idno type="other">Xb * Jurić. Scriptores * III * Jurić.
-                  Scriptores</idno>
+               <note type="other">Xb * Jurić. Scriptores * III * Jurić.
+                  Scriptores</note>
                <relatedItem type="primjerak">
                   <ref type="signatura">NSK Zagreb RIIF-8o-1550</ref>
                </relatedItem>
@@ -62,85 +62,9 @@
                <relatedItem type="digital">
                   <ref type="gbs" target="BELB5a19ghYC">GBS 2</ref>
                </relatedItem>
-               
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="63"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="152"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="closer" occurs="4"/>
-          <tagUsage gi="corr" occurs="14"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="9"/>
-          <tagUsage gi="dateline" occurs="2"/>
-          <tagUsage gi="div" occurs="19"/>
-          <tagUsage gi="docImprint" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="emph" occurs="2"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="expan" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="2"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="17"/>
-          <tagUsage gi="idno" occurs="1"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="item" occurs="321"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="8219"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="list" occurs="6"/>
-          <tagUsage gi="milestone" occurs="232"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="131" withId="131"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="57"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="301"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="q" occurs="15"/>
-          <tagUsage gi="ref" occurs="137"/>
-          <tagUsage gi="relatedItem" occurs="3"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="28"/>
-          <tagUsage gi="signed" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="65"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="8"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -225,7 +149,6 @@
             </closer>
          </div>
          <div type="prosa-paratextus-imprimatur">
-            
             <pb/>
             <p>Volumen, cui titulus, <q>EVTHYMIA, siue de Tranquillitate animi</q>, in sex, quibus conflatur, hexametrorum libris continet laudabilem vtilis, dulcisque mixturam; vnde possit, quisquis oculos adijciat, se se componere ad omnem apathiam, non Stoicam, sed Christianam. Etenim expletur hic illud iambici Graecorum senarij:
                <q xml:lang="grc">Ψυχῆς νοσούσης εἴσιν ἰατροὶ στίχοι,</q>
@@ -292,13 +215,13 @@
                <!-- [Pavl] -->
             natiuâ utriusque facultatis dulcedine.</p>
             <p>Quae cum ego persuasissima haberem, cumque in illustrium Poetarum lectitandis carminibus, si quis fortè de moribus locus splendidè, actuosèque tractatus occurreret, non secus a Phalereus ille Apollodorus <ref>[1]</ref>
-               <note xml:id="ftn7" place="foot" n="7"> 
+               <note xml:id="ftn7" place="foot" n="7">
                   <bibl>Plato in Conu.</bibl>
                </note> inter Socraticos audiendos sermones, extolli mihi animum, dulcique quodam quasi stupore, et generosâ voluptate compleri experirer; pro certo constitui, non posse me Musis cum ampliori tum earum dignitate, tum Lectorum approbatione operari quàm aliquo id genus argumento ad canendum suscepto.</p>
             <p>Neque longa illius in delectu ambigentem consultatio detinuit. Statim, quippe Democriti EVTHYMIA, siue, vt Seneca <ref>[2]</ref>
-               <note xml:id="ftn8" place="foot" n="8"> 
+               <note xml:id="ftn8" place="foot" n="8">
                   <bibl>Laert. in Vita Dem. Senec. <abbr>cap</abbr>. 2. de Tranq.</bibl>
-               </note> 
+               </note>
                <corr resp="#NJ">interpretatur</corr>, Tranquillitas animi, solido intra <sic>semetipsum</sic> gaudio, et securâ quiete compositi, ante oculos fulsit, eximiaeque suae pulchritudinis imperiosissimâ vi stylum ad se totum, atque mentem conuertit? Quid enim illâ humanis in rebus nobilius, <pb/>
             quae perfectâ ex sapientiâ, ac virtute, quidam veluti earum splendor, erumpit? Quid cordi suavius, perpetuis cuius votis, et studiis, tanquam, optatissimus finis, proponitur? Quid denique seu descriptionum illustrium, seu grandium sententiarum, seu affectuum quà lenium, totiusque adeo poetici cultùs capacius: cum omnem penè vniuersam, quae de moribus, vitijsque, ac virtutibus agit, Philosophorum doctrinam suo, quàm latissime patens, includat amplexu?</p>
             <p>Illius igitur comprehendendae rationem aggressus describere, duobus animaduerti totam cardinibus niti: altero, vt Mala, queis animus discruciatur, prohibeat; altero, vt Bonis, quibus idem acquiescit, circumfluat: meamque, proinde in eo curam, omnem versari oportere, vt quo facillimè pacto tum illa propulsari; tum haec obtineri possint, ostenderem.</p>
@@ -321,21 +244,21 @@
                      <abbr>Art. Poet.</abbr>
                   </bibl>
                </note>Horatius excusat) <q>Fas est obrepere somnum</q>. Quin ipsemet, praeter alia, quae imprudenti vitiosa, et minùs absoluta excidere, pluribus mihi in locis displiceo: quae tamen in melius recudere siue per ingenij tenuitatem; siue (vt mihi interdum subblandior) per contumaciam et difficultatem materiae non licuit. Neque verò eiusdem retentandi, quoad melior responderet successus, conaminis, et emendationis vlteriùs protrahendae mens deerat. <sic>Sedenim</sic> tum accisae corporis vires improbum, ne dicam infinitum, deprecabantur laborem; tum Apellis deterrebar iudicio <pb/>
-            qui Protogenem in caeteris sibi omnibus vel aequans, vel etiam anteferens, hoc <q>Vno se praestare affirmauit, quòd manum ille de tabulâ nesciret tollere: memorabili</q> (vt subdit <ref>[1]</ref> 
-               <note xml:id="ftn10" place="end" n="ii"> 
+            qui Protogenem in caeteris sibi omnibus vel aequans, vel etiam anteferens, hoc <q>Vno se praestare affirmauit, quòd manum ille de tabulâ nesciret tollere: memorabili</q> (vt subdit <ref>[1]</ref>
+               <note xml:id="ftn10" place="end" n="ii">
                   <bibl>Lib. 35. Hist. Nat. <abbr>cap</abbr>. 10.</bibl>
                </note> Plinius) <q>praecepto, nocere saepe nimiam diligentiam</q>: dum simplicitatis videlicet gratiam curae anxietate corrumpit. <sic>Praeterquamquod</sic> cum Philosophi, quam argumentum mihi imposuit, personâ non admodum videbatur congruere, si adeo solicitus, et insatiabilis forem circa vocularum delectum, numerorum iuncturas, idque genus scitamenta, et minutas concinnitates, quibus styli vsquequaque tersi et exacti cultus absoluitur: eam fortasse apud aequos censores, dum nullum emendandi finem facio, pusillae humilisque subiturus reprehensionem solertiae, qua Isocratem à Plutarcho <ref>[2]</ref>
-               <note xml:id="ftn11" place="end" n="iii"> 
+               <note xml:id="ftn11" place="end" n="iii">
                   <bibl>De Athen. praest.</bibl>
-               </note> 
+               </note>
                <corr resp="#NJ">suggillatum</corr> reperio, quòd nimirum antitheta, isocola, similiterque desinentia conglutinans, et tantùm non dolabris verborum circuitiones complanans ac laevigans, tres penè Olympiadas in Panegyricâ pertexendâ oratione insumpsisset, quanto Pericles tempore Propylaea atque <sic>Hecatompedum</sic> struxerat. His igitur alijsque de causis persuaderi mihi tandem sum passus, ne limam hìc diutiùs contererem, praesertim cum aliqua (vtinam non <sic>Suffeniana</sic>) spes affulgeret, quae vlteriorem operis polituram exigerent, menda, non vsque eò vel crebra superesse, vel turpia, vt nullam à publicâ humanitate exorare possent veniam Scriptori, qui, facilibus alijs, et benignioris ad ingenium excitandum materiae argumentis posthabitis, in minùs aperto, nec perinde tractabili suam operam atque industriam vexauerit, Lectorum vt animis non otiosae voluptatis fructum produceret.</p>
             <p>Et haec sanè de ijs dicta sint erratis ac mendis, quae vel suam <sic>inficiari</sic> prauitatem non audent; vel difficilem certè, et parùm idoneam defensionem recipiunt. Nam <sic>caeteroqui</sic>, cum virtus quaecunque, ceu viuendi, sic etiam scribendi, vitiorum in medio versetur: cumque id Medium, vtpote per incertam latitudinem pertinens, non modò tenere difficile sit <ref>[1]</ref>
                <note xml:id="ftn12" place="end" n="iv"> Vide <bibl>Arist. Ethic. lib. 2. <abbr>cap</abbr>. 9.</bibl>
                </note>, verùm etiam cognoscere; permulta passim in Authorum <pb/>
             monumentis se offerunt, quae, quamvis priuato huius, vel alterius Lectoris circa Medium iudicio aduersentur; nullâ tamen receptâ communique artis lege ad vitij fines pertinere euincantur: quaeque adeo statim crimini dare minùs considerati, sibique plùs nimiò tribuentis, ne dicam temerarii et inhumani iudicis sit: quasi verò rationis auspicium atque tramitem deserat, ab illius qui sententiâ recesserit: nec, quo vni improbatur, possit alijs compluribus, et fortasse etiam iustiùs, non modò extra culpam, sed <corr resp="#NJ">vel in</corr> laude ponendum videri. Sic (vt aliquo rem exemplo declarem) eadem amplificatio alteri quia latè fusa, odiosam inanemque <sic>Battologiam</sic> sapiet; alteri vel eâ ipsâ de causâ cum ad explicandam rem luculentior, tum ad animis imprimendam validior censebitur. Idem versus hunc offendet, ceù simplex, et facilis, naturali candore oblectabit: quodque alij pro ambitioso luxu veriùs, quàm ornatu fastidiunt, non deerunt qui splendidum, <expan resp="#NJ">atque</expan> elegans, et magnificum praedicent. Vnde illud Venusini Poetae, <ref>[1]</ref>
-               <note xml:id="ftn13" place="foot" n="9"> 
+               <note xml:id="ftn13" place="foot" n="9">
                   <bibl>Lib. 2. Epist. 3</bibl>
-               </note> 
+               </note>
             </p>
             <pb/>
             <q>
@@ -343,23 +266,22 @@
                <l>Quod petis, id sanè est inuisum acidumque duobus.</l>
             </q>
             <p>Haec igitur cum ita se habeant; id mihi tum in communem omnium rem apprimè opportunum; tum aequitati maximè consentaneum videtur; vt nihil, nostro quamvis à gustu alienum, huius, vel illius vitij palàm damnemus; nisi iusta certique ponderis ad manum sit ratio, qui tristem affirmare sententiam possimus: sed ita sui quisque inductionem animi, et quam sibi normam scribendi proposuit, sequatur; vt ne vnicam et communem esse omnium legem literariâ in Republicâ velit: duo sibi in huiusmodi incertis tanquam certa persuadens: alterum, nequaquam factu impossibile esse, vt in germanâ ipse, Optimi notione informandâ à Vero aberrauerit: alterum, vt vt rectam artis institerit viam; non tamen, quidquid à recto diuersum sit tramite, prauum etiam continuò censeri oportere: cum (quemadmodum consultissimus dicendi magister Tullius <ref>[1]</ref>
-               <note xml:id="ftn14" place="foot" n="10"> 
+               <note xml:id="ftn14" place="foot" n="10">
                   <bibl>Lib. 3. de Orat. <abbr>cap</abbr>. 3.</bibl>
                </note> obseruatum reliquit) multa in quouis naturae genere <pb/> dissimilia inter se sint, quae consimili tamen laude dignentur, multique, diuersam à praestantissimis artificibus eâdem in arte rationem <sic>sequuti</sic>, parem ijs commendationem et famam hac ipsâ diuersitate retulerint. Quae iudicandi moderatio quamvis ab omnibus, ergaque omnes tenenda communiter sit; proprio et peculiari tamen iure tum ab illis exigitur, quos in literario etiamnum tyrocinio studiorum immaturitas cohibet; tum erga illos, qui in artibus non exercendis duntaxat, verùm etiam tradendis legitima emeruerunt stipendia: quique nec ingenio nimiùm confisi, nec de extemporalis facundiae gloriâ soliciti, sed vnam potiùs in operis <sic>apsolutionem</sic> intenti, diutinâ incude, ac pluries repetito limae morsu sua scripta consueuerunt torquere: adeo ut non temere, quidquid primum se <sic>obijceret</sic>, arripuisse, sed maturo, certoque consilij circumspectu hanc, vel illam dicendi formam delegisse iure possint videri.</p>
             <p>Haec habui, Lector beneuole, quae in primo mei operis quasi vestibulo de illius tum materiâ, tum formâ tecum communicanda arbjtrarer: operis, inquam <pb/> mei: licet dissimulare ingenuus me pudor non sinat, aliquid ex illius supellectile Authoribus alijs, vt Senecae, Virginio Caesarino, Eusebio Nierembergio, ac Sfortiae Pallauicino deberi: à quibus cum nonnulla in rem meam se se vltro offerentia mutuatus sim; ne iniquus fur potiùs quàm debitor gratus existimer; signatis publicè tabulis hoc illis iam nomen profiteor. Caeterum, si in ijs, quae affero, exemplis, praesertim vbi personis sermo tribuitur, aut res per adiuncta illustratur, ab religiosâ et seuerâ narrationis historicae fide nonnunquam deflexi; dabis hanc, opinor, non grauatè Scriptori carminum veniam, liquidiorem Veri notitiam, quandocunque res, aut animus tulerit, ex Authoribus petiturus, quorum ibidem nomina, et loca cum fide redduntur. Reliquum est, vt, quibus verbis Bilbilitanus Poeta ab inanibus Graecarum fabularum portentis ad sua perlegenda epigrammata, communis vbi vitae, humanorumque morum imago adumbretur, Romanos conatur traducere; ijsdem te ego ad Euthymiae nostrae <ref>[1]</ref>
-               <note xml:id="ftn15" place="foot" n="11"> 
+               <note xml:id="ftn15" place="foot" n="11">
                   <bibl>Lib. 10.  ep. 4.</bibl>
                </note> lectionem inuitem, cumque illo, et, quàm <pb/>  ille, adhuc justiùs proclamem <ref>(a)</ref>
-               <note xml:id="ftn16" place="foot" n="12"> 
+               <note xml:id="ftn16" place="foot" n="12">
                   <bibl>Lib. 10. Epigr. 4.</bibl>
-               </note> 
+               </note>
                <q>Hoc lege, quod possis dicere jure, Meum est. </q>Atque utinam, quae hisce continetur libellis, Tranquillitas animi, non jure <sic>solummmodo</sic>, sed usu etiam fructuque, tua sit. Quod ego praestantissimum munus cumulate tibi, et ad plenum contingere, ex animo cupio: summum <emph>Patrem luminum </emph>orans, <emph>à quo omne datum optimum, et omne donum perfectum descendit, </emph>ut meis, irritis <sic>caeteroqui</sic>, sine suo afflatu, et interiori magisterio, futuris, conatibus propitius aspiret: teque adeo, et genus mortale universum quàm certissimo tramite (nec ullus profectò, ut extrema pars operis luculenter demonstrat, ipsius contemplatione, et amore usquam certior occurrit) exoptatam ad itinerum metam, perfectissimaeque Tranquillitatis Complexum deducat. Vale.</p>
          </div>
       </front>
       <body>
          
- <!-- dovde spellcheck -->        
-         
+ <!-- dovde spellcheck -->
          <div n="1" type="poesis-liber">
             <pb n="1"/>
             <head>EUTHYMIAE SIVE DE TRANQUILLITATE ANIMI Liber Primus</head>
@@ -399,8 +321,8 @@
             <l n="1.31">Sis Helice, RATIO: haud qualis, contagia primi</l>
             <l n="1.32">Post sceleris, diro maciem inspirante veneno,</l>
             <l n="1.33">Tabueras, lapsi vix agnoscenda Decoris:</l>
-               <l n="1.34">Sed qualem, iubare aeterno immutabilis Aequi</l>
-               <l n="1.35">Incoctam potiùs caelestique indole plenam </l>
+            <l n="1.34">Sed qualem, iubare aeterno immutabilis Aequi</l>
+            <l n="1.35">Incoctam potiùs caelestique indole plenam </l>
             <l n="1.36">Mentibus aethereus Pater indidit, et modò qualem</l>
             <l n="1.37">Aetherei soboles caelo delapsa Parentis</l>
             <l n="1.38">Antiquam in speciem, ingenuumque; refinxit honorem.</l>
@@ -514,8 +436,8 @@
             <l n="1.138">Multa gemens, sortemque hominum, inuidiamque Deorum</l>
             <l n="1.139">Increpitans, Mundo imperium quòd terminet vno.</l>
             <milestone unit="para" n="8"/>
-            <l n="1.140">8. Tene ego, magnorum regnator maxime regum<note xml:id="ftn17" place="foot" n="13"> 
-                  <bibl>Iuvenal. Sat. 10.</bibl> 
+            <l n="1.140">8. Tene ego, magnorum regnator maxime regum<note xml:id="ftn17" place="foot" n="13">
+                  <bibl>Iuvenal. Sat. 10.</bibl>
                   <bibl>Valer. Max. lib. 8. <abbr>cap</abbr>. 15.</bibl>
                </note>,</l>
             <l n="1.141">Tristia sollicito laxantem pectora questu</l>
@@ -804,7 +726,7 @@
             <l n="1.410">Vlteriùs iam iam fugitiua abscedere sentis,</l>
             <l n="1.411">Perpetuos fructus, mansuraque gaudia ducas.</l>
             <l n="1.412">Haud malè Spartanus, vulgi clamore secundo <ref>(a)</ref>
-               <note xml:id="ftn18" place="foot" n="14"> (2) <bibl>Plut. Apopht. Lacon.</bibl>  
+               <note xml:id="ftn18" place="foot" n="14"> (2) <bibl>Plut. Apopht. Lacon.</bibl>
                   <bibl>Cic. 5. Tuscul.</bibl>
                </note>
             </l>
@@ -1025,7 +947,7 @@
             <milestone unit="para" n="21"/>
             <l n="1.613">21. Talis erat (veteri Sophiae producere talem</l>
             <l n="1.614">Si licuit) Cynicus versatilis incola tecti: <ref>(a)</ref>
-               <note xml:id="ftn20" place="foot" n="16"> (a) <bibl>Laert. lib. 6.</bibl> 
+               <note xml:id="ftn20" place="foot" n="16"> (a) <bibl>Laert. lib. 6.</bibl>
                   <bibl>Cic. 5. Tusc.</bibl>
                </note>
             </l>
@@ -1492,8 +1414,8 @@
             <l n="1.1035">Vnus ait: quo pomorum circumflua luxu?</l>
             <l n="1.1036">Si faciles propiùs ramos demitteret aut si</l>
             <l n="1.1037">Nos quoque finxissent Neptunia semina, quantos</l>
-            <l n="1.1038">Nuper, Aloidas, caelo capita alta ferentes, <ref>(a)</ref> 
-               <note xml:id="ftn24" place="foot" n="20"> 
+            <l n="1.1038">Nuper, Aloidas, caelo capita alta ferentes, <ref>(a)</ref>
+               <note xml:id="ftn24" place="foot" n="20">
                   <bibl>Homer. Odys. lib. II.</bibl>
                </note>
             </l>
@@ -1796,7 +1718,6 @@
             <l n="1.1321">Intra animum nasci voluit Deus, esse beatos</l>
             <l n="1.1322">Quî liceat. Votis longè contrarius errat</l>
             <l n="1.1323">Deserto qui sese, alibi sua gaudia quaerit. </l>
-            
          </div>
          <div n="2" type="poesis-liber">
             <pb n="38"/>
@@ -1866,8 +1787,8 @@
             <l n="2.60">Compositis virtute animis tormenta nocere.</l>
             <milestone unit="para" n="3"/>
             <l n="2.61">3. Non tamen hìc ideo (quantumlibet illa repostos</l>
-            <l n="2.62">Iactitet arcani tripodas sententia Veri) <ref>(a)</ref> 
-               <note xml:id="ftn25" place="foot" n="21"> (a) Vide <bibl>Epict. <abbr>cap</abbr>. 8.</bibl> 
+            <l n="2.62">Iactitet arcani tripodas sententia Veri) <ref>(a)</ref>
+               <note xml:id="ftn25" place="foot" n="21"> (a) Vide <bibl>Epict. <abbr>cap</abbr>. 8.</bibl>
                   <bibl>Sen. ep. 24. et 78.</bibl>
                </note>
             </l>
@@ -1911,8 +1832,8 @@
                    (a) <bibl>Plut. in vita Phoc.</bibl>
                </note>
             </l>
-            <l n="2.96">Dyrceusque Crates etiam quaesiuit; vt alter <ref>(b)</ref> 
-               <note xml:id="ftn27" place="foot" n="23"> 
+            <l n="2.96">Dyrceusque Crates etiam quaesiuit; vt alter <ref>(b)</ref>
+               <note xml:id="ftn27" place="foot" n="23">
                   <bibl>Laert. in vita Crat.</bibl>
                </note>
             </l>
@@ -1936,8 +1857,8 @@
             <l n="2.109">Ferales amplexa rogos, vnoque cremari</l>
             <l n="2.110">Igne velit. Frustra comites solantia verba</l>
             <l n="2.111">Ingeminant: nulla est tanto medicina dolori.</l>
-            <l n="2.112">Quid Xenophon? Carae sobolis damnatus acerbo <ref>(b)</ref> 
-               <note xml:id="ftn29" place="foot" n="25"> 
+            <l n="2.112">Quid Xenophon? Carae sobolis damnatus acerbo <ref>(b)</ref>
+               <note xml:id="ftn29" place="foot" n="25">
                   <bibl>Laert. in vita Xenoph.</bibl>
                </note>
             </l>
@@ -1945,7 +1866,7 @@
             <l n="2.114">Nil mirum repetens, mortalia cedere morti.</l>
             <l n="2.115">Luminis orbus erat Cyclops, fraudatus eodem</l>
             <l n="2.116">Munere Tiresias. Par vulnus vtrique, sed idem</l>
-            <l n="2.117">Non vtrique animus. Lucis securus ademptae <ref>(c)</ref> 
+            <l n="2.117">Non vtrique animus. Lucis securus ademptae <ref>(c)</ref>
                <note xml:id="ftn30" place="foot" n="26">
                    Vide <bibl>Cic. 5. Tuscul.</bibl>
                </note>
@@ -2009,10 +1930,10 @@
             <l n="2.168">Hinc videas; metues: contempseris ocyùs illinc.</l>
             <l n="2.169">Spectabant eadem Sophiae duo lumina priscae, </l>
             <pb n="43"/>
-            <l n="2.170">Abderitanus Sapiens, ciuisque Dianae <ref>(a)</ref> 
+            <l n="2.170">Abderitanus Sapiens, ciuisque Dianae <ref>(a)</ref>
                <note xml:id="ftn32" place="foot" n="28">
                    (a) <bibl>Iuuenal. Sat. 10. de Demort. et Heracl. Ephesio.</bibl>
-                   <bibl>Lucian. in Auctione Vitarum.</bibl>
+                  <bibl>Lucian. in Auctione Vitarum.</bibl>
                </note>
             </l>
             <l n="2.171">Heraclitus, at oppositis e partibus. Ergo</l>
@@ -2086,13 +2007,13 @@
             <l n="2.236">Aeacus ipse, sibi statuet. Quid scilicet vrgens</l>
             <l n="2.237">Tantaleum caput, et iamiam voluenda, ruentique <ref>(a)</ref>
                <note xml:id="ftn33" place="foot" n="29">
-                   <bibl>Lucr. lib. 3.</bibl>
+                  <bibl>Lucr. lib. 3.</bibl>
                </note>
             </l>
             <l n="2.238">Assiduè similis cautes designat: anhelam</l>
-            <l n="2.239">Quidve famem importuna epulis genialibus arcens <ref>(b)</ref> 
+            <l n="2.239">Quidve famem importuna epulis genialibus arcens <ref>(b)</ref>
                <note xml:id="ftn34" place="foot" n="30"> (b) Vide <bibl>Virgil. lib. 6.</bibl>
-               </note> 
+               </note>
             </l>
             <pb n="45"/>
             <l n="2.240">Tisiphone? Nisi, Stultorum qui pectora turbant,</l>
@@ -2453,7 +2374,7 @@
             <l n="2.573">Immineant? Quid? si fuluus Iovis armiger, alto</l>
             <l n="2.574">Rapta ferens caelo testudinis ossea terga,</l>
             <l n="2.575">Vnguibus e curuis subiecta in tempora durum</l>
-            <l n="2.576">Excutiat pondus? Tali an non Aeschylus ictu <ref>(a)</ref> 
+            <l n="2.576">Excutiat pondus? Tali an non Aeschylus ictu <ref>(a)</ref>
                <note xml:id="ftn35" place="foot" n="31"> (a) <bibl>Plin. lib. 10. Hist. Nat. <abbr>cap</abbr>. 3.</bibl> et <bibl>Val. Max. lib. 9. <abbr>cap</abbr>. 12.</bibl>
                </note>
             </l>
@@ -2476,7 +2397,7 @@
             <l n="2.592">In medio Volucres? interrogat: vtque coturnix</l>
             <l n="2.593">Reddita; An ex nihilo fuerat, quod praescius, inquit,</l>
             <l n="2.594">Extimui? Quem nempe fugit, genus hocce Volantûm</l>
-            <l n="2.595">Lethifero solitum veratri semine pasci? <ref>(b)</ref> 
+            <l n="2.595">Lethifero solitum veratri semine pasci? <ref>(b)</ref>
                <note xml:id="ftn36" place="foot" n="32"> (b) <bibl>Plin. lib. 10. Histor. Nat. <abbr>cap</abbr>. 23.</bibl> et <bibl>Lucr. lib. 4.</bibl>
                </note>
             </l>
@@ -2845,7 +2766,7 @@
             <l n="2.927">Tutius. Instantem dum vulneris vnius ictum</l>
             <l n="2.928">Effugias; praestat vel non metuenda cauere.</l>
             <l n="2.929">Nil ideo armorum ductori foedius inter</l>
-            <l n="2.930">Bellica, dicebat Fabius, discrimina, quâm si, <ref>(b)</ref> 
+            <l n="2.930">Bellica, dicebat Fabius, discrimina, quâm si, <ref>(b)</ref>
                <note xml:id="ftn39" place="foot" n="35"> (b) <bibl>Sen. lib. 2. de ira <abbr>cap</abbr>. 31.</bibl>
                </note>
             </l>
@@ -2899,7 +2820,7 @@
             <l n="2.973">40. Sed iuuat hìc ipsam rationem euertere, casus </l>
             <pb n="65"/>
             <l n="2.974">Qua dubios reputare vetat Gargettius author.</l>
-            <l n="2.975">Nempe quòd inuisos haec tantùm cura dolores <ref>(a)</ref> 
+            <l n="2.975">Nempe quòd inuisos haec tantùm cura dolores <ref>(a)</ref>
                <note xml:id="ftn41" place="foot" n="37">(a) Vide <bibl>Cic. 3. Tuscul.</bibl>
                </note>
             </l>
@@ -2980,7 +2901,7 @@
             <l n="2.1042">Euentis trepidare, hilarem quae cognita risum</l>
             <l n="2.1043">Elicerent. Talis iocus ille, exterrita quondam</l>
             <l n="2.1044">Regalis cruciasse epuli quo gaudia fertur <ref>(a)</ref>
-               <note xml:id="ftn43" place="foot" n="39"> (a) Vide <bibl>Lamprid. in Vita Heliogab.</bibl> quem vltimum dicit Antoninorum Caesarum fuisse.</note> 
+               <note xml:id="ftn43" place="foot" n="39"> (a) Vide <bibl>Lamprid. in Vita Heliogab.</bibl> quem vltimum dicit Antoninorum Caesarum fuisse.</note>
             </l>
             <pb n="67"/>
             <l n="2.1045">(Vsque adeo infandis iocus est saeuire tyrannis)</l>
@@ -3015,7 +2936,7 @@
             <l n="2.1073">Attonitas vrbes, vulgique trementia corda</l>
             <l n="2.1074">Saepe repentinis rumoribus externantem.</l>
             <l n="2.1075">Qualis in armiferâ Rheni statione Quiritûm</l>
-            <l n="2.1076">Implicuit turmas, vinclis cum fortè solutis, <ref>(a)</ref> 
+            <l n="2.1076">Implicuit turmas, vinclis cum fortè solutis, <ref>(a)</ref>
                <note xml:id="ftn44" place="foot" n="40"> (a) <bibl>Tacit. lib. I. Annal. <abbr>cap</abbr>. 66.</bibl>
                </note>
             </l>
@@ -3074,8 +2995,8 @@
             <l n="2.1125">47. Praeterea, veluti, dum crebriùs aspera versat,</l>
             <l n="2.1126">Callosam longo paulatim contrahit vsu</l>
             <l n="2.1127">Duritiem cutis, infestos quae respuat ictus:</l>
-            <l n="2.1128">Vtque ferunt hausto Mithridatem saepe veneno <ref>(a)</ref> 
-               <note xml:id="ftn45" place="foot" n="41"> 
+            <l n="2.1128">Vtque ferunt hausto Mithridatem saepe veneno <ref>(a)</ref>
+               <note xml:id="ftn45" place="foot" n="41">
                   <bibl>Mart. ep. 77. lib. 5.</bibl> Vide et <bibl>Plin. lib. 25. Hist. Nat. <abbr>cap</abbr>. 2.</bibl>
                </note>
             </l>
@@ -3140,7 +3061,7 @@
             </l>
             <l n="2.1182">Longinquos tentare ignota per aequora cursus;</l>
             <l n="2.1183">Ancipitum quoscunque habitus formasque locorum</l>
-            <l n="2.1184">Consuêvisse acri, memorant, percurrere visu: <ref>(b)</ref> 
+            <l n="2.1184">Consuêvisse acri, memorant, percurrere visu: <ref>(b)</ref>
                <note xml:id="ftn47" place="foot" n="43"> (b) <bibl>Liu. lib. 35.</bibl>
                </note>
             </l>
@@ -3189,7 +3110,6 @@
             <l n="2.1224">Cursus eget. Fessis nunc respirare Camoenis,</l>
             <l n="2.1225">Perque tot exhaustos dudum salebrosa viarum</l>
             <l n="2.1226">Soluere ab emerito liceat temone Iugales. </l>
-            
          </div>
          <div n="3" type="poesis-liber">
             <pb n="72"/>
@@ -3207,8 +3127,8 @@
             <l n="3.10">Auxilium? Nusquam Fortunae vulnera praesens</l>
             <l n="3.11">Dictamnus lenire, melampodiumque, pyrethrumque,</l>
             <l n="3.12">Et maluae, et tamarix, Aeaeaque pharmaca contra</l>
-            <l n="3.13">Moly laborifero fidum tutamen Vlyssi, <ref>(a)</ref> 
-               <note xml:id="ftn48" place="foot" n="44"> 
+            <l n="3.13">Moly laborifero fidum tutamen Vlyssi, <ref>(a)</ref>
+               <note xml:id="ftn48" place="foot" n="44">
                   <bibl>Homer. Odys. lib. 10.</bibl>
                </note>
             </l>
@@ -3251,7 +3171,7 @@
             <l n="3.49">Errantem procul, et naturae arcana mouentem.</l>
             <l n="3.50">Primus ab immensâ longarum ambage viarum</l>
             <l n="3.51">Sophronisciades mediae in commercia vitae <ref>(a)</ref>
-               <note xml:id="ftn49" place="foot" n="45"> 
+               <note xml:id="ftn49" place="foot" n="45">
                   <bibl>Cic. pr. Academ. Quaest.</bibl> et <bibl>5. Tuscul.</bibl> et <bibl>Laert. in Vita Socratis.</bibl>
                </note>
             </l>
@@ -3337,7 +3257,7 @@
             <l n="3.126">Vndique certa sui conquirens pharmaca morbi.</l>
             <l n="3.127">Sic opifex docuit gaudendi Epicurus, et idem</l>
             <l n="3.128">His primum instituit se legibus. Vltima testis, <ref>(a)</ref>
-               <note xml:id="ftn50" place="foot" n="46"> 
+               <note xml:id="ftn50" place="foot" n="46">
                   <bibl>Laert. In Vita Epicur.</bibl>
                </note>
             </l>
@@ -3592,7 +3512,7 @@
             <l n="3.364">Ipsa etiam summi imperia excussere Tonantis?</l>
             <l n="3.365">Iuratur facinus, dirum, intestabile, vecors,</l>
             <l n="3.366">Horrendum facinus, quod toto non pater aluêo</l>
-            <l n="3.367">Effusus Tamesis, non Naupactei Acheloi <ref>(a)</ref> 
+            <l n="3.367">Effusus Tamesis, non Naupactei Acheloi <ref>(a)</ref>
                <note xml:id="ftn51" place="foot" n="47"> Vide <bibl>Ouid. lib. 2. Fast. sub initium.</bibl>
                </note>
             </l>
@@ -3768,7 +3688,7 @@
             <l n="3.525">Palmarum segetem, vrbanae (quis crederet?) ipso</l>
             <l n="3.526">Pacis in amplexu. Sed cur notissima vulgo</l>
             <l n="3.527">Vlteriùs monumenta sequor? Tu Graecia profer,</l>
-            <l n="3.528">Tu potiùs Samij fatum lugubre tyranni. <ref>(b)</ref> 
+            <l n="3.528">Tu potiùs Samij fatum lugubre tyranni. <ref>(b)</ref>
                <note xml:id="ftn54" place="foot" n="50"> (b) <bibl>Val. Max. lib. 6. <abbr>cap</abbr>. 11.</bibl> et <bibl>Herod. lib. 3. de Polycrate.</bibl>
                </note>
             </l>
@@ -3834,7 +3754,7 @@
             <l n="3.584">Assignanda foret. Quòd si, post talia, fatis</l>
             <l n="3.585">Inuisum te pergis, et vltima dicere passum;</l>
             <l n="3.586">Hac querulum iusti scitâ ratione Solonis <ref>(a)</ref>
-               <note xml:id="ftn55" place="foot" n="51"> (a) <bibl>Val. Max. lib. 7. <abbr>cap</abbr>. 2.</bibl> 
+               <note xml:id="ftn55" place="foot" n="51"> (a) <bibl>Val. Max. lib. 7. <abbr>cap</abbr>. 2.</bibl>
                </note>
             </l>
             <l n="3.587">Compellare iuuat. Summus, fac, rector olympi</l>
@@ -4013,7 +3933,7 @@
             <l n="3.753">Vix cutis exiguo districtus acumine, rumpis</l>
             <l n="3.754">Clamorem, quantum neque Stentoris illa, laesus</l>
             <l n="3.755">Nec Diomedeâ Gradiuus Homericus hastâ: <ref>[a]</ref>
-               <note xml:id="ftn56" place="foot" n="52"> 
+               <note xml:id="ftn56" place="foot" n="52">
                   <bibl>Homer. II. lib. 5.</bibl>
                </note>
             </l>
@@ -4086,8 +4006,8 @@
             <l n="3.820">De reliquis: nulli veteris iam gratia succi,</l>
             <l n="3.821">Nulli priscus honor formae: defluxerit omnis</l>
             <l n="3.822">Autumnus vitio pariter confectus eodem?</l>
-            <l n="3.823">Fusus ab Hetrusco Dux Insuber hoste, paratis [a]<note xml:id="ftn57" place="foot" n="53"> 
-                  <bibl>Nierem. de Arte volunt. Lib. 6. <abbr>Cap</abbr>. 45.</bibl> 
+            <l n="3.823">Fusus ab Hetrusco Dux Insuber hoste, paratis [a]<note xml:id="ftn57" place="foot" n="53">
+                  <bibl>Nierem. de Arte volunt. Lib. 6. <abbr>Cap</abbr>. 45.</bibl>
                </note>
             </l>
             <l n="3.824">Suàsit vbi iam fera dies accumbere mensis;</l>
@@ -4140,7 +4060,7 @@
             <l n="3.866">In gremium lapsos sortis proiecit amicae?</l>
             <l n="3.867">Hostili medium transactus vulnere pectus </l>
             <l n="3.868">Nil se iam Superis debere Pheraeus Iason <ref>[a]</ref>
-               <note xml:id="ftn59" place="foot" n="55"> 
+               <note xml:id="ftn59" place="foot" n="55">
                   <bibl>Plut. de capienda ex hostibus util.</bibl> et <bibl>Val. lib. I. <abbr>cap</abbr>. 8.</bibl>
                </note>
             </l>
@@ -4158,7 +4078,7 @@
             <l n="3.880">Multa mouens hominum in dubijs solertia rebus</l>
             <l n="3.881">Comperit. Exemplo est aconiti inamabile germen:</l>
             <l n="3.882">Luminibus quo vix aegris praesentius vllum, <ref>[b]</ref>
-               <note xml:id="ftn60" place="foot" n="56"> 
+               <note xml:id="ftn60" place="foot" n="56">
                   <bibl>Plin. lib. 27. <abbr>cap</abbr>. 3.</bibl> Maiores oculorum medicamentis aconitum misceri saluberrime promulgauere: aperta professione, malum quidem nullum esse sine aliquo Bono.</note>
             </l>
             <l n="3.883">Importuna premant liquidos si Nubila visus,</l>
@@ -4166,9 +4086,9 @@
             <l n="3.885">	23. Atque hoc, perspicuâ, Graiae imortale Mineruae</l>
             <l n="3.886">Lumen, Epictetus signavit imagine: rebus</l>
             <l n="3.887">Dum medijs geminas hinc, illinc addidit ansas: <ref>[c]</ref>
-               <note xml:id="ftn61" place="foot" n="57"> 
+               <note xml:id="ftn61" place="foot" n="57">
                   <bibl>
-                     <abbr>Cap</abbr>. 58. Enchir.</bibl> 
+                     <abbr>Cap</abbr>. 58. Enchir.</bibl>
                </note>
             </l>
             <l n="3.888">Dextram vnam, sine fraude licet qua apprendere; laeuá</l>
@@ -4190,7 +4110,7 @@
             <l n="3.903">Fragrantique suas distendant nectare cellas. </l>
             <l n="3.904">	25. Nouerat id Caesar: Libyae squalentis in oras</l>
             <l n="3.905">Aemathiae qui fortunam, et victricia signa <ref>[a]</ref>
-               <note xml:id="ftn62" place="foot" n="58"> 
+               <note xml:id="ftn62" place="foot" n="58">
                   <bibl>Suet. in Vita <abbr>cap</abbr>. 59.</bibl>
                </note>
             </l>
@@ -4199,7 +4119,7 @@
             <l n="3.908">Auspicijs poterat, ni tristem ad prospera casum</l>
             <l n="3.909">Flexisset, Teneo te, clamans, Africa: nostra es.</l>
             <l n="3.910">Nec ducis Oebalij dispar solertia: centum <ref>[b]</ref>
-               <note xml:id="ftn63" place="foot" n="59"> 
+               <note xml:id="ftn63" place="foot" n="59">
                   <bibl>Plut. in Apopht. Lacon. de Leonida.</bibl>
                </note>
             </l>
@@ -4294,13 +4214,12 @@
             <l n="3.997">Nominis aeterni stat nobile Mausoleum:</l>
             <l n="3.998">Ipsae illos calcanda vehunt super astra ruinae.</l>
             <l n="3.999">Verberibus plagisque suae explorasse feruntur</l>
-            <l n="3.1000">Stripis Amyclidae ingenium, qui fortiter ictus <ref>[a]</ref> 
+            <l n="3.1000">Stripis Amyclidae ingenium, qui fortiter ictus <ref>[a]</ref>
                <note xml:id="ftn64a" place="foot" n="60">
                    [a]Vide <bibl>Plut. de Instit. Lacon.</bibl> ubi, licet experimenti mentionem non faciat; magna tamen gloria dicit Pueris fuisse, verbera fortiter excipere. Pueri per integrum diem flagellis caesi, saepe ad mortem vsque apud Dianae Orthiae aram, laeti alacresque tolerant, atque inter se de victoria certant, in eo posita, quis diutius magisque perferat verbera: victoremque summa consequitur gloria. Certamen id flagellatio dicitur, et quotannis habetur.</note>
                <ref>[b]</ref>
-               <note xml:id="ftn64b" place="foot" n="60"> [b] <bibl>Sen, de Provid. c. 4.</bibl> 
+               <note xml:id="ftn64b" place="foot" n="60"> [b] <bibl>Sen, de Provid. c. 4.</bibl>
                </note>
-                
             </l>
             <l n="3.1001">Exciperet puer, hunc patriâ fassi indole dignum.</l>
             <l n="3.1002">Sic et sydereus Genitor per tristia prolis</l>
@@ -4620,7 +4539,7 @@
             <l n="3.1301">Si verum excutias; tenuis plerunque dolere</l>
             <l n="3.1302">Causa iubet: facis ipse grauem nimiamque, dolendo.</l>
             <l n="3.1303">Est in Dalmatiá (Plinî saltem fuit aeuo: <ref>[a]</ref>
-               <note xml:id="ftn67" place="foot" n="63"> 
+               <note xml:id="ftn67" place="foot" n="63">
                   <bibl>Lib. 2. Hist. Nat. <abbr>Cap</abbr>. 45.</bibl>
                </note>
             </l>
@@ -4690,14 +4609,14 @@
             <l n="3.1365">Iam memor ipsa Sui. Quocirca saepiùs aegris</l>
             <l n="3.1366">Auxiliam praesens tulit artubus, inque cubantes</l>
             <l n="3.1367">Depulit arguto modulamine tibia morbos, <ref>[a]</ref>
-               <note xml:id="ftn68" place="foot" n="64"> 
+               <note xml:id="ftn68" place="foot" n="64">
                   <bibl>Gel. lib. 4. <abbr>Cap</abbr>. 13.</bibl>
                </note>
             </l>
             <l n="3.1368">Abderae nisi vana fides: iuuenisque furorem,</l>
             <l n="3.1369">Igne Cupidineo, stimulisque effraenibus acti, <ref>[b]</ref>
-               <note xml:id="ftn69" place="foot" n="65"> 
-                  <bibl>Quintil. lib. I. <abbr>Cap</abbr>. 10.</bibl> 
+               <note xml:id="ftn69" place="foot" n="65">
+                  <bibl>Quintil. lib. I. <abbr>Cap</abbr>. 10.</bibl>
                </note>
             </l>
             <l n="3.1370">Pythagoras medico potuit compescere cantu.</l>
@@ -4715,7 +4634,6 @@
             <l n="3.1382">Monstra cadunt: Phrygij haec mirabilis illa tyranni</l>
             <l n="3.1383">Dextera, felici in pretium quae vertere tactu</l>
             <l n="3.1384">Vel silices, dumosque, ac rerum asperrima nouit.</l>
-            
          </div>
          <div n="4" type="poesis-liber">
             <pb n="111"/>
@@ -4726,7 +4644,7 @@
             <l n="4.4">Marmoreis descripta adytis medicamina Cous.</l>
             <l n="4.5">In memores fertur Senior retulisse tabellas:</l>
             <l n="4.6">Moxque suam, rapido cum debacchata furore <ref>[a]</ref>
-               <note xml:id="ftn70" place="foot" n="66"> Vide <bibl>Plin. lib. 29. Hist. Nat. <abbr>cap</abbr>. I.</bibl> 
+               <note xml:id="ftn70" place="foot" n="66"> Vide <bibl>Plin. lib. 29. Hist. Nat. <abbr>cap</abbr>. I.</bibl>
                </note>
             </l>
             <l n="4.7">Hausisset medicum pestis Vulcania templum, </l>
@@ -4804,7 +4722,7 @@
             <l n="4.77">	5. Pauper es. Ipse vltro tam laetam inuadere sortem</l>
             <l n="4.78">Debueras, Croesum nasci si fata dedissent.</l>
             <l n="4.79">Democriti praeijt sapientia: qui bene multa <ref>[a]</ref>
-               <note xml:id="ftn71" place="foot" n="67"> 
+               <note xml:id="ftn71" place="foot" n="67">
                   <bibl>Val. Max. lib. 8. <abbr>cap</abbr>. 7.</bibl>
                </note>
             </l>
@@ -4826,8 +4744,8 @@
             <milestone unit="para" n="6"/>
             <l n="4.95">6. Pauper es. An solus? Iungendi foederis inter</l>
             <l n="4.96">Romuleos Patres, Plebemque Menenius author <ref>[b]</ref>
-               <note xml:id="ftn72" place="foot" n="68"> 
-                  <bibl>Id. lib. 4. <abbr>cap</abbr>. 4.</bibl> 
+               <note xml:id="ftn72" place="foot" n="68">
+                  <bibl>Id. lib. 4. <abbr>cap</abbr>. 4.</bibl>
                </note>
             </l>
             <l n="4.97">Talis erat: talis summo quaesitus honori,</l>
@@ -4893,7 +4811,7 @@
             <l n="4.155">Mens parit: hanc, duri quaevis iniuria fati</l>
             <l n="4.156">Externas populetur opes, sit cura tueri.</l>
             <l n="4.157">Magnanimi exemplo est virtus Stilponis ab hoste <ref>[a]</ref>
-               <note xml:id="ftn73" place="foot" n="69"> 
+               <note xml:id="ftn73" place="foot" n="69">
                   <bibl>Sen. Epist. 9</bibl> et <bibl>Laert. in eius vita</bibl>. 
                </note>
             </l>
@@ -4919,7 +4837,7 @@
             <l n="4.176">Compositae tibi mentis opes, verissimus Ipse</l>
             <l n="4.177">Fur, rapias. Dic, à seruo fugiente relictus</l>
             <l n="4.178">Quod Cynicus. Iactura leuis: cretatus agaso <ref>[a]</ref>
-               <note xml:id="ftn74" place="foot" n="70"> 
+               <note xml:id="ftn74" place="foot" n="70">
                   <bibl>Laert. in vita Diog.</bibl>
                </note>
             </l>
@@ -5240,8 +5158,8 @@
             <l n="4.481">Inde metens, animum simul oblectabis, et hosti</l>
             <l n="4.482">Praeripies, in te iaceret quae, tela: Vatinî</l>
             <l n="4.483">Non asperando ritu: qui, scurra disertus, <ref>[a]</ref>
-               <note xml:id="ftn76" place="foot" n="72"> 
-                  <bibl>Sen. de. Const. Sap. <abbr>cap</abbr>. 22.</bibl> 
+               <note xml:id="ftn76" place="foot" n="72">
+                  <bibl>Sen. de. Const. Sap. <abbr>cap</abbr>. 22.</bibl>
                </note>
             </l>
             <l n="4.484">In faciem strumasque suas dicteria passim</l>
@@ -5265,7 +5183,7 @@
             <pb n="125"/>
             <l n="4.502">Indignante, Remi quòd plebs impunè proterius</l>
             <l n="4.503">Vocibus auderet Dominum allatrare, Quìd, inquit, <ref>[a]</ref>
-               <note xml:id="ftn77" place="foot" n="73"> Vide <bibl>Suet, in eius Vit. <abbr>cap</abbr>. 51.</bibl> 
+               <note xml:id="ftn77" place="foot" n="73"> Vide <bibl>Suet, in eius Vit. <abbr>cap</abbr>. 51.</bibl>
                </note>
             </l>
             <l n="4.504">Friuola sollicitant adeo te murmura? Tales</l>
@@ -5356,7 +5274,7 @@
             <l n="4.587">Socratis in mentem veniat, qui, calce proterui <ref>[a]</ref>
                <note xml:id="ftn78" place="foot" n="74">
                    Vide <bibl>
-                     <sic>Laers.</sic> in eius Vita</bibl>, et <bibl>Plutarch. de Liberis educ.</bibl> 
+                     <sic>Laers.</sic> in eius Vita</bibl>, et <bibl>Plutarch. de Liberis educ.</bibl>
                </note>
             </l>
             <l n="4.588">Pulsatus Iuuenis, tranquillo immobilis ore</l>
@@ -5407,7 +5325,7 @@
             <l n="4.632">Attentare licet, non laedere. Spumea ponti</l>
             <l n="4.633">Barbarus iniectis puniri regna catenis</l>
             <l n="4.634">Mandet Achaemenides; stolidos irriserit ausus <ref>[a]</ref>
-               <note xml:id="ftn79" place="foot" n="75"> Vide <bibl>Herodotum lib. 7.</bibl> 
+               <note xml:id="ftn79" place="foot" n="75"> Vide <bibl>Herodotum lib. 7.</bibl>
                </note>
             </l>
             <l n="4.635">E vitreis longè conclauibus Ennosigaeus.</l>
@@ -5472,8 +5390,8 @@
             <l n="4.692">Supplicium, saeui, lania, grassare per omnes</l>
             <l n="4.693">Irarum lethique vias: nec facta cruenti</l>
             <l n="4.694">Sit pudor Oenidae, moresque referre Cyclopum; <ref>[a]</ref>
-               <note xml:id="ftn80" place="foot" n="76"> 
-                  <bibl>Stat. lib. 8.</bibl> 
+               <note xml:id="ftn80" place="foot" n="76">
+                  <bibl>Stat. lib. 8.</bibl>
                </note>
             </l>
             <l n="4.695">Attamen hostili nunquam tua caede coibit</l>
@@ -5484,8 +5402,8 @@
             <l n="4.700">Ira animi mentisque bonae est acerrimus hostis:</l>
             <l n="4.701">Huic meritum par redde, hanc iussis obrue poenis.</l>
             <l n="4.702">Demonacta furens quis nescio verbere crudo <ref>[b]</ref>
-               <note xml:id="ftn81" place="foot" n="77"> 
-                  <bibl>Apud Lucianum in eius Vita.</bibl> 
+               <note xml:id="ftn81" place="foot" n="77">
+                  <bibl>Apud Lucianum in eius Vita.</bibl>
                </note>
             </l>
             <l n="4.703">Perculerat. Cum iudicium, poenamque Nocentis</l>
@@ -5516,8 +5434,8 @@
             <l n="4.727">Vitalem quicunque negas, tersura parentis</l>
             <l n="4.728">Quae miserae lacrymas Cyrneo nobilis exul</l>
             <l n="4.729">Condidit inclusus pelago, monumenta reuolue; <ref>[a]</ref>
-               <note xml:id="ftn82" place="foot" n="78"> 
-                  <bibl>Seneca Consol. ad Heluiam.</bibl> 
+               <note xml:id="ftn82" place="foot" n="78">
+                  <bibl>Seneca Consol. ad Heluiam.</bibl>
                </note>
             </l>
             <l n="4.730">Non spernenda tui inuenies solatia casùs.</l>
@@ -5549,14 +5467,14 @@
             <l n="4.755">Externam populi Patriam, penitùsque remotos</l>
             <l n="4.756">Quaesiuere lares. Italo sic littore magna est</l>
             <l n="4.757">Graecia: sic Gallos Asiae tenuistis opimo <ref>[a]</ref>
-               <note xml:id="ftn83" place="foot" n="79"> 
+               <note xml:id="ftn83" place="foot" n="79">
                   <bibl>Liuius lib. 38.</bibl>
                </note>
             </l>
             <l n="4.758">Pinguia culta sinu: sic longum vecta per aequor</l>
             <l n="4.759">Massiliam Rhodano adiunxit Phocaea Iuuentus: <ref>[b]</ref>
-               <note xml:id="ftn84" place="foot" n="80"> 
-                  <bibl>Strab lib. 4.</bibl> 
+               <note xml:id="ftn84" place="foot" n="80">
+                  <bibl>Strab lib. 4.</bibl>
                </note>
             </l>
             <l n="4.760">Nec noua dêest vltra Herculeas Hispania metas.</l>
@@ -5880,13 +5798,13 @@
             <l n="4.1064">In numerum venias. Vultu male pictus opaco,</l>
             <l n="4.1065">Pinguia crura tumens, Phariaeque vocamen adeptus</l>
             <l n="4.1066">Clematidis, magnae populos in limina Stoae <ref>[a]</ref>
-               <note xml:id="ftn87" place="foot" n="83"> 
+               <note xml:id="ftn87" place="foot" n="83">
                   <bibl>Vide Laert. in vita Zenonis.</bibl>
                </note>
             </l>
             <l n="4.1067">Citticus induxit Senior. Ludibria vano</l>
             <l n="4.1068">Socratis hircinae nares, taurinaque vulgo <ref>[b]</ref>
-               <note xml:id="ftn88" place="foot" n="84"> Vide <bibl>Plat. In <sic>Theateto</sic>.</bibl> 
+               <note xml:id="ftn88" place="foot" n="84"> Vide <bibl>Plat. In <sic>Theateto</sic>.</bibl>
                </note>
             </l>
             <l n="4.1069">Lumina praebuerat. Claudo quis rectior Aequi</l>
@@ -5897,8 +5815,8 @@
             <l n="4.1074">Talem Roma suo vidit pro limine, lusci</l>
             <l n="4.1075">Nec, puto, ridendam faciem sibi credidit hostis.</l>
             <l n="4.1076">Adde his Speuisippi curuum caput, Antigonique <ref>[c]</ref>
-               <note xml:id="ftn89" place="foot" n="85"> 
-                  <bibl>Sen. de Ira lib. 3. c. 22.</bibl> 
+               <note xml:id="ftn89" place="foot" n="85">
+                  <bibl>Sen. de Ira lib. 3. c. 22.</bibl>
                </note>
             </l>
             <l n="4.1077">Degeneres famae vultus. Quis posthuma tanti</l>
@@ -6082,8 +6000,8 @@
             <l n="4.1249">Nubila cum frontis soleant, potioraque tantò</l>
             <l n="4.1250">Luminibus clausus animus spectacula cernat?</l>
             <l n="4.1251">Non sic Abderae sapiens, qui, penè reuulsis <ref>[a]</ref>
-               <note xml:id="ftn90" place="foot" n="86"> 
-                  <bibl>Gel. lib. 10. <abbr>cap</abbr>. 17.</bibl> 
+               <note xml:id="ftn90" place="foot" n="86">
+                  <bibl>Gel. lib. 10. <abbr>cap</abbr>. 17.</bibl>
                </note>
             </l>
             <l n="4.1252">Dum toties ridenda videt, pulmonibus, et iam</l>
@@ -6158,8 +6076,8 @@
             <l n="4.1316">Indignis deflere modis. Vbi fortia dicta?</l>
             <l n="4.1317">Pectus vbi Sophiae inuicto munimine clausum?</l>
             <l n="4.1318">Non aries saeuus, non, quem Telamonius Aiax <ref>[a]</ref>
-               <note xml:id="ftn92" place="foot" n="88"> 
-                  <bibl>Homer. lib. 7. Iliad.</bibl> 
+               <note xml:id="ftn92" place="foot" n="88">
+                  <bibl>Homer. lib. 7. Iliad.</bibl>
                </note>
             </l>
             <l n="4.1319">Misit in aduersum tormenta aequante lacerto</l>
@@ -6199,7 +6117,7 @@
             <l n="4.1351">Iridis aeternae risus e nube fugacis</l>
             <l n="4.1352">Maestitiae parit. Ac veluti, spirante metallum</l>
             <l n="4.1353">Impleuisse Deo meditans, lectissima, seu quae <ref>[a]</ref>
-               <note xml:id="ftn93" place="foot" n="89"> Vide <bibl>Plin. lib. 34. Histor. nat. <abbr>cap</abbr>. 2.</bibl> 
+               <note xml:id="ftn93" place="foot" n="89"> Vide <bibl>Plin. lib. 34. Histor. nat. <abbr>cap</abbr>. 2.</bibl>
                </note>
             </l>
             <l n="4.1354">Delos habet, seu Myrmidonum quae Patria, doctis</l>
@@ -6256,8 +6174,8 @@
             <l n="4.1404">Plùs nimiò celeres, et portum tangere poena</l>
             <l n="4.1405">Ducitur, haud poenae requies, optandaque finis.</l>
             <l n="4.1406">	74. Bistonidae meliùs, dilectae funera prolis <ref>[a]</ref>
-               <note xml:id="ftn94" place="foot" n="90"> 
-                  <bibl>Herod. lib. 5.</bibl> 
+               <note xml:id="ftn94" place="foot" n="90">
+                  <bibl>Herod. lib. 5.</bibl>
                </note>
             </l>
             <l n="4.1407">Ad citharam quibus, et laetos producere plausus</l>
@@ -6272,7 +6190,7 @@
             <l n="4.1415">Crediderim, pauidos retro ad genitalia claustra</l>
             <l n="4.1416">Ocyùs infausto raperent à lumine gressus:</l>
             <l n="4.1417">Illius exemplo pueri, quem prisca Saguntus, <ref>[a]</ref>
-               <note xml:id="ftn95" place="foot" n="91"> 
+               <note xml:id="ftn95" place="foot" n="91">
                   <bibl>Plin. lib. 7. Histor. nat. <abbr>cap</abbr>. 3.</bibl>
                </note>
             </l>
@@ -6399,7 +6317,6 @@
             <l n="4.1529">(Caetera nulla adsint curarum vt pharmaca) questus</l>
             <l n="4.1530">Desinite, et mortis spe tristem absoluite vitam.</l>
             <l n="4.1531">Occiduos, facilis labor est, spreuisse dolores.</l>
-
          </div>
          <div n="5" type="poesis-liber">
             <pb n="154"/>
@@ -6615,8 +6532,8 @@
             <l n="5.193">Fulmineo fragilis vitae penetralia soluit,</l>
             <l n="5.194">In lethum satis vna? Acri sic feruidus aestu</l>
             <l n="5.195">Dum furit, et male se capientem Sylla tenere <ref>[b]</ref>
-               <note xml:id="ftn99" place="foot" n="95"> 
-                  <bibl>Valer. Max. lib. 9. <abbr>cap</abbr>. 3.</bibl> 
+               <note xml:id="ftn99" place="foot" n="95">
+                  <bibl>Valer. Max. lib. 9. <abbr>cap</abbr>. 3.</bibl>
                </note>
             </l>
             <l n="5.196">Nec longùm potis est rabiem, neque protinus omnem</l>
@@ -7050,8 +6967,8 @@
             <milestone unit="para" n="24"/>
             <l n="24">24. Expertus nimiùm lanienam hanc efferus vrbis</l>
             <l n="5.598">Ille Syracosiae Plutro, sed pectoris Orcus <ref>[a]</ref>
-               <note xml:id="ftn100" place="foot" n="96"> 
-                  <bibl>Cic. 5. Tuscul.</bibl> 
+               <note xml:id="ftn100" place="foot" n="96">
+                  <bibl>Cic. 5. Tuscul.</bibl>
                </note>
             </l>
             <l n="5.599">Saeuior ipse sui, et nullo se fine beatum</l>
@@ -7064,7 +6981,7 @@
             <l n="5.606">Nulla inuet sontes fortunae opulentia, saeuo,</l>
             <l n="5.607">Delicias Caprearum inter blandosque recessus,</l>
             <l n="5.608">Lymphatus, Tiberi, monstrorum horrore fateris. <ref>[b]</ref>
-               <note xml:id="ftn101" place="foot" n="97"> Vide <bibl>Sueton. in eius vita <abbr>cap</abbr>. 63. et 67.</bibl> et <bibl>Tac. lib. 6. An. <abbr>cap</abbr>. 6.</bibl> 
+               <note xml:id="ftn101" place="foot" n="97"> Vide <bibl>Sueton. in eius vita <abbr>cap</abbr>. 63. et 67.</bibl> et <bibl>Tac. lib. 6. An. <abbr>cap</abbr>. 6.</bibl>
                </note>
             </l>
             <l n="5.609">Cuncta tuis elementa quidem vectigal amicum</l>
@@ -7132,7 +7049,7 @@
             <l n="5.666">Officijs iubeam, vel rege exempla cauendi</l>
             <l n="5.667">Sumere ab Ismario, oblata haud ignobilis artis, <ref>[a]</ref>
                <note xml:id="ftn102" place="foot" n="98">
-                   <bibl>Plut. in Apophth. </bibl>
+                  <bibl>Plut. in Apophth. </bibl>
                </note>
             </l>
             <l n="5.668">Materiae sed sollicitae, minimèque fidelis</l>
@@ -7176,7 +7093,7 @@
             <l n="5.702">Italiae caelum vrgeri quoque saepiùs illis,</l>
             <l n="5.703">Quàm Scythiae gelidum latus, et Pelusia regna,</l>
             <l n="5.704">Prodiderit vasti rimator Plinius Orbis; <ref>[a]</ref>
-               <note xml:id="ftn103" place="foot" n="99"> Vide <bibl>lib. 2. Histor. nat. <abbr>cap</abbr>. 50.</bibl> 
+               <note xml:id="ftn103" place="foot" n="99"> Vide <bibl>lib. 2. Histor. nat. <abbr>cap</abbr>. 50.</bibl>
                </note>
             </l>
             <l n="5.705">Sic et foemineum vulgus, sic corda virorum</l>
@@ -7219,7 +7136,7 @@
             <l n="32">32. Si tamen ignarum vel sic, exorta repente,</l>
             <l n="5.740">Aggrediatur. Et insanis praecordia verset</l>
             <l n="5.741">Motibus; haud vitreum (docuit quod Sextius) orbem <ref>[a]</ref>
-               <note xml:id="ftn104" place="foot" n="100"> Vide <bibl>Sen. lib. 2. de Ira <abbr>cap</abbr>. 36.</bibl> 
+               <note xml:id="ftn104" place="foot" n="100"> Vide <bibl>Sen. lib. 2. de Ira <abbr>cap</abbr>. 36.</bibl>
                </note>
             </l>
             <l n="5.742">Sumere tunc iubeam: crystallo iudice, tetros</l>
@@ -7250,16 +7167,16 @@
             <l n="5.764">Exaudita sibi ciuilia iura, tubarum</l>
             <l n="5.765">Horrisonum clangorem inter, bellique tumultus,</l>
             <l n="5.766">Rettulerat Marius. Da rebus, da breue cordi <ref>[a]</ref>
-               <note xml:id="ftn105" place="foot" n="101"> 
-                  <bibl>Plut. in vita Marij.</bibl> 
+               <note xml:id="ftn105" place="foot" n="101">
+                  <bibl>Plut. in vita Marij.</bibl>
                </note>
             </l>
             <l n="5.767">Turbato spatium. Maturiùs omnia tecum</l>
             <l n="5.768">Mox statues, cum, composito certamine, tota</l>
             <l n="5.769">Mens aderit sibi. Nequitâ commotus inertis</l>
             <l n="5.770">Mancipij Archytas, Virgis iam terga caleres, <ref>[b]</ref>
-               <note xml:id="ftn106" place="foot" n="102"> 
-                  <bibl>Cic. 4. Tuscul.</bibl> et <bibl>Plut. de Liberis educandis.</bibl> 
+               <note xml:id="ftn106" place="foot" n="102">
+                  <bibl>Cic. 4. Tuscul.</bibl> et <bibl>Plut. de Liberis educandis.</bibl>
                </note>
             </l>
             <l n="5.771">Improbe, ait, si non animi flagrantior essem.</l>
@@ -7278,15 +7195,15 @@
             <l n="5.783">Haud alijs solitam deprendi certiùs, oris</l>
             <l n="5.784">Ac minùs in verba effusi, vocisque remissae,</l>
             <l n="5.785">Indicijs memorant. Visus cum lentior esset; <ref>[c]</ref>
-               <note xml:id="ftn107" place="foot" n="103"> Vide <bibl>Sen. lib. 3. de Ira <abbr>cap</abbr>. 13.</bibl> 
+               <note xml:id="ftn107" place="foot" n="103"> Vide <bibl>Sen. lib. 3. de Ira <abbr>cap</abbr>. 13.</bibl>
                </note>
             </l>
             <l n="5.786">Succensum rapidis scires tunc pectora flammis.</l>
             <milestone unit="para" n="36"/>
             <l n="36">36. Nil tamen his actum monitis, si nescia fraudis</l>
             <l n="5.788">Pergit adhuc, vitae quin vtilis ira videri. <ref>[d]</ref>
-               <note xml:id="ftn108" place="foot" n="104"> 
-                  <bibl>Idem <abbr>ibid</abbr>. <abbr>cap</abbr>. 3. et lib. I. <abbr>cap</abbr>. 9.</bibl> 
+               <note xml:id="ftn108" place="foot" n="104">
+                  <bibl>Idem <abbr>ibid</abbr>. <abbr>cap</abbr>. 3. et lib. I. <abbr>cap</abbr>. 9.</bibl>
                </note>
             </l>
             <l n="5.789">Quae mihi (Aristotelem quamvis praescribat, et, 
@@ -7349,7 +7266,7 @@
             <l n="5.837">Aduersosque obices, virtutem ignoscere credas.</l>
             <l n="5.838">Cecropij sic nempe vetus cortina lycei,</l>
             <l n="5.839">Nicomachi soboles docto pronunciat ore. <ref>[a]</ref>
-               <note xml:id="ftn109" place="foot" n="105"> Vide <bibl>Sen. loc. supra cit.</bibl> 
+               <note xml:id="ftn109" place="foot" n="105"> Vide <bibl>Sen. loc. supra cit.</bibl>
                </note>
             </l>
             <l n="5.840">Nequicquam. Genus id stimulos audire recusat,</l>
@@ -7367,12 +7284,11 @@
             <l n="5.851">Irruat exitijs, nimioque ardore nocendi</l>
             <l n="5.852">In quaecunque ferat nudum discrimina pectus.</l>
             <l n="5.853">Consilij pendente gradu, et moderamine lento, <ref>[b]</ref>
-               <note xml:id="ftn110" place="foot" n="106"> 
-                  <bibl>Idem de Ira lib. 1. <abbr>Cap</abbr>. 10.</bibl> 
+               <note xml:id="ftn110" place="foot" n="106">
+                  <bibl>Idem de Ira lib. 1. <abbr>Cap</abbr>. 10.</bibl>
                </note>
             </l>
             <l n="5.854">Artibus ignotis irae, labefacta priorum</l>
-
             <l n="5.855">Vesano fervore ducum Tarpeia fata</l>
             <l n="5.856">Restituit Fabius. Septeno e culmine praeceps</l>
             <l n="5.857">Decideras, Roma, et lusci fòrs fraena subilles</l>
@@ -7520,7 +7436,7 @@
             <l n="5.987">Securo subitas rapuerunt pectore flammas.</l>
             <l n="5.988">Tu vetitum cerni credas, quod amare vetaris:</l>
             <l n="5.989">Nec gladiatorum crudli in gymnade tantùm, <ref>[a]</ref>
-               <note xml:id="ftn112" place="foot" n="108"> 
+               <note xml:id="ftn112" place="foot" n="108">
                   <bibl>Tac. de German.</bibl> Primi in omnibus praelijs oculi vincuntur. </note>
             </l>
             <l n="5.990">Sed magis haec animi blanda inter proelia, primos</l>
@@ -7588,8 +7504,8 @@
             <l n="5.1046">Et malè conceptos ah sedula protinus ignes</l>
             <l n="5.1047">Obrueret; non, irriguo liquefacta dolore,</l>
             <l n="5.1048">Nunc etiam veteres, post tot iam saecula, luctus <ref>[a]</ref>
-               <note xml:id="ftn113" place="foot" n="109"> 
-                  <bibl>Ouid. lib. 9. Metam.</bibl> 
+               <note xml:id="ftn113" place="foot" n="109">
+                  <bibl>Ouid. lib. 9. Metam.</bibl>
                </note>
             </l>
             <l n="5.1049">Perpetuus Lycijs in vallibus egereret fons. </l>
@@ -7710,7 +7626,6 @@
             <l n="5.1154">Qui ferat. Anne igitur non talis, maxima vitae</l>
             <l n="5.1155">Praemia cui plebis digitus, tritumque susurris</l>
             <pb n="186"/>
-
             <l n="5.1156">Mobilibus nomen? Proh verae inscitia laudis!</l>
             <l n="5.1157">Siccine curarum pretium tibi vile tuarum?</l>
             <l n="5.1158">Siccine, quos toto Numen dignatur olympo,</l>
@@ -7753,7 +7668,6 @@
                </note>
             </l>
             <pb n="187"/>
-
             <l n="5.1192">Nec modus, vltro ipsas plaudentum, atque, Euge, Beatè,</l>
             <l n="5.1193">Clamantum voces quin exaudire putemus.</l>
             <milestone unit="para" n="58"/>
@@ -7795,7 +7709,6 @@
             <l n="5.1226">Ardelio: et, Quid ab Vrbe noui, dignique relatu,</l>
             <l n="5.1227">O Bone? Mirari, stomacho erumpente, superbus</l>
             <pb n="188"/>
-
             <l n="5.1228">Arpinas. Quid enim? Thusco tibi littore proram</l>
             <l n="5.1229">Nunc videor soluisse? Adeone ex omnibus vnum</l>
             <l n="5.1230">Praeterit, externas quàm pridem missus in oras:</l>
@@ -7835,7 +7748,6 @@
             <l n="5.1263">Attulit. Euentu sed dedignata doceri</l>
             <l n="5.1264">Praeuenit errores Ratio: studiumque tuarum</l>
             <pb n="189"/>
-
             <l n="5.1265">In populo rerum metiri protinus illo</l>
             <l n="5.1266">Te iubet, externas quo res curare vicissim</l>
             <l n="5.1267">Ipse soles. Tanto clarorum ex agmine, seu quos</l>
@@ -7875,7 +7787,6 @@
             <l n="5.1300">Non commune salit votum, victoria: nec tam</l>
             <l n="5.1301">Obtusis homines famae dulcedine tangi</l>
             <pb n="190"/>
-
             <l n="5.1302">Nascimur ingenijs; vlli submittere fasces</l>
             <l n="5.1303">Vt libeat. Quidquid praeclarum et nobile visum</l>
             <l n="5.1304">Fòrs alibi, extemplo id titulis componere nostris</l>
@@ -7918,7 +7829,6 @@
             <l n="5.1336">Cernitur, et vix voce sibi, vix pectore constat.</l>
             <l n="5.1337">Hoc etiam causae, ignoti cur lentiùs ora</l>
             <pb n="191"/>
-
             <l n="5.1338">Nos spectatoris moueant: sin conscius alter,</l>
             <l n="5.1339">Nostrarumque diu rerum: experientior adsit;</l>
             <l n="5.1340">Ad trutinam cautâ pauidi formidine cunctos</l>
@@ -7960,7 +7870,6 @@
             <l n="5.1373">Auspicijs aequè detur felicibus hostes</l>
             <l n="5.1374">Frangere; barbaricos pugnacem vt nuper ad Istrum</l>
             <pb n="192"/>
-
             <l n="5.1375">Edomuit fastus, orbemque implere minantis</l>
             <l n="5.1376">Perfida Bistoniae Leopoldus cornua Lunae</l>
             <l n="5.1377">Fatali retudit dextrâ, et victricibus armis,</l>
@@ -8001,7 +7910,6 @@
             <l n="5.1409">Inde Orbem. Clypeo tua mansit tuta sub illo</l>
             <l n="5.1410">Libertas, Europa: tuus subsedit ad illum,</l>
             <pb n="193"/>
-
             <l n="5.1411">Barbaries, scopulum fastus. Nempe agmina mille,</l>
             <l n="5.1412">Excitusque Oriens, bellique immensa supellex</l>
             <l n="5.1413">Addiderant animos. Retro lapsa omnia: totum</l>
@@ -8040,7 +7948,6 @@
             <l n="5.1446">Agmina: confusus riuo deuoluitur vno</l>
             <l n="5.1447">Ponticus, Assyriusque cruor, quemque amne niuali</l>
             <pb n="194"/>
-
             <l n="5.1448">Nutrierat Tanais, rapido quemque Africa sole</l>
             <l n="5.1449">Torruit. Excitae varijs tot partibus Orbis,</l>
             <l n="5.1450">Tam diuersa procul nactae cunabula gentes</l>
@@ -8079,7 +7986,6 @@
             <l n="5.1483">Victorem Euphrates, Tanaisque effudit? Ahenis</l>
             <l n="5.1484">Quot validae claustris, fossisque vndantibus arces</l>
             <pb n="195"/>
-
             <l n="5.1485">Caesareum subiere iugum? Non ardua Budam</l>
             <l n="5.1486">Moenia, non triplicis texit custodia valli,</l>
             <l n="5.1487">Armorumque virûmque obices. Durae aemula Troiae,</l>
@@ -8118,7 +8024,6 @@
             <l n="5.1520">Felices, quibus id victori nectere sertum</l>
             <l n="5.1521">Ingenij vis alta, et par sublimibus orsis</l>
             <pb n="196"/>
-
             <l n="5.1522">Calliope annuerit: qui te, diuisa iugantem</l>
             <l n="5.1523">Imperia, et gemino clarum diademate, victam</l>
             <l n="5.1524">Post Asiam, Europam assertam, exarmataque bella,</l>
@@ -8131,7 +8036,6 @@
             <l n="5.1531">Musa vetat, tenui contentum dicere plectro</l>
             <l n="5.1532">Interiora animi secum certamina, quasque</l>
             <l n="5.1533">Colligit arcano Virtus in puluere palmas.</l>
-
          </div>
          <div n="6" type="poesis-liber">
             <pb n="197"/>
@@ -8207,7 +8111,6 @@
             <l n="6.64">4. Sit pecorum, sit, quos pecori rationis egestas</l>
             <l n="6.65">Associat, quàcunque gradum fecere Priores,</l>
             <pb n="199"/>
-
             <l n="6.66">Consilij sine lege sequi; cur ire gregatim</l>
             <l n="6.67">Ipse velis, quem nobilior sapientia vulgo</l>
             <l n="6.68">Eximit? Errantûm raperis cur agmine, princeps</l>
@@ -8245,7 +8148,6 @@
             <l n="6.100">Prensatis miseri, pro corpore, corporis vmbram.</l>
             <l n="6.101">O reuocate gradum: neque vos exempla Priorum</l>
             <pb n="200"/>
-
             <l n="6.102">Indociles Veri rapiant, et mentis egenos,</l>
             <l n="6.103">Sed Ratio, fallique negans Prudentia, vitae</l>
             <l n="6.104">Certa per Ionium dubijs Cynosura carinis.</l>
@@ -8286,7 +8188,6 @@
             <l n="6.137">Vectat onus; spatijs aequalibus Alter acutos</l>
             <l n="6.138">Figit humi vallos, transversaque tigna supernè</l>
             <pb n="201"/>
-
             <l n="6.139">Illaqueat: coeno studium solidare tenaci</l>
             <l n="6.140">Huic laterum textus; paleis et frondibus Illi</l>
             <l n="6.141">Sternere summa labor. Discurritur vndique: pensum</l>
@@ -8328,7 +8229,6 @@
             <l n="6.173">Temporis aeterni Oceanum lustrare volucri</l>
             <l n="6.174">Sedula mens nisu, quascunque coercitus arctis</l>
             <pb n="202"/>
-
             <l n="6.175">Noster hic euripus spatijs attollit ab imo</l>
             <l n="6.176">Spumiferas fortunae hyemes vix aequat anhelis,</l>
             <l n="6.177">Vndantemque sonum, bullasque cientibus, ignem</l>
@@ -8370,7 +8270,6 @@
             <l n="6.210">Esse tuum: rapient aliena negotia totam,</l>
             <l n="6.211">Agmine perpetuo sibi succrescentia, mentem.</l>
             <pb n="203"/>
-
             <l n="6.212">Praebendae querulis Miserorum vocibus aures:</l>
             <l n="6.213">Improbitas cohibenda: arcendus finibus hostis.</l>
             <l n="6.214">Annonam esuriens vulgus, stipendia miles</l>
@@ -8414,7 +8313,6 @@
             <l n="6.245">Ausoniam vestri puduit num vomeris vnquam</l>
             <l n="6.246">Historiam? Domiti respersos puluere campi</l>
             <pb n="204"/>
-
             <l n="6.247">Anne ideo imperia, et Latiae spreuere curules?</l>
             <l n="6.248">Non illis, rigidos solitis versare ligones,</l>
             <l n="6.249">Infestus belli quateret cum moenia terror,</l>
@@ -8455,7 +8353,6 @@
             <l n="6.282">13. Quod sequitur, geminum modò dictis. Fige trabali</l>
             <l n="6.283">Propositum clauo: quaevis oblata repente</l>
             <pb n="205"/>
-
             <l n="6.284">Ne species discordem animum nouitatis inani</l>
             <l n="6.285">Abripiat lenocinio, et per plurima verset.</l>
             <l n="6.286">Stultorum haec exempla, nihil constanter amare,</l>
@@ -8496,7 +8393,6 @@
             <l n="6.319">Testetur, totumque chaos. Vix lucida Phoebe</l>
             <l n="6.320">Aequatis vacuum reparauit cornibus orbem;</l>
             <pb n="206"/>
-
             <l n="6.321">Continuò grauis illa quies: sopita resurgit,</l>
             <l n="6.322">Viuidiùsque calet lucri sitis. Ocyùs alnum</l>
             <l n="6.323">Aptari velis, rumpique à littore funem</l>
@@ -8537,7 +8433,6 @@
             <l n="6.356">Constituit: quam cum generi Prudentia nostro</l>
             <l n="6.357">Sola ferat, nusquam inueniens, palantibus vsque</l>
             <pb n="207"/>
-
             <l n="6.358">Irritus, heu, curis loca per diuersa requirit.</l>
             <l n="6.359">Non secus ac, nimio febris cui torrida venas</l>
             <l n="6.360">Igne coquit, toto fastidia caeca cubili,</l>
@@ -8579,7 +8474,6 @@
             <l n="6.392">Haud aliter, curis animum variantibus anceps,</l>
             <l n="6.393">Voluitur huc illuc sua per fastidia vulgus;</l>
             <pb n="208"/>
-
             <l n="6.394">Propositum retinet Sapiens, et mole sua stat.</l>
             <milestone unit="para" n="19"/>
             <l n="6.395">19. Pondus vt hoc animo veniat; lex illa tenenda;</l>
@@ -8621,7 +8515,6 @@
             <l n="6.429">Perditus absiliet. Facili moderamine posses,</l>
             <l n="6.430">Vixque adeo ostensâ domitum perducere virgâ:</l>
             <pb n="209"/>
-
             <l n="6.431">Sponte suâ ferri assuêtum non vlla mouebunt</l>
             <l n="6.432">Verbera, non stimuli, calcariaque addita costis:</l>
             <l n="6.433">Irritare priùs dabitur quàm flectere. Surget</l>
@@ -8662,7 +8555,6 @@
             <l n="6.466">Luxuriam grauis à tergo comitatur egestas;</l>
             <l n="6.467">Fabula narratur surdo: nil creditor instans,</l>
             <pb n="210"/>
-
             <l n="6.468">Nil inopes terrent cani, quaerendaque frustra</l>
             <l n="6.469">Mors misero, cum nec laquei iam copia, nec, quae</l>
             <l n="6.470">Exoret stygiam, tenuis mercedula, cimbam.</l>
@@ -8705,7 +8597,6 @@
             <l n="6.502">Iratum nacti Genium, sua gaudia mittunt,</l>
             <l n="6.503">Et, similes porro victuris, viuere nunquam</l>
             <pb n="211"/>
-
             <l n="6.504">Incipiunt. Nunc aequoreos, ait ille, per aestus,</l>
             <l n="6.505">Memnonidum scrutator opum, Gangetica longè</l>
             <l n="6.506">Ostia, teque petam, mersi quae funera Solis</l>
@@ -8745,7 +8636,6 @@
             <l n="6.539">Illa homini liceat statione quiescere: longo</l>
             <l n="6.540">Nec nisi circuitu Euthymiam comprendere detur,</l>
             <pb n="212"/>
-
             <l n="6.541">Quam (votis adeo occurrit) voluisse, tenere est.</l>
             <l n="6.542">Sanius o quantò foret, anxietate, metuque</l>
             <l n="6.543">Depositis, facili confestim nubere Diuae:</l>
@@ -8786,7 +8676,6 @@
             <l n="6.576">Ingenuas: dubij seu te penetralia Veri,</l>
             <l n="6.577">Obstrusosque iuuat naturae attingere fontes;</l>
             <pb n="213"/>
-
             <l n="6.578">Seu magis, vmbriferi lustrantem culmina Pindi,</l>
             <l n="6.579">Musarum celebrare choros, et Apolline dextro</l>
             <l n="6.580">Condere perpetuos victurum carmen in annos.</l>
@@ -8828,7 +8717,6 @@
             <l n="6.612">Ille et sollicito trepidus sua, seque tumultu</l>
             <l n="6.613">Impediet, nimioque licet sub fasce laborans,</l>
             <pb n="214"/>
-
             <l n="6.614">Tempora temporibus coniunget, pensaque pensis,</l>
             <l n="6.615">Nunquam operum leuior, nullam sibi pace sequestrâ</l>
             <l n="6.616">Immunem assidui tribuens moliminis horam.</l>
@@ -8871,7 +8759,6 @@
             <l n="6.648">Marmoris ingenium crudis retinentia fibris.</l>
             <l n="6.649">Aemula non adeo anguicomae fert oribus ora</l>
             <pb n="215"/>
-
             <l n="6.650">Gorgonis; vt rigido mutet Sapientia saxo,</l>
             <l n="6.651">Quos propiùs videt: ingenitos neque corde reuellit,</l>
             <l n="6.652">Sed cultu meliore iubet mitescere sensus.</l>
@@ -8914,7 +8801,6 @@
             <l n="6.684">Thyrsagetae peccant, vel areniuagi Nasamones.</l>
             <l n="6.685">Respicerem, populi si praetor, iudicis aut si</l>
             <pb n="216"/>
-
             <l n="6.686">Fungerer officio. Quìd nunc aliena capessam</l>
             <l n="6.687">Munera? Fac ringar; bilis tamen irrita. Summus</l>
             <l n="6.688">Caelicolûm iustis haec aspicit omnia Rector</l>
@@ -8958,7 +8844,6 @@
             <l n="6.720">Plausibus obijciet mirari exempla Vetustas?</l>
             <l n="6.721">En tibi, deliciae subiecti, Flauius, Orbis,</l>
             <pb n="217"/>
-
             <l n="6.722">Viuere cui tantùm, humanâ de gente mereri, <ref>(a)</ref>
                <note xml:id="ftn128" place="foot" n="124">(a) <bibl>Suet. in uita Titi Caes. <abbr>cap</abbr>. 1. et 8.</bibl>
                </note>
@@ -9003,7 +8888,6 @@
             <l n="6.754">Longaque semianimes pallent ieiunia sulci;</l>
             <l n="6.755">Camporum foecunda altrix, sitientia latè</l>
             <pb n="218"/>
-
             <l n="6.756">Arua super medio nubes volat aethere, iamque his,</l>
             <l n="6.757">His modò vitales succos, animaeque virentis</l>
             <l n="6.758">Nutrimenta cauo diffundit ab vbere terris.</l>
@@ -9043,7 +8927,6 @@
             <l n="6.791">Quàmque velint, haud posse minùs! O pectora curis</l>
             <l n="6.792">Regnorum, et vasti imperio dignissima Mundi!</l>
             <pb n="219"/>
-
             <l n="6.793">Vt libet, insano Caij, tumidique Nerones</l>
             <l n="6.794">Regia certatim vacuent aeraria luxu:</l>
             <l n="6.795">Vndantem terris pelagum, vndantique vicissim</l>
@@ -9084,7 +8967,6 @@
             <l n="6.828">Venimus ad summum: procul hinc cureque, metusque:</l>
             <l n="6.829">Intima quaesitae dudum penetralia Pacis</l>
             <pb n="220"/>
-
             <l n="6.830">En tandem patuere: en ipsa in limine sacros</l>
             <l n="6.831">Expedit amplexus, Thaumantide cincta perenni,</l>
             <l n="6.832">Caelicolûm et qualis mentes beat. Aspice, quantus</l>
@@ -9124,7 +9006,6 @@
             <l n="6.865">Hinc natura suos, illinc sors aemula census;</l>
             <l n="6.866">Nil satis, immenso vacuum dum Numine pectus.</l>
             <pb n="221"/>
-
             <l n="6.867">Nam neque plena quies votis, integra Bonorum</l>
             <l n="6.868">Obtigerit ni Summa; nec, extra Numinis alueûm,</l>
             <l n="6.869">Haec alibi iunctis fas confluere omnia riuis:</l>
@@ -9165,7 +9046,6 @@
             <l n="6.902">Quidquid id est, felix quo vita impletur, oportet:</l>
             <l n="6.903">Nec quidquam proprium magis immotumque fruenti,</l>
             <pb n="222"/>
-
             <l n="6.904">Ac Deus. Inuitis alios nam denique census</l>
             <l n="6.905">Fortunae, duraeque rapit violentia mortis.</l>
             <l n="6.906">Vllane seu sortis, seu lethi iniuria possit</l>
@@ -9206,7 +9086,6 @@
             <milestone unit="para" n="44"/>
             <l n="6.940">44. Hinc adeo, nemo cum nos impensiùs illo</l>
             <pb n="223"/>
-
             <l n="6.941">Alter amet; noua se ratio, manifestaque prodit,</l>
             <l n="6.942">Cur illo pariter iucundiùs alter amari</l>
             <l n="6.943">Nemo queat. Nam nec dulcis, nisi mutuus, ardor;</l>
@@ -9246,7 +9125,6 @@
             <l n="6.976">Saepiùs haec illam praeponderet; amplius aegro,</l>
             <l n="6.977">Quàm gaudî, maeroris adest vectigal Amanti.</l>
             <pb n="224"/>
-
             <l n="6.978">Ilicet infelix, cumulo crescente Malorum,</l>
             <l n="6.979">Cum sua vix portet, damnatur et illa subire,</l>
             <l n="6.980">Vnanimum lugenda premunt quae, fata, sodalem!</l>
@@ -9286,7 +9164,6 @@
             <l n="6.1013">Cùm petat, inque Bonum quovis se dirigat actu;</l>
             <l n="6.1014">Haud pote, quin summi occultâ ratione Parentis</l>
             <pb n="225"/>
-
             <l n="6.1015">Cuncta petat, quin summum actu quocunque Parentem</l>
             <l n="6.1016">Respiciat. Nempe ille Boni forma integra, et omne</l>
             <l n="6.1017">Illius est leuis vmbra Bonum, quo caetera quaeque</l>
@@ -9326,7 +9203,6 @@
             <l n="6.1050">Et Pulchri fons omnis abest. Sese ille videndum</l>
             <l n="6.1051">Praebeat, innatis quantus fulgoribus ardet;</l>
             <pb n="226"/>
-
             <l n="6.1052">Ocyùs immensâ perfusis lampade totus</l>
             <l n="6.1053">Ex oculis, nebulae, fumique volatilis instar,</l>
             <l n="6.1054">Nocturnus rerum decor effluit: obruta blandae</l>
@@ -9366,7 +9242,6 @@
             <l n="6.1087">Et, quibus infelix crassae vicinia terrae</l>
             <l n="6.1088">Concutitur, trepidos aeui reuolubilis aestus</l>
             <pb n="227"/>
-
             <l n="6.1089">Sub pedibus linquens, telluris transfuga, ciuis</l>
             <l n="6.1090">Astrorum, maior mortali, Numine plenus,</l>
             <l n="6.1091">Iam fruitur meliore polo, iam laetus anhelat</l>
@@ -9407,7 +9282,6 @@
             <l n="6.1124">Indociles cohiberi, auido perquirimus aestu:</l>
             <l n="6.1125">Nec modus, optatum donec iam prendere littus,</l>
             <pb n="228"/>
-
             <l n="6.1126">Permistosque tuo contingat in aequore mergi.</l>
             <l n="6.1127">Est suus, est certè cunctis decor, vndique circùm</l>
             <l n="6.1128">Spectantur quae fusa tuae miracula dextrae.</l>
@@ -9446,7 +9320,6 @@
             <l n="6.1161">Ipsa etiam, quanquam radiantibus intertexta</l>
             <l n="6.1162">Astrorum formis, quanquam vndique, et vndique gemmis</l>
             <pb n="229"/>
-
             <l n="6.1163">Fusilibus conflata, alti domus ignea caeli.</l>
             <l n="6.1164">Ah quoties, gelidis cum rarescentibus vmbris</l>
             <l n="6.1165">Purpureo rediuiua dies consurgit Eoo,</l>
@@ -9486,7 +9359,6 @@
             <l n="6.1198">Proluit impatiens, crassisque paludibus ora.</l>
             <l n="6.1199">Te liquidum, nulloque arctatum littore noscant</l>
             <pb n="230"/>
-
             <l n="6.1200">Ambrosiae pelagus; tenues in puluere riuos,</l>
             <l n="6.1201">Protinus auersis meliora ad pabula votis,</l>
             <l n="6.1202">Incipient, putres, et fastidire lacunas.</l>
@@ -9504,15 +9376,13 @@
             <l n="6.1213">Soluite (iam laetos tetigerunt carbasa portus)</l>
             <l n="6.1214">Soluite littoreis, Musae, sua munera Diuis.</l>
             <closer>Finis.</closer>
-            
          </div>
-         </body>
+      </body>
       <back>
          <pb n="231"/>
          <pb n="232"/>
          <pb n="233"/>
          <pb n="234"/>
-
          <div type="prosa-paratextus-summa">
             <pb n="235"/>
             <head>SVMMA TOTIVS OPERIS Singulorum Librorum contextum per distincta suis numeris Capita exhibens.</head>
@@ -9540,10 +9410,7 @@
                   <item>Tum ex eâ possidentium anxietas et formido colligitur.</item>
                   <item>Postremò laetitia, et satietas, cuius gratiâ Fortunae Bona exquiruntur, potiùs pauca appetentibus, quàm multa possidentibus solet contingere.</item>
                   <item>Quanta igitur eorum stultitia, qui multis egere perpetuò malint, talia sine fine appetendo; quàm paucis statim expleri, superuacua eorum vota abscindendo?</item>
-               
                   <pb n="237"/>
-
-               
                   <item>Describitur Sapientis felicitas, qui externa contemnat, nihil ideo solicitus de Magistratibus et imperijs, cum longè praeclarius, et verius, inani absque pompâ, in seipso regnum obtineat.</item>
                   <item>Eiusdem magnanimitas in diuitiarum neglectu, deridendisque Mortalium circa gemmas, metalla, et id genus crepundia puerilibus studijs.</item>
                   <item>Securitas demum, qua caetera omnia Fortuna Bona susque deque habet, ceu superuacua, nulloque pacto comparanda cum animi Bonis, quae sola homini ad laetitiam et quietem sufficiant.</item>
@@ -9601,7 +9468,6 @@
                   <item>Iamuero haec mentis peruersitas, fortuitos aduersùm se casus opinione suâ roborantis, nusquam manifestiùs elucet, quàm in solicito eorumdem absentium timore. Quid enim tunc externi vim infert? Quidue animum, nisi ipsemet animus, fodit?</item>
                   <item>Reprehensio eorum stultitiae, qui vano, et inutili futurorum, immo et nunquam fortasse futurorum discriminum metu, omnem sibi praesentium Bonorum laetitiam, atque fructum corrumpunt, perpetuisque seipsos, ac penè tartareis cruciatibus torquent.</item>
                   <item>Et sequuntur vsque ad 26. Quos ideo cruciatus in fabulosâ Mycenaei Andremonis imagine expressos proponimus.</item>
-               
                   <item>Quanquam parùm poeticis, ad eos adumbrandos, commentis sit opus: cum plurimorum in vitùm poeticis, ad eos adumbrandos, commentis sit opus: cum plurimorum in vitâ perpetuis agitatâ inanium formidinum
                <pb n="243"/>
                      <!--<p> LIB. II.</p>-->
@@ -9640,7 +9506,6 @@
                <pb n="247"/>
                      <!--<p> LIB. II.</p>-->
                	fortissimus Imperator Philopoemen, cuius in hoc genere solertia describitur.</item>
-               
                   <item>Neque nos vtilem experiemur minùs, si, illius exemplo, quidquid in gerendis negotijs, vitaeque in vsu aduersi potest contingere, sedulo cogitatu assuescamus prospicere: tum statim, quae cuique casui leniùs ferendo aptissima sunt, conquiramus Sapientiae praecepta, ijsque velut armis mentem tegamus.</item>
                   <item>Horum verò preceptorum copiosa in duobus, qui sequuntur, libris supellex promittitur.</item>
                </list>
@@ -9653,7 +9518,6 @@
                <pb n="248"/>
                      <!--<p> SVMMA</p>-->
                	casus citra perturbationem prospicere.</item>
-               
                   <item>Cauendum igitur ante omnia esse plurimorum stultissimum morem, qui, peruerso quodam miseriae veluti ambitu, suis calamitatibus fauent, easque tum assiduè respiciunt; tum in atrociorem sibi speciem conantur effingere.</item>
                   <item>Immo contra pro virili enitendum, ab infortunijs suis, quàm longissimè liceat, mentem auertere, deque ijs potiùs cogitare, quae inflicti vulneris dolorem imminuant.</item>
                   <item>Afferuntur iam communia solatia, quibus cuiuslibet Mali mitigari acerbitas possit: primumque adeo illud, vt cogitemus, quaecunque nos premunt Aduersa, perpetuas vitae leges, et naturalia humanae conditionis onera esse.</item>
@@ -9661,10 +9525,8 @@
                   <item>Quin eodem hoc ex fonte alterum solatij genus emanat, nempe societas dolentium: cum similibus fatis, vtpote ordinarijs vitae vectigalibus, vniuersum latè prematur hominum genus.</item>
                   <item>Neque inferioris solùm ordinis, atque loci Mortales, sed vel ij, quos benignior Fortuna in summo humanarum rerum fastigio constituit, sceptris, et imperijs superbos: quorum conditio adeo communes mortalitatis aerumnas non exit; vt alijs etiam proprijs, et grauioribus pateat.</item>
                   <item>Afferuntur recentia exempla, primumque Mahometti Turcarum Imperatoris, ciuili Suorum seditione in custodiam è solio detrusi.</item>
-               
                   <pb n="249"/>
                   <!--<p> LIB. III.</p>-->
-               
                   <item> Necnon alterum Serenissimi Britanniae Regis Iacobi, rebellibus Populi furijs paterno nuper ex imperio emigrare compulsi. Licet tantum Heroem sua potiùs ornet calamitas, magnanimae pretium Virtutis: interque singularia recenseri mereatur diuinae Prouidentiae exempla, Fortunam illi obijcientis vincendam, vt vel in ipsam, quae regnorum arbitra vulgò appellatur, suos porrigat fasces, perque aduersorum experimenta, secundis digniorem se probet.</item>
                   <item>Cum igitur nemo vnus Mortalium ab aerumnis intactus occurrat; quàm superbum, iniustumque, et pudoris expertem dicemus, qui communem omnium sortem se queratur subire?</item>
                   <item>Memorabilis Democriti ars, qua hoc idem argumentum Dario Regi, amissam vxorem impotentiùs dolenti, proposuit.</item>
@@ -9676,7 +9538,6 @@
                <pb n="250"/>
                      <!--<p> SVMMA</p>-->
                quòd à peculiari plurimorum sarcinâ nos immunes Sors fecerit; quàm expostulandum, quòd communia omnium onera subire compulerit.</item>
-               
                   <item>Declaratur vis huiusce consecutionis Leporum Aesopicorum fabellâ.</item>
                   <item>Quanquam plus etiam leuaminis alienae sortis contemplatio nostris casibus feret, si securitatem insuper animaduerterimus, quam plurimi passim vel vulgares homunculi in assiduis, et grauissimis calamitatibus praeferunt.</item>
                   <item>Hanc enim spectantes indecorae in leuioribus tolerandis aerumnis mollitiae, eruditos praesertim homines, et sapientiam professos, pudebit.</item>
@@ -9688,7 +9549,6 @@
                <pb n="251"/>
                      <!--<p> LIB. III.</p>-->
                	verò alteram, et quae arripientes nil laedat.</item>
-               
                   <item>Debere igitur Sapientem ad omnia, quę sibi à Fortunâ porriguntur, ita se aptare, vt dextrâ potiùs ansâ, leniore, et innoxiâ, quàm oppositâ res oblatas apprehendat: nimirum vt in ijs, quae Bona duntaxat occurrunt, respiciat; ab alijs verò, quae laedunt, mentem prorsus auertat.</item>
                   <item>Exemplum eiusmodi sapientiae in Iulio Caesare, et Leonidâ Spartano proponitur.</item>
                   <item>Eadem suadetur exemplo Naturae, cuius discors in elementis concordia non alio, quàm huiusce artis, ingenio tam immota, atque stabilis permanet.</item>
@@ -9696,10 +9556,8 @@
                   <item>Varia proinde argumenta ex honestate, atque gloriâ eruuntur, quibus ad inuictam, et hilarem Aduersorum tolerantiam excitare se animus possit.</item>
                   <item>Proderit etiam quamplurimùm, meminisse, ac pro certo statuere, nihil in rebus humanis sine Dei nutu euenire: cuius prouidentissimo, amantissimoque regimini Mortales omnes deceat se penitùs tradere.</item>
                   <item>Si enim adeo plenum ille obtinet in rerum conditarum vniuersitatem dominium, vt, quamuis, nullâ Boni nostri ratione habitâ, Mundum gubernaret; aequissimo tamen animo illius ferri deceret imperia; quantò aequiùs subeunda nunc sint, cum non ad suum commodum, sed ad subiectorum vtilitatem, pro parentis potiùs, quàm domini more, colliment?</item>
-               
                   <pb n="252"/>
                   <!--<p> SVMMA</p>-->
-               
                   <item>Neque obstat, quòd seueriùs aliquando de hominibus consulat: cum patris erga filios amor non in blanditijs solummodo; sed saepe, ac plùs etiam in durioribus imperijs eluceat.</item>
                   <item>Neque item, quòd vtilitas saepe nulla cernatur, cuius gratiâ haec, aut illa de nobis decernat. Satis quippe ad omnia pacatissimè excipienda esse potest, illius benignitatem, ac sapientiam exploratam habere, quae, Medici peritissimi instar, opem ferre vel remedij rationem ignorantibus nouit.</item>
                   <item>Quamquam neque nos ipsos omnis Aduersorum ratio, et vtilitas latet. Cur enim meritorum, virtutisque incrementa, quae inde animus capit, non et nobis amplissima tam gloriosos labores perferendi merces: et iustissima Deo eosdem imponendi sint ratio?</item>
@@ -9710,7 +9568,6 @@
                <pb n="253"/>
                      <!--<p> LIB. III.</p>-->
                tum aliae haud prorsus dissimiles, quarum varietatem et in plurimis passim videmus, et in nobis saepe experimur.</item>
-               
                   <item>Immo, quamuis per vniuersam hominis vitam se dolor porrigeret; adhuc parui faciendus esset, vt breuis: cum, omnium confessione breuissima humani aeui sint spatia: quin etiam quiduis finitum, quantumcunque pateat, si cum aeternitate conferatur; vix puncto possit longius videri. Vt sanè manifestò sibi homines contradicant, dum hinc de vitae breuitate; illinc verò de longitudine doloris queruntur.</item>
                   <item>Debere igitur quemlibet spe finis iam iam adfuturi praesentium cuiusquemodi aerumnarum sensum lenire, immensumque, et aeternum, quod propediem inchoaturus est, aeuum iam nunc mente praesumere: ad cuius aspectum, quidquid vllo fine concluditur, vix nihilo maius videbitur, indignumque adeo, quod vel tenui nos curâ solicitet.</item>
                   <item>Vltima aequanimitatis ratio ex iracundiae inutilitate desumitur, vt quae nullum prorsus vulneribus ferat leuamen.</item>
@@ -9721,7 +9578,6 @@
                <pb n="254"/>
                      <!--<p> SVMMA</p>-->
                	ad sedandos tum animi, tum corporis morbos aptissima.</item>
-               
                   <item>Sed omnibus tamen externis id genus auxilijs praeferendam esse Rationem statuitur: quae, tanquam praesentissimum non sopiendis tantùm, sed et abolendis quibusque doloribus pharmacum, ex Prouidentiae dono Mortalibus contigit.</item>
                </list>
             </div>
@@ -9738,7 +9594,6 @@
                <pb n="255"/>
                      <!--<p> LIB. IV.</p>-->
                	exemplis euincitur, nihil ipsam Sapienti ad felicitatem, et gloriam obesse.</item>
-               
                   <item>Solatia Alijs, qui indignè ferunt se ampliori ex Fortunâ ad inopiam delapsos.</item>
                   <item>Iniustum esse illorum dolorem probatur. Cur enim lugendum sit, diuitias post vsum amittere, quas lugendum non esset, nunquam accepisse? Cum è contrario praeteritus Bonorum vsus, illorum priuationem, vtcunque dolenda esset, suae iucunditatis memoriâ solari, et rependere potiùs debeat, quàm acerbiorem efficere. Qua occasione ostenditur, Sapientis esse, non ex praesentibus solùm, sed ex praeteritis quoque Bonis laetitiae fructum haurire: alioqui breues plùs nimiò voluptates, immo et dolorem perpetuum fore, si praeterita Bona meroris potiùs, quàm laetitiae inter causas ponantur.</item>
                   <item>Pari ratione, iniustas eorundem esse aduersùs Fortunam querelas, ostenditur. Quo enim pacto accusari mereatur, quia munerum suorum vsum non perpetuum concesserit, quae, vel si nullum concessisset, accusari iure non posset? Aut cur illius crimen potiùs ducamus, sua tandem resumere; quàm meritum, tandiu vtenda annuisse?</item>
@@ -9747,7 +9602,6 @@
                <pb n="256"/>
                      <!--<p> SVMMA</p>-->
                	Stilponis Megarensis, ac Diogenis Cynici exemplo.</item>
-               
                   <item>Solatia Natorum mortem lugentibus. Neque enim ipsi vel suâ causâ deflendi, vel nostrâ.</item>
                   <item>Non suâ, vt qui, moriendo, vitae Mala, ac pericula omnia semel euaserint:  quae tanta sunt; vt nos ipsis potiùs miserandos efficiant.</item>
                   <item>Neque itidem nostrâ, ob rationes cum alijs Bonis externis communes, quorum supra iacturam solati sumus.</item>
@@ -9756,10 +9610,8 @@
                   <item>Praeterquam quòd, etiamsi posteritatis spes in sobole superesset; quandiù tandem ea incolumis foret? Paulò quidem seriùs, sed tamen aliquando deficeret: cum non modò tot illustres olim familiae, primariaeque Vrbes occiderint, sed ipsummet Mundum, in quo minores reliquas mutabilium rerum decessiones, successionesque peragi cernimus, suus tandem interitus maneat. Vt planè ridiculum sit, tantas inter ruinas, vnius familiae excidium lugere.</item>
                   <item>Solatia indignantibus, abesse sibi nominis, famaeque claritudinem, qua alios fulgere intuentur.</item>
                   <item>Neque enim solida felicitas vllius indiget famae praesidio: nisi fortè minùs plenam Dei beatitatem fuisse arbitramur aeterno illo tempore, quo, ante rerum procreationem, vnus ipse suorum sibi decorum testis, externâ omni gloriâ penitùs caruit.</item>
-               
                   <pb n="257"/>
                   <!--<p> LIB. IV.</p>-->
-               
                   <item>Quanquam nec opus exempla tam sublimia conquirere: cum plurimos intueri passim homines liceat, qui, procul ab omni famae pompâ, atque strepitu, tranquillam in obscuro vitam, alijs opibus laetissimi, degunt.</item>
                   <item>Parum tamen foret ad gloriam spernendam, quòd abesse citra pacis, laetitiaeque possit iacturam. Plus est, quòd adesse citra illius perturbationem vix possit, assiduis nimirum, molestissimisque aemulationis, inuidiae, timoris, idque genus curarum aculeis animum fodiens, ac vetans quiescere.</item>
                   <item>Adeo ut non modò absens, tanquam superuacuum munus, desideranda minimè sit; sed vel vltro se offerens declinanda, tanquam grauissimum onus.</item>
@@ -9770,7 +9622,6 @@
                <pb n="258"/>
                      <!--<p> SVMMA</p>-->
                	Nostri irridendi causam praebeamus.</item>
-               
                   <item>Nihil quippe fatuo hoc dolore deformius, et ridiculum magis.</item>
                   <item>Neque indignandum, quòd vel Sapientum quispiam, ob externa nostri corporis vitia, interdum subrideat: cum eiusmodi risus naturae potiùs spontè in oris superficie nascatur; quàm ex altiore iudicio, animique contemptu descendat.</item>
                   <item>Quin et operae pretium fore, si nos ipsi in nostra id genus vitia iocari assuescamus, tum hilaritatis gratiâ; tum locum, et ansam alienae in ea dicacitati erepturi.</item>
@@ -9782,7 +9633,6 @@
                <pb n="259"/>
                      <!--<p> LIB. IV.</p>-->
                	contra verò superiores hosti esse, quandiu illius ausus despicimus.</item>
-               
                   <item>Ostenditur hac occasione Sapientem nunquam affici iniuriâ.</item>
                   <item>Debere illum proinde, cum extra iactum iniuriae sit; extra iram quoque esse, ac studium vindictae.</item>
                   <item>Praeterquamquòd, etiamsi veram accepisset iniuriam; non aliâ eam ratione vlcisci aptiùs posset, quàm illius authorem, tanquam irâ indignum, spernendo: cui contra, si irascitur, honoris plurimum defert, talem nimirum suâ confessione declarans, vt vel Sapientem afficere contumeliâ possit.</item>
@@ -9791,10 +9641,8 @@
                   <item>Colligitur itaque, non de ijs, qui exteriùs laedere conati nos fuerint, hostibus vltionem quaerendam, sed in nostram iracundiam, et vlciscendi auiditatem, tanquam in capitalissimum animi hostem, pugnandum, deque huius intimi potiùs, ac grauissimi vulneris cogitandum medelâ, quàm de leuioris, externique alterius vindictâ.</item>
                   <item>Exilij solatia.</item>
                   <item>Primò, quia, quandiu in terris agimus, vbicunque tandem locorum, extra veram hominis Patriam sumus, adeoque exilij locum potiùs mutare, quàm in exilium eijci, possumus.</item>
-               
                   <pb n="260"/>
                   <!--<p> SVMMA</p>-->
-               
                   <item>Secundo, quia, si nihil demum est exulare, nisi à natali solo abesse; magna pars hominum sponte sibi exilium consciscit: cum, non modò plurimi à suis procul cunabulis vitae sibi deligant sedem; verùm et populi ipsi, natiuis valere sedibus iussis, in externas procul emigrarint colonias.</item>
                   <item>Tertiò, quia indecorum videtur, in Orbis terrarum vniuersi possessionem creatos vnius certae regionis angustijs Patriam suam definire, reliqua verò spatia omnia pro alienis et ad se se nihil pertinentibus ducere.</item>
                   <item>Neque obijciatur, asperum naturâ exilij locum, et inamabilem esse. Nam et veteres ibidem indigenae libentissimè viuunt; nec vlla est tam infelix Regio, quae non aliquâ peculiari dote caeterarum inopiam rependat.</item>
@@ -9807,7 +9655,6 @@
                <pb n="261"/>
                      <!--<p> LIB. IV.</p>-->
                	poterit, quòd, desidiae remotis illecebris, felici se quâdam necessitate ad meliora compulerint.</item>
-               
                   <item>Naturalium damnorum, et pinguioris primùm ingenij solatia.</item>
                   <item>Esto quippe egregium sit munus ingenij praestantia; non exigua tamen Tranquillitatis, laetitiaeque impedimenta secum ferre consueuit: tum quòd mordacibus animos stimulis ad aemulationem, et laudis certamina impellat, queis nihil Quieti inimicius:</item>
                   <item>Tum quòd infinitâ, nec vnquam explebili vlterioris doctrinae siti, qua nihil molestum, et anxium magis, mentes discruciet.</item>
@@ -9821,7 +9668,6 @@
                <pb n="262"/>
                      <!--<p> SVMMA</p>-->
                	tristitiae occasionem praebere, à quibus cernatur, non ipsismet, quorum oculos fugiat.</item>
-               
                   <item>Neque commoueri eos debere vulgi contemptu et fastidio: quin potiùs gaudere, quòd nullos habituri eâ de causâ sint, nisi sapientes Amicos, quique se potius, quàm externam Sui diligant speciem.</item>
                   <item>Solata Alijs, quos valetudinis imbecillitas angit.</item>
                   <item>Si enim hoc vitium externis obeundis muneribus ineptiores facit; at nobiliora mentis ministeria non praepedit: quae satis esse cuique possunt, etiamsi ad alia inferiora minùs idoneo.</item>
@@ -9833,10 +9679,8 @@
                   <item>Quartum, quia expeditiorem ad sublimia contemplanda mentis vim habent, nobilioribusque adeo spectaculis, quàm videntes, fruuntur.</item>
                   <item>Aequo igitur animo ferendam caecitatem esse ex dictis colligitur, et Democriti exemplo affirmatur.</item>
                   <item>Inter corporis cruciatus, et dolores solatia.</item>
-               
                   <pb n="263"/>
                   <!--<p> LIB. IV.</p>-->
-               
                   <item>Quanquam non ea hìc spondemus remedia, quae omnem ab animo, et vultu aegritudinis sensum, ac speciem excludant. Nam id fortitudinis insolitae genus, à Christianis Martyribus pluries exhibitum, ex gratuito Dei dono potest contingere, non humanae artis praesidio parari.</item>
                   <item>Hoc igitur solùm conamur euincere, vt dolor quicunque, si minùs hilariter, et citra gemitus; at viriliter saltem, et citra imbelles querelas, animique deiectionem, feratur.</item>
                   <item>Cuius constantiae ratio in promptu est. Nam vel mediocris vrget dolor; vel summus: Si mediocris; pudeat Virum fortem ab eo superari: cum in tali certamine querendum potiùs sit, parum esse gloriae, quàm multum laboris.</item>
@@ -9844,10 +9688,8 @@
                   <item>Nec minimùm ea quoque cogitatio valebit, ijs nos cruciatibus à Deo Parente amantissimo ad meritorum, gloriaeque incrementum exerceri, aeterna breuissimae perpessionis praemia iam iam relaturos.</item>
                   <item>Vicinae mortis solatia: et primum quidem ex plurimis, assiduisque mortalis aeui laboribus, quos qui grauiter fert, eorum finem in remedijs potiùs, quàm Malis numeret, necesse est.</item>
                   <item>Thracum, et Saguntini pueri exempla in hanc rem afferuntur.</item>
-               
                   <pb n="264"/>
                   <!--<p> SVMMA</p>-->
-               
                   <item>Quocirca sibimet contradicere, qui de vitae tum aerumnis, tum breuitate queruntur: cum è contrario, si vita est optabilis, illâ frui; si misera, illius breui fine solari se liceat.</item>
                   <item>Alterum mortis solamen, quòd vitam non tollit Sapienti, sed in melius commutat. Nam animus immortalis est, nihilque ardentiùs exoptat, quàm, terrenis effractis compedibus, ad authorem suum ferri: vt hinc conijcere futuram illius liceat laetitiam, tam flagranti demum voto per mortem potiti.</item>
                   <item>Votum animi terrena pertaesi, et à mortali hoc exilio immortalem ad Patriam quamprimùm transire anhelantis.</item>
@@ -9865,10 +9707,8 @@
                   <item>Vnde pronum colligere, quàm tristis, et miserandus sit animi habitus, qui tam impotenti se Furiae permiserit.</item>
                   <item>Confirmatur haec animi perturbatio horrendis, et insanissimis motibus, quibus ipsummet Iratorum corpus agitari consueuit.</item>
                   <item>Adduntur barbarae caedes, prouinciarum excidia, suppliciorum ingeniosa, et plusquàm ferina crudelitas, idque genus teterrimi effectus, in priuatam, publicamque perniciem ex Irâ manantes.</item>
-               
                   <pb n="266"/>
                   <!--<p> SVMMA</p>-->
-               
                   <item>Quorum rabidam vim ne ipsis quidem Iratis semper licuit euadere: alijs dementiâ, praecipiti Alijs morte correptis: vt Aiacis, Syllaeque exempla testantur.</item>
                   <item>Dissimillimum Irae Amoris improbi vitium, externam si speciem intuearis: quae huic ridibunda, illecebrosa, et ad omnem amoenitatem composita.</item>
                   <item>Sed nihilo tetrum, ac ferale minùs inuenies, si penitùs introspicere arcanos cruciatus libeat, quibus deditas sibi mentes miserrimè absumit.</item>
@@ -9883,17 +9723,14 @@
                <pb n="267"/>
                      <!--<p> LIB. V.</p>-->
                	Ambitionis mancipia, Annibal nimirum Italiae terror.</item>
-               
                   <item>Et Macedo plusquàm vnius Orbis prensator: integram neuter quantocunque conatu famam adeptus.</item>
                   <item>Quis igitur manifestò non videt, quàm solicitus, aeger, ac quietis ignarus huiusmodi hominum animus sit: dum famam per tot expetitam labores, et in qua omnem vitae fructùm constituunt, adeo sibi curtam contingere; contra verò iniquis hominum iudicijs, quae, tanquam extrema suppliciorum, formidant, assiduè notari se sentiunt: nec vllam aut haec prorsus vitandi; aut illam plenè assequendi, vel si rumpantur, rationem aspiciunt?</item>
                   <item>Praesertim verò cum eum scopum à suâ sibi Ambitione propositum habeant, vt non quamcunque solùm referant gloriam; sed neminem vel summorum hominum in eâ parem, atque aemulum habeant: cuius certaminis et summa difficultas, et nulli sperabilis victoria.</item>
                   <item>Querela de Ambitione, deque publicis, et funestissimis cladibus, ab eâ Orbi terrarum per summum toties nefas illatis.</item>
                   <item>Quorum luculentum specimen ex ciuili bello, à Iulij Caesaris Ambitione excitato, desumitur.</item>
                   <item>Omissis postremò intestinis alijs animi morbis, Euthymiaeque hostibus, habendi nimirum cupiditate, tristitiâque, et inconsulto timore, quorum vim iam antea in superioribus libris retudimus; grauissimi cruciatus, terroresque explicantur, quibus admissi criminis conscientia assiduè improbos vexat, et de potestate mentis quodammodo dimouet.</item>
-               
                   <pb n="268"/>
                   <!--<p> SVMMA</p>-->
-               
                   <item>Adeo ut nulla deliciarum, et fortuitorum Bonorum copia, exhilarandis tam dira inter tormenta miserorum animis, prosit.</item>
                   <item>Qua de re Dionysius Tyrannus, et Tiberius Caesar dubitare neminem sinunt.</item>
                   <item>Explicatâ iam huiuscemodi Pestium teterrima indole, quae omnibus incitamento sit, vt eas velint ab animo excludere; afferenda deinceps supersunt praecepta, quibus quilibet instruatur, vt id norit praestare. Si enim ad firmam voluntatem certa etiam disciplinae accesserit ratio; non minor hic referetur de Stultitiâ, quàm relatus in superioribus libris fuerit de Fortunâ triumphus: omnibusque adeo tum externis, tum interioribus perturbationum causis sublatis, nihil iam supererit, quod animi quietem solicitet.</item>
@@ -9906,7 +9743,6 @@
                <pb n="269"/>
                      <!--<p> LIB. V.</p>-->
                sit, vt genio interdum contradicere, durique aliquid, et cum natiuâ illius propensione pugnantis vltro ferre assuescamus.</item>
-               
                   <item>Non tamen existimandum ita haec à nobis praecipi, quasi vel nostrâ, vel humanâ quauis arte omnes omnino iracundiae occasiones amoueri posse arbitremur. Artis quidem, prudentiaeque opus est, quoad fieri possit, illas minuere; fortitudinis verò, et constantiae, quae praecidi nequeunt, viriliter sustinere. Quod vt fiat, magno erit adiumento, quidquid bilem in rebus gerendis concire possit, animo ante prospicere, meditatosque, et ad omnia ritè instructos in arenam prodire.</item>
                   <item>His adeo, ad pugnam vel cautè submouendam, vel fortiter excipiendam, comparatis in antecessum praesidijs; reliquum est eas artes depromere, quibus Ira iam cominus Rationem aggrediens, et in praecordijs excitata vincatur. Proderit primò meminisse, quàm foeda, et indecora sit irati hominis facies, quàm stultae voces, quàm turbulenti, et ridiculi motus: vt illius saltem foeditatis nos pudor contineat, ne, praeter Decorum furiosè bacchantes, irrisui spectantibus simus.</item>
                   <item>Tum haec pugnae ratio tenenda, vllo ne dicto, factoque irae indulgeamus. Nam illam sustinere, vicisse est, cum nihil aliud quàm impetus sit, adeoque, nisi statim deiecerit hominem; breui morâ languescat, per se seque deficiat.</item>
@@ -9915,25 +9751,20 @@
                <pb n="270"/>
                      <!--<p> SVMMA</p>-->
                eâ mentis perturbatione videatur. Consultissimum igitur erit, dare rationi spatium, et ea, ad quae tum animus ardens impellit, aliud in tempus, sedatâ mente, perque otium retractanda, differre.</item>
-               
                   <item>Postremò maximi ad victoriam momenti tunc erit, animi perturbationem ita penitùs tegere; vt non modò nulla ipsius signa forìs emineant; sed contra vox, vultus, motusque omnis hilaritatis, et pacis speciem praeseferant. Breuissimè enim scenica illa simulatio in rei veritatem, et in animi habitum exterior facies transibit.</item>
                   <item>Sed parùm efficacitatis in allatis huc vsque praeceptionibus fuerit, si vitio carere iracundiam, quin et multùm prodesse opinemur. Contrarium hic ergo statuitur: et primò nec iustam, nec vtilem eam esse in puniendis delictis probatur: cum praeceps ac turbida non facilè iustum vltionis modum, atque ordinem teneat, qui tunc optimè seruatur, cum, vacuo à perturbationibus animo, ad solius rationis praescriptum puniuntur delicta.</item>
                   <item>Praeterea, cum nemo sit prorsus criminis purus; id ius, atque ratio videtur exigere, vt quales quisque aduersùs sua crimina iudices, misericordes scilicet potiùs, quàm iratos desiderat; talem aduersùs aliena se et ipse iudicem praebeat.</item>
                   <item>Immo, vel si nullius quis foret criminis conscius; adhuc minùs iustè irasceretur peccantibus: cum eos miserari potiùs hoc nomine, tanquam infelicissimos, debeat, Medici exemplo, qui Aegrorum putria membra non irascens, at inuitus, et miserans secat.</item>
-               
                   <pb n="271"/>
                   <!--<p> LIB. V.</p>-->
-               
                   <item>Denique, licet vultùs, vocisque iracundia improborum contumaciam terrore compescat; non tamen propterea conficitur, consentaneam esse rationi iracundiam: cum illius ficta in vultu, atque voce simulatio ad salutarem hunc incutiendum terrorem, citra vllam animi perturbationem, sufficiat.</item>
                   <item>Secundò, neque expeti, laudarique posse Iram, ostenditur, tanquam ad difficultates fortiter superandas sit Virtutis, atque animi calcar. Nam nihilo seciùs ad ardua quaeque inuadenda, et strenuè superanda nudae honestatis respectu incitari animus potest.</item>
                   <item>Immo vel hinc Irae pernicies colligitur, quòd immodico ardore, vltra legitimos fortitudinis limites, vel aperta in exitia, quos corripuit, impellat: cum Ratio validos quidem, sed prudentiâ temperatos, adeoque salutares, habeat impulsus: confirmaturque id Fabij Maximi exemplo, qui, cunctando, iraeque obsistendo, rem Romanam restituit.</item>
                   <item>Succedunt iam praui Amoris, seu Libidinis veriùs remedia. Hoc enim aduersùs foedissimam luem in primis profuerit, splendidum, quod iniquissimè vsurpauit, quoque veluti fuco innatam turpitudinem velat, Amoris illi nomen detrahere.</item>
                   <item>Quin oppositam adeo de illius foeditate speciem imbibere; vt vel mentio, vel recordatio nauseam, atque horrorem commoueat.</item>
                   <item>Quanquam neque huic odio nimis fidendum: cum nihil eâ peste fraudulentum, et illecebrosum sit magis, nihil, quod mutare celeriùs, suamque in ditionem redigere vel Victorum, Heroumque animos soleat.</item>
-               
                   <pb n="272"/>
                   <!--<p> SVMMA</p>-->
-              
                   <item>Cuius rei documenta, Sampson, Dauides, et Iacobus Eremita afferuntur.</item>
                   <item>Superesse igitur, vt, qui tutus in hac pugnâ esse velit, omnes hosti fallacissimo aditus diligentissimè obstruat: oculis primò solerti custodiâ vallatis, ne venefico fascinentur aspectu.</item>
                   <item>Auribus secundò ad Sirenias quaslibet incantationes occlusis.</item>
@@ -9948,7 +9779,6 @@
                <pb n="273"/>
                      <!--<p> LIB. V.</p>-->
                detraxerit: cum reuerâ nihil esse ambitiosi hominis indole abiectius pluribus ex argumentis liquidissimè pateat: tum quòd non vni, sed innumeris Dominis se ille vltro submittit, eorum nutus obseruans, gratiam captans, reprehensionem formidans, eque arbitrio suspensam felicitatem suam habens.</item>
-               
                   <item>Tum quòd verae magnanimitatis ignarus leuissimo pretio sudores suos licitatur, minimâ popularis aurae mercede et illos satis repensos, et se affatim beatum existimans.</item>
                   <item>Tum quia suum gloriae studium omni arte dissimulat, ne in risus nimirum, et fabulam abeat, si deprehendatur, formidans: ipsemet adeo Ambitionem indecoram, ac luce indignam confessus.</item>
                   <item>Tertiò multùm etiam ad sedandum famae ardorem conducet, si ille error discutiatur, qui Ambitiosorum plerisque solet imponere, omnium oculos in se esse conuersos, omnium per ora suum nomen volare, omnium mentes Sui admiratione occupari, per voluntarij cuiusdam somnij speciem, fingentibus.</item>
@@ -9958,7 +9788,6 @@
                <pb n="274"/>
                      <!--<p> SVMMA</p>-->
                	nouit, desideret, ac reprehendat.</item>
-               
                   <item>Alterum argumentum est, quia non multùm seu obseruare, seu mirari solemus, nisi eos, qui nostrâ in professione videntur excellere: his verò aemulatio iniquiores nos iudices facit. Vt profectò vix vlli Mortalium eximiam apud homines, partim <corr>incuriosos</corr>, si alieni sint; partim obtrectatores, si socij, laudis, atque famae celebritatem liceat referre: stultumque adeo videatur, pro re tam incertâ, atque tenui, tot laboribus, et curis vitam absumere.</item>
                   <item>Statuitur postremò, non magni operis esse inexpertam, atque absentem gloriam negligere: difficillimum verò eiusdem, vbi acquisita semel fuerit, seu conseruandae, seu amplificandae curam prorsùs exuere.</item>
                   <item>Idque adeo petitis è communi vitâ experimentis probatur.</item>
@@ -9984,7 +9813,6 @@
                <pb n="276"/>
                      <!--<p> SVMMA</p>-->
                	morem, nostrae sortis fructus, alienae verò onera contemplari discamus.</item>
-               
                   <item>Nullum quippe Vitae genus occurrere, quod omni fructu, omni incommodo careat, et vnde Sapiens laetitiae argumenta; stultus maeroris causas non ducat.</item>
                   <item>Neque indignandum proprio statui, quòd naturâ obscurus, atque ignobilis sit: cum vbiuis Sapienti gloriae campus pateat, vt Epaminondae, aliorumque praestantium virorum exempla testantur.</item>
                   <item>Vitam quippe hominum dramati similem esse, in quo non plus laudis refert, qui praestantiores partes accepit, sed qui suas, quaecunque illae sint, concinniùs gerit.</item>
@@ -9994,10 +9822,8 @@
                   <item>Philologi demum iam haec, iam illa studia amplectentis.</item>
                   <item>Huius porrò mutabilitatis origo ea posse videtur afferri, quòd homines in rebus, quas tractant, non verò in ratione eas tractandi suam quietem constituunt.</item>
                   <item>Quocirca corrigendum eiusmodi errorem, pensandumque initio maturè, quid facto opus sit: vbi Ratio hoc, vel illud persuaserit; ab eo nihil mox deflectendum, quaecunque se in operis progressu molestiae, et difficultates obijciant.</item>
-               
                   <pb n="277"/>
                   <!--<p> LIB. VI.</p>-->
-               
                   <item>Quintum, Non impetu subito, sed prudenti iudicio ad agendum moueri.</item>
                   <item>Licet enim graue initio sit, genij ardorem compescere; duriùs tamen multò esse, per quaeuis praecipitia, et abrupta impotenti illius libidine auferri.</item>
                   <item>Praesertim verò cum animus seuerè aliquandiu habitus paulatim contumaciam imminuat, et tandem Rationis imperium pati condiscat: equini instar pulli, qui domitus Rectori se facilem praebet: contra verò indulgenter diu habitus vix vllâ deinde vi ad parendum potest induci.</item>
@@ -10012,7 +9838,6 @@
                <pb n="278"/>
                      <!--<p> SVMMA</p>-->
                	occupationibus, vitaeque ministerijs coniungere.</item>
-               
                   <item>Id verò facilè praestaturum, qui neque plus iusto sibi occupationum, et laborum assumat, neque illis ob spem lucri, vel gloriae, sed vnius honestatis gratiâ mentem, atque corpus exerceat. Sic enim liber, Suique, et rerum potens sapienti ratione omnia temperabit: neque se negotijs seruili anxietate subijciet, properans opus absoluere, veluti tum demum illius fructum collecturus: sed, quae aget, sibi, ac suae tranquillitati coget seruire, ex ipsomet rerum actu laetitiam percipiens.</item>
                   <item>Nonum, Nihil vel honestarum, quae extra hominis arbitrium sunt, rerum iusto vehementiùs optare.</item>
                   <item>Non quidem vt omni affectione animus careat, sed vt tranquilla sint vota, neque nimio anxioque ardore quietem perturbent.</item>
@@ -10024,7 +9849,6 @@
                <pb n="279"/>
                      <!--<p> LIB. VI.</p>-->
                	non secus, ac propriam, pro virili curare.</item>
-               
                   <item>Praeclara benefici huiusce animi documenta à Tito Caesare, Cyro Persarum Rege, et Cimone Atheniensi exhibita.</item>
                   <item>Quibus ritè laudatis, nullum hac Boni communis procuratione, seu iucundiorem, seu nobiliorem esse opum vsum, atque fructum statuimus.</item>
                   <item>Idque studium si, pro eo, ac par est, in omnium animis vigeat; auream proculdubio, et beatam homines aetatem acturos.</item>
@@ -10036,7 +9860,6 @@
                <pb n="280"/>
                      <!--<p> SVMMA</p>-->
                	vt proinde illius amor, quemadmodum odio, sic et metu sit vacuus.</item>
-               
                   <item>Deum porrò paratam homini possessionem esse, ex maximo illius erga nos amore manifestè colligitur. Omnis enim Amans Amati res est. Cum igitur effusissimam supremi erga nos Authoris charitatem maxima ab eo nobis collata beneficia planissimè ostendant; quidni, nostrum itidem, dummodo velimus, eum esse, pari perspicuitate demonstrent?</item>
                   <item>Immo ex hoc eius maximo erga nos amore alia item ratio colligitur maximae, quae in ipso amando reperitur, iucunditatis. Nam amor tunc iucundissimus, cum perfectè reciprocus. Nemo autem reciprocam se amantibus vicem liberaliùs refert, quàm Deus. Nam mortales Amici non totum Amico suum amorem impendunt; sed eius sibi retinent partem, partem etiam in alia deriuant. At ipsius amor totus, atque integer et indiuisus singulos se amantium complectitur, nihilo minor ad quemlibet eorum perueniens, ac si ipsi tantùm vacaret: adeo ut certo certiùs persuadere sibi quilibet possit, nihil sibi quantamcunque fruentium eâdem sorte Sociorum turbam obstare, quin plenissimè, integerrimèque à Deo ametur.</item>
                   <item>Denique, cum amor omnia faciat communia; qui mortalibus Amicis coniungitur, eorum aduersos casus, non secus, ac suos, lugeat necesse est. Quantò igitur illius laetior amicitia, qui plenè beatus nullam ex seipso lugendi materiem suis amatoribus praebeat, sed in suae illos potiùs syncerissimę immensissimęque beatitatis communionem asciscat?</item>
@@ -10045,7 +9868,6 @@
                <pb n="281"/>
                      <!--<p> LIB. VI.</p>-->
                tanquam aliquid sorte suâ maius, desperet. Nam et supremus Author ad hanc secum necessitudinem ineundam vltro nos stimulat; et hominis animus ad eandem, suum velut ad fine, suauissimè rapitur. Quin etiam adeo necessarium quodammodò habet summi Boni amorem, vt illud, vel nesciens, in alijs quibuslibet rebus videatur appetere: cum nihil, nisi ratione Boni, appetat: Bonum verò quoduis, vnde creatae res appeti possunt, nihil sit aliud, quàm leuissima quaedam summi Boni adumbratio.</item>
-               
                   <item>Si igitur à rudibus ijs simulacris ad perfectissimum, aeternumque intuendum exemplar mens transeat; nihil iam negotij supererit, vt totus quoque amor ad eandem illam omnis Boni, Pulchrique inimitabilem formam suas curas conuertat: qua nimirum praesente finitarum omnis rerum Venustas, multò magis, quàm ad Solis exortum nocturnus syderum fulgor, ex oculis deficit.</item>
                   <item>Tranquillus, et felix animi, Deo vni adhaerentis, status generatim describitur.</item>
                   <item>Eius aliqua effigies in sanctissimis Aegyptiarum solitudinum accolis intuenda exhibetur.</item>
@@ -10061,8 +9883,6 @@
                <pb/>
             </div>
          </div>
-         
-      
          <div type="prosa-paratextus-corrigenda">
             <head>Ad corrigenda, quae irrepserunt, errata, sic leges:</head>
             <p>Pag.	Versu.</p>

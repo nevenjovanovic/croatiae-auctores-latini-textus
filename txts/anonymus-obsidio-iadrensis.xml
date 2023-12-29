@@ -1,98 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="anonymus-obsidio-iadrensis">
-            <titleStmt>
-                <title>Obsidio Iadrensis, versio electronica</title>
-                <author ref="#anonymus_1346">
-                    <persName xml:lang="lat">Anonymus</persName>
-                    <date>floruit 1346-1353</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="anonymus-obsidio-iadrensis">
+         <titleStmt>
+            <title>Obsidio Iadrensis, versio electronica</title>
+            <author ref="#anonymus_1346">
+               <persName xml:lang="lat">Anonymus</persName>
+               <date>floruit 1346-1353</date>
+            </author>
+            <editor>
                <persName>
                   <ref>Veljko Gortan; Branimir Glavičić; Vladimir Vratović</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
-                    <date>Mense Octobri, 2011.</date>
-                </edition>
-            </editionStmt>
-            <extent ana="D">Mg:D Verborum 22573</extent>
-            <publicationStmt>
-                <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma,
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>Mense Octobri, 2011.</date>
+            </edition>
+         </editionStmt>
+         <extent ana="D">Mg:D Verborum 22573</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma,
                     (<orgName>
                   <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Listopad
                         2011</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Obsidio Iadrensis / manuscriptum postumum Veljko Gortan; exaratum digesserunt Branimir Glavičić i Vladimir Vratović; cooperantibus Damir Karbić, Miroslav Kurelac, Zoran Ladić; prijevodi na engleski Zoran Ladić, Matthew J. Suff, Goran Budeč; Zagreb: Hrvatska akademija znanosti i umjetnosti (2008.), p. 348, 156 str. : faks.. , Zagreb, 2007. Notes. Indexes. Facsimiles. 341 pp. + 78 fols. (<ref target="http://info.hazu.hr/upload/file/E-Izdanja/Opsada%20Zadra-tekst.pdf">PDF</ref>)</bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="44"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="2"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="6"/>
-          <tagUsage gi="div" occurs="46"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="46"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="155"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="10"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="321"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="91"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="q" occurs="4"/>
-          <tagUsage gi="quote" occurs="8"/>
-          <tagUsage gi="ref" occurs="6"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="44"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="4"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -106,50 +53,47 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1346" period="13xx_2_third">1346-1353 (?)</date>
-            </creation>
+            <date when="1346" period="13xx_2_third">1346-1353 (?)</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae medii aevi (700-1400)</term>
-                    <term>Saeculum 14 (1301-1400)</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - historia</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae medii aevi (700-1400)</term>
+               <term>Saeculum 14 (1301-1400)</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - historia</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-02-12</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-02-12</date>
                 Novo, unificirano zaglavlje.
             </change>
-            <change>
+         <change>
                 <!-- Liber I nije kolacioniran s PDF-om; možda fale marginalije -->
-                <persName>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2011-10-29</date>
+            <date>2011-10-29</date>
                 Primam versionem XML fecit.
             </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-       
-        <body>
-
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
          <pb n="1"/>
          <pb n="2"/>
-            <pb n="4"/>
+         <pb n="4"/>
          <milestone unit="folium" n="f2"/>
          <head>OBSIDIONIS IADRENSIS LIBRI DUO</head>
-
          <div>
             <head>
                <add>Liber primus</add>
@@ -169,9 +113,7 @@ recolens, sed eas procul a se abiiciens tanquam iustitiam suffocans atque studio
                <p>Ergo quibusque est cauendum, ne sub ipsorum perfida corruant potestate et sine idonea cautione genuflectant.</p>
                <p>De  cunctis  his  Iadertini  ad  eternum  Sabaoth  conquestu  et  magno  ululatu conclamant: <q>Quid, iustissime Helii, his prauis tam grandes dilatasti uires, et absque titulo iuris incedunt? Copia grandis uirorum pugillum in me nulla preuia rationis causa irruit. Forte uindicas inimicos cum tuis inimicis? Deus enim peccatores non exaudit.</q>
                </p>
-
                <pb n="6"/>
-
                <p>Sed audi quid Hyeremias nono sue lectionis capitulo pneumatis almi prolatione attestatur: Preparamini contra Babilonem, id contra confusionem <milestone unit="folium" n="3/3v"/> Iadrę, per circuitum omnes qui tenditis arcum, debellate eam, non parcatis iaculis, quia Domino peccauit, crudeliter nempe ipsa comisit. Nam si quis ignorantia est preuentus, fingit stilum mendatiorum, qui a cunctis est cauendus, Iadrę leges periti et in trono prophetico  aprobati  reperiuntur.  Sed  de  eius  superbię  elatione  sileo,  eo  quod plurrimis  excedit  cubitis  fastum  de  grandis  Sabthael  non  minimus,  qui  diuina similitudine formatus ac eius fuerat gratia illustratus, visione decora est perpetuo priuatus ac in abissum est precipitatus. Igitur, Iadera, non uales illud elegicum metrum regis Dauid resonare. Debuit enim tam horum, quam illorum nimio librante onere uitiorum grandem tempestatis rabiem excitare. Derelinquat ergo impius uiam suam et Deus ipsius miserebitur, reuertatur ad Dominum, et gressus sui prosperentur in sempiternum.</p>
             </div>
             <div type="caput">
@@ -180,9 +122,7 @@ recolens, sed eas procul a se abiiciens tanquam iustitiam suffocans atque studio
                <p>Ex nobili ortus <milestone unit="folium" n="3v/4"/> progenię, premisso nomine mittentis, salutem illam quam Isaac intulit Iacob.</p>
                <p>Motu  bino  coactus  presens  sarcasmos  meo  indice  paginans  presenti  stilo disposui propalare.</p>
                <p>Primo,  quia  captato  uestre  beniuolentię  rogatu,  quo  sincero  uestro  scripto crebrius  auxistis  flagitandum,  ut  motionis  casus  et  condecens  memorate  nostrę patrie discordiasque habitas inter emulos seriatim uobis segniter festinarem legare.</p>
-
                <pb n="7"/>
-
                <p>Secundo, ne tam horrendus excessus per Venetos exactus in prolixitate defluat temporis, sed ut posteris eorum crudelitas reminiscentię comendetur, curaui actus militiam agonesque partium per capitula singillatim et distincte in his scriptis pertractare.</p>
                <p>Explicit prologus et epistola.</p>
             </div>
@@ -204,9 +144,7 @@ ammiratione cordis est comotus ac despiciens eundem bello capere non posse, dili
                <note place="margin-left">Verba legati ad regem</note>
                <p>&#x93;Serenissime domine princeps! Vladislaua et genitus eius Iohannes, pro quibus ad uos sum legatus, plicatis manibus ac ambobus genibus flexis totos se offerunt eorumque bona, ita oppida quam etiam arua et quasque fortilicias et que et quas regalis Benignitas duxerit acceptandas iuxta mayestatis regię uoluntatem atque mandatum.&#x94; Cum rex patefecit sui uoluntatem ac illa habere uelle, quę idem nuntius <milestone unit="folium" n="6/6'"/> spoponderat se exhibiturum, nam prefatus rex, ut diximus, intendebat omnia castra ipsorum suo imperio uelle supponere, tamen in aliis finibus ablatis proposuit restituere maiora. Et recesso inde nuntio, uenit ad partes Tnini narans eisdem, per quos  fuerat  destinatus,  regis  responsiuam.  Quamuis  intrinsecus  merentes,  sed extrinsecus letati sunt. Intelligens hec prenominatus banus, mouit militiam et inde secessit; pergebat Panoniam.</p>
                <p>Sed cum idem rex ipsa castra tradita per sui libitum uolebat gubernare, dicti exeniatores  uoluntatem  mutarunt  et  in  sponsione  facta  nullatenus  permanere  fixi uoluerunt, hec in inductu et suasu quorundam magnorum Croatorum, precipue filiorum comitis Curiati de Corbauia, qui principaliores rebelliones et fraudulentiores sacro regio dyademate pre ceteris Croatis extiterunt. Deducto ad ipsius regis notitiam tam grandem dolum et fraudem fuisse comissum, non in parua animositate cordis fuit repletus. Penitus statuit in se, licet dimidii regni sui thesa- <milestone unit="folium" n="6v/7"/> urus in confusione esset dispergendus, decet ut cuncta oppida et uallata regionis Croatię sue dignitati regali sint perpetuo subiecta.</p>
-
                <pb n="10"/>
-
             </div>
             <div type="caput">
                <head>
@@ -224,7 +162,6 @@ ammiratione cordis est comotus ac despiciens eundem bello capere non posse, dili
                   <add>5.</add> Quomodo Veneti sub tegimento quinque litteras inferius descriptas destinarunt</head>
                <p> Veneti  quidem  iam  preconceptum  animum  sui  exequendi  propositi  grandem stipendiarunt turbam pro transfretatione ad Dalmatinas partes in confusionem Iadrę in classibus duodenis, quarum generalis erat capitaneus prefectus Petrus de Canali.</p>
                <p>Ipsis Iadertinis quodam tegimento  ypocrisis,  ne  forte  arbitraretur  ipsa  gens  in ipsis cumulata classibus in detrimentum illorum fuisse, per quos aduenerant, penitus epistolas plumbeis apositione sigillis in membranis tenoris infrascripti mandarunt.</p>
-
                <pb n="12"/>
                <note place="margin-left">Prima epistola</note>
                <quote type="epistola">
@@ -237,14 +174,11 @@ ammiratione cordis est comotus ac despiciens eundem bello capere non posse, dili
                   <p>Andreas Dandolo, Dei gratia Dux Venetiarum et cetera ut supra, salutem et dilectionis affectum.</p>
                   <p>Curis  assiduis  ad  conseruationem  uestram  et  aliorum  nostrorum  fidelium  et terrarum misimus ad uos et ad partes Slauonię nostros prouisores, ut circa ea, quę sunt honoris nostri <milestone unit="folium" n="9/9v"/> et salutis uestre et terrarum nostrarum, ualeant prouidere et  diligentius  procurare.  Et  quia  cognoscimus  fidelitatem  uestram  promptam  et feruentem ad nostrum honorem fideliter conseruandum, sicut per effectum operis demonstrastis et continue demonstratis, non credimus fore necessarium multum apud uos uerbis insistere ad id, quod est dictis nostris insertum taliter inconcusse.</p>
                   <p>Sed tamen hortamur et rogamus fidelitatem uestram quam clare potest cognoscere benignitatem  nostram,  nostri  dominii,  quę  tota  est  disposita  ad  conseruationem nostrorum fidelium qualiter circa honorem et fidelitatem uestram conseruandam, taliter et sic prompte uos gerere debeatis, quod apud nos possitis omni tempore gratiam promereri, quam inuenietis semper promptam et paratam in omni auxilio uestro et succursu, sicut fuerit oportunum, ad quod solicite uigilamus.</p>
-
                   <pb n="13"/>
-
-	
                   <p>De nouis autem per uos comitem significatis uestram prudentiam comendamus mandantes, ut occurentiam continue de die in diem uestris litteris solicite declaretis, ut informatione percepta a uobis, sicut expediet prouidere de subuentione et omnibus aliis  oportunis.  Paramus  duas  galeas  armatas,  quas  celeriter  mittimus  ad  partes illas.</p>
                   <p>Datum in nostro ducali palatio die penultimo Iunii, XIII indictione.</p>
-               </quote> 
-               <milestone unit="folium" n="9v/10"/> 
+               </quote>
+               <milestone unit="folium" n="9v/10"/>
                <note place="margin-left">Tertia epistola</note>
                <quote>
                   <p>Andreas Dandolo, Venetiarum, Dalmatię et cetera ut supra, salutem et dilectionis affectum.</p>
@@ -269,13 +203,10 @@ totis uiribus anhellamus tamquam illi, qui statum uestrum prosperum uelud propri
 <milestone unit="folium" n="10v/11"/>  uos  in  cunctis  occurentibus  fideliter  et  prompte  habere  studeatis, quod  nostram  gratiam  exaltatis  uberius  promereri,  et  cognoscamus  operis  per effectum uestram dispositionem in omnibus nostris honoribus fideliter preparatam, ut confidimus et speramus. De nouis autem sitis solliciti inquirere et nobis facere manifesta.</p>
                   <p>Datum in nostro Ducali pallatio die XXIII Iulii, XIII Indictione.</p>
                </quote>
-        
                <p>Quas epistolas Iadertini suscipientes ingenti gaudio ac ipsos prouisores, quos aliqua istarum epistolarum commemorat, honorifice perceperunt spondentes eisdem fidem infrangibillem et deuotiorem fidelitatem gerere ac in cunctis uelle parere, quicquid Ducalis sublimitas iusserit exercendum. Et morantibus ipsis prouisoribus Iadrę  tantum  uno  naturali  die,  uersus  reliquas  maritimas  ciuitates  Dalmatie transfretarunt  ibidem  fideles  eorum  hortantes,  ut  fidelitatem,  quam  ceperant, constantiorem efficerent.</p>
-               <p>Epistolas quidem superius perscriptas ac prouisores ipsi Veneti ad ipsas partes destinarunt nondum ipso Ludouico rege a finibus Bihacii sequestrato. <milestone unit="folium" n="11/11v"/> 
-               </p> 
-
+               <p>Epistolas quidem superius perscriptas ac prouisores ipsi Veneti ad ipsas partes destinarunt nondum ipso Ludouico rege a finibus Bihacii sequestrato. <milestone unit="folium" n="11/11v"/>
+               </p>
                <pb n="15"/>
-
             </div>
             <div type="caput">
                <head>
@@ -285,7 +216,6 @@ totis uiribus anhellamus tamquam illi, qui statum uestrum prosperum uelud propri
                <p>Et praecipue in oppido Pagi <milestone unit="folium" n="11v/12"/> seu in terra Pagi, quae tunc ciuitati Iadrę rebellauerat, nobiles ultra duodecim et plebeios fere 37 capti et detenti sunt sub bona dictorum Pagensium custodia. Quorum nobilium progenies excellentior illis diebus in ipsa urbe minime reperiebatur atque ipsorum populariorum plebeitas tutior non extimabatur nec probior. Et tam istos, quam illos Pagi sic detentos cum tuta comitiua Nonam transmiserunt et, ibidem per aliquot dies captiuatis manentibus, Venetias eos destinarunt. Quibus Venetiis manentibus ductis nocte tenebrosa, ipsos in aspero clauserunt ergastulo.</p>
                <p>Grandem equidem copiam uirorum armatorum in ciuitate Nonę, tam peditum quam equitum, ipsi Veneti stabilierunt, omnesque ciuitatum homines ac castra regionis Croatię et Dalmatię contra Iadram arma sumpserunt et in tutelam Venetorum, nec non Ragusienses, Spalatenses et Arbenses atque Tragurienses, quilibet eorum unam classem  seu  galeolam  in  obsidium  et  iacturam  Iadrę  in  fauoremque  Venetorum armauerunt.  Alieque  ciuitates  parauerunt  lebulos  armatos  iuxta  eorum  dignam possibilitatem. <milestone unit="folium" n="12/12v"/>
                </p>
-
                <pb n="16"/>
             </div>
             <div type="caput">
@@ -329,9 +259,7 @@ totis uiribus anhellamus tamquam illi, qui statum uestrum prosperum uelud propri
                <p>Sed exercitus numero 20000 peditum et equitum in ciuitate cumulatus Nonę per terno die agros et rura et vsque ad fines S. Martini visitat et discurrit. Cuius exercitus Capitaneus Marcus Iustiniano erat prefectus. Et si quos ciues Iadrenses aut subditos reperit, terribili nece submittit, omnia habitacula rurum igne iubet conburi. <milestone unit="folium" n="16v/17"/> Nunc insulani et villici fideles suas deserunt habitationes. Iadre sibi eligunt locum tanta copia virorum, qui dignabantur armis decorari, quod numerum sex miliarium excedebat, sed omnes in vniuerso, qui annone mandendo non parcebant, erant fere numerus viginti millenarius et octo, qui in vrbe Iadre extiterat collocatus.</p>
                <p>Confidunt Iadertini in sui probitate et scitu, quod eloquentiam Alani sapientiamque philosophię putant excedere, soli gubernant vrbem in multa lentitate et inobedientia, neminem aduenam, qui sciret et posset consulere ac a tanto posset liberare discrimine, affectant accersire in gubernatorem. Verbis friuolis saciantur et aurę matutinalis potum assummunt, in magna clade se immiscunt  et  ad  arctissimas  perueniunt conditiones, ut Deo condonante gratiam satis lucide propalare studemus.</p>
                <p>Regnante vero vespere diei XV i20 Augusti predicti mensis, quidam classem seu galellam, in qua vltra decem potentiores viri de ciuitate Tragurii, qui Venetis transfretare extimabantur, in Vallem magistrorum applicauit. Quam Iadertini cum duabus barcis armigeratis cęperunt omnesque eius nobiliores et aliquos eius plebeios in carcerem detruserunt pro eo, quod et ipsi Tragurini quamplures Iadertinos in eorum ciuitate repertos absque causa rationabili in captiuitatem deduxerunt. Tu quoque fac simile, sic ars deluditur arte.</p>
-
                <pb n="22"/>
-
                <p>Non cessant certe ipsi Iadertini multorum sublimiorum ędificiorum decorare eorum  ciuitatem  atque  fodere  iubent  iuxta  ripam  portus  et  ianuas  magnas profundissimas fasceninas ac valationes decoras per girum vrbis conficiunt <milestone unit="folium" n="17/17'"/> et in deffensionem ipsorum et tutellam nauigiorum et galearum iuxta portum quandam cathenam mire grossitiei ex tredecim tignis adinuicem ferro connexis ac confibulatis, que pęnultimo prefati mensis Augusti in dicto maritimo portu extitit firmata et protensa. Nam a puncta S. Ioannis Euangeliste, constructa vltra portum, erat extensa vsque ad aliam partem, versus vrbem, aliquantulum a uia rectitudinis deuiando versus plagam austri. Tantę enim industrię et virtutis eadem cathena erat stabilita in ęquore, quod eius stipitem nullus architectorum poterat cum speculatione imaginari. Quam Iadertini vigilanti studio in nocte perspicatius et nocte tutius ingenti gaudio compulsi sunt custodire.</p>
             </div>
             <div type="caput">
@@ -350,9 +278,7 @@ Iadram versus cathenam cum duabus suis galeis mirifice ornatis se direxit, quam 
                   <add>11.</add> Dies receptionis litterarum  regis</head>
                <p> Adueniente quidem octauo die prefati Septembris mensis, quo per vniuersum orbem  festum  natiuitatis  Virginis  gloriosę  deuote  celebratur,  Iadertini  obsessi vehementem gesserunt consolationem ex eo, quod Lodouicus, memoratus rex, quandam epistolam ipsis transmisit, cuius seriem presentibus denotamus.</p>
                <p>Lodouicus, Dei gratia rex Vngarię, nobilibus viris iudicibus, Consilio et Comuni ciuitatis Iadre animum ad grata paratum cum salute.</p>
-
                <pb n="24"/>
-
                <p>Nuntiauit nobis Nicolaus, banus totius Slauonię, neccesitatem vestram, super qua sciatis: ecce processimus cum tota potentia nostra iuuare vos et properamus celeri gressu succurrere vobis. Vnde viriliter vos teneatis et regatis.</p>
                <p>Data sub Alto Castro die XXV mensis Augusti.</p>
                <p>&#x97; . &#x97; Quam epistolam rectores Iadrę eodem die legere et diuulgare in publico foro, vbi multorum erat nobilium congeries et plebeorum comitiua, siquidem fecerunt. Totus vulgus lętatur, inextimabilem suscepit lętitiam, tripudia et choreas per vicos discurrere compellitur, nam tota ciuitas ingenti exultat gaudio. Nunc cantica suauia cum melodiis, campanis  ac  tubis  totam  vrbem  circumeundo  discurrunt,  quo  inimici  in  multa animi admirratione compelluntur, petunt, nullum responsum suscipiunt. <milestone unit="folium" n="18v/19"/> Quantam enim potestatem et dominium Venetorum ipsi affectabant, quod qui iam post ipsius epistolę susceptionem nomen Ducis potius quam Regis ascendebant Sed adhuc roboriores ipsi Veneti in eorum iniqua petitione et proposito efficiebant.</p>
@@ -372,9 +298,7 @@ dictum eorum regem sagaciter destinarunt roborando sponsionem ac Iadertinorum fi
                <p> Chrysogoni de fonte fixum construere ceperunt habitaculum versus vrbem et ibi confecerunt contra ciuitatem eorum quam Italici et Longobardi bastidam, Dalmatici et Croati sticatum appellare consueuerunt. Longitudo vero ipsius bastide erat quantum ianua magistra Iadrę ab ecclesia S.</p>
                <p> Viti recta linea procedendo distat et amplitudo eiusdem quantum forum a dicta ianua prolongatur. Que vndique vallata ligneis tabulis mire pulchritudinis fabricatis, propugnacula crebra et alta in ea confecta et constructa sunt. Porro quia a constitutione ipsius sticati seu bastidę usque ad eius remotionem nullus  fere  preteribat  dierum,  quin  inimici  mixtim  scaramutias  seu  badalutios conficiebant, sed ut plurimum, immo fere semper Iadertini brauium de aduersariis asportabant, nunc ense iugulatos, nunc ductu captiuatos, aliquos iaculis impressos aliaque, prout in pugna solet euenire. <milestone unit="folium" n="19v/20"/> Item perueniente decimoseptimo die prefati mensis ille missus Iadrę, qui ad pręsentiam Andreę, regis Sicilie, fuerat pro parte Iadertinorum transmissus, coram dicto rege se praesentauit suamque legationem abundanter narrauit. Quem benigne intelligens, petitiones deuotas obtulit se efficaciter omni mora postposita impleturum.</p>
                <p>Sed  clarescente  die  sequenti  S. Dominice  post  vigiliam  noctis  eiusdem  mensis memoratus Andreas rex a suis tyronibus impia nece extitit interfectus.</p>
-
                <pb n="26"/>
-
                <p>De  cuius  morte  Iadertini  nimio  dolore  compuncti  ingemiscere  ceperunt  et quamplures nobiles de Iadra amaritudinis tactu togas hilaritate confectas exuunt lugubriaque vestimenta in multo assumunt męrore et ea veraciter non mutarunt, donec spatium sex mensium circulariter non defluxit, ex eo, quod dicti Iadertini grandem spem et fiduciam in ipso rege retinebant et, nisi talis euentus contigisset, iam Iadertini liberationem sue patrię infalibiliter percepissent. <milestone unit="folium" n="20/20v"/>
                </p>
             </div>
@@ -394,9 +318,7 @@ dictum eorum regem sagaciter destinarunt roborando sponsionem ac Iadertinorum fi
 puta larem in ciuitatem iactare seu classes cremare vel forte aliquem ex nobilioribus crudeli subiicere gladio et alia quamplurima iniqua exercerent. Sed hiis omnibus Iadrenses curam sollicitatam gerebant. <milestone unit="folium" n="21/21v"/> Nullum in vrbem sinebant sine cautione introire.</p>
                <p>Obumbrante nempe nocte vigesima septima ipsius mensis Septembris dum animalia suaue recipiunt somnum, Veneti, vltra sexingentos electos et probos viros, in vallem S.</p>
                <p> Eufemię in insulis in eorum clasibus latenter duxerunt et ibi vsque ad horam tertiarum sequentis diei in loco vocato Briacel Verh latuerunt. Cum ipsa dies vigilie dedicationis principis Michaelis archangeli suam lucem cępisset patescere hominibus, hii qui in castro Sancti Michaelis de monte reperti sunt, aduersarios, qui more latroneo deuenerant, palam detexerunt et consensu et voluntate omnium, qui in dicto castro extiterant, in quo erant viri electi fere sexingenti, inter quos mutuo elegerunt centum et triginta pugillatores excellentiores et probiores aliis, assummunt magno <milestone unit="folium" n="21v/22"/> loricas gaudio, cingunt se frameis atque caput tegunt casside et versus inimicos audacter se dirrigunt in multa animositate cordis. Quos Veneti audiunt et gressus eorum sentiunt, parant se ad pugnam. Nunc isti, nunc illi crebra iacula iactant et tela, multi ex Venetis recedunt sauciati, tandem partes vicissim se miscuunt, fit sonitus ensium et tumultus vocum. Multi ex Venetorum stipendiariis pereunt, non indulget pars parti ictus, denique nutu partium musculorum lassati, ipse partes quieti dant operam. Sed Iadertini hortantur mero saporabili, illi egestatem mellifluę potionis patiuntur. Surgunt Iadertini in multo furore contra aduersarios impetumque in ipsos facientes dupplicant vires, crebrant ictus ictibus, instringunt missilia et tela in eorum spatulis ac ensibus cruentatis non parcunt. Veneti fugam arripiunt, hostes eos insequuntur <milestone unit="folium" n="22/22v"/> et inuadunt usque ad fretum ęquoris et ibi viriliter Iadertini mutilant inimicorum membra. Qui multi ex Venetorum parte in mari se disponebant, quos equor absorbebat nulla interueniente pietate.</p>
-
                <pb n="28"/>
-
                <p>Defecitque  ibi  in  ipso  bello  ex  Venetorum gente tam mari suffocatos, quam framea crudeli iugulatos plusquam quingenti. Ex opposita parte nemo pręterquam tres qui ex sua becillitate morti se disposuerunt. Itaque Veneti conflicti et debellati, Iadertini  ad  montem  suę  habitationis  cum  obtento  triumpho  alacriter  redierunt.</p>
                <p>Inchoauitque ipsa pugna ab hora nona et vsque ad vesperas durauit.</p>
             </div>
@@ -407,9 +329,7 @@ puta larem in ciuitatem iactare seu classes cremare vel forte aliquem ex nobilio
                <p>Quadam igitur nocte caliginosa in quatuordecimis Kalendas Nouembris mensis ille frater Marinus Minorum ordinis a Magnificentia regali cum prosperitatis augmento est reuersus et Iadram peruenit referens gratiam domini naturalis versus Iadertinos taliter donasse et tanta affectione dilexisse non ut herus, sed discretus pater filium.</p>
                <p>Et super hiis idem frater Marinus pro parte regis ipsis Iadertinis paginam sua secreta munitam  impressione  reportauit  continentem  in  effectu,  qualiter  ipse  rex  reputat Iadertinos  inter  electos  fideles,  ac  viriliter  contra  inimicos  regis  persistant,  cum exercitus presidium eis prebet et in modico temporis spatio Christi gratia opitulante erit eos liberaturus. Ac comitem Gregorium Curiatii pro quo ciues regi supplicauerant, habere eundem regię celsitudini comendatum, non fore dignum ad sui gratiam <milestone unit="folium" n="23/23v"/> assumere, cum ipse pluribus vicibus solio regio deuiauerat. Sed tam sublimis  est  fidelium  subiectio  dictorum  Iadertinorum,  quod  eorum  preces  erunt admittendę, nihilominus firmantes taliter, ut postmodum idem comes Gregorius non habeat vim in pristinum infidelitatis errorem incidere, prout crebrius lapsus est.</p>
                <p>O quam nobilis Princeps, o quam gloriosus et gratiosus exauditor, qui sic aures misericorditer ad tam deuotos fideles inclinat! Hęc est Principis gloria amanda, hec fiducia in tali domino habenda, vt rebelliones pro instantia humilium fidelium ad amorem suę benignitatis dignatur amplecti.</p>
-
                <pb n="29"/>
-
             </div>
             <div type="caput">
                <head>
@@ -417,18 +337,14 @@ puta larem in ciuitatem iactare seu classes cremare vel forte aliquem ex nobilio
                <p> Cuius nuntii relationem audientes idem Iadertini, in multa hilaritate mentis sunt exhilarati, quod in honorem et decus sui regis vexillum grande, in quo erat depicta effigies  seu  insignies  ipsius  regalis  maiestatis,  dum  Titan  tertiarum  horam pręsignabat, <milestone unit="folium" n="23v/24"/> in eminentiori turri locatę ex plaga quirinali ianue magistre tubarum sonitu ac grandi hortatione in trunco eminentissimo erexerunt.</p>
                <p>Nunc aduersarii crebrius concordiam postulant ab aduersariis, ad quos ipsi minime aquiescere atemptant, ne iactu grauiori conturbentur. Nunc partes sepius conficiunt  scaramucias,  inter  quas  fere  semper  Iadertini  vexillum  ab  inimicis asportant. Nunc pyrate Iadertini per mare nauigant, quempiam Venetum reperiunt, post tergum manibus complicatis in equore crudeliter submergunt, nullum genus vel speciem misericordię aspiciunt.</p>
                <p>Enormem iacturam ipsi Veneti per mare supportant, quod idem Veneti dispendio graui coacti eosdem pyratas insequuntur. Hii fugam arripiunt et in castro de monte Sanctorum Cosmę et Damiani ad insulas, vbi nunc cęnobium tenetur, sibi locarunt statum eorumque lembos sub ipso oppido violento lacerto subducere compelluntur. Ad quos galeę Venetorum accedere nequaquam valuerunt. <milestone unit="folium" n="24/24v"/> Sed viri inde in terram descendentes versus lembos se disponunt conantes ipsos abstrahere et ex oppido ipsi Iadertini eosdem tuentes. Sic isti, sic illi grauissimos tollerant iactus. Denique Iadertini lassati ipsos lembos reliquerunt, quos aduersarii in mari adduxerunt, tres in sui vsum conuerterunt, vnam et vltimam igni tradiderunt, cum maxima ammissione gentis suę. Ex parte reliqua plurimi plaga percussi, sed nemo morti derelictus.</p>
-
                <pb n="30"/>
-
             </div>
             <div type="caput">
                <head>
                   <add>17.</add> Quomodo Iadertini pręstolantur exercitum et de ipsius induciis et reuersione ad propria</head>
                <p> Prestolantur Iadertini cum apparatu maximo exercitum iussu regio collectum, qui sexto mensis Nouembris in Mogoroua Dubraua castramentatus est. Fabricant ingenia contra Venetorum bastidam, arma et loricas cassidesque suffulciunt in multa letitia cordis. Sed Venetiani satagunt, ne hostibus appetitus mente reducatur. Grandes sumptus Iadrenses pro militia <milestone unit="folium" n="24v/25"/> recreanda tollerant ac minimis minime parsimonizant.  Inimici  quidem  sticatum  roborando  non  cessant:  duos  altissimos trabuchos in ipso construunt, quorum vnum ab occidentali plaga, vltimum ab orientali celeriter conficiunt. Sed is, qui in occidente fabricatus fuerat, priusquam męnia iactus eiusdem attigisset, in humum ruit. Postquam aliquibus retroactis diebus extitit erectus.</p>
                <p>Concipientibus  Iadertinis,  quod  ipsa  militia  prolixo  tangebat  inducias,  pro inquirenda veritate duos legatos, quorum nomina sunt Franciscus Pauli de Georgio et Paulus de Grubogna, ciues, qui continue in dicto exercitu persistunt, exercitus vigilanti animo festinanter transmiserunt, tertiodecimo die noni mensis tercium nomine Cerne de Fanfogna, ad duces. Et cum ipsi nuntii coram Stephano bano Bosnensi, rebelli dictę vniuersalis basilicę, et Nicolao, totius Slauonię bano, ducibus totius militię presentati fuissent ab eis dum humiliter inquisiuissent causam tantarum  induciarum  <milestone unit="folium" n="25/25'"/>  necnon  eos  rogatu  et  prece  astantissima supplicassent, ut domini regis edictum perficiant, pro quo in suffragium subditorum regie  excellentię  fuerant  congregati.  Sed  ille  Stephanus  banus  cum  eorum complicibus  et  maioribus  tyronibus  ipsius  exercitus  potius  crumenam  auro  et numismate Venetico, que in tam longo itinere erat excussa, elegerunt resarcire quam tam excellentem gloriam et laudabilem decorem velle suo naturali domino asscribere sicut ille qui magis dedecus quam laudem aquirit.</p>
-
                <pb n="31"/>
-
                <p>Sed, o collega amantissime, sicut Aristotiles philosophus et Porphirius  in eorum dialeticis et conclusionibus expresse attestantur, animalitatem rationalitatemque fore essentialiter hominis ac risibilitatem proprium eius, sic manifeste Venetis insit naturaliter  excitare  simoniam  ac  eius  proprietas  Vngaricęque  turbę  cum  simonia somnium appetere. Bene ergo diffinitio hominis descripta ab amatoribus scientię, inquantum tangit illos sceleratos viros, deberet augumentari, <milestone unit="folium" n="25v/26"/> non autem tantum decapitari, prout ex premissis luculenter designatur.</p>
                <p>Duces  vero  totius  exercitus  memorati  multas  occasiones  ac  irrationabiles excusationes  ipsis  legatis  allegabant  ad  dictorum  Iadertinorum  suffragium  nolle accedere proponentes ac conferentes tantam copiam virorum bellatorum in sticato Venetorum eorum aduentum expectasse, quod potentia horum si dupplicata fuisset, discriminosum esset vlterius ab illis finibus procedere. Et cum dicti missi, qui propter Iadertinorum ad illos destinati fuerant mandato dominationis Iadrę, ipsos simoniacos seu numo sicoratos non valuissent ab illorum iniquo proposito remouere, confestim ad regem Lodouicum festino gressu ambularunt. Et idem duces exercitus mane facto diliculo a Mogoroua Draga recesserunt sui domini spernentes edictum ad partesque Vngaricas properauerunt.</p>
                <p>Intelligunt fideles Iadertini vulgaria perueridicas relationes Vngaros spreuisse et recusasse illos nec eos velle a tanto liberare discrimine et tam grandia suscepisse dispendia parata pro ipsa militia. Quamuis grauibus doloribus <milestone unit="folium" n="26/26v"/> intrinsecus passi fuerint, nihilominus adhuc fiduciam spemque infallibilem in ipso rege intrinsecus retinentes,  eo  quod  ipsis  dictus  rex  affirmauerat  eos  non  relinquere,  sed,  si neccesse fuerit, solus personaliter in eorum suffragium vere futurus et cum sua potentia accelerabit.</p>
@@ -443,9 +359,7 @@ student audire. Irrogant grauissimas iacturas Iadertinis aduersarii malos usque 
                <head>
                   <add>18.</add> Quomodo Iadertini erexerunt in medio foro vrbis vexillum regis in festo S. Chrysogoni, eorum patroni</head>
                <p> Septimo Kalendas decimi mensis, in quo precipue Iadertini solemnissime eorum pastoris festum, mirifici martiris Chrysogoni, celebrando non desistunt, dominus Nicolaus, venerabilis pater et archiepiscopus Iadrensis compatriota, in ecclesia beatissimi athletę Chrysogoni, in qua totus erat apparatus clerus ac populus vniuersus eiusdem ciuitatis ad solemnia audienda officia aduenerant, deuotam celebrauit missam. Et post Sancte euangelicę lectionis enuntiationem pulpitum ascendit multosque hortatorios pronuntiauit sermones et benedicens altissima voce omnibus audientibus, qui ad deuotionis festum congregati fuerant, vexillum regis, quod idem rex Lodouicus in signum fidelitatis Iadertinis transmiserat. Expletaque benedictione omnes in basilica <milestone unit="folium" n="27/27v"/> adunati vnanimiter cum iubilatione clamauerunt dicentes: Amen. Et dum solemnia explerentur misteria, vniuersus clerus Dalmaticis decoratus vestibus laudibus hymnisque et sanctorum psalmorum ductu in multorum nobilium et plebeiorum comitiua cum eodem antistite in foro in medio ipsius vrbis usque deuenerunt et, susceptam a dicto antistite totus vulgus benedictionem, in trunco eminenti passuum fere vndecim in dicto medio foro dictum vexillum inextimabili letitia erexerunt.</p>
-
                <pb n="33"/>
-
                <p>Fiunt solatia illo die per vrbem, fiunt per vicos mirrabilia modulamina vocum hymnorum et sonetorum, cum tubis et lyris miscuunt suaues melodias. Tota plebs lętatur et in miserabili consolatur tripudio. Omnibus pariter non guerra extimatur, sed firmissima reputatur concordia. In multa cordis delectatione exultant in propriis sermonibus, exultando inimicos vituperant.</p>
                <p>Et nondum eiusdem diei vespertina precamina expleta fuissent, quod partes inter se magnas scaramutias perpetrarunt, miscunt se alique particulę partium, <milestone unit="folium" n="27v/28"/> minantur ensibus, infringunt clypeos. Vnum nobilem ex Iadertinis in multorum ictuum impressione imprimunt usque ad mortem plurimosque sauciant. Sed illi deteriorem sustinent iacturam, nam in campo quamplurimi lętaliter fuerunt interfecti innumerabilisque copia vulneratorum et, nisi tunc Iadertinis ab vrbe suffragium fuisset velocius pręstatum, grandem ipsi sustinebant conflictum. Hęc acta sunt in confinio Meltę. Remotę sunt partes, sed hii in bastidam, isti ingressi sunt ciuitatem.</p>
             </div>
@@ -499,9 +413,7 @@ lętali ictu interimunt. Illosque duos castellanos captiuatos Venetias transmitt
                   <add>21.</add> De dolore Iadertinorum ammissionis castri et eorum quodam facinore ac confectione alterius sticati</head>
                <p> Infęlices Iadertini neminem sibi fidelem reperiunt, suum infortunium audiunt, immenso  męrore  confliguntur.  Sed  tanta  est  consolatio  eorum  pectoris  naturalis, quod siquidue accidat sinistri, minime recolunt. Iam ergo Iadertini inchoant suas vires  debilitare,  certe  eorum  peccatis  imminentibus.  Quoddam  enim  scelus horrendum sit diuulgatum, quod pyratę Iadertini crudeliter commiserunt. Qui quarto Nonas  vltimi  mensis  quosdam  religione  sacra  qui  dedicati  fuerant  ordinis prędicatorum fratrum in quodam scopulo insularum Iadrę reliquerunt, vita pariter et corpore eos priuauerunt eorumque gazas abstulerunt Iadramque transfretauerunt. In quos  Iadertini  non  iudicium  promulgantes  de  tanto  et  horribili  scelere  per  ipsos homicidas  perpetrato,  sed  etiam  rei  veritate  res  predatas  in  publico  foro consenserunt venumdari. Sed iustissimus Iudex digna vltione in ipsos homicidas presignauit, quod aliqui morte carceris, aliqui ictu mucronis, aliqui suffocatione maris et aliqui <milestone unit="folium" n="33/33v"/> iniqua et pestilentiali nece interierunt. Et ex quo homo a via rectitudinis sic recedit, tanto diuinum ab eo prolongatur presidium.</p>
                <p>Quot ergo incomoda propter ipsum facinus Iadra diuino permittente iudicio supportauit,  quod  ipsum  castrum,  quod  hostes  ceperunt  non  violenta  manu,  in quantum et grande damnum aduersariis Iadertinis redundauit! Inde cibariis recentibus, tam  esu  carnium  quam  etiam  meri  liquore  crebro  Iadra  alebatur,  quibus  nunc priuationem patitur. Ibi parones portum salutis adueniebant, nunc quidem arcta via eis conceditur, immo timore preuenti ad locum illum accedere non presumunt.</p>
-
                <pb n="39"/>
-
                <p>Et quanto Veneti supereminentiorem assequntur prosperitatem, tanto ipsi asperius contra hostes acuunt vires. Custodes spargunt nocte arctius, ne victus prebeatur inimicis. Sed ut ipsis leuior habeatur custodia, alium sticatum vltra portum Iadrę extensum ab ecclesia Sancti Petri versus ecclesiam <milestone unit="folium" n="33v/34"/> Sancti Ioannis siti ad puntam procedendo a parte transuersali plage, quem vigesimo pręfati mensis die fabricare inchoauerunt. In quo duos trabuchos confecerunt, qui vrbem aduersariorum teterrime deuastabant, vnum quidem situm ex austro, reliquum ex borea. Quodsi Iadertini vires suas cum industria affectassent dissipare, nil dubium, quod ipsum radicitus effudissent.</p>
                <p>Tamen sanctiori consilio se disposuerunt: ne vulgus in tanto esset subiectus discrimini, potius hoc incommodum tollerare studuerunt. Nunc Iadrę dupplicatur custodia, arctatur callis appetentium, pinguia in vrbe stabilire vetatur obsessis. Nullum ergo auxilii subuenire, nemo in vrbe timoris causa pręuentus disponitur ingredi, nec extra transmeare. Nunc Iadertini escis animalium recentium priuantur, quamuis sapore aquatilium in fertilitate aluntur.</p>
                <p>Terribilia iudicia magni Tonantis super ipsos obsessos irruerunt, cuius non extitit memoria, nam mutatur aer, auster regnat imbricus, plurimi tam imfimates, <milestone unit="folium" n="34/34'"/>  quam  magnates  ciuitatis  incurabili  opprimuntur  languore  simulque  vita euacuantur. Nam ab exordio huius descriptionis vsque ad Quintilis proximas Kalendas ex  collectione  ciuitatis  egregia  progenie  vltra  octigenarium  numerum  tam  Parca accidentali, quam naturali a gloria huius sęculi numeratur defecisse. De quorum numero non excessit numerus bisdenarius, qui gladio hos tunc incubuerunt. Ex infimatibus quidem infinita turba debitum vniuerse carnis persoluit. Horum autem, qui morte accidentali migrauerunt, incerta redditur veritas. Fit męror ingens inter ciues. Fere omnes nobiles mediocris et magnatis possibilitatis existentes elegica et 
@@ -532,7 +444,7 @@ et vlcisci possent. <milestone unit="folium" n="36v/37"/> Mandauit sex suos angr
             <div type="caput">
                <head>
                   <add>23.</add> Capitulum de triumpho Venetorum occasione cathenę</head>
-               <p> 
+               <p>
                   <milestone unit="folium" n="37v/38"/> Quoniam crebrius supereminentia deitatis, que super cunctis celestibus et terrenis gubernat et tenet imperium, obcecatis crimine flagellum dirę asperitatis coniectat, vt 
 
 <pb n="43"/>
@@ -556,9 +468,7 @@ in hostes, Iadertinorum neminem attingere valent. Nititur ille plathus cum turri
                <p>Denique  quędam  ex  eis  ad  quandam  classem  se  vertunt  et  relique  ad  duas inimicorum galleas,  quas  Iadertini  in  mari  submergere  conabantur,  ut  tutiores ibidem permanerent, sed illę galleę, quę ad dictam classem se disposuerunt, celeriter cupiunt ipsam cremari. Sed hostes imponunt vires, terribiliter inimicos impellunt.</p>
                <p>Multorum  saxorum  et  telorum  impressione  multi  ex  Venetorum  populo  cadunt lętaliter inplagati et ex contrariis fere nullus spiritus defectum passus est, sed plurimi  crebra  sagittarum  iactione  percussi.  Et  tunc  eedem  galleę  reliquis succurendum et ut subsidium preberent transnatarunt. Fit ibi agonia lętalissima.</p>
                <p>Ex  parte  Venetorum  grandem  defectum  gentis  patiuntur  tam  hic  quam  etiam  ex meridionali plaga vrbis. Qui confidentes de illis proditoribus et stipendiariis incolis eorum sponsionem effectui perductam, sub meniis et turribus currebant <milestone unit="folium" n="41/41'"/>  ac  cum  aduersariis  austerrime  certantes.  Quos  Iadertini  ita  fortissime  plaga percusserunt, quod ibi plurimi naturę debitum persoluerent. Quorum maleficorum carcerationes ipsi Veneti penitus ignorabant.</p>
-
                <pb n="46"/>
-
                <p>Tunc quidem omnes Venetorum galleę, que sursum tecte fuerant, versus galleas inimicorum rogum porrigunt, ut consuptę nihil damni patiantur. Extitit tunc ibidem pestifer  defectus  Venetorum.  Opponunt  se  anquiromagi  Venetorum,  sępissimis mutatim sauciis, inficiunt Iadertinos. Fit murmur, iactus lapidum, fit etiam vtrarumque partium  crebris  emmissio  spingardorum,  spiculorum  et  aliorum  bellicorum instrumentorum. Et ex hac et illa parte conantes Venetiani perficere id, quod cupiebant, cum multa minutione gentis a portu recesserunt.</p>
                <p>Adhuc crastino patefaciente die hora nona atque sexto exeunte die Ianuarii <milestone unit="folium" n="41v/42"/> ibidem extitit agon occasione angromagorum Iadrę et taliter Venetis solutis, quod materiam pugnandi sanctam non habuerunt vlterius de abstractione clasium et  ipsarum  crematione.  Et  cum  Veneti  ipsas  Iadertinorum  galleas  in  sui  vsum conuertere non valuerunt, versus quandam classem, de qua superius propalauimus, remigauerunt. Et ibi sponte Iadertini propter discriminosum eorum certamen consentierunt ipsam ab eorum portu auferre.</p>
                <p>Amisit itaque idem Capitaneus Petrus Cifranus et alter bastide, Marcus Iustiniano gentis eorum plusquam centum. Ex contrariis minus sex, sed abundabilis copia sauciatorum.</p>
@@ -591,7 +501,6 @@ transnatarunt ad reliquas cymbas, que aliquantulum longius distabant. Unusque fo
          <pb n="49"/>
          <div type="liber">
             <p>Incipit liber secundus</p>
-
             <div type="caput">
                <head>
                   <add>1.</add>
@@ -630,9 +539,7 @@ cęreo, in cuius circumferentia erant litterę ex sculptura impresse dicentes: <
                </p>
                <p>Grandi consolatione fideles suscipiunt ipsas litteras ac multa cordis affectione pro regis salute deum piis deprecantur orationibus et tantas preces pro incolumitate ipsius apud excelsum superum fundunt, quod presul et antistes ciuitatis, rogatu nobilioris populi, et nobilissimas orationes instituit, prima videlicet secreta et pre comunione, iubens quibuscumque mysticum offerentibus sacrificium vinculo anatematis quotidie, tam feriato quam non feriato die, humiliter in missarum officio pio ore explicare, que omnia alacriter perficiebantur. <milestone unit="folium" n="47v/48"/>
                </p>
-
                <pb n="52"/>
-
             </div>
             <div type="caput">
                <head>
@@ -682,16 +589,12 @@ fetibili stercore, quod aduersarios ex suaui aromate per antifrasim reprimunt om
                <p>Fundauerant quidem Iadertini super domos spiritualium personarum eorum edificia, ut nauium partes tamen attingendo plus laborarent.</p>
                <p>Fit et dira strages prime classis pugnantis penes castrum, quę potentissimos non audens tollerare ictus girauit proram, et ibidem prope horam nonam pugna quieuit.  Sed  mirabilius  agonizant  Veneti  in  secunda  acie  nauis  S. Demetrii.</p>
                <p>Sagatiores ibi insurgunt, <milestone unit="folium" n="51v/52"/> minantur verbis, sed iaculorum coniectatione non parcunt multosque illic ex Iadertinis vulnerant et in tantum superant, quod nisi tunc  celerius  aliquale  suffragium  esset  eis  prestatum,  vel  grandem  copiam  suę amittebant gentis vel edificium in manibus incideret inimicorum. Sed hii, qui ex parte Iadertinorum recentiores aduenerant, pergunt audaci animo et multa animositate cordis bellantur, quod illos, qui sub muro ciuitatis causa fodendi ipsum venerant, acriter  confringunt,  multos  vulnerant  et  interficiunt.  Acerbius  enim  Iadertini tolerabant  supplicium  ab  illis,  qui  in  fastigiis  malorum  pugnabant  tam  crebrium iaculorum  et  emisione  telorum  nec  non  ingentium  lapidum  emisione,  quam cęterorum,  qui  ad  reliquas  certabant  partes.  Sed  Spiritus  S. virtute  mirabiliter obiiciebant nec reliquos sinebant ire męnia violare.</p>
-
                <pb n="58"/>
-
                <p>Extitit adhuc impius agon ad particulam borealem vrbis Iadre, vbi unus ex plathis cum ponte bellum exercebat. Veneti facibus accensis, omni abiecta formidine, versus ipsum hostiolum causa id igne consumere sepius se disponebant. Quos hostes ita viriliter flagelarunt, quod quamplures absque spiritu in campum se prostrabant. Ex Iadertinis et ibidem multi arduis vulneribus sunt occupati, sed alii eorum supplebant defectum, licet pauci. Altercantur etiam mirabiliter illi, qui intus et sub illa rada extiterant, ex quibus ingens copia deficit.</p>
                <p>Ad portam autem Campi, de qua iam in hoc capitulo prelibauimus, cum illo ponte plurimi ex partium gente fuerunt letaliter vulnerati. Idem Veneti ampliarunt virtutes et cum quodam catto ligneo <milestone unit="folium" n="52/52v"/> debilis naturę confecto ad ipsam ianuam se protraxerunt, ut eam comburerent uel forsan funditus euerterent. Sed ita eos inimici a męniis horribilium saxorum et spingardorum ac balistarum iactatione percutiunt, quod multi intereunt, ac ipsum cattum in infinitas partes diruperunt et hos, qui intro se clauserant, mortaliter occiderunt. Ibique Veneti innumerabilem sui populi delinquerunt partem.</p>
                <p>Sed ipsa excelsa turris Venetorum in ipsis binis fabricata plathis cupiens et putans excedere cacumen turris Iadre hedificate in angulo ad Babbas, que Saulare transiens formidans iuxta eam accedere inde recessit. Ex eo, quod ipsa turris Iadre circa cubitos sex altitudine illam inimicorum excedebat, cepit per equor huc et illuc discurrere inimicos molestando nec ubi sibi aptum locum reperiebat.</p>
                <p>Pugnabatur eadem vrbs et ex australi plaga ipsius solum cum balistis, spingardis et arcubus. Modicos ex hostibus feriunt, tamen quidam cum scalis putabant menia scandere, quos Iadertini taliter opprimerunt, quod reliqui territi ad simile opus non accedebant et easdem scalas ibi reliquisse narrantur. Nunc certant crudeliter hostes a  quaque  parte,  grandem  inter  sese  effundunt  sanguinem,  nullam  misericordiam conspiciunt, nemini parcunt, quos possunt, terribili nece submittunt. Iactant nobiliter septem machine Iadertinorum in hostes, sed laudabilius tangunt inimicos, testimonium reddebatur solum ex trabuchorum tactu.</p>
-
                <pb n="59"/>
-
                <p>Hoc die plures quam sexaginta ex Uenetorum turba ad superna conuolasse dicuntur 
 <milestone unit="folium" n="52v/53"/> et quanto ipsum certamen versus solis occasum procedebat, tanto Veneti maiorem sustinebant conflictum et, cum iam sol minabatur suam lucem claudere, illa maior compacta pugna, de qua iam sepius est in presenti sarcasmos memoratum, cepisset clangere dehortando hostes, omnes aduersarii Iadertinorum fessi et nimio labore occupati ipsum sonitum audientes fugam in classibus et galleis cęperunt arripere nemine persequente. Intrant conflicti in carabos tanta celeritate, quod multa eorum edificia necnon et arma ibidem reliquerunt altoque pelago se dirrexerunt.</p>
                <p>Cessauit  ipsum  prelium,  quod  inchoauit  a  tertiarum  hora,  et  vsque  ad  solis occasum consumauit, in quo ex obsidentium turba defecit inter plaga sauciatos et morti traditos prope octingenti, ex obsessis quippe numquam excessit numerus bis denarius exceptis vulneratis, de quibus copiosa extitit turba. Fuerunt balistarii et arcuarii, qui in detrimentum vrbis uenerant, octo milia et plus, ex Iadertinis fere ducenti, sicut ipso die ipsi Veneti percussi sunt a suis hostibus plaga magna, prout in huius seriei capitulo breuiter sunt connotata.</p>
@@ -717,15 +620,13 @@ illud minus sticatum, situm vltra portum, ipsi Ueneti partem igne combusserunt e
                   <add>6.</add> Aduentus regis Lodouici existentis in districtu Iadrensi</head>
                <p> Eodem anno Christi et indictione, secundo Nonas Iunii mensis Lodouicus rex personaliter cum suo ualido exercitu vltra centum milia equitum, qui dignabantur in quocumque agone permisceri, in confinio Semelnici districtus Iadrę distans ab urbe fere per spatium septem miliarium castramentatus est. Et Idus quarto ipsius mensis pręfatus rex cum electis duobus milibus equitum penes fines S. Ioannis Baptistę, fundati in capite vallis portus, equitauit intuens vrbem alacri vultu et sincero cordis affectu, quam tenerrime gliscebat a manibus eripere hostium. Ad quem ingens congeries nobilium et mediocrum uirorum conuenerat, multa reuerentia genibus flexis inclinabant, manus pariter et pedes osculando. Et aliquantulum ibidem inducias facientes, cum sui decora <milestone unit="folium" n="54/54v"/> et venusta comitiua ad sua properauit tentoria.</p>
                <p>Quis ergo librare posset solatium vehemens, quod fideles Iadertini percipiebant? Lingua quoque sufficiens non foret ad exprimendum. Quis benignitatem regis, quam tunc fidelissimis Iadertinis aperiebat? Qui non semel, immo sępe et crebrius cum iuramento affirmasse visus est, potius suum velle corpus Iadre condere sacrofago quam constantissimos Iadertinos velle desolatos relinquere. De duobus erit vnum iuxta ipsius pronuntiationis sermonem: Aut epithaphium ossa eius Iadrae concludet aut ipsi Iadertini a manibus eruantur Uenetorum. Hęc idem rex suo proprio ore multoties coram multis suis baronibus et nobilibus Iadrę ibidem astantibus attestatus est.</p>
-
                <pb n="62"/>
-
                <p>Nunc Iadertini decorant vrbem et tres nuntios egregios ad ipsum regem in dicta confinia Selmenici castramentantem vndecimo die eiusdem mensis delegantur. Et ante conspectum regis presentantes reuerentiam condecentem impenderunt ac claues vrbis offerentes pariter et omnem vulgum. Quorum nomina nunciorum: antistes ciuitatis, Paulus de Varicassis, natus Stani, et Andreas Viti de Sloradis nec non Cerne de Fanfogna et Franciscus Pauli Georgio, qui in dicto exercitu continue morabantur atque cum eadem militia ab Vngaria peruenerunt. Partis tenorem suarum legationum humiliter in hanc explicarunt formam: Viuat regia Serenitas et triumphum  peremniter  de  inimicis  contineat  suppetatque  suberbos  cum augmento salutis.</p>
             </div>
             <div type="caput">
                <head>
                   <add>7.</add> De benignitate regis et ipsius descensu penes Sticatum</head>
-               <p> 
+               <p>
                   <milestone unit="folium" n="54v/55"/> Quos rex benigne suscipiens policitauit eorum petitioni cito tribuere effectum et  veniente  die  septimodenario  Kalendas  Quintilis  mensis  pręfatus  rex  mouit uniuersam militiam et peruenit in confinia Iadrę. Artissime et anguste Uenetorum bastidam  obsedit  quantum  trabuchus  attingere  cum  conamine  non  ualebat.  Sed cum ipse exercitus sua erigebat tentoria, intueatur quisquam, quale Iadertini gaudium suscipiebant. Hoc iudicio lectoris est relinquendum. Certe clangunt tybicines et tubę, et nolę ad stornium pulsant plurimaque musicorum instrumentorum genera citarizant. Coreę astilidiaque equestria per vrbem uagant discurrendo et uniuersus mediocris populus, miserabiles uiduatęque femine ac orbati parentes elegicas exuunt vestes nuptialesque nimio assumunt solatio. Omnia eis prospera uidentur et nihil 
 
 <pb n="63"/>
@@ -738,9 +639,7 @@ sinistri accidere posse arbitrantur. Soli magnates se disputantur et in tanta co
                <head>
                   <add>8.</add> De ingratitudine</head>
                <p> Et multi ex tyronibus regis ac homines ipsius exercitus non cessabant urbem uisitare. Nunc isti abeunt, nunc recentiores uictualia uenumdanda conducunt, quos Iadertini  austerrime  predantur,  numos  exercitus  pro  medio  cambiunt  prętio.</p>
-
                <pb n="64"/>
-
                <p>Falernum trina parte lymphatum, modium unum pro sex uel septem aureis uenumdant, panes candidissimos ipsis interpletaxant, aquam ex puteis absque penuriali pretio aurire non sinunt. Hec enim Iadratini auidissimi contra illos, qui suum cruorem fundebant  et  a  tam  prolixa  peregrinatione  fessi  fuerant,  exercebant.  Sed  ipse Vngarorum exercitus munus condignum ipsis contulit Iadertinis. Grandis quidem erat exercitus et multę nationes iussu regio congregate. Erant ibi Vngari, Croati, Bosgnachi, Phylistei, Cumani, Boemi et Theutonici seu Alemanici et alię plures gentes, <milestone unit="folium" n="55v/56"/> quas particulariter explicare non curamus.</p>
                <p>Iadertini robustiores efficiuntur, suas probitates coram exercitu illo innumerabili experiuntur. Nam quodam die octauodecimo Iunii quidam ex Iadrensibus armis confibulati  penes  contra  ciuitatem  se  direxerunt  ipsosque  ad  pugnam  ceperunt prouocare. At illi exeunt ex sticato, versus aduersarios concurrunt mixtimque partes certant et, nisi tunc Ungarorum quedam particula, que in ciuitatem Iadre causa recreationis uenerat, suis presidium intulisset, quia celeriter illuc equitauerunt, copiosa gens ex Iadertinorum parte defecisset. Sed quamplures ex Uenetis morti traditi, ex oppositis nullus visus est.</p>
                <p>Aduenerat etiam in comitiua huius exercitus Bertandus presbyter, Aquilegiensis patriarcha, qui uiceno die Iunii Iadram uisitare prouidit a ciuibusque honorifice extitit cum exeniis susceptus.</p>
@@ -760,9 +659,7 @@ sinistri accidere posse arbitrantur. Soli magnates se disputantur et in tanta co
 <pb n="66"/>edificia affinius penes sticatum adherere, aliqui trabuchos mirabiliter exercent et aliqui  turres  seu  inimicorum  propugnacula  accendere  procurant  et  quamplures balistarum et spingardorum properant <milestone unit="folium" n="56v/57"/> opponere.</p>
                <p>Sed iam Veneti pręparati sicut illi, qui nouerant temporis dispositionem, ascenderant sua edificia, certamen mirabiliter officiant, obstant uiriliter hostibus, copiosos ex ipsis vulnerant et ex opposito isti asperius imprimunt et repellunt et in tantum superant, quod  tres  turres  seu  propugnacula  relicta  intuita  sunt  nec  super  ipsis  agonizare audent  propter  sepissimos  ictus.  Et  cum  isti  conspicerent  neminem  pugnasse  in ipsis tribus pugnis, accedunt ad turrim seu propugnaculum situm inter illa tria relicta, in flamam eandem incendunt. Sed Veneti sagaciter super illam scandunt, obstant combustioni, fundunt lympham et cum grauitate eam extingunt. Maxima pars istius igne extitit consumpta. Iactant etiam Uenetorum tres machinę ęquoris in hostem, neminem preter unum incolam letaliter vulnerant. Non cessant etiam alii trabucelli constructi in sticato, qui erant ultra septeni, prohicere, sed frustra eorum concertatio cernebatur.</p>
                <p>Cum  autem  eiusdem  diei  nondum  tertiarum  hora  lapsa  fuisset  et  partes  sic certantes, Petrus de Canali, capitaneus hostis seu exercitus sticati, intuens signum, quod eidem illi barones, illi regis, patefecerant, cepit suos hortari pugillatores. Et sic iussu capitanei grandis copia virorum ab ipso hostio sticati nimia festinatione est egressa et aliqui sponte per murum eiusdem, quia erat minime altitudinis, fere bini passus, in terram se precipitabant et versus Iadertinos se disponebant. Nullus coadiutor Iadrę eis obstare nititur. Lucide conspicit rex et tota eius turba, nemini imperat ex suis illis fidelibus Iadertinis guttam suffragii prestare, speculatur uniuersus exercitus armis fulgidis decoratus. Nemo properat ipsis succurrere, tanta siquidem fertilitas uirorum  pugillatorum  ab  ipsa  contra  <milestone unit="folium" n="57/57'"/>  ciuitatem  fuit  egressa,  quod numerum sex miliarium  excedebat  preter  equittantes  quorum  erat  numerus sexcenti equites.</p>
-
                <pb n="67"/>
-
                <p>Inspecto hoc Iadertini talem dolum et proditionis conspirationem perfidorum athletarum necnon Stephani, Bosnensis bani, Belialis alumni, in multa stupefactione cordis commouentur, amittunt vires, nesciunt quo pergant, cruorem in se non sentiunt et  tanto  merore  punguntur,  quod  plurimi  ciuitatem  ingredientes  quasi  semiuiui comperti sunt. Ipseque multitudinis cuneus Uenetorum versus cattos machinasque et alia Ungarorum et Bosnensium tegimmenta accelerant, student eas frequenter cremare septemque trabuchos ac quatuor spingardos in conspectu regis totiusque suę inumerabilis potentię, quos in obsessum bastidę iussu regio erexerant, nullo precincti timore incenderunt et, nisi tunc numerus illorum sexcentorum equitum adesset, certos nos reddimus, quod Iadertini, tam hi qui intra et extra erant vrbem, campum  cum  ipsis  affectarent.  Potius  uellent  in  campum  deficere  quam  tale dedecus, quod eis minime ascribitur, sinerent per illos damnose perpetrare.</p>
                <p>Et nisi hoc fraudulentum prodimentum tunc per illos regis barones et precipue per voiuodam Laçchouich exactum fuisset, sexta quidem hora ipsius diei non consumasset, quin ipsa bastida destructa ac combusta esset et in manus hostium tradita. Nempe plusquam quattuor centenarii uirorum ex parte Iadertinorum illo Marte  cicatricum  vulnera  plurimis  portarunt  diebus.  Nam  nullus  fere  nobilium reperiebatur, qui baculum in manu percusione vulnerum non habebat, et tres fuerunt neci traditi. Ex illis certitudinem penitus ignoramus, sed existimandum est, quod pauci ex istis pergunt. Idem Iadertini infęlices lassati, sed plus merore occupati conspiciunt <milestone unit="folium" n="57v/58"/> suos trabuchos igne cremari; non est qui manum adiiciat ab illis a quibus erat sperandum. Ingenti tristitia et inextimabili infortunio cinguntur, ascendunt menia vrbis, conspiciunt suos trabuchos pyro consummere, tueri ipsos nequeunt. Non tantum dolore mentis punguntur ex machinarum ammisione  et 
 
@@ -791,9 +688,7 @@ sinistri accidere posse arbitrantur. Soli magnates se disputantur et in tanta co
                <p>Quid de te machina mundi extimabit, o rex, o rex? Aserebat enim te tamquam ignorans cosmarium. Nunc opinionem mutarunt, iudicabat imperiasse grandiorem partem uniuersi, nunc tuę dignitatis titulum tui auidi commilitones sibi ascribunt, quos de seruitutis statu ad gloriam dignitatis sublimasti. Vbi iuramentum tuum, quod  paulisper  policitabas?  Potius  uolebas  mortem  eligere  quam  illos  fideles deserere. Sed tui cupidi consules certe in fisco reseruatum, uti est tua fides uniuerso hodie, prout taliter <milestone unit="folium" n="59v/60"/> tuos edocuisti tyrones, qui tam grande dedecus in tui presentia ausi sunt perpetrare, quippe rudis es, et principes tui de mane comedunt.</p>
                <p>Sic impune relaxasti illos, sic aule Gallice, ex cuius stirpe appellaris te fore indutum, tam grande fabricas opprobrium, ingens scelus in illos, qui te ut dominum colebant.</p>
                <p>Inbecilem te reputas nec camum mordibilem super tuos commisisti. Asserebas enim illos cum iuramento tanta charitate dilexisse, quod, licet dimidii tui regni thesaurus esset distrahendus, decet, ut illi liberentur a Venetorum imperio deteriusque foret  regio  sceptro  ab  exordio  et  medio  eos  renuere  quam  finem  tam  terribilem maculare. Minus facinus committeres tuo proprio ipsos iugulare lacerto quam in tanta calamitate et discrimine affici uelle. Hoc quidem est premium illud tam speciosum, quod fidelissimis tuis Iadertinis colargitus fuisti! Sed,  o  Iadera,  ecce  tuus  rex  aduenit,  rex  recessit,  in  aspero  ergastulo  uos afflixit. Optastis aduentum Ungarorum mucrone bicipite super uos irruentem, penitus ignorastis, quid petere nesciuistis.</p>
-
                <pb n="72"/>
-
             </div>
             <div type="caput">
                <head>
@@ -801,9 +696,7 @@ sinistri accidere posse arbitrantur. Soli magnates se disputantur et in tanta co
                <p> Et  dum  idem  regis  legatus  munus  insolubile  Venetis  percepisset,  Iadratini sperantes concordiam fore inter illos iam roboratam, sed per alteram uiam reuersus est in regionem suam. Lentitatem et ineffectum ipsius nuntii ipsi Iadertini infęlices concipientes, eorum exigente demerito, quod liberationem <milestone unit="folium" n="60/60v"/> patrię ab illo, qui ut sanctus honorabatur, acceptare nequiuissent, sed ab eo inconstantia verba accipiebant, in uaria seditione pro parte pinguium plebeiatorum aduersus egregios extitit ciuitas commota.</p>
                <p>Sed plurimi ex crasso vulgo proprię patrię fuerunt propter cupiditatem perfidi proditores.  Rebelliones  statum  vrbis  hostibus  declarant,  hortantur  eos  maiores amplexandas uires. Fit ingens strepitus per uicos ciuitatis, asperime tumultuant infimates erga consentientes reconciliationi. Nullus insignium tutus ualde per urbem uagare audet nullusque prouerbium irascibilis cordis nemini illorum resonare audet, immo isti populati villici intuentes quempiam egregium sępissimis ignominiis iactabant.</p>
                <p>Tandem viri inter manibus urbis pendebant pro quietatione rusticalis populi mille aureos comunis per duos officiales comunis vulgi et unum nobilem iubent per infimiores distribui. Et similis dispensatio non extitit unica, sed plusquam bina et bina, numi vniuersitatis illis fuerunt dispenssati, sed aliquis profectus seu fructus operis ex hoc minime sequebatur, immo dementiorem capiebant audaciam. Nam qui parcit virge, inquit Sapiens in Prouerbiis, odit filium. Ubi erat quidem congeries plebeiatorum,  totum  eorum  murmur  et  tumultus  erat  aduersus  urbis  pretores, concordiam per hostes eligendam illos nolle asserebat. Sed veritatis stilus ab eorum ore prosiliebat, cum <milestone unit="folium" n="60v/61"/> generosi illud iugum, quod Ueneti affectabant, possibilitas non denegaret, protinus abiiciebant.</p>
-
                <pb n="73"/>
-
                <p>Quodam  vero  die  XIIII-o  Kalendas  Sextilis  mensis  imfimus  populus  grandi comitiua in maiori publico foro certis armis protinus bellicosis amicti stabilierunt locum grandisque uocibus resonans ac nobiles imperiosis et minacibus insultans verbis, penitus ciuitatem velle submitti Ducali imperio quam in tali morari uelle discrimine. Denique pretores coacti pro satisfaciendo populo ac plurimi perterriti formidine duos ex egregiis et unum ex illis ad capitaneos inimicorum exercitus destinant in nuntios. Qui constituti coram ipsis capitaneis causam suę legationis pronuntiantes et, dum ipsi legati finem suorum fecissent verborum, quidam eorum consulte in hęc verba prorupit: Paratos nos fore fauorabiliter tractare et habere eos, qui sic a uia rectitudinis deuiarunt, qui tam grandem et humilem veniam exposcunt ex commissis, cum hoc puncto et perpendiculo urbem hanc prebeant, quam iniuste possident, expeditam cum cunctis eius vallatis castris et oppidis tam sitis intra ciuitatem quam extra  gazas  ciuitatis,  siue  ipsi  ciues  in  sui  libitum  et  commodum  conuertant, dummodo  fidelitatem  condignam  subiectionis  Ducali  dominationi  perficiendo retineant. Quodsi aliquis tante temeritatis compertus fuerit, qui potius aliene subiectioni attentauerit se suppetere, pro iustitia cedat arbitrio, cuius Ducalis celsitudo mandatum <milestone unit="folium" n="61/61v"/> ordinaret, et hec non ut per patentes paginas modo federis sit ascriptum, sed verbo quo affirmant Iadertini fidem credulam debeant adhibere. Exponentium uerba idem nuntii plenarie intellexisse habetur, vrbem adeunt, pretoribus eiusdem seriatim responsiuam legationis exponunt omnesque rectores, qui erant numero tres, et duodecim oratores Iadrę, in quos tota vrbs pendebat, decreuerunt ex certa scientia potius uelle artus ciuium mandere quam ad tales conscendere uelle conditiones nec eorum patriam tali suppetere uelle imperio.</p>
                <p>Sed tum grex inflamatiori furore contra illos accenditur, ipsi obtemperare non student. Decuplat audatiam, feruet indignatione et nec saturari ualent, tanta siquidem ipsius dementis gregis geminata erat iniquitas et elatio ac in tanta seditione uniuersa ciuitas est corrupta, quod secundum libitum populi hostes remigantes iuxta 
 
@@ -815,7 +708,7 @@ sinistri accidere posse arbitrantur. Soli magnates se disputantur et in tanta co
             <div type="caput">
                <head>
                   <add>12.</add> Qualiter generosi cives suppetunt plebeiatos propter iustitiam contra ipsos exactam</head>
-               <p> 
+               <p>
                   <milestone unit="folium" n="62/62v"/> Dominica quadam, tertio viceno die Quintilis mensis, quam Iadertini benedictam dominicam dicunt, contigit quod quidam rebeliones, qui ad hostes saltum fecerant, 
 <pb n="75"/>
 in quadam cymba iuxta littus ex quirinali plaga vrbis remigantes, aliqui fideles patrię ex infimatum ordine sub specie fiducie illos ad terram conuocant. Quibus fide adhibita iuxta  littus  applicarunt.  Insurgunt  quidam,  qui  in  latibulis  erant  latitati,  illos conspiratores,  qui  erant  numero  quinque,  potenter  ceperunt  ac  in  ipsis  manus iniecerant, quos ad rectores ciuitatis captiuatos conduxerunt. Post quos totum vulgus est deualatus, nullus tanta audacia precinctus, qui tueri a manibus illos attemptaret.</p>
@@ -882,9 +775,7 @@ transfretauit. Hic nouus vocatus est Andreas Maureceno. Et post aliquibus licet 
                      <p>Magnifico  ac  potenti  viro  et  domino,  domino  suo,  domino  Andreę Maureceno, capitaneo generali, frater Michael, abbas Sanctorum Cosme et Damiani monasterii de monte diocesis Iadrę, humili reverentia et salutem prosperam tamquam patri et domino, in quem nos et domus nostra habuit spem, habet et habebit.</p>
                      <p>Semper homines et mulieres totaliter et numquam a mandatis vestrę paternitatis recessimus neque deuiauimus. Vnum, domine mi, multa uobis narrarem mirrabilia de factis domus nostrę, de tribulationibus et infestationibus, quas habuimus cum Marino, fratre nostro, ab inimicis nostris et de aliis nouitatibus Iadrę, si essemus 
 <milestone unit="folium" n="69/69'"/>  penes  vos,  et  quando  placebit  dominationi  vestre,  venimus  ad  uos tamquam ad patrem. Multa scripsissem vobis, sed non presummo, verumtamen mittimus vobis fratrem Gregorium, monachum nostrum, qui fuit captiuatus Venetis et, quia data fuit illi licentia a rectoris Iadrę, per menses iam duos egrotauit et nihilominus congrue posset recedere. Sed intelleximus de aduentu vestro, idcirco fecimus  eum  prestolari,  donec  venissetis.  Quapropter  dictum  monachum  informauimus, qui vobis seriem enarabit per totum.</p>
-
                      <pb n="83"/>
-
                      <p>Valeat Magnificencia vestra cum augmento prosperitatis nunc et semper! Data Iadrę, die nono intrante Septembris.</p>
                   </quote>
                </p>
@@ -895,9 +786,7 @@ transfretauit. Hic nouus vocatus est Andreas Maureceno. Et post aliquibus licet 
                   <add>17.</add> De quadam iustitia et agone hostium, in quo Iadertini preualuerunt</head>
                <p> Quidam natione Thuscus iniqua conceptione, sed deteriori <milestone unit="folium" n="69v/70"/> proposito executionis, exercitu Venetorum Iadram transfugauit, quem edicto rectorum Iadertini ceperunt. Et Kalendis Octobris mensis quendam angromagulum Iadrę pyratarum inimici inane ceperunt, quem in sui conuerterant vsum. Dirumpunt Veneti machinis cęnacula hostium, ex quibus vna in maiori sticatu confecta iactando precipitauit pro paucis ebdomadis elapsa rursum reparari iussa est. Concupiscunt aggressi sentire semitas exercitus coadunatis metis termini, sed oberrare nequeunt propter artissimum firmatum obsessum, quod nec intro nec extra ciuitatem nullus egredi attemptat.</p>
                <p>Sed  quadam  decima  nocte  Octobris  stipendiarii  Iadrę,  qui  erant  circa  bis quadraginta, eorum aliqui cum obtento commeatu extra vrbem latuere, forsan aliquem ex obsidentibus adipisci potuissent, et ecce illi solitam normam penes fasceninas ciuitatis suos protrahunt gressus. Latentes sentiunt impetumque contra eos viriliter faciunt, ternum numerum ex eis capiunt et in vrbem deducunt ac plurimos <milestone unit="folium" n="70/70'"/> ibidem sauciatos relinqunt. A quibus captiuatis ambiguitas conciuium extitit denudata amplius.</p>
-
                <pb n="84"/>
-
                <p>Quidam Iadertini pro inferenda inimicis grauiora dispendia ac propriam patriam aliquali recreationis esu suffulcire, fabricarunt paronem monos transtrorum viginti et trium, quem die prescripti mensis decima e terra in mare natare student, et iam fere medius in equore pulsus. Veneti cernunt, in nimia cordis angustia mouentur.</p>
                <p>Ornat octo galleas capitaneus maris tectas laneis armis lausis, ne offensionem balistę spiculorum paterentur, cum quibus audacter se mouit festinanter erga illum paronem,  sed  more  femineo  abscessit  nihil  probitatis  ostensus  et  cum  penes ipsum accesisset,  indistans  ab  eo  fere  trium  passuum,  se  stabiliuit,  propius nutauit accedere.</p>
                <p>Iadertini  equidem  galleas  hostium  in  portum  remigare  sentiunt,  cite arma suscipiunt,  ad  defensandam  suam  classem  accelerant,  et  ibi  grauiter  remigatores <milestone unit="folium" n="70v/71"/>  gallearum  ex  inimicorum  sagittis  fusticantur.  Conatur  etiam  vna illarum classium accedere ad paronem, ut uiolenter ipsum eripiat et ad portum deducat vel saltem rogum in eum coniectet. Pro aduersariis, qui citabant supra puppi ipsius, qui erant fere pugiles duodecim, crebribus illorum percussionibus telorum ac lapidum necnon spiculorum, quod coactos repellunt, similiter etiam galleas reliquas, quippe nullus remigatorum compertus foret, qui in aliquo artu cicatricis  signum  non  passus  fuisset.  Ex  quibus  plusquam  centenarius  numerus mortem consecuti sunt. Conflicteque gallee et deuicte a portu abierunt nil lesionis 
@@ -913,9 +802,7 @@ defectum illi paroni conficientes, sed aliquos Iadertinos curabili vibice saucia
                <p>Rursum murmurat ganeo populus et pariter cum illo multi generosi conciues <milestone unit="folium" n="71v/72"/>  suscipiunt  maiores  alas,  cum  nullum  famis  medicamentum  nisi comessatio arbitratur.</p>
                <p>Ingens, cuius non extitit in primordio ipsius vrbis edificatione similis, egestas, nam vnica libra nefrendium argenteis tribus venumdabatur. Arietum intesticulatorum copia haberi non poterat pro vno nec pro infinito obolo. Taurorum et vitulorum libra quelibet argenteo bino et semis, caballorum ac mulorum quaterna deca, pro vnica soluebatur numis ternis deca et sex, ualebat. Monos ouum galinę ereis duodecim, pullus eius pro argenteis bis tetras fiebat concambium, genitrix pullorum vel capo aureum monos et semis venumdabatur, et omnium horum grandissimam vrbs gerebat penuriam.</p>
                <p>Anonę modius vnus pro duodecim aureis haberi non poterat.</p>
-
                <pb n="86"/>
-
                <p>Tanta quidem valida fames in ipsa ciuitate turguit, quod venatores murium ac predones cattorum plurimi efficiebantur ciues, quos ad victum conuertebant, quod iam species cattorum ibidem minime reperiri poterat, holeraque crudaque brutorum corpora saturant ventrem, ex rabie <milestone unit="folium" n="72/72v"/> comestationis resarciebant. Nunc hic, nunc ille cumbit animal rationale fame interitum, nunc is tamquam demens vigoreque naturali priuatus vrbem circuit, cibum minime aquiritur, nunc ille venustatis humane formam commutasse conspicitur. Vociferatur strepitus opponentibus fęderi, fit lętalissima plaga non solum in plebeiatos uerum etiam inter generosos. Et nisi tunc illa esca distributa fuisset per comunis officiales, aut hostes suum intentum consecuti fuissent aut omnes conciues defectu cibi spiritum exalassent. Presidium alicunde non prestolantur, in animo fiduciam omnes vnanimiter neccesse appetunt, sed mors vtique ab eis dilatatur, in quanto discrimine ciues et patria morantur. Adhuc geminatum est eorum latitatum odium et abominabilis elatio nec ad illum, qui fertilis est inbecilibus incolumitatis suffragium condare student accedere.</p>
                <p>Sed iustissimus <milestone unit="folium" n="72v/73"/> princeps celestium et infimorum, qui mortem non vult peccatoris, ex insontium virginum puritate hac vice intromittere se neglexerunt, ne vili stupro deputarentur et forsan consonantius monitis sanctorum corporum sponte locum in ipsa ciuitate eligentium, non siniuit illos Iadernos quamuis dignos vsque in finem sic crudeliter, vt putabant, deficere. Quidni obcecati spernibili ignorantia non eligunt nec preficiunt regnatores patrię, qui sapientia cęteris prepollent, sed potius illos, qui amentia quam uirtutis dignitate vigerent iuxta illud Dalmatię prouerbium: Scannum  cecidit,  scannullum  resurexit.  Non  paruum  anathema  supernę predestinationis  in  ipsos  irruit  eorum  exigente  scelere.  Illi,  quanta  splendide <pb n="87"/>
 
@@ -924,19 +811,14 @@ conuiuabantur, qui alebantur vsque ad saturitatem arietum intesticulatorum pro n
                <p>Audiunt  consiliarii  vocum  clangorem,  plurimi  ibidem  accelerant  vna  cum stipendiariis <milestone unit="folium" n="73v/74"/> comunis, qui erant primi numero octuaginta. Illi timentes, ne impetus contra illos esset exactus, vnus pre alium abierunt, sicque collegium extitit commotum. Sed mox sumpto prandio sero Consilium cumulatur et insurgens vnus nobilium vltra septenarium prouectus in locum constitutum ascendit, primitus lachrymis irriguis profluit, demum coram omnibus sui conceptum pollito sermone taliter est prolocutus: &#x93;Statuuntque penitus se velle Venetorum subiicere dominio, cum eorum alitus vicinior sit morti quam huius sęculi vitę.&#x94; Legant quosdam ciues, quosdam conciues ad vtrosque obsidentes capitaneos intentionemque eorum expresse patefacere  compelluntur,  qui  aures  videntur  inclinasse  et  alacriter  auscultasse.</p>
                <p>Conueniunt ęmuli non vnica, sed crebra vice nec isti nec illi sua proponunt partita.</p>
                <p>Denique pro inienda conuentione exhibere obsides quos in pontificis Nicolai <milestone unit="folium" n="74/74'"/>
-
                   <pb n="88"/>
  celebritate consignant amplius beniuolo comeatu vtrorumque capitaneorum, scilicet  Marci  Iustiniano et Andreę Maureceno, sub quorum dominio vniuersus exercitus Venetorum habebatur, in custodia.</p>
                <p>Ipsi Iadertini sexto Idus Decembris solemnes sex conciues eligunt insignes in missos, quorum nomina sunt hęc: Paulus Stani de Varicassis, Petrus de Matafaris, Bartholus Petri de Sloradis, Nicolaus de Gallelis, Marinus de Calcina et Michael de Cedulinis, ad excelentiam Ducalis imperii flexis vtrisque genibus, pronis et detectis accephalis verboque lachrymabili veniam de commissis exposcendum, quatenus dignetur eorum mellifluam impendere gratiam, cum homini naturale sit deuitare errores, nam pignus prouocat genitorem et creatura creatorem nihilominus cognito sui facinore et infusa penitentia offensa crimina delentur. <milestone unit="folium" n="74v/75"/> Denique manibus Venetorum se tradendum. Et ingrediuntur isti vrbem Venetiarum. Omnes eius conciues concurrunt festinanter ad intuendam Iadertinorum mansuetudinem et multa admirratione cordis commouentur. Ingens iocunditas multiplicatur in ipsa ciuitate, exponunt honorem manthelis extortis ac humili sermone suę legationis seriem coram Duce Andrea Dandolo ac ceteris consiliariis eiusdem in hac forma et tenore: Errauimus sicut ouis, que periit. Parcite deuiatoribus! Veniam petimus, gratiam postulamus.  O  zelatores  iustitię,  intendite  auribus  vestrę  pietatis!  Peccauimus  in conspectu tantę potentię, ad uos currimus, qui non vultis mortem peccatoris, sed ut conuertatur et viuat, qui etiam extensos lacertos et brachia deuiantibus tenetis, vestra magnalia iustitię ignorauimus. A Ducali gloria deposcimus indulgentiam, que cunctis est beniuola <milestone unit="folium" n="75/75v"/> et benigna. Omnia nostra vestra sunt et in vestris relinquimus manibus arbitrioque nutuique tradimus ciuitatem liberam et solutam et quicquid intus et extra eidem pertinet et nos nostraque pignora ad vestri voluntatem et honorem.</p>
                <p>Spondeatis gratiam cum misericordia, vnde fideliter sub alis vestri dominii penitus possimus permanere. Nam humanum est peccare, angelicum emendare et diabolicum perseuerare. Duobus primis confidentes, vnde misericordia, obtemperare curauimus.</p>
-
                <pb n="89"/>
-
                <p>Quos Dux et vniuersus comunis tam charitatiue prout dilectum filium pater ad sui amplexatur amorem, errorem per illos insensate exactum penitus inanientes ac eos suauibus elogiis amonentes, vt id quod ore pronuntiarent, plenam ratificationem obtineat, denique tribuere ipsis ciuitatem solutam et liberam vniuersumque ipsius districtum  absque  alicuius  impedimenti  obstaculo.  Promiserunt  <milestone unit="folium" n="75v/76"/>  illi personas et mamonas ciuitatis sex fidelium incolumes seruare, publica roborauerunt priuilegia interueniente hoc fędere nuntiato ratificantesque mutuo pacta et conditiones Iadertinorum, quos Veneti sub potenti deputarent custodia.</p>
                <p>Vnus eorum Iadram adiuit, ut quod per illos roboratum fuerat, per hos efficaciter impleatur. Et dum iste patriam introiuit, vniuersum vulgus iocundatur. Adherent velle parere quicquid sindici et legati Venetis compromiserunt. Ipsosque die, quo idem nuntius vrbem est reuersus, videlicet solemmitate apostoli Thomę seu vicesima prima die mensis Decembris, circa horam vesperorum vniuerse value, quę erant in ciuitate Iadre clausę cementoque fundatę, reserantur et vtrosque capitaneos et cunctam eorum comitiuam per ipsos electam Iadertini locant in possessione, turres fortiliciasque  ciuitatis  eorum  manibus  consignant  descenduntque  a  littore tam terrestris quam maritimus capitaneus <milestone unit="folium" n="76/76v"/> innumerabili comitiua hominum cum simphoniis, tubis ac timpanis et cęteris musicorum instrumentis per valuas arsanę ciuitatem ingrediuntur suosque gressus ad basilicam pastoris urbis protrahunt et ibi senior ac plurima vigens sapientia capitaneus terrestris ascendit pulpitum in multa ciuium, et nobilium et plebeiorum, ac aduenarum societate oratorios prorupit sermones, quibus cunctis ciuibus spondens gratiam ac indulgentiam de comissis.</p>
-
                <pb n="90"/>
-
                <p>De quibus ciues hortati, vniuersa turba in spaciori peruenit foro effigiemque illius regis, que in trunco fuerat erecta, remouent, effigiem S. Marci in vexillo depictam in ipso cum laudis iubilatione erigunt.</p>
                <p>Tandem iunior capitaneus maris, scilicet Andreas Maureceno in logia maiori imposito silentio amonuit vniuersos ciues, ut fidelitatem, quam spoponderant, in perpetuum obtineant et quod per eos ac comune et Ducem Venetiarum stabilitum et ratificatum  fuerat  cum  sindicis  comunis  Iadrę  effectualiter  <milestone unit="folium" n="76v/77"/>  erit obseruatum, nec aliquis formidet, sed quilibet suis vtatur vt uult et debet.</p>
                <p>Et dum hęc acta fuissent et completa usque crepusculum, ad grande theatrum comunis ipsi capitanei ascenderunt.</p>
@@ -947,17 +829,13 @@ conuiuabantur, qui alebantur vsque ad saturitatem arietum intesticulatorum pro n
                   <add>19.</add> Quomodo Veneti cruciant Iadertinos cum molestatione non obstante eorum  sponsionis  iuramento</head>
                <p> Instruuntur Iadertini, qui tot anxietates sustulerunt, non tantum corporis verum etiam animę nouis escis refocilari iam diu non fragratis, quemadmodum imfans, qui mamma priuatus et inconsuetis alimoniis depascitur. Cum vrbs omni cibo et mero cuiuslibet speciei impinguatur, ingens fit pressura turbę vendentis <milestone unit="folium" n="77/77v"/>  victum  et  ad  sustentamentum  fragilitatis  humanę  fulciunt  ciues  lares  copia victualium ac vino inebriant stomacum.</p>
                <p>Denique die vicesimo tertio vltimi mensis memorati capitanei, qui vicem gerebant rectoris, grande consilium ad campanę sonum, ut moris erat, fecerunt, in quo omnes consiliarii  tactis  corporaliter  Scripturis  quam  compromiserant,  inuiolabiliter  in perpetuum obseruabunt. Similique modo mane facto vniuersi plebeiati in logia maiori in foro sita firmauerunt sacramentaliter.</p>
-
                <pb n="91"/>
-
                <p>Et cum sic per aliquot dies licet in maximo persistissent tremore dicti conciues, et ecce repente, scilicet in Kalendas nono Februarii exiit edictum a capitaneis, vt vniuersa ciuium arma describerentur pariter et auferantur. Nec non hęc dum perfecta erant, et ecce aliud mandatum Ducale intonuit, quinquaginta elegantiores ac nobiliores ciues  Venetias  debere  celeriter  adire,  qui  sexto  Kalendas  Februarii  ad  locum  eis constitutum  suum  iter  in  galleis Venetorum  arriperent.  <milestone unit="folium" n="77v/78"/>  Fit  grandis meror in vrbe, fit priuatio tantę nobilitatis, quę in ipsa tempore felici vigebat.</p>
                <p>Vbi nunc eorum palia muricis coloris, vbi eorum indumenta variis suffulta cutibus? Certe faciliter respondetur: sicut elegerunt et quale semen seminarunt, hoc eligent et metent. Habent enim asperrimum camum, qui eorum fastum vsque ad ima protrahet.</p>
                <p>Aquiescere minime insani et vltimi oratores consilio Sapientis voluerunt dicentis: Numquam credas inimico reconciliato. Hoc est illud frenum, de quo miserabiles Iadertini  a  multo  iam  elapso  tempore  formidarunt,  hic  est  ille  biceps  mucro  non solum corpus corruptibile sed etiam animam inmortalem videtur et epar infelicium pertransisse.</p>
                <p>Quam cito iuramentum ipsi Veneti infringerunt, ac si sine lege vt Caldei vitam ducerent, non ęquum videtur tam stupendum nouum per eos exactum fore. Vniuersa per Iadertinos illis collata inanientes pariter <milestone unit="folium" n="78/78v"/> et delentes et nunc recentia fędera contuentur insurgere. Sed non presumendum, quod aliqua interfuit malitia nisi decoris laudisque uenustate aquirenda, si effectus consequeretur operum.</p>
                <p>Deputantur in vrbis custodiam peditum quatuor centenarii equitumque duo, qui continuis dietis ciuitatem valeant ab obstantibus tueri. Precipitantur etiam vtraque sticata atque eorum tabernacula in ruinam destruuntur. Fulciuntque ciuitatem anona et lignamine, si neccesse foret in ciuitate exercendum.</p>
-
                <pb n="92"/>
-
                <p>Et adueniente die octauodecimo Martii mensis denarios nobiles a ciuitate Iadrę ablatis reliquis nobilibus Venetiis quiescentibus associarunt, vt numerus sexagenarius adimpletus fuisset, qui eodem tractatu Venetorum prout illi quinquaginta deputati sunt.</p>
             </div>
             <div type="caput">
@@ -966,7 +844,7 @@ conuiuabantur, qui alebantur vsque ad saturitatem arietum intesticulatorum pro n
                <p> Iam arbitror satis expedite et prolixe ... authoris ...</p>
                <milestone unit="folium" n="78v"/>
             </div>
-            </div>
-        </body>
-    </text>
-    </TEI>
+         </div>
+      </body>
+   </text>
+</TEI>

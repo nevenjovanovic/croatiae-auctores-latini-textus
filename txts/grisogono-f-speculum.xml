@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="grisogono-f-speculum">
          <titleStmt>
             <title>Speculum astronomicum, versio electronica</title>
@@ -48,74 +49,12 @@
           uredile Mihaela Girardi-Karšulin i Olga Perić, tekst uspostavio i preveo Tomislav Ćepulić.
           Zagreb: Institut za filozofiju, 2007.
         <relatedItem type="digitalisatum">
-                  <ref type="internet" target="http://www.ifzg.hr/digitalnaBastina/Grisogono-lat.pdf">Institut za filozofiju, Digitalna baština</ref>
+                  <ref type="internet"
+                       target="http://www.ifzg.hr/digitalnaBastina/Grisogono-lat.pdf">Institut za filozofiju, Digitalna baština</ref>
                </relatedItem>
             </bibl>
          </sourceDesc>
       </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="1"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="corr" occurs="7"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="36"/>
-          <tagUsage gi="docAuthor" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="3"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="figure" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="31"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="100"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="milestone" occurs="67"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="108" withId="108"/>
-          <tagUsage gi="num" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="27"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="73"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="116" withId="109"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="supplied" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="53"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="11"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -153,35 +92,32 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-      
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </persName>        
+            </persName>
             <date>2012-08-27</date>
         Početna verzija.
       </change>
       </revisionDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <front>
          <milestone unit="section" n="A1"/>
-         <titlePage> 
+         <titlePage>
             <titlePart>Speculum astronomicum terminans 
-        intellectum humanum in omni scientia</titlePart> 
+        intellectum humanum in omni scientia</titlePart>
             <docAuthor>Federici Chrysogoni Iadertini.</docAuthor>
          </titlePage>
          <pb n="4"/>
          <milestone unit="section" n="A2"/>
          <div type="prosa-epistula-praefatio">
-            <head>EPISTOLA</head> 
-
+            <head>EPISTOLA</head>
             <opener>Marcus Antonius, Caroli Contarreni filius, philosophiae 
 et sacrae theologiae candidatus, Federico Chrisogono 
 Iadertinorum nobilissimo, artium et medicinae 
 doctori acutissimo<ref type="note" xml:id="ref1" target="n1" n="1"/>, astrologorum principi, ordinarie in 
-alma Academia Patavina feliciter legenti, felicitatem.</opener> 
-
+alma Academia Patavina feliciter legenti, felicitatem.</opener>
             <p>Pater Atlas, quia astrorum motus optime calluit, ideo 
 caelum manibus amplecti dicitur. Quod a Ptolemaeo et 
 Alphonso, rege Hispanorum<ref type="note" xml:id="ref2" target="n2" n="2"/> et imperatore Romanorum, 
@@ -263,14 +199,13 @@ compraehendit omnia humana atque divina) impressioni
 per me mandata (ut posteris etiam haec innotescant) ad 
 te mitto. Reliquas vero tuas lectiones doctissimas lectas et 
 legendas (bono communi consulendo) tibi imprimendas 
-relinquo. Vale.</p> 
+relinquo. Vale.</p>
          </div>
          <div type="prosa-oratio">
-            <milestone unit="section" n="A3"/> 
+            <milestone unit="section" n="A3"/>
             <head>ORATIO clarissimi artium et medicinae doctoris 
 Federici Chrysogoni Iadertini in Academia 
-Patavina publice habita</head> 
-
+Patavina publice habita</head>
             <p>Dum quintum aetatis annum ducerem, una die utroque 
 parente orbatus sum, concio ornatissima, nec amplius 
 censores habere volui, sed vi superum et intelligentia non 
@@ -562,9 +497,7 @@ tantum, aliqua infirmare atque corrumpere? Et
   
   
 </p>
-
          </div>
-
       </front>
       <body>
          <pb n="26"/>
@@ -572,11 +505,10 @@ tantum, aliqua infirmare atque corrumpere? Et
             <head>SPECULUM astronomicum terminans 
 intellectum humanum in omni scientia 
 clarissimi artium et medicinae doctoris 
-Federici Chrysogoni Iadertini</head> 
+Federici Chrysogoni Iadertini</head>
             <div type="prosa-praefatio">
                <head>Praefatio in librum Elementorum Euclidis<ref type="note" xml:id="ref35" target="n35" n="35"/>
-               </head> 
-
+               </head>
                <p>In primis Deo trino optimo maximoque gratias agamus, 
 sicut suae gloriae celsitudo expostulat. Qui talem mihi 
 gratiam concessit, ut amicis ex vobis, doctores celeberrimi 
@@ -622,12 +554,11 @@ secundo vero tractatu, quae ad arithmeticam pertinent,
 in tertio vero quae ad musicam speculativam divi Boethii 
 spectant. In quarto et ultimo, quae ad astrologiam speculativam 
 et iudicialem, in Quadripartitum et Almagestum 
-Ptolemaei, sunt utilia.</p> 
+Ptolemaei, sunt utilia.</p>
             </div>
             <div type="prosa-capitulum">
                <head>Capitulum primum tractatus primi: 
-de genere causae efficientis</head> 
-
+de genere causae efficientis</head>
                <p>Euclides igitur Megarensis est efficiens huius artis, 
 scilicet libri Elementorum; qui quidem in ista scientia 
 attigit ultimum gradum perfectionis possibilem per naturam: 
@@ -654,11 +585,10 @@ prius notae nobis et naturae, ergo a priori. Ita tamen,
 quod conclusio priorum demonstrationum sit praemissa 
 sequentis demonstrationis. Quia omnia posteriora natura 
 demonstramus in istis per ea, quae sunt priora natura, 
-quia per causas adaequatas.</p> 
+quia per causas adaequatas.</p>
             </div>
             <div type="prosa-capitulum">
-               <head>Capitulum secundum: de genere causae materialis</head> 
-
+               <head>Capitulum secundum: de genere causae materialis</head>
                <p>Subiectum vero huius artis, scilicet libri Elementorum 
 vel principiorum Euclidis, est quantitas. Quae accipitur 
 pro genere causae materialis, circa quam. Quae est duplex 
@@ -819,8 +749,7 @@ ex x. Metaphysicae, sequitur quod hic <milestone unit="section" n="B4"/> princip
 </p>
             </div>
             <div type="prosa-capitulum">
-               <head>Capitulum tertium: de genere causae formalis</head> 
-
+               <head>Capitulum tertium: de genere causae formalis</head>
                <p>Ordo, divisio, proportio et via doctrinae reducuntur 
 ad genus causae formalis. Ordo autem huius libri est 
 semper procedere ab universalibus simplicibus non contractis 
@@ -870,11 +799,10 @@ magis nota naturae et minus nobis. Quia ab effectu supra
 causam, praeterquam in paucis, quia in duobus vel ad 
 plus in tribus in tota philosophia naturali et divina primo 
 processu demonstramus, ut in textu commenti xxiiii. secundi 
-De anima, et in De memoria et reminiscentia.</p> 
-          
+De anima, et in De memoria et reminiscentia.</p>
             </div>
             <div type="prosa-capitulum">
-               <head>Capitulum quartum: de genere causae finalis</head> 
+               <head>Capitulum quartum: de genere causae finalis</head>
                <p>
 Intentio et utilitas idem sunt, quod et bonum accipiuntur 
 pro genere causae finalis. Intentio autem est 
@@ -987,7 +915,7 @@ propositum digredi, his modo finem faciamus.
          <div type="prosa-tractatus">
             <div type="prosa-capitulum">
                <head>Capitulum primum tractatus secundi: 
-de arithmeticae nobilitate</head> 
+de arithmeticae nobilitate</head>
                <p>
 Propositum erat in secundo loco velle pertractare de 
 his quae utilia sunt et digna cognitu ad libros Arithmeticae 
@@ -1057,7 +985,7 @@ posterior natura et perfectione.
          <div type="prosa-tractatus">
             <div type="prosa-capitulum">
                <head>Capitulum primum tractatus tertii: 
-de musica integritate</head> 
+de musica integritate</head>
                <p>
   Convenit modo ut aliqua dicamus de musica integritate 
   eiusque excellentia. Subiectum cuius est numerus 
@@ -1235,7 +1163,7 @@ est proportionata enti perfectissimo.
          </div>
          <div type="prosa-tractatus"/>
          <div type="prosa-capitulum">
-            <head>Capitulum primum tractatus quarti</head> 
+            <head>Capitulum primum tractatus quarti</head>
             <p>
 Promisimus enim ultimo loco aliqua de nobilitate et 
 excellentia astrologiae dicere, quae videtur esse tota perfectio 
@@ -1512,15 +1440,13 @@ ultimam eis imposui.
 
 
 </p>
-        </div>
-      
+         </div>
          <pb n="78"/>
-        <div type="prosa-tractatus">
-          
+         <div type="prosa-tractatus">
             <head>Plusquam expositio. Quia totalis resolutio 
 in librum Elementorum Euclidis 
 acutissimi artium et medicinae doctoris 
-Federici Chrysogoni Iadertini.</head> 
+Federici Chrysogoni Iadertini.</head>
             <div type="prosa-capitulum">
                <p>
 Expeditus de quatuor generibus causarum pertinentibus ad istam artem venio modo ad expositionem ipsius 
@@ -1616,7 +1542,7 @@ mensura, secundum diversa secundo De anima.
 </p>
             </div>
             <div type="prosa-capitulum">
-               <head>De puncto: Capitulum secundum</head> 
+               <head>De puncto: Capitulum secundum</head>
                <p>
 Punctum est cuius pars nulla est, id est quod non patitur divisionem. Unde puncta sunt fines vel termini lineae 
 finitae et terminatae et cadunt in eius diffinitione formali. 
@@ -1848,12 +1774,12 @@ et ipsa longitudo. Sed quandocumque concipitur linea,
 concipiuntur duo puncta continuata medio. Ergo quandocumque 
 concipitur linea, concipitur longitudo. Quia non 
 est aliud linea, nisi medium inter duo puncta. Quae nihil 
-aliud est, quam ipsa longitudo, ergo <abbr>etc.</abbr> 
+aliud est, quam ipsa longitudo, ergo <abbr>etc.</abbr>
                </p>
             </div>
             <div type="prosa-capitulum">
-               <milestone unit="section" n="f1"/> 
-               <head>De generibus angulorum: Capitulum quartum</head> 
+               <milestone unit="section" n="f1"/>
+               <head>De generibus angulorum: Capitulum quartum</head>
                <p>
 Cum duo genera angulorum sint: plani scilicet et non 
 plani, id est sphaeralis. Qui maior est quam planus. Unius 
@@ -1939,7 +1865,7 @@ contingentiae.
             </div>
             <pb n="100"/>
             <div type="prosa-capitulum">
-               <head>De generibus figurarum: Capitulum quintum</head> 
+               <head>De generibus figurarum: Capitulum quintum</head>
                <p>
         Superficies, figura, triangulus, isosceles. Ita se habent 
         per lineam praedicamentalem, quia sunt genus et genus 
@@ -1992,7 +1918,7 @@ omnes erunt diversae species.
           </p>
             </div>
             <div type="prosa-capitulum">
-               <head>De generibus triangulorum: Capitulum septimum</head> 
+               <head>De generibus triangulorum: Capitulum septimum</head>
                <p>
 Triangulus aequilaterus est figura tribus aequis lateribus contentus. Primo notandum est, quod non sunt nisi 
 tres species <milestone unit="section" n="F3"/> triangulorum: isopleuros, isosceles et 
@@ -2024,7 +1950,7 @@ laterum fiunt diversae denominationes triangulorum.
                <head>
 De figuris compositis ex triangulis tamquam 
 parente omnium figurarum et primo de quadrato: 
-Capitulum octavum</head> 
+Capitulum octavum</head>
                <p>
 Quadratum est figura quatuor laterum et angulorum 
 aequalium contenta. Quadrangulum est, quod ex parte 
@@ -2075,7 +2001,7 @@ et non ipsum corpus.
             </div>
             <div type="prosa-capitulum">
                <head>
-De lineis parallelis: Capitulum nonum</head> 
+De lineis parallelis: Capitulum nonum</head>
                <p>
 Lineae aequidistantes vel parallelae sunt, quae in eadem 
 plana superficie collocatae atque utrimque productae 
@@ -2179,7 +2105,7 @@ et vobis eam disputandam proposuisse.</p>
             <div type="prosa-capitulum">
                <head> 
 De petitionibus et communibus animi 
-conceptionibus: Capitulum x.</head> 
+conceptionibus: Capitulum x.</head>
                <p>
 Quia Campanus ad bonitatem doctrinae addidit unam 
 communem animi conceptionem, quam non video aliquem 
@@ -2297,10 +2223,10 @@ terminatus est numerus, magnitudo et augmentum per
 Philosophum secundo De anima textu commento xli. 
 </p>
             </div>
-        </div>
-        <div type="prosa-tractatus">
+         </div>
+         <div type="prosa-tractatus">
             <head> 
-In primam propositionem Euclidis</head> 
+In primam propositionem Euclidis</head>
             <p>
 Expeditus de prooemio venio modo ad ipsum tractatum 
 digestum in xv. libros. Qui prima sui divisione secatur 
@@ -2655,73 +2581,50 @@ et nulla alia ratione praedicta, quae regulatur per dici de
 existimo fore utilia, imo necessaria ad intelligendam intentionem 
 Philosophi in tota logica. Cuius solius est sciendi 
 modum praebere nobis et defendere nos a malis in 
-practicis et a falsis in speculativis.</p> 
-          
-        </div>
+practicis et a falsis in speculativis.</p>
+         </div>
          <closer>FINIS LAUS DEO TRINO ET UNO. </closer>
-      
-
-        
-          </body>
+      </body>
       <back>
          <pb n="140"/>
-      
          <div type="poesis-ode" met="sapphicum">
             <head>Petrus Partenius artium et medicinae 
       doctor ad Federicum Chrysogonum 
-      artium et medicinae doctorem</head> 
-      
+      artium et medicinae doctorem</head>
             <l>Qui tuas gestit tenui Camena </l>
             <l>5 Et rudi laudes resonare plectro </l>
             <l>Adriae tentat numerare fluctus</l>
-      
-      
             <l>Oceanique. </l>
             <l>Triplici quando serie bonorum </l>
             <l>Qui futuri quique fuere, qui sunt </l>
             <l>Vincis et claro superos ad ignes</l>
-      
             <l>Vertice surgis. </l>
             <l>Viribus polles, specie decorus, </l>
             <l>Aureo fulges generis nitore, </l>
             <l>Laeta nec terrae tibi multa avitae</l>
-      
             <l>15 Iugera desunt. </l>
             <l>Inclitae gemmis sophiae corruscas: </l>
             <l>Ceu micant flores crocei ligustris </l>
             <l>Additi: et fulvis velut applicata.</l>
-      
             <l>Lilia calthis. </l>
             <l>Noscis excelsi numerosa coeli </l>
             <l>Sidera: et flammas vitreo vagantes </l>
             <l>Aethere: hirsutae pluviosa nosti</l>
-      
             <l>Signa capellae. </l>
             <l>Nota sunt tardi tibi plaustra lapsus </l>
-            <l>25 Quos vehat pennis Iovis ales imbres.<ref type="note" xml:id="ref104" target="n104" n="104"/> 
+            <l>25 Quos vehat pennis Iovis ales imbres.<ref type="note" xml:id="ref104" target="n104" n="104"/>
             </l>
             <l>Quo fretum motet Procyon furore et</l>
-      
             <l>Litora<ref type="note" xml:id="ref105" target="n105" n="105"/> Delphin. </l>
             <l>Tu soli calles animo sagaci </l>
             <l>Puncta, secessus variasque gentes </l>
-      
             <l>30 Sicis interdum refluentis omnes </l>
             <l>Aequoris undas. </l>
-      
-      
-      
-      
-      
             <pb n="142"/>
-       
-      
             <l>Tu senis rythmos Samii recludis: </l>
             <l>Inscio veri nimium popello </l>
             <l>Tu doces vocis numeros sonore</l>
             <l>Harmoniamque. </l>
-      
-      
             <l>Praescius vitae retegis futurae </l>
             <l>Vota, successus dubiamque sortem </l>
             <l>Spes, metum, curas et amica pressae</l>
@@ -2729,32 +2632,24 @@ practicis et a falsis in speculativis.</p>
             <l>Augures ergo sileant vetusti </l>
             <l>10 Quique reclusis inhians catellis </l>
             <l>Viscera albentis timidus columbae</l>
-      
             <l>Tractat haruspex. </l>
             <l>Pythii cedant celebrata vatis </l>
             <l>Numina et vani Cybeles ministri </l>
-      
             <l>15 Terreat dictis Lybicos serenis</l>
-      
             <l>Corniger Ammon. </l>
             <l>Nos tuum Oenotri<ref type="note" xml:id="ref106" target="n106" n="106"/> genium precemur </l>
             <l>Supplices thure et saliente mica </l>
             <l>Ut canat quicquid miseris minantur</l>
-      
             <l>20 Postera saecla. </l>
             <l>Quicquid et laeti Iovis aula spondet </l>
             <l>Nam leve est illi reserare fata </l>
             <l>Coelitum qui nunc tenet astra solus</l>
-      
-            <l>Natus Atlante.</l> 
-      
-      
+            <l>Natus Atlante.</l>
          </div>
          <pb/>
-         <milestone unit="section" n="H3"/> 
+         <milestone unit="section" n="H3"/>
          <div type="poesis-elegia" met="elegiacum">
-            <head>P. Nardinus Celineus ad Federicum Chrysogonum</head> 
-      
+            <head>P. Nardinus Celineus ad Federicum Chrysogonum</head>
             <l>Accipe, Chrysogone, antiquae lux aurea gentis, </l>
             <l>Cuius in arcanis omnia pulchra latent. </l>
             <l>Ingenii, quos ipsa tui admiratio fecit, </l>
@@ -2785,14 +2680,11 @@ practicis et a falsis in speculativis.</p>
             <l>Aut quibus excellis dona superba deum? </l>
             <l>Quod superest oro ne dedignere poetam </l>
             <l>Versibus his laudes concinuisse tuas. </l>
-      
-      
-      
             <pb/>
-         </div>   
+         </div>
          <div type="poesis-epigramma" met="elegiacum">
             <head>Hieronymi Angeli artium et medicinae doctoris 
-        ad Federicum Chrysogonum</head> 
+        ad Federicum Chrysogonum</head>
             <l>Astra, polos, elementa simul causasque manentes </l>
             <l>Omnibus antiquis abdita solus habet.</l>
          </div>
@@ -2802,26 +2694,24 @@ practicis et a falsis in speculativis.</p>
             <l>Nec nitidis aurum cedit iaspidibus. </l>
             <l>Sic iuvenes superat cunctos probitate, lepore, </l>
             <l>Doctrina, ingenio, robore, Chrysonus. </l>
-         </div>   
-         <milestone unit="section" n="h3"/> 
+         </div>
+         <milestone unit="section" n="h3"/>
          <div type="poesis-epigramma" met="elegiacum">
             <head>
-      Matthaei Bini Veneti in libri laudem</head> 
+      Matthaei Bini Veneti in libri laudem</head>
             <l>Hoc speculo speculemur; habet speculator hic, unde </l>
             <l>Perspicias quicquid mens generosa potest. </l>
-         </div>   
-         <div type="poesis-epigramma" met="elegiacum">
-            <head>Marci Antonii Cyprii in eundem</head> 
-            <l>Vivere teque deis statuit seiungere<ref type="note" xml:id="ref108" target="n108" n="108"/> virtus, </l>
-            <l>Ut prius in terris fulgeas, inde polo.</l>
-        
          </div>
          <div type="poesis-epigramma" met="elegiacum">
-            <head>Laurentius Bruscus doctor collegii Patavini in eundem</head> 
-      
+            <head>Marci Antonii Cyprii in eundem</head>
+            <l>Vivere teque deis statuit seiungere<ref type="note" xml:id="ref108" target="n108" n="108"/> virtus, </l>
+            <l>Ut prius in terris fulgeas, inde polo.</l>
+         </div>
+         <div type="poesis-epigramma" met="elegiacum">
+            <head>Laurentius Bruscus doctor collegii Patavini in eundem</head>
             <l>Chrysogonum quisquis binis audierit horis </l>
             <l>Exuvias hominis ponet eritque deus.</l>
-         </div> 
+         </div>
          <div type="prosa-colophon">
             <p>Finis.
       
@@ -2829,21 +2719,17 @@ practicis et a falsis in speculativis.</p>
       Impressum Venetiis per Lazarum de Soardis 
       Anno Domini MCCCCCVII die XXIX novembris. 
       Cum privilegio. </p>
-         </div> 
-      
+         </div>
          <div type="poesis-epigramma" met="elegiacum">
-            <head>Excusatio Lazari</head> 
+            <head>Excusatio Lazari</head>
             <l>Si quid forte tuos offendet lector ocellos. </l>
             <l>Quod mihi mendoso grammate versus eat </l>
             <l>Emendare velis: nam non me Lazarus istis </l>
             <l>Confecit mendis bibliopola tuus. </l>
             <l>Sed turbata magis pressoris inertia quando </l>
             <l>Sera dedit lassas artibus hora manus.</l>
-      
-         </div> 
-      
+         </div>
          <pb/>
-      
          <div type="notes">
             <head>Notae</head>
             <note xml:id="n1" place="foot" target="ref1" n="1">1 corr. ex accutissimo </note>
@@ -2954,7 +2840,7 @@ practicis et a falsis in speculativis.</p>
             <note xml:id="n106" place="foot" target="ref106" n="106">106 corr. ex Enotri </note>
             <note xml:id="n107" place="foot" target="ref107" n="107">107 corr. ex sydera </note>
             <note xml:id="n108" place="foot" target="ref108" n="108">108 corr. ex se iungere </note>
-        </div>
+         </div>
       </back>
-  </text>
+   </text>
 </TEI>

@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc xml:id="andreis-f-thurc-her">
          <titleStmt>
             <title>Ad Deum Contra Thurcas Oratio Carmine Heroico, versio electronica</title>
@@ -40,7 +41,6 @@
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <biblStruct>
                <monogr>
-
                   <author>Andreis, Franjo Trankvil</author>
                   <title>Hec continentur in hoc opusculo: Tranquilli Parthenii Dalmate Ad Deum contra
               Turcas oratio carmine heroico, ejusdem Epistola ad clar. ac nob. virum Hieronymum de
@@ -59,99 +59,12 @@
                </monogr>
                <note>Reference: DGK, 4, col. 690. - Reference: VD 16, T. 1, pag. 399.</note>
                <relatedItem type="digitalizat">
-                  <ref type="internet" target="http://nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004906-0">BSB, VD16</ref>
+                  <ref type="internet"
+                       target="http://nbn-resolving.de/urn:nbn:de:bvb:12-bsb00004906-0">BSB, VD16</ref>
                </relatedItem>
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-      <encodingDesc>
-         <classDecl>
-            <taxonomy xml:id="genus">
-          <!-- kontrolirani katalog za žanrove, za novolatinski? -->
-               <category>
-                  <catDesc>genera litteraria</catDesc>
-               </category>
-            </taxonomy>
-
-            <taxonomy xml:id="aetas">
-          <!-- gdje je kontrolirani katalog za periodizaciju? -->
-               <category>
-                  <catDesc>aetates</catDesc>
-               </category>
-               <category xml:id="locus">
-                  <catDesc>locus</catDesc>
-               </category>
-            </taxonomy>
-         </classDecl>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abbr" occurs="2"/>
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="add" occurs="3"/>
-          <tagUsage gi="author" occurs="2"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="1"/>
-          <tagUsage gi="biblStruct" occurs="1"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="catDesc" occurs="3"/>
-          <tagUsage gi="category" occurs="3" withId="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="classDecl" occurs="1"/>
-          <tagUsage gi="closer" occurs="2"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="8"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="6"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="2"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="foreign" occurs="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="5"/>
-          <tagUsage gi="imprint" occurs="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="326"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="monogr" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="note" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="15"/>
-          <tagUsage gi="persName" occurs="8"/>
-          <tagUsage gi="placeName" occurs="4"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="pubPlace" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="publisher" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="2"/>
-          <tagUsage gi="respStmt" occurs="2"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sic" occurs="2"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="61"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="taxonomy" occurs="2" withId="2"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="2"/>
-          <tagUsage gi="titlePage" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="4"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -199,7 +112,6 @@
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2010-10-26</date> zaglavlje </change>
-
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -207,8 +119,8 @@
             <date>2009-01-11T00:02:55</date>
          </change>
       </revisionDesc>
-  </teiHeader>
-  <text xml:lang="lat">
+   </teiHeader>
+   <text xml:lang="lat">
       <front>
          <titlePage>
             <titlePart>Hec continentur in hoc opusculo.</titlePart>
@@ -218,12 +130,9 @@
             <titlePart>Item Epigramma Viti Verleri: Dauid Rotmund buchornensis: et Theoderici Spett
           Prepositi Stuchardiensis.</titlePart>
          </titlePage>
-
          <pb/>
-
          <div type="poesis-epigramma" met="elegiacum">
             <head>Vitus Verlerus</head>
-
             <l n="1">Sunt quibus alta placet / turritaque tecta domorum</l>
             <l n="2">Erigere: et Triuiae marmora celsa Deae</l>
             <l n="3">Pyramidum moles: vasti rhodos aurea Phoebi</l>
@@ -260,10 +169,8 @@
             <l n="34">Atque est apposito pagina digna Cedro:</l>
          </div>
          <pb/>
-
          <div type="poesis-epigramma" met="elegiacum">
             <head>Dauid Rotmund Buchornensis.</head>
-
             <l n="1">Non opus est lapythum / non discere. bella Gygantum</l>
             <l n="2">Thurca ferus populo perstat utroque magis.</l>
             <l n="3">Cui quaesisse satis non est tot regna tot urbes:</l>
@@ -277,10 +184,8 @@
             <l n="11">Non humana putes moturum pectora tantum</l>
             <l n="12">Cogere sed summum sub sua vota Iouem:</l>
          </div>
-
          <div type="poesis-epigramma" met="elegiacum">
             <head>Theodericus Spett Prepositus Stushardiensis.</head>
-
             <l n="1">Horrida Thurcarum / minitantiaque agmina sanctis</l>
             <l n="2">Christicolis / magno vix memoranda metu /</l>
             <l n="3">Tranquillus breuiter / mira descripsit et arte:</l>
@@ -288,14 +193,11 @@
             <l n="5">Ah quales lachrymas / fundit quae vota Tonanti.</l>
             <l n="6">Flecteret his precibus flumina / saxa / feras.</l>
          </div>
-
          <pb/>
-
          <div type="prosa-epistula">
             <opener>Tranquillus Parthenius Andronicus Dalmata Clarissimo ac Nobili viro Hieronymo de
           Croaria in Tapfaim vtriusque Iuris Doctori. <abbr>S. D.</abbr>
             </opener>
-
             <p>Etsi vir humanissime non satis propriae calamitates mihi deploratae sunt, tamen quum
           videam Rempublicam Christianam immanissimorum Thurcarum rabie vehementer labefactatam /
           maioremque in dies subituram esse iacturam / a lachrymis temperare non potui. Ferocissimus
@@ -322,7 +224,6 @@
          </div>
       </front>
       <pb/>
-
       <body>
          <div type="poesis-carmen" met="hexameter">
             <head>
@@ -605,16 +506,12 @@
             <l n="262">Balsama / Myrrha recens / passim quoque pinguia thura</l>
             <l n="263">Assiduis precibus / magno fundantur honore:</l>
             <l n="264">Omnipotens / solusque Deus / Genitorque voceris:</l>
-
          </div>
       </body>
-
       <pb/>
-
       <back>
          <div type="poesis-epigramma" met="elegiacum">
             <head>Eiusdem ad lectorem epigramma.</head>
-
             <l n="1">Ista Sophoclaeo quamuis dicendo Cothurno</l>
             <l n="2">Materia est nostro grandior ingenio.</l>
             <l n="3">Ne tamen angusto semper mea flumine Cimba</l>
@@ -625,13 +522,10 @@
             <l n="8">Successere / nouo votaque sparsa metu.</l>
             <l n="9">Aequa minus rebus fuerint si carmina lector</l>
             <l n="10">Spreueris haud nimium: nam voluisse sat est.</l>
-
          </div>
          <closer>
             <foreign xml:lang="el">telos</foreign>
          </closer>
       </back>
-
-
-  </text>
+   </text>
 </TEI>

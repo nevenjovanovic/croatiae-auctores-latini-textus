@@ -1,147 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="vrancic-m-epist-1540-03-01">
-            <titleStmt>
-                <title>Antonio fratri epistula, versio electronica</title>
-                <author ref="vranc03">
-                    <persName xml:lang="hr">Vrančić, Mihovil</persName>
-                    <date>1507 - ante 1571</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="vrancic-m-epist-1540-03-01">
+         <titleStmt>
+            <title>Antonio fratri epistula, versio electronica</title>
+            <author ref="vranc03">
+               <persName xml:lang="hr">Vrančić, Mihovil</persName>
+               <date>1507 - ante 1571</date>
+            </author>
+            <editor>
                <persName>
                   <ref>László Szalay</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Edidit et editionem electronicam praeparavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Edidit et editionem electronicam praeparavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Digitalizat kasnijeg izdanja (1860).</p>
-            </editionStmt>
-            <extent ana="B">Mg:B verborum 288</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat kasnijeg izdanja (1860).</p>
+         </editionStmt>
+         <extent ana="B">Mg:B verborum 288</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2012-07">Srpnja 2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Verancsics, Antal. Verancsics Antal összes munkái, vol. 6, s. 70, br. 38.</bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="5"/>
-          <tagUsage gi="dateline" occurs="1"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="6"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="2"/>
-          <tagUsage gi="persName" occurs="5"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="4"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="salute" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="38"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc xml:id="vrancicmverantiusa15400301">
+      </fileDesc>
+      <profileDesc xml:id="vrancicmverantiusa15400301">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
-             <place ana="origin"><placeName ref="https://www.wikidata.org/wiki/Q193478">Buda</placeName></place>
-             <place ana="destination" type="unknown">
-                 <placeName type="unknown">Unknown</placeName>
-             </place>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/wiki/Q193478">Buda</placeName>
+            </place>
+            <place ana="destination" type="unknown">
+               <placeName type="unknown">Unknown</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-             <person role="sender"><persName ref="vranc03">Vrančić, Mihovil</persName></person>
-             <person role="recipient"><persName ref="vranc01">Vrančić, Antun</persName></person>
+            <person role="sender">
+               <persName ref="vranc03">Vrančić, Mihovil</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="vranc01">Vrančić, Antun</persName>
+            </person>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1540-03-01" period="15xx_2_third">1540-03-01</date>
-                <placeName>Buda</placeName>
-            </creation>
+            <date when="1540-03-01" period="15xx_2_third">1540-03-01</date>
+            <placeName>Buda</placeName>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>prosa</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>prosa oratio - epistula</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <persName>Luka Špoljarić</persName>
-                <date>2012-07-25</date>
+            <persName>Luka Špoljarić</persName>
+            <date>2012-07-25</date>
                 Novo, unificirano zaglavlje.</change>
-            
-            
-            
-        </revisionDesc>
-        
-        
-    </teiHeader>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <body>
          <pb n="70"/>
-          <div type="prosa-epistula" corresp="vrancicmverantiusa15400301"> 
-        
+         <div type="prosa-epistula" corresp="vrancicmverantiusa15400301">
             <p>Video, frater charissime, fortunam hanc meam infaustissimam qualibet hora, quolibet momento transformare se in pejorem, et in dies quaerere viam ac modum, quo me in novas indignationes avunculi nostri, Joannis Statilii, immergat. Non ignoras, arbitror, me anno elapso ea de causa Hungariam reliquisse, ut locum huic fortunae adversae darem, et quum gratiam acquirere non potuissem, odium saltem evitare pro lucro duxeram. Quum velut ex insidiis iter Gallicum mihi objicitur, mel pro veneno, album pro nigro. Parui. Quid, negassemne? Profectus nihil illorum reperi, quae mihi large fuerant promissa, neque quod ad profectum nostrum futurum fuerat. Quare elegi, satius esse eo reverti, unde discesseram, quam in aula regis tam magni mendicati vivere. En, hic sum, sed in magna indignatione avunculi qui ex pulice, ut scis, elephantos gignit. Gratia Deo Optimo Maximo, in cujus potestate sto, quod regiam majestatem, dominum meum clementissimum, pro me habeam ; quique me de manu leonis eripuit. Illud autem vehementer admiror, quod tantus dominus cum hoc pulice tanta contentione contendat, et quasi immortale bellum gerat. Sed mihi ista eo faciliora videntur, quanto assuetiora. Pro triumpho habeo, quod mihi Deus in eo misericors fuit, quod nullius sceleris mihi sum conscius. Jam ut omittam mea, ad tua venio. Iste meus 
             <pb n="71"/> 
-            dolor nihil est respectu illius, quem capio ex tuis adversitatibus. Tuae etiam rationes apud ipsum avunculum pessimo loco sunt, propterea quod Petrus Croata palam et gravissime conquestus sit de te illi. Quare? puto, intelligis. Avunculus ob id miris modis in te excandescit et implacabiliter irascitur. Hoc eodem momento ferme contigit, quo nuncius de adventu meo ad eum fuisset perlatus. Adeo studet fortuna, nos aequalibus calamitatibus obruere et in hisce miseriis conjungere. Hae tamen omnes nihil essent, si solum ira avunculi evitari aut mitigari posset.  </p> 
+            dolor nihil est respectu illius, quem capio ex tuis adversitatibus. Tuae etiam rationes apud ipsum avunculum pessimo loco sunt, propterea quod Petrus Croata palam et gravissime conquestus sit de te illi. Quare? puto, intelligis. Avunculus ob id miris modis in te excandescit et implacabiliter irascitur. Hoc eodem momento ferme contigit, quo nuncius de adventu meo ad eum fuisset perlatus. Adeo studet fortuna, nos aequalibus calamitatibus obruere et in hisce miseriis conjungere. Hae tamen omnes nihil essent, si solum ira avunculi evitari aut mitigari posset.  </p>
             <closer>
                <salute>Vale.</salute>
                <dateline>Budae, <date when="1540-03-01">kal. Martii MDXL.</date>
@@ -149,6 +102,5 @@
             </closer>
          </div>
       </body>
-    
    </text>
 </TEI>

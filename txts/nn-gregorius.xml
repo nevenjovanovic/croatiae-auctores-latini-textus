@@ -1,39 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="nn-gregorius">
-            <titleStmt>
-                <title>Inscriptio Gregorii proconsulis, versio electronica</title>
-                <author ref="#anonymus_1020">
-                    <persName xml:lang="lat">Anonymus</persName>
-                    <date when="1020">floruit 1020</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="nn-gregorius">
+         <titleStmt>
+            <title>Inscriptio Gregorii proconsulis, versio electronica</title>
+            <author ref="#anonymus_1020">
+               <persName xml:lang="lat">Anonymus</persName>
+               <date when="1020">floruit 1020</date>
+            </author>
+            <editor>
                <persName>
                   <ref>NN</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Hanc editionem electronicam curavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <edition>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
                     Digitalizat kasnije znanstvene knjige (1924).
                 </edition>
-            </editionStmt>
-            <extent ana="A">Mg:A 26 verborum, 8 versus</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+         </editionStmt>
+         <extent ana="A">Mg:A 26 verborum, 8 versus</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date>Kolovoza 2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                     Braun, Joseph
@@ -41,59 +42,13 @@
                     München, 1924. S. 208.
                     
                     <relatedItem type="digitalizat">
-                        <ref type="internet" target="http://digi.ub.uni-heidelberg.de/diglit/braun1924bd2/0224">UB Heidelberg</ref>
-                    </relatedItem>
-                </bibl>
+                  <ref type="internet"
+                       target="http://digi.ub.uni-heidelberg.de/diglit/braun1924bd2/0224">UB Heidelberg</ref>
+               </relatedItem>
+            </bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="8"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="2"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="relatedItem" occurs="1"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="37"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="5"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -107,38 +62,36 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date when="1020" precision="medium" period="10xx_1_third">c. 1020</date>
-                <placeName>Zadar</placeName>
-            </creation>
+            <date when="1020" precision="medium" period="10xx_1_third">c. 1020</date>
+            <placeName>Zadar</placeName>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae medii aevi (700-1400)</term>
-                    <term>Saeculum 11 (1001-1100)</term>
-                    <term>1001-1050</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - inscriptio</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae medii aevi (700-1400)</term>
+               <term>Saeculum 11 (1001-1100)</term>
+               <term>1001-1050</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - inscriptio</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <persName>
+      <revisionDesc>
+         <change>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-                <date>2012-08-25</date>
+            <date>2012-08-25</date>
                 Prva verzija. Latinski spellcheck.
             </change>
-            
-        </revisionDesc>
-    </teiHeader>
-    <text type="poesis">
-        <body>
+      </revisionDesc>
+   </teiHeader>
+   <text type="poesis">
+      <body>
          <div type="poesis-inscriptio" met="iambicum-dimetrum">
-    
             <l>O princeps Petre principum,</l>
             <l>caelestis aulae claviger</l>
             <l>Devotionis suscipe</l>
@@ -147,10 +100,7 @@
             <l>Gregorius qui nominor</l>
             <l>Ut pie mihi conferas</l>
             <l>pro parvis magna munera</l>
-         </div>    
-                    </body>
-
- 
-
-            </text>
+         </div>
+      </body>
+   </text>
 </TEI>

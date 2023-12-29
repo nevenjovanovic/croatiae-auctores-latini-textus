@@ -1,89 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="mart-hier-epitaph-lep">
-            
-                <titleStmt>
-                    <title>Epitaphium Corneliae Leporinae, versio electronica</title>
-                    <author ref="martin02">
-                        <persName xml:lang="hr">Martinčić, Jerolim</persName>
-                        <date>1476-78 - 1550</date>
-                    </author>
-                    <editor>
+   <teiHeader>
+      <fileDesc xml:id="mart-hier-epitaph-lep">
+         <titleStmt>
+            <title>Epitaphium Corneliae Leporinae, versio electronica</title>
+            <author ref="martin02">
+               <persName xml:lang="hr">Martinčić, Jerolim</persName>
+               <date>1476-78 - 1550</date>
+            </author>
+            <editor>
                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </editor>
-                </titleStmt>
-                <editionStmt>
-                    <edition>
+         </titleStmt>
+         <editionStmt>
+            <edition>
                <date>Digitalizat modernog znanstvenog izdanja (2006).</date>
             </edition>
-                </editionStmt>
-                <extent ana="A">Mg:A 2 versus, verborum 17</extent>
-                <publicationStmt>
-                    <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName>
+         </editionStmt>
+         <extent ana="A">Mg:A 2 versus, verborum 17</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta Profil hrvatskog latinizma, (<orgName>
                   <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>Listopad 2011</date>
             </p>
-                </publicationStmt>
-                <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Jovanović, Neven: Prolegomena za retoriku Marulićeve splitske ekipe. In:
                         Colloquia Maruliana XV. Split : Književni krug - Marulianum, 2006, S.
                         141--173</bibl>
          </sourceDesc>
-            </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="anchor" occurs="2" withId="2"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="back" occurs="1"/>
-          <tagUsage gi="bibl" occurs="2"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="3"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="7"/>
-          <tagUsage gi="div" occurs="2" withId="1"/>
-          <tagUsage gi="docTitle" occurs="1"/>
-          <tagUsage gi="edition" occurs="1"/>
-          <tagUsage gi="editionStmt" occurs="1"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="front" occurs="1"/>
-          <tagUsage gi="head" occurs="2"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="2"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="5"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="persName" occurs="6"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="7"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="40"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titlePart" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -100,70 +50,65 @@
             <date when="1550" precision="low" period="15xx_2_third">1550</date>
          </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - epigramma</term>
-                    <term>poesis - epitaphium</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epigramma</term>
+               <term>poesis - epitaphium</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
+      <revisionDesc>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <persName>Luka Špoljarić</persName>
             <date>2012-06-12</date>
                 Novo, unificirano zaglavlje. Datoteka rastavljena na cjeline (teme, autori). </change>
-            <change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2011-10-29</date> Auctores elementum ref
                 acceperunt quod notam in prosopographia indicat. </change>
-            <change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
             <date>2011-10-23T20:46:39</date> Versionem XML
                 fecit. </change>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <front>
-            <docTitle>
-                <titlePart>Carmina Latina amicorum Maruli</titlePart>
-            </docTitle>
-        </front>
-        <body>
-            
-                <div type="epigramma" xml:id="hiermart-c03">
-                    <head>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <docTitle>
+            <titlePart>Carmina Latina amicorum Maruli</titlePart>
+         </docTitle>
+      </front>
+      <body>
+         <div type="epigramma" xml:id="hiermart-c03">
+            <head>
                <anchor xml:id="id_tth_sEc17"/>17  Epitaphium Corneliae Leporinae per
                         Hieronymum Martiniacum</head>
-                    <l>Contenta interiit, felix Cornelia uixit,</l>
-                    <l>    Grata Deo, miseris obuia, fida uiro.<ref target="#tthFtNtABI"/>
+            <l>Contenta interiit, felix Cornelia uixit,</l>
+            <l>    Grata Deo, miseris obuia, fida uiro.<ref target="#tthFtNtABI"/>
             </l>
-                </div>
-              
-            
-        </body>
-        <back>
-            <div type="notes">
-                <head>Notae:</head>
-                
-                                <p>
+         </div>
+      </body>
+      <back>
+         <div type="notes">
+            <head>Notae:</head>
+            <p>
                <anchor xml:id="id_tthFtNtABI"/>
                <ref target="#tthFrefABI">18</ref>Trag. f. 43v. </p>
-                
-            </div>
-        </back>
-    </text>
+         </div>
+      </back>
+   </text>
 </TEI>

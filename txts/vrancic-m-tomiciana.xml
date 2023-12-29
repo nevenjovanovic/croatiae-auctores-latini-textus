@@ -1,34 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc xml:id="vrancic-m-tomiciana">
-            <titleStmt>
-                <title>Carmina in actis Tomicianis (1529-1530), versio electronica</title>
-                <author ref="vranc03">
-                    <persName xml:lang="hr">Vrančić, Mihovil</persName>
-                    <date>1507 - ante 1571</date>
-                </author>
-                <editor>
+   <teiHeader>
+      <fileDesc xml:id="vrancic-m-tomiciana">
+         <titleStmt>
+            <title>Carmina in actis Tomicianis (1529-1530), versio electronica</title>
+            <author ref="vranc03">
+               <persName xml:lang="hr">Vrančić, Mihovil</persName>
+               <date>1507 - ante 1571</date>
+            </author>
+            <editor>
                <persName>
                   <ref>Zygmunt Celichowski</ref>
                </persName>
             </editor>
-                <respStmt>
-                    <resp>Edidit et editionem electronicam praeparavit</resp>
-                    <persName>
+            <respStmt>
+               <resp>Edidit et editionem electronicam praeparavit</resp>
+               <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
-                </respStmt>
-            </titleStmt>
-            <extent ana="B">Mg:B 258 versus</extent>
-            <publicationStmt>
-                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            </respStmt>
+         </titleStmt>
+         <extent ana="B">Mg:B 258 versus</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2012-02">Veljača 2012</date>
             </p>
-            </publicationStmt>
-            <sourceDesc>
+         </publicationStmt>
+         <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>
                <ref type="liber" target="http://www.wbc.poznan.pl/publication/32217">Acta Tomiciana 10, 343, ed. Zygmunt Celichowski</ref>
@@ -36,56 +37,8 @@
             <bibl>Tomiciana 11, 199-202, ed. Zygmunt Celichowski</bibl>
             <bibl>Tomiciana 12, br. 429, 412-413,  ed. Zygmunt Celichowski</bibl>
          </sourceDesc>
-        </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <namespace name="http://www.tei-c.org/ns/1.0">
-          <tagUsage gi="abstract" occurs="1"/>
-          <tagUsage gi="author" occurs="1"/>
-          <tagUsage gi="bibl" occurs="4"/>
-          <tagUsage gi="body" occurs="1"/>
-          <tagUsage gi="change" occurs="1"/>
-          <tagUsage gi="closer" occurs="1"/>
-          <tagUsage gi="creation" occurs="1"/>
-          <tagUsage gi="date" occurs="4"/>
-          <tagUsage gi="div" occurs="4"/>
-          <tagUsage gi="editor" occurs="1"/>
-          <tagUsage gi="encodingDesc" occurs="1"/>
-          <tagUsage gi="extent" occurs="1"/>
-          <tagUsage gi="fileDesc" occurs="1" withId="1"/>
-          <tagUsage gi="head" occurs="4"/>
-          <tagUsage gi="keywords" occurs="3"/>
-          <tagUsage gi="l" occurs="258"/>
-          <tagUsage gi="langUsage" occurs="1"/>
-          <tagUsage gi="language" occurs="1"/>
-          <tagUsage gi="namespace" occurs="1"/>
-          <tagUsage gi="opener" occurs="1"/>
-          <tagUsage gi="orgName" occurs="1"/>
-          <tagUsage gi="p" occurs="4"/>
-          <tagUsage gi="particDesc" occurs="1"/>
-          <tagUsage gi="pb" occurs="7"/>
-          <tagUsage gi="persName" occurs="4"/>
-          <tagUsage gi="placeName" occurs="1"/>
-          <tagUsage gi="profileDesc" occurs="1"/>
-          <tagUsage gi="publicationStmt" occurs="1"/>
-          <tagUsage gi="ref" occurs="5"/>
-          <tagUsage gi="resp" occurs="1"/>
-          <tagUsage gi="respStmt" occurs="1"/>
-          <tagUsage gi="revisionDesc" occurs="1"/>
-          <tagUsage gi="settingDesc" occurs="1"/>
-          <tagUsage gi="sourceDesc" occurs="1"/>
-          <tagUsage gi="tagUsage" occurs="38"/>
-          <tagUsage gi="tagsDecl" occurs="1"/>
-          <tagUsage gi="teiHeader" occurs="1"/>
-          <tagUsage gi="term" occurs="6"/>
-          <tagUsage gi="text" occurs="1"/>
-          <tagUsage gi="textClass" occurs="1"/>
-          <tagUsage gi="title" occurs="1"/>
-          <tagUsage gi="titleStmt" occurs="1"/>
-        </namespace>
-      </tagsDecl>
-    </encodingDesc>
-        <profileDesc>
+      </fileDesc>
+      <profileDesc>
          <abstract>
             <p/>
          </abstract>
@@ -99,46 +52,40 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-                <date from="1529" to="1530" period="15xx_1_third">1529-1530</date>
-            </creation>
+            <date from="1529" to="1530" period="15xx_1_third">1529-1530</date>
+         </creation>
          <textClass>
-                <keywords scheme="typus">
-                    <term>poesis</term>
-                </keywords>
-                <keywords scheme="aetas">
-                    <term>Litterae renatae (1400-1600)</term>
-                    <term>Saeculum 16 (1501-1600)</term>
-                    <term>1501-1550</term>
-                </keywords>
-                <keywords scheme="genre">
-                    <term>poesis - epigramma</term>
-                    <term>poesis - elegia</term>
-                </keywords>
-            </textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - epigramma</term>
+               <term>poesis - elegia</term>
+            </keywords>
+         </textClass>
       </profileDesc>
-        <revisionDesc>
-            <change>
-                <date>2010-12-05</date>
-                <persName>
+      <revisionDesc>
+         <change>
+            <date>2010-12-05</date>
+            <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
                 Početna revizija
             </change>
-            
-            
-        </revisionDesc>
-        
-        
-    </teiHeader>
+      </revisionDesc>
+   </teiHeader>
    <text>
       <body>
          <pb n="10-343"/>
          <div type="epigramma" met="elegiacum">
-        
             <head>357. Certamen poeticum inter Cymbam (Łodzia) stemma Tomicii et Corbitam (Korab) stemma Łaskii.
         
         VIII. Michael Wrantius Dalmata.</head>
-        
             <l>Tu ratis in vento spem ponis semper inani,</l>
             <l met="pentameter">Deserit hic si te, pergere sola nequis.</l>
             <l>In vento nullam spem pono cymba ego, verum</l>
@@ -182,9 +129,7 @@
             <l met="pentameter">Clausa, potens uteri diva necasset ea.</l>
             <l>Nam mihi (parva licet) natorum plus doluere</l>
             <l met="pentameter">Vulnera, quam Turcae plurima facta manu.</l>
-        
             <pb n="11-200"/>
-        
             <l>Sed jam, jam poenas scelerata venefica sumam</l>
             <l met="pentameter">De te, quae Circen Colchidaque superas.</l>
             <l>Nam si nulla mei miseratio tanget amicos</l>
@@ -278,9 +223,7 @@
             <l met="pentameter">Exercet regnis, nullaque virgo sacra,</l>
             <l>Non pietas in vos vel honor, reverentia nulla,</l>
             <l met="pentameter">Religio aut pulsa est finibus ulla meis,</l>
-        
             <pb n="11-202"/>
-        
             <l>Non ego vicinis indicere bella cupivi,</l>
             <l met="pentameter">Oppressis magnis cladibus ante satis,</l>
             <l>Non ego vicinum regem detrudere regnis</l>
@@ -375,12 +318,10 @@
             <l met="pentameter">Altera jam quaeras, altera regna tibi.</l>
             <l>Desine jam tandem, jam desine velle quod optas,</l>
             <l met="pentameter">Nil agis, invite, quod petis, alter habet.</l>
-        
          </div>
          <pb n="12-412"/>
          <div type="epigramma" met="elegiacum">
             <head>Michaelis Wrantii Dalmatae, adolescentis, ad Sigismundum regem patrem de coronatione Sigismundi filii.</head>
-        
             <l>En, Sigismunde, tibi, quod tota mente petisti</l>
             <l met="pentameter">Tempus adest, cunctis laetior ecce dies,</l>
             <l>En natus, tibi quem cupido regina sub auras</l>
@@ -420,9 +361,7 @@
             <l met="pentameter">Religio irrumpat, sit, precor, illa vetus.</l>
             <l>Sis felix tandem, patria virtute regendo</l>
             <l met="pentameter">In longum tempus sceptra Polona manu.</l>
-        
          </div>
       </body>
-    
    </text>
 </TEI>
