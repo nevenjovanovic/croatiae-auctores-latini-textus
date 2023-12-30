@@ -81,7 +81,7 @@ declare variable $croalabro:urn := "http://localhost:8080/";
 declare variable $croalabro:db := "croalatextus";
 
 declare function croalabro:tabulaauctorum() {
-for $a in db:open($croalabro:db)//*:teiHeader/*:fileDesc/*:titleStmt/*:author/*[name()=("orgName","persName")]
+for $a in db:open($croalabro:db)//*:teiHeader/*:fileDesc/*:titleStmt/*:author/*[name()=("orgName","persName")][1]
 let $s := normalize-space($a)
 group by $s
 order by $s collation "?lang=hr"

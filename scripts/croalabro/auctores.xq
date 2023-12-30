@@ -47,6 +47,11 @@ declare
 <h2 class=" text-center">{ $subtitle }</h2>
 </div>
 </div>
+<div  class="row">
+<div  class="col">
+<h3 class=" text-center">{ "Auctores: " || count(croalabro:tabulaauctorum()) }</h3>
+</div>
+</div>
 <div class="row">
 <div  class="col text-center">
   <!-- function here -->
