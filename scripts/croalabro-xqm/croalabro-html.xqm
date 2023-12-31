@@ -2,7 +2,7 @@
 module namespace croalabro-html = 'http://croala.ffzg.unizg.hr/croalabro-html';
 
 declare variable $croalabro-html:cssserver := "/basex/static/dist/chota.min.css";
-declare variable $croalabro-html:csslocal := "/static/dist/chota.min.css";
+declare variable $croalabro-html:csslocal := "/static/dist/laurdal.css";
 
 
 (: helper function for header, with meta :)
@@ -18,8 +18,7 @@ declare function croalabro-html:htmlheadserver($title, $content, $keywords) {
 <meta name="author" content="Neven Jovanović, CroALa" />
 <link rel="icon" href="/static/gfx/favicon.ico" type="image/x-icon" />
 <link rel="stylesheet" href=" { $croalabro-html:csslocal } "  />
-<link rel="stylesheet" type="text/css" href="/static/dist/css/modr.css"/>
-<link rel="stylesheet" type="text/css" href="/static/dist/font-awesome-4.7.0/css/font-awesome.min.css"/>
+
 </head>
 
 };
@@ -43,10 +42,38 @@ declare function croalabro-html:linktag($url,$lname){
   }
 };
 
+(: turn tr/td structure into div-class-row, div-class-col :)
+
+declare function croalabro-html:trtodiv($tr){
+for $t in $tr
+return element div {
+ attribute class { "search-hit" },
+   for $c in $t/*
+   return element div {
+   attribute class { "row"},
+   element div {
+     attribute class { "col"},
+     $c
+   }
+ }
+}
+};
+
+(: format header for a hit in search results :)
+
+declare function croalabro-html:formathithead( $filelink ){
+element span { 
+attribute class { "tag is-rounded" } ,
+element img { attribute src {"https://icongr.am/jam/document.svg?size=20&amp;color=6CB4EE" } } }
+,
+element span { " " } ,
+element small { $filelink }
+};
+
 (: helper function for table :)
 declare function croalabro-html:table ($headings, $body){
   element table {
-    attribute class {"striped"},
+    attribute class {"sortable striped"},
     if ($headings="") then ()
     else
     element thead {
@@ -70,17 +97,15 @@ declare function croalabro-html:footerserver () {
 let $f := <footer class="footer">
 <div class="row">
 <div  class="col">
-<h1 class="text-center"><span class="fa fa-leaf fa-fw" aria-hidden="true"></span> <a href="http://croala.ffzg.unizg.hr">CroALa</a>: Croatiae auctores Latini</h1>
+<h3 class="text-center"><img src="https://icongr.am/entypo/leaf.svg?size=40&amp;color=6CB4EE" aria-hidden="true"></img><br/><a href="https://croala.ffzg.unizg.hr">CroALa</a>: Croatiae auctores Latini</h3>
+<h4 class="text-center"><a href="https://www.ffzg.unizg.hr"><img src="/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h4> 
+<p class="text-center">
+<span class="text-grey">Github</span>: <a href="https://github.com/nevenjovanovic/croatiae-auctores-latini-textus">croatiae-auctores-latini-textus</a></p>
 </div>
 </div>
+<link href="/static/dist/sortable-base.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
 
-<div class="row"> 
-<div  class="col">
-<h3 class="text-center"><a href="http://www.ffzg.unizg.hr"><img src="/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h3> 
-<p class="text-center"><i class="fa fa-github fa-lg"></i>
-            <span class="network-name">Github</span>: <a href="https://github.com/nevenjovanovic/croatiae-auctores-latini-textus">croatiae-auctores-latini-textus</a></p>
-</div>
-</div>
 </footer>
 return $f
 };

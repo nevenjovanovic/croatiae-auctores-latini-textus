@@ -59,17 +59,23 @@ let $i := db:info($dbname)/databaseproperties
 }
 };
 
+(: remove .xml from filename :)
+
+declare function croalabro:basepath($path){
+  substring-before($path, ".xml")
+};
+
 declare function croalabro:filepath($set){
   for $d in $set
   let $docname := db:path($d)
-  let $docurl := "static/croala-html/" || replace( $docname, ".xml", ".html")
+  let $docurl := "static/croala-html/" || croalabro:basepath( $docname ) || ".html"
   let $giturl := "https://github.com/nevenjovanovic/croatiae-auctores-latini-textus/blob/master/txts/" || $docname
   return if ($set[2]) then ( 
-croalabro-html:link($docurl, substring-before($docname, ".xml")),
+croalabro-html:link($docurl, croalabro:basepath($docname)),
 " ",
 croalabro-html:linktag( $giturl, "TEI XML" ) ,
 element br {})
-else ( croalabro-html:link($docurl, substring-before($docname, ".xml")),
+else ( croalabro-html:link($docurl, croalabro:basepath($docname)),
 " ",
 croalabro-html:linktag( $giturl, "TEI XML" )
 )
@@ -138,7 +144,7 @@ declare function croalabro:dagenus($genus){
 let $result :=
 for $a in db:open($croalabro:db)//*:teiHeader//*:keywords[@scheme=("genre","typus")]/*:term[.=$genus]
 let $path := db:path($a)
-let $basepath := substring-before($path, ".xml")
+let $basepath := croalabro:basepath($path)
 return element tr {
   element td { croalabro-html:link(("/static/croala-html/" || $basepath || ".html" ), $basepath) }
 }
@@ -168,7 +174,7 @@ declare function croalabro:daperiodum($period){
 let $result :=
 for $a in db:open($croalabro:db)//*:teiHeader//*:creation/*:date[@period=$period]
 let $path := db:path($a)
-let $basepath := substring-before($path, ".xml")
+let $basepath := croalabro:basepath($path)
 return element tr {
   element td { croalabro-html:link(("/static/croala-html/" || $basepath || ".html" ), $basepath) }
 }
@@ -177,4 +183,49 @@ return element r {
     element span { count($result) },
     element span { $result }
 }
+};
+
+(: for search, return three fields: title, first author, creation date :)
+
+declare function croalabro:titleauthor($path){
+  let $tstmt := db:get($croalabro:db, $path)//*:teiHeader
+  return (
+     element h4 { normalize-space($tstmt/*:fileDesc/*:titleStmt/*:title[1]) } ,
+     $tstmt/*:fileDesc/*:titleStmt/*:author[1] ,
+     $tstmt/*:profileDesc[1]/*:creation/*:date[1]
+)
+};
+
+(: search fulltext, simple - literal word, return rows with six cells  :) 
+(: td cells: 1 file name, 2 title, 3 first author, 4 creation date, 5 div heads, 6 search result :)
+
+declare function croalabro:quaere($word){
+for $n in ft:search($croalabro:db, $word )
+let $path := db:path($n)
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $title := string-join($n/ancestor::*:div/*:head, " > ")
+order by $date , $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { ft:mark($n[. contains text { $word }]) }
+}
+
+};
+
+(: check if search returned 0 hits :)
+declare function croalabro:nihil($result){
+let $qcount := count($result)
+return if ($qcount=0) then element tr { 
+element td { 
+element p {
+attribute class { "text-error text-center" },
+"Nihil inventum." } }
+}
+else $result
 };

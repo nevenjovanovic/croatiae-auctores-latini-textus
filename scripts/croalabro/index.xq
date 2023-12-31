@@ -6,7 +6,7 @@ import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-
 declare namespace page = 'http://basex.org/examples/web-page';
 
 declare variable $title := 'Croatiae auctores Latini';
-declare variable $subtitle := 'Index auctorum, operum, generum, temporum';
+declare variable $subtitle := 'Formula quaestionis et indices auctorum, operum, generum, temporum';
 declare variable $content := "Display list of authors, works, genres, periods.";
 declare variable $keywords := "Neo-Latin, Croatia, text corpus";
 
@@ -44,7 +44,25 @@ declare
 </div>
 <div  class="row">
 <div  class="col">
-<h2 class=" text-center">{ $subtitle }</h2>
+<h4 class=" text-center">{ $subtitle }</h4>
+</div>
+</div>
+<div  class="row">
+<div  class="col">
+
+<form action="/quaere" method="GET" enctype="application/x-www-form-urlencoded">
+<p class="grouped">
+<input
+type="search"
+name="verbum"
+placeholder="Quaere vocabulum sive phrasin..."
+                />
+<button class="button icon-only">
+<img src="https://icongr.am/feather/search.svg?size=16" />
+</button>
+</p>
+</form>
+
 </div>
 </div>
 <div class="row">
