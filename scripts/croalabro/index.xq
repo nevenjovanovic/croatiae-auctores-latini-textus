@@ -5,8 +5,8 @@ import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Croatiae auctores Latini';
-declare variable $subtitle := 'Formula quaestionis et indices auctorum, operum, generum, temporum';
+declare variable $title := 'Croatiae auctores Latini: quaestio et indices';
+declare variable $subtitle := '';
 declare variable $content := "Display list of authors, works, genres, periods.";
 declare variable $keywords := "Neo-Latin, Croatia, text corpus";
 
@@ -42,14 +42,10 @@ declare
 <h1 class=" text-center">{ $title }</h1>
 </div>
 </div>
-<div  class="row">
-<div  class="col">
-<h4 class=" text-center">{ $subtitle }</h4>
-</div>
-</div>
-<div  class="row">
-<div  class="col">
 
+<div  class="row">
+<div  class="col">
+<h4 class="text-center">Formula quaestionis</h4>
 <form action="/quaere" method="GET" enctype="application/x-www-form-urlencoded">
 <p class="grouped">
 <input
@@ -65,8 +61,19 @@ placeholder="Quaere vocabulum sive phrasin..."
 
 </div>
 </div>
+
 <div class="row">
 <div  class="col text-center">
+  <!-- function here -->
+{ element p { "... seu " , croalabro-html:link("quaere-multimode","quaere multis modis") } }
+
+{ croalabro-html:folium("p") }
+</div>
+</div>
+
+<div class="row">
+<div  class="col text-center">
+<h4>Indices</h4>
   <!-- function here -->
 { croalabro-html:link("/auctores","Auctores") }
 </div>

@@ -218,14 +218,46 @@ element td { ft:mark($n[. contains text { $word }]) }
 
 };
 
+(: fuzzy search :)
+
+declare function croalabro:quaerefuzzy($word){
+for $n in ft:search($croalabro:db, $word , map {
+  "fuzzy": true()
+  })
+let $path := db:path($n)
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $title := string-join($n/ancestor::*:div/*:head, " > ")
+let $marked := ft:mark($n[. contains text { $word } using fuzzy ])
+order by $date , $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { $marked }
+}
+};
+
+(: perform fuzzy search, return distinct values found with fuzzy, report if 0 hits :)
+
+declare function croalabro:fuzzyfound($word) {
+let $q := croalabro:quaerefuzzy($word)
+let $found := distinct-values($q/td[6]/mark/string())
+let $qcount := count($q)
+return if ($qcount=0) then croalabro-html:zero()
+else element div {
+  element tr { $qcount },
+  element tr { $found },
+  element tr { $q }
+}
+};
+
 (: check if search returned 0 hits :)
 declare function croalabro:nihil($result){
 let $qcount := count($result)
-return if ($qcount=0) then element tr { 
-element td { 
-element p {
-attribute class { "text-error text-center" },
-"Nihil inventum." } }
-}
+return if ($qcount=0) then croalabro-html:zero()
 else $result
 };

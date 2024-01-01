@@ -23,6 +23,24 @@ declare function croalabro-html:htmlheadserver($title, $content, $keywords) {
 
 };
 
+(: header with loader :)
+declare function croalabro-html:htmlheadloader($title, $content, $keywords) {
+  (: return html template to be filled with title :)
+  (: title should be declared as variable in xq :)
+
+<head><title> { $title } </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="{ $keywords }"/>
+<meta name="description" content="{$content}"/>
+<meta name="revised" content="{ current-date()}"/>
+<meta name="author" content="Neven Jovanović, CroALa" />
+<link rel="icon" href="/static/gfx/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href=" { $croalabro-html:csslocal } "  />
+</head>
+
+};
+
+
 (: make html link :)
 
 declare function croalabro-html:link($url,$lname){
@@ -59,6 +77,24 @@ return element div {
 }
 };
 
+(: turn td structure into div-class-row, div-class-col :)
+
+declare function croalabro-html:trtodiv2($tr){
+for $t in $tr/tr
+return element div {
+ attribute class { "search-hit" },
+   for $c in $t/td
+   return element div {
+   attribute class { "row"},
+   element div {
+     attribute class { "col"},
+     $c
+   }
+ }
+}
+};
+
+
 (: format header for a hit in search results :)
 
 declare function croalabro-html:formathithead( $filelink ){
@@ -68,6 +104,39 @@ element img { attribute src {"https://icongr.am/jam/document.svg?size=20&amp;col
 ,
 element span { " " } ,
 element small { $filelink }
+};
+
+(: report if 0 results found :)
+
+declare function croalabro-html:zero() {
+element tr { 
+element td { 
+element p {
+attribute class { "text-error text-center" },
+"Nihil inventum." } }
+}
+};
+
+(: make search form; needs: 1. action, 2. name, 3. placeholder :)
+
+declare function croalabro-html:searchform( $action , $name, $placeholder ) {
+element form {
+  attribute action { $action },
+  element p {
+    attribute class { "grouped" },
+    element input {
+      attribute type { "search"},
+      attribute name { $name },
+      attribute placeholder { $placeholder }
+    },
+    element button {
+      attribute class { "button icon-only" },
+      element img {
+        attribute src { "https://icongr.am/feather/search.svg?size=16" }
+      }
+    }
+  }
+}
 };
 
 (: helper function for table :)
@@ -90,6 +159,15 @@ declare function croalabro-html:table ($headings, $body){
 (: helper - table row :)
 declare function croalabro-html:tablerow($cells){
   element tr { $cells }
+};
+
+(: helper - leaf :)
+declare function croalabro-html:folium($element){
+element { $element } {
+element img {
+attribute class { "text-center" },
+attribute src { "https://icongr.am/entypo/leaf.svg?size=40&amp;color=6CB4EE" }
+} }
 };
 
 (: helper function - footer :)
