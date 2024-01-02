@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="Wien_OeNB_531001" xml:lang="de" version="5" xml:base="Wien/OeNB/531001_Flacius_an_Nidbruck.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>531001 Flacius an Nidbruck (Magdeburg, 1553-10-01)</title>
+            <author ref="http://www.wikidata.org/entity/Q435311">
+               <persName xml:lang="hr">Vlačić Ilirik, Matija</persName>
+               <date>1520-1575</date>
+            </author>
+            <respStmt>
+               <resp>Ediert durch </resp>
+               <name type="person">Harald Bollbuck</name>
+               <name type="person">Carsten Nahrendorf</name>
+            </respStmt>
+            
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 konforme Kodierung durch </resp>
+               <name type="person">Harald Bollbuck</name>
+               <name type="person">Carsten Nahrendorf</name>
+               <name type="org">Herzog August Bibliothek</name>
+            </respStmt>
+            
+            <respStmt>
+               <resp>Kodierung adaptiert für CroALa durch </resp>
+               <name type="person">Neven Jovanović</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska</ref>
+               </name>
+               <ptr target="https://www.ffzg.unizg.hr"/>
+            </publisher>
+            <publisher>
+               <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+               <ptr target="http://www.hab.de"/>
+            </publisher>
+            <date type="issued" when="2011"/>
+            <!--<date type="digitised" when="">Datum der Digitalisierung</date>-->
+            <distributor>Herzog August Bibliothek Wolfenbüttel</distributor>
+            <availability status="restricted">
+               <p>Diese Adaptation ist unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen in seiner jeweils aktuellen deutschsprachigen Version lizenziert.</p>
+               <p>Herzog August Bibliothek Wolfenbüttel (<ref target="http://diglib.hab.de/?link=012">copyright information</ref>)</p>
+            </availability>
+            <pubPlace><!--<ptr type="urn" cRef="urn:nbn:de:gbv:23-edoc/ed000086x"/>--><!--<ptr type="purl" cRef="http://diglib.hab.de/edoc/ed000086/start.htm"/>--><!--<53 type="thumbnailForPresentations" cRef="http://diglib.hab.de/edoc/ed000086/images/titelblatt.jpg"/>--></pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de" xml:id="mss_Cod_Vind_9737b_fol_3r-4v_tei-msDesc_Bollbuck">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <repository>ÖNB</repository>
+                  <idno type="signatur">Cod. Vind. 9737b, Bl. 3r-4v.</idno>
+               </msIdentifier>
+               <head>
+                  <title>
+                     <rs type="person" ref="#matthias_flacius">Matthias Flacius</rs> an <rs type="person" ref="#caspar_nidbruck">Caspar von Nidbruck</rs>
+                  </title>
+                  <origDate when="1553-10-01">1. Oktober 1553.</origDate>
+                  <origPlace>Magdeburg</origPlace>
+               </head>
+               <msContents n="brief">
+                  <msItem>
+                     <title>Matthias Flacius an Caspar von Nidbruck</title>
+                     <msItem>
+                        <p>Flacius hat einen befähigten Schreiber – Gottschalk Prätorius – gefunden. Wenigstens 500 Gulden seien jährlich für vier Hilfskräfte erforderlich. Er bedankt sich für die Unterstützung. Nach Ende der kriegerischen Unruhen, wenn Kf. Johann Friedrich seinen Besitz zurückerhalten habe, könne das Werk der Kirchengeschichte richtig angegangen werden. Es ist im Vorjahr auf seine Anregung hin begonnen, der Stil gefalle ihm aber nicht. Nidbruck möge seine Büchersendungen an Gallus in Regensburg, Haintzel in Augsburg, Besold in Nürnberg, Sarcerius in Leipzig oder Theoderich in Wittenberg richten, die an ihn weiterleiten werden. Flacius bittet um Zusendung handschriftlicher und gedruckter Werke, vornehmlich zu böhmischen Angelegenheiten, die er – neben den historischen Versuchen
+                           – in eine Ordnung bringen und edieren wolle, zudem einige Schriften des Bischofs von Gurk und aus der Bibliothek des Wolfgang Lazius Papstbriefe und Gründungsurkunden von Klöstern. Er erwartet aus England und Böhmen altes Material und bittet um die Angabe jener Klöster und Bibliotheken, die Nidbruck besuchte.</p>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>Papier,</support>
+                        <extent>
+                           <measure type="pageDimensions">Format 2°.</measure>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scribe="matthias_flacius" scope="sole">Autograph.</handNote>
+                  </handDesc>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <head>Transkription</head>
+                     <bibl>
+                        <ref type="bibliography" target="#bibl_briefwechsel">Bibl: Briefwechsel</ref>, 17 (1896), 10-12, Nr. 3.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Erstellt im Rahmen des Projekts <name type="project">Historische Methode und Arbeitstechnik der Magdeburger Zenturien</name>
+            </p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/entity/Q1733">Magdeburg</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q435311">Matthias Flacius</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q1735133">Caspar von Nidbruck</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1553-10-01" period="15xx_2_third">1. Oktober 1553.</date>
+            <placeName ref="https://www.wikidata.org/entity/Q1733">Magdeburg</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+        <revisionDesc>
+           <change>
+              <persName>
+                 <ref type="viaf" target="6913774">Neven Jovanović</ref>
+              </persName>
+              <date>2024-01-02</date>
+              Kodierung adaptiert für CroALa, unter gleicher Lizenz.
+           </change>
+        </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="varia_selecta_ed000017_00531" url="http://diglib.hab.de/varia/selecta/ed000017/00531.jpg" n="9737b.3r"/>
+      <graphic xml:id="varia_selecta_ed000017_00532" url="http://diglib.hab.de/varia/selecta/ed000017/00532.jpg" n="9737b.3v"/> 
+      <graphic xml:id="varia_selecta_ed000017_00533" url="http://diglib.hab.de/varia/selecta/ed000017/00533.jpg" n="9737b.4r"/> 
+      <graphic xml:id="varia_selecta_ed000017_00534" url="http://diglib.hab.de/varia/selecta/ed000017/00534.jpg" n="9737b.4v"/> 
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <salute>
+               <pb n="9737b.4v" facs="#varia_selecta_ed000017_00534"/>Doctissimo viro D<ex>omino</ex> Leopoldo Schvibermair, suo domino.</salute>
+            <p>
+               <pb n="9737b.3r" facs="#varia_selecta_ed000017_00531"/>Serius omnino quam par fuisset, vir doctissime, tuis litteris prima Martii<note type="annotation" resp="#hab">Vgl. <ptr type="projekt" cRef="Wien_OeNB_530301"/>.</note> datis respondeo, tametsi<del type="overstrike">ego quoquae</del> tuae quoque admodum tarde mihi redditae sint; sed mora ea nihil neglectum opinor, &amp; tu meas occupationes nosti, ut facile veniam huic peccato daturus sis. Sed ad rem. Quod ergo ad illum historicum conatum attinet, iam in eo praecipue sum occupatus, ut <del type="overstrike">sumptus</del> idonei homines ad conficiendum id opus inveniantur, sumptusque eis certi constituantur. Ac bonam spem recte conficiendi negotii habeo, nam &amp; scriptorem, hominem pium, stilo, industria ac iudicio valentem,<note type="annotation" resp="#hab">Gottschalk Prätorius.</note> ut etiam <rs type="person" ref="#nicolaus_gallus">Gallus</rs> noster de eo iudicavit, iam habeo &amp; sumptuum a quibusdam principibus aliqua spes affulsit. Erunt enim necessarii ut minimum floreni vel thaleri 500 annuatim in sexennium, quibus alantur quatuor homines, unus, qui stilo valeat &amp; ea, quae scribenda erunt, scriptione complectatur, duo, qui tantum in inquisitione materiarum seu lectione occupentur illique scriptori materias iam paratas suppeditent, &amp; quartus, qui in describendo aliisque vilioribus ministeriis huic conatui inserviat. Tibi vero &amp; isti alteri bono viro aliisque piis maximae gratiae habendae erunt, qui adiuvabitis tum librorum inquisitione, tum <add place="supralinear" hand="#mf">&amp;</add> alioqui consilio &amp; quacunque re poteritis.</p>
+            <p>Credo, si praesentes bellorum turbae conquiescerent, &amp; senior dominus<note type="annotation" resp="#hab">Kurfürst Johann Friedrich von Sachsen war nach seiner Absetzung durch Kaiser Karl V. und der Inhaftierung am 1. September 1552 in die Freiheit entlassen und in sein nun auf Sachsen-Weimar beschnittenes Herzogtum zurückgekehrt, am 24. September wurde er in Jena empfangen. <bibl>Friedrich Hortleder: Von Rechtmässigkeit, Anfang, Fort- und endlichen Außgang deß Teutschen Kriegs, Keyser Carls deß Fünfften, wider die Schmalkaldische Bundsoberste, Chur- und Fürsten, Sachsen und Hessen und J. Chur- und Fürstl. G. G. Mitverwandte. Vom Jahr 1546. biß auff das Jahr 1558, Gotha: Endter, 1645, 961-966 <ptr type="opac" cRef="0196192870"/>
+                  ;</bibl> <bibl>
+                     <ref type="bibliography" target="#burkhardt_freund">Burkhardt: Freund</ref>, bes. 86-95;</bibl> <bibl>
+                     <ref type="bibliography" target="#bauer_johann">Bauer: Johann Friedrich</ref>, 34.</bibl> Vermutlich spielt Flacius hier auf eine Wiedereinsetzung in alte Rechte und Besitzungen an - Johann Friedrich hatte u. a. die Universität Wittenberg verloren. Zur Gründung der Universität Jena als neues Wittenberg vgl. <bibl>
+                     <ref type="bibliography" target="#bauer_gruendung">Bauer: Gründung</ref>.</bibl>
+               </note> sua reciperet, quod protinus opus hoc in Domini nomine inchoaretur, tametsi iam ferme ante annum quidam meo hortatu incepit, sed stylus <add place="supralinear" hand="#mf">eius</add> aliquanto tenuior &amp; infirmior<pb n="9737b.3v" facs="#varia_selecta_ed000017_00532"/>est, quam vellem. Quod vero iam quosdam libros polliceris te missurum, si scires, quo <add place="supralinear" hand="#mf">mittendi sint</add>, gaudeo, sed <subst>
+                  <del>signi</del>
+                  <add hand="#mf">dubito</add>
+               </subst>, quem tibi locum praescribam, cum ignorem, in qua orbis terrarum parte nunc agas; dicam tamen de pluribus. Ratisbonae est M<ex>agister</ex>
+               <rs type="person" ref="#s">Nicolaus Gallus</rs>, Augustae D<ex>ominus</ex>
+               <rs type="person" ref="#l">Johannes Baptista Heinzelius</rs> senator, Noribergae M<ex>agister</ex>
+               <rs type="person" ref="#d">Hieronymus Besoldus</rs>, Lipsiae D<ex>omini</ex>
+               <rs type="person" ref="#s">Sarcerius</rs> et <rs type="person" ref="#alexander_alesius">Alesius</rs> aut pharmacopola Johannes Recait in via Grimica, Vitebergae M<ex>agister</ex>
+               <rs type="person" ref="#s">Sebastianus Theo<ex>doricus</ex>
+               </rs>
+               <note type="annotation" resp="#hab">Sebastian Dietrich/Theodoricus, in Wittenberg 1537 immatrikuliert, war zu dieser Zeit Professor der Arithmetik in Wittenberg und wurde am 1. Mai 1554 erstmals zum Rektor der Universität gewählt. <bibl>
+                     <ref type="bibliography" target="#matrikel_wittenberg">Matrikel Wittenberg</ref> 1, 167 und 291f.</bibl>
+               </note>, Wincemii gener. <del>Peto vero ut</del> Ad horum quendam miseris &amp; significaveris, mea esse; ille porro recte curabit. Hosce vero qui sequuntur libros te mihi mittere velim. Primum quaecunque habes manuscripta de Boemicis controversiis et concilio Constantiensi &amp; Basiliensi,
+                  <add place="supralinear" hand="#mf">multa autem te habere indicas huius generis.</add>
+              <note type="annotation" place="margin-left" change="#st">Bohemica scripta et de Concilio Constantiensi et Basiliensi</note>
+            </p>
+            <p>Atque horum librorum missionem te maturare velim, nam praeter historicum conatum iam etiam illud ago, ut omnino Hussitarum scripta in ordine redigantur, &amp; simul imprimantur &amp; <del type="overstrike">conqui</del> nactus sum iam quaedam non pauca.<note type="annotation" resp="#hab"> Hubertus Languet hatte Nidbruck am 28. October 1553 mitgeteilt, dass auf Grund der Zerstörungen in den Hussitenkriegen kaum Schriften in den böhmischen Klosterbibliotheken erhalten seien, allein im Kollegium Karls IV. seien einige zu finden. Er habe den Vorsteher des Kollegiums <rs type="person" ref="#thaddeus_hagecius">Thaddeus Hagecius ab Hayek</rs> (Nemicus, 1525-1600, der spätere Astronom und Arzt Kaiser Rudolf II.) gesprochen, der nach Fürsprache einiger edler Herren Flacius Husmanuskripte überlassen habe, die dieser zu einem bestimmten Termin zurücksenden sollte, doch sei dieser bereits verstrichen. Cod. Vind. 9737i, Bl. 43r-v. Vgl. <bibl><ref type="bibliography" target="#mencik_nydbrucks">Mencik: Nydbrucks Verhältnisse zu den Calixtinern</ref>.</bibl> Zu den aus dem Collegium Carolinum nach Wien gewanderten Handschriften vgl. <bibl><ref type="bibliography" target="#schwarzenberg_karolinum">Schwarzenberg: Karolinum</ref>, 97-102.</bibl></note> Deinde mitte &amp; illud Magdeburgensis<note type="annotation" place="margin-left" change="#st">Magdeburgus Decanus de vitiato Curiae Romae statu.</note> decani de vitiato statu curiae Romanae<note type="annotation" resp="#hab"> Flacius fügte seinem "Catalogus" den Traktat "De squaloribus Romanae curiae" hinzu, der um 1403 von Matthaeus von Krakau (um 1335-1410), Bischof von Worms und Professor an der Universität Heidelberg, verfasst wurde, ihr ursprünglicher Titel lautete wohl "De praxi curiae Romanae", vgl. die Neuausgaben <bibl><ref type="bibliography" target="#senko_curiae">Seńko: Mateusza z Krakowa</ref>, 72-122</bibl> und <bibl><ref type="bibliography" target="#miethke_weinrich">Miethke/Weinrich: Quellen</ref>, 60-164.</bibl> Zur Entstehung dieser kirchenkritischen, gegen die Simonie Bonifaz IX. gerichteten Schrift vgl. <bibl><ref type="bibliography" target="#haller_papsttum">Haller: Papsttum</ref>, 483-524;</bibl> <bibl><ref type="bibliography" target="#boockmann_rezension">Boockmann: Rezension</ref>, 611;</bibl> <bibl><ref type="bibliography" target="#heimpel_matthaeus">Heimpel: Matthäus</ref>;</bibl> <bibl><ref type="bibliography" target="#heimpel_vener">Heimpel: Vener</ref> 2, 695-732;</bibl> <bibl><ref type="bibliography" target="#verfasserlexikon_ma">Verfasserlexikon</ref> 6 (1987), 172-182;</bibl> <bibl><ref type="bibliography" target="#nuding_matthaeus">Nuding: Matthäus von Krakau</ref>, 146-173.</bibl> Vermutlich war der königliche Protonotar Job Vener an der Herstellung beteiligt, vgl. <bibl><ref type="bibliography" target="#heimpel_vener">Heimpel: Vener</ref>, 2, 700f.</bibl> Fast zeitgleich wurde aber auch der polnische Gelehrte Peter Wysz aus Radolin als Mitarbeiter ins Spiel gebracht. Vgl. <bibl><ref type="bibliography" target="#kaluza_eklezjologia">Kałuża: Eklezjologia</ref>, 160-165</bibl> und <bibl><ref type="bibliography" target="#kaluza_autor">Kałuża: Autor</ref>, passim,</bibl> die Diskussion zusammengefasst bei <bibl><ref type="bibliography" target="#nuding_matthaeus">Nuding: Matthäus von Krakau</ref>, 154-165.</bibl> Flacius gab, seiner Handschrift folgend, einen "Doctor Lurtzen" als Verfasser an, als Entstehungzeit etwa das Jahr 1460, doch war er von Nidbruck in <ptr type="projekt" cRef="Wien_OeNB_540823"/> auf den tatsächlichen Autor hingewiesen worden. <bibl>Catalogus testium veritatis, Basileae: Oporinus, 1556, 970. <ptr target="http://diglib.hab.de/drucke/alv-v-598/start.htm"/>.</bibl> Die Zuschreibung zu "Dr. Lurtzen" findet sich in einigen Handschriften, die zudem anachronistische Fragmente integrierten (die Marburger und Erfurter Handschriften enthalten Passagen zu den Päpsten Johann XXIII. und Martin V.). Hierzu bereits <bibl><ref type="bibliography" target="#franke_krakau">Franke: Matthäus von Krakau</ref>, 69f.</bibl> Zum ersten Mal war der Traktat bereits 1551 von Woilfgang Wissenburg veröffentlicht worden: <bibl>De reformatione ecclesiae Petri de Aliaco Cardinalis Cameracensis. Item, de squaloribus curiae Romanae. Libelli ante annos, centum et quinquaginta ferè conscripti, nostroque seculo utilißimi, Basileae: Nicolaus Bryling, 1551. <ptr type="opac" cRef="150524854"/></bibl></note> &amp; si quae alia ab eo tempore invenisti. Curabo enim imprimi ea ad publicam utilitatem, sicut hactenus non pauca tum hic edidi, tum Basileam, ut ederentur, misi. Habeo &amp; ego quaedam eiusdem generis, quae fortasse cum isto tuo recte simul edentur. Postremo cupio et illa tria impressa opuscula videre, quae polliceris: <rs type="author" ref="#hieronymus_balbus">Episcopi Gurcensis Balbi</rs> de coronatione ad Carolum V. Imperatorem<note type="annotation" resp="#hab">Hieronymus Balbus: Ad Carolum V. Imperatorem de Coronatione, Luguduni: Gryphius, 1530 <ptr type="opac" cRef="0150412843"/>. Vgl. <bibl>
+                     <ref type="bibliography" target="#aschbach_universitaet"> Aschbach: Universität</ref> 2, 167.</bibl>
+               </note>, Dominici de dominicis Brixiensis de reformatione Romanae curiae<note type="annotation" resp="#hab">Eine Schrift des Brixener Bischofs Domenicus an Papst Pius II., von Flacius aufgenommen: <bibl>Catalogus testium veritatis, Basileae: Oporinus, 1556, 940-942. <ptr target="http://diglib.hab.de/drucke/alv-v-598/start.htm"/>
+                  .</bibl></note>, <rs type="person" ref="#maffeo_vegio">Maphei Vegii Landensis</rs> dialogum<note type="annotation" resp="#hab">
+                  <bibl>Maphei Vegii, sva aetate oratorum Principis, inter inferiora corpora, scilicet Terram, Aurum, et superiora, praesertim Solem, elegantissima disputatio. Eivsdem De miseria et felicitate Dialogus, Basileae: Cratander; Kruffter, 1518, <ptr type="opac" cRef="0145982289"/>. </bibl>
+               </note>
+            </p>
+            <p>Ex libris D<ex>omini</ex> 
+               <rs type="person" ref="#s">Lazii</rs>
+               <note type="annotation" resp="#hab">Vgl. <ptr type="projekt" cRef="Wien_OeNB_521110"/>.</note> a te nominatis nullum proinde optarim videre, quam librum epistolarum historialium Pontificum &amp; fundationes monasteriorum; sed an simus impetraturi, tu forte melius nosti.<note type="annotation" place="margin-left" change="#st">Lazii Epistolarum PP. et fundationes Monastes.</note>
+            </p>
+            <p>
+               <pb n="9737b.4r" facs="#varia_selecta_ed000017_00533"/>Nominavi libros, quos te mihi mittere cupio; plures autem causae sunt, cur id primo quoque tempore fieri optarim, quas etiam superius utcunque attigi; prima quod iam statim darem perlegendos ei, qui scriptionis operam sustinebit; secunda, quod controversias Boemicas &amp; scripta in ordine redigo; postrema, quod aliqua ex illis curarem imprimi. Exspecto eiusmodi vetera etiam monumenta ex Anglia<note type="annotation" resp="#hab">Flacius stand im Briefverkehr mit John Bale und Alexander Alesius, vgl. <ptr type="projekt" cRef="Wien_OeNB_531128"/> und <ptr type="projekt" cRef="London_BL_540701"/>.</note> &amp; quibusdam locis Boemiae; nam &amp; <del type="overstrike">spes</del> scripsi in eas partes, &amp; aliqua mihi spes facta est, ut te tanto minus pigere debeat, si &amp; tu tua mittas. Valde autem optarim, te mihi significare,<del type="overstrike">ubio nam loci</del> quaenam monasteria et quas bibliothecas inspexeris, quo ego, qui eodem studio delector, non sumam inanem operam iisdem inspiciendis. Saluta illum alterum amicum, iuva opus Domini strenue, tuum nomen et locum et bene in Domino Jesu vale. Calendis Octobris 1553. Tuus <rs type="person" ref="#matthias_flacius">Illyricus </rs> 
+              <note type="annotation" place="below" change="#st">Illyricus</note>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

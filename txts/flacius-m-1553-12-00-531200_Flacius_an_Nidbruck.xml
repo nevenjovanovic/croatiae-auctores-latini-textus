@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5" xml:base="Wien/OeNB/531200_Flacius_an_Nidbruck.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>531200 Flacius an Nidbruck (Magdeburg, 1553-12)</title>
+            <respStmt>
+               <resp>Ediert durch </resp>
+               <name type="person">Harald Bollbuck</name>
+               <name type="person">Carsten Nahrendorf</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Elektronische Ausgabe nach TEI P5</edition>
+            <respStmt>
+               <resp>TEI-P5 konforme Kodierung durch </resp>
+               <name type="person">Harald Bollbuck</name>
+               <name type="person">Carsten Nahrendorf</name>
+               <name type="org">Herzog August Bibliothek</name>
+            </respStmt>
+            
+            <respStmt>
+               <resp>Kodierung adaptiert für CroALa durch </resp>
+               <name type="person">Neven Jovanović</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="org">
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska</ref>
+               </name>
+               <ptr target="https://www.ffzg.unizg.hr"/>
+            </publisher>
+            <publisher>
+               <name type="org">Herzog August Bibliothek Wolfenbüttel</name>
+               <ptr target="http://www.hab.de"/>
+            </publisher>
+            <date type="issued" when="2011"/>
+            <!--<date type="digitised" when="">Datum der Digitalisierung</date>-->
+            <distributor>Herzog August Bibliothek Wolfenbüttel</distributor>
+            <availability status="restricted">
+               <p>Diese Adaptation ist unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen in seiner jeweils aktuellen deutschsprachigen Version lizenziert.</p>
+               <p>Herzog August Bibliothek Wolfenbüttel (<ref target="http://diglib.hab.de/?link=012">copyright information</ref>)</p>
+            </availability>
+            <pubPlace><!--<ptr type="urn" cRef="urn:nbn:de:gbv:23-edoc/ed000086x"/>--><!--<ptr type="purl" cRef="http://diglib.hab.de/edoc/ed000086/start.htm"/>--><!--<ptr type="thumbnailForPresentations" cRef="http://diglib.hab.de/edoc/ed000086/images/titelblatt.jpg"/>--></pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:lang="de" xml:id="mss_Cod_Vind_9737b_fol_7r_tei-msDesc_Bollbuck">
+               <msIdentifier>
+                  <settlement>Wien</settlement>
+                  <repository>ÖNB</repository>
+                  <idno type="signatur">Cod. Vind. 9737b, Bl. 7r.</idno>
+               </msIdentifier>
+               <head>
+                  <title>
+                     <rs type="person" ref="#matthias_flacius">Matthias Flacius</rs> an <rs type="person" ref="#caspar_nidbruck">Caspar von Nidbruck</rs>
+                  </title>
+                  <origDate when="1553-12">Ende 1553.</origDate>
+                  <origPlace>Magdeburg</origPlace>
+               </head>
+               <msContents n="brief">
+                  <msItem>
+                     <title>Matthias Flacius an Caspar von Nidbruck</title>
+                     <msItem>
+                        <p>Flacius hat gehört, dass auf der Universitätsbibliothek in Wien die „Perspectiva“ des arabischen Gelehrten Alhazen, kopiert von der Hand Vogels, erhalten sei und wünscht sie ebenso zu erhalten, wie alte Kirchenagenden aus der Zeit vor Papst Gregor dem Großen. Die „Perspectiva“ solle veröffentlicht werden, die Agenden würde Flacius in seinem „Catalogus“ verwerten.</p>
+                     </msItem>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="chart">
+                        <support>Papier,</support>
+                        <extent>
+                           <measure type="pageDimensions">Format 2°.</measure>
+                        </extent>
+                        <collation>Eingebunden in <ptr type="projekt" cRef="Wien_OeNB_531128"/>.</collation>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scribe="matthias_flacius" scope="sole">Autograph.</handNote>
+                  </handDesc>
+               </physDesc>
+               <additional>
+                  <listBibl>
+                     <head>Transkription</head>
+                     <bibl>
+                        <ref type="bibliography" target="#bibl_briefwechsel">Bibl: Briefwechsel</ref>, 17 (1896), 20f, Nr. 6.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Erstellt im Rahmen des Projekts <name type="project">Historische Methode und Arbeitstechnik der Magdeburger Zenturien</name>
+            </p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="https://www.wikidata.org/entity/Q1733">Magdeburg</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q435311">Matthias Flacius</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q1735133">Caspar von Nidbruck</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1553-12" period="15xx_2_third">Ende 1553.</date>
+            <placeName ref="https://www.wikidata.org/entity/Q1733">Magdeburg</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2024-01-02</date>
+            Kodierung adaptiert für CroALa, unter gleicher Lizenz.
+         </change>
+      </revisionDesc>
+      
+   </teiHeader>
+   <facsimile>
+      <graphic xml:id="varia_selecta_ed000017_00539" url="http://diglib.hab.de/varia/selecta/ed000017/00539.jpg" n="9737b.7r"/>     
+   </facsimile>
+   <text>
+      <body>
+         <div>
+            <p>
+               <pb n="9737b.7r" facs="#varia_selecta_ed000017_00539"/>Audio<del type="overstrike">istic</del> Alhacis<note type="annotation" place="margin-left" change="#st">Perspectiva Alhacis</note> perspectivam manu Vogeli descriptam extare istic, opinor in universitatis bibliotheca.<note type="annotation" resp="#hab"> Die "Perspectica" des Alhazen (um 965-1039/1040) wurde 1572 ohne Beteiligung von Flacius als editio princeps gedruckt: <bibl>Opticae Thesavrvs Alhazeni Arabis libri septem, Basileae: Episcopius, 1572 <ptr type="opac" cRef="0150221126"/>
+                  .</bibl> Der Editor Friedrich Risner hatte stattdessen auf zwei Exemplare aus dem Besitz des Pierre Ramée zurückgreifen können. Die Widmung ist an Katharina von Medici gerichtet, verweist somit ebenfalls auf Paris. Die hier genannte Abschrift auf der Wiener Universitätsbibliothek, angefertigt von einem nicht näher benannten Kopist namens Vogel, ist unbekannt. Allerdings besaß die von ihrem Rektor Georg Ratzenberger zusammengestellte Bibliothek der Bürgerschule bei St. Stephan eine Handschrift Alhazens "De aspectibus" aus dem frühen 16. Jahrhundert, heute ÖNB Wien, Cod. Vind. 5322, Bl. 1r-269r. Vgl. <bibl>Martin Roland: Die Handschriften der alten Wiener Stadtbibliothek in der Österreichischen Nationalbibliothek (Publikationen aus der Wiener Stadt– und Landesbibliothek 4), Wien 1999, 122 f.; Abb. 25, <ptr type="opac" cRef="0271619937"/>
+                  ;</bibl> <bibl>D. C. Lindberg: A Catalogue of Medieval and Renaissance Optical Manuscripts (Subsidia mediaevalia 4), Toronto 1975, 3A, <ptr type="opac" cRef="0039695557"/>.</bibl> Nidbruck reagierte auf Flacius' Frage in <ptr type="projekt" cRef="Wien_OeNB_540313"/>
+               </note> Valde optarim, eam mihi <add place="supralinear" hand="#mf">quam primum</add> usui dari, quo, quoniam &amp; ipse unum exemplar habeo,<del type="overstrike">inco,</del> 
+               <del type="overstrike">quo</del> in communem utilitatem iste quoque autor prodiret. Magno enim id fieret non tantum studiosorum, sed &amp; mechanicorum commodo. Nescio, an monuerim in meo catalogo de agenda veteri, sed valde operae pretium esset eam habere, quae ante <choice>
+                  <sic>Gergorium</sic>
+                  <corr resp="#hab">
+                     <rs type="person" ref="#gregor_i">Gregorium</rs>
+                  </corr>
+               </choice> in usu alicuius celebris ecclesiae fuit. Vale! Cura amabo, ut quam primum et de hac re &amp; de aliis omnibus responsa accipiamus.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
