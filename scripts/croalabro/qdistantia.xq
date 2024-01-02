@@ -1,21 +1,22 @@
-(: CroALaBro quaere vocabulum fuzzy :)
+(: CroALaBro quaere vocabula aliquot aliis distantia :)
 
 import module namespace croalabro = "http://croala.ffzg.unizg.hr/croalabro" at "../../repo/croalabro.xqm";
 import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-html" at "../../repo/croalabro-html.xqm";
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Croatiae auctores Latini: quaere vocabula modo fuzzy';
-declare variable $subtitle := 'Quaere etiam erroribus permissis';
-declare variable $content := "Fuzzy search for words in CroALa.";
-declare variable $keywords := "Neo-Latin, Croatia, text corpus, search, fuzzy";
+declare variable $title := 'Croatiae auctores Latini: quaere vocabula distantia';
+declare variable $subtitle := 'Vocabula sunt maximo numero aliorum inter se distantia';
+declare variable $content := "Search in CroALa for all words separated by a given interval.";
+declare variable $keywords := "Neo-Latin, Croatia, text corpus, search, sentence, all words, words at a distance";
 
 (:~
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("qfuzzy")
-  %rest:query-param("vfuzzy", "{$vfuzzy}")
+  %rest:path("qdistantia")
+  %rest:query-param("vvdist", "{$vvdist}")
+  %rest:query-param("ndist", "{$ndist}")
   %output:method(
   "xhtml"
 )
@@ -30,7 +31,7 @@ declare
 )
 
 
-  function page:croalabroquaerefuzzy($vfuzzy)
+  function page:croalabroquaeresententia($vvdist, $ndist)
 {
   (: HTML template starts here :)
 
@@ -48,14 +49,14 @@ declare
 <div  class="row">
 <div  class="col">
 <p class="text-center">{ $subtitle }</p>
-<h4 class="text-center">{ "Quaeris: " || $vfuzzy || ". Inventum: " || croalabro:fuzzyfound($vfuzzy)/tr[1]/string() } </h4>
-<p class="text-center">{ "Formae: " || croalabro:fuzzyfound($vfuzzy)/tr[2] } </p>
+<h4 class="text-center">{ "Quaeris: " || $vvdist || ", per plurimum " || $ndist || " distantia. Inventum: " || croalabro:distfound($vvdist, $ndist)/tr[1] } </h4>
+
 </div>
 </div>
   <!-- function here -->
 
 { croalabro-html:trtodiv2(
-croalabro:fuzzyfound($vfuzzy)/tr[3]
+croalabro:distfound($vvdist, $ndist)/tr[2]
 ) }
 
 

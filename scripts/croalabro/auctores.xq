@@ -59,7 +59,7 @@ declare
 </div>
 </div>
 
-{ croalabro-html:footerserver() }
+{ croalabro-html:footertable() }
 </div>
 </body>
 </html>

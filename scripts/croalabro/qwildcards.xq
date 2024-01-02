@@ -1,20 +1,21 @@
-(: CroALaBro index auctorum, operum, generum, temporum :)
+(: CroALaBro quaere vocabulum fuzzy :)
 
 import module namespace croalabro = "http://croala.ffzg.unizg.hr/croalabro" at "../../repo/croalabro.xqm";
 import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-html" at "../../repo/croalabro-html.xqm";
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Croatiae auctores Latini';
-declare variable $subtitle := 'Index temporum';
-declare variable $content := "Display list of periods in CroALa.";
-declare variable $keywords := "Neo-Latin, Croatia, text corpus, period";
+declare variable $title := 'Croatiae auctores Latini: quaere vocabula modo wildcards';
+declare variable $subtitle := 'Quaere litteris signorum vice notatis';
+declare variable $content := "Wildcard search for words in CroALa.";
+declare variable $keywords := "Neo-Latin, Croatia, text corpus, search, wildcards";
 
 (:~
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("tempora")
+  %rest:path("qwildcards")
+  %rest:query-param("vwc", "{$vwc}")
   %output:method(
   "xhtml"
 )
@@ -29,13 +30,15 @@ declare
 )
 
 
-  function page:croalabrotempora()
+  function page:croalabroquaerewc($vwc)
 {
   (: HTML template starts here :)
 
 <html>
-{ croalabro-html:htmlheadserver($title, $content, $keywords) }
+{ croalabro-html:htmlheadloader($title, $content, $keywords) }
+
 <body>
+
 <div class="container">
 <div  class="row">
 <div  class="col">
@@ -44,18 +47,19 @@ declare
 </div>
 <div  class="row">
 <div  class="col">
-<h2 class="text-center">{ $subtitle }</h2>
+<p class="text-center">{ $subtitle }</p>
+<h4 class="text-center">{ "Quaeris: " || $vwc || ". Inventum: " || croalabro:wcfound($vwc)/tr[1]/string() } </h4>
+<p class="text-center">{ "Formae: " || croalabro:wcfound($vwc)/tr[2] } </p>
 </div>
 </div>
-<div class="row">
-<div  class="col text-center">
   <!-- function here -->
 
-{ croalabro-html:table (("Tempus", "Quot documenta" ), croalabro:tabulatemporum()) }
-</div>
-</div>
+{ croalabro-html:trtodiv2(
+croalabro:wcfound($vwc)/tr[3]
+) }
 
-{ croalabro-html:footertable() }
+
+{ croalabro-html:footerserver() }
 </div>
 </body>
 </html>

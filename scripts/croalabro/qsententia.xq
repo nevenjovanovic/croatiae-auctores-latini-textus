@@ -5,17 +5,17 @@ import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Croatiae auctores Latini: quaere vocabula modo fuzzy';
-declare variable $subtitle := 'Quaere etiam erroribus permissis';
-declare variable $content := "Fuzzy search for words in CroALa.";
-declare variable $keywords := "Neo-Latin, Croatia, text corpus, search, fuzzy";
+declare variable $title := 'Croatiae auctores Latini: quaere plura vocabula in eadem sententia';
+declare variable $subtitle := 'Omnia vocabula debent in eadem sententia esse';
+declare variable $content := "Search for all words (literal) in the same sentence in CroALa.";
+declare variable $keywords := "Neo-Latin, Croatia, text corpus, search, sentence, all words";
 
 (:~
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("qfuzzy")
-  %rest:query-param("vfuzzy", "{$vfuzzy}")
+  %rest:path("qsententia")
+  %rest:query-param("vvsent", "{$vvsent}")
   %output:method(
   "xhtml"
 )
@@ -30,7 +30,7 @@ declare
 )
 
 
-  function page:croalabroquaerefuzzy($vfuzzy)
+  function page:croalabroquaeresententia($vvsent)
 {
   (: HTML template starts here :)
 
@@ -48,14 +48,14 @@ declare
 <div  class="row">
 <div  class="col">
 <p class="text-center">{ $subtitle }</p>
-<h4 class="text-center">{ "Quaeris: " || $vfuzzy || ". Inventum: " || croalabro:fuzzyfound($vfuzzy)/tr[1]/string() } </h4>
-<p class="text-center">{ "Formae: " || croalabro:fuzzyfound($vfuzzy)/tr[2] } </p>
+<h4 class="text-center">{ "Quaeris: " || $vvsent || ". Inventum: " || croalabro:sentfound($vvsent)/tr[1] } </h4>
+<p class="text-center">{ "Formae: " || croalabro:sentfound($vvsent)/tr[2] } </p>
 </div>
 </div>
   <!-- function here -->
 
 { croalabro-html:trtodiv2(
-croalabro:fuzzyfound($vfuzzy)/tr[3]
+croalabro:sentfound($vvsent)/tr[3]
 ) }
 
 

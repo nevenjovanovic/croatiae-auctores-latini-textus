@@ -57,20 +57,22 @@ declare
 
 <div  class="row">
 <div  class="col">
-<h3 class="text-center">{ "Quaere in modo wildcards (litteris vice signis notatis)" }</h3>
+<h3 class="text-center">{ "Quaere in modo wildcards (litteris signorum vice notatis)" }</h3>
   <!-- function here -->
 
-{ croalabro-html:searchform( "qwildcards" , "vwild", "Quaere cum wildcards" ) }
-
+{ croalabro-html:searchform( "qwildcards" , "vwc", "Quaere ope wildcards" ) }
+	<p>Si quaeres vocabulum <b>c.elum</b> modo wildcards, invenientur in CroALa <em>Coelum coelum caelum COELUM CAELUM Caelum</em>.</p>
+	<ul><small><li>Signum . notat litteram quamvis singulam (c.elum = caelum, coelum...)</li><li>Signa .? notant quamvis litteram nullam sive singulam (sol.icitus = solicitus, sollicitus...)</li><li>Signa .* notant quamvis litteram nullam sive plures (terra.* = terra, terrae, terrarum, terraque...)</li><li>Signa .+ notant quamvis litteram unam sive plures (part.+ = partis, partem, partium, partibusque...)</li><li>Signa .&#123;min,max&#125; notant numerum quarumvis litterarum minimum et maximum (part.&#123;2,3&#125; = partis, partem, partium... sed non parte, partibus, partique...)</li></small></ul>
+<p><small>Patientia desideratur, quia quaestio longiuscula fieri solet. – De modo wildcards vide plura in <a href="https://docs.basex.org/wiki/Full-Text#Match_Options">BaseX Wiki</a>.</small></p>
 </div>
 </div>
 
 <div  class="row">
 <div  class="col">
-<h3 class="text-center">{ "Quaere vocabula distantia (separata per unum, duo, tria etc. alia)" }</h3>
+<h3 class="text-center">{ "Quaere vocabula distantia (separata per aliud unum, duo, tria etc.)" }</h3>
   <!-- function here -->
 
-DISTANTIA
+{ croalabro-html:searchformtxtnr( "qdistantia", "vvdist", "Da vocabula plura quaerenda", "ndist", "Da numerum vocabulorum separantium (1, 2, 3...)" ) }
 </div>
 </div>
 
@@ -79,7 +81,7 @@ DISTANTIA
 <h3 class="text-center">{ "Quaere vocabula in eadem sententia" }</h3>
   <!-- function here -->
 
-{ croalabro-html:searchform( "qsententia" , "vsent", "Quaere vocabula in eadem sententia" ) }
+{ croalabro-html:searchform( "qsententia" , "vvsent", "Quaere vocabula in eadem sententia" ) }
 </div>
 </div>
 

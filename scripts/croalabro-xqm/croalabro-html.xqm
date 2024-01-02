@@ -117,6 +117,15 @@ attribute class { "text-error text-center" },
 }
 };
 
+declare function croalabro-html:zero2() {
+element div { 
+element tr { 
+element b { "nihil." } },
+		element tr { 
+element b { "nullae." } }
+}
+};
+
 (: make search form; needs: 1. action, 2. name, 3. placeholder :)
 
 declare function croalabro-html:searchform( $action , $name, $placeholder ) {
@@ -138,6 +147,34 @@ element form {
   }
 }
 };
+
+(: make search form with two fields, text and number, grouped :)
+
+declare function croalabro-html:searchformtxtnr( $action , $name, $placeholder, $distance, $placeholder2 ) {
+element form {
+  attribute action { $action },
+  element p {
+    attribute class { "grouped" },
+    element input {
+      attribute type { "search"},
+      attribute name { $name },
+      attribute placeholder { $placeholder }
+			},
+			 element input {
+      attribute type { "number"},
+      attribute name { $distance },
+      attribute placeholder { $placeholder2 }
+    },
+    element button {
+      attribute class { "button icon-only" },
+      element img {
+        attribute src { "https://icongr.am/feather/search.svg?size=16" }
+      }
+    }
+  }
+}
+};
+
 
 (: helper function for table :)
 declare function croalabro-html:table ($headings, $body){
@@ -172,6 +209,22 @@ attribute src { "https://icongr.am/entypo/leaf.svg?size=40&amp;color=6CB4EE" }
 
 (: helper function - footer :)
 declare function croalabro-html:footerserver () {
+let $f := <footer class="footer">
+<div class="row">
+<div  class="col">
+<h3 class="text-center"><img src="https://icongr.am/entypo/leaf.svg?size=40&amp;color=6CB4EE" aria-hidden="true"></img><br/><a href="https://croala.ffzg.unizg.hr">CroALa</a>: Croatiae auctores Latini</h3>
+<h4 class="text-center"><a href="https://www.ffzg.unizg.hr"><img src="/static/gfx/ffzghrlogo.png"/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h4> 
+<p class="text-center">
+<span class="text-grey">Github</span>: <a href="https://github.com/nevenjovanovic/croatiae-auctores-latini-textus">croatiae-auctores-latini-textus</a></p>
+</div>
+</div>
+
+</footer>
+return $f
+};
+
+(: helper function - footer with table :)
+declare function croalabro-html:footertable () {
 let $f := <footer class="footer">
 <div class="row">
 <div  class="col">

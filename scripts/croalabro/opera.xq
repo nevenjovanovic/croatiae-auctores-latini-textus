@@ -56,11 +56,11 @@ declare
 <div  class="col text-center">
   <!-- function here -->
 
-{ croalabro-html:table (("Opus", "Documentum"), croalabro:tabulaoperum()) }
+{ croalabro-html:table (("Opus", "Verborum", "Documentum"), croalabro:tabulaoperum()) }
 </div>
 </div>
 
-{ croalabro-html:footerserver() }
+{ croalabro-html:footertable() }
 </div>
 </body>
 </html>

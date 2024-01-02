@@ -103,13 +103,20 @@ return element tr {
 
 declare function croalabro:tabulaoperum() {
 
-for $a in db:open($croalabro:db)//*:teiHeader/*:fileDesc/*:titleStmt/*:title
+for $a in db:open($croalabro:db)//*:teiHeader/*:fileDesc/*:titleStmt/*:title[1]
 let $s := normalize-space($a)
 order by $s collation "?lang=hr"
 return element tr {
   element td { $s },
+  element td { croalabro:wordcount(db:path($a)) },
   element td { croalabro:filepath($a) }
 }
+};
+
+(: read word counts from the secondary db :)
+
+declare function croalabro:wordcount($docname){
+  db:get("croalatextus-wc")//*:doc[@title=$docname]/@wc/string()
 };
 
 (: table of types, with doc counts :)
@@ -241,19 +248,134 @@ element td { $marked }
 }
 };
 
+(: wildcards search :)
+
+declare function croalabro:quaerewc($word){
+for $n in ft:search($croalabro:db, $word , map {
+  "wildcards": true()
+  })
+let $path := db:path($n)
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $title := string-join($n/ancestor::*:div/*:head, " > ")
+let $marked := ft:mark($n[. contains text { $word } using wildcards ])
+order by $date , $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { $marked }
+}
+};
+
+(: search for all words in the same sentence, in any order :)
+
+declare function croalabro:quaeresent($word){
+	for $n in ft:search($croalabro:db, $word , map {
+   "mode": "all words",
+   "scope": map { "same": true(),
+		  "unit": "sentence"}			
+  })
+let $path := db:path($n)
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $title := string-join($n/ancestor::*:div/*:head, " > ")
+let $marked := ft:mark($n[. contains text { $word } all words same sentence ])
+order by $date , $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { $marked }
+}
+};
+
+(: search for words at specified distance :)
+
+declare function croalabro:quaeredist($word, $dist){
+	for $n in ft:search($croalabro:db, $word , map {
+			  "mode": "all words",
+  "distance": map { "max": $dist }
+  })
+let $path := db:path($n)
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $title := string-join($n/ancestor::*:div/*:head, " > ")
+let $marked := ft:mark($n[. contains text { $word } all words distance at most $dist words ])
+order by $date , $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { $marked }
+}
+};
+
+
+
 (: perform fuzzy search, return distinct values found with fuzzy, report if 0 hits :)
 
 declare function croalabro:fuzzyfound($word) {
 let $q := croalabro:quaerefuzzy($word)
 let $found := distinct-values($q/td[6]/mark/string())
 let $qcount := count($q)
-return if ($qcount=0) then croalabro-html:zero()
+return if ($qcount=0) then croalabro-html:zero2()
 else element div {
   element tr { $qcount },
   element tr { $found },
   element tr { $q }
 }
 };
+
+(: perform wildcards search, return distinct values found with wildcards, report if 0 hits :)
+
+declare function croalabro:wcfound($word) {
+let $q := croalabro:quaerewc($word)
+let $found := distinct-values($q/td[6]/mark/string())
+let $qcount := count($q)
+return if ($qcount=0) then croalabro-html:zero2()
+else element div {
+  element tr { $qcount },
+  element tr { $found },
+  element tr { $q }
+}
+};
+
+(: perform search for all words in same sentence, format result, report if zero :)
+
+declare function croalabro:sentfound($word) {
+let $q := croalabro:quaeresent($word)
+let $found := distinct-values($q/td[6]/mark/string())
+let $qcount := count($q)
+return if ($qcount=0) then croalabro-html:zero2()
+else element div {
+  element tr { $qcount },
+  element tr { $found },
+  element tr { $q }
+}
+};
+
+declare function croalabro:distfound($word, $dist) {
+let $q := croalabro:quaeredist($word, $dist)
+(: let $found := distinct-values($q/td[6]/mark/string()) :)
+let $qcount := count($q)
+return if ($qcount=0) then croalabro-html:zero2()
+else element div {
+  element tr { $qcount },
+(:  element tr { $found }, :)
+  element tr { $q }
+}
+};
+
 
 (: check if search returned 0 hits :)
 declare function croalabro:nihil($result){
