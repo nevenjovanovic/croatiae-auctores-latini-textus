@@ -3,12 +3,18 @@
    <teiHeader>
       <fileDesc xml:id="nn-inscriptio-ragninae-1004">
          <titleStmt>
-            <title>Inscriptio in Chronica Ragusina 1004, versio electronica</title>
+            <title>Inscriptio in Annali di Ragusa del Nicolò di Ragnina (post 1004), versio electronica</title>
             <author ref="#anonymus_1004">
                <persName xml:lang="lat">Anonymus</persName>
                <date when="1004">floruit 1004</date>
             </author>
             <editor>
+               <persName>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q7036759">Nikola Ranjina</ref>
+               </persName>
+               <persName>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q1267183">Natko Nodilo</ref>
+               </persName>
                <persName>
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
@@ -17,19 +23,23 @@
          <editionStmt>
             <edition>
                     Prema starijem znanstvenom izdanju
-               <date>QUO ANNO</date>
+               <date>1883</date>.
             </edition>
          </editionStmt>
-         <extent ana="A-G">Mg:A-G QUOT versus, verborum QUOT</extent>
+         <extent ana="A-G">Mg:A-G 4 versus, verborum 22</extent>
          <publicationStmt>
-            <p>Rad nastao u okviru znanstvenog projekta NOMEN, (<orgName>
+            <p>Rad nastao u okviru znanstvenog projekta Croatiae auctores Latini, (<orgName>
                   <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>MENSE ANNO</date>
             </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
-            <bibl>FONS</bibl>
+            <bibl>Ranjina, N. (1883) Annales Ragusini anonymi (Li Annali della Nobilissima Republica di Ragusa ...) item Nicolai de Ragnina (Nicolò di Ragnina: Annali di Ragusa). 
+               Edited by N. Nodilo. 
+               Zagrabiae (Monumenta spectantia historiam Slavorum meridionalium. Scriptores). 
+               Available at: <ptr target="https://books.google.hr/books?id=4ygyemlZURgC"/>.
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -47,7 +57,7 @@
          </langUsage>
          <creation>
              <!-- PROMIJENI PO POTREBI: -->
-            <date notBefore="1234" period="12xx_2_third">1234</date>
+            <date notBefore="1004" period="10xx_1_third">post 1004</date>
          </creation>
          <textClass>
             <keywords scheme="typus">
@@ -56,13 +66,14 @@
             </keywords>
             <keywords scheme="aetas">
                     <!-- VERBA PRAEDEFINITA -->
-               <term>Litterae renatae (1400-1600)</term>
-               <term>Saeculum 16 (1501-1600)</term>
-               <term>1501-1550</term>
+               <term>Litterae medii aevi (600-1400)</term>
+               <term>Saeculum 11 (1001-1100)</term>
+               <term>1001-1050</term>
             </keywords>
             <keywords scheme="genre">
                     <!-- VERBA PRAEDEFINITA -->
                <term>poesis - epigramma</term>
+               <term>poesis - inscriptio</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -71,17 +82,22 @@
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
-            <date>ANNUS-MENSIS-DIES</date> Versionem XML
+            <date>2024-01-01</date> Versionem XML
                 fecit. 
             </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="TYPUS" xml:id="ID-01">
-            <head>TITULUS</head>
-            <l>TEXTUS</l>
+         <milestone unit="page" n="207"/>
+         <gap reason="irrelevant"/>
+         <div type="poesis-inscriptio" xml:id="ragnina1004-01">
+            <l>Stephanus dux Bossinae, imperatore rege Bodino,</l> 
+            <l>Cominus ecclesiae Divi Nicolai de Campo</l> 
+            <l>Castellum construxit, postea patriamque reversus,</l> 
+            <l>Sub <sic>Costantino</sic> Graecorum iudice nono.</l>
          </div>
+         <gap reason="irrelevant"/>
       </body>
    </text>
 </TEI>

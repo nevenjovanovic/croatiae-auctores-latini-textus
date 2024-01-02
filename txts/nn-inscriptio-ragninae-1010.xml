@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="nn-inscriptio-ragninae-1010">
+         <titleStmt>
+            <title>Inscriptio in Annali di Ragusa del Nicolò di Ragnina (post 1012), versio electronica</title>
+            <author ref="#anonymus_1010">
+               <persName xml:lang="lat">Anonymus</persName>
+               <date when="1004">floruit post 1012</date>
+            </author>
+            <editor>
+               <persName>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q7036759">Nikola Ranjina</ref>
+               </persName>
+               <persName>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q1267183">Natko Nodilo</ref>
+               </persName>
+               <persName>
+                  <ref type="viaf" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+                    Prema starijem znanstvenom izdanju
+               <date>1883</date>.
+            </edition>
+         </editionStmt>
+         <extent ana="A-G">Mg:A-G 4 versus, verborum 22</extent>
+         <publicationStmt>
+            <p>Rad nastao u okviru znanstvenog projekta Croatiae auctores Latini, (<orgName>
+                  <ref type="viaf" target="124389134">Filozofski fakultet Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska). <date>MENSE ANNO</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Ranjina, N. (1883) Annales Ragusini anonymi (Li Annali della Nobilissima Republica di Ragusa ...) item Nicolai de Ragnina (Nicolò di Ragnina: Annali di Ragusa). 
+               Edited by N. Nodilo. 
+               Zagrabiae (Monumenta spectantia historiam Slavorum meridionalium. Scriptores). 
+               Available at: <ptr target="https://books.google.hr/books?id=4ygyemlZURgC"/>.
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+             <!-- PROMIJENI PO POTREBI: -->
+            <date notBefore="1010" period="10xx_1_third">post 1012</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+                    <!-- PROSA / POESIS -->
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+                    <!-- VERBA PRAEDEFINITA -->
+               <term>Litterae medii aevi (600-1400)</term>
+               <term>Saeculum 11 (1001-1100)</term>
+               <term>1001-1050</term>
+            </keywords>
+            <keywords scheme="genre">
+                    <!-- VERBA PRAEDEFINITA -->
+               <term>poesis - epigramma</term>
+               <term>poesis - inscriptio</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2024-01-01</date> Versionem XML
+                fecit. 
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <milestone unit="page" n="208"/>
+         <gap reason="irrelevant"/>
+         <div type="poesis-inscriptio" xml:id="ragnina1010-01">
+            <l>Quidam nauclerius, qui Frontinus est vocitatus,</l>
+            <l>Ab insula et castro Setrovolum quod dicitur urbis Aegeae,</l> 
+            <l>Urbem Rhagusam cum Zenobio Zenobiam</l>
+            <l>Transtulit: hic praesul, <add resp="NN">(haec)</add> virgo, martyrque uterque;</l> 
+            <l>Quos Nicephorus, pastor metropolis hujus,</l> 
+            <l>Vitalisque comes, qui dictus erat Veteranus,</l>
+            <l>Plebs simul ac populus, in sede metropolitana</l>
+            <l>Cum prece, cum psalmis, cum laudis honore locarunt</l>
+            <l>Sanctae Mariae, Domini genitricis, in aede,</l>
+            <l>Anno milleno Domini simul ac duodeno.</l>
+            <l>Ipsorum meritis sanatis pluribus aegris, </l>
+            <l>Plurima tunc et adhuc fiunt miracula multa.</l>
+         </div>
+         <gap reason="irrelevant"/>
+      </body>
+   </text>
+</TEI>
