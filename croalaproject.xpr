@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project version="17.1">
+<project>
     <meta>
         <filters directoryPatterns="" filePatterns="" positiveFilePatterns="*.xml" showHiddenFiles="false"/>
         <options>
-            <serialized version="17.1" xml:space="preserve">
+            <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
                         <String>document.types</String>
                         <documentTypeDescriptor-array>
                             <documentTypeDescriptor>
+                                <field name="webResources">
+                                    <null/>
+                                </field>
                                 <field name="extensionPatch">
                                     <null/>
                                 </field>
@@ -52,6 +55,9 @@
                                                 <field name="menuEntriesDescriptorList">
                                                     <menuEntry-array/>
                                                 </field>
+                                                <field name="context">
+                                                    <null/>
+                                                </field>
                                             </menu>
                                         </field>
                                         <field name="popupMenuDescriptor">
@@ -67,6 +73,9 @@
                                                 </field>
                                                 <field name="menuEntriesDescriptorList">
                                                     <menuEntry-array/>
+                                                </field>
+                                                <field name="context">
+                                                    <null/>
                                                 </field>
                                             </menu>
                                         </field>
@@ -105,16 +114,28 @@
                                         <field name="tableSupportClassName">
                                             <null/>
                                         </field>
+                                        <field name="tableCellSeparatorSupportClassName">
+                                            <null/>
+                                        </field>
                                         <field name="tableColWidthSupportClassName">
                                             <null/>
                                         </field>
                                         <field name="customReferencesResolver">
                                             <null/>
                                         </field>
+                                        <field name="editPropertiesHandler">
+                                            <null/>
+                                        </field>
                                         <field name="authorExtensionStateListener">
                                             <null/>
                                         </field>
                                         <field name="attributesRecognizer">
+                                            <null/>
+                                        </field>
+                                        <field name="authorActionEventHandler">
+                                            <null/>
+                                        </field>
+                                        <field name="authorImageDecorator">
                                             <null/>
                                         </field>
                                     </authorExtension>
@@ -187,6 +208,9 @@
                                 <field name="customAttributeValueEditor">
                                     <null/>
                                 </field>
+                                <field name="textModeExternalObjectInsertionHandler">
+                                    <null/>
+                                </field>
                             </documentTypeDescriptor>
                         </documentTypeDescriptor-array>
                     </entry>
@@ -226,6 +250,31 @@
                     <entry>
                         <String>key.editor.document.type.association.option.pane</String>
                         <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>zip:file:/home/neven/Documents/latinisti/paladinic/paladinic-govor-lat.odt!/content.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>6/odf/odf.framework/ODF 1.2/ODT TEI P5</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
                     </entry>
                     <entry>
                         <String>scenarios</String>
@@ -272,9 +321,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfd}/../basex2/${cfn}.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfd}/../basex2/${cfn}.xml</String>
@@ -358,9 +404,6 @@
                                 </field>
                                 <field name="openInBrowser">
                                     <Boolean>false</Boolean>
-                                </field>
-                                <field name="outputFile">
-                                    <File>${cfd}/${cfn}.xml</File>
                                 </field>
                                 <field name="outputResource">
                                     <String>${cfd}/${cfn}.xml</String>
