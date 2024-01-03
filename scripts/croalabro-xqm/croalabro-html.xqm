@@ -50,6 +50,15 @@ declare function croalabro-html:link($url,$lname){
   }
 };
 
+declare function croalabro-html:linkfrag($url,$fragment){
+	element a {
+		attribute rel { "noopener" },
+    attribute href { $url },
+    $fragment
+  }
+};
+
+
 (: make html link as tag :)
 
 declare function croalabro-html:linktag($url,$lname){

@@ -1,6 +1,7 @@
 (: XQuery module for CroALaBRO :)
 module namespace croalabro = 'http://croala.ffzg.unizg.hr/croalabro';
 import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-html" at "croalabro-html.xqm";
+import module namespace  functx = "http://www.functx.com" at "functx.xq";
 
 (: map to translate period notation into Latin :)
 
@@ -203,19 +204,41 @@ declare function croalabro:titleauthor($path){
 )
 };
 
+(: select and format beginning and end for the URL text fragment :)
+
+declare function croalabro:textfrag($string) {
+if (string-length($string) > 100)
+	then web:encode-url(
+		functx:substring-before-last(
+			replace(substring($string, 1, 45), "^ +", ""), " "
+		)
+	)
+	|| ","
+	|| web:encode-url(
+		substring-after(
+			normalize-space(
+				substring($string, string-length($string) - 45, 45)
+				), " "
+		)
+	)
+		else web:encode-url(normalize-space($string))
+};	
+
 (: search fulltext, simple - literal word, return rows with six cells  :) 
 (: td cells: 1 file name, 2 title, 3 first author, 4 creation date, 5 div heads, 6 search result :)
 
 declare function croalabro:quaere($word){
 for $n in ft:search($croalabro:db, $word )
-let $path := db:path($n)
-let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
-let $title := string-join($n/ancestor::*:div/*:head, " > ")
+	let $path := db:path($n)
+	let $fragment := croalabro:textfrag($n)
+	let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+	let $title := string-join($n/ancestor::*:div/*:head, " > ")
+	let $url :=  "/static/croala-html/" || croalabro:basepath( $path ) || ".html" || "#:~:text=" || replace($fragment, "\++", " ")
 order by $date , $path
 return element tr { 
 element td {  
 croalabro-html:formathithead(
-croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+croalabro-html:linkfrag($url, croalabro:basepath($path))
 )
 },
 for $e in croalabro:titleauthor($path) return element td { $e } ,
