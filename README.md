@@ -4,17 +4,20 @@
 
 TEI XML encoded Latin texts from the Croatian auctores Latini collection, freely available under a [CC-BY license](LICENSE.md).
 
-The files edited here are published as a [PhiloLogic](https://sites.google.com/site/philologic3/) collection [CroALa](croala.ffzg.unizg.hr) (there is a [testing deployment](http://solr.ffzg.hr/philo4/croala0/) under PhiloLogic 4), and as a BaseX XML database (see an introductory analysis in [Quadrata rotundis](http://solr.ffzg.hr/dokuwiki/doku.php/z:crotyr-quadrata) paper).
+The files edited here are published as a [PhiloLogic](https://sites.google.com/site/philologic3/) collection [CroALa](croala.ffzg.unizg.hr) (there is a [testing deployment](http://solr.ffzg.hr/philo4/croala0/) under PhiloLogic 4), and as a BaseX XML database (see an earlier analysis in [Quadrata rotundis](http://solr.ffzg.hr/dokuwiki/doku.php/z:crotyr-quadrata) paper).
 
-This repository exists both in its [Git](https://git-scm.com/book/en/v2) and [Mercurial](http://hgbook.red-bean.com/read/) version.
+The [BaseX](https://basex.org/) XML db will be published through own simple text publishing and searching system; see the directories [croalabro](/scripts/croalabro) and [croalabro-xqm](/scripts/croalabro-xqm).
 
-* Git: on [Github](https://github.com/nevenjovanovic/croatiae-auctores-latini-textus)
-* Mercurial: on [Bitbucket](https://bitbucket.org/nevenjovanovic/croalatxt)
+* Address of this Git repo: on [Github](https://github.com/nevenjovanovic/croatiae-auctores-latini-textus)
 
 ## Contents ##
 
 * The TEI XML texts are in [txts](/txts) directory
 * The word counts for files are in [croala-wordcounts.xml](croala-wordcounts.xml)
+* The scripts for a text publishing and searching system: [croalabro](/scripts/croalabro) and [croalabro-xqm](/scripts/croalabro-xqm)
+* The reading versions of documents will be transformed from TEI XML source to XHTML in oXygen (with an additional XSL script) and served as static files in the local directory `basex/webapp/static/`
+* The CSS framework used will be [Chota](https://jenil.github.io/chota/)
+* Additional scripts for the BaseX XML database: [xq](/scripts/xq)
 * The oXygen project file is [croalaproject.xpr](croalaproject.xpr)
 
 ## How to use ##
@@ -23,7 +26,6 @@ Download the files or clone the repository.
 
 ### Download the files ###
 
-* From Mercurial repository on Bitbucket: go to [Download repository](https://bitbucket.org/nevenjovanovic/croalatxt/downloads)
 * From Git repository on Github: go to [Releases](https://github.com/nevenjovanovic/croatiae-auctores-latini-textus/releases) and select the most recent one
 
 ### With Git ###
@@ -32,18 +34,15 @@ Download the files or clone the repository.
 * Go to the [croatiae-auctores-latini-textus](https://github.com/nevenjovanovic/croatiae-auctores-latini-textus) Github repository
 * Replicate the data on your computer with [git clone](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
-### With Mercurial ###
+## Create the DB and the publishing system
 
-* [Download](https://www.mercurial-scm.org/wiki/Download) and [Install Mercurial](http://hgbook.red-bean.com/read/a-tour-of-mercurial-the-basics.html)
-* Go to the Mercurial [croalatxt](https://bitbucket.org/nevenjovanovic/croalatxt) repository on Bitbucket
-* Replicate the data on your computer with [hg clone](https://bitbucket.org/nevenjovanovic/croalatxt#clone)
-
+TBA
 
 ### Current state of the collection ###
-On 2019-02-24 the collection contains:
+On 2024-01-03 the collection contains:
 
-*  *562* documents
-*  words *5,892,803*
+*  *509* TEI XML documents
+*  *5,674,274* words in texts (metadata and encodings are not counted)
 
 ### Editor ###
 
