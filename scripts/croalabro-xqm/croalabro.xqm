@@ -88,12 +88,18 @@ declare variable $croalabro:urn := "http://localhost:8080/";
 declare variable $croalabro:db := "croalatextus";
 
 declare function croalabro:tabulaauctorum() {
-for $a in db:open($croalabro:db)//*:teiHeader/*:fileDesc/*:titleStmt/*:author/*[name()=("orgName","persName")][1]
+	for $a in db:get($croalabro:db)//*:teiHeader/*:fileDesc/*:titleStmt/*:author/*[name()=("orgName","persName")][1]
+	let $wikidata := $a/../@ref/string()
 let $s := normalize-space($a)
 group by $s
 order by $s collation "?lang=hr"
 return element tr {
-  element td { croalabro-html:link(("auctor/" || $s),$s) },
+		element td { if (matches($wikidata[1], "http://www.wikidata.org/entity/")) then
+			( croalabro-html:link(("auctor/" || $s),$s) ,
+				element br {} ,
+				croalabro-html:link($wikidata[1],
+					croalabro-html:wikidata(substring-after($wikidata[1], "http://www.wikidata.org/entity/") )
+						) ) else croalabro-html:link(("auctor/" || $s),$s) },
   element td { attribute class { "text-center" } , count($a) },
   element td { croalabro:filepath($a) }
 }

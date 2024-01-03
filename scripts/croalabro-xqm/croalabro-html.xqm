@@ -103,6 +103,24 @@ return element div {
 }
 };
 
+(: create Wikidata tag :)
+
+declare function croalabro-html:wikidata($qname){
+	element span {
+		attribute class { "tag" },
+		element img {
+			attribute class { "pull-left" },
+	attribute src { "static/Wikidata.svg" },
+	attribute alt { "Wikidata logo" },
+	attribute width { "32" },
+	attribute height { "18" }
+		},
+		element small {
+			attribute class { "pull-right" },
+	" " || $qname
+			}
+		}
+};
 
 (: format header for a hit in search results :)
 

@@ -40,12 +40,14 @@ declare
 <div class="container">
 <div  class="row">
 <div  class="col">
-<h1 class="text-center">{ $title }</h1>
+	<h1 class="text-center">{ $title }</h1>
+	<p class="text-center">{ $subtitle }</p>
+	<p class="text-center">Inventa ostenduntur ordine chronologico.</p>
 </div>
 </div>
 <div  class="row">
 <div  class="col">
-<h2 class="text-center">{ $subtitle }</h2>
+
 <h3 class="text-center">{ "Quaeris: " || $verbum || ". Inventum: " || count(croalabro:quaere($verbum)) }</h3>
 </div>
 </div>
