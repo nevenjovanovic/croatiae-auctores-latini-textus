@@ -4,8 +4,8 @@
 
 Directory </xsl>.
 
-* [croala-kay-wordcount.xsl](/xsl/croala-kay-wordcount.xsl) a test script for word counts, adapted from M. Kay's
-* [html-add-class.xsl](/xsl/html-add-class.xsl) a script which additionally customizes standard TEI XML transformation to XHTML (as supplied with the [oXygen XML editor](https://www.oxygenxml.com/)).
+* [croala-kay-wordcount.xsl](/scripts/xsl/croala-kay-wordcount.xsl) a test script for word counts, adapted from M. Kay's
+* [html-add-class.xsl](/scripts/xsl/html-add-class.xsl) a script which additionally customizes standard TEI XML transformation to XHTML (as supplied with the [oXygen XML editor](https://www.oxygenxml.com/)).
 
 ## XQ
 
@@ -13,8 +13,8 @@ Directory </xq>.
 
 Most important: two scripts to create the main database (`croalatextus`) and the additional word count (`croalatextus-wc`) database:
 
-* [createCroALaDB.xq](/xq/createCroALaDB.xq)
-* [createCroALaDB-wc.xq](/xq/createCroALaDB-wc.xq)
+* [createCroALaDB.xq](/scripts/xq/createCroALaDB.xq)
+* [createCroALaDB-wc.xq](/scripts/xq/createCroALaDB-wc.xq)
 
 Other scripts are used in preparing the TEI XML and BaseX system functions.
 
