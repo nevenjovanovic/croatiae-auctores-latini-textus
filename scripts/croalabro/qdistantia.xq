@@ -6,7 +6,7 @@ import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-
 declare namespace page = 'http://basex.org/examples/web-page';
 
 declare variable $title := 'Croatiae auctores Latini: quaere vocabula distantia';
-declare variable $subtitle := 'Vocabula sunt maximo numero aliorum inter se distantia';
+declare variable $subtitle := 'Vocabula sunt maximo numero aliorum inter se distantia; inventa chronologico ordine afferuntur';
 declare variable $content := "Search in CroALa for all words separated by a given interval.";
 declare variable $keywords := "Neo-Latin, Croatia, text corpus, search, sentence, all words, words at a distance";
 
@@ -36,7 +36,7 @@ declare
   (: HTML template starts here :)
 
 <html>
-{ croalabro-html:htmlheadloader($title, $content, $keywords) }
+{ croalabro-html:htmlheadserver($title, $content, $keywords) }
 
 <body>
 

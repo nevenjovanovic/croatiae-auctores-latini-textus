@@ -6,7 +6,7 @@ import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-
 declare namespace page = 'http://basex.org/examples/web-page';
 
 declare variable $title := 'Croatiae auctores Latini: quaere vocabula modo fuzzy';
-declare variable $subtitle := 'Quaere etiam erroribus permissis';
+declare variable $subtitle := 'Quaere etiam erroribus permissis; inventa chronologico ordine afferuntur';
 declare variable $content := "Fuzzy search for words in CroALa.";
 declare variable $keywords := "Neo-Latin, Croatia, text corpus, search, fuzzy";
 
@@ -35,7 +35,7 @@ declare
   (: HTML template starts here :)
 
 <html>
-{ croalabro-html:htmlheadloader($title, $content, $keywords) }
+{ croalabro-html:htmlheadserver($title, $content, $keywords) }
 
 <body>
 

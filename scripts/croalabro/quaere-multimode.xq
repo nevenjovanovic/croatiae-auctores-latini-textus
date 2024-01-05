@@ -69,7 +69,8 @@ declare
 
 <div  class="row">
 <div  class="col">
-<h3 class="text-center">{ "Quaere vocabula distantia (separata per aliud unum, duo, tria etc.)" }</h3>
+	<h3 class="text-center">{ "Quaere vocabula distantia (separata per aliud unum, duo, tria etc.)" }</h3>
+	<p class="text-center">Quaestio fit ad litteram (neque cum wildcards neque fuzzy).</p>
   <!-- function here -->
 
 { croalabro-html:searchformtxtnr( "qdistantia", "vvdist", "Da vocabula plura quaerenda", "ndist", "Da numerum vocabulorum separantium (1, 2, 3...)" ) }
@@ -78,7 +79,8 @@ declare
 
 <div  class="row">
 <div  class="col">
-<h3 class="text-center">{ "Quaere vocabula in eadem sententia" }</h3>
+	<h3 class="text-center">{ "Quaere vocabula in eadem sententia" }</h3>
+	<p class="text-center">Quaestio fit ad litteram (neque cum wildcards neque fuzzy).</p>
   <!-- function here -->
 
 { croalabro-html:searchform( "qsententia" , "vvsent", "Quaere vocabula in eadem sententia" ) }

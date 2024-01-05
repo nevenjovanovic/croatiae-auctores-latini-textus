@@ -6,7 +6,7 @@ import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-
 declare namespace page = 'http://basex.org/examples/web-page';
 
 declare variable $title := 'Croatiae auctores Latini: quaere plura vocabula in eadem sententia';
-declare variable $subtitle := 'Omnia vocabula debent in eadem sententia esse';
+declare variable $subtitle := 'Omnia vocabula debent in eadem sententia esse; inventa chronologico ordine afferuntur';
 declare variable $content := "Search for all words (literal) in the same sentence in CroALa.";
 declare variable $keywords := "Neo-Latin, Croatia, text corpus, search, sentence, all words";
 
@@ -35,7 +35,7 @@ declare
   (: HTML template starts here :)
 
 <html>
-{ croalabro-html:htmlheadloader($title, $content, $keywords) }
+{ croalabro-html:htmlheadserver($title, $content, $keywords) }
 
 <body>
 
