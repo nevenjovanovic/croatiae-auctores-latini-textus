@@ -5,6 +5,8 @@ import module namespace  functx = "http://www.functx.com" at "functx.xq";
 
 (: map to translate period notation into Latin :)
 
+declare variable $croalabro:croalaurl := "https://croala.ffzg.unizg.hr/cdb/static/croala-html/";
+
 declare variable $croalabro:periodi := map {
   "09xx_3_third": "saeculi X prima tertiarum (09xx_3_third)",
   "17xx_1_third": "saeculi XVIII prima tertiarum (17xx_1_third)",
@@ -69,7 +71,7 @@ declare function croalabro:basepath($path){
 declare function croalabro:filepath($set){
   for $d in $set
   let $docname := db:path($d)
-  let $docurl := "static/croala-html/" || croalabro:basepath( $docname ) || ".html"
+  let $docurl := $croalabro:croalaurl || croalabro:basepath( $docname ) || ".html"
   let $giturl := "https://github.com/nevenjovanovic/croatiae-auctores-latini-textus/blob/master/txts/" || $docname
   return if ($set[2]) then ( 
 croalabro-html:link($docurl, croalabro:basepath($docname)),
@@ -95,11 +97,13 @@ group by $s
 order by $s collation "?lang=hr"
 return element tr {
 		element td { if (matches($wikidata[1], "http://www.wikidata.org/entity/")) then
-			( croalabro-html:link(("auctor/" || $s),$s) ,
+			( $s , (: croalabro-html:link(("auctor/" || $s),$s) , :)
 				element br {} ,
 				croalabro-html:link($wikidata[1],
 					croalabro-html:wikidata(substring-after($wikidata[1], "http://www.wikidata.org/entity/") )
-						) ) else croalabro-html:link(("auctor/" || $s),$s) },
+					) ) else $s
+			(: croalabro-html:link(("auctor/" || $s),$s) :)
+		},
   element td { attribute class { "text-center" } , count($a) },
   element td { croalabro:filepath($a) }
 }
@@ -160,7 +164,7 @@ for $a in db:open($croalabro:db)//*:teiHeader//*:keywords[@scheme=("genre","typu
 let $path := db:path($a)
 let $basepath := croalabro:basepath($path)
 return element tr {
-  element td { croalabro-html:link(("/static/croala-html/" || $basepath || ".html" ), $basepath) }
+  element td { croalabro-html:link(($croalabro:croalaurl || $basepath || ".html" ), $basepath) }
 }
 return element r {
   element span { $genus },
@@ -190,7 +194,7 @@ for $a in db:open($croalabro:db)//*:teiHeader//*:creation/*:date[@period=$period
 let $path := db:path($a)
 let $basepath := croalabro:basepath($path)
 return element tr {
-  element td { croalabro-html:link(("/static/croala-html/" || $basepath || ".html" ), $basepath) }
+  element td { croalabro-html:link(($croalabro:croalaurl || $basepath || ".html" ), $basepath) }
 }
 return element r {
   element span { map:get($croalabro:periodi , $period) },
@@ -239,7 +243,7 @@ for $n in ft:search($croalabro:db, $word )
 	let $fragment := croalabro:textfrag($n)
 	let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
 	let $title := string-join($n/ancestor::*:div/*:head, " > ")
-	let $url :=  "/static/croala-html/" || croalabro:basepath( $path ) || ".html" || "#:~:text=" || replace($fragment, "\++", " ")
+	let $url :=  $croalabro:croalaurl || croalabro:basepath( $path ) || ".html" || "#:~:text=" || replace($fragment, "\++", " ")
 order by $date , $path
 return element tr { 
 element td {  
@@ -268,7 +272,7 @@ order by $date , $path
 return element tr { 
 element td {  
 croalabro-html:formathithead(
-croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+croalabro-html:link(($croalabro:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
 )
 },
 for $e in croalabro:titleauthor($path) return element td { $e } ,
@@ -291,7 +295,7 @@ order by $date , $path
 return element tr { 
 element td {  
 croalabro-html:formathithead(
-croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+croalabro-html:link(($croalabro:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
 )
 },
 for $e in croalabro:titleauthor($path) return element td { $e } ,
@@ -316,7 +320,7 @@ order by $date , $path
 return element tr { 
 element td {  
 croalabro-html:formathithead(
-croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+croalabro-html:link(($croalabro:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
 )
 },
 for $e in croalabro:titleauthor($path) return element td { $e } ,
@@ -340,7 +344,7 @@ order by $date , $path
 return element tr { 
 element td {  
 croalabro-html:formathithead(
-croalabro-html:link(("/static/croala-html/" || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+croalabro-html:link(($croalabro:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
 )
 },
 for $e in croalabro:titleauthor($path) return element td { $e } ,

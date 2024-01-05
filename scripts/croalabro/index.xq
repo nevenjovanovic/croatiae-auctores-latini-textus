@@ -46,7 +46,7 @@ declare
 <div  class="row">
 <div  class="col">
 <h4 class="text-center">Formula quaestionis</h4>
-<form action="/quaere" method="GET" enctype="application/x-www-form-urlencoded">
+<form action="quaere" method="GET" enctype="application/x-www-form-urlencoded">
 <p class="grouped">
 <input
 type="search"
@@ -75,25 +75,25 @@ placeholder="Quaere vocabulum sive phrasin..."
 <div  class="col text-center">
 <h4>Indices</h4>
   <!-- function here -->
-{ croalabro-html:link("/auctores","Auctores") }
+{ croalabro-html:link("auctores","Auctores") }
 </div>
 </div>
 <div class="row">
 <div  class="col text-center">
   <!-- function here -->
-{ croalabro-html:link("/opera","Opera") }
+{ croalabro-html:link("opera","Opera") }
 </div>
 </div>
 <div class="row">
 <div  class="col text-center">
   <!-- function here -->
-{ croalabro-html:link("/genera","Genera") }
+{ croalabro-html:link("genera","Genera") }
 </div>
 </div>
 <div class="row">
 <div  class="col text-center">
   <!-- function here -->
-{ croalabro-html:link("/tempora","Tempora") }
+{ croalabro-html:link("tempora","Tempora") }
 </div>
 </div>
 { croalabro-html:footerserver() }
