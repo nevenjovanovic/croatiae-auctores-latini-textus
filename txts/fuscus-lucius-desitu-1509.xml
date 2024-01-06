@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    
+    <teiHeader>
+        <fileDesc xml:id="fuscus-lucius-desitu-1509">
+            <titleStmt>
+                <title>Palladii Fusci De situ orae Illyrici (non post 1509); Ioannis Lucii notae ad Palladium Fuscum 'De situ orae Illyrici', versio electronica</title>
+                <author ref="http://www.wikidata.org/entity/Q21855643">
+                    <persName xml:lang="la">Palladius Fuscus</persName>
+                    <date from="1450" to="1520">c. 1450-1520</date>
+                </author>
+                <author ref="http://www.wikidata.org/entity/Q1123002" xml:id="IL">
+                    <persName xml:lang="hr">Lučić, Ivan</persName>
+                    <date>1604-1679</date>
+                </author>
+                <editor>
+                    <persName ref="http://www.wikidata.org/entity/Q12628434">Bruna Kuntić-Makvić</persName>
+                </editor>
+                <respStmt>
+                    <resp>Hanc editionem electronicam curavit</resp>
+                    <persName>
+                        <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>Prima versio electronica <date when-iso="2009-12">2009-12</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
+                    Hrvatska.  <date when="2009-12">prosinca 2009</date></p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                <bibl>
+                    Paladije Fusko, Opis obale Ilirika. Ivan Lučić, Bilješke uz "Opis obale Ilirika" Paladija Fuska. Priredila i prevela Bruna Kuntić-Makvić. Uvodna studija Miroslav Kurelac. Komentar Bruna Kuntić-Makvić, Miroslav Kurelac. Zagreb: Latina et Graeca, 1990.
+                </bibl>
+                    Primum editum: <bibl>Palladii Fusci Patauini De situ orae Illyrici. Romae, 1540 (Romae : Antonius Bladus Asulanus excudebat, 1540 mense Iulio).</bibl></p>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <creation>
+                <date notAfter="1509">non post 1509</date>
+                <placeName ref="http://www.wikidata.org/entity/Q3370">Zadar</placeName>
+            </creation>
+            <settingDesc>
+                <p></p>
+            </settingDesc>
+            
+                
+                <textDesc>
+                    <channel mode="w">liber typis editus</channel>
+                    <constitution type="frags">opus posthumum, nondum ultimae limae, cum notis alterius auctoris adiectis</constitution>
+                    <derivation type="original"/>
+                    <domain type="public">descriptio loci</domain>
+                    <factuality type="fact"/>
+                    <interaction type="inapplicable"/>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                    <purpose type="express" degree="low"/>
+                    <purpose type="entertain" degree="low"/>
+                </textDesc>
+            
+        </profileDesc>
+        <revisionDesc>
+            <change>
+                <persName>
+                    <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+                </persName>
+                <date when="2024-01-06">2024-01-06</date>
+                Prilagodio za CroALa, dodao Wikidata ID.
+                Trebalo bi provjeriti Lučićeve bilješke, dodati Paladijeve pjesme iz faksimila.
+            </change>
+            
+            <change>
+                <name>Neven Jovanović</name>
+                <date>2009-12-30</date>
+                TEI zaglavlje i formatiranje. 
+                Korektura prema izdanju.
+                Navodi drugih pisaca djelomično označeni (poezija).
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="prosa-chorographia">
+        <body> 
+                <note resp="#IL">
+                <milestone unit="page"/>
+                <p>De Palladio Fusco Bernardinus Scardeonius Canonicus Patavinus in opere DE
+                    ANTIQUITATE URBIS PATAVII ET CLARIS CIVIBUS PATAVINIS <milestone unit="line"
+                    n="5"/> libro 2. classe x.</p>
+                <gap/>
+                <p>Sub idem fere tempus <add resp="BKM">(anno 1445)</add> floruit in humanioribus
+                    studiis Palladius Fuscus, alias Niger Rhetor illustris, qui complura monumenta
+                    posteris reliquit. Primus edidit in Catullum doctissima commentaria, quae iam
+                    saepius formis impressa, <milestone unit="line" n="10"/> ubique leguntur, et
+                    prae omnium oculis versantur: scripsit item de bello Turcico, et de insulis
+                    libros tres, et de situ et ora Illyrici, et collectanea rerum non vulgarium ad
+                    imitationem Auli Gellii, nec minus etiam insigniter carmine valuit: multas
+                    etenim Epigrammatum Silvas collegit, quae immatura et improvisa <milestone
+                        unit="line" n="15"/> morte eius praeventae nondum ferme satis ad frugem
+                    eflorescere potuerunt. Fuit et Graecis, et Latinis litteris probe eruditus, et
+                    in tradendis Rhetoricae praeceptis disertissimus. De hoc Sabellicus De Latinae
+                    linguae reparatione, ubi Coriolani Cippici eloquentiam commendat, eam cum huius
+                    elocutione <milestone unit="line" n="20"/> conferri ullo pacto posse negat his
+                    verbis. Nec est ut Palladium Nigrum sileam, per quem proximis annis Romanae in
+                    ea terra literae in antiquum sunt statum restitutae. haec ille. Is tandem
+                    Iustinopolim Hystriae Civitatem accitus, ubi multos ibi iuvenes in poeticis, et
+                    Rhetoricis studiis eleganter instruxerat <milestone unit="line" n="25"/> in
+                    cathedra sedens subita apoplexia inter legendum correptus, et a discipulis domum
+                    delatus, sine ullo amplius vitae sensu paulo post vita functus est, et in
+                    Basilica Sancti Francisci sub albo lapide ante aram maiorem in sepulchro alieno
+                    sepultus, ut nuper Peregrinus Spatarius Canonicus Iustinopolitanus, <milestone
+                        unit="line" n="30"/> et literarum studiis, et iucundae vitae consuetudine
+                    mihi coniunctus ab Hannibale Grisonio, viro undecunque doctissimo, et ipsius
+                    Palladii discipulo se audivisse testatus est. </p>
+                <gap/>
+                </note>
+            
+<milestone unit="page" n="78"/>
+
+            <div type="epistula">
+                <opener> Reverendissimo in Christo Patri, ac Domino Domino Gaspari <milestone
+                        unit="line" n="35"/> Titulo Sancti Apollinaris Presbytero Cardinali
+                    Contareno Veneto Dominus Bartholomaeus Fontius Venetus Salutem Dicit. </opener>
+                <p>
+                    <milestone unit="line" n="40"/> Palladii Fusci Patavini, Praeceptoris mei,
+                    iampridem vita functi, literaria monumenta, quae ab homine illo in literis
+                    undequaque admirando profluxerant, ne penitus deperirent, sedulo laboravi,
+                    Reverendissime Pater, dedique operam, qua potui ratione, ut quaecunque ab eo
+                    scripta fuerant, inexcussa <milestone unit="line" n="45"/> licet atque
+                    inexpolita, in nostras manus devenirent. Dolebam etenim summopere cum eius viri
+                    clarissimi gloria, et studiorum periclitari utilitatem, et non mediocrem Latinas
+                    literas pati iacturam. Quid multa? non inanes omnino fuere conatus nostri. Nam
+                    etsi paucula quaedam, et eadem minorum vigiliarum <milestone unit="line" n="50"
+                    /> opuscula, integra tamen, et quibus extremam impositam manum iurare quaeas
+                    divina beneficentia nacti, a tineis, ac blattis vindicavimus. Quae non alio
+                    consilio in vulgare constituimus, quam quod et studeamus praeceptori nostro
+                    defuncto rependere pro virili suscepta officia: et quae eruditissimus vir
+                        <milestone unit="line" n="55"/> notaverit, multis si aedantur, prodesse
+                    posse intelligamus. Illud vero opusculum primum omnium in lucem dare placuit,
+                    quod de situ orae Illyrici, dum inibi profitendo commoraretur, diligenter
+                    scripserat, partim quia norat antiquos scriptores hanc ipsam cursim potius
+                    delibasse, quam exacte descripsisse, <milestone unit="line" n="60"/> partim quod
+                    videbat, mutata aliquantulum rerum facie, aliquot in ea non contemnendas urbes,
+                    de quibus iidem scriptores nullam mentionem facerent, quod postea fuerint
+                    conditae. Rem autem ita partitus est ut littus et ei vicinia, deinde insulas
+                    littori adiacentes perscriberet, adiectis locorum distantiis. <milestone
+                        unit="line" n="65"/> Quod opusculum tuo nomini Reverendissime Pater idcirco
+                        <milestone unit="page" n="80"/> dicare visum est, ut sit quasi quoddam
+                    Mnemosynon (ut ait Catullus) meae in te benevolentiae, atque observantiae minime
+                    vulgaris; tum ut te tanquam Patronum adversus obtrectatores habeat. Plerique
+                    enim sunt hac nostra tempestate nasutiores, <milestone unit="line" n="70"/> qui
+                    cum perpauca legerint, et nihil parere possint, arenis Lybiae steriliores,
+                    parientibus invident, nulloque fine detrahunt. Sed Palladius tuo tuique similium
+                    iudicio contentus eiusmodi Zoilorum morsus non aliter contemnendos duxerit, quam
+                    Elephas culicum. Hoc autem leges per intervalla, <milestone unit="line" n="75"/>
+                    et cum nihil aliud fuerit quod agas, dum alterum maius, et maiorum vigiliarum
+                    opus tibi condimus. </p>
+                <closer>
+                    <salute>Bene valeat tua pietas.</salute>
+                    <dateline>
+                        <placeName>Pharae Sabinorum</placeName>
+                        <date when="1540-06-01">M. D. XL. Calendis Iunii.</date>
+                    </dateline>
+                </closer>
+            </div>
+        
+        
+<milestone unit="page" n="82"/>
+
+            <div type="chorographia">
+                <head>Palladii Fusci Patavini DE SITU ORAE ILLYRICI</head>
+                <div type="liber" n="2">
+                    <milestone unit="line" n="80"/>
+                    <head>Liber primus</head>
+                    <p> Illyricum, authore Plinio, terminos habet a Septentrione alpes, ab ortu
+                        Dirinonem flumen, quod et Drinium <note place="foot">1 pagina 452, columna
+                            prima, versus 3,4. et 30, Dirinonem, <milestone unit="line" n="90"/> et
+                            Drinium. Palladius secutus est vulgarem pronunciationem fluminis, qui in
+                            Adriaticum influens sinui proximo nomen dat, vulgo Golfo dello Drino,
+                            vel De Lodrino sed is ab antiquis scriptoribus Drilo dicitur. Drinus
+                            autem est qui ex monte <milestone unit="line" n="95"/> Scardo ortus, ad
+                            septentrionem cursum dirigens in Savum influit, eodemque nomine hodie
+                            quoque dicitur (vulgo Drina). Drilo vero ex eodem monte ortus teste
+                            Ptolemeo libro 2. capite 17, et in diversum meridiem versus, flexus in
+                            Adriaticum se exonerat. Neoterici autem aliqui non solum <milestone
+                                unit="line" n="100"/> Drinium, vel Drinum loco Drilonis ponunt, sed
+                            eundem cum fluvio Boliana confundentes, unum et idem esse asserunt; quos
+                            secutus est Palladius pagina 455, columna II, versu 25. Boliana namque
+                            amnis (Livio libro 44. Barbana) ex lacu Labeatide (nunc Scodrensi, vulgo
+                            de Scuttari) effluens <milestone unit="line" n="105"/> diverso a
+                            Drilonis cursu, et occidentem versus unico ostio in Adriaticum influit,
+                            Drilo vero duobus (ut in opere De Regno Dalmatiae et Croatiae libro
+                            primo capite 1. et 4 scripsi) ex quo dignoscitur Palladium etiamsi
+                            asserat se visa non audita scribere tamen usque ad Bolianae, Drilonisve
+                                <milestone unit="line" n="110"/> ostia non pervenisse, et in
+                            communem scriptorum errorem incidisse.</note> dicitur, a meridie mare
+                        Adriaticum, et ab occasu Arsiam amnem, quum antea Formionem
+                        haberet: Est autem Formio fluvius permodicus, <milestone unit="line" n="85"
+                        /> sed tamen insignis, qui non longe a mari exoriens inter
+                        Tergeste et Iustinopolim urbes in Adriaticum supradictum defluit: ab eo
+                        postea ad Arsiam Imperatores Romani Italiae terminos promoverunt. Abunde
+                        igitur patet, Istriam prius Illyrici <milestone unit="page" n="84"/> partem
+                        fuisse. Sed ne quis hoc in loco authorem desideret, Mellam Pomponium inter
+                        Latinos Geographos vetustissimum, audiamus ad verbum ita scribentem, per
+                        istros ister <milestone unit="line" n="115"/> emittitur. Tergeste intimo in
+                        sinu Adriae situm finit Illyricum. Et Plinius in primo Geographiae sic ait,
+                        Tergestinus sinus, colonia Tergeste XXXIII millia passuum ab Aquileia, ultra
+                        quam sex millia passuum Formio amnis ab Ravenna centum octoginta novem
+                        millia passuum antiquus auctae Italiae terminus, <milestone unit="line"
+                            n="120"/> nunc vero Istriae. Strabo quoque libro VII. ita refert, in
+                        ipso sane Italiae ambitu primos Illyrici littoris Istros esse Italiae,
+                        Camisque vicinos, et usque Polam civitatem Istriae huius temporis
+                        Imperatores Italiae terminos extenderunt. Ipsa autem regio a Plinio et
+                        Ptolaemeo in duas partes principales dividitur. <milestone unit="line"
+                            n="125"/> Siquidem ab Arsia ad Titium amnem, de quo suo loco dicetur,
+                        Liburnia est, ab eodem vero Titio ad Dirinonem Delmatia, Illi indigenas,
+                        huic oppidum nomen imposuisse constat. Sed locorum alia maritima, et alia
+                        mediterranea, de quibus idem Strabo eodem in libro ita fatur. Universus
+                        igitur <milestone unit="line" n="130"/> orae Illyricae cursus maritimus
+                        optimos habet portus. Ita enim et ex perpetuo ipsius littore, et ex ipsis
+                        propinquis insulis evenit. Contra vero Italicum littus Illyrico obiectum
+                        sese habet: nam importuosum prorsus est. Aprica itaque regio, similiter
+                        frugifera, bonisque feracissima fructibus, olivetis, vinetisque <milestone
+                            unit="line" n="135"/> speciosa, nisi sicubi rara, et aspera omnino rupes
+                        iacet. Talis cum plaga esset Illyrica maritima praesertim, spreta prius
+                        erat, virtute locorum ignota. Super hanc sita regio tota montosa, frigida et
+                        nivalis est, et ea amplius quae spectat Aquilonem, adeo, ut raro vitem
+                        ferat. Ipse autem cum plures <milestone unit="line" n="140"/> annos in
+                        Illyrico moratus sim, magnamque eius partem peragraverim, affirmare possum
+                        cuncta vera esse, quae de fertilitate a Strabone scribuntur, pars enim
+                        maritima, quantum colitur eximie fertilis fert abundantissime omnia usui
+                        necessaria. Interior vero reliquarum rerum sterilis, frumenta tantummodo
+                            <milestone unit="line" n="145"/> et vina, sed tota adeo pecorosa est, ut
+                        nisi a Turcis diu infestata foret, nusquam profecto maior esset carnium,
+                        lactisque, et casei, mellisque utilitas. Sed ad oram redeo, in qua ea est
+                        aeris temperies, ut per aestatem ventis leniter flantibus, nullus ingens
+                        calor; per hyemem vero nullum frigus, nisi spiret aquilo, <milestone
+                            unit="line" n="150"/> sentiatur. Non audita, sed visa scribo: in
+                        pomiferis enim arboribus quibus hiberno tempore decidunt folia, nova
+                        plerunque offendunt vetera, non pallida et victa, sed ita virentia atque
+                        succi plena, ut paulo ante nata iurare queas. Quapropter <milestone
+                            unit="page" n="86"/> indigenis id de sua terra dicere licet: quod
+                        <quote><bibl>eminentissimus <milestone unit="line" n="155"/> Poeta de Italia scribens in
+                        Secundo Georgicorum</bibl>, ait. <l>Hic Ver perpetuum, atque alienis mensibus aestas.</l></quote>
+                        Sed urbes locaque maritima commemoraturus, unde prius quam ab Arsia primo et
+                        novissimo Illyrici ipsius termino narrandi initium faciam? Id vero, licet
+                        nostra festinet oratio, nequaquam tamen omittendum <milestone unit="line"
+                            n="150!"/> est, quosdam authores Iapidiam inter Istros, Liburnosque
+                        collocantes, eam ad mare usque Adriaticum promovisse. Sed hic quoque
+                        Strabonem audire non pigeat ita scribentem, Tota vero Istriae navigationis
+                        longitudo mille ac trecentis producitur stadiis. Hinc cursus Iapidicus
+                        stadiis mille <milestone unit="line" n="165"/> continetur: Iapides enim in
+                        Albio monte, qui alpibus posterior excelsus admodum est, siti sunt, hinc
+                        quidem ad Pannonios, Istrumque pertinentes, hinc autem ad Adriaticum mare
+                        pugnaces quidem, caeterum ab Augusto Caesare tandem ad unum expugnati. Et
+                        Plinius, Istria, ut penninsula excurrit latitudinem <milestone unit="line"
+                            n="170"/> eius Quadraginta millium passuum, Circuitum vero Centum XXII
+                        millia passuum prodidere quidam. Item adhaerentis Liburniae, et Phlanatici
+                        sinus. Alii Liburniae Centum octoginta millia passuum. Nonnulli in
+                        Phlanaticum sinum Iapidiam promoverunt a tergo Istriae Centum triginta
+                        millia <milestone unit="line" n="175"/> passuum deinde Liburniam Centum
+                        quinquaginta millium passuum fecerunt. Post Arsiam igitur amnem per oram
+                        oppida sunt Albona et Flanona, quae cum duo sint, ob vicinitatem, distant
+                        enim inter se stadiis non amplius Quadraginta, tertio quoque anno Praetorem,
+                        qui ius dicat a Venetis missum, <milestone unit="line" n="180"/> accipiunt.
+                        Ultra ad stadia Centum et sexaginta occurrit Tarsatica oppidum prius
+                        Germanorum cum amne, quod nunc flumen vocatur, hoc ipso anno, quo haec
+                        condebam, a Venetis expugnatum et eversum, ab eo mille non amplius passibus
+                        arx est in colle, in quam antiquum oppidi ipsius nomen translatum <milestone
+                            unit="line" n="185"/> est; habetque Fanum Beatae Virignis miraculis
+                        celebre, a flumine stadiis XL. est Buccarum prope in littore, et introrsus
+                        procul a mari totidem ferme stadiis Greglina castella familiae Francapanum
+                        inter Illyricas nobilissimae. Hinc ad Trecenta stadia est Senia oppidum
+                        Regum Pannoniae, ubi ter quotannis <milestone unit="line" n="190"/> fit
+                        mercatus negotiatoribus undique convenientibus. Sed nulla ex re ipsi Reges
+                        maius vectigal capiunt, quam ex materia, quae omnifaria ab indigenis
+                        importata ibi venditur. A tergo autem Seniae sunt quidam specus unde nullo
+                        non die vehemens ventus perflat, quem loci peculiarem Boream Senensem
+                            <milestone unit="line" n="195"/> nuncupant. Ultra fuerunt Lopsica,
+                        Ortopula, Vegium, <milestone unit="page" n="88"/> Argiruntum, et Corinium
+                        oppida, quae omnia intercidere. Nunc vero est Scrisa vicus, cuius meminisse
+                        volui, quoniam est non incelebris. Ab eo stadiis Centum et quinquaginta sunt
+                        fauces nobilis Euripi, quem Carinensem nomine pelagus <milestone unit="line"
+                            n="200"/> terras irrumpens efficit, longitudinis Ducentorum stadiorum,
+                        latitudinis vero ubi plurimum stadiorum XII. ubi minimum trecentorum
+                        passuum. In altera eius parte ad Septentrionem est Telauli fluminis ostium,
+                        quo, teste Plinio, finitur Iapidia, et ab eo in mediterraneo stadiis ferme
+                        Quinquaginta arx cum <milestone unit="line" n="205"/> vico egregie munita,
+                        tum situ loci, in colle enim constituta est, tum hominum opera, quam Liburni
+                        Obrovacium vocant locum, ut aiunt, summae amenitatis. Ex adverso pene
+                        Obrovacii ad meridiem est altera arx et ipsa rupi imposita, quae ab
+                        indigenis Novigradus appellatur, huc Veneti, in quorum est ditione,
+                            <milestone unit="line" n="210"/> tertio quoque anno Praefectum mittunt
+                        patritii sanguinis ad loci ipsius custodiam. A tergo supradictorum omnium
+                        mons est amplissimus, qui nusquam dehiscens, sed perpetuis iugis
+                        paulo ultra Obrovacium in boream flexus resilit, qua autem meridiem aspicit,
+                        totus saxeus, et sua asperitate pene invius est, <milestone unit="line"
+                            n="215"/> qua vero Septentrionem spectat mollior, et arboribus opacus;
+                        Cuius incolae uno omnes vocabulo Morolachi vocantur, qui ferinum potius,
+                        quam humanum aspectum prae se ferentes lacte, caseoque victitant, et prope
+                        vias abditi viatores alienigenas adoriuntur, atque dispoliant: Denique
+                        summam laudem <milestone unit="line" n="220"/> esse putant ex rapto vivere,
+                        Montem autem ipsum mundi catenam nuncupant. Creduntque ab alpibus quasi
+                        ramum quendam ad mare Adriaticum protendi; Sed ab Euripi faucibus stadiis
+                        ferme Sexaginta occurrit Nona urbs, quae temporum, vel potius bellorum
+                        iniuria semidiruta hac tempestate abunde claruit, <milestone unit="line"
+                            n="225"/> fide, et fortitudine Prititiorum Nicolai, et Bernardini
+                        fratrum, qui ducis equitum levis armaturae, dum pro imperio Veneto, ut
+                        diverso tempore, ita etiam diversis in locis acerrime dimicant,
+                        gloriosissime occubuerunt: Ille in Thuscis, hic in Illyriis. Ab ea stadiis
+                        circiter Octoginta abest Iadera urbs sane <milestone unit="line" n="230"/>
+                        inter Illyricas clarissima, non solum, quia Romana colonia fuit, verum
+                        etiam, quod tam Graecorum, quam Latinorum monumentis celebrata est: Ea autem
+                        in quadam Liburniae cervice in occiduas Solis partes procurrenti sita. <quote>Quod
+                        etiam Lucanus testatur illo versu, 
+                            <l>Et tepidum in molles Zephiros excurrit
+                            <milestone unit="page" n="90"/>
+                                <milestone unit="line" n="235"/> Iader.</l></quote><note place="foot" resp="#IL">2 pagina 453,I,59.
+                            et tepidum in molles Zefiros excurrit Iader. <milestone unit="line"
+                                n="250"/> Hic versus Lucani Pharsalium 4. immediate sequitur post
+                            alium Qua maris Adriaci longas ferit unda Salonas quem Palladius ponit
+                            454,I,31, ex quo dignoscitur Lucanum <milestone unit="line" n="255"/>
+                            non significasse Promontorium, vel peninsulam, in qua sita est Civitas
+                            Iadra, sed flumen quod Salonarum urbem praeterfluebat: cumque flumina
+                            orae Illyricae, ut pote in regione montuosa, et ad meridiem inclinata
+                            orti, in meridiem quoque cursum dirigentes in Adriaticum influant.
+                                <milestone unit="line" n="260"/> Iader solus ab oriente in
+                            occidentem fluens in mare exit: ob id Poeta specialem eius fluxum
+                            denotans in molles Zefiros excurrere dixit, quod Iadrensi Promontorio
+                            Palladius adaptavit: Civitatis autem Iadrae denominationem a Iadro
+                            flumine sumptam Thomas Archidiaconus Spalatensis capite <milestone
+                                unit="line" n="265"/> 9. scribit, ex quo Palladius facile sumpsit,
+                                utrique tamen perperam.</note>
+                        A tribus lateribus mari cingitur, nec
+                        ulla hodie inter Illyricas urbes existit, quae a nautis, et maritimis
+                        negotiatoribus ultro citroque commeantibus magis frequentetur, vel quod
+                        appellere volentibus in oportunissimo loco posita est, Portumque
+                        pulcherrimum, atque tutissimum habet, vel potius, quia <milestone
+                            unit="line" n="240"/> quovis tempore res usui necessariae ibi venales
+                        existunt: Verum eius ager ante Turcarum incursiones tam frequens erat, et
+                        adeo hominibus abundabat, quod ipsa civitas sine ullis externis auxiliis,
+                        vel decem triremes armare poterat, et saepe armavit. Ab ea stadiis centum et
+                        quinquaginta Albae urbis quondam <milestone unit="line" n="245"/> non
+                        exiguae rudera visuntur, quam ab Iadertinis eversam esse accepi. <note
+                            place="foot" resp="#IL">3 ibidem, II,13, ab Iadertinis eversam esse accepi Albam ab
+                            Iadertinis eversam se accepisse asserit, quod, quando acciderit, et qua
+                            de causa libro 3. capite 7 De Regno <milestone unit="line" n="270"/>
+                            Dalmatiae et Croatiae relatum est; cumque Venetos Iadertinorum causa id
+                            potissimum fecisse ibidem consideratum sit, ob id per traditionem ab
+                            eisdem Palladium id audivisse facile suaderi potest.</note>
+                        Hinc ad
+                        stadia Quinquaginta in mediterraneo stagno, aut verius lacu quodam
+                        interiacente arx est muro, fossaque, et aggere munitissima cum vico
+                        Trecentarum <milestone unit="page" n="92"/> prope familiarum, qui locus
+                        lingua Illyrica Aurana nominatur. <milestone unit="line" n="275"/> Huc
+                        quoque Veneti Praefectum mittunt, ea lege, ut per omne Praefecturae suae
+                        tempus pedem porta non efferat, nisi alium item patritium substituerit. Hac
+                        autem arce et altera, quam Novigradum appellari dixi, ab ortu, et
+                        Septentrione ager Iadertinus includitur: in utriusque medio situm est in
+                            <milestone unit="line" n="280"/> colle Nadinum quondam oppidum, quod
+                        indigenae a Gothis eversum constanter credunt, et dictitant.<note place="foot" resp="#IL">4 ibidem, versus 25. Nadinum a Gothis eversum, prout
+                            Salonas pagina 454, I, 41. asserit. hanc opinionem ab Archidiacono
+                            suprascripto sumpsit, qui id capite 7 scribit; sed quid sentiendum sit
+                            de destructione Civitatum Dalmaticarum in praedicto opere <milestone
+                                unit="line" n="305"/> libro primo capite 9 habetur. </note> 
+                       
+                        Ibi annos <sic>ab hinc</sic> XII. nihil praeter rudera videbatur. Sed Veneti postea
+                        Iadertinis suppliciter petentibus arcem construxerunt quasi speculam: Nam
+                        quum in aedito sit, et loca circum plana procul detegit <milestone
+                            unit="line" n="285"/> hostes venientes, et signis quibusdam agrestes ad
+                        fugam admonet. Ab Alba autem stadiis Ducentis et quinquaginta mare terram
+                        intrans alterum Euripum facit stadiorum Octoginta longitudine, in quem
+                        Titius amnis Liburniam a Delmatia disterminans ex alto ingenti cum strepitu
+                        cadit. Sed ab Euripi <milestone unit="line" n="290"/> ipsius initio ubi duo
+                        sunt Sacella, unum divo Andreae, et alterum divo Nicolao dicatum ad octo
+                        ferme stadia introrsus consurgunt duae turres, una in dextra, et altera in
+                        sinistra. Inde ad totidem stadia in parte Dalmatiae est Siccum urbs,
+                        <note place="foot" resp="#IL">5 ibidem, versus 42. Siccum urbs Hic
+                            Palladius urbem Sibenicum, ex eo quia in sicco solo, et aquis carente
+                            sita est Siccum dicit, quam alii scriptores pro antiquo Sico ponunt; de
+                            qua denominatione in memoriis <milestone unit="line" n="310"/> Tragurii
+                            libro 1. capite 3. quid sentiendum sit declaratur. </note>
+                        cuius pars in clivo saxeo posita mare, et vicinas insulas
+                        prospicit. <milestone unit="line" n="295"/> Tota autem, ut a meridie muro et
+                        Euripo supradicto, ita a Septentrione solo muro cingitur, non fossam, non
+                        aggerem, nec aliud denique habens munimentum. Sed parvi refert;
+                        Oppidanorum enim corda (quod citra suspicionem captatae gratiae dictum
+                        velim) pro munimento sunt. Habent Sibenicenzes 
+                        <milestone unit="line" n="300"/>
+                        <milestone unit="page" n="94"/> 
+                        arva, vinetaque, et oliveta feracissima,
+                        neque ulla re ex iis, quas usus postulat, nisi aqua dulci indigent: Cuius
+                        penuria, aestivo presertim tempore, adeo laborant, ut aliunde advecta
+                            <milestone unit="line" n="315"/> publice vendatur. Introrsus autem
+                        procul a Titii descensu duobus millibus passuum ad eundem Euripium; Sed in
+                        parte Liburniae est Scardona civitas paucis habitata familiis, non ea tamen
+                        de qua authores tam Graeci, quam Latini mentionem faciunt. Longius enim a
+                        mari distabat.<note place="foot" resp="#IL">6 ibidem,
+                            versus 58. Scardonam antiquam longius a mari fuisse, et non esse eamdem
+                            cum hodierna asserit, secutus opinionem Plinii libro 3. capite 22.
+                            nihilominus eodem loci cum hodierna <milestone unit="line" n="330"/>
+                            fuisse, Pliniumque cum Strabone deceptos libro primo capite 4. De Regno
+                            Dalmatiae et Croatiae probatum est.</note>
+                        
+                        A Sicco Centum ferme <milestone unit="line"
+                            n="320"/> stadiis incipit Hilis peninsula, quam indigenae patrio
+                        vocabulo Bossilinam vocitant, circuitu quidem Trecentorum stadiorum: a cuius
+                        extremo littore ad Orientem stadiis Quadraginta est Tragurium cum portu olim
+                        Civium Romanorum Oppidum. Quo Plinius scribit Veteranos a divo Claudio
+                        missos. <milestone unit="line" n="325"/> Sed, ut Strabo asserit, ab Istris
+                        est conditum. <note place="foot" resp="#IL">7 pagina 454, columna prima Tragurium cum portu olim
+                            Civium Romanorum oppidum de quo Plinius scribit Veteranos a Divo Claudio
+                            missos; sed ut Strabo asserit
+                            <milestone unit="line" n="335"/>ab Istris est conditum. Textus Plinii
+                            non habet Veteranos Tragurium missos, sed Sicum. Plinii enim verba libro
+                            3. capite 22 sunt haec Tragurium Civium Romanorum marmore
+                            notum. Sicum, in quem locum Divus Claudius Veteranos misit, Salona
+                            <milestone unit="line" n="340"/>Colonia etc. Sicum autem inter
+                            Tragurium, et Salonas fuisse praeter Plinium, Ptolemeus et tabulae
+                            Peutingerianae testantur, eiusque rudera adhuc cernuntur ut libro 1.
+                            capite 3. memoriarum Tragurii probatum est. et quod de Strabone asserit
+                            <milestone unit="line" n="345"/> Tragurium ab Istris conditum
+                            fuisse, debet esse error impressoris; nam Strabo ab Issensibus conditum
+                            Tragurium libro 7 refert; quod etiam ex Polybii fragmento nomine
+                            excerpta de Legationibus edito probatum est libro primo capite primo De
+                            Regno Dalmatiae et Croatiae.</note>
+                        Mari autem undique
+                        <milestone unit="page" n="96"/>
+                        <milestone unit="line" n="350"/> 
+                        cinctum, Ponte lapideo continenti
+                        annectitur, habens a meridie aliam insulam nomine Bubum, cuius obiectu
+                        portus efficitur, duobus ostiis. Ager autem Tragurinus vitibus, oleisque, et
+                        aliis pomiferis arboribus consitus est. Verum maior eius pars, me prodente,
+                        non colebatur, ob frequentissimas Turcarum <milestone unit="line" n="355"/>
+                        incursiones. Illustratum est autem aetate nostra Tragurium Coriolano Cepione
+                        Oratore,<note place="foot" resp="#IL">8
+                            ibidem, versus 16. Coriolano Cepione oratore De quo Marcus Antonius
+                            Sabellicus. De antiquae linguae reparatione <milestone unit="line"
+                                n="360"/> Nec Coriolanus Cipicus parum uno est libro notus, quo ille
+                            Petri Mocenici, qui postea Princeps fuit gesta est complexus, vix ex
+                            Dalmatica illa ora eam dicendi facultatem hac quisquam tempestate
+                            expectasset: redundat brevis illa historia multis quidem
+                            virtutibus, et quod me potissimum <milestone unit="line" n="365"/>
+                            delectavit nihil est quod in illius elocutione requiras; nec est ut ad
+                            Palladium Nigrum; per quem proximis annis Romanae in ea terra literae in
+                            antiquum sunt statum restitutae, eius studia referas: est enim
+                            Coriolanus iam grandis natu, quippe quem diu ante illius in Dalmatiam
+                            accessum <milestone unit="line" n="370"/> profecisse oporteat. ,
+                            <quote>Hanc Coriolani Historiam pluries se legisse testatur
+                                Palladius, cuius etiam elegans <bibl><sic>elegia</sic> in laudem Aloysii Coriolani
+                                filii Episcopi Amathusiorum edita est simul cum opere De situ orae
+                                Illyrici</bibl>, quae talis est. <milestone unit="line" n="375"/>
+                                <l>Hanc nivei signare diem candore lapilli</l>
+                                <l>Quis vetat? et sacras in carmine poscere musas?</l>
+                                <l>Venerit ad nostras felix cum nuncius aures,</l>
+                                <l>Expectata diu virtutis praemia tandem</l>
+                                <l>Cyppicon alterius decus accepisse galeri.</l>
+                                <milestone unit="line" n="380"/>
+                                <l>Nunc Cytharam pulsare decet, nunc dicere carmen</l>
+                                <l>Et sertis redimire Deos, nunc thuris honores,</l>
+                                <l>Et solitos sacris posuisse altaribus ignes.</l>
+                                <l>Qui pridem decora alta feres spectanda tiarae</l>
+                                <l>Cippice dignus eras, rapidas cum carmine tigres</l>
+                                <milestone unit="line" n="385"/>
+                                <l>Flectere, et insanos posses mulcire leones,</l>
+                                <l>Ne dum homines: votis obstat, sed mollior aetas:</l>
+                                <l>Nam nec adhuc totos ter denos novimus annos</l>
+                                <l>Dinumeras, quanta est iuvenili in corpore virtus!</l>
+                                <l>Tu quotiens iussis dum vis parere nocentis</l>
+                                <milestone unit="line" n="395"/>
+                                <l>Audiit orantem melioris curia Romae!</l>
+                                <l>Dixit et admirans hic nostri gloria secli!</l>
+                                <l>Te Calaber, Marsusque novit, te Cyppice Volscus,</l>
+                                <l>Te Ligur, et Venetus, novit te Thuscus, et Umber.</l>
+                                <l>Parva loquor, novere Getae, novere Sicambri</l>
+                                <milestone unit="line" n="400"/>
+                                <l>Hispanus ferox. Te Gallus totus et orbis.</l>
+                                <l>Dumque reples crebris Romanas versibus arces</l>
+                                <l>Fama Calidonios pervenit ad usque Britanos</l>
+                                <l>Gaudeat Illyrici tellus properata per aras,</l>
+                                <l>serta det et laetos summittat in aethera cantus</l>
+                                <milestone unit="line" n="405"/>
+                                <l>Tragurium. insolitus vicinas terreat urbes</l>
+                                <l>Clamor, et auditis miretur vocibus Hillis</l>
+                                <l>Cernere debuerat presignem munere natum</l>
+                                <l>Urbs Roma. et titulis dignus gaudere receptis</l>
+                                <l>Coriolanus erat, tanta qui laude triremem</l>
+                                <milestone unit="line" n="410"/>
+                                <l>Egit ovans, et visa sui qui condidit unus</l>
+                                <l>Gesta ducis. nostrique viget doctissimus aevi.</l>
+                                <l>Cur ego non adsum? cur mihi fata negastis</l>
+                                <l>Invida quod cupio coram veneranda tueri</l>
+                                <l>Praesulis ora mei, sanctos testantia mores?</l>
+                                <milestone unit="line" n="415"/>
+                                <l>Felix nunc Amathus, felix si quando fuisti</l>
+                                <l>Quid sacrae iubeant leges doctore sub isto</l>
+                                <l>Discere qui valeas. et vera hinc noscere quaeve sit</l>
+                                <l>Relligio. post hac Veneris nec parva nefandae</l>
+                                <l>Mentio. vivendi normam vos inde petatis</l>
+                                <milestone unit="line" n="420"/>
+                                <l>Cyprus erit populi. quotiens vetus incola nostris</l>
+                                <l>Aurea clamabit, redierunt secula terris?</l>
+                                <l>Hunc ego crediderim sacros regionibus illis</l>
+                                <l>Consulto tribuisse patres tibi Cyppice honorem</l>
+                                <l>Ut fera barbaries nostrorum ignara Deorum,</l>
+                                <milestone unit="line" n="425"/>
+                                <l>Eloquii victa tui, et dulcedine linguae</l>
+                                <l>Ad verum conversa Iovem quum ceperit ipsa</l>
+                                <l>Ridendos ritus, et numina vana suorum</l>
+                                <l>Spernere. purpureum mittat tibi Roma galerum.</l>
+                            </quote>
+                        </note>
+                        Historicoque eloquentissimo, 
+                        <milestone unit="page" n="98"/> qui quum sub Petro Mocenico Classis Venetae
+                        Imperatore <milestone unit="line" n="390"/> Trierarchus, non sine ingenti
+                        gloria ob res egregie gestas, militasset: quo tempore Turcae Calcidem
+                        expugnarunt, confecto bello, de Petri ipsius gestis librum luculentissime
+                        scriptum aedidit: quem ipse pluries legi captus Cepionis, tum copia, 
+                        <milestone unit="page" n="100"/> elegantiaque, tum fide, et gravitate. Ultra
+                        Tragurium ad <milestone unit="line" n="430"/> stadia ferme Sexaginta Salonae
+                        monstrantur vestigia, quibus in mediterraneo imminet Clissia arx Regum
+                        Pannoniae loci natura, et mortalium opera inexpugnabilis. Sed ad Salonam
+                        redeat oratio. 
+                        <quote>Hanc mare aluisse <bibl>in Quarto Pharsalidos indicat Lucanus</bibl>, quum
+                        ait. 
+                            <l>Qua maris Adriaci longas ferit unda <milestone unit="line" n="435"/>
+                            Salonas.</l></quote> 
+                        <quote>Et <bibl>Martialis libro Decimo Epigrammaton.</bibl> 
+                            <l>Ibis littoreas Macer Salonas.</l>
+                        </quote> 
+                        Fluvius ponte lapideo pervius eodem quo urbs nomine ipsam
+                        interfluebat. Ultra ad stadia Quadraginta in littore est Spalatum oppidum
+                        nobilitate, et virtute incolarum admodum celebre, quod opinor fuisse Villam
+                        Diocletiani, <milestone unit="line" n="440"/> de qua Eusebius Caesariensis
+                        ita scribit in suis Cronicis. Diocletianus haud procul Salonis in villae
+                        suae Palatio moritur. Procedente autem tempore quum Salona a Gothis eversa
+                        foret, nobilissimus quisque civitatis huc migravit. Villa itaque in plurimas
+                        aedes primum partita est, deinde crescente in dies <milestone unit="line"
+                            n="445"/> multitudine, quum locus tot hominum capax non esset, producto
+                        muro, constructisque aedificiis tantundem pene spacii ab occasu adiectum
+                        est. Sed introrsus procul a Spalato stadiis ferme Octoginta sunt fauces
+                        maxime, amenissimaeque convallis, quae asperrimis imo inviis montibus
+                        circumdata ab indigenis <milestone unit="line" n="450"/> Politia vocatur: Ea
+                        vicatim tantum habitata ad duo millia virorum continet, qui suis iuribus
+                        viventes nulli externo diu paruerunt. Terminatur ab oriente Cetina fluvio,
+                        ad cuius ostium in ulteriore ripa arx est et vicus nomine Almissa non
+                        incelebris. At paulo supra in praealti montis supercilio Castellum
+                            <milestone unit="line" n="455"/> est natura loci munitissimum nomine
+                        Glodov, quae vox lingua Illyrica famelicum significat. Ab eo stadiis XX. in
+                        eiusdem montis latere, quod ad Septentrionem vergit, conspicitur Visechium
+                        item Castellum, quod a nobis pendens, sive pendulum dici potest. Inde
+                        incipiunt montes altissimi eius regiunculae, <milestone unit="line" n="460"
+                        /> quam indigenae peculiari vocabulo Crainam vocant: quod eorum lingua
+                        littus demonstrat. In ea Ratanei castelli, cuius Ptolaemeus, et Plinius
+                        mentionem faciunt, vestigia monstrantur. Crainae a Septentrione coniungitur,
+                        regio tota in mediterraneo campis aquisque visenda, cui nomen est Radobilia:
+                            <milestone unit="line" n="465"/> ab ortu vero est Naronis fluminis
+                        ostium: et interius procul a mari stadiis ferme Centum Narona olim fuit
+                        colonia tertii conventus. Ita enim loca in provinciis <sic>appellabantur. Ubi</sic> a
+                        magistratibus iudiciorum gratia populi congregabantur. Plinius autem in
+                        tertio testatur, tris in Illyrico conventus fuisse. <milestone unit="line"
+                            n="470"/> Unum Scardonae, alterum Salonae, et tertium Naronae. eius
+                            <milestone unit="page" n="102"/> verba subiciam, Conventum Scardonitanum
+                        petunt Iapides et Liburnorum civitates quatuordecim. Et paulo infra Salona
+                        colonia ab Iadera centum millia passuum petunt, in ea iura viris descriptis
+                        in decurias: et adhuc inferius, ab iis castella <sic>piguntia</sic> <milestone
+                            unit="line" n="475"/> Rataneum, Narona tertii conventus. A Naronis ostio
+                        stadiis Octingentis occurrit Stagnum arx Ragusinorum, ab ea ad stadia
+                        Ducenta est Ragusium urbs sacris profanisque aedibus ornatissima, et argenti
+                        aurique ditissima: quae inter tria imperia Venetorum, Pannonumque, et
+                        Turcarum constituta <milestone unit="line" n="480"/> privata sorte degit: Ut
+                        antiquitus in Asia inter Parthos, Romanosque Palmyra: pendit tamen annuum
+                        Turcarum Regibus tributum. Verum haec, ut reliquae Illyrici urbes in
+                        patritios, plebeiosque divisa est, ita tamen, ut soli patritii summotis
+                        plebeis Rempublicam administrent. In qua quidem non modo leges, <milestone
+                            unit="line" n="485"/> sed etiam magistratus Venetis persimiles habent:
+                        cuius rei originem hanc fuisse comperi. Quum enim Ragusinorum Reipublicae
+                        quantulacunque est, fundatores eam posteris undique munitam tradere vellent,
+                        et Venetam Rempublicam legibus et moribus potius divinis, quam humanis
+                        institutam cernerent: <milestone unit="line" n="490"/> illam sibi in omnibus
+                        imitandam proposuerunt: Verum procedente tempore, quum id quoque cognitum
+                        foret, Venetos mercatura ditescere, eos hac quoque in parte imitari
+                        voluerunt. Hinc est, quod nulla Europae pars adeo abdita est, ita advenis
+                        infesta, ut in ea Ragusinos non invenias negotiantes; <milestone unit="line"
+                            n="495"/> habebant annis superioribus quum ante Senatus Veneti decretum
+                        iure suo quocunque vellent, navigare possent, Naves amplius trecentas, quas
+                        mercibus onustas in diversas orbis partes ad quaestum mittebant. Sed longum
+                        foret, si omnia commemorare vellem: Unum tamen non praetermittam, quo
+                            <milestone unit="line" n="500"/> intelligatur, quanta sit Ragusinorum
+                        severitas, et in liberis educandis diligentia. Non enim sinunt in sua urbe
+                        ludos esse, nisi literarios; si gladiatores, saltatoresve accesserint,
+                        subito eiciuntur: ne iuventus, quam literis dumtaxat, aut mercatura vacare
+                        volunt, huiusmodi foeditatibus corrumpatur. Verum <milestone unit="line"
+                            n="505"/> quum haec proderem, ibi erat Aelius Cervinus Poeta
+                        eminentissimus, cui si priscis temporibus nasci contigisset; quando more
+                        hominum comparatum est, ut veteres scriptores novis semper anteponantur,
+                        ipse profecto cum antiquis Vatibus passim legeretur, tanta est eius in
+                        rebus, quas decantat eruditio, <milestone unit="line" n="510"/> et ea
+                        carminis sublimitas. A Ragusio stadiis ferme Quadraginta Epidauri coloniae
+                        vestigia visuntur. Ergo corrigendus est error in hoc loco multorum, qui
+                        Ragusium nunc vocari tradunt, <milestone unit="page" n="104"/> quod antea
+                        Epidaurum, quum inter hoc et illud intersint stadia, ut dictum est,
+                        Quadraginta. Ultra ad stadia XL. est oppidum <milestone unit="line" n="515"
+                        /> Turcarum validissimum, quod a Regulo quodam intra hos quinquaginta annos
+                        condi coeptum, et ab incolis postea auctum Castrum novum nuncupatur: ab eo
+                        incipit nobilissimus sinus nunc Catarensis olim Rizonicus appellatus, cuius
+                        os stadiis circiter XX. patet. Interius vero ad stadia Sexaginta <milestone
+                            unit="line" n="520"/> idem sinus adeo in arctum coit, ut minus mille
+                        passibus pateat. In sinistra eius parte fuit Rizonium oppidum, a quo hic
+                        nomen accepit. At in fine ubi tellus expatianti pelago fit obviam
+                        sub praerupti montis cacumine consurgit Ascrivium quondam Civium Romanorum
+                        oppidum, quod nunc propter aquarum, <milestone unit="line" n="525"/> quae ex
+                        alto defluunt descensum Catarum vocari constans est opinio; erat annis
+                        superioribus Ascrivium antequam Turcae proximas regiones occupassent,
+                        celebre emporium negotiatoribus hinc maritimis, inde mediterraneis eo
+                        confluentibus: ex qua quidem re oppidani abunde ditabantur; et Veneti in
+                            <milestone unit="line" n="530"/> quorum ditione locus est, magna
+                        vectigalia capiebant. At Turcis loca vicinia tenentibus cuncta cessarunt.
+                        Arx in supradicti montis vertice sita a Septentrione penitus invia est, cui
+                        a meridie ducto utrinque per ardua muro urbs ipsa apte coniungitur, ambitu
+                        stadiorum non amplius duodecim. Ab Ascrivio autem <milestone unit="line"
+                            n="535"/> distat terreno itinere stadiis ferme Centum Butuanium vetus
+                        sane oppidum, quod nunc Budua vocatur, nec aliud quam nomen cur sit dicendum
+                        habet. Ab eo ad stadia Centum et quinquaginta est Antibarium, quod a mari
+                        tribus millibus passuum remotum clivo accubat. Hinc ad totidem stadia est
+                        Olchinium, <milestone unit="line" n="540"/> quod antea Colchinium dicebatur,
+                        a Colchis conditum, nunc corrupto prisco nomine Dulcinium vocitatur. Ab
+                        Olchinio vero stadiis Ducentis et quinquaginta est Lysi quondam oppidi
+                        cadaver, et Dirinonis fluvii, quem accolae Bolianam nominant, ostium, ut
+                        Illyrici ab oriente, ita libri huius terminus. <milestone unit="line"
+                            n="545"/>
+                        <milestone unit="page" n="106"/>
+                    </p>
+                </div>
+                <div type="liber" n="2">
+                    <head>Liber secundus</head>
+                    <p> Ora, quam hactenus descripsimus mille amplius insulis frequentatur, natura
+                        vadosi maris, aestuariisque tenui alveo intercursantibus. Quarum notiores
+                        descripturi, initium sicut <milestone unit="line" n="550"/> ante ab occasu
+                        sumemus. Igitur e regione Istriae sinu Polatico, quem nautae Carnarium
+                        vocitant, interveniente duae sunt tenui Euripo disiunctae ad meridiem
+                        Absyrthium, quae ambitu colligens stadia circiter Quingenta vicatim
+                        tantummodo habitatur. Et ad Septentrionem Crexa duplo pene maior, in qua
+                            <milestone unit="line" n="555"/> duo sunt oppida Absorum semidirutum, et
+                        alterum eodem quo insula nomine. Quod egregie habitatum nunc illustratur
+                        Antonii Marcelli ordinis Minorum multivaga doctrina, et vitae integritate.
+                        Utraque enim insula pecorosa est, et lignorum abundantissima: In eas Praetor
+                        unus, qui ius dicat insulanis, a <milestone unit="line" n="560"/> Venetis
+                        mittitur, quorum est ditionis, ut omnes, quae orae Illyrici adiacent,
+                        exceptis duabus, tribusve, quas Ragusinorum Respublica tenet. A Crexa Decem
+                        millibus passuum ad orientem Vigilia est cum oppido eiusdem nominis, quam
+                        prisci Curictam appellavere; in ea campi, nemora, et pabula laetissima,
+                            <milestone unit="line" n="565"/> fertque affatim frumenta, vina, caseum,
+                        et vellera; habet item greges equorum, sed exigui corporis, mirae tamen
+                        velocitatis, quorum ungulae natura durissimae, nullis indigent soleis; eius
+                        autem ambitus Octingenta stadia colligit. Ab ea duobus millibus passuum
+                        abest Arba cum urbe cognomine, quae circuitu <milestone unit="line" n="570"
+                        /> Trecentorum stadiorum tota colitur, nisi ubi nemora sunt, et pascua.
+                        Neque ulla res est, cuius vita indigeat, quam ipsa non ferat. Proventus
+                        tamen ex ovillo pecore reliquos longe excellunt: quocunque enim tempore oves
+                        cum maritis per nemora, mirabile dictu, errantes ibi stabulantur, quod eis,
+                        licet <milestone unit="line" n="575"/> impune, quoniam nullum ibi maleficum
+                        animal est; Sed quum haec proderem, vivebat inter Arbenses Antonius Nimerius
+                        Mathematicarum artium peritissimus, quas perdidicerat, ut plerique
+                        affirmabant, nemine docente. Ab Arba Septem millibus passuum distat Pagus
+                        ante Gissa appellata, quae circuitu <milestone unit="line" n="580"/>
+                        Septingentorum stadiorum oppidum eiusdem nominis habet, patriam Benedicti
+                        Missuli Astrologiae, et Iuris tam Pontificii, quam Civilis scientissimi hoc
+                        ipso anno defuncti. Sed insula alioquin lapidosa aquis abundat, et ovillo
+                        pecore, agnique Pagenses, ut praepingues, saporisque optimi toto Illyrico
+                            <milestone unit="line" n="585"/> laudantur. Ibidem sal pulcherrimus,
+                        atque copiosissimus, ex <milestone unit="page" n="108"/> quo Veneti magnum
+                        vectigal capiunt. Quod autem prius Gissa appellata sit, indigenae affirmant,
+                        ostenduntque in ea urbis in hodiernum Gissae nominatae vestigia. Hinc in
+                        Eurum naviganti occurrunt, insulae, et scopuli Iadertinorum prope
+                        innumerabiles, <milestone unit="line" n="590"/> quarum maior pars hodie
+                        colitur: inter has esse censeo, quas Strabo Liburnidas vocat, ferunt autem,
+                        modice tamen frumentum, vinumque, aliquae earum, et oleum; Sed incolis
+                        victus magna ex parte e piscatu, lignisque, et pecore est. Ultra extremas
+                        earum ad orientem decem millia passuum <milestone unit="line" n="595"/> est
+                        Colentum, quam nautici Mortarium vocitant, frumenti, vinique fertilissima,
+                        et lignorum abundantissima, quae vicatim habitata, tenuique Euripo a
+                        continenti discreta a Septentrione in austrum procurrit ambitu Centum et
+                        sexaginta stadiorum: habet autem a meridiana coeli parte portum in theatri
+                        modum, <milestone unit="line" n="600"/> quamvis magnarum navium capacem. A
+                        Colento Duodecim Millia passuum distat Surium <note place="foot" resp="#IL">
+                            9 456,1,22 Surium insulam esse quae vulgo Zuri et Slavice Xirgie
+                            dicitur asserit, quod incongruum non videtur, cum a Plinio inter insulas
+                            <milestone unit="line" n="620"/> ponatur.</note>
+                        eodem pene ambitu
+                        vineis spectabilis, ubi rudera eversi oppidi monstrantur, paucis ante annis
+                        illis in locis Coralium per negotiatores Venetos eruebatur, conductis ad id
+                        piscatoribus. Introrsus totidem <milestone unit="line" n="605"/> millia e
+                        regione <corr>Sicci</corr> sunt Praevichium et Slarium, quarum utraque colitur; Sed
+                        Praevichium circuitu stadiorum non amplius Quadraginta: plurimas villas
+                        habet a Siccensibus aedificatas, quo secedere crebro solent, relaxandi animi
+                        gratia. Tota namque insula vitibus, oleisque, et aliis pomiferis arboribus
+                            <milestone unit="line" n="610"/> consita est: nec quicquam amenius esse
+                        potest rusticari volentibus. At Slarium cuius ambitus Sexaginta stadia
+                        colligit, tuguria habet potius, quam villas: nec nisi a paucis habitatur.
+                        Hinc ad orientem stadiis Centum et viginti distat scopulus Divi Michaelis
+                        appellatus, cuius obiectu ingens portus, et magnarum <milestone unit="line"
+                            n="615"/> navium capax efficitur. Ab eo stadiis non amplius Quadraginta
+                        abest Geronia Tragurinorum ditionis nulli rei praeterquam 
+                        <milestone unit="page" n="110"/> iumentis, quae macruerunt, reficiendis
+                        idonea:<note place="foot" resp="#IL">10 ibidem versus 42. Supra ante
+                            mentionem Coriolani Cepionis ait: agri Tragurini maior pars me prodente
+                            ob frequentissimas Turcarum <milestone unit="line" n="645"/> incursiones
+                            non colebatur cumque anno Domini 1500 id evenisse memoriarum Tragurii
+                            libro 6 capite 5 probatum sit; ideo circa eundem annum, vel paulo post
+                            Palladius scripsit; quod confirmatur ex eis, quae hic subdit, nempe,
+                            Gyronam Tragurinorum Insulam (vulgo Zirona et Slavice <milestone
+                                unit="line" n="650"/> Drivenik) solis pascuis notam ex quo
+                            dignoscitur Palladium scripsisse antequam habitari ceperit, quod
+                            contigisse post annum Domini 1500 probatum est.</note>
+                        ideo a finitimis ex continenti illuc advehuntur,
+                        gramina enim ibi nata miram saginandi vim habent. Ab ea tribus millibus
+                        passuum distat Bubus, quae ambitu Centum et quinquaginta stadiorum,
+                            <milestone unit="line" n="625"/> qua parte Tragurio obicitur, portum
+                        efficit tutissimum, et magnarum navium capacem. Nihil autem habet, aut fert,
+                        quo sit dicenda. Ab ea in austrum Octo millibus passuum abest Solita, vulgo
+                        Solta, Spalatensium circuitu Ducentorum quadraginta stadiorum, in qua arva
+                        sunt vineae et saltus; eius <milestone unit="line" n="630"/> tamen incolae
+                        ex lignis, quae partim Tragurium, partim Spalatum venalia advehunt, magna ex
+                        parte vitam ducunt. Inde Decem millibus passuum distat Issa,<note place="foot" resp="#IL">11 ibidem columna II versus 5. Distantiam Issae a Solta,
+                            (antiquis Solenta) esse maiorem <milestone unit="line" n="655"/> quam
+                            decem millia passuum certum est; et quamvis id parvi sit aestimandum,
+                            tamen in reliquis quoque distantiis, quas inter alias insulas ponit
+                            maiores esse, quam re vera sunt examinare volenti patebit.</note>
+                        quae ambitu colligens Sexcenta stadia nihil fert, nisi vinum: incolitur
+                        autem a piscatoribus, qui omnibus annis vim maximam Sardarum mense
+                            <milestone unit="line" n="635"/> Maio capiunt, saliuntque mercatoribus
+                        ad eas confluentibus. Ab ea introrsus Decem et octo millibus passuum abest
+                        insula admodum celebris prius Pharos, nunc Lesna appellata, quae duplo
+                        maior, quam Issa urbem habet, eiusdem nominis a nautis mercatoribus per hunc
+                        sinum comeantibus maxime frequentatam. <milestone unit="line" n="6!"/> Hinc
+                        Demetrius fuit, quem Romani primum de Republica benemeritum parte Illyrici
+                        donarunt: deinde mutata
+                        <milestone unit="page" n="112"/> 
+                        voluntate rebellantem supplicio affecerunt.
+                        Sed insula vitibus <milestone unit="line" n="660"/> consita maximos vini
+                        proventus affert, frumenti modicos, olei nonnulos: abundat autem usque adeo
+                        rore marino, ut eo solo furni tam in urbe, quam in agris calefiant; Sed
+                        Pharii navigationi et mercaturae dediti plurima habent navigia, quibus tum
+                        sua, tum aliena mercimonia huc illuc vehunt, et sic plerique <milestone
+                            unit="line" n="665"/> eorum ditescunt. Inter Pharon, et Continentem est
+                        Bratia, quam Polybius Bretiam, et Plinius, modo menda non sit, Batriasam
+                        vocat,<note place="foot" resp="#IL">12 ibidem versus 29. De Bratiasa Plinii insula, quam suspicatur
+                            Palladius mendose scriptam esse: nomen duaram insularum est, eodem tamen
+                            <milestone unit="line" n="690"/>verbo comprehensarum, quod disiungi debet,
+                            et Bratia pro hodierna Brachia (vulgo Brazza) et Issa pro hodierna Lissa reponi,
+                            ut libro primo capite 2 de Regno Dalmatiae et Croatiae scripsi.</note>
+                        circuitu Septingentorum prope stadiorum, Distat autem a
+                        Pharo Quatuor tantum millibus passuum, et a Spalato Septem
+                        millibus: nullum habet oppidum, sed vicatim tantummodo 
+                        <milestone unit="line" n="670"/>
+                        habitata praeter ligna, quibus maxime abundat,
+                        fert vinum, lanasque, et mel, hybleo, himetioque non deterius. A Pharo Decem
+                        millibus passuum abest Corcyra nigra cum urbe cognomine, haec autem aetas
+                        utranque Corzulam vocitat. Sed insula ambitu Sexcentorum stadiorum Pinastris
+                        redimita, et <milestone unit="line" n="675"/> aquis abundans fert <sic>frumeta</sic>,
+                        vinaque, et alia usui necessaria praeter salem, et oleum, quae aliunde
+                        advehere necesse est. Verum in vicem eorum picem suggerit, et resinam, quas
+                        insulani, et domi, et foris venditant, adeoque benigni soli, et temperati
+                        aeris existit, ut ferat etiam Mala medica, et Siliquas. Ab 
+                        <milestone unit="line" n="680"/> ea Decem et octo millibus passuum distat Melita
+                        canibus olim celebrata, qui, authore Plinio, Melitei sunt appellati, quamvis
+                        Strabo id alteri Melitae ante Pachinum Siciliae promontorium sitae tribuat.
+                        Sed Illyrica circuitu colligens Octingenta stadia vini, et pecoris
+                        abundantissima est. 
+                    </p>
+                </div>
+                <milestone unit="line" n="585"/>
+                <closer>Finis.</closer>
+                <milestone unit="page" n="114"/>
+            </div>
+        </body>
+
+        
+    </text>
+</TEI>
