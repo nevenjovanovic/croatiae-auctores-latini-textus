@@ -48,15 +48,13 @@ declare
 <div  class="row">
 <div  class="col">
 <p class="text-center">{ $subtitle }</p>
-<h4 class="text-center">{ "Quaeris: " || $vfuzzy || ". Inventum: " || croalabro:fuzzyfound($vfuzzy)/tr[1]/string() } </h4>
-<p class="text-center">{ "Formae: " || croalabro:fuzzyfound($vfuzzy)/tr[2] } </p>
 </div>
 </div>
   <!-- function here -->
 
-{ croalabro-html:trtodiv2(
-croalabro:fuzzyfound($vfuzzy)/tr[3]
-) }
+{ 
+croalabro:qfuzzysec($vfuzzy)
+ }
 
 
 { croalabro-html:footerserver() }

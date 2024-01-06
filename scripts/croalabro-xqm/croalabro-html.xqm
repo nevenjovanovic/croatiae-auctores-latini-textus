@@ -15,30 +15,12 @@ declare function croalabro-html:htmlheadserver($title, $content, $keywords) {
 <meta name="description" content="{$content}"/>
 <meta name="revised" content="{ current-date()}"/>
 <meta name="author" content="Neven Jovanović, CroALa" />
-<link rel="icon" href=" { $croalabro-html:csslocal || "gfx/favicon.ico" } " type="image/x-icon" />
-<link rel="stylesheet" href=" { $croalabro-html:csslocal || "dist/laurdal.css" } "  />
+<link rel="icon" href=" { $croalabro-html:csscdb || "gfx/favicon.ico" } " type="image/x-icon" />
+<link rel="stylesheet" href=" { $croalabro-html:csscdb || "dist/laurdal.css" } "  />
 
 </head>
 
 };
-
-(: header with loader :)
-declare function croalabro-html:htmlheadloader($title, $content, $keywords) {
-  (: return html template to be filled with title :)
-  (: title should be declared as variable in xq :)
-
-<head><title> { $title } </title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="keywords" content="{ $keywords }"/>
-<meta name="description" content="{$content}"/>
-<meta name="revised" content="{ current-date()}"/>
-<meta name="author" content="Neven Jovanović, CroALa" />
-<link rel="icon" href=" { $croalabro-html:csslocal || "gfx/favicon.ico" }" type="image/x-icon" />
-<link rel="stylesheet" href=" { $croalabro-html:csslocal } "  />
-</head>
-
-};
-
 
 (: make html link :)
 
@@ -143,6 +125,15 @@ attribute class { "text-error text-center" },
 }
 };
 
+declare function croalabro-html:zerosec($message) {
+element tr { 
+element td { 
+element p {
+attribute class { "text-error text-center" },
+$message } }
+}
+};
+
 declare function croalabro-html:zero2() {
 element div { 
 element tr { 
@@ -242,7 +233,7 @@ let $f := <footer class="footer">
 	<p class="text-center">The publishing framework is part of a project <a href="https://pric.unive.it/projects/adriarchcult/home">AdriArchCult</a> that has received funding from the European Union's Horizon 2020 Research and Innovation Programme (GA n. 865863 ERC-AdriArchCult)</p>
 	<h4 class="text-center">
 	<a href="https://www.ffzg.unizg.hr">
-	<img src=" { $croalabro-html:csslocal || "gfx/ffzghrlogo.png" } "/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h4> 
+	<img src=" { $croalabro-html:csscdb || "gfx/ffzghrlogo.png" } "/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h4> 
 <p class="text-center">
 <span class="text-grey">Github</span>: <a href="https://github.com/nevenjovanovic/croatiae-auctores-latini-textus">croatiae-auctores-latini-textus</a></p>
 </div>
@@ -261,12 +252,12 @@ let $f := <footer class="footer">
 	<p class="text-center">The publishing framework is part of a project <a href="https://pric.unive.it/projects/adriarchcult/home">AdriArchCult</a> that has received funding from the European Union's Horizon 2020 Research and Innovation Programme (GA n. 865863 ERC-AdriArchCult)</p>
 	<h4 class="text-center">
 	<a href="https://www.ffzg.unizg.hr">
-	<img src=" { $croalabro-html:csslocal || "gfx/ffzghrlogo.png" } "/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h4> 
+	<img src=" { $croalabro-html:csscdb || "gfx/ffzghrlogo.png" } "/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h4> 
 <p class="text-center">
 <span class="text-grey">Github</span>: <a href="https://github.com/nevenjovanovic/croatiae-auctores-latini-textus">croatiae-auctores-latini-textus</a></p>
 </div>
 </div>
-<link href=" { $croalabro-html:csslocal || "dist/sortable-base.css" }" rel="stylesheet" />
+<link href=" { $croalabro-html:csscdb || "dist/sortable-base.css" }" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
 
 </footer>

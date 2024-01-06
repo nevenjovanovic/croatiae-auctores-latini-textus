@@ -54,9 +54,7 @@ declare
   <!-- function here -->
 
 { croalabro-html:trtodiv(
-croalabro:nihil(
-croalabro:quaere($verbum)
-)
+croalabro:qsec($verbum)
 ) }
 
 

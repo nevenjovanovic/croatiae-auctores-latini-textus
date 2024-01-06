@@ -49,15 +49,14 @@ declare
 <div  class="row">
 <div  class="col">
 <p class="text-center">{ $subtitle }</p>
-<h4 class="text-center">{ "Quaeris: " || $vvdist || ", per plurimum " || $ndist || " distantia. Inventum: " || croalabro:distfound($vvdist, $ndist)/tr[1] } </h4>
 
 </div>
 </div>
   <!-- function here -->
 
-{ croalabro-html:trtodiv2(
-croalabro:distfound($vvdist, $ndist)/tr[2]
-) }
+{ 
+croalabro:distfound($vvdist, $ndist)
+ }
 
 
 { croalabro-html:footerserver() }

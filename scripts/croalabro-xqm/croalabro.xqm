@@ -232,7 +232,15 @@ if (string-length($string) > 100)
 		)
 	)
 		else web:encode-url(normalize-space($string))
-};	
+};
+
+(: if there are special characters from the string, inform that wildcards are not permitted  :)
+
+declare function croalabro:qsec($string){
+	if (matches($string, "[.+?*]")) then let $message := "WILDCARDS non permittuntur in hac quaestione." return croalabro-html:zerosec($message)
+	else croalabro:nihil(croalabro:quaere($string))
+};
+
 
 (: search fulltext, simple - literal word, return rows with six cells  :) 
 (: td cells: 1 file name, 2 title, 3 first author, 4 creation date, 5 div heads, 6 search result :)
@@ -256,6 +264,40 @@ element td { $title },
 element td { ft:mark($n[. contains text { $word }]) }
 }
 
+};
+
+(: fuzzy: if there are special characters from the string, inform that wildcards are not permitted  :)
+
+declare function croalabro:qfuzzysec($string){
+	if (matches($string, "[.+?*]")) then let $message := "WILDCARDS non permittuntur in hac quaestione." return croalabro-html:zerosec($message)
+	else croalabro:fuzzyfound($string)
+};
+
+(: perform fuzzy search, return distinct values found with fuzzy, report if 0 hits :)
+
+declare function croalabro:fuzzyfound($word) {
+let $q := croalabro:quaerefuzzy($word)
+let $found := string-join(distinct-values($q/td[6]/mark/string()), ", ")
+let $qcount := count($q)
+return if ($qcount=0) then croalabro-html:zero2()
+else ( element div {
+	attribute class { "row"},
+	element div {
+		attribute class { "col"},
+	element h4 {
+		attribute class { "text-center"},
+		( "Quaeris: " || $word || ". Inventum: " || $qcount )
+		},
+		element p {
+			attribute class { "text-center"},
+			( "Formae: " || $found )
+		}
+	}
+	},
+croalabro-html:trtodiv(
+			element tr { $q }
+			)
+ )
 };
 
 (: fuzzy search :)
@@ -355,19 +397,7 @@ element td { $marked }
 
 
 
-(: perform fuzzy search, return distinct values found with fuzzy, report if 0 hits :)
 
-declare function croalabro:fuzzyfound($word) {
-let $q := croalabro:quaerefuzzy($word)
-let $found := distinct-values($q/td[6]/mark/string())
-let $qcount := count($q)
-return if ($qcount=0) then croalabro-html:zero2()
-else element div {
-  element tr { $qcount },
-  element tr { $found },
-  element tr { $q }
-}
-};
 
 (: perform wildcards search, return distinct values found with wildcards, report if 0 hits :)
 
@@ -398,16 +428,27 @@ else element div {
 };
 
 declare function croalabro:distfound($word, $dist) {
+	if (number($dist)) then
 let $q := croalabro:quaeredist($word, $dist)
-(: let $found := distinct-values($q/td[6]/mark/string()) :)
 let $qcount := count($q)
 return if ($qcount=0) then croalabro-html:zero2()
-else element div {
-  element tr { $qcount },
-(:  element tr { $found }, :)
-  element tr { $q }
-}
+	else ( element div {
+	attribute class { "row"},
+	element div {
+		attribute class { "col"},
+	element h4 {
+		attribute class { "text-center"},
+		( "Quaeris: " || $word || ", per plurimum " || $dist || " distantia. Inventum: " || $qcount )
+		}
+	}
+	},
+croalabro-html:trtodiv(
+			element tr { $q }
+			)
+ )
+	else let $message := "Numerum quaeso adde verborum interpositorum." return croalabro-html:zerosec($message)
 };
+
 
 
 (: check if search returned 0 hits :)
