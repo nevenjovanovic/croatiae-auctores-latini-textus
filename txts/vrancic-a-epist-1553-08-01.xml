@@ -1,8 +1,8 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc xml:id="vrancic-a-epist-1553-08-12">
+      <fileDesc xml:id="vrancic-a-epist-1553-08-01">
          <titleStmt>
-            <title>Petro Francisco Parrhisio (1553-08-12), versio electronica</title>
+            <title>Petro Francisco Parrhisio (1553-08-01), versio electronica</title>
             <author ref="http://www.wikidata.org/entity/Q512372">
                <persName xml:lang="hr">Vrančić, Antun</persName>
                <date>1504-1573</date>
@@ -28,21 +28,23 @@
             projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
-            Hrvatska.  <date>Siječnja 2008</date>.</p>
+            Hrvatska.  <date when="2024-01">Siječnja 2024</date>.</p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Verancsics, Antal. Verancsics Antal összes munkái Történelmi dolgozatok deák
-                    nyelven. XXX (vol. 4, p. 49)</bibl>
+                    nyelven. XXX (vol. 4),
+                    MHH IV, nr. XXVIII.
+            </bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc xml:id="verantiusaparrhysius15530812">
+      <profileDesc xml:id="verantiusaparrhysius15530801">
          <abstract>
             <p/>
          </abstract>
          <settingDesc>
             <place ana="origin">
-               <placeName ref="https://www.wikidata.org/wiki/Q472">Sofia</placeName>
+               <placeName ref="https://www.wikidata.org/wiki/Q3711">Belgradum</placeName>
             </place>
             <place ana="destination" cert="medium">
                <placeName ref="https://www.wikidata.org/wiki/Q1722">Dubrovnik</placeName>
@@ -60,8 +62,8 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-            <date when="1553-08-12" period="15xx_2_third">1553-08-12</date>
-            <placeName ref="https://www.wikidata.org/wiki/Q472">Sofia</placeName>
+            <date when="1553-08-12" period="15xx_2_third">1553-08-01</date>
+            <placeName ref="https://www.wikidata.org/wiki/Q3711">Belgradum</placeName>
          </creation>
          <textClass>
             <keywords scheme="typus">
@@ -84,38 +86,39 @@
                   Jovanović</ref>
             </persName>
             <date when="2023-01-07">2023-01-07</date>. 
-            Ispravio odredište (Dubrovnik).
-            Dodao Wikidata ID za priređivača i gradove.
+            Prvo izdanje kao CroALa TEI.
          </change>
-         <change>
-            <persName>
-               <ref type="viaf" target="6913774">Neven Jovanović</ref>
-            </persName>
-            <persName>Luka Špoljarić</persName>
-            <date>2012-03-04</date>
-        Novo, unificirano zaglavlje.
-        Prva verzija.
-    </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <div type="prosa-epistula" corresp="#verantiusaparrhysius15530812">
+         <div type="prosa-epistula" corresp="#verantiusaparrhysius15530801">
             <opener>Antonius Verancius Petro Francisco Parrhisio suo <abbr>S.</abbr></opener>
-            <p>Proxime quum Belgradi essem, dedi ad te litteras cuidam nobili viro, Josepho nomine,
-               qui se dicebat in patriam profecturum. Iis litteris quoniam latius refricavi inter
-               nos mutuam nostri memoriam, non est quod his plura scribam, intentus alioqui etiam
-               itineri, cujus vel horam praeter nocturnas non intermitto. Ignosces itaque, et me vel
-               spiritu tuo tecum amplectere, quum ipse meo te etiam exosculer, quoties in mentem
-               venis. Venis autem quam saepissime, hoc praesertim itinere, in quo dum passim in
-               homines Ragusinos incido, nequeo quin tecum et somnos et vigilias exigam. Verum
-               quoniam avocor ab auriga, qui jam junxit meos jugales et insedit, finire epistolam
-               cogor. Rogo itaque te, ut has inclusas ad patrem meum charissimum quamprimum mittere
-               cures, in quo facturus es mihi rem pergratam. </p>
+            <p> Proficiscenti mihi cum legatione regis mei ad principem Turcarum magnis de rebus, ut
+               quae genti nostrae quietem et otium a bello conciliare debebunt, simodo ex sententia
+               successerit, incidi in quosdam istius nobilissimae urbis cives, qui se in patriam
+               profecturos dicerent. Quare adhuc memor, et maxime etiam videndi tui cupidus, nolui
+               praetermittere hoc scribendi ad te officium, quo scires, qualem et quantam memoriam
+               tui retineam, esto quod diu jam inter nos cessat conspectus mutuus, cessant nuncii,
+               et epistolae silent, utque vel solam salutem tibi precarer, meque etiamnum erga te
+               declararem, quem semper alias expertus fueris, quando eramus contubernales et
+               consortes tenuioris illius conditionis nostrae, qua apud Philippum Trivulcium,
+               optimum quidem certe nobis herum et praesulem conjuncti degebamus. Precata itaque, mi
+               Petre Francisce, salute quam plurima et quam diutissima, meque oblato ad tua vota
+               omnia, restat, ut te de statu meo faciam certiorem. Rex meus ascivit me in senatum
+               suum, et in episcoporum ordinem promovit, auctoque etiam abbatia Pornensi et
+               restitutione praepositurae Transsylvaniensis, oratorem quoque misit ad Turcarum
+               summum principem magno et honesto cum apparatu. Nec de meis rebus ipse plura, Tu, ut
+               semper facere solitus es, tecum de hiis mihi gratulator, aut si etiam epistola voles,
+               hoc quoque solitum feceris, mihique tuis litteris gratius nihil erit, postquam te non
+               consequor. Obiisse nostrum Idinam, dolui sane dolentissime, ut de morte fratris
+               debuissem. Verum senescimus, Petre Francisce, senescimus et ad metam omnes
+               properamus. Quiescat igitur noster Idina in pace et beatitudine Christi sui. Nos, dum
+               licet, vivamus, et amemus mutuo.</p>
             <closer>
                <salute>Vale.</salute>
                <dateline>
-                  <date when="1553-08-12">Duodecima Augusti, 1553.</date>  Zophiae apud Tracas.</dateline>
+                  <date when="1553-08-01">Prima Augusti, 1553.</date> Belgradi.</dateline>
             </closer>
          </div>
       </body>

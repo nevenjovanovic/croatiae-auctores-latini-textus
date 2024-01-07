@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+     <fileDesc xml:id="nardinus-celineus-epigramma-tetrastichonnadini">
+      <titleStmt>
+        <title>P. N. C. tetrastichon de arce Nadini (ante 1518), editio electronica</title>
+        <author ref="http://www.wikidata.org/entity/Q117706387">
+          <persName xml:lang="la">Nardinus Celineus</persName>, <persName xml:lang="it">Nardino
+            Celinese</persName>
+          <date>fl. c. 1500</date></author>
+        <editor ref="http://www.wikidata.org/entity/Q114878204">
+          <persName xml:id="NJ">
+            <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+              Jovanović</ref>
+          </persName>
+        </editor>
+        <respStmt>
+          <resp>electronice edidit</resp>
+          <persName ref="#NJ">
+            <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+              Jovanović</ref>
+          </persName>
+        </respStmt>
+
+      </titleStmt>
+         <publicationStmt>
+           <p>elektronska verzija: Croatiae auctores Latini, znanstveni
+             projekt. 
+             <orgName ref="http://www.wikidata.org/entity/Q3445232">Filozofski fakultet Sveučilišta u Zagrebu</orgName>,
+             Hrvatska.
+             <date when="2023-11">studeni 2023</date>.</p>
+	 </publicationStmt>
+         <sourceDesc>
+           <bibl>
+             Facsimilia digitalia codicis manu scripti:
+             <ref target="http://bibliotecadigitale.istitutocampana.it/2021/01/20/18-l-13-ex-13-miscellanea/">Biblioteca dell' Istituto Campana per l'Istruzione Permanente (BICO), 
+             ms. 18.L.13.</ref>
+             <note>Manuscript source: Osimo, Biblioteca Istituto Campana, ms. 18. L. 13, 67r–69v. 
+               The edition modernizes spelling (except in the case of names) and interpunction. 
+               </note>
+           </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+       <creation>
+         <date notAfter="1518" period="15xx_1_third">ante 1518</date>
+         <placeName ref="http://www.wikidata.org/entity/Q3370">Zadar</placeName>
+       </creation>
+       
+       <textClass>
+         <keywords scheme="typus">
+           <term>poesis</term>
+         </keywords>
+         <keywords scheme="aetas">
+           <term>Litterae renatae (1400-1600)</term>
+           <term>Saeculum 16 (1501-1600)</term>
+           <term>1501-1550</term>
+         </keywords>
+         <keywords scheme="genre">
+           <term>poesis - epigramma</term>
+         </keywords>
+       </textClass>
+     </profileDesc>
+     <revisionDesc>
+       <change>
+         <persName ref="#NJ">
+           <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+             Jovanović</ref>
+         </persName>
+         <date when="2023-01-07">2023-01-07</date>. 
+         Početno TEI izdanje za CroALa.
+         Dodao prozodijske oznake.
+         Prema znanstvenom izdanju predanom za objavljivanje.
+       </change>
+       
+     </revisionDesc>
+   </teiHeader>
+<text>
+<body>
+      <div met="elegiacum" type="epigramma">
+        <head><abbr>P. N. C.</abbr> tetrastichon de arce Nadini</head>
+        <l met="hexameter">Quos adamanteo ditatus uellere quondam</l>
+        <l met="pentameter">Aesonides coluit, nunc ego tutor agros;</l>
+        <l met="hexameter">ad me confugiunt, quoties timuere, coloni</l>
+        <l met="pentameter">aut quoties agili Turca ferocit equo.</l>
+        <closer><foreign xml:lang="grc">τέλος</foreign></closer>
+        
+      </div>
+</body>
+
+
+</text>
+</TEI>

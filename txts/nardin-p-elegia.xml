@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc xml:id="nardin-p-elegia">
          <titleStmt>
-            <title ref="nardin-p-elegia.opus.33334684329051223">Elegia de laudibus Sibenici, versio electronica</title>
+            <title ref="nardin-p-elegia.opus.33334684329051223">Elegia de laudibus Sibenici (c. 1551), versio electronica</title>
             <author ref="nardin01">
                <persName xml:lang="hr">Nardin, Petar</persName>
                <date when="1551" precision="medium">c. 1551</date>
@@ -14,8 +14,8 @@
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </respStmt>
          </titleStmt>
@@ -37,7 +37,7 @@
             <bibl>Tvrtković, Tamara: Između znanosti i bajke : Ivan Tomko Mrnavić. Zagreb : Šibenik : Hrvatski institut za povijest ; Gradska knjižnica "Juraj Šižgorić", 2008, s. 80</bibl>
             <bibl>Fortis, Alberto:  Voyage en Dalmatie  
                     <pubPlace>Berne</pubPlace>: 
-                    <publisher>Chez la SociétéTypographique</publisher> 
+                    <publisher>Chez la Société Typographique</publisher> 
                     (<date>1778</date>), p. 212-213.
                         <note>"Difnico a tiré la plupart de ces traits de l'histoire naturelle de Sibenico, des poëmes élégiaques de Jean Nardino, Chanoine de Zagrab. Quelques-uns de ces vers, qui n'ont jamais été imprimés, sont cités dans un ouvrage manuscrit de Tomco Marnavich..."</note>
                <relatedItem target="http://books.google.com/books?id=zv0OAAAAQAAJ">
@@ -61,7 +61,7 @@
          </langUsage>
          <creation>
             <date when="1605" period="16xx_1_third">c. 1605.</date>
-            <placeName>Šibenik</placeName>
+            <placeName ref="http://www.wikidata.org/entity/Q3549">Šibenik</placeName>
          </creation>
          <textClass>
             <keywords scheme="typus">
@@ -78,6 +78,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2023-01-07">2023-01-07</date>. 
+            Označio prozodiju.
+            Dodao Wikidata ID.
+         </change>
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -108,48 +117,48 @@
             <head>
                <add>Elegia de laudibus Sibenici</add>
             </head>
-            <l n="1">Solus honor, Sibenice, tuus, tua gloria sola est,</l>
+            <l n="1" met="hexameter">Solus honor, Sibenice, tuus, tua gloria sola est,</l>
             <l n="2" met="pentameter">            Semper in his, quae nunc disticha nostra canunt.</l>
-            <l n="3">            In reliquis tua fama nitet communis et alta</l>
+            <l n="3" met="hexameter">            In reliquis tua fama nitet communis et alta</l>
             <l n="4" met="pentameter">            Copia te rerum conditione beat.</l>
-            <l n="5">            Insula quae in Tithio est caelo tam grata sereno</l>
+            <l n="5" met="hexameter">            Insula quae in Tithio est caelo tam grata sereno</l>
             <l n="6" met="pentameter">            Illa quidem nunquam grandine laesa fuit.</l>
-            <l n="7">            Marmora quae Tithius stillat pretiosa feruntur,</l>
+            <l n="7" met="hexameter">            Marmora quae Tithius stillat pretiosa feruntur,</l>
             <l n="8" met="pentameter">            Lignaque tam mira petrificantur aqua</l>
-            <l n="9">            Anguillam haec etiam pretiosi dona palati</l>
+            <l n="9" met="hexameter">            Anguillam haec etiam pretiosi dona palati</l>
             <l n="10" met="pentameter">            Dat tibi quae febri est haud nocitura malae.</l>
-            <l n="11">            Latrat et insequitur solum miranda canum vis</l>
+            <l n="11" met="hexameter">            Latrat et insequitur solum miranda canum vis</l>
             <l n="12" met="pentameter">            Te simul atque omnes gens Agarena tuos.</l>
-            <l n="13">            Rara, coronatos extollit gloria pisces</l>
+            <l n="13" met="hexameter">            Rara, coronatos extollit gloria pisces</l>
             <l n="14" met="pentameter">            Dentales merito quos, Sibenice, vocas.</l>
-            <l n="15">            Delphines iam, Sice, tui tam denique mites</l>
+            <l n="15" met="hexameter">            Delphines iam, Sice, tui tam denique mites</l>
             <l n="16" met="pentameter">            Piscantes tollunt nomen ad astra tuum.</l>
-            <l n="17">            Septimus ut venit nobis, quis crederet, annus,</l>
+            <l n="17" met="hexameter">            Septimus ut venit nobis, quis crederet, annus,</l>
             <l n="18" met="pentameter">            Anguillae effervent hoc, mihi crede, lacu.</l>
-            <l n="19">Manna solo, Sibenice, tuo felicibus astris</l>
+            <l n="19" met="hexameter">Manna solo, Sibenice, tuo felicibus astris</l>
             <l n="20" met="pentameter">Ambrosias tribuit, nectareasque dapes.</l>
-            <l n="21">            Cedite, Campanae vites, iam cedite, Graiae,</l>
+            <l n="21" met="hexameter">            Cedite, Campanae vites, iam cedite, Graiae,</l>
             <l n="22" met="pentameter">            Dulcia Collenti nam deus arva colit.</l>
-            <l n="23">            Surgit in his campis sacrae spetiosa Minervae</l>
+            <l n="23" met="hexameter">            Surgit in his campis sacrae spetiosa Minervae</l>
             <l n="24" met="pentameter">            Arbor et excelsas ornat ubique dapes.</l>
-            <l n="25">            Praeciso hic homines cerebro vixere per annos</l>
+            <l n="25" met="hexameter">            Praeciso hic homines cerebro vixere per annos</l>
             <l n="26" met="pentameter">            Ducentes longa posteritate dies.</l>
-            <l n="27">            Hinc utero ablato generosae munera dextrae</l>
+            <l n="27" met="hexameter">            Hinc utero ablato generosae munera dextrae</l>
             <l n="28" met="pentameter">            Vivit adhuc mulier fortiter arma gerens.</l>
-            <l n="29">            Haec fidei comissa tuae, fidelissima nempe</l>
+            <l n="29" met="hexameter">            Haec fidei comissa tuae, fidelissima nempe</l>
             <l n="30" met="pentameter">            Sice, Duci Veneto, moenia tuta manent;</l>
-            <l n="31">
+            <l n="31" met="hexameter">
                <orig>Hic</orig> trino dicata Deo dum festa refulgent</l>
             <l n="32" met="pentameter">Civis in hac sceptrum nobilis urbe tenet.</l>
-            <l n="33">Hic prius ostenso celebrat nova nupta Priapo</l>
+            <l n="33" met="hexameter">Hic prius ostenso celebrat nova nupta Priapo</l>
             <l n="34" met="pentameter">Connubium, et socias porrigit inde manus.</l>
-            <l n="35">            Felici hoc portu placidas regit Eolus undas.</l>
+            <l n="35" met="hexameter">            Felici hoc portu placidas regit Eolus undas.</l>
             <l n="36" met="pentameter">            Firmat et innumeras Marte silente rates</l>
-            <l n="37">            Hoc mare tam lautos tollit super aethera cancros</l>
+            <l n="37" met="hexameter">            Hoc mare tam lautos tollit super aethera cancros</l>
             <l n="38" met="pentameter">            Atque epulas ornat Iuppiter inde tuas</l>
-            <l n="39">Haec quoque florescit speciosis unda Corallis,</l>
+            <l n="39" met="hexameter">Haec quoque florescit speciosis unda Corallis,</l>
             <l n="40" met="pentameter">Qui dites Indos, antipodasque petunt.</l>
-            <l n="41">            Hic ubi tam variis fervescit piscibus aequor</l>
+            <l n="41" met="hexameter">            Hic ubi tam variis fervescit piscibus aequor</l>
             <l n="42" met="pentameter">            Hic sua Neptunus sceptra superba tenet.</l>
             <gap reason="fragmentum" resp="NJ"/>
             <gap reason="fragmentum" resp="NJ"/>
