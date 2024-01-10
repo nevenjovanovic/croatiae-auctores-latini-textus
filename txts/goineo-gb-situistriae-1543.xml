@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+    <fileDesc xml:id="goineo-gb-situistriae-1543">
+<titleStmt>
+    <title>De situ Istriae (ante 1543), versio electronica</title>
+    <author ref="http://www.wikidata.org/entity/Q55228383">
+        <persName>Goineo, Giovanni Battista</persName>, 
+        <placeName>Piran</placeName>, 
+        <date from="1515" notAfter="1578">c. 1515 – ante 1578</date>
+    </author>
+    <respStmt>
+        <resp>Hanc editionem electronicam curavit</resp>
+        <persName xml:id="NJ">
+            <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+        </persName>
+    </respStmt>
+</titleStmt>
+            <editionStmt>
+                <p>Digitalizat kasnijeg izdanja (<date when="1840">1840</date>).</p>
+            </editionStmt>
+    <publicationStmt>
+        <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            projekt na <orgName>
+                <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+            </orgName>, <placeName ref="3186886">Zagreb</placeName>
+            Hrvatska.  <date when="2009-06">Siječnja 2009</date>.</p>
+    </publicationStmt>
+<sourceDesc>
+    <p>Denuo typis editum in: 
+        <bibl>P. Kandler, "Corografia dell'Istria", Archeografo triestino, II [1840], pp. 45--71.</bibl> Est facsimile <ref target="http://books.google.com/books?id=FdEOAAAAQAAJ">apud Google Book Search</ref>. Quae editio facta est ad fidem editionis alterae: <bibl>G. Fontanini in J.G. Graevius, Thesaurus antiquitatum et historiarum Italiae, VI, 4, Lugduni Batavorum 1722.</bibl>
+        Editio princeps autem erat:
+        <bibl>Goineo, Giovanni Battista, Medici enchiridion ad quotidianam medendi exercitationem ex Galeno excerptum Ioanne Baptista Goynaeo Pyrrhanensi ... authore ... Eiusdem De situ Istriae ... Postremo ecloga piscatoria in nobilissimi viri Marci Ursati patrici patavini obitum. [1560?] [Venezia?].</bibl>
+        
+    </p>
+    
+</sourceDesc>
+</fileDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+        </langUsage>
+        <creation>
+            <date when="1540" period="15xx_2_third">1540</date>
+        </creation>
+        <textClass>
+            <keywords scheme="typus">
+                <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+                <term>Litterae renatae (1400-1600)</term>
+                <term>Saeculum 16 (1501-1600)</term>
+                <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+                <term>prosa oratio - chorographia</term>
+            </keywords>
+        </textClass>
+    </profileDesc>
+<revisionDesc>
+    <change>
+        <persName ref="#NJ">
+            <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                Jovanović</ref>
+        </persName>
+        <date when="2024-01-07">2024-01-07</date>. 
+        Adaptacija za CroALa TEI.
+        Dodao Wikidata ID, žanrovske oznake.
+    </change>
+<change>
+<name>Neven Jovanović</name>
+<date>2008-08-28T00:16:08</date>
+</change>
+</revisionDesc>
+</teiHeader>
+<text>
+<front><milestone unit="page" n="45"/>
+    <docAuthor>JOANNIS BAPTISTAE GOYNAEI 
+        PYRRHANENSIS</docAuthor>
+<docTitle>
+<titlePart>DE SITU ISTRIAE LIBELLUM</titlePart> 
+<titlePart>UBI</titlePart> 
+<titlePart>EJUS REGIONIS SIMUL NOMEN, TERMINI, CIVITATES, 
+INGENIA, ERUDITI ET SOLI NATURA
+ELEGANSTISSIME ET SOLIDISSIME PERTRACTANTUR</titlePart>
+<titlePart>CUM</titlePart>
+<titlePart>PRAEFATIONE ET EMENDATIONIBUS
+JUSTI FONTANINI
+A CUBICULO HONORARIO
+SUMMI PONTIFICIS CLEMENTIS XI.</titlePart>
+</docTitle>
+    <docImprint>LUGDUNI BATAVORUM <date when="1722">1722</date>
+        SUMPTIBUS PETRI VAN DER AA BIBLIOPOLAE CIVITATIS 
+        ATQUE ACCADEMIAE TYPOGRAPHI</docImprint>
+
+            <div>
+                <head>PRAEFATIO TYPOGRAPHI</head>
+
+                <p>Non rarum saltem Libellum, sed et res rarissime descriptas Tibi, Benevole Lector,
+                    hic offerimus elegantissime pertractatas. Sunt istae lucubrationes eruditissimae
+                    Joannis Baptistae Goynaei Pyrrhanensis, de Situ Istriae inscriptae. Eae ut nunc
+                    prodire queant, nos adjuvit benignitas Reverendissimi ac Excellentissimi Domini
+                    Justi Fontanini, a Cubiculo honorario <milestone unit="page" n="46"/> Summi
+                    Pontificis Clementis XI, qui earum transmisit apographum, a plurimis, quae ob
+                    librarii vitium irrepserant, mendis multo labore emaculatum. Indicavit ipse
+                    praeterea non solum loca Auctorum, quae Goynaeus generatim laudaverat, sed
+                    addidit etiam Praefationem, quae Lectorem tum de Auctore nostro, tum de hujus
+                    Libri elegantia plenissime instruet. Qui liber cum egregium eruditis promittat
+                    commodum, nostrum duximus eum omni, qua fieri potuit, exhibere elegantia. Nomina
+                    propria, quae in historicis cardinem rei constituunt, Allegationes, et alia,
+                    quae id requirere videbantur, ut eo facilius pateant, diversis a contextu
+                    expressimus literis. Indicem tum Capitum, tum Nominum et Rerum Notabiliorum
+                    adjunximus, qui omnia, quae hic habentur notatu digniora, ordine optimo
+                    monstrabunt uno intuitu. His ut feliciter, Benevole Lector, fruaris,
+                    precamur.</p>
+                <closer><salute>Vale</salute></closer>
+            </div>
+
+<milestone unit="page" n="47"/>
+
+            <div>
+                <head>JUSTI FONTANINI A CUBICULO HONORARIO SUMMI PONTIFICIS CLEMENTIS XI PRAEFATIO
+                    IN JO. BAPTISTAE GOYNAEI LIBELLUM DE SITU ISTRIAE</head>
+
+                <p>Istria postrema Italiae Regio, quae in priscis, et medii aevi monumentis ob belli
+                    pacisque artem celeberrima est, quaeque primum Regulis suis, postea Romanis, et
+                    utriusque Venetiae Correctoribus, deinde Graecis, Francis, propriis
+                    Marchionibus, Patriarchis Aquilejensibus, et tandem Venetiis paruit, hactenus
+                    idoneis scriptoribus, saltem editis, caruit, qui dedita Opera universam
+                    regionem, Civitates, populosque pro dignitate posterorum memoriae commendarent.
+                    Non defuere antiquitus Viri ingenio clari, qui Istriae bella literis
+                    consignarent, interque hos eminuit Hostius, cujus maxima laus est, Maronem
+                    alicubi sui imitatorem habuisse teste Macrobio. Saturnaliorum Lib. VI Cap. III.
+                    Sed Hostii Poemata a Gerardo Joanne Vossio memorata in Libro I. de Historicis
+                    Latinis Cap. XVI. tempus edax nobis invidit: post quem, demtis fortasse Flavio
+                    Blondo, M. Antonio Sabellico, aliisque Rerum Venetarum scriptoribus, ceteri
+                        <milestone unit="page" n="48"/> omnes provinciam maxime illustrem pene
+                    indictam reliquerunt, si unum excipiamus Petrum Copum, Istrum ex opido Insula,
+                    qui A. D. 1540. Venetiis ex officina typographica Francisci Bindoni, rudi lingua
+                    Italica opusculum de Situ Istriae vulgavit, et Nicolaum Manzolium,
+                    Justinopolitanum, qui eadem pariter lingua et stilo aeque rudi, ab se confectam
+                    Istriae Descriptionem in lucem emisit Venetiis apud Nicolaum Bizzardum A. D.
+                    1611. uterque breviter et jejune argumentum copiosum pertractans.</p>
+                <p>Sed tandem inventus fuit Joannes Baptista Goina Piranensis, sive, ut ipse dici
+                    voluit, Goynaeus Pyrrhanensis, qui post Saeculorum memoriam patriae honori
+                    consulturus, Istriam universam eleganter et accurate Latino sermone describeret,
+                    cujus lucubrationis apographum olim mecum humaniter communicavit V. C. Apostolus
+                    Zenus, sed ob vitium librarii tot mendis foedatum, ut non parvum laborem in illo
+                    emaculando exhauserim, et in locis auctorum indicandis, quos Goynaeus plerumque
+                    generatim laudaverat. Vixit ille medio saeculo XVI interque auditores Romuli
+                    Amasaei, Bononiae Graecas Latinasque literas publice profitentis, excelluit, ibi
+                    enim Romuli Scholam longe florentissimam defendit contra Sebastianum Corradum,
+                    virum pariter literarum gloria conspicuum, qui eam laesisse videbatur in
+                    politissimo Dialogo de Vita Ciceronis, cui Egnatii, vel Quaesturae nomen
+                    imposuit. Liber Goynaei, opido rarus, quem nuncupavit Priamo Polae, sive Polano,
+                    ut vocat, a Pola Civitate, in qua ejus majores dominos fuisse, in hoc Libello de
+                    Situ Istriae testatur, hujusmodi inscriptionem praefert: Jo: Baptistae Goynaei
+                    Pyrrhanensis Defensio pro Romuli Amasaei auditoribus, adversus Sebastiani
+                    Corradi calumnias. Addita disputatio de conjungenda sapientia cum eloquentia, et
+                    enumeratio auditorum Romuli, qui ex priori et posteriori Schola prodierunt.
+                    Bononiae in Officina Vincentii Bonardi Parmensis 1527 in 4.° In ipso vero libro
+                    Arnoldum Arlenium, aeque ac Polanum, Amasaei discipulum, alloquitur; laudaturque
+                        <milestone unit="page" n="49"/> Goynaeus in vestibulo Operis Ode Latina
+                    Petri Angeli Bargaei, et Elegia Graeca Francisci Robortelli. In summa opus istud
+                    amplissimum Romuli encomium, ejusque auditorum in utraque Schola Patavina et
+                    Bononiensi luculentam enumerationem complectitur, quam alibi damus in nostra
+                    Bibliotheca sive Historia Litteraria Aquilejensi. Goynaei autem Cardo Querelarum
+                    adversus Corradum in hoc vertitur, quod Amasaeanos auditores traducere
+                    videretur, quasi omnem mentem et cogitationem ad habendum verborum delectum
+                    converterent, rerum cognitionem ipsam plane contemnentes; in aucupandis
+                    Ciceronis voculis, laboris et operae insumerent plurimum et omnem sapientiae
+                    curam abjicerent. Hoc Goynaeus falso dictum esse ab eo tradit, qui vix unum aut
+                    alterum diem Bononiae esset commoratus, et de Romuli auditoribus arroganter
+                    pronunciari, quorum admodum paucos vix de facie nosset tantum abest, ut cum iis
+                    de studiis fuerit collocatus. Haec Goynaeus in Corradum, antequam ejus Quaestura
+                    typis ederetur Bononiae apud Anselmum Giacarellum A. D. 1555 in 8.° in qua sane
+                    de Romulo semel, iterum, et tertium honorifice loquitur, et Goyneum de se inique
+                    conquestum hisce verbis contendit (pag. 3) ubi Pierio Valeriano suscitanti, anne
+                    accusatorem aliquem habuisset. Corradus, fortasse multos, respondet, ut sunt
+                    homines ad vituperandum quam ad laudandum propensiores: sed ego de nemine audivi
+                    nisi de Joanne Baptista Goynaeo, vicino tuo, Pieri, (nempe ex Istria, Venetiae
+                    finitima, in qua est Bellunum, Pierii patria) juvene erudito, et ad dicendum
+                    parato, qui nihil in Venere, ut par est credere, quum invenisset quod carperet,
+                    Sandalii tamen crepitum reprehendit. Nam quum de Quaestura ipsa ne verbum quidem
+                    fecisset, calumniatus est me nescio quid paullo iniquius de Romulo Amasaeo
+                    scripsisse: quem virum, ne sim, nisi ita colo et observo, ut uni Pompilio filio,
+                    praeterea nemini concedam: quod et ipse agnoscit, nec jam Goynaeus ignorat: qui
+                    postquam vere cognovit, me alium esse atque ipse sibi finxerat, nihil habuit
+                    antiquius, quam <milestone unit="page" n="50"/> ut meam sibi gratiam per
+                    communes amicos conciliaret. Itaque nunc mihi est, uti qui maxime, carus. Quod
+                    ad Romulum attinet, certe Corradus eum cum laude memoravit etiam in Praefatione
+                    ad Epistolas Ciceronis ad Atticum. Haec de Goynaeo memoriae succurrunt, cujus
+                    Librum non ingratum eruditis futurum ominor, tum ob sermonis elegantiam, tum ob
+                    rerum notitiam non sine ope criticae artis prolatam: cujus quidem rei illud
+                    argumento est, quod Cap. I. quum citasset Catonem ab Annio vulgatum, cui necdum
+                    quisquam larvam detraxerat, quique postea Sigonium ipsum decepit, ut mendacem
+                    statim, refellit. Quietum Istriae flumen non esse Nauportum ostendit: quod
+                    postmodum Istri confixerunt, ut Emonam Pannonicae I. Civitatem, ad quam ab
+                    antiquis scriptoribus Nauportus locatur, non Labaci in Carniola, sed apud
+                    Civitatem novam in Istria (quam tamen Geographus Ravennas Lib. IV. pag. 204.
+                    Saeculo VII. Graece Neapolin dixit) quaerendam esse suaderent. De Justinopoleos
+                    conditore haesitando disceptat neque jactatam inscriptionem, jam a viris doctis
+                    explosam, adducit. Pugnam quidem pro Alexandro III. Pontifice Venetos inter et
+                    Caesarianos ad Salborium, ubi Otto Friderici I. filius captus fuerit, ut rem
+                    veram memorat; sed quum nondum quisquam de ea dubitaret. De Istro amne, a quo
+                    Istria originationem traxerit, non vulgaria etiam prodit, ut alia praeteream,
+                    cuique legenti facile obvia. Quo tempore hanc suam lucubrationem Goynaeus
+                    scripserit, inde eruimus, quod Copum saepe refellit, et Petrum Paullum
+                    Vergerium, ut adhuc Justinopolitanum Episcopum, laudet. Quum vero Copus librum
+                    suum ediderit A. D. 1540, et Vergerius Episcopatu dejectus, palam ad
+                    Lutheranorum castra defecerit A. D. 1549 teste Hieronymo Mutio in Epistolis
+                    Catholicis Lib. I pag. 41. postquam virus suum jam in vulgus sparsisset A. D.
+                    1548, quemadmodum ejusdem Mutii Vergerianae patefaciunt, hinc constat opus
+                    Goynaei confectum inter A. D. 1540 et 1548. Nequid vero dissimulem, dum auctor
+                    phrasi suspecta et Catholicis insueta, Vergerium ipsum, aliosque <milestone
+                        unit="page" n="51"/> unum et alterum, immodice ornat, Hieronymum autem
+                    Mutium, tunc Istrorum doctissimum, <sic>Vurgerioque</sic> et aliis conterraneis
+                    suis, ejusdem farinae hominibus, non parum invisum, silentio premit in Cap. V.
+                    ubi Claros Istros recenset, hinc vereor, ne Goynaeus, ex Justinopolitana
+                    diaecesi Pirani civis, et in utraque Germania juvenis olim vagus Vergerianis
+                    partibus forte aliquando studuerit, et propterea etiam periculum aliquod
+                    incurrerit, de quo subobscure loquatur in Literis Italicis ad Paullum Manutium
+                    in Nova Collectione Epistolarum Virorum Illustrium Venetiis edita A. D. 1574
+                    Lib. IV. pag. 120. Idem Mutius in Epistolis Catholicis proxime aductis Lib. I.
+                    pag. 48. ait nonnullos ex Istris Vergerii Sectatoribus palinodiam cecinisse.
+                    Ceterum in tanta luce literarum si quae Goynaeanae lucubratiunculae ex remotiori
+                    antiquitate sumtae deerunt, haec supplere facile poterit summa industria
+                    Philippi Cluverii in Italia Antiqua Lib. I. Cap. XXI.</p>
+            </div>
+
+<milestone unit="page" n="52"/>
+
+            <div>
+                <head>AUCTORIS AD PYRRHANENSIUM ADOLESCENTUM ACADEMIAM. PRAEFATIO</head>
+
+                <p>Cum superioribus hisce annis, Adolescentes Studiosissimi, ex Istria decedens
+                    multarum gentium et nationum loca regionesque peragrarem, et per Japides primum,
+                    deinde Carnos, Tauriscos, Noricos, Pannonas superiores, Rhetos, universamque
+                    prope Germaniam et Galliam Belgicam iter haberem, nullam ego majorem unquam
+                    capiebam animo voluptatem, quam cum itinerum meorum rationem cum antiquorum
+                    auctorum, qui de his regionibus memoriae aliquid prodidere assidua lectione
+                    conferebam. Verum etsi magnam quidem eam per idem tempus sentire videbar, cum
+                    tamen ad patriae terrae situm considerandum mentem cogitationemque applicavi
+                    tunc demum perfectam et absolutam eandem percipere incepi: tunc reliqua externa
+                    sordescere mihi sunt visa; tunc denique hanc unam mirari, et ejusdem spectaculo
+                    pasci in primis placebat, neque id quidem, ut ego arbitror, fortasse immerito,
+                    quando, ut <quote><bibl>Ovidius ait Lib. I. de Ponto Eleg. III verso 35.</bibl>
+                        <q><l>Nescio qua natale solum dulcedine cunctos</l>
+                            <l>Ducit, et immemores non sinit esse sui.</l></q></quote> Quod et apud
+                    Homerum saepenumero Ulysses et Lucianus in patriae Encomio, confirmare videntur.
+                    Quapropter cum in schedulis meis jamdudum dissipata quaedam atque dispersa de
+                    hac ipsa patria nostra domi jacerent, honestum sane, ni fallor, <milestone
+                        unit="page" n="53"/> me desiderium cepit, ut ad vestram, et reliquorum
+                    Istrorum meorum voluptatem haec, in unum redacta libellum, in manus hominum
+                    emitterentur, in quo quidem labore meo, si nihil aliud vel fructus, vel
+                    voluptatis, plane percepero, spero vos tamen omnes et diligentiam meam, et meam
+                    in patriam pietatem probaturos esse, nam ut Lucillus ille poeta gravissimus,
+                    Tarentinis et Consentinis suis tantum scribebat, ita ego paucis Istris meis hunc
+                    libellum edidisse, intelligi cupio, ex quorum tamen numero si qui forte
+                    exstiterint, pallio et barba sapientiam praetendentes, qui mea, ut alias facile
+                    consueverunt, naso adunco suspenderint, hos quaeso rogate, Adolescentes, ut
+                    vigilias meas plane discerpant, modo meliores ostendant suas, nam quod ad vos
+                    ipsos pertinet, ea vultus et animi alacritate libellum meum, ut spero,
+                    excipietis a cive vestro, et studiorum aliquando etiam adjutore, quo excipi
+                    debet qui de patria terra pertractans, vobis dicatur.</p>
+                <closer>Valete.</closer>
+            </div>
+</front>
+        <body>
+            <milestone unit="page" n="54"/>
+
+            <head>JOANNES BAPTISTA GOYNAEUS PYRRHANENSIS DE SITU ISTRIAE</head>
+            <div>
+                <div>
+                    <head>CAPUT I. DE ISTRIAE NOMINE.</head>
+
+                    <p>Istriae igitur nomen unde fuerit ei impositum, variae sunt Auctorum
+                        sententiae. Cato quidem in Originibus ab Istro duce in hanc regionem a Jano
+                        misso, dictam affirmat; nonnulli vero ex Graecis scriptoribus, ut idem ait,
+                        ab Istro flumine, cui cognomen Danubio nominatam arbitrantur, unde ramum
+                        ejusdem in Istriam affluere, et in mare Adriaticum mergi, fabulantur: ex
+                        quibus certe verbis facile colligi potest, primam quidem opinionem Catonis
+                        satis probari, alteram vero haud omnino placuisse, eam tantum ob rationem,
+                        quod nullum sua aetate ex Istro ramum in Adriaticum descendere maxime
+                        nosset, quod et Strabo Libro primo contra Eratosthenem, et Plinius Lib. III.
+                        Cap. XVIII adversus Cornelium Nepotem, sentire videntur: quo in loco etsi
+                        Ovidii, Aristotelis et Pontani sententia in Meteoris, eorundem opinioni
+                        occurrere possem, qui et fontes et flumina, et maria denique ipsa temporis
+                        spatio mutari ajunt, ita ut vel occultentur et lateant, ubi prius exstabant,
+                        vel nova etiam appareant, ubi nulla jam fuerant, supersedebo tamen in
+                        praesenti hoc labore, et veram tantum esse Graecorum opinionem ostendam,
+                            <milestone unit="page" n="55"/> qui ab Istro fluvio appellatam Istriam
+                        asseruere, et praesertim cum Latini prope omnes scriptores in hoc
+                        consentiant, inter quos <quote><bibl>Justinus, in primis gravis historicus,
+                                Libro XXXIII. Cap. III. ita scribit:</bibl>
+                            <q>Romanus quoque Cimbrici belli tumultus, velut ultor sacrae pecuniae,
+                                insecutus est. Ex gente tectosagorum non mediocris populus praedae
+                                dulcedine Illyricum repetivit, spoliatisque Istris, in Pannonia
+                                consedit. Istrorum gentem fama est originem a Colchis ducere, missos
+                                ab Aeeta Rege ad Argonautas, raptoremque filiae persequendos; qui ut
+                                a Ponto intraverunt Istrum, alveo Savi fluminis penitus invecti,
+                                vestigia Argonautarum insequentes, naves suas humeris per juga
+                                montium usque ad littus Adriatici maris transtulerunt; cognito quod
+                                Argonautae idem propter magnitudinem navis priores fecissent: quos
+                                ut avectos Colchi non reperiunt, sive metu Regis, sive taedio longae
+                                navigationis, juxta Aquilejam consedere, Istrique ex vocabulo amnis,
+                                quo a mari concesserant, appellati.</q></quote> Hactenus quidem
+                        Justinus, ex cujus verbis Cato refellitur, et Istriam ab Istro Flumine
+                        nominatam comprobatur. Sed ad Justini parumper verba attendamus: juxta
+                        Aquilejam, inquit, consedere: quibus verbis adductus Blondus Forum-Julii in
+                        Istria contineri falso existimavit. Per juga autem montium transtulisse
+                        humeris Colchos navim, Justinus asserit, quod et Plinius, a diligentioribus
+                        scriptum esse testatur, quorum gravissimorum Auctorum sententiam quia
+                        Blondus, Zacharias Lilius, Pius, et infiniti prope alii Geographi
+                        collaudarunt, nos etiam ab eorum opinione non recedemus, Istrorumque nomen
+                        atque originem a Colchis ductam esse dicemus, qui per Istrum navigantes in
+                        Savum delati fuerint, et inde, ut ait Plinius, in Nauportum, cui nomen ab ea
+                        caussa sit impositum quod navis fuerit portus: quam tandem ad Adriae littora
+                        humeris transvexerint: quo in loco duplici ratione mihi reprehendendus est
+                        Petrus Copus, qui ad ipsius Plinii et Justini verba connivens, per Quietum
+                        fluviolum, quem Nauportum ipse appellat, navim delatam in Adriaticum ait;
+                        cum tamen <milestone unit="page" n="56"/> humeris eam translatam usque in
+                        littus Adriaticum, apertissime Auctores isti testentur: et rursus quod
+                        Nauportum pro Quieto intelligat, cum pro illo potius, qui medium interfluit
+                        Labacum, sive Lubianam, esse accipiendum quod et Georgius Pirckeimerus, et
+                        Franciscus Irenicus, et veritas etiam ipsa, ostendunt; quippe inde humeris
+                        traductam navim in Adriaticum nemo negavit, qui fluvium eum, ut ego ex
+                        opidanis percepi, cum per Carnos in Germaniam iter haberem, cum Savo et
+                        Istro commisceri intelliget. Qua quidem in re et Zacharias Lilius et Blondus
+                        primi errarunt. Sed animadvertendum esse arbitramur, rectius omnino apud
+                        Strabonem Nauportum, quam Naupontum legi debere. Et haec quidem de Istriae
+                        nomine satis multa, si unum illud tamen addidero, Franciscum Irenicum in
+                        Exegesi Rerum Germanicarum insanire, qui Istriam ideo Germaniae Coloniam
+                        esse nugatur, quod ab Istro Germaniae flumine sit appellata; nam nusquam
+                        ille apud graves et doctos scriptores isto modo factas et deductas esse
+                        colonias inveniet; nec, si nomen ipsius Istri respiciat, Germaniae fluvium,
+                        dici debere cognoscet, sed Pannoniae potius; a confluente namque inferius ad
+                        Euxinum usque Ister, superius vero ad Abnobam montem, unde oritur, Danubius
+                        appellatur, teste Appiano in Illyrico, Strabone Libro VII. et Sabellico
+                        Enneadis Sextae Lib. IX. Navigarunt autem Colchi per Istrum tantum, non per
+                        Danubium. Savum enim ingressi, ubi confluit, in Nauportum devenere. Sed ad
+                        Istriae terminos veniamus; quos tamen antequam enumeremus, Petri Copi
+                        erratum animadvertere libet, qui Istriam aliquando Japidiam fuisse dicit
+                        contra omnium scriptorum tum vetustiorum, tum recentiorum sententiam.</p>
+                </div>
+
+                <milestone unit="page" n="57"/>
+
+                <div>
+                    <head>CAPUT II. DE ISTRIAE TERMINIS.</head>
+
+                    <p>Rursus hic mihi occurrit Petrus Copus, quem, ita me Deus bene amet, ut summo
+                        etiam amore prosequor vel ob id, quod studiorum similitudine mihi
+                        conjungitur, vel quod ex eadem regione et patria prope sit ortus, ex qua ego
+                        originem duco. Verum non possum ei non contradicere pro veritate elicienda,
+                        pro qua etiam, ex Aristotelis sententia Primo Ethicorum, mea refellere sum
+                        paratus, si minus vera me prodidisse aliquis aliquando declaravit. Is igitur
+                        in suo quodam Libello de Situ Istriae inscripto, nescio quo consilio, vel
+                        cujus scriptoris auctoritate ductus Istriae initium a Timavo facere voluit.
+                        Cum tamen a Formione amne omnes eam incipere passim testentur, et usque ad
+                        Arsiam fluvium pertinere. Antiquus enim Italiae terminus, nunc vero Istriae
+                        auctore Plinio Lib. III. Cap. XVIII. Formio amnis: quae Imperatorum tempore,
+                        teste Strabone Lib. VII. longius propagata usque ad Arsiam, Istros etiam est
+                        complexa. Istriae autem termini, ut Zacharias Lilius et Blondus ipse
+                        testantur, hi duo fluvii. Timavum vero non in Istria sed in Japidia
+                        defluere, certo scimus, ita enim gravissimus poeta ait
+                                <quote><bibl>Georgicorum Lib. III. vers. 475.</bibl>
+                            <q><l>Castella in tumulis, et Japidis arva Timavi.</l></q></quote> Quod
+                        et ex Pomponio Mela Lib. II. Cap. IV. ex Plinio et Strabone colligi facile
+                        potest. Sed animadvertendum nunc ad illud, quod Pomponius et Appianus, in
+                        Illyrico Istriam comprehenderunt; quae tamen posterioribus temporibus, ut
+                        ostendimus, ipsi Italiae donata fuit, cujus forma, ut inquit Plinius Lib.
+                        III. Cap. XIX., tanquam peninsula in Adriaticum mare excurrit. Latitudo
+                        autem quadraginta millibus passuum, et ambitus centum et viginti duobus
+                        millibus constat; a quo <milestone unit="page" n="58"/> gravissimo Auctore
+                        non multum dissentit Blondus, cum iter per montes ex Formione amne ad sinum
+                        Fanaticum, vel Phlanaticum (vulgo Quarnarum appellant) quadraginta millium
+                        passum esse testetur, et maritimum is qui conficiat, centum et viginti
+                        quinque constare affirmet. Haec eadem a septentrione habet Japides, quos
+                        Japodas Strabo vocat: ab occasu et meridie finitur Adriatico, ab oriente
+                        Dalmatiae jungitur. Verum cum in unaquaque provincia plura considerentur,
+                        nos tria in primis in Istria diligentissime examinabimus, et primum quidem
+                        Civitates omnes tum veteres, tum recentiores, deinde Hominum Ingenia, tertio
+                        Soli Naturam perpendemus: quibus perfectis et absolutis, extrema manus
+                        Libello nostro imponenda erit.</p>
+                </div>
+
+                <div>
+                    <head>CAPUT III. DE ISTRIAE CIVITATIBUS ANTIQUIORIBUS.</head>
+
+                    <p>Si qua igitur est in tota Istria, quae et nobilitate et antiquitate maxime
+                        excellat, est Pola in primis, meo judicio, quae, ut Pomponius ait Lib. II.
+                        Cap. III. quondam a Colchis fuit habitata, deinceps Romana facta Colonia.
+                        Cum cujus verbis concordare videtur Plinius, qui ab eisdem eam conditam
+                        fuisse dicit, et posterioribus annis eodem deductam a Romanis Coloniam, cui
+                        nomen esset impositum Juliae Pietatis: quo in loco minime praetereundum
+                        arbitror Stephani, Graeci auctoris, errorem, qui Polam Illyrii opidum esse
+                        putavit: ex qua quidem nobilissimam et maximam Gradonicorum Patriciorum
+                        gentem Venetiis originem ducere tradit Sabellicus, et Hadrianus Barlandus in
+                        Libello de Venetorum ducibus: cujus dominatum aliquando clarissimi et
+                        nobilissimi Sergii Polani, qui nunc Tarvisii habitant, obtinuere, nam cum
+                        Bononiae ob capiendum ingenii cultum superioribus annis commorarer, id
+                            <milestone unit="page" n="59"/> saepenumero Priamus Polanus, adolescens
+                        optimarum artium studiosissimus, mihi narravit, audivique ex Polae
+                        nobilioribus civibus. Apparent autem in eadem multa preclara atque illustria
+                        antiquitatis vestigia, et praesertim omnium, quae in Italia sunt,
+                        pulcherrimum amphitheatrum: occurrunt hic Epigrammata antiquissima et
+                        frequentissima, quae si quis legere optaverit, librum eum sumat in manibus,
+                        qui Fuggerorum Augustanorum jussu ex pluribus Europae et Asiae partibus,
+                        fuit collectus; ut silentio id interea transeam, quod Pola amplissimo et
+                        tutissimo portu sit a natura ornata, in quem Romanorum et Gothorum
+                        temporibus infinitus prope navium numerus reciperetur. </p>
+                    <p> Post eam, Plinio teste Lib. III. Cap. XIX. Arsiam versus opidum fuit
+                        Nesactium; cujus, quod sciam, nulla nunc memoria exstat, nisi forte ut Copus
+                        conjectat, eo in loco fuerit situm, quod Cisana appellatur, ubi etiam
+                        nonnulla exstant antiquitatis indicia. Verum quominus ei assentiar, Lib.
+                        XLI. Cap. XV. de Bello Istrico tractans, Livius facit, qui fluvium
+                        interfluere opidum dicit, cum hic nullus plane sit fluvius. </p>
+                    <p> Ab alia parte, quae ad Formionem spectat, Parentium visitur, de quo Plinius:
+                        quod et admirabili quodam portu maxime excellit, et in quo summopere labitur
+                        Stephanus, Graecorum omnium Geographorum negligentissimus; nam non in
+                        Istria, sed prope Istriam Parentium esse ait. Exiguus est nostra aetate
+                        locus; et quia ventis meridionalibus est objectus, et potabilis aquae
+                        laborat copia, non valde frequens; ubi etiam Pullarias insulas appellatas,
+                        esse puto, vel prope Polam, de quibus Plinius Lib. III. Cap. XXVI. meminit,
+                        contra Blondi Flavii opinionem, qui Justinopolitanorum insulam Pullariam
+                        dictam fuisse olim existimat: quam ego potius a Plinio Cissam vocari puto:
+                        neque enim una tantum erat Pullaria, sed plures, quod ex ipsius Plinii
+                        verbis maxime patet; at Parentii multae sunt tales ut egomet vidisse
+                        recordor, quae Adriaticis fluctibus objectae portum tutissimum reddunt,
+                        Justinopoli vero unicam tantum, a Parentio, Aegidam statuunt, <milestone
+                            unit="page" n="60"/> cujus ruinae mari obrutae, prope Humagum, aestu
+                        maris recedente, videri aliquando solent: quem locum incolae, vim verbi
+                        Graeci retinentes, italico idiomate Capras appellant, licet Copus aliter
+                        sentiat, de Pyhrrano nescio quid dictitans, ut Palladius etiam Fuscus, in
+                        libro de Situ orae Illyrici, alibi Aegida fuisse innuens: et hae quidem
+                        omnes ad Adriae Littus sitae sunt urbes. </p>
+                    <p> In interioribus autem partibus tres collocat Ptolomaeus Lib. III. Cap. I.
+                        quarum alteram Piquentum, altera Pucinum, tertiam Alvum nomine appellat.
+                        Priores duas, nostro saeculo non valde magnas, literis paullum immutatis
+                        Pisinum et Pinguentum vocitamus. Pucinum autem istud aliud esse a Castello
+                        illo Pucino, unde vinum pretiosissimum, cui Livia Augusti, apud Plinium Lib.
+                        XIV. Cap. VI., annos LXXXII. acceptos retulit, nomen desumpsit, ex verbis
+                        Plinii, Lib. III. Cap. XVIII., percipi potest, qui Japidia inter Tergestum
+                        et Timavum, illud constituit, et nostra lingua Prosecum hodie nominatur; nam
+                        ab hac arce potius, quam a Duino (ut Copus innuit) dictum vinum arbitramur,
+                        quod sub hac maxime nascatur optimum, et longius a Duino, quam a Tergesto
+                        locus absit, unde si ab aliquo loco praeterquam ab ipsa arce, quae imminet,
+                        nominari debuisset, certe a Tergesto potius, praeclara et illustri Civitate,
+                        et viciniori, quam a Duino, ignobili et obscuro opidulo, nominari debuisset. </p>
+                    <p> Post has, alias duas recenset Livius Lib. XLI Cap. XV. quarum alteram
+                        Faveriam, alteram Mutilam appellat quarum et Nesactii dirutione, in quod
+                        Principes Istriae et Aepulo, eorum Regulus, confugerant, bellum Istricum
+                        finitum fuit. Et haec quidem quoad vetustiores regionis istius civitates
+                        pertinent; nunc ad <sic>recensiores</sic> transeamus.</p>
+                </div>
+
+                <milestone unit="page" n="61"/>
+
+                <div>
+                    <head>CAPUT IV. DE ISTRIAE CIVITATIBUS RECENTIORIBUS.</head>
+
+                    <p>Ita est autem natura comparatum, ut rerum omnium perpetua sit quaedam
+                        vicissitudo ac immutatio: omnia siquidem, ut Aristoteles ait in Libris de
+                        Caelo, quae oriuntur, necessario intereunt. Quapropter haud mirum certe
+                        videri cuiquam debet, si quemadmodum in reliquo Italiae ambitu, ita in
+                        Istria quoque acciderit, ut, quae olim clarae atque illustres Civitates
+                        exstiterint, harum vel plane nullum appareat vestigium, vel obscuriores,
+                        multo minores, et infrequentiores effectae fuerint; et rursus aliae in eorum
+                        locum novae successerint, quae nunc temporis maxime floreant: ex quarum
+                        numero in Istria inter reliquas mihi praecipua videtur Justinopolis a
+                        Formione quinque millibus passuum distans, quam Istri populi, Sclavonico
+                        tumulto territi, teste Sabellico Enneadis VIII. Lib. II. et Blondo de Italia
+                        instaurata, ex continentis in insulam confugientes, cui nomen Caprariae
+                        fuit, condidere, et in gratiam Justini, qui tunc orientis imperium
+                        obtinebat, Justinopolim dixere. Incolae autem adhuc Capratiani nominari
+                        consueverunt; quamvis Enneade VIII. Lib. IV. ex nonnullorum sententia dicat
+                        auctor idem, temporibus Bucellini, qui agrum Istrorum devastavit, eorundem
+                        principes homines ad declinandam Barbarorum injuriam, a Justino seniore, qui
+                        Justinianum adoptavit, in hac insula collocatos, urbe ibidem aedificata,
+                        quae ejus nomen retinuerit. Quod si verum esse statuimus, Petrus Paulus ille
+                        Vergerius, junior, Justinopolitanus episcopus, omnibus ingenii et
+                        eloquentiae laudibus ornatissimus, quod ejus bona cum venia et summa hominis
+                        reverentia, cui debeo supermaximam, dictum velim, in praelectione Juris
+                        Civilis lapsus fuit, qui a Justino instauratam ait, cum de instauratione
+                        nusquam sit mentio. </p>
+                    <p> Ab hac parum <milestone unit="page" n="62"/> abest Insula, opidulum certem
+                        pulcherrimum, quod etsi aetate nostra junctum sit continenti, tamen procul
+                        dubio credendum arbitror olim in insula constitutum, unde illi nomen quoque
+                        contigerit: in quo quidem, ut Petro Copo assentiar, ita de ejusdem
+                        antiquitate mihi plane venit in dubium, nam nullum de hac re auctorem habeo. </p>
+                    <p> Sed ab ista non procul abest Pyrrhanum, patria mea, ut Zacharias Lilius ait,
+                        opidum nobile, ut Blondus Flavius, civitas, et inter utramque Aquaviva,
+                        nitidus fluvius. Sed de Pyrrhani constructione apud nullum fere scriptorem
+                        legisse meminimus; magnam tamen saepenumero, et fortasse veram facimus
+                        conjecturam, ab Aquilejensibus fuisse conditum: et hac quidem via et
+                        ratione, quam in praesenti exponemus. Legimus apud Paulum Diaconum, Blondum
+                        Flavium, et tandem apud omnes, qui de Attila aliquid prodidere, in Aquilejae
+                        dirutione, et Altini, Concordiae, Heracleaeque, captivitate, plerosque
+                        multos e Nobilibus, ut suae suorumque vitae atque saluti simul consulerent,
+                        ad loca maritima confugisse ubi Gradum opidum, Caprulas Majorbum, Buranum et
+                        Venetiarum denique Civitatem condidere, sperantes scilicet, se ita tutos
+                        futuros a Barbarorum injuria et detrimento. Quod si ita est, ut certe nemo
+                        negare debet, quid prohibebit, quaeso, quando dicamus, ex eis aliquos, naves
+                        ingressos, ad adversa maris Adriatici littora navigasse, ut ibi in tutum
+                        locum sese reciperent? Et praesertim cum ad hoc faciendum naves minime
+                        deessent: nam, teste Herodiano, Capitolino, Paulo Diacono, et Blondo,
+                        Aquilejae nobilissimum erat emporium, quo undique convehebantur per Adriam
+                        peregrinae merces, ita ut in iis partibus Pyrrhanenses mei consistentes
+                        paullatim ligneas domos ex vicina sylva aedificare inciperent, deinde
+                        ampliores et splendidiores cursu temporis fabricarent, idque in extremo
+                        ipsius maris littore, quo Barbari pervenire ex interioribus Istriae hoc
+                        minime possent? Quae quidem nostra opinio si nonnullis morosis et invidis
+                        ingeniis minime satisfecerit, rursus afferam aliam <milestone unit="page"
+                            n="63"/> conjecturam, quae certe haud poterit improbari, nam, ut paullo
+                        superius etiam diximus, tum Sclavorum, tum etiam Bucellini temporibus si ob
+                        hoc fuit condita Justinopolis, ut ibidem tuto agerent a Barbarorum
+                        incursionibus Nobiles Istri; cur de Pyrrhano idem asserere nequeamus? Et
+                        praesertim cum eo plane in loco sit situm, ut difficile cum equitibus, tum
+                        peditibus ad illud aditus pateat: quod ita verum esse crediderim, ut
+                        falsissimum plane illud constantissime audeam affirmare, quod ajunt
+                        nonnulli, a Pyratis denominari; nam a forma potius Pyramidis, quam retinet
+                        promontorium, in quo est conditum, appellatum judicaremus, ut praeteream,
+                        quod tertio loco orthographiae ratio, inde non esse dictum, maxime ostendit.
+                        Duos habet nobilissimos portus, quorum alter urbi inest, longe in mare
+                        projecta, et summis expensis exstructa mole, qua a ventorum et tempestatum
+                        injuria servantur naves, alter vero ab eodem non procul abest: et hic quidem
+                        majoribus navigiis sustinendis aptissimus, ubi saepius ingentem eorum
+                        numerum ego conspexi quae, ut Venetias proficiscerentur, commodam
+                        tempestatem expectabant. Eximia vero et excellens super omnes alias uni
+                        tantum patriae meae ex omnibus Istriae Civitatibus debetur laus, quod
+                        Genuensibus, eam oppugnantibus, sola eis acriter restitit, reliquis omnibus
+                        ad eorum imperia facienda sponte vel timore adductis, et a Venetorum
+                        obedientia alienatis, ut Sabellicus ipse testatur. </p>
+                    <p>Sed haec de patria hactenus; a qua per quinque millia passum distat Salborii
+                        promontorium, ad quod Alexandri III. Pontificis tempore, qui Venetiis sub
+                        olitoris persona latuit ob timorem Friderici Barbarossae, captus fuit Otho
+                        Imperatoris filius, praelio navali commisso cum Sebastiano Ciano Venetiarum
+                        duce, pro Pontifice dimicante; qua in re (Deum immortalem!) quantum lapsus
+                        est Sabellicus, qui Enneade IX Lib. V. in Japidia Salborium esse crediderit,
+                        cum tamen in Istris sit constitutum. Inter Pyrrhanum et Salborium fluit
+                        Draconius (nunc Dragognam appellant) fluvius.</p>
+                    <p> A Salborio est <milestone unit="page" n="64"/> Humagum, deide Civitas nova,
+                        civitates ambae ob aeris intemperiem haud omnino tutae, Humagum tamen et
+                        portu, et clementiori caelo alteri praestat.</p>
+                    <p> Post has supra Parentium <corr resp="NJ">est</corr> Arupinum, quod Ruignum
+                        appellant, opidum quidem haud spernendum, in rupibus, unde dictum, olim
+                        conditum, ut Copus asserit. Verum nos secus arbitramur, qui Arupinum, vel
+                        Aurupinum, in Japidia fuisse dicimus, et Appiano in Libello, qui Illyricus
+                        est inscriptus. </p>
+                    <p> In mediterraneis vero sunt Buleae et Montona, amoena et frequentia satis
+                        loca, et cum aeris clementia, tum etiam rerum omnium copia valde
+                        praestantia. Est Dignanum et Grisignana, Primontium, Portula, Raspum,
+                        Castrum novum, et infinita prope alia opidula, de quibus si quis diligentius
+                        proditum videre cupit, is adeat Petrum Copum et Blondum, in hac re
+                        diligentissimos, et ob hoc etiam ab Istris omnibus valde amandos. </p>
+                    <p> De Stridonis autem opido, quod Sdregna nonnulli vocant, ex quo ortum ajunt
+                        Hieronymum gravissimum et sapientissimum Ecclesiae Christianae
+                        propugnatorem, multa quidem dicenda essent, et praesertim contra
+                        Wimphelingum Germanum, qui supra vires etiam contendit, eum fuisse
+                        Germanicum, digna mehercle flagris dementia. Verum cum Zacharias Lilius et
+                        Blondus eum ex isto opido genitum testantur, haudquaquam temere ad horum
+                        gravissimorum hominum sententiam adjiciendum putavi, neque <corr resp="NJ"
+                            >miror</corr> etiam Erasmum Roterodamum in praefatione in Hieronymi
+                        Libros, non libenter omnino Istrorum judicio acquiescere, cum, exemplo
+                        Aesopicae vulpis, quae caudam omnibus aliis abscindendam vulpibus
+                        exhortabatur, quia casu suam abscinderat, ita ipse, qui inter Barbaros natus
+                        fuit, Dalmatam potius quam Italum optabat esse Hieronymum: neque id obstat,
+                        quod adducunt ex ejus Libro de Viris illustribus, eum ortum esse ex opido
+                        Stridonis, quod in Pannoniae et Dalmatiae confinio, positum fuit;
+                        quandoquidem maxima pars Istriae a Dalmatis habitabatur; et Pannones, ut
+                        Sabellicus ait, quamquam si ad antiquos Geographorum terminos <milestone
+                            unit="page" n="65"/> respexerimus, a Dalmatis sunt discreti; tamen
+                        prorogarunt aliquando longius limites, et partem Illyrici occuparunt, ut
+                        Blondus etiam ipse testatur, ita ut facile in hanc veniam sententiam,
+                        Hieronymum hac ratione esse Istrum, et praesertim, si vera sunt ea, quae
+                        tradit Blondus de monumento Eusebii ejusdem patris. Sentiant quicquid velint
+                        caeteri vel invidi, vel iniqui hujus rei aestimatores. Sed de Istriae
+                        Civitatibus satis, ut opinor, multa. Nunc ad reliqua, quae promissimus,
+                        transeamus.</p>
+                </div>
+
+                <div>
+                    <head>CAPUT V. DE INGENIIS ISTRIAE.</head>
+
+                    <p>Istrorum ingenia (quod ingenue fatendum arbitror, et negari <corr resp="NJ"
+                            >minime</corr> potest omnino) mirum in modum mitia, atque ad humanitatem
+                        sunt maxime prona, licet Livius Lib. X. Cap. II. aliter sentiat, qui ferum
+                        Istrorum genus appellarit: durata laboribus corpora, et eorundem
+                        tolerantissima, si quae alia usquam in tota Italia multa olim in armis cum
+                        adversus Romanas Legiones prope Aquilejam, et alibi saepius, teste Livio
+                        Lib. XLI. Cap. VI. et IX. tum contra Venetos forti et excelso animo,
+                        Sabellico auctore, gesserunt. Ad Literas vero a natura quasi facti videntur
+                        Istri, et <sic>ipsi</sic> paupertas ipsa obstaret, maxima et excellentissima
+                        ex eisdem quotidie prodirent ingenia, nam ad quodcumque Literarum genus hi
+                        se converterint, summum in eo laudis et gloriae fastigium occupant. </p>
+                    <p> Et ut a Justinopoli initium faciamus, Petrus Paulus Vergerius senior, ex
+                        nobilissima Vergeriorum gente ortus, libellum edidit de ingenuis Pueris
+                        instituendis: quo uno ingenii sui monumento vel propter summam in eo
+                        Ciceronianam eloquentiam, vel propter morum praecepta sapientissima, tantam
+                        apud bonos omnes laudem meruit, ut post mortem immortalitatem sit
+                        consecutus. Hic <milestone unit="page" n="66"/> carissimus Carrarensibus
+                        Principibus vivens fuit, quorum omnium vitas, ut Patavii visuntur, et
+                        breviter et eleganter conscripsit. Adde quod et postremo ab eorum interitu,
+                        Sigismundo Pannoniae Regi, inter primos habitus fuit; ex cujus posteris
+                        nobilissimis tres eodem tempore fratres exstitere, quorum alter, qui
+                        Aurelius est appellatus, summo semper honore et pretio a Clemente VII
+                        Pontifice Maximo affectus fuit; alter deinde, Joannes Baptista nomine, ob
+                        vitae et morem integritatem Polae Episcopus declaratus; tertius denique
+                        Petrus Paulus junior Justinopolis item Episcopus, humaniorum studiorum, et
+                        Evangelicae lectionis studiosissimus, addo, omnibus magni et excellentis
+                        ingenii et eloquentiae viribus praeditus: ad quos accedit Othonellus Vida
+                        jurisconsultorum eloquentissimus, et eloquentium jurisconsultissimus, ut
+                        silentio praeteream Georgium Bellum, Marcum Nutium, et Franciscum Grisonium,
+                        juvenem eruditissimum, Joannem Natalem a Navilio; jurisperitos omnes, omnes
+                        politiorum literarum cognitione, et vitae probitate clarissimos. Nicolaus
+                        autem Vercius tanta humanitate, morum et vitae innocentia, tanto denique
+                        omnium virtutum et laudem genere praeditus, ut ab omnibus perpetuo
+                        praedicetur, ametur, et observetur.</p>
+                    <p> Philosophi vero illustres, e senioribus, Franciscus Zarotus, cum interiorum
+                        studiorum scientia, tum morum elegantia admirandus. Ab hoc Christophorus
+                        Vercius mihi occurit, qui tantos in Philosophiae, et optimarum artium
+                        cognitione progressus fecit, ut magnum aliquando ab eo juvene sit
+                        perventurum ad patriam ornamentum: neque ex tanto ingenii acumine, et tam
+                        profunda rerum omnium scientia exiguum quidquam et leve expectari vel debet
+                        vel potest. Deinde Zarotus adolescens, meo judicio, bonorum omnium studiorum
+                        cupidissimus, et incredibili humanitate, modestia, et pietate etiam
+                        praeditus, eum de se aliquando documentum dabit, ut ejus nomine patria terra
+                        per se illustris multo illustrior sit futura. </p>
+                    <p>Pratermitto hic Annibalem Grisonum, et Christophorum <milestone unit="page"
+                            n="67"/> Zarotum qui in Ovidii Ibin Commentarios scripsit, viros omni
+                        laude, praeconiorumque genere dignissimos. Taceo Andream Divum, senem
+                        optimum, a quo Homerus, Theocritus, et Aristophanes in Latinum sermonem
+                        conversi sunt. Sed quonam te piaculo sileam, Antoni Heli, juvenem omnium,
+                        quos unquam noverim, praeter literarum cognitionem, humanissimum, propter
+                        cujus singularium virtutum cumulum, a summis ecclesiae omnium ordinum
+                        principibus amaris, coleris, in oculis ipsis haberis, a quo ego tam
+                        liberaliter, nisi animus alio conversus fuisset, ut cum Marcello Cervino
+                        Cardinali Sanctae Crucis quotidie essem, e Germania usque sum invitatus? O
+                        humanitatem liberalitatemque a me perpetuo praedicandas! Sed de te alias
+                        copiosus, mi Antoni. Reliqui sunt duo studiosissimi iidemque doctissimi
+                        juvenes Aloysius Carrerius et Ambrosius Luscus, de quibus alibi.</p>
+                    <p> Nunc ad propositum negotium jam revertur, et primum quidem <corr resp="NJ"
+                            >ut e</corr> Justinopoli discendamus, floret in Insulae opidulo Petrus
+                        Copus, propter summam ejus industriam in Istria terra illustranda positam
+                        valde laudandus. Pyrrhani vero etsi multi olim ex Vitalium praeclara
+                        familia, et ex Goynaeorum, Apolloniorumque gente multi exstiterit laude
+                        digni, ad eos potius nostram orationem breviter convertemus, qui nunc clari
+                        et illustres vivunt, inter quos Jurisconsulti primi mihi occurrunt, Marcus
+                        Petronius, et Marcus Antonius Venerius, quorum alter tanta morum et vitae
+                        probitate, tanta librorum sacrorum cognitione excellit, ut quem cum eo
+                        conferam, habeam neminem; alter vero usque adeo admirabili eloquentiae vi,
+                        et ingenii acumine pollet, ut perpetuo eum amarim atque suspexerim. Hos
+                        subsequitur Nicolaus Goynaeus frater, a quo juvene magnum et patriae et
+                        familiae nostrae accessurum ornamentum summopere spero. In humanioribus
+                        autem studiis mirum est quantum excellat Ambrosius Phoebeus, et Joannes
+                        Antonius Petronius praeceptor meus, a quo, tanquam a purissimo fonte,
+                        literarum latices hausi. Huc accedit Petrus Rosignolus, <milestone
+                            unit="page" n="68"/> tanta Platonicarum rerum scientia, tam excellenti
+                        librorum sacrorum cognitione, tam multiplici rerum variarum notitia, ut
+                        semper ejus eruditionem fuerim admiratus. E Medicorum vero ordine unus
+                        tantum, sed is quidem talis, qui multorum instar haberi possit, Joannes
+                        Antonius Apollonius, Philosophiae et artis Medicae studiis, caritatis et
+                        benevolentiae vinculo mihi conjunctissimus, cujus ego adolescentis ingenii
+                        praestantiam, et Medicinae peritiam ita admiror, ut plane animum meum
+                        explere non possim.</p>
+                    <p> Sed transeo jam ad Parentium in quo Franciscus Panthera, ut Istrorum omnium
+                        fere in postremo loco situs, ita (Deum immortalem testor) cum aliorum
+                        quolibet conferendus, sive enim ad philosophiae studia spectes, sive
+                        Evangelii doctrinam in eo consideres, nemo eodem perfectior at absolutior
+                        reperietur.</p>
+                    <p> Verum hactenus de studiosorum hominum ingeniis; nunc de his, qui in armis et
+                        rei <corr resp="NJ">militaris</corr> peritia clari evasere, pertractemus, ex
+                        quorum numero Justinopoli ex Tarsiorum familia exstitere duo, quorum alter
+                        sub Pontifice Maximo militavit, et totius exercitus rector et gubernator
+                        creatus fuit, qui cum unici filii sui interfectorem obvium sibi factum
+                        interimere posset, tamen inermi et ad genua abjecto vitam ipsam condonavit.
+                        Alter vero Damianus Reipublicae Venetae stipendia diutissime fecit, et
+                        summam etiam inde gloriam reportavit, ut taceam Antonium Zarotum, qui magna
+                        cum laude triremium Praefectus Venetis declaratus, multas res praeclaras
+                        edidit. Postremus vero mihi occurit Joannes Baptista a Castris pyrrhanensis
+                        meus, qui ob excellentis artis militaris peritiam, ob strenua et
+                        praeclarissima in bello gesta, maximis a Republica Veneta afficitur <corr
+                            resp="NJ">praemiis</corr>, de quo quidem viro alias alii copiosius
+                        scribent fortasse.</p>
+                </div>
+
+                <milestone unit="page" n="69"/>
+
+                <div>
+                    <head>CAPUT VI. DE ISTRICI SOLI NATURA</head>
+
+                    <p>Interea quae maxime ad usum hominum expetuntur, quatuor praecipua in Istria
+                        reperiri consueverunt, et tria quidem copiosissima, ut vinum, sal, et oleum;
+                        reliquum autem, quod est frumentum, non omnino nascitur multum, quod sive
+                        soli ipsius ingenio, sive hominum negligentia accidat, asserere quicquam
+                        certe minime possum; credo tamen Poetae dictum esse verissimum, cum ait
+                                <quote><bibl>Georgicorum Lib. I. vers. 54.</bibl>
+                            <l>Hic segetes veniunt, illic felicius uvae;</l>
+                            <l>Arborei faetus alibi.</l>
+                        </quote> Quicquid autem fert, id in suo genere est praestantissimum; nam
+                        quod primum ad vinum pertinet, cujus apud Dioscoridem Lib. V. Cap. V. et
+                        Galenum in Therapeutica seu Methodo medendi Lib. VII. Cap. VII. Lib. XII.
+                        Cap. IV. et in Methodo ad Glauconem Lib. II. Cap. III. sub vini Adriani
+                        nomine fit mentio, et etiam Lib. IV. Cap. VI. et Lib. V. Cap. V. de Sanitate
+                        tuenda, ex eo genere mihi videtur, quod Lib. VII. Cap. V. Therapeuticos
+                            <foreign xml:lang="grc">οἰνώδη</foreign> hoc est, vinosum et potens
+                        appellat, contrarium videlicet ei, quod Hippocrates <foreign xml:lang="grc"
+                            >ὀλιγοφόρον</foreign>, hoc est pauciferum et imbecillum nominat ibidem
+                        apud Galenum. Oleum vero adeo excellens ut (Ex Martial. Lib. XII. Epig.
+                        LXIV.) cum Venafrano, et quocumque alio laudatissimo conferre possit, in
+                        cujus facultatibus dijudicandis incredibile est quantopere deceptus Galenus
+                        fuerit, qui in Methodo medendi Lib. XI. Cap. XVI. Lib. XII. Cap. III. et
+                        Lib. XIII Cap. XV. amarum et astringens illud asseruit, cum tamen
+                        experientia, rerum magistra, manifeste pateat, amaritudine et astrictione,
+                        vel actu vel potestate plane vacare. Quod et tributi loco pependerunt
+                        aliquando Venetis Istri, ut Sabellicus refert. De sale autem nihil est
+                            <milestone unit="page" n="70"/> quid dicamur, quando id nobis fere
+                        constat, quantum in Istria proveniat, et quantum emolumenti inde capiat
+                        Veneta ipsa <corr resp="NJ">Respublica</corr>. Fructuum vero omnis generis
+                        maxima copia, et hi quidem dignitate inter reliquos Italiae praecellentes.
+                        Quod et de omni piscium varietate dictum velim, de quibus etiam aliquando
+                        paucula adnotata in manus hominum proferemus. Sed hoc hactenus, quod ad
+                        Istriam regionem pertinere mihi est visum. Siquidem autem fuerit, in quo
+                        hominibus doctis vel exteris, vel Istris etiam meis, errasse deprehendar,
+                        aequissimo animo patiar commoneri, et praesertim a bonis et eruditis viris,
+                        a quibus summopere discere cupio. Verum ne qui fortasse malevoli nobis
+                        objiciant, Ptolemaeum et Livium in Istria complexos esse Tergestum, quod nos
+                        tamen ab ea exclusimus, respondemus hoc pacto, ab his auctoribus non posse
+                        aliquem certos Istriae terminos elicere, quum ex his, quos secuti sumus,
+                        certissimos et aperitissimos colligere possit: et ideo nos illos potius
+                        dilucidioris doctrinae gratia esse imitatos.</p>
+                </div>
+                <div>
+
+                    <head>CAPUT VII. DE TIMAVI ORTU.</head>
+                    <p> Reliquum est unum tantum quod in praesentia nobis succurrit, ut de Timavo
+                        verba aliquantulum faciamus, de quo Copus cum loqueretur, haud exiguo errore
+                        ductus, juxta Caciti pagum inter Carnos <q>ex duabus ortum
+                                <sic>foveris</sic></q> tradit. Quo in loco sciendum est in primis,
+                        dubium esse apud auctores, an fluvius, vel fons, vel lacus sit nominandus.
+                        Virgilius siquidem fontem, Livius Lacum Lib. XLI. Cap. V. Plinius vero et
+                        alii multi Flumen esse dixerunt. Locum autem, per quem fluat, inter
+                        Tergestum et Concordiam esse, Pomponius ait, Lib. II. Cap. IV. et Plinius
+                        prope idem fateri videtur. Quamobrem <corr resp="NJ">miror</corr> hac in re
+                        summopere Flavium Blondum, <milestone unit="page" n="71"/> qui in agro
+                        Patavino eum, quem Brentam appellant, Timavum fuisse asserat, cum tamen vere
+                        Meduacus sit appellandus. Nam Timavus is omnino est quem apud vicum Sancti
+                        Joannis de Duino ex pluribus fontibus, non autem ex duabus foveis tantam, ut
+                        Copus ait, conspeximus exeuntem; ita enim inquit Pomponius eodem Lib. II.
+                        Cap. IV. Timavus novem Capitibus exsurgens, uno Ostio emissus: cui cum
+                        Virgilio in hac re maxime convenit, nam et ille cum de Timavo loqueretur,
+                        novem ora, hoc est, principia, unde effluat, ei attribuit, sic enim ait
+                                <quote><bibl>Aeneidos Lib. I. vers. 246.</bibl>
+                            <l>Antenor potuit mediis elapsus Achivis</l>
+                            <l>Illyricos penetrare sinus, atque intima tutus</l>
+                            <l>Regna Liburnorum, et fontem superare Timavi,</l>
+                            <l>Unde per ora novem vasto cum murmure montis</l>
+                            <l>It mare praeruptum, et pelago premit arva sonanti.</l>
+                        </quote> Licet hic poetice aliquantulum <foreign xml:lang="grc"
+                            >ὑπερβολικῶς</foreign>, nimirum rei parvitatem augeat Virgilius:
+                        quapropter rejicienda omnino in hoc est Copi ipsius sententia, qui ex Caciti
+                        foveis quibusdam ortum credat Timavum, et praesertim cum de hac ipsa re ita
+                        sentiat Petrus Bonhomus, Tergestinus Episcopus, Vir, (Deum immortalem
+                        testor) plane singularis; nam et totius antiquitatis est peritissimus, et
+                        summa humanitate, prudentia, sapientia et Evangelicae doctrinae purissima et
+                        sincerissima cognitione excellentissimus; ut praetermittam Bernardinum
+                        Baldum, Jurisconsultum eruditissimum in quo incredibilem quandam infinitarum
+                        prope rerum memoriam atque scientiam semper suspexi, amavi, et colui;
+                        quibuscum de Timavo aliquoties sermonem habenti mihi, ita esse, ut dixi,
+                        constantissime asseruerunt. </p>
+                </div>
+            </div>
+
+            <milestone unit="page" n="72"/>
+        </body>
+
+
+
+    
+</text>
+</TEI>

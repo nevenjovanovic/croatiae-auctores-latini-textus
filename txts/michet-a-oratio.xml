@@ -2,10 +2,10 @@
    <teiHeader>
       <fileDesc xml:id="michet-a-oratio">
          <titleStmt>
-            <title ref="mihet01-p01-1487">Ad Pasqualem Maripetrum illustrissimum Venetum ducem oratio congratulatoria (1487), versio electronica</title>
+            <title ref="mihet01-p01-1487">Ad Pasqualem Maripetrum illustrissimum Venetum ducem oratio congratulatoria (1458), versio electronica</title>
             <author ref="http://www.wikidata.org/entity/Q102194659">
                <persName xml:lang="hr">Mihetić, Ambroz</persName>
-               <date>c. 1420-post 1487</date>
+               <date>c. 1420 – post 1487</date>
             </author>
             <editor>
                <persName>
@@ -15,7 +15,7 @@
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
                <persName xml:id="NJ">
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </respStmt>
          </titleStmt>
@@ -71,8 +71,17 @@ Altera editio electronica.
       </profileDesc>
       <revisionDesc>
          <change>
-            <persName>
-               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2024-01-10">2024-01-10</date>. 
+            Ispravio godinu nastanka u naslovu.
+            Dodao Wikidata ID.
+         </change>
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
             </persName>
             <date>2013-01-06</date>
         Prva TEI XML verzija.

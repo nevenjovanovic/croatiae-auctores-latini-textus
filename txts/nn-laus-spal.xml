@@ -2,22 +2,23 @@
    <teiHeader>
       <fileDesc xml:id="nn-laus-spal">
          <titleStmt>
-            <title>In laudem Spalati, versio electronica</title>
+            <title>In laudem Spalati (c. 1600), versio electronica</title>
             <author ref="#anonymus_1600">
                <persName xml:lang="lat">Anonymus</persName>
                <date notAfter="1600">c. 1600</date>
             </author>
-            <respStmt>
-               <resp>Hanc editionem electronicam curavit</resp>
+            <editor ref="http://www.wikidata.org/entity/Q93233703">
                <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </persName>
-            </respStmt>
-            <editor>
-               <persName>
-                  <ref>Bratislav Lučin</ref>
+                  <ref target="http://www.wikidata.org/entity/Q93233703">Bratislav Lučin</ref>
                </persName>
             </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+            
          </titleStmt>
          <editionStmt>
             <edition>
@@ -69,11 +70,21 @@
                <term>1551-1600</term>
             </keywords>
             <keywords scheme="genre">
-               <term>poesis - elegia</term>
+               <term>poesis - epigramma</term>
+               <term>laudatio urbis</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2024-01-08">2024-01-08</date>. 
+            Dodao Wikidata ID, laudatio urbis oznaku žanra.
+            Dodao oznaku prozodije.
+         </change>
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -93,15 +104,15 @@
    </teiHeader>
    <text>
       <body>
-         <div type="poesis-elegia" met="elegiacum">
+         <div type="poesis-epigramma" met="elegiacum">
             <head>In laudem Spalati</head>
-            <l>Si qua manent ueterum non diruta męnia regum,</l>
+            <l met="hexameter">Si qua manent ueterum non diruta męnia regum,</l>
             <l met="pentameter">Dant primum Spalato nobilitate locum.</l>
-            <l>Nobilis hic locus est, ubi sponte Dioclitianum</l>
+            <l met="hexameter">Nobilis hic locus est, ubi sponte Dioclitianum</l>
             <l met="pentameter">Deposito imperio consenuisse patet.</l>
-            <l>Cęsaris Augusti tanto cognomine dignus</l>
+            <l met="hexameter">Cęsaris Augusti tanto cognomine dignus</l>
             <l met="pentameter">Et mundi domitor facta per alta fuit.</l>
-            <l>Hic tria templa iacent magnis miranda columnis</l>
+            <l met="hexameter">Hic tria templa iacent magnis miranda columnis</l>
             <l met="pentameter">Et turres circum sidera celsa petunt.</l>
             <gap reason="opus imperfectum"/>
          </div>
