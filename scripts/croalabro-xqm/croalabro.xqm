@@ -294,7 +294,7 @@ else ( element div {
 		}
 	}
 	},
-croalabro-html:trtodiv(
+croalabro-html:trtodiv2(
 			element tr { $q }
 			)
  )
