@@ -2,41 +2,50 @@
    <teiHeader>
       <fileDesc xml:id="vrancic-m-epist-1540-03-01">
          <titleStmt>
-            <title>Antonio fratri epistula, versio electronica</title>
+            <title> (1540-03-01), versio electronica</title>
             <author ref="http://www.wikidata.org/entity/Q104602025">
-               <persName xml:lang="hr">Vrančić, Mihovil</persName>
+               <persName ref="http://www.wikidata.org/entity/Q104602025">Vrančić, Mihovil</persName>
                <date>1507 - ante 1571</date>
             </author>
-            <editor>
+            <editor ref="https://viaf.org/viaf/305743814">
                <persName>
-                  <ref>László Szalay</ref>
+                  <ref target="https://viaf.org/viaf/305743814">Diana Sorić</ref>
+               </persName>
+            </editor>
+            <editor ref="https://viaf.org/viaf/305733170">
+               <persName>
+                  <ref target="https://viaf.org/viaf/305733170">Teuta Serreqi Jurić</ref>
                </persName>
             </editor>
             <respStmt>
-               <resp>Edidit et editionem electronicam praeparavit</resp>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
-            <p>Digitalizat kasnijeg izdanja (1860).</p>
+            <p>Digitalizat kasnijeg izdanja (2020).</p>
          </editionStmt>
-         <extent ana="B">Mg:B verborum 288</extent>
+         <extent ana="B">Mg:B Verborum TKTK</extent>
          <publicationStmt>
             <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
-                    projekt na <orgName>
+            projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
-                    Hrvatska.  <date when-iso="2012-07">Srpnja 2012</date>
-            </p>
+            Hrvatska.  <date when="2024-01">Siječnja 2024</date>.</p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
-            <bibl>Verancsics, Antal. Verancsics Antal összes munkái, vol. 6, s. 70, br. 38.</bibl>
+            <bibl>Vrančić, A. (2020) Antun Vrančić: Epistolae ad familiares. 
+               Edited by D. Sorić and T. Serreqi Jurić. 
+               Zadar: Sveučilište u Zadru.
+               
+               <note>8. Budae, 1. 3. 1540. ED: S–W 6</note>
+            </bibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc xml:id="vrancicmverantiusa15400301">
+      <profileDesc xml:id="verantiusmverantioa1540-03-01">
          <abstract>
             <p/>
          </abstract>
@@ -44,16 +53,14 @@
             <place ana="origin">
                <placeName ref="https://www.wikidata.org/wiki/Q193478">Buda</placeName>
             </place>
-            <place ana="destination" type="unknown">
-               <placeName type="unknown">Unknown</placeName>
-            </place>
          </settingDesc>
          <particDesc>
             <person role="sender">
-               <persName ref="vranc03">Vrančić, Mihovil</persName>
+               <persName ref="http://www.wikidata.org/entity/Q104602025">Vrančić, Mihovil</persName>
+               
             </person>
             <person role="recipient">
-               <persName ref="vranc01">Vrančić, Antun</persName>
+               <persName ref="http://www.wikidata.org/entity/Q512372">Vrančić, Antun</persName>
             </person>
          </particDesc>
          <langUsage>
@@ -61,7 +68,7 @@
          </langUsage>
          <creation>
             <date when="1540-03-01" period="15xx_2_third">1540-03-01</date>
-            <placeName>Buda</placeName>
+            <placeName ref="https://www.wikidata.org/wiki/Q193478">Buda</placeName>
          </creation>
          <textClass>
             <keywords scheme="typus">
@@ -79,27 +86,52 @@
       </profileDesc>
       <revisionDesc>
          <change>
-            <persName>
-               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
             </persName>
-            <persName>Luka Špoljarić</persName>
-            <date>2012-07-25</date>
-                Novo, unificirano zaglavlje.</change>
+            <date when="2024-01-10">2024-01-10</date>. 
+            Prvo izdanje kao CroALa TEI.
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <pb n="70"/>
-         <div type="prosa-epistula" corresp="vrancicmverantiusa15400301">
-            <p>Video, frater charissime, fortunam hanc meam infaustissimam qualibet hora, quolibet momento transformare se in pejorem, et in dies quaerere viam ac modum, quo me in novas indignationes avunculi nostri, Joannis Statilii, immergat. Non ignoras, arbitror, me anno elapso ea de causa Hungariam reliquisse, ut locum huic fortunae adversae darem, et quum gratiam acquirere non potuissem, odium saltem evitare pro lucro duxeram. Quum velut ex insidiis iter Gallicum mihi objicitur, mel pro veneno, album pro nigro. Parui. Quid, negassemne? Profectus nihil illorum reperi, quae mihi large fuerant promissa, neque quod ad profectum nostrum futurum fuerat. Quare elegi, satius esse eo reverti, unde discesseram, quam in aula regis tam magni mendicati vivere. En, hic sum, sed in magna indignatione avunculi qui ex pulice, ut scis, elephantos gignit. Gratia Deo Optimo Maximo, in cujus potestate sto, quod regiam majestatem, dominum meum clementissimum, pro me habeam ; quique me de manu leonis eripuit. Illud autem vehementer admiror, quod tantus dominus cum hoc pulice tanta contentione contendat, et quasi immortale bellum gerat. Sed mihi ista eo faciliora videntur, quanto assuetiora. Pro triumpho habeo, quod mihi Deus in eo misericors fuit, quod nullius sceleris mihi sum conscius. Jam ut omittam mea, ad tua venio. Iste meus 
-            <pb n="71"/> 
-            dolor nihil est respectu illius, quem capio ex tuis adversitatibus. Tuae etiam rationes apud ipsum avunculum pessimo loco sunt, propterea quod Petrus Croata palam et gravissime conquestus sit de te illi. Quare? puto, intelligis. Avunculus ob id miris modis in te excandescit et implacabiliter irascitur. Hoc eodem momento ferme contigit, quo nuncius de adventu meo ad eum fuisset perlatus. Adeo studet fortuna, nos aequalibus calamitatibus obruere et in hisce miseriis conjungere. Hae tamen omnes nihil essent, si solum ira avunculi evitari aut mitigari posset.  </p>
-            <closer>
-               <salute>Vale.</salute>
-               <dateline>Budae, <date when="1540-03-01">kal. Martii MDXL.</date>
-               </dateline>
-            </closer>
+         <div type="prosa-epistula" corresp="#verantiusmverantioa1540-03-01">
+            <milestone unit="page" n="66"/>
+            <opener><add resp="editor">Michael Verantius Antonio fratri salutem</add></opener>
+            <p rend="justify">
+               <milestone unit="page" n="70"/> Video, frater charissime, fortunam hanc meam infaustissimam qualibet
+               hora, quolibet momento transformare se in peiorem et in dies quaerere viam ac
+               modum, quo me in novas indignationes avunculi nostri Ioannis Statilii immergat.
+               Non ignoras, arbitror, me anno elapso ea de causa Hungariam reliquisse, ut
+               locum huic fortunae adversae darem, et quum gratiam acquirere non potuissem,
+               odium saltem evitare pro lucro duxeram. Quum velut ex insidiis iter Gallicum
+               mihi obiicitur, mel pro veneno, album pro nigro, parui. Quid, negassemne?
+               Profectus nihil illorum reperi, quae mihi large fuerant promissa, neque quod ad
+               profectum nostrum futurum fuerat. Quare elegi satius esse eo reverti, unde
+               discesseram, quam in aula regis tam magni mendicati vivere. En, hic sum, sed in
+               magna indignatione avunculi, qui ex pulice, ut scis, elephantos gignit. Gratia
+               Deo Optimo Maximo, in cuius potestate sto, quod Regiam Maiestatem, dominum meum clementissimum, pro me
+               habeam, quique me de manu leonis eripuit. Illud autem vehementer admiror, quod
+               tantus dominus cum hoc pulice tanta contentione contendat et quasi immortale
+               bellum gerat. Sed mihi ista eo faciliora videntur, quanto assuetiora. Pro
+               triumpho habeo, quod mihi Deus in eo misericors fuit, quod nullius sceleris
+               mihi sum conscius. Iam ut omittam mea, ad tua venio. Iste meus dolor <milestone unit="page" n="71"/>
+               nihil est respectu illius, quem capio ex tuis adversitatibus. Tuae etiam
+               rationes apud ipsum avunculum pessimo loco sunt, propterea quod Petrus Croata
+               palam et gravissime conquestus sit de te illi. Quare? Puto, intelligis.
+               Avunculus ob id miris modis in te excandescit et implacabiliter irascitur. Hoc
+               eodem momento ferme contigit, quo nuncius de adventu meo ad eum fuisset
+               perlatus. Adeo studet fortuna nos aequalibus calamitatibus obruere et in hisce
+               miseriis coniungere. Hae tamen omnes nihil essent, si solum ira avunculi
+               evitari aut mitigari posset.
+            </p>
+            <closer>Vale! <dateline>Budae, <date when="1540-03-01">Kalendis Martii MDXL.</date>.</dateline></closer>
+            <note> 8,9 mel… veneno ] cf. Ov . Am. 1,8,104 13–14 ex pulice… gignit. ]
+               cf. Eras. Adag. 2,869 </note>
          </div>
-      </body>
+         
+         </body>
    </text>
 </TEI>
