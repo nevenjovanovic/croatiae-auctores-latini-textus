@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="nn-sibenik-katedrala-1443">
+         <titleStmt>
+            <title>Inscriptiones ecclesiae cathedralis Sibenici (1443), versio electronica</title>
+            <author ref="#anonymus_1443">
+               <persName xml:lang="lat">Anonymus</persName>
+               <date>fl. 1443</date>
+            </author>
+            <author ref="http://www.wikidata.org/entity/Q510203">
+               <persName xml:lang="hrv">Juraj Dalmatinac</persName>
+               <persName xml:lang="ita">Giorgio da Sebenico</persName>
+               <date>1410 - 1473 aut 1475</date>
+            </author>
+            <editor ref="http://www.wikidata.org/entity/Q93233703">
+               <persName>
+                  <ref target="http://www.wikidata.org/entity/Q79157">Rudolf Eitelberger</ref>
+               </persName>
+               (1817-1885)
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prema starijem izdanju (1861).</edition>
+         </editionStmt>
+         <extent ana="A">Mg:A 8 versus, verborum 60</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+               projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+               Hrvatska.  <date when="2024-01">Siječnja 2024</date>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Eitelberger, Rudolf. Die mittelalterlichen Kunstdenkmale Dalmatiens in Arbe, Zara, Traù, Spalato und Ragusa: Aufgenommen und dargestellt vom Architekten W. Zimmermann. Beschrieben von Rudolf Eitelberger v. Edelberg. (Mit 20 Tafeln und 116 Holzschnitten). Wien: K.-K. Hof- und Staatsdr., 1861.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <p/>
+         </settingDesc>
+         <particDesc>
+            <p/>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1443" period="14xx_2_third">1443</date>
+            <placeName ref="http://www.wikidata.org/entity/Q3549">Šibenik</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1401-1450</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa - inscriptio</term>
+               <term>poesis - inscriptio</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2024-01-10">2024-01-10</date>. 
+            Prvo izdanje kao CroALa TEI.
+            Prilagodio latinski pravopis i interpunkciju za CroALA.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="poesis-inscriptio" met="hexameter">
+            <l>Templa tibi curae, praesul venerande Georgi,</l>
+            <l>Sisgoridae stirpis claro de sanguine nate;</l>
+            <l>Vrbs a Fantino regitur proconsule digno</l>
+            <l>Pisaurae prolis, Venetum dominante senatu,</l>
+            <l>Cum pars ista domus Domini primordia sumpsit</l>
+            <l>Mille quater centum Domini labentibus annis</l>
+            <l>Quadraginta tribus, Michael dum protegit urbem,</l>
+            <l>Armiger ejusdem regis quoque janitor almus.</l>
+         </div>
+         <div type="prosa-inscriptio">
+            <p>Hoc opus cuvarum fecit magister Georgius Mathei Dalmaticus.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

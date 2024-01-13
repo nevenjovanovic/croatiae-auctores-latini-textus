@@ -1,0 +1,116 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="vrancic-f-epistula-blotio-1572-01-02">
+         <titleStmt>
+            <title>Faustus Verantius Dalmata Hugoni Blotio (1572-01-02), versio electronica</title>
+            <author ref="http://www.wikidata.org/entity/Q251738">
+               <persName xml:lang="hr">Vrančić, Faust</persName>
+               <date>1551-1617</date>
+            </author>
+            <editor ref="http://www.wikidata.org/entity/Q15829992">
+               <persName>
+                  <ref target="http://www.wikidata.org/entity/Q15829992">Ferdinand Menčík</ref>
+               </persName>
+            </editor>
+               <respStmt>
+                  <resp>Hanc editionem electronicam curavit</resp>
+                  <persName xml:id="NJ">
+                     <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+                  </persName>
+               </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat kasnijeg izdanja (1910).</p>
+         </editionStmt>
+         <extent ana="B">Mg:B 51 versus, verborum 606</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+          projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+          Hrvatska.  <date when-iso="2024-01">Siječnja 2024.</date>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Menčík, Ferdinand, ed. “A Páduában tanuló Blotz Hugó levelezése erdélyi és magyarországi barátaival (1571–1574).” Erdélyi Múzeum 5 (1910), 22–48.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc xml:id="vrancicfblotio1572-01-02">
+         <abstract>
+            <p/>
+         </abstract>
+         <settingDesc>
+            <place ana="origin">
+               <placeName ref="http://www.wikidata.org/entity/Q641">Venecija</placeName>
+            </place>
+            <place ana="destination">
+               <placeName ref="http://www.wikidata.org/entity/Q617">Padova</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <person role="sender">
+               <persName ref="http://www.wikidata.org/entity/Q251738">Vrančić, Faust</persName>
+            </person>
+            <person role="recipient">
+               <persName ref="http://www.wikidata.org/entity/Q1634852">Blotius, Hugo</persName>
+            </person>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+            <language ident="ita" xml:lang="ita">talijanski</language>
+         </langUsage>
+         <creation>
+            <date when="1572-01-02" period="15xx_3_third">1572-01-02</date>
+            <placeName ref="http://www.wikidata.org/entity/Q641">Venecija</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - epistula</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2024-01-10">2024-01-10</date>. 
+            Prvo izdanje kao CroALa TEI.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="prosa-epistula" xml:id="fauvr-epist-1572-01-02" corresp="#vrancicfblotio1572-01-02">
+            
+            <opener>Faustus Verantius Dalmata Hugoni Blotio, amico suo honoratissimo. <expan>Salutem plurimam</expan>.
+            </opener>
+            <p> Accepi litteras tuas voluntatemque tuam bene intellexi, ac etiam, quod iubebas
+               peregi. Itaque te indies expectamus. Quod te mihi non vulgariter, sed latine ac
+               optime scribentem excusas, minus recte facis, nam excusatio recte factorum superflua
+               est. Nisi forte me huius rei ignarum facis, vel vero me ita scribentem ad te iocando
+               tamquam irreverentem repraehendere conaris. Sed absit haec opinio abs te. Meque iam
+               olim in scholis ex optimis auctoribus haec percepisse scito. Quod reliquum est, me
+               tui ac Listhii nostri cum amantissimum, tum et colendissimum reputato. Vale ac Joinum
+               nostrum cum Bathoreo iube salvere. </p>
+            <closer>
+               <dateline>Venetiis, <date when="1572-01-02">postridie <abbr>cal.</abbr> Ianuarii 1572.</date>
+               </dateline>
+               <address>
+                  <addrLine>Ad manus viri eruditissimi ac doctissimi domini Hugonis Blotii <abbr>etc.</abbr></addrLine> 
+                  <addrLine><foreign xml:lang="it">A Padua. In Porcia a Ca Pesaro, fra i dui porteggi.</foreign></addrLine></address>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
