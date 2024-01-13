@@ -1,8 +1,9 @@
 (: XQuery module for HTML of CroALaBRO :)
 module namespace croalabro-html = 'http://croala.ffzg.unizg.hr/croalabro-html';
+import module namespace croalabro-config = "http://croala.ffzg.unizg.hr/croalabro-config" at "croalabro-config.xqm";
 
-declare variable $croalabro-html:csscdb := "/cdb/static/";
-declare variable $croalabro-html:csslocal := "static/";
+(: declare variable $croalabro-html:csscdb := "/cdb/static/"; :)
+(: declare variable $croalabro-html:csslocal := "static/"; :)
 
 (: helper function for header, with meta :)
 declare function croalabro-html:htmlheadserver($title, $content, $keywords) {
@@ -15,8 +16,8 @@ declare function croalabro-html:htmlheadserver($title, $content, $keywords) {
 <meta name="description" content="{$content}"/>
 <meta name="revised" content="{ current-date()}"/>
 <meta name="author" content="Neven Jovanović, CroALa" />
-<link rel="icon" href=" { $croalabro-html:csscdb || "gfx/favicon.ico" } " type="image/x-icon" />
-<link rel="stylesheet" href=" { $croalabro-html:csscdb || "dist/laurdal.css" } "  />
+<link rel="icon" href=" { $croalabro-config:csslocal || "gfx/favicon.ico" } " type="image/x-icon" />
+<link rel="stylesheet" href=" { $croalabro-config:csslocal || "dist/laurdal.css" } "  />
 
 </head>
 
@@ -91,7 +92,7 @@ declare function croalabro-html:wikidata($qname){
 		attribute class { "tag" },
 		element img {
 			attribute class { "pull-left" },
-	attribute src { "static/Wikidata.svg" },
+	attribute src { $croalabro-config:csslocal || "gfx/Wikidata.svg" },
 	attribute alt { "Wikidata logo" },
 	attribute width { "32" },
 	attribute height { "18" }
@@ -103,12 +104,43 @@ declare function croalabro-html:wikidata($qname){
 		}
 };
 
+(: format input form for search :)
+
+declare function croalabro-html:searchform0( $action, $actname , $actplaceholder, $limit ) {
+	( element h4  {
+		attribute class { "text-center" },
+		"Formula quaestionis"
+		},
+	element form {
+		attribute action { $limit || "/" || $action },
+		attribute method { "GET" },
+		attribute enctype { "application/x-www-form-urlencoded" },
+		element p {
+			attribute class { "grouped" },
+			element input {
+				attribute type { "search" },
+				attribute name { $actname },
+				attribute placeholder { $actplaceholder }
+			},
+			element button {
+				attribute class { "button icon-only" },
+					element img {
+						attribute src {
+							$croalabro-config:csslocal || "gfx/magnifying-glass.svg?size=16"
+						}
+				}
+				}
+			}
+		} )
+	};
+
 (: format header for a hit in search results :)
 
 declare function croalabro-html:formathithead( $filelink ){
 element span { 
 attribute class { "tag is-rounded" } ,
-element img { attribute src {"https://icongr.am/jam/document.svg?size=20&amp;color=6CB4EE" } } }
+		element img {
+			attribute src { $croalabro-config:csslocal || "gfx/document.svg?size=20&amp;color=6CB4EE" } } }
 ,
 element span { " " } ,
 element small { $filelink }
@@ -158,7 +190,7 @@ element form {
     element button {
       attribute class { "button icon-only" },
       element img {
-        attribute src { "https://icongr.am/feather/search.svg?size=16" }
+        attribute src { $croalabro-config:csslocal || "gfx/magnifying-glass.svg?size=16" }
       }
     }
   }
@@ -185,7 +217,7 @@ element form {
     element button {
       attribute class { "button icon-only" },
       element img {
-        attribute src { "https://icongr.am/feather/search.svg?size=16" }
+        attribute src { $croalabro-config:csslocal || "gfx/magnifying-glass.svg?size=16" }
       }
     }
   }
@@ -194,7 +226,7 @@ element form {
 
 
 (: helper function for table :)
-declare function croalabro-html:table ($headings, $body){
+declare function croalabro-html:table($headings, $body){
   element table {
     attribute class {"sortable striped"},
     if ($headings="") then ()
@@ -219,48 +251,81 @@ declare function croalabro-html:tablerow($cells){
 declare function croalabro-html:folium($element){
 element { $element } {
 element img {
-attribute class { "text-center" },
-attribute src { "https://icongr.am/entypo/leaf.svg?size=40&amp;color=6CB4EE" }
-} }
+		attribute class { "text-center filter-blue" },
+		attribute width { "40"},
+		attribute height { "40" },
+			attribute src {  $croalabro-config:csslocal || "gfx/leaf.svg?size=40&amp;color=6CB4EE" }
+		}
+	}
 };
 
 (: helper function - footer :)
-declare function croalabro-html:footerserver () {
-let $f := <footer class="footer">
-<div class="row">
-<div  class="col">
-	<h3 class="text-center"><img src="https://icongr.am/entypo/leaf.svg?size=40&amp;color=6CB4EE" aria-hidden="true"></img><br/><a href="https://croala.ffzg.unizg.hr">CroALa</a>: Croatiae auctores Latini</h3>
-	<p class="text-center">The publishing framework is part of a project <a href="https://pric.unive.it/projects/adriarchcult/home">AdriArchCult</a> that has received funding from the European Union's Horizon 2020 Research and Innovation Programme (GA n. 865863 ERC-AdriArchCult)</p>
-	<h4 class="text-center">
-	<a href="https://www.ffzg.unizg.hr">
-	<img src=" { $croalabro-html:csscdb || "gfx/ffzghrlogo.png" } "/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h4> 
-<p class="text-center">
-<span class="text-grey">Github</span>: <a href="https://github.com/nevenjovanovic/croatiae-auctores-latini-textus">croatiae-auctores-latini-textus</a></p>
-</div>
-</div>
 
-</footer>
-return $f
+declare function croalabro-html:footerserver() {
+	element footer {
+		attribute class { "footer" },
+		element div {
+			attribute class { "row" },
+			element div {
+				attribute class { "col" },
+				element h3 {
+					attribute class { "text-center" },
+					element img {
+						attribute width { "40"},
+						attribute height { "40" },
+						attribute src { $croalabro-config:csslocal || "gfx/leaf.svg?size=40&amp;color=6CB4EE" },
+						attribute aria-hidden { "true" }
+					},
+					element br {},
+					croalabro-html:link("https://croala.ffzg.unizg.hr", "CroALa"),
+					": Croatiae auctores Latini"
+				},
+				element p {
+					attribute class { "text-center" },
+					element small {
+						"The publishing framework is part of a project ",
+						croalabro-html:link("https://pric.unive.it/projects/adriarchcult/home", "AdriArchCult"),
+						" that has received funding from the European Union's Horizon 2020 Research and Innovation Programme (GA n. 865863 ERC-AdriArchCult)"
+					}
+				},
+				element h4 {
+					attribute class { "text-center"	},
+					element img {
+						attribute src { $croalabro-config:csslocal || "gfx/ffzghrlogo.png" },
+						attribute aria-hidden { "true" },
+					croalabro-html:link("https://www.ffzg.unizg.hr", "Filozofski fakultet"),
+					" Sveučilišta u Zagrebu"
+				},
+				element p {
+					attribute class { "text-center"	},
+					element span {
+						attribute class { "text-grey"	},
+						"Github"
+					},
+					": ",
+					croalabro-html:link("https://github.com/nevenjovanovic/croatiae-auctores-latini-textus", "croatiae-auctores-latini-textus" )
+				}
+			}
+		}
+		}
+	}
 };
 
-(: helper function - footer with table :)
-declare function croalabro-html:footertable () {
-let $f := <footer class="footer">
-<div class="row">
-<div  class="col">
-	<h3 class="text-center"><img src="https://icongr.am/entypo/leaf.svg?size=40&amp;color=6CB4EE" aria-hidden="true"></img><br/><a href="https://croala.ffzg.unizg.hr">CroALa</a>: Croatiae auctores Latini</h3>
-	<p class="text-center">The publishing framework is part of a project <a href="https://pric.unive.it/projects/adriarchcult/home">AdriArchCult</a> that has received funding from the European Union's Horizon 2020 Research and Innovation Programme (GA n. 865863 ERC-AdriArchCult)</p>
-	<h4 class="text-center">
-	<a href="https://www.ffzg.unizg.hr">
-	<img src=" { $croalabro-html:csscdb || "gfx/ffzghrlogo.png" } "/> Filozofski fakultet</a> Sveučilišta u Zagrebu</h4> 
-<p class="text-center">
-<span class="text-grey">Github</span>: <a href="https://github.com/nevenjovanovic/croatiae-auctores-latini-textus">croatiae-auctores-latini-textus</a></p>
-</div>
-</div>
-<link href=" { $croalabro-html:csscdb || "dist/sortable-base.css" }" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js"></script>
+declare function croalabro-html:forsort() {
+	( element link {
+		attribute href { $croalabro-config:csslocal || "dist/sortable-base.css"  },
+		attribute rel { "stylesheet" }
+	},
+	element script {
+		attribute src { "https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/sortable.min.js" }
+	} )
+	};
 
-</footer>
-return $f
+
+
+(: helper function - footer with table :)
+declare function croalabro-html:footertable() {
+	( croalabro-html:footerserver(),
+	croalabro-html:forsort() )
 };
 

@@ -1,20 +1,20 @@
-(: CroALaBro index auctorum, operum, generum, temporum :)
+(: CroALaBro quaere in periodo :)
 
 import module namespace croalabro = "http://croala.ffzg.unizg.hr/croalabro" at "../../repo/croalabro.xqm";
 import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-html" at "../../repo/croalabro-html.xqm";
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Croatiae auctores Latini: index temporum';
-declare variable $subtitle := 'Tempus elige ut in eo periodo quaeras. Numerum elige ut indiculum documentorum videas.';
-declare variable $content := "Display list of periods in CroALa.";
-declare variable $keywords := "Neo-Latin, Croatia, text corpus, period";
+declare variable $title := 'Croatiae auctores Latini: quaere in periodo';
+declare variable $subtitle := '';
+declare variable $content := "Search in documents from a given period in CroALa.";
+declare variable $keywords := "Neo-Latin, Croatia, text corpus, period, search";
 
 (:~
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("tempora")
+  %rest:path("periodus-q/{$period}")
   %output:method(
   "xhtml"
 )
@@ -29,7 +29,7 @@ declare
 )
 
 
-  function page:croalabrotempora()
+  function page:croalabroperiodq($period)
 {
   (: HTML template starts here :)
 
@@ -44,18 +44,19 @@ declare
 </div>
 <div  class="row">
 <div  class="col">
-<p class="text-center">{ $subtitle }</p>
+<h2 class="text-center">{ $subtitle }</h2>
+<h3 class="text-center">{ "Periodus: " || map:get($croalabro:periodi , $period) }</h3>
 </div>
 </div>
 <div class="row">
 <div  class="col text-center">
   <!-- function here -->
 
-{ croalabro-html:table (("Tempus", "Quot documenta" ), croalabro:tabulatemporum()) }
+{ croalabro-html:searchform0( "qper1" , "qpverbum" , "Quaere in hoc periodo", $period ) }
 </div>
 </div>
 
-{ croalabro-html:footertable() }
+{ croalabro-html:footerserver() }
 </div>
 </body>
 </html>

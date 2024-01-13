@@ -44,20 +44,8 @@ declare
 </div>
 
 <div  class="row">
-<div  class="col">
-<h4 class="text-center">Formula quaestionis</h4>
-<form action="quaere" method="GET" enctype="application/x-www-form-urlencoded">
-<p class="grouped">
-<input
-type="search"
-name="verbum"
-placeholder="Quaere vocabulum sive phrasin..."
-                />
-<button class="button icon-only">
-<img src="https://icongr.am/feather/search.svg?size=16" />
-</button>
-</p>
-</form>
+	<div  class="col">
+	{ croalabro-html:searchform( "quaere", "verbum" , "Quaere vocabulum sive phrasin..." ) }
 
 </div>
 </div>

@@ -1,11 +1,12 @@
 (: XQuery module for CroALaBRO :)
 module namespace croalabro = 'http://croala.ffzg.unizg.hr/croalabro';
 import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-html" at "croalabro-html.xqm";
+import module namespace croalabro-config = "http://croala.ffzg.unizg.hr/croalabro-config" at "croalabro-config.xqm";
 import module namespace  functx = "http://www.functx.com" at "functx.xq";
 
-(: map to translate period notation into Latin :)
+(: declare variable $croalabro:croalaurl := "https://croala.ffzg.unizg.hr/cdb/static/croala-html/"; :)
 
-declare variable $croalabro:croalaurl := "https://croala.ffzg.unizg.hr/cdb/static/croala-html/";
+(: map to translate period notation into Latin :)
 
 declare variable $croalabro:periodi := map {
   "09xx_3_third": "saeculi X prima tertiarum (09xx_3_third)",
@@ -71,7 +72,7 @@ declare function croalabro:basepath($path){
 declare function croalabro:filepath($set){
   for $d in $set
   let $docname := db:path($d)
-  let $docurl := $croalabro:croalaurl || croalabro:basepath( $docname ) || ".html"
+  let $docurl := $croalabro-config:croalaurl || croalabro:basepath( $docname ) || ".html"
   let $giturl := "https://github.com/nevenjovanovic/croatiae-auctores-latini-textus/blob/master/txts/" || $docname
   return if ($set[2]) then ( 
 croalabro-html:link($docurl, croalabro:basepath($docname)),
@@ -164,7 +165,7 @@ for $a in db:open($croalabro:db)//*:teiHeader//*:keywords[@scheme=("genre","typu
 let $path := db:path($a)
 let $basepath := croalabro:basepath($path)
 return element tr {
-  element td { croalabro-html:link(($croalabro:croalaurl || $basepath || ".html" ), $basepath) }
+  element td { croalabro-html:link(($croalabro-config:croalaurl || $basepath || ".html" ), $basepath) }
 }
 return element r {
   element span { $genus },
@@ -181,7 +182,7 @@ let $s := $a/@period/string()
 group by $s
 order by $s
 return element tr {
-  element td { map:get($croalabro:periodi , $s) },
+  element td { croalabro-html:link( "periodus-q/" || $s ,  map:get($croalabro:periodi , $s)) },
   element td { croalabro-html:link("periodus/" || $s,count($a)) }
 }
 };
@@ -194,7 +195,7 @@ for $a in db:open($croalabro:db)//*:teiHeader//*:creation/*:date[@period=$period
 let $path := db:path($a)
 let $basepath := croalabro:basepath($path)
 return element tr {
-  element td { croalabro-html:link(($croalabro:croalaurl || $basepath || ".html" ), $basepath) }
+  element td { croalabro-html:link(($croalabro-config:croalaurl || $basepath || ".html" ), $basepath) }
 }
 return element r {
   element span { map:get($croalabro:periodi , $period) },
@@ -251,7 +252,7 @@ for $n in ft:search($croalabro:db, $word )
 	let $fragment := croalabro:textfrag($n)
 	let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
 	let $title := string-join($n/ancestor::*:div/*:head, " > ")
-	let $url :=  $croalabro:croalaurl || croalabro:basepath( $path ) || ".html" || "#:~:text=" || replace($fragment, "\++", " ")
+	let $url :=  $croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html" || "#:~:text=" || replace($fragment, "\++", " ")
 order by $date , $path
 return element tr { 
 element td {  
@@ -314,7 +315,7 @@ order by $date , $path
 return element tr { 
 element td {  
 croalabro-html:formathithead(
-croalabro-html:link(($croalabro:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
 )
 },
 for $e in croalabro:titleauthor($path) return element td { $e } ,
@@ -337,7 +338,7 @@ order by $date , $path
 return element tr { 
 element td {  
 croalabro-html:formathithead(
-croalabro-html:link(($croalabro:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
 )
 },
 for $e in croalabro:titleauthor($path) return element td { $e } ,
@@ -362,7 +363,7 @@ order by $date , $path
 return element tr { 
 element td {  
 croalabro-html:formathithead(
-croalabro-html:link(($croalabro:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
 )
 },
 for $e in croalabro:titleauthor($path) return element td { $e } ,
@@ -386,7 +387,7 @@ order by $date , $path
 return element tr { 
 element td {  
 croalabro-html:formathithead(
-croalabro-html:link(($croalabro:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
 )
 },
 for $e in croalabro:titleauthor($path) return element td { $e } ,
@@ -449,7 +450,51 @@ croalabro-html:trtodiv(
 	else let $message := "Numerum quaeso adde verborum interpositorum." return croalabro-html:zerosec($message)
 };
 
+(: search in a given period, use wildcards :)
 
+declare function croalabro:quaereperiod1($qpverbum, $period) {
+	for $n in db:get($croalabro:db)/*:TEI[*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period/string()=$period]/*:text//*[not(*)]
+	where ft:contains($n, $qpverbum, map { 'wildcards': true() })
+	let $path := db:path($n)
+	let $title := string-join($n/ancestor::*:div/*:head, " > ")
+	let $marked := ft:mark($n[text() contains text { $qpverbum } using wildcards ])
+	order by $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { $marked }
+}
+
+	};
+
+declare function croalabro:period1found($qpverbum, $period) {
+	let $q := croalabro:quaereperiod1($qpverbum, $period)
+	let $found := distinct-values($q//*:mark/string())
+	let $qcount := count($q)
+	return if ($qcount=0) then croalabro-html:zero2()
+	else (
+		element div {
+			attribute class { "row"},
+			element div {
+				attribute class { "col"},
+				element h4 {
+					attribute class { "text-center"},
+					( "Quaeris: " || $qpverbum || " in periodo " || $period ||
+						". Inventum: " || $qcount ||
+					". Formae: " || string-join($found, ", ") || ".")
+		}
+	}
+	},
+croalabro-html:trtodiv2(
+			element tr { $q }
+			)
+ )
+	};
 
 (: check if search returned 0 hits :)
 declare function croalabro:nihil($result){
