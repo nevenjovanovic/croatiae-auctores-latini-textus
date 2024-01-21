@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc xml:id="djurdjevic-b-afflictio">
          <titleStmt>
-            <title>De Afflictione, Tam Captivorum Quam Etiam Sub Turcae tributo viventium Christianorum : cum figuris res clarè exprimentibus ; Similiter de Ritu, deque Caeremoniis domi, militiaeque ab ea gente usurpatis ; Additis nonnullis lectu dignis, linguarum Sclavonicae &amp;  Turcicae, cum interpretatione Latina, libellus</title>
+            <title>De afflictione, tam captivorum quam etiam sub Turcae tributo viventium Christianorum : cum figuris res clarè exprimentibus ; similiter de ritu, deque caeremoniis domi, militiaeque ab ea gente usurpatis ; Additis nonnullis lectu dignis, linguarum Sclavonicae &amp;  Turcicae, cum interpretatione Latina, libellus (1545), versio electronica</title>
             <title type="sub">Machine-readable text</title>
             <title type="short">Georgijevic, Bartolomej: De Afflictione, Tam Captivorum Quam Etiam Sub Turcae tributo viventium Christianorum. - Worms, 1545.</title>
             <author n="Georgijevic" ref="http://www.wikidata.org/entity/Q12627648">
@@ -11,21 +11,23 @@
             </author>
             <editor>
                <persName>
-                  <ref type="croala" target="djurdjev01">Đurđević, Bartul</ref>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q12627648">Đurđević, Bartul</ref>
                </persName>
             </editor>
          </titleStmt>
          <editionStmt>
             <edition>XML version, markup prototype, December 1999</edition>
             <respStmt>
-               <name>Ruediger Niehl</name>
+               <persName ref="http://www.wikidata.org/entity/Q12901865">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q12901865">Ruediger Niehl</ref>
+               </persName>
                <resp>markup</resp>
             </respStmt>
             <respStmt>
                <resp>Hanc editionem electronicam alteram accuravit</resp>
-               <name>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
             </respStmt>
          </editionStmt>
          <publicationStmt>
@@ -40,6 +42,10 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date>Prosinca
    2014</date>
             </p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on January 21, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
@@ -81,6 +87,15 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2023-01-21">2023-01-21</date>. 
+            Dodao licencu, dopunio i pravopisno normalizirao naslov.
+            Dodao Wikidata ID.
+         </change>
          <change>
             <date>08/2012</date>
             <persName ref="6913774">Neven Jovanovic</persName>
