@@ -1,0 +1,118 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="trogir-lippeorum-inscriptio-1617">
+         <titleStmt>
+            <title>Lippeorum inscriptio (1617), versio electronica</title>
+            <author ref="lippeus-michael">
+               <persName xml:lang="la">Lippeus, Michael</persName>
+               <date>fl. 1617</date>
+            </author>
+            <editor>
+               <persName ref="http://www.wikidata.org/entity/Q93233703">
+                  <ref target="http://www.wikidata.org/entity/Q93233703">Bratislav Lučin</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prima versio electronica <date when-iso="2024-01-22">2024-01-22</date>
+            </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum TKTK</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+                    Hrvatska.  <date when-iso="2024-01">Siječnja 2024</date>.</p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on January 22, 2024. </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Babić, I. (2016) Trogir: grad i spomenici. Split: Književni krug (Biblioteka Knjiga Mediterana, 87).
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <normalization>
+               <p>Majuskula pretvorena u minuskulu. Uvedena velika slova. Svako V pisano kao u.
+                  Kratice razriješene (expan). </p>
+            </normalization>
+            <punctuation>
+               <p>Bez dodane interpunkcije.</p>
+            </punctuation>
+            <segmentation>
+               <p>Krajevi redaka izvornog natpisa uklonjeni bez upozorenja.</p>
+            </segmentation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract xml:lang="hrv">
+            <p>Kosti i prah Lipavićâ 
+               prema Dujmovoj oporuci 
+               nećak (unuk?)1 Mihovil pobrinuo se da se ovamo prenesu
+               te da se dostojno i pobožno sahrane.
+               Godine Gospodnje 1617. </p>
+         </abstract>
+         <settingDesc>
+            <place>
+               <placeName ref="http://www.wikidata.org/entity/Q96312570">Crkva sv. Dominika u Trogiru</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <p><persName>Mihovil Lipavić</persName>
+               <persName>Dujam Lipavić</persName></p>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1617" period="16xx_1_third">1617</date>
+            <placeName ref="http://www.wikidata.org/entity/Q189161">Trogir</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae recentiores (1600-1800)</term>
+               <term>Saeculum 17 (1601-1700)</term>
+               <term>1601-1650</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - inscriptio</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2024-01-22">2024-01-22</date>. 
+            Prvo izdanje kao CroALa TEI.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="inscriptio">
+            <p><expan>Lippeorum</expan> ossa <expan>cineresque</expan> ex
+               <expan>testamento</expan> Domnii
+               Michael nepos huc <expan>transferendum</expan>
+               honeste <expan>pieque</expan> <expan>sepeliendum</expan> <expan>curauit</expan>
+               <date when="1617"><expan>anno Domini</expan> <num value="1617">MDCXVII</num></date>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

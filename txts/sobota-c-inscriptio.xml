@@ -2,20 +2,36 @@
    <teiHeader>
       <fileDesc xml:id="sobota-c-inscriptio">
          <titleStmt>
-            <title>Sobotarum epitaphium, versio electronica</title>
+            <title>Sobotarum epitaphium (1469), versio electronica</title>
             <author ref="sobot02">
                <persName xml:lang="hr">Sobota, Katarina</persName>
                <date>c. 1469</date>
             </author>
             <editor>
-               <persName>
-                  <ref>Pavao Andreis</ref>
+               <persName ref="http://www.wikidata.org/entity/Q55226897">
+                  <ref target="http://www.wikidata.org/entity/Q55226897">Pavao Andreis</ref>
+               </persName>
+            </editor>
+            
+            <editor>
+               <persName ref="http://www.wikidata.org/entity/Q1260837">
+                  <ref target="http://www.wikidata.org/entity/Q1260837">Kruno Prijatelj</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="http://www.wikidata.org/entity/Q93233703">
+                  <ref target="http://www.wikidata.org/entity/Q93233703">Bratislav Lučin</ref>
+               </persName>
+            </editor>
+            <editor>
+               <persName ref="https://viaf.org/viaf/19216703/">
+                  <ref target="https://viaf.org/viaf/19216703/">Danko Zelić</ref>
                </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </respStmt>
          </titleStmt>
@@ -30,35 +46,67 @@
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date when-iso="2010-12">Prosinca 2010</date>.</p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on January 21, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Prijatelj, K. (1956) ‘Prinosi za monografiju o Ivanu Duknoviću’, Anali Zavoda za povijesne znanosti Hrvatske akademije znanosti i umjetnosti u Dubrovniku, (4–5), pp. 305–321.
+            </bibl>
+            <bibl>Babić, I. (2016) Trogir: grad i spomenici. Split: Književni krug (Biblioteka Knjiga Mediterana, 87).
+            </bibl>
             <bibl>
                     Autori: 	Zelić, Danko
                     Naslov: 	Chiese in Traù - rukopis Pavla Andreisa u Muzeju grada Trogira
                     Izvornik: 	Radovi Instituta za povijest umjetnosti (0350-3437) 33 (2009); 91-114
                     <relatedItem type="internet" target="http://bib.irb.hr/prikazi-rad?&amp;rad=450716">
                   <ref>Digitalizat: bib.irb.hr</ref>
+                       
                </relatedItem>
+               <note>Nešto drugačija verzija natpisa</note>
             </bibl>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <normalization>
+               <p>Majuskula pretvorena u minuskulu. Uvedena velika slova. Svako V pisano kao u.
+                  Kratice razriješene (expan). </p>
+            </normalization>
+            <punctuation>
+               <p>Bez dodane interpunkcije.</p>
+            </punctuation>
+            <segmentation>
+               <p>Krajevi redaka izvornog natpisa uklonjeni bez upozorenja.</p>
+            </segmentation>
+         </editorialDecl>
+      </encodingDesc>
       <profileDesc>
-         <abstract>
-            <p/>
+         <abstract xml:lang="hrv">
+            <p>1469. Ivanu Soboti, glasovitom znalcu prava i izvrsnom govorniku, i Šimunu Soboti,
+               mladiću obdarenu svim vrlinama, od koji jedan gorkom smrću ugrabljen, a drugi mačem
+               iz zasjede napadnut, nasilnom smrću bijahu opako lišeni života, Katarina
+               Sobota, najbjednija među ženama, predobrom suprugu i sinu spomenik postavi. </p>
          </abstract>
          <settingDesc>
-            <p/>
+            <place>
+               <placeName ref="http://www.wikidata.org/entity/Q96312570">Crkva sv. Dominika u Trogiru</placeName>
+            </place>
          </settingDesc>
          <particDesc>
-            <p/>
+            <p><persName xml:lang="hr">Sobota, Katarina</persName>
+               <persName xml:lang="hr">Sobota, Ivan</persName>
+               <persName xml:lang="hr">Sobota, Šimun</persName>
+            </p>
          </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
             <date when="1451" period="14xx_2_third">1469</date>
-            <placeName>Trogir</placeName>
+            <placeName ref="http://www.wikidata.org/entity/Q189161">Trogir</placeName>
          </creation>
          <textClass>
             <keywords scheme="typus">
@@ -87,13 +135,17 @@
    <text>
       <body>
          <div type="inscriptio">
-            <p>Ioanni Sobbotte iuris <expan>consulto</expan>
+            <p>Ioanni Sobotae iuris <expan>consulto</expan>
                <expan>clarissimo</expan>
-               <expan>oratorique</expan> eximio et Simeoni Sobbotte adolescenti omnibus
-                    virtutibus predito quorum alter acerbo funere interemptus, alter ferro per
-                    insidias aggressus impie inimicis violenta morte vita <corr resp="NJ">privatus</corr> Catterina Sobotta mulierum miserrima <expan>coniugi</expan>
-                    et <expan>filio</expan>
-               <expan>ob memoriam perfecit</expan>
+               <expan>oratorique</expan> eximio 
+               et Simeoni Sobotae adolescenti omnibus uirtutibus
+               praedito quorum alter acerbo funere interceptus, 
+               alter ferro per insidias aggressus
+               impie ab inimicis uiolenta morte uita priuatis
+               <expan>Catterina</expan>
+               <expan>Sobota</expan> mulierum miserrima <expan>coniugi</expan> et
+                  <expan>filio</expan>
+               <expan>optimis monumentum posuit</expan>
                <date when="1469">MCCCCLXVIIII</date>
             </p>
          </div>

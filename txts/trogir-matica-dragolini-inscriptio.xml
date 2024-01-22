@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="trogir-matica-dragolini-inscriptio">
+         <titleStmt>
+            <title>Maticae Dragolini uxoris inscriptio (c. 1421), versio electronica</title>
+            <author ref="anonymus-1421-dragolini">
+               <persName xml:lang="la">Anonymus</persName>
+               <date>c. 1421</date>
+            </author>
+            <editor>
+               <persName ref="http://www.wikidata.org/entity/Q93233703">
+                  <ref target="http://www.wikidata.org/entity/Q93233703">Bratislav Lučin</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>Prima versio electronica <date when-iso="2024-01-22">2024-01-22</date>
+            </edition>
+         </editionStmt>
+         <extent ana="C">Mg:C Verborum TKTK</extent>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+                    Hrvatska.  <date when-iso="2024-01">Siječnja 2024</date>.</p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on January 21, 2024. </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Babić, I. (2016) Trogir: grad i spomenici. Split: Književni krug (Biblioteka Knjiga Mediterana, 87).
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <normalization>
+               <p>Majuskula pretvorena u minuskulu. Uvedena velika slova. Svako V pisano kao u.
+                  Kratice razriješene (expan). </p>
+            </normalization>
+            <correction>
+               <p>Upozorenja u elementu sic.</p>
+            </correction>
+            <punctuation>
+               <p>Bez dodane interpunkcije.</p>
+            </punctuation>
+            <segmentation>
+               <p>Krajevi redaka izvornog natpisa uklonjeni bez upozorenja.</p>
+            </segmentation>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <abstract xml:lang="hrv">
+            <p>Matica, žena Dragolinova, odredivši da zbor kanonika ove crkve bude nasljednikom cjelokupnih njezinih dobara, za života dade da se jedanput svakoga dana u ovoj bazilici u vijeke slavi sveta misa za spas njezine duše. </p>
+         </abstract>
+         <settingDesc>
+            <place>
+               <placeName ref="http://www.wikidata.org/entity/Q3434349">Trogirska katedrala sv. Lovre</placeName>
+            </place>
+         </settingDesc>
+         <particDesc>
+            <p><persName>Matica Dragolini</persName></p>
+         </particDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1421" period="14xx_1_third">c. 1421</date>
+            <placeName ref="http://www.wikidata.org/entity/Q189161">Trogir</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 15 (1401-1500)</term>
+               <term>1451-1500</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - inscriptio</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2024-01-22">2024-01-22</date>. 
+            Prvo izdanje kao CroALa TEI.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="inscriptio">
+            <p>Matica Dragolini <sic>usor</sic> huius ecclesiae canonicorum <sic>colegio</sic> in uniuersum sibi
+               herede instituto ut singulis semel diebus in perpetuum pro <expan>animae</expan> suae salute in
+               hac basilica sacrum missae <expan>faciant</expan> uiuens sibi fieri mandauit </p>
+         </div>
+      </body>
+   </text>
+</TEI>
