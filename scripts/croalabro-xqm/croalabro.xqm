@@ -139,7 +139,7 @@ let $s := normalize-space($a)
 group by $s
 order by count($a) descending
 return element tr {
-  element td { $s },
+  element td { croalabro-html:link( "genus-q/" || $s ,  $s ) },
   element td { croalabro-html:link("genus/" || $s,count($a)) }
 }
 };
@@ -152,7 +152,7 @@ let $s := normalize-space($a)
 group by $s
 order by $s
 return element tr {
-  element td { $s },
+  element td { croalabro-html:link( "genus-q/" || $s ,  $s ) },
   element td { croalabro-html:link("genus/" || $s,count($a)) }
 }
 };
@@ -494,7 +494,55 @@ croalabro-html:trtodiv2(
 			element tr { $q }
 			)
  )
-	};
+};
+
+(: search in a given genre, use wildcards :)
+
+declare function croalabro:quaeregenus1($qgverbum, $genus) {
+	for $n in db:get($croalabro:db)/*:TEI[*:teiHeader/*:profileDesc[1]/*:textClass/*:keywords[@scheme=("genre","typus")]/*:term[.=$genus]]/*:text//*[not(*)]
+	where ft:contains($n, $qgverbum, map { 'wildcards': true() })
+	let $path := db:path($n)
+	let $title := string-join($n/ancestor::*:div/*:head, " > ")
+	let $marked := ft:mark($n[text() contains text { $qgverbum } using wildcards ])
+	order by $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { $marked }
+}
+
+};
+
+declare function croalabro:genus1found($qgverbum, $genus) {
+	let $q := croalabro:quaeregenus1($qgverbum, $genus)
+	let $found := distinct-values($q//*:mark/string())
+	let $qcount := count($q)
+	return if ($qcount=0) then croalabro-html:zero2()
+	else (
+		element div {
+			attribute class { "row"},
+			element div {
+				attribute class { "col"},
+				element h4 {
+					attribute class { "text-center"},
+					( "Quaeris: " || $qgverbum || " in genere " || $genus ||
+						". Inventum: " || $qcount ||
+					". Formae: " || string-join($found, ", ") || ".")
+		}
+	}
+	},
+croalabro-html:trtodiv2(
+			element tr { $q }
+			)
+ )
+};
+
+
 
 (: check if search returned 0 hits :)
 declare function croalabro:nihil($result){
