@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc xml:id="beccadelli-l-inscriptio-elegia-sipan-1557">
+    <titleStmt>
+     <title>Inscriptio (1557) et elegia (1560) de insula Tauride, versio electronica</title>
+     <author ref="http://www.wikidata.org/entity/Q3839087">
+      <persName xml:lang="ita">Beccadelli, Lodovico</persName>
+      <date>1501-1572</date>
+     </author>
+     <editor ref="http://www.wikidata.org/entity/Q53504913"><persName><ref target="http://www.wikidata.org/entity/Q53504913">Giambattista Morandi</ref></persName></editor>
+     <editor><persName><ref target="http://viaf.org/viaf/89511049
+      ">Giuseppe Tommasino</ref></persName></editor>
+     <respStmt>
+      <resp>Hanc editionem electronicam curavit</resp>
+      <persName xml:id="NJ">
+       <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+      </persName>
+     </respStmt>
+    </titleStmt>
+    <extent>12 versus, verborum 133</extent>
+     <publicationStmt>
+      <p>Izdanje priređeno u okviru znanstvenog projekta Profil hrvatskog latinizma,
+       (Filozofski fakultet Sveučilišta u Zagrebu, Hrvatska). <date>Lipanj
+        2012</date></p>
+     </publicationStmt>
+      <sourceDesc>
+       <bibl>Beccadelli, Lodovico ; Morandi, Giambattista (ed.): Monumenti di varia letteratura, tratti dai manoscritti di L. Beccadelli. 2 tom. [in 3 pt.]. Bologna, 1799</bibl>
+       <bibl>Tommasino, Giuseppe: I carmi latini inediti di mons. Ludovico Beccadelli nel cd. Palatino parmense 972. S. Maria Capua Vetere, 1923, 38-39.</bibl>
+      </sourceDesc>
+    </fileDesc>
+   <profileDesc>
+    <creation>
+     <date when="1557" period="15xx_2_third">1557; 1560</date>
+    </creation>
+    <textClass>
+     <keywords scheme="typus">
+      <term>poesis</term>
+     </keywords>
+     <keywords scheme="aetas">
+      <term>Litterae renatae (1400-1600)</term>
+      <term>Saeculum 16 (1501-1600)</term>
+      <term>1551-1600</term>
+     </keywords>
+     <keywords scheme="genre">
+      <term>prosa - inscriptio</term>
+      <term>poesis - elegiacum</term>
+      <term>poesis - epigramma</term>
+      <term>laudatio urbis</term>
+     </keywords>
+    </textClass>
+   </profileDesc>
+  <revisionDesc>
+   <change>
+    <persName ref="#NJ">
+     <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+      Jovanović</ref>
+    </persName>
+    <date when="2024-01-23">2024-01-23</date>. Prvo izdanje kao CroALa TEI. </change>
+   <change>
+    <name>Neven Jovanović</name>
+    <date>2012-06-03</date> Početna verzija.</change>
+  </revisionDesc>
+  </teiHeader>
+ <text>
+  <body>
+   <div type="prosa-inscriptio">
+    <pb n="114"/>
+    <note resp="editor" xml:lang="ita">XXVI. Memoria , che leggesi tutt' ora all' ingresso della
+     Villa Giuppana edificata da Monsignor Lodovico Beccadelli.</note>
+
+    <p>LUDOVICUS . BECCATELLUS . BONONIENSIS <lb/> ARCHIEPISCOPUS . RAGUSINUS <lb/> TAURIDIS .
+     INSULAE . SALUBRITATE . ALLECTUS <lb/> ECCLESIAE . FUNDUM . SITU . FERME . OBDUCTUM <lb/> VITE
+     . MULTIPLICI . CONSITA . EXHILARAVIT <lb/> SUOQUE . COMMODO . ET . SUCCESSORUM . CONSULENS
+     <lb/> PRISCIS . AEDIBUS . RESTAURATIS . NOVAS <lb/> ADDIDIT . CUM . HORTO . ET . DUPLICI .
+     CISTERNA <lb/>
+     <date when="1557">M. D. L. VII</date>. <lb/> ANNO AB EJUS IN ILLYRICUM ADVENTU . <num value="2"
+      >II</num>.</p>
+   </div>
+   <div type="poesis-epigramma" met="elegiacum">
+    <l met="hexameter">Quae mihi cum tenera primum lanugine malas</l>
+    <l met="pentameter">Vestirem, Musae, saepe tulistis opem,</l>
+    <l met="hexameter"> Et cum praeruptos tentarem scandere montes</l>
+    <l met="pentameter"> Pronam signastis qua decet ire viam,</l>
+    <l met="hexameter"> Nunc mare sollicitum fugiens <corr resp="#NJ">fugientibus</corr> annis</l>
+    <l met="pentameter"> En iterum supplex limina vestra peto,</l>
+    <l met="hexameter"> Ut ripa in viridi liceat subducere limbum</l>
+    <l met="pentameter"> Mecum qui fluctus pertulit Illyricos.</l>
+    <l met="hexameter"> Namque ego, quod spatii Parcae vitalia nentes</l>
+    <l met="pentameter"> Stamina decrerunt mox superesse mihi,</l>
+    <l met="hexameter"> Devoveo id vobis, iuxta haec vernantia prata</l>
+    <l met="pentameter"> Quorum me posthac sedula cura premet.</l>
+   </div>
+  </body>
+ </text>
+</TEI>
