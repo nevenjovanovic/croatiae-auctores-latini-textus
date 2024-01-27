@@ -2,20 +2,20 @@
    <teiHeader>
       <fileDesc xml:id="andreis-f-carmina-vd">
          <titleStmt>
-            <title>Carmina in manuscripto Budapestensi H46, versio electronica</title>
+            <title>Carmina in manuscripto Budapestensi H46 (c. 1550--1571), versio electronica</title>
             <author ref="http://www.wikidata.org/entity/Q16115490">
                <persName xml:lang="hr">Andreis, Franjo Trankvil</persName>
                <date>1490-1571</date>
             </author>
-            <editor>
-               <persName>
-                  <ref>Bratislav Lučin</ref>
+            <editor ref="http://www.wikidata.org/entity/Q93233703">
+               <persName xml:id="BL">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q93233703">Bratislav Lučin</ref>
                </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </respStmt>
          </titleStmt>
@@ -36,6 +36,14 @@
             <bibl>Varia Dalmatica,  sign. 25290, ms. 617, Znanstvena knjižnica Zadar.</bibl>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <editorialDecl xml:lang="hrv" resp="#BL">
+            <p>PJESME FRANA TRANKVILA ANDRONIKA IZ TROGIRSKOG ZBORNIKA LATINSKIH PJESAMA</p>
+
+            <p>Neke razlike u MOLITVI, kao da su ispravci krivih kvantiteta!!! (usp Glavičić
+               Versifikacija, tiskano izdanje i ovdje rkp!)</p>
+         </editorialDecl>
+      </encodingDesc>
       <profileDesc>
          <abstract>
             <p/>
@@ -69,6 +77,16 @@
       </profileDesc>
       <revisionDesc>
          <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2024-01-26">2024-01-26</date>. 
+            Dodao oznake metra i žanra pojedinim pjesmama.
+            Dodao Wikidata ID za priređivače.
+            Maknuo hrvatski naslov i uputu, premjestio u priređivačke napomene (editorialDecl).
+         </change>
+         <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
             </persName>
@@ -90,14 +108,6 @@
       </revisionDesc>
    </teiHeader>
    <text>
-      <front>
-        <!-- Razrješavanje kratica?: go = (er)go -->
-         <docTitle>
-            <titlePart>PJESME FRANA TRANKVILA ANDRONIKA IZ TROGIRSKOG ZBORNIKA LATINSKIH PJESAMA</titlePart>
-         </docTitle>
-         <titlePart/>
-         <note>PAZI Neke razlike u MOLITVI, kao da su ispravci krivih kvantiteta!!! (usp Glavičić Versifikacija, tiskano izdanje i ovdje rkp!)</note>
-      </front>
       <body>
          <div>
             <pb n="33"/>
@@ -165,7 +175,7 @@ exultabimus hymnis.</l>
                <l>Omnia prosternes, quae nunc horrescimus, audax</l>
                <l n="10">Barbaricaeque cadent perculsae Herebique phalanges.</l>
             </div>
-            <div type="div3">
+            <div type="poesis-epigramma" met="hexameter">
                <head>In filium Ioannis regis, Tranquillus</head>
                <l>Quo ruis, ah demens? Quibus exagitare nefandis</l>
                <l>Eumenidum furiis? Quae te fera uexat Erinnis?</l>
@@ -199,7 +209,7 @@ exultabimus hymnis.</l>
                <l>Euasit uictor, sed quo duce uincere ceruum</l>
                <l n="30">Contigit, assidue fert dorso frenaque mordet. </l>
             </div>
-            <div type="poesis" xml:id="tr-vd03">
+            <div type="poesis-epigramma" met="hexameter" xml:id="tr-vd03">
                <head>Ad Aluisium Cippicum, Tranquillus
             </head>
                <note place="foot" n="8">Da je pjesma nastala <date notBefore="1569-11-29" notAfter="1571">između 29. XI. 1569. i 1571</date>, kada Trankvil umire, usp. Belamarić studije, str. 469)</note>
@@ -220,7 +230,7 @@ exultabimus hymnis.</l>
                <l n="15">Huic tete ostentes, mortalia caetera spernas. </l>
             </div>
             <pb n="36v"/>
-            <div type="poesis" xml:id="tr-vd04">
+            <div type="poesis-epigramma" met="elegiacum" xml:id="tr-vd04">
                <head>De infelicitate senescentium in aula regis, Tranquillus Andronicus</head>
                <l>Bos iuuenis, ualide membris compactus et acer,</l>
                <l>Pascitur et stertens instratusque accubat, at quum</l>
@@ -277,7 +287,7 @@ exultabimus hymnis.</l>
                <l>Accipitur decorisque sui nunc fama refulget.</l>
                <pb n="46v"/>
             </div>
-            <div type="poesis" xml:id="tr-vd06">
+            <div type="poesis-carmen" met="hexameter" xml:id="tr-vd06">
                <head>Conquestio ad caesarem et alios principes, Tranquillus Andronicus</head>
                <l>Cur audes, caesar, tantum confidere Turcis,</l>
                <l>Prima quibus praedura silex et quercus origo est,</l>
@@ -347,7 +357,7 @@ exultabimus hymnis.</l>
                <l>Summe pater rerumque sator, cui maxima cura est</l>
                <l n="65">Humani generis sanctissima iussa sequentis, </l>
                <l>Nolis ad
-<note place="foot" n="10">
+<note type="apparatus" place="foot" n="10">
                      <p>Nolis ad <emph>metrum claudicat</emph>
                      </p>
                   </note>
@@ -362,7 +372,7 @@ exultabimus hymnis.</l>
                <l>Te modo, Christe, colunt, nulli uiolabile numen. </l>
             </div>
             <pb n="48"/>
-            <div type="poesis" xml:id="tr-vd07">
+            <div type="poesis-carmen" met="hexameter" xml:id="tr-vd07">
                <head>Tranquilli Andronici Dalmatae contra Thurcos, comunes Christianorum hostes, ad Deum optimum maximum oratio</head>
                <!-- zaziv Boga -->
                <l>Summe pater rerumque sator, qui lucida Olympi</l>
@@ -708,7 +718,7 @@ exultabimus hymnis.</l>
                <l>Omnipotens solusque Deus genitorque uoceris.</l>
             </div>
             <pb n="64v"/>
-            <div type="poesis" xml:id="tr-vd08">
+            <div type="poesis-epigramma" met="hexameter" xml:id="tr-vd08">
                <head>Antonio Verantio, episcopo Agriensi, Tranquillus</head>
                <l>Iam mea non Helicon, iam non Parnassia laurus,</l>
                <l>Non turba Aonidum Phaebo comitata sororum</l>
