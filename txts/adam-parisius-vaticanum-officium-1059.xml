@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="adam-parisius-vaticanum-officium-1059">
+         <titleStmt>
+            <title>Vaticanum officium S. Domnii (inter 1059 et 1099), versio electronica</title>
+            <author ref="http://www.wikidata.org/entity/Q88018828">
+               <persName xml:lang="hr">Adam Parižanin</persName>
+               <persName xml:lang="la">Adam Parisius</persName>
+               <date when="1059">floruit 1059</date>
+            </author>
+            <editor ref="http://www.wikidata.org/entity/Q93233703">
+               <persName xml:id="BL">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q93233703">Bratislav Lučin</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <p>Digitalizat znanstvenog izdanja (2014).</p>
+         </editionStmt>
+         <publicationStmt>
+            <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+               projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+               Hrvatska.  <date when="2024-01">Siječnja 2024</date>.</p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on January 28, 2024. </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>Lučin, Bratislav. 2014. ‘Povratak Adama Parižanina / The Return of Adam of Paris’, in Splitska hagiografska baština: povijest, legenda, tekst: zbornik radova s međunarodnog znanstvenog skupa održanog u Splitu od 26. do 27. rujna 2011, Biblioteka Knjiga Mediterana, 76, ed. by Josip Belamarić (presented at the Međunarodni znanstveni skup Splitska hagiografska baština: povijest, legenda, tekst, Split: Književni krug : Filozofski fakultet, Odsjek za povijest), pp. 85–137
+               <note>(Prema <bibl>Vat. Lat. 6069</bibl>, ff. 375r – 378r)</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl xml:lang="hrv" resp="#BL">
+            <p>NAČELA OVOG IZDANJA </p>
+            <p>Ovo je prvo izdanje čitava teksta vatikanskog oficija sv. Dujma. Priređeno je prema
+               jedinom poznatom rukopisu, <bibl>Vat. Lat. 6069</bibl>, ff. 375r – 378r
+                  (<hi rend="italic">V</hi>).</p>
+            <p>U priređivanju teksta nije se diralo u grafiju izvornika, osim što je "dugo i" u
+               skupini <q>ij</q> pretvoreno u <q>i</q>. Pokrate,
+               kojima rukopis obiluje, razriješene su bez zagrada. Pisanje velikih slova i
+               interpunkcijskih znakova usklađeno je s današnjim uzusom.</p>
+            <p>U kritičkom aparatu nisu navedene <q>variae lectiones</q> koje se odnose samo na
+               grafiju (<q>e</q> : <q>ae</q>;<q>i</q> : <q>y</q>; <q>i</q>: <q>j</q>;<q>u
+                  </q>:<q>v</q>;<hi rend="italic">-ci- </hi>:<q>-ti-</q>;<q>n </q>:<q>m </q>i
+               slično).</p> 
+            <p>Ipak, navedene su razlike koje mogu ukazivati na drugačiji izgovor pojedinih
+               riječi (npr. <q>ad </q>:<q>at</q>; <q>capud</q> : <q>caput</q>; <q>set </q>:
+                  <q>sed</q>).</p>
+            <p>Oficijske rubrike i slova koja čine akrostihe istaknuti su podebljanim slogom.</p>
+            <p>Tzv. <q>repetenda</q> (tj. dijelovi responzorija koji se ponavljaju
+               nakon versikula) u rukopisu su naznačena samo prvom riječju; ovdje su donesena u
+               cijelosti, s time da su nadopunjeni dijelovi teksta stavljeni u prelomljene
+               zagrade.</p>
+            <p rend="center">FONTES LECTIONVM</p>
+            <p rend="center">Codices</p>
+            <p>
+               V – <bibl>Codex Vaticanus: Biblioteca Apostolica Vaticana, <hi rend="italic">Vat. lat. 6069, </hi>perg., saec. XIV/XV; ff. 375r – 378r: <add resp="#BL">Officium sancti Domnii</add></bibl></p>
+            <p>
+               M – Codex Marcianus: <bibl>Biblioteca Marciana, Venezia, Marc. Lat. XIV 181(<hi rend="italic">= 4668</hi>), chart., saec. XVI/XVII, ff. 1r – 8v: Passio Sancti Domnii martyris archiepiscopi Salonitani</bibl>.</p>
+            <p rend="center">Editiones</p>
+            <p>
+               AH 21
+               – <bibl>Clemens Blume, Guido M. Dreves, Analecta hymnica Medii Aevi, XLVa. Historiae rhythmicae. Liturgische Reimofficien des Mittelalters, <hi rend="italic">Achte Folge,</hi>  Leipzig, 1904, pp. 53-55: n. 21. De sancto Domnio [Antiphonae et responsoria et versiculi post responsoria]</bibl></p>
+            <p>
+               AH 203, AH 204, AH 205
+               –  <bibl>Clemens Blume, Guido M. Dreves, Analecta hymnica Medii Aevi, XLIII. Hymni inediti. Liturgische Hymnen des Mittelalters, Siebente Folge, Leipzig, 1903, pp. 118-121: n. 203. <hi rend="italic">De sancto Domnio. Ad Vesperas </hi>[= <hi rend="italic">Armoniae fidibus…</hi>]; n. 204. <hi rend="italic">De sancto Domnio. Ad Laudes </hi>[<hi rend="italic">= Aurorae fulgor…</hi>]; n. 205. <hi rend="italic">De sancto Domnio. In 2. Vesperis </hi>[recte: In Primo Nocturno;= Laudes eximias…] </bibl>
+            </p>
+            <p>
+               IS – <bibl>Danieli Farlatis Illyrici sacri tomus I, Venetiis, 1751, pp. 420-422: Quarta B. Domnii Vita; pp. 502-503: <hi rend="italic">Tres hymni perantiqui de laudibus S. Domnii, Auctore fortassis Adamo Parisiensi</hi>; p. 505: <hi rend="italic">Oratio</hi>;<hi rend="italic">Ad Benedictus. Antiphona</hi>;<hi rend="italic">Ad Magnificat. Antiphona. </hi>[Numeri post IS paginas designant.]</bibl></p>
+            <p>
+               Marshall – <bibl>Christina E. A. Marshall, Late medieval liturgical offices in acrostic form: A catalogue and study [thesis ad Ph. D. gradum Universitatis Torontonensis obtinendum], Toronto, 2006</bibl>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      
+      <profileDesc>
+            <langUsage>
+               <language ident="lat" xml:lang="hrv">latinski</language>
+            </langUsage>
+            <creation>
+               <date notBefore="1059" notAfter="1099" period="10xx_3_third">inter 1059 et 1099</date>
+               <placeName ref="http://www.wikidata.org/entity/Q1663">Split</placeName>
+            </creation>
+            <textClass>
+               <keywords scheme="typus">
+                  <term>poesis</term>
+               </keywords>
+               <keywords scheme="aetas">
+                  <term>Litterae medii aevi (700-1400)</term>
+                  <term>Saeculum 11 (1001-1100)</term>
+                  <term>1051-1100</term>
+               </keywords>
+               <keywords scheme="genre">
+                  <term>poesis - hymnus</term>
+                  <term>poesis - officium</term>
+               </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change>
+               <persName ref="#NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                     Jovanović</ref>
+               </persName>
+               <date when="2024-01-27">2024-01-27</date>. 
+               Prvo izdanje kao CroALa TEI.
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <milestone unit="page" n="375r"/>
+         <div type="mixtum-officium">
+            <head>IN VIGILIA SANCTI DOMPNII</head>
+            <div>
+               <head><add resp="#BL">PRIMAE VESPERAE</add></head>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Ad Vesperas antiphona</head>
+                  <l>Belliger iste sagax pro lege Dei sua menbra </l>
+                  <l>Contulit ad mortem moriendoque perculit hostem; </l>
+                  <l> Nam petra Christus erat, qua solidus steterat.</l>
+                  <p>Alleluya<note type="apparatus" resp="#BL" xml:id="ftn1" place="foot" n="1">
+                        <q>Alleluya</q> ] ubique deest in <bibl>AH 21</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus <note type="apparatus" resp="#BL" xml:id="ftn2" place="foot" n="2">
+                           <q>Psalmus</q> et prima psalmorum verba ] ubique desunt in <bibl>AH 21</bibl>
+                     </note>
+                  </head>
+                  <p>Dixit Dominus<note type="apparatus" resp="#BL" xml:id="ftn3" place="foot" n="3">
+                        <bibl>(Ps 109)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Martir hic est uerus, pro Christi nomine corpus </l>
+                  <l>Qui dedit, Tartarum spernendo, tela minarum,<note type="apparatus" resp="#BL"
+                        xml:id="ftn4" place="foot" n="4"> Qui dedit, Tartarum spernendo, tela
+                        minarum, ] Qui dedit tortorum spernendo tela minarum,<bibl>AH 21
+                        </bibl> (dedit tartarum, <hi rend="italic">ibid. app. crit.</hi>)</note>
+                  </l>
+                  <l>Milicie palma quem celum sustulit alma. </l>
+                  <p>Alleluya.</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Confitebor<note type="apparatus" resp="#BL" xml:id="ftn5" place="foot" n="5">
+                        <bibl>(Ps 110)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Respuit hic mundum, ludos floremque iocundum, </l>
+                  <l>Cuncta caduca soli librans et gaudia celi, </l>
+                  <l>Diuicias illic atque uel<note type="apparatus" resp="#BL" xml:id="ftn6"
+                        place="foot" n="6">
+                        <q>uel</q> ] velut <bibl>AH 21</bibl>; totus versus fortasse sic legendus:
+                        Diuicias illic uita meliore locauit.</note> ore locauit. </l>
+                  <p>Alleluya.</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Beatus uir<note type="apparatus" resp="#BL" xml:id="ftn7" place="foot" n="7">
+                           (<hi rend="italic">Ps 111)</hi>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Dum quis temptatur, si non cadit, inde beatur, </l>
+                  <l>Condonabit<note type="apparatus" resp="#BL" xml:id="ftn8" place="foot" n="8">
+                        Condonabit ] conieci; concionatur <bibl>V</bibl>;
+                        Coronavit <bibl>AH 21</bibl> (coronatur ibid. app. crit.)</note> eum qui
+                     iudicat omne probatum, </l>
+                  <l>Ex merito rutilam dabit illi<note type="apparatus" resp="#BL" xml:id="ftn9"
+                        place="foot" n="9"> illi ] isti <bibl>AH 21</bibl>
+                     </note> laude coronam. </l>
+                  <p>Alleluya. Alleluya.</p>
+               </div>
+               <div type="psalmus">
+                  <head> <add resp="scriba">P</add>salmus </head>
+                  <p>Laudate<note type="apparatus" resp="#BL" xml:id="ftn10" place="foot" n="10">
+                        [P]salmus Laudate] <hi rend="italic">scriba add.</hi> in marg. sin.
+                           (<bibl>Ps 112</bibl>) </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Hunc Deus ornauit, quia<note type="apparatus" resp="#BL" xml:id="ftn11"
+                        place="foot" n="11"> quia ] qui <bibl>AH 21</bibl>
+                     </note> pro meritis adamauit, </l>
+                  <l>Glorificaque stola uestiuit splendida colla, </l>
+                  <l>Ad paradisiacas<note type="apparatus" resp="#BL" xml:id="ftn12" place="foot"
+                        n="12"> paradisiacas ]<hi rend="italic">ex </hi>paradisicas <hi
+                           rend="italic">corr. AH 21 </hi>(paradisicas <hi rend="italic">ibid. app.
+                           crit.</hi>)</note> ducendo per hethera portas. </l>
+                  <p>Alleluya. </p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Credidi propter quod<note type="apparatus" resp="#BL" xml:id="ftn13"
+                        place="foot" n="13">
+                        <bibl>(Ps 115,10)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="capitulum">
+                  <p>
+                     <emph>Capitulum</emph> de communi post <sic resp="#BL">passca</sic></p>
+               </div>
+               <div type="poesis-hymnus" met="dactylicus-tetrameter-catalecticus">
+                  <head>Ymnu<add resp="#BL">s</add></head>
+                  <l>
+                     <emph>A</emph>rmonie fidibus Domino<note type="apparatus" resp="#BL"
+                        xml:id="ftn14" place="foot" n="14"> Domino ] Domnio <bibl>IS
+                           502</bibl>
+                     </note>
+                  </l>
+                  <l> Carmina pangite melliflua,</l>
+                  <l> Organa tangite melodica,</l>
+                  <l> Ecce dies celebris rutilat,</l>
+                  <l>
+                     <emph>D</emph>ulcisonis<note type="apparatus" resp="#BL" xml:id="ftn15"
+                        place="foot" n="15"> Dulcisonis ]<hi rend="italic">ex erronee lecto</hi> Multisonis<hi rend="italic"> corr. AH
+                           203</hi> (Multisonis;<hi rend="italic"> falsche Initiale, gegen das
+                           Akrostichon, ibid. app. crit.</hi>)</note> iubilanda<note
+                        type="apparatus" resp="#BL" xml:id="ftn16" place="foot" n="16"> iubilanda
+                           ]<hi rend="italic">ex </hi>iubilando <hi rend="italic">corr. AH 203</hi>
+                     </note> modis</l>
+                  <l> Qua ad Dominum properat Dompnius,</l>
+                  <l> Vt brauium referat celeste,<note type="apparatus" resp="#BL" xml:id="ftn17"
+                        place="foot" n="17"> Qua ad Dominum properat Dompnius, / Vt brauium referat
+                        celeste, ] Qua pius ad Dominum properat / Domnius, ut brauium referat <bibl>IS 502</bibl> fortasse recte, ut metrum indicat
+                     </note>
+                  </l>
+                  <l> Sanguine quod sibi quesierat.</l>
+                  <l>
+                     <emph>A</emph>ethera<note type="apparatus" resp="#BL" xml:id="ftn18"
+                        place="foot" n="18"> Aethera ]<hi rend="italic">ex</hi> Ethera <hi
+                           rend="italic">corr. AH 203 acrostichi causa</hi>
+                     </note> transmeat ad polica,</l>
+                  <l> Agmina iam uidet angelica,</l>
+                  <l> Gaudia cum quibus almifica</l>
+                  <l> Perpetuo meritis habeat.</l>
+                  <l>
+                     <emph>M</emph>artirio dedit articulos,</l>
+                  <l> Curriculos spreuit<note type="apparatus" resp="#BL" xml:id="ftn19"
+                        place="foot" n="19"> spreuit ] spuit <bibl>IS 502</bibl>
+                     </note> aureolos,</l>
+                  <l> Omnia carnis et illicita</l>
+                  <l> Funditus expulit ut uacua.</l>
+                  <l>
+                     <emph>P</emph>irgica<note type="apparatus" resp="#BL" xml:id="ftn20"
+                        place="foot" n="20"> Pirgica ] Pyrgia<hi rend="italic">IS 502</hi>
+                     </note> uerba phylosophica</l>
+                  <l> Ventilat, astruit et reputat,</l>
+                  <l> Disputat, inicit atque probat,</l>
+                  <l> Arte politus apostolica.</l>
+                  <l>
+                     <emph>A</emph>bdita scripta theologica<note type="apparatus" resp="#BL"
+                        xml:id="ftn21" place="foot" n="21"> theologica ] theologico <bibl>IS 502</bibl>
+                     </note>,</l>
+                  <l> Phisica, protulit armario</l>
+                  <l> Pirgus<note type="apparatus" resp="#BL" xml:id="ftn22" place="foot" n="22">
+                        Pirgus ] Pinguis <bibl>AH 203</bibl>
+                     </note> et in ratione procax</l>
+                  <l> Incipit et trutinans memorat.</l>
+                  <l>
+                     <emph>R</emph>ethoricum<note type="apparatus" resp="#BL" xml:id="ftn23"
+                        place="foot" n="23"> Rethoricum ] Rethoricam, <bibl>AH 203</bibl>
+                     </note> Ciceronis opus</l>
+                  <l> Primitus obicit ut <milestone unit="page" n="375v"/> pocius,</l>
+                  <l> Hinc reserans ubi<note type="apparatus" resp="#BL" xml:id="ftn24" place="foot"
+                        n="24"> ubi ] tibi <bibl>AH 203</bibl>
+                     </note> templa Deus,</l>
+                  <l> Ad species generale genus.</l>
+                  <l>
+                     <emph>I</emph>nde parat nois<note type="apparatus" resp="#BL" xml:id="ftn25"
+                        place="foot" n="25"> nois ] (<hi rend="italic">pro "nous"</hi>); nominis <bibl>IS 502</bibl>
+                     </note> Argolicum,</l>
+                  <l> Dans laqueum sibi sillogicum,</l>
+                  <l> Vt triplicet Deitatis opus,</l>
+                  <l> Quo uiget ecclesiale decus.</l>
+                  <l>
+                     <emph>S</emph>piritus ancipiti gladio </l>
+                  <l> Dompnius armiger haut<note type="apparatus" resp="#BL" xml:id="ftn26"
+                        place="foot" n="26"> haut ] haud <bibl>AH 203</bibl>,<bibl> IS 502</bibl>
+                     </note> timidus</l>
+                  <l> Platonicos reuocat<note type="apparatus" resp="#BL" xml:id="ftn27"
+                        place="foot" n="27"> Platonicos reuocat ] Plantificos revocans <bibl>IS 502</bibl>
+                     </note> gemitus,</l>
+                  <l> Proterit orrificos<note type="apparatus" resp="#BL" xml:id="ftn28"
+                        place="foot" n="28"> Proterit orrificos ] Protexit horrificos <bibl>IS 502</bibl>
+                     </note> strepitus.</l>
+                  <l>
+                     <emph>I</emph>n Deitate gradus uarios,</l>
+                  <l> Non reserans minus haut nimios,<note type="apparatus" resp="#BL"
+                        xml:id="ftn29" place="foot" n="29"> Non reserans minus haut nimios] <hi
+                           rend="italic">ex </hi>ninimios <hi rend="italic">corr. scriba</hi> (<hi
+                           rend="italic">"ni-" in ras.?</hi>); Non reserans minus haud nimios <bibl>AH 203</bibl>; Non referas minus, aut nimios <bibl>IS 502</bibl>
+                     </note>
+                  </l>
+                  <l> Nam Deitatis honor parilis</l>
+                  <l> Semper adest, fuit et fuerit<note type="apparatus" resp="#BL" xml:id="ftn30"
+                        place="foot" n="30"> fuerit ] fuerat <bibl>IS 502</bibl>
+                     </note>.</l>
+                  <l>
+                     <emph>V</emph>nde sophistica dicta fugat,</l>
+                  <l> Perfida contudit<note type="apparatus" resp="#BL" xml:id="ftn31" place="foot"
+                        n="31"> contudit ]<hi rend="italic">ex</hi> cumtundit <hi rend="italic"
+                           >corr. AH 203 </hi>(cum tundit <hi rend="italic">ibid. app. crit</hi>.);
+                        contudit <bibl>IS 502</bibl>
+                     </note> et iaculat,</l>
+                  <l> Pirgus at inde nichil<note type="apparatus" resp="#BL" xml:id="ftn32"
+                        place="foot" n="32"> at inde nichil ]<hi rend="italic">ex </hi>at nichil
+                        inde <hi rend="italic">corr.</hi>
+                        <bibl>AH 203</bibl> (metri causa); ut inde nihil <bibl>IS 502</bibl>
+                     </note> ualuit,</l>
+                  <l> Namque perire magis placuit.</l>
+                  <l>
+                     <emph>S</emph>ancte pater, pie pastor ouans,</l>
+                  <l> Ierusalem polis etheriam<note type="apparatus" resp="#BL" xml:id="ftn33"
+                        place="foot" n="33"> etheriam ] aetheream <bibl>AH 203</bibl> ║
+                        Ierusalem polis etheriam ] Hierusalem colis aetheream <bibl>IS
+                           502</bibl>
+                     </note>
+                  </l>
+                  <l> Attribue famulis patriam,</l>
+                  <l> Celica gaudia quo teneant<note type="apparatus" resp="#BL" xml:id="ftn34"
+                        place="foot" n="34"> teneant ] teneat <bibl>IS 502</bibl>
+                     </note>.</l>
+                  <l>Gloria multiplicata patri</l>
+                  <l> Laus sit et<note type="apparatus" resp="#BL" xml:id="ftn35" place="foot"
+                        n="35"> et ]<hi rend="italic">deest in IS 502</hi>
+                     </note> Hemanuel Domino,</l>
+                  <l> Spiritui<note type="apparatus" resp="#BL" xml:id="ftn36" place="foot" n="36">
+                        Spiritui ]<hi rend="italic">ex</hi> Spirituique<hi rend="italic"> corr. AH
+                           203 </hi>(Spirituique <hi rend="italic">ibid. app. crit.</hi>)</note>
+                     decus atque Sacro, </l>
+                  <l> Qui monos atque trinus Deus est.<note type="apparatus" resp="#BL"
+                        xml:id="ftn37" place="foot" n="37"> Qui monos atque trinus Deus est ]<hi
+                           rend="italic">corr. ex</hi> Qui monos id quod in est decus est; Qui modo
+                        id, quod erat, Deus est <bibl>AH 203
+                        </bibl> (Quimo nos id quod in est decus est <hi rend="italic">ibid. app.
+                           crit.</hi>); Qui monos atque trinus Deus est <bibl>IS
+                           502</bibl>
+                     </note>
+                  </l>
+                  <p>Amen.</p>
+               </div>
+               <div type="prosa-versiculus">
+                  <head> Versiculus </head>
+                  <p>Ora pro nobis, Beate Dompnii. </p>
+               </div>
+               <div type="prosa-responsorium">
+                  <head> Responsorium </head>
+                  <p>Vt digni efficiamur promissionibus Christi.<note type="apparatus" resp="#BL"
+                        xml:id="ftn38" place="foot" n="38"> Responsorium… Christi ]<hi rend="italic"
+                           >deest in AH</hi>, <bibl>IS</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head> Ad <q>Magnificat</q> antiphona </head>
+                  <l>O quam sancta dies, o quam festiua refulget, </l>
+                  <l>Viribus, o, totis castis celebrandaque uotis, </l>
+                  <l>Qua bonitate bonus noster meat astra patronus </l>
+                  <l> Dompnius<note type="apparatus" resp="#BL" xml:id="ftn39" place="foot" n="39">
+                        Dompnius ]<hi rend="italic">corr. ex</hi> Dompnus</note> ad uite gaudia
+                     perpetue. </l>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Magnificat<note type="apparatus" resp="#BL" xml:id="ftn40" place="foot" n="40">
+                        <bibl>(Lc 1,46-55)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="prosa-oratio">
+                  <head> Oratio </head>
+                  <p>Omnipotens senpiterne Deus, ecclesie tue uotis propiciatus<note
+                        type="apparatus" resp="#BL" xml:id="ftn41" place="foot" n="41"> propiciatus
+                        ] propitius <bibl>IS 505</bibl>
+                     </note> aspira, ut Beati Dompnii pontificis et martiris tui meritis<note
+                        xml:id="ftn42" place="foot" n="42"> meritis ] precibus<hi rend="italic">IS
+                           505</hi>
+                     </note> adiuuemur, cuius natalicia<note type="apparatus" resp="#BL"
+                        xml:id="ftn43" place="foot" n="43"> natalicia ] natalitium<hi rend="italic"
+                           >IS 505</hi>
+                     </note> celebramus. Per Dominum nostrum etc.<note type="apparatus" resp="#BL"
+                        xml:id="ftn44" place="foot" n="44"> Per Dominum etc. ] Per<hi rend="italic"
+                           >V </hi>(<hi rend="italic">supplevi ex</hi>
+                        <bibl>IS 505</bibl>) </note>
+                  </p>
+               </div>
+            </div>
+
+            <div>
+               <head><add resp="#BL">PRIMVM NOCTVRNVM</add></head>
+               <p>In Primo Nocturno ymnum <q>Laudes eximias</q> require in fine istius libri.<note
+                     type="apparatus" resp="#BL" xml:id="ftn45" place="foot" n="45"> In… libri ]<hi
+                        rend="italic">scriba add. in marg. dextr.; deest in AH 21</hi>
+                  </note>
+               </p>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Morte triumphali superatis morsibus anguis </l>
+                  <l>Christus ad excelsi<note type="apparatus" resp="#BL" xml:id="ftn46"
+                        place="foot" n="46"> excelsi ] celsi <bibl>AH 21</bibl>
+                     </note> remeauit culmina celi. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Beatus uir<note type="apparatus" resp="#BL" xml:id="ftn47" place="foot" n="47">
+                        <bibl>(Ps 1)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Cetus apostolicus, Diuino lacte potatus<note type="apparatus" resp="#BL"
+                        xml:id="ftn48" place="foot" n="48"> potatus ]<hi rend="italic">ex</hi>
+                        potitus <hi rend="italic">corr.</hi>
+                        <bibl>AH 21</bibl>
+                     </note>,</l>
+                  <l>Diuiditur multis diuersis partibus orbis.</l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Quare fremuerunt<note type="apparatus" resp="#BL" xml:id="ftn49" place="foot"
+                        n="49">
+                        <bibl>(Ps 2)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Ad Petrus<note type="apparatus" resp="#BL" xml:id="ftn50" place="foot" n="50">
+                        Ad Petrus ] At Petrus<hi rend="italic">AH 21 </hi>(Ad Petrus<hi
+                           rend="italic"> ibid. app. crit.</hi>) </note>, ecclesia<note
+                        type="apparatus" resp="#BL" xml:id="ftn51" place="foot" n="51"> ecclesia
+                           ]<hi rend="italic">corr. ex</hi> ecclesie</note> prelatus in Antiocena, </l>
+                  <l>Multas uirtutes faciebat<note type="apparatus" resp="#BL" xml:id="ftn52"
+                        place="foot" n="52"> faciebat]<hi rend="italic">conieci </hi>(<hi
+                           rend="italic">verbum vix legi potest</hi>); fecit ac <hi rend="italic">AH
+                           21</hi>
+                     </note> dando salutes, </l>
+                  <l>Pluribus egrotis tenebris a corde remotis.</l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Cum inuocarem te<note type="apparatus" resp="#BL" xml:id="ftn53" place="foot"
+                        n="53">
+                        <bibl>(Ps 4)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="prosa-versiculus">
+                  <head> Versiculus </head>
+                  <p>Ora pro nobis</p>
+               </div>
+               <div type="prosa-lectio">
+                  <head> Lectio <num>I</num>.</head>
+                  <p>Passio Sancti Dompnii pontificis et martiris<note type="apparatus" resp="#BL"
+                        xml:id="ftn54" place="foot" n="54"> Passio… martiris ] Passio Sancti Domnii
+                        martyris archiepiscopi Salonitani<hi rend="italic">M</hi>
+                     </note>
+                  </p>
+                  <p>Hic uir cum esset natione Syrus, nomine Theodosius,<note type="apparatus"
+                        resp="#BL" xml:id="ftn55" place="foot" n="55"> nomine Theodosius]<hi
+                           rend="italic">scriba add. in marg. inf.</hi>;<hi rend="italic">
+                           deest</hi>
+                        <hi rend="italic">in M</hi>, <bibl>IS 420 </bibl>(nomine Theodosium <hi
+                           rend="italic">habet</hi>
+                        <hi rend="italic">IS 420 in sententia praecedenti</hi>)</note> nobilissimis
+                     utique <milestone unit="page" n="376r"/> ortus natalibus, accepit coniugem
+                     nomine Migdoniam, Grecis parentibus, alta itidem<note type="apparatus"
+                        resp="#BL" xml:id="ftn56" place="foot" n="56"> itidem ] identidem<hi
+                           rend="italic">M</hi>,<hi rend="italic"> IS 420</hi>
+                     </note> genitam prosapia, ex qua elegantis forme puerum genuit, cui
+                        Dompnius<note type="apparatus" resp="#BL" xml:id="ftn57" place="foot" n="57"
+                        > Dompnius] Domnio <hi rend="italic">M</hi>
+                     </note> nomen inposuit.</p>
+               </div>
+               <div type="poesis-responsorium" met="hexameter-leoninus">
+                  <head>Responsorium </head>
+                  <l>Cum plebs innumera, simul ut miracula uera </l>
+                  <l>Viseret, afflueret, seu quod magis inde uigeret, </l>
+                  <l>Contigit, accessit Theodosius, acola<note type="apparatus" resp="#BL"
+                        xml:id="ftn58" place="foot" n="58"> acola ] accola<hi rend="italic">AH
+                           21</hi>
+                     </note> ciuis, </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="prosa-versiculus">
+                  <head> Versiculus </head>
+                  <p>Nobilitate cluens, operum uirtute <add resp="#BL">re</add>fulgens<note
+                        type="apparatus" resp="#BL" xml:id="ftn59" place="foot" n="59"> suppl.
+                           <bibl>AH 21</bibl>
+                     </note>. </p>
+                  <p>Accessit <add>Theodosius, acola ciuis</add>.</p>
+               </div>
+               <div type="prosa-lectio">
+                  <head> Lectio <num>II</num>.</head>
+                  <p>Familia eius erat <add resp="#BL">multa</add><note type="apparatus" resp="#BL"
+                        xml:id="ftn60" place="foot" n="60"> multa ]<hi rend="italic">suppl. ex</hi>
+                        <bibl>M</bibl>, <bibl>IS 420</bibl>
+                     </note> nimis, possessio auri et argenti infinita, prediorum pars aliquantula,
+                     quorumcumque animalium aptorum<note type="apparatus" resp="#BL" xml:id="ftn61"
+                        place="foot" n="61"> aptorum ]<hi rend="italic">M</hi>; aptuum <hi
+                           rend="italic">V</hi>
+                     </note> usui hominum habundancia magna.</p>
+               </div>
+               <div type="poesis-responsorium" met="hexameter-leoninus">
+                  <head>Responsorium </head>
+                  <l>Hic Danae genti<note type="apparatus" resp="#BL" xml:id="ftn62" place="foot"
+                        n="62"> genti ] geniti <bibl>AH 21</bibl>
+                     </note> generose prolis habenti </l>
+                  <l>Natam seiuncxit<note type="apparatus" resp="#BL" xml:id="ftn63" place="foot"
+                        n="63"> seiuncxit ] se iunxit <bibl>AH 21</bibl>; duxit <bibl>Marshall p. 178</bibl>
+                     </note>, quam more suo sibi duxit<note type="apparatus" resp="#BL"
+                        xml:id="ftn64" place="foot" n="64"> duxit ] iunxit <bibl>AH
+                           21</bibl>
+                     </note>, </l>
+                  <l>Qua sobolem<note type="apparatus" resp="#BL" xml:id="ftn65" place="foot" n="65"
+                        > sobolem ] subolem <bibl>AH 21</bibl>
+                     </note> genuit, cui nomen<note type="apparatus" resp="#BL" xml:id="ftn66"
+                        place="foot" n="66"> cui nomen]<hi rend="italic">conieci ex Lectione I</hi>;
+                           <hi rend="italic">post</hi> genuit <hi rend="italic">aliquot litteras
+                           </hi>(<hi rend="italic">fortasse </hi>nci) <hi rend="italic">habet
+                        V</hi>; …cia <bibl>AH 21</bibl>
+                     </note> Dompnius indit<note type="apparatus" resp="#BL" xml:id="ftn67"
+                        place="foot" n="67"> indit]<hi rend="italic">conieci</hi>; inquid <bibl>V</bibl>; inquit <bibl>AH 21</bibl>
+                     </note>, </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="poesis-versiculus" met="hexameter-leoninus">
+                  <head> Versiculus </head>
+                  <l>Prestanti forma, sed Christi postea norma. </l>
+                  <l>Qua <add resp="#BL">sobolem genuit, cui nomen Dompnius indit.</add></l>
+               </div>
+               <div type="prosa-lectio">
+                  <head>Lectio <num>III</num>.</head>
+                  <p>Et licet gentilitatis erroribus adhuc detentus, boni Christiani tamen exercebat
+                     opus. Docebat<note type="apparatus" resp="#BL" xml:id="ftn68" place="foot"
+                        n="68"> Docebat ] Docebat suos<hi rend="italic">M</hi>,<hi rend="italic"> </hi>
+                        <hi rend="italic">IS 420</hi>
+                     </note> non amare rapinam, non furta, non adulteria uel quicquid bone fame
+                     contrarium foret<note type="apparatus" resp="#BL" xml:id="ftn69" place="foot"
+                        n="69"> foret ]<hi rend="italic">deest in M</hi>,<hi rend="italic"> IS
+                           420</hi>
+                     </note>.</p>
+               </div>
+               <div type="poesis-responsorium" met="hexameter-leoninus">
+                  <head>Responsorium </head>
+                  <l>Quippe suus genitor uelud almis cultibus auctor</l>
+                  <l>Munere nature uite spirando future </l>
+                  <l>Ad Dominum saltus dabat et gentiliter altus, </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="poesis-versiculus" met="hexameter-leoninus">
+                  <head> Versiculus:</head>
+                  <l>Qui fons est uite cunctis sine fine petende. </l>
+                  <l>Ad Dominum <add resp="#BL">saltus dabat et gentiliter altus</add>.</l>
+               </div>
+            </div>
+            <div>
+               <head><add resp="#BL">SECVNDVM NOCTVRNVM</add></head>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head> In <abbr>IIo</abbr> Nocturno antiphona </head>
+                  <l>Predicat ut plebi uerbum Petrus ore tonanti, </l>
+                  <l>Audiit attentus neque mundi compede tentus </l>
+                  <l>Discipulum Christi petiit sub tempore noctis. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Verba mea<note type="apparatus" resp="#BL" xml:id="ftn70" place="foot" n="70">
+                        <bibl>(Ps 5)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Cuius doctrina rutilans pietate<note type="apparatus" resp="#BL" xml:id="ftn71"
+                        place="foot" n="71"> rutilans<hi rend="italic"> </hi>pietate ] <hi
+                           rend="italic">V</hi>, <hi rend="italic">AH 21</hi>; <hi rend="italic"
+                           >fortasse legendum </hi>rutilante pietate <hi rend="italic">cum synizesi,
+                           ut sensus et metrum indicant</hi>
+                     </note> superna</l>
+                  <l>Credidit in Christo deuota mente sequendo. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Domine dominus noster<note type="apparatus" resp="#BL" xml:id="ftn72"
+                        place="foot" n="72">
+                        <bibl>(Ps 8)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Vt fidei lauacrum tangens spreuit simulacrum,</l>
+                  <l>Dompnius et mater fiunt pariterque fideles. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>In Domino confido<note type="apparatus" resp="#BL" xml:id="ftn73" place="foot"
+                        n="73">
+                        <bibl>(Ps 10)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-versiculus" met="rhythmus">
+                  <head>Versiculus</head>
+                  <l>Sancti et iusti in Domino gaudete.</l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="prosa-responsorium">
+                  <head>Responsorium </head>
+                  <p>Vos elegit Dominus in eternitatem<note type="apparatus" resp="#BL"
+                        xml:id="ftn74" place="foot" n="74"> eternitatem ]<hi rend="italic">corr. ex
+                        </hi>eterditatem </note> sibi.</p>
+                  <p>Alleluya</p>
+               </div>
+               <div type="prosa-lectio">
+                  <head>Lectio quarta</head>
+                  <p>Compaciens cunctis uiduas et orphanos consolabatur, fraudem sociis committere
+                     ac si toxicum uitabat multaque id genus, quibus facile<note type="apparatus"
+                        resp="#BL" xml:id="ftn75" place="foot" n="75"> facile ]<hi rend="italic"
+                           >M</hi>; facilem <bibl>V</bibl>
+                     </note> nostris temporibus<note type="apparatus" resp="#BL" xml:id="ftn76"
+                        place="foot" n="76"> nostris temporibus ] nostri temporis<hi rend="italic"
+                           >M</hi>, <bibl>IS 420</bibl>
+                     </note> Christianos superaret.</p>
+               </div>
+               <milestone unit="page" n="376v"/>
+               <div type="poesis-responsorium" met="hexameter-leoninus">
+                  <head> Responsorium </head>
+                  <l>
+                     <emph>A</emph>urea gemma solo, sydus radiabilis celo,</l>
+                  <l>
+                     <emph>D</emph>ompni<note type="apparatus" resp="#BL" xml:id="ftn77"
+                        place="foot" n="77"> Dompni ]<hi rend="italic">corr. ex</hi> Domni</note>,
+                     qui resides, quem tulit<note type="apparatus" resp="#BL" xml:id="ftn78"
+                        place="foot" n="78"> tulit ]<hi rend="italic">ex </hi>tullit <hi
+                           rend="italic">corr. AH 21 </hi>
+                     </note> alma fides, </l>
+                  <l>
+                     <emph>A</emph>uxiliare tuis solita pietate ministris,</l>
+               </div>
+               <div type="poesis-versiculus" met="hexameter-leoninus">
+                  <head>Versiculus </head>
+                  <l>
+                     <emph>M</emph>agnificare tua ualeant ut festa per hetra<note type="apparatus"
+                        resp="#BL" xml:id="ftn79" place="foot" n="79"> hetra ]<hi rend="italic"
+                           >corr. ex</hi> hetera; aethra <hi rend="italic">AH 21</hi>
+                     </note>. </l>
+                  <l>Auxiliare <add resp="#BL">tuis solita pietate ministris.</add></l>
+               </div>
+               <div type="prosa-lectio">
+                  <head>Lectio quinta</head>
+                  <p>Antiocenis uero in fide catholica pleniter instructis, beatus apostolus uiros
+                     orthodoxos, qui credentibus prehesent, ibidem ordinauit; ipse quidem Romam
+                     tocius orbis monarchiam per Spiritum Sanctum adire<note type="apparatus"
+                        resp="#BL" xml:id="ftn80" place="foot" n="80"> adire ]<bibl>M</bibl>,
+                           <bibl>IS 420</bibl>; audire <bibl>V</bibl>
+                     </note> iusus est.</p>
+               </div>
+               <div type="poesis-responsorium" met="hexameter-leoninus">
+                  <head>Responsorium </head>
+                  <l>Qui puer etate, sed mentis nobilitate </l>
+                  <l>Celsus, apostolicis copulauit se documentis, </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="poesis-versiculos" met="hexameter-leoninus">
+                  <head>Versiculus</head>
+                  <l>Potans a puero uomuit que postea mundo. </l>
+                  <l>Apostolicis <add resp="#BL">copulauit se documentis</add>.</l>
+               </div>
+               <div type="prosa-lectio">
+                  <head>Lectio <num>VI</num></head>
+                  <p>Dixit Beatus Petrus.<note type="apparatus" resp="#BL" xml:id="ftn81"
+                        place="foot" n="81"> Dixit Beatus Petrus ]<hi rend="italic">deest in</hi>
+                        <hi rend="italic">M</hi>,<hi rend="italic"> IS 421</hi>
+                     </note> Dompnio uero, multis coram positis, dixit: Ecce, filii, ab infancia tua
+                     mecum ingressus et egressus es, omnem doctrinam catholicam et apostolicam
+                     didicisti. Tempus est ut talentum tibi creditum erogare debeas et multos ad
+                     saluationem pertraas.</p>
+               </div>
+               <div type="poesis-responsorium" met="hexameter-leoninus">
+                  <head>Responsorium </head>
+                  <l>Iam fidei plenus studio Petrus Antiocenus</l>
+                  <l>Iusus est<note type="apparatus" resp="#BL" xml:id="ftn82" place="foot" n="82">
+                        Iusus est ] Visus (est) <bibl>AH 21</bibl>
+                     </note> adire Romam gestorum laude sonora&lt;m&gt;<note type="apparatus"
+                        resp="#BL" xml:id="ftn83" place="foot" n="83">
+                        <hi rend="italic">suppl. AH 21</hi>
+                     </note>, </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="poesis-versiculus" met="hexameter-leoninus">
+                  <head>Versiculus</head>
+                  <l>Luceat ut princeps a prima luce deinceps.</l>
+                  <l>Visus <add resp="#BL">est adire Romam gestorum laude sonoram</add>.</l>
+               </div>
+            </div>
+            <div>
+               <head><add resp="#BL">TERTIVM NOCTVRNVM</add></head>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head> In <abbr>IIIo</abbr> Nocturno antiphona </head>
+                  <l>Dompnius a seniore Petro suadente magistro </l>
+                  <l>Venit Dalmaciam, Domino ducente, Salonam.</l>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Domine <add resp="#BL">quis</add> h<add resp="#BL">ab</add>itabit<note
+                        type="apparatus" resp="#BL" xml:id="ftn84" place="foot" n="84">
+                        <bibl>(Ps 14)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona </head>
+                  <l>Semina diuina spargens ubi uoce benigna, </l>
+                  <l>Purificat, mundat plures baptismatis unda. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Domine in uirtute<note type="apparatus" resp="#BL" xml:id="ftn85" place="foot"
+                        n="85">
+                        <bibl>(Ps 20)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Mox quibus ablutis capiendo uerba salutis, </l>
+                  <l>Corda maligna tamen conclamant pseudouatem.</l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Domini est terra<note type="apparatus" resp="#BL" xml:id="ftn86" place="foot"
+                        n="86">
+                        <bibl>(Ps 23)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="prosa-versiculus">
+                  <head>Versiculus</head>
+                  <p>Leticia senpiterna super capita sanctorum</p>
+                  <p>Alleluya</p>
+               </div>
+               <div type="prosa-responsorium">
+                  <head>Responsorium </head>
+                  <p>Gaudium optinebunt.</p>
+                  <p>Alleluya</p>
+               </div>
+               <div type="prosa-lectio">
+                  <head>Lectio <num>VII</num>.</head>
+                  <p>Pete litus maris Adriatici et recto cursu<note type="apparatus" resp="#BL"
+                        xml:id="ftn87" place="foot" n="87"> recto cursu ] recto cursu a Gargano
+                           monte <bibl>M </bibl>(a Gargano monte <hi rend="italic">scriba
+                           post </hi>cursu <hi rend="italic">suprascripsit</hi>),<hi rend="italic">
+                           IS 421</hi>
+                     </note> contra boream trans mare uectus uenies<note type="apparatus" resp="#BL"
+                        xml:id="ftn88" place="foot" n="88"> uenies ]<bibl>M</bibl>, <bibl> IS 421</bibl>; ueniens <bibl>V</bibl>
+                     </note> in Dalmaciam, que per te non post multos annos Christo creditura est.
+                     Vade, pax Dei sit tecum.</p>
+               </div>
+               <div type="poesis-responsorium" met="hexameter-leoninus">
+                  <head> Responsorium </head>
+                  <l>Dum trait<note type="apparatus" resp="#BL" xml:id="ftn89" place="foot" n="89">
+                        trait ] trahit <bibl> AH 21</bibl>
+                     </note> a morbis dominam, que dicitur, orbis, </l>
+                  <l>Discipulos mittit lati per climata mundi,</l>
+                  <p>Alleluya </p>
+               </div>
+               <div type="poesis-versiculus" met="hexameter-leoninus">
+                  <head> Versiculus </head>
+                  <l>Ecclesie natos pariant<note type="apparatus" resp="#BL" xml:id="ftn90"
+                        place="foot" n="90"> pariant ]<hi rend="italic">ex </hi>periant <hi
+                           rend="italic">corr.</hi>
+                        <hi rend="italic">AH 21</hi>
+                     </note> quo multiplicatos. </l>
+                  <l>Disci<add resp="#BL">pulos mittit lati per climata mundi.</add></l>
+               </div>
+               <div type="prosa-lectio">
+                  <head>Lectio <num>VIII</num>.</head>
+                  <p>Sacerdotes itaque templorum uidentes supersticionis sue discrimen fieri, omnes
+                     maiores natu, uel quorum auctoritas pollebat, in pretorium<note
+                        type="apparatus" resp="#BL" xml:id="ftn91" place="foot" n="91">
+                           pretorium] <bibl>M</bibl>; petorium <bibl>V</bibl>
+                     </note> pariter congregati sunt et data pecunia prefecto suggesserunt ei: Non
+                     consideras quoniam magus hic prestigiis suis seducens populum tibi quoque, nisi
+                     caueris, maximum conflat detrimentum<note type="apparatus" resp="#BL"
+                        xml:id="ftn92" place="foot" n="92"> detrimentum ] detrimentum et certum
+                           interitum <bibl>M</bibl>, <bibl>IS 422</bibl>
+                     </note>? Nam si eius uite peperceris<note type="apparatus" resp="#BL"
+                        xml:id="ftn93" place="foot" n="93"> peperceris] <bibl>M</bibl>,<hi
+                           rend="italic"> IS 422</hi>; perceperis <bibl>V</bibl>
+                     </note>, populum usque quaque subuertentis, senatusque populus<note
+                        type="apparatus" resp="#BL" xml:id="ftn94" place="foot" n="94"> senatusque
+                        populus ] senatus populusque <bibl>M</bibl>, <bibl> IS
+                           422</bibl>
+                     </note> Romanus iudicabunt te con<milestone unit="page" n="377r"/>trarium
+                     legibus Augustorum et donabunt te proscriptioni et morti, nec erit qui possit
+                     succurrere tibi.</p>
+               </div>
+               <div type="poesis-responsorium" met="hexameter-leoninus">
+                  <head>Responsorium </head>
+                  <l>Pirgus ad hec tumidus dialectico turbine fixus </l>
+                  <l>Obstitit atque fidem sibi dando<note type="apparatus" resp="#BL" xml:id="ftn95"
+                        place="foot" n="95"> dando ] draco <bibl>AH 21</bibl>
+                     </note> colorat eandem,</l>
+               </div>
+               <div type="poesis-versiculus" met="hexameter-leoninus">
+                  <head>Versiculus </head>
+                  <l>Cesset ut athleta, Iesu ne uinea crescat. </l>
+                  <l>Sibi <add resp="#BL">dando colorat eandem.</add></l>
+               </div>
+               <div type="prosa-lectio">
+                  <head>Lectio nona</head>
+                  <p>Tunc Maurilius donis obcecatus ac<note type="apparatus" resp="#BL"
+                        xml:id="ftn96" place="foot" n="96"> ac] <bibl>V</bibl>, <hi
+                           rend="italic"> M</hi>; et <bibl>IS
+                           422</bibl>
+                     </note> peruersis seductus<note type="apparatus" resp="#BL" xml:id="ftn97"
+                        place="foot" n="97"> seductus] <bibl>M</bibl>, <bibl>
+                           IS 422</bibl>; eductus <bibl>V</bibl>
+                     </note> consiliis, firmato in malo<note type="apparatus" resp="#BL"
+                        xml:id="ftn98" place="foot" n="98"> malo ] malum <bibl>M</bibl>,<bibl> IS 422</bibl>
+                     </note> animo dedit legem: Dompnium contrarium legibus imperatorum,
+                     contemptorem deorum, iubemus capitalem subire sentenciam. Mox lictores eum
+                     apprehensum extra ciuitatem, ut decollaretur, eduxerunt. Vbi cum diu in
+                     oratione genu flexo procubuisset, unus ex ministris Sathane impetu facto
+                     amputauit capud<note type="apparatus" resp="#BL" xml:id="ftn99" place="foot"
+                        n="99"> capud ] caput<hi rend="italic">M</hi>,<hi rend="italic"> IS 422</hi>
+                     </note> eius die nonas<note type="apparatus" resp="#BL" xml:id="ftn100"
+                        place="foot" n="100"> nonas ] Nonarum<hi rend="italic">M</hi>,<hi
+                           rend="italic"> IS 422</hi>
+                     </note> Maiarum. Christiani uero colligentes eadem nocte corpus eius ipso
+                        in<note type="apparatus" resp="#BL" xml:id="ftn101" place="foot" n="101">
+                        ipso in ] in ipso<hi rend="italic">M</hi>,<hi rend="italic"> IS 422</hi>
+                     </note> loco quo decollatus est sepelierunt illud et post non multos annos,
+                     cessante persecutione, transtulerunt illud intra muros in ecclesia<note
+                        type="apparatus" resp="#BL" xml:id="ftn102" place="foot" n="102"> ecclesia ]
+                           ecclesiam<hi rend="italic">M</hi>,<hi rend="italic"> IS 422</hi>
+                     </note> Sancte Dei genitricis et Virginis Marie,<note type="apparatus"
+                        resp="#BL" xml:id="ftn103" place="foot" n="103">
+                        <hi rend="italic">Post</hi> Marie, <hi rend="italic">verba: </hi>quam
+                        superius a fidelibus memoravimus constructam esse, <hi rend="italic">habent
+                           M</hi>,<hi rend="italic"> IS 422</hi>
+                     </note> ubi Dominus per eum multas uirtutes operatus est.</p>
+               </div>
+               <div type="poesis-responsorium" met="hexameter-leoninus">
+                  <head>Responsorium </head>
+                  <l>Set<note type="apparatus" resp="#BL" xml:id="ftn104" place="foot" n="104"> Set
+                        ] Sed <bibl>AH 21</bibl>
+                     </note> ne cathegoricus palma letetur iniquus, </l>
+                  <l>Doctorum doctor uires parat ille ministro<note type="apparatus" resp="#BL"
+                        xml:id="ftn105" place="foot" n="105"> ministro ]<hi rend="italic">ex</hi>
+                        ministros <hi rend="italic">corr.</hi>
+                        <bibl>AH 21 </bibl>
+                     </note>, </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="poesis-versiculus" met="hexameter-leoninus">
+                  <head>Versiculus</head>
+                  <l>Cui dicit<note type="apparatus" resp="#BL" xml:id="ftn106" place="foot" n="106"
+                        > Cui dicit ]<hi rend="italic">ex</hi> Qui dixit <hi rend="italic">corr. AH
+                           21</hi>
+                     </note>: Os aperi, per me quod scito repleri. </l>
+                  <l>Doctorum <add resp="#BL">doctor uires parat ille ministro.</add></l>
+               </div>
+            </div>
+            <div>
+               <head><add resp="#BL">LAVDES</add></head>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head> Ad Laudes <note type="apparatus" resp="#BL" xml:id="ftn107" place="foot"
+                        n="107"> Ad laudes ] In laudibus<hi rend="italic">AH 21</hi>
+                     </note> antiphona </head>
+                  <l>Cum pius athleta mundi fugit omnia leta,</l>
+                  <l>Martirii palmam Deus hunc inuitat ad almam. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Dominus regnauit<note type="apparatus" resp="#BL" xml:id="ftn108" place="foot"
+                        n="108">
+                        <bibl>(Ps 92)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Namque sacerdotes, Christum uenerantibus hostes, </l>
+                  <l>Maurilium quendam precio<add resp="#BL">que et</add><note type="apparatus"
+                        resp="#BL" xml:id="ftn109" place="foot" n="109">
+                        <hi rend="italic">suppl. AH 21</hi>
+                     </note> munere parant. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Iubilate<note type="apparatus" resp="#BL" xml:id="ftn110" place="foot" n="110">
+                        <bibl>(Ps 99)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Rome prefectus, qui demonis arthe refertus, </l>
+                  <l>Aurum spernentem neque sacrificare uolentem</l>
+                  <l>Discipulum Christi permultat uerbere tristi. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Deus, Deus<note type="apparatus" resp="#BL" xml:id="ftn111" place="foot"
+                        n="111">
+                        <bibl>(Ps 62)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Christicole plures clamant pie compacientes: </l>
+                  <l>Cur pereat seue qui predicat omnia uere?</l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Benedicite<note type="apparatus" resp="#BL" xml:id="ftn112" place="foot"
+                        n="112">
+                        <bibl>(Dn 3,57 -88, 56)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>Antiphona</head>
+                  <l>Preses ad hec motus, nullo moderamine fotus, </l>
+                  <l>Hos<note type="apparatus" resp="#BL" xml:id="ftn113" place="foot" n="113"> Hos
+                           ]<hi rend="italic">ex</hi> His <hi rend="italic">corr. AH 21</hi>
+                     </note> nouies quinque super ethera detulit ense. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Laudate<note type="apparatus" resp="#BL" xml:id="ftn114" place="foot" n="114">
+                        <bibl>(Ps 148)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="prosa">
+                  <p>
+                     <q>Capitulum</q> et breue <q>Responsorium</q> require in festiuitatis pompa
+                     suprascripta</p>
+               </div>
+               <div type="poesis-hymnus" met="tetrameter-iambicus">
+                  <head>Ymnus ad Laudes</head>
+                  <l>Aurore fulgor<note type="apparatus" resp="#BL" xml:id="ftn115" place="foot"
+                        n="115"> fulgor ] fulgur <bibl>AH 204</bibl>
+                     </note> radiat,</l>
+                  <l> Iu<milestone unit="page" n="377v"/>bar Febi iam rutilat</l>
+                  <l> Cum dies festus emicat<note type="apparatus" resp="#BL" xml:id="ftn116"
+                        place="foot" n="116"> festus emicat ] festa redeat<hi rend="italic">IS
+                           503</hi>
+                     </note>
+                  </l>
+                  <l> Clara reducens gaudia.</l>
+                  <l>Dignanter psallat hodie</l>
+                  <l> Plebs tota Regi glorie</l>
+                  <l> Qui Dompnium<note type="apparatus" resp="#BL" xml:id="ftn117" place="foot"
+                        n="117"> Dompnium ]<hi rend="italic">corr. ex</hi> Domnium </note> in
+                     ethere</l>
+                  <l> Stolis ornat uictorie.</l>
+                  <l>Adleta<note type="apparatus" resp="#BL" xml:id="ftn118" place="foot" n="118">
+                        Adleta ] Athleta <bibl>AH 204</bibl>, <bibl> IS 503
+                        </bibl>
+                     </note> uenerabilis,</l>
+                  <l> Deo multum amabilis,</l>
+                  <l> Largire tuis famulis</l>
+                  <l> Bonis gaudere celicis.</l>
+                  <l>Magna sit laus Patri Deo,</l>
+                  <l> Potestas unigenito,</l>
+                  <l> Summa uirtus paraclito</l>
+                  <l> In tempore perpetuo.</l>
+                  <p>Amen</p>
+               </div>
+               <div type="prosa-versiculus">
+                  <head>Versiculus</head>
+                  <p>Ora pro nobis, <add resp="#BL">Beate</add> Dompnii,</p>
+               </div>
+               <div type="prosa-responsorium">
+                  <head> Responsorium <note type="apparatus" resp="#BL" xml:id="ftn119" place="foot"
+                        n="119"> Responsorium] <hi rend="italic">corr. ex </hi>Versiculus </note>
+                  </head>
+                  <p>Vt digni efficiamur <add resp="#BL">promissionibus Christi</add>.</p>
+               </div>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head> Ad <q>Benedictus</q> antiphona </head>
+                  <l>Pontificum norma, splendor<note type="apparatus" resp="#BL" xml:id="ftn120"
+                        place="foot" n="120"> splendor ]<hi rend="italic">ex</hi> speldor<hi
+                           rend="italic"> corr. AH 21</hi>; splendor <bibl>IS 505</bibl>
+                     </note> preciosaque gemma, </l>
+                  <l>Serta uenustatis retinens cum martiriçatis, </l>
+                  <l>Scandere celsorum da nobis regna polorum, </l>
+                  <l>Qui baratri claustris<note type="apparatus" resp="#BL" xml:id="ftn121"
+                        place="foot" n="121"> claustris ] claustro<hi rend="italic">AH 21</hi>
+                     </note> puerum precibus reuocasti<note type="apparatus" resp="#BL"
+                        xml:id="ftn122" place="foot" n="122"> reuocasti ]<hi rend="italic">ex
+                        </hi>reuocastis <hi rend="italic">corr. AH 21</hi>; revocasti <bibl> IS 505 </bibl>
+                     </note>. </l>
+                  <p>Alleluya</p>
+               </div>
+               <div type="psalmus">
+                  <head> Psalmus </head>
+                  <p>Benedictus<note type="apparatus" resp="#BL" xml:id="ftn123" place="foot"
+                        n="123">
+                        <bibl>(Lc 1,68-79)</bibl>
+                     </note>
+                  </p>
+               </div>
+               <div type="prosa">
+                  <head>
+                     <emph>Oratio</emph> ut supra in Primis Vesperis</head>
+                  <p>Infra <sic resp="#BL">scriptum</sic> ymnus dicitur ad nocturnum in festo
+                     supradicto.</p>
+               </div>
+               <div type="poesis-hymnus" met="asclepiadeum-tertium">
+                  <head> Ymnus </head>
+                  <l>
+                     <emph>L</emph>audes eximias dignaque prelia,</l>
+                  <l>Vexillum strenui militis excitat</l>
+                  <l>Pangere, psallere, cum petat<note type="apparatus" resp="#BL" xml:id="ftn124"
+                        place="foot" n="124"> cum petat ] competat <bibl>IS 502-3</bibl>
+                     </note> auream</l>
+                  <l> Fuso sanguine lauream.</l>
+                  <l>
+                     <emph>A</emph>lmo lorificans pectora spiritu,</l>
+                  <l>Adleta fidei<note type="apparatus" resp="#BL" xml:id="ftn125" place="foot"
+                        n="125"> Adleta fidei ]<hi rend="italic">corr. ex </hi>Ad leuam fidei;
+                        Athletam fidei <bibl>AH 205 </bibl>(Ad leuam fidei <hi
+                           rend="italic">ibid. app. crit.</hi>); Ad laevam Fidei <hi rend="italic"
+                           >IS 502-3</hi>
+                     </note> tegmine muniit, </l>
+                  <l>Dextram lanceola fulgida, preclua,<note type="apparatus" resp="#BL"
+                        xml:id="ftn126" place="foot" n="126"> Dextram lanceola fulgida, preclua,
+                           ]<hi rend="italic">corr. ex</hi> Dextera lanceolam fulgida preclua;
+                        Dextra lanceola fulgida praeclua <bibl>AH 205 </bibl>(Dextera <hi
+                           rend="italic">ibid. app. crit.</hi>); Dextram
+                        lanceola fulgida pectora <bibl>IS 502-3</bibl>
+                     </note>
+                  </l>
+                  <l> Spei uiribus adiuuat.</l>
+                  <l>
+                     <emph>V</emph>adit<note type="apparatus" resp="#BL" xml:id="ftn127"
+                        place="foot" n="127"> Vadit ] Adest <bibl>IS 502-3</bibl>
+                     </note> preualidus terror in hostibus, </l>
+                  <l>Nam celsus meritis preminet omnibus,</l>
+                  <l>Quem Christi pietas firmiter innouat, </l>
+                  <l> Ne miles suus excidat.</l>
+                  <l>
+                     <emph>R</emph>egi<note type="apparatus" resp="#BL" xml:id="ftn128" place="foot"
+                        n="128"> Regi ]<hi rend="italic">corr. ex </hi>Regis</note> summopere<note
+                        type="apparatus" resp="#BL" xml:id="ftn129" place="foot" n="129"> summopere
+                        ] summo opere <bibl>IS 502-3</bibl>
+                     </note> munia prebuit, </l>
+                  <l>Hostiles acies<note type="apparatus" resp="#BL" xml:id="ftn130" place="foot"
+                        n="130"> acies ]<hi rend="italic">ex </hi>accies <hi rend="italic">corr. AH
+                           205</hi>
+                     </note> undique terruit, </l>
+                  <l>Cuius presidio peruolat integer</l>
+                  <l> Centenos<note type="apparatus" resp="#BL" xml:id="ftn131" place="foot" n="131"
+                        > Centenos ]<hi rend="italic">ex </hi>Centeno <hi rend="italic">corr. AH
+                           205</hi> (Centeno <hi rend="italic">ibid. app. crit.</hi>); Centenos <hi
+                           rend="italic">IS 502-3</hi>
+                     </note> simul ordines. </l>
+                  <l>
+                     <emph>E</emph>uentus uarii non timet exitus, </l>
+                  <l>Nam cum Maurilius uerbera arcius<note type="apparatus" resp="#BL"
+                        xml:id="ftn132" place="foot" n="132"> arcius ] (<hi rend="italic">pro
+                           "artius"</hi>); acrius <bibl>AH 205</bibl>; et acria <bibl>IS 502-3</bibl>
+                     </note>
+                  </l>
+                  <l>Cordis seuicia preparat, aggerat<note type="apparatus" resp="#BL"
+                        xml:id="ftn133" place="foot" n="133"> aggerat ] aggerit <bibl>IS
+                           502-3</bibl>
+                     </note>, </l>
+                  <l> Durat, spernit et incitat.<note type="apparatus" resp="#BL" xml:id="ftn134"
+                        place="foot" n="134"> incitat ] iucitat <bibl>AH 205</bibl> errore
+                           typogr.
+                     </note>
+                  </l>
+                  <l>
+                     <emph>N</emph>am tendit superos uisere celicos, </l>
+                  <l>Percurrens stadium fortiter anxium,</l>
+                  <l>Turbat sacrilegum,<note type="apparatus" resp="#BL" xml:id="ftn135"
+                        place="foot" n="135"> Turbat sacrilegum, ] Turba sacrilegum <bibl>IS 502-3</bibl>
+                     </note> respuit ydolum, </l>
+                  <l> Vir dampnat pius impium.</l>
+                  <l>
+                     <emph>T</emph>olli Maurilius imperat occius<note type="apparatus" resp="#BL"
+                        xml:id="ftn136" place="foot" n="136"> occius ] acrius <bibl>AH 205</bibl>
+                           (arius<hi rend="italic"> ibid. app. crit.</hi>); ocius <bibl>IS
+                           502-3</bibl>
+                     </note>,</l>
+                  <l>Ad<note type="apparatus" resp="#BL" xml:id="ftn137" place="foot" n="137"> Ad ]
+                           At <bibl>AH 205</bibl>; Te, <bibl>IS 502-3</bibl>
+                     </note> Christi famulus sic petit orrida, </l>
+                  <l>Ac si delicias, carceris obsita<note type="apparatus" resp="#BL"
+                        xml:id="ftn138" place="foot" n="138"> obsita ] abdita <bibl>AH
+                           205 </bibl> (carceris obsita <hi rend="italic">ibid. app. crit.</hi>);
+                        obsita <bibl>IS 502-3</bibl>
+                     </note>
+                  </l>
+                  <l> Pre sola Ihesu gloria<note type="apparatus" resp="#BL" xml:id="ftn139"
+                        place="foot" n="139"> gloria ] gratia <bibl>IS 502-3</bibl>
+                     </note>. </l>
+                  <l>
+                     <emph>I</emph>nstaurans iterum<note type="apparatus" resp="#BL" xml:id="ftn140"
+                        place="foot" n="140"> iterum ] iter <bibl>IS 502-3</bibl>
+                     </note> prelia contumax </l>
+                  <l>Sanctum Cesareo<note type="apparatus" resp="#BL" xml:id="ftn141" place="foot"
+                        n="141"> Cesareo ] Caesar eo <bibl>AH 205</bibl>; Caesareo <bibl>IS 502-3</bibl>
+                     </note> carcere liberat</l>
+                  <l>Promittens<note type="apparatus" resp="#BL" xml:id="ftn142" place="foot"
+                        n="142"> Promittens ] Ter mittens <bibl>IS 502-3</bibl>
+                     </note> honera, ut colat ydola, </l>
+                  <l> Sed martir fugit, aurea.</l>
+                  <l>
+                     <emph>V</emph>ernans stelliuomo pastor in ethere,</l>
+                  <l>Votiuas preculas sedulus accipe, </l>
+                  <l>Quas fundunt famuli suppliciter tibi<note type="apparatus" resp="#BL"
+                        xml:id="ftn143" place="foot" n="143"> tibi ] tui <bibl>IS 502-3</bibl>
+                     </note>,</l>
+                  <l> Fac nos <milestone unit="page" n="378r"/> scandere sidera. </l>
+                  <l>
+                     <emph>S</emph>ublimi Domino gloria, laus, honor, </l>
+                  <l>Qui sanctos pugiles laureat, eleuat, </l>
+                  <l>Hostem dum superat<note type="apparatus" resp="#BL" xml:id="ftn144"
+                        place="foot" n="144"> superat ] superant <bibl>IS 502-3</bibl>
+                     </note> roscido<note type="apparatus" resp="#BL" xml:id="ftn145" place="foot"
+                        n="145"> roscido ]<hi rend="italic">ex </hi>roscidis <hi rend="italic">corr.
+                           AH 205</hi> (roscidie <hi rend="italic">ibid. app. crit.</hi>)</note>
+                     sanguine, </l>
+                  <l> Regnans trinitas unitas<note type="apparatus" resp="#BL" xml:id="ftn146"
+                        place="foot" n="146"> unitas ] unica <bibl>AH 205 </bibl>(unicas <hi
+                           rend="italic">ibid. app. crit.</hi>)</note>. 40</l>
+                  <p>Amen.</p>
+               </div>
+            </div>
+            <div>
+               <head><add resp="#BL">SECVNDAE VESPERAE</add></head>
+               <div type="poesis-antiphona" met="hexameter-leoninus">
+                  <head>In Secundis Vesperis antiphona ad <q>Magnificat</q>
+                  </head>
+                  <l>Corpora sanctorum tumulantur honore piorum</l>
+                  <l>Vertice sub montis uocitatur qui Masarontis<note type="apparatus" resp="#BL"
+                        xml:id="ftn147" place="foot" n="147"> Masarontis ] Macarontis <bibl>AH
+                           21</bibl>
+                     </note>. </l>
+                  <p>Alleluya</p>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
