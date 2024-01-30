@@ -4,6 +4,11 @@ import module namespace croalabro-config = "http://croala.ffzg.unizg.hr/croalabr
 
 (: declare variable $croalabro-html:csscdb := "/cdb/static/"; :)
 (: declare variable $croalabro-html:csslocal := "static/"; :)
+declare function croalabro-html:searchinfowc(){
+( <p>Si quaeres vocabulum <b>c.elum</b> modo wildcards, invenientur in CroALa <em>Coelum coelum caelum COELUM CAELUM Caelum</em>.</p>,
+	<ul><small><li>Signum . notat litteram quamvis singulam (c.elum = caelum, coelum...)</li><li>Signa .? notant quamvis litteram nullam sive singulam (sol.icitus = solicitus, sollicitus...)</li><li>Signa .* notant quamvis litteram nullam sive plures (terra.* = terra, terrae, terrarum, terraque...)</li><li>Signa .+ notant quamvis litteram unam sive plures (part.+ = partis, partem, partium, partibusque...)</li><li>Signa .&#123;min,max&#125; notant numerum quarumvis litterarum minimum et maximum (part.&#123;2,3&#125; = partis, partem, partium... sed non parte, partibus, partique...)</li></small></ul>,
+<p><small>Patientia desideratur, quia quaestio longiuscula fieri solet. – De modo wildcards vide plura in <a href="https://docs.basex.org/wiki/Full-Text#Match_Options">BaseX Wiki</a>.</small></p> )
+	};
 
 (: helper function for header, with meta :)
 declare function croalabro-html:htmlheadserver($title, $content, $keywords) {
@@ -15,13 +20,51 @@ declare function croalabro-html:htmlheadserver($title, $content, $keywords) {
 <meta name="keywords" content="{ $keywords }"/>
 <meta name="description" content="{$content}"/>
 <meta name="revised" content="{ current-date()}"/>
-<meta name="author" content="Neven Jovanović, CroALa" />
+	<meta name="author" content="Neven Jovanović" />
+  <meta name="citation_isbn" content="978-953-175-356-2"/>
+  <meta name="citation_keywords" content="Latin, Neo-Latin, Medieval literature, Renaissance literature, Early Modern literature, Croatia"/>
+  <meta name="citation_publication_date" content="2009"/>
+  <meta name="citation_publisher" content="Sveučilište u Zagrebu – Filozofski fakultet"/>
+  <meta name="citation_title" content="Croatiae auctores Latini : Collectio electronica"/>
+  <meta name="citation_author" content="Neven Jovanović"/>
+  <meta name="citation_author_institution" content="Sveučilište u Zagrebu – Filozofski fakultet"/>
+  <meta name="citation_author_orcid" content="0000-0002-9119-399X"/>
+  <meta name="citation_author_email" content="neven.jovanovic@ffzg.unizg.hr"/>
+  <meta name="citation_language" content="Latin"/>
 <link rel="icon" href=" { $croalabro-config:csslocal || "gfx/favicon.ico" } " type="image/x-icon" />
 <link rel="stylesheet" href=" { $croalabro-config:csslocal || "dist/laurdal.css" } "  />
 
 </head>
 
 };
+
+(: helper function for header with syntax highlighting :)
+declare function croalabro-html:htmlheadhighlight($title, $content, $keywords) {
+  (: return html template to be filled with title :)
+  (: title should be declared as variable in xq :)
+
+<head><title> { $title } </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="keywords" content="{ $keywords }"/>
+<meta name="description" content="{$content}"/>
+<meta name="revised" content="{ current-date()}"/>
+	<meta name="author" content="Neven Jovanović" />
+  <meta name="citation_isbn" content="978-953-175-356-2"/>
+  <meta name="citation_keywords" content="Latin, Neo-Latin, Medieval literature, Renaissance literature, Early Modern literature, Croatia"/>
+  <meta name="citation_publication_date" content="2009"/>
+  <meta name="citation_publisher" content="Sveučilište u Zagrebu – Filozofski fakultet"/>
+  <meta name="citation_title" content="Croatiae auctores Latini : Collectio electronica"/>
+  <meta name="citation_author" content="Neven Jovanović"/>
+  <meta name="citation_author_institution" content="Sveučilište u Zagrebu – Filozofski fakultet"/>
+  <meta name="citation_author_orcid" content="0000-0002-9119-399X"/>
+  <meta name="citation_author_email" content="neven.jovanovic@ffzg.unizg.hr"/>
+  <meta name="citation_language" content="Latin"/>
+  <link rel="icon" href=" { $croalabro-config:csslocal || "gfx/favicon.ico" } " type="image/x-icon" />
+  <link rel="stylesheet" href=" { $croalabro-config:csslocal || "dist/laurdal.css" } "  />
+</head>
+
+};
+
 
 (: make html link :)
 
@@ -126,7 +169,7 @@ declare function croalabro-html:searchform0( $action, $actname , $actplaceholder
 				attribute class { "button icon-only" },
 					element img {
 						attribute src {
-							$croalabro-config:csslocal || "gfx/magnifying-glass.svg?size=16"
+							$croalabro-config:csslocal || "gfx/search.svg?size=16"
 						}
 				}
 				}
@@ -140,7 +183,7 @@ declare function croalabro-html:formathithead( $filelink ){
 element span { 
 attribute class { "tag is-rounded" } ,
 		element img {
-			attribute src { $croalabro-config:csslocal || "gfx/document.svg?size=20&amp;color=6CB4EE" } } }
+			attribute src { $croalabro-config:csslocal || "gfx/book-b.svg?size=20&amp;color=6CB4EE" } } }
 ,
 element span { " " } ,
 element small { $filelink }
@@ -190,7 +233,7 @@ element form {
     element button {
       attribute class { "button icon-only" },
       element img {
-        attribute src { $croalabro-config:csslocal || "gfx/magnifying-glass.svg?size=16" }
+        attribute src { $croalabro-config:csslocal || "gfx/search.svg?size=16" }
       }
     }
   }
@@ -224,6 +267,17 @@ element form {
 }
 };
 
+(: format result for XML syntax highlighting pre / code :)
+
+declare function croalabro-html:xmlfrag( $result ){
+	element pre {
+		element code {
+			attribute class { "language-xml" },
+			$result
+		}
+		}
+	};
+
 
 (: helper function for table :)
 declare function croalabro-html:table($headings, $body){
@@ -249,13 +303,14 @@ declare function croalabro-html:tablerow($cells){
 
 (: helper - leaf :)
 declare function croalabro-html:folium($element){
-element { $element } {
-element img {
-		attribute class { "text-center filter-blue" },
-		attribute width { "40"},
-		attribute height { "40" },
-			attribute src {  $croalabro-config:csslocal || "gfx/leaf.svg?size=40&amp;color=6CB4EE" }
-		}
+	element { $element } {
+		element img {
+						attribute width { "40"},
+						attribute height { "40" },
+						attribute src { $croalabro-config:csslocal || "gfx/leaf-b.svg?size=40&amp;color=6CB4EE" },
+						attribute aria-hidden { "true" }
+					}
+
 	}
 };
 
@@ -273,7 +328,7 @@ declare function croalabro-html:footerserver() {
 					element img {
 						attribute width { "40"},
 						attribute height { "40" },
-						attribute src { $croalabro-config:csslocal || "gfx/leaf.svg?size=40&amp;color=6CB4EE" },
+						attribute src { $croalabro-config:csslocal || "gfx/leaf-b.svg?size=40&amp;color=6CB4EE" },
 						attribute aria-hidden { "true" }
 					},
 					element br {},
@@ -282,10 +337,17 @@ declare function croalabro-html:footerserver() {
 				},
 				element p {
 					attribute class { "text-center" },
+					"ISBN: 978-953-175-356-2" },
+				element p {
+					attribute class { "text-center" },
 					element small {
 						"The publishing framework is part of a project ",
 						croalabro-html:link("https://pric.unive.it/projects/adriarchcult/home", "AdriArchCult"),
-						" that has received funding from the European Union's Horizon 2020 Research and Innovation Programme (GA n. 865863 ERC-AdriArchCult)"
+						" that has received funding from the European Union's Horizon 2020 Research and Innovation Programme (GA n. 865863 ERC-AdriArchCult). Made with ",
+						croalabro-html:link("https://basex.org/", "BaseX"),
+						" and ",
+						croalabro-html:link("https://jenil.github.io/chota/", "Chota"),
+						"."
 					}
 				},
 				element h4 {
@@ -295,7 +357,8 @@ declare function croalabro-html:footerserver() {
 						attribute aria-hidden { "true" },
 					croalabro-html:link("https://www.ffzg.unizg.hr", "Filozofski fakultet"),
 					" Sveučilišta u Zagrebu"
-				},
+					}
+					},
 				element p {
 					attribute class { "text-center"	},
 					element span {
@@ -304,7 +367,7 @@ declare function croalabro-html:footerserver() {
 					},
 					": ",
 					croalabro-html:link("https://github.com/nevenjovanovic/croatiae-auctores-latini-textus", "croatiae-auctores-latini-textus" )
-				}
+				
 			}
 		}
 		}

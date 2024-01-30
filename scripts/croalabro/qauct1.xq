@@ -1,20 +1,21 @@
-(: CroALaBro quaere in genere :)
+(: CroALaBro quaere vocabula in singulo auctore :)
 
 import module namespace croalabro = "http://croala.ffzg.unizg.hr/croalabro" at "../../repo/croalabro.xqm";
 import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-html" at "../../repo/croalabro-html.xqm";
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Croatiae auctores Latini: quaere in genere';
-declare variable $subtitle := '';
-declare variable $content := "Search in documents from a given genre in CroALa.";
-declare variable $keywords := "Neo-Latin, Croatia, text corpus, genre, search";
+declare variable $title := 'Croatiae auctores Latini: quaere vocabula in singulo auctore';
+declare variable $subtitle := 'Inventa chronologico ordine afferuntur';
+declare variable $content := "Search in CroALa texts from a single author.";
+declare variable $keywords := "Neo-Latin, Croatia, text corpus, search, author, all words";
 
 (:~
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("genus-q/{$genus}")
+  %rest:path("auctor-q/{$author}/qauct1")
+  %rest:query-param("qaverbum", "{$qaverbum}")
   %output:method(
   "xhtml"
 )
@@ -29,13 +30,15 @@ declare
 )
 
 
-  function page:croalabrogenusq($genus)
+  function page:croalabroquaeresinguloauctore($qaverbum, $author)
 {
   (: HTML template starts here :)
 
 <html>
 { croalabro-html:htmlheadserver($title, $content, $keywords) }
+
 <body>
+
 <div class="container">
 <div  class="row">
 <div  class="col">
@@ -44,26 +47,15 @@ declare
 </div>
 <div  class="row">
 <div  class="col">
-<h2 class="text-center">{ $subtitle }</h2>
-<h3 class="text-center">{ "Genus: " || $genus }</h3>
+<p class="text-center">{ $subtitle }</p>
+
 </div>
 </div>
-<div class="row">
-<div  class="col text-center">
   <!-- function here -->
 
-{ croalabro-html:searchform0( "qgen1" , "qgverbum" , "Quaere in hoc genere", $genus ) }
-</div>
-	</div>
-
-	<div class="row">
-<div  class="col">
-  <!-- function here -->
-
-	{ croalabro-html:searchinfowc() }	
-
-</div>
-</div>
+	{
+			croalabro:author1found($qaverbum, $author)
+ }
 
 
 { croalabro-html:footerserver() }

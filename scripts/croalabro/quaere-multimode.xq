@@ -61,11 +61,29 @@ declare
   <!-- function here -->
 
 { croalabro-html:searchform( "qwildcards" , "vwc", "Quaere ope wildcards" ) }
-	<p>Si quaeres vocabulum <b>c.elum</b> modo wildcards, invenientur in CroALa <em>Coelum coelum caelum COELUM CAELUM Caelum</em>.</p>
-	<ul><small><li>Signum . notat litteram quamvis singulam (c.elum = caelum, coelum...)</li><li>Signa .? notant quamvis litteram nullam sive singulam (sol.icitus = solicitus, sollicitus...)</li><li>Signa .* notant quamvis litteram nullam sive plures (terra.* = terra, terrae, terrarum, terraque...)</li><li>Signa .+ notant quamvis litteram unam sive plures (part.+ = partis, partem, partium, partibusque...)</li><li>Signa .&#123;min,max&#125; notant numerum quarumvis litterarum minimum et maximum (part.&#123;2,3&#125; = partis, partem, partium... sed non parte, partibus, partique...)</li></small></ul>
-<p><small>Patientia desideratur, quia quaestio longiuscula fieri solet. – De modo wildcards vide plura in <a href="https://docs.basex.org/wiki/Full-Text#Match_Options">BaseX Wiki</a>.</small></p>
+
+</div>
+	</div>
+
+	<div class="row">
+<div  class="col">
+  <!-- function here -->
+
+	{ croalabro-html:searchinfowc() }	
+
 </div>
 </div>
+
+<div  class="row">
+<div  class="col">
+	<h3 class="text-center">{ "Quaere vocabula plura, quodcumque inventum ostende" }</h3>
+	<p class="text-center">Quaestio fit ad litteram (neque cum wildcards neque fuzzy).</p>
+  <!-- function here -->
+
+{ croalabro-html:searchform( "qqcumque", "qqc", "Da vocabula plura quaerenda" ) }
+</div>
+</div>
+	
 
 <div  class="row">
 <div  class="col">

@@ -98,12 +98,12 @@ group by $s
 order by $s collation "?lang=hr"
 return element tr {
 		element td { if (matches($wikidata[1], "http://www.wikidata.org/entity/")) then
-			( $s , (: croalabro-html:link(("auctor/" || $s),$s) , :)
+			( croalabro-html:link(("auctor-q/" || substring-after($wikidata[1], "http://www.wikidata.org/entity/") ),$s) ,
 				element br {} ,
 				croalabro-html:link($wikidata[1],
 					croalabro-html:wikidata(substring-after($wikidata[1], "http://www.wikidata.org/entity/") )
-					) ) else $s
-			(: croalabro-html:link(("auctor/" || $s),$s) :)
+					) ) else
+			croalabro-html:link(("auctor-q/" || $wikidata[1]),$s)
 		},
   element td { attribute class { "text-center" } , count($a) },
   element td { croalabro:filepath($a) }
@@ -414,6 +414,44 @@ else element div {
 }
 };
 
+(: search for any word :)
+
+declare function croalabro:quaereqqc($words){
+for $n in ft:search($croalabro:db, $words , map {
+  "mode": "any word"
+  })
+let $path := db:path($n)
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $title := string-join($n/ancestor::*:div/*:head, " > ")
+let $marked := ft:mark($n[. contains text { $words } any word ])
+order by $date , $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { $marked }
+}
+};
+
+
+(: perform search for any word, return distinct values found, report if 0 hits :)
+
+declare function croalabro:qqcfound($word) {
+let $q := croalabro:quaereqqc($word)
+let $found := distinct-values($q/td[6]/mark/string())
+let $qcount := count($q)
+return if ($qcount=0) then croalabro-html:zero2()
+else element div {
+  element tr { $qcount },
+  element tr { $found },
+  element tr { $q }
+}
+};
+
 (: perform search for all words in same sentence, format result, report if zero :)
 
 declare function croalabro:sentfound($word) {
@@ -542,6 +580,60 @@ croalabro-html:trtodiv2(
  )
 };
 
+(: search in works of a given author :)
+
+declare function croalabro:quaereauthor1($qaverbum, $author) {
+	for $n in db:get($croalabro:db)/*:TEI[*:teiHeader/*:fileDesc/*:titleStmt/*:author/@ref=$author]/*:text//*[not(*)]
+	where ft:contains($n, $qaverbum, map { 'wildcards': true() })
+	let $path := db:path($n)
+	let $title := string-join($n/ancestor::*:div/*:head, " > ")
+	let $marked := ft:mark($n[text() contains text { $qaverbum } using wildcards ])
+	order by $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { $marked }
+}
+
+};
+
+declare function croalabro:author1found($qaverbum, $author) {
+	let $q := croalabro:quaereauthor1($qaverbum, $author)
+	let $found := distinct-values($q//*:mark/string())
+	let $qcount := count($q)
+	return if ($qcount=0) then croalabro-html:zero2()
+	else (
+		element div {
+			attribute class { "row"},
+			element div {
+				attribute class { "col"},
+				element h4 {
+					attribute class { "text-center"},
+					( "Quaeris: " || $qaverbum || " in auctore " || $author ||
+						". Inventum: " || $qcount ||
+					". Formae: " || string-join($found, ", ") || ".")
+		}
+	}
+	},
+croalabro-html:trtodiv2(
+			element tr { $q }
+			)
+ )
+};
+
+(: for a given author ref, return name :)
+
+declare function croalabro:author-name($auctorref){
+	let $a := $auctorref
+	let $qname := if (starts-with($a, "Q")) then ("http://www.wikidata.org/entity/" || $a) else $a
+	let $name := db:get($croalabro:db)/*:TEI/*:teiHeader/*:fileDesc/*:titleStmt/*:author[@ref=$qname]/*:persName[1]/string()
+	return element span { $name[1] || " (" || $a || ")" }
+	};
 
 
 (: check if search returned 0 hits :)
@@ -549,4 +641,26 @@ declare function croalabro:nihil($result){
 let $qcount := count($result)
 return if ($qcount=0) then croalabro-html:zero()
 else $result
+};
+
+(: catch errors :)
+declare function croalabro:catcherr($result) {
+  try { $result }
+  catch err:XPST0003 { "Not a valid URL. " || $err:description }
+  catch * {
+  'Error [' || $err:code || ']: ' || $err:description
+}
+};
+
+(: for a given URL, return db node. If not in CroALa, report. :)
+
+declare function croalabro:getelem($urlpath){
+	if (contains($urlpath, ".xml/TEI")) then
+	let $url := substring-after($urlpath, ".xml")
+	let $qurl := replace($url, "/", "/Q{http://www.tei-c.org/ns/1.0}")
+	let $docname := substring-before($urlpath,"/TEI")
+  let $result := xquery:eval($qurl, map { '': db:get($croalabro:db, $docname) })
+  return if (exists($result)) then croalabro:catcherr($result)
+	else "URL in CroALa non inventum (URL not found in CroALa)!"
+	else "URL in CroALa non valere videtur (URL seems to be not valid in CroALa)."
 };

@@ -1,20 +1,21 @@
-(: CroALaBro quaere in genere :)
+(: CroALaBro quaere quodcumque de vocabulis :)
 
 import module namespace croalabro = "http://croala.ffzg.unizg.hr/croalabro" at "../../repo/croalabro.xqm";
 import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-html" at "../../repo/croalabro-html.xqm";
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Croatiae auctores Latini: quaere in genere';
-declare variable $subtitle := '';
-declare variable $content := "Search in documents from a given genre in CroALa.";
-declare variable $keywords := "Neo-Latin, Croatia, text corpus, genre, search";
+declare variable $title := 'Croatiae auctores Latini: quaere quodcumque de vocabulis';
+declare variable $subtitle := 'De vocabulis datis quodcumque inventum ostende; inventa chronologico ordine afferuntur';
+declare variable $content := "Search in CroALa for any word from the set of given words.";
+declare variable $keywords := "Neo-Latin, Croatia, text corpus, search";
 
 (:~
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("genus-q/{$genus}")
+  %rest:path("qqcumque")
+  %rest:query-param("qqc", "{$qqc}")
   %output:method(
   "xhtml"
 )
@@ -29,13 +30,15 @@ declare
 )
 
 
-  function page:croalabrogenusq($genus)
+  function page:croalabroquaereqqc($qqc)
 {
   (: HTML template starts here :)
 
 <html>
 { croalabro-html:htmlheadserver($title, $content, $keywords) }
+
 <body>
+
 <div class="container">
 <div  class="row">
 <div  class="col">
@@ -44,26 +47,16 @@ declare
 </div>
 <div  class="row">
 <div  class="col">
-<h2 class="text-center">{ $subtitle }</h2>
-<h3 class="text-center">{ "Genus: " || $genus }</h3>
+<p class="text-center">{ $subtitle }</p>
+<h4 class="text-center">{ "Quaeris: " || $qqc || ". Inventum: " || croalabro:qqcfound($qqc)/tr[1]/string() } </h4>
+<p class="text-center">{ "Formae: " || croalabro:qqcfound($qqc)/tr[2] } </p>
 </div>
 </div>
-<div class="row">
-<div  class="col text-center">
   <!-- function here -->
 
-{ croalabro-html:searchform0( "qgen1" , "qgverbum" , "Quaere in hoc genere", $genus ) }
-</div>
-	</div>
-
-	<div class="row">
-<div  class="col">
-  <!-- function here -->
-
-	{ croalabro-html:searchinfowc() }	
-
-</div>
-</div>
+{ croalabro-html:trtodiv2(
+croalabro:qqcfound($qqc)/tr[3]
+) }
 
 
 { croalabro-html:footerserver() }

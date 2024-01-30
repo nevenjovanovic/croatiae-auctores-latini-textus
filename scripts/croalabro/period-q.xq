@@ -54,7 +54,17 @@ declare
 
 { croalabro-html:searchform0( "qper1" , "qpverbum" , "Quaere in hoc periodo", $period ) }
 </div>
+	</div>
+
+	<div class="row">
+<div  class="col">
+  <!-- function here -->
+
+	{ croalabro-html:searchinfowc() }	
+
 </div>
+</div>
+
 
 { croalabro-html:footerserver() }
 </div>

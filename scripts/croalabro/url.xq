@@ -1,20 +1,20 @@
-(: CroALaBro quaere in genere :)
+(: CroALaBro access element with URL :)
 
 import module namespace croalabro = "http://croala.ffzg.unizg.hr/croalabro" at "../../repo/croalabro.xqm";
 import module namespace croalabro-html = "http://croala.ffzg.unizg.hr/croalabro-html" at "../../repo/croalabro-html.xqm";
 
 declare namespace page = 'http://basex.org/examples/web-page';
 
-declare variable $title := 'Croatiae auctores Latini: quaere in genere';
+declare variable $title := 'Croatiae auctores Latini: URL';
 declare variable $subtitle := '';
-declare variable $content := "Search in documents from a given genre in CroALa.";
-declare variable $keywords := "Neo-Latin, Croatia, text corpus, genre, search";
+declare variable $content := "Access an element with its URL, making it citable.";
+declare variable $keywords := "Neo-Latin, Croatia, text corpus, citation";
 
 (:~
  : This function returns an XML response message.
  :)
 declare
-  %rest:path("genus-q/{$genus}")
+  %rest:path("url/{$urlpath=.+}")
   %output:method(
   "xhtml"
 )
@@ -29,12 +29,12 @@ declare
 )
 
 
-  function page:croalabrogenusq($genus)
+  function page:croalabrourl($urlpath)
 {
   (: HTML template starts here :)
 
 <html>
-{ croalabro-html:htmlheadserver($title, $content, $keywords) }
+{ croalabro-html:htmlheadhighlight($title, $content, $keywords) }
 <body>
 <div class="container">
 <div  class="row">
@@ -45,29 +45,19 @@ declare
 <div  class="row">
 <div  class="col">
 <h2 class="text-center">{ $subtitle }</h2>
-<h3 class="text-center">{ "Genus: " || $genus }</h3>
+<h3 class="text-center">{ "Semita URL: " || $urlpath }</h3>
 </div>
 </div>
 <div class="row">
 <div  class="col text-center">
   <!-- function here -->
 
-{ croalabro-html:searchform0( "qgen1" , "qgverbum" , "Quaere in hoc genere", $genus ) }
+{ croalabro-html:xmlfrag( croalabro:getelem($urlpath) ) }
 </div>
 	</div>
 
-	<div class="row">
-<div  class="col">
-  <!-- function here -->
-
-	{ croalabro-html:searchinfowc() }	
-
-</div>
-</div>
-
-
 { croalabro-html:footerserver() }
-</div>
+	</div>
 </body>
 </html>
 };
