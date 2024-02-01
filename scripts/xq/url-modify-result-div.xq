@@ -1,0 +1,4 @@
+copy $node := <div class="search-hit"><div class="row"><div class="col"><tr><td>andron</td><td>marul-mar-repert.xml/TEI[1]/text[1]/body[1]/div[1]/div[156]/list[4]/item[22]</td><td><item xmlns="http://www.tei-c.org/ns/1.0" n="item22">Andron Argiuus, ut ait Aristoteles, per arida Lybię loca absque potu iter                      agebat <ref n="ref" type="page">96</ref>. </item></td></tr></div></div>
+<div class="row"><div class="col"><tr><td>andron</td><td>marul-mar-repert.xml/TEI[1]/text[1]/body[1]/div[1]/div[156]/list[4]/item[22]</td><td><item xmlns="http://www.tei-c.org/ns/1.0" n="item22">Andron Argiuus, ut ait Aristoteles, per arida Lybię loca absque potu iter                      agebat <ref n="ref" type="page">96</ref>. </item></td></tr></div></div></div>
+modify ( for $n in $node/div[@class="row"] return replace node $n//td[2] with element a { $n//td[2]/string() } )
+return $node

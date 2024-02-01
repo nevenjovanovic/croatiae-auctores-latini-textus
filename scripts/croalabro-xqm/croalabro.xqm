@@ -6,6 +6,8 @@ import module namespace  functx = "http://www.functx.com" at "functx.xq";
 
 (: declare variable $croalabro:croalaurl := "https://croala.ffzg.unizg.hr/cdb/static/croala-html/"; :)
 
+declare variable $croalabro:teiprefix := "Q\{http://www.tei-c.org/ns/1.0\}";
+
 (: map to translate period notation into Latin :)
 
 declare variable $croalabro:periodi := map {
@@ -651,6 +653,26 @@ declare function croalabro:catcherr($result) {
   'Error [' || $err:code || ']: ' || $err:description
 }
 };
+
+(: for a word, return URL-like path. If not in CroALa, report. :)
+
+declare function croalabro:wordpath($word){
+	let $found := db:get($croalabro:db)//*:text//*[text() contains text { $word } ]
+	return if ($found) then
+	element pre {
+for $occ in $found
+let $p := path($occ)
+		let $docname := db:path($occ)
+		let $period := db:get($croalabro:db, $docname)//*:teiHeader//*:profileDesc[1]/*:creation[1]/*:date[1]/@period
+		let $cp := $docname || replace($p, $croalabro:teiprefix, "")
+		order by $period
+	return element tr {
+		element td { $cp },
+		element td { ft:mark($occ[text() contains text { $word } ]) }
+	} }
+		else element span { "In CroALa non est inventum!" }
+		
+	};
 
 (: for a given URL, return db node. If not in CroALa, report. :)
 

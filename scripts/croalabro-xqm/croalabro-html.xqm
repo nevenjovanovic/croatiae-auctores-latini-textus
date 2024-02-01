@@ -111,6 +111,23 @@ return element div {
 }
 };
 
+(: the same, but not smaller :)
+
+declare function croalabro-html:trtodiveq($tr){
+for $t in $tr
+return element div {
+ attribute class { "search-hit2" },
+   for $c in $t/*
+   return element div {
+   attribute class { "row"},
+   element div {
+     attribute class { "col"},
+     $c
+   }
+ }
+}
+};
+
 (: turn td structure into div-class-row, div-class-col :)
 
 declare function croalabro-html:trtodiv2($tr){
@@ -266,6 +283,24 @@ element form {
   }
 }
 };
+
+(: receive either span or a tr/td[3] structure. If span, pass it on; if tr/td, reformat into table :)
+
+declare function croalabro-html:urlpathtable($result){
+	if ($result/tr) then copy $node := croalabro-html:trtodiveq($result)
+	modify ( for $n in $node/div[@class="row"] return replace node $n//td[1] with element p {
+			element span {
+				attribute class { "text-success" } , "URL: "
+			},
+			croalabro-html:link( $croalabro-config:csscdb || "/url/" || $n//td[1]/string(), $n//td[1]/string()) },
+		for $n in $node/div[@class="row"] return replace node $n//td[2] with element p { $n//td[2] }
+	)
+return $node
+	else element div {
+		attribute class { "text-error text-center bd-dark"} ,
+		$result
+		}
+	};
 
 (: format result for XML syntax highlighting pre / code :)
 
