@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    
     <teiHeader>
         <fileDesc xml:id="fuscus-lucius-desitu-1509">
             <titleStmt>
@@ -31,6 +29,10 @@
                 <p>elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
                     projekt na Filozofskom fakultetu Sveučilišta u Zagrebu,
                     Hrvatska.  <date when="2009-12">prosinca 2009</date></p>
+                <p ana="licence" xml:lang="eng">
+                    <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+                    Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+                    was added on February 4, 2024. </p>
             </publicationStmt>
             <sourceDesc>
                 <p>
@@ -42,36 +44,38 @@
         </fileDesc>
         
         <profileDesc>
+            <langUsage>
+                <language ident="lat" xml:lang="hrv">latinski</language>
+            </langUsage>
             <creation>
-                <date notAfter="1509">non post 1509</date>
+                <date notAfter="1509" period="15xx_1_third">non post 1509</date>
                 <placeName ref="http://www.wikidata.org/entity/Q3370">Zadar</placeName>
             </creation>
-            <settingDesc>
-                <p></p>
-            </settingDesc>
-            
-                
-                <textDesc>
-                    <channel mode="w">liber typis editus</channel>
-                    <constitution type="frags">opus posthumum, nondum ultimae limae, cum notis alterius auctoris adiectis</constitution>
-                    <derivation type="original"/>
-                    <domain type="public">descriptio loci</domain>
-                    <factuality type="fact"/>
-                    <interaction type="inapplicable"/>
-                    <preparedness type="revised"/>
-                    <purpose type="inform" degree="high"/>
-                    <purpose type="express" degree="low"/>
-                    <purpose type="entertain" degree="low"/>
-                </textDesc>
-            
+            <textClass>
+                <keywords scheme="typus">
+                    <term>prosa</term>
+                </keywords>
+                <keywords scheme="aetas">
+                    <term>Litterae renatae (1400-1600)</term>
+                    <term>Saeculum 16 (1501-1600)</term>
+                    <term>1501-1550</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>prosa oratio - tractatus</term>
+                    <term>prosa oratio - chorographia</term>
+                    <term>prosa oratio - notae</term>
+                </keywords>
+            </textClass>
+
         </profileDesc>
         <revisionDesc>
             <change>
                 <persName>
                     <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                 </persName>
-                <date when="2024-01-06">2024-01-06</date>
+                <date when="2024-02-03">2024-02-03</date>
                 Prilagodio za CroALa, dodao Wikidata ID.
+                Dodao period, textClass.
                 Trebalo bi provjeriti Lučićeve bilješke, dodati Paladijeve pjesme iz faksimila.
             </change>
             
