@@ -2,11 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/36577371.svg)](https://zenodo.org/badge/latestdoi/36577371)
 
-TEI XML encoded Latin texts from the Croatian auctores Latini collection, freely available under a [CC-BY license](LICENSE.md).
+TEI XML encoded Latin texts from the [Croatiae auctores Latini](https://croala.ffzg.unizg.hr) collection, freely available under a [CC-BY license](LICENSE.md).
 
-The files edited here are published as a [PhiloLogic](https://sites.google.com/site/philologic3/) collection [CroALa](croala.ffzg.unizg.hr) (there is a [testing deployment](http://solr.ffzg.hr/philo4/croala0/) under PhiloLogic 4), and as a BaseX XML database (see an earlier analysis in [Quadrata rotundis](http://solr.ffzg.hr/dokuwiki/doku.php/z:crotyr-quadrata) paper).
+The files edited here are published as a [PhiloLogic](https://sites.google.com/site/philologic3/) collection [CroALa](croala.ffzg.unizg.hr). There is a [testing deployment](http://solr.ffzg.hr/philo4/croala0/) under PhiloLogic 4. 
 
-The [BaseX](https://basex.org/) XML db will be published through own simple text publishing and searching system; see the directories [croalabro](/scripts/croalabro) and [croalabro-xqm](/scripts/croalabro-xqm).
+There is also a [BaseX](https://basex.org/) XML database (see an earlier analysis in [Quadrata rotundis](http://solr.ffzg.hr/dokuwiki/doku.php/z:crotyr-quadrata) paper). The XML db is published through own simple text publishing and searching system on the CroALa site; see the directories [croalabro](/scripts/croalabro) and [croalabro-xqm](/scripts/croalabro-xqm).
 
 * Address of this Git repo: on [Github](https://github.com/nevenjovanovic/croatiae-auctores-latini-textus)
 
@@ -15,9 +15,10 @@ The [BaseX](https://basex.org/) XML db will be published through own simple text
 * The TEI XML texts are in [txts](/txts) directory
 * The word counts for files are in [croala-wordcounts.xml](croala-wordcounts.xml)
 * The scripts for a text publishing and searching system: [croalabro](/scripts/croalabro) and [croalabro-xqm](/scripts/croalabro-xqm)
-* The reading versions of documents will be transformed from TEI XML source to XHTML in oXygen (with an additional XSL script) and served as static files in the local directory `basex/webapp/static/`
-* The CSS framework used will be [Chota](https://jenil.github.io/chota/)
+* The reading versions of documents are transformed from TEI XML source to XHTML in oXygen (with an additional XSL script: [html-add-class.xsl](scripts/xsl/html-add-class.xsl)) and served as static files in the local directory `basex/webapp/static/`
+* The CSS framework used is [Chota](https://jenil.github.io/chota/)
 * Additional scripts for the BaseX XML database: [xq](/scripts/xq)
+* The ODD and RNG validation: [schemas](/schemas)
 * The oXygen project file is [croalaproject.xpr](croalaproject.xpr)
 
 ## How to use ##
@@ -39,10 +40,10 @@ Download the files or clone the repository.
 TBA
 
 ### Current state of the collection ###
-On 2024-01-03 the collection contains:
+On 2024-02-04 the collection contains:
 
-*  *509* TEI XML documents
-*  *5,674,274* words in texts (metadata and encodings are not counted)
+*  *553* TEI XML documents
+*  *5,718,422* words in texts (metadata and encodings are not counted)
 
 ### Editor ###
 
