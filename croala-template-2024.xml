@@ -3,10 +3,10 @@
     <teiHeader>
         <fileDesc xml:id="author-title-year">
             <titleStmt>
-                <title>Title (year), versio electronica</title>
+                <title><!-- Title of work (year) -->, versio electronica</title>
                 <author ref="http://www.wikidata.org/entity/Qauthorid">
-                    <persName xml:lang="hr">Last name, first name</persName>
-                    <date>BirthYear - DeathYear (OR FloruitYear)</date>
+                    <persName xml:lang="hr"><!-- Last name, first name --></persName>
+                    <date><!-- BirthYear - DeathYear (OR FloruitYear) --></date>
                 </author>
                 <editor ref="http://www.wikidata.org/entity/Qeditorid">
                <persName>
@@ -17,16 +17,16 @@
                     <resp>Hanc editionem electronicam curavit</resp>
                     <persName xml:id="initials">
                         <ref type="wikidata" target="http://www.wikidata.org/entity/Qxmleditorid"
-                            >First name, Last name</ref>
+                            ><!-- First name, Last name --></ref>
                     </persName>
                 </respStmt>
             </titleStmt>
             <publicationStmt>
-                <p>Electronic version: Project, Institution.  <date when="2000-01-01">Date</date></p>
+                <p>Electronic version: <!-- Project, Institution -->.  <date when="2000-01-01"><!-- Date --></date></p>
                 <p ana="licence">
                     <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
                     Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
-                    was added on DATE. </p>
+                    was added on <!-- DATE -->. </p>
             </publicationStmt>
             <sourceDesc>
             <bibl>Source cited in any bibliographical format; internet links as <ptr target="LINK"/></bibl>
@@ -34,15 +34,19 @@
         </fileDesc>
         <encodingDesc>
             <editorialDecl xml:lang="hrv" resp="#INITIALS">
-                <p>BRIEF (OR LONGER) DESCRIPTION OF EDITORIAL PRINCIPLES (IN ANY LANGUAGE, ADAPT LANGUAGE CODE ABOVE).</p>
+                <!-- BRIEF (OR LONGER) DESCRIPTION OF EDITORIAL PRINCIPLES (IN ANY LANGUAGE, ADAPT LANGUAGE CODE ABOVE). -->
+                <p></p>
             </editorialDecl>
         </encodingDesc>
         <profileDesc>
          <langUsage>
-            <language ident="lat" xml:lang="hrv">latinski</language>
+            <language ident="lat" xml:lang="hrv"><!-- language name; adapt language code the name is in, e. g. Latin = eng, latinski = hrv --></language>
          </langUsage>
          <creation>
+             <!-- if known, or circa: -->
             <date notBefore="1234" period="12xx_2_third">1234 (ADAPT AS NEEDED)</date>
+             <!-- if known: -->
+             <placeName ref="http://www.wikidata.org/entity/Qplaceid">PLACENAME</placeName>
          </creation>
          <textClass>
                 <keywords scheme="typus">
@@ -55,7 +59,7 @@
                     <term>1501-1550</term>
                 </keywords>
                 <keywords scheme="genre">
-                    <!-- EXAMPLE -->
+                    <!-- EXAMPLE; ADD AS MANY 'TERM' ELEMENTS AS NECESSARY -->
                     <term>prosa - historia</term>
                 </keywords>
             </textClass>
@@ -66,19 +70,16 @@
                First name, last name
             </persName>
             <date>ANNUS-MENSIS-DIES</date>
-                BRIEF DESCRIPTION OF WHAT YOU DID HERE.
+                <!-- BRIEF DESCRIPTION OF WHAT YOU DID HERE. -->
             </change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
-            
-                <div type="prosa-historia">
-                    <head>TITULUS</head>
-                    <p>TEXTUS</p>
-                </div>
-            
+            <div type="prosa-historia">
+                <head><!-- Title --></head>
+                <p><!-- text --></p>
+            </div>
         </body>
-        
     </text>
 </TEI>
