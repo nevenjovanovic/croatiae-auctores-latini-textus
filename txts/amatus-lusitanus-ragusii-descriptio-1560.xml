@@ -1,0 +1,107 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="amatus-lusitanus-ragusii-descriptio-1560">
+         <titleStmt>
+            <title>Ragusii ciuitatis breuis descriptio, per Amatum Lusitanum (1560), versio electronica</title>
+            <author ref="http://www.wikidata.org/entity/Q455777">
+               <persName xml:lang="lat">Amatus Lusitanus</persName>
+               <date>1511–1568</date>
+            </author>
+            <editor ref="http://www.wikidata.org/entity/Q114878204">
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName ref="#NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt xml:lang="hrv">
+            <p>Znanstveno priređeno prema izvornom izdanju (1560).</p>
+         </editionStmt>
+         <publicationStmt>
+            <p xml:lang="hrv">elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+            projekt na <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName>
+            Hrvatska.  <date when="2024-02">Veljače 2024</date>.</p>
+            <p ana="licence" xml:lang="eng">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on February 4, 2024. </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>Amato Lusitano. 1560. Curationum medicinalium Amati Lusitani... centuriae duae, quinta videlicet ... (Venetiis: ex officina Valgrisiana) <ptr target="http://archive.org/details/curationummedic00lusigoog"/> [accessed 3 February 2024]
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date when="1560" period="15xx_2_third">1560</date>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>prosa</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1551-1600</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>prosa oratio - tractatus</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2024-01-21">2024-01-21</date>. 
+            Prvo izdanje kao CroALa TEI.
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <front>
+         <docTitle>
+            <titlePart>Curationum medicinalium Amati Lusitani medici physici praestantissimi
+               centuriae duae, quinta videlicet ac sexta, <gap reason="editorial" resp="#NJ"/> cum indice omnium curationum quae
+               ipsis centurijs continentur. Omnia nunc primum in lucem aedita</titlePart>
+         </docTitle>
+         <docImprint>Venetiis : ex officina Valgrisiana, 1560</docImprint>
+      </front>
+      <body>
+         <div type="prosa-tractatus">
+            <gap reason="editorial" resp="#NJ"/>
+            <div>
+               <head>Ragusii ciuitatis breuis descriptio, per Amatum Lusitanum.</head>
+               <p>Ragusium, urbs parua, sed antiqua, <expan ana="editor" resp="#NJ">et</expan>
+                  Venetiarum simia, ad mare Illyricum inter rupes sedet, <expan ana="editor"
+                     resp="#NJ">et</expan> meridiem spectat; <expan ana="editor" resp="#NJ"
+                     >et</expan> propterea australibus uentis est obnoxia, in qua hyeme homines
+                  grauius <expan ana="editor" resp="#NJ">et</expan> frequentius morbis uexantur.
+                  Vina potentia, sed insalubria fert; fructus paucos; triticum, ut quae campis
+                  careat, nullum; republica gubernatur admissis tantum nobilibus; qui <expan
+                     ana="editor" resp="#NJ">et</expan> politici sunt homines, <expan ana="editor"
+                     resp="#NJ">et</expan> diuites satis, ac sobrii. Praeter nobiles populus
+                  numerosus est; cuius pars altera mercatores sunt, homines ciuiles satis, merces,
+                  ut nobiles, per plures orbis partes, in gentibus, ac miris suis nauibus
+                  exercentes; reliqua pars populi misera est, <expan ana="editor" resp="#NJ"
+                     >et</expan> pauperie afficitur. </p>
+            </div>
+            <gap reason="editorial" resp="#NJ"/>
+         </div>
+         
+         </body>
+   </text>
+</TEI>
