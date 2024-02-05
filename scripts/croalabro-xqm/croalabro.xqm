@@ -582,10 +582,21 @@ croalabro-html:trtodiv2(
  )
 };
 
+(: author refs -- test if Wikidata or not :)
+
+declare function croalabro:testwd($author){
+	if (starts-with($author, "Q")) then ("http://www.wikidata.org/entity/" || $author)
+	else if ($author) then ($author)
+	else()
+	};
+
 (: search in works of a given author :)
+(: first test if there is an author with that ref :)
 
 declare function croalabro:quaereauthor1($qaverbum, $author) {
-	for $n in db:get($croalabro:db)/*:TEI[*:teiHeader/*:fileDesc/*:titleStmt/*:author/@ref=$author]/*:text//*[not(*)]
+	let $sauthor := croalabro:testwd($author)
+	return if (db:get($croalabro:db)/*:TEI/*:teiHeader/*:fileDesc/*:titleStmt/*:author/@ref=$sauthor) then
+	for $n in db:get($croalabro:db)/*:TEI[*:teiHeader/*:fileDesc/*:titleStmt/*:author/@ref=$sauthor]/*:text//*[not(*)]
 	where ft:contains($n, $qaverbum, map { 'wildcards': true() })
 	let $path := db:path($n)
 	let $title := string-join($n/ancestor::*:div/*:head, " > ")
@@ -600,15 +611,18 @@ croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) 
 for $e in croalabro:titleauthor($path) return element td { $e } ,
 element td { $title },
 element td { $marked }
-}
+	}
+	else ( "N/A" )
 
 };
 
 declare function croalabro:author1found($qaverbum, $author) {
 	let $q := croalabro:quaereauthor1($qaverbum, $author)
+	return if ($q = "N/A") then croalabro-html:zerosec("Auctor non inventum in CroALa!")
+	else
 	let $found := distinct-values($q//*:mark/string())
 	let $qcount := count($q)
-	return if ($qcount=0) then croalabro-html:zero2()
+	return if ($qcount=0) then croalabro-html:zerosec("Quod quaeris non occurrit apud auctorem " || $author || "!")
 	else (
 		element div {
 			attribute class { "row"},

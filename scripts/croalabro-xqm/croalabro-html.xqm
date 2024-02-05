@@ -2,8 +2,7 @@
 module namespace croalabro-html = 'http://croala.ffzg.unizg.hr/croalabro-html';
 import module namespace croalabro-config = "http://croala.ffzg.unizg.hr/croalabro-config" at "croalabro-config.xqm";
 
-(: declare variable $croalabro-html:csscdb := "/cdb/static/"; :)
-(: declare variable $croalabro-html:csslocal := "static/"; :)
+
 declare function croalabro-html:searchinfowc(){
 ( <p>Si quaeres vocabulum <b>c.elum</b> modo wildcards, invenientur in CroALa <em>Coelum coelum caelum COELUM CAELUM Caelum</em>.</p>,
 	<ul><small><li>Signum . notat litteram quamvis singulam (c.elum = caelum, coelum...)</li><li>Signa .? notant quamvis litteram nullam sive singulam (sol.icitus = solicitus, sollicitus...)</li><li>Signa .* notant quamvis litteram nullam sive plures (terra.* = terra, terrae, terrarum, terraque...)</li><li>Signa .+ notant quamvis litteram unam sive plures (part.+ = partis, partem, partium, partibusque...)</li><li>Signa .&#123;min,max&#125; notant numerum quarumvis litterarum minimum et maximum (part.&#123;2,3&#125; = partis, partem, partium... sed non parte, partibus, partique...)</li></small></ul>,
