@@ -1,0 +1,5 @@
+XQUERY db:create("croalatextus", "/home/neven/Nextcloud/Repos/croatiae-auctores-latini-textus/txts/", (), map { 'ftindex': true(), 'ftinclude' : 'tei:text', 'intparse' : true(), 'stripws' : false(), 'updindex' : true() })
+XQUERY db:create-backup("croalatextus")
+RUN count-words-croala.xq
+XQUERY db:create("croalatextus-wc", "/home/neven/Nextcloud/Repos/croatiae-auctores-latini-textus/croala-wordcounts.xml", (), map { 'ftindex': true(), 'intparse' : true() })
+XQUERY db:create-backup("croalatextus-wc")
