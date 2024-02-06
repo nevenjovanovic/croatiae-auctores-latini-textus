@@ -618,11 +618,11 @@ element td { $marked }
 
 declare function croalabro:author1found($qaverbum, $author) {
 	let $q := croalabro:quaereauthor1($qaverbum, $author)
-	return if ($q = "N/A") then croalabro-html:zerosec("Auctor non inventum in CroALa!")
+	return if ($q = "N/A") then croalabro-html:zerosec("Auctoris nota: " || $author || " – non inventum in CroALa!")
 	else
 	let $found := distinct-values($q//*:mark/string())
 	let $qcount := count($q)
-	return if ($qcount=0) then croalabro-html:zerosec("Quod quaeris non occurrit apud auctorem " || $author || "!")
+	return if ($qcount=0) then croalabro-html:zerosec("Quaeris: " || $qaverbum || ", sed non occurrit apud auctorem " || $author || "!")
 	else (
 		element div {
 			attribute class { "row"},
@@ -641,6 +641,19 @@ croalabro-html:trtodiv2(
 			)
  )
 };
+
+(: list all editors, sort alphabetically, give Wikidata or viaf link if present :)
+
+declare function croalabro:editores(){
+	for $ed in distinct-values(
+	for $e in db:get($croalabro:db)/*:TEI/*:teiHeader/*:fileDesc/*:titleStmt/*:editor
+	let $ref := $e/@ref/string()
+	let $name := $e//string()
+		return ($ref , $name)
+	)
+	order by $ed
+	return $ed
+	};
 
 (: for a given author ref, return name :)
 
