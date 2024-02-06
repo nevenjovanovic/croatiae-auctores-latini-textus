@@ -2,19 +2,19 @@
    <teiHeader>
       <fileDesc xml:id="palmotic-j-carm">
          <titleStmt>
-            <title>Carmina Latina, versio electronica</title>
+            <title>Carmina Latina (1645–1657), versio electronica</title>
             <author ref="http://www.wikidata.org/entity/Q2569476">
                <persName xml:lang="hr">Palmotić, Junije</persName>
-               <date>1607.-1657.</date>
+               <date>1607–1657</date>
             </author>
-            <editor>
+            <editor ref="http://www.wikidata.org/entity/Q12636938">
                <persName>
-                  <ref>Milivoj Šrepel</ref>
+                  <ref target="http://www.wikidata.org/entity/Q12636938">Milivoj Šrepel</ref>
                </persName>
             </editor>
             <respStmt>
                <resp>Electronice edidit</resp>
-               <persName>
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
@@ -32,6 +32,10 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
           Hrvatska.  <date>Kolovoz 2012.</date>
             </p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on February 5, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
@@ -238,7 +242,7 @@
             <l n="3.14">Naiadum festa circum plaudente choraea</l>
             <l n="3.15">15 Caeruleum caput attollit, mox talia fatur:</l>
             <l n="3.16">Cinge triumphali felicia tempora lauro,</l>
-            <l n="3.17">Et renova struetis, mea Martia Roma, theatris,</l>
+            <l n="3.17">Et renova <corr resp="#NJ">structis</corr>, mea Martia Roma, theatris,</l>
             <l n="3.18">Quales saepe olim plausus renovare solebas,</l>
             <l n="3.19">Innumeros ageres quum victo ex hoste triumphos</l>
             <l n="3.20">20 Teque Orbis Dominam rutilo spectaret ab ortu</l>

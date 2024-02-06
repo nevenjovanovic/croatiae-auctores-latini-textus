@@ -1,30 +1,30 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
-      <fileDesc xml:id="cikulin-ideae">
+      <fileDesc xml:id="cikulin-if-ideae">
          <titleStmt>
-            <title>Ideae magnanimitatis Illyricae et Pannonicae, versio electronica</title>
-            <author ref="cikulind1e2013">
+            <title>Ideae magnanimitatis Illyricae et Pannonicae (1705), versio electronica</title>
+            <author ref="http://www.wikidata.org/entity/Q860595">
                <persName xml:lang="hr">
-                  <ref target="cikulind1e2013">Čikulin, Ivan Franjo</ref>
+                  <ref target="http://www.wikidata.org/entity/Q860595">Čikulin, Ivan Franjo</ref>
                </persName>
                <date when="1705">fl. 1705</date>
             </author>
-            <editor>
-               <name xml:id="NJ">
+            <editor ref="http://www.wikidata.org/entity/Q114878204">
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <name>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </name>
+               <persName ref="#NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
             </respStmt>
             <respStmt>
                <resp>Electronice transcripsit</resp>
-               <name>
-                  <ref>Dajana Ćosić</ref>
-               </name>
+               <persName>
+                  <ref type="viaf" target="https://viaf.org/viaf/38158628095522920848">Dajana Ćosić</ref>
+               </persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -37,6 +37,10 @@
                projekt na <orgName>
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>, Hrvatska.  <date>Lipanj 2015</date>.</p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on February 5, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
@@ -62,15 +66,6 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <settingDesc>
-            <p/>
-         </settingDesc>
-         <particDesc>
-            <p/>
-         </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
@@ -93,7 +88,7 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <listChange>
+         
             <change>
                <name>Neven Jovanović</name>
                <date>2015-06-03</date>
@@ -104,7 +99,7 @@
                <name>Cosic</name>
                <date>2015-03-19T20:10:00</date>
             </change>
-         </listChange>
+         
       </revisionDesc>
    </teiHeader>
    <text>
