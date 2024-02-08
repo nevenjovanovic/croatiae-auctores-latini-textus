@@ -7,20 +7,20 @@
                <persName xml:lang="hr">Bučinjelić, Miho</persName>
                <date>1479 - c. 1550</date>
             </author>
-            <editor>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            <editor ref="http://www.wikidata.org/entity/Q114878204">
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </editor>
-            <respStmt>
+            <respStmt ref="http://viaf.org/viaf/305794807">
                <resp>Hanc editionem electronicam curavit</resp>
                <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </respStmt>
             <respStmt>
                <resp>Exscripsit</resp>
-               <persName>Petra Šoštarić</persName>
+               <persName><ref target="http://viaf.org/viaf/305794807">Petra Šoštarić</ref></persName>
             </respStmt>
          </titleStmt>
          <editionStmt>
@@ -34,6 +34,10 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName>, Hrvatska, 
                     <date>mense Augusto 2008</date>
             </p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on February 7, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
@@ -378,8 +382,8 @@
                         existimant. Clissae Castellum Illyrici, super ueteres Salonas, Spalatumque
                         Vngaricae ditionis in Dalmatia situm, superioribus diebus acriter Turcae
                         obsidione cinxerant, prope diem per deditionem recepturi. nam omnia oppida
-                        <corr resp="NJ">nisi</corr> quae ad uictum necessaria erant, iam deerant. sed repente <corr resp="NJ">quingenti</corr>
-                        Coruati, Segnia mari xxxx nauigiis aduecti, iunctis sibi Dalmatis subsidio
+                        <corr resp="#NJ">nisi</corr> quae ad uictum necessaria erant, iam deerant. sed repente <corr resp="NJ">quingenti</corr>
+                        Coruati, Segnia mari <num>xxxx</num> nauigiis aduecti, iunctis sibi Dalmatis subsidio
                         fuere, interfectisque Turcarum nonullis castellum non solum obsidione
                         liberarunt, sed <sic>comeatu</sic>, militibus, caeterisque ad longam obsidionem
                         tolerandam necessariis muniuerunt, statimque ad sua redierunt. Coruatos hos
@@ -390,7 +394,7 @@
                         quae ad hunc tractum pertinent paulo a mari recedentia, usque ad castellum
                         Ostaruicae hac hyeme Vngaris ereptum, quod super Iaderam est Liburniae
                         ciuitatem Venetis subditam, Turcarum sunt, ex quo loco in Italiam, immo
-                        Venetias sex dierum iter est. viden quantum appropiquant Italiae? Spalatum
+                        Venetias sex dierum iter est. viden quantum <corr resp="#NJ">appropinquant</corr> Italiae? Spalatum
                         oppidum Dalmatiae, aliquando Diocletiani Augusti palatium per tria milliaria
                         a Salonis, quae ciuitas nunc solo est aequata, distat. Dicunt Turcae ab
                         ultimis Aethiopiae sedibus gentem quandam excitam, hos plerique Iudaeos

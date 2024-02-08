@@ -3,23 +3,22 @@
       <fileDesc xml:id="frankapan-b-oratio-croatia">
          <titleStmt>
             <title>Bernardini de Frangepanibus comitis Segniae, Vegliae, Modrusiique etc. Oratio pro
-          Croatia Nürenbergae in Senatu Principum Germaniae habita XIII. Cal. Decemb. An. Ch.
-          M.D.XXII, versio electronica</title>
+              Croatia Nürenbergae in Senatu Principum Germaniae habita (1522-11-19), versio electronica</title>
             <author ref="http://www.wikidata.org/entity/Q559778">
                <persName xml:lang="hr">Frankapan, Bernardin</persName>
                <date>1453-1529</date>
             </author>
-            <editor>
+           <editor ref="http://viaf.org/viaf/159839022" xml:id="VM">
                <persName>
-                  <ref>Violeta Moretti</ref>
+                 <ref target="http://viaf.org/viaf/159839022">Violeta Moretti</ref>
                </persName>
             </editor>
-            <respStmt>
-               <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </persName>
-            </respStmt>
+           <respStmt xml:id="NJ">
+             <resp>Hanc editionem electronicam curavit</resp>
+             <persName>
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+             </persName>
+           </respStmt> 
          </titleStmt>
          <editionStmt>
             <edition>
@@ -32,6 +31,10 @@
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date>Kolovoza 2012</date>
             </p>
+           <p ana="licence">
+             <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+             Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+             was added on February 7, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
@@ -39,25 +42,17 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <settingDesc>
-            <p/>
-         </settingDesc>
-         <particDesc>
-            <p/>
-         </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
             <date when="1522-11-19" period="15xx_1_third">1522-11-19</date>
-            <placeName>Nürnberg</placeName>
+           <placeName ref="http://www.wikidata.org/entity/Q2090">Nürnberg</placeName>
          </creation>
          <textClass>
             <keywords scheme="typus">
                <term>prosa</term>
+              <term>paratextus prosaici</term>
             </keywords>
             <keywords scheme="aetas">
                <term>Litterae renatae (1400-1600)</term>
@@ -87,8 +82,8 @@
             <docAuthor>Bernardini de Frangepanibus comitis Segniae, Vegliae, Modrusiique <abbr>etc.</abbr>
             </docAuthor>
             <titlePart>Oratio pro
-          Croatia Nürenbergae in Senatu Principum Germaniae habita XIII. Cal. Decemb. An. Ch.
-          M.D.XXII.</titlePart>
+          Croatia Nürenbergae in Senatu Principum Germaniae habita <num>XIII.</num> Cal. Decemb. An. Ch.
+          <num>M.D.XXII</num>.</titlePart>
             <epigraph>
                <l>Excidium veluti romanae Maximus urbi</l>
                <l>avertit, patriae sic iuga dira comes.</l>
@@ -98,7 +93,7 @@
          </titlePage>
          <pb n="2"/>
          <div type="prosa-epistula-dedicatio">
-            <head>Ad Adrianum VI., pontificem maximum.</head>
+            <head>Ad Adrianum <num>VI.</num>, pontificem maximum.</head>
             <opener>Beatissime pater et domine, post beatorum oscula pedum. </opener>
             <p> Providens iam exitiale discrimen, quod a barbaris, orthodoxe fidei hostibus, non misere
           tantum Croacie, verum etiam finitimis provinciis Carniolae, Styriae, Carinthiae, Foroiulii
@@ -119,7 +114,7 @@
           (quod sacrae testantur literae) in multitudine dominica consistit virtus, neque in equorum
           viribus eius voluntas.</p>
             <p> Accipe itaque, sanctissime pater, qualecumque hoc clientis Tui munus, meae in Te
-          observantiae testem ac <supplied resp="NJ">pro natiua</supplied> benignitate Tua me Tibi addictissimum una cum misera
+          observantiae testem ac <supplied resp="#NJ">pro natiua</supplied> benignitate Tua me Tibi addictissimum una cum misera
           Croatia suscipe, protege, tuere. Deus optimus maximus diu in terris servet incolumem
           Beatitudinem Tuam, cui me humilime commendo.</p>
             <signed> Bernardinus de Frangepanibus, Segniae, Vegliae, Modrusiique comes <abbr>etc.</abbr>
@@ -134,7 +129,7 @@
             <p> Grato recolentes animo vestra erga nos, immo erga christianam rempublicam, merita magni
           illa quidem momenti immensas et immortales celsitudinibus vestris ex imo pectore gratias
           agimus piis necessariis auxiliis; quae iussu et auctoritate vestra superioribus diebus ad
-          nos missa communem sacrosancte<note place="foot" n="1" resp="VM">Correxi ex
+          nos missa communem sacrosancte<note type="editor" place="foot" n="1" resp="#VM">Correxi ex
                 <sic>sacrosanctem</sic>. </note> fidei hostem ab obsidione miserrime patrie
           Croaciae propulsarunt et prohibuerunt. Quum autem ea auxilia iam inde hac et illac
           dispersa abierint remanentibus solummodo serenissimi principis Ferdinandi militibus
@@ -223,12 +218,12 @@
           Romanos semper claruerunt quique huic Sacro Imperio deditissimi fuerunt, qui quicquid in
           Dalmacia, Croatia et Sclavonia possederunt, hoc valida solum manu, multo sanguine ac
           caede, et secundo contra communes <corr>sacrosancte</corr>
-               <note place="foot" n="3" resp="VM">Correxi ex <sic>sacrosanctem</sic>
+               <note type="editor" place="foot" n="3" resp="#VM">Correxi ex <sic>sacrosanctem</sic>
                </note> religionis hostes Marte quaesierunt,
           si fas fuerit, ac divina concesserit gratia insistere vestigiis opto, ab imminenti
           periculo ac pernicie defendite. Etenim si Croatia (quod Deus avertat) amitteretur, propter
           asperitatem montium, sylvarum, fluminum, castellorum munitissimorum ac validissimorum
-          situm inexpugnebilem, vix tota christiana respublica longo annorum intervallo, maximisque
+          situm <corr resp="#NJ">inexpugnabilem</corr>, vix tota christiana respublica longo annorum intervallo, maximisque
           sumptibus et plurima sanguinis effusione eam recuperaret. Nos certe mendicare nolimus,
           quemadmodum ipse Romae Graecos, Misos, Servianos, Albanenses plerosque magnos ac principes
           viros mendicare vidi, et in paupertate mori.</p>
@@ -313,7 +308,7 @@
          </div>
       </body>
       <back>
-         <div>
+         <div type="prosa-nota">
             <list>
                <head>Orationi huic in consilio Nurembergensi interfuere principes infrascripti.</head>
                <item> Serenissimus Ferdinandus princeps Hispaniae, Archidux Austriae <abbr>etc.</abbr> In Germania

@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+     <fileDesc xml:id="nardinus-celineus-in-palladium-1513">
+         <titleStmt>
+           <title>Epistulae et carmina in Palladium Fuscum (1513), editio electronica</title>
+           <author ref="http://www.wikidata.org/entity/Q117706387">
+             <persName xml:lang="la">Nardinus Celineus</persName>, <persName xml:lang="it">Nardino
+               Celinese</persName>
+             <date>fl. c. 1500</date></author>
+           <editor ref="http://www.wikidata.org/entity/Q114878204">
+             <persName xml:id="NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                 Jovanović</ref>
+             </persName>
+           </editor>
+           <respStmt>
+             <resp>electronice edidit</resp>
+             <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                 Jovanović</ref>
+             </persName>
+           </respStmt>
+         </titleStmt>
+         <publicationStmt>
+           <p>elektronička verzija: Croatiae auctores Latini, znanstveni
+             projekt. 
+             <orgName ref="http://www.wikidata.org/entity/Q3445232">Filozofski fakultet Sveučilišta u Zagrebu</orgName>,
+             Hrvatska.
+             <date when="2005-06">Lipnja 2005</date>.</p>
+           <p ana="licence">
+             <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+             Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+             was added on February 5, 2024. </p>
+	 </publicationStmt>
+         <sourceDesc>
+        <bibl> Jovanović, Neven. 2014. ‘Zadarski slon i komarac — polemika Nardina Celineja i
+          Paladija Fuska iz 1513.’, in Colloquia Maruliana XXIII (Split: Književni krug -
+          Marulianum), pp. 13–27 <ptr target="https://hrcak.srce.hr/120310"/>
+        </bibl>
+           <bibl>
+             Facsimilia digitalia codicis manu scripti:
+             Biblioteca dell' Istituto Campana per l'Istruzione Permanente (BICO) 
+             <idno>ms. 18.L.13.</idno>
+           </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+       <editorialDecl xml:lang="hrv" resp="#NJ">
+        <p>U izdanju smo zadržali izvornu grafiju (također i kod grčkih riječi), a interpunkciju smo
+          prilagodili današnjim konvencijama. Na očite pogreške i nepravilnosti upozorili smo
+          uskličnikom. Ispravke bez kojih bi razumijevanje bilo nemoguće označili smo prelomljenim
+          zagradama i popratili tekstološkom bilješkom. Mjesta u čije čitanje nismo sigurni donosimo
+          u kurzivu. Bilješke uz latinski tekst upućuju i na izvore citata.</p>
+       </editorialDecl>
+     </encodingDesc>
+     <profileDesc>
+       <langUsage>
+         <language ident="lat" xml:lang="hrv">latinski</language>
+       </langUsage>
+       <creation>
+         <date when="1513" period="15xx_1_third" cert="medium">1513</date>
+         <placeName ref="http://www.wikidata.org/entity/Q3370">Zadar</placeName>
+       </creation>
+       <textClass>
+         <keywords scheme="typus">
+           <term>prosa</term>
+           <term>poesis</term>
+         </keywords>
+         <keywords scheme="aetas">
+           <term>Litterae renatae (1400-1600)</term>
+           <term>Saeculum 16 (1501-1600)</term>
+           <term>1501-1550</term>
+         </keywords>
+         <keywords scheme="genre">
+           <term>prosa - epistula</term>
+           <term>poesis - epigramma</term>
+         </keywords>
+       </textClass>
+     </profileDesc>
+    <revisionDesc>
+      <change>
+        <persName ref="#NJ">
+          <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+            Jovanović</ref>
+        </persName>
+        <date when="2024-02-08">2024-02-08</date>. Početno TEI izdanje za CroALa. </change>
+      <change><persName ref="#NJ">Neven Jovanović</persName>
+        <date>Mense Decembri, anno 2010</date>. TEI caput. Versio initialis.</change>
+
+    </revisionDesc>
+   </teiHeader>
+  <text>
+    <body>
+      <pb n="22r"/>
+      <div type="compositum" n="c1">
+        <div type="poesis-nota" n="n1n1" met="hexameter">
+
+          <head>Carmen <sic resp="#NJ">quem</sic>
+            <persName ref="viaf-286797599" type="cont-auth">Palladius Fuscus</persName> subduxerat
+              <persName ref="viaf-8194433" type="ant-auth">Vergilio</persName> et a quibusdam
+            denotatus ut <persName ref="viaf-8194433" type="ant-auth">Vergilii</persName> est his
+            verbis <expan resp="#NJ">contra</expan> calumniatorem se excusat et furtum furto excusat.</head>
+          <quote>
+            <l>
+              <ptr
+                target="http://data.perseus.org/citations/urn:cts:latinLit:phi0690.phi003.perseus-lat1:6.625"/>
+              <ref
+                target="http://www.perseus.tufts.edu/hopper/text?doc=urn:cts:latinLit:phi0690.phi002.perseus-lat1:2.43"
+                >Non mihi si lingue centum sint oraque centum.</ref>
+            </l>
+          </quote>
+        </div>
+        <div type="prosa-nota" n="n1n2">
+          <p><persName ref="viaf-286797599" type="cont-auth">Palladius Fuscus</persName> hos versus
+            sublegerat et hanc edidit epistulam quam <persName ref="viaf-39387062" type="ant-auth"
+              >Macrobio</persName> extorsit</p>
+        </div>
+        <div type="prosa-epistula" n="p1">
+          <p>Quisquis es audi obsecro. Prisci illi nunquam satis laudati hunc esse legendi fructum
+            uoluerunt ut ea ęmulemur quę in aliis probemus et quę maxime inter aliorum scripta
+            miremur in aliquem nostrum usum conuertamus. Quod et nostri tam inter se quam a
+              <persName ref="ant-grc" type="ant">Gręcis</persName>, et <persName ref="ant-grc"
+              type="ant">Gręcorum</persName> excellentes inter se factitarunt. <persName
+              ref="viaf-161257722" type="ant-auth">Afranius</persName> enim togatarum scriptor non
+            inuerecunde respondens arguentibus quod plura sumpsisset a <persName
+              ref="viaf-267889413" type="ant-auth">Menandro</persName>: <quote>fateor inquit sumpsi
+              non ab illo modo, sed ut quisque habuit, quod conuenire mihi. quodque me non melius
+              facere credidi etiam a <persName ref="ant-lat" type="ant">Latinis</persName></quote>,
+            <expan resp="#NJ">quia</expan> si hęc societas et rerum communio poetis scriptoribusque omnibus
+            inter se exaranda concessa est, cur uitio mihi uertis, si unum <persName
+              ref="viaf-8194433" type="ant-auth">Vergilii</persName> carmen inter mea posui. Sed qui
+            te in me impulit perpauca legisse uidetur. Verum <persName ref="ant-sp-eleph-ind"
+              type="ant">Indus elephas</persName> culicem non curat.</p>
+        </div>
+        <div type="prosa-nota" n="n1n3">
+          <p>Hęc epistula fuit tradita <persName ref="croala-gcedulinus" type="cont">Chrysogono
+              Cedulino</persName> discipulo <persName ref="pncelineus-croala" type="cont-auth"
+              >domini Nardini</persName> et hęc fuit responsiua <persName ref="pncelineus-croala"
+                type="cont-auth"><expan resp="#NJ">domini Nardini</expan></persName></p>
+
+        </div>
+      </div>
+
+      <div type="prosa-epistula" n="ng1">
+        <pb n="22v"/>
+        <head>Responsiua <persName ref="croala-gcedulinus" type="cont">Grisogoni
+          <expan resp="#NJ">Cedulini</expan></persName>
+          <persName ref="viaf-286797599" type="cont-auth">Palladio</persName></head>
+
+        <p>Gratulamur tibi, antiquarie magister, quod <persName ref="viaf-161257722" type="ant-auth"
+            >Affranium</persName> legeris. <persName ref="viaf-161257722" type="ant-auth"
+            >Affranium</persName> recitasti, <persName ref="viaf-39387062" type="ant-auth"
+            >Macrobium</persName> tacuisti. Quasi nos ignoraremus a <persName ref="viaf-39387062"
+            type="ant-auth">Macrobio</persName> scripta omnia ista quę dicis. O uanam <choice>
+            <orig>sophistram</orig>
+            <reg resp="#NJ">sophistriam</reg>
+          </choice>, pueris quoque nunc maxime <sic resp="#NJ">ridiculum</sic>, tune me illa uentositate perflabis, qua
+          semidoctum indoctumque uulgus perflare <expan resp="#NJ">consueuisti</expan>? Aliud est legere, aliud
+          intelligere; aliud est furari, aliud ęmulari. Ęmulamur ea per quę proficimus et ad
+          excellentem aliquam bene factorum atque dictorum similitudinem ingenia excitamus. Contra
+          furantur ea per quę uituperamur sine ulla ingenii excitatione alieno <expan resp="#NJ">parta</expan>
+          labore compilantes. Disce igitur a nobis <persName ref="viaf-39387062" type="ant-auth"
+            >Macrobium</persName> in toto <unclear resp="#NJ">illi</unclear> dialogo taxare <persName
+            ref="viaf-8194433" type="ant-auth">Vergilium</persName> et, ne uideatur de industria
+          celebrem uirum insectari, sub quadam ironia furta eius detegere, non sine ostentatione
+          plurimę lectionis, quę multo ante natum <persName ref="viaf-39387062" type="ant-auth"
+            >Macrobium</persName>
+          <persName ref="ant-faust" type="ant-auth"><sic resp="#NJ">Petilius</sic> Faustinus</persName> et
+            <persName ref="ant-qoct" type="ant-auth">Quintus Octauius</persName> contracta
+          publicauere. Furati sunt et alii, fateor, sed nemo sine reprehensione. Quidam in furando
+          cauti, aliqui pugnaces, nonnulli uerecundi, pauci temerarii fuisse inueniuntur. Primi
+            <persName ref="ant-grc" type="ant">Gręcorum</persName> uiridaria subriperint, floresque
+            <persName ref="ant-grc-att" type="ant">Atthici eloquii</persName> tamquam in
+            <placeName>Latio</placeName> natos <persName ref="ant-lat" type="ant">Latinis
+            hominibus</persName> ostenderint. Secundi antiquorum ingenia uirtutesque admirati aut
+          similibus aut non longe dissimilibus uerbis atque sententiis exprimere ac superare conati
+          sunt. Tertii <persName ref="ant-lat" type="ant">Latinorum</persName> hortos ingredientes
+          nihil quod integrum esset uerum ex omnibus aliquid abstulerunt. Quarti temerario ausu
+          alienas opes <sic resp="#NJ">attractantes</sic> totum id quod erat <pb n="23r"/> nulla parte mutata
+          quicquid placuisset integrum sibi attribuerunt. Et hii quidem ipsi quamuis temerarii semel
+          aut bis hoc in magnis dumtaxat uoluminibus commisere. Tu uero plusquam temerarius in uno
+          epigrammate integrum <persName ref="viaf-8194433" type="ant-auth">Vergilii</persName>
+          uersum ita tuis inseruisti ut non aliter appareat quam inter grana papaueris margarita.
+          Hunc ego cum legissem <persName ref="viaf-8194433" type="ant-auth">Vergilianum</persName>
+          esse dixi. Quam tibi factam putas iniuriam? Imo a te mihi gratię agendę sunt, quod me
+          docente hoc assecutus es ut intelligas omnino furari non licere. Quis non rideat furem ita
+          se defendentem: furtum feci sed licuit quia et alii furati sunt. Non aliter arguentibus
+          respondent <persName ref="viaf-161257722" type="ant-auth">Affranius</persName> atque
+            <persName ref="viaf-66462384" type="ant-auth">Terentius</persName>, non aliter omnes in
+          manifesto furto comprehensi; pulchram responsionem, <persName ref="viaf-263059561"
+            type="ant-auth">Aristophani</persName>, summo in omni scientia uiro, nullo modo
+          accipiendam, qui (ut scribit <persName ref="viaf-46768430" type="ant-auth"
+            >Pollio</persName>), cum esset unus eorum qui poetarum certamina iudicabant uidissetque
+            <persName ref="ant-ptol" type="ant">Ptholemeum Egypti regem</persName> (ut moris erat)
+          quosdam, qui maxime populo placuissent, coronaturum, sententiam rogatus regem admonuit eos
+          non esse poetas sed fures, non pręmio dignos sed grauissima pęna mulctandos statimque
+          prolatis ex armariis bibliothecę uoluminibus <expan resp="#NJ">quae</expan> compilata fuerant fures
+          ipsos fateri coegit effecitque ut unus qui fur non erat coronaretur, cęteri uero furti
+          condemnati cum ignominia dimitterentur. In quo certamine si fuisses, qui a te nihil unquam
+          percipisti, cogita qualem gloriam reportasses. <expan resp="#NJ">Quid</expan>
+          <q>naturam furcillis agis</q>, ut ait <persName ref="viaf-100227522" type="ant-auth"
+            >Horatius</persName>? Versus facere nimis profecto sero didicisti. Nescio quem dicas me
+          impulisse <pb n="23v"/> qui pauca legerit. Quasi tu <persName ref="viaf-169533220"
+            type="ant-auth">Didymi</persName> uolumina excusseris, cunctas bibliothecas euolueris. O
+          egregium anagnostem, trium uel quattuor librorum lectione stultaque persuasione
+          doctissimum! Nos autem scimus te sine doctrina, sine ingenio,
+            <unclear>malignitate</unclear> quadam ingenua cęteris ea bona detrahere tibique arrogare
+          quibus indigeas. <ref>Et quia dicto <persName ref="viaf-29645396" type="ant-auth"
+              >Phalaridis</persName> abuteris, affirmare possumus <persName ref="ant-sp-eleph-ind"
+              type="ant">Indum tibi elephantem</persName> in ore, sed in pectore culicem.</ref></p>
+      </div>
+      <div type="prosa-epistula" n="p2">
+        <head>Responsiua <persName ref="viaf-286797599" type="cont-auth">Palladii Fusci</persName>
+          <persName ref="croala-gcedulinus" type="cont">Grisogono
+            <unclear resp="#NJ">Cedolino</unclear></persName></head>
+
+        <p>Impudens quid blatteras! Tu, qui adhuc prima ignoras <unclear resp="#NJ">eruditionis</unclear>
+          elementa, audes mihi detrahere quia usus sum ad redarguendam tuam inscitiam <persName
+            ref="viaf-39387062" type="ant-auth">uerbis Macrobii</persName>. Vtinam pro mea in te
+          beniuolentia tanta tibi esset pecuniarum, quanta mihi uerborum electorum et sententiarum
+          ad scribendum est copia, esses enim uere <persName ref="ant-sp-croes" type="ant"
+            >Cręsus</persName>. Quod nomen tibi per antiphrasim inditum satis constat. <persName
+            ref="ant-sp-ir" type="ant">Irus</persName> namque uerius uocareris. Sed te in istam
+          insaniam impulit ille tuus hęresiarches pro cuius doctrina ne cyathum quidem lotii
+          dederim. Qui permoleste fert beatam uirginem, cuius ipse est hostis, a quopiam laudari.
+          Sed si mihi stomachum moueritis, ostendam qui uir sim. faxo enim ut uos uestri consilii
+          pęniteat. At tu quanto melius faceres si curares ut fames, quę iampridem te oppugnat, ab
+          ędibus <choice>
+            <orig>arares</orig>
+            <supplied resp="#NJ">arceretur</supplied>
+          </choice>; id enim, si nescis, tua interest, non uiros eruditos quorum crepidę plus
+          sapiunt maledictis insectari. </p>
+        <div type="poesis-epigramma"><l>Qui <persName ref="ant-sp-leo-liby" type="ant">Lybicos strarit pugnando sąepe
+            leones</persName></l>
+        <l>Irridet culicis murmura ridiculi.</l></div>
+      </div>
+      <div type="prosa-epistula" n="n1">
+        <pb n="24r"/>
+
+        <head>Responsiua <persName ref="pncelineus-croala" type="cont-auth"><expan resp="#NJ">Publii Nardini
+              Cęlinei</expan></persName>
+          <persName ref="viaf-286797599" type="cont-auth">Palladio Fusco</persName></head>
+
+        <p>Nescio quo te nomine apellem, siue grammatista, siue talis es qualis est <ref
+            target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0014.tlg018.perseus-grc1:209"
+            >apud <persName ref="viaf-268302412" type="ant-auth">Demosthenem</persName>
+            grammatocyphon</ref>;<note type="editor" resp="#NJ">Cf. <ref
+              target="www.neulatein.de/words/3/005371.htm">Ramminger NLW</ref></note> pauca me tibi
+          respondentem audias quęso. Dicis me asserere <persName ref="viaf-8194433" type="ant-auth"
+            >Vergilium</persName> taxari neque aduersus obtrectantes a <persName ref="viaf-39387062"
+            type="ant-auth">Macrobio</persName> defendi. Assero quidem taxari, sed quod adiungis
+          neque defendi me asserere ita pernego sicut plane affirmo te quomodo defendatur minime
+          intelligere. Si defendit <persName ref="viaf-39387062" type="ant-auth"
+            >Macrobius</persName>, quod est qui uereri se dicit ne obtrectatoribus occasionem
+          prębeat obtrectandi, hunc <persName ref="viaf-39387062" type="ant-auth">Macrobianum
+            sensum</persName>
+          <sic resp="#NJ">dyaletices</sic> imperitus, <unclear resp="#NJ" reason="expan">qui</unclear> rationes diuisionum
+          ignoras, interpretari non potes. Nunc ego te indoctum et ingratum paulo inferius gratis et
+          aperte docebo. Miraris quomodo fieri possit ut <persName ref="viaf-8194433"
+            type="ant-auth"><expan resp="#NJ">Vergilius</expan></persName> a <persName ref="viaf-39387062"
+            type="ant-auth">Macrobio</persName> taxetur pariterque laudetur. Accidere solet
+          hominibus animi stupidi atque torpentis ut ea, quorum causas ignorant, omnia mirentur. Nos
+          autem nihil aliud miramur quam tot indies magis atque magis noua stultitię tuę germina
+          pullulare, cui obaudienti nulla est cum ueritate concordia. Nonne alias diximus quosdam
+          fures pugnantes fuisse qui antiquos aut exprimere aut etiam superare conati sunt, in
+          quorum si classe <persName ref="viaf-8194433" type="ant-auth">Vergilium</persName> a
+            <persName ref="viaf-39387062" type="ant-auth">Macrobio</persName> censeri patiaris, mox
+          illum ab eodem taxari pariterque laudari, oppugnari, atque defendi, alia atque alia
+          ratione cognosces. At si <sic resp="#NJ">proteruius</sic> aduersaberis, aderit <persName
+            ref="viaf-39387062" type="ant-auth">Macrobio</persName>
+          <persName ref="viaf-100219162" type="ant-auth"><sic resp="#NJ">Plynius</sic></persName> teque nolente
+          ac frustra repugnante mihi uera dicenti <sic resp="#NJ">patrocinabitur</sic>; qui quum in prefatione
+          <ref type="titulus">Naturalis hystorię</ref> in <del resp="scriba">fides</del> similes tui fures
+          <sic resp="#NJ">inueheretur</sic>, sententiam suam his uerbis aperuit: <cit>
+            <quote>Scito enim conferentem me autores deprehendisse a iuratissimis <sic resp="#NJ">et</sic>
+              proximis transcriptos ad uerbum neque nominatos, non <persName ref="viaf-8194433"
+                type="ant-auth">Vergiliana uirtute</persName> ut certarent, <pb n="24r"/> non
+              <persName ref="viaf-78769600" type="ant-auth"><sic resp="#NJ">Ciceroniana</sic>
+                simplicitate</persName> qui <sic resp="#NJ">in libris</sic> de <expan resp="#NJ">republica</expan> se
+                <persName ref="viaf-108159964" type="ant-auth">Platonis</persName> comitem
+              profitetur.</quote>
+            <note type="editor" resp="#NJ">Cf. <bibl><ref
+                  target="http://data.perseus.org/citations/urn:cts:latinLit:phi0978.phi001.perseus-lat1:preface.5"
+                  >Plin. N. h. praef. 22</ref></bibl></note>
+          </cit> Quare non alia <persName ref="viaf-8194433" type="ant-auth">Vergilium</persName>
+          <persName ref="viaf-100219162" type="ant-auth"><sic resp="#NJ">Plynius</sic></persName> quam sola uirtute
+          certaminis a ceteris furibus eximit. Nam plurimi refert alienas opes ab ignauo fure
+          tamquam suas et a strenuo certatore tamquam opima spolia possideri. Certauit cum <persName
+            ref="ant-grc" type="ant-auth">Gręcis</persName>
+          <persName ref="viaf-8194433" type="ant-auth">Vergilius</persName> et quicquid ab eis
+          certando sustulit tam pulchra <ref>Latinitate</ref>
+          <unclear resp="#NJ">donauit</unclear> ut non aliunde ablatum, sed tamquam in
+          <placeName>Latio</placeName> natum esse uideatur. <unclear resp="#NJ">Certauit</unclear> etiam cum
+            <persName ref="ant-lat" type="ant">Latinis</persName> magnaque industria illorum dicta
+          quę placuissent tamquam siluestres plantas <sic resp="#NJ">ita</sic> suum coalescere fecit <sic resp="#NJ">ut
+            <unclear resp="#NJ">transposita</unclear> ut transposita</sic> multo melior quam ubi nata fuerant
+          <unclear resp="#NJ">redderet</unclear>. Illum ergo ut furem <persName ref="viaf-39387062"
+            type="ant-auth">Macrobius</persName> taxat, <sic resp="#NJ">quum</sic>
+          <sic resp="#NJ">pene</sic> totum ex alieno pendere demonstrat. Dumtaxat non <sic resp="#NJ">deffendit</sic>, sed
+          <sic resp="#NJ">opugnat</sic>
+          <expan resp="#NJ">et</expan> hoc est, qui ait se vereri ne obtrectatoribus faueat, dum strenuum
+          certatorem ostendit ab omni obtrectatione pari modo <corr resp="#NJ">defen<supplied resp="#NJ">di</supplied></corr>
+          quemadmodum se idem uates olim <sic resp="#NJ">deffendere</sic> solitus est <expan resp="#NJ">qui</expan> furta
+          <unclear resp="#NJ">sibi</unclear> obiicientibus respondebat <q>tam magnarum uirium esse <persName
+              ref="viaf-224924963" type="ant-auth">Homero</persName> uersum extorquere quam
+              <persName ref="ant-d-herc" type="ant">Herculi</persName> clauam</q>.<note
+            type="editor" resp="#NJ"><bibl><ref
+                target="http://penelope.uchicago.edu/Thayer/L/Roman/Texts/Suetonius/de_Poetis/Vergil*.html"
+                >Suetonius, Vita Vergilii</ref></bibl>: <q>Asconius Pedianus libro, quem "Contra
+              obtrectatores Vergilii" scripsit, pauca admodum obiecta ei proponit eaque circa
+              historiam fere et quod pleraque ab Homero sumpsisset; sed <milestone unit="page"
+                n="p482"/> hoc ipsum crimen sic defendere adsuetum ait: cur non illi quoque eadem
+              furta temptarent? Verum intellecturos facilius esse Herculi clavam quam Homero versum
+              subripere.</q></note> Tu uero, ignauissime fur, dic age, si potes, in quibus te
+            <persName ref="viaf-8194433" type="ant-auth">Vergilio</persName>
+          <sic resp="#NJ">comparas</sic>, ut intelligamus idem tibi licere quod illi. Quę difficultas in
+          transferendo? Quę industria in scribendo, quę uirtus, aut quę tibi gloria certaminis fuit?
+          Alienos integros uersus impudentissime transcripsisti, tamquam de <unclear resp="#NJ">magni</unclear>
+          operis excellentia in uno epigrammate certaturus. O arrogantiam <sic resp="#NJ">subsanandam</sic>!
+            <ref
+            target="http://data.perseus.org/citations/urn:cts:latinLit:stoa0045.stoa003.perseus-lat1:praef"
+            >Se pudere confitetur <persName ref="viaf-109786483" type="ant-auth">Ausonius</persName>
+              centonem facturus, <unclear resp="#NJ"><expan resp="#NJ">in quod</expan></unclear>
+              <expan resp="#NJ">praeter</expan> imperatoriam iussionem artificium centonarię legis excusare
+            poterat.</ref> Tu, <ref
+            target="http://data.perseus.org/citations/urn:cts:latinLit:phi1294.phi002.perseus-lat1:1.66"
+            >qui tomos facis non aliter quam fur ille apud <persName ref="viaf-8099277"
+              type="ant-auth">Martialem</persName></ref>, <pb n="25r"/> quid aliud excusabis quam
+          eruditionis penuriam? <quote>Obnoxii profecto animi et infęlicis ingenii est <ref>(ut ait
+                <persName ref="viaf-100219162" type="ant-auth">Plinius</persName>)</ref> deprehendi
+            in furto malle quam mutuum reddere</quote>; non certat qui transcribit, nec furti ratio
+          mutui nomine continetur. Si mutuatus es, cur <persName ref="viaf-78769600" type="ant-auth"
+            >Ciceroniana simplicitate</persName> non reddidisti. Furta, inquis, occultantur;
+          occultantur profecto, sed in his deprehensus, quę occultari credebas, erubuisti. Hortaris
+          pręterea <sic resp="#NJ">nequid</sic> uersibus meis a furibus metuam. Quidni metuam; imo furacitatem
+          tuam expertus cauebo deinceps. Quosdam elegos ad te nondum satis cognitum scripsimus, in
+          quibus est: <quote><l met="pentameter">Dum ferit auratam <persName ref="ant-d-apollo" type="ant">pulcher
+                Apollo</persName> lyram.</l></quote> Hunc uersum agnosco meum inter cacatissimos
+          tuos positum <persName ref="dpasqualitius-croala" type="cont-auth">Donato
+            Pasqualitio</persName> missos. Clepsisti et arrogasti, famosissime <sic resp="#NJ">plagiarię</sic>;
+          si uersus mei non sapiunt, scire cupio, qua sis dulcedine furatus. Te igitur inter
+          indoctos, inter fatuos, inter fures illos relinquamus quos <persName ref="viaf-100219162"
+            type="ant-auth">Pliniana reprehendit autoritas</persName> et quos <persName
+            ref="viaf-263059561" type="ant-auth">Aristophanis censura</persName> condemnat. Nunc ad
+          maledicta tua conuertor, Deos immortales obtestans me nunquam nisi prouocatum maledicere
+          solere. Cum taceo, sum tibi <persName ref="ant-r-seriph" type="ant">rana
+            Seriphia</persName>, tu mihi <persName ref="viaf-268846204" type="ant-auth"
+            >Aristophanis</persName>, quę cum loqui nesciat, tacere non potest. Clamat enim continuo
+            <foreign xml:lang="grc">Βρεκεκεξ κοαξ</foreign>. Ceterum caue ne, dum te mihi confers,
+          ut <persName ref="viaf-101761945" type="ant-auth">Ęsopia</persName> nimia tumefactione
+          rumparis. Uno uerbo maledictis tuis respondebo si dixero te in omnibus esse mentitum. Sed
+          hoc per partes multo melius agetur. Ades <expan resp="#NJ">dein</expan> philosophotate omnium, qui te
+          de sola uirtute loqui iactas nobisque de ludo et uino sermones improperas. Numquid <ref
+            type="titulus"><persName ref="viaf-7524651" type="ant-auth"
+              ><sic resp="#NJ">Aristotellicos</sic></persName> libros <foreign>περί τῆς αρετης</foreign></ref>
+          an <persName ref="viaf-265397758" type="ant-auth">Theophrasti</persName> uolumina
+          interpretaris? O uanitatem doctis hominibus irridendam. Ego si ludo, luserunt et <persName
+            ref="viaf-34348174" type="ant-auth">Scipio</persName> et <persName ref="viaf-18013086"
+              type="ant-auth"><expan resp="#NJ">Caius</expan> Cęsar</persName>. Si bibo, biberunt et alii, apud
+            <persName ref="ant-grc" type="ant">Gręcos</persName> uiri excellentes <persName
+            ref="viaf-224924963" type="ant-auth">Homerus</persName> et <pb n="25v"/>
+          <persName ref="viaf-268526195" type="ant-auth">Ęschilus</persName>, apud nos <persName
+            ref="viaf-84976347" type="ant-auth">Ennius</persName> et <persName ref="viaf-99852885"
+              type="ant-auth">Marcus Cato</persName> nec illis <expan resp="#NJ">obfuerint</expan> quę mihi
+          obiicis, quominus ęternam gloriam consequerentur. Sed ut obiicienda existimes non tamen a
+          te (qui <ref>cauponam uxorem duxisti</ref>) obiici decebat. licet mihi ludere licet
+          tamquam ueterano militi omnifaria militia functo. Exemplo ueterum philosophorum
+          <expan resp="#NJ">aliquando</expan> symposiari contra tibi adhuc tyroni prope decrepito
+          neccessarium est in magna confusione ignorantię tuę cum difficultate intelligentię
+          <expan resp="#NJ">conflictari</expan> Nescio qui libri (ut ais) compositi
+            <placeName>Romę</placeName> atque <placeName>Venetiis</placeName> lectitentur, nisi
+          credimus illos esse, qui <persName ref="viaf-100218993" type="ant-auth"
+            >Catullum</persName> poetam plusquam mille <expan resp="#NJ">uulneribus</expan> affecerunt. A
+            <persName ref="viaf-14883306" type="cont-auth">Hieronimo Auantio</persName> emendati, an
+          potius illi sunt <expan resp="#NJ">quos</expan> ego propediem cum abolitione uilissimi nominis tui
+          pęnitus castigabo. Sed qualescumque patiamur te furti coarguunt illis magis testes
+          <expan resp="#NJ">adhibiti</expan>, <persName ref="viaf-224924963" type="ant-auth"
+            >Homerus</persName>, <persName ref="viaf-77132959" type="ant-auth">Pausanias</persName>
+          et <persName ref="viaf-262974255" type="ant-auth">Apollonius</persName>,
+          <unclear resp="#NJ"><expan resp="#NJ">quin</expan></unclear>
+          <ref><persName ref="ant-grc" type="ant-auth">Gręcos scriptores <expan resp="#NJ">atque</expan>
+              poetas</persName></ref> legisti leuissime nebulo, quum tibi nulla sit <ref>Gręcarum
+                <expan resp="#NJ">litterarum</expan></ref> cognitio, si non legisti, cur a <persName
+            ref="ant-grc" type="ant-auth">Gręce scientibus</persName> accepta
+          <expan resp="#NJ">dissimulas</expan> Pręterea me Cristianam religionem impugnare dicis. Hoc si
+          uerum est, cur illam tu scilicet homo religiosissimus impugnari <expan resp="#NJ">sustineas</expan>
+          Nam si me inter pueros tantum philosophari putas, nihil est <expan resp="#NJ">quod</expan> cum ignaro
+          philosophię disputaturus de certa uictoria dubites. <expan resp="#NJ">Philosophus</expan> tibi non
+          sum, aliis esse uolo, qui non in triuiis, sed in publicis gymnasiis docent. <persName
+            ref="cont-corell" type="cont"><sic resp="#NJ">Correlius</sic></persName> et <persName
+            ref="cont-michiel" type="cont">Michael</persName> abierunt, <persName ref="cont-minot"
+            type="cont">Minotus</persName> et <persName ref="cont-foscar" type="cont"
+              >Phos<supplied resp="#NJ">carus</supplied></persName> adsunt, qui nos ambos plusquam credis
+          fortasse nouerunt, accede, accusa, coniuratos tuos aduoca qui tibi subscribant, si me
+          amas, uictum corrigis, si odis oppresso lętaberis et spiritum uentositatis tuę laetabundus
+          uictor augebis. Tu philosophus es, immo etiam uates,
+          <unclear resp="#NJ">diuina<supplied resp="#NJ">ns</supplied></unclear>
+          <pb n="26r"/> quoties atra bile urgeris, et pręsentium bellorum pręiuditio facis. uerum
+          <expan resp="#NJ">aliquando</expan> male diuinasti, cum <date when="1509-06"><placeName>perdito
+              Patauio</placeName></date> tamquam extincto <orgName>Veneto imperio</orgName> te a
+            <unclear>scriptu</unclear> abdicasti, statimque de <persName ref="cont-pallav"
+            type="cont">Palauicinis Mediolanensibus</persName> cogitare cępisti. Mox deceptus et
+          illusus te <placeName>Venetias</placeName> iturum magnasque ibi conditiones inuenturum
+          prędicabas, iuisti, et huc <expan resp="#NJ">inter</expan> contemptus ad triuialia officia rediisti
+          non sine multis precibus et adulationibus mendicata. In triuio sedes inter pueros tumidus
+          et inflatus nihil aliud quam meras nugas intonans, quibus quoties magnum te ostendere uis
+          nobis absentibus maledicis, pueri uero astutiores maledicentem (ut audiuimus) clam sępe
+          riserunt te insanum omnes uocant et qui tibi blandiuntur illudunt; talem insaniam pateris,
+          qualem <ref>fidicen ille Horatianus</ref> qui totos dies cum fidibus in theatro sedebat
+          musicę prorsus ignarus; phreneticorum aliqui se reges putant et coronati ambulant.
+          Nonnulli se doctos imaginantes doctorum insignia ferunt. In <sic resp="#NJ">quibus</sic>
+          <sic resp="#NJ">tibi</sic> o miser omnes scientias persuades omnium imperitissimus habitu et incessu
+          omnes uirtutes pre se <sic resp="#NJ">ferebat</sic> fuge in aliquas tenebras ubi nemo te uideat. Ego
+          quum abire uoluero scio quo sim abiturus. <ref>Fratres</ref> habeo non tales quales fingis
+          nec quales tui esse potuerunt, habeo prędia quę mihi atque meis abunde alimenta
+          suppeditant. Tu nobilis a limo ne hortulum quidem possides. Dic age spurię obscurissime
+          ubi fratres tui, ubi patria. Te <persName ref="cont-ctet-pad" type="cont"
+            >Patauinum</persName> facis. Ego uero quum essem <placeName>Patauii</placeName> huc
+          uenturus dedita opera diu quesiui neminem inuenire potui qui te aut aliquem tuorum
+          cognosceret. O pulchram <expan resp="#NJ">prosapiam</expan>; postquam huc ueni audiui te in
+          <placeName>Hystria</placeName> natum <expan resp="#NJ">christianisatumque</expan> inter barbaros et
+          bubulcos illos qui plurimi in ea regione sunt. Audiui pręterea sororem tuam in hac urbe
+          uisam, tam pulchro habitu, tam splendida corporis facię ut illam domi clausam teneres, et
+          ad interiores fortasse parietes illuminandos. Quid plura dicam, non est cum insano
+          insaniendum.</p>
+
+        <closer><foreign xml:lang="grc">τέλος</foreign></closer>
+      </div>
+      <pb/>
+      <gap/>
+      <pb n="36r"/>
+      <div type="poesis-epigramma" met="elegiacum" n="n2">
+        <head><persName ref="pncelineus-croala" type="cont-auth"><expan resp="#NJ">Publii Nardini
+              Celinei</expan></persName> responsum ad <persName ref="viaf-286797599"
+            type="cont-auth">Palladium Fuscum</persName></head>
+        <l>Quid me uituperas decoratum Cęsaris lauro?</l>
+        <l>Sum Graia et Latia <choice>
+          <sic resp="#NJ">tempide</sic>
+          <corr resp="#NJ">thespide</corr>
+          </choice> cinctus ego.</l>
+        <l>Sed mihi concessos rarę uirtutis honores</l>
+        <l>Hos tibi non merito <persName ref="ant-d-apollo" type="ant">pulcher Apollo</persName>
+          negat.</l>
+        <l>Non male dicendo, uerum bene cuncta legendo</l>
+        <l>Et bene discendo crescere fama solet.</l>
+        <l>An speras te posse tuis exire tenebris</l>
+        <l>Dum contra solem lumina cecus agis?</l>
+        <l>Quid coruus cycnum? Quid equum deludit asellus?</l>
+        <l>Aut quid uocalem bubo lacessit auem?</l>
+        <l>Indoctus docto maledicere, <persName ref="viaf-286797599" type="cont-auth"
+            >Fusce</persName>, laboras</l>
+        <l>Versibus his quales <persName ref="ant-d-musa" type="ant">Musa</persName> cacata
+          dedit.</l>
+        <l>Non data clepsisti et sortem miseratus iniquam</l>
+        <l><sic resp="#NJ">Et <placeName>Ganges</placeName>
+          <placeName>Veneto distat ab Eridano</placeName></sic></l>
+        <pb n="36v"/>
+        <l>Immisces furtiua tuis aliena; queruntur,</l>
+        <l>"Non sumus", exclamant, "nolumus esse tua!"</l>
+        <l>Coniugis, agnosco, ingratus mihi bella magistro</l>
+        <l>Subripuit; quare hoc; simia, redde meum!</l>
+        <l>Cętera prętereo; distas tam longius, hercle,</l>
+        <l>Nouimus et solum hoc dicimus esse tuum.</l>
+        <l>Redde aliis proprias, <persName ref="viaf-101761945" type="ant-auth">Ęsopi</persName>
+          gracule, pennas,</l>
+        <l>Mox in brumali frigore nudus eris.</l>
+      </div>
+      <div type="poesis-epigramma" met="hendecasyllabus" n="n3">
+        <pb n="37r"/>
+
+        <head><persName ref="pncelineus-croala" type="cont-auth"><expan resp="#NJ">Publius Nardinus
+              Celineus</expan></persName>
+          <persName ref="tolimer01" type="cont-auth">Helię Tolimerio</persName></head>
+
+        <l>Sinistrum fateor sed illud, <persName ref="tolimer01" type="cont-auth"
+          >Heli</persName>,</l>
+        <l><persName ref="ant-d-musa" type="ant">Musarum</persName> decus, erudite uates</l>
+        <l>Quod nunc uersibus his canemus omne</l>
+        <l><placeName ref="geo-3190941">Sicensi</placeName> quoque nuntiabis urbi</l>
+        <l>Magnum discipulis tuis dolorem</l>
+        <l>Ad quos, ueh miseris, uenire fertur</l>
+        <l>Indoctissimus omnium magister</l>
+        <l><persName ref="viaf-286797599" type="cont-auth">Fuscus Palladius</persName>, profecto
+          fuscus,</l>
+        <l>Tam re quam potuit notare nomen.</l>
+        <l>Qui cum uix elementa prima norit</l>
+        <l>Iamque <persName ref="viaf-47555258" type="ant-auth">Zenodotus</persName> foret
+          superbus.</l>
+        <l>Omnes barbarus iste grammatista</l>
+        <l>Scriptores ueteres <persName ref="viaf-14450656" type="ant-auth">Crates</persName> ut
+          alter</l>
+        <l>(Quos examinat) improbat, reprehendit,</l>
+        <l>Et quoscumque obelo uel asterisco</l>
+        <l>Emendans facit esse <sic resp="#NJ">mendientes</sic>.</l>
+        <l>Nunc nos mille locis redarguentes</l>
+        <pb n="37v"/>
+        <l>Quibus lęserat optimum <persName ref="viaf-100218993" type="ant-auth"
+          >Catullum</persName></l>
+        <l>Irritauimus et <sic resp="#NJ">pręteriuentem</sic></l>
+        <l>Tamquam lucifugam <unclear resp="#NJ">iubar</unclear> sub ipsum</l>
+        <l>Tandem trusimus in suas tenebras.</l>
+        <l>Errores totidem quot astra cęlo</l>
+        <l>Sunt in, quos legit, omnibus poetis;</l>
+        <l>Eius discipulos meosque factos</l>
+        <l>Multos dedocui male institutos;</l>
+        <l>Nec tot ridiculis <persName ref="viaf-56746873" type="ant-auth"
+          >Apollodorus</persName></l>
+        <l>Exemplis scatet in suis libellis</l>
+        <l>Quot nos risimus improbum <sic resp="#NJ">chachinis</sic>.</l>
+        <l>Cur hic <persName ref="viaf-286797599" type="cont-auth">Palladius</persName> uocetur,
+          audi:</l>
+        <l>Non a <persName ref="ant-d-pallas" type="ant">Pallade</persName>, sicut arrogauit,</l>
+        <l>Sed quod palleat inde nuncupatur.</l>
+        <l>Pallorem uideas in ore tantum</l>
+        <l>Infenso melioribus <persName ref="ant-d-musa" type="ant">Camęnis</persName></l>
+        <l>Dum nescit tollerare doctiores</l>
+        <l>Quantum liuida suscitat <persName ref="ant-d-megaera" type="ant">Męgęra</persName>.</l>
+        <l>Capti credo tui fuere laruis,</l>
+        <l>Capti fascinio loquacitatis</l>
+        <l>Huius uaniloqui fuere ciues</l>
+        <l>Cum talem tibi pretulere pestem.</l>
+        <l>Si per compita, si per angiportus</l>
+        <l>Incedet populo fauente nugis</l>
+        <l>Et mendatia confutante nullo,</l>
+        <l>Tum uentosior <persName ref="ant-d-eolus" type="ant">Ęolo</persName> riuali</l>
+        <l>Iactabit nebulo suas ineptas</l>
+        <pb n="38r"/>
+        <l>Vanas litterulas, cacatiores</l>
+        <l>Quam sint <persName ref="ant-d-ocypete" type="ant">Ocypete</persName> ac <persName
+            ref="ant-d-cyleno" type="ant">soror Cyleno</persName>.</l>
+        <l>Tu in quem <persName ref="ant-d-musa" type="ant">Pierides</persName> tuentur omnes</l>
+        <l>Ista, docte, <sic resp="#NJ">rudi</sic> nec arrogare</l>
+        <l>Hunc uilem patiare sannionem</l>
+        <l>Quas nullas habet, oro, disciplinas;</l>
+        <l>Et quum perdiderit semel pudorem,</l>
+        <l>Saltem corripias eum timore;</l>
+        <l>Si contra steteris, magis pauebit</l>
+        <l>Quam quum damma canes fugit <persName ref="ant-sp-molossus" type="ant"
+            >Molossos</persName>.</l>
+        <l>At si forte sines ut insolescat</l>
+        <l>Non fiet modus <sic resp="#NJ">obloqutionis</sic>.</l>
+        <l>Obiurga temerarium, coherce</l>
+        <l>Insanum, fatuum, atque garrientem;</l>
+        <l>Cęssantem stimulo preme inquieto</l>
+        <l>Ignauum, et subito petet latebras;</l>
+        <l>Nostrum quęso remitte morionem</l>
+        <l>Ad me fac redeant mei cachinni.</l>
+      </div>
+      <div type="poesis-epigramma" met="elegiacum" n="p3">
+        <head><persName ref="viaf-286797599" type="cont-auth">Palladius Fuscus</persName>
+          <persName ref="pncelineus-croala" type="cont-auth">Nardino Cęlineo</persName></head>
+        <l>Incedis tumidus totam <persName ref="pncelineus-croala" type="cont-auth"
+            >Nardine</persName> per urbem</l>
+        <l>Hoc solo quoniam carmina multa facis</l>
+        <l>Carmina sunt equidem fateor sed qualia quondam</l>
+        <l>Fecere indocti <persName ref="ant-sp-maev" type="ant-auth">Meuius</persName> et <persName
+            ref="ant-sp-bav" type="ant-auth">Bauius</persName>.</l>
+      </div>
+      <div type="poesis-epigramma" met="elegiacum" n="n4">
+        <head><persName ref="pncelineus-croala" type="cont-auth"><expan resp="#NJ">Publi Nardini
+              Cęlinei</expan></persName> responsum</head>
+        <l>Non tu carminibus doctis nec <persName ref="viaf-286797599" type="cont-auth"
+            >Fusce</persName>
+          <persName ref="ant-d-musa" type="ant">Camęnis</persName></l>
+        <l>Sed liuore tumes dum mea scripta legis.</l>
+        <l>Quę <persName ref="ant-sp-bav" type="ant-auth">Bauio</persName> si digna putas, tua digna
+            <persName ref="viaf-8194433" type="ant-auth">Marone</persName>,</l>
+        <l>Cur mea docta cohors cur tua nemo legit?</l>
+        <pb n="38v"/>
+        <l><persName ref="viaf-76207567" type="ant-auth">Orbilium</persName> profers et habes in
+          pectore <persName ref="viaf-79139886" type="ant-auth">Gallum</persName></l>
+        <l>Atque sub <persName ref="viaf-76207567" type="ant-auth">Orbilii</persName>
+          <persName ref="viaf-5068625" type="ant-auth">Rhemius</persName> ore latet.</l>
+        <closer><foreign xml:lang="grc">τέλος</foreign></closer>
+      </div>
+      <gap/>
+
+      <pb n="43"/>
+      <div type="poesis-epigramma" met="elegiacum" n="n5">
+        <head><persName ref="pncelineus-croala" type="cont-auth"><expan resp="#NJ">Publius Nardinus
+              Cęlineus</expan></persName> in <persName ref="viaf-286797599" type="cont-auth"
+            >Palladium Phuscum</persName></head>
+
+        <l>Volgiuagum ingenium felix et ad omnia promptum</l>
+        <l>Est illi; quod agit, <persName ref="ant-d-mercur" type="ant">Mercuriale</persName>
+          sapit.</l>
+        <l>Nullus enim labor est alienę frugis aceruos</l>
+        <l>Alteriusque manu tollere parta bona.</l>
+        <l>Mille poetarum delecta poemata clepsit</l>
+        <l><unclear resp="#NJ">Carptaque</unclear> congessit mille <unclear resp="#NJ">recisa</unclear> tomis;</l>
+        <l>Subtrahit excerpit quęcumque uolumina uoluit</l>
+        <l>Contemnensque suos carmina nostra facit.</l>
+        <pb n="43"/>
+        <l>Defero; <persName ref="ant-d-musa" type="ant">Pieridum</persName> lęsi
+          <unclear resp="#NJ">subscribite</unclear> uates</l>
+        <l>Tuque uel imprimis docte <persName ref="viaf-12414496" type="cont-auth"
+            >Sabelle</persName> faue;</l>
+        <l>Currite <persName ref="ant-d-musa" type="ant">Pyerides</persName> uestrum reposcite
+          nomen</l>
+        <l>Vsurpauit enim fur manifestus idem.</l>
+        <closer><foreign xml:lang="grc">τέλος</foreign></closer>
+
+
+      </div>
+      <gap reason="editorial" resp="#NJ"/>
+    </body>
+
+
+  </text>
+</TEI>
