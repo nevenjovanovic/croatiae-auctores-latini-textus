@@ -2,20 +2,20 @@
    <teiHeader>
       <fileDesc xml:id="paulo-p-memoriale">
          <titleStmt>
-            <title>Memoriale, versio electronica</title>
+            <title>Memoriale (1371-1408), versio electronica</title>
             <author ref="http://www.wikidata.org/entity/Q102556859">
                <persName xml:lang="hr">Pavlović, Pavao</persName>
                <date>1347-1416</date>
             </author>
-            <editor>
+            <editor ref="http://www.wikidata.org/entity/Q1558008">
                <persName>
-                  <ref>Ferdo Šišić</ref>
+                  <ref target="http://www.wikidata.org/entity/Q1558008">Ferdo Šišić</ref>
                </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </respStmt>
          </titleStmt>
@@ -30,22 +30,22 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
             Hrvatska.  <date>Srpnja 2012.</date>
             </p>
+            <p ana="licence" xml:lang="en">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on February 9, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Paulo, Paulus de: Memoriale Pauli de Paulo patritii Iadrensis (1371-1408). In: Vjestnik Kr. Hrv.-Slav.-Dalm. zemaljskog arkiva, 6 (1904), Nr. 1-2, s. 1-59 </bibl>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <editorialDecl xml:lang="hrv" resp="#NJ">
+            <p>Prema Šišiću 1904.</p>
+         </editorialDecl>
+      </encodingDesc>
       <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <settingDesc>
-            <p/>
-         </settingDesc>
-         <particDesc>
-            <p/>
-         </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
@@ -69,6 +69,14 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change>
+            <persName ref="#NJ">
+               <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                  Jovanović</ref>
+            </persName>
+            <date when="2024-02-09">2024-02-09</date>. 
+            Adaptirao TEI zaglavlje za CroALa v2.1.
+         </change>
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -339,7 +347,7 @@ Jadrae magnificus Vulch banus, quondam domini Vulchi vojvodae de Bosna , ac come
                <p>
                   <date when="1393-11-12">Die mercurii 12. mensis novembris</date> applicuerunt Iadram domini Nicolaus episcopus corbaviensis et Ioannes episcopus nonensis pro tractanda pace et concordia inter dominum banum Ioannem, comitem Segniae, et communitatem nostram.</p>
                <p>
-                  <date when="1393-11-15">Die vero sabbati sequenti</date>, electus fui una cum dominis Iacobo de Raduchis, ser Crescio de Nassis et ser Cosa de Begna per consilium sapientum Iadrae ad contirmandam dietam concordiam cum ipsis dominis episcopis, pro parte nostrae communitatis.</p>
+                  <date when="1393-11-15">Die vero sabbati sequenti</date>, electus fui una cum dominis Iacobo de Raduchis, ser Crescio de Nassis et ser Cosa de Begna per consilium sapientum Iadrae ad confirmandam dietam concordiam cum ipsis dominis episcopis, pro parte nostrae communitatis.</p>
                <p>
                   <date when="1393-11-29">Die sabbati penultimo mensis novembris</date> Segniae obiit comes Anz, tunc temporis Sclavoniae et Chroatiae banus, et die lunae sequenti sepultus fuit ibi apud fratres minores.</p>
             </div>
@@ -567,7 +575,7 @@ audita missa in ecclesia Sanctae Mariac maioris super altare Sancti Simeonis, <s
                <p>
                   <date when="1400-03-29">Die 29. mensis martii</date> condemnavi ser Ioannem Crustionacich in libras ducentum.</p>
                <p>
-                  <date when="1400-04-05">Die 5. mensis aprilis</date> in generali consilio creati fuerunt quattuor nobiles qui una mecum et cum curia provideant de iactu fiendi inter portas portus Sibenici, data et concessa eis omni auctoritate de dicto loco et tempore, faciendi praedictos iactus, dissicandi tantum quantum videbitur eis et die crastina videlicet sexto praedicti mensis ivimus cum domino Thoma Thomasevich, Andrea Iurani et Nicolao Todosii iudice sibenicense et cum dietis quattuor provisoribus, videlicet ser Stephano Dragani, ser Cipriano Duymich, ser Floro Tavilich et ser Nicolao Semianich ad locum fiendi iactus et determinavimus locum ubi fieri debet.</p>
+                  <date when="1400-04-05">Die 5. mensis aprilis</date> in generali consilio creati fuerunt quattuor nobiles qui una mecum et cum curia provideant de iactu fiendi inter portas portus Sibenici, data et concessa eis omni auctoritate de dicto loco et tempore, faciendi praedictos iactus, dissicandi tantum quantum videbitur eis et die crastina videlicet sexto praedicti mensis ivimus cum domino Thoma Thomasevich, Andrea Iurani et Nicolao Todosii iudice sibenicense et cum <corr resp="#NJ">dictis</corr> quattuor provisoribus, videlicet ser Stephano Dragani, ser Cipriano Duymich, ser Floro Tavilich et ser Nicolao Semianich ad locum fiendi iactus et determinavimus locum ubi fieri debet.</p>
                <p>
                   <date when="1400-04-06">Item die 6. scilicet praedicti mensis aprilis</date>, iecimus proclamari et publice banniri, quod nullus Ragusiensis qui aufugerat de Ragusio proxime elapsis diebus, propter aliquem tractatum qui voluit fieri in Ragusio, non praesumat accedere ad civitatem Sibenicensem, vel districtum eius sub poena, qua puniendus esset Ragusio, si caperetur.</p>
                <p>
