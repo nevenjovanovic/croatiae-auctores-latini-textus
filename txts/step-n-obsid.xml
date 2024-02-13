@@ -11,15 +11,15 @@
                <persName xml:lang="hr">Stjepan Medak</persName>
                <date>c. 1596.</date>
             </author>
-            <editor>
+            <editor ref="http://www.wikidata.org/entity/Q124071389" xml:id="VR">
                <persName>
-                  <ref type="viaf" target="2726561">Vladimir Rezar</ref>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q124071389">Vladimir Rezar</ref>
                </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </respStmt>
          </titleStmt>
@@ -35,6 +35,10 @@
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
             Hrvatska.  <date when="2010-03">ožujka 2010</date>.</p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on February 10, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
@@ -47,16 +51,16 @@
     </bibl>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <editorialDecl xml:lang="hrv" resp="#VR">
+            <p>Ovaj prijepis od svog rukopisnog predloška odstupa utoliko što je pravopis
+               osuvremenjen, i to u pogledu pisanja velikih i malih slova, te u upotrebi točke i
+               zareza. Također, kratice iz izvornika ovdje su razrješene. U uglatim se zagradama
+               nalaze danas potpuno uništena mjesta, a nadopunjena su, kako je već rečeno, lekcijama
+               Rattkaya i Laszowskog. </p>
+         </editorialDecl>
+      </encodingDesc>
       <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <settingDesc>
-            <p/>
-         </settingDesc>
-         <particDesc>
-            <p/>
-         </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
@@ -78,6 +82,11 @@
          </textClass>
       </profileDesc>
       <revisionDesc>
+         <change>
+            <date>2024-02-10</date>
+            <persName ref="#NJ">Neven Jovanović</persName>
+            Adaptirano zaglavlje za CroALa 2.0 (premještena napomena o izdanju).
+         </change>
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -104,12 +113,9 @@
    </teiHeader>
    <text type="prosa">
       <body>
-         <div type="prosaOratio-historia">
-            <head>
-Historia obsidionis Petriniae et cladis Szerdarianae a reuerendo domino Nicolao Zelnicey, electo episcopo Quinqueecclesiensi conscripta
-
-<note place="foot" n="1" xml:lang="hr">Ovaj prijepis od svog rukopisnog predloška odstupa utoliko što je pravopis osuvremenjen, i to u pogledu pisanja velikih i malih slova, te u upotrebi točke i zareza. Također, kratice iz izvornika ovdje su razrješene. U uglatim se zagradama nalaze danas potpuno uništena mjesta, a nadopunjena su, kako je već rečeno, lekcijama Rattkaya i Laszowskog. </note>
-            </head>
+         <div type="prosa-historia">
+            <head> Historia obsidionis Petriniae et cladis Szerdarianae a reuerendo domino Nicolao
+               Zelnicey, electo episcopo Quinqueecclesiensi conscripta </head>
             <p>
                <milestone unit="page" n="1"/> Quid aliud nunc in his tempestatum fluctibus ac armorum p<add>roce</add>llis nisi continua Martis tonitrua et horrida bellorum fulmina hinc scribam <add>habeo nihil</add>. Nubes enim illa, quae in iugis montium Bosznae a longo tempore con<add>sedisse</add> circumferebatur, ubi maturuit in fines nostros omnem effudit <add>belli procellam</add>, quae sane uel eo maiori terrore ac ueluti infausto quoda<add>m prodigio</add> nobis fuit, quia plus minus centum millibus armatorum <add>duce</add> quodam Ahmat, Turcarum imperatoris visierio passa Szerdario <add>eiusdem</add> eunucho instar alicuius turbidae tempestatis agitabatur <gap/> cum Huszaino Bosznensi passa suas, quas Bizantio ue<add>nire</add> coegerat, coniunxisset copias, primo statim aduentu o<add>mnium oculos</add> in se conuertit. Haszan passam, qui superioribus ann<add>is Scisciam</add>, olim Romanorum coloniam nunc uero ubi Colapis fluuius Sza<add>uum influit</add>, capituli Zagrabiensis singulare propugnaculum, sua qua<add>m</add> accepit memorabili clade et inte<add>ritu</add> clariorem reddiderat <gap/> redditum sibi ueteres Bosznae milites credidere. Easdem be<add>stialem</add> ingenii uigorem, uultus truculentiam, oculorum uim, intuebant<add>ur, nam</add> homo statura pusillus, corpore uiciatus, natura signatu<add>s <gap/>
                </add> fronte rugis peraratae ac annis obsitae anui perquam s<add>imilis fuit</add>. Plurimum illi audaciae ad pericula capessenda, plurimum <add>consilii inter</add> ipsa pericula erat. Inhumana praeterea in omnes et maxime in Christiana mancipia crudelitas, perfidia plusquam Turcica, nihil ueri, nihil sancti, nullius dei metus, nullum ius iurandum, nulla pietas, nulla religio. </p>
@@ -126,7 +132,7 @@ Historia obsidionis Petriniae et cladis Szerdarianae a reuerendo domino Nicolao 
             <p>
                <milestone unit="page" n="10"/> Verba quidem hostes nostris dare videbantur, interea tamen ab oppugnatione non cessabant, sed quo citius uoti compotes euaderent, dies noctesque stupendos ad euertendam Petriniam agebant cuniculos. Extremum iam hoc oppugnationis erat refugium, ut quod propriis uiribus quantumuis maximis se expugnare posse diffidebant, id pulueris tormentarii uehementia tentarent. Res profecto iam plena periculi erat, adeoque in extremis, ut nisi Deus optimus maximus, cuius nutu reguntur uniuersa, et qui in tempore tribulationis angustiaeque sperantes in se non deserit, sed praesto adest omnibus inuocantibus se in ueritate, occulta ac immensa sua benignitate suis fidelibus opportune succurrisset, eo ipso quo cladem hostis accepit die, non tam de Petrinia, quam de nostris etiam castris, imo uero de omnibus aliis afflicti regni huius reliquiis actum fuisset. De Petrinia quidem, quia iam hostis omnes propemodum confecerat cuniculos, de castris uero, quia illa ea ipsa nocte (sicuti postea ex captiuis est cognitum) inuadenda proposuerat, de regni autem reliquiis, quia expugnata Petrinia et deletis nostris copiis, regni munimentis, non nisi ultimum sequebatur excidii periculum: At ex tantis periculorum fluctibus, multum adiuuante Colapi, plurimum Dei immortalis super suos fideles uigilantis, et pro illi pugnantis benignitate, qui cum omnibus belli casibus intersit, tum praecipue eis, quibus nihil ratione potuit administrari, erepti sumus. Nam dum nostri obsidionem illam ociosi ac oscitantes inspectarent et neque quicquam obsessis auxilii, praeter uerba speciosa (quae etiam mox hostes excitato in castris fremitu, ita ut neque audiri nedum intelligi possent, intercipiebant)<milestone unit="page" n="11"/> dare possent, diuino plane moniti sunt oraculo, ut illinc quamprimum recederent, ac hostium castra a tergo circumuenirent. Fuit autem in eam rem a praefecto Scisciensi pons ex mandato bani, ex ratibus in Colapi sub ipsa arcis maenia, opere quidem tumultuario, attamen affabre pro traiiciendo exercitu factus, hostibus ut puto uix bene cognitus. Antequam tamen eo concederent, in tantis rerum angustiis, quomodo de suis conatibus inclusos certiores reddere possent, ne eos in desperationis baratrum suo secessu coniicerent, haud modice discruciabantur. Capto demum ex tempore consilio, dolis et stratagemate hunc in modum hostes circumueniendos statuunt, su<add>o</add> cuidam gregario persuadentes hanc obeundam iniungunt prouinciam, ut quibuscunque posset artibus hostes falleret et studia eorum aperiret; dolus enim an uirtus, quis in hoste requirat? Hic itaque more turc<add>ico</add> abrasus, habitu quoque et lingua, quam probe callebat, Turcam se esse simulans, noctu clam in hostium castra commigrat, ex manipulis Ianicherorum se unum esse mentitur, cum quibus ut incognitus familiarite<add>r</add> conuuersatur, singula quaeque accurate obseruat, aditus omnes explorat, si qua in arcem ingredi posset, omnem tentat uiam. Nacta itaque occasione nocte intempesta <sic>maenia</sic> subit, et uigili quis sit, q<add>uid</add> fieri uelit, quasi pertenuis aurae sibillum insusurrat. Quem nostri fune demisso attollunt ac e densissima hostilium telorum pluuia uix s<add>aluum</add> eripiunt. Ex quo cum illi nostrorum studia ac salutares conatus intellexisse<add>nt</add>, paululum refocillati prosperos quosuis fortunae successus et faelicia quaeque laeti praecabantur. Confirmatis sic obsessorum animis actutum nostri solutis castris et praemissis impedimentis, aperta luce, propositum arripiunt <milestone unit="page" n="12"/> iter. Turcae uero eos aut desperatione fractos abire, aut saltem metu perculsos fugere rati, propere habito tam peditum, quam equitum delectu, sine mora insequuntur, turpem illis obiiciunt fugam, uituperiis afficiunt, minis territant, terga praementes ad pugnam lacessunt. Tandem nostri ubi iam moram in periculo esse cernerent, mox gressum conuertunt, inuocatoque numine diuino, magna ui, maiorique impetu in hostes aperto Marte irruunt, terga dare cogunt, fundunt fugantque ac in Colapim uastis gurgitibus absorbendos impellunt. Multi Turcarum ibi caesi, pauci ex condicto uiui capti, pars magna flumine absumta. Szerdar ubi tam inopinatam, ac funestam suorum cladem anxius prospicit, timore non minimo et ipse correptus, ne similem aut certe maiorem, cum his, qui adhuc supererant acciperet stragem, nihil moratus, non <add>solu</add>m soluendae obsidionis, uerum etiam turpis fugae cogitur inire rationem. Quamobrem inclinata iam die castra soluit, sarcinas colligit, impedimenta Coztaniczam uersus praemittit, postridie et ipse ea subsecuturus. Verum ne nostri eum fugam adornare animaduerterent, cum selectissimis quas secum detinuerat tam equitum quam peditum copiis, solito diutius emanet, ac in certas se abdit latebras eo animo, ut si nostri eum insequerentur, manus cum eis conserere posset. Nostri autem parta, Deo propitio celebri uictoria et reportato de tam potenti ac superbo hoste haud obscuro triumpho, fugae et secessus Szerdarii ignari, ouantes institutum prosequuntur iter. Atque ubi Scisciam, quo fortuna eos auocabat peruenere, curatis corporibus Colapim traiiciunt, acies quasi cum <milestone unit="page" n="13"/> hoste pugnatu<add>ri</add> instruunt, pedites leuum, equites dextrum cornu <add>tenere</add> iubent, alacresque milites alius alium ut adderet gradum memor ad defendendam et conseruandam ire patriam, ad ulciscendas tot illatas iniurias ad reportanda denique ampla ac optima spolia hortabantur. In procinctu iam tunc erat Szerdar, cum nostri pedites paucis cum equitibus, qui exercitum praeire iussi erant, casu primi in eum incidunt, inuocatoque diuini numinis praesidio, pixides explodunt, arma expediunt. Stetit ille ad nostrorum clamorem et tot pixidum tonitrua paulisper attonitus. Et undenam illa aut quae esset improuisa tempestas? quid turbarum? quis armorum strepitus? quae belli procella? quis furor aut quae insania? quaesiuit. Et cum omne nostrorum castrorum robur a<add>desse</add> cognouisset, teritus ac quasi diuino fulmine caelitus ictus, <add>fugit</add> impius turpiter persequente etiam nemine. Nam nostri insidias <add>eorum</add> ueriti, eos ulterius insecuti non sunt. Aiunt tunc Szerdarium dixisse, Christianos quidem uincere scire, uictoria autem uti nescire. Plures Turcae trucidati quam uiui capti, signa militaria et uexillum unum Mahometi sacrum, aureis literis depictum, in hac et in priori clade aliquot adempta, et caeterae praedae aliquantum. Sicque Dei i<add>psius</add> infinita inprimis gratia, <sic>faustissimas</sic> deinde sacratissimae caesareae regiaeque maiestatis, domini nostri clementissimi auspiciis et summa rerum bellicarum prouidentia, nostrorum denique nunquam satis praedican<add>da</add> uirtute ac industria afflicta Pet<add>rinia</add> simulque nos omnes ab illa dira tempestate et metu, quem <add>uer</add>bo ille nobis incusserat, praeseruati sumus. Paucissimis nostris tam in obsidione quam alibi, Turcarum uero quamplurimis desideratis. Durauit haec obsidio decem continuis diebus, ab undecima nempe die ad uigesimum usque diem mensis septembris. Anno domini 1596.</p>
          </div>
-         <div type="prosaOratio-historia">
+         <div type="prosa-historia">
             <head xml:lang="hr">Zapis Stjepana Medaka</head>
             <p>Anno domini 1596. mensis septembris 11. uel 12. die hostis Turca Petriniam bis amissam totiesque receptam tertio tandem aggreditur ui summa et astu militari die nocteque spatio octidui acerrime oppugnat, cuniculos agit, pulueribus propugnacula subruere conatur. Nostris tandem (quorum exercitus decem milium erat) summo cum dolore spectantibus, nec subsidium ferre ualentibus, astu item militari utendum fuit. Astu igitur inuento die 19. septembris in meridie spectante hoste tentoria coligere et fugere Sciscium uersus simulant, ea tamen intentione ut cum hoste flumine Cuppa aliter Colapi traiecto congrediantur et obsessis subsidium quoquo modo ferant. Hostis uisa nostrorum simulata fuga conclamat et nostros quo quisque praestantior miles et uideri et haberi uoluit, traiecto flumine in nostros irruit. At nostri inuocato nomine Iesus in hostem arma conuertunt, fortissime congrediuntur hostemque fundunt fugantque. Mansere in hoc conflictu Turcarum duo millia, quorum tamen maior pars in Colapi submersi fuere, nostris paucissimis desideratis. Turca uisa suorum clade nocte soluta obsidione summo cum dedecore fuga salutem quaesiuit et nostris optatam pacem peperit. Hic feliciter pugnatum fuit, quod ut saepe ae saepius sit, lector beneuole deum orare beatissimam <abbr>V. M.</abbr> et Omnes Sanctos inuocare non desinas, Stephanique Medak in tuis orationibus immemor non efficiaris, quod ut facias uehementer rogo atque obsecro. Satis erit dicere orationem: <q>Deus qui culpa offenderis</q>
                <abbr>etc</abbr>, uel: <q>Fidelium Deus omnium conditor</q>
