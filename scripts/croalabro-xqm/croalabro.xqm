@@ -333,7 +333,7 @@ for $n in ft:search($croalabro:db, $word , map {
   "wildcards": true()
   })
 let $path := db:path($n)
-let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation[1]/*:date[1]/@period
 let $title := string-join($n/ancestor::*:div/*:head, " > ")
 let $marked := ft:mark($n[. contains text { $word } using wildcards ])
 order by $date , $path
@@ -596,7 +596,7 @@ declare function croalabro:testwd($author){
 declare function croalabro:quaereauthor1($qaverbum, $author) {
 	let $sauthor := croalabro:testwd($author)
 	return if (db:get($croalabro:db)/*:TEI/*:teiHeader/*:fileDesc/*:titleStmt/*:author/@ref=$sauthor) then
-	for $n in db:get($croalabro:db)/*:TEI[*:teiHeader/*:fileDesc/*:titleStmt/*:author/@ref=$sauthor]/*:text//*[not(*)]
+	for $n in db:get($croalabro:db)/*:TEI[*:teiHeader/*:fileDesc/*:titleStmt/*:author/@ref=$sauthor]/*:text//*:div[not(*:div)]/*
 	where ft:contains($n, $qaverbum, map { 'wildcards': true() })
 	let $path := db:path($n)
 	let $title := string-join($n/ancestor::*:div/*:head, " > ")
