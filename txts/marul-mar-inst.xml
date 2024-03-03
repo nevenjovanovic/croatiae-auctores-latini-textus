@@ -1,26 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc xml:id="marul-mar-inst">
          <titleStmt>
-            <title>De institutione bene vivendi per exempla sanctorum, versio electronica</title>
+            <title>De institutione bene vivendi per exempla sanctorum (ante 1507), versio electronica</title>
             <author ref="http://www.wikidata.org/entity/Q336571">
                <persName xml:lang="hr">Marulić, Marko</persName>
                <date>1450-1524</date>
             </author>
+             <author ref="http://www.wikidata.org/entity/Q41556868" ana="paratext">
+                 <persName xml:lang="it">Consorti, Francesco</persName>
+             </author>
+             <author ref="http://www.wikidata.org/entity/Q120599193" ana="paratext">
+                 <persName xml:lang="it">Grasolari, Jacopo</persName>
+             </author>
             <editor>
                <persName>
-                  <ref>Branimir Glavičić</ref>
+                  <ref type="viaf" target="http://viaf.org/viaf/71410589">Branimir Glavičić</ref>
                </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
+               <persName xml:id="NJ">
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
                </persName>
             </respStmt>
             <respStmt>
                <resp>Textum electronice descripsit</resp>
-               <persName>Iva Kraljević</persName>
+               <persName>
+                  <ref type="viaf" target="http://viaf.org/viaf/19163155954801311556">Iva Kraljević</ref>
+               </persName>
             </respStmt>
          </titleStmt>
          <extent ana="E">Mg:E Verborum 186963</extent>
@@ -31,22 +40,19 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
             Hrvatska.  <date when="2004-08">Kolovoz 2004</date>
             </p>
+             <p ana="licence">
+                 <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+                 Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+                 was added on March 3, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+             <bibl>Marulić, Marko. 1506. Marcus Marulus Spalatensis De institutione beneuiuendi per exempla sanctorum (Venetiis: presbiter Franciscus Lucensis de Consortibus cantor ecclesie S. Marci et Bernardinus de Vitalibus Venetus) <ptr target="https://books.google.hr/books?id=Oxl-qwA_Dz0C"/>
+             </bibl>
             <bibl>Marulić, Marko: Institucija Split: Književni krug, (1986-1987) .</bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <abstract>
-            <p/>
-         </abstract>
-         <settingDesc>
-            <p/>
-         </settingDesc>
-         <particDesc>
-            <p/>
-         </particDesc>
          <langUsage>
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
@@ -129,7 +135,7 @@
                     magnificarent, obseruare animum induxisset, si nullus reperiretur, a quo ante
                     obseruata fuissent. Atque aliquis tanto oneri nullius uires sufficere ratus
                     hortatoribus diceret: <q>Hypocritę, ut quid humeris meis imponitis, quod ipsi ne
-                        digito quidem attingere uultis? </q>Audio monitores, non uideo operatores.
+                        digito quidem attingere uultis?</q> Audio monitores, non uideo operatores.
                     Facite ipsi prius, quod pręcipitis, ne tam difficile factu, quam uidetur, putem
                     et facienti ęque, atque <pb n="1-278"/> asseritis, profuturum credam. Nisi
                     uerbis facta respondere in uobis perspexero, non consuli mihi, sed illudi
@@ -202,7 +208,8 @@
                     interdum multis conueniat ob cognationem affinitatemque uirtutum. Siquid in iis
                     disponendis, explicandis, disserendisue a me erratum deprehenderis, oro, tuę
                     incudi redde, tuam limam adhibe et castigando poliendoque effice, ut munusculum
-                    hoc meum non tam donatore quam acceptore<note>*) corr. ex <q>acceptatore</q>
+                    hoc meum non tam donatore quam acceptore<ref target="#d3e207"/>
+               <note xml:id="d3e207" ana="editor" resp="BG">*) corr. ex <q>acceptatore</q>
                </note> dignum esse uideatur. Per te publicum recipiat, per te in aliorum manus
                     uenire ne formidet, per te neque in circo consistere neque in medium prodire
                     theatrum quicquam dubitet. Nullos liuoris morsus, nullum sibilum uerebitur, si
@@ -212,8 +219,8 @@
                     emines et antiquę Cippicę domus claritate fulges generisque nobilitatem animi
                     uirtute superas, quem denique omnes, summi, medii, infimi amant, obseruant,
                     uenerantur. Aut, si prorsus nihil usque adeo ex omni parte absolutum, ut
-                    malignorum hominum inuidiam uitare queat et ędificantibus muros Hierusalem
-                    deesse non possit Sanaballath subsannator, satis mihi erit hęc, quę, a me
+                    malignorum hominum inuidiam uitare queat et <ref target="#l1a1">ędificantibus muros Hierusalem
+                    deesse non possit Sanaballath subsannator</ref>,<note xml:id="l1a1" ana="locus">Neemie <num value="4">IIII</num></note> satis mihi erit hęc, quę, a me
                     conscripta sunt, tibi tuique simillimis non displicuisse. Interim Deum et
                     Dominum nostrum Iesum Christum deprecabor, ut, sicut sanctis ad sequendum se
                     opitulatus est, ita ad ipsos imitandos adsit nobis, quo tandem exantlatis uitę
@@ -221,15 +228,115 @@
                     quietis ęternę fructum capiamus.</p>
             <p>Vale!</p>
          </div>
-         <pb n="1-282"/>
+          <div ana="ed1506">
+              <head>Index capitulorum operis.</head>
+              <list><head>Liber primus.</head>
+              <item>De terrenis bonis contemnendis propter Christum. <abbr>cap.</abbr> 1.</item>
+              <item>De elemosynis faciendis. <abbr>cap.</abbr> 2.</item>
+              <item>De hospitalitate seruanda. <abbr>cap.</abbr> 3.</item>
+              <item>De inani gloria fugienda. <abbr>cap.</abbr> 4.</item>
+              <item>De humilitate appetenda. <abbr>cap.</abbr> 5.</item>
+              <item>De dignitatibus non concupiscendis. <abbr>cap.</abbr> 6.</item>
+              <item>De auaritia vitanda. <abbr>cap.</abbr> 7.</item>
+              <item>De paupertate seruanda. <abbr>cap.</abbr> 8.</item>
+              <item>De vita solitaria. <abbr>cap.</abbr> 9.</item>
+              <item>De vigiliis, et somno, et stratu. <abbr>cap.</abbr> 10.</item></list>
+              
+              <list><head>Liber Secundus</head>
+              <item>De cura et modo orandi. <abbr>cap.</abbr> 1.</item>
+              <item>De orationis virtute. <abbr>cap.</abbr> 2.</item>
+              <item>De temptationibus tempore orationis. <abbr>cap.</abbr> 3.</item>
+              <item>De contemplatione. <abbr>cap.</abbr> 4.</item>
+              <item>De scripturarum lectione. <abbr>cap.</abbr> 5.</item>
+              <item>De fide vnius dei contra gentiles. <abbr>cap.</abbr>  6.</item>
+              <item>De fide christi contra iudeos. <abbr>cap.</abbr> 7.</item>
+              <item>De fide christi contra gentiles. <abbr>cap.</abbr> 8.</item>
+              <item>De fide christi contra magos. <abbr>cap.</abbr> 9.</item>
+              <item>De fide christi contra philosophos. <abbr>cap.</abbr> 10.</item>
+              <item>De fide christi contra hereticos. <abbr>cap.</abbr> 11.</item>
+              <item>De spe diuine misericordie. <abbr>cap.</abbr> 12.</item></list>
+              
+              <list><head>Liber Tertius.</head>
+              <item>De caritate erga deum. <abbr>cap.</abbr> 1.</item>
+              <item>De charitate erga proximum. <abbr>cap.</abbr> 2.</item>
+              <item>De charitate erga inimicos. <abbr>cap.</abbr> 3.</item>
+              <item>De offitio doctoris euangelici. <abbr>cap.</abbr> 4.</item>
+              <item>De sacerdotibus honorandis. <abbr>cap.</abbr> 5.</item>
+              <item>De pace colenda. <abbr>cap.</abbr> 6.</item>
+              <item>De consortio habendo, fugiendoque. <abbr>cap.</abbr> 7.</item>
+              <item>De vestitu, cultuque corporis. <abbr>cap.</abbr> 8.</item>
+              <item>De operibus manu exercendis. <abbr>cap.</abbr> 9.</item>
+              <item>De corporis castigatione per flagella. <abbr>cap.</abbr> 10.</item></list>
+              
+              <list><head>Liber Quartus.</head>
+              
+              <item>De corporis castigatione per ieiunium. <abbr>cap.</abbr> 1.</item>
+              <item>De cibi potusque vilitate, ac parsimonia. <abbr>cap.</abbr> 2.</item>
+              <item>De obedientia seruanda. <abbr>cap.</abbr> 3.</item>
+              <item>De veritate colenda, mendatioque fugiendo. <abbr>cap.</abbr> 4.</item>
+              <item>De mansuetudine animi. <abbr>cap.</abbr> 5.</item>
+              <item>De taciturnitate, sermonisque moderatione. <abbr>cap.</abbr> 6.</item>
+              <item>De castitate seruanda exempla virorum. <abbr>cap.</abbr> 7.</item>
+              <item>De castitate seruanda exempla feminarum. <abbr>cap.</abbr> 8.</item>
+              <item>De penitentia peccatorum exempla veterum. <abbr>cap.</abbr> 9.</item>
+              <item>De pententia peccatorum exempla nouorum. <abbr>cap.</abbr> 10.</item>
+              <item>De peccatorum confessione. <abbr>cap.</abbr> 11.</item>
+              <item>De sacrosancta communione. <abbr>cap.</abbr> 12.</item></list>
+              
+              <list><head>Liber Quintus.</head>
+              <item>De nemine temere iudicando. <abbr>cap.</abbr> 1.</item>
+              <item>De patientia iniurie. <abbr>cap.</abbr> 2.</item>
+              <item>De patientia damni. <abbr>cap.</abbr> 3.</item>
+              <item>De patientia egrotationis. <abbr>cap.</abbr> 4.</item>
+              <item>De patientia martyrum sexus virilis. <abbr>cap.</abbr> 5.</item>
+              <item>De patientia martyrum femini sexus. <abbr>cap.</abbr> 6.</item>
+              <item>De ratione resistendi diabolo. <abbr>cap.</abbr> 7.</item>
+              <item>De perseuerantia bene agendi. <abbr>cap.</abbr> 8.</item>
+              <item>De mortis meditatione. <abbr>cap.</abbr> 9.</item>
+              <item>De hora mortis. <abbr>cap.</abbr> 10.</item>
+              <item>De purgatorio. <abbr>cap.</abbr> 11.</item></list>
+              
+              <list><head>Liber Sextus.</head>
+              <item>De signis vltimi iudicij. <abbr>cap.</abbr> 1.</item>
+              <item>De antichristi persecutione. <abbr>cap.</abbr> 2.</item>
+              <item>De die iudicij incerta. <abbr>cap.</abbr> 3.</item>
+              <item>De apparitione crucis, et Christi, interituque antichristi. <abbr>cap.</abbr> 4.</item>
+              <item>De horrendo Christi adiudicandum aduentu, et creaturarum aduersus peccatorem accusatione: et igne, quo consumenda sunt omnia. <abbr>cap.</abbr> 5.</item>
+              <item>De resurrectione mortuorum. <abbr>cap.</abbr> 6.</item>
+              <item>De domini descensu ad iudicandum viuos, et mortuos. <abbr>cap.</abbr> 7.</item>
+              <item>De sententia Christi aduersus impios. <abbr>cap.</abbr> 8.</item>
+              <item>De sententia apostolorum aduersus peccatores. <abbr>cap.</abbr> 9.</item>
+              <item>De sententia prophetarum aduersus iniquos. <abbr>cap.</abbr> 10.</item>
+              <item>De damnatorum ad inferna abductione. <abbr>cap.</abbr> 11.</item>
+              <item>De sanctorum cum christo ad celum ascensione. <abbr>cap.</abbr> 12.</item>
+              <item>De damnatorum pena. <abbr>cap.</abbr> 13.</item>
+              <item>De reuelationibus infernalium penarum. <abbr>cap.</abbr> 14.</item>
+              <item>De beatorum gloria. <abbr>cap.</abbr> 15.</item>
+              <item>De reuelationibus celestis beatitudinis. <abbr>cap.</abbr> 16.</item></list>
+              
+              <closer>Finis.</closer>
+              
+          </div>
+          <div type="poesis-epigramma" met="elegiacum">
+                  <head>
+                      Carmen Hieronymi Macarelli Archipresbyteri Traguriensis.
+                  </head>
+              <p><ptr target="makarelic-j-epigr"/></p>
+          </div>
       </front>
       <body>
          <pb n="1-275"/>
+          <pb n="1-282"/>
          <pb n="1-283"/>
          <div type="prosaOratio">
-            <head>DE INSTITVTIONE BENE VIVENDI PER EXEMPLA SANCTORVM</head>
+                <head ana="ed1506"><abbr>M.</abbr> Maruli opus de religiose viuendi institutione per exempla ex veteri,
+                    nouoque testamento collecta: ex auctoribus quoque Diuo Hieronymo presbitero.
+                    beato Gregorio <abbr>Pont. max.</abbr> Eusebio cesariense episcopo, Joanne Cassiano heremita:
+                    nonnullisque alijs, qui vitas conscripsere sanctorum.</head>
+             <head ana="ed1506">Incipit liber primus.</head>
+            <head ana="ed1986">DE INSTITVTIONE BENE VIVENDI PER EXEMPLA SANCTORVM</head>
             <div type="prologus">
-               <head>Prologus</head>
+               <head ana="ed1986">Prologus</head>
                <p>Operęprecium mihi uisum est quędam, quę de diuinis hominibus in historiis
                         ecclesiasticis diffusius narrata sunt, carptim collecta breuiter describere,
                         ut propositis euangelicarum uirtutum, id est, Christianę perfectionis
@@ -256,7 +363,7 @@
          </div>
          <pb n="1-285"/>
          <div type="liber" n="1">
-            <head>DE INSTITVTIONE BENE VIVENDI PER EXEMPLA SANCTORVM / LIBER I</head>
+            <head ana="ed1986">DE INSTITVTIONE BENE VIVENDI PER EXEMPLA SANCTORVM / LIBER I</head>
             <div type="caput" n="1">
                <head>Caput I / DE TERRENIS BONIS CONTEMNENDIS PROPTER CHRISTVM</head>
                <p> Iam primum, ut, a quibus Ecclesię Christianę iacta sunt fundamenta, ab his
@@ -296,7 +403,8 @@
                             <q>Possessores agrorum aut domorum uendentes afferebant <pb n="1-287"/>
                             precia eorum, quę uendebant, et ponebant ante pedes apostolorum.
                             Diuidebatur autem singulis, prout cuique opus erat. </q>Subiungit etiam
-                        Iosephum, Barnabam<note>* corr. ex<q> Barsabam</q>
+                        Iosephum, Barnabam<ref target="#d3e276"/>
+                  <note xml:id="d3e276" ana="editor" resp="BG">* corr. ex<q> Barsabam</q>
                   </note> cognominatum, agrum, quem habebat, uendidisse pecuniamque
                         apostolorum conculcandam pedibus apposuisse, ut scilicet ea contempta agrum
                         sibi illum de Euangelio parare posset, in quo absconditus est thesaurus
@@ -350,7 +458,8 @@
                         orationem studiis, Romę eremum, parentibus pręponens Christum.</p>
                <p>Pari puer admiratione dignus mihi uidetur <sic>Niuanrdus</sic>, Bernardi
                         Clareuallensis frater. Qui postquam ipsum <pb n="1-289"/> reliquosque omnes,
-                            Tescelino<note>* corr. ex <q>Cecilino</q>
+                            Tescelino<ref target="#d3e309"/>
+                  <note xml:id="d3e309" ana="editor" resp="BG">* corr. ex <q>Cecilino</q>
                   </note> patre et Aletha matre seque relictis, ad religionem aspirare
                         uideret, maluit abeuntes sequi quam paterna in domo hęres ex asse futurus
                         manere. Illi enim proficiscentes paruulo inter ęquales in foro ludenti
@@ -397,7 +506,8 @@
                <p>Sed iam ad eos ueniamus, qui non modo priuatis opibus uerum etiam maximis
                         regnis in terra renunciantes digni fuerunt, qui cum Christo regnarent in
                         cęlis.</p>
-               <p>Polemius,<note>*corr. ex <q>Polemus</q>
+               <p>Polemius,<ref target="#d3e336"/>
+                  <note xml:id="d3e336" ana="editor" resp="BG">*corr. ex <q>Polemus</q>
                   </note> potentissimus Indorum rex, Bartholomei apostoli prędicationibus ad
                         fidem conuersus atque baptizatus, relicto imperio eidem constanter adhęsit
                         discipulusque maluit esse apostoli quam Indię dominus.</p>
@@ -441,7 +551,8 @@
                         litteris commendauit? Sed quę ad rem spectant, quam nunc tractamus, hęc
                         sunt. Paula, inquit, nobilis genere, sed nobilior sanctitate, potens quondam
                         diuitiis, sed nunc Christi paupertate insignior, Gracchorum stirps, soboles
-                        Scipionum, Pauli hęres, cuius uocabulum trahit, Męcię<note>* corr. ex<q>
+                        Scipionum, Pauli hęres, cuius uocabulum trahit, Męcię<ref target="#d3e360"/>
+                  <note xml:id="d3e360" ana="editor" resp="BG">* corr. ex<q>
                                 Martię</q>
                   </note> Papyrię, matris Aphricani, uera et germana progenies, Romę prętulit
                         Bethlehem et auro tecta fulgentia informis luti uilitate mutauit. Post hęc
@@ -461,7 +572,8 @@
                         quoniam in dandis elemosinis minus parcam fuisse dolori erat auaris animis,
                         cum uix tandem dotalia ab illis extorsisset bona (ea erant duo milia pondo
                         argenti infecti, facti cęlatique), pauperum et peregrinorum satis amplum in
-                            Marpurg<note>** corr. ex<q> Marupre</q>
+                            Marpurg<ref target="#d3e368"/>
+                  <note xml:id="d3e368" ana="editor" resp="BG">** corr. ex<q> Marupre</q>
                   </note> construxit receptaculum ibique iis humiliter ministrando, quanto se
                         inter <pb n="1-293"/> mortales fecerat uiliorem, tanto sublimius inter
                         sanctos et electos postmodum fuit exaltata. Constantis uero animi haud
@@ -531,7 +643,8 @@
                         produxit elemosina, ut sterili partum daret, partui sanctitatem parentibus
                         castitatem, omnibus paradisum. Talem pietatis cultum ne in ethnicis quidem
                         sine uitę ęternę retributione marcescere passa est diuina clementia.</p>
-               <p>Cornelii nanque, Italicę cohortis centurionis, elemosinę (ut in Actis<note>*
+               <p>Cornelii nanque, Italicę cohortis centurionis, elemosinę (ut in Actis<ref target="#d3e407"/>
+                  <note xml:id="d3e407" ana="editor" resp="BG">*
                             corr. ex <q>Actibus</q>
                   </note> Apostolorum legimus) ascenderant in memoriam in conspectu Dei atque
                         ad illum, adhuc gentilem, angelum de cęlo, Simonem Petrum ab Ioppe Cęsaream
@@ -595,7 +708,8 @@
                         uitę non inferior, non contentus uulgi tantum subuenire inopię, omnibus
                         ubique Christi seruis, quantum Romanę census ecclesię suppeditare potuit,
                         necessaria ministrauit et ministrando effecit, ut in monasteriis monachorum
-                        cresceret numerus, in solitudine degentibus incommoda solitudinis minus <pb n="1-298"/> grauia forent, per Syriam dispersis et in Synai<note>* corr.
+                        cresceret numerus, in solitudine degentibus incommoda solitudinis minus <pb n="1-298"/> grauia forent, per Syriam dispersis et in Synai<ref target="#d3e445"/>
+                  <note xml:id="d3e445" ana="editor" resp="BG">* corr.
                                 ex<q> Syna</q>
                   </note> usque habitantibus Roma non ita multum abesse, ut abest, uideretur.</p>
                <p>Ad eundem etiam, dum adhuc abbatis officio fungeretur, uenisse quendam atque
@@ -764,7 +878,8 @@
                         applicuisse uectore nullo. Cumque comperissent omni cibariorum genere, quo
                         ipsi uesci solebant, plenos, Deo gratias egerunt, qui pro uno pane pauperi
                         dato tam huberem alimentorum copiam sibi sine cunctatione prouidisset.</p>
-               <p>Sic et monachus Sabas,<note>* corr. ex <q>Sabba</q>
+               <p>Sic et monachus Sabas,<ref target="#d3e504"/>
+                  <note xml:id="d3e504" ana="editor" resp="BG">* corr. ex <q>Sabba</q>
                   </note> dum Hilarionem abbatem cum trium milium monachorum comitatu
                         uenientem excipiens in uinea sua ad uuas, quę iam maturę erant, inuitasset
                         et omnes earum pastu refocillati essent, usque adeo multiplicatum inde
@@ -781,7 +896,8 @@
                             coagitatam, et supereffluentem dabunt in sinum uestrum.</q>
                </p>
                <p>Hanc grandem huberemque mensuram non tam in terra quam in cęlo repositam
-                        esse, non ignorauit Simon monachus, Susotionis<note>** corr. ex
+                        esse, non ignorauit Simon monachus, Susotionis<ref target="#d3e517"/>
+                  <note xml:id="d3e517" ana="editor" resp="BG">** corr. ex
                             <q>Sitionis</q>
                   </note> filius. Qui cum in coenobio illo, ubi tunc manebat, in uesperum
                         edendi mos esset uiritimque cibaria fratribus diuiderentur, sępenumero nihil
@@ -965,7 +1081,8 @@
                         coronatum condidit et sepeliuit. Cui enim uiuo hospitium pręstiterat,
                         mortuum tumuli honore carere non sustinuit. Deinde ad pontificale officium
                         promotus effecit, ut omnibus ad urbem aduentantibus apud se hospitandi ius
-                        esset. Itaque<note>* corr. ex <q>Ita ut</q>
+                        esset. Itaque<ref target="#d3e602"/>
+                  <note xml:id="d3e602" ana="editor" resp="BG">* corr. ex <q>Ita ut</q>
                   </note> cum beato Iob iure suo dicere poterat: <q>Foris non mansit
                             peregrinus; ostium meum uiatori patuit.</q>
                </p>
@@ -982,7 +1099,8 @@
                         imputari, quicquid pręstaretur illis. Si ergo Iesum suscipere cupimus,
                         aduenas et peregrinos non contemnamus.</p>
                <p>Quos quidam sub tecto receptos sic tutati sunt, ut eorum salutem sua potiorem
-                        haberent. Cerbonius,<note> * corr. ex <q>Gerbonius</q>
+                        haberent. Cerbonius,<ref target="#d3e617"/>
+                  <note xml:id="d3e617" ana="editor" resp="BG"> * corr. ex <q>Gerbonius</q>
                   </note> Populonii episcopus, occidi potuit, cogi autem, ut hospites
                         proderet, non potuit. Totilę regis irati minas contempsit, nolens prorsus
                         latebras indicare eorum, qui ad se confugerant. Et cum ursis ferocissimis
@@ -1162,7 +1280,8 @@
                </p>
                <p>Egidius Atheniensis, quoniam miraculis clarere coeperat, iactationis
                         occasionem fugiens patriam dereliquit, ad eremum se contulit. Et dum apud
-                            Veredonium<note>* cor. ex <q>Veredenium</q>
+                            Veredonium<ref target="#d3e721"/>
+                  <note xml:id="d3e721" ana="editor" resp="BG">* cor. ex <q>Veredenium</q>
                   </note> eremitam in agro Arelatensi habitaret, sabuloso ac sterili <pb n="1-319"/>solo ab ipso terrę conditore Deo foecunditatem precibus
                         impetrauit. Mox inde decedens uastioris solitudinis latebras petiit, ibi
                         quęrens domicilio locum, ubi non facile mortalium de se rumores audire
@@ -1217,7 +1336,8 @@
                         genere, celebris sanctitate, frequentiam hominum illuc ad se uisendam
                         turmatim accurrentium moleste ferens precata est ostendi sibi locum sanctę
                         quieti magis opportunum. Et reuelatione accepta discedens tridui iter
-                        arripuit, nulli<note>* corr. ex <q>nullo</q>
+                        arripuit, nulli<ref target="#d3e752"/>
+                  <note xml:id="d3e752" ana="editor" resp="BG">* corr. ex <q>nullo</q>
                   </note> labori parcens, ut humilitatem conseruaret. Peruenitque, quo
                         uolebat, ad ecclesiam sancti Nicolai cognomento</p>
                <p>Decegnies et ibidem solitaria consedit. Ferunt sacelli illius fores, cum
@@ -1441,8 +1561,10 @@
                         dirigeret. Quibus ille fratres sibi commissos instruendo, in omni
                         sanctitatis genere facile reddebat perfectos. O uere igitur beatus homo,
                         quem tu erudieris, Domine, et de lege tua docueris eum!</p>
-               <p>Odo<note>* corr. ex <q>Oddo</q>
-                  </note> item, Cluniacensis coenobii monachus, a Bernone<note>* corr. ex
+               <p>Odo<ref target="#d3e877"/>
+                  <note xml:id="d3e877" ana="editor" resp="BG">* corr. ex <q>Oddo</q>
+                  </note> item, Cluniacensis coenobii monachus, a Bernone<ref target="#d3e882"/>
+                  <note xml:id="d3e882" ana="editor" resp="BG">* corr. ex
                                 <q>Benone</q>
                   </note> abbate proxime decessuro suffectus, cum fugam pararet, a fratribus
                         comprehensus coramque adductus non solum abbatis compellente iussione, uerum
@@ -1508,7 +1630,8 @@
                         episcopo a populo electus fugit. Dum autem latitaret, et quęri dignus fuit
                         et inueniri. Qui quia inuitus consecratus est, tantam promeruit gratiam, ut
                         non solum Mutinensem ecclesiam optime gubernarit, sed etiam miraculorum fama
-                        celebris mundo fuerit. Iouiani<note>* corr. ex <q>louiniani</q>
+                        celebris mundo fuerit. Iouiani<ref target="#d3e909"/>
+                  <note xml:id="d3e909" ana="editor" resp="BG">* corr. ex <q>louiniani</q>
                   </note> imperatoris filiam a demonio liberauit. Attila Italiam uastante suos
                         non repugnando incolumes seruauit. Ipso enim orante hostis apertis portis
                         urbem mediam percurrens eam prorsus inoffensam intactamque reliquit.</p>
@@ -1542,7 +1665,8 @@
                         imitatione digna exempla. Qui postquam aliquando recte ac diligenter
                         rexissent populum,</p>
                <p>aliis gubernaculo substitutis tranquillę contemplationis quieti sese dedere.</p>
-               <p>Maglorius<note>* corr. ex<q> Maiorus</q>
+               <p>Maglorius<ref target="#d3e929"/>
+                  <note xml:id="d3e929" ana="editor" resp="BG">* corr. ex<q> Maiorus</q>
                   </note> Britannus, Dolensis archiepiscopus, cum Budocum in sua collocasset
                         sede, ipse se ad eremum <pb n="1-333"/>contulit et solitariam deinceps uitam
                         duxit, tanto factus Deo uicinior, quanto ab urbanis tumultibus fuit
@@ -1717,7 +1841,8 @@
                <p>Quis hęc audiens non contremisceret, quis prauum animi propositum in melius
                         non commutaret? Scio tamen et uehementer doleo esse quosdam, qui etiam multa
                         talia legentes nihilo segnius insistere coepto sceleri pergunt spinis
-                        concupiscentię pręfocantibus semen<note>* corr. ex<q> sementem </q>
+                        concupiscentię pręfocantibus semen<ref target="#d3e1027"/>
+                  <note xml:id="d3e1027" ana="editor" resp="BG">* corr. ex<q> sementem </q>
                   </note> uerbi Dei. Quibus Hieremias clamat dicens: <q>Ecce incircumcisę
                             aures eorum, et audire non possunt. Ecce uerbum Domini factum est eis in
                             opprobrium, et non suscipient illud ... A minore quippe usque ad maiorem
@@ -1728,7 +1853,8 @@
                         testatur, <q>et argentum suum fecerunt sibi idola, ut interirent.
                         </q>Auaritia nanque, si Apostolo credimus, simulachrorum seruitus est
                         radixque malorum omnium cupiditas. Propterea quidem et Dominus in Exodo
-                        pręcipit dicens: <q>Non accipies munera, quę etiam<note>** add.</note> excęcant prudentes, et subuertunt uerba iustorum.
+                        pręcipit dicens: <q>Non accipies munera, quę etiam<ref target="#d3e1040"/>
+                     <note xml:id="d3e1040" ana="editor" resp="BG">** add.</note> excęcant prudentes, et subuertunt uerba iustorum.
                         </q>Idem in Euangelio: <q>Videte, </q>inquit, <q>et cauete ab omni auaritia,
                             quia non in abundantia cuiusquam uita eius est ex iis, quę possidet.
                         </q>In Ecclesiastico quoque legimus: <q>Qui aurum diligit, non
@@ -1736,7 +1862,8 @@
                             illud! Et omnis imprudens
                     <pb n="1-340"/>deperiet in illo. </q>Deperierunt nempe in illo Achan anathematis reus,
                         Iohel et Abias peruertentes iudicium, Saul uictis Amalechitis mandati Dei
-                        pręuaricator, Achab cum Iezabele Naboth<note>*corr. ex <q>Nabaoth</q>
+                        pręuaricator, Achab cum Iezabele Naboth<ref target="#d3e1054"/>
+                  <note xml:id="d3e1054" ana="editor" resp="BG">*corr. ex <q>Nabaoth</q>
                   </note> Iezrahelitę interfector et uineę eius cruentus occupator. Deperiit
                         in illo et Iudas, Domini uenditor, et Ananias cum Saphira precii, quod
                         uouerant, malignus interuersor. Quid multa? Non homines solum, sed urbes
@@ -1854,7 +1981,8 @@
                         uocat, satis declarat, quam a diuitiarum cupiditate semper fuerit alienus.</p>
                <p>Porro, Alexius, nobilis Romanus, clam patre Euphemiano in Syriam abiens
                         intantum adamauit paupertatem, ut gauderet se a seruis patris, qui ad
-                        quęrendum eum missi fuerant, et non agnitum fuisse et<note>* corr. ex
+                        quęrendum eum missi fuerant, et non agnitum fuisse et<ref target="#d3e1120"/>
+                  <note xml:id="d3e1120" ana="editor" resp="BG">* corr. ex
                             <q>ut</q>
                   </note> elemosina donatum. Ex his, quę emendicabat, in diem uiuens, quicquid
                         sibi supererat, aliis impertiebat, nihil solicitus in crastinum. Tall uitę
@@ -2035,7 +2163,8 @@
                             <pb n="1-351"/>erant, eo familiarius Dei colloquiis reuelationibusque
                         usos nemo dubitat, multi deinde ex Christianis eorum exemplis incensi
                         solitarię uitę conuersationem iniere.</p>
-               <p>Quorum primus Paulus Thebeus apud inferiorem Thebaidem,<note>* corr. ex<q>
+               <p>Quorum primus Paulus Thebeus apud inferiorem Thebaidem,<ref target="#d3e1241"/>
+                  <note xml:id="d3e1241" ana="editor" resp="BG">* corr. ex<q>
                                 Thebaidam</q>
                   </note> cum Decii et Valeriani persecutionem fugeret, sedecim annorum
                         adolescens solus deserta petiit. Et inuenta in montis radicibus saxea
@@ -2139,7 +2268,8 @@
                         finem non habet, inchoaret. Ea spe lętus forsan etiam decantabat:
                             <q>Singulariter sum ego, donec transeam; </q>transiturus utique ad
                         consortium angelorum, qui se a consortio secluserat hominum.</p>
-               <p>Theonam etiam intra suam cęllulam clausum habitasse apud Thebaidem<note>*
+               <p>Theonam etiam intra suam cęllulam clausum habitasse apud Thebaidem<ref target="#d3e1275"/>
+                  <note xml:id="d3e1275" ana="editor" resp="BG">*
                             corr. ex <q>Thebaidam</q>
                   </note> non procul ab urbe atque etiam porrectę de fenestra manus tactu
                         infirmos curasse, sed tamen noctibus ad eremum progredi solitum tradunt. De
@@ -2153,7 +2283,8 @@
                         secessionis suę anno propius urbem redire diuinitus iussus discipulos
                         congregauit. lam enim dignum se fecerat, per quem et cęteri immortalitatis
                         pręmia consequerentur.</p>
-               <p>Helias monachus in finibus ciuitatis Antinoi<note>* corr. ex <q>Athineos</q>
+               <p>Helias monachus in finibus ciuitatis Antinoi<ref target="#d3e1290"/>
+                  <note xml:id="d3e1290" ana="editor" resp="BG">* corr. ex <q>Athineos</q>
                   </note> (quę quondam Thebaidis metropolis fuit) annos septuaginta in
                         uastissima solitudine perdurauit. Erat desertum horroris plenum, semita, quę
                         ad ipsum ducebat, angusta scrupeaque et inuentu etiam difficilis. Antrum
@@ -2200,7 +2331,8 @@
                         atque fragilium rerum solicitudinem. Proinde secendens in partes Syrię eo
                         loci, qui Troen dicitur, sedit solitarius annos quadraginta, deinde in
                         deserto uastiore ultra Babylonem, Memphim uersus annos decem, postea ad
-                        Canopum Alexandrię annos tres, rursum in Troen<note>* corr. ex <q>Troe</q>
+                        Canopum Alexandrię annos tres, rursum in Troen<ref target="#d3e1305"/>
+                  <note xml:id="d3e1305" ana="editor" resp="BG">* corr. ex <q>Troe</q>
                   </note> annos duos. Sicque peracto <pb n="1-357"/>uitę cursu nonagenarius
                         terram reliquit et ad Dominum migrauit, bonis cęlestibus semper fruiturus.</p>
                <p>Idem, cum Theophilus, Alexandrię archiepiscopus quodam nobili Alexandrino
@@ -2274,7 +2406,8 @@
                         commoratio constantię potius uiri quam ferreis nexibus ascribi posset,
                         protinus nuncium ad cum misit inquiens: Si seruus Dei es, non te teneat
                         catena ferrea sed catena Christi! Quamobrem ille uincula quidem deposuit,
-                        sed tamen speluncam ingressus aditu obstructo<note>* corr. ex
+                        sed tamen speluncam ingressus aditu obstructo<ref target="#d3e1342"/>
+                  <note xml:id="d3e1342" ana="editor" resp="BG">* corr. ex
                             <q>obstruso</q>
                   </note> habitare coepit. Deinde etiam discipulos aliquot secum adunauit
                         multisque pręterea miraculis nobilitatus atque inter sanctos habitus. Nunc
@@ -2335,7 +2468,8 @@
                         eremi cultrix deuenit, tam disperdita urbium cultrix.</p>
                <p>Verum, nequis solitarię uitę affectione incautus in laqueum incidat diaboli,
                         cum scriptum sit: <q>Vę soli, quia, cum ceciderit, non habet subleuantem
-                                se,<note>* add.</note>
+                                se,<ref target="#d3e1366"/>
+                     <note xml:id="d3e1366" ana="editor" resp="BG">* add.</note>
                   </q>ante pręparet domi uiatica uirtutum, qui uult diu uagari peregre foris.
                         Exerceatur prius in simulachro pugnę, qui ad singulare certamen callidissimi
                         hostis cupit prodire. Hoc congrediendi genus ueteranos desyderat, non
@@ -2503,7 +2637,8 @@
                         utraque unum. Cui nunc inseparabiliter iuncta et ipsum, quocunque ierit,
                         sequens concinit canticum nouum, quod in Apocalypsi nemo potest dicere, nisi
                         fuerit uirgo. Virginitas autem ipsa in tantis quidem uersatur periculis, ut,
-                        nequando corrumpatur, custodiri a uigilantibus raro possit,<note>* corr.
+                        nequando corrumpatur, custodiri a uigilantibus raro possit,<ref target="#d3e1455"/>
+                  <note xml:id="d3e1455" ana="editor" resp="BG">* corr.
                                 ex<q> potest</q>
                   </note> a somnolentis nunquam.</p>
                <p>Vos igitur, siue uirgines, siue uiduę, quęcunque estis, quibus castitatis et
@@ -2557,9 +2692,11 @@
                <p>Septies in die laudem Domino dicens, ipse sanctus propheta Dauid septem
                         canonicarum horarum, quas nunc seruat Ecclesia, orandi documentum reliquit.
                         Quali autem quantoue mentis affectu orauerit, testatur dicens: <q>Deprecatus
-                            sum faciem tuam ex toto corde meo.<note>*add.</note>
+                            sum faciem tuam ex toto corde meo.<ref target="#d3e1498"/>
+                     <note xml:id="d3e1498" ana="editor" resp="BG">*add.</note>
                   </q> Et item:
-                            <q>Clamaui in toto corde meo:<note>*add.</note> exaudi me, Domine!</q>
+                            <q>Clamaui in toto corde meo:<ref target="#d3e1504"/>
+                     <note xml:id="d3e1504" ana="editor" resp="BG">*add.</note> exaudi me, Domine!</q>
                         In corde ad Dominum clamant, qui ardenter orant, non qui tantum uocibus
                         obstrepunt et, quod labiis uolutant, mente non concipiunt.</p>
                <p>Post illum Salomon, omnium Iudeę regum sapientissimus, in eo libro (si modo
@@ -2713,7 +2850,8 @@
                             tentationem!</q>
                </p>
                <p>Stantem atque orantem et Ioannem abbatem in superioris Thebaidis eremo, sub
-                            quodam<note>* corr. ex <q>quadam</q>
+                            quodam<ref target="#d3e1635"/>
+                  <note xml:id="d3e1635" ana="editor" resp="BG">* corr. ex <q>quadam</q>
                   </note> cauę rupis fornice, annos treis perseuerasse legimus, nunquam
                         procubuisse, ne minus orare, quam uellet, cogeretur, quoniam cubanti citius
                         obreperet somnus. Quietis mollitiem standi frangebat labor, standi laborem
@@ -2848,7 +2986,8 @@
                         adhuc ne cesses. Ideo dare differt Dominus, ut perseueranter instanti
                         cumulatius tribuat.</p>
                <pb n="1-380"/>
-               <p>Martham<note>*corr. ex <q>Martha</q>
+               <p>Martham<ref target="#d3e1719"/>
+                  <note xml:id="d3e1719" ana="editor" resp="BG">*corr. ex <q>Martha</q>
                   </note> centies per diem et centies per noctem submittere genua solitam
                         ferunt, dum illum supra cęlos regnantem adorat, quem in terris morantem
                         suscepisse hospitio beneficii loco habuit, non iam minus in supplicando
@@ -2918,7 +3057,8 @@
                         palio erat, quanto maior in oratione eius? Qua etiam rimatus est secreta
                         cęli et pręuidit futura et uiuens atque sentiens e mortalium consortio ad
                         paradisi loca transferri meruit.</p>
-               <p>Heliseus propheta apud Hiericuntem<note>* corr. ex <q>Hiericontem</q>
+               <p>Heliseus propheta apud Hiericuntem<ref target="#d3e1757"/>
+                  <note xml:id="d3e1757" ana="editor" resp="BG">* corr. ex <q>Hiericontem</q>
                   </note> aquas potantibus noxias, cum orasset, salubres fecit, terrę
                         sterilitatem foecunditate mutauit. Ascendens in Bethel pueris sibi
                         illudentibus male imprecatus est, non ut suam, sed Dei iniuriam
@@ -2959,7 +3099,8 @@
                         sanitatem. Nonne magnum hoc et admirabile, ut poenitentis oratio mutet Dei
                         sententiam et, quem Deus ipse morti iam addixerat, eum rursus ne ęgrotare
                         quidem permittat?</p>
-               <p>Certe non paruam orationis uim et in Asa, rege Iuda,<note>*corr. ex
+               <p>Certe non paruam orationis uim et in Asa, rege Iuda,<ref target="#d3e1784"/>
+                  <note xml:id="d3e1784" ana="editor" resp="BG">*corr. ex
                             <q>Iudę</q>
                   </note> belli euentus ostendit. Cum exigua enim manu obuiam procedens Zarę,
                         Aethiopum regi, cuius exercitus decies centum milium hominum armatorum et
@@ -3198,7 +3339,8 @@
                </p>
                <p>Sed sicuti mortuis, ut purgentur, ita etiam uiuis, ut corrigantur, suffragari
                         solet oratio iustorum. </p>
-               <p>Stephanus abbas, ordinis Grandimontensis institutor, dum montis Mureti<note>*
+               <p>Stephanus abbas, ordinis Grandimontensis institutor, dum montis Mureti<ref target="#d3e1936"/>
+                  <note xml:id="d3e1936" ana="editor" resp="BG">*
                                 corr. ex<q> Moreti</q>
                   </note> (qui est in Aquitania) solitudinem incoleret, pro milite quodam, ut
                         flagitium, in quo obstinatior uidebatur, dimitteret, orauit. Hinc ille, qui
@@ -3251,7 +3393,8 @@
                         nullo modo potuisset, Deum pro illis precatus est. Fatiscenteque carceris
                         muro omnes euaserunt Deo Deique seruo gratias agentes, cuius precibus homo
                         restitit, et lapides paruerunt.</p>
-               <p>Magnobodus,<note>* corr. ex <q>Magnobonus </q>
+               <p>Magnobodus,<ref target="#d3e1964"/>
+                  <note xml:id="d3e1964" ana="editor" resp="BG">* corr. ex <q>Magnobonus </q>
                   </note> eiusdem loci episcopus, et ipse similiter iis, qui in ergastulis et
                         uinculis detinebantur, liberationem a magistratu frustra contendit, a Deo
                         autem facile impetrauit. Nam dum ipse ante aram suppliciter prouolutus
@@ -3268,10 +3411,12 @@
                <p>Vana est ergo sententia dicentium: Non uotis neque suppliciis muliebribus
                         auxilia Deorum parantur; uigilando, agendo, bene consulendo prospere omnia
                         cedunt. Nisi enim Dominus custodierit ciuitatem, frustra uigilant, qui
-                        custodiunt eam. Quod etiam Aniani, Aurelianensis<note>** corr. ex
+                        custodiunt eam. Quod etiam Aniani, Aurelianensis<ref target="#d3e1975"/>
+                  <note xml:id="d3e1975" ana="editor" resp="BG">** corr. ex
                                 <q>Aureliensis</q>
                   </note> episcopi, exemplo probari potest. Hic enim <pb n="1-395"/> Gothis
-                            Aurelianum<note>* corr. ex <q>Aurelium</q>
+                            Aurelianum<ref target="#d3e1982"/>
+                  <note xml:id="d3e1982" ana="editor" resp="BG">* corr. ex <q>Aurelium</q>
                   </note> obsidentibus una cum
                         suis clericis de muro ipso sanctos et sanctas omnes inuocans litanias
                         decantabat. Sacerdos autem unus ex captiuis, quem ne captiuitatis quidem
@@ -3670,7 +3815,8 @@
                         inardescimus, toties cordi nostro insidet. Et uere nobiscum atque adeo intra
                         nos est dicente Apostolo: <q>Qui adheret Domino, unus spiritus est.</q>
                </p>
-               <p>Hinc etiam Elizabeth uirgo, egregium Sconaugiensis<note>* corr. ex
+               <p>Hinc etiam Elizabeth uirgo, egregium Sconaugiensis<ref target="#d3e2192"/>
+                  <note xml:id="d3e2192" ana="editor" resp="BG">* corr. ex
                                 <q>Comagiensis</q>
                   </note> monasterii decus, cum sese cęlestium contemplationi penitus
                         dedisset, obstupefactis interdum corporis membris ac sensibus diu ueluti
@@ -3907,8 +4053,10 @@
                         uiro: <q>In lege Domini uoluntas eius, et in lege eius meditabitur die ac
                             nocte. </q>Meditationem legis non in replicando, quę scripta sunt (ut
                         Iudeorum existimant pharisei) sed in opere intelligens, iuxta illud
-                        Apostolicum: <q>Siue comeditis siue bibitis siue aliud<note>* add.</note>
-                            quid agitis, omnia in gloriam Domini facite.<note> ** corr. ex<q>
+                        Apostolicum: <q>Siue comeditis siue bibitis siue aliud<ref target="#d3e2305"/>
+                     <note xml:id="d3e2305" ana="editor" resp="BG">* add.</note>
+                            quid agitis, omnia in gloriam Domini facite.<ref target="#d3e2308"/>
+                     <note xml:id="d3e2308" ana="editor" resp="BG"> ** corr. ex<q>
                                     facientes</q>
                      </note>
                   </q>Et Prophetę uerba dicentis: <q>A mandatis tuis intellexi. </q>Vt,
@@ -4110,7 +4258,8 @@
                         catenis circumligatus uisibiliter apparet omnibusque palam fit, quam
                         peruersa hactenus fuerit eorum religio. Ille magno et horrenti edito ululatu
                         e medio abiit, populus conuertitur, templum Deo uero dedicatur,
-                            Polemius<note>*corr. ex<q> Polemus</q>
+                            Polemius<ref target="#d3e2419"/>
+                  <note xml:id="d3e2419" ana="editor" resp="BG">*corr. ex<q> Polemus</q>
                   </note> rex baptizatus relicto regno apostolum sequitur; ut in paupertate
                         Christum adoret, qui in diuitiis et potentatu adorauerat diabolum.</p>
                <p>Ephesii quoque fidem a Ioanne apostolo prędicatam recepturi, ut eam signis
@@ -4219,7 +4368,8 @@
                         pręceps ad terram corruit ac repentino ellisu extinctus, qualis ipse Deus
                         esset, ostendit; dignus certe, qui sic interiret, ne illi, quos maleficis
                         incantationibus deluserat, perniciosa credulitate perirent.</p>
-               <p>Paulus apostolus, cum Paphum applicuisset, Bariesum<note>*corr. ex
+               <p>Paulus apostolus, cum Paphum applicuisset, Bariesum<ref target="#d3e2472"/>
+                  <note xml:id="d3e2472" ana="editor" resp="BG">*corr. ex
                                 <q>Barrieum</q>
                   </note> Elymam magum, qui Paulum, Cypri proconsulem, a fide auertere
                         moliebatur, cęcitate damnauit, ut nec solem hunc super iustos et super
@@ -4256,7 +4406,8 @@
                         sanctum, quem capitali odio persecuti fuerant, reuereri coeperunt.</p>
                <p>Cyprianus Damascenus, primum quidem magus et gentilis, deinde uero episcopus
                         Christique martyr. Cum enim totis maleficorum uiribus Iustinam uirginem in
-                        amorem Agladii<note>* corr. ex <q>Aglai</q>
+                        amorem Agladii<ref target="#d3e2487"/>
+                  <note xml:id="d3e2487" ana="editor" resp="BG">* corr. ex <q>Aglai</q>
                   </note> iuuenis, qui eam deperibat, pellicere molitus fuisset et demones re
                         infecta reuersi nullum sibi in ipsam peccandi locum relictum dixissent, eo
                         quod crucis munimine Christiana foemina castitatem suam protegeret, continuo
@@ -4284,7 +4435,8 @@
                         inter conflictantes <pb n="1-433"/> philosophorum sententias nihil certi
                         asserentium nutabat, donec ab Athenis transiens in Aegyptum, explorato
                         philosophię nostrę sensu, Christo credere coepit. Inde reuersus
-                            Eubulum<note>* corr. ex <q>Eubolum</q>
+                            Eubulum<ref target="#d3e2508"/>
+                  <note xml:id="d3e2508" ana="editor" resp="BG">* corr. ex <q>Eubolum</q>
                   </note> pręceptorem suum de ratione uerę sapientię disputando superauit et
                         ad Domini nostri cultum conuertit. Reperit ergo Basilius in Ecclesia, quod
                         in Academia non poterat reperire, et discipulos docuit, quod non didicerat a
@@ -4413,7 +4565,8 @@
                         persecutori duxit comparandum. Veruntamen cum aliquandiu inter eos fuisset
                         disputatum, Augustus tandem pontificis sententię cedens catholicum se fecit.</p>
                <pb n="1-438"/>
-               <p>Porro Anthemium<note>* corr. ex <q>Antonium</q>
+               <p>Porro Anthemium<ref target="#d3e2570"/>
+                  <note xml:id="d3e2570" ana="editor" resp="BG">* corr. ex <q>Antonium</q>
                   </note> episcopum de eadem prauitate publice conuictum, improbe tamen in
                         flagitio persistentem et ab Agapeto depositum, in exilium egit, suffecto in
                         locum suum sancto ac fideli uiro Menna. Sicque sapientissimus princeps, cum
@@ -4499,7 +4652,8 @@
                <pb n="1-441"/>
                <p>
                   <q>peccatorum meorum miserebitur. Misericordia enim et ira ab illo cito
-                                proximant,<note>* corr. ex proximat</note> et in peccatores respicit
+                                proximant,<ref target="#d3e2628"/>
+                     <note xml:id="d3e2628" ana="editor" resp="BG">* corr. ex proximat</note> et in peccatores respicit
                             ira illius.</q>
                </p>
                <p>Nos igitur errorem istorum refugientes eos sequamur, qui uel grauissime lapsi
@@ -4713,7 +4867,8 @@
                <p>Pelagia Antiochena, cum et diuitiis et corporis facie multum emineret,
                         luxurię ac libidini dedita usque adeo frontem fregerat, ut gloriaretur
                         nullam se neque ornatiorem neque lasciuiorem in publicum procedere. At ubi
-                            Noni,<note>* corr. ex <q>Nonii</q>
+                            Noni,<ref target="#d3e2733"/>
+                  <note xml:id="d3e2733" ana="editor" resp="BG">* corr. ex <q>Nonii</q>
                   </note> Heliopoleos episcopi, prędicationes audiuit, recognouit errorem suum
                         penitusque immutata ornatum omnem abiecit et, quicquid habebat opum,
                         pauperibus erogauit atque impudiciciis finem statuens in monte Oliueti
@@ -5093,7 +5248,8 @@
                <p>Hęc charitas sanctos tuos. Domine, non modo diuitiarum dignitatumque
                         secularium atque honorum, uerum etiam uitę lucis huius contemptores fecit.
                         Nullis tyrannorum minis suppliciisue absterreri potuerunt, ne nomen
-                            tuum<note>* add.</note>
+                            tuum<ref target="#d3e3007"/>
+                  <note xml:id="d3e3007" ana="editor" resp="BG">* add.</note>
                   <sic>ubsque</sic> palam prędicarent atque extollerent.</p>
                <pb n="2-384"/>
                <p>Petrus, Andreas, Philippus crucifigi non recusarunt, Iacobus et Paulus capite
@@ -5392,7 +5548,8 @@
                         salute non dubitat, una cum multis meruit seruari, Deo id tribuente hominis
                         pietati.</p>
                <p>Carpus, Pauli apostoli discipulus (sicuti de illo Dionysius ad
-                            Deophilum<note>* corr. ex <q>Theophilum</q>
+                            Deophilum<ref target="#d3e3180"/>
+                  <note xml:id="d3e3180" ana="editor" resp="BG">* corr. ex <q>Theophilum</q>
                   </note> scribens testatus est) cum fidelem quendam ab infideli subuersum
                         cerneret, prę dolore languere coepit. Cumque, ut conuerterentur, orare
                         debuisset, ut ambo e uita decederent, optauit, ueritus, ne alterius suasu,
@@ -5526,7 +5683,8 @@
                         Maius bonum pro malo reddere non potuit quam ut inimicum suum diligendo Deum
                         amicum faceret et eum pro Christo ad patientiam suppliciorum animaret, a quo
                         ipse pertulerat supplicia.</p>
-               <p>Pergentinus<note>* corr. ex<q> Pergentius </q>
+               <p>Pergentinus<ref target="#d3e3246"/>
+                  <note xml:id="d3e3246" ana="editor" resp="BG">* corr. ex<q> Pergentius </q>
                   </note> et Laurentinus fratres sub Decio cęsare Aretii martyrium passi, cum
                         fustigarentur et uerberantium brachia repente obriguissent, ut illi
                         sanitatem recuperarent, orarunt, inimicorum potius quam suę poenę remedium
@@ -5536,7 +5694,8 @@
                         tumulum ipsorum adductum a demonica uexatione liberum reddidere. Hinc patet,
                         quales erga alios uixerint, qui hos, a quibus necati sunt, etiam mortui
                         dilexerunt.</p>
-               <p>Christophorus martyr a Dagno<note>** corr. ex <q>Dago</q>
+               <p>Christophorus martyr a Dagno<ref target="#d3e3257"/>
+                  <note xml:id="d3e3257" ana="editor" resp="BG">** corr. ex <q>Dago</q>
                   </note>, Lycię rege, passus, cum post multa tormentorum genera stipiti
                         alligatus tandem sagittis appeteretur atque earum una reflexo mirabiliter
                         ictu regis oculum confixisset, uulneris remedium monstrauit. Rex itaque
@@ -5572,7 +5731,8 @@
                         uellet, neque omnino descendere quiuerat, mane compertum <pb n="2-401"/>benigne ac perhumane corripuit et ad poenitentiam criminis adduxit. Data
                         etiam stipe ueluti equi mercenarium custodem, non tanquam deprehensum
                         abactorem dimittendum curauit.</p>
-               <p>Amon<note>* corr. ex <q>Amos</q>
+               <p>Amon<ref target="#d3e3281"/>
+                  <note xml:id="d3e3281" ana="editor" resp="BG">* corr. ex <q>Amos</q>
                   </note> quoque Aegyptius, dum in eremo manenti panem, quo in diem uesci
                         solebat, furto subtraherent homines impurissimi, duas serpentes cęllę
                         custodię apposuit, quarum afflatu illi, cum furandi animo propius
@@ -5593,7 +5753,8 @@
                         Qui deinceps inferre illi iniuriam et timuerunt castigati et erubuerunt
                         beneficio uicti.</p>
                <p>Elphegus, Cantuariensis archiepiscopus, Romam uersus pergens, cum in urbem
-                            Ausonam<note>** corr. ex <q>Ausoniam</q>
+                            Ausonam<ref target="#d3e3293"/>
+                  <note xml:id="d3e3293" ana="editor" resp="BG">** corr. ex <q>Ausoniam</q>
                   </note> diuertisset, omnibus, quę secum habebat, exutus urbeque eiectus
                         fuisse dicitur. At cum Deo ulciscente sancti iniuriam repentino tecta
                         incendio conflagrare coepissent, reuocatus oratione flammas extinxit. Quo
@@ -5602,7 +5763,8 @@
                         diligere uideretur.</p>
                <p>Idem Deo supplicando et panem benedictum morbo affectis porrigendo
                         pestilentiam sedauit, in ipsos tantum Cantuarię occupatores grassantem, qui
-                        ab Ethelredo rege secedentes, cum pyratis societate facta,<note>*
+                        ab Ethelredo rege secedentes, cum pyratis societate facta,<ref target="#d3e3303"/>
+                  <note xml:id="d3e3303" ana="editor" resp="BG">*
                         add.</note> in urbem hostiliter irruperant, magnam ciuium partem
                         sustulerant, monachos interfecerant, templum incenderant, sibi graue uulnus
                         inflixerant et carcere teterrimo constrictum menses septem incarcerauerant.
@@ -5622,7 +5784,8 @@
                         misereatur tui Deus et nihil horum, quę modo in me obloquendo effudisti,
                         reputet ad peccatum. His uerbis ille corde compunctus et fidem, quam
                         persequebatur, accepit et non recusauit martyrium.</p>
-               <p>Vitalis,<note> ** corr. ex <q>Vitalius</q>
+               <p>Vitalis,<ref target="#d3e3314"/>
+                  <note xml:id="d3e3314" ana="editor" resp="BG"> ** corr. ex <q>Vitalius</q>
                   </note> Alexandrinus monachus, hominem, a quo alapam acceperat, statim a
                         demone arreptum ac uolutatim humi iactatum, dum pro illo orasset, omni
                         prorsus molestia expediuit. Tam facilis exauditio nonne <pb n="2-403"/>
@@ -5735,7 +5898,8 @@
                             erranti, reduc ad eum. Si uideris asinum odientis te iacere sub onere,
                             non pertransibis, sed subleuabis cum eo. </q>Et in Prouerbiis legimus:
                             <q>Cum ceciderit inimicus tuus, ne gaudeas et in ruina eius ne exultet
-                            cor tuum, ne forte uideat Dominus et displiceat ei, et auferat<note>*
+                            cor tuum, ne forte uideat Dominus et displiceat ei, et auferat<ref target="#d3e3367"/>
+                     <note xml:id="d3e3367" ana="editor" resp="BG">*
                                 corr. ex <q>auferet</q>
                      </note> ab eo iram suam. </q>Et iterum: <q>Si esurierit inimicus tuus,
                             ciba illum, si sitit, <pb n="2-407"/> da ei aquam bibere. Prunas enim
@@ -5881,7 +6045,8 @@
                         custodit,</q> inquit, <q>os suum, custodit animam suam; qui autem
                             inconsyderatus est ad loquendum, sentiet mala.</q>
                </p>
-               <p> Prędicandi autem donum, nequis leue putet,<note>* corr. ex <q>putaret</q>
+               <p> Prędicandi autem donum, nequis leue putet,<ref target="#d3e3493"/>
+                  <note xml:id="d3e3493" ana="editor" resp="BG">* corr. ex <q>putaret</q>
                   </note> non nisi precibus proponitur impetrandum. <q>Rogate, </q>inquit,
                             <q>dominum messis, ut mittat operarios in messem suam. </q>Cęterum,
                         nequis lucri, et non tantum hominum causa prędicationis opus sibi uendicet,
@@ -6204,7 +6369,8 @@
                             Iesu.</q> Et paulo post: <q>Noli, inquit, contendere uerbis! Ad nihil
                             enim utile est, nisi ad subuersionem audientium. Solicite autem cura
                             teipsum probabilem exibere Deo, operarium inconfusibilem, recte
-                            tractantem uerbum ueritatis. Prophana autem et uaniloquia<note>* corr.
+                            tractantem uerbum ueritatis. Prophana autem et uaniloquia<ref target="#d3e3689"/>
+                     <note xml:id="d3e3689" ana="editor" resp="BG">* corr.
                                 ex <q>inaniloquia</q>
                      </note> deuita, multum enim proficiunt ad impietatem, et sermo eorum ut
                             cancer serpit.</q> Et iterum ait: <q>Stultas et sine disciplina
@@ -6237,7 +6403,8 @@
                             probat corda nostra. Neque enim aliquando fuimus in sermone adulationis,
                             sicut scitis, Deus testis est, nec quęrentes ab hominibus gloriam, neque
                             a uobis, neque ab aliis.</q> Qua in re non est prętermittenda Salomonis
-                        sententia dicentis: <q>Qui dicunt impio: Iustus es, maledicent eis<note>*
+                        sententia dicentis: <q>Qui dicunt impio: Iustus es, maledicent eis<ref target="#d3e3729"/>
+                     <note xml:id="d3e3729" ana="editor" resp="BG">*
                                 corr. ex <q>ei</q>
                      </note> populi et detestabuntur eos tribus. Qui arguunt eum,
                             laudabuntur, et super ipsos ueniet benedictio.</q> Et iterum:
@@ -6620,12 +6787,14 @@
                         orare iubemur. <q>Diligite, </q>inquit Dominus, <q>inimicos uestros et
                             benefacite iis qui oderunt uos, et orate pro persequentibus uos!</q>
                </p>
-               <p>Cuius quidem pręcepti Beonem,<note>* corr. ex <q>Benonem</q>
+               <p>Cuius quidem pręcepti Beonem,<ref target="#d3e3945"/>
+                  <note xml:id="d3e3945" ana="editor" resp="BG">* corr. ex <q>Benonem</q>
                   </note> deserti Thebaidis abbatem, non immemorem fuisse constat, cum nunquam
                         uisus sit iratus. Qui nemini <sic>iracitur</sic>, nonne semper in pace
                         uersatur? Profecto, tametsi persecutiones sustinet, fatigantur persecutores
                         odii stimulis agitati; ille omnia ęquanimiter ferens, in spe pręmii cęlestis
-                        conquiescit dicente Domino: <q>Mihi uindicta,<note>** corr. ex
+                        conquiescit dicente Domino: <q>Mihi uindicta,<ref target="#d3e3954"/>
+                     <note xml:id="d3e3954" ana="editor" resp="BG">** corr. ex
                                 <q>uindictam</q>
                      </note> et ego retribuam</q>.</p>
                <p>Secularis quoque potentię in pace conseruanda studium ęternę beatitudinis
@@ -6866,7 +7035,8 @@
                         distrahere cogerentur. Ob hoc sane Arsenius, cur tantopere accessum hominum
                         deuitaret, cum interrogaretur, non posse se cum Deo simul et hominibus esse
                         aiebat.</p>
-               <p>Capito<note>* <sic>cort.</sic> ex <q>Capiton</q>
+               <p>Capito<ref target="#d3e4128"/>
+                  <note xml:id="d3e4128" ana="editor" resp="BG">* <sic>cort.</sic> ex <q>Capiton</q>
                   </note> itidem rogatus respondit uereri se, ne ex hoc imbecillior ad
                         sustinendos inimici impetus redderetur, quocum adhuc sibi superesse certamen
                         sciret. Alterum ergo contemplandi amor, alterum peccandi timor ab humano
@@ -6907,7 +7077,8 @@
                         Tunc domum rediens impetrata a uiro, cui tradita erat, coniugii solutione
                         religioni sese addixit. Ac tanto deinde Deo seruire coepit humilius, quanto
                         ambitiosius ante seruierat mundo. Magnum profecto fuit uirentis adhuc ętatis
-                        et liberalis formę foeminam<note>* corr. ex <q>foeminę</q>
+                        et liberalis formę foeminam<ref target="#d3e4157"/>
+                  <note xml:id="d3e4157" ana="editor" resp="BG">* corr. ex <q>foeminę</q>
                   </note> tam cito contempsisse uestem sericam, inaures, monilia, armillas,
                         mytras, uittas, reticula, crepitulum, discerniculum, speculum, strophea,
                         anulos, gemmas, margaritas, uniones aureaque segmenta et cum unguentis
@@ -7067,14 +7238,16 @@
                         ipsum deposuit. Nec unquam deinde asperius indumentum quam cęteri fratres
                         ferre uoluit, ne forte illis pręstare sanctitate uideretur, quorum seipse
                         minimum reputaret.</p>
-               <p>Stephano abbati, Grandimontensis ordinis autori, qui in Mureto<note>*corr. ex
+               <p>Stephano abbati, Grandimontensis ordinis autori, qui in Mureto<ref target="#d3e4305"/>
+                  <note xml:id="d3e4305" ana="editor" resp="BG">*corr. ex
                                 <q>Moreto</q>
                   </note>, Aquitanię monte, uitam solitariam duxit, <pb n="2-454"/>tametsi
                         rudis modicusque amictus fuerit, hoc tamen admirationem auget, quod sub
                         eodem et ęstiuos calores et brumę frigus pertulerit, nunquam quicquam panni
                         sibi uel addens uel demens. Vtranque profecto diuersorum temporum molestiam
                         leuare posset solertia, nisi utranque tolerare mallet in Deum charitas.</p>
-               <p>Apollonius <sic>aput</sic> Thebaidem<note>* corr. ex <q>Thebaidam</q>
+               <p>Apollonius <sic>aput</sic> Thebaidem<ref target="#d3e4317"/>
+                  <note xml:id="d3e4317" ana="editor" resp="BG">* corr. ex <q>Thebaidam</q>
                   </note> in finibus Hermopolis collobio stuppeo, quod lebithen uocabant,
                         operiebatur, neque tamen ullum capitium habuit, sed lineo linteolo collum
                         caputque obuoluebat. Et hoc magis mirandum, quod, cum quadraginta annos in
@@ -7154,7 +7327,8 @@
                         nuda in solitudine uiueret. Et quia sine tecto degebat, ęstus pluuiasque
                         corpore nulla in parte uelato excipiens nigritiem quandam cutis situmque<pb n="2-457"/> contraxerat, sed iam non paucis miraculis clarebat. Vide
                         ergo, quantum interfuit inter ornatum illum et nuditatem istam! Ille
-                        impudicicię fomes fuerat, ista<note>* corr. ex <q>iste</q>
+                        impudicicię fomes fuerat, ista<ref target="#d3e4361"/>
+                  <note xml:id="d3e4361" ana="editor" resp="BG">* corr. ex <q>iste</q>
                   </note> meritum prębuit mirandę sanctitatis.</p>
                <p>Quid est autem, quod Paulus apostolus ad Timotheum scribens uelle se dicat,
                         ut mulieres orent in habitu ornato? Nunquid in sericis aut purpura eas orare
@@ -7351,8 +7525,10 @@
                         meditationibus assueta ad Deum tollebatur et eius desyderio accensa a fletu
                         temperare non poterat. O cęlestem uirum, qui etiam inter laborandum futurę
                         beatitudinis dulcedinem degustabat.</p>
-               <p>Philoromus<note>*corr. ex <q>Phyloronius</q>
-                  </note> presbyter, dum in quodam Galatię<note>**corr. ex <q>Gallicię</q>
+               <p>Philoromus<ref target="#d3e4475"/>
+                  <note xml:id="d3e4475" ana="editor" resp="BG">*corr. ex <q>Phyloronius</q>
+                  </note> presbyter, dum in quodam Galatię<ref target="#d3e4480"/>
+                  <note xml:id="d3e4480" ana="editor" resp="BG">**corr. ex <q>Gallicię</q>
                   </note> monte multa se abstinentia fatigaret, non minus manuum operatione
                         exercebatur. Inde illi suppetere potuerunt longinquę peregrinationis impensę
                         Romam Hierosolymamque ititanti. Et quoniam nunquam neque ieiunii angustiis
@@ -7502,8 +7678,10 @@
                         pręesset, arbitratus est, nisi et membris suis pręese posset. Membra igitur
                         tegminis asperitate contrite sibi subiicere studuit, nequando ipse illis
                         subiectus appetitum illorum sequi cogeretur, non suum.</p>
-               <p>Maglorius<note>*corr. ex <q>Maiorus</q>
-                  </note> quoque, in insula Britannię Sargia<note>**cor. ex <q>Sarina</q>
+               <p>Maglorius<ref target="#d3e4555"/>
+                  <note xml:id="d3e4555" ana="editor" resp="BG">*corr. ex <q>Maiorus</q>
+                  </note> quoque, in insula Britannię Sargia<ref target="#d3e4560"/>
+                  <note xml:id="d3e4560" ana="editor" resp="BG">**cor. ex <q>Sarina</q>
                   </note> episcopus, qui episcopali dignitati solitudinis pręposuit
                         humilitatem, spretis honoribus eremum penetrans, pręter incredibilem cibi
                         potusque abstinentiam, semper cilicio est usus. Et quia uirgo fuerat,
@@ -7562,7 +7740,8 @@
                         pręcinxerat, ut scilicet eam corporis partem magis attereret, unde magis
                         uoluptatis motum exurgere solere sciret. Virtus enim eius in lumbis eius, et
                         fortitudo illius in umbilico uentris eius.</p>
-               <p>Philoromus<note>* corr. ex <q>Phyloronius</q>
+               <p>Philoromus<ref target="#d3e4596"/>
+                  <note xml:id="d3e4596" ana="editor" resp="BG">* corr. ex <q>Phyloronius</q>
                   </note> item presbyter intra saxeam speluncam inclusus et ferreis nexibus
                         manes pedesque reuinctus uixisse perhibetur, ut carcerem simul uinculaque
                             <pb n="2-472"/>perferret. Hic extremo uitę die confessus est nullum a se
@@ -7620,7 +7799,8 @@
                         et humilitate deiici didicit, experiendo, an patienter ferret uerbera
                         ancillarum suarum tam clari generis foemina.</p>
                <pb n="2-474"/>
-               <p>Illa quoque Elizabeth, Deo dicata uirgo, quam in Sconaugiensi<note>* corr. ex
+               <p>Illa quoque Elizabeth, Deo dicata uirgo, quam in Sconaugiensi<ref target="#d3e4629"/>
+                  <note xml:id="d3e4629" ana="editor" resp="BG">* corr. ex
                                 <q>Comagiensi</q>
                   </note> latentem monasterio fama uirtutum mundo
                         prodidit, et ipsa statutis horis quotidie flagello se cędebat, ut carne
@@ -7732,7 +7912,8 @@
                         dilata est clades.</p>
                <p>Peccauerat Dauid, et peccatum confitens a Nathan propheta audierat:
                             <q>Transtulit a te Deus peccatum tuum</q>. Et post hęc tamen:
-                            <q>Infirmata sunt,</q> inquit, <q>a<note>* add.</note> ieiunio genua
+                            <q>Infirmata sunt,</q> inquit, <q>a<ref target="#d3e4698"/>
+                     <note xml:id="d3e4698" ana="editor" resp="BG">* add.</note> ieiunio genua
                         mea</q>. Sed cuius genua infirma ieiunio erant, eius in Deo spes firma fuit.
                         Vnde ait: <q>In te, Domine, speraui; non confundar in ęternum</q>.</p>
                <p>Danieli ieiunanti diuina reuelantur mysteria, et dies a sole iustitię
@@ -7776,7 +7957,8 @@
                         maceratio: <q>Tu, inquit, cum ieiunas, unge caput tuum et faciem tuam laua,
                             ne uidearis hominibus ieiunans, sed Patri tuo, qui est in absconso. Et
                             Pater tuus, qui uidet in absconso, reddet tibi</q>.
-                            Phariseorum<note>*corr. ex <q>Palestinorum</q>
+                            Phariseorum<ref target="#d3e4735"/>
+                  <note xml:id="d3e4735" ana="editor" resp="BG">*corr. ex <q>Palestinorum</q>
                   </note> ista mollities
                         erat, cum festum agerent, caput unguentis delibutum et lotam pręferre
                         faciem. Non ista facienda, dum ieiunatur, pręcipit Dominus, sed metaphora
@@ -7810,7 +7992,8 @@
                         consueuisse. Cum autem et hunc multa animi sanctitate pręstitisse manifestum
                         sit, cur non speremus eum sanctum et beatum euasurum, quisquis uel integrę
                         iam ętatis uitam ab hac ieiuniorum obseruatione auspicabitur?</p>
-               <p>Eosdem quartę et sextę ferię dies Maglorius,<note>* corr. ex
+               <p>Eosdem quartę et sextę ferię dies Maglorius,<ref target="#d3e4756"/>
+                  <note xml:id="d3e4756" ana="editor" resp="BG">* corr. ex
                         <q>Maiorus</q>
                   </note> Sargiensis episcopus, ita ieiunio suo consecrauit, ut
                         in illis prorsus nihil degustaret. Aliis uero diebus pane ordeaceo
@@ -7907,7 +8090,8 @@
                         Atque a Deo omni morum sanctitate limatus et expolitus euasit, ut etiam ipse
                         nihil unquam degustaret pręterquam Dominicis diebus panem illum, qui de cęlo
                         descendit. Quem qui digne manducauerit, non esuriet in ęternum.</p>
-               <p>Pesium<note>* corr. ex <q>Epesium</q>
+               <p>Pesium<ref target="#d3e4802"/>
+                  <note xml:id="d3e4802" ana="editor" resp="BG">* corr. ex <q>Epesium</q>
                   </note> anachoretam annos quadraginta,
                         quos in Scythiotica eremo peregit, sol non uidit manducantem. Nunquam enim
                         ante uesperum quicquam gustauit.</p>
@@ -8236,7 +8420,8 @@
                         contineret.</p>
                <p>Apollonius abbas panem, holus, herbas edere solebat, sed ita sane, ut ea uel
                         sale condiret uel aceto maceraret, coctum gustauit nihil.</p>
-               <p>Theonam<note>* corr. ex <q>Theonem</q>
+               <p>Theonam<ref target="#d3e5018"/>
+                  <note xml:id="d3e5018" ana="editor" resp="BG">* corr. ex <q>Theonem</q>
                   </note> quoque monachum cruda comesse
                         accepimus nec in uescendo ignis opera unquam usum.</p>
                <p>Honophrius item abbas, cum sede incerta per solitudinem uagaretur, diu herbis
@@ -8289,11 +8474,13 @@
                         solitudinem ingressus fuerat, panem non gustarit neque quicquam, cuius ipsum
                         poeniteret, prolocutus fuerit, et se tamen sic e uita discedere, tanquam qui
                         modo coepisset, non tanquam qui profecisset.</p>
-               <p>Pior<note>*corr. ex <q>Pion</q>
+               <p>Pior<ref target="#d3e5056"/>
+                  <note xml:id="d3e5056" ana="editor" resp="BG">*corr. ex <q>Pion</q>
                   </note> abbas in Thebaidis deserto, quo minus
                         in edendo uoluptatis caperet, deambulando sumebat cibum, aqua in potu usus,
                         quam ipse effosso puteo amaram in dulcem uerterat exorato Domino.</p>
-               <p>Philoromus<note>**corr. ex <q>Philoronius</q>
+               <p>Philoromus<ref target="#d3e5064"/>
+                  <note xml:id="d3e5064" ana="editor" resp="BG">**corr. ex <q>Philoronius</q>
                   </note> presbyter in Galatia
                         annos duodeuiginti in cęlla clausus pane et cocto abstinuit, dein duobus et
                         triginta annis nullum pomi genus gustavit, ut omni ciborum dulcedine
@@ -8375,7 +8562,8 @@
                         defuisset, responderunt: <q>Nihil!</q> Quid enim deesse potest iis, quibus
                         adest ille, per quem facta sunt omnia?</p>
                <p>Sed ne a proposito diuertisse uideamur, illud quoque hoc loco puto
-                        referendum, quod in monasterio Tabennensi, ubi Amon<note>* corr. ex
+                        referendum, quod in monasterio Tabennensi, ubi Amon<ref target="#d3e5122"/>
+                  <note xml:id="d3e5122" ana="editor" resp="BG">* corr. ex
                             <q>Amos</q>
                   </note> abbas mille quingentis monachis pręfuit, legimus
                         obseruatum. Fratres ad mensam congregati, pendentibus a fronte cucullis, ita
@@ -8399,7 +8587,8 @@
                         sobrietatem fuerat expertus.</p>
                <p>Iudit, cum ad illud grande facinus, quod mente agitauerat, perficiendum
                         properaret, imposuit (ut ait Scriptura) Abrę suę ascoperam uini et uas olei
-                        et polentam et palathas<note>* corr. ex <q>lapates</q>
+                        et polentam et palathas<ref target="#d3e5139"/>
+                  <note xml:id="d3e5139" ana="editor" resp="BG">* corr. ex <q>lapates</q>
                   </note> et panes et
                         caseum et profecta est. A carnibus ergo abstinebat atque, ut ego existimo,
                         etiam a uino, tune tantummodo illo usa, cum et animi audacia opus esset et
@@ -8447,7 +8636,8 @@
                         imperium, timens debilitatem, non docens luxuriam. Deinde, cum iam adulta et
                         firmior fuerit, ait: Cibus eius holusculum sit et <q>simila
                             raroque</q>
-                  <note>*corr. ex <q>similia caroque</q>
+                  <ref target="#d3e5168"/>
+                  <note xml:id="d3e5168" ana="editor" resp="BG">*corr. ex <q>similia caroque</q>
                   </note> pisciculi. Sic
                         comedat, ut semper esuriat, ut statim post cibum possit legere, orare et
                         psallere.</p>
@@ -8713,7 +8903,8 @@
                         Hac tamen obedientię subiectione Lambertus meruit et in episcopatus sui
                         sedem restitui et tandem martyrio coronari.</p>
                <p>Non minus constantis, licet minus prudentis, obedientię est exemplum, quod
-                        sequitur. Ioannes abbas eremique Scythi oeconomus ficus de Mareota<note>*
+                        sequitur. Ioannes abbas eremique Scythi oeconomus ficus de Mareota<ref target="#d3e5328"/>
+                  <note xml:id="d3e5328" ana="editor" resp="BG">*
                             corr. ex <q>Mareote</q>
                   </note> Lybię sibi muneri missas duobus
                         adolescentulis ad senem quendam procul in ulteriore deserto manentem
@@ -8727,7 +8918,8 @@
                         escam, quam in manibus habebant, non gustare. Illi tamen stupendę cuiusdam
                         constantię prębuerunt exemplum. <pb n="2-515"/>Columbanus abbas Gallo
                         discipulo (cuius paulo ante mentionem fecimus) inobedientię crimen obiecisse
-                        dicitur, quod ad Lignonem<note>* corr. ex <q>Ligonem</q>
+                        dicitur, quod ad Lignonem<ref target="#d3e5335"/>
+                  <note xml:id="d3e5335" ana="editor" resp="BG">* corr. ex <q>Ligonem</q>
                   </note> fluuium
                         piscationem fecisset, quam ad fluuium Bruscam facere iussus fuerat. Gallus
                         autem, utrum in hoc an in illo fluuio piscaretur, nihil referre arbitratus,
@@ -9330,7 +9522,8 @@
                         bestię cognouerunt, neque tactum illorum formidantes neque recusantes
                         imperium.</p>
                <p>Clotario, Britannorum rege, uenationi indulgente aper a uenatoribus actus ad
-                            Deicolam<note>* corr. ex <q>Deicolum</q>
+                            Deicolam<ref target="#d3e5681"/>
+                  <note xml:id="d3e5681" ana="editor" resp="BG">* corr. ex <q>Deicolum</q>
                   </note> abbatem confugisse
                         perhibetur. Et ob eo conseruatus, syluestre animal tutiorem se in Deicolqę
                         sinu putauit quam si syluas fuga petiisset, pręsagio quodam lenitudinis
@@ -9556,7 +9749,8 @@
                         uixisse accepimus, ita ut perquam rare loqueretur nec nisi quantum auditoris
                         exigere uidebatur necessitas, taciturnitatem seruans et simul officio
                         fungens charitatis.</p>
-               <p>Theonam<note>* corr. ex <q>Theonem</q>
+               <p>Theonam<ref target="#d3e5843"/>
+                  <note xml:id="d3e5843" ana="editor" resp="BG">* corr. ex <q>Theonem</q>
                   </note> etiam in cęllula sua clausum
                         annos triginta, silentii habuisse continentiam perhibent et, quantum ea re
                         profecisset, miraculis postea ostendisse, neminem non sanum dimittendo, qui
@@ -9897,7 +10091,8 @@
                         consortium fugiat. Difficile enim creditu est, nedum factu, ut uir et mulier
                         una habitent et neque hęc se sciat uxorem neque ille maritum. Nulla
                         securitas est uicino serpente dormire.</p>
-               <p>Faro,<note>* corr. ex <q>Pharon</q>
+               <p>Faro,<ref target="#d3e6075"/>
+                  <note xml:id="d3e6075" ana="editor" resp="BG">* corr. ex <q>Pharon</q>
                   </note> Meldensis antistes, postquam pari
                         cum coniuge consensu religionem professi, altera inter moniales, alter inter
                         monachos diu sancte uixissent, formę <pb n="2-557"/>pulchritudinisque eius
@@ -9961,7 +10156,8 @@
                         pessimum tangere. Ex sensibus igitur corporis nostri, ut quisque periculo
                         proximior, ita magic continendus.</p>
                <p>Propterea quidem Ioannes anachoreta in quadam Aegypti pręrupte rupis spelunca
-                            obtruso<note>* corr. ex <q>obstruso</q>
+                            obtruso<ref target="#d3e6105"/>
+                  <note xml:id="d3e6105" ana="editor" resp="BG">* corr. ex <q>obstruso</q>
                   </note> aditu degens, cum
                         foeminis nunquam est locutus, raro cum uiris, ad se tamen intrare permisit
                         neminem. Tribuno roganti, uti se coniugi suę conspiciendum sustineret, non
@@ -10060,13 +10256,15 @@
                         custodierat, montes dicitur transtulisse, quod nescio, an ullus alius, monte
                         quodam Numidię Bajbylonem usque ad probandam Christianę religionis ueritatem
                         ire iusso atque obediente.</p>
-               <p>Nicetas<note>*corr. ex <q>Niceta</q>
+               <p>Nicetas<ref target="#d3e6141"/>
+                  <note xml:id="d3e6141" ana="editor" resp="BG">*corr. ex <q>Niceta</q>
                   </note> martyr, a patre Maximiano, Nicomedię rege, ob Christianam
                         professionem supplicia passus, postquam omnia constanti animo pertulisset,
                         super plumea culcitra resupinus collocatur uinculisque constringitur, ne
                         inde se mouendi facultas esset. Tum adducta est meretrix forma prędita,
                         uestitu compta, arte instructa, quę et minus fortes allicere et non ita
-                        cautos posset peruertere. At uero Nicetas,<note>**corr. ex
+                        cautos posset peruertere. At uero Nicetas,<ref target="#d3e6146"/>
+                  <note xml:id="d3e6146" ana="editor" resp="BG">**corr. ex
                         <q>Niceta</q>
                   </note> ubi se ab illa modis omnibus ad impudiciciam concitari
                         uidit manibusque foemineis uerenda etiam in parte improbe ac petulanter
@@ -10117,7 +10315,8 @@
                <p>Pręter hęc Euagrium hibernis noctibus in puteum, Bernardum abbatem in lacum
                         descendere solitos accepimus, ut gelascentium aquarum frigore calorem
                         corporis temperarent castitati infestum.</p>
-               <p>Audomarum, Taruanensem<note>* corr. ex <q>Tamanensem</q>
+               <p>Audomarum, Taruanensem<ref target="#d3e6171"/>
+                  <note xml:id="d3e6171" ana="editor" resp="BG">* corr. ex <q>Tamanensem</q>
                   </note> episcopum, in
                         uespribus, patrem Franciscum in niuibus nudum uolutasse corpus, ut ea
                         castigatione uoluptatem carni insitam edomarent.</p>
@@ -10330,7 +10529,8 @@
                         apud Senones passam, cum inter meretriculas uitiandam pertraxissent, ursus
                         ab iniuria tutatus est; Martianam Cęsareę defendit paries inter ipsam et
                         corruptores mirabiliter se interponens; Hyrenen<ref>*</ref>
-                  <note>* corr. ex <q>Hyrenem</q>
+                  <ref target="#d3e6275"/>
+                  <note xml:id="d3e6275" ana="editor" resp="BG">* corr. ex <q>Hyrenem</q>
                   </note> Romę liberauit angelus,
                         iis, qui eam ad lupanar trahebant, illudens; Flauiam Domicillam Terracinę
                         intactam reliquit repentina eorum insania, qui uim inferre parabant;
@@ -11376,7 +11576,8 @@
                <p>Et quoniam maius peccatum maiori indiget animaduersione, Maria Aegyptiaca
                         prostibuli <corr>uoluptatem</corr> cum eremi asperitatibus
                         commutauit et Deum, quem<ref>*</ref>
-                  <note>* corr. ex <q>quę</q>
+                  <ref target="#d3e6834"/>
+                  <note xml:id="d3e6834" ana="editor" resp="BG">* corr. ex <q>quę</q>
                   </note> carni seruiendo uehementer offenderat, carnis
                         castigatione placauit. Quadraginta annos in deserto uixit, quę fortasse
                         tantundem temporis in obscoenitatibus uitę consumpserat. Antea se ornauerat,
@@ -12180,7 +12381,8 @@
                <p>Ferunt Onophrium in uasta Aegypti solitudine Deo seruientem, Dominico quoque
                         die illud angelo deferente acceptauisse, cum sacerdotis copiam procul ab
                         humano cultu degens habere non posset.</p>
-               <p>Maglorio<note>*corr. ex <q>Maioro</q>
+               <p>Maglorio<ref target="#d3e7348"/>
+                  <note xml:id="d3e7348" ana="editor" resp="BG">*corr. ex <q>Maioro</q>
                   </note> etiam, episcopo in Britannia,
                         Paschali die oranti angelum ter apparuisse terque sacram communionem
                         porrexisse, prędicentem, quod propediem decessurus esset. Sed qui tali usus
@@ -12333,7 +12535,8 @@
                         peregisse dicitur. In fortitudine ergo cibi huius peruenit usque ad montem,
                         qui Christus est, sublatus in cęlum, cum se de terris <pb n="2-641"/>transferri postulasset. Quem enim sumendo assidue, cernebat per speculum
                         et in ęnigmate, ipsum iam facie ad faciem uidere concupiuit.</p>
-               <p>Bauon<note>*corr. ex <q>Banon</q>
+               <p>Bauon<ref target="#d3e7466"/>
+                  <note xml:id="d3e7466" ana="editor" resp="BG">*corr. ex <q>Banon</q>
                   </note> quoque, Gandauensis coenobii
                         clericus (multa licet uitę sanctitate pręditus fuisset) cum ęgrotaret,
                         noluit sine tam salutari uiatico decedere statimque uocari, qui illud sibi
@@ -13461,7 +13664,8 @@
                         peccauerat, libenter et peccati poenam admisit dicens: <q>Bonus sermo
                             Domini, quem locutus est. Sit tantum pax et ueritas in diebus meis.
                         </q>Qua patientię humilitate <pb n="3-404"/> meruit, ut illa regię gazę
-                        direptio ad successores suos Ioachin<note>*corr. ex <q>Ioachim</q>
+                        direptio ad successores suos Ioachin<ref target="#d3e8067"/>
+                  <note xml:id="d3e8067" ana="editor" resp="BG">*corr. ex <q>Ioachim</q>
                   </note> et
                         Sedechiam usque differretur, quando etiam populus ipse ob delicta ductus est
                         in captiuitatem. Non sensit damnum, qui eo se dignum confessus animum statim
@@ -13658,7 +13862,8 @@
                         eius imposuit, qui sinistrę adstiterat. Ei uero, qui dexterę se obtulerat,
                         porrexit leuam. Lippientibus oculis prospexit, quod prospicere non potuit,
                         qui habebat sanos. Nempe Ioseph dexteram eius apprehensam super Manassen <pb n="3-411"/> transferre frustra conatus, ab eodem audiuit, quia Ephraim
-                            Manasse<note>*corr. ex <q>Manassen</q>
+                            Manasse<ref target="#d3e8152"/>
+                  <note xml:id="d3e8152" ana="editor" resp="BG">*corr. ex <q>Manassen</q>
                   </note> maior erit, licet Manasses
                         natu prior esset. Idem Iacob suis postremo filiis conuocatis certissimo
                         euentu prędixit, quę singulis olim euentura erant, ut intelligas oculorum
@@ -13787,7 +13992,8 @@
                         nefas! - cęcitatem horremus, cum tantam beatitudinem cęci cernere possint
                         et, qui inoffensos oculos habent, difficilius assequi soleant.</p>
                <p>Maiolus, Cluniacensis monasterii monachus, cęcus erat. Et tamen sapientię ac
-                        sanctitatis merito factus est abbas Matiscensis.<note>*corr. ex
+                        sanctitatis merito factus est abbas Matiscensis.<ref target="#d3e8233"/>
+                  <note xml:id="d3e8233" ana="editor" resp="BG">*corr. ex
                                 <q>Maticensis</q>
                   </note> Nec sua ipsi obstitit cęcitas, quin alios
                         cęcos curaret. Surdos insuper mutosque et claudos sanauit, procul dubio
@@ -14518,7 +14724,8 @@
                         amputata expirasset, illa Deo gratias egit et manum eius in sinu suo
                         conditam latenter tulit siccatamque in deliciis habuit. Corpus mandatum est
                         sepulturę. Mira utriusque uirtus, sed in sexu fragili mirabilior. Vir ultro
-                            certę<note>*corr. ex <q>certe</q>
+                            certę<ref target="#d3e8508"/>
+                  <note xml:id="d3e8508" ana="editor" resp="BG">*corr. ex <q>certe</q>
                   </note> se neci exposuit, ut cum
                         Christo uiueret. Mulier coniugium uiduitate mutare pręoptavit, ut maritum
                         martyrem uideret, cum illo simul cupiens torqueri, cum illo mori.</p>
@@ -14555,7 +14762,8 @@
                         propinatum sine noxa hausit ac mortuos quosdam precationibus ad uitam
                         reuocauit. Quo quidem miraculo plurimi ad Christum conuersi mota seditione
                         in regem impetum faciunt et frustra fugere conantem occidunt. Nicetas*
-                            <note>*corr. ex <q>Niceta</q>
+                            <ref target="#d3e8523"/>
+                  <note xml:id="d3e8523" ana="editor" resp="BG">*corr. ex <q>Niceta</q>
                   </note>
                   <pb n="3-442"/> vero, cum eos baptizasset ecclesiasque aliquot
                         construxisset, ad Dominum tranquillo uitę exitu migrauit. Vere Nicetas, qui
@@ -14584,7 +14792,8 @@
                         manduca!« Mox Deo gratias agens, quod se martyrii gloria dignatus esset,
                         animam reddidit, tanto maius recepturus pręmium, quanto passus duriora.</p>
                <p> Hippolitus quoque (cuius custodię Laurentius traditus fuerat) et ipse in*
-                        Christum credens atque confitens Valeriani <note>*add.</note>
+                        Christum credens atque confitens Valeriani <ref target="#d3e8537"/>
+                  <note xml:id="d3e8537" ana="editor" resp="BG">*add.</note>
                   <pb n="3-443"/> pręfecti iussu ad colla indomitorum equorum ligatus cum
                         distraheretur, fidem, quam receperat, integram seruauit. Membra diuidi
                         potuerunt, Christi amor scindi non potuit. Poena quoque hęc non casu
@@ -14722,7 +14931,8 @@
                         nitebantur, loco moueri potuit. Lignorum ergo struem tyrannus circumponi et
                         uirginem incendio consumi decernit. At illa inter flammas constituta calorem
                         non sentiens Deo gratias agebat. Furit Paschasius et iam, quo se uertat,
-                        nescit, dum ipsum a foemina uinci pudet. Cumque animo conflictaretur, <pb n="3-448"/> quidam ex lictoribus destricto<note>*corr. ex
+                        nescit, dum ipsum a foemina uinci pudet. Cumque animo conflictaretur, <pb n="3-448"/> quidam ex lictoribus destricto<ref target="#d3e8588"/>
+                  <note xml:id="d3e8588" ana="editor" resp="BG">*corr. ex
                             <q>districto</q>
                   </note> ense Lucię iugulum transfodit. Nec tamen illa
                         mori potuit, donec eucharistię sacramentum de manu sacerdotis accepit
@@ -15250,7 +15460,8 @@
                         affirmant. Sed ille in sua credulitate pręsumptuosaque superstitione
                         perdurans, die tertio post uita defunctus est. Et quoniam in tali errore
                         defecerat, uix illi a Pafnutio abbate multorum precibus exorato inter
-                        dormientium in Domino fratrum (<add>sepulchra</add>)<note>*coni.</note> sepultura
+                        dormientium in Domino fratrum (<add>sepulchra</add>)<ref target="#d3e8845"/>
+                  <note xml:id="d3e8845" ana="editor" resp="BG">*coni.</note> sepultura
                         memoriaque concessa est. Proh dolor! Tot tantosque uiri labores una
                         destruxit sanctitatis pręsumptio. Ea impostorem suum non agnouit, ea nulli
                         de se nisi sibi credidit. Sic, sic uirtutum quanuis alte structum ędificium
@@ -15822,7 +16033,8 @@
                <p>Quanto melius cum illis actum esset (sicut Petrus apostolus inquit)<q>non
                             agnoscere uiam iustitię quam post agnitionen retrorsum conuerti!
                         </q>Propterea quidem Paulus Galatas dementię accusat dicens: <q>Sic stulti
-                            estis, ut, cum spiritu coeperitis, nunc carne consummemini<note>*corr.
+                            estis, ut, cum spiritu coeperitis, nunc carne consummemini<ref target="#d3e9104"/>
+                     <note xml:id="d3e9104" ana="editor" resp="BG">*corr.
                                 ex <q>consumamini</q>
                      </note>
                   </q>Et eosdem ad id, quod bonum est, perseuerandum hortatur et ait: <q>Bonum
@@ -16199,7 +16411,8 @@
                         neminem ad se admisit, ut Deum, ad quem gaudens proficiscebatur, liberius
                         expeditiusque contemplari posset. Triduo uero elapso complicatis genibus
                         orando spiritum emisit. Qui cum tali gestu talique humilitate egrediuntur,
-                        eos ego misericordiam <note>*corr. ex <q>Hesitium</q>
+                        eos ego misericordiam <ref target="#d3e9377"/>
+                  <note xml:id="d3e9377" ana="editor" resp="BG">*corr. ex <q>Hesitium</q>
                   </note>
                   <pb n="3-499"/> iam adeptos arbitror. Non enim tanta gratia pręuenirentur,
                         nisi maior esset secutura.</p>
@@ -16857,7 +17070,8 @@
                         pestilentiam crebro in populos famemque sęuisse, ad hęc cometas in cęlo
                         crine sanguineo lugubre minantes facesque aera transuolantes, et multa id
                         genus ostenta interdum apparuisse, terrę quoque uibratione magnas
-                        ędificiorum moles funditus conuulsas procubuisse. At <note>*corr. ex
+                        ędificiorum moles funditus conuulsas procubuisse. At <ref target="#d3e9673"/>
+                  <note xml:id="d3e9673" ana="editor" resp="BG">*corr. ex
                                 <q>Terra</q>
                   </note>
                   <pb n="3-524"/> uero de hac, quam futuram expectamus, erumna dicitur:
@@ -16972,7 +17186,8 @@
                             suo, et exibit, et seducet gentes, quę sunt super quatuor angulos terrę,
                             Gog et Magog. Et congregabit eos* in pręlium, quorum numerus est sicut
                             harena maris. Et ascenderunt super latitudinem terrę, et circumierunt
-                            castra sanctorum et ciuitatem dilectam.</q> Ciuitas <note>*corr. ex
+                            castra sanctorum et ciuitatem dilectam.</q> Ciuitas <ref target="#d3e9742"/>
+                  <note xml:id="d3e9742" ana="editor" resp="BG">*corr. ex
                                 <q>eas</q>
                   </note>
                   <pb n="3-528"/> dilecta uel Hierusalem uel Ecclesia Dei est. In eam impetum
@@ -17001,7 +17216,8 @@
                             Et supra quam credi potest, uniuersa uastabit, et prosperabitur, et
                             faciet. Et interficiet robustos, et populum sanctorum secundum
                             uoluntatem suam, et dirigetur dolus in manu eius. Et cor suum
-                            magnificabit, et in copia rerum </q>(<add>omnium</add>)<note>*add.</note>
+                            magnificabit, et in copia rerum </q>(<add>omnium</add>)<ref target="#d3e9758"/>
+                  <note xml:id="d3e9758" ana="editor" resp="BG">*add.</note>
                   <q>occidet plurimos. Et contra Principem principum consurget. </q>Quod ait
                             <q>roborabitur fortitudo eius, </q>facturum signa et prodigia
                         significauit, ita ut in errorem inducantur, si fieri potest, etiam iusti; et
@@ -17109,7 +17325,8 @@
                         liquido cernentes ad scelerum suorum uindictam elementa conspirasse et
                         creaturas pariter omnes contra Creatoris aduersarios iusta indignatione esse
                         commotas. Vnde ad eos Esaias: <q>Vlulate </q>— inquit — <q>quia prope est
-                            dies Domini; quasi<note>*corr. ex <q>quia</q>
+                            dies Domini; quasi<ref target="#d3e9839"/>
+                     <note xml:id="d3e9839" ana="editor" resp="BG">*corr. ex <q>quia</q>
                      </note> uastitas a Domino
                             ueniet. Propter hoc omnes manus dissoluentur, et omne cor hominis
                             tabescet et conteretur. Torsiones et dolores tenebunt, quasi parturiens
@@ -17152,7 +17369,8 @@
                         ipse tremendi Iudicii dies, quoniam imparatos offendet. Quamobrem diluuio
                         illum comparans Dominus: <q>Sicut in <pb n="3-534"/> diebus Noe </q>— inquit
                         — <q>ita erit aduentus Filii hominis. Sicut <sic>eium</sic>
-                  </q>(erant<note>*add.</note>) <q>in diebus ante diluuium comedentes et
+                  </q>(erant<ref target="#d3e9882"/>
+                  <note xml:id="d3e9882" ana="editor" resp="BG">*add.</note>) <q>in diebus ante diluuium comedentes et
                             bibentes, nubentes et nuptui tradentes usque ad eum diem, quo intrauit
                             Noe in arcam, et non cognouerunt, donec uenit diluuium et tulit omnes,
                             ita erit et aduentus Filii hominis. </q>O, miseri et sibimet infensi,
@@ -17173,7 +17391,8 @@
                         deffinire potuerunt, cum cętera omnia deffinissent. <q>Et erit — </q>inquit
                         Zacharias — <q>dies una, quę nota est Domino. </q>Addens <q>quę nota est
                             Domino </q>significauit aliis notam non esse. Danieli quoque de hoc
-                        quęrenti responsum est: <q>Vade,<note>*corr. ex <q>Vide</q>
+                        quęrenti responsum est: <q>Vade,<ref target="#d3e9896"/>
+                     <note xml:id="d3e9896" ana="editor" resp="BG">*corr. ex <q>Vide</q>
                      </note> Daniel,
                             quia clausi sunt signatique sermones usque ad pręfinitum tempus.
                         </q>Cęterum, quanuis ignoretur, quando pręfinitum sit, longe tamen esse non
@@ -17204,7 +17423,8 @@
                         quadringentos sexaginta sex annos dictum est: <q>Videte, uigilate et orate!
                             Nescitis enim, quando tempus sit. </q>Et rursum: <q>Nescitis, quando
                             dominus domus ueniat; sero, an media nocte, an galli cantu, an mane, ne,
-                            cum uenerit<note>*corr. ex <q>ueniat</q>
+                            cum uenerit<ref target="#d3e9924"/>
+                     <note xml:id="d3e9924" ana="editor" resp="BG">*corr. ex <q>ueniat</q>
                      </note> repente, inueniat uos
                             dormientes. </q>Et, ne ad illos tantum dictum suspicaremur, adiunxit:
                             <q>Quod uobis dico, omnibus dico: Vigilate! </q>Hoc est omnibus, et qui
@@ -17264,7 +17484,8 @@
                         terrę</q>. Hoc illud signum est, quo fideles ipsi signari iubentur, loquente
                         ad angelum Domino, sicut Ezechiel propheta testatus est: <q>Transi per
                             mediam ciuitatem, in medio Hierusalem, et signa Tau super
-                                frontes<note>*corr. ex <q>frontem</q>
+                                frontes<ref target="#d3e9967"/>
+                     <note xml:id="d3e9967" ana="editor" resp="BG">*corr. ex <q>frontem</q>
                      </note> uirorum gementium et
                             dolentium super cunctis abominationibus, quę fiunt in medio eius.
                         </q>Signum ergo Filii hominis crux sancta est, quam ante aduentum eius in
@@ -17341,13 +17562,15 @@
                         cęlosque concutientem? <q>Ambulabunt </q>ergo — ut Sophonias inquit —
                             <q>ueluti cęci, quia Domino peccauerunt. Et effundetur sanguis eorum
                             sicut humus, et corpora eorum sicut stercora. Sed et argentum eorum
-                        </q>(et aurum eorum)<note>*add.</note>
+                        </q>(et aurum eorum)<ref target="#d3e10019"/>
+                  <note xml:id="d3e10019" ana="editor" resp="BG">*add.</note>
                   <q>non poterit liberare eos in die irę Domini. </q>Quibus ita per Ezechielem
                         minatus est Dominus dicens: <q>Ecce ego super te, Gog, principem capitis
                             Mosoch et Thubal. Et circumagam te et educam te, et ascendere te faciam
                             de lateribus aquilonis, et adducam te super montes Israhel. Et percutiam
                             arcum tuum in manu sinistra tua, et sagittas tuas de manu dextera tua
-                            deiiciam. Super montes Israhel cades </q>(<add>tu</add>)<note>**add.</note>
+                            deiiciam. Super montes Israhel cades </q>(<add>tu</add>)<ref target="#d3e10029"/>
+                  <note xml:id="d3e10029" ana="editor" resp="BG">**add.</note>
                   <q>et omnia agmina tua et populi tui, qui sunt tecum. Feris, auibus, omni
                             uolatili cęli et bestiis terrę dedi te ad deuorandum. </q>Per Gog
                         Antichristus intelligitur, quia Gog <q>tectum </q>interpretatur, quę est
@@ -17360,10 +17583,13 @@
                             et oculi eius contabescent in foraminibus suis, et lingua eorum
                             contabescet in ore suo. </q>De nece uero Antichristi et principum, qui
                         eius factionis erunt, Daniel prophetans ait: <q>Et uidi, quoniam interfecta
-                                esset<note>*corr. ex <q>est</q>
+                                esset<ref target="#d3e10045"/>
+                     <note xml:id="d3e10045" ana="editor" resp="BG">*corr. ex <q>est</q>
                      </note> bestia et periisset corpus
-                            eius et traditum esset ad comburendum </q>(<add>igni</add>)<note>**add.</note>,
-                            <q>aliarum quoque bestiarum ablata esset<note>***corr. ex
+                            eius et traditum esset ad comburendum </q>(<add>igni</add>)<ref target="#d3e10053"/>
+                  <note xml:id="d3e10053" ana="editor" resp="BG">**add.</note>,
+                            <q>aliarum quoque bestiarum ablata esset<ref target="#d3e10058"/>
+                     <note xml:id="d3e10058" ana="editor" resp="BG">***corr. ex
                             <q>est</q>
                      </note> potestas et tempora uitę constituta essent eis usque
                             ad tempus et tempus. </q>Sicque Ecclesia sublatis persecutoribus
@@ -17521,7 +17747,8 @@
                             eo et post eum solitudo deserti; neque est, qui effugiat eum. </q>De hac
                         mundi per ignem uastatione Sophonias quoque propheta uaticinatur et ait:
                             <q>In igne zeli <pb n="3-547"/> eius deuorabitur omnis terra,
-                                quia<note>*corr. ex <q>qui</q>
+                                quia<ref target="#d3e10143"/>
+                     <note xml:id="d3e10143" ana="editor" resp="BG">*corr. ex <q>qui</q>
                      </note> consummationem cum
                             festinatione faciet cunctis habitantibus terram. </q>Hoc idem et Petrus
                         apostolus testatur dicens: <q>Adueniet autem dies Domini ut fur, in quo cęli
@@ -17559,7 +17786,8 @@
                         rem et Hieremias propheta in spiritu admirans inquit: <q>Aspexi terram, et
                             ecce uacua erat et nihil; et cęlos, et non erat lux in eis. Vidi montes,
                             et ecce mouebantur; et omnes colles conturbati sunt. Intuitus sum, et
-                            </q>(<add>ecce</add>)<note>*om.</note>
+                            </q>(<add>ecce</add>)<ref target="#d3e10174"/>
+                  <note xml:id="d3e10174" ana="editor" resp="BG">*om.</note>
                   <q>non erat homo; et omne uolatile cęli recessit. </q>Recte ergo ab Apostolo
                         dicitur: <q>Deus noster ignis consumens est.</q>
                </p>
@@ -17582,7 +17810,8 @@
                             uocem suam, et mouebuntur cęli et terra, </q>hoc est, boni et mali simul
                         resurgent. Longe tamen diuersa erit horum illorumque conditio teste Apostolo
                         sic inter utrosque discernente: <q>Ipse Dominus — </q>inquit — <q>in iussu
-                            </q>(tubę)<note>*om.</note>
+                            </q>(tubę)<ref target="#d3e10209"/>
+                  <note xml:id="d3e10209" ana="editor" resp="BG">*om.</note>
                   <q>et in uoce archangeli et in tuba Dei descendet de cęlo. Et mortui, qui in
                             Christo sunt, resurgent primi. Deinde nos, qui uiuimus, qui relinquimur,
                             simul rapiemur cum illis in nubibus obuiam Christo in aera. Et sic
@@ -17787,7 +18016,8 @@
                             mei, possidete paratum uobis regnum a constitutione mundi! </q>O, uox
                         omni melle dulcior, omni cibo suauior, omni auro et omni lapide precioso
                         desyderabilior, omni terreno regno felicior, uox perpetui gaudii, immensę
-                        lętitię cęlestis <note>*corr. ex <q>fugiet</q>
+                        lętitię cęlestis <ref target="#d3e10354"/>
+                  <note xml:id="d3e10354" ana="editor" resp="BG">*corr. ex <q>fugiet</q>
                   </note>
                   <pb n="3-556"/> iocunditatis, uox omnia superans desyderia, omni uoto maior,
                         omni spe plenior! <q>Venite, benedicti Patris mei, possidete regnum!
@@ -17852,7 +18082,8 @@
                <head>Caput IX / DE SENTENTIA APOSTOLORVM ADVERSVS PECCATORES</head>
                <p>Primus igitur omnium ipse apostolorum princeps Petrus in illos insurgens
                         exclamabit et dicet: <q>Nouit Deus pios de tentatione erripere, iniquos uero
-                            in diem<note>*corr. ex <q>die</q>
+                            in diem<ref target="#d3e10409"/>
+                     <note xml:id="d3e10409" ana="editor" resp="BG">*corr. ex <q>die</q>
                      </note> Iudicii reseruare cruciandos.
                         </q>Deinde ad Simonem magum conuersus, omnes in eo simoniacos execrabitur
                         dicens: <q>Pecunia tua tecum sit in perditionem, quoniam donum Dei
@@ -17873,7 +18104,8 @@
                             qui messuerunt regiones uestras, quę fraudata est a uobis, clamat, et
                             clamor eorum in aures Domini Sabaoth introiuit. Epulati estis super
                             terram, et in luxuriis enutristis corda uestra, in die occisionis.
-                                Addixistis<note>*corr. ex <q>Adduxistis</q>
+                                Addixistis<ref target="#d3e10431"/>
+                     <note xml:id="d3e10431" ana="editor" resp="BG">*corr. ex <q>Adduxistis</q>
                      </note> et occidistis
                             iustum, et non restitit uobis. </q>Ad hęc, ut illum etiam, qui uel unum
                         tantum ex mandatis Dei pręuaricatus fuerit, morte dignum ostendat, inquiet:
@@ -17888,7 +18120,8 @@
                         uixerunt: <q>Quantum — </q>inquiet — <q>glorificauit se et in deliciis fuit,
                             tantum date illi tormentum et luctum! </q>Tum de multis unam proferens
                         sententiam dicet: <q>Timidis autem, et <pb n="3-560"/> incredulis, et
-                            execratis, </q>(<add>et</add>)<note>*add.</note>
+                            execratis, </q>(<add>et</add>)<ref target="#d3e10455"/>
+                  <note xml:id="d3e10455" ana="editor" resp="BG">*add.</note>
                   <q>homicidis, et fornicatoribus, et ueneficis, et idolatris, et omnibus
                             mendacibus pars illorum erit in stagno ardenti igne et sulphure, quod
                             est mors secunda. </q>Mox etiam quasi indignabundus exclamabit: <q>Foris
@@ -17914,7 +18147,8 @@
                             <q>Manifesta sunt autem opera carnis, quę sunt: fornicatio, immunditia,
                             impudicicia, luxuria, idolorum seruitus, ueneficia, inimicicię,
                             contentiones, emulationes, irę, rixę, dissensiones, sectę, inuidię,
-                            homicidia, ebrietates, comessationes et his<note>*corr. ex
+                            homicidia, ebrietates, comessationes et his<ref target="#d3e10484"/>
+                     <note xml:id="d3e10484" ana="editor" resp="BG">*corr. ex
                             <q>iis</q>
                      </note> similia. Quę prędico uobis, sicut predixi, quoniam,
                             qui talia agunt, regnum Dei non consequentur. </q>Idem de illis, qui
@@ -17968,8 +18202,10 @@
                             exquisierunt. </q>Et rursum: <q>Caput circuitus eorum, labor labiorum
                             ipsorum operiet eos. Cadent super eos carbones; in ignem deiicient eos;
                             in miseriis non subsistent. </q>Postremo dicet: <q>Conuertantur
-                            peccatores <note>*add.</note>
-                     <note>*corr. ex <q>decipiant</q>
+                            peccatores <ref target="#d3e10543"/>
+                     <note xml:id="d3e10543" ana="editor" resp="BG">*add.</note>
+                     <ref target="#d3e10546"/>
+                     <note xml:id="d3e10546" ana="editor" resp="BG">*corr. ex <q>decipiant</q>
                      </note>
                      <pb n="3-563"/> in infernum, omnes gentes, quę obliuiscuntur Deum.
                         </q>Iob quoque, uir iustus et timens Deum, impios et malos damnabit et
@@ -18013,11 +18249,13 @@
                             abominabiles, quę offeruntur ex scelere. </q>Superborum etiam
                         arrogantiam contundens dicet: <q>Per tria mouetur terra et quartum, quod non
                             potest sustinere: per seruum, cum regnauerit; per stultum, cum saturatus
-                            fuerit cibo; (<add>et</add>)<note>***om.</note>
+                            fuerit cibo; (<add>et</add>)<ref target="#d3e10604"/>
+                     <note xml:id="d3e10604" ana="editor" resp="BG">***om.</note>
                         per odiosam mulierem, cum in matrimonium fuerit assumpta, et per
                             ancillam, cum fuerit hęres dominę suę . </q>Post hęc impiis maledicet:
                             <q>Non sit bonum impio nec prolongentur dies eius, sed quasi
-                            (<add>in</add>)<note>****om.</note>
+                            (<add>in</add>)<ref target="#d3e10612"/>
+                     <note xml:id="d3e10612" ana="editor" resp="BG">****om.</note>
                         umbra transeant, qui non timent faciem Domini. </q>
                </p>
                <p> Post Salomonem consurget Esaias propheta, et eorum primum spem irritam
@@ -18034,9 +18272,11 @@
                         mulieres, quę plus operę ponunt in corporis decore quam in pudicicię cultu,
                         uociferabitur et dicet: <q>Pro eo, quod eleuatę sunt filię Syon, et
                             ambulauerunt extento collo, et nictibus oculorum ibant, et plaudebant,
-                            et ambulabant <note>*corr. ex <q>suffodiant</q>
+                            et ambulabant <ref target="#d3e10627"/>
+                     <note xml:id="d3e10627" ana="editor" resp="BG">*corr. ex <q>suffodiant</q>
                      </note>
-                     <note>**corr. ex <q>in</q>
+                     <ref target="#d3e10632"/>
+                     <note xml:id="d3e10632" ana="editor" resp="BG">**corr. ex <q>in</q>
                      </note>
                      <pb n="3-565"/> pedibus suis, et composito gradu incedebant, decaluabit
                             Dominus uerticem filiarum Syon, et Dominus crinem earum nudabit. In die
@@ -18057,7 +18297,7 @@
                             mei, ut essent uiduę preda eorum et pupillos diriperent! Quid facietis
                             in die uisitationis et calamitatis de longe uenientis? Ad cuius
                             confugietis auxilium? Et ubi relinquetis gloriam uestram, ne incuruemini
-                            sub uinculo et cum interfectis cadatis ? De </q>superbis dicet:
+                            sub uinculo et cum interfectis cadatis? De </q>superbis dicet:
                             <q>Dominus exercituum cogitauit hoc, ut detraheret superbiam omnis
                             glorię et ad ignominiam deduceret uniuersos inclytos terrę. </q>Notabit
                         etiam illos, qui aliena ui occupant et contemptui proximos habent. Vę —
@@ -18068,9 +18308,10 @@
                         dicet: <q>Augures cęli, qui contemplabuntur sydera et supputabunt menses, ut
                             ex eis annunciarent futura, ecce facti sunt quasi stipula, ignis
                             combussit eos. Non liberabunt animam suam de manu flammę .</q>
-               </p>
-               <note>*corr. ex <q>perichelides</q>
-               </note>
+               
+               <ref target="#d3e10653"/>
+               <note xml:id="d3e10653" ana="editor" resp="BG">*corr. ex <q>perichelides</q>
+               </note></p>
                <pb n="3-566"/>
                <p>Post hunc sequetur Hieremias, et pro contione exurgens declamabit contra
                         obstinatos dicens: <q>Confregerunt iugum, ruperunt uincula; </q>quia
@@ -18105,7 +18346,8 @@
                             uenam aquarum uiuentium, Dominum. </q>Illos etiam in damnationem mittet,
                         qui per dolum alienis damnis ditari <pb n="3-567"/> student: <q>Vę, qui
                             ędificat domum suam in iniustitia, et coenacula sua non in iudicio;
-                            amicum suum opprimet frustra, et mercedem </q>(<add>eius</add>)<note>*add.</note>
+                            amicum suum opprimet frustra, et mercedem </q>(<add>eius</add>)<ref target="#d3e10690"/>
+                  <note xml:id="d3e10690" ana="editor" resp="BG">*add.</note>
                   <q>non reddet ei, qui dicit: Aedificabo mihi domum latam et coenacula
                             spaciosa; qui aperit sibi fenestras et facit laquearia cedrina pingitque
                             synopside. </q>De prępositis autem Ecclesię, qui minus gnauiter suo
@@ -18126,11 +18368,13 @@
                             terram? Qui in auibus cęli ludunt, qui argentum thesaurizant et aurum,
                             in quo confidunt homines, et non est finis acquisitionis eorum; qui
                             argentum fabricant, et soliciti sunt, nec est inuentio
-                                operum<note>**corr. ex <q>opum</q>
+                                operum<ref target="#d3e10709"/>
+                     <note xml:id="d3e10709" ana="editor" resp="BG">**corr. ex <q>opum</q>
                      </note> illorum ? Exterminati
                             sunt, et ad inferos descenderunt, et alii loco eorum successerunt.
                         </q>In eosdem et Ezechiel propheta succlamabit dicens: <q>Argentum eorum
-                                foras<note>***corr. ex <q>foris</q>
+                                foras<ref target="#d3e10717"/>
+                     <note xml:id="d3e10717" ana="editor" resp="BG">***corr. ex <q>foris</q>
                      </note> proiicietur, et aurum eo
                             rum in sterquilinium erit; argentum eorum et aurum eorum non ualebit
                             liberare eos in die furoris Domini. </q>Idem aduersus diuinos et ariolos
@@ -18142,12 +18386,14 @@
                             Israhel non scribentur, nec in terram Israhel ingredientur. Et scietis,
                             quia ego Dominus Deus. </q>Tum quoque ad pontifices episcoposque
                         conuersus, qui relicta Ecclesię gubernandę cura in uoluptatibus et deliciis
-                        contabuerunt, dicet: <q>Hęc dicit Dominus </q>(<add>Deus</add>)<note>*add.</note>:
+                        contabuerunt, dicet: <q>Hęc dicit Dominus </q>(<add>Deus</add>)<ref target="#d3e10733"/>
+                  <note xml:id="d3e10733" ana="editor" resp="BG">*add.</note>:
                             <q>Vę pastoribus Israhel, qui pascebant <corr>semetipsos</corr>! Nonne greges a
                             pastoribus pascuntur? Lac comedebatis, et lanis operiebamini, et quod
                             crassum erat, occidebatis; gregem autem meum non pascebatis. Quod
                             infirmum fuit, non consolidastis, et quod ęgrotum, non sanastis, quod
-                            confractum, non alligastis, et (<add>quod</add>)<note>**add.</note>
+                            confractum, non alligastis, et (<add>quod</add>)<ref target="#d3e10742"/>
+                     <note xml:id="d3e10742" ana="editor" resp="BG">**add.</note>
                         abiectum, non reduxistis, et quod perierat, non quęsistis, sed cum
                             austeritate imperabatis eis et cum potentia.</q>
                </p>
@@ -18166,7 +18412,8 @@
                             tabernaculis eorum. Cum uenerunt dies uisitationis, uenerunt dies
                             retributionis. </q>Hunc sequetur Iohel propheta, et helluones
                         meribibulosque arguens inquiet: <q>Expergiscimini, ebrii! Flete et ululate
-                            omnes, qui bibitis uinum in dulcedine, quoniam periit<note>***corr. ex
+                            omnes, qui bibitis uinum in dulcedine, quoniam periit<ref target="#d3e10764"/>
+                     <note xml:id="d3e10764" ana="editor" resp="BG">***corr. ex
                                     <q>perit</q>
                      </note> ab ore uestro. </q>Et de <pb n="3-569"/>
                         iis, qui in carnis lasciuia longo usu obsorduerant, dicet: <q>Computruerunt
@@ -18198,7 +18445,8 @@
                             ambulabitis superbi, quoniam tempus pessimum est. </q>Tunc etiam Abacuch
                         propheta in raptores, in auaros, in sanguinolentos fraudulentosque
                         exclamabit dicens: <q>Vę ei, qui multiplicat non sua! Vsquequo et aggrauat
-                            contra se densum lutum? Nunquid <note>*corr. ex <q>auferatis</q>
+                            contra se densum lutum? Nunquid <ref target="#d3e10785"/>
+                     <note xml:id="d3e10785" ana="editor" resp="BG">*corr. ex <q>auferatis</q>
                      </note>
                      <pb n="3-570"/> non repente consurgent, qui mordeant te, et
                             suscitabuntur lacerantes te, et eris in rapinam eis? Vę, qui congregat
@@ -18241,7 +18489,8 @@
                         qualis planctus, quantus et quam flebilis ululatus inter illos audietur,
                         quam miserabile spectaculum illud erit, cum et pectora pugnis et ora
                         unguibus foedantes incedent! Laniabunt capillos, percutient foemora,
-                        complodent palmas, compriment digitos, totis artubus,<note>*corr. ex
+                        complodent palmas, compriment digitos, totis artubus,<ref target="#d3e10820"/>
+                  <note xml:id="d3e10820" ana="editor" resp="BG">*corr. ex
                                 <q>artibus</q>
                   </note> toto corpore contremiscent. Alii in terram
                         proni corruent, alii horrore attoniti rigebunt, alii limphatico pauore acti,
@@ -18268,7 +18517,8 @@
                         scriptum est: <q>Reuelabunt cęli iniquitatem eius, et terra consurget
                             aduersus eum. </q>Et ad eundem per Naum prophetam dicitur: <q>Ecce ego
                             ad te, dicit Dominus, Deus exercituum ! Et reuelabo pudenda tua in facie
-                            tua, et ostendam (<add>in</add>)<note>*om.</note>
+                            tua, et ostendam (<add>in</add>)<ref target="#d3e10840"/>
+                     <note xml:id="d3e10840" ana="editor" resp="BG">*om.</note>
                         gentibus nuditatem tuam et regnis ignominiam tuam. </q>Quot ergo furta,
                         quot adulteria, quot ueneficia, homicidia, simulationes, perfidię,
                         proditiones, insidię, fraudes, quot pessimę cogitationes cęteraque mala, quę
@@ -18322,7 +18572,8 @@
                         Valentine, ecce ille, quem non ex Virgine genitum, sed alter in phantasmate
                         apparuisse, alter e <sic>celo</sic>
                   <!-- Kraljevic2010-02-12T00:00:00 Ovdje je o s "repićem“, taj znak nemam pa sam naznačila ovako -->
-                  <note/> corpus attulisse dixistis. Nunc eandem ipsam Virginem supra omnes
+                  <ref target="#d3e10865"/>
+                  <note xml:id="d3e10865"/> corpus attulisse dixistis. Nunc eandem ipsam Virginem supra omnes
                         lutidam ac sublimem iuxta se ostentat et ueram matrem prę cęteris honorando
                         confitetur, ut uos tantę prauitatis arguat et in tenebras exteriores mittat.
                         Vos quoque, Manichee, Martion, Basilides, qui prophetas et Legem non
@@ -18398,7 +18649,8 @@
                         </q>Inde iam gloria in excelsis Deo concinetur, neque in terra ut olim, sed
                         in cęlo pax hominibus bonę uoluntatis erit. Inde uoces illę magnę, quas
                         Ioannes in Apocalypsi audiuit, personabunt dicentes: <q>Factum est regnum
-                            huius mundi, Domini nostri et Christi eius, et regnabit<note>*corr. ex
+                            huius mundi, Domini nostri et Christi eius, et regnabit<ref target="#d3e10923"/>
+                     <note xml:id="d3e10923" ana="editor" resp="BG">*corr. ex
                                     <q>regnabunt</q>
                      </note> in secula seculorum. Amen. </q>Et iterum
                         ait: <q>Et audiui quasi uocem turbę magnę, et sicut uocem aquarum multarum,
@@ -18506,7 +18758,8 @@
                         laboris quies est, sed quia sedes domiciliumque non mutatur. Semper enim in
                         tenebris, et in igne, et in foetore, et in tumultu, et in luctu, et in
                         omnibus miseriis poenisque permanebunt. Vnde concludens propheta dicit:
-                            <q>Vsque in ęternum possidebunt eam; in generationem<note>*corr. ex
+                            <q>Vsque in ęternum possidebunt eam; in generationem<ref target="#d3e10995"/>
+                     <note xml:id="d3e10995" ana="editor" resp="BG">*corr. ex
                                     <q>generatione</q>
                      </note> et generationem habitabunt in ea.</q>
                </p>
@@ -18590,10 +18843,12 @@
                         procul ab eo auersa gerunt. Quibus dicturus est: <q>Nescio uos. Discedite a
                             me omnes, qui operati estis iniquitatem. </q>Attendendum autem, quales
                         locustę istę, quam terribiles. <q>Et similitudines locustarum — </q>inquit —
-                            <q>similes equis paratis in pręlium; super capita earum<note>*corr.
+                            <q>similes equis paratis in pręlium; super capita earum<ref target="#d3e11050"/>
+                     <note xml:id="d3e11050" ana="editor" resp="BG">*corr.
                                     ex<q> eorum</q>
                      </note> tanquam coronę similes auro, et facies
-                                earum<note>**corr. ex<q> eorum</q>
+                                earum<ref target="#d3e11055"/>
+                     <note xml:id="d3e11055" ana="editor" resp="BG">**corr. ex<q> eorum</q>
                      </note> sicut facies hominum. Et
                             habebant capillos sicut capillos mulierum, et dentes earum sicut dentes
                             leonum erant; et habebant loricas sicut loricas ferreas, et uox alarum
@@ -19247,11 +19502,13 @@
                             sitient amplius, neque cadet super illos sol, neque ullus ęstus: quoniam
                             Agnus, qui in medio throni est, reget illos et ducet eos ad uitę fontes
                             aquarum. Et absterget Deus omnem lachrymam ab oculis eorum. Et mors
-                            ultra non erit, neque luctus, neque clamor, neque dolor erit <pb n="3-606"/> ultra, quia<note>*corr. ex<q> quę</q>
+                            ultra non erit, neque luctus, neque clamor, neque dolor erit <pb n="3-606"/> ultra, quia<ref target="#d3e11309"/>
+                     <note xml:id="d3e11309" ana="editor" resp="BG">*corr. ex<q> quę</q>
                      </note> prima
                             abierunt. Et dixit, qui sedebat in throno: Ecce noua facio omnia.
                         </q>Et, uti sciamus gratię munera ista esse, non naturę, ait: <q>Ego
-                            sitienti dabo de fonte aquę uitę<note>**corr. ex<q> uiuę</q>
+                            sitienti dabo de fonte aquę uitę<ref target="#d3e11317"/>
+                     <note xml:id="d3e11317" ana="editor" resp="BG">**corr. ex<q> uiuę</q>
                      </note>
                             gratis. </q>Idem in Esaia legimus ac pene iisdem uerbis scriptum: <q>Non
                             esurient neque sitient, et non percutiet eos ęstus et sol, quia
@@ -19288,7 +19545,8 @@
                         si in ista etiam terra quędam et uisu iocunda et usu grata esse non negamus,
                         quanto in illa, quę supra est, omnia tum iocundiora, tum gratiora existere
                         dixerimus? Laudantur multis in partibus florentes campi, foecundi colles,
-                            amoenę<note>*corr. ex<q> amoeni</q>
+                            amoenę<ref target="#d3e11347"/>
+                  <note xml:id="d3e11347" ana="editor" resp="BG">*corr. ex<q> amoeni</q>
                   </note> ualles, montes argenti, auri
                         gemmarumque feraces, piscosa maria, molliter labentia flumina, perspicui
                         fontes, dulces aquarum scatebrę, diffusi lacus, non insalubria stagna,
@@ -19334,7 +19592,8 @@
                             domus Dei et ingens locus possessionis eius! Magnus est et non habet
                             finem, excelsus et immensus. </q>Vel illud cum psalmista: <q>Gloriosa
                             dicta sunt de te, ciuitas Dei. </q>Et: <q>Domum tuam, Domine, decet
-                            sanctitudo in longitudinem<note>*corr. ex<q> longitudine</q>
+                            sanctitudo in longitudinem<ref target="#d3e11361"/>
+                     <note xml:id="d3e11361" ana="editor" resp="BG">*corr. ex<q> longitudine</q>
                      </note>
                             dierum. </q>Ad hęc etiam nemo ignorat inferiora ista per illa superiora
                         regi et gubernari. Inde nobis dies, inde nox. Inde numeramus annos, inde
@@ -19569,7 +19828,8 @@
                <p>Helias curru igneo per turbinem in cęlum raptus uideri potuit beatus, quoniam
                         non est morte solutus, ne sicuti <pb n="3-617"/>cęteri omnes ante Saluatorem
                         ad inferna descenderet. Sed quanto illi beatiores erunt, qui resumpto
-                        corpore obuiam Christo in aera rapiendi sunt, nec<note>*corr. ex<q>
+                        corpore obuiam Christo in aera rapiendi sunt, nec<ref target="#d3e11503"/>
+                  <note xml:id="d3e11503" ana="editor" resp="BG">*corr. ex<q>
                         ne</q>
                   </note> ut ille per turbinem, sed per resurrectionis gloriam, nec ut
                         ille in cęlum, sed supra cęlum, nec ideo beati futuri, quia ad inferna non
@@ -20014,7 +20274,8 @@
                         cum decessisset, abbati in quiete apparuit cum quadam nuptiali pompa,
                         sanctarum exultantium agmine eam circumuallante, ipsa in medio gemmis
                         auroque coruscans. Tunc se illam esse confessa est, quę Theodorus monachus
-                        diceretur, mas credita. Mox deinde experrectus et<note>*corr. ex<q>
+                        diceretur, mas credita. Mox deinde experrectus et<ref target="#d3e11695"/>
+                  <note xml:id="d3e11695" ana="editor" resp="BG">*corr. ex<q>
                         ut</q>
                   </note> sibimet redditus, abbas continuo cęllam eius adiit et
                         defunctam esse reperit et foeminam fuisse cognouit. Denique constantiam
@@ -20151,5 +20412,69 @@
          <closer>FINIS</closer>
          <pb n="3-637"/>
       </body>
+       <back ana="ed1506">
+            <div met="elegiacum" type="poesis-carmen-elegia">
+                <head><abbr>M.</abbr> Maruli Carmen de doctrina Domini nostri Iesu Christi pendentis
+                    in cruce. Christianus interrogat, Christus respondet.</head>
+                <p><ptr target="marulus-m-carmina008"/></p>
+            </div>
+           <div type="poesis-epigramma" met="elegiacum">
+               <head><abbr>Lamp.</abbr> Francisco Lucensi.</head>
+               <l>Qui te Lucensem dixit Francisce: locutus</l>
+               <l>Crede mihi, non est hic sine mente deum:</l>
+               <l>Namque hec que tetre subiere pericula noctis</l>
+               <l>Euolitant formis lucida scripta tuis.</l>
+           </div>
+            <div type="prosa-epistula">
+                <opener>Jacobus Grasolarius ad Lectorem.</opener>
+
+                <p>Vides lector studiosisime quanto cum labore que sparsim sanctorum exempla scripta
+                    sunt paruo collegerit volumine noster Marulus quanta cum gratia illa digesserit:
+                    ut per ea religiose viuendi normam diuini eloquij autoritate interposita
+                    confirmaret. Processere huiusmodi instituta a recte instituto animo: vt qui
+                    prius se perfectum exhibuerit, quam perfectionis institutiones descripserit. Qui
+                    virum agnoscunt, haud aliter esse testantur. Proinde si tibi que legis vsui et
+                    emolumento futura esse desyderas: illum imitare qui ita viuit vt docet, Christi
+                    redemptoris nostri sectator facere incipientis et docere. Pro tali tantaque
+                    lucubratione quantum debeas agnosce: neque vero alias te sibi gratias persolui
+                    optat, nisi vt quoad eius potes integrum te ab omni peccatorum labe immaculatum
+                    serues.</p>
+
+                <p>Operis imprimendi curam suscepit Venerandus Sacerdos Franciscus lucensis: qui vt
+                    est in rebus agendis accuratissimus, vt in lucem castigatissimus prodiret liber,
+                    non laboribus, non vigilijs, non etiam impense pepercit: cum archetypo ipsius
+                    Maruli impressum contulit volumen: et que in eo errata reperit diligenter
+                    annotauit, citatis quaternionibus et linearum numero vt facilius ea corrigi
+                    possint. Tuum erit meminisse hominis cuius beneficio lectione suauissima simul
+                    et sanctissima oblectaberis. </p>
+                <closer>Vale.</closer>
+
+            </div>
+            <div type="prosa-epistula">
+                <opener>Franciscus Lucensis de consortibus ad lectorem.</opener>
+                <p>Laboraui non parum Lector candide, vt hosce Maruli libros meis typis procuderem
+                    quam emendatissimos. Sed quis ille Argus impressor, quem obiter labecule quepiam
+                    non subterfugiant? Id quum et mihi nuper euenisse relegens perspicerem,
+                    quamprimum enotandis omnibus, que ab Archetypo deerrauerant, sedulam accommodaui
+                    operam: atque (Quecunque illa) codici appendimus: vt, quo saltem potuimus modo,
+                    nihil in hoc opere desiderares. </p>
+                <closer>Vale.</closer>
+
+            </div>
+           <div type="prosa-impressum">
+               <p>Quaterniones duo et quatraginta.</p>
+               
+               <p>a.b.c.d. <abbr>etc.</abbr></p>
+               
+               <p>Impressit Venetijs presbiter Franciscus Lucensis de consortibus Cantor ecclesie <abbr>.S.</abbr> Marci. Et Bernardinus de Vitalibus Venetus. Regnante Serenissimo Principe
+               et <abbr>.D. D.</abbr> Leonardo Lauredano Dei gratia Inclyto Duce Venetiarum Anno Domini. <num value="1506">M. D. vi.</num> Die <num value="10">.X.</num> mensis februarij.</p>
+               
+               
+               
+           </div>
+           <div type="prosa-licentia">
+               <p>Quisquis sub Diui Marci Imperio libros imprimis: Caue ne hoc Maruli opus decem abhinc annos tuis excudatur formis Illustrissimus <abbr>Senat.</abbr> <abbr>Ven.</abbr> Jubet.</p>
+           </div>
+       </back>
    </text>
 </TEI>

@@ -9,12 +9,12 @@
             </author>
             <editor>
                <persName>
-                  <ref>Veljko Gortan</ref>
+                  <ref target="http://www.wikidata.org/entity/Q16109689">Veljko Gortan</ref>
                </persName>
             </editor>
             <respStmt>
                <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
+               <persName xml:id="NJ">
                   <ref type="viaf" target="6913774">Neven Jovanović</ref>
                </persName>
             </respStmt>
@@ -31,6 +31,10 @@
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
                     Hrvatska.  <date>lipnja 2009</date>
             </p>
+            <p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on March 3, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
@@ -110,7 +114,7 @@
             </docImprint>
          </titlePage>
          <milestone unit="page"/>
-         <!-- još povelja Aleksandra Slavenima... -->
+         
          <div type="poesis-carmen" met="elegiacum">
             <head> Encomium Thomae Nigro alias episcopi Scardonensis et Traguriensis in Vigilias
                     magistri Vincentii Priboeuii Pharensis ordinis praedicatorum. </head>
@@ -151,7 +155,7 @@
                         optimo salutem plurimam dicit.</salute>
             </opener>
             <p>Viri plerique laudis praeconio digni, Petre uir amplissime, agere studuerunt, ut monumentum de se aliquod scriptum relinquerent, quo se uixisse testarentur, ne cuncta de eis cum uita mors ineuitabilis <sic>absummeret</sic>. Sed non hac ego uana spe motus breue hoc opusculum elucubraui, sed potius clarissimorum nostri generis uirorum uita functorum sortem miseratus nactus ocium, ut in lucem restituantur, contendi. Non enim nobis solis nati sumus, sed potius patriae, amicis et communi utilitati. Quapropter, tametsi optata forsan assequutus non fuero, meus tamen labor me delectat, quia non paruam prisca nostri generis opera studiosis repetendi procul dubio materiam praebeo ac proinde, ut et ipsi aliquid laude dignum audeant, occasionem exhibeo. Historia enim ad uitae institutionem <sic>utilima</sic> censenda est tum iunioribus, quos lectio diuersarum rerum antiquioribus aequat prudentia, tum uero aetate maturis, quibus diuturna uita rerum experimenta subministrauit uisa et audita ad memoriam reuocando,  quia historia (quemadmodum Diodorus Siculus dicit) <note>
-                  <bibl>Diodo<expan>rus</expan> Sicu<expan>lus</expan> in Prohemio <ref>(1)</ref>
+                  <bibl><expan>Diodorus</expan> <expan>Siculus</expan> in Prohemio <ref>(1)</ref>
                   </bibl>
                </note> priuatos uiros imperio
                 <milestone unit="page" n="55"/>
@@ -160,6 +164,11 @@
             <closer>
                <salute>Bene uale et me (ut soles) ama.</salute>
             </closer>
+         </div>
+         <div type="prosa-additio">
+            <p>
+               <ptr target="gorgiata-privilegium-1532.xml"/>
+            </p>
          </div>
       </front>
       <body>
@@ -178,13 +187,13 @@ populorumque, Troianis pro locorum diuersitate nouas appellationes sortitis
 <note place="margin">Troiani post dispersionem uario nomine appellati.</note> 
 (ut Plinius inquit), 
 <note place="margin">
-                  <bibl>Pli<expan>nius</expan> li<expan>bro</expan> VI. c<expan>apite</expan> II <ref>(2)</ref>
+                  <bibl><expan>Plinius</expan> <expan>libro</expan> VI. <expan>capite</expan> II <ref>(2)</ref>
                   </bibl>
                </note> 
 origo fuit, ut hi quidem (sicut Sabellico placet) 
 <note place="margin">
-                  <bibl>Sabel<expan>licus</expan>
-                     <sic>Aenea<expan>dis</expan>
+                  <bibl><expan>Sabellicus</expan>
+                     <sic><expan>Aeneadis</expan>
                      </sic>
                      <ref>(3)</ref> prime libro VII.</bibl>
                </note> 
@@ -197,7 +206,7 @@ Troiana stirpe ortos auctor est Cato. Sic et Tyrii pudicissimam Didonem
 <note place="margin">Dido pudicissima.</note>
                <sic>sequuti</sic> (ut idem Sabellicus inquit) 
 <note place="margin">
-                  <bibl>Sab<expan>ellicus</expan> Aenea<expan>dis</expan> prime li<expan>bro</expan> IX.</bibl>
+                  <bibl><expan>Sabellicus</expan> <expan>Aeneadis</expan> <sic resp="#NJ">prime</sic> <expan>libro</expan> IX.</bibl>
                </note>
                <sic>Carthaginenses</sic>
                <note place="margin">Carthaginenses</note>
@@ -228,31 +237,31 @@ repetenti a Noetico illo memorabili diluuio, uiri integerrimi, exordiendum mihi 
                   </note> 
 legitur, Iaphet, nouissimus filiorum Noe, inter caeteros, quos post diluuium genuit, nactus est Thyran, qui (ut Iosephus, 
 <note place="margin">
-                     <bibl>Ioseph<expan>us</expan> anti<expan>quitatum</expan>
-                        <ref>(8)</ref> Iud<expan>aicarum</expan> lib<expan>ro</expan> primo <abbr>cap</abbr>
-                        <expan>ite</expan> XI.</bibl>
+                     <bibl><expan>Iosephus</expan> <expan>antiquitatum</expan>
+                        <ref>(8)</ref> <expan>Iudaicarum</expan> <expan>libro</expan> primo 
+                        <expan>capite</expan> XI.</bibl>
                   </note> 
 Iudaicae antiquitatis relator, inquit) Thyrios uocauit suos, quorum princeps 
 <note place="margin">Thyras pater Thracum</note> 
 fuit, a quibus Graeci Thracium nomen commutauerunt. A Thyro enim (ut diuus docet Hieronymus) 
 <note place="margin">
-                     <bibl>Hie<expan>ronymus</expan> in glosa <ref>(9)</ref> super Genesim.</bibl>
+                     <bibl><expan>Hieronymus</expan> in glosa <ref>(9)</ref> super Genesim.</bibl>
                   </note> 
 nati sunt Thraces, qui (ut Strabo inquit) 
 <note place="margin">
-                     <bibl>Strab<expan>o</expan> li<expan>bro</expan> VII.<ref>(10)</ref>
+                     <bibl><expan>Strabo</expan> <expan>libro</expan> VII.<ref>(10)</ref>
                      </bibl>
                   </note>
 lingua <sic>Myssorum</sic> utuntur. Quapropter Romanis Myssios (si Appiano Alexandrino credimus) 
 <note place="margin">
-                     <bibl>Appi<expan>anus</expan> de bello<ref>(11)</ref> Illyrico.</bibl>
+                     <bibl><expan>Appianus</expan> de bello<ref>(11)</ref> Illyrico.</bibl>
                   </note> 
 putantibus esse Illyrios Thracius Illyricusque
 <milestone unit="page" n="59"/>
                   <!-- dovde expan -->
 sermo conueniunt. Gethae etiam, qui (ut Isidorus et Ioannes Balbus et diuus Antoninus opinantur) 
 <note place="margin">
-                     <bibl>Isi<expan>dorus</expan> ethi<expan>corum</expan> li<expan>bro</expan> IX<ref>(12)</ref>. catholi. in dictione Getha.</bibl>
+                     <bibl><expan>Isidorus</expan> <expan>ethicorum</expan> <expan>libro</expan> IX<ref>(12)</ref>. catholi. in dictione Getha.</bibl>
                      <bibl>Anto. II. par. cro. tit. XI. capi. VII.<ref>(13)</ref>
                      </bibl>
                   </note> 
