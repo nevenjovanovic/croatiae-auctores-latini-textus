@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:id="consorti-grasolarius-lamp-inst-paratxt-1507">
+            <titleStmt>
+                <title>Paratextus in Maruli Institutionem (1507), versio electronica</title>
+                
+                <author ref="http://www.wikidata.org/entity/Q41556868" ana="paratext">
+                    <persName xml:lang="it">Consorti, Francesco</persName>
+                </author>
+                <author ref="http://www.wikidata.org/entity/Q120599193" ana="paratext">
+                    <persName xml:lang="it">Grasolari, Jacopo</persName>
+                </author>
+                <author ref="lamp" ana="paratext">
+                    <persName xml:lang="la"><abbr>Lamp.</abbr></persName>
+                </author>
+                <editor ref="http://www.wikidata.org/entity/Q114878204">
+                    <persName xml:id="NJ">
+                        <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+                    </persName>
+            </editor>
+                <respStmt>
+                    <resp>Hanc editionem electronicam curavit</resp>
+                    <persName xml:id="initials">
+                        <ref type="wikidata" target="http://www.wikidata.org/entity/Qxmleditorid"
+                            ><!-- First name Last name --></ref>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Elektronska verzija: Digitalizacija hrvatskih latinista, znanstveni
+                    projekt na <orgName>
+                        <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+                    </orgName>, <placeName ref="3186886">Zagreb</placeName>
+                    Hrvatska.  <date when="2024-03">Ožujka 2024</date>.</p>
+                <p ana="licence">
+                    <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+                    Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+                    was added on March 3, 2024. </p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Marulić, Marko. 1506 (= 1507). Marcus Marulus Spalatensis De institutione beneuiuendi per exempla sanctorum (Venetiis: presbiter Franciscus Lucensis de Consortibus cantor ecclesie S. Marci et Bernardinus de Vitalibus Venetus) <ptr target="https://books.google.hr/books?id=Oxl-qwA_Dz0C"/>
+                </bibl>
+         </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl xml:lang="hrv" resp="#NJ">
+                <p>
+                    Prema izvorniku iz 1507, minimalno modernizirano. 
+                    Kratice većinom razriješene.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="lat" xml:lang="hrv">latinski</language>
+            </langUsage>
+            <creation>
+                <date notAfter="1507" period="15xx_1_third">1507</date>
+            </creation>
+            <textClass>
+                <keywords scheme="typus">
+                    <term>prosa</term>
+                    <term>poesis</term>
+                    <term>paratextus</term>
+                </keywords>
+                <keywords scheme="aetas">
+                    <term>Litterae renatae (1400-1600)</term>
+                    <term>Saeculum 16 (1501-1600)</term>
+                    <term>1501-1550</term>
+                </keywords>
+                <keywords scheme="genre">
+                    <term>prosa oratio - epistula</term>
+                    <term>poesis - epigramma</term>
+                    <term>paratextus</term>
+                </keywords>
+            </textClass>
+      </profileDesc>
+        <revisionDesc>
+            <change>
+                <persName ref="#NJ">
+                    <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven
+                        Jovanović</ref>
+                </persName>
+                <date when="2024-03-07">2024-03-07</date>. 
+                Prvo izdanje kao CroALa TEI.
+            </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="poesis-epigramma" met="elegiacum">
+                <head><abbr>Lamp.</abbr> Francisco Lucensi.</head>
+                <l>Qui te Lucensem dixit Francisce: locutus</l>
+                <l>Crede mihi, non est hic sine mente deum:</l>
+                <l>Namque hec que tetre subiere pericula noctis</l>
+                <l>Euolitant formis lucida scripta tuis.</l>
+            </div>
+            <div type="prosa-epistula">
+                <opener>Jacobus Grasolarius ad Lectorem.</opener>
+                
+                <p>Vides lector studiosisime quanto cum labore que sparsim sanctorum exempla scripta
+                    sunt paruo collegerit volumine noster Marulus quanta cum gratia illa digesserit:
+                    ut per ea religiose viuendi normam diuini eloquij autoritate interposita
+                    confirmaret. Processere huiusmodi instituta a recte instituto animo: vt qui
+                    prius se perfectum exhibuerit, quam perfectionis institutiones descripserit. Qui
+                    virum agnoscunt, haud aliter esse testantur. Proinde si tibi que legis vsui et
+                    emolumento futura esse desyderas: illum imitare qui ita viuit vt docet, Christi
+                    redemptoris nostri sectator facere incipientis et docere. Pro tali tantaque
+                    lucubratione quantum debeas agnosce: neque vero alias te sibi gratias persolui
+                    optat, nisi vt quoad eius potes integrum te ab omni peccatorum labe immaculatum
+                    serues.</p>
+                
+                <p>Operis imprimendi curam suscepit Venerandus Sacerdos Franciscus lucensis: qui vt
+                    est in rebus agendis accuratissimus, vt in lucem castigatissimus prodiret liber,
+                    non laboribus, non vigilijs, non etiam impense pepercit: cum archetypo ipsius
+                    Maruli impressum contulit volumen: et que in eo errata reperit diligenter
+                    annotauit, citatis quaternionibus et linearum numero vt facilius ea corrigi
+                    possint. Tuum erit meminisse hominis cuius beneficio lectione suauissima simul
+                    et sanctissima oblectaberis. </p>
+                <closer>Vale.</closer>
+                
+            </div>
+            <div type="prosa-epistula">
+                <opener>Franciscus Lucensis de consortibus ad lectorem.</opener>
+                <p>Laboraui non parum Lector candide, vt hosce Maruli libros meis typis procuderem
+                    quam emendatissimos. Sed quis ille Argus impressor, quem obiter labecule quepiam
+                    non subterfugiant? Id quum et mihi nuper euenisse relegens perspicerem,
+                    quamprimum enotandis omnibus, que ab Archetypo deerrauerant, sedulam accommodaui
+                    operam: atque (Quecunque illa) codici appendimus: vt, quo saltem potuimus modo,
+                    nihil in hoc opere desiderares. </p>
+                <closer>Vale.</closer>
+                
+            </div>
+            <div type="prosa-impressum">
+                <p>Quaterniones duo et quatraginta.</p>
+                
+                <p>a.b.c.d. <abbr>etc.</abbr></p>
+                
+                <p>Impressit Venetijs presbiter Franciscus Lucensis de consortibus Cantor ecclesie <abbr>.S.</abbr> Marci. Et Bernardinus de Vitalibus Venetus. Regnante Serenissimo Principe
+                    et <abbr>.D. D.</abbr> Leonardo Lauredano Dei gratia Inclyto Duce Venetiarum Anno Domini. <num value="1506">M. D. vi.</num> Die <num value="10">.X.</num> mensis februarij.</p>
+                
+                
+                
+            </div>
+            <div type="prosa-licentia">
+                <p>Quisquis sub Diui Marci Imperio libros imprimis: Caue ne hoc Maruli opus decem abhinc annos tuis excudatur formis Illustrissimus <abbr>Senat.</abbr> <abbr>Ven.</abbr> Jubet.</p>
+            </div>
+            
+        </body>
+    </text>
+</TEI>
