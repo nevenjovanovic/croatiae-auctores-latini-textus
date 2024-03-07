@@ -423,7 +423,7 @@ for $n in ft:search($croalabro:db, $words , map {
   "mode": "any word"
   })
 let $path := db:path($n)
-let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation[1]/*:date[1]/@period
 let $title := string-join($n/ancestor::*:div/*:head, " > ")
 let $marked := ft:mark($n[. contains text { $words } any word ])
 order by $date , $path
