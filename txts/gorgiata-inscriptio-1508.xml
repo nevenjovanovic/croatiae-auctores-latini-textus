@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc xml:id="gorgiata-inscriptio-1508">
+         <titleStmt>
+            <title>Inscriptio in templo S. Francisci (1508), versio electronica</title>
+            <author ref="http://www.wikidata.org/entity/Q124733189">
+               <persName xml:lang="hr">Gorgiata Philochristus, Sigismundus</persName>
+               <date>1463-1520</date>
+            </author>
+            <editor xml:id="TG">
+               <persName>
+                  <ref type="viaf" target="http://viaf.org/viaf/305564801">Tamara Gović</ref>
+               </persName>
+            </editor>
+            <editor xml:id="NJ">
+               <persName>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </editor>
+            <respStmt ref="http://www.wikidata.org/entity/Q114878204">
+               <resp>Hanc editionem electronicam curavit</resp>
+               <persName>
+                  <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+                    Digitalizat dijela kasnijeg znanstvenog izdanja (2004).
+                </edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>elektronička verzija: Digitalizacija hrvatskih latinista, znanstveni projekt na
+                    <orgName>
+                  <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
+               </orgName>, <placeName ref="3186886">Zagreb</placeName> Hrvatska. <date when="2024-03">ožujka 2024</date>
+            </p><p ana="licence">
+               <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+               Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+               was added on March 10, 2024. </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
+            <bibl>
+               Gović, Tamara. 2004. Epigrafski Spomenici u Dubrovniku (Dubrovnik: Biskupski ordinarijat Dubrovnik)
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl xml:lang="hrv" resp="#NJ">
+            <p>
+               Uveo mala slova.
+               Ispravio rastavljanje riječi.
+               Razrješenja kratica nisu posebno naznačavana.
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat" xml:lang="hrv">latinski</language>
+         </langUsage>
+         <creation>
+            <date notAfter="1508" period="15xx_1_third">1508</date>
+            <placeName ref="http://www.wikidata.org/entity/Q1722">Dubrovnik</placeName>
+            <placeName ref="http://www.wikidata.org/entity/Q3509032">crkva Sv. Franje u Dubrovniku</placeName>
+         </creation>
+         <textClass>
+            <keywords scheme="typus">
+               <term>poesis</term>
+            </keywords>
+            <keywords scheme="aetas">
+               <term>Litterae renatae (1400-1600)</term>
+               <term>Saeculum 16 (1501-1600)</term>
+               <term>1501-1550</term>
+            </keywords>
+            <keywords scheme="genre">
+               <term>poesis - inscriptio</term>
+               <term>poesis - epigramma</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <persName>
+               <ref type="viaf" target="6913774">Neven Jovanović</ref>
+            </persName>
+            <date>2024-03-10</date>
+                Prva verzija za CroALa.
+            </change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="poesis" xml:lang="la">
+      <body>
+         <div type="poesis-inscriptio" met="elegiacum">
+            <l>Baionum soboles Perusinaque quem penes omnis</l>
+            <l>regula lustrandae <sic>relligionis</sic> erat</l>
+            <l>qui docuit populos euangelista beatus</l>
+            <l>Rhacusiam moriens consecrat hospes humum</l>
+            <l>cumque piis precibus passim miracula praestet</l>
+            <l>dat prope <sic>relliquias</sic> uberiora suas</l>
+            
+            <closer>Sigismundus Georgius benemerenti posuit <num value="1508">MDVIII</num></closer>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

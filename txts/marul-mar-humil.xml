@@ -7,17 +7,21 @@
                <persName xml:lang="hr">Marulić, Marko</persName>
                <date>1450-1524</date>
             </author>
-            <editor>
-               <persName>
-                  <ref>Branimir Glavičić</ref>
-               </persName>
-            </editor>
-            <respStmt>
-               <resp>Hanc editionem electronicam curavit</resp>
-               <persName>
-                  <ref type="viaf" target="6913774">Neven Jovanović</ref>
-               </persName>
-            </respStmt>
+          
+          <author ref="http://www.wikidata.org/entity/Q41556868" ana="paratext">
+           <persName xml:lang="it">Consorti, Francesco</persName>
+          </author>
+          <editor ref="https://viaf.org/viaf/71410589/">
+           <persName xml:id="BG">
+            <ref type="viaf" target="71410589">Branimir Glavičić</ref>
+           </persName>
+          </editor>
+          <respStmt>
+           <resp>Hanc editionem electronicam curavit</resp>
+           <persName xml:id="NJ">
+            <ref type="wikidata" target="http://www.wikidata.org/entity/Q114878204">Neven Jovanović</ref>
+           </persName>
+          </respStmt>
             <respStmt>
                <resp>Textum electronice descripsit</resp>
                <persName xml:id="IK">Iva Kraljević</persName>
@@ -35,10 +39,17 @@
                   <ref type="viaf" target="124389134">Filozofskom fakultetu Sveučilišta u Zagrebu</ref>
                </orgName>, <placeName ref="3186886">Zagreb</placeName>
     Hrvatska.  <date when="2009-11">Studeni 2009</date>.</p>
+          <p ana="licence">
+           <ptr target="https://creativecommons.org/publicdomain/zero/1.0/"/> The Creative
+           Commons CC0 1.0 DEED CC0 1.0 Universal Licence applies to this document. The licence
+           was added on March 10, 2024. </p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="repo" ana="digital">Digitalna verzija: CroALa</bibl>
             <bibl>Marulić, Marko: O poniznosti i slavi Kristovoj, prir. Branimir Glavičić, Split: Književni krug (1989).</bibl>
+          <bibl>De humilitate et gloria Christi Marci Marvli opvs.
+           Impressit Venetiis Bernardinus de Vitalibus Venetus, 
+           MDXIX, Die XX. Iulij.</bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -60,6 +71,7 @@
          <textClass>
             <keywords scheme="typus">
                <term>prosa</term>
+             <term>paratextus prosaici</term>
             </keywords>
             <keywords scheme="aetas">
                <term>Litterae renatae (1400-1600)</term>
@@ -68,10 +80,19 @@
             </keywords>
             <keywords scheme="genre">
                <term>prosa oratio - tractatus</term>
+             <term>prosa oratio - paratextus</term>
+             <term>prosa oratio - epistula</term>
             </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
+       <change>
+        <persName>
+         <ref type="viaf" target="6913774">Neven Jovanović</ref>
+        </persName>
+        <date>2024-03-10</date>
+        Dodao paratekst, ažurirao zaglavlje.
+       </change>
          <change>
             <persName>
                <ref type="viaf" target="6913774">Neven Jovanović</ref>
@@ -7802,10 +7823,18 @@
             </div>
          </div>
       </body>
-      <back>
-         <docImprint> Impressit Venetiis Bernardinus de Vitalibus Venetus <date when="1519-07-20">anno
-     Domini MDXIX, die XX. Iulii.</date>
-         </docImprint>
-      </back>
+  <back>
+   <div type="prosa-impressum">
+    <p>Impressit Venetiis Bernardinus de Vitalibus Venetus <date when="1519-07-20">anno Domini <num
+       value="1519">MDXIX</num>, die <num value="20">XX.</num> Iulii.</date></p>
+   </div>
+   <div type="prosa-errata">
+    <p>Errata | quae ab archetipo in hoc opusculo ego <sic>praesbiter</sic> Franciscus Lucensis
+     cantor ecclesiae <abbr>S.</abbr> Marci deuiare deprehendi | sic emendanda sunt.</p>
+
+    <p>In quaternione a.</p>
+    <gap reason="editorial" resp="#NJ"/>
+   </div>
+  </back>
    </text>
 </TEI>

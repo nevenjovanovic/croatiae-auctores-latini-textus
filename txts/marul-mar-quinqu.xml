@@ -2,7 +2,7 @@
    <teiHeader>
       <fileDesc xml:id="marul-mar-quinqu">
          <titleStmt>
-            <title>Quinquaginta parabolae, versio electronica</title>
+            <title>Quinquaginta parabolae (ante 1517), versio electronica</title>
             <author ref="http://www.wikidata.org/entity/Q336571">
                <persName xml:lang="hr">Marulić, Marko</persName>
                <date>1450-1524</date>
@@ -51,7 +51,7 @@
             <language ident="lat" xml:lang="hrv">latinski</language>
          </langUsage>
          <creation>
-            <date when="1510" period="15xx_1_third">1510-1517</date>
+            <date notAfter="1517" period="15xx_1_third">1517</date>
          </creation>
          <textClass>
             <keywords scheme="typus">
@@ -1666,7 +1666,10 @@ tremore!</q>
          </div>
       </body>
       <back>
-         <div1 type="notes">
+         <div type="paratextus">
+            <p><ptr target="julianius-lucensis-paratextus-quinquaginta-1518.xml"/></p>
+         </div>
+         <div type="notes">
             <head>Notae</head>
             <note place="foot" xml:id="nd0e413" target="rd0e413">post conuiuendi punctum (.) in <abbr>KK</abbr>!</note>
             <note place="foot" xml:id="nd0e449" target="rd0e449">?</note>
@@ -1685,7 +1688,7 @@ corr. <abbr>KK</abbr>
 corr. ex remoratus </note>
             <note place="foot" xml:id="nd0e1107" target="rd0e1107">*corr. ex desyderant <abbr>KK</abbr>
             </note>
-         </div1>
+         </div>
       </back>
    </text>
 </TEI>
