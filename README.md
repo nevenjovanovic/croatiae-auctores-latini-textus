@@ -4,9 +4,9 @@
 
 TEI XML encoded Latin texts from the [Croatiae auctores Latini](https://croala.ffzg.unizg.hr) collection, freely available under a [CC-BY license](LICENSE.md).
 
-The files edited here are published as a [PhiloLogic](https://sites.google.com/site/philologic3/) collection [CroALa](croala.ffzg.unizg.hr). There is a [testing deployment](http://solr.ffzg.hr/philo4/croala0/) under PhiloLogic 4. 
+The files edited here are published as a [PhiloLogic 4](https://artfl-project.uchicago.edu/philologic4) collection [CroALa](http://solr.ffzg.hr/philo4/croala0/). 
 
-There is also a [BaseX](https://basex.org/) XML database (see an earlier analysis in [Quadrata rotundis](http://solr.ffzg.hr/dokuwiki/doku.php/z:crotyr-quadrata) paper). The XML db is published through own simple text publishing and searching system on the CroALa site; see the directories [croalabro](/scripts/croalabro) and [croalabro-xqm](/scripts/croalabro-xqm).
+There is also a [BaseX](https://basex.org/) XML database (see an earlier analysis in [Quadrata rotundis](http://solr.ffzg.hr/dokuwiki/doku.php/z:crotyr-quadrata) paper). The BaseX XML db of CroALa is published through own simple text publishing and searching system on the CroALa site: [CroALa CDB](http://croala.ffzg.unizg.hr/cdb/index). For XQuery scripts, see the directories [croalabro](/scripts/croalabro) and [croalabro-xqm](/scripts/croalabro-xqm).
 
 * Address of this Git repo: on [Github](https://github.com/nevenjovanovic/croatiae-auctores-latini-textus)
 
