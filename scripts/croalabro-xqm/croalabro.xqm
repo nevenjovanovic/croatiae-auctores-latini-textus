@@ -117,7 +117,7 @@ return element tr {
 
 declare function croalabro:tabulaoperum() {
 
-for $a in db:open($croalabro:db)//*:teiHeader/*:fileDesc/*:titleStmt/*:title[1]
+for $a in db:get($croalabro:db)//*:teiHeader/*:fileDesc/*:titleStmt/*:title[1]
 let $s := normalize-space($a)
 order by $s collation "?lang=hr"
 return element tr {
@@ -136,7 +136,7 @@ declare function croalabro:wordcount($docname){
 (: table of types, with doc counts :)
 
 declare function croalabro:tabulatyporum() {
-for $a in db:open($croalabro:db)//*:teiHeader//*:keywords[@scheme="typus"]/*:term
+for $a in db:get($croalabro:db)//*:teiHeader//*:keywords[@scheme="typus"]/*:term
 let $s := normalize-space($a)
 group by $s
 order by count($a) descending
@@ -149,7 +149,7 @@ return element tr {
 (: table of genres, with doc counts :)
 
 declare function croalabro:tabulagenerum() {
-for $a in db:open($croalabro:db)//*:teiHeader//*:keywords[@scheme="genre"]/*:term
+for $a in db:get($croalabro:db)//*:teiHeader//*:keywords[@scheme="genre"]/*:term
 let $s := normalize-space($a)
 group by $s
 order by $s
@@ -163,7 +163,7 @@ return element tr {
 
 declare function croalabro:dagenus($genus){
 let $result :=
-for $a in db:open($croalabro:db)//*:teiHeader//*:keywords[@scheme=("genre","typus")]/*:term[.=$genus]
+for $a in db:get($croalabro:db)//*:teiHeader//*:keywords[@scheme=("genre","typus")]/*:term[.=$genus]
 let $path := db:path($a)
 let $basepath := croalabro:basepath($path)
 return element tr {
@@ -179,7 +179,7 @@ return element r {
 (: table of periods with doc counts :)
 
 declare function croalabro:tabulatemporum(){
-for $a in db:open($croalabro:db)//*:teiHeader//*:creation/*:date
+for $a in db:get($croalabro:db)//*:teiHeader//*:creation/*:date
 let $s := $a/@period/string()
 group by $s
 order by $s
@@ -193,7 +193,7 @@ return element tr {
 
 declare function croalabro:daperiodum($period){
 let $result :=
-for $a in db:open($croalabro:db)//*:teiHeader//*:creation/*:date[@period=$period]
+for $a in db:get($croalabro:db)//*:teiHeader//*:creation/*:date[@period=$period]
 let $path := db:path($a)
 let $basepath := croalabro:basepath($path)
 return element tr {
@@ -213,7 +213,7 @@ declare function croalabro:titleauthor($path){
   return (
      element h4 { normalize-space($tstmt/*:fileDesc/*:titleStmt/*:title[1]) } ,
      $tstmt/*:fileDesc/*:titleStmt/*:author[1] ,
-     $tstmt/*:profileDesc[1]/*:creation/*:date[1]
+     $tstmt/*:profileDesc[1]/*:creation[1]/*:date[1]
 )
 };
 
@@ -252,7 +252,7 @@ declare function croalabro:quaere($word){
 for $n in ft:search($croalabro:db, $word )
 	let $path := db:path($n)
 	let $fragment := croalabro:textfrag($n)
-	let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period[1]
+	let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation[1]/*:date[1]/@period[1]
 	let $title := string-join($n/ancestor::*:div/*:head, " > ")
 	let $url :=  $croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html" || "#:~:text=" || replace($fragment, "\++", " ")
 order by $date , $path
@@ -310,7 +310,7 @@ for $n in ft:search($croalabro:db, $word , map {
   "fuzzy": true()
   })
 let $path := db:path($n)
-let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation[1]/*:date[1]/@period
 let $title := string-join($n/ancestor::*:div/*:head, " > ")
 let $marked := ft:mark($n[. contains text { $word } using fuzzy ])
 order by $date , $path
@@ -358,7 +358,7 @@ declare function croalabro:quaeresent($word){
 		  "unit": "sentence"}			
   })
 let $path := db:path($n)
-let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation[1]/*:date[1]/@period
 let $title := string-join($n/ancestor::*:div/*:head, " > ")
 let $marked := ft:mark($n[. contains text { $word } all words same sentence ])
 order by $date , $path
@@ -382,7 +382,7 @@ declare function croalabro:quaeredist($word, $dist){
   "distance": map { "max": $dist }
   })
 let $path := db:path($n)
-let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation[1]/*:date[1]/@period
 let $title := string-join($n/ancestor::*:div/*:head, " > ")
 let $marked := ft:mark($n[. contains text { $word } all words distance at most $dist words ])
 order by $date , $path
@@ -493,7 +493,7 @@ croalabro-html:trtodiv(
 (: search in a given period, use wildcards :)
 
 declare function croalabro:quaereperiod1($qpverbum, $period) {
-	for $n in db:get($croalabro:db)/*:TEI[*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period/string()=$period]/*:text//*[not(*)]
+	for $n in db:get($croalabro:db)/*:TEI[*:teiHeader/*:profileDesc[1]/*:creation[1]/*:date[1]/@period/string()=$period]/*:text//*[not(*)]
 	where ft:contains($n, $qpverbum, map { 'wildcards': true() })
 	let $path := db:path($n)
 	let $title := string-join($n/ancestor::*:div/*:head, " > ")
