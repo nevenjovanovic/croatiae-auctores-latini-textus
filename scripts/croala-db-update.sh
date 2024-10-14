@@ -8,6 +8,14 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
+# html u lokalni basex
+
+rsync -avzP -e /home/neven/Nextcloud/Repos/croatiae-auctores-latini-textus/html/*.html /home/neven/Applications/basex/webapp/static/croala-html/
+
+# html na croala
+
+rsync -avzP -e 'ssh -p 13322' /home/neven/Nextcloud/Repos/croatiae-auctores-latini-textus/html/*.html njovanov@pluton.ffzg.hr:/home/njovanov/croala-cdb/static/croala-html/
+
 echo "CroALa DB update: ažuriram bazu CroALa i radim sigurnosnu kopiju..."
 /home/neven/Applications/basex/bin/basex -c /home/neven/Nextcloud/Repos/croatiae-auctores-latini-textus/scripts/xq/croala-dbs-create-backup.bxs
 # echo "Provjeravam datum ažuriranja..."

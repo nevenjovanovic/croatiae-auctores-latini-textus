@@ -2917,6 +2917,8 @@ $Id$
           <elementSpec module="header" ident="profileDesc" mode="change">
             <content>
               <sequence>
+                <elementRef key="settingDesc" minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="particDesc" minOccurs="0" maxOccurs="unbounded"/>
                 <elementRef key="creation" minOccurs="1" maxOccurs="1"/>
                 <elementRef key="textClass" minOccurs="1" maxOccurs="1"/>
               </sequence>
