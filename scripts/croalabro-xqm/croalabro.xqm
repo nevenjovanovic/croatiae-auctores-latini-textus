@@ -252,7 +252,7 @@ declare function croalabro:quaere($word){
 for $n in ft:search($croalabro:db, $word )
 	let $path := db:path($n)
 	let $fragment := croalabro:textfrag($n)
-	let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period
+	let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation/*:date[1]/@period[1]
 	let $title := string-join($n/ancestor::*:div/*:head, " > ")
 	let $url :=  $croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html" || "#:~:text=" || replace($fragment, "\++", " ")
 order by $date , $path
