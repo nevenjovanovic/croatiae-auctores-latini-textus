@@ -84,6 +84,12 @@ declare
 { croalabro-html:link("tempora","Tempora") }
 </div>
 </div>
+<div class="row">
+<div  class="col text-center">
+  <!-- function here -->
+{ croalabro-html:link("metra","Metra") }
+</div>
+</div>
 { croalabro-html:footerserver() }
 </div>
 </body>

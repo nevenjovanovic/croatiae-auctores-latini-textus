@@ -206,6 +206,45 @@ return element r {
 }
 };
 
+(: table of meters with doc counts :)
+
+declare function croalabro:tabulametrorum(){
+for $a in db:get($croalabro:db)//*:div[@met]
+let $s := $a/@met/string()
+group by $s
+order by $s
+return element tr {
+
+  element td { croalabro-html:link( "metrum-q/" || $s , $s ) },
+  element td { croalabro-html:link("metrum/" || $s, count($a)) }
+
+}
+};
+
+(: for a meter provide doc count and list of doc names :)
+
+declare function croalabro:dametrum($metrum){
+
+let $result :=
+for $a in db:get($croalabro:db)//*:div[@met=$metrum]
+let $title := string($a/*:head)
+let $fragment := croalabro:textfrag($title)
+let $path := db:path($a)
+let $basepath := croalabro:basepath($path)
+let $date := db:get($croalabro:db, $path)//*:teiHeader/*:profileDesc[1]/*:creation[1]/*:date[1]/@period[1]
+order by $date
+return element tr {
+  element td { croalabro-html:link(($croalabro-config:croalaurl || $basepath || ".html"  || "#:~:text=" || replace($fragment, "\++", " ") ), $basepath) , " > ", $title }
+}
+return element r {
+  element span { $metrum },
+    element span { count($result) },
+    element span { $result }
+}
+
+};
+
+
 (: for search, return three fields: title, first author, creation date :)
 
 declare function croalabro:titleauthor($path){
@@ -535,6 +574,53 @@ croalabro-html:trtodiv2(
 			)
  )
 };
+
+(: search in a given metre, use wildcards :)
+
+declare function croalabro:quaeremetrum1($qmetverbum, $metrum) {
+	for $n in db:get($croalabro:db)//*:div[@met=$metrum]//*[not(*)]
+	where ft:contains($n, $qmetverbum, map { 'wildcards': true() })
+	let $path := db:path($n)
+	let $title := string-join($n/ancestor::*:div/*:head, " > ")
+	let $marked := ft:mark($n[text() contains text { $qmetverbum } using wildcards ])
+	order by $path
+return element tr { 
+element td {  
+croalabro-html:formathithead(
+croalabro-html:link(($croalabro-config:croalaurl || croalabro:basepath( $path ) || ".html"), croalabro:basepath($path))
+)
+},
+for $e in croalabro:titleauthor($path) return element td { $e } ,
+element td { $title },
+element td { $marked }
+}
+
+};
+
+declare function croalabro:metrum1found($qmetverbum, $metrum) {
+	let $q := croalabro:quaeremetrum1($qmetverbum, $metrum)
+	let $found := distinct-values($q//*:mark/string())
+	let $qcount := count($q)
+	return if ($qcount=0) then croalabro-html:zero2()
+	else (
+		element div {
+			attribute class { "row"},
+			element div {
+				attribute class { "col"},
+				element h4 {
+					attribute class { "text-center"},
+					( "Quaeris: " || $qmetverbum || " in metro " || $metrum ||
+						". Inventum: " || $qcount ||
+					". Formae: " || string-join($found, ", ") || ".")
+		}
+	}
+	},
+croalabro-html:trtodiv2(
+			element tr { $q }
+			)
+ )
+};
+
 
 (: search in a given genre, use wildcards :)
 
