@@ -44,6 +44,22 @@ declare variable $croalabro:periodi := map {
   "14xx_3_third": "saeculi XV tertia tertiarum (14xx_3_third)"
 };
 
+(: use a list to find Horatian meters in CroALa :)
+declare variable $croalabro:horatian := ("alcaicum",
+"alcmanicum",
+"archilochicum-quartum",
+"archilochicum-secundum",
+"asclepiadeum-primum",
+"asclepiadeum-quartum",
+"asclepiadeum-quintum",
+"asclepiadeum-secundum",
+"asclepiadeum-tertium",
+"hipponacteum",
+"sapphicum",
+"sapphicum-maius",
+"sapphicum-minus",
+"systema-alcmanicum");
+
 
 (: helper function -- db info :)
 declare function croalabro:infodb($dbname) {
@@ -243,6 +259,25 @@ return element r {
 }
 
 };
+
+(: table of Horatian lyric meters with doc counts :)
+
+declare function croalabro:tabulahoratiana(){
+for $a in db:get($croalabro:db)//*:div[@met=$croalabro:horatian]
+let $s := $a/@met/string()
+let $path := db:path($a)
+group by $s
+order by $s
+return element tr {
+
+  element td { croalabro-html:link( "metrum-q/" || $s , $s ) },
+  element td { croalabro-html:link( "metrum/" || $s, count($a)) },
+  element td { for $p in $path return croalabro:titleauthor($p) }
+
+}
+};
+
+
 
 
 (: for search, return three fields: title, first author, creation date :)
